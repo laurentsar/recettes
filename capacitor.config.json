@@ -2,5 +2,6 @@
   "appId": "com.laurent.recettes",
   "appName": "Recettes",
   "webDir": "www",
-  "android": { "allowMixedContent": true }
+  "android": { "allowMixedContent": true },
+  "plugins": { "CapacitorHttp": { "enabled": true } }
 }

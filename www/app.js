@@ -10,6 +10,27 @@ function saveEdits(){ localStorage.setItem('recetteEdits', JSON.stringify(edits)
 function mergeEdits(){ return BASE.map(r => edits[r.id] ? Object.assign({}, r, edits[r.id]) : r); }
 function refreshAll(){ ALL = mergeEdits(); buildCats(); renderDaily(); renderGrid(); }
 
+/* ---------- synchro OTA (pull du recipes.json publié) ---------- */
+const REMOTE_URL = 'https://raw.githubusercontent.com/laurentsar/recettes/master/www/data/recipes.json';
+let toastTimer;
+function toast(msg){ const t=document.getElementById('toast'); if(!t) return; t.textContent=msg; t.hidden=false; clearTimeout(toastTimer); toastTimer=setTimeout(()=>{t.hidden=true;},3000); }
+async function fetchRemoteText(){
+  try{ const r = await fetch(REMOTE_URL + '?t=' + Date.now(), { cache:'no-store' }); return r.ok ? await r.text() : null; }
+  catch(e){ return null; }
+}
+async function syncRemote(manual){
+  const btn=document.getElementById('sync-btn'); if(btn) btn.classList.add('spin');
+  const txt = await fetchRemoteText();
+  if(btn) btn.classList.remove('spin');
+  if(!txt){ if(manual) toast('Hors-ligne — synchro impossible'); return; }
+  if(txt === localStorage.getItem('recipesData')){ if(manual) toast('Déjà à jour ✓'); return; }
+  let d; try{ d=JSON.parse(txt); }catch(e){ if(manual) toast('Source invalide'); return; }
+  if(!d.recipes || !d.recipes.length){ if(manual) toast('Source vide'); return; }
+  localStorage.setItem('recipesData', txt);
+  BASE = d.recipes; refreshAll();
+  toast(`Recettes synchronisées (${BASE.length}) ✓`);
+}
+
 const $ = (s)=>document.querySelector(s);
 const elGrid=$('#grid'), elCats=$('#cats'), elStatus=$('#status'), elSearch=$('#search'),
       elDetail=$('#detail'), elSub=$('#hero-sub');
@@ -224,13 +245,18 @@ function resetEdit(id){
 /* ---------- init ---------- */
 let searchTimer;
 async function init(){
-  const data = await (await fetch('data/recipes.json')).json();
-  BASE = data.recipes || [];
+  const bundled = await (await fetch('data/recipes.json')).json();
+  let dataObj = bundled;
+  const cachedTxt = localStorage.getItem('recipesData');
+  if (cachedTxt){ try{ const c=JSON.parse(cachedTxt); if(c.recipes && c.recipes.length) dataObj=c; }catch(e){} }
+  BASE = dataObj.recipes || [];
   ALL = mergeEdits();
-  elSub.textContent = `${ALL.length} recettes · hors-ligne`;
+  elSub.textContent = `${ALL.length} recettes`;
   buildCats();
   renderDaily();
   renderGrid();
+  document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
+  syncRemote(false);
   elSearch.addEventListener('input', ()=>{
     clearTimeout(searchTimer);
     searchTimer = setTimeout(()=>{ state.q = elSearch.value; renderGrid(); }, 180);

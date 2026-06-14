@@ -11,6 +11,14 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 #hero{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
 #hero-title{font-size:1.5em;font-weight:800}
 #hero-sub{color:var(--muted);font-size:.85em}
+#sync-btn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.3em;cursor:pointer;padding:0}
+#sync-btn:active{transform:scale(.94)}
+#sync-btn.spin{animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 22px);transform:translateX(-50%);z-index:80;
+  background:#2a1d14;border:1px solid var(--line);color:var(--text);padding:11px 16px;border-radius:999px;
+  font-size:.9em;font-weight:600;box-shadow:0 6px 18px rgba(0,0,0,.45);max-width:90%}
+.toast[hidden]{display:none}
 #search{width:100%;background:var(--card);border:1px solid var(--line);color:var(--text);
   border-radius:12px;padding:11px 14px;font-size:1em;margin-bottom:10px}
 .chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
