@@ -1,9 +1,14 @@
 'use strict';
 
 let ALL = [];
+let BASE = [];
 let cats = [];
 let state = { q:'', cat:'all' };
 const favs = new Set(JSON.parse(localStorage.getItem('recetteFavs') || '[]'));
+let edits = JSON.parse(localStorage.getItem('recetteEdits') || '{}');
+function saveEdits(){ localStorage.setItem('recetteEdits', JSON.stringify(edits)); }
+function mergeEdits(){ return BASE.map(r => edits[r.id] ? Object.assign({}, r, edits[r.id]) : r); }
+function refreshAll(){ ALL = mergeEdits(); buildCats(); renderDaily(); renderGrid(); }
 
 const $ = (s)=>document.querySelector(s);
 const elGrid=$('#grid'), elCats=$('#cats'), elStatus=$('#status'), elSearch=$('#search'),
@@ -147,6 +152,7 @@ function openDetail(id){
   ].filter(Boolean).join('');
   elDetail.innerHTML = `
     <button class="d-back" aria-label="Retour">←</button>
+    <button class="d-edit" aria-label="Éditer">✏️</button>
     <button class="d-fav" aria-label="Favori">${isFav?'❤️':'🤍'}</button>
     <div class="d-hero">${hero}</div>
     <div class="d-body">
@@ -163,15 +169,64 @@ function openDetail(id){
     if (favs.has(r.id)) favs.delete(r.id); else favs.add(r.id);
     saveFavs(); e.currentTarget.textContent = favs.has(r.id)?'❤️':'🤍';
   });
+  elDetail.querySelector('.d-edit').addEventListener('click', ()=> openEdit(r.id));
   elDetail.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
 }
 function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; renderChips(); renderGrid(); }
+
+/* ---------- édition ---------- */
+const elEdit = $('#edit');
+const ev = (id)=>{ const e=document.getElementById(id); return e ? e.value : ''; };
+function field(label, inner){ return `<label class="ef"><span>${label}</span>${inner}</label>`; }
+function openEdit(id){
+  const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
+  const v = (s)=> esc(s==null ? '' : String(s));
+  elEdit.innerHTML = `
+    <div class="edit-head">
+      <button class="e-cancel">← Annuler</button>
+      <h2>Éditer la recette</h2>
+      <button class="e-save">Enregistrer</button>
+    </div>
+    <div class="edit-body">
+      ${field('Titre', `<input id="e-t" value="${v(r.t)}">`)}
+      ${field('Catégorie', `<input id="e-cat" value="${v(r.cat)}">`)}
+      <div class="ef-row">${field('Durée (min)', `<input id="e-min" type="number" min="0" value="${v(r.min)}">`)}${field('Portions', `<input id="e-serv" type="number" min="0" value="${v(r.serv)}">`)}</div>
+      ${field('Image (URL)', `<input id="e-img" value="${v(r.img)}">`)}
+      <div class="ef-row">${field('Source (URL)', `<input id="e-url" value="${v(r.url)}">`)}${field('Vidéo (URL)', `<input id="e-vid" value="${v(r.vid)}">`)}</div>
+      ${field('Description', `<textarea id="e-desc" rows="2">${v(r.desc)}</textarea>`)}
+      ${field('Ingrédients (un par ligne)', `<textarea id="e-ing" rows="9">${v((r.ing||[]).join('\n'))}</textarea>`)}
+      ${field('Préparation', `<textarea id="e-steps" rows="10">${v(r.steps)}</textarea>`)}
+      ${edits[id] ? `<button class="e-reset">↺ Rétablir la version d'origine</button>` : ''}
+    </div>`;
+  elEdit.hidden = false; document.body.style.overflow='hidden';
+  elEdit.querySelector('.e-cancel').addEventListener('click', closeEdit);
+  elEdit.querySelector('.e-save').addEventListener('click', ()=> saveEdit(id));
+  const rb = elEdit.querySelector('.e-reset'); if (rb) rb.addEventListener('click', ()=> resetEdit(id));
+}
+function closeEdit(){ elEdit.hidden = true; }
+function saveEdit(id){
+  const ing = ev('e-ing').split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+  edits[id] = {
+    t: ev('e-t').trim(), cat: ev('e-cat').trim(),
+    min: parseInt(ev('e-min'),10)||0, serv: parseInt(ev('e-serv'),10)||0,
+    img: ev('e-img').trim(), url: ev('e-url').trim(), vid: ev('e-vid').trim(),
+    desc: ev('e-desc').trim(), ing, steps: ev('e-steps').trim(),
+  };
+  saveEdits(); refreshAll();
+  elEdit.hidden = true; openDetail(id);
+}
+function resetEdit(id){
+  if (!confirm("Rétablir la version d'origine de cette recette ?")) return;
+  delete edits[id]; saveEdits(); refreshAll();
+  elEdit.hidden = true; openDetail(id);
+}
 
 /* ---------- init ---------- */
 let searchTimer;
 async function init(){
   const data = await (await fetch('data/recipes.json')).json();
-  ALL = data.recipes || [];
+  BASE = data.recipes || [];
+  ALL = mergeEdits();
   elSub.textContent = `${ALL.length} recettes · hors-ligne`;
   buildCats();
   renderDaily();
@@ -180,7 +235,11 @@ async function init(){
     clearTimeout(searchTimer);
     searchTimer = setTimeout(()=>{ state.q = elSearch.value; renderGrid(); }, 180);
   });
-  window.addEventListener('keydown', (e)=>{ if(e.key==='Escape' && !elDetail.hidden) closeDetail(); });
+  window.addEventListener('keydown', (e)=>{
+    if(e.key!=='Escape') return;
+    if(!elEdit.hidden) closeEdit();
+    else if(!elDetail.hidden) closeDetail();
+  });
   if ('serviceWorker' in navigator){ try{ navigator.serviceWorker.register('sw.js'); }catch(e){} }
 }
 init();
