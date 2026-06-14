@@ -1,4 +1,4 @@
-const CACHE = 'recettes-v1';
+const CACHE = 'recettes-v2';
 const SHELL = [
   './', './index.html', './styles.css', './app.js',
   './data/recipes.json', './manifest.webmanifest',
