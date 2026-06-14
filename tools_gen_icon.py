@@ -1,30 +1,41 @@
-import struct, zlib, math
-def png(path,S):
-    BG=(26,18,11); BG2=(36,24,17); PLATE=(58,40,28); FG=(224,122,63); WHITE=(243,233,223)
-    px=bytearray()
-    cx=cy=S/2
+import struct, zlib, math, os
+def lerp(a,b,t): return int(a+(b-a)*t)
+def render(S):
+    BG1=(239,138,74); BG2=(184,84,31); POT=(42,28,18); RIM=(243,233,223); STEAM=(255,247,238)
+    cx=0.5*S; px=bytearray(); waves=[(0.40,0.0),(0.50,1.6),(0.60,3.1)]
     for y in range(S):
         px.append(0)
         for x in range(S):
-            t=y/S
-            r=int(BG[0]+(BG2[0]-BG[0])*t); g=int(BG[1]+(BG2[1]-BG[1])*t); b=int(BG[2]+(BG2[2]-BG[2])*t)
-            # assiette (cercle) + anneau accent
-            d=math.hypot(x-cx,y-cy)
-            if d<=0.36*S: r,g,b=PLATE
-            if 0.34*S<=d<=0.37*S: r,g,b=FG
-            # fourchette (gauche) : manche + 3 dents
-            fx=0.40*S
-            if abs(x-fx)<0.018*S and 0.40*S<=y<=0.74*S: r,g,b=WHITE
-            for tx in (fx-0.05*S,fx,fx+0.05*S):
-                if abs(x-tx)<0.013*S and 0.26*S<=y<=0.40*S: r,g,b=WHITE
-            if 0.35*S<=y<=0.40*S and fx-0.06*S<=x<=fx+0.06*S: r,g,b=WHITE
-            # couteau (droite)
-            kx=0.60*S
-            if abs(x-kx)<0.02*S and 0.40*S<=y<=0.74*S: r,g,b=WHITE
-            if 0.26*S<=y<=0.40*S and kx-0.012*S<=x<=kx+(0.40*S-y)*0.10: r,g,b=WHITE
-            px+=bytes((r,g,b))
+            t=y/S; r,g,b=lerp(BG1[0],BG2[0],t),lerp(BG1[1],BG2[1],t),lerp(BG1[2],BG2[2],t)
+            fx,fy=x/S,y/S
+            if 0.17<=fy<=0.43:
+                for (x0,ph) in waves:
+                    wx=x0+0.024*math.sin(fy*26+ph)
+                    if abs(fx-wx)<0.016*(1.0-(0.43-fy)*0.6): r,g,b=STEAM
+            bx0,bx1,by0,by1=0.27*S,0.73*S,0.52*S,0.795*S; rb=0.06*S
+            inb=bx0<=x<=bx1 and by0<=y<=by1
+            if inb and y>by1-rb:
+                if x<bx0+rb and math.hypot(x-(bx0+rb),y-(by1-rb))>rb: inb=False
+                if x>bx1-rb and math.hypot(x-(bx1-rb),y-(by1-rb))>rb: inb=False
+            for hx in (0.255*S,0.745*S):
+                if math.hypot((x-hx)/(0.045*S),(y-0.63*S)/(0.055*S))<=1: inb=True
+            if inb: r,g,b=POT
+            if math.hypot((x-cx)/(0.265*S),(y-0.515*S)/(0.05*S))<=1: r,g,b=RIM
+            if math.hypot((x-cx)/(0.035*S),(y-0.45*S)/(0.04*S))<=1: r,g,b=RIM
+            px.extend((r,g,b))
     raw=bytes(px)
-    def ch(t,d): c=struct.pack('>I',len(d))+t+d; return c+struct.pack('>I',zlib.crc32(t+d)&0xffffffff)
-    open(path,'wb').write(b'\x89PNG\r\n\x1a\n'+ch(b'IHDR',struct.pack('>IIBBBBB',S,S,8,2,0,0,0))+ch(b'IDAT',zlib.compress(raw,9))+ch(b'IEND',b''))
-    print("écrit",path,S)
-png('www/img/icon-512.png',512); png('www/img/icon-192.png',192)
+    def ch(tp,d): c=struct.pack('>I',len(d))+tp+d; return c+struct.pack('>I',zlib.crc32(tp+d)&0xffffffff)
+    return b'\x89PNG\r\n\x1a\n'+ch(b'IHDR',struct.pack('>IIBBBBB',S,S,8,2,0,0,0))+ch(b'IDAT',zlib.compress(raw,9))+ch(b'IEND',b'')
+def w(path,S):
+    os.makedirs(os.path.dirname(path),exist_ok=True); open(path,'wb').write(render(S))
+# PWA
+w('www/img/icon-512.png',512); w('www/img/icon-192.png',192)
+# Android launcher (legacy + round) et foreground (adaptatif)
+A='android/app/src/main/res'
+leg={'mdpi':48,'hdpi':72,'xhdpi':96,'xxhdpi':144,'xxxhdpi':192}
+fg={'mdpi':108,'hdpi':162,'xhdpi':216,'xxhdpi':324,'xxxhdpi':432}
+for d,s in leg.items():
+    w(f'{A}/mipmap-{d}/ic_launcher.png',s); w(f'{A}/mipmap-{d}/ic_launcher_round.png',s)
+for d,s in fg.items():
+    w(f'{A}/mipmap-{d}/ic_launcher_foreground.png',s)
+print("icônes générées (PWA + Android toutes densités)")
