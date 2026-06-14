@@ -19,6 +19,16 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
   background:#2a1d14;border:1px solid var(--line);color:var(--text);padding:11px 16px;border-radius:999px;
   font-size:.9em;font-weight:600;box-shadow:0 6px 18px rgba(0,0,0,.45);max-width:90%}
 .toast[hidden]{display:none}
+
+/* sélecteur d'ingrédient */
+.ing-chip.active{background:linear-gradient(135deg,#e0a13f,#b8721f);border-color:transparent;color:#fff}
+.ip-search{position:sticky;top:0;padding:12px 14px;background:var(--bg2);border-bottom:1px solid var(--line);z-index:1}
+.ip-search input{width:100%;background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:10px 12px;font-size:1em}
+.ip-list{padding:10px 12px calc(env(safe-area-inset-bottom) + 30px);max-width:760px;margin:0 auto;
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.iprow{display:flex;align-items:center;justify-content:space-between;gap:8px;background:var(--card);border:1px solid var(--line);
+  color:var(--text);border-radius:10px;padding:11px 13px;cursor:pointer;font-size:.95em;font-weight:600;text-align:left}
+.ipn{flex:0 0 auto;background:rgba(224,122,63,.18);border:1px solid #5a3520;color:var(--accent);border-radius:999px;padding:2px 8px;font-size:.78em}
 #search{width:100%;background:var(--card);border:1px solid var(--line);color:var(--text);
   border-radius:12px;padding:11px 14px;font-size:1em;margin-bottom:10px}
 .chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}

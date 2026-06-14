@@ -3,12 +3,12 @@
 let ALL = [];
 let BASE = [];
 let cats = [];
-let state = { q:'', cat:'all' };
+let state = { q:'', cat:'all', ing:null };
 const favs = new Set(JSON.parse(localStorage.getItem('recetteFavs') || '[]'));
 let edits = JSON.parse(localStorage.getItem('recetteEdits') || '{}');
 function saveEdits(){ localStorage.setItem('recetteEdits', JSON.stringify(edits)); }
 function mergeEdits(){ return BASE.map(r => edits[r.id] ? Object.assign({}, r, edits[r.id]) : r); }
-function refreshAll(){ ALL = mergeEdits(); buildCats(); renderDaily(); renderGrid(); }
+function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderGrid(); }
 
 /* ---------- synchro OTA (pull du recipes.json publié) ---------- */
 const REMOTE_URL = 'https://raw.githubusercontent.com/laurentsar/recettes/master/www/data/recipes.json';
@@ -92,12 +92,38 @@ function renderDaily(){
   el.querySelector('.daily').addEventListener('click', ()=> openDetail(r.id));
 }
 
+/* ---------- ingrédients ---------- */
+const INGR = [
+'tomate','courgette','aubergine','poivron','concombre','oignon','ail','echalote','carotte','pomme de terre','pommes de terre','patate','poireau','courge','potiron','butternut','citrouille','brocoli','chou-fleur','chou','epinard','blette','salade','laitue','endive','radis','navet','betterave','panais','celeri','fenouil','artichaut','asperge','haricot','petit pois','feve','lentille','pois chiche','mais','champignon','olive','avocat','cornichon','piment','gingembre',
+'pomme','poire','banane','orange','citron','pamplemousse','fraise','framboise','cerise','abricot','peche','nectarine','prune','raisin','melon','pasteque','ananas','mangue','kiwi','figue','coing','rhubarbe','myrtille','cassis','groseille','mure','datte','pruneau','noix de coco',
+'poulet','dinde','canard','boeuf','veau','porc','agneau','mouton','lapin','jambon','lardon','lard','bacon','saucisse','chorizo','merguez','steak','escalope','magret','gigot','viande hachee',
+'saumon','thon','cabillaud','morue','colin','dorade','truite','sardine','maquereau','crevette','gambas','moule','huitre','calamar','poulpe','crabe','homard','saint-jacques','surimi','anchois',
+'oeuf','lait','creme','creme fraiche','beurre','fromage','gruyere','emmental','parmesan','mozzarella','feta','chevre','ricotta','mascarpone','comte','cheddar','yaourt','fromage blanc','lait de coco',
+'riz','pates','spaghetti','semoule','boulgour','quinoa','farine','pain','polenta','gnocchi','couscous','nouilles','sucre','miel','chocolat','cacao','vanille','levure','maizena','sel','poivre','huile','huile d olive','vinaigre','moutarde','sauce soja','mayonnaise','ketchup','bouillon','concentre de tomate',
+'persil','coriandre','basilic','menthe','thym','romarin','laurier','ciboulette','estragon','aneth','origan','curcuma','cumin','paprika','curry','cannelle','muscade','girofle','safran','herbes de provence',
+'noix','noisette','amande','pistache','cacahuete','pignon','sesame',
+];
+const flat = (s)=> norm(s).replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
+function ensureIW(r){ if(!r._il){ r._il = flat((r.ing||[]).join(' ')); r._iw = r._il.split(' ').filter(Boolean); } }
+function matchKw(r, kw){
+  ensureIW(r);
+  if (kw.indexOf(' ')>=0 || kw.indexOf('-')>=0){ return (' '+r._il+' ').indexOf(' '+flat(kw)+' ')>=0; }
+  return r._iw.some(w => w===kw || w===kw+'s' || w===kw+'x' || (kw.length>=4 && w.startsWith(kw)));
+}
+let ingIndex = [];
+function buildIngredientIndex(){
+  ingIndex = INGR.map(kw=>({kw, n: ALL.reduce((a,r)=> a + (matchKw(r,kw)?1:0), 0)}))
+    .filter(x=>x.n>0)
+    .sort((a,b)=> b.n - a.n || a.kw.localeCompare(b.kw));
+}
+
 /* ---------- filtres ---------- */
 function filtered(){
   const q = norm(state.q.trim());
   return ALL.filter(r=>{
     if (state.cat==='fav'){ if(!favs.has(r.id)) return false; }
     else if (state.cat!=='all'){ if(r.cat!==state.cat) return false; }
+    if (state.ing && !matchKw(r, state.ing)) return false;
     if (!q) return true;
     if (norm(r.t).includes(q)) return true;
     if (norm(r.cat).includes(q)) return true;
@@ -114,12 +140,43 @@ function buildCats(){
 }
 function renderChips(){
   const chip=(id,label)=>`<button class="chip ${state.cat===id?'active':''}" data-cat="${esc(id)}">${esc(label)}</button>`;
-  let html = chip('all','Tout');
+  const ingLabel = state.ing ? `🥕 ${cap(state.ing)} ✕` : '🥕 Ingrédient';
+  let html = `<button class="chip ing-chip ${state.ing?'active':''}" data-act="ing">${esc(ingLabel)}</button>`;
+  html += chip('all','Tout');
   if (favs.size) html += chip('fav','❤️ Favoris');
   html += cats.map(c=>chip(c,c)).join('');
   elCats.innerHTML = html;
-  elCats.querySelectorAll('.chip').forEach(b=> b.addEventListener('click',()=>{ state.cat=b.dataset.cat; renderChips(); renderGrid(); }));
+  elCats.querySelectorAll('.chip[data-cat]').forEach(b=> b.addEventListener('click',()=>{ state.cat=b.dataset.cat; renderChips(); renderGrid(); }));
+  elCats.querySelector('.ing-chip').addEventListener('click', ()=>{
+    if (state.ing){ state.ing=null; renderChips(); renderGrid(); } else openIngPick();
+  });
 }
+
+/* ---------- sélecteur d'ingrédient ---------- */
+function openIngPick(){
+  const el = document.getElementById('ingpick');
+  el.innerHTML = `
+    <div class="edit-head"><button class="ip-close">← Fermer</button><h2>Choisir un ingrédient</h2><span style="width:70px"></span></div>
+    <div class="ip-search"><input id="ip-q" type="search" placeholder="Filtrer les ingrédients…" autocomplete="off"></div>
+    <div class="ip-list" id="ip-list"></div>`;
+  el.hidden = false; document.body.style.overflow='hidden';
+  const list = document.getElementById('ip-list');
+  const draw = (q='')=>{
+    const nq = norm(q);
+    const items = ingIndex.filter(x=> !nq || norm(x.kw).includes(nq));
+    list.innerHTML = items.length ? items.map(x=>
+      `<button class="iprow" data-kw="${esc(x.kw)}"><span>${esc(cap(x.kw))}</span><span class="ipn">${x.n}</span></button>`).join('')
+      : '<div class="status">Aucun ingrédient</div>';
+    list.querySelectorAll('.iprow').forEach(b=> b.addEventListener('click', ()=>{
+      state.ing = b.dataset.kw; state.cat = 'all';
+      closeIngPick(); renderChips(); renderGrid();
+    }));
+  };
+  draw();
+  document.getElementById('ip-q').addEventListener('input', e=> draw(e.target.value));
+  el.querySelector('.ip-close').addEventListener('click', closeIngPick);
+}
+function closeIngPick(){ document.getElementById('ingpick').hidden = true; document.body.style.overflow=''; }
 
 /* ---------- grille ---------- */
 function card(r){
@@ -251,6 +308,7 @@ async function init(){
   if (cachedTxt){ try{ const c=JSON.parse(cachedTxt); if(c.recipes && c.recipes.length) dataObj=c; }catch(e){} }
   BASE = dataObj.recipes || [];
   ALL = mergeEdits();
+  buildIngredientIndex();
   elSub.textContent = `${ALL.length} recettes`;
   buildCats();
   renderDaily();
@@ -263,7 +321,9 @@ async function init(){
   });
   window.addEventListener('keydown', (e)=>{
     if(e.key!=='Escape') return;
-    if(!elEdit.hidden) closeEdit();
+    const ip=document.getElementById('ingpick');
+    if(ip && !ip.hidden) closeIngPick();
+    else if(!elEdit.hidden) closeEdit();
     else if(!elDetail.hidden) closeDetail();
   });
   if ('serviceWorker' in navigator){ try{ navigator.serviceWorker.register('sw.js'); }catch(e){} }
