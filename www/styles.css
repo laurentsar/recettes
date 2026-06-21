@@ -212,3 +212,33 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
   background:rgba(124,179,66,.12);border-radius:8px;border-left:4px solid #7cb342}
 .imp-save{padding:15px;background:linear-gradient(135deg,var(--accent),var(--accent2));
   color:#fff;border:none;border-radius:12px;font-size:1em;font-weight:700;cursor:pointer;margin-top:6px}
+
+/* === v2.1 : bouton photos, filtre multi-catégories, sélecteur multi === */
+#photos-btn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.15em;cursor:pointer;padding:0}
+#photos-btn:active{transform:scale(.94)}
+#photos-btn.spin{animation:spin 1s linear infinite}
+
+/* filtre catégories multi-choix (menu déroulant) */
+.cat-multi{position:relative;flex:1;min-width:0}
+#cat-btn{width:100%;text-align:left;overflow:hidden;text-overflow:ellipsis}
+.cat-panel{position:absolute;z-index:80;top:calc(100% + 6px);left:0;right:0;max-height:52vh;overflow:auto;
+  background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:8px;
+  box-shadow:0 8px 24px rgba(0,0,0,.45);display:flex;flex-direction:column;gap:2px}
+.cat-panel[hidden]{display:none}
+.cat-clear{align-self:flex-start;background:var(--card);border:1px solid var(--line);color:var(--muted);
+  border-radius:999px;padding:5px 12px;font-size:.8em;font-weight:600;cursor:pointer;margin-bottom:4px}
+.catopt{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:10px;cursor:pointer;color:var(--text);font-size:.92em}
+.catopt:active{background:var(--card)}
+.catopt input{width:18px;height:18px;flex:0 0 auto;accent-color:var(--accent);padding:0}
+.catopt span:first-of-type{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.catn{color:var(--muted);font-size:.85em;flex:0 0 auto}
+.catopt-empty{color:var(--muted);padding:10px;text-align:center}
+
+/* sélecteur multi-catégories sur la fiche */
+.cpm-list{display:flex;flex-direction:column;gap:2px;max-height:46vh;overflow:auto}
+.cpm-chk{display:flex;align-items:center;gap:10px;padding:9px 8px;border-radius:10px;cursor:pointer;color:var(--text);font-size:.95em}
+.cpm-chk:active{background:var(--card)}
+.cpm-chk input{width:18px;height:18px;flex:0 0 auto;accent-color:var(--accent);padding:0}
+.cpm-chk span:first-of-type{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cpm-n{color:var(--muted);font-size:.85em;flex:0 0 auto}
+.cpm-empty{color:var(--muted);padding:10px;text-align:center}

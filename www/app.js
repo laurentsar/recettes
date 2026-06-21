@@ -1,10 +1,13 @@
 'use strict';
 
+const APP_VERSION = '2.1';
+
 let ALL = [];
 let BASE = [];
 let cats = [];
 let catCount = {};
-let state = { q:'', cat:'all', ing:null };
+// state.cats = liste des catégories cochées dans le filtre (vide = toutes) ; state.fav = filtre favoris.
+let state = { q:'', cats:[], fav:false, ing:null };
 const favs = new Set(JSON.parse(localStorage.getItem('recetteFavs') || '[]'));
 let edits = JSON.parse(localStorage.getItem('recetteEdits') || '{}');
 let imports = JSON.parse(localStorage.getItem('recetteImports') || '[]');
@@ -36,6 +39,43 @@ async function syncRemote(manual){
   localStorage.setItem('recipesData', txt);
   BASE = d.recipes; refreshAll();
   toast(`Recettes synchronisées (${BASE.length}) ✓`);
+}
+
+/* ---------- récupération photo + titre depuis le lien de la recette ---------- */
+function decodeEntities(s){ if(!s) return ''; const t=document.createElement('textarea'); t.innerHTML=s; return t.value; }
+async function fetchMetaFromUrl(url){
+  try{
+    const r = await fetch(url, { cache:'no-store' });
+    if(!r.ok) return {};
+    const html = await r.text();
+    const pick = re => { const m = html.match(re); return m ? m[1] : ''; };
+    const img = pick(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
+             || pick(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i)
+             || pick(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i);
+    let title = pick(/<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)["']/i)
+             || pick(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:title["']/i)
+             || pick(/<title[^>]*>([^<]+)<\/title>/i);
+    return { img: (img||'').trim(), title: decodeEntities(title).trim() };
+  }catch(e){ return {}; }
+}
+// Récupère, pour les recettes ayant un lien mais SANS photo, l'image og:image et rajuste le titre (og:title).
+async function fillFromSources(){
+  const targets = ALL.filter(r => r.url && !r.img);
+  if(!targets.length){ toast('Aucune photo manquante 🎉'); return; }
+  const btn=document.getElementById('photos-btn'); if(btn) btn.classList.add('spin');
+  let okImg=0, okTitle=0;
+  for(let i=0;i<targets.length;i++){
+    const r = targets[i];
+    toast(`Récupération… ${i+1}/${targets.length}`);
+    const meta = await fetchMetaFromUrl(r.url);
+    const patch = {};
+    if(meta.img){ patch.img = meta.img; okImg++; }
+    if(meta.title && meta.title.length>=3){ patch.t = meta.title; okTitle++; }
+    if(Object.keys(patch).length) edits[r.id] = Object.assign({}, edits[r.id]||{}, patch);
+  }
+  if(btn) btn.classList.remove('spin');
+  saveEdits(); refreshAll();
+  toast(`✓ ${okImg} photo(s) · ${okTitle} titre(s) mis à jour`);
 }
 
 const $ = (s)=>document.querySelector(s);
@@ -128,8 +168,8 @@ function buildIngredientIndex(){
 function filtered(){
   const q = norm(state.q.trim());
   return ALL.filter(r=>{
-    if (state.cat==='fav'){ if(!favs.has(r.id)) return false; }
-    else if (state.cat!=='all'){ if(r.cat!==state.cat) return false; }
+    if (state.fav && !favs.has(r.id)) return false;
+    if (state.cats.length){ const cl = catList(r); if(!state.cats.some(c=> cl.includes(c))) return false; }
     if (state.ing && !matchKw(r, state.ing)) return false;
     if (!q) return true;
     if (norm(r.t).includes(q)) return true;
@@ -139,25 +179,57 @@ function filtered(){
 }
 
 /* ---------- catégories ---------- */
+// Une recette peut avoir plusieurs catégories, stockées dans r.cat séparées par des virgules.
+function catList(r){
+  return String((r && r.cat) || '').split(',').map(s=>s.trim()).filter(Boolean);
+}
 function buildCats(){
   catCount={};
-  ALL.forEach(r=>{ const c=r.cat||'Sans catégorie'; catCount[c]=(catCount[c]||0)+1; });
+  ALL.forEach(r=>{ const cs=catList(r); (cs.length?cs:['Sans catégorie']).forEach(c=> catCount[c]=(catCount[c]||0)+1); });
   cats = Object.keys(catCount).sort((a,b)=> catCount[b]-catCount[a] || a.localeCompare(b));
   renderChips();
 }
 function renderChips(){
   const ingLabel = state.ing ? `🥕 ${cap(state.ing)} ✕` : '🥕 Ingrédient';
-  let opts = `<option value="all"${state.cat==='all'?' selected':''}>Toutes les catégories</option>`;
-  if (favs.size) opts += `<option value="fav"${state.cat==='fav'?' selected':''}>❤️ Favoris</option>`;
-  opts += cats.map(c=>`<option value="${esc(c)}"${state.cat===c?' selected':''}>${esc(c)} (${catCount[c]||0})</option>`).join('');
+  const nSel = state.cats.length + (state.fav ? 1 : 0);
+  const catLabel = nSel ? `🏷️ ${nSel} sélection${nSel>1?'s':''}` : '🏷️ Catégories';
+  let rows = '';
+  if (favs.size) rows += `<label class="catopt"><input type="checkbox" id="catopt-fav"${state.fav?' checked':''}><span>❤️ Favoris</span><span class="catn">(${favs.size})</span></label>`;
+  rows += cats.map(c=>`<label class="catopt"><input type="checkbox" class="catopt-c" value="${esc(c)}"${state.cats.includes(c)?' checked':''}><span>${esc(c)}</span><span class="catn">(${catCount[c]||0})</span></label>`).join('');
   elCats.innerHTML = `
     <button class="chip ing-chip ${state.ing?'active':''}" id="ing-filter-btn">${esc(ingLabel)}</button>
-    <div class="cat-select-wrap"><select id="cat-select">${opts}</select></div>`;
-  document.getElementById('cat-select').addEventListener('change', e=>{ state.cat=e.target.value; renderGrid(); });
+    <div class="cat-multi">
+      <button class="chip ${nSel?'active':''}" id="cat-btn">${esc(catLabel)} ▾</button>
+      <div class="cat-panel" id="cat-panel" hidden>
+        <button class="cat-clear" id="cat-clear">Tout afficher</button>
+        ${rows || '<div class="catopt-empty">Aucune catégorie</div>'}
+      </div>
+    </div>`;
+  const panel = document.getElementById('cat-panel');
+  document.getElementById('cat-btn').addEventListener('click', (e)=>{ e.stopPropagation(); panel.hidden = !panel.hidden; });
+  panel.addEventListener('click', e=> e.stopPropagation());
+  const favBox = document.getElementById('catopt-fav');
+  if (favBox) favBox.addEventListener('change', e=>{ state.fav = e.target.checked; renderGrid(); refreshCatLabel(); });
+  panel.querySelectorAll('.catopt-c').forEach(box=> box.addEventListener('change', ()=>{
+    state.cats = Array.from(panel.querySelectorAll('.catopt-c:checked')).map(i=>i.value);
+    renderGrid(); refreshCatLabel();
+  }));
+  document.getElementById('cat-clear').addEventListener('click', ()=>{
+    state.cats = []; state.fav = false; renderChips(); renderGrid();
+  });
   document.getElementById('ing-filter-btn').addEventListener('click', ()=>{
     if (state.ing){ state.ing=null; renderChips(); renderGrid(); } else openIngPick();
   });
 }
+// Met juste à jour le libellé du bouton catégories (sans reconstruire le panneau ouvert).
+function refreshCatLabel(){
+  const btn = document.getElementById('cat-btn'); if(!btn) return;
+  const nSel = state.cats.length + (state.fav ? 1 : 0);
+  btn.textContent = (nSel ? `🏷️ ${nSel} sélection${nSel>1?'s':''}` : '🏷️ Catégories') + ' ▾';
+  btn.classList.toggle('active', !!nSel);
+}
+// Ferme le panneau catégories si on clique ailleurs.
+document.addEventListener('click', ()=>{ const p=document.getElementById('cat-panel'); if(p && !p.hidden) p.hidden = true; });
 
 /* ---------- sélecteur d'ingrédient ---------- */
 function openIngPick(){
@@ -175,7 +247,7 @@ function openIngPick(){
       `<button class="iprow" data-kw="${esc(x.kw)}"><span>${esc(cap(x.kw))}</span><span class="ipn">${x.n}</span></button>`).join('')
       : '<div class="status">Aucun ingrédient</div>';
     list.querySelectorAll('.iprow').forEach(b=> b.addEventListener('click', ()=>{
-      state.ing = b.dataset.kw; state.cat = 'all';
+      state.ing = b.dataset.kw; state.cats = []; state.fav = false;
       closeIngPick(); renderChips(); renderGrid();
     }));
   };
@@ -188,30 +260,29 @@ function closeIngPick(){ document.getElementById('ingpick').hidden = true; docum
 /* ---------- ajustement rapide de catégorie ---------- */
 function openCatPick(id){
   const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
+  const current = catList(r);
   const el = document.getElementById('catpick');
-  const opts = cats.map(c=>`<option value="${esc(c)}"${r.cat===c?' selected':''}>${esc(c)} (${catCount[c]||0})</option>`).join('');
+  const boxes = cats.map(c=>`<label class="cpm-chk"><input type="checkbox" value="${esc(c)}"${current.includes(c)?' checked':''}><span>${esc(c)}</span><span class="cpm-n">(${catCount[c]||0})</span></label>`).join('');
   el.innerHTML = `
     <div class="cpm-backdrop"></div>
     <div class="cpm-box">
-      <div class="cpm-title">Catégorie de « ${esc(r.t)} »</div>
-      <select id="cpm-sel">${opts}</select>
-      <input id="cpm-new" type="text" placeholder="Ou saisir une nouvelle catégorie…" autocomplete="off">
+      <div class="cpm-title">Catégories de « ${esc(r.t)} »</div>
+      <div class="cpm-list">${boxes || '<div class="cpm-empty">Aucune catégorie existante</div>'}</div>
+      <input id="cpm-new" type="text" placeholder="Ajouter (plusieurs séparées par des virgules)…" autocomplete="off">
       <div class="cpm-btns">
         <button class="cpm-cancel">Annuler</button>
         <button class="cpm-save">Enregistrer</button>
       </div>
     </div>`;
   el.hidden = false;
-  const sel = document.getElementById('cpm-sel');
-  const inp = document.getElementById('cpm-new');
-  sel.addEventListener('change', ()=>{ inp.value = ''; });
-  inp.addEventListener('input', ()=>{ if(inp.value.trim()) sel.selectedIndex=-1; else{ const match=cats.indexOf(r.cat); if(match>=0) sel.selectedIndex=match; } });
   el.querySelector('.cpm-cancel').addEventListener('click', closeCatPick);
   el.querySelector('.cpm-backdrop').addEventListener('click', closeCatPick);
   el.querySelector('.cpm-save').addEventListener('click', ()=>{
-    const val = (inp.value.trim() || sel.value || '').trim();
-    if(!val){ closeCatPick(); return; }
-    edits[id] = Object.assign({}, edits[id]||{}, { cat: val });
+    const checked = Array.from(el.querySelectorAll('.cpm-list input:checked')).map(i=>i.value);
+    const typed = (document.getElementById('cpm-new').value||'').split(',').map(s=>s.trim()).filter(Boolean);
+    const seen = new Set(); const out = [];
+    checked.concat(typed).forEach(c=>{ const k=c.toLowerCase(); if(!seen.has(k)){ seen.add(k); out.push(c); } });
+    edits[id] = Object.assign({}, edits[id]||{}, { cat: out.join(', ') });
     saveEdits(); refreshAll(); closeCatPick(); openDetail(id);
   });
 }
@@ -229,7 +300,7 @@ function card(r){
 }
 function renderGrid(){
   const list = filtered();
-  elStatus.textContent = `${list.length} recette${list.length>1?'s':''}` + (state.cat==='fav'?' en favoris':'');
+  elStatus.textContent = `${list.length} recette${list.length>1?'s':''}` + (state.fav?' en favoris':'');
   elGrid.innerHTML = list.map(card).join('');
   elGrid.querySelectorAll('.rcard').forEach(c=> c.addEventListener('click',()=> openDetail(c.dataset.id)));
   window.scrollTo({top:0});
@@ -249,9 +320,9 @@ function openDetail(id){
   const hero = r.img
     ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph>🍲</div>'">`
     : `<div class="ph">🍲</div>`;
-  const catLabel = r.cat ? `${esc(r.cat)} ✏️` : '+ Catégorie';
+  const catLabel = catList(r).length ? `${esc(catList(r).join(' · '))} ✏️` : '+ Catégorie';
   const tags = [
-    `<button class="tag cat tag-cat-btn" title="${r.cat?'Modifier':'Ajouter'} la catégorie">${catLabel}</button>`,
+    `<button class="tag cat tag-cat-btn" title="${catList(r).length?'Modifier les catégories':'Ajouter une catégorie'}">${catLabel}</button>`,
     r.area?`<span class="tag">📍 ${esc(r.area)}</span>`:'',
     r.min?`<span class="tag">⏱️ ${r.min} min</span>`:'',
     r.serv?`<span class="tag">🍽️ ${r.serv} pers.</span>`:'',
@@ -474,7 +545,7 @@ function openEdit(id){
     </div>
     <div class="edit-body">
       ${field('Titre', `<input id="e-t" value="${v(r.t)}">`)}
-      ${field('Catégorie', `<input id="e-cat" list="e-cats-list" value="${v(r.cat)}" autocomplete="off" placeholder="Choisir ou saisir…"><datalist id="e-cats-list">${cats.map(c=>`<option value="${esc(c)}">`).join('')}</datalist>`)}
+      ${field('Catégories', `<input id="e-cat" list="e-cats-list" value="${v(r.cat)}" autocomplete="off" placeholder="Plusieurs séparées par des virgules…"><datalist id="e-cats-list">${cats.map(c=>`<option value="${esc(c)}">`).join('')}</datalist>`)}
       <div class="ef-row">${field('Durée (min)', `<input id="e-min" type="number" min="0" value="${v(r.min)}">`)}${field('Portions', `<input id="e-serv" type="number" min="0" value="${v(r.serv)}">`)}</div>
       ${field('Image (URL)', `<input id="e-img" value="${v(r.img)}">`)}
       <div class="ef-row">${field('Source (URL)', `<input id="e-url" value="${v(r.url)}">`)}${field('Vidéo (URL)', `<input id="e-vid" value="${v(r.vid)}">`)}</div>
@@ -814,12 +885,13 @@ async function init(){
   BASE = dataObj.recipes || [];
   ALL = mergeEdits();
   buildIngredientIndex();
-  elSub.textContent = `${ALL.length} recettes`;
+  elSub.textContent = `${ALL.length} recettes · v${APP_VERSION}`;
   buildCats();
   renderDaily();
   renderGrid();
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
   document.getElementById('import-btn').addEventListener('click', openImport);
+  document.getElementById('photos-btn').addEventListener('click', fillFromSources);
   syncRemote(false);
   elSearch.addEventListener('input', ()=>{
     clearTimeout(searchTimer);
