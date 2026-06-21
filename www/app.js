@@ -268,7 +268,8 @@ let cookSteps = [];
 const cookSynth = window.speechSynthesis || null;
 let cookRecog = null;
 let cookMicActive = false;
-let cookTtsBusy = false; // TTS en cours → empêche le redémarrage prématuré du micro
+let cookTtsBusy = false;
+let cookRecogGen = 0; // chaque session a un numéro unique ; les callbacks périmés sont ignorés
 
 function openCook(id){
   const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
@@ -330,8 +331,8 @@ function speakCookStep(){
   utt.lang = 'fr-FR';
   utt.rate = 0.9;
   if(cookMicActive){
-    // Suspendre le micro pendant la lecture pour éviter le feedback micro ← haut-parleur
     cookTtsBusy = true;
+    cookRecogGen++; // invalide les callbacks de l'ancienne session avant d'aborter
     if(cookRecog){ try{ cookRecog.abort(); }catch(e){} cookRecog = null; }
     const done = ()=>{ cookTtsBusy = false; if(cookMicActive) setTimeout(startCookMic, 350); };
     utt.onend = done;
@@ -346,25 +347,33 @@ function toggleCookMic(){ cookMicActive ? stopCookMic() : startCookMic(); }
 function startCookMic(){
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
   if(!SR){ toast('Reconnaissance vocale non disponible'); return; }
+  const gen = ++cookRecogGen; // identifiant unique de cette session
   if(cookRecog){ try{ cookRecog.abort(); }catch(e){} cookRecog = null; }
   const recog = new SR();
   recog.lang = 'fr-FR';
   recog.continuous = true;
   recog.interimResults = false;
   recog.onresult = (e)=>{
+    if(gen !== cookRecogGen) return; // session périmée, ignorer
     const t = e.results[e.results.length-1][0].transcript.trim().toLowerCase();
     handleVoiceCmd(t);
   };
   recog.onerror = (ev)=>{
+    if(gen !== cookRecogGen) return;
     if(ev.error==='not-allowed'||ev.error==='service-not-allowed'){
       stopCookMic(); toast('Micro non autorisé');
     } else if(cookMicActive && !cookTtsBusy){
       setTimeout(startCookMic, 600);
     }
   };
-  // onend : relancer uniquement si le micro est actif ET que le TTS n'a pas déjà pris la main
-  recog.onend = ()=>{ if(cookMicActive && !cookTtsBusy) setTimeout(startCookMic, 100); };
-  try{ recog.start(); } catch(e){ if(cookMicActive && !cookTtsBusy) setTimeout(startCookMic, 600); }
+  recog.onend = ()=>{
+    if(gen !== cookRecogGen) return; // une nouvelle session a déjà pris le relais
+    if(cookMicActive && !cookTtsBusy) setTimeout(startCookMic, 100);
+  };
+  try{ recog.start(); } catch(e){
+    if(gen !== cookRecogGen) return;
+    if(cookMicActive && !cookTtsBusy) setTimeout(startCookMic, 600);
+  }
   cookRecog = recog;
   cookMicActive = true;
   const btn = document.getElementById('cook-mic');
@@ -374,6 +383,7 @@ function startCookMic(){
 function stopCookMic(){
   cookMicActive = false;
   cookTtsBusy = false;
+  cookRecogGen++; // invalide tous les callbacks en attente d'un coup
   stopCookSpeech();
   if(cookRecog){ try{ cookRecog.abort(); }catch(e){} cookRecog = null; }
   const btn = document.getElementById('cook-mic');
