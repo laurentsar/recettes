@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.9';
+const APP_VERSION = '2.10';
 
 let ALL = [];
 let BASE = [];
@@ -159,7 +159,11 @@ function autoCategorize(){
     const push = c => { if(!have.has(c.toLowerCase())){ toAdd.push(c); have.add(c.toLowerCase()); } };
     // Légumes : feuille précise (Carotte…) + parent « Légumes »
     let anyVeg=false;
-    for (const [veg, kws] of Object.entries(VEGGIES)) if (kws.some(k=> hasWord(ingHay,k))){ push(veg); anyVeg=true; }
+    const ingHayChou = ingHay.replace(/chou(\s|-)?fleur/g,' '); // « chou » ne doit pas matcher « chou-fleur »
+    for (const [veg, kws] of Object.entries(VEGGIES)){
+      const hay = veg==='Chou' ? ingHayChou : ingHay;
+      if (kws.some(k=> hasWord(hay,k))){ push(veg); anyVeg=true; }
+    }
     if (anyVeg) push('Légumes');
     // Viande : feuille (Poulet…) + parent « Viande »
     let anyMeat=false;
@@ -1086,7 +1090,6 @@ async function init(){
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
   document.getElementById('import-btn').addEventListener('click', openImport);
   document.getElementById('photos-btn').addEventListener('click', fillFromSources);
-  document.getElementById('autocat-btn').addEventListener('click', autoCategorize);
   // Liens externes (source, vidéo) -> ouverture dans le navigateur du téléphone.
   document.addEventListener('click', (e)=>{
     const a = e.target.closest && e.target.closest('a[href]');
