@@ -56,6 +56,9 @@ for x in src:
         "steps": str(x.get("instructions") or "").strip(),
     })
 
-data = {"version": int(__import__("time").time()), "count": len(out), "recipes": out}
+# version = hash du contenu => le fichier ne change que si les recettes changent (pas de push inutile)
+import hashlib
+_h = hashlib.md5(json.dumps(out, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:12]
+data = {"version": _h, "count": len(out), "recipes": out}
 json.dump(data, open(os.path.normpath(OUT), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(f"OK : {len(out)} recettes -> {os.path.normpath(OUT)}  (avec image: {sum(1 for r in out if r['img'])})")
