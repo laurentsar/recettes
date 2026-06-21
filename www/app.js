@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.3';
+const APP_VERSION = '2.4';
 
 let ALL = [];
 let BASE = [];
@@ -85,10 +85,11 @@ function hasWord(hay, kw){
   return new RegExp('(^|[^a-z0-9])'+k+'s?([^a-z0-9]|$)').test(hay);
 }
 // Légumes DÉTAILLÉS : catégorie affichée -> variantes/orthographes (cherchées dans les ingrédients).
+// NB : aromates/condiments (ail, oignon, échalote, herbes, épices) EXCLUS volontairement
+// (présents dans presque toutes les recettes -> ne sont pas des "légumes" structurants).
 const VEGGIES = {
   'Carotte':['carotte'], 'Courgette':['courgette'], 'Tomate':['tomate'],
-  'Pomme de terre':['pomme de terre','patate'], 'Oignon':['oignon'], 'Ail':['ail'],
-  'Échalote':['echalote'], 'Poireau':['poireau'], 'Aubergine':['aubergine'],
+  'Pomme de terre':['pomme de terre','patate'], 'Poireau':['poireau'], 'Aubergine':['aubergine'],
   'Poivron':['poivron'], 'Champignon':['champignon','cepe','girolle'],
   'Brocoli':['brocoli'], 'Chou-fleur':['chou-fleur','chou fleur'], 'Chou':['chou','chou rouge','chou vert'],
   'Épinard':['epinard'], 'Haricot vert':['haricot vert'], 'Petit pois':['petit pois','petits pois'],
