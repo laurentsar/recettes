@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.2';
+const APP_VERSION = '2.3';
 
 let ALL = [];
 let BASE = [];
@@ -76,6 +76,69 @@ async function fillFromSources(){
   if(btn) btn.classList.remove('spin');
   saveEdits(); refreshAll();
   toast(`✓ ${okImg} photo(s) · ${okTitle} titre(s) mis à jour`);
+}
+
+/* ---------- auto-catégorisation par mots-clés ---------- */
+// Recherche par MOT ENTIER (gère le pluriel -s, évite "ail" dans "travail"). hay est déjà normalisé.
+function hasWord(hay, kw){
+  const k = norm(kw).replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  return new RegExp('(^|[^a-z0-9])'+k+'s?([^a-z0-9]|$)').test(hay);
+}
+// Légumes DÉTAILLÉS : catégorie affichée -> variantes/orthographes (cherchées dans les ingrédients).
+const VEGGIES = {
+  'Carotte':['carotte'], 'Courgette':['courgette'], 'Tomate':['tomate'],
+  'Pomme de terre':['pomme de terre','patate'], 'Oignon':['oignon'], 'Ail':['ail'],
+  'Échalote':['echalote'], 'Poireau':['poireau'], 'Aubergine':['aubergine'],
+  'Poivron':['poivron'], 'Champignon':['champignon','cepe','girolle'],
+  'Brocoli':['brocoli'], 'Chou-fleur':['chou-fleur','chou fleur'], 'Chou':['chou','chou rouge','chou vert'],
+  'Épinard':['epinard'], 'Haricot vert':['haricot vert'], 'Petit pois':['petit pois','petits pois'],
+  'Courge':['courge','potiron','butternut','potimarron'], 'Concombre':['concombre'],
+  'Céleri':['celeri'], 'Fenouil':['fenouil'], 'Artichaut':['artichaut'],
+  'Asperge':['asperge'], 'Betterave':['betterave'], 'Navet':['navet'],
+  'Radis':['radis'], 'Endive':['endive'], 'Blette':['blette','bette'],
+  'Avocat':['avocat'], 'Salade verte':['laitue','roquette','mache','batavia','scarole'],
+  'Lentille':['lentille'], 'Pois chiche':['pois chiche'],
+};
+const VIANDE_KW = ['boeuf','bœuf','porc','agneau','veau','poulet','dinde','canard','pintade','lapin','steak',
+  'saucisse','lardon','jambon','bacon','viande hachee','merguez','cotelette','roti','magret','escalope',
+  'chipolata','boudin','gigot','entrecote','bavette','charcuterie','chorizo'];
+const POISSON_KW = ['saumon','thon','cabillaud','morue','truite','sardine','maquereau','colin','dorade',
+  'poisson','merlu','hareng','crevette','moule','huitre','crabe','calamar','saint-jacques','gambas','fruits de mer'];
+const DESSERT_KW = ['chocolat','sucre','gateau','patisserie','biscuit','gaufre','mousse','flan','glace','caramel',
+  'vanille','meringue','tiramisu','fondant','brownie','cookie','madeleine','clafoutis','compote','confiture',
+  'miel','chantilly','beignet','panna cotta','crumble','sucre glace'];
+const ENTREE_KW = ['salade','soupe','veloute','potage','verrine','tartare','terrine','gaspacho','bruschetta','carpaccio','tapas','houmous','guacamole'];
+
+function autoCategorize(){
+  let added=0, touched=0;
+  ALL.forEach(r=>{
+    const ingHay  = norm((r.ing||[]).join('  '));                            // légumes : ingrédients seulement (précis)
+    const fullHay = norm([r.t||'', (r.ing||[]).join('  '), r.steps||''].join('  '));
+    const have = new Set(catList(r).map(c=>c.toLowerCase()));
+    const toAdd = [];
+    const push = c => { if(!have.has(c.toLowerCase())){ toAdd.push(c); have.add(c.toLowerCase()); } };
+    // Légumes détaillés
+    for (const [veg, kws] of Object.entries(VEGGIES)) if (kws.some(k=> hasWord(ingHay,k))) push(veg);
+    // Viande / Poisson (groupés)
+    if (VIANDE_KW.some(k=> hasWord(fullHay,k))) push('Viande');
+    if (POISSON_KW.some(k=> hasWord(fullHay,k))) push('Poisson');
+    // Type de plat (un seul : Dessert > Entrée > Plat par défaut)
+    if (!['dessert','entrée','entree','plat'].some(c=> have.has(c))){
+      let course = 'Plat';
+      if (DESSERT_KW.some(k=> hasWord(fullHay,k))) course='Dessert';
+      else if (ENTREE_KW.some(k=> hasWord(fullHay,k))) course='Entrée';
+      push(course);
+    }
+    if (toAdd.length){
+      const merged = catList(r).concat(toAdd);
+      const seen=new Set(); const out=[];
+      merged.forEach(c=>{ const k=c.toLowerCase(); if(!seen.has(k)){ seen.add(k); out.push(c); } });
+      edits[r.id] = Object.assign({}, edits[r.id]||{}, { cat: out.join(', ') });
+      added += toAdd.length; touched++;
+    }
+  });
+  saveEdits(); refreshAll();
+  toast(touched ? `🏷️ ${added} catégorie(s) ajoutée(s) · ${touched} recette(s)` : 'Aucune nouvelle catégorie');
 }
 
 const $ = (s)=>document.querySelector(s);
@@ -897,6 +960,7 @@ async function init(){
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
   document.getElementById('import-btn').addEventListener('click', openImport);
   document.getElementById('photos-btn').addEventListener('click', fillFromSources);
+  document.getElementById('autocat-btn').addEventListener('click', autoCategorize);
   // Liens externes (source, vidéo) -> ouverture dans le navigateur du téléphone.
   document.addEventListener('click', (e)=>{
     const a = e.target.closest && e.target.closest('a[href]');
