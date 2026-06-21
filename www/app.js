@@ -834,6 +834,39 @@ async function init(){
     else if(!elImport.hidden) closeImport();
     else if(!elDetail.hidden) closeDetail();
   });
+  setupAndroidBack();
   if ('serviceWorker' in navigator){ try{ navigator.serviceWorker.register('sw.js'); }catch(e){} }
 }
 init();
+
+/* ---------- bouton RETOUR Android : ferme l'écran du dessus au lieu de quitter l'appli ---------- */
+function setupAndroidBack(){
+  // Du plus prioritaire (modale au-dessus) au moins prioritaire (fiche).
+  const CLOSERS = [
+    ['catpick', closeCatPick],
+    ['ingpick', closeIngPick],
+    ['edit',    closeEdit],
+    ['import',  closeImport],
+    ['cook',    closeCook],
+    ['detail',  closeDetail],
+  ];
+  const isOpen   = id => { const el = document.getElementById(id); return !!el && !el.hidden; };
+  const anyOpen  = () => CLOSERS.some(([id]) => isOpen(id));
+  const topClose = () => { for (const [id, fn] of CLOSERS) if (isOpen(id)) return fn; return null; };
+  const hasTrap  = () => !!(history.state && history.state.alxBack);
+
+  // Bouton/geste RETOUR Android -> popstate : on ferme l'overlay du dessus.
+  window.addEventListener('popstate', () => {
+    const fn = topClose();
+    if (fn) fn();                                       // ferme l'écran visible
+    if (anyOpen()) history.pushState({ alxBack: 1 }, ''); // ré-arme pour l'écran suivant
+  });
+
+  // Pose un "piège" d'historique dès qu'un overlay s'ouvre ; le consomme quand tout est refermé
+  // (ex. via les boutons ← à l'écran), pour rester synchronisé sans toucher aux open/close.
+  const mo = new MutationObserver(() => {
+    if (anyOpen() && !hasTrap())      history.pushState({ alxBack: 1 }, '');
+    else if (!anyOpen() && hasTrap()) history.back();
+  });
+  CLOSERS.forEach(([id]) => { const el = document.getElementById(id); if (el) mo.observe(el, { attributes: true, attributeFilter: ['hidden'] }); });
+}

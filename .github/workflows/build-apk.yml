@@ -63,3 +63,4 @@ jobs:
           name: Recettes v${{ steps.version.outputs.version }}
           files: recettes-${{ steps.version.outputs.version }}.apk
           fail_on_unmatched_files: true
+          generate_release_notes: true
