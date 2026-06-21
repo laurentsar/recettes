@@ -316,8 +316,10 @@ function cookGoPrev(){
   if(cookStep > 0){ cookStep--; renderCookStep(); speakCookStep(); }
 }
 
-function speakCookStep(){
+function speakCookStep(force){
   if(!cookSynth) return;
+  // Ne pas lancer le TTS quand le micro écoute — il entendrait les haut-parleurs
+  if(cookMicActive && !force) return;
   stopCookSpeech();
   const utt = new SpeechSynthesisUtterance(cookSteps[cookStep]);
   utt.lang = 'fr-FR';
@@ -331,36 +333,53 @@ function toggleCookMic(){ cookMicActive ? stopCookMic() : startCookMic(); }
 function startCookMic(){
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
   if(!SR){ toast('Reconnaissance vocale non disponible'); return; }
-  cookRecog = new SR();
-  cookRecog.lang = 'fr-FR';
-  cookRecog.continuous = true;
-  cookRecog.interimResults = false;
-  cookRecog.onresult = (e)=>{
+  // Nettoyer l'instance précédente avant d'en créer une nouvelle
+  if(cookRecog){ try{ cookRecog.abort(); }catch(e){} cookRecog = null; }
+  const recog = new SR();
+  recog.lang = 'fr-FR';
+  recog.continuous = true;
+  recog.interimResults = false;
+  recog.onresult = (e)=>{
     const t = e.results[e.results.length-1][0].transcript.trim().toLowerCase();
     handleVoiceCmd(t);
   };
-  cookRecog.onerror = ()=> stopCookMic();
-  cookRecog.onend = ()=>{ if(cookMicActive) cookRecog.start(); };
-  cookRecog.start();
+  // Erreur permanente (permissions) → stop ; erreur transitoire → retry
+  recog.onerror = (ev)=>{
+    if(ev.error==='not-allowed'||ev.error==='service-not-allowed'){
+      stopCookMic(); toast('Micro non autorisé');
+    } else if(cookMicActive){
+      setTimeout(startCookMic, 600);
+    }
+  };
+  // onend crée toujours une NOUVELLE instance (l'ancienne est terminée)
+  recog.onend = ()=>{ if(cookMicActive) setTimeout(startCookMic, 100); };
+  try{ recog.start(); } catch(e){ if(cookMicActive) setTimeout(startCookMic, 600); }
+  cookRecog = recog;
   cookMicActive = true;
   const btn = document.getElementById('cook-mic');
   if(btn) btn.classList.add('active');
 }
 
 function stopCookMic(){
-  if(cookRecog){ cookRecog.abort(); cookRecog = null; }
+  // Mettre false AVANT abort pour que onend ne relance pas
   cookMicActive = false;
+  if(cookRecog){ try{ cookRecog.abort(); }catch(e){} cookRecog = null; }
   const btn = document.getElementById('cook-mic');
   if(btn) btn.classList.remove('active');
 }
 
+let _voiceTs = 0;
 function handleVoiceCmd(txt){
-  if(/suivant|prochain|après|suite/.test(txt)) cookGoNext();
-  else if(/précédent|retour|avant|reculer/.test(txt)) cookGoPrev();
-  else if(/répéter|relire|répète|encore/.test(txt)) speakCookStep();
-  else if(/ingrédient/.test(txt)) toggleCookIng();
+  // Debounce : ignorer si commande reçue il y a moins d'1 s
+  const now = Date.now();
+  if(now - _voiceTs < 1000) return;
+  _voiceTs = now;
+  if(/suivant|prochain|suite/.test(txt)) cookGoNext();
+  else if(/pr[eé]c[eé]dent|retour|avant|reculer/.test(txt)) cookGoPrev();
+  else if(/r[eé]p[eé]ter|relire|encore/.test(txt)) speakCookStep(true);
+  else if(/ingr[eé]dient/.test(txt)) toggleCookIng();
   else if(/terminer|quitter|stop|fermer|fin/.test(txt)) closeCook();
-  else if(/début|recommencer|premier|première/.test(txt)){ cookStep=0; renderCookStep(); speakCookStep(); }
+  else if(/d[eé]but|recommencer|premi/.test(txt)){ cookStep=0; renderCookStep(); speakCookStep(); }
 }
 
 function toggleCookIng(){
