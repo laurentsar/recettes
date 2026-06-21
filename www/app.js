@@ -262,6 +262,7 @@ let cookSteps = [];
 const cookSynth = window.speechSynthesis || null;
 let cookRecog = null;
 let cookMicActive = false;
+let cookTtsBusy = false; // TTS en cours → empêche le redémarrage prématuré du micro
 
 function openCook(id){
   const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
@@ -316,14 +317,20 @@ function cookGoPrev(){
   if(cookStep > 0){ cookStep--; renderCookStep(); speakCookStep(); }
 }
 
-function speakCookStep(force){
+function speakCookStep(){
   if(!cookSynth) return;
-  // Ne pas lancer le TTS quand le micro écoute — il entendrait les haut-parleurs
-  if(cookMicActive && !force) return;
   stopCookSpeech();
   const utt = new SpeechSynthesisUtterance(cookSteps[cookStep]);
   utt.lang = 'fr-FR';
   utt.rate = 0.9;
+  if(cookMicActive){
+    // Suspendre le micro pendant la lecture pour éviter le feedback micro ← haut-parleur
+    cookTtsBusy = true;
+    if(cookRecog){ try{ cookRecog.abort(); }catch(e){} cookRecog = null; }
+    const done = ()=>{ cookTtsBusy = false; if(cookMicActive) setTimeout(startCookMic, 350); };
+    utt.onend = done;
+    utt.onerror = done;
+  }
   cookSynth.speak(utt);
 }
 function stopCookSpeech(){ if(cookSynth) cookSynth.cancel(); }
@@ -333,7 +340,6 @@ function toggleCookMic(){ cookMicActive ? stopCookMic() : startCookMic(); }
 function startCookMic(){
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
   if(!SR){ toast('Reconnaissance vocale non disponible'); return; }
-  // Nettoyer l'instance précédente avant d'en créer une nouvelle
   if(cookRecog){ try{ cookRecog.abort(); }catch(e){} cookRecog = null; }
   const recog = new SR();
   recog.lang = 'fr-FR';
@@ -343,17 +349,16 @@ function startCookMic(){
     const t = e.results[e.results.length-1][0].transcript.trim().toLowerCase();
     handleVoiceCmd(t);
   };
-  // Erreur permanente (permissions) → stop ; erreur transitoire → retry
   recog.onerror = (ev)=>{
     if(ev.error==='not-allowed'||ev.error==='service-not-allowed'){
       stopCookMic(); toast('Micro non autorisé');
-    } else if(cookMicActive){
+    } else if(cookMicActive && !cookTtsBusy){
       setTimeout(startCookMic, 600);
     }
   };
-  // onend crée toujours une NOUVELLE instance (l'ancienne est terminée)
-  recog.onend = ()=>{ if(cookMicActive) setTimeout(startCookMic, 100); };
-  try{ recog.start(); } catch(e){ if(cookMicActive) setTimeout(startCookMic, 600); }
+  // onend : relancer uniquement si le micro est actif ET que le TTS n'a pas déjà pris la main
+  recog.onend = ()=>{ if(cookMicActive && !cookTtsBusy) setTimeout(startCookMic, 100); };
+  try{ recog.start(); } catch(e){ if(cookMicActive && !cookTtsBusy) setTimeout(startCookMic, 600); }
   cookRecog = recog;
   cookMicActive = true;
   const btn = document.getElementById('cook-mic');
@@ -361,8 +366,9 @@ function startCookMic(){
 }
 
 function stopCookMic(){
-  // Mettre false AVANT abort pour que onend ne relance pas
   cookMicActive = false;
+  cookTtsBusy = false;
+  stopCookSpeech();
   if(cookRecog){ try{ cookRecog.abort(); }catch(e){} cookRecog = null; }
   const btn = document.getElementById('cook-mic');
   if(btn) btn.classList.remove('active');
@@ -370,13 +376,12 @@ function stopCookMic(){
 
 let _voiceTs = 0;
 function handleVoiceCmd(txt){
-  // Debounce : ignorer si commande reçue il y a moins d'1 s
   const now = Date.now();
-  if(now - _voiceTs < 1000) return;
+  if(now - _voiceTs < 1200) return; // debounce
   _voiceTs = now;
   if(/suivant|prochain|suite/.test(txt)) cookGoNext();
   else if(/pr[eé]c[eé]dent|retour|avant|reculer/.test(txt)) cookGoPrev();
-  else if(/r[eé]p[eé]ter|relire|encore/.test(txt)) speakCookStep(true);
+  else if(/r[eé]p[eé]ter|relire|encore|lire/.test(txt)) speakCookStep();
   else if(/ingr[eé]dient/.test(txt)) toggleCookIng();
   else if(/terminer|quitter|stop|fermer|fin/.test(txt)) closeCook();
   else if(/d[eé]but|recommencer|premi/.test(txt)){ cookStep=0; renderCookStep(); speakCookStep(); }
