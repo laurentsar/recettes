@@ -114,3 +114,48 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
   background:var(--card);border:1px solid var(--line);color:var(--text)}
 .d-links a.src{background:linear-gradient(135deg,var(--accent),var(--accent2));border-color:transparent;color:#fff}
 .desc{color:var(--muted);line-height:1.55;margin-bottom:6px}
+
+/* bouton Réaliser dans la fiche */
+.d-cook-btn{display:block;width:100%;margin:22px 0 6px;padding:17px;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;
+  border:none;border-radius:14px;font-size:1.1em;font-weight:800;cursor:pointer;letter-spacing:.2px}
+.d-cook-btn:active{opacity:.85;transform:scale(.98)}
+
+/* mode cuisine pas-à-pas */
+.cook{position:fixed;inset:0;z-index:70;background:var(--bg);display:flex;flex-direction:column;overflow:hidden}
+.cook[hidden]{display:none}
+.cook-head{flex:0 0 auto;display:flex;align-items:center;justify-content:space-between;
+  padding:calc(env(safe-area-inset-top) + 12px) 16px 12px;
+  background:var(--bg2);border-bottom:1px solid var(--line)}
+.cook-title{font-size:.88em;font-weight:700;color:var(--muted);max-width:calc(100% - 110px);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center}
+.cook-quit{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);
+  background:var(--card);color:var(--text);font-size:1.2em;cursor:pointer;flex:0 0 auto}
+.cook-mic{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);
+  background:var(--card);color:var(--text);font-size:1.2em;cursor:pointer;flex:0 0 auto;
+  transition:background .2s,border-color .2s}
+.cook-mic.active{background:#c0392b;border-color:#c0392b;color:#fff;animation:cookpulse 1.6s infinite}
+@keyframes cookpulse{0%,100%{box-shadow:0 0 0 0 rgba(192,57,43,.5)}60%{box-shadow:0 0 0 9px rgba(192,57,43,0)}}
+.cook-progress{flex:0 0 auto;height:4px;background:var(--line)}
+.cook-progress-bar{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .4s ease;width:0%}
+.cook-counter{flex:0 0 auto;font-size:.82em;font-weight:700;color:var(--muted);text-align:center;padding:8px 0;background:var(--bg2)}
+.cook-body{flex:1;display:flex;align-items:center;justify-content:center;padding:28px 24px;overflow:hidden}
+.cook-step{font-size:clamp(1.15em,4vw,1.55em);line-height:1.65;font-weight:600;text-align:center;max-width:620px}
+.cook-hint{flex:0 0 auto;text-align:center;color:var(--muted);font-size:.74em;padding:6px 14px 10px}
+.cook-nav{flex:0 0 auto;display:flex;gap:12px;padding:14px 16px calc(env(safe-area-inset-bottom) + 14px);
+  border-top:1px solid var(--line);background:var(--bg2)}
+.cook-prev,.cook-next{flex:1;padding:16px;border-radius:14px;font-size:1em;font-weight:700;cursor:pointer}
+.cook-prev{background:var(--card);color:var(--text);border:1px solid var(--line)}
+.cook-next{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:none}
+.cook-prev:disabled{opacity:.3;cursor:default}
+.cook-prev:not(:disabled):active,.cook-next:active{transform:scale(.97)}
+
+/* overlay ingrédients (bottom sheet) */
+.cook-ing-ov{position:absolute;inset:0;background:rgba(0,0,0,.65);
+  display:flex;align-items:flex-end;z-index:1;backdrop-filter:blur(4px)}
+.cook-ing-sheet{background:var(--bg2);border-radius:22px 22px 0 0;
+  padding:18px 18px calc(env(safe-area-inset-bottom) + 20px);
+  max-height:68vh;overflow-y:auto;width:100%}
+.cook-ing-close{display:block;width:100%;padding:13px;background:var(--card);
+  border:1px solid var(--line);color:var(--text);font-weight:700;
+  border-radius:10px;cursor:pointer;margin-bottom:14px}

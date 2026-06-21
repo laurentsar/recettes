@@ -33,7 +33,7 @@ async function syncRemote(manual){
 
 const $ = (s)=>document.querySelector(s);
 const elGrid=$('#grid'), elCats=$('#cats'), elStatus=$('#status'), elSearch=$('#search'),
-      elDetail=$('#detail'), elSub=$('#hero-sub');
+      elDetail=$('#detail'), elSub=$('#hero-sub'), elCook=$('#cook');
 
 const norm = (s)=> (s||'').toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
 const esc = (s)=> (s||'').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -224,6 +224,7 @@ function openDetail(id){
   const steps = splitSteps(r.steps);
   const stepsHtml = steps.length ? `<div class="d-sec">Préparation</div><ol class="steps">${
     steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>` : '';
+  const cookBtn = steps.length ? `<button class="d-cook-btn">🍳 Réaliser cette recette</button>` : '';
   const links = [
     r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">🔗 Source</a>`:'',
     r.vid?`<a href="${esc(r.vid)}" target="_blank" rel="noopener">▶️ Vidéo</a>`:'',
@@ -237,12 +238,14 @@ function openDetail(id){
       <div class="d-title">${esc(r.t)}</div>
       <div class="d-meta">${tags}</div>
       ${r.desc?`<div class="desc">${esc(r.desc)}</div>`:''}
-      ${ing}${stepsHtml}
+      ${ing}${stepsHtml}${cookBtn}
       ${links?`<div class="d-links">${links}</div>`:''}
     </div>`;
   elDetail.hidden = false;
   document.body.style.overflow='hidden';
   elDetail.querySelector('.d-back').addEventListener('click', closeDetail);
+  const cookBtnEl = elDetail.querySelector('.d-cook-btn');
+  if (cookBtnEl) cookBtnEl.addEventListener('click', ()=> openCook(r.id));
   elDetail.querySelector('.d-fav').addEventListener('click', (e)=>{
     if (favs.has(r.id)) favs.delete(r.id); else favs.add(r.id);
     saveFavs(); e.currentTarget.textContent = favs.has(r.id)?'❤️':'🤍';
@@ -251,6 +254,135 @@ function openDetail(id){
   elDetail.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
 }
 function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; renderChips(); renderGrid(); }
+
+/* ---------- mode cuisine pas-à-pas ---------- */
+let cookRecipe = null;
+let cookStep = 0;
+let cookSteps = [];
+const cookSynth = window.speechSynthesis || null;
+let cookRecog = null;
+let cookMicActive = false;
+
+function openCook(id){
+  const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
+  cookRecipe = r;
+  cookSteps = splitSteps(r.steps);
+  if(!cookSteps.length){ toast('Aucune étape de préparation'); return; }
+  cookStep = 0;
+  elCook.innerHTML = `
+    <div class="cook-head">
+      <button class="cook-quit" aria-label="Quitter">←</button>
+      <span class="cook-title">${esc(r.t)}</span>
+      <button id="cook-mic" class="cook-mic" aria-label="Contrôle vocal">🎤</button>
+    </div>
+    <div class="cook-progress"><div id="cook-progress-bar" class="cook-progress-bar"></div></div>
+    <div class="cook-counter" id="cook-counter"></div>
+    <div class="cook-body"><div id="cook-step-text" class="cook-step"></div></div>
+    <div class="cook-hint">🎤 Dire : « suivant » · « précédent » · « répéter » · « ingrédients »</div>
+    <div class="cook-nav">
+      <button id="cook-prev" class="cook-prev">← Précédent</button>
+      <button id="cook-next" class="cook-next">Suivant →</button>
+    </div>`;
+  elCook.hidden = false;
+  document.body.style.overflow = 'hidden';
+  renderCookStep();
+  speakCookStep();
+  elCook.querySelector('.cook-quit').addEventListener('click', closeCook);
+  document.getElementById('cook-mic').addEventListener('click', toggleCookMic);
+  document.getElementById('cook-prev').addEventListener('click', cookGoPrev);
+  document.getElementById('cook-next').addEventListener('click', cookGoNext);
+}
+
+function closeCook(){
+  stopCookMic();
+  stopCookSpeech();
+  elCook.hidden = true;
+}
+
+function renderCookStep(){
+  const total = cookSteps.length;
+  document.getElementById('cook-counter').textContent = `Étape ${cookStep+1} / ${total}`;
+  document.getElementById('cook-progress-bar').style.width = Math.round(((cookStep+1)/total)*100)+'%';
+  document.getElementById('cook-step-text').textContent = cookSteps[cookStep];
+  document.getElementById('cook-prev').disabled = cookStep === 0;
+  document.getElementById('cook-next').textContent = cookStep === total-1 ? '✓ Terminer' : 'Suivant →';
+}
+
+function cookGoNext(){
+  if(cookStep < cookSteps.length-1){ cookStep++; renderCookStep(); speakCookStep(); }
+  else{ closeCook(); toast('Bonne dégustation ! 🎉'); }
+}
+function cookGoPrev(){
+  if(cookStep > 0){ cookStep--; renderCookStep(); speakCookStep(); }
+}
+
+function speakCookStep(){
+  if(!cookSynth) return;
+  stopCookSpeech();
+  const utt = new SpeechSynthesisUtterance(cookSteps[cookStep]);
+  utt.lang = 'fr-FR';
+  utt.rate = 0.9;
+  cookSynth.speak(utt);
+}
+function stopCookSpeech(){ if(cookSynth) cookSynth.cancel(); }
+
+function toggleCookMic(){ cookMicActive ? stopCookMic() : startCookMic(); }
+
+function startCookMic(){
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if(!SR){ toast('Reconnaissance vocale non disponible'); return; }
+  cookRecog = new SR();
+  cookRecog.lang = 'fr-FR';
+  cookRecog.continuous = true;
+  cookRecog.interimResults = false;
+  cookRecog.onresult = (e)=>{
+    const t = e.results[e.results.length-1][0].transcript.trim().toLowerCase();
+    handleVoiceCmd(t);
+  };
+  cookRecog.onerror = ()=> stopCookMic();
+  cookRecog.onend = ()=>{ if(cookMicActive) cookRecog.start(); };
+  cookRecog.start();
+  cookMicActive = true;
+  const btn = document.getElementById('cook-mic');
+  if(btn) btn.classList.add('active');
+}
+
+function stopCookMic(){
+  if(cookRecog){ cookRecog.abort(); cookRecog = null; }
+  cookMicActive = false;
+  const btn = document.getElementById('cook-mic');
+  if(btn) btn.classList.remove('active');
+}
+
+function handleVoiceCmd(txt){
+  if(/suivant|prochain|après|suite/.test(txt)) cookGoNext();
+  else if(/précédent|retour|avant|reculer/.test(txt)) cookGoPrev();
+  else if(/répéter|relire|répète|encore/.test(txt)) speakCookStep();
+  else if(/ingrédient/.test(txt)) toggleCookIng();
+  else if(/terminer|quitter|stop|fermer|fin/.test(txt)) closeCook();
+  else if(/début|recommencer|premier|première/.test(txt)){ cookStep=0; renderCookStep(); speakCookStep(); }
+}
+
+function toggleCookIng(){
+  const existing = document.getElementById('cook-ing-ov');
+  if(existing){ existing.remove(); return; }
+  const ov = document.createElement('div');
+  ov.id = 'cook-ing-ov';
+  ov.className = 'cook-ing-ov';
+  const sk = SEASON[monthNow()] || [];
+  const ingHtml = (cookRecipe.ing||[]).map((item,k)=>{
+    const s = sk.some(w=>norm(item).includes(w));
+    return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${esc(item)}</span>${s?'<span class="leaf">🌿</span>':''}</li>`;
+  }).join('');
+  ov.innerHTML = `<div class="cook-ing-sheet">
+    <button class="cook-ing-close">✕ Fermer</button>
+    <div class="d-sec" style="margin-top:0">Ingrédients</div>
+    <ul class="ing">${ingHtml}</ul>
+  </div>`;
+  ov.querySelector('.cook-ing-close').addEventListener('click', ()=> ov.remove());
+  ov.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click', ()=> li.classList.toggle('done')));
+  elCook.appendChild(ov);
+}
 
 /* ---------- édition ---------- */
 const elEdit = $('#edit');
@@ -324,6 +456,7 @@ async function init(){
     const ip=document.getElementById('ingpick');
     if(ip && !ip.hidden) closeIngPick();
     else if(!elEdit.hidden) closeEdit();
+    else if(!elCook.hidden) closeCook();
     else if(!elDetail.hidden) closeDetail();
   });
   if ('serviceWorker' in navigator){ try{ navigator.serviceWorker.register('sw.js'); }catch(e){} }
