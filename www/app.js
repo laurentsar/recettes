@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.1';
+const APP_VERSION = '2.2';
 
 let ALL = [];
 let BASE = [];
@@ -545,7 +545,7 @@ function openEdit(id){
     </div>
     <div class="edit-body">
       ${field('Titre', `<input id="e-t" value="${v(r.t)}">`)}
-      ${field('Catégories', `<input id="e-cat" list="e-cats-list" value="${v(r.cat)}" autocomplete="off" placeholder="Plusieurs séparées par des virgules…"><datalist id="e-cats-list">${cats.map(c=>`<option value="${esc(c)}">`).join('')}</datalist>`)}
+      ${field('Catégories (coche plusieurs)', `<div class="e-cats" id="e-cats">${cats.map(c=>`<label class="cpm-chk"><input type="checkbox" class="e-cat-c" value="${esc(c)}"${catList(r).includes(c)?' checked':''}><span>${esc(c)}</span></label>`).join('') || '<div class="cpm-empty">Aucune catégorie</div>'}</div><input id="e-cat-new" autocomplete="off" placeholder="Ajouter de nouvelles (séparées par des virgules)…">`)}
       <div class="ef-row">${field('Durée (min)', `<input id="e-min" type="number" min="0" value="${v(r.min)}">`)}${field('Portions', `<input id="e-serv" type="number" min="0" value="${v(r.serv)}">`)}</div>
       ${field('Image (URL)', `<input id="e-img" value="${v(r.img)}">`)}
       <div class="ef-row">${field('Source (URL)', `<input id="e-url" value="${v(r.url)}">`)}${field('Vidéo (URL)', `<input id="e-vid" value="${v(r.vid)}">`)}</div>
@@ -562,8 +562,13 @@ function openEdit(id){
 function closeEdit(){ elEdit.hidden = true; }
 function saveEdit(id){
   const ing = ev('e-ing').split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+  // Catégories : cases cochées + nouvelles saisies (virgules), dédupliquées.
+  const checked = Array.from(document.querySelectorAll('#e-cats .e-cat-c:checked')).map(i=>i.value);
+  const typed = (ev('e-cat-new')||'').split(',').map(s=>s.trim()).filter(Boolean);
+  const seen = new Set(); const catsOut = [];
+  checked.concat(typed).forEach(c=>{ const k=c.toLowerCase(); if(!seen.has(k)){ seen.add(k); catsOut.push(c); } });
   edits[id] = {
-    t: ev('e-t').trim(), cat: ev('e-cat').trim(),
+    t: ev('e-t').trim(), cat: catsOut.join(', '),
     min: parseInt(ev('e-min'),10)||0, serv: parseInt(ev('e-serv'),10)||0,
     img: ev('e-img').trim(), url: ev('e-url').trim(), vid: ev('e-vid').trim(),
     desc: ev('e-desc').trim(), ing, steps: ev('e-steps').trim(),
@@ -892,6 +897,16 @@ async function init(){
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
   document.getElementById('import-btn').addEventListener('click', openImport);
   document.getElementById('photos-btn').addEventListener('click', fillFromSources);
+  // Liens externes (source, vidéo) -> ouverture dans le navigateur du téléphone.
+  document.addEventListener('click', (e)=>{
+    const a = e.target.closest && e.target.closest('a[href]');
+    if(!a) return;
+    const href = a.getAttribute('href') || '';
+    if(/^https?:\/\//i.test(href)){
+      e.preventDefault();
+      window.open(href, '_blank');
+    }
+  }, true);
   syncRemote(false);
   elSearch.addEventListener('input', ()=>{
     clearTimeout(searchTimer);
