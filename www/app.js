@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.6';
+const APP_VERSION = '2.7';
 
 let ALL = [];
 let BASE = [];
@@ -116,7 +116,7 @@ const MEATS = {
 const SEAFOOD = {
   'Saumon':['saumon'], 'Thon':['thon'], 'Cabillaud':['cabillaud','morue'], 'Truite':['truite'],
   'Dorade':['dorade'], 'Colin':['colin','lieu noir','merlu'], 'Sardine':['sardine'], 'Maquereau':['maquereau'],
-  'Crevette':['crevette','gambas'], 'Moule':['moule'], 'Huître':['huitre'], 'Crabe':['crabe'],
+  'Crevette':['crevette','gambas'], 'Huître':['huitre'], 'Crabe':['crabe'],
   'Saint-Jacques':['saint-jacques','saint jacques','noix de saint'], 'Calamar':['calamar','encornet','seiche'],
 };
 // Sous-catégories DESSERT.
@@ -302,7 +302,7 @@ function filtered(){
 
 /* ---------- catégories ---------- */
 // Catégories masquées partout (filtre, fiches, comptage) — comparées via norm().
-const EXCLUDED_CATS = new Set(['poivron','gateau','wok','gateau au chocolat','tajine','sandwich']);
+const EXCLUDED_CATS = new Set(['poivron','gateau','wok','gateau au chocolat','tajine','sandwich','moule']);
 // Une recette peut avoir plusieurs catégories, stockées dans r.cat séparées par des virgules.
 function catList(r){
   return String((r && r.cat) || '').split(',').map(s=>s.trim()).filter(Boolean)
