@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.4';
+const APP_VERSION = '2.5';
 
 let ALL = [];
 let BASE = [];
@@ -100,11 +100,25 @@ const VEGGIES = {
   'Avocat':['avocat'], 'Salade verte':['laitue','roquette','mache','batavia','scarole'],
   'Lentille':['lentille'], 'Pois chiche':['pois chiche'],
 };
-const VIANDE_KW = ['boeuf','bœuf','porc','agneau','veau','poulet','dinde','canard','pintade','lapin','steak',
-  'saucisse','lardon','jambon','bacon','viande hachee','merguez','cotelette','roti','magret','escalope',
-  'chipolata','boudin','gigot','entrecote','bavette','charcuterie','chorizo'];
-const POISSON_KW = ['saumon','thon','cabillaud','morue','truite','sardine','maquereau','colin','dorade',
-  'poisson','merlu','hareng','crevette','moule','huitre','crabe','calamar','saint-jacques','gambas','fruits de mer'];
+// Viandes DÉTAILLÉES par type (pas de tag « Viande » générique).
+const MEATS = {
+  'Bœuf':['boeuf','bœuf','steak','entrecote','bavette','rumsteck','paleron','bourguignon','tournedos','viande hachee','steak hache'],
+  'Veau':['veau','blanquette','osso buco'],
+  'Porc':['porc','echine','filet mignon','rouelle','cote de porc','travers de porc','palette','roti de porc'],
+  'Agneau':['agneau','gigot','mouton'],
+  'Poulet':['poulet','blanc de poulet','cuisse de poulet','aiguillette'],
+  'Dinde':['dinde','escalope de dinde'],
+  'Canard':['canard','magret'],
+  'Lapin':['lapin'],
+  'Charcuterie':['lardon','jambon','bacon','saucisse','chorizo','merguez','saucisson','boudin','chipolata','pancetta','speck'],
+};
+// Poisson & fruits de mer DÉTAILLÉS (+ « Poisson » en repli si générique sans espèce précise).
+const SEAFOOD = {
+  'Saumon':['saumon'], 'Thon':['thon'], 'Cabillaud':['cabillaud','morue'], 'Truite':['truite'],
+  'Dorade':['dorade'], 'Colin':['colin','lieu noir','merlu'], 'Sardine':['sardine'], 'Maquereau':['maquereau'],
+  'Crevette':['crevette','gambas'], 'Moule':['moule'], 'Huître':['huitre'], 'Crabe':['crabe'],
+  'Saint-Jacques':['saint-jacques','saint jacques','noix de saint'], 'Calamar':['calamar','encornet','seiche'],
+};
 const DESSERT_KW = ['chocolat','sucre','gateau','patisserie','biscuit','gaufre','mousse','flan','glace','caramel',
   'vanille','meringue','tiramisu','fondant','brownie','cookie','madeleine','clafoutis','compote','confiture',
   'miel','chantilly','beignet','panna cotta','crumble','sucre glace'];
@@ -120,9 +134,12 @@ function autoCategorize(){
     const push = c => { if(!have.has(c.toLowerCase())){ toAdd.push(c); have.add(c.toLowerCase()); } };
     // Légumes détaillés
     for (const [veg, kws] of Object.entries(VEGGIES)) if (kws.some(k=> hasWord(ingHay,k))) push(veg);
-    // Viande / Poisson (groupés)
-    if (VIANDE_KW.some(k=> hasWord(fullHay,k))) push('Viande');
-    if (POISSON_KW.some(k=> hasWord(fullHay,k))) push('Poisson');
+    // Viandes détaillées (type précis)
+    for (const [m, kws] of Object.entries(MEATS)) if (kws.some(k=> hasWord(fullHay,k))) push(m);
+    // Poisson / fruits de mer détaillés (+ repli « Poisson » si générique sans espèce)
+    let anySea=false;
+    for (const [f, kws] of Object.entries(SEAFOOD)) if (kws.some(k=> hasWord(fullHay,k))){ push(f); anySea=true; }
+    if (!anySea && (hasWord(fullHay,'poisson') || hasWord(fullHay,'fruits de mer'))) push('Poisson');
     // Type de plat (un seul : Dessert > Entrée > Plat par défaut)
     if (!['dessert','entrée','entree','plat'].some(c=> have.has(c))){
       let course = 'Plat';
