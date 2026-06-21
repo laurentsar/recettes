@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.8';
+const APP_VERSION = '2.9';
 
 let ALL = [];
 let BASE = [];
@@ -385,6 +385,39 @@ function refreshCatLabel(){
 // Ferme le panneau catégories si on clique ailleurs.
 document.addEventListener('click', ()=>{ const p=document.getElementById('cat-panel'); if(p && !p.hidden) p.hidden = true; });
 
+// Arbre de catégories réutilisable pour ATTRIBUER (fiche + édition) — même logique que le filtre.
+// selected/expand = Set mutés ; showAll=true affiche tout l'arbre (même catégories à 0). Renvoie la fn render.
+function mountCatTree(container, selected, expand, showAll){
+  function nodeHtml(name, val, depth){
+    if (!showAll && catTotal(name,val)===0) return '';
+    let children=[];
+    if (Array.isArray(val)) children=val.map(l=>[l,null]);
+    else if (val && typeof val==='object') children=Object.entries(val);
+    const hasKids=children.length>0, open=expand.has(name), own=catCount[name]||0;
+    const tog = hasKids ? `<button class="cattog" data-node="${esc(name)}">${open?'▾':'▸'}</button>` : `<span class="cattog sp"></span>`;
+    const selectable = showAll || own>0 || !hasKids;
+    const cnt = showAll ? '' : `<span class="catn">(${own})</span>`;
+    const label = selectable
+      ? `<label class="catopt"><input type="checkbox" class="catopt-c" value="${esc(name)}"${selected.has(name)?' checked':''}><span>${esc(name)}</span>${cnt}</label>`
+      : `<span class="catopt cathead">${esc(name)}</span>`;
+    let html = `<div class="catrow" style="padding-left:${depth*14}px">${tog}${label}</div>`;
+    if (hasKids && open) for (const [cn,cv] of children) html += nodeHtml(cn,cv,depth+1);
+    return html;
+  }
+  function render(){
+    let html=''; for (const [t,v] of Object.entries(TAXONOMY)) html += nodeHtml(t,v,0);
+    container.innerHTML = html;
+    container.querySelectorAll('.cattog[data-node]').forEach(b=> b.addEventListener('click', ()=>{
+      const n=b.dataset.node; expand.has(n)?expand.delete(n):expand.add(n); render();
+    }));
+    container.querySelectorAll('.catopt-c').forEach(box=> box.addEventListener('change', ()=>{
+      box.checked ? selected.add(box.value) : selected.delete(box.value);
+    }));
+  }
+  render();
+  return render;
+}
+
 /* ---------- sélecteur d'ingrédient ---------- */
 function openIngPick(){
   const el = document.getElementById('ingpick');
@@ -414,14 +447,14 @@ function closeIngPick(){ document.getElementById('ingpick').hidden = true; docum
 /* ---------- ajustement rapide de catégorie ---------- */
 function openCatPick(id){
   const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
-  const current = catList(r);
   const el = document.getElementById('catpick');
-  const boxes = cats.map(c=>`<label class="cpm-chk"><input type="checkbox" value="${esc(c)}"${current.includes(c)?' checked':''}><span>${esc(c)}</span><span class="cpm-n">(${catCount[c]||0})</span></label>`).join('');
+  const selected = new Set(catList(r));
+  const expand = new Set(['Plat','Dessert','Ustensile']);
   el.innerHTML = `
     <div class="cpm-backdrop"></div>
     <div class="cpm-box">
       <div class="cpm-title">Catégories de « ${esc(r.t)} »</div>
-      <div class="cpm-list">${boxes || '<div class="cpm-empty">Aucune catégorie existante</div>'}</div>
+      <div class="cpm-list cat-tree" id="cpm-tree"></div>
       <input id="cpm-new" type="text" placeholder="Ajouter (plusieurs séparées par des virgules)…" autocomplete="off">
       <div class="cpm-btns">
         <button class="cpm-cancel">Annuler</button>
@@ -429,13 +462,13 @@ function openCatPick(id){
       </div>
     </div>`;
   el.hidden = false;
+  mountCatTree(document.getElementById('cpm-tree'), selected, expand, true);
   el.querySelector('.cpm-cancel').addEventListener('click', closeCatPick);
   el.querySelector('.cpm-backdrop').addEventListener('click', closeCatPick);
   el.querySelector('.cpm-save').addEventListener('click', ()=>{
-    const checked = Array.from(el.querySelectorAll('.cpm-list input:checked')).map(i=>i.value);
     const typed = (document.getElementById('cpm-new').value||'').split(',').map(s=>s.trim()).filter(Boolean);
     const seen = new Set(); const out = [];
-    checked.concat(typed).forEach(c=>{ const k=c.toLowerCase(); if(!seen.has(k)){ seen.add(k); out.push(c); } });
+    [...selected, ...typed].forEach(c=>{ const k=c.toLowerCase(); if(!seen.has(k)){ seen.add(k); out.push(c); } });
     edits[id] = Object.assign({}, edits[id]||{}, { cat: out.join(', ') });
     saveEdits(); refreshAll(); closeCatPick(); openDetail(id);
   });
@@ -686,6 +719,7 @@ function toggleCookIng(){
 
 /* ---------- édition ---------- */
 const elEdit = $('#edit');
+let editCatSel = new Set();   // sélection de catégories de l'éditeur (persiste hors DOM)
 const ev = (id)=>{ const e=document.getElementById(id); return e ? e.value : ''; };
 function field(label, inner){ return `<label class="ef"><span>${label}</span>${inner}</label>`; }
 function openEdit(id){
@@ -699,7 +733,7 @@ function openEdit(id){
     </div>
     <div class="edit-body">
       ${field('Titre', `<input id="e-t" value="${v(r.t)}">`)}
-      ${field('Catégories (coche plusieurs)', `<div class="e-cats" id="e-cats">${cats.map(c=>`<label class="cpm-chk"><input type="checkbox" class="e-cat-c" value="${esc(c)}"${catList(r).includes(c)?' checked':''}><span>${esc(c)}</span></label>`).join('') || '<div class="cpm-empty">Aucune catégorie</div>'}</div><input id="e-cat-new" autocomplete="off" placeholder="Ajouter de nouvelles (séparées par des virgules)…">`)}
+      ${field('Catégories', `<div class="e-cats cat-tree" id="e-cats"></div><input id="e-cat-new" autocomplete="off" placeholder="Ajouter de nouvelles (séparées par des virgules)…">`)}
       <div class="ef-row">${field('Durée (min)', `<input id="e-min" type="number" min="0" value="${v(r.min)}">`)}${field('Portions', `<input id="e-serv" type="number" min="0" value="${v(r.serv)}">`)}</div>
       ${field('Image (URL)', `<input id="e-img" value="${v(r.img)}">`)}
       <div class="ef-row">${field('Source (URL)', `<input id="e-url" value="${v(r.url)}">`)}${field('Vidéo (URL)', `<input id="e-vid" value="${v(r.vid)}">`)}</div>
@@ -709,6 +743,8 @@ function openEdit(id){
       ${edits[id] ? `<button class="e-reset">↺ Rétablir la version d'origine</button>` : ''}
     </div>`;
   elEdit.hidden = false; document.body.style.overflow='hidden';
+  editCatSel = new Set(catList(r));
+  mountCatTree(document.getElementById('e-cats'), editCatSel, new Set(['Plat','Dessert','Ustensile']), true);
   elEdit.querySelector('.e-cancel').addEventListener('click', closeEdit);
   elEdit.querySelector('.e-save').addEventListener('click', ()=> saveEdit(id));
   const rb = elEdit.querySelector('.e-reset'); if (rb) rb.addEventListener('click', ()=> resetEdit(id));
@@ -716,11 +752,10 @@ function openEdit(id){
 function closeEdit(){ elEdit.hidden = true; }
 function saveEdit(id){
   const ing = ev('e-ing').split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
-  // Catégories : cases cochées + nouvelles saisies (virgules), dédupliquées.
-  const checked = Array.from(document.querySelectorAll('#e-cats .e-cat-c:checked')).map(i=>i.value);
+  // Catégories : arbre (editCatSel) + nouvelles saisies (virgules), dédupliquées.
   const typed = (ev('e-cat-new')||'').split(',').map(s=>s.trim()).filter(Boolean);
   const seen = new Set(); const catsOut = [];
-  checked.concat(typed).forEach(c=>{ const k=c.toLowerCase(); if(!seen.has(k)){ seen.add(k); catsOut.push(c); } });
+  [...editCatSel, ...typed].forEach(c=>{ const k=c.toLowerCase(); if(!seen.has(k)){ seen.add(k); catsOut.push(c); } });
   edits[id] = {
     t: ev('e-t').trim(), cat: catsOut.join(', '),
     min: parseInt(ev('e-min'),10)||0, serv: parseInt(ev('e-serv'),10)||0,
