@@ -1050,7 +1050,7 @@
     {
       "id": "dropbox:7e2d30ac-90d1-4e9a-a3dd-6df50d833ab5",
       "t": "Bœuf Sauté aux Oignons",
-      "cat": "Plat",
+      "cat": "Wok",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -1104,7 +1104,7 @@
     {
       "id": "dropbox:532612616",
       "t": "Cake au chèvre, figues et au miel au Thermomix",
-      "cat": "Plat",
+      "cat": "Cake salé",
       "area": "",
       "min": 79,
       "serv": 0,
@@ -1131,7 +1131,7 @@
     {
       "id": "dropbox:962737565",
       "t": "Cake salé aux fromages Recette WW » Apéritif",
-      "cat": "Plat",
+      "cat": "Cake salé",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -1719,7 +1719,7 @@
     {
       "id": "dropbox:370b649a-430b-4219-b238-2ccf4eb55a4b",
       "t": "Cookies Faciles à l’Airfryer",
-      "cat": "Dessert",
+      "cat": "Biscuits & Cookies",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -1792,7 +1792,7 @@
     {
       "id": "dropbox:72d7154b-8623-4e7c-88ab-48c0ff92d1a0",
       "t": "Courgettes façon Carbonara : un plat délicieux à essayer !",
-      "cat": "Plat",
+      "cat": "Pâtes",
       "area": "",
       "min": 25,
       "serv": 0,
@@ -1983,7 +1983,7 @@
     {
       "id": "dropbox:eb7bfdad-c0c4-4b70-8fec-15ed51f701eb",
       "t": "Crème brûlée à l’Air Fryer",
-      "cat": "Dessert",
+      "cat": "Entremets",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -2694,7 +2694,7 @@
     {
       "id": "dropbox:a4bbee2b-94fa-469a-bc29-4955fd8ae8ab",
       "t": "Gaufre Brioche : Le mariage parfait entre moelleux et croustillant",
-      "cat": "Dessert",
+      "cat": "Crêpes sucrées",
       "area": "",
       "min": 25,
       "serv": 0,
@@ -2718,7 +2718,7 @@
     {
       "id": "dropbox:8a41edc3-7f25-4914-ba40-2ec47d781ed7",
       "t": "Gaufres de Cyril Lignac : la recette irrésistible à tester!",
-      "cat": "Dessert",
+      "cat": "Crêpes sucrées",
       "area": "",
       "min": 15,
       "serv": 0,
@@ -2740,7 +2740,7 @@
     {
       "id": "dropbox:6f931762-843f-42c7-a68b-6ef350a0e011",
       "t": "Gnocchi au brocoli sans pomme de terre",
-      "cat": "Plat",
+      "cat": "Pâtes",
       "area": "",
       "min": 65,
       "serv": 0,
@@ -2785,7 +2785,7 @@
     {
       "id": "dropbox:11498d86-d7c5-4887-b489-0389025c38d5",
       "t": "Gratin de Brocolis",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 25,
       "serv": 0,
@@ -2809,7 +2809,7 @@
     {
       "id": "dropbox:1520700987",
       "t": "Gratin de brocolis facile",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 65,
       "serv": 0,
@@ -2836,7 +2836,7 @@
     {
       "id": "dropbox:40e379fc-e380-42f1-87ef-dcd7bdce8745",
       "t": "Gratin de courge butternut",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 45,
       "serv": 0,
@@ -2858,7 +2858,7 @@
     {
       "id": "dropbox:d8449748-62f3-4617-9cef-8acba953ff79",
       "t": "Gratin de Courgettes au Air Fryer Ninja : Recette Saine et Délicieuse",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -2886,7 +2886,7 @@
     {
       "id": "dropbox:-710638748",
       "t": "Gratin de courgettes à la feta",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 19,
       "serv": 0,
@@ -2908,7 +2908,7 @@
     {
       "id": "dropbox:8356096",
       "t": "Gratin de haricots verts, Haricots verts et Recette haricot vert",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -2930,7 +2930,7 @@
     {
       "id": "dropbox:-56437985",
       "t": "Gratin de légumes d’hiver au thermomix - Cuisine Momix",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -2957,7 +2957,7 @@
     {
       "id": "dropbox:1165575692",
       "t": "Gratin de poisson",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 40,
       "serv": 0,
@@ -2986,7 +2986,7 @@
     {
       "id": "dropbox:1864875627",
       "t": "Gratin de pommes de terre au Boursin",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3010,7 +3010,7 @@
     {
       "id": "dropbox:cb9cfa56-0e5c-4d6b-b39e-a0c03d4ae093",
       "t": "Gratin de Pommes de Terre et Petit Pois",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 45,
       "serv": 0,
@@ -3033,7 +3033,7 @@
     {
       "id": "dropbox:1837408426",
       "t": "Gratin de potimarron",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 65,
       "serv": 0,
@@ -3058,7 +3058,7 @@
     {
       "id": "dropbox:2137136955",
       "t": "Gratin de riz aux courgettes râpées et jambon - Amandine Cooking",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3084,7 +3084,7 @@
     {
       "id": "dropbox:a95a4cea-1cd1-4e92-9463-547df8bc0c3a",
       "t": "Gratin de riz et brocolis : une recette réconfortante pour l’automne",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 50,
       "serv": 0,
@@ -3108,7 +3108,7 @@
     {
       "id": "dropbox:be88afa5-4bbc-42b3-b7ac-4f12a6093354",
       "t": "Gratin de saumon aux épinards et pommes de terre",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 20,
       "serv": 0,
@@ -3134,7 +3134,7 @@
     {
       "id": "dropbox:-1152069598",
       "t": "Gratin léger carottes et poireaux - Rachel cuisine",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3157,7 +3157,7 @@
     {
       "id": "dropbox:-29192180",
       "t": "Gâteau de carotte et son glaçage crémeux (Carrot Cake) au Thermomix",
-      "cat": "Dessert",
+      "cat": "Gâteau",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3210,7 +3210,7 @@
     {
       "id": "dropbox:1439185794",
       "t": "Gâteau roulé",
-      "cat": "Dessert",
+      "cat": "Gâteau",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3232,7 +3232,7 @@
     {
       "id": "dropbox:3ffccbf2-4b81-46a6-b275-a527cd3e5252",
       "t": "GÂTEAU À L'EAU : la recette facile",
-      "cat": "Dessert",
+      "cat": "Gâteau",
       "area": "",
       "min": 65,
       "serv": 0,
@@ -3253,7 +3253,7 @@
     {
       "id": "dropbox:c9cbdd75-a881-4ee0-b38b-70751c05ddb0",
       "t": "Gâteau à la compote de pommes moelleux : la recette facile et rapide",
-      "cat": "Dessert",
+      "cat": "Gâteau",
       "area": "",
       "min": 45,
       "serv": 0,
@@ -3349,7 +3349,7 @@
     {
       "id": "dropbox:1817039957",
       "t": "https://www.iptvsmart-club.com",
-      "cat": "Plat",
+      "cat": "Sandwich",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3425,7 +3425,7 @@
     {
       "id": "dropbox:1889453551",
       "t": "La recette du vrai gratin dauphinois de Cyril Lignac",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3447,7 +3447,7 @@
     {
       "id": "dropbox:903608637",
       "t": "La tarte à la courge qui replonge Jean-François Piège en enfance",
-      "cat": "Dessert",
+      "cat": "Tarte sucrée",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3587,7 +3587,7 @@
     {
       "id": "dropbox:-458839063",
       "t": "Le tajine de boeuf au cumin",
-      "cat": "Plat",
+      "cat": "Tajine",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3646,7 +3646,7 @@
     {
       "id": "dropbox:d2cc2716-392e-4cf8-a4d3-f953354bb027",
       "t": "Le Vrai Flan Parisien Traditionnel",
-      "cat": "Dessert",
+      "cat": "Entremets",
       "area": "",
       "min": 80,
       "serv": 0,
@@ -3984,7 +3984,7 @@
     {
       "id": "dropbox:0df0a8dc-f540-4a74-9991-795c25c212f8",
       "t": "Muffins au citron airfryer moelleux et pleins de peps",
-      "cat": "Dessert",
+      "cat": "Gâteau",
       "area": "",
       "min": 25,
       "serv": 0,
@@ -4009,7 +4009,7 @@
     {
       "id": "dropbox:3072d049-d557-48b1-a56b-e71026e1b1a3",
       "t": "Muffins Chocolat au Cœur Fondant Spécial Noël au Air Fryer",
-      "cat": "Dessert",
+      "cat": "Gâteau au chocolat",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -4243,7 +4243,7 @@
     {
       "id": "dropbox:34ded57f-919c-415d-8d98-3aba31d8fe98",
       "t": "Pain brioché au miel au Thermomix - Cuisine Momix",
-      "cat": "Dessert",
+      "cat": "Pain & Brioche",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -4266,7 +4266,7 @@
     {
       "id": "dropbox:744faa6d-cab5-461f-8484-2b703612002f",
       "t": "Pain de Viande à l'Airfryer",
-      "cat": "Plat",
+      "cat": "Pain & Brioche",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -4290,7 +4290,7 @@
     {
       "id": "dropbox:489d78c9-79f1-4b0f-a56a-3764143650ac",
       "t": "Pain Express en 20 Minutes : Régalez-vous vite !",
-      "cat": "Dessert",
+      "cat": "Pain & Brioche",
       "area": "",
       "min": 20,
       "serv": 0,
@@ -4333,7 +4333,7 @@
     {
       "id": "dropbox:47705959-5e54-4987-ab68-050dcdfe3e39",
       "t": "Pain Perdu à l'Air Fryer",
-      "cat": "Dessert",
+      "cat": "Pain & Brioche",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -4380,7 +4380,7 @@
     {
       "id": "dropbox:7c2dc25f-65c4-4957-80ba-ac2045a1bbe8",
       "t": "Pains burger extra moelleux faits maison au Thermomix",
-      "cat": "Plat",
+      "cat": "Burger",
       "area": "",
       "min": 117,
       "serv": 0,
@@ -4690,7 +4690,7 @@
     {
       "id": "dropbox:1284418300",
       "t": "Petits sablés de Noël au Thermomix",
-      "cat": "Dessert",
+      "cat": "Biscuits & Cookies",
       "area": "",
       "min": 27,
       "serv": 0,
@@ -5408,7 +5408,7 @@
     {
       "id": "dropbox:4ab9bc81-6cc1-4098-8938-6b60e85a7c7e",
       "t": "Poulet Sauté aux Noix de Cajou et Poivrons",
-      "cat": "Plat",
+      "cat": "Wok",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -5568,7 +5568,7 @@
     {
       "id": "dropbox:1342394263",
       "t": "Purple risotto",
-      "cat": "Plat",
+      "cat": "Risotto",
       "area": "",
       "min": 25,
       "serv": 0,
@@ -5613,7 +5613,7 @@
     {
       "id": "dropbox:1558506668",
       "t": "Pâtes fraîches Thermomix",
-      "cat": "Plat",
+      "cat": "Pâtes",
       "area": "",
       "min": 1,
       "serv": 0,
@@ -5658,7 +5658,7 @@
     {
       "id": "dropbox:1481146558",
       "t": "Quiche au jambon",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -5678,7 +5678,7 @@
     {
       "id": "dropbox:38665a1f-a75f-42ce-9278-d0264e6d07dc",
       "t": "Quiche courgette chèvre",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 50,
       "serv": 0,
@@ -5705,7 +5705,7 @@
     {
       "id": "dropbox:-13642766",
       "t": "Quiche lorraine aux courgettes - Rachel cuisine",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -5728,7 +5728,7 @@
     {
       "id": "dropbox:1084151442",
       "t": "Quiche minceur brocoli-mascarpone",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 40,
       "serv": 0,
@@ -5750,7 +5750,7 @@
     {
       "id": "dropbox:ab716ff0-5c62-42fc-93ae-dd4d7d465ce0",
       "t": "Quiche sans pâte au chou-fleur (companion ou non)",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 60,
       "serv": 0,
@@ -5774,7 +5774,7 @@
     {
       "id": "dropbox:-108656337",
       "t": "Quiche soufflée au fromage",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 80,
       "serv": 0,
@@ -5957,7 +5957,7 @@
     {
       "id": "dropbox:58aef201-1b77-4050-911d-2b509c0d2ec5",
       "t": "Recette Brioche à la crème d’amande au Thermomix - Cuisine Momix",
-      "cat": "Plat",
+      "cat": "Pain & Brioche",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -5989,7 +5989,7 @@
     {
       "id": "dropbox:0c0ff256-14a3-48ae-ae05-3852d1b57cbb",
       "t": "Recette brownies au air fryer : rapide et fondant",
-      "cat": "Dessert",
+      "cat": "Gâteau",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -6011,7 +6011,7 @@
     {
       "id": "dropbox:1868144075",
       "t": "Recette Cake citrouille",
-      "cat": "Plat",
+      "cat": "Cake salé",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -6085,7 +6085,7 @@
     {
       "id": "dropbox:-887506833",
       "t": "Recette de Quiche à la Vache qui rit et aux lardons : la recette facile",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 20,
       "serv": 0,
@@ -6177,7 +6177,7 @@
     {
       "id": "dropbox:-1265339989",
       "t": "Recette Quiche Roquefort brocolis",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -6278,7 +6278,7 @@
     {
       "id": "dropbox:-866149180",
       "t": "Risotto : la meilleure recette",
-      "cat": "Plat",
+      "cat": "Risotto",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -6306,7 +6306,7 @@
     {
       "id": "dropbox:-1606532073",
       "t": "Risotto au chou frisé et au citron - Châtelaine",
-      "cat": "Plat",
+      "cat": "Risotto",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -6334,7 +6334,7 @@
     {
       "id": "dropbox:-149866285",
       "t": "Risotto au potiron et parmesan",
-      "cat": "Plat",
+      "cat": "Risotto",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -6364,7 +6364,7 @@
     {
       "id": "dropbox:1579931014",
       "t": "Risotto aux courgettes et carottes au Thermomix » Recette Thermomix",
-      "cat": "Plat",
+      "cat": "Risotto",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -6391,7 +6391,7 @@
     {
       "id": "dropbox:9d51417b-4b45-40d9-80f7-fda19e11d1d3",
       "t": "Risotto crémeux à l’Air Fryer",
-      "cat": "Plat",
+      "cat": "Risotto",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -6415,7 +6415,7 @@
     {
       "id": "dropbox:e0271056-7f12-45ed-a0bb-ed66ad52e912",
       "t": "Risotto de haricots tarbais à la fourme d’Ambert",
-      "cat": "Plat",
+      "cat": "Risotto",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -6442,7 +6442,7 @@
     {
       "id": "dropbox:-1693180694",
       "t": "Risotto façon mexicaine - Amandine Cooking",
-      "cat": "Plat",
+      "cat": "Risotto",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -6468,7 +6468,7 @@
     {
       "id": "dropbox:cb364473-fd85-41f3-96ed-09a83f8fba70",
       "t": "Risotto léger aux courgettes",
-      "cat": "Plat",
+      "cat": "Risotto",
       "area": "",
       "min": 45,
       "serv": 0,
@@ -6491,7 +6491,7 @@
     {
       "id": "dropbox:1265967939",
       "t": "Risotto Léger aux Légumes WW - Recette WW - Plat et Recette",
-      "cat": "Plat",
+      "cat": "Risotto",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -6747,7 +6747,7 @@
     {
       "id": "dropbox:1825317382",
       "t": "Riz sauté aux oignons frits",
-      "cat": "Plat",
+      "cat": "Wok",
       "area": "",
       "min": 75,
       "serv": 0,
@@ -6907,7 +6907,7 @@
     {
       "id": "dropbox:2cb0bb41-13a4-4504-8f4f-7515ea963ef7",
       "t": "Rouleaux de Pizza Faciles à l’Air Fryer",
-      "cat": "Plat",
+      "cat": "Pizza",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7016,7 +7016,7 @@
     {
       "id": "dropbox:-736177392",
       "t": "Sablés au chocolat pour pâques au Thermomix - Thermomix",
-      "cat": "Dessert",
+      "cat": "Biscuits & Cookies",
       "area": "",
       "min": 140,
       "serv": 0,
@@ -7217,7 +7217,7 @@
     {
       "id": "dropbox:9b11399f-0104-4026-9a5c-b66730f5f667",
       "t": "Sauté de porc aux oignons et aux tomates",
-      "cat": "Plat",
+      "cat": "Wok",
       "area": "",
       "min": 105,
       "serv": 0,
@@ -7242,7 +7242,7 @@
     {
       "id": "dropbox:b0a79372-84cf-4665-be2f-d562634c4b66",
       "t": "Sauté de porc en ragoût : la meilleure recette",
-      "cat": "Plat",
+      "cat": "Wok",
       "area": "",
       "min": 10,
       "serv": 0,
@@ -7265,7 +7265,7 @@
     {
       "id": "dropbox:05b5241d-4885-4192-b718-08ca6bfed1e8",
       "t": "Sauté de porc à la bière et au paprika",
-      "cat": "Plat",
+      "cat": "Wok",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7289,7 +7289,7 @@
     {
       "id": "dropbox:a96a3a63-3315-4ce3-9d04-1066e83e401c",
       "t": "Sauté de porc à la tomate d'Agnès",
-      "cat": "Plat",
+      "cat": "Wok",
       "area": "",
       "min": 60,
       "serv": 0,
@@ -7447,7 +7447,7 @@
     {
       "id": "dropbox:db9eb074-2834-4b36-955c-b0605cb4d5ed",
       "t": "Soupe champenoise",
-      "cat": "Plat",
+      "cat": "Soupe",
       "area": "",
       "min": 10,
       "serv": 0,
@@ -7466,7 +7466,7 @@
     {
       "id": "dropbox:1621846856",
       "t": "Super fondant au chocolat au Thermomix » Recette Thermomix",
-      "cat": "Dessert",
+      "cat": "Gâteau au chocolat",
       "area": "",
       "min": 15,
       "serv": 0,
@@ -7514,7 +7514,7 @@
     {
       "id": "dropbox:124568998",
       "t": "Tajine de carottes et pois chiches au thermomix - Recette Thermomix",
-      "cat": "Plat",
+      "cat": "Tajine",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7551,7 +7551,7 @@
     {
       "id": "dropbox:c2e25678-f617-4e48-a88f-4f9d5da03080",
       "t": "Tarte au Saumon Fumé",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 45,
       "serv": 0,
@@ -7590,7 +7590,7 @@
     {
       "id": "dropbox:1793649744",
       "t": "TARTE AUX POIREAUX ET AU CHÈVRE",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 70,
       "serv": 0,
@@ -7621,7 +7621,7 @@
     {
       "id": "dropbox:fa013719-0f25-477a-809c-0ba868e29038",
       "t": "Tarte aux Pommes Façon Crème Brûlée : Un Délice à Savourer",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7651,7 +7651,7 @@
     {
       "id": "dropbox:1d0bc283-2777-48c8-9c8e-b2125d0007e4",
       "t": "Tarte à la patate douce et au Brie",
-      "cat": "Plat",
+      "cat": "Quiche & Tarte",
       "area": "",
       "min": 75,
       "serv": 0,
@@ -7829,7 +7829,7 @@
     {
       "id": "dropbox:b6e8e4d7-5e89-4fd4-9ef8-0f706f492edf",
       "t": "Un gâteau moelleux moelleux délicieux et ultra rapide à faire !",
-      "cat": "Dessert",
+      "cat": "Gâteau",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -8009,7 +8009,7 @@
     {
       "id": "dropbox:13dd5187-429b-4541-9f2b-c613fd116e64",
       "t": "🍫 MOELLEUX HEALTHY AU CHOCOLAT 🍫",
-      "cat": "Dessert",
+      "cat": "Gâteau au chocolat",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -8046,7 +8046,7 @@
     {
       "id": "dropbox:49a192db-a8ac-4420-ab17-f7597e9f70cb",
       "t": "🥚 Gratin d’œufs durs au jambon –... - monsieurcuisine_healthy",
-      "cat": "Plat",
+      "cat": "Gratin",
       "area": "",
       "min": 40,
       "serv": 0,
@@ -8070,7 +8070,7 @@
     {
       "id": "dropbox:35f3aa10-08ce-42fc-bbe1-24026f5aa9f0",
       "t": "🥞 Crêpes aux pommes en 5 minutes – recette rapide et gourmande",
-      "cat": "Dessert",
+      "cat": "Crêpes sucrées",
       "area": "",
       "min": 5,
       "serv": 0,
@@ -8092,7 +8092,7 @@
     {
       "id": "dropbox:350e5b6d-1c03-44ef-b98e-c888b0735ba6",
       "t": "🧁Muffins au AirFryer ultra moelleux ! #recettefacile #gateau #muffins #food",
-      "cat": "Dessert",
+      "cat": "Gâteau",
       "area": "",
       "min": 0,
       "serv": 0,
