@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.11';
+const APP_VERSION = '2.12';
 
 let ALL = [];
 let BASE = [];
@@ -25,8 +25,14 @@ const REMOTE_URL = 'https://raw.githubusercontent.com/laurentsar/recettes/master
 let toastTimer;
 function toast(msg){ const t=document.getElementById('toast'); if(!t) return; t.textContent=msg; t.hidden=false; clearTimeout(toastTimer); toastTimer=setTimeout(()=>{t.hidden=true;},3000); }
 async function fetchRemoteText(){
-  try{ const r = await fetch(REMOTE_URL + '?t=' + Date.now(), { cache:'no-store' }); return r.ok ? await r.text() : null; }
-  catch(e){ return null; }
+  // ?t= + en-têtes no-cache : contourne le cache de CapacitorHttp (sinon réponse périmée)
+  try{
+    const r = await fetch(REMOTE_URL + '?t=' + Date.now(), {
+      cache: 'no-store',
+      headers: { 'Cache-Control': 'no-cache, no-store, max-age=0', 'Pragma': 'no-cache' },
+    });
+    return r.ok ? await r.text() : null;
+  } catch(e){ return null; }
 }
 async function syncRemote(manual){
   const btn=document.getElementById('sync-btn'); if(btn) btn.classList.add('spin');
