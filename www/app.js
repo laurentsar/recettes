@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.7';
+const APP_VERSION = '2.8';
 
 let ALL = [];
 let BASE = [];
@@ -135,7 +135,6 @@ const ENTREE_KW = ['salade','soupe','veloute','potage','verrine','tartare','terr
 const USTENSILES = {
   'Airfryer':['airfryer','air fryer','friteuse a air','ninja foodi'],
   'Thermomix':['thermomix','varoma'],
-  'Four':['four','enfourner','prechauffer','prechauffez'],
 };
 
 // Arbre d'affichage du menu catégories (les feuilles = noms produits par autoCategorize).
@@ -302,7 +301,7 @@ function filtered(){
 
 /* ---------- catégories ---------- */
 // Catégories masquées partout (filtre, fiches, comptage) — comparées via norm().
-const EXCLUDED_CATS = new Set(['poivron','gateau','wok','gateau au chocolat','tajine','sandwich','moule']);
+const EXCLUDED_CATS = new Set(['poivron','gateau','wok','gateau au chocolat','tajine','sandwich','moule','four']);
 // Une recette peut avoir plusieurs catégories, stockées dans r.cat séparées par des virgules.
 function catList(r){
   return String((r && r.cat) || '').split(',').map(s=>s.trim()).filter(Boolean)
