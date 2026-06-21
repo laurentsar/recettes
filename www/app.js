@@ -3,6 +3,7 @@
 let ALL = [];
 let BASE = [];
 let cats = [];
+let catCount = {};
 let state = { q:'', cat:'all', ing:null };
 const favs = new Set(JSON.parse(localStorage.getItem('recetteFavs') || '[]'));
 let edits = JSON.parse(localStorage.getItem('recetteEdits') || '{}');
@@ -139,21 +140,21 @@ function filtered(){
 
 /* ---------- catégories ---------- */
 function buildCats(){
-  const count={};
-  ALL.forEach(r=>{ const c=r.cat||'Sans catégorie'; count[c]=(count[c]||0)+1; });
-  cats = Object.keys(count).sort((a,b)=> count[b]-count[a] || a.localeCompare(b));
+  catCount={};
+  ALL.forEach(r=>{ const c=r.cat||'Sans catégorie'; catCount[c]=(catCount[c]||0)+1; });
+  cats = Object.keys(catCount).sort((a,b)=> catCount[b]-catCount[a] || a.localeCompare(b));
   renderChips();
 }
 function renderChips(){
-  const chip=(id,label)=>`<button class="chip ${state.cat===id?'active':''}" data-cat="${esc(id)}">${esc(label)}</button>`;
   const ingLabel = state.ing ? `🥕 ${cap(state.ing)} ✕` : '🥕 Ingrédient';
-  let html = `<button class="chip ing-chip ${state.ing?'active':''}" data-act="ing">${esc(ingLabel)}</button>`;
-  html += chip('all','Tout');
-  if (favs.size) html += chip('fav','❤️ Favoris');
-  html += cats.map(c=>chip(c,c)).join('');
-  elCats.innerHTML = html;
-  elCats.querySelectorAll('.chip[data-cat]').forEach(b=> b.addEventListener('click',()=>{ state.cat=b.dataset.cat; renderChips(); renderGrid(); }));
-  elCats.querySelector('.ing-chip').addEventListener('click', ()=>{
+  let opts = `<option value="all"${state.cat==='all'?' selected':''}>Toutes les catégories</option>`;
+  if (favs.size) opts += `<option value="fav"${state.cat==='fav'?' selected':''}>❤️ Favoris</option>`;
+  opts += cats.map(c=>`<option value="${esc(c)}"${state.cat===c?' selected':''}>${esc(c)} (${catCount[c]||0})</option>`).join('');
+  elCats.innerHTML = `
+    <button class="chip ing-chip ${state.ing?'active':''}" id="ing-filter-btn">${esc(ingLabel)}</button>
+    <div class="cat-select-wrap"><select id="cat-select">${opts}</select></div>`;
+  document.getElementById('cat-select').addEventListener('change', e=>{ state.cat=e.target.value; renderGrid(); });
+  document.getElementById('ing-filter-btn').addEventListener('click', ()=>{
     if (state.ing){ state.ing=null; renderChips(); renderGrid(); } else openIngPick();
   });
 }
@@ -183,6 +184,38 @@ function openIngPick(){
   el.querySelector('.ip-close').addEventListener('click', closeIngPick);
 }
 function closeIngPick(){ document.getElementById('ingpick').hidden = true; document.body.style.overflow=''; }
+
+/* ---------- ajustement rapide de catégorie ---------- */
+function openCatPick(id){
+  const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
+  const el = document.getElementById('catpick');
+  const opts = cats.map(c=>`<option value="${esc(c)}"${r.cat===c?' selected':''}>${esc(c)} (${catCount[c]||0})</option>`).join('');
+  el.innerHTML = `
+    <div class="cpm-backdrop"></div>
+    <div class="cpm-box">
+      <div class="cpm-title">Catégorie de « ${esc(r.t)} »</div>
+      <select id="cpm-sel">${opts}</select>
+      <input id="cpm-new" type="text" placeholder="Ou saisir une nouvelle catégorie…" autocomplete="off">
+      <div class="cpm-btns">
+        <button class="cpm-cancel">Annuler</button>
+        <button class="cpm-save">Enregistrer</button>
+      </div>
+    </div>`;
+  el.hidden = false;
+  const sel = document.getElementById('cpm-sel');
+  const inp = document.getElementById('cpm-new');
+  sel.addEventListener('change', ()=>{ inp.value = ''; });
+  inp.addEventListener('input', ()=>{ if(inp.value.trim()) sel.selectedIndex=-1; else{ const match=cats.indexOf(r.cat); if(match>=0) sel.selectedIndex=match; } });
+  el.querySelector('.cpm-cancel').addEventListener('click', closeCatPick);
+  el.querySelector('.cpm-backdrop').addEventListener('click', closeCatPick);
+  el.querySelector('.cpm-save').addEventListener('click', ()=>{
+    const val = (inp.value.trim() || sel.value || '').trim();
+    if(!val){ closeCatPick(); return; }
+    edits[id] = Object.assign({}, edits[id]||{}, { cat: val });
+    saveEdits(); refreshAll(); closeCatPick(); openDetail(id);
+  });
+}
+function closeCatPick(){ document.getElementById('catpick').hidden = true; }
 
 /* ---------- grille ---------- */
 function card(r){
@@ -216,8 +249,9 @@ function openDetail(id){
   const hero = r.img
     ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph>🍲</div>'">`
     : `<div class="ph">🍲</div>`;
+  const catLabel = r.cat ? `${esc(r.cat)} ✏️` : '+ Catégorie';
   const tags = [
-    r.cat?`<span class="tag cat">${esc(r.cat)}</span>`:'',
+    `<button class="tag cat tag-cat-btn" title="${r.cat?'Modifier':'Ajouter'} la catégorie">${catLabel}</button>`,
     r.area?`<span class="tag">📍 ${esc(r.area)}</span>`:'',
     r.min?`<span class="tag">⏱️ ${r.min} min</span>`:'',
     r.serv?`<span class="tag">🍽️ ${r.serv} pers.</span>`:'',
@@ -258,6 +292,7 @@ function openDetail(id){
   });
   elDetail.querySelector('.d-edit').addEventListener('click', ()=> openEdit(r.id));
   elDetail.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
+  elDetail.querySelector('.tag-cat-btn').addEventListener('click', ()=> openCatPick(r.id));
 }
 function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; renderChips(); renderGrid(); }
 
@@ -439,7 +474,7 @@ function openEdit(id){
     </div>
     <div class="edit-body">
       ${field('Titre', `<input id="e-t" value="${v(r.t)}">`)}
-      ${field('Catégorie', `<input id="e-cat" value="${v(r.cat)}">`)}
+      ${field('Catégorie', `<input id="e-cat" list="e-cats-list" value="${v(r.cat)}" autocomplete="off" placeholder="Choisir ou saisir…"><datalist id="e-cats-list">${cats.map(c=>`<option value="${esc(c)}">`).join('')}</datalist>`)}
       <div class="ef-row">${field('Durée (min)', `<input id="e-min" type="number" min="0" value="${v(r.min)}">`)}${field('Portions', `<input id="e-serv" type="number" min="0" value="${v(r.serv)}">`)}</div>
       ${field('Image (URL)', `<input id="e-img" value="${v(r.img)}">`)}
       <div class="ef-row">${field('Source (URL)', `<input id="e-url" value="${v(r.url)}">`)}${field('Vidéo (URL)', `<input id="e-vid" value="${v(r.vid)}">`)}</div>
