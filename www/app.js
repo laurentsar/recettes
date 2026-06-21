@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.5';
+const APP_VERSION = '2.6';
 
 let ALL = [];
 let BASE = [];
@@ -90,7 +90,7 @@ function hasWord(hay, kw){
 const VEGGIES = {
   'Carotte':['carotte'], 'Courgette':['courgette'], 'Tomate':['tomate'],
   'Pomme de terre':['pomme de terre','patate'], 'Poireau':['poireau'], 'Aubergine':['aubergine'],
-  'Poivron':['poivron'], 'Champignon':['champignon','cepe','girolle'],
+  'Champignon':['champignon','cepe','girolle'],
   'Brocoli':['brocoli'], 'Chou-fleur':['chou-fleur','chou fleur'], 'Chou':['chou','chou rouge','chou vert'],
   'Épinard':['epinard'], 'Haricot vert':['haricot vert'], 'Petit pois':['petit pois','petits pois'],
   'Courge':['courge','potiron','butternut','potimarron'], 'Concombre':['concombre'],
@@ -119,10 +119,36 @@ const SEAFOOD = {
   'Crevette':['crevette','gambas'], 'Moule':['moule'], 'Huître':['huitre'], 'Crabe':['crabe'],
   'Saint-Jacques':['saint-jacques','saint jacques','noix de saint'], 'Calamar':['calamar','encornet','seiche'],
 };
+// Sous-catégories DESSERT.
+const CHOCO_KW = ['chocolat','cacao','choco','ganache','praline','nutella'];
+const FRUITS = {
+  'Pomme':['pomme'], 'Poire':['poire'], 'Banane':['banane'], 'Fraise':['fraise'], 'Framboise':['framboise'],
+  'Pêche':['peche'], 'Abricot':['abricot'], 'Citron':['citron'], 'Orange':['orange'], 'Mangue':['mangue'],
+  'Ananas':['ananas'], 'Cerise':['cerise'], 'Myrtille':['myrtille'], 'Kiwi':['kiwi'], 'Melon':['melon'],
+  'Rhubarbe':['rhubarbe'], 'Coco':['coco','noix de coco'], 'Prune':['prune','mirabelle'], 'Figue':['figue'],
+};
 const DESSERT_KW = ['chocolat','sucre','gateau','patisserie','biscuit','gaufre','mousse','flan','glace','caramel',
   'vanille','meringue','tiramisu','fondant','brownie','cookie','madeleine','clafoutis','compote','confiture',
-  'miel','chantilly','beignet','panna cotta','crumble','sucre glace'];
+  'miel','chantilly','beignet','panna cotta','crumble','sucre glace','tarte sucree','entremet'];
 const ENTREE_KW = ['salade','soupe','veloute','potage','verrine','tartare','terrine','gaspacho','bruschetta','carpaccio','tapas','houmous','guacamole'];
+// Ustensiles (détectés dans titre/préparation/catégorie).
+const USTENSILES = {
+  'Airfryer':['airfryer','air fryer','friteuse a air','ninja foodi'],
+  'Thermomix':['thermomix','varoma'],
+  'Four':['four','enfourner','prechauffer','prechauffez'],
+};
+
+// Arbre d'affichage du menu catégories (les feuilles = noms produits par autoCategorize).
+const TAXONOMY = {
+  'Entrée': null,
+  'Plat': {
+    'Viande': Object.keys(MEATS),
+    'Poisson': Object.keys(SEAFOOD),
+    'Légumes': Object.keys(VEGGIES),
+  },
+  'Dessert': { 'Chocolat': null, 'Fruits': Object.keys(FRUITS) },
+  'Ustensile': Object.keys(USTENSILES),
+};
 
 function autoCategorize(){
   let added=0, touched=0;
@@ -132,20 +158,35 @@ function autoCategorize(){
     const have = new Set(catList(r).map(c=>c.toLowerCase()));
     const toAdd = [];
     const push = c => { if(!have.has(c.toLowerCase())){ toAdd.push(c); have.add(c.toLowerCase()); } };
-    // Légumes détaillés
-    for (const [veg, kws] of Object.entries(VEGGIES)) if (kws.some(k=> hasWord(ingHay,k))) push(veg);
-    // Viandes détaillées (type précis)
-    for (const [m, kws] of Object.entries(MEATS)) if (kws.some(k=> hasWord(fullHay,k))) push(m);
-    // Poisson / fruits de mer détaillés (+ repli « Poisson » si générique sans espèce)
+    // Légumes : feuille précise (Carotte…) + parent « Légumes »
+    let anyVeg=false;
+    for (const [veg, kws] of Object.entries(VEGGIES)) if (kws.some(k=> hasWord(ingHay,k))){ push(veg); anyVeg=true; }
+    if (anyVeg) push('Légumes');
+    // Viande : feuille (Poulet…) + parent « Viande »
+    let anyMeat=false;
+    for (const [m, kws] of Object.entries(MEATS)) if (kws.some(k=> hasWord(fullHay,k))){ push(m); anyMeat=true; }
+    if (anyMeat) push('Viande');
+    // Poisson : feuille (Saumon…) + parent « Poisson » (repli si espèce non précisée)
     let anySea=false;
     for (const [f, kws] of Object.entries(SEAFOOD)) if (kws.some(k=> hasWord(fullHay,k))){ push(f); anySea=true; }
-    if (!anySea && (hasWord(fullHay,'poisson') || hasWord(fullHay,'fruits de mer'))) push('Poisson');
+    if (anySea || hasWord(fullHay,'poisson') || hasWord(fullHay,'fruits de mer')) push('Poisson');
+    // Ustensiles (Airfryer / Thermomix / Four)
+    for (const [u, kws] of Object.entries(USTENSILES)) if (kws.some(k=> hasWord(fullHay,k))) push(u);
     // Type de plat (un seul : Dessert > Entrée > Plat par défaut)
+    let course = null;
     if (!['dessert','entrée','entree','plat'].some(c=> have.has(c))){
-      let course = 'Plat';
+      course = 'Plat';
       if (DESSERT_KW.some(k=> hasWord(fullHay,k))) course='Dessert';
       else if (ENTREE_KW.some(k=> hasWord(fullHay,k))) course='Entrée';
       push(course);
+    }
+    // Sous-catégories Dessert : Chocolat + Fruits (feuille + parent)
+    const isDessert = course==='Dessert' || have.has('dessert');
+    if (isDessert){
+      if (CHOCO_KW.some(k=> hasWord(fullHay,k))) push('Chocolat');
+      let anyFruit=false;
+      for (const [fr, kws] of Object.entries(FRUITS)) if (kws.some(k=> hasWord(fullHay,k))){ push(fr); anyFruit=true; }
+      if (anyFruit) push('Fruits');
     }
     if (toAdd.length){
       const merged = catList(r).concat(toAdd);
@@ -260,9 +301,12 @@ function filtered(){
 }
 
 /* ---------- catégories ---------- */
+// Catégories masquées partout (filtre, fiches, comptage) — comparées via norm().
+const EXCLUDED_CATS = new Set(['poivron','gateau','wok','gateau au chocolat','tajine','sandwich']);
 // Une recette peut avoir plusieurs catégories, stockées dans r.cat séparées par des virgules.
 function catList(r){
-  return String((r && r.cat) || '').split(',').map(s=>s.trim()).filter(Boolean);
+  return String((r && r.cat) || '').split(',').map(s=>s.trim()).filter(Boolean)
+    .filter(c=> !EXCLUDED_CATS.has(norm(c)));
 }
 function buildCats(){
   catCount={};
@@ -270,37 +314,67 @@ function buildCats(){
   cats = Object.keys(catCount).sort((a,b)=> catCount[b]-catCount[a] || a.localeCompare(b));
   renderChips();
 }
+let catExpanded = new Set();
 function renderChips(){
   const ingLabel = state.ing ? `🥕 ${cap(state.ing)} ✕` : '🥕 Ingrédient';
   const nSel = state.cats.length + (state.fav ? 1 : 0);
   const catLabel = nSel ? `🏷️ ${nSel} sélection${nSel>1?'s':''}` : '🏷️ Catégories';
-  let rows = '';
-  if (favs.size) rows += `<label class="catopt"><input type="checkbox" id="catopt-fav"${state.fav?' checked':''}><span>❤️ Favoris</span><span class="catn">(${favs.size})</span></label>`;
-  rows += cats.map(c=>`<label class="catopt"><input type="checkbox" class="catopt-c" value="${esc(c)}"${state.cats.includes(c)?' checked':''}><span>${esc(c)}</span><span class="catn">(${catCount[c]||0})</span></label>`).join('');
   elCats.innerHTML = `
     <button class="chip ing-chip ${state.ing?'active':''}" id="ing-filter-btn">${esc(ingLabel)}</button>
     <div class="cat-multi">
       <button class="chip ${nSel?'active':''}" id="cat-btn">${esc(catLabel)} ▾</button>
-      <div class="cat-panel" id="cat-panel" hidden>
-        <button class="cat-clear" id="cat-clear">Tout afficher</button>
-        ${rows || '<div class="catopt-empty">Aucune catégorie</div>'}
-      </div>
+      <div class="cat-panel" id="cat-panel" hidden></div>
     </div>`;
   const panel = document.getElementById('cat-panel');
-  document.getElementById('cat-btn').addEventListener('click', (e)=>{ e.stopPropagation(); panel.hidden = !panel.hidden; });
+  document.getElementById('cat-btn').addEventListener('click', (e)=>{ e.stopPropagation(); panel.hidden = !panel.hidden; if(!panel.hidden) fillCatPanel(panel); });
   panel.addEventListener('click', e=> e.stopPropagation());
-  const favBox = document.getElementById('catopt-fav');
-  if (favBox) favBox.addEventListener('change', e=>{ state.fav = e.target.checked; renderGrid(); refreshCatLabel(); });
-  panel.querySelectorAll('.catopt-c').forEach(box=> box.addEventListener('change', ()=>{
-    state.cats = Array.from(panel.querySelectorAll('.catopt-c:checked')).map(i=>i.value);
-    renderGrid(); refreshCatLabel();
-  }));
-  document.getElementById('cat-clear').addEventListener('click', ()=>{
-    state.cats = []; state.fav = false; renderChips(); renderGrid();
-  });
   document.getElementById('ing-filter-btn').addEventListener('click', ()=>{
     if (state.ing){ state.ing=null; renderChips(); renderGrid(); } else openIngPick();
   });
+}
+// compte total d'un nœud (lui + descendants) — sert juste à masquer les nœuds vides.
+function catTotal(name, val){
+  let t = catCount[name]||0;
+  if (Array.isArray(val)) val.forEach(l=> t+=catCount[l]||0);
+  else if (val && typeof val==='object') Object.entries(val).forEach(([k,v])=> t+=catTotal(k,v));
+  return t;
+}
+function catNodeHtml(name, val, depth){
+  if (catTotal(name,val) === 0) return '';
+  let children = [];
+  if (Array.isArray(val)) children = val.map(l=>[l,null]);
+  else if (val && typeof val==='object') children = Object.entries(val);
+  const hasKids = children.length>0;
+  const open = catExpanded.has(name);
+  const own = catCount[name]||0;
+  const tog = hasKids ? `<button class="cattog" data-node="${esc(name)}">${open?'▾':'▸'}</button>` : `<span class="cattog sp"></span>`;
+  // Nœud sans tag propre mais avec enfants = en-tête de groupe (non cochable).
+  const label = own>0 || !hasKids
+    ? `<label class="catopt"><input type="checkbox" class="catopt-c" value="${esc(name)}"${state.cats.includes(name)?' checked':''}><span>${esc(name)}</span><span class="catn">(${own})</span></label>`
+    : `<span class="catopt cathead">${esc(name)}</span>`;
+  let html = `<div class="catrow" style="padding-left:${depth*14}px">${tog}${label}</div>`;
+  if (hasKids && open) for (const [cn,cv] of children) html += catNodeHtml(cn,cv,depth+1);
+  return html;
+}
+function fillCatPanel(panel){
+  let html = `<button class="cat-clear" id="cat-clear">Tout afficher</button>`;
+  if (favs.size) html += `<div class="catrow"><span class="cattog sp"></span><label class="catopt"><input type="checkbox" id="catopt-fav"${state.fav?' checked':''}><span>❤️ Favoris</span><span class="catn">(${favs.size})</span></label></div>`;
+  for (const [top, val] of Object.entries(TAXONOMY)) html += catNodeHtml(top, val, 0);
+  panel.innerHTML = html;
+  panel.querySelectorAll('.cattog[data-node]').forEach(b=> b.addEventListener('click', ()=>{
+    const n=b.dataset.node; catExpanded.has(n) ? catExpanded.delete(n) : catExpanded.add(n); fillCatPanel(panel);
+  }));
+  const favBox = panel.querySelector('#catopt-fav');
+  if (favBox) favBox.addEventListener('change', e=>{ state.fav=e.target.checked; renderGrid(); refreshCatLabel(); });
+  // bascule individuelle (préserve les sélections des nœuds repliés)
+  panel.querySelectorAll('.catopt-c').forEach(box=> box.addEventListener('change', ()=>{
+    const v=box.value;
+    if (box.checked){ if(!state.cats.includes(v)) state.cats.push(v); }
+    else state.cats = state.cats.filter(x=>x!==v);
+    renderGrid(); refreshCatLabel();
+  }));
+  const clr = panel.querySelector('#cat-clear');
+  if (clr) clr.addEventListener('click', ()=>{ state.cats=[]; state.fav=false; fillCatPanel(panel); renderGrid(); refreshCatLabel(); });
 }
 // Met juste à jour le libellé du bouton catégories (sans reconstruire le panneau ouvert).
 function refreshCatLabel(){
@@ -375,7 +449,7 @@ function card(r){
   const img = r.img
     ? `<img class="thumb" src="${esc(r.img)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph>🍽️</div>'">`
     : `<div class="ph">🍽️</div>`;
-  const meta = [r.min? '⏱️ '+r.min+' min':'', r.serv? '🍽️ '+r.serv : '', r.cat||''].filter(Boolean).slice(0,2).join(' · ');
+  const meta = [r.min? '⏱️ '+r.min+' min':'', r.serv? '🍽️ '+r.serv : '', catList(r).join(', ')].filter(Boolean).slice(0,2).join(' · ');
   return `<div class="rcard ${fav}" data-id="${esc(r.id)}">${img}
     <div class="info"><div class="rt">${esc(r.t)}</div><div class="meta">${esc(meta)}</div></div></div>`;
 }

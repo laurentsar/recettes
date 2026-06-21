@@ -233,6 +233,12 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .catopt span:first-of-type{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .catn{color:var(--muted);font-size:.85em;flex:0 0 auto}
 .catopt-empty{color:var(--muted);padding:10px;text-align:center}
+/* arbre hiérarchique du filtre catégories */
+.catrow{display:flex;align-items:center}
+.cattog{flex:0 0 auto;width:24px;height:36px;background:none;border:none;color:var(--muted);font-size:.85em;cursor:pointer;padding:0}
+.cattog.sp{visibility:hidden}
+.catrow .catopt{flex:1;min-width:0}
+.cathead{flex:1;font-weight:700;color:var(--muted);padding:9px 10px}
 
 /* sélecteur multi-catégories sur la fiche */
 .cpm-list{display:flex;flex-direction:column;gap:2px;max-height:46vh;overflow:auto}
