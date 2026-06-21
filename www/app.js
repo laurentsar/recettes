@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.10';
+const APP_VERSION = '2.11';
 
 let ALL = [];
 let BASE = [];
@@ -342,6 +342,22 @@ function catTotal(name, val){
   else if (val && typeof val==='object') Object.entries(val).forEach(([k,v])=> t+=catTotal(k,v));
   return t;
 }
+// Liste à plat des sous-catégories (descendants) d'un nœud de la TAXONOMY.
+function catDescendants(name){
+  const collect = (v)=>{
+    if (Array.isArray(v)) return v.slice();
+    if (v && typeof v==='object') return Object.entries(v).flatMap(([k,cv])=> [k, ...collect(cv)]);
+    return [];
+  };
+  const find = (v)=>{
+    if (v && typeof v==='object' && !Array.isArray(v)){
+      for (const [k,cv] of Object.entries(v)){ if(k===name) return cv; const r=find(cv); if(r!==undefined) return r; }
+    }
+    return undefined;
+  };
+  const sub = find(TAXONOMY);
+  return sub===undefined ? [] : collect(sub);
+}
 function catNodeHtml(name, val, depth){
   if (catTotal(name,val) === 0) return '';
   let children = [];
@@ -372,9 +388,13 @@ function fillCatPanel(panel){
   // bascule individuelle (préserve les sélections des nœuds repliés)
   panel.querySelectorAll('.catopt-c').forEach(box=> box.addEventListener('change', ()=>{
     const v=box.value;
-    if (box.checked){ if(!state.cats.includes(v)) state.cats.push(v); }
-    else state.cats = state.cats.filter(x=>x!==v);
-    renderGrid(); refreshCatLabel();
+    if (box.checked){
+      if(!state.cats.includes(v)) state.cats.push(v);
+      // cocher un parent -> décocher ses sous-catégories (redondantes)
+      const desc = catDescendants(v);
+      if (desc.length) state.cats = state.cats.filter(x=> !desc.includes(x));
+    } else state.cats = state.cats.filter(x=>x!==v);
+    fillCatPanel(panel); renderGrid(); refreshCatLabel();
   }));
   const clr = panel.querySelector('#cat-clear');
   if (clr) clr.addEventListener('click', ()=>{ state.cats=[]; state.fav=false; fillCatPanel(panel); renderGrid(); refreshCatLabel(); });
@@ -415,7 +435,11 @@ function mountCatTree(container, selected, expand, showAll){
       const n=b.dataset.node; expand.has(n)?expand.delete(n):expand.add(n); render();
     }));
     container.querySelectorAll('.catopt-c').forEach(box=> box.addEventListener('change', ()=>{
-      box.checked ? selected.add(box.value) : selected.delete(box.value);
+      if (box.checked){
+        selected.add(box.value);
+        catDescendants(box.value).forEach(d=> selected.delete(d)); // parent coché -> sous-catégories décochées
+      } else selected.delete(box.value);
+      render();
     }));
   }
   render();
