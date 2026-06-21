@@ -159,3 +159,36 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .cook-ing-close{display:block;width:100%;padding:13px;background:var(--card);
   border:1px solid var(--line);color:var(--text);font-weight:700;
   border-radius:10px;cursor:pointer;margin-bottom:14px}
+
+/* bouton import header */
+#import-btn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);
+  background:var(--card);color:var(--text);font-size:1.1em;cursor:pointer;padding:0}
+#import-btn:active{transform:scale(.94)}
+
+/* panneau import */
+.imp-tabs{display:flex;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--line);background:var(--bg2)}
+.imp-tabs::-webkit-scrollbar{display:none}
+.imp-tab{flex:1;min-width:70px;padding:12px 6px;background:none;border:none;
+  border-bottom:2px solid transparent;color:var(--muted);font-size:.83em;font-weight:700;cursor:pointer;white-space:nowrap}
+.imp-tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.imp-body{padding:16px 16px 0;max-width:760px;margin:0 auto}
+.imp-pane{display:flex;flex-direction:column;gap:12px}
+.imp-go{padding:14px;background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:#fff;border:none;border-radius:12px;font-size:1em;font-weight:700;cursor:pointer}
+.imp-note{color:var(--muted);font-size:.8em}
+.imp-drop{background:var(--card);border:2px dashed var(--line);border-radius:14px;
+  padding:36px 20px;text-align:center;cursor:pointer;display:flex;flex-direction:column;
+  gap:8px;align-items:center;transition:border-color .2s}
+.imp-drop-icon{font-size:2.8em}
+.imp-drop:hover,.imp-drop.drag{border-color:var(--accent)}
+.imp-loading{padding:24px;text-align:center;color:var(--muted);font-size:.95em;display:flex;align-items:center;justify-content:center;gap:10px}
+.imp-spinner{display:inline-block;width:18px;height:18px;border:2px solid var(--line);
+  border-top-color:var(--accent);border-radius:50%;animation:spin 0.8s linear infinite;flex:0 0 auto}
+.imp-error{padding:14px 16px;background:rgba(192,57,43,.15);border:1px solid rgba(192,57,43,.4);
+  border-radius:10px;color:#f0a090;font-size:.9em;margin:0 16px}
+#imp-result{padding:0 16px calc(env(safe-area-inset-bottom) + 30px);max-width:760px;margin:0 auto}
+.imp-preview{display:flex;flex-direction:column;gap:10px;padding-top:16px}
+.imp-ok{color:#aed581;font-weight:700;font-size:.88em;padding:10px 12px;
+  background:rgba(124,179,66,.12);border-radius:8px;border-left:4px solid #7cb342}
+.imp-save{padding:15px;background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:#fff;border:none;border-radius:12px;font-size:1em;font-weight:700;cursor:pointer;margin-top:6px}

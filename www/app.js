@@ -6,8 +6,14 @@ let cats = [];
 let state = { q:'', cat:'all', ing:null };
 const favs = new Set(JSON.parse(localStorage.getItem('recetteFavs') || '[]'));
 let edits = JSON.parse(localStorage.getItem('recetteEdits') || '{}');
+let imports = JSON.parse(localStorage.getItem('recetteImports') || '[]');
 function saveEdits(){ localStorage.setItem('recetteEdits', JSON.stringify(edits)); }
-function mergeEdits(){ return BASE.map(r => edits[r.id] ? Object.assign({}, r, edits[r.id]) : r); }
+function saveImports(){ localStorage.setItem('recetteImports', JSON.stringify(imports)); }
+function mergeEdits(){
+  const base = BASE.map(r => edits[r.id] ? Object.assign({},r,edits[r.id]) : r);
+  const imp  = imports.map(r => edits[r.id] ? Object.assign({},r,edits[r.id]) : r);
+  return [...base, ...imp];
+}
 function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderGrid(); }
 
 /* ---------- synchro OTA (pull du recipes.json publié) ---------- */
@@ -33,7 +39,7 @@ async function syncRemote(manual){
 
 const $ = (s)=>document.querySelector(s);
 const elGrid=$('#grid'), elCats=$('#cats'), elStatus=$('#status'), elSearch=$('#search'),
-      elDetail=$('#detail'), elSub=$('#hero-sub'), elCook=$('#cook');
+      elDetail=$('#detail'), elSub=$('#hero-sub'), elCook=$('#cook'), elImport=$('#import');
 
 const norm = (s)=> (s||'').toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
 const esc = (s)=> (s||'').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -455,6 +461,304 @@ function resetEdit(id){
   elEdit.hidden = true; openDetail(id);
 }
 
+/* ---------- import de recettes ---------- */
+function openImport(){
+  renderImportPanel();
+  elImport.hidden = false;
+  document.body.style.overflow = 'hidden';
+}
+function closeImport(){ elImport.hidden = true; document.body.style.overflow = ''; }
+
+function renderImportPanel(){
+  elImport.innerHTML = `
+    <div class="edit-head">
+      <button class="imp-close">← Fermer</button>
+      <h2>Importer une recette</h2>
+      <span style="width:80px"></span>
+    </div>
+    <div class="imp-tabs">
+      <button class="imp-tab active" data-tab="url">🌐 Site</button>
+      <button class="imp-tab" data-tab="video">📹 Vidéo</button>
+      <button class="imp-tab" data-tab="file">📁 Fichier</button>
+      <button class="imp-tab" data-tab="text">📝 Texte</button>
+    </div>
+    <div class="imp-body">
+      <div id="imp-tab-url" class="imp-pane">
+        <label class="ef"><span>URL du site recette</span>
+          <input id="imp-url" type="url" placeholder="https://www.marmiton.org/…" autocomplete="off"></label>
+        <button class="imp-go" id="imp-url-btn">Extraire la recette</button>
+        <div class="imp-note">Compatible avec Marmiton, 750g, AllRecipes, Cuisineaz…</div>
+      </div>
+      <div id="imp-tab-video" class="imp-pane" hidden>
+        <label class="ef"><span>URL de la vidéo YouTube</span>
+          <input id="imp-yt" type="url" placeholder="https://www.youtube.com/watch?v=…" autocomplete="off"></label>
+        <button class="imp-go" id="imp-yt-btn">Extraire depuis YouTube</button>
+        <div class="imp-note">Titre et description de la vidéo</div>
+      </div>
+      <div id="imp-tab-file" class="imp-pane" hidden>
+        <input id="imp-file" type="file" accept=".txt,.md,.json,.pdf,image/*" style="display:none">
+        <div class="imp-drop" id="imp-drop">
+          <div class="imp-drop-icon">📁</div>
+          <div>Appuyer pour choisir un fichier</div>
+          <div class="imp-note">TXT · MD · JSON · PDF · JPG · PNG · WEBP</div>
+        </div>
+      </div>
+      <div id="imp-tab-text" class="imp-pane" hidden>
+        <label class="ef"><span>Coller le texte de la recette</span>
+          <textarea id="imp-text" rows="10" placeholder="Titre\n\nIngrédients :\n– 200g de farine\n– 2 œufs\n\nPréparation :\n1. Mélanger…"></textarea></label>
+        <button class="imp-go" id="imp-text-btn">Analyser le texte</button>
+      </div>
+    </div>
+    <div id="imp-result" hidden></div>`;
+
+  elImport.querySelector('.imp-close').addEventListener('click', closeImport);
+  elImport.querySelectorAll('.imp-tab').forEach(tab=>{
+    tab.addEventListener('click', ()=>{
+      elImport.querySelectorAll('.imp-tab').forEach(t=>t.classList.remove('active'));
+      elImport.querySelectorAll('.imp-pane').forEach(p=>{ p.hidden=true; });
+      tab.classList.add('active');
+      document.getElementById('imp-tab-'+tab.dataset.tab).hidden = false;
+      document.getElementById('imp-result').hidden = true;
+    });
+  });
+  document.getElementById('imp-url-btn').addEventListener('click', ()=>{
+    const u = document.getElementById('imp-url').value.trim(); if(u) doImportUrl(u);
+  });
+  document.getElementById('imp-yt-btn').addEventListener('click', ()=>{
+    const u = document.getElementById('imp-yt').value.trim(); if(u) doImportYoutube(u);
+  });
+  const fileInput = document.getElementById('imp-file');
+  document.getElementById('imp-drop').addEventListener('click', ()=> fileInput.click());
+  fileInput.addEventListener('change', e=>{ if(e.target.files[0]) doImportFile(e.target.files[0]); });
+  // drag & drop
+  const drop = document.getElementById('imp-drop');
+  drop.addEventListener('dragover', e=>{ e.preventDefault(); drop.classList.add('drag'); });
+  drop.addEventListener('dragleave', ()=> drop.classList.remove('drag'));
+  drop.addEventListener('drop', e=>{ e.preventDefault(); drop.classList.remove('drag'); if(e.dataTransfer.files[0]) doImportFile(e.dataTransfer.files[0]); });
+  document.getElementById('imp-text-btn').addEventListener('click', ()=>{
+    const t = document.getElementById('imp-text').value.trim();
+    if(t) showImportPreview(parseRecipeText(t));
+  });
+}
+
+function impStatus(html){ const el=document.getElementById('imp-result'); el.hidden=false; el.innerHTML=html; }
+function impLoading(msg){ impStatus(`<div class="imp-loading"><span class="imp-spinner"></span>${esc(msg)}</div>`); }
+function impError(msg){ impStatus(`<div class="imp-error">⚠️ ${esc(msg)}</div>`); }
+
+/* -- chargement lazy de scripts externes -- */
+function loadScript(src){
+  return new Promise((res,rej)=>{
+    if(document.querySelector(`script[src="${src}"]`)){ res(); return; }
+    const s = document.createElement('script');
+    s.src = src; s.onload = res; s.onerror = ()=> rej(new Error('Impossible de charger '+src));
+    document.head.appendChild(s);
+  });
+}
+
+/* -- import URL (proxy CORS + JSON-LD) -- */
+async function doImportUrl(url){
+  impLoading('Récupération de la page…');
+  try{
+    const proxy = 'https://api.allorigins.win/get?url='+encodeURIComponent(url);
+    const res = await fetch(proxy); if(!res.ok) throw new Error('Erreur réseau');
+    const html = (await res.json()).contents;
+    const data = parseJsonLdRecipe(html) || parseOgMeta(html);
+    if(!data) throw new Error('Aucune recette trouvée. Copiez le texte et utilisez l\'onglet Texte.');
+    data.url = url;
+    showImportPreview(data);
+  }catch(e){ impError(e.message||'Impossible de récupérer la page'); }
+}
+
+function parseJsonLdRecipe(html){
+  for(const m of html.matchAll(/<script[^>]+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)){
+    try{
+      const obj = JSON.parse(m[1]);
+      const found = findSchema(obj,'Recipe');
+      if(found.length) return jsonLdToRecipe(found[0]);
+    }catch(e){}
+  }
+  return null;
+}
+function findSchema(obj, type){
+  if(!obj) return [];
+  if(Array.isArray(obj)) return obj.flatMap(o=>findSchema(o,type));
+  const t = obj['@type'];
+  if(t===type||(Array.isArray(t)&&t.includes(type))) return [obj];
+  if(obj['@graph']) return findSchema(obj['@graph'],type);
+  return [];
+}
+function jsonLdToRecipe(r){
+  const str = s=> typeof s==='string'?s:s?.text||s?.name||'';
+  const ing = (r.recipeIngredient||[]).map(i=>'– '+String(i).trim());
+  const stepsRaw = r.recipeInstructions||'';
+  const steps = Array.isArray(stepsRaw)
+    ? stepsRaw.map(str).filter(Boolean).join('\n')
+    : String(stepsRaw);
+  let min=0;
+  const pt = r.totalTime||r.cookTime||'';
+  if(pt){ const m=pt.match(/PT(?:(\d+)H)?(?:(\d+)M)?/); if(m) min=(+m[1]||0)*60+(+m[2]||0); }
+  let serv=0;
+  if(r.recipeYield){ const m=String(r.recipeYield).match(/\d+/); if(m) serv=+m[0]; }
+  let img='';
+  if(r.image){ img=typeof r.image==='string'?r.image:r.image?.url||r.image?.[0]?.url||r.image?.[0]||''; }
+  const cat = Array.isArray(r.recipeCategory)?r.recipeCategory[0]:r.recipeCategory||'';
+  return { t:r.name||'', desc:r.description||'', ing, steps, min, serv, cat, img };
+}
+function parseOgMeta(html){
+  const get = k=>{
+    const m = html.match(new RegExp(`<meta[^>]+(?:property|name)=["']${k}["'][^>]+content=["']([^"']+)["']`,'i'))
+           || html.match(new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["']${k}["']`,'i'));
+    return m?m[1]:'';
+  };
+  const t = get('og:title')||get('twitter:title'); if(!t) return null;
+  return { t, desc:get('og:description')||get('twitter:description'), img:get('og:image')||'', ing:[], steps:'' };
+}
+
+/* -- import YouTube -- */
+async function doImportYoutube(url){
+  impLoading('Récupération des infos YouTube…');
+  try{
+    const oe = await fetch('https://www.youtube.com/oembed?url='+encodeURIComponent(url)+'&format=json');
+    if(!oe.ok) throw new Error('Vidéo introuvable ou non publique');
+    const meta = await oe.json();
+    let desc='', steps='', ing=[];
+    try{
+      const proxy = 'https://api.allorigins.win/get?url='+encodeURIComponent(url);
+      const ph = (await (await fetch(proxy)).json()).contents;
+      const dm = ph.match(/"shortDescription":"([\s\S]+?)","isCrawlable"/);
+      if(dm) desc = dm[1].replace(/\\n/g,'\n').replace(/\\"/g,'"');
+      if(desc){ const p=parseRecipeText(meta.title+'\n\n'+desc); ing=p.ing; steps=p.steps; }
+    }catch(e){}
+    showImportPreview({ t:meta.title||'', desc, ing, steps, img:meta.thumbnail_url||'', vid:url });
+  }catch(e){ impError(e.message||'Impossible de récupérer la vidéo'); }
+}
+
+/* -- import fichier -- */
+async function doImportFile(file){
+  const name = file.name.toLowerCase();
+  const type = file.type;
+  if(name.endsWith('.json')) return doImportJson(file);
+  if(name.endsWith('.pdf')||type==='application/pdf') return doImportPdf(file);
+  if(type.startsWith('image/')) return doImportImage(file);
+  // texte
+  const text = await file.text();
+  showImportPreview(parseRecipeText(text));
+}
+
+async function doImportJson(file){
+  try{
+    const obj = JSON.parse(await file.text());
+    if(!obj.t && !obj.title){ impError('Format JSON non reconnu'); return; }
+    showImportPreview({
+      t:obj.t||obj.title||'', cat:obj.cat||obj.category||'',
+      desc:obj.desc||obj.description||'', ing:obj.ing||obj.ingredients||[],
+      steps:obj.steps||obj.instructions||'', min:obj.min||0, serv:obj.serv||0,
+      img:obj.img||'', url:obj.url||'', vid:obj.vid||''
+    });
+  }catch(e){ impError('Fichier JSON invalide'); }
+}
+
+async function doImportPdf(file){
+  impLoading('Chargement de PDF.js…');
+  try{
+    await loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js');
+    window.pdfjsLib.GlobalWorkerOptions.workerSrc =
+      'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    impLoading('Lecture du PDF…');
+    const pdf = await window.pdfjsLib.getDocument({ data: await file.arrayBuffer() }).promise;
+    let text = '';
+    for(let i=1; i<=Math.min(pdf.numPages,15); i++){
+      const page = await pdf.getPage(i);
+      const c = await page.getTextContent();
+      text += c.items.map(it=>it.str).join(' ')+'\n';
+    }
+    showImportPreview(parseRecipeText(text));
+  }catch(e){ impError('Impossible de lire le PDF : '+(e.message||'')); }
+}
+
+async function doImportImage(file){
+  impLoading('Chargement de Tesseract OCR (~4 Mo, une seule fois)…');
+  try{
+    await loadScript('https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/5.0.3/tesseract.min.js');
+    impLoading('Reconnaissance de texte… 0%');
+    const { data:{ text } } = await Tesseract.recognize(file, 'fra+eng', {
+      logger: m=>{
+        if(m.status==='recognizing text')
+          impLoading(`Reconnaissance de texte… ${Math.round(m.progress*100)}%`);
+      }
+    });
+    showImportPreview(parseRecipeText(text));
+  }catch(e){ impError('OCR impossible : '+(e.message||'')); }
+}
+
+/* -- parsing texte heuristique -- */
+function parseRecipeText(text){
+  const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);
+  if(!lines.length) return { t:'', ing:[], steps:'', desc:'' };
+  const result = { t:lines[0], ing:[], steps:'', desc:'', min:0, serv:0, cat:'' };
+  const ingHead = /ingr[eé]dients?|composition|il\s+vous\s+faut/i;
+  const stepHead = /pr[eé]paration|[eé]tapes?|instructions?|m[eé]thode|r[eé]alisation/i;
+  const ingPat  = /^\s*[-–•*·]\s*\S|^\d+\s*(g|kg|cl|dl|ml|l|cs?|cc?|cuill?|tasse|verre|pincée|botte|bo[îi]te|sachet|litre|gramme|tranche|filet|bouquet|brin|gousse|cube)\b/i;
+  const stepPat = /^\d+[\.\)]\s+\S/;
+  let mode = 'auto';
+  const ingArr=[], stepArr=[], descArr=[];
+  for(const line of lines.slice(1)){
+    if(ingHead.test(line)){ mode='ing'; continue; }
+    if(stepHead.test(line)){ mode='steps'; continue; }
+    if(mode==='ing'||(mode==='auto'&&ingPat.test(line))){
+      ingArr.push('– '+line.replace(/^[-–•*·]\s*/,''));
+      if(mode==='auto') mode='ing';
+    } else if(mode==='steps'||(mode!=='ing'&&stepPat.test(line))){
+      stepArr.push(line.replace(/^\d+[\.\)]\s*/,'').trim());
+      if(mode==='auto') mode='steps';
+    } else if(mode==='ing'&&!ingPat.test(line)&&line.length>40){
+      mode='steps'; stepArr.push(line);
+    } else {
+      descArr.push(line);
+    }
+  }
+  result.ing   = ingArr;
+  result.steps = stepArr.join('\n') || descArr.slice(1).join('\n');
+  result.desc  = descArr[0] || '';
+  return result;
+}
+
+/* -- prévisualisation & sauvegarde -- */
+function showImportPreview(data){
+  const el = document.getElementById('imp-result');
+  el.hidden = false;
+  el.innerHTML = `
+    <div class="imp-preview">
+      <div class="imp-ok">✓ Vérifiez et corrigez avant d'importer</div>
+      <label class="ef"><span>Titre *</span><input id="ip-t" value="${esc(data.t||'')}"></label>
+      <label class="ef"><span>Catégorie</span><input id="ip-cat" value="${esc(data.cat||'')}"></label>
+      <label class="ef"><span>Image (URL)</span><input id="ip-img" value="${esc(data.img||'')}"></label>
+      <label class="ef"><span>Description</span><textarea id="ip-desc" rows="2">${esc(data.desc||'')}</textarea></label>
+      <label class="ef"><span>Ingrédients (un par ligne)</span><textarea id="ip-ing" rows="7">${esc((data.ing||[]).join('\n'))}</textarea></label>
+      <label class="ef"><span>Préparation</span><textarea id="ip-steps" rows="9">${esc(data.steps||'')}</textarea></label>
+      <button class="imp-save">⬇ Enregistrer comme nouvelle recette</button>
+    </div>`;
+  el.querySelector('.imp-save').addEventListener('click', ()=> saveImportedRecipe(data.url||'', data.vid||''));
+  el.scrollIntoView({ behavior:'smooth' });
+}
+
+function saveImportedRecipe(url='', vid=''){
+  const t = document.getElementById('ip-t').value.trim();
+  if(!t){ toast('Le titre est obligatoire'); return; }
+  const ing = document.getElementById('ip-ing').value.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+  const r = {
+    id:'imp-'+Date.now(), t,
+    cat: document.getElementById('ip-cat').value.trim()||'Importé',
+    desc: document.getElementById('ip-desc').value.trim(),
+    ing, steps: document.getElementById('ip-steps').value.trim(),
+    img: document.getElementById('ip-img').value.trim(),
+    min:0, serv:0, url, vid, area:'',
+  };
+  imports.push(r); saveImports(); refreshAll();
+  closeImport();
+  toast(`"${t}" importée ✓`);
+}
+
 /* ---------- init ---------- */
 let searchTimer;
 async function init(){
@@ -470,6 +774,7 @@ async function init(){
   renderDaily();
   renderGrid();
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
+  document.getElementById('import-btn').addEventListener('click', openImport);
   syncRemote(false);
   elSearch.addEventListener('input', ()=>{
     clearTimeout(searchTimer);
@@ -481,6 +786,7 @@ async function init(){
     if(ip && !ip.hidden) closeIngPick();
     else if(!elEdit.hidden) closeEdit();
     else if(!elCook.hidden) closeCook();
+    else if(!elImport.hidden) closeImport();
     else if(!elDetail.hidden) closeDetail();
   });
   if ('serviceWorker' in navigator){ try{ navigator.serviceWorker.register('sw.js'); }catch(e){} }
