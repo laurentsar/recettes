@@ -1,30 +1,27 @@
 {
- "version": "699e37b8fccb",
+ "version": "817316c7d221",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:adce1eed-0fd0-4163-b752-0eb3ef3b098e",
-   "t": "Pois chiches à la tomates et au paprika",
+   "id": "dropbox:c86d2b46-6085-4fe6-a7c1-d9a7bea89cd2",
+   "t": "Poivron Grillé au Airfryer",
    "cat": "Plat",
    "area": "",
-   "min": 15,
+   "min": 25,
    "serv": 0,
-   "img": "https://deliacious.com/wp-content/uploads/2019/04/pois-chiches-paprika-fume-480x270.jpg",
-   "url": "https://deliacious.com/2019/04/pois-chiches-tomate-paprika.html",
+   "img": "https://easydelice.net/wp-content/uploads/2024/09/recette-facile-4-2-480x270.png",
+   "url": "https://easydelice.net/recette-de-poivron-grille-au-airfryer/",
    "vid": "",
-   "desc": "",
+   "desc": "Le poivron grillé au Airfryer est une option simple et rapide pour préparer des légumes savoureux avec une texture tendre et légèrement caramélisée.",
    "ing": [
-    "1 boite de purée de tomate bio",
-    "1 échalote",
-    "1 c. à soupe huile d'olive",
-    "250 g pois chiches (cuits",
-    "en boîte)",
-    "6 tomates confites",
-    "1 c. à café paprika fumé",
-    "1/2 c. à café sel",
-    "quelques feuilles de persil"
+    "2 gros poivrons (rouges",
+    "jaunes ou verts)",
+    "1 cuillère à soupe d'huile d'olive",
+    "1 pincée de sel",
+    "1 pincée de poivre",
+    "Optionnel : une pincée d'herbes de Provence ou de basilic pour plus de saveur"
    ],
-   "steps": "Epluchez votre échalote en retirant la peau extérieure puis en lui ôtant son germe.\n\nCiselez finement.\n\nDans une poêle, faites chauffer l'huile d'olive, puis ajoutez l'échalote. Faites revenir quelques minutes pour faire dorer les échalotes sur feu moyen-vif.\n\nAjoutez alors les pois chiches, et le paprika fumé, et faites revenir en remuant pour ne pas laisser brûler.\n\nAjoutez enfin la purée de tomates, les tomates confites et le sel, et laissez cuire pour réduire la sauce.\n\nServez chaud, avec une portion du féculent de votre choix et quelques feuilles de persil frais."
+   "steps": "Lavez les poivrons, coupez-les en deux et retirez les graines et les membranes blanches.\n\nCoupez ensuite les poivrons en larges lamelles ou en morceaux selon votre préférence.\n\nDans un bol, mélangez les lamelles de poivrons avec l'huile d'olive, le sel, le poivre, et éventuellement les herbes de votre choix.\n\nVeillez à bien enrober tous les morceaux de poivron pour qu'ils soient uniformément assaisonnés.\n\nPréchauffez votre Airfryer à 180°C pendant 3 minutes.\n\nDisposez les morceaux de poivron en une seule couche dans le panier du Airfryer.\n\nFaites cuire les poivrons pendant 10 à 12 minutes en les secouant à mi-cuisson pour qu’ils grillent de manière homogène.\n\nUne fois les poivrons bien grillés et tendres, retirez-les du Airfryer.\n\nServez-les chauds en accompagnement d'une viande ou en salade."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -5824,6 +5821,30 @@
    "steps": "Mettez dans le yaourt bol et sel et mixez 1 min à la vitesse 3.\n\nTapissez le panier de l’intérieur avec un tissu , égouttez la préparation puis placez le panier dans le bol.\n\nfermez le panier ( avec le gobelet doseur) et placez au réfrigérateur pendant une nuit.\n\nRécupérez votre fromage et dégustez , c’est très bon."
   },
   {
+   "id": "dropbox:adce1eed-0fd0-4163-b752-0eb3ef3b098e",
+   "t": "Pois chiches à la tomates et au paprika",
+   "cat": "Plat",
+   "area": "",
+   "min": 15,
+   "serv": 0,
+   "img": "https://deliacious.com/wp-content/uploads/2019/04/pois-chiches-paprika-fume-480x270.jpg",
+   "url": "https://deliacious.com/2019/04/pois-chiches-tomate-paprika.html",
+   "vid": "",
+   "desc": "",
+   "ing": [
+    "1 boite de purée de tomate bio",
+    "1 échalote",
+    "1 c. à soupe huile d'olive",
+    "250 g pois chiches (cuits",
+    "en boîte)",
+    "6 tomates confites",
+    "1 c. à café paprika fumé",
+    "1/2 c. à café sel",
+    "quelques feuilles de persil"
+   ],
+   "steps": "Epluchez votre échalote en retirant la peau extérieure puis en lui ôtant son germe.\n\nCiselez finement.\n\nDans une poêle, faites chauffer l'huile d'olive, puis ajoutez l'échalote. Faites revenir quelques minutes pour faire dorer les échalotes sur feu moyen-vif.\n\nAjoutez alors les pois chiches, et le paprika fumé, et faites revenir en remuant pour ne pas laisser brûler.\n\nAjoutez enfin la purée de tomates, les tomates confites et le sel, et laissez cuire pour réduire la sauce.\n\nServez chaud, avec une portion du féculent de votre choix et quelques feuilles de persil frais."
+  },
+  {
    "id": "dropbox:6db93cd1-39bb-46ad-a687-a69bfbb1aebf",
    "t": "Poisson à la bordelaise",
    "cat": "Poisson",
@@ -5846,27 +5867,6 @@
     "Sel et poivre"
    ],
    "steps": "Recette pour 4 personnes\n\n\nPréparation du poisson à la bordelaise\n\nPréparation de la sauce bordelaise\n :\n\nHacher l’ail, les échalotes et le persil\n\nFaire revenir à feu doux l’ail et l’échalote\n\nAjouter le vin blanc et continuer la cuisson jusqu’à évaporation de l’alcool\n\nMélanger la chapelure, le persil, le jus de citron, les échalotes et l’ail\n\nAssaisonner de Sel et de poivre\n\nPréchauffer le four à 180°C\n\nBadigeonner le fond du plat d’un filet d’huile d’olive\n\nVerser la sauce bordelaise sur le poisson\n\nEnfourner 20 à 25 minutes à 180 °C"
-  },
-  {
-   "id": "dropbox:c86d2b46-6085-4fe6-a7c1-d9a7bea89cd2",
-   "t": "Poivron Grillé au Airfryer",
-   "cat": "Plat",
-   "area": "",
-   "min": 25,
-   "serv": 0,
-   "img": "https://easydelice.net/wp-content/uploads/2024/09/recette-facile-4-2-480x270.png",
-   "url": "https://easydelice.net/recette-de-poivron-grille-au-airfryer/",
-   "vid": "",
-   "desc": "Le poivron grillé au Airfryer est une option simple et rapide pour préparer des légumes savoureux avec une texture tendre et légèrement caramélisée.",
-   "ing": [
-    "2 gros poivrons (rouges",
-    "jaunes ou verts)",
-    "1 cuillère à soupe d'huile d'olive",
-    "1 pincée de sel",
-    "1 pincée de poivre",
-    "Optionnel : une pincée d'herbes de Provence ou de basilic pour plus de saveur"
-   ],
-   "steps": "Lavez les poivrons, coupez-les en deux et retirez les graines et les membranes blanches.\n\nCoupez ensuite les poivrons en larges lamelles ou en morceaux selon votre préférence.\n\nDans un bol, mélangez les lamelles de poivrons avec l'huile d'olive, le sel, le poivre, et éventuellement les herbes de votre choix.\n\nVeillez à bien enrober tous les morceaux de poivron pour qu'ils soient uniformément assaisonnés.\n\nPréchauffez votre Airfryer à 180°C pendant 3 minutes.\n\nDisposez les morceaux de poivron en une seule couche dans le panier du Airfryer.\n\nFaites cuire les poivrons pendant 10 à 12 minutes en les secouant à mi-cuisson pour qu’ils grillent de manière homogène.\n\nUne fois les poivrons bien grillés et tendres, retirez-les du Airfryer.\n\nServez-les chauds en accompagnement d'une viande ou en salade."
   },
   {
    "id": "dropbox:593db823-c433-4f6c-9c60-33bb67704fb7",
