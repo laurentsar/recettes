@@ -1,27 +1,27 @@
 {
- "version": "817316c7d221",
+ "version": "cb1da3b42f5e",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:c86d2b46-6085-4fe6-a7c1-d9a7bea89cd2",
-   "t": "Poivron Grillé au Airfryer",
+   "id": "dropbox:-1647413520",
+   "t": "Pommes de terre gratinées à la sauce tomate - Plat et Recette - recette ww",
    "cat": "Plat",
    "area": "",
-   "min": 25,
+   "min": 20,
    "serv": 0,
-   "img": "https://easydelice.net/wp-content/uploads/2024/09/recette-facile-4-2-480x270.png",
-   "url": "https://easydelice.net/recette-de-poivron-grille-au-airfryer/",
+   "img": "https://www.platetrecette.fr/wp-content/uploads/2019/08/Pommes-de-terre-gratine.jpg",
+   "url": "https://www.platetrecette.fr/pommes-terre-gratinees-sauce-tomate/",
    "vid": "",
-   "desc": "Le poivron grillé au Airfryer est une option simple et rapide pour préparer des légumes savoureux avec une texture tendre et légèrement caramélisée.",
+   "desc": "Sa méthode est facile, superposer des pommes de terre en fines tranches avec du jambon de poulet et de la sauce tomate et du fromage râpé dans un plat à gratin, puis de les cuire au four.\nCe plat est digne d’une occasion spéciale, il est délicieux, rassasiant avec peu de points",
    "ing": [
-    "2 gros poivrons (rouges",
-    "jaunes ou verts)",
-    "1 cuillère à soupe d'huile d'olive",
-    "1 pincée de sel",
-    "1 pincée de poivre",
-    "Optionnel : une pincée d'herbes de Provence ou de basilic pour plus de saveur"
+    "400 g de pommes de terre",
+    "150 g de jambon de poulet",
+    "120 ml de sauce tomate fait maison",
+    "4 cuillères à soupe de parmesan râpé",
+    "Des feuilles de basilic",
+    "sel et poivre"
    ],
-   "steps": "Lavez les poivrons, coupez-les en deux et retirez les graines et les membranes blanches.\n\nCoupez ensuite les poivrons en larges lamelles ou en morceaux selon votre préférence.\n\nDans un bol, mélangez les lamelles de poivrons avec l'huile d'olive, le sel, le poivre, et éventuellement les herbes de votre choix.\n\nVeillez à bien enrober tous les morceaux de poivron pour qu'ils soient uniformément assaisonnés.\n\nPréchauffez votre Airfryer à 180°C pendant 3 minutes.\n\nDisposez les morceaux de poivron en une seule couche dans le panier du Airfryer.\n\nFaites cuire les poivrons pendant 10 à 12 minutes en les secouant à mi-cuisson pour qu’ils grillent de manière homogène.\n\nUne fois les poivrons bien grillés et tendres, retirez-les du Airfryer.\n\nServez-les chauds en accompagnement d'une viande ou en salade."
+   "steps": "Préparation des pommes de terre gratinées à la sauce tomate :\nLavez bien les pommes de terre et faites-les cuire dans l’eau salée pendant environ 30 minutes, ensuite égouttez-les et épluchez-les.\nCoupez les pommes de terre en tranches d’environ 1/2 cm d’épaisseur.\nDéposez une couche de pommes de terre dans un plat à gratin, suivi de la moitié de tranches de jambon puis recouvrez de la sauce tomate et parsemez de parmesan.\nPuis déposez une autre fois une couche de pommes de terre, de jambon, de sauce tomate puis le parmesan.\nEnfin déposez une couche de pomme de terre et recouvrez du reste de sauce tomate puis saupoudrez du reste de parmesan.\nMettez les pommes de terre gratinées cuire au four à 180° pendant environ 20 minutes, puis servez bien chaud avec une salade."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -5869,6 +5869,27 @@
    "steps": "Recette pour 4 personnes\n\n\nPréparation du poisson à la bordelaise\n\nPréparation de la sauce bordelaise\n :\n\nHacher l’ail, les échalotes et le persil\n\nFaire revenir à feu doux l’ail et l’échalote\n\nAjouter le vin blanc et continuer la cuisson jusqu’à évaporation de l’alcool\n\nMélanger la chapelure, le persil, le jus de citron, les échalotes et l’ail\n\nAssaisonner de Sel et de poivre\n\nPréchauffer le four à 180°C\n\nBadigeonner le fond du plat d’un filet d’huile d’olive\n\nVerser la sauce bordelaise sur le poisson\n\nEnfourner 20 à 25 minutes à 180 °C"
   },
   {
+   "id": "dropbox:c86d2b46-6085-4fe6-a7c1-d9a7bea89cd2",
+   "t": "Poivron Grillé au Airfryer",
+   "cat": "Plat",
+   "area": "",
+   "min": 25,
+   "serv": 0,
+   "img": "https://easydelice.net/wp-content/uploads/2024/09/recette-facile-4-2-480x270.png",
+   "url": "https://easydelice.net/recette-de-poivron-grille-au-airfryer/",
+   "vid": "",
+   "desc": "Le poivron grillé au Airfryer est une option simple et rapide pour préparer des légumes savoureux avec une texture tendre et légèrement caramélisée.",
+   "ing": [
+    "2 gros poivrons (rouges",
+    "jaunes ou verts)",
+    "1 cuillère à soupe d'huile d'olive",
+    "1 pincée de sel",
+    "1 pincée de poivre",
+    "Optionnel : une pincée d'herbes de Provence ou de basilic pour plus de saveur"
+   ],
+   "steps": "Lavez les poivrons, coupez-les en deux et retirez les graines et les membranes blanches.\n\nCoupez ensuite les poivrons en larges lamelles ou en morceaux selon votre préférence.\n\nDans un bol, mélangez les lamelles de poivrons avec l'huile d'olive, le sel, le poivre, et éventuellement les herbes de votre choix.\n\nVeillez à bien enrober tous les morceaux de poivron pour qu'ils soient uniformément assaisonnés.\n\nPréchauffez votre Airfryer à 180°C pendant 3 minutes.\n\nDisposez les morceaux de poivron en une seule couche dans le panier du Airfryer.\n\nFaites cuire les poivrons pendant 10 à 12 minutes en les secouant à mi-cuisson pour qu’ils grillent de manière homogène.\n\nUne fois les poivrons bien grillés et tendres, retirez-les du Airfryer.\n\nServez-les chauds en accompagnement d'une viande ou en salade."
+  },
+  {
    "id": "dropbox:593db823-c433-4f6c-9c60-33bb67704fb7",
    "t": "Polenta au Thermomix - Cuisine Momix",
    "cat": "Plat",
@@ -6025,27 +6046,6 @@
     "Persil : haché (pour la garniture (facultatif))"
    ],
    "steps": "Faites cuire les pommes de terre dans une grande casserole d'eau salée jusqu'à ce qu'elles soient tendres, environ 15 minutes. Égouttez-les et laissez-les refroidir légèrement.\n\nUne fois les pommes de terre refroidies, écrasez-les dans un bol jusqu'à obtenir une purée lisse. Ajoutez le parmesan râpé, l'œuf battu, la farine, le sel et le poivre. Mélangez bien jusqu'à obtenir une pâte homogène.\n\nPrenez une petite quantité de la pâte et façonnez-la en petites croquettes ou boules. Roulez chaque croquette dans la chapelure pour les enrober uniformément.\n\nPréchauffez votre Airfryer à 180°C. Disposez les croquettes dans le panier de l'Airfryer en une seule couche, en veillant à ne pas les superposer. Faites cuire pendant 10 à 15 minutes, en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées et croustillantes.\n\nServez les croquettes de pommes de terre au parmesan chaudes, garnies de persil haché si désiré. Elles sont parfaites en accompagnement d'une viande ou d'une salade, ou simplement en snack."
-  },
-  {
-   "id": "dropbox:-1647413520",
-   "t": "Pommes de terre gratinées à la sauce tomate - Plat et Recette - recette ww",
-   "cat": "Plat",
-   "area": "",
-   "min": 20,
-   "serv": 0,
-   "img": "https://www.platetrecette.fr/wp-content/uploads/2019/08/Pommes-de-terre-gratine.jpg",
-   "url": "https://www.platetrecette.fr/pommes-terre-gratinees-sauce-tomate/",
-   "vid": "",
-   "desc": "Sa méthode est facile, superposer des pommes de terre en fines tranches avec du jambon de poulet et de la sauce tomate et du fromage râpé dans un plat à gratin, puis de les cuire au four.\nCe plat est digne d’une occasion spéciale, il est délicieux, rassasiant avec peu de points",
-   "ing": [
-    "400 g de pommes de terre",
-    "150 g de jambon de poulet",
-    "120 ml de sauce tomate fait maison",
-    "4 cuillères à soupe de parmesan râpé",
-    "Des feuilles de basilic",
-    "sel et poivre"
-   ],
-   "steps": "Préparation des pommes de terre gratinées à la sauce tomate :\nLavez bien les pommes de terre et faites-les cuire dans l’eau salée pendant environ 30 minutes, ensuite égouttez-les et épluchez-les.\nCoupez les pommes de terre en tranches d’environ 1/2 cm d’épaisseur.\nDéposez une couche de pommes de terre dans un plat à gratin, suivi de la moitié de tranches de jambon puis recouvrez de la sauce tomate et parsemez de parmesan.\nPuis déposez une autre fois une couche de pommes de terre, de jambon, de sauce tomate puis le parmesan.\nEnfin déposez une couche de pomme de terre et recouvrez du reste de sauce tomate puis saupoudrez du reste de parmesan.\nMettez les pommes de terre gratinées cuire au four à 180° pendant environ 20 minutes, puis servez bien chaud avec une salade."
   },
   {
    "id": "dropbox:f303d5d6-6fcd-4e1a-a71d-f74393032202",
