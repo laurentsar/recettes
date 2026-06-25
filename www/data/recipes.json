@@ -1,27 +1,34 @@
 {
- "version": "cb1da3b42f5e",
+ "version": "472697dd97a0",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:-1647413520",
-   "t": "Pommes de terre gratinées à la sauce tomate - Plat et Recette - recette ww",
+   "id": "dropbox:1865427671",
+   "t": "Poulet marengo au Thermomix » Recette Thermomix",
    "cat": "Plat",
    "area": "",
-   "min": 20,
+   "min": 0,
    "serv": 0,
-   "img": "https://www.platetrecette.fr/wp-content/uploads/2019/08/Pommes-de-terre-gratine.jpg",
-   "url": "https://www.platetrecette.fr/pommes-terre-gratinees-sauce-tomate/",
+   "img": "https://www.recette247.com/wp-content/uploads/2019/10/Poulet-marengo-au-Thermomix.jpg",
+   "url": "https://www.recette247.com/thermomix/poulet-marengo-au-thermomix/",
    "vid": "",
-   "desc": "Sa méthode est facile, superposer des pommes de terre en fines tranches avec du jambon de poulet et de la sauce tomate et du fromage râpé dans un plat à gratin, puis de les cuire au four.\nCe plat est digne d’une occasion spéciale, il est délicieux, rassasiant avec peu de points",
+   "desc": "Voici une délicieuse recette de Poulet marengo, simple et facile à préparer chez vous au Thermomix.",
    "ing": [
-    "400 g de pommes de terre",
-    "150 g de jambon de poulet",
-    "120 ml de sauce tomate fait maison",
-    "4 cuillères à soupe de parmesan râpé",
-    "Des feuilles de basilic",
-    "sel et poivre"
+    "400 g de blanc de poulet",
+    "1 oignon",
+    "2 échalotes",
+    "1 gousse d’ail",
+    "100 g d’eau",
+    "2 c.à.s de vinaigre de vin blanc",
+    "1 de concentré de tomates",
+    "4 tomates",
+    "thym",
+    "laurier",
+    "persil",
+    "sel",
+    "poivre"
    ],
-   "steps": "Préparation des pommes de terre gratinées à la sauce tomate :\nLavez bien les pommes de terre et faites-les cuire dans l’eau salée pendant environ 30 minutes, ensuite égouttez-les et épluchez-les.\nCoupez les pommes de terre en tranches d’environ 1/2 cm d’épaisseur.\nDéposez une couche de pommes de terre dans un plat à gratin, suivi de la moitié de tranches de jambon puis recouvrez de la sauce tomate et parsemez de parmesan.\nPuis déposez une autre fois une couche de pommes de terre, de jambon, de sauce tomate puis le parmesan.\nEnfin déposez une couche de pomme de terre et recouvrez du reste de sauce tomate puis saupoudrez du reste de parmesan.\nMettez les pommes de terre gratinées cuire au four à 180° pendant environ 20 minutes, puis servez bien chaud avec une salade."
+   "steps": "Dans le bol de votre thermomix, ajouter l’oignon, les échalotes et l’ail, puis mixer durant 5 secondes à la vitesse 5. Racler les parois du bol à l’aide de la spatule.\nEnsuite, ajouter un peu d’huile d’olive et faire revenir durant 5 minutes, 100°C en sens inverse à la vitesse 2.\nAjouter le blanc de poulet coupé en lanière et cuire durant 5 minutes, 100°C en sens inverse à la vitesse mijotage.\nEnfin, ajouter l’eau, le vinaigre, le concentre de tomate, les tomates coupées en quatre , les herbes, saler et poivrer, puis cuire pendant 20 minutes, 100°C en sens inverse à la vitesse mijotage."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -6048,6 +6055,27 @@
    "steps": "Faites cuire les pommes de terre dans une grande casserole d'eau salée jusqu'à ce qu'elles soient tendres, environ 15 minutes. Égouttez-les et laissez-les refroidir légèrement.\n\nUne fois les pommes de terre refroidies, écrasez-les dans un bol jusqu'à obtenir une purée lisse. Ajoutez le parmesan râpé, l'œuf battu, la farine, le sel et le poivre. Mélangez bien jusqu'à obtenir une pâte homogène.\n\nPrenez une petite quantité de la pâte et façonnez-la en petites croquettes ou boules. Roulez chaque croquette dans la chapelure pour les enrober uniformément.\n\nPréchauffez votre Airfryer à 180°C. Disposez les croquettes dans le panier de l'Airfryer en une seule couche, en veillant à ne pas les superposer. Faites cuire pendant 10 à 15 minutes, en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées et croustillantes.\n\nServez les croquettes de pommes de terre au parmesan chaudes, garnies de persil haché si désiré. Elles sont parfaites en accompagnement d'une viande ou d'une salade, ou simplement en snack."
   },
   {
+   "id": "dropbox:-1647413520",
+   "t": "Pommes de terre gratinées à la sauce tomate - Plat et Recette - recette ww",
+   "cat": "Plat",
+   "area": "",
+   "min": 20,
+   "serv": 0,
+   "img": "https://www.platetrecette.fr/wp-content/uploads/2019/08/Pommes-de-terre-gratine.jpg",
+   "url": "https://www.platetrecette.fr/pommes-terre-gratinees-sauce-tomate/",
+   "vid": "",
+   "desc": "Sa méthode est facile, superposer des pommes de terre en fines tranches avec du jambon de poulet et de la sauce tomate et du fromage râpé dans un plat à gratin, puis de les cuire au four.\nCe plat est digne d’une occasion spéciale, il est délicieux, rassasiant avec peu de points",
+   "ing": [
+    "400 g de pommes de terre",
+    "150 g de jambon de poulet",
+    "120 ml de sauce tomate fait maison",
+    "4 cuillères à soupe de parmesan râpé",
+    "Des feuilles de basilic",
+    "sel et poivre"
+   ],
+   "steps": "Préparation des pommes de terre gratinées à la sauce tomate :\nLavez bien les pommes de terre et faites-les cuire dans l’eau salée pendant environ 30 minutes, ensuite égouttez-les et épluchez-les.\nCoupez les pommes de terre en tranches d’environ 1/2 cm d’épaisseur.\nDéposez une couche de pommes de terre dans un plat à gratin, suivi de la moitié de tranches de jambon puis recouvrez de la sauce tomate et parsemez de parmesan.\nPuis déposez une autre fois une couche de pommes de terre, de jambon, de sauce tomate puis le parmesan.\nEnfin déposez une couche de pomme de terre et recouvrez du reste de sauce tomate puis saupoudrez du reste de parmesan.\nMettez les pommes de terre gratinées cuire au four à 180° pendant environ 20 minutes, puis servez bien chaud avec une salade."
+  },
+  {
    "id": "dropbox:f303d5d6-6fcd-4e1a-a71d-f74393032202",
    "t": "Pommes de Terre Grenaille à l'Airfryer",
    "cat": "Plat",
@@ -6504,34 +6532,6 @@
     "1 cuillère à soupe de gingembre (émincé)"
    ],
    "steps": "Faire mariner le poulet dans la marinade durant au moins 2 heures, au plus vous attendez au plus ce sera goûtu.\n\nSur un grande assiette, mélanger les morceaux de poulet à la farine et et séparer les morceaux individuellement\n\nChauffer l'huile pour qu'elle atteigne entre 180 et 196 degrés celcius. Réglez votre plaque à puissance moyenne-haute\n\nFaire frire 3 x pendant 30 secondes en réservant les morceaux de poulet 1 min sur du papier absorbant entre deux"
-  },
-  {
-   "id": "dropbox:1865427671",
-   "t": "Poulet marengo au Thermomix » Recette Thermomix",
-   "cat": "Plat",
-   "area": "",
-   "min": 0,
-   "serv": 0,
-   "img": "https://www.recette247.com/wp-content/uploads/2019/10/Poulet-marengo-au-Thermomix.jpg",
-   "url": "https://www.recette247.com/thermomix/poulet-marengo-au-thermomix/",
-   "vid": "",
-   "desc": "Voici une délicieuse recette de Poulet marengo, simple et facile à préparer chez vous au Thermomix.",
-   "ing": [
-    "400 g de blanc de poulet",
-    "1 oignon",
-    "2 échalotes",
-    "1 gousse d’ail",
-    "100 g d’eau",
-    "2 c.à.s de vinaigre de vin blanc",
-    "1 de concentré de tomates",
-    "4 tomates",
-    "thym",
-    "laurier",
-    "persil",
-    "sel",
-    "poivre"
-   ],
-   "steps": "Dans le bol de votre thermomix, ajouter l’oignon, les échalotes et l’ail, puis mixer durant 5 secondes à la vitesse 5. Racler les parois du bol à l’aide de la spatule.\nEnsuite, ajouter un peu d’huile d’olive et faire revenir durant 5 minutes, 100°C en sens inverse à la vitesse 2.\nAjouter le blanc de poulet coupé en lanière et cuire durant 5 minutes, 100°C en sens inverse à la vitesse mijotage.\nEnfin, ajouter l’eau, le vinaigre, le concentre de tomate, les tomates coupées en quatre , les herbes, saler et poivrer, puis cuire pendant 20 minutes, 100°C en sens inverse à la vitesse mijotage."
   },
   {
    "id": "dropbox:1801841995",
