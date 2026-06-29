@@ -1,29 +1,34 @@
 {
- "version": "160f240c7c1f",
+ "version": "b4a5edb710d8",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:-13642766",
-   "t": "Quiche lorraine aux courgettes - Rachel cuisine",
+   "id": "dropbox:1365396750",
+   "t": "Ragoût de légumes d'hiver et pois chiches",
    "cat": "Plat",
    "area": "",
    "min": 0,
    "serv": 0,
-   "img": "http://rachel-cuisine.fr/wp-content/uploads/2019/09/quiche-lorraine-courgettes-1-683x1024.jpg",
-   "url": "http://rachel-cuisine.fr/2019/09/quiche-lorraine-aux-courgettes.html",
+   "img": "http://img.over-blog-kiwi.com/0/65/19/23/20180215/ob_8a34ae_ragout-de-legumes-d-hiver-et-pois-ch.JPG",
+   "url": "http://www.amandinecooking.com/ragout-de-legumes-d-hiver-et-pois-chiches.html",
    "vid": "",
-   "desc": "Bon alors là, je sais que les Lorrains vont me dire que ce n’est pas une quiche Lorraine car il y a des courgettes.Et ils n’auront pas tout à fait tord … Mais j’avais envie de rajouter des courgettes râpées dans ma quiche aux lardons de bacon … alors appelez là comme vous voulez ma quiche 😉Je fais en général une quiche sans pâte, une tarte ou une quiche dans la semaine. C’est pratique car je prépare la tarte à l’avance et je la met à cuire pendant que je lave mes enfants ou j’aide pour les devoirs.En plus, c’est pratique car il m’en reste une part pour le lendemain midi.Vous pouvez remplacer les lardons par du thon, un reste de poulet, … vous pouvez aussi remplacer les courgettes par des poireaux ou autre légume de saison.",
+   "desc": "",
    "ing": [
-    "ma pâte à tarte brisée légère maison",
-    "2 courgettes",
-    "3 œufs",
-    "10 cl de crème fraîche 12 %",
-    "75 g de lardons de bacon",
-    "Sel",
-    "poivre",
-    "30 g de gruyère râpé"
+    "100g de pois-chiches crus",
+    "1 oignon",
+    "1 chou-fleur",
+    "3-4 carottes",
+    "400g de pommes de terre",
+    "400g de concassée de tomates (en boîte)",
+    "40cl de bouillon de légumes",
+    "1cc de concentré de tomates (facultatif)",
+    "1cc de paprika fumé",
+    "1cc d'origan séché",
+    "huile d'olive",
+    "sel",
+    "poivre"
    ],
-   "steps": "Faire la pâte. L’étaler dans un moule à tarte avec du papier sulfurisé.Laver et râper les courgettes. Faire revenir dans une poêle antiadhésive pour enlever le maximum d’eau pendant 5 minutes environ.Lorsque les courgettes ne rendent plus d’eau, ajouter les lardons de bacon. Laisser cuire 2 minutes.Dans un saladier, mélanger les œufs, la crème fraîche, le sel et le poivre.Ajouter le mélange courgettes et lardons de bacon.Verser la préparation dans le moule à tarte, sur la pâte.Parsemer de fromage râpé.Faire cuire à four chaud pendant 30 minutes environ à 175°Se mange chaud, tiède ou froid. Verdict :« Trop bonne ta quiche maman  » bon ben tout est dit 😉Le fait de cuire les courgettes râpées enlève toute l’eau et donc la quiche n’est pas « détrempée ».C’est vraiment bon et équilibré, à manger avec une belle salade.Imprimer cette recette (1 votes, average: 5,00 out of 5)\nLoading..."
+   "steps": "Laver le chou-fleur et le détailler en fleurette. Peler et émincer l'oignon. Peler les carottes, les couper en tronçons de 2cm environ puis en deux, et les pommes de terre en morceaux de taille moyenne.\r\nDans une cocotte en fonte, faire chauffer un filet d'huile d'olive et faire revenir l'oignon quelques minutes. Ajouter les légumes et pois chiches puis couvrir avec le bouillon encore chaud (selon la taille de votre cocotte, ajouter un peu d'eau si le bouillon ne couvre pas bien la préparation), ajouter enfin le concentré de tomates, le paprika, l'origan, un peu de sel et du poivre.\r\nPorter à ébullition puis baisser le feu, couvrir et laisser mijoter une bonne heure.\r\n\r\nSi utilisation de pois-chiches cuits (en bocal ou conserve), compter 250g et les ajouter 5 minutes avant la fin de cuisson.\r\nOn peut omettre les pommes de terre et servir ce ragoût avec du riz, semoule ou quinoa."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -6923,6 +6928,29 @@
    "steps": "1 Préchauffez votre four à 200 °C. Étalez la pâte brisée dans un moule à tarte et piquez le fond avec une fourchette.\n\n2 Lavez les courgettes et coupez-les en rondelles bien fines. Faites chauffer l’huile d’olive dans une poêle et ajoutez les rondelles de courgettes. Ajoutez les herbes de Provence, du sel et du poivre. Faites revenir à feu moyen durant 8 à 10 minutes, en remuant souvent.\n\n3 Coupez le fromage de chèvre en petits cubes.\n\n4 Cassez les œufs entiers dans un saladier. Ajoutez la crème, du sel et du poivre et fouettez à la fourchette. Ajoutez le fromage de chèvre et mélangez.\n\n5 Versez le mélange dans le fond de tarte. Disposez les rondelles de courgettes par-dessus. Parsemez de gruyère râpé et disposez les demi-tomates cerise par-dessus, face coupée vers le dessus.\n\n6 Enfournez à 200 °C durant 30 minutes environ."
   },
   {
+   "id": "dropbox:-13642766",
+   "t": "Quiche lorraine aux courgettes - Rachel cuisine",
+   "cat": "Plat",
+   "area": "",
+   "min": 0,
+   "serv": 0,
+   "img": "http://rachel-cuisine.fr/wp-content/uploads/2019/09/quiche-lorraine-courgettes-1-683x1024.jpg",
+   "url": "http://rachel-cuisine.fr/2019/09/quiche-lorraine-aux-courgettes.html",
+   "vid": "",
+   "desc": "Bon alors là, je sais que les Lorrains vont me dire que ce n’est pas une quiche Lorraine car il y a des courgettes.Et ils n’auront pas tout à fait tord … Mais j’avais envie de rajouter des courgettes râpées dans ma quiche aux lardons de bacon … alors appelez là comme vous voulez ma quiche 😉Je fais en général une quiche sans pâte, une tarte ou une quiche dans la semaine. C’est pratique car je prépare la tarte à l’avance et je la met à cuire pendant que je lave mes enfants ou j’aide pour les devoirs.En plus, c’est pratique car il m’en reste une part pour le lendemain midi.Vous pouvez remplacer les lardons par du thon, un reste de poulet, … vous pouvez aussi remplacer les courgettes par des poireaux ou autre légume de saison.",
+   "ing": [
+    "ma pâte à tarte brisée légère maison",
+    "2 courgettes",
+    "3 œufs",
+    "10 cl de crème fraîche 12 %",
+    "75 g de lardons de bacon",
+    "Sel",
+    "poivre",
+    "30 g de gruyère râpé"
+   ],
+   "steps": "Faire la pâte. L’étaler dans un moule à tarte avec du papier sulfurisé.Laver et râper les courgettes. Faire revenir dans une poêle antiadhésive pour enlever le maximum d’eau pendant 5 minutes environ.Lorsque les courgettes ne rendent plus d’eau, ajouter les lardons de bacon. Laisser cuire 2 minutes.Dans un saladier, mélanger les œufs, la crème fraîche, le sel et le poivre.Ajouter le mélange courgettes et lardons de bacon.Verser la préparation dans le moule à tarte, sur la pâte.Parsemer de fromage râpé.Faire cuire à four chaud pendant 30 minutes environ à 175°Se mange chaud, tiède ou froid. Verdict :« Trop bonne ta quiche maman  » bon ben tout est dit 😉Le fait de cuire les courgettes râpées enlève toute l’eau et donc la quiche n’est pas « détrempée ».C’est vraiment bon et équilibré, à manger avec une belle salade.Imprimer cette recette (1 votes, average: 5,00 out of 5)\nLoading..."
+  },
+  {
    "id": "dropbox:1084151442",
    "t": "Quiche minceur brocoli-mascarpone",
    "cat": "Brocolis",
@@ -7063,34 +7091,6 @@
     "2 cuillerées à soupe de farine (ou maïzena pour épaissir la sauce)"
    ],
    "steps": "Dans un saladier, salez et poivrez vos morceaux de boeuf.\n\nSaupoudrez-les avec la farine ou de la maïzena. Mélangez pour les enrober.\n\nFaites chauffer un filet d'huile d'olive dans une cocotte en fonte (ou une cocotte à fond épais), et faites-y revenir les morceaux de boeuf farinés jusqu'à ce qu'ils soient dorés de tous les côtés. Ne faites pas revenir toute la viande d'un seul coup, procédez en trois fois.\n\nRetirez la viande de la cocotte et réservez-la dans une assiette.\n\nA la place des morceaux de boeuf, mettez les oignons dans la cocotte et faites-les revenir. Ajoutez ensuite l'ail et laissez revenir quelques secondes. Puis les carottes, le céleri, les pommes de terre et le bouquet garni.\n\nRemettez les morceaux de viande dans la cocotte et ajoutez la sauce piquante.\n\nVersez le bouillon (il faut qu'il recouvre les morceaux de viande et les légumes).\n\nPortez à ébullition.\n\nCouvrez la cocotte, baissez le feu et laissez mijoter à petit feu pendant environ 1h 30 à 1h45, ou jusqu'à ce que les morceaux de boeuf soient bien tendres. Pendant la cuisson, ajoutez de l'eau chaude si besoin.\n\nDix minutes avant la fin de la cuisson, ajoutez les petits pois surgelés.\n\nUne fois la viande et les légumes bien tendres et fondants, goûtez et rectifiez l'assaisonnement.\n\nPour épaissir la sauce, diluez 2 cuillerées à soupe de farine dans ½ tasse de bouillon prélevé de la cocotte, mélangez bien pour ne pas avoir des grumeaux (moi j'utilise un petit pot que je ferme hermétiquement et que je secou énergiquement). Versez ce mélange dans la cocotte tout en touillant. Laissez cuire encore 5 minutes.\n\nRetirez le bouquet garni. Servez chaud avec du pain et bon appétit!"
-  },
-  {
-   "id": "dropbox:1365396750",
-   "t": "Ragoût de légumes d'hiver et pois chiches",
-   "cat": "Plat",
-   "area": "",
-   "min": 0,
-   "serv": 0,
-   "img": "http://img.over-blog-kiwi.com/0/65/19/23/20180215/ob_8a34ae_ragout-de-legumes-d-hiver-et-pois-ch.JPG",
-   "url": "http://www.amandinecooking.com/ragout-de-legumes-d-hiver-et-pois-chiches.html",
-   "vid": "",
-   "desc": "",
-   "ing": [
-    "100g de pois-chiches crus",
-    "1 oignon",
-    "1 chou-fleur",
-    "3-4 carottes",
-    "400g de pommes de terre",
-    "400g de concassée de tomates (en boîte)",
-    "40cl de bouillon de légumes",
-    "1cc de concentré de tomates (facultatif)",
-    "1cc de paprika fumé",
-    "1cc d'origan séché",
-    "huile d'olive",
-    "sel",
-    "poivre"
-   ],
-   "steps": "Laver le chou-fleur et le détailler en fleurette. Peler et émincer l'oignon. Peler les carottes, les couper en tronçons de 2cm environ puis en deux, et les pommes de terre en morceaux de taille moyenne.\r\nDans une cocotte en fonte, faire chauffer un filet d'huile d'olive et faire revenir l'oignon quelques minutes. Ajouter les légumes et pois chiches puis couvrir avec le bouillon encore chaud (selon la taille de votre cocotte, ajouter un peu d'eau si le bouillon ne couvre pas bien la préparation), ajouter enfin le concentré de tomates, le paprika, l'origan, un peu de sel et du poivre.\r\nPorter à ébullition puis baisser le feu, couvrir et laisser mijoter une bonne heure.\r\n\r\nSi utilisation de pois-chiches cuits (en bocal ou conserve), compter 250g et les ajouter 5 minutes avant la fin de cuisson.\r\nOn peut omettre les pommes de terre et servir ce ragoût avec du riz, semoule ou quinoa."
   },
   {
    "id": "dropbox:3039959",
