@@ -1,34 +1,29 @@
 {
- "version": "ecb9da085020",
+ "version": "e47e4a593b4d",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:1421649677",
-   "t": "Recette: Escalopes de porc parmigiana.",
+   "id": "dropbox:cb364473-fd85-41f3-96ed-09a83f8fba70",
+   "t": "Risotto léger aux courgettes",
    "cat": "Plat",
    "area": "",
-   "min": 0,
+   "min": 45,
    "serv": 0,
-   "img": "https://recettedemaman.com/tmp/pic_200_10886_0_0_100.jpg",
-   "url": "https://recettedemaman.com/recette-10886.html",
+   "img": "https://platetrecette.com/wp-content/uploads/2017/04/site_logo.png",
+   "url": "https://platetrecette.com/risotto-leger-aux-courgettes-weight-watchers/",
    "vid": "",
-   "desc": "",
+   "desc": "Risotto léger aux courgettes weight watchers, une recette facile et simple à rélaiser pour un déjeuner ou un repas de soir.",
    "ing": [
-    "1 1/2 lb escalopes de porc",
-    "1/2 tasse farine tout usage",
-    "3 oeufs",
-    "légèrement battus",
-    "1 1/2 tasse fromage  parmesan râpé finement",
-    "1/2 tasse chapelure régulière ou panko",
-    "1 c. à thé basilic séché",
-    "1 c. à thé origan séché",
-    "3 c. à table huile d'olive",
-    "3 c. à table beurre",
-    "3 tasses sauce tomate",
-    "1 lb fromage Tex-mex ou mozzarella râpé",
-    "Sel et poivre"
+    "150 g de riz à risotto",
+    "3 courgettes",
+    "1 oignon",
+    "100 g de feta allégée 8%",
+    "1 l de bouillon de légumes chaud",
+    "1 cuillère à café d'huile d'olive",
+    "sel",
+    "poivre."
    ],
-   "steps": "Placer la grille au centre du four.\nPréchauffer le four à 200 °C (400 °F).\nPlacer la farine dans un bol.\nLes oeufs dans un deuxième bol et, dans un troisième bol, mélanger le fromage, la chapelure et les herbes séchées. Réserver.\nEnrober chaque escalope de farine et secouer pour en retirer l’excédent.\nTremper dans l’oeuf, puis dans le mélange de parmesan.\nBien presser sur les escalopes.\nDans une grande poêle antiadhésive, à feu vif, chauffer le tiers de l’huile et du beurre.\nFaire dorer 2 à 3 escalopes à la fois, de 1 à 2 minutes de chaque côté.\nRéserver dans un grand plat de cuisson ou sur une plaque de cuisson tapissée de papier parchemin.\nPoursuivre avec le reste des escalopes et des corps gras.\nVerser la moitié de la sauce sur les escalopes de façon à ne pas les recouvrir complètement.\nGarnir de fromage et cuire au four de 10 à 15 minutes.\nTerminer la cuisson sous le gril (broil) au besoin."
+   "steps": "- Épluchez et hachez l'oignon.\n- Nettoyez et coupez les courgettes en petits morceaux.\n- Faites revenir les oignon dans une casserole avec l'huile d'olive.\n- Ajoutez les courgettes et laissez cuire 5 minutes, en mélangeant bien.\n- Ajoutez le riz et laissez cuire jusqu'à ce qu'il devienne translucide.\n- Versez le bouillon petit à petit, louche par louche, et laissez cuire tout en mélangeant régulièrement.\n- Quand le risotto est prêt, salez, poivrez et mélangez bien.\n- Servez le risotto dans les assiettes, ajoutez la feta émiettée sur le dessus.\n- Dégustez aussitôt."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -7558,6 +7553,34 @@
    "steps": "Mettre 1000 grammes de lait, \n\nAjouter 1 sachet de sucre vanillé et le sucre en poudre dans le Thermomix.\r\nMélanger 5 sec/vitesse 6.\n\nAjouter le chocolat en poudre\n\nChauffer 4 min/37°C/vitesse 1.\n\r\nAjouter 1 yaourt nature ou bifidus dans le Thermomix et mélanger 15 sec/vitesse 6.\n\r\nRépartissez cette préparation dans des pots (sans les couvercles) et programmez votre yaourtière pour 8 heures. \n\nÀ la fin du processus, retirez les pots de yaourt de la machine et remettez leurs couvercles. \n\nPlacez-les pendant quatre à six heures au réfrigérateur avant de les déguster."
   },
   {
+   "id": "dropbox:1421649677",
+   "t": "Recette: Escalopes de porc parmigiana.",
+   "cat": "Plat",
+   "area": "",
+   "min": 0,
+   "serv": 0,
+   "img": "https://recettedemaman.com/tmp/pic_200_10886_0_0_100.jpg",
+   "url": "https://recettedemaman.com/recette-10886.html",
+   "vid": "",
+   "desc": "",
+   "ing": [
+    "1 1/2 lb escalopes de porc",
+    "1/2 tasse farine tout usage",
+    "3 oeufs",
+    "légèrement battus",
+    "1 1/2 tasse fromage  parmesan râpé finement",
+    "1/2 tasse chapelure régulière ou panko",
+    "1 c. à thé basilic séché",
+    "1 c. à thé origan séché",
+    "3 c. à table huile d'olive",
+    "3 c. à table beurre",
+    "3 tasses sauce tomate",
+    "1 lb fromage Tex-mex ou mozzarella râpé",
+    "Sel et poivre"
+   ],
+   "steps": "Placer la grille au centre du four.\nPréchauffer le four à 200 °C (400 °F).\nPlacer la farine dans un bol.\nLes oeufs dans un deuxième bol et, dans un troisième bol, mélanger le fromage, la chapelure et les herbes séchées. Réserver.\nEnrober chaque escalope de farine et secouer pour en retirer l’excédent.\nTremper dans l’oeuf, puis dans le mélange de parmesan.\nBien presser sur les escalopes.\nDans une grande poêle antiadhésive, à feu vif, chauffer le tiers de l’huile et du beurre.\nFaire dorer 2 à 3 escalopes à la fois, de 1 à 2 minutes de chaque côté.\nRéserver dans un grand plat de cuisson ou sur une plaque de cuisson tapissée de papier parchemin.\nPoursuivre avec le reste des escalopes et des corps gras.\nVerser la moitié de la sauce sur les escalopes de façon à ne pas les recouvrir complètement.\nGarnir de fromage et cuire au four de 10 à 15 minutes.\nTerminer la cuisson sous le gril (broil) au besoin."
+  },
+  {
    "id": "dropbox:-866149180",
    "t": "Risotto : la meilleure recette",
    "cat": "Plat",
@@ -7861,29 +7884,6 @@
     "1 échalote"
    ],
    "steps": "Portez le bouillon de volaille à frémissement et réservez au chaud. Pelez et émincez l’échalote. Détaillez les jambons en dés.\n\nFaites chauffer l’huile d’olive dans une sauteuse et faites suer l’échalote. Ajoutez le riz et mélangez sur feu vif pendant 2 min, jusqu’à ce qu’il soit nacré.\n\nVersez le vin blanc et laissez-le s’évaporer complètement. Ajoutez progressivement le bouillon, louche par louche, en laissant le liquide s’évaporer avant d’en rajouter, et en remuant. Comptez environ 17 min de cuisson.\n\nIncorporez les dés de jambon, salez, poivrez, ajoutez le beurre coupé en dés et le parmesan râpé, mélangez et servez aussitôt."
-  },
-  {
-   "id": "dropbox:cb364473-fd85-41f3-96ed-09a83f8fba70",
-   "t": "Risotto léger aux courgettes",
-   "cat": "Plat",
-   "area": "",
-   "min": 45,
-   "serv": 0,
-   "img": "https://platetrecette.com/wp-content/uploads/2017/04/site_logo.png",
-   "url": "https://platetrecette.com/risotto-leger-aux-courgettes-weight-watchers/",
-   "vid": "",
-   "desc": "Risotto léger aux courgettes weight watchers, une recette facile et simple à rélaiser pour un déjeuner ou un repas de soir.",
-   "ing": [
-    "150 g de riz à risotto",
-    "3 courgettes",
-    "1 oignon",
-    "100 g de feta allégée 8%",
-    "1 l de bouillon de légumes chaud",
-    "1 cuillère à café d'huile d'olive",
-    "sel",
-    "poivre."
-   ],
-   "steps": "- Épluchez et hachez l'oignon.\n- Nettoyez et coupez les courgettes en petits morceaux.\n- Faites revenir les oignon dans une casserole avec l'huile d'olive.\n- Ajoutez les courgettes et laissez cuire 5 minutes, en mélangeant bien.\n- Ajoutez le riz et laissez cuire jusqu'à ce qu'il devienne translucide.\n- Versez le bouillon petit à petit, louche par louche, et laissez cuire tout en mélangeant régulièrement.\n- Quand le risotto est prêt, salez, poivrez et mélangez bien.\n- Servez le risotto dans les assiettes, ajoutez la feta émiettée sur le dessus.\n- Dégustez aussitôt."
   },
   {
    "id": "dropbox:1265967939",
