@@ -1,34 +1,34 @@
 {
- "version": "b4a5edb710d8",
+ "version": "ecb9da085020",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:1365396750",
-   "t": "Ragoût de légumes d'hiver et pois chiches",
+   "id": "dropbox:1421649677",
+   "t": "Recette: Escalopes de porc parmigiana.",
    "cat": "Plat",
    "area": "",
    "min": 0,
    "serv": 0,
-   "img": "http://img.over-blog-kiwi.com/0/65/19/23/20180215/ob_8a34ae_ragout-de-legumes-d-hiver-et-pois-ch.JPG",
-   "url": "http://www.amandinecooking.com/ragout-de-legumes-d-hiver-et-pois-chiches.html",
+   "img": "https://recettedemaman.com/tmp/pic_200_10886_0_0_100.jpg",
+   "url": "https://recettedemaman.com/recette-10886.html",
    "vid": "",
    "desc": "",
    "ing": [
-    "100g de pois-chiches crus",
-    "1 oignon",
-    "1 chou-fleur",
-    "3-4 carottes",
-    "400g de pommes de terre",
-    "400g de concassée de tomates (en boîte)",
-    "40cl de bouillon de légumes",
-    "1cc de concentré de tomates (facultatif)",
-    "1cc de paprika fumé",
-    "1cc d'origan séché",
-    "huile d'olive",
-    "sel",
-    "poivre"
+    "1 1/2 lb escalopes de porc",
+    "1/2 tasse farine tout usage",
+    "3 oeufs",
+    "légèrement battus",
+    "1 1/2 tasse fromage  parmesan râpé finement",
+    "1/2 tasse chapelure régulière ou panko",
+    "1 c. à thé basilic séché",
+    "1 c. à thé origan séché",
+    "3 c. à table huile d'olive",
+    "3 c. à table beurre",
+    "3 tasses sauce tomate",
+    "1 lb fromage Tex-mex ou mozzarella râpé",
+    "Sel et poivre"
    ],
-   "steps": "Laver le chou-fleur et le détailler en fleurette. Peler et émincer l'oignon. Peler les carottes, les couper en tronçons de 2cm environ puis en deux, et les pommes de terre en morceaux de taille moyenne.\r\nDans une cocotte en fonte, faire chauffer un filet d'huile d'olive et faire revenir l'oignon quelques minutes. Ajouter les légumes et pois chiches puis couvrir avec le bouillon encore chaud (selon la taille de votre cocotte, ajouter un peu d'eau si le bouillon ne couvre pas bien la préparation), ajouter enfin le concentré de tomates, le paprika, l'origan, un peu de sel et du poivre.\r\nPorter à ébullition puis baisser le feu, couvrir et laisser mijoter une bonne heure.\r\n\r\nSi utilisation de pois-chiches cuits (en bocal ou conserve), compter 250g et les ajouter 5 minutes avant la fin de cuisson.\r\nOn peut omettre les pommes de terre et servir ce ragoût avec du riz, semoule ou quinoa."
+   "steps": "Placer la grille au centre du four.\nPréchauffer le four à 200 °C (400 °F).\nPlacer la farine dans un bol.\nLes oeufs dans un deuxième bol et, dans un troisième bol, mélanger le fromage, la chapelure et les herbes séchées. Réserver.\nEnrober chaque escalope de farine et secouer pour en retirer l’excédent.\nTremper dans l’oeuf, puis dans le mélange de parmesan.\nBien presser sur les escalopes.\nDans une grande poêle antiadhésive, à feu vif, chauffer le tiers de l’huile et du beurre.\nFaire dorer 2 à 3 escalopes à la fois, de 1 à 2 minutes de chaque côté.\nRéserver dans un grand plat de cuisson ou sur une plaque de cuisson tapissée de papier parchemin.\nPoursuivre avec le reste des escalopes et des corps gras.\nVerser la moitié de la sauce sur les escalopes de façon à ne pas les recouvrir complètement.\nGarnir de fromage et cuire au four de 10 à 15 minutes.\nTerminer la cuisson sous le gril (broil) au besoin."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -7093,6 +7093,34 @@
    "steps": "Dans un saladier, salez et poivrez vos morceaux de boeuf.\n\nSaupoudrez-les avec la farine ou de la maïzena. Mélangez pour les enrober.\n\nFaites chauffer un filet d'huile d'olive dans une cocotte en fonte (ou une cocotte à fond épais), et faites-y revenir les morceaux de boeuf farinés jusqu'à ce qu'ils soient dorés de tous les côtés. Ne faites pas revenir toute la viande d'un seul coup, procédez en trois fois.\n\nRetirez la viande de la cocotte et réservez-la dans une assiette.\n\nA la place des morceaux de boeuf, mettez les oignons dans la cocotte et faites-les revenir. Ajoutez ensuite l'ail et laissez revenir quelques secondes. Puis les carottes, le céleri, les pommes de terre et le bouquet garni.\n\nRemettez les morceaux de viande dans la cocotte et ajoutez la sauce piquante.\n\nVersez le bouillon (il faut qu'il recouvre les morceaux de viande et les légumes).\n\nPortez à ébullition.\n\nCouvrez la cocotte, baissez le feu et laissez mijoter à petit feu pendant environ 1h 30 à 1h45, ou jusqu'à ce que les morceaux de boeuf soient bien tendres. Pendant la cuisson, ajoutez de l'eau chaude si besoin.\n\nDix minutes avant la fin de la cuisson, ajoutez les petits pois surgelés.\n\nUne fois la viande et les légumes bien tendres et fondants, goûtez et rectifiez l'assaisonnement.\n\nPour épaissir la sauce, diluez 2 cuillerées à soupe de farine dans ½ tasse de bouillon prélevé de la cocotte, mélangez bien pour ne pas avoir des grumeaux (moi j'utilise un petit pot que je ferme hermétiquement et que je secou énergiquement). Versez ce mélange dans la cocotte tout en touillant. Laissez cuire encore 5 minutes.\n\nRetirez le bouquet garni. Servez chaud avec du pain et bon appétit!"
   },
   {
+   "id": "dropbox:1365396750",
+   "t": "Ragoût de légumes d'hiver et pois chiches",
+   "cat": "Plat",
+   "area": "",
+   "min": 0,
+   "serv": 0,
+   "img": "http://img.over-blog-kiwi.com/0/65/19/23/20180215/ob_8a34ae_ragout-de-legumes-d-hiver-et-pois-ch.JPG",
+   "url": "http://www.amandinecooking.com/ragout-de-legumes-d-hiver-et-pois-chiches.html",
+   "vid": "",
+   "desc": "",
+   "ing": [
+    "100g de pois-chiches crus",
+    "1 oignon",
+    "1 chou-fleur",
+    "3-4 carottes",
+    "400g de pommes de terre",
+    "400g de concassée de tomates (en boîte)",
+    "40cl de bouillon de légumes",
+    "1cc de concentré de tomates (facultatif)",
+    "1cc de paprika fumé",
+    "1cc d'origan séché",
+    "huile d'olive",
+    "sel",
+    "poivre"
+   ],
+   "steps": "Laver le chou-fleur et le détailler en fleurette. Peler et émincer l'oignon. Peler les carottes, les couper en tronçons de 2cm environ puis en deux, et les pommes de terre en morceaux de taille moyenne.\r\nDans une cocotte en fonte, faire chauffer un filet d'huile d'olive et faire revenir l'oignon quelques minutes. Ajouter les légumes et pois chiches puis couvrir avec le bouillon encore chaud (selon la taille de votre cocotte, ajouter un peu d'eau si le bouillon ne couvre pas bien la préparation), ajouter enfin le concentré de tomates, le paprika, l'origan, un peu de sel et du poivre.\r\nPorter à ébullition puis baisser le feu, couvrir et laisser mijoter une bonne heure.\r\n\r\nSi utilisation de pois-chiches cuits (en bocal ou conserve), compter 250g et les ajouter 5 minutes avant la fin de cuisson.\r\nOn peut omettre les pommes de terre et servir ce ragoût avec du riz, semoule ou quinoa."
+  },
+  {
    "id": "dropbox:3039959",
    "t": "Ragoût de poireaux, pommes de terre, carottes & navets",
    "cat": "Plat",
@@ -7528,34 +7556,6 @@
     "1 yaourt nature ou ferment lactique"
    ],
    "steps": "Mettre 1000 grammes de lait, \n\nAjouter 1 sachet de sucre vanillé et le sucre en poudre dans le Thermomix.\r\nMélanger 5 sec/vitesse 6.\n\nAjouter le chocolat en poudre\n\nChauffer 4 min/37°C/vitesse 1.\n\r\nAjouter 1 yaourt nature ou bifidus dans le Thermomix et mélanger 15 sec/vitesse 6.\n\r\nRépartissez cette préparation dans des pots (sans les couvercles) et programmez votre yaourtière pour 8 heures. \n\nÀ la fin du processus, retirez les pots de yaourt de la machine et remettez leurs couvercles. \n\nPlacez-les pendant quatre à six heures au réfrigérateur avant de les déguster."
-  },
-  {
-   "id": "dropbox:1421649677",
-   "t": "Recette: Escalopes de porc parmigiana.",
-   "cat": "Plat",
-   "area": "",
-   "min": 0,
-   "serv": 0,
-   "img": "https://recettedemaman.com/tmp/pic_200_10886_0_0_100.jpg",
-   "url": "https://recettedemaman.com/recette-10886.html",
-   "vid": "",
-   "desc": "",
-   "ing": [
-    "1 1/2 lb escalopes de porc",
-    "1/2 tasse farine tout usage",
-    "3 oeufs",
-    "légèrement battus",
-    "1 1/2 tasse fromage  parmesan râpé finement",
-    "1/2 tasse chapelure régulière ou panko",
-    "1 c. à thé basilic séché",
-    "1 c. à thé origan séché",
-    "3 c. à table huile d'olive",
-    "3 c. à table beurre",
-    "3 tasses sauce tomate",
-    "1 lb fromage Tex-mex ou mozzarella râpé",
-    "Sel et poivre"
-   ],
-   "steps": "Placer la grille au centre du four.\nPréchauffer le four à 200 °C (400 °F).\nPlacer la farine dans un bol.\nLes oeufs dans un deuxième bol et, dans un troisième bol, mélanger le fromage, la chapelure et les herbes séchées. Réserver.\nEnrober chaque escalope de farine et secouer pour en retirer l’excédent.\nTremper dans l’oeuf, puis dans le mélange de parmesan.\nBien presser sur les escalopes.\nDans une grande poêle antiadhésive, à feu vif, chauffer le tiers de l’huile et du beurre.\nFaire dorer 2 à 3 escalopes à la fois, de 1 à 2 minutes de chaque côté.\nRéserver dans un grand plat de cuisson ou sur une plaque de cuisson tapissée de papier parchemin.\nPoursuivre avec le reste des escalopes et des corps gras.\nVerser la moitié de la sauce sur les escalopes de façon à ne pas les recouvrir complètement.\nGarnir de fromage et cuire au four de 10 à 15 minutes.\nTerminer la cuisson sous le gril (broil) au besoin."
   },
   {
    "id": "dropbox:-866149180",
