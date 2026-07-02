@@ -1,29 +1,29 @@
 {
- "version": "e47e4a593b4d",
+ "version": "c0ed357cc481",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:cb364473-fd85-41f3-96ed-09a83f8fba70",
-   "t": "Risotto léger aux courgettes",
-   "cat": "Plat",
+   "id": "dropbox:b82a7f5e-252a-4c7e-90aa-cacb1e5d873b",
+   "t": "Ronds de Courgettes Croquants au Parmesan : découvrez la recette facile et délicieuse !",
+   "cat": "courgettes",
    "area": "",
-   "min": 45,
+   "min": 35,
    "serv": 0,
-   "img": "https://platetrecette.com/wp-content/uploads/2017/04/site_logo.png",
-   "url": "https://platetrecette.com/risotto-leger-aux-courgettes-weight-watchers/",
+   "img": "https://www.cuisineraveceva.com/wp-content/uploads/2025/06/Ronds-de-Courgettes-Croquants-au-Parmesan-2.webp",
+   "url": "https://www.cuisineraveceva.com/ronds-courgettes-croquants-parmesan-recipe/?fbclid=IwdGRzaAQzVw5jbGNrBDNXCmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhrBXj-GuJj7XOjZDqUvQA7GHRpYqin1jFcQMNzIrlvGVBX7ejehaX3hPgGw_aem_WW1T4AmbqMepIkqNyk2anA&sfnsn=scwspmo",
    "vid": "",
-   "desc": "Risotto léger aux courgettes weight watchers, une recette facile et simple à rélaiser pour un déjeuner ou un repas de soir.",
+   "desc": "Une recette simple pour des rondelles de courgettes dorées et savoureuses, parfaites pour un en-cas ou un accompagnement !",
    "ing": [
-    "150 g de riz à risotto",
-    "3 courgettes",
-    "1 oignon",
-    "100 g de feta allégée 8%",
-    "1 l de bouillon de légumes chaud",
-    "1 cuillère à café d'huile d'olive",
-    "sel",
-    "poivre."
+    "2 courgettes moyennes",
+    "coupées en rondelles de 1/4 de pouce (environ 0",
+    "6 cm) d’épaisseur",
+    "1/2 tasse de fromage Parmesan râpé",
+    "1/2 tasse de chapelure (de préférence panko pour un croquant supplémentaire)",
+    "1 cuillère à café d’origan séché",
+    "1/2 cuillère à café de poudre d’ail",
+    "1/2 cuillère à café de poudre d’oignon"
    ],
-   "steps": "- Épluchez et hachez l'oignon.\n- Nettoyez et coupez les courgettes en petits morceaux.\n- Faites revenir les oignon dans une casserole avec l'huile d'olive.\n- Ajoutez les courgettes et laissez cuire 5 minutes, en mélangeant bien.\n- Ajoutez le riz et laissez cuire jusqu'à ce qu'il devienne translucide.\n- Versez le bouillon petit à petit, louche par louche, et laissez cuire tout en mélangeant régulièrement.\n- Quand le risotto est prêt, salez, poivrez et mélangez bien.\n- Servez le risotto dans les assiettes, ajoutez la feta émiettée sur le dessus.\n- Dégustez aussitôt."
+   "steps": "Préchauffez votre four à 200°C (400°F).\n\nDans un bol, mélangez le fromage Parmesan, la chapelure, l’origan, la poudre d’ail et la poudre d’oignon.\n\nEnrobez chaque rondelle de courgette avec le mélange de chapelure.\n\nDisposez les rondelles sur une plaque de cuisson recouverte de papier sulfurisé.\n\nEnfournez pendant 20-25 minutes ou jusqu’à ce qu’elles soient dorées et croustillantes.\n\nServez chaud en apéritif ou en accompagnement."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -7886,6 +7886,29 @@
    "steps": "Portez le bouillon de volaille à frémissement et réservez au chaud. Pelez et émincez l’échalote. Détaillez les jambons en dés.\n\nFaites chauffer l’huile d’olive dans une sauteuse et faites suer l’échalote. Ajoutez le riz et mélangez sur feu vif pendant 2 min, jusqu’à ce qu’il soit nacré.\n\nVersez le vin blanc et laissez-le s’évaporer complètement. Ajoutez progressivement le bouillon, louche par louche, en laissant le liquide s’évaporer avant d’en rajouter, et en remuant. Comptez environ 17 min de cuisson.\n\nIncorporez les dés de jambon, salez, poivrez, ajoutez le beurre coupé en dés et le parmesan râpé, mélangez et servez aussitôt."
   },
   {
+   "id": "dropbox:cb364473-fd85-41f3-96ed-09a83f8fba70",
+   "t": "Risotto léger aux courgettes",
+   "cat": "Plat",
+   "area": "",
+   "min": 45,
+   "serv": 0,
+   "img": "https://platetrecette.com/wp-content/uploads/2017/04/site_logo.png",
+   "url": "https://platetrecette.com/risotto-leger-aux-courgettes-weight-watchers/",
+   "vid": "",
+   "desc": "Risotto léger aux courgettes weight watchers, une recette facile et simple à rélaiser pour un déjeuner ou un repas de soir.",
+   "ing": [
+    "150 g de riz à risotto",
+    "3 courgettes",
+    "1 oignon",
+    "100 g de feta allégée 8%",
+    "1 l de bouillon de légumes chaud",
+    "1 cuillère à café d'huile d'olive",
+    "sel",
+    "poivre."
+   ],
+   "steps": "- Épluchez et hachez l'oignon.\n- Nettoyez et coupez les courgettes en petits morceaux.\n- Faites revenir les oignon dans une casserole avec l'huile d'olive.\n- Ajoutez les courgettes et laissez cuire 5 minutes, en mélangeant bien.\n- Ajoutez le riz et laissez cuire jusqu'à ce qu'il devienne translucide.\n- Versez le bouillon petit à petit, louche par louche, et laissez cuire tout en mélangeant régulièrement.\n- Quand le risotto est prêt, salez, poivrez et mélangez bien.\n- Servez le risotto dans les assiettes, ajoutez la feta émiettée sur le dessus.\n- Dégustez aussitôt."
+  },
+  {
    "id": "dropbox:1265967939",
    "t": "Risotto Léger aux Légumes WW - Recette WW - Plat et Recette",
    "cat": "Plat",
@@ -8304,29 +8327,6 @@
     "2 cuillères à soupe d'huile d'olive"
    ],
    "steps": "Eplucher,laver et raper les carottes.Emincer l'oignon et le faire revenir avec l'huile dans une sauteuse.Ajouter les carottes rapées,bien mélanger pour les enrober de matière grasse.Ajouter le riz,remuer jusqu'à ce qu'il devienne translucide.Mettre l'eau ,assaisonner et laisser mijoter à couvert pendant 10 à 15 mn selon les goûts."
-  },
-  {
-   "id": "dropbox:b82a7f5e-252a-4c7e-90aa-cacb1e5d873b",
-   "t": "Ronds de Courgettes Croquants au Parmesan : découvrez la recette facile et délicieuse !",
-   "cat": "courgettes",
-   "area": "",
-   "min": 35,
-   "serv": 0,
-   "img": "https://www.cuisineraveceva.com/wp-content/uploads/2025/06/Ronds-de-Courgettes-Croquants-au-Parmesan-2.webp",
-   "url": "https://www.cuisineraveceva.com/ronds-courgettes-croquants-parmesan-recipe/?fbclid=IwdGRzaAQzVw5jbGNrBDNXCmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhrBXj-GuJj7XOjZDqUvQA7GHRpYqin1jFcQMNzIrlvGVBX7ejehaX3hPgGw_aem_WW1T4AmbqMepIkqNyk2anA&sfnsn=scwspmo",
-   "vid": "",
-   "desc": "Une recette simple pour des rondelles de courgettes dorées et savoureuses, parfaites pour un en-cas ou un accompagnement !",
-   "ing": [
-    "2 courgettes moyennes",
-    "coupées en rondelles de 1/4 de pouce (environ 0",
-    "6 cm) d’épaisseur",
-    "1/2 tasse de fromage Parmesan râpé",
-    "1/2 tasse de chapelure (de préférence panko pour un croquant supplémentaire)",
-    "1 cuillère à café d’origan séché",
-    "1/2 cuillère à café de poudre d’ail",
-    "1/2 cuillère à café de poudre d’oignon"
-   ],
-   "steps": "Préchauffez votre four à 200°C (400°F).\n\nDans un bol, mélangez le fromage Parmesan, la chapelure, l’origan, la poudre d’ail et la poudre d’oignon.\n\nEnrobez chaque rondelle de courgette avec le mélange de chapelure.\n\nDisposez les rondelles sur une plaque de cuisson recouverte de papier sulfurisé.\n\nEnfournez pendant 20-25 minutes ou jusqu’à ce qu’elles soient dorées et croustillantes.\n\nServez chaud en apéritif ou en accompagnement."
   },
   {
    "id": "dropbox:1000185400",
