@@ -1,29 +1,32 @@
 {
- "version": "c0ed357cc481",
+ "version": "0289364ae4b3",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:b82a7f5e-252a-4c7e-90aa-cacb1e5d873b",
-   "t": "Ronds de Courgettes Croquants au Parmesan : découvrez la recette facile et délicieuse !",
-   "cat": "courgettes",
+   "id": "dropbox:1000185400",
+   "t": "Rougail saucisses… (Ile de la Réunion)",
+   "cat": "Plat",
    "area": "",
-   "min": 35,
+   "min": 45,
    "serv": 0,
-   "img": "https://www.cuisineraveceva.com/wp-content/uploads/2025/06/Ronds-de-Courgettes-Croquants-au-Parmesan-2.webp",
-   "url": "https://www.cuisineraveceva.com/ronds-courgettes-croquants-parmesan-recipe/?fbclid=IwdGRzaAQzVw5jbGNrBDNXCmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhrBXj-GuJj7XOjZDqUvQA7GHRpYqin1jFcQMNzIrlvGVBX7ejehaX3hPgGw_aem_WW1T4AmbqMepIkqNyk2anA&sfnsn=scwspmo",
+   "img": "https://bonasavoir.net/wp-content/uploads/2019/05/Rougail-saucisses…-Ile-de-la-Réunion-1.jpg",
+   "url": "https://bonasavoir.net/rougail-saucisses-ile-de-la-reunion/2/",
    "vid": "",
-   "desc": "Une recette simple pour des rondelles de courgettes dorées et savoureuses, parfaites pour un en-cas ou un accompagnement !",
+   "desc": "",
    "ing": [
-    "2 courgettes moyennes",
-    "coupées en rondelles de 1/4 de pouce (environ 0",
-    "6 cm) d’épaisseur",
-    "1/2 tasse de fromage Parmesan râpé",
-    "1/2 tasse de chapelure (de préférence panko pour un croquant supplémentaire)",
-    "1 cuillère à café d’origan séché",
-    "1/2 cuillère à café de poudre d’ail",
-    "1/2 cuillère à café de poudre d’oignon"
+    "– 1 kg de saucisses (pour 6 personnes)",
+    "– 3 cuillères à soupe d’huile",
+    "– 2 gros oignons émincés",
+    "– 2 gousses d’ail",
+    "du gingembre (très peu",
+    "morceaux ou poudre)",
+    "– 5 tomates hachées finement",
+    "– 1 branche de thym",
+    "– 2 pincée de curcuma (ou safran en poudre)",
+    "– 1 piment fort (ou 1 pincée de piment en poudre de Cayenne",
+    "selon votre goût)"
    ],
-   "steps": "Préchauffez votre four à 200°C (400°F).\n\nDans un bol, mélangez le fromage Parmesan, la chapelure, l’origan, la poudre d’ail et la poudre d’oignon.\n\nEnrobez chaque rondelle de courgette avec le mélange de chapelure.\n\nDisposez les rondelles sur une plaque de cuisson recouverte de papier sulfurisé.\n\nEnfournez pendant 20-25 minutes ou jusqu’à ce qu’elles soient dorées et croustillantes.\n\nServez chaud en apéritif ou en accompagnement."
+   "steps": "Etape: 1\nDans une cocotte, faites dorer les oignons avec l’huile et ajoutez les saucisses coupées en morceaux.\nEtape: 2\nPuis ajoutez l’ail, le gingembre et les tomates. Mélangez bien.\nEtape: 3\nAjoutez le thym et le curcuma, plus le piment et un petit peu d’eau.\nEtape: 4\nCouvrez et laissez cuire à feu doux pendant 1/2 heure environ.\nPour finir:\nLa sauce devra être très rouge et épaisse, ce qui indiquera la fin de la cuisson."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -8329,30 +8332,27 @@
    "steps": "Eplucher,laver et raper les carottes.Emincer l'oignon et le faire revenir avec l'huile dans une sauteuse.Ajouter les carottes rapées,bien mélanger pour les enrober de matière grasse.Ajouter le riz,remuer jusqu'à ce qu'il devienne translucide.Mettre l'eau ,assaisonner et laisser mijoter à couvert pendant 10 à 15 mn selon les goûts."
   },
   {
-   "id": "dropbox:1000185400",
-   "t": "Rougail saucisses… (Ile de la Réunion)",
-   "cat": "Plat",
+   "id": "dropbox:b82a7f5e-252a-4c7e-90aa-cacb1e5d873b",
+   "t": "Ronds de Courgettes Croquants au Parmesan : découvrez la recette facile et délicieuse !",
+   "cat": "courgettes",
    "area": "",
-   "min": 45,
+   "min": 35,
    "serv": 0,
-   "img": "https://bonasavoir.net/wp-content/uploads/2019/05/Rougail-saucisses…-Ile-de-la-Réunion-1.jpg",
-   "url": "https://bonasavoir.net/rougail-saucisses-ile-de-la-reunion/2/",
+   "img": "https://www.cuisineraveceva.com/wp-content/uploads/2025/06/Ronds-de-Courgettes-Croquants-au-Parmesan-2.webp",
+   "url": "https://www.cuisineraveceva.com/ronds-courgettes-croquants-parmesan-recipe/?fbclid=IwdGRzaAQzVw5jbGNrBDNXCmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhrBXj-GuJj7XOjZDqUvQA7GHRpYqin1jFcQMNzIrlvGVBX7ejehaX3hPgGw_aem_WW1T4AmbqMepIkqNyk2anA&sfnsn=scwspmo",
    "vid": "",
-   "desc": "",
+   "desc": "Une recette simple pour des rondelles de courgettes dorées et savoureuses, parfaites pour un en-cas ou un accompagnement !",
    "ing": [
-    "– 1 kg de saucisses (pour 6 personnes)",
-    "– 3 cuillères à soupe d’huile",
-    "– 2 gros oignons émincés",
-    "– 2 gousses d’ail",
-    "du gingembre (très peu",
-    "morceaux ou poudre)",
-    "– 5 tomates hachées finement",
-    "– 1 branche de thym",
-    "– 2 pincée de curcuma (ou safran en poudre)",
-    "– 1 piment fort (ou 1 pincée de piment en poudre de Cayenne",
-    "selon votre goût)"
+    "2 courgettes moyennes",
+    "coupées en rondelles de 1/4 de pouce (environ 0",
+    "6 cm) d’épaisseur",
+    "1/2 tasse de fromage Parmesan râpé",
+    "1/2 tasse de chapelure (de préférence panko pour un croquant supplémentaire)",
+    "1 cuillère à café d’origan séché",
+    "1/2 cuillère à café de poudre d’ail",
+    "1/2 cuillère à café de poudre d’oignon"
    ],
-   "steps": "Etape: 1\nDans une cocotte, faites dorer les oignons avec l’huile et ajoutez les saucisses coupées en morceaux.\nEtape: 2\nPuis ajoutez l’ail, le gingembre et les tomates. Mélangez bien.\nEtape: 3\nAjoutez le thym et le curcuma, plus le piment et un petit peu d’eau.\nEtape: 4\nCouvrez et laissez cuire à feu doux pendant 1/2 heure environ.\nPour finir:\nLa sauce devra être très rouge et épaisse, ce qui indiquera la fin de la cuisson."
+   "steps": "Préchauffez votre four à 200°C (400°F).\n\nDans un bol, mélangez le fromage Parmesan, la chapelure, l’origan, la poudre d’ail et la poudre d’oignon.\n\nEnrobez chaque rondelle de courgette avec le mélange de chapelure.\n\nDisposez les rondelles sur une plaque de cuisson recouverte de papier sulfurisé.\n\nEnfournez pendant 20-25 minutes ou jusqu’à ce qu’elles soient dorées et croustillantes.\n\nServez chaud en apéritif ou en accompagnement."
   },
   {
    "id": "dropbox:1809157029",
