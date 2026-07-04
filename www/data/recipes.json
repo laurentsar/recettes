@@ -1,32 +1,29 @@
 {
- "version": "0289364ae4b3",
+ "version": "8d6707a12e5a",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:1000185400",
-   "t": "Rougail saucisses… (Ile de la Réunion)",
+   "id": "dropbox:-833970387",
+   "t": "Sauce tomate Thermomix",
    "cat": "Plat",
    "area": "",
-   "min": 45,
+   "min": 60,
    "serv": 0,
-   "img": "https://bonasavoir.net/wp-content/uploads/2019/05/Rougail-saucisses…-Ile-de-la-Réunion-1.jpg",
-   "url": "https://bonasavoir.net/rougail-saucisses-ile-de-la-reunion/2/",
+   "img": "https://fr.rc-cdn.community.thermomix.com/recipeimage/16zf3941-16a1f-736925-cfcd2-j2r0u4lx/d33430e9-efb7-4c24-b19b-dd55c60b7e70/large/sauce-tomate.jpg",
+   "url": "https://www.espace-recettes.fr/sauces-dips-et-pates-a-tartiner-recettes/sauce-tomate/16zf3941-16a1f-736925-cfcd2-j2r0u4lx",
    "vid": "",
    "desc": "",
    "ing": [
-    "– 1 kg de saucisses (pour 6 personnes)",
-    "– 3 cuillères à soupe d’huile",
-    "– 2 gros oignons émincés",
-    "– 2 gousses d’ail",
-    "du gingembre (très peu",
-    "morceaux ou poudre)",
-    "– 5 tomates hachées finement",
-    "– 1 branche de thym",
-    "– 2 pincée de curcuma (ou safran en poudre)",
-    "– 1 piment fort (ou 1 pincée de piment en poudre de Cayenne",
-    "selon votre goût)"
+    "2 oignons",
+    "3 à 4 gousses d'ail",
+    "1 branche de thym",
+    "1 kilo de tomates",
+    "persil",
+    "poivre",
+    "1 c. à café bombées de sel fin",
+    "2 Gobelets d'eau"
    ],
-   "steps": "Etape: 1\nDans une cocotte, faites dorer les oignons avec l’huile et ajoutez les saucisses coupées en morceaux.\nEtape: 2\nPuis ajoutez l’ail, le gingembre et les tomates. Mélangez bien.\nEtape: 3\nAjoutez le thym et le curcuma, plus le piment et un petit peu d’eau.\nEtape: 4\nCouvrez et laissez cuire à feu doux pendant 1/2 heure environ.\nPour finir:\nLa sauce devra être très rouge et épaisse, ce qui indiquera la fin de la cuisson."
+   "steps": "Mettre dans le bol les oignons, l'ail et le persil, mixer 5 secondes vitesse 5.\nAjouter les tomates en morceaux.\nAjouter l'eau, le sel, le poivre et la branche de thym et programmer 10 mn Varoma . (Sans gobelet mais mettre une passoire pour éviter les projections)\nProgrammer 50 mn à 90° Vitesse 1.\nEnlever la branche de thym, remettre le gobelet et mixer 30 secondes vitesse 10."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -8355,6 +8352,32 @@
    "steps": "Préchauffez votre four à 200°C (400°F).\n\nDans un bol, mélangez le fromage Parmesan, la chapelure, l’origan, la poudre d’ail et la poudre d’oignon.\n\nEnrobez chaque rondelle de courgette avec le mélange de chapelure.\n\nDisposez les rondelles sur une plaque de cuisson recouverte de papier sulfurisé.\n\nEnfournez pendant 20-25 minutes ou jusqu’à ce qu’elles soient dorées et croustillantes.\n\nServez chaud en apéritif ou en accompagnement."
   },
   {
+   "id": "dropbox:1000185400",
+   "t": "Rougail saucisses… (Ile de la Réunion)",
+   "cat": "Plat",
+   "area": "",
+   "min": 45,
+   "serv": 0,
+   "img": "https://bonasavoir.net/wp-content/uploads/2019/05/Rougail-saucisses…-Ile-de-la-Réunion-1.jpg",
+   "url": "https://bonasavoir.net/rougail-saucisses-ile-de-la-reunion/2/",
+   "vid": "",
+   "desc": "",
+   "ing": [
+    "– 1 kg de saucisses (pour 6 personnes)",
+    "– 3 cuillères à soupe d’huile",
+    "– 2 gros oignons émincés",
+    "– 2 gousses d’ail",
+    "du gingembre (très peu",
+    "morceaux ou poudre)",
+    "– 5 tomates hachées finement",
+    "– 1 branche de thym",
+    "– 2 pincée de curcuma (ou safran en poudre)",
+    "– 1 piment fort (ou 1 pincée de piment en poudre de Cayenne",
+    "selon votre goût)"
+   ],
+   "steps": "Etape: 1\nDans une cocotte, faites dorer les oignons avec l’huile et ajoutez les saucisses coupées en morceaux.\nEtape: 2\nPuis ajoutez l’ail, le gingembre et les tomates. Mélangez bien.\nEtape: 3\nAjoutez le thym et le curcuma, plus le piment et un petit peu d’eau.\nEtape: 4\nCouvrez et laissez cuire à feu doux pendant 1/2 heure environ.\nPour finir:\nLa sauce devra être très rouge et épaisse, ce qui indiquera la fin de la cuisson."
+  },
+  {
    "id": "dropbox:1809157029",
    "t": "Rougail saucisses… (Ile de la Réunion)",
    "cat": "Ai",
@@ -8565,29 +8588,6 @@
     "1 capsule de fond de veau"
    ],
    "steps": "Épluchez et mettez les échalotes dans le bol du robot puis mixez 5 sec en vitesse 5. Raclez les parois du bol à l'aide de la spatule puis ajoutez le beurre. Faites rissoler 5 min à 120°C en vitesse1.\n\nAjoutez la crème fraîche, le champagne, la cassonade et le fond de veau puis programmez 7 min à 90°C en vitesse 1."
-  },
-  {
-   "id": "dropbox:-833970387",
-   "t": "Sauce tomate Thermomix",
-   "cat": "Plat",
-   "area": "",
-   "min": 60,
-   "serv": 0,
-   "img": "https://fr.rc-cdn.community.thermomix.com/recipeimage/16zf3941-16a1f-736925-cfcd2-j2r0u4lx/d33430e9-efb7-4c24-b19b-dd55c60b7e70/large/sauce-tomate.jpg",
-   "url": "https://www.espace-recettes.fr/sauces-dips-et-pates-a-tartiner-recettes/sauce-tomate/16zf3941-16a1f-736925-cfcd2-j2r0u4lx",
-   "vid": "",
-   "desc": "",
-   "ing": [
-    "2 oignons",
-    "3 à 4 gousses d'ail",
-    "1 branche de thym",
-    "1 kilo de tomates",
-    "persil",
-    "poivre",
-    "1 c. à café bombées de sel fin",
-    "2 Gobelets d'eau"
-   ],
-   "steps": "Mettre dans le bol les oignons, l'ail et le persil, mixer 5 secondes vitesse 5.\nAjouter les tomates en morceaux.\nAjouter l'eau, le sel, le poivre et la branche de thym et programmer 10 mn Varoma . (Sans gobelet mais mettre une passoire pour éviter les projections)\nProgrammer 50 mn à 90° Vitesse 1.\nEnlever la branche de thym, remettre le gobelet et mixer 30 secondes vitesse 10."
   },
   {
    "id": "dropbox:842203416",
