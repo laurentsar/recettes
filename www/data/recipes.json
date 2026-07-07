@@ -1,30 +1,32 @@
 {
- "version": "dc31ea217be4",
+ "version": "f4dff91c22b8",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:05b5241d-4885-4192-b718-08ca6bfed1e8",
-   "t": "Sauté de porc à la bière et au paprika",
+   "id": "dropbox:a96a3a63-3315-4ce3-9d04-1066e83e401c",
+   "t": "Sauté de porc à la tomate d'Agnès",
    "cat": "Plat",
    "area": "",
-   "min": 0,
+   "min": 60,
    "serv": 0,
-   "img": "https://couleurdevie.wordpress.com/wp-content/uploads/2011/12/dsc05144.jpg?w=584",
-   "url": "https://couleurdevie.wordpress.com/2011/03/24/saute-de-porc-a-la-biere-et-au-paprika/",
+   "img": "https://img.cuisineaz.com/1200x675/2016/04/28/i98487-saute-de-porc-a-la-tomate-d-agnes.webp",
+   "url": "https://www.cuisineaz.com/recettes/saute-de-porc-a-la-tomate-d-agnes-7706.aspx",
    "vid": "",
-   "desc": "chocolats fourrés à la clémentine corse",
+   "desc": "Le sauté de porc à la tomate est un grand classique de la cuisine française très facile à réaliser. Quelques ingrédients basiques, une cocotte en fonte ou un faitout et un tout petit peu de patience, c'est tout ce dont vous aurez besoin ! On peut le servir accompagné de riz, de pommes de terre à la vapeur, de purée ou même de tagliatelles : un régal pour un repas réconfortant !",
    "ing": [
-    "– 1 kg de sauté de porc (morceaux découpés en gros cubes)",
-    "– 2 grosses tomates ou une boîte de tomates pelées en conserve éventuellement",
-    "– 2 oignons",
-    "– 40 cl de bière blonde",
-    "– 1 bouquet garni",
-    "– 2 c. à soupe de paprika doux",
-    "– 1/2 c. à café de piment doux (facultatif)",
-    "– huile d’olive",
-    "– sel et poivre"
+    "500 g Sauté de porc",
+    "1 boîte(s) Tomate(s) pelée(s)",
+    "2 gousse(s) Ail",
+    "1 Oignon(s)",
+    "1 cube(s) Bouillon cube(s)",
+    "150 g Champignon(s) de paris",
+    "1 verre(s) Vin blanc",
+    "2 Carotte(s)",
+    "Beurre",
+    "Sel fin",
+    "Poivre"
    ],
-   "steps": "Peler et émincer les oignons. Ébouillanter les tomates, les peler et les hacher grossièrement.\n\nDans une sauteuse, faire chauffer 2 c. à soupe d’huile d’olive, puis faire dorer les cubes de porc quelques minutes sur toutes les faces.\n\nAjouter les oignons et le paprika, saler et poivrer, mélanger et laisser suer 5 mn.\n\nMouiller avec la bière, ajouter le bouquet garni, le piment doux. Couvrir et laisser mijoter à feu doux pendant 50 bonnes minutes, en ajoutant les tomates au bout de 20 minutes.\n\nAu terme de la cuisson, enlever le bouquet garni, prélever les morceaux de viande et les réserver.\n\nFaire réduire la sauce sur feu doux jusqu’à ce qu’elle soit légèrement sirupeuse. Rectifier l’assaisonnement.\n\nRemettre la viande, servir bien chaud."
+   "steps": "Émincez l'oignon, pelez et dégermez l'ail et taillez les carottes en rondelles. Rincez et taillez les champignons.\n\nDans une cocotte en fonte, faites fondre le beurre puis faites dorer la viande sur tous les côtés.\n\nRetirez la viande de la cocotte et faites revenir l'oignon, l'ail et les carottes pendant 5 à 10 minutes, en remuant de temps en temps.\n\nDéglacez en versant le verre de vin blanc. Mélangez bien en insistant sur le fond de la cocotte afin de décoller les sucs de cuisson.\n\nAjoutez le bouillon cube et les tomates pelées. Remettez la viande dans la cocotte.\n\nLaissez cuire 40 minutes à petit bouillon, à couvert."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -8789,30 +8791,28 @@
    "steps": "Peler et couper les carottes en rondelles. Egoutter les olives et les champignons. Réserver.\n\nUtiliser une cocotte en fonte. Dans un filet d'huile, émincer l'oignon et le laisser dorer 1 à 2 minutes. Ajouter le sauté de porc, le mélanger aux oignons et laisser revenir le tout 5 minutes. Ajouter les carottes, les olives et les champignons, mélanger à nouveau et laisser mijoter 5 minutes de plus. Mettre la farine sur la viande et les légumes et bien l'incorporer.\n\nVerser de l'eau jusqu'à hauteur des légumes et de la viande. Ajouter le concentré de tomates et presser l'ail. Assaisonner. Bien remuer et laisser mijoter 45 minutes jusqu'à ce que la sauce épaississe. Déguster bien chaud avec des pommes de terre bouillies."
   },
   {
-   "id": "dropbox:a96a3a63-3315-4ce3-9d04-1066e83e401c",
-   "t": "Sauté de porc à la tomate d'Agnès",
+   "id": "dropbox:05b5241d-4885-4192-b718-08ca6bfed1e8",
+   "t": "Sauté de porc à la bière et au paprika",
    "cat": "Plat",
    "area": "",
-   "min": 60,
+   "min": 0,
    "serv": 0,
-   "img": "https://img.cuisineaz.com/1200x675/2016/04/28/i98487-saute-de-porc-a-la-tomate-d-agnes.webp",
-   "url": "https://www.cuisineaz.com/recettes/saute-de-porc-a-la-tomate-d-agnes-7706.aspx",
+   "img": "https://couleurdevie.wordpress.com/wp-content/uploads/2011/12/dsc05144.jpg?w=584",
+   "url": "https://couleurdevie.wordpress.com/2011/03/24/saute-de-porc-a-la-biere-et-au-paprika/",
    "vid": "",
-   "desc": "Le sauté de porc à la tomate est un grand classique de la cuisine française très facile à réaliser. Quelques ingrédients basiques, une cocotte en fonte ou un faitout et un tout petit peu de patience, c'est tout ce dont vous aurez besoin ! On peut le servir accompagné de riz, de pommes de terre à la vapeur, de purée ou même de tagliatelles : un régal pour un repas réconfortant !",
+   "desc": "chocolats fourrés à la clémentine corse",
    "ing": [
-    "500 g Sauté de porc",
-    "1 boîte(s) Tomate(s) pelée(s)",
-    "2 gousse(s) Ail",
-    "1 Oignon(s)",
-    "1 cube(s) Bouillon cube(s)",
-    "150 g Champignon(s) de paris",
-    "1 verre(s) Vin blanc",
-    "2 Carotte(s)",
-    "Beurre",
-    "Sel fin",
-    "Poivre"
+    "– 1 kg de sauté de porc (morceaux découpés en gros cubes)",
+    "– 2 grosses tomates ou une boîte de tomates pelées en conserve éventuellement",
+    "– 2 oignons",
+    "– 40 cl de bière blonde",
+    "– 1 bouquet garni",
+    "– 2 c. à soupe de paprika doux",
+    "– 1/2 c. à café de piment doux (facultatif)",
+    "– huile d’olive",
+    "– sel et poivre"
    ],
-   "steps": "Émincez l'oignon, pelez et dégermez l'ail et taillez les carottes en rondelles. Rincez et taillez les champignons.\n\nDans une cocotte en fonte, faites fondre le beurre puis faites dorer la viande sur tous les côtés.\n\nRetirez la viande de la cocotte et faites revenir l'oignon, l'ail et les carottes pendant 5 à 10 minutes, en remuant de temps en temps.\n\nDéglacez en versant le verre de vin blanc. Mélangez bien en insistant sur le fond de la cocotte afin de décoller les sucs de cuisson.\n\nAjoutez le bouillon cube et les tomates pelées. Remettez la viande dans la cocotte.\n\nLaissez cuire 40 minutes à petit bouillon, à couvert."
+   "steps": "Peler et émincer les oignons. Ébouillanter les tomates, les peler et les hacher grossièrement.\n\nDans une sauteuse, faire chauffer 2 c. à soupe d’huile d’olive, puis faire dorer les cubes de porc quelques minutes sur toutes les faces.\n\nAjouter les oignons et le paprika, saler et poivrer, mélanger et laisser suer 5 mn.\n\nMouiller avec la bière, ajouter le bouquet garni, le piment doux. Couvrir et laisser mijoter à feu doux pendant 50 bonnes minutes, en ajoutant les tomates au bout de 20 minutes.\n\nAu terme de la cuisson, enlever le bouquet garni, prélever les morceaux de viande et les réserver.\n\nFaire réduire la sauce sur feu doux jusqu’à ce qu’elle soit légèrement sirupeuse. Rectifier l’assaisonnement.\n\nRemettre la viande, servir bien chaud."
   },
   {
    "id": "dropbox:240576361",
