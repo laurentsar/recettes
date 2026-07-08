@@ -1,32 +1,31 @@
 {
- "version": "f4dff91c22b8",
+ "version": "eb66535eb35c",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:a96a3a63-3315-4ce3-9d04-1066e83e401c",
-   "t": "Sauté de porc à la tomate d'Agnès",
+   "id": "dropbox:9b11399f-0104-4026-9a5c-b66730f5f667",
+   "t": "Sauté de porc aux oignons et aux tomates",
    "cat": "Plat",
    "area": "",
-   "min": 60,
+   "min": 105,
    "serv": 0,
-   "img": "https://img.cuisineaz.com/1200x675/2016/04/28/i98487-saute-de-porc-a-la-tomate-d-agnes.webp",
-   "url": "https://www.cuisineaz.com/recettes/saute-de-porc-a-la-tomate-d-agnes-7706.aspx",
+   "img": "https://cache.marieclaire.fr/data/photo/w1200_h630_c17/5i/saute-de-porc-aux-tomates-et-aux-oignons.jpg",
+   "url": "https://www.marieclaire.fr/cuisine/saute-de-porc-aux-oignons-et-aux-tomates,1209146.asp",
    "vid": "",
-   "desc": "Le sauté de porc à la tomate est un grand classique de la cuisine française très facile à réaliser. Quelques ingrédients basiques, une cocotte en fonte ou un faitout et un tout petit peu de patience, c'est tout ce dont vous aurez besoin ! On peut le servir accompagné de riz, de pommes de terre à la vapeur, de purée ou même de tagliatelles : un régal pour un repas réconfortant !",
+   "desc": "Très facile à réaliser, ce bon petit plat mijoté en cocotte sera idéal pour un repas chaleureux et convivial en famille. Bon marché, simple et authentique, il se compose de cubes d'échine de porc préparés avec du lard, des oignons, des tomates, de l'ail, du beurre, du vin blanc, un bouquet garni et du persil frais.",
    "ing": [
-    "500 g Sauté de porc",
-    "1 boîte(s) Tomate(s) pelée(s)",
-    "2 gousse(s) Ail",
-    "1 Oignon(s)",
-    "1 cube(s) Bouillon cube(s)",
-    "150 g Champignon(s) de paris",
-    "1 verre(s) Vin blanc",
-    "2 Carotte(s)",
-    "Beurre",
-    "Sel fin",
-    "Poivre"
+    "1 kg d'échine de porc désossée",
+    "75 g de lard de poitrine demi-sel",
+    "100 g de petits oignons",
+    "6 belles tomates",
+    "100 g de beurre",
+    "2 gousses d'ail",
+    "1 bouquet garni",
+    "2 dl de vin blanc sec",
+    "3 branches de persil",
+    "sel et poivre"
    ],
-   "steps": "Émincez l'oignon, pelez et dégermez l'ail et taillez les carottes en rondelles. Rincez et taillez les champignons.\n\nDans une cocotte en fonte, faites fondre le beurre puis faites dorer la viande sur tous les côtés.\n\nRetirez la viande de la cocotte et faites revenir l'oignon, l'ail et les carottes pendant 5 à 10 minutes, en remuant de temps en temps.\n\nDéglacez en versant le verre de vin blanc. Mélangez bien en insistant sur le fond de la cocotte afin de décoller les sucs de cuisson.\n\nAjoutez le bouillon cube et les tomates pelées. Remettez la viande dans la cocotte.\n\nLaissez cuire 40 minutes à petit bouillon, à couvert."
+   "steps": "La préparation des éléments : Coupez l'échine de porc en gros dés, le lard de poitrine en lardons et les tomates en quatre. Épluchez les petits oignons et laissez-les entiers.\n\nLa cuisson : Faites fondre le beurre dans une cocotte ; mettez-y les lardons à dorer. Retirez les lardons et remplacez-les par les petits oignons. Retirez-les quand ils sont bien colorés.\n\nFaites dorer les morceaux de porc dans la même graisse. Quand ils sont dorés, mouillez avec le vin blanc, salez, poivrez, remettez les lardons et les oignons ainsi que les tomates, l'ail et le bouquet garni. Couvrez la cocotte et laissez cuire 1 h 30 à petit feu.\n\nLa mise au point du plat : Retirez de la cocotte les éléments solides et mettez-les sur un plat creux tenu au chaud. Jetez le bouquet garni. Faites un peu réduire la sauce de cuisson à feu vif ; nappez-en la viande et parsemez de persil haché."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -8743,31 +8742,6 @@
    "steps": "Faire chauffer 2 cuillères à soupe d’huile d’olive dans une grande poêle à feu vif.\n\nAjouter le saumon ainsi que les deux gousses d’ail en chemise, assaisonner de sel et de poivre, puis le faire cuire pendant 5 minutes, côté peau.\n\nRetourner le saumon et faire cuire 2 minutes, puis réserver dans une assiette.\n\nRéduire à feu moyen, ajouter 2 cuillères à soupe d’huile d’olive dans la même poêle. Ajouter l’échalote, faire sauter 2 minutes, puis les tomates cerises, l’ail émincé, le sel et le poivre. Mélanger régulièrement.\n\nQuand les tomates commencent à fondre, ajouter les tomates séchées coupées en petits morceaux puis les épinards, l’origan et faire cuire jusqu’à ce qu’ils commencent à se ramollir.\n\nAjouter la crème et laisser cuire pendant 2 minutes.\n\nAjouter le parmesan et le basilic , puis porter à frémissement, avant de baisser à feu doux, jusqu’à ce que la sauce soit réduite, environ 3 minutes.\n\nRemettre le saumon dans la poêle et l’arroser de sauce. Laisser mijoter jusqu’à cuisson complète du saumon, soit environ 5 minutes.\n\nRectifier l’assaisonnement si besoin. Garnir de feuilles de basilic et servir aussitôt."
   },
   {
-   "id": "dropbox:9b11399f-0104-4026-9a5c-b66730f5f667",
-   "t": "Sauté de porc aux oignons et aux tomates",
-   "cat": "Plat",
-   "area": "",
-   "min": 105,
-   "serv": 0,
-   "img": "https://cache.marieclaire.fr/data/photo/w1200_h630_c17/5i/saute-de-porc-aux-tomates-et-aux-oignons.jpg",
-   "url": "https://www.marieclaire.fr/cuisine/saute-de-porc-aux-oignons-et-aux-tomates,1209146.asp",
-   "vid": "",
-   "desc": "Très facile à réaliser, ce bon petit plat mijoté en cocotte sera idéal pour un repas chaleureux et convivial en famille. Bon marché, simple et authentique, il se compose de cubes d'échine de porc préparés avec du lard, des oignons, des tomates, de l'ail, du beurre, du vin blanc, un bouquet garni et du persil frais.",
-   "ing": [
-    "1 kg d'échine de porc désossée",
-    "75 g de lard de poitrine demi-sel",
-    "100 g de petits oignons",
-    "6 belles tomates",
-    "100 g de beurre",
-    "2 gousses d'ail",
-    "1 bouquet garni",
-    "2 dl de vin blanc sec",
-    "3 branches de persil",
-    "sel et poivre"
-   ],
-   "steps": "La préparation des éléments : Coupez l'échine de porc en gros dés, le lard de poitrine en lardons et les tomates en quatre. Épluchez les petits oignons et laissez-les entiers.\n\nLa cuisson : Faites fondre le beurre dans une cocotte ; mettez-y les lardons à dorer. Retirez les lardons et remplacez-les par les petits oignons. Retirez-les quand ils sont bien colorés.\n\nFaites dorer les morceaux de porc dans la même graisse. Quand ils sont dorés, mouillez avec le vin blanc, salez, poivrez, remettez les lardons et les oignons ainsi que les tomates, l'ail et le bouquet garni. Couvrez la cocotte et laissez cuire 1 h 30 à petit feu.\n\nLa mise au point du plat : Retirez de la cocotte les éléments solides et mettez-les sur un plat creux tenu au chaud. Jetez le bouquet garni. Faites un peu réduire la sauce de cuisson à feu vif ; nappez-en la viande et parsemez de persil haché."
-  },
-  {
    "id": "dropbox:b0a79372-84cf-4665-be2f-d562634c4b66",
    "t": "Sauté de porc en ragoût : la meilleure recette",
    "cat": "Plat",
@@ -8813,6 +8787,32 @@
     "– sel et poivre"
    ],
    "steps": "Peler et émincer les oignons. Ébouillanter les tomates, les peler et les hacher grossièrement.\n\nDans une sauteuse, faire chauffer 2 c. à soupe d’huile d’olive, puis faire dorer les cubes de porc quelques minutes sur toutes les faces.\n\nAjouter les oignons et le paprika, saler et poivrer, mélanger et laisser suer 5 mn.\n\nMouiller avec la bière, ajouter le bouquet garni, le piment doux. Couvrir et laisser mijoter à feu doux pendant 50 bonnes minutes, en ajoutant les tomates au bout de 20 minutes.\n\nAu terme de la cuisson, enlever le bouquet garni, prélever les morceaux de viande et les réserver.\n\nFaire réduire la sauce sur feu doux jusqu’à ce qu’elle soit légèrement sirupeuse. Rectifier l’assaisonnement.\n\nRemettre la viande, servir bien chaud."
+  },
+  {
+   "id": "dropbox:a96a3a63-3315-4ce3-9d04-1066e83e401c",
+   "t": "Sauté de porc à la tomate d'Agnès",
+   "cat": "Plat",
+   "area": "",
+   "min": 60,
+   "serv": 0,
+   "img": "https://img.cuisineaz.com/1200x675/2016/04/28/i98487-saute-de-porc-a-la-tomate-d-agnes.webp",
+   "url": "https://www.cuisineaz.com/recettes/saute-de-porc-a-la-tomate-d-agnes-7706.aspx",
+   "vid": "",
+   "desc": "Le sauté de porc à la tomate est un grand classique de la cuisine française très facile à réaliser. Quelques ingrédients basiques, une cocotte en fonte ou un faitout et un tout petit peu de patience, c'est tout ce dont vous aurez besoin ! On peut le servir accompagné de riz, de pommes de terre à la vapeur, de purée ou même de tagliatelles : un régal pour un repas réconfortant !",
+   "ing": [
+    "500 g Sauté de porc",
+    "1 boîte(s) Tomate(s) pelée(s)",
+    "2 gousse(s) Ail",
+    "1 Oignon(s)",
+    "1 cube(s) Bouillon cube(s)",
+    "150 g Champignon(s) de paris",
+    "1 verre(s) Vin blanc",
+    "2 Carotte(s)",
+    "Beurre",
+    "Sel fin",
+    "Poivre"
+   ],
+   "steps": "Émincez l'oignon, pelez et dégermez l'ail et taillez les carottes en rondelles. Rincez et taillez les champignons.\n\nDans une cocotte en fonte, faites fondre le beurre puis faites dorer la viande sur tous les côtés.\n\nRetirez la viande de la cocotte et faites revenir l'oignon, l'ail et les carottes pendant 5 à 10 minutes, en remuant de temps en temps.\n\nDéglacez en versant le verre de vin blanc. Mélangez bien en insistant sur le fond de la cocotte afin de décoller les sucs de cuisson.\n\nAjoutez le bouillon cube et les tomates pelées. Remettez la viande dans la cocotte.\n\nLaissez cuire 40 minutes à petit bouillon, à couvert."
   },
   {
    "id": "dropbox:240576361",
