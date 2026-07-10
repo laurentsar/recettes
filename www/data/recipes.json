@@ -1,29 +1,30 @@
 {
- "version": "e439598529c8",
+ "version": "bc5b6278a120",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:b0a79372-84cf-4665-be2f-d562634c4b66",
-   "t": "Sauté de porc en ragoût : la meilleure recette",
+   "id": "dropbox:240576361",
+   "t": "Semoule aux légumes (carotte et courgette) | Une Plume dans la Cuisine",
    "cat": "Plat",
    "area": "",
-   "min": 10,
+   "min": 0,
    "serv": 0,
-   "img": "https://img-3.journaldesfemmes.fr/etQi-SkMzbeko1bYFZt24bWLNp4=/750x500/082bd54ef5bd4b33ae8f7f4807eb8d42/ccmcms-jdf/39902297.jpg",
-   "url": "https://cuisine.journaldesfemmes.fr/recette/320433-saute-de-porc-en-ragout",
+   "img": "https://i1.wp.com/www.uneplumedanslacuisine.com/wp-content/uploads/2010/10/Semoule-légumes-31-1.jpg?fit=1200%2C1600&ssl=1",
+   "url": "https://www.uneplumedanslacuisine.com/2010/10/semoule-aux-legumes-carotte-et-courgette",
    "vid": "",
-   "desc": "Découvrez cette recette de sauté de porc en ragoût. Avec ses saveurs d'antan, ce ragoût gourmand au porc, champignons et olives est facile et économique à préparer.",
+   "desc": "Blog cuisine avec mes recettes antillaises faciles, ma cuisine antillaise exotique et des recettes indiennes.",
    "ing": [
-    "500 g sauté de porc",
-    "1 oignon",
-    "2 carotte",
-    "1 boîte champignon",
-    "12 olive verte",
-    "2 gousse ail",
-    "1 c à s farine",
-    "2 c à s concentré de tomates"
+    "210 g de semoule pour couscous",
+    "1 courgette",
+    "2 carottes–",
+    "1 oignon–",
+    "1 gousse d’ail–",
+    "2 cuillères à soupe d’huile d’olive–",
+    "1/2 cuillère à café de sel–",
+    "1 cube de bouillon de volaille–",
+    "250 ml d’eau"
    ],
-   "steps": "Peler et couper les carottes en rondelles. Egoutter les olives et les champignons. Réserver.\n\nUtiliser une cocotte en fonte. Dans un filet d'huile, émincer l'oignon et le laisser dorer 1 à 2 minutes. Ajouter le sauté de porc, le mélanger aux oignons et laisser revenir le tout 5 minutes. Ajouter les carottes, les olives et les champignons, mélanger à nouveau et laisser mijoter 5 minutes de plus. Mettre la farine sur la viande et les légumes et bien l'incorporer.\n\nVerser de l'eau jusqu'à hauteur des légumes et de la viande. Ajouter le concentré de tomates et presser l'ail. Assaisonner. Bien remuer et laisser mijoter 45 minutes jusqu'à ce que la sauce épaississe. Déguster bien chaud avec des pommes de terre bouillies."
+   "steps": "1- Lavez la courgette, taillez-là en 4 dans le sens de la longueur, puis retirez le cœur. Epluchez les carottes ainsi que l’oignon. Coupez la courgette, l’oignon et les carottes en petits dés, puis faites-les revenir 2 minutes dans l’ huile d’olive avec l’ail.\n2- Ajoutez ensuite l’eau, le cube de volaille et le sel. Amenez à ébullition puis ajoutez la semoule. Remuez un peu pour mélanger. Couvrez la casserole et laissez reposer hors du feu 5 minutes."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -8765,6 +8766,29 @@
    "steps": "La préparation des éléments : Coupez l'échine de porc en gros dés, le lard de poitrine en lardons et les tomates en quatre. Épluchez les petits oignons et laissez-les entiers.\n\nLa cuisson : Faites fondre le beurre dans une cocotte ; mettez-y les lardons à dorer. Retirez les lardons et remplacez-les par les petits oignons. Retirez-les quand ils sont bien colorés.\n\nFaites dorer les morceaux de porc dans la même graisse. Quand ils sont dorés, mouillez avec le vin blanc, salez, poivrez, remettez les lardons et les oignons ainsi que les tomates, l'ail et le bouquet garni. Couvrez la cocotte et laissez cuire 1 h 30 à petit feu.\n\nLa mise au point du plat : Retirez de la cocotte les éléments solides et mettez-les sur un plat creux tenu au chaud. Jetez le bouquet garni. Faites un peu réduire la sauce de cuisson à feu vif ; nappez-en la viande et parsemez de persil haché."
   },
   {
+   "id": "dropbox:b0a79372-84cf-4665-be2f-d562634c4b66",
+   "t": "Sauté de porc en ragoût : la meilleure recette",
+   "cat": "Plat",
+   "area": "",
+   "min": 10,
+   "serv": 0,
+   "img": "https://img-3.journaldesfemmes.fr/etQi-SkMzbeko1bYFZt24bWLNp4=/750x500/082bd54ef5bd4b33ae8f7f4807eb8d42/ccmcms-jdf/39902297.jpg",
+   "url": "https://cuisine.journaldesfemmes.fr/recette/320433-saute-de-porc-en-ragout",
+   "vid": "",
+   "desc": "Découvrez cette recette de sauté de porc en ragoût. Avec ses saveurs d'antan, ce ragoût gourmand au porc, champignons et olives est facile et économique à préparer.",
+   "ing": [
+    "500 g sauté de porc",
+    "1 oignon",
+    "2 carotte",
+    "1 boîte champignon",
+    "12 olive verte",
+    "2 gousse ail",
+    "1 c à s farine",
+    "2 c à s concentré de tomates"
+   ],
+   "steps": "Peler et couper les carottes en rondelles. Egoutter les olives et les champignons. Réserver.\n\nUtiliser une cocotte en fonte. Dans un filet d'huile, émincer l'oignon et le laisser dorer 1 à 2 minutes. Ajouter le sauté de porc, le mélanger aux oignons et laisser revenir le tout 5 minutes. Ajouter les carottes, les olives et les champignons, mélanger à nouveau et laisser mijoter 5 minutes de plus. Mettre la farine sur la viande et les légumes et bien l'incorporer.\n\nVerser de l'eau jusqu'à hauteur des légumes et de la viande. Ajouter le concentré de tomates et presser l'ail. Assaisonner. Bien remuer et laisser mijoter 45 minutes jusqu'à ce que la sauce épaississe. Déguster bien chaud avec des pommes de terre bouillies."
+  },
+  {
    "id": "dropbox:05b5241d-4885-4192-b718-08ca6bfed1e8",
    "t": "Sauté de porc à la bière et au paprika",
    "cat": "Plat",
@@ -8813,30 +8837,6 @@
     "Poivre"
    ],
    "steps": "Émincez l'oignon, pelez et dégermez l'ail et taillez les carottes en rondelles. Rincez et taillez les champignons.\n\nDans une cocotte en fonte, faites fondre le beurre puis faites dorer la viande sur tous les côtés.\n\nRetirez la viande de la cocotte et faites revenir l'oignon, l'ail et les carottes pendant 5 à 10 minutes, en remuant de temps en temps.\n\nDéglacez en versant le verre de vin blanc. Mélangez bien en insistant sur le fond de la cocotte afin de décoller les sucs de cuisson.\n\nAjoutez le bouillon cube et les tomates pelées. Remettez la viande dans la cocotte.\n\nLaissez cuire 40 minutes à petit bouillon, à couvert."
-  },
-  {
-   "id": "dropbox:240576361",
-   "t": "Semoule aux légumes (carotte et courgette) | Une Plume dans la Cuisine",
-   "cat": "Plat",
-   "area": "",
-   "min": 0,
-   "serv": 0,
-   "img": "https://i1.wp.com/www.uneplumedanslacuisine.com/wp-content/uploads/2010/10/Semoule-légumes-31-1.jpg?fit=1200%2C1600&ssl=1",
-   "url": "https://www.uneplumedanslacuisine.com/2010/10/semoule-aux-legumes-carotte-et-courgette",
-   "vid": "",
-   "desc": "Blog cuisine avec mes recettes antillaises faciles, ma cuisine antillaise exotique et des recettes indiennes.",
-   "ing": [
-    "210 g de semoule pour couscous",
-    "1 courgette",
-    "2 carottes–",
-    "1 oignon–",
-    "1 gousse d’ail–",
-    "2 cuillères à soupe d’huile d’olive–",
-    "1/2 cuillère à café de sel–",
-    "1 cube de bouillon de volaille–",
-    "250 ml d’eau"
-   ],
-   "steps": "1- Lavez la courgette, taillez-là en 4 dans le sens de la longueur, puis retirez le cœur. Epluchez les carottes ainsi que l’oignon. Coupez la courgette, l’oignon et les carottes en petits dés, puis faites-les revenir 2 minutes dans l’ huile d’olive avec l’ail.\n2- Ajoutez ensuite l’eau, le cube de volaille et le sel. Amenez à ébullition puis ajoutez la semoule. Remuez un peu pour mélanger. Couvrez la casserole et laissez reposer hors du feu 5 minutes."
   },
   {
    "id": "dropbox:-606002207",
