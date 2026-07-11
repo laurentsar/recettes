@@ -1,30 +1,23 @@
 {
- "version": "bc5b6278a120",
+ "version": "f838080e47ca",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:240576361",
-   "t": "Semoule aux légumes (carotte et courgette) | Une Plume dans la Cuisine",
-   "cat": "Plat",
+   "id": "dropbox:50051132",
+   "t": "Soubressade fait maison au thermomix - Recette Thermomix",
+   "cat": "Thermomix",
    "area": "",
    "min": 0,
    "serv": 0,
-   "img": "https://i1.wp.com/www.uneplumedanslacuisine.com/wp-content/uploads/2010/10/Semoule-légumes-31-1.jpg?fit=1200%2C1600&ssl=1",
-   "url": "https://www.uneplumedanslacuisine.com/2010/10/semoule-aux-legumes-carotte-et-courgette",
+   "img": "https://www.recette247.com/wp-content/uploads/2018/06/Soubressade-fait-maison-au-thermomix-1.jpg",
+   "url": "https://www.recette247.com/thermomix/soubressade-fait-maison-au-thermomix/",
    "vid": "",
-   "desc": "Blog cuisine avec mes recettes antillaises faciles, ma cuisine antillaise exotique et des recettes indiennes.",
+   "desc": "Je vous propose une recette de Soubressade fait maison, simple et facile à réaliser chez vous au thermomix.",
    "ing": [
-    "210 g de semoule pour couscous",
-    "1 courgette",
-    "2 carottes–",
-    "1 oignon–",
-    "1 gousse d’ail–",
-    "2 cuillères à soupe d’huile d’olive–",
-    "1/2 cuillère à café de sel–",
-    "1 cube de bouillon de volaille–",
-    "250 ml d’eau"
+    "1 chorizo (doux ou fort)",
+    "1 bocal tomates séchées à l’huile mp"
    ],
-   "steps": "1- Lavez la courgette, taillez-là en 4 dans le sens de la longueur, puis retirez le cœur. Epluchez les carottes ainsi que l’oignon. Coupez la courgette, l’oignon et les carottes en petits dés, puis faites-les revenir 2 minutes dans l’ huile d’olive avec l’ail.\n2- Ajoutez ensuite l’eau, le cube de volaille et le sel. Amenez à ébullition puis ajoutez la semoule. Remuez un peu pour mélanger. Couvrez la casserole et laissez reposer hors du feu 5 minutes."
+   "steps": "Égoutter les tomates séchées et les placer dans le bol.\nÔter la peau du chorizo, couper celui-ci en morceaux d’environ 2 cm. Les ajouter aux tomates.\nMixer 15 secondes environ à vitesse 8 à 9.\nPlacer au frais. A tartiner sur du bon pain pour l’apéritif."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -8839,6 +8832,30 @@
    "steps": "Émincez l'oignon, pelez et dégermez l'ail et taillez les carottes en rondelles. Rincez et taillez les champignons.\n\nDans une cocotte en fonte, faites fondre le beurre puis faites dorer la viande sur tous les côtés.\n\nRetirez la viande de la cocotte et faites revenir l'oignon, l'ail et les carottes pendant 5 à 10 minutes, en remuant de temps en temps.\n\nDéglacez en versant le verre de vin blanc. Mélangez bien en insistant sur le fond de la cocotte afin de décoller les sucs de cuisson.\n\nAjoutez le bouillon cube et les tomates pelées. Remettez la viande dans la cocotte.\n\nLaissez cuire 40 minutes à petit bouillon, à couvert."
   },
   {
+   "id": "dropbox:240576361",
+   "t": "Semoule aux légumes (carotte et courgette) | Une Plume dans la Cuisine",
+   "cat": "Plat",
+   "area": "",
+   "min": 0,
+   "serv": 0,
+   "img": "https://i1.wp.com/www.uneplumedanslacuisine.com/wp-content/uploads/2010/10/Semoule-légumes-31-1.jpg?fit=1200%2C1600&ssl=1",
+   "url": "https://www.uneplumedanslacuisine.com/2010/10/semoule-aux-legumes-carotte-et-courgette",
+   "vid": "",
+   "desc": "Blog cuisine avec mes recettes antillaises faciles, ma cuisine antillaise exotique et des recettes indiennes.",
+   "ing": [
+    "210 g de semoule pour couscous",
+    "1 courgette",
+    "2 carottes–",
+    "1 oignon–",
+    "1 gousse d’ail–",
+    "2 cuillères à soupe d’huile d’olive–",
+    "1/2 cuillère à café de sel–",
+    "1 cube de bouillon de volaille–",
+    "250 ml d’eau"
+   ],
+   "steps": "1- Lavez la courgette, taillez-là en 4 dans le sens de la longueur, puis retirez le cœur. Epluchez les carottes ainsi que l’oignon. Coupez la courgette, l’oignon et les carottes en petits dés, puis faites-les revenir 2 minutes dans l’ huile d’olive avec l’ail.\n2- Ajoutez ensuite l’eau, le cube de volaille et le sel. Amenez à ébullition puis ajoutez la semoule. Remuez un peu pour mélanger. Couvrez la casserole et laissez reposer hors du feu 5 minutes."
+  },
+  {
    "id": "dropbox:-606002207",
    "t": "Semoule aux légumes WW (Thermomix) - La marmite de la ferme",
    "cat": "Plat",
@@ -8905,23 +8922,6 @@
     "12 tranches fines de Pancetta ( lard fumé)"
    ],
    "steps": "Préchauffez le four à 200°C . Prenez une plaque à rôtir, assez grande pour qu’elle contienne les filets de soles sans qu’ils puissent se chevaucher. J’ai utilisé pour ma part une plaque de cuisson anti adhésive Téfal.\n\nÉpluchez les pommes de terre, lavez-les et coupez-les en tranche d’1 cm d’épaisseur. Mélangez-les avec un peu d’huile d’olive, le romarin, le sel et le poivre. Répartissez ce mélange dans la plaque sur une seule couche. Recouvrez les pommes de terre d’une double couche de papier aluminium et enfournez pour 20 minutes de cuisson.\n\nQuand elles sont assez tendres, enlevez le papier aluminium et remettez au four encore 10 minutes, juste assez pour commencer à les faire colorer.\n\nHachez la pancetta en petits morceaux.\n\nHuilez légèrement les filets de sole, salez et poivrez-les. Sortez la plaque du four et déposez les poissons par dessus. Saupoudrez de morceaux de pancetta. Enfournez le tout pour 15 minutes de cuisson.\n\nPendant ce temps, lavez et essorez une poignée de roquette, assaisonnez la d’un peu de citron et d’huile d’olive. Nettoyez 5 tomates cerises et coupez-les en deux.\n\nQuand les soles sont cuites, sortez-les du four. Répartissez la roquette assaisonnée, ajoutez les tomates cerises et servez immédiatement."
-  },
-  {
-   "id": "dropbox:50051132",
-   "t": "Soubressade fait maison au thermomix - Recette Thermomix",
-   "cat": "Thermomix",
-   "area": "",
-   "min": 0,
-   "serv": 0,
-   "img": "https://www.recette247.com/wp-content/uploads/2018/06/Soubressade-fait-maison-au-thermomix-1.jpg",
-   "url": "https://www.recette247.com/thermomix/soubressade-fait-maison-au-thermomix/",
-   "vid": "",
-   "desc": "Je vous propose une recette de Soubressade fait maison, simple et facile à réaliser chez vous au thermomix.",
-   "ing": [
-    "1 chorizo (doux ou fort)",
-    "1 bocal tomates séchées à l’huile mp"
-   ],
-   "steps": "Égoutter les tomates séchées et les placer dans le bol.\nÔter la peau du chorizo, couper celui-ci en morceaux d’environ 2 cm. Les ajouter aux tomates.\nMixer 15 secondes environ à vitesse 8 à 9.\nPlacer au frais. A tartiner sur du bon pain pour l’apéritif."
   },
   {
    "id": "dropbox:4eafea61-3437-4d42-a39b-64d857dc4f90",
