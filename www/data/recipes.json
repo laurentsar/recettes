@@ -1,23 +1,33 @@
 {
- "version": "f838080e47ca",
+ "version": "1020e26a86f9",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:50051132",
-   "t": "Soubressade fait maison au thermomix - Recette Thermomix",
-   "cat": "Thermomix",
+   "id": "dropbox:1111279968",
+   "t": "Tagliatelles au poulet façon stroganoff - My tasty cuisine",
+   "cat": "Plat",
    "area": "",
    "min": 0,
    "serv": 0,
-   "img": "https://www.recette247.com/wp-content/uploads/2018/06/Soubressade-fait-maison-au-thermomix-1.jpg",
-   "url": "https://www.recette247.com/thermomix/soubressade-fait-maison-au-thermomix/",
+   "img": "http://www.mytastycuisine.com/wp-content/uploads/2018/01/IMG_20180103_110003_918-700x1345.jpg",
+   "url": "http://www.mytastycuisine.com/tagliatelles-poulet-facon-stroganoff/",
    "vid": "",
-   "desc": "Je vous propose une recette de Soubressade fait maison, simple et facile à réaliser chez vous au thermomix.",
+   "desc": "Dans cet article, je vous propose une recette de poulet façon stroganoff, une inspiration de Jamie Oliver, que j’ai accompagné de tagliatelles. Vous pouvez très bien l’accompagner de riz. C’est partit pour la recette",
    "ing": [
-    "1 chorizo (doux ou fort)",
-    "1 bocal tomates séchées à l’huile mp"
+    "400g de blanc de poulet coupé en cubes",
+    "1 gros oignon émincé",
+    "2 gousses d’ail hachées",
+    "2 poignées de champignons surgelés ou frais",
+    "2 poignées de petits pois surgelés",
+    "1 càs de concentré de tomate",
+    "2 càs de crème fraîche",
+    "1 càc de paprika",
+    "1/2 càc de piment en poudre ( facultatif)",
+    "sel/poivre",
+    "huile d’olive",
+    "des tagliatelles"
    ],
-   "steps": "Égoutter les tomates séchées et les placer dans le bol.\nÔter la peau du chorizo, couper celui-ci en morceaux d’environ 2 cm. Les ajouter aux tomates.\nMixer 15 secondes environ à vitesse 8 à 9.\nPlacer au frais. A tartiner sur du bon pain pour l’apéritif."
+   "steps": "1- Dans une poêle, faire revenir dans un filet d’huile d’olive, l’oignon et l’ail. Saler légèrement. Ajouter ensuite le poulet et le faire dorer. Saler et poivrer.\n2- Ensuite, ajouter les champignons, les petits pois et mélanger le tout. Ajouter le concentré de tomate (dissout dans un peu d’eau), le sel, le poivre, le paprika et le piment. Mélanger.\n3- Couvrir d’eau et faire mijoter 5 minutes à couvert. Puis ajouter, la crème fraîche, réassaisonner si besoin et laisser mijoter 5-10 minutes à couvert, le temps de cuire les pâtes. Enfin ajouter les pâtes à l’aide d’une pince sans les égoutter et bien mélanger le tout. N’hésitez pas à ajouter de l’eau de cuisson des pâtes, pour éviter qu’elles soient sèches."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -8924,6 +8934,23 @@
    "steps": "Préchauffez le four à 200°C . Prenez une plaque à rôtir, assez grande pour qu’elle contienne les filets de soles sans qu’ils puissent se chevaucher. J’ai utilisé pour ma part une plaque de cuisson anti adhésive Téfal.\n\nÉpluchez les pommes de terre, lavez-les et coupez-les en tranche d’1 cm d’épaisseur. Mélangez-les avec un peu d’huile d’olive, le romarin, le sel et le poivre. Répartissez ce mélange dans la plaque sur une seule couche. Recouvrez les pommes de terre d’une double couche de papier aluminium et enfournez pour 20 minutes de cuisson.\n\nQuand elles sont assez tendres, enlevez le papier aluminium et remettez au four encore 10 minutes, juste assez pour commencer à les faire colorer.\n\nHachez la pancetta en petits morceaux.\n\nHuilez légèrement les filets de sole, salez et poivrez-les. Sortez la plaque du four et déposez les poissons par dessus. Saupoudrez de morceaux de pancetta. Enfournez le tout pour 15 minutes de cuisson.\n\nPendant ce temps, lavez et essorez une poignée de roquette, assaisonnez la d’un peu de citron et d’huile d’olive. Nettoyez 5 tomates cerises et coupez-les en deux.\n\nQuand les soles sont cuites, sortez-les du four. Répartissez la roquette assaisonnée, ajoutez les tomates cerises et servez immédiatement."
   },
   {
+   "id": "dropbox:50051132",
+   "t": "Soubressade fait maison au thermomix - Recette Thermomix",
+   "cat": "Thermomix",
+   "area": "",
+   "min": 0,
+   "serv": 0,
+   "img": "https://www.recette247.com/wp-content/uploads/2018/06/Soubressade-fait-maison-au-thermomix-1.jpg",
+   "url": "https://www.recette247.com/thermomix/soubressade-fait-maison-au-thermomix/",
+   "vid": "",
+   "desc": "Je vous propose une recette de Soubressade fait maison, simple et facile à réaliser chez vous au thermomix.",
+   "ing": [
+    "1 chorizo (doux ou fort)",
+    "1 bocal tomates séchées à l’huile mp"
+   ],
+   "steps": "Égoutter les tomates séchées et les placer dans le bol.\nÔter la peau du chorizo, couper celui-ci en morceaux d’environ 2 cm. Les ajouter aux tomates.\nMixer 15 secondes environ à vitesse 8 à 9.\nPlacer au frais. A tartiner sur du bon pain pour l’apéritif."
+  },
+  {
    "id": "dropbox:4eafea61-3437-4d42-a39b-64d857dc4f90",
    "t": "Soufflé au fromage à l'air fryer",
    "cat": "Plat",
@@ -9034,33 +9061,6 @@
    "desc": "",
    "ing": [],
    "steps": "Informations complémentairesYaourts au Varoma par neydehotovic. Une recette de fan à retrouver dans la catégorie Desserts & Confiseries sur www.espace-recettes.fr, de Thermomix®.Voir cette épingle et d'autres images dans thermomix par Catherine Castellani.BalisesMr Cuisine PlusAide CulinaireYaourt MaisonRecette Monsieur Cuisine PlusGâteaux Et DessertsCuisine Et BoissonsEspace ThermomixLivre ThermomixConfiture ThermomixCe qu'en disent les utilisateursYaourts au Varoma par neydehotovic. Une recette de fan à retrouver dans la catégorie Desserts & Confiseries sur www.espace-recettes.fr, de Thermomix<sup>®</sup>.Yaourts au Varoma par neydehotovic. Une recette de fan à retrouver dans la catégorie Desserts & Confiseries sur www.espace-recettes.fr, de Thermomix®.Recette de espace-recettes.frYaourts au VaromaYaourts au Varoma, une recette de la catégorie Desserts & Confiseries. Plus de recette Thermomix® www.espace-recettes.frMr Cuisine PlusAide CulinaireYaourt MaisonRecette Monsieur Cuisine PlusGâteaux Et DessertsCuisine Et BoissonsEspace ThermomixLivre ThermomixConfiture ThermomixInformations complémentairesRecette deCatherine Castellani256Idées similairesInformations complémentairesMes yaourts maison par Lysee. Une recette de fan à retrouver dans la catégorie Desserts & Confiseries sur www.espace-recettes.fr, de Thermomix<sup>®</sup>.Voir cette épingle et d'autres images dans Desserts par Chapuis.Informations complémentairesInformations complémentairesyaourts au thermomixVoir cette épingle et d'autres images dans thermomix par Pat Sajot.BalisesYahourt ThermomixNettoyer ThermomixGateau ThermomixRecettes Thermomix Tm5Recette Thermomix DessertDessert ChocolatPâtes ThermomixYaourtsFromagesCe qu'en disent les utilisateursRecette de yaourt au varoma au Thermomix Thermomix ou Thermomix Préparez ce dessert en mode étape par étape comme sur votre Thermomix !Yaourts maison à la yaourtière - AnneSO Fashion CookingQuestion : Savez-vous ce que c'est ? Un cuit vapeur ? C'est vrai,mais aujourd'hui, c'est une yaourtière ! ...Mettez dans le Thermomix, le yaourt, le sucre, le lait en poudre et 1 louche de lait. Mélang...yaourts au thermomixInformations complémentairesInformations complémentairesCrème Danette au chocolat par cilou des hauts de france. Une recette de fan à retrouver dans la catégorie Desserts & Confiseries sur www.espace-recettes.fr, de Thermomix<sup>®</sup>.Voir cette épingle et d'autres images dans Recettes thermomix par Cécile Ghesquiere Penet.BalisesCreme Chocolat ThermomixCreme Dessert ChocolatRecette Thermomix DessertCrème Au ChocolatRecettes De CuisineChocolatsRecettes SucréesMonsieur Cuisine RecetteRecette PatisserieInformations complémentairesInformations complémentairesYaourt au VaromaVoir cette épingle et d'autres images dans Thermomix par Micheline Jung.OuvrirInformations complémentairesInformations complémentairesPas facile de trouver LA bonne recette de panna cotta! Et ça se complique quand on veut la faire au thermomix. Ça se complique encore plus lorsque je préfère utiliser l’agar-agar à la place de la gélatine alimentaire. Alors après moultes tentatives diverses et variées, voici ma recette qui donne un résultat impeccable. Cette …Voir cette épingle et d'autres images dans Desserts par karine MARTY.BalisesRecette Tm5Bonne RecetteIdee Recette ThermomixRecette Thermomix DessertLivre ThermomixMagimixYaourtsBoissonsViandeInformations complémentairesInformations complémentairesYaourts au Thermomix Pour 8 Yaourts : 1 Yaourt nature à votre goût. 1 litre de lait entier 3 c à soupe de lait en poudre (pour plus de fermeté) 3 c à soupe de sucre (facultatif)Voir cette épingle et d'autres images dans recette thermomix par DANOUNA.BalisesRecette Thermomix VaromaRecette Cuiseur VapeurNettoyer ThermomixGateau ThermomixRecette Yaourt NatureYaourt Sans YaourtièreRecette Yaourt MaisonYaourtsFromagesCe qu'en disent les utilisateursRecette yaourt maison avec le thermomix- varomaQuestion : Savez-vous ce que c'est ? Un cuit vapeur ? C'est vrai,mais aujourd'hui, c'est une yaourtière ! ...Yaourts au Thermomix Pour 8 Yaourts : 1 Yaourt nature à votre goût. 1 litre de lait entier 3 c à soupe de lait en poudre (pour plus de fermeté) 3 c à soupe de sucre (facultatif)Informations complémentairesLes utilisateurs aiment aussi ces idéesRiz au lait crémeux10541 minRiz au lait crémeux par Nicogeneandco. Une recette de fan à retrouver dans la catégorie Desserts & Confiseries sur www.espace-recettes.fr, de Thermomix®.Beatrice PratthermomixUN TOUR EN CUISINE n° 275 : LES YAOURTS AU VAROMA (thermomix)UN TOUR EN CUISINE n° 275 : LES YAOURTS AU VAROMA (thermomix) - Blog cuisine Thermomix avec recettes pour le TM5 & TM31DenoyelRecette thermomixCroquettes de chou-fleur au parmesan avec thermomixGalettesCroquettes De Chou FleurChou Fleur Au FourGalette LegumesChoux FleursRecette ApéritifRecettes De CuisineGrilladesCourgetteCroquettes de chou-fleur au parmesan avec thermomix. Voici une recette des Croquettes de chou-fleur au parmesan, simple et facile a réaliser...FraenckelrecettesDIY Des yaourts maison sans machineDiy YaourtCreme ChocolatFromagesYaourt Maison Sans YaourtiereYaourt Sans YaourtièreFromage MaisonBoissonsProduits LaitiersCuisine Facilediy recette des YAOURTS MAISON sans machine ni yaourtiere et à la vanille sur le blog Birds and bicyclesBirds & Bicycles | Papeterie, jolies choses & voyagesGourmandisesAstuces ThermomixLivre De Recette ThermomixNettoyage ThermomixYaourt ThermomixRecette Minceur ThermomixVelouté ThermomixRecette Monsieur Cuisine PlusRecette Tm5Cuisine Et BoissonsSaucisseAstuces Thermomix a l'honneur aujourd'hui Températures et vitesses 37° : Température pour chauffer la nourriture des bébés. 50° : température pour fondre le chocolat 60° à 70° : température pour préparer vos sauce et aussi pour le bain-marie. 80° à 90°...Patricia Lebrellrecettes thermomixpetits flans \"by \"Flan Aux Oeufs ThermomixConfiture ThermomixNappageYaourtsRecette Thermomix DessertSauce SucréeCookeo RecetteRecette Monsieur Cuisine PlusRecette Tupperwarepetits flans thermomix 3 oeufs - 400 g de lait 1/2 écrémé - 60 g de sucre ...moi j'en ai mis 50 g - 20 g de caramel liquide et du caramel liquide pour le nappage des pots Mettre dans le bol du thermomix le sucre et les oeufs Mixer quelques secondes vit 5 Ajouter le lait et les 20 g de caramel Programmer 5 mn/70°/vit 2 Napper de caramel le fond de chaque petits pots A la sonnerie verser dans les pots et poser le couvercle Si vous n'avez pas de pots avec un couvercle...les couvrir de film…Sandrine Crecettes thermomixYaourts au Varoma178 minCuiseur Vapeur MagimixRecette Cuiseur VapeurRecette Tm5Gâteaux Et DessertsYaourtsFromagesRecettes De CuisineRecettes SucréesBoissonsYaourts au Varoma, une recette de la catégorie Desserts & Confiseries. Plus de recette Thermomix® www.espace-recettes.frChantal EpinatThermomixVoir plusPâte feuilletée inratable32 heuresPate Feuilletée Au RobotRecette Thermomix RapideRecette Pâte Feuilletée RapidePate Feuilletee ThermomixRecette Thermomix DessertRecettes Thermomix Tm5Pate Feuillete RapidePâte Feuilletée FacilePate Feuilletee RecettePâte feuilletée rapide et facile au robot Thermomix Pâte feuilletée rapide et facile au robot ThermomixMarmitonPâte feuilletéeVoir plusAvoir des yaourts bien fermes : ma solutionYaourt GlacéYaourt Sans YaourtièreFromagesConservesLait ConcentréFromage VégétalFromage BlancGâteaux Et DessertsLait En PoudreFood Rings Ideas & Inspirations 2017 – DISCOVER Ca y est, j'ai enfin trouvé comment avoir des yaourts faits maison et bien fermes…Des yaourts inratables, j'ai mis de l'agar agar pour figer et c'est super. Discovred by : Belette MarmotteBelette MarmotteCookVoir plusTomates à la provençaleGrilladesTomates ProvençalesGousse D AilPersilAssaisonnementCarottesConcombreMoutardeCuissontomates provencales Ingrédients personnes) : 6 tomates de Marmande ou coeur de boeuf 2 petites gousses d’ail bouquet de persil 100 g de baguette sèche quelques feuilles fines de céleri 5 cuillères à soupe d’huile d’olive Sel, poivre, piment d’EspelettesophieRecettes saléesVoir plusFrites légères au thermomixRecettes Thermomix Tm5Recette Thermomix DessertRecette Thermomix VaromaRecette Ww ThermomixRobot CuisineRecettes MinceurRecettes BioRecettes De CuisineRecettes DiversesFrites légères au thermomix – Recette Thermomix Facile Frites légères au thermomix. Je vous propose une recette de Frites légères, simple et facile à préparer chez vous au thermomix.graniépommes de terreVoir plusPâte à tartiner pralinée11978 minRecette Pate A TartinerGâteaux Et DessertsCuisine PlusChocolatsFriandisesBonbonEspaces Recettes ThermomixEspace RecettesRecettes BioPâte à tartiner pralinée par karineo. Une recette de fan à retrouver dans la catégorie Sauces, dips et pâtes à tartiner sur www.espace-recettes.fr, de Thermomix<sup>®</sup>.Ludivine ClavierDessertsVoir plusPâte magique au thermomix. Découvrez les recettes de pâte magique, c’est une recette vraiment magique du fait qu’elle peut être utilisée comme pâte de base pour plusieurs recettes (pizza,pizza calzone, pain panini, pain de mie, tarte sucrée ou salée, la tourte burger , les donuts.. ).Cuisine MomixRecette ThermomixUN TOUR EN CUISINE n° 275 : LES YAOURTS AU VAROMA (thermomix)Recette Cuiseur VapeurRecette Tm5BriocheFromageYahourt ThermomixRecette Thermomix DessertRecette CompanionVerreBouilloireyaourts-au-varoma 860 g de lait UHT demi-écrémé 1 yaourt nature 50 g de lait en…Julie PetryThermomixVoir plusAvoir des yaourts bien fermes : ma solutionYaourt GlacéYaourt Sans YaourtièreFromagesConservesLait ConcentréFromage VégétalFromage BlancGâteaux Et DessertsLait En PoudreFood Rings Ideas & Inspirations 2017 – DISCOVER Ca y est, j'ai enfin trouvé comment avoir des yaourts faits maison et bien fermes…Des yaourts inratables, j'ai mis de l'agar agar pour figer et c'est super. Discovred by : Belette MarmotteBelette MarmotteCookVoir plusSemoule au Lait12125 minSemoule au Lait par Trois A. Une recette de fan à retrouver dans la catégorie Desserts & Confiseries sur www.espace-recettes.fr, de Thermomix<sup>®</sup>.Jo Ber.manginThermomixFrites légères au thermomixRecettes Thermomix Tm5Recette Thermomix DessertRecette Thermomix VaromaRecette Ww ThermomixRobot CuisineRecettes MinceurRecettes BioRecettes De CuisineRecettes DiversesFrites légères au thermomix – Recette Thermomix Facile Frites légères au thermomix. Je vous propose une recette de Frites légères, simple et facile à préparer chez vous au thermomix.graniépommes de terreVoir plusGAUFRES SECHES DU NORD OUGalette De CourgetteCrêpes Et GaufresRecette BiscuitBiscuits SucrésRecette BioDesserts SucrésCuisine Et BoissonsViennoiseriesGâteau Au Lait ChaudPour : 25 à 30 Préparation : 5 min Cuisson : +/- 3 min par petite gaufre Ingrédients : - 250 gr de farine - 150 gr de cassonade...Stéphanie CZEKALSKIJuste parce que c'est bon... et sucréVoir plusMoelleux fondant aux amandes au thermomix. Je vous propose une recette de gâteau Moelleux fondant aux amandes, simple et facile à réaliser au thermomix.Master CuisineRecettes ThermomixENDIVES AU JAMBON ! au thermomixbonjour ! ********* bien sur , des endives au jambon , cela fait très longtemps que j'en fait , mais au thermomix , ce fût une première pour moi . cuire les endives dans le varoma et faire la béchamelle , c'est momix qui cuisine . si vous voulez essayer...Fersing SamiraThermomixUN TOUR EN CUISINE n° 275 : LES YAOURTS AU VAROMA (thermomix)Recette Cuiseur VapeurRecette Tm5BriocheFromageYahourt ThermomixRecette Thermomix DessertRecette CompanionVerreBouilloireyaourts-au-varoma 860 g de lait UHT demi-écrémé 1 yaourt nature 50 g de lait en…Julie PetryThermomixVoir plusComment faire une brioche douce et délicieuse très facilement -Recettes de CuisineRecettes de Cuisinesoupe detox au thermomix La soupe detox est une soupe légère et facile à digérer et surtout riche en vitamines les soupes detox on peut les cuisiner avec chou courgette fenouil carotte poireau épinards....voila la recette thermomix la plus facile.Soupe Courgette ThermomixRecette Soupe CourgetteCuisine DietetiqueRobot CuisineRecette ThermomixPotagesSoupesCitronAnglaisLes meilleures recettes à réaliserRecette ThermomixSoupe détox au Thermomix - L'univers de MatebeSoupe DétoxRecette ÉquilibréePotagesAuberginesRecette SympaCuisine FacileRecette Legumes ThermomixDétox ThermomixRecettes Thermomix Tm5Aprés les excés des fêtes, une petite soupe détox fera le plus grand bien. J'ai emprunté cette recette...Lisa TourbionneThermomixPetites brioches au sucre au thermomixpetites brioches au sucre au thermomix délicieuses moelleuses fondantes comme celles de la boulangerie. Voila la recette thermomix des petites brioches.Dcc RguinetTutos couture"
-  },
-  {
-   "id": "dropbox:1111279968",
-   "t": "Tagliatelles au poulet façon stroganoff - My tasty cuisine",
-   "cat": "Plat",
-   "area": "",
-   "min": 0,
-   "serv": 0,
-   "img": "http://www.mytastycuisine.com/wp-content/uploads/2018/01/IMG_20180103_110003_918-700x1345.jpg",
-   "url": "http://www.mytastycuisine.com/tagliatelles-poulet-facon-stroganoff/",
-   "vid": "",
-   "desc": "Dans cet article, je vous propose une recette de poulet façon stroganoff, une inspiration de Jamie Oliver, que j’ai accompagné de tagliatelles. Vous pouvez très bien l’accompagner de riz. C’est partit pour la recette",
-   "ing": [
-    "400g de blanc de poulet coupé en cubes",
-    "1 gros oignon émincé",
-    "2 gousses d’ail hachées",
-    "2 poignées de champignons surgelés ou frais",
-    "2 poignées de petits pois surgelés",
-    "1 càs de concentré de tomate",
-    "2 càs de crème fraîche",
-    "1 càc de paprika",
-    "1/2 càc de piment en poudre ( facultatif)",
-    "sel/poivre",
-    "huile d’olive",
-    "des tagliatelles"
-   ],
-   "steps": "1- Dans une poêle, faire revenir dans un filet d’huile d’olive, l’oignon et l’ail. Saler légèrement. Ajouter ensuite le poulet et le faire dorer. Saler et poivrer.\n2- Ensuite, ajouter les champignons, les petits pois et mélanger le tout. Ajouter le concentré de tomate (dissout dans un peu d’eau), le sel, le poivre, le paprika et le piment. Mélanger.\n3- Couvrir d’eau et faire mijoter 5 minutes à couvert. Puis ajouter, la crème fraîche, réassaisonner si besoin et laisser mijoter 5-10 minutes à couvert, le temps de cuire les pâtes. Enfin ajouter les pâtes à l’aide d’une pince sans les égoutter et bien mélanger le tout. N’hésitez pas à ajouter de l’eau de cuisson des pâtes, pour éviter qu’elles soient sèches."
   },
   {
    "id": "dropbox:124568998",
