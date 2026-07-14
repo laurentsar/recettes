@@ -1,32 +1,29 @@
 {
- "version": "844231c2d8ac",
+ "version": "b8e482cddfa8",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:1670248608",
-   "t": "Tarte au thon aux herbes de Provence",
-   "cat": "Plat",
+   "id": "dropbox:0d2dc7d7-cb0c-43a3-8bbe-514835e4e9aa",
+   "t": "Tomates provençales au Air Fryer (ou pas)",
+   "cat": "Tomates",
    "area": "",
-   "min": 50,
+   "min": 15,
    "serv": 0,
-   "img": "https://static.750g.com/images/600-600/5fc9a2d81e22d053458d42bd6129af4f/tarte-au-thon.jpg",
-   "url": "https://www.750g.com/tarte-au-thon-r99711.htm#pap",
+   "img": "https://lapetitebette.com/wp-content/uploads/2022/09/Tomates-provencales-Légumes-771-Modifier-480x270.jpg",
+   "url": "https://lapetitebette.com/recette/tomates-provencales-air-fryer/",
    "vid": "",
-   "desc": "Une tarte facile et rapide à préparer qui deviendra un inconditionnel de votre table.",
+   "desc": "",
    "ing": [
-    "1 rouleau de pâte feuilletée",
-    "200g de thon à l'huile",
-    "50g de concentré de tomates",
-    "15 cl de crème liquide",
-    "3 œufs",
-    "1 gousse d'ail écrasée",
-    "100g de gruyère râpé",
-    "Herbes de Provence séchées",
-    "sel",
-    "poivre",
-    "1 laitue"
+    "2 tomates de grosseur moyenne",
+    "coupée en deux sur la hauteur",
+    "1/4 de tasse de chapelure régulière ou panko",
+    "15 ml (1 c. à soupe) d'huile d'olive",
+    "1-2 gousses d'ail hachées finement",
+    "1/2 c. à thé d'herbes de Provence",
+    "au goût de sel et poivre",
+    "quelques feuilles de persil frais"
    ],
-   "steps": "Étape 1 : Les oeufs\n\nPréchauffez le four à 180°C.Dans un saladier, cassez les 3 oeufs entiers et mélangez. \n\nÉtape 2 : Le thon à l'huile\nAjoutez 200g de thon à l'huile émietté. \n\nÉtape 3 : Le concentré de tomates\nAjoutez 50g de concentré de tomates. \n\nÉtape 4 : L'ail\nAjoutez une gousse d'ail écrasée. Étape \n\n5 : La crème liquide\nAjoutez 15 cl de crème fraîche liquide. \n\nÉtape 6 : Gruyère râpé\nAjoutez 100g de gruyère râpé. \n\nÉtape 7 : Les herbes de Provence\nTerminez en ajoutant des herbes de Provence.\n\nÉtape 8 : Assaisonnez\nSalez, poivrez. \n\nÉtape 9 : Mélangez\nMélangez le tout jusqu'à obtenir une préparation homogène. \n\nÉtape 10 : Le fond de tarte\nÉtalez la pâte feuilletée dans un moule à tarte beurré.Piquez le fond de tarte avec une fourchette. \n\nÉtape 11 : Montage de la tarte\nVersez la préparation sur le fond de tarte. \n\nÉtape 12 : La cuisson\nEnfournez pour 35 minutes de cuisson à 180°C.\nAccompagnez de la salade verte assaisonnée."
+   "steps": "Combiner la chapelure, l’huile d’olive, l’ail, les herbes de Provence, sel et poivre dans un petit bol.\n\nDéposer la moitié de cette préparation sur chacune de vos quatres demies tomates\n\nCuire à 350F, 8 à 10 minutes ou jusqu’à ce que la garniture soit grillée et les tomates juste assez cuites sans qu’elles se désintègrent.\n\nGarnir du persil ciselé et servir tout de suite."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -9206,6 +9203,32 @@
    "steps": "Voici la recette de la tarte au saumon fumé, une savoureuse tarte légère à base de saumon fumé et de fromage frais, facile et simple à réaliser pour un repas léger.\nIngrédients pour 6 personnes : 5 pts – 5 pts – 5 pts  / personne –\n\n 1 pâte brisée allégée ( recette ici )\n 180 g de fromage frais 0%\n 15 cl de crème fraîche à 4% de mg\n paprika\n persil\n romarin\n thym séché\n 1 citron\n sel ,poivre\n\nPréparation :\nPiquez la pâte brisée avec une fourchette. Faites-la cuire 20 minutes à 200° sans préchauffer le four.\nMélangez ensemble le fromage frais, la crème , le poivre, le paprika et le persil. Ecrasez la préparation à l'aide d'une fourchette.\nEtalez la crème obtenue sur la pâte.\nDisposez les tranches de saumon par-dessus.\nSaupoudrez un peu de romarin, déposez quelques quartiers de citron et quelques branches de thym séché."
   },
   {
+   "id": "dropbox:1670248608",
+   "t": "Tarte au thon aux herbes de Provence",
+   "cat": "Plat",
+   "area": "",
+   "min": 50,
+   "serv": 0,
+   "img": "https://static.750g.com/images/600-600/5fc9a2d81e22d053458d42bd6129af4f/tarte-au-thon.jpg",
+   "url": "https://www.750g.com/tarte-au-thon-r99711.htm#pap",
+   "vid": "",
+   "desc": "Une tarte facile et rapide à préparer qui deviendra un inconditionnel de votre table.",
+   "ing": [
+    "1 rouleau de pâte feuilletée",
+    "200g de thon à l'huile",
+    "50g de concentré de tomates",
+    "15 cl de crème liquide",
+    "3 œufs",
+    "1 gousse d'ail écrasée",
+    "100g de gruyère râpé",
+    "Herbes de Provence séchées",
+    "sel",
+    "poivre",
+    "1 laitue"
+   ],
+   "steps": "Étape 1 : Les oeufs\n\nPréchauffez le four à 180°C.Dans un saladier, cassez les 3 oeufs entiers et mélangez. \n\nÉtape 2 : Le thon à l'huile\nAjoutez 200g de thon à l'huile émietté. \n\nÉtape 3 : Le concentré de tomates\nAjoutez 50g de concentré de tomates. \n\nÉtape 4 : L'ail\nAjoutez une gousse d'ail écrasée. Étape \n\n5 : La crème liquide\nAjoutez 15 cl de crème fraîche liquide. \n\nÉtape 6 : Gruyère râpé\nAjoutez 100g de gruyère râpé. \n\nÉtape 7 : Les herbes de Provence\nTerminez en ajoutant des herbes de Provence.\n\nÉtape 8 : Assaisonnez\nSalez, poivrez. \n\nÉtape 9 : Mélangez\nMélangez le tout jusqu'à obtenir une préparation homogène. \n\nÉtape 10 : Le fond de tarte\nÉtalez la pâte feuilletée dans un moule à tarte beurré.Piquez le fond de tarte avec une fourchette. \n\nÉtape 11 : Montage de la tarte\nVersez la préparation sur le fond de tarte. \n\nÉtape 12 : La cuisson\nEnfournez pour 35 minutes de cuisson à 180°C.\nAccompagnez de la salade verte assaisonnée."
+  },
+  {
    "id": "dropbox:510910326",
    "t": "Tarte aux légumes comme un tian",
    "cat": "tarte",
@@ -9388,29 +9411,6 @@
     "poivre"
    ],
    "steps": "Préchauffer le four à 180°.\nLaver tomates et courgettes et les couper en rondelles fines et régulières.\nDans un saladier, les mélanger avec l'huile d'olive, des herbes de Provence, du sel et du poivre.\nLes disposer sur une plaque de cuisson recouverte de papier sulfurisé.\nEnfourner la plaque pour 20-25 minutes environ. L'idée est que les légumes perdent leur eau de végétation et grillent légèrement.\nPendant cette cuisson, couper la mozzarella en tranches fines et régulières.\nDans un plat à four huilé, disposer les tranches de légumes à la verticale, en alternant les couleurs.\nInsérer les morceaux de mozzarella, puis des feuilles de basilic lavées.\nSaupoudrer de chapelure.\nEnfourner le plat pour 25 à 30 minutes environ, en couvrant le dessus si le fromage colore trop."
-  },
-  {
-   "id": "dropbox:0d2dc7d7-cb0c-43a3-8bbe-514835e4e9aa",
-   "t": "Tomates provençales au Air Fryer (ou pas)",
-   "cat": "Tomates",
-   "area": "",
-   "min": 15,
-   "serv": 0,
-   "img": "https://lapetitebette.com/wp-content/uploads/2022/09/Tomates-provencales-Légumes-771-Modifier-480x270.jpg",
-   "url": "https://lapetitebette.com/recette/tomates-provencales-air-fryer/",
-   "vid": "",
-   "desc": "",
-   "ing": [
-    "2 tomates de grosseur moyenne",
-    "coupée en deux sur la hauteur",
-    "1/4 de tasse de chapelure régulière ou panko",
-    "15 ml (1 c. à soupe) d'huile d'olive",
-    "1-2 gousses d'ail hachées finement",
-    "1/2 c. à thé d'herbes de Provence",
-    "au goût de sel et poivre",
-    "quelques feuilles de persil frais"
-   ],
-   "steps": "Combiner la chapelure, l’huile d’olive, l’ail, les herbes de Provence, sel et poivre dans un petit bol.\n\nDéposer la moitié de cette préparation sur chacune de vos quatres demies tomates\n\nCuire à 350F, 8 à 10 minutes ou jusqu’à ce que la garniture soit grillée et les tomates juste assez cuites sans qu’elles se désintègrent.\n\nGarnir du persil ciselé et servir tout de suite."
   },
   {
    "id": "dropbox:6da79f3f-9a9f-4eb1-aed0-631795b903cd",
