@@ -1,31 +1,37 @@
 {
- "version": "d905649f8e8f",
+ "version": "f4cc50d83822",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:1598849039",
-   "t": "Clafoutis à la courgette, chorizo et parmesan - Amandine Cooking",
+   "id": "dropbox:d59d80fe-63c7-4f9e-afff-0fe4365a2655",
+   "t": "Légumes Grillés au Balsamique : Savourez ce Délice Coloré Facile !",
    "cat": "Plat",
    "area": "",
-   "min": 0,
+   "min": 35,
    "serv": 0,
-   "img": "https://img.over-blog-kiwi.com/0/65/19/23/20190718/ob_e904ab_clafoutis-courgette.jpg",
-   "url": "http://www.amandinecooking.com/clafoutis-a-la-courgette-chorizo-et-parmesan.html?utm_source=flux&amp;utm_medium=flux-rss&amp;utm_campaign=food-drink",
+   "img": "https://www.cuisineraveceva.com/wp-content/uploads/2025/06/Legumes-Grilles-au-Balsamique-et-Herbes-Fraiches.webp",
+   "url": "https://www.cuisineraveceva.com/legumes-grilles-balsamique-herbes-fraiches/?fbclid=IwdGRzaAQ29n5jbGNrBDb2eGV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgBnwBO9Qf9nlHvRJhJYM6GKaki9qW6_r9y8Q43jRgcKit21MA77tTra94UN_aem_uOczH55vP8-lr89WHJVnQw&sfnsn=scwspmo",
    "vid": "",
-   "desc": "La courgette est vraiment mon légume préféré! Vous l'avez sans doute constaté au fil de l'été avec toutes les recettes qui en contiennent ^^ Mais on peut la cuisiner de tellement de façon et elle s'accorde avec quasiment tout ! J'en mange donc plusieurs fois par semaine sans que ça n'ai le même goût...\n \nAujourd'hui la courgette rencontre le chorizo pour un nouveau mariage heureux! Dans des petits clafoutis qui peuvent être déguster chaud ou froid et proposer comme entrée, en accompagnement ou pour un repas léger.\n \nPour varier, remplacer la courgette par de l'aubergine, du poivron ou des tomates séchées",
+   "desc": "Légumes grillés au balsamique et aux herbes fraîches, un accompagnement savoureux et coloré.",
    "ing": [
-    "1 petite courgette",
-    "50g de chorizo",
-    "2 œufs",
-    "30cl de lait",
-    "50g de parmesan râpé",
-    "1CS de maïzena",
-    "1cc d'épices italiennes",
-    "huile d'olive",
-    "sel",
-    "poivre"
+    "1 courgette coupée en rondelles épaisses",
+    "1 poivron rouge",
+    "coupé en morceaux",
+    "1 poivron jaune",
+    "1 oignon rouge",
+    "coupé en quartiers",
+    "1 poignée de tomates cerises",
+    "8 petites pommes de terre nouvelles",
+    "précuites et coupées en deux",
+    "2 c. à soupe d’huile d’olive",
+    "1 c. à soupe de vinaigre balsamique",
+    "1 c. à café d’ail en poudre",
+    "Sel et poivre noir fraîchement moulu",
+    "Herbes fraîches : thym",
+    "romarin",
+    "origan"
    ],
-   "steps": "Préchauffer le four à 180°C.\nLaver, sécher et couper la courgette en petits cubes. Retirer la peau de chorizo et le couper de la même façon.\nDans une sauteuse faire chauffer un filet d'huile d'olive et faire revenir la courgette et le chorizo avec les épices pendant quelques minutes.\nPendant ce temps battre les oeufs puis ajouter le lait, mélanger et ajouter enfin le parmesan et la maïzena, saler légèrement et poivrer.\nRépartir la préparation courgettes/chorizo dans des ramequins (j'ai utilisé des ramequins pour crème brûlée) puis verser la préparation liquide par dessus. Parsemer éventuellement de parmesan râpé.\nEnfourner 20 à 25 minutes.\nDéguster chaud ou froid. En entrée, accompagnement ou comme repas léger avec une salade."
+   "steps": "Préchauffez votre grill ou votre four à 200°C (390°F).\n\nDans un grand saladier, mélangez tous les légumes avec l’huile d’olive, le vinaigre balsamique, l’ail en poudre, le sel et le poivre. Assurez-vous que tous les légumes soient bien enrobés.\n\nÉtalez les légumes sur une plaque de cuisson recouverte de papier sulfurisé ou directement sur la grille du grill.\n\nFaites griller pendant environ 20 à 25 minutes, en remuant à mi-cuisson, jusqu’à ce que les légumes soient tendres et légèrement caramélisés.\n\nUne fois les légumes grillés, retirez-les du grill et parsemez-les d’herbes fraîches hachées selon votre goût.\n\nServez les légumes grillés chauds en accompagnement de vos plats principaux. Ils peuvent également être dégustés froids en salade."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -2120,6 +2126,31 @@
     "Poivre Calories = Elevé"
    ],
    "steps": "n°1Gingerbread Men5.0 /50\n\nn°2Terrine aux trois saveurs glacées et abricots pochés5.0 /50\n\nn°3Bûche roulée aux poires, caramel demi-sel et chocolat5.0 /50\n\nAubergine\n\nRecette radis\n\nAubergines à la parmigiana\n\nClafoutis\n\nClafoutis du Limousin\n\nGâteau d'aubergines\n\nPannequets d'aubergine aux légumes"
+  },
+  {
+   "id": "dropbox:1598849039",
+   "t": "Clafoutis à la courgette, chorizo et parmesan - Amandine Cooking",
+   "cat": "Plat",
+   "area": "",
+   "min": 0,
+   "serv": 0,
+   "img": "https://img.over-blog-kiwi.com/0/65/19/23/20190718/ob_e904ab_clafoutis-courgette.jpg",
+   "url": "http://www.amandinecooking.com/clafoutis-a-la-courgette-chorizo-et-parmesan.html?utm_source=flux&amp;utm_medium=flux-rss&amp;utm_campaign=food-drink",
+   "vid": "",
+   "desc": "La courgette est vraiment mon légume préféré! Vous l'avez sans doute constaté au fil de l'été avec toutes les recettes qui en contiennent ^^ Mais on peut la cuisiner de tellement de façon et elle s'accorde avec quasiment tout ! J'en mange donc plusieurs fois par semaine sans que ça n'ai le même goût...\n \nAujourd'hui la courgette rencontre le chorizo pour un nouveau mariage heureux! Dans des petits clafoutis qui peuvent être déguster chaud ou froid et proposer comme entrée, en accompagnement ou pour un repas léger.\n \nPour varier, remplacer la courgette par de l'aubergine, du poivron ou des tomates séchées",
+   "ing": [
+    "1 petite courgette",
+    "50g de chorizo",
+    "2 œufs",
+    "30cl de lait",
+    "50g de parmesan râpé",
+    "1CS de maïzena",
+    "1cc d'épices italiennes",
+    "huile d'olive",
+    "sel",
+    "poivre"
+   ],
+   "steps": "Préchauffer le four à 180°C.\nLaver, sécher et couper la courgette en petits cubes. Retirer la peau de chorizo et le couper de la même façon.\nDans une sauteuse faire chauffer un filet d'huile d'olive et faire revenir la courgette et le chorizo avec les épices pendant quelques minutes.\nPendant ce temps battre les oeufs puis ajouter le lait, mélanger et ajouter enfin le parmesan et la maïzena, saler légèrement et poivrer.\nRépartir la préparation courgettes/chorizo dans des ramequins (j'ai utilisé des ramequins pour crème brûlée) puis verser la préparation liquide par dessus. Parsemer éventuellement de parmesan râpé.\nEnfourner 20 à 25 minutes.\nDéguster chaud ou froid. En entrée, accompagnement ou comme repas léger avec une salade."
   },
   {
    "id": "dropbox:-524150327",
@@ -4588,37 +4619,6 @@
    "desc": "",
    "ing": [],
    "steps": "Ahhh le mois de Juillet !! Synonyme d’été, de 2 mois de vacances (bon même si en vrai j’aurai à peine 15 jours lol), de chaleur, bref, j’adore !!\nNiveau cuisine, les légumes sont assez semblables à ceux du mois dernier. Et pour ma part, ça me va très bien !\nC’est une saison qui passe trop vite, on ne se lasse pas des tomates et aubergines, et je ne parle même pas des fruits ! Abricots et brugnons font partie de mon quotidien ! Profitons !\nMais ne tardons pas davantage, je sais que vous attendez impatiemment des idées recettes pour le mois qui arrive ! Certaines sont simples, et pourront être facilement réalisées même si vous partez en vacances (je vous parlais d’ailleurs de mes astuces pour économiser sur votre budget alimentation pendant vos vacances dans cet article).\nC’est parti !\nPhoto : La cormerie\nArtichaut\nCes artichauts donnent un air de vacances, puisqu’ils sont cuisinés par Marie-Claire en mode provençal ! Il ne manque plus que les cigales pendant le repas !\nCe n’est pas une pizza rouge, ni blanche que vous propose The Heart in the Stomach, mais une pizza verte, à base de d’épinards et d’artichauts !\nAubergine\nDes lentilles et des aubergines, je n’y aurai pas pensé ! Papilles et puilles l’a fait en nous proposant cette cocotte de lentilles et aubergines façon Ottolenghi !\nVous pouvez également proposer des aubergines sous forme de mini pizza, avec des olives et de la tomate comme le suggère Odélices. Que ce soit en apéro ou accompagné d’une salade pour un repas du soir, j’adhère !\nBetterave\nUne bonne recette de Maman, toute simple, avec cette salade de betterave, pois chiches et fêta, idéal pour accompagner une grillade par exemple.\nSi vous vous sentez de cuisiner, vous avez également ces gnocchis de betterave et chèvre proposé par Cuisine Actuelle. Il vous faudra donc un zest de motivation car le but est de faire ses gnocchis soi même, avec de la betterave donc ! Etonnament, la recette est beaucouo plus simple que ce que je pensais. Allez voir la photo, les gnocchis sont tout roses, voilà un repas qui change ! Si comme moi vous avez la flemme, optez pour acheter des gnochis déjà prèts, et mélangez y des dés de betterave.\nBlette\nDes blettes cuisinées en gratin avec du quinoa, sympathique non ? Proposé par foodies.\nTestez sinon ces petits flans de blettes à la moutarde d’Au fil du Thym, que vous pourrez facilement emporter par exemple pour un pique nique\nBrocolis\nChachous Kitchen me donne vraiment envie avec ce gratin de brocolis et saumon avec de la béchamel, une recette simple comme on les aime !\nVoilà une recette originale de Santé, Bonheur et Nutrition avec ce curry de lentilles et brocolis !\nConcombre\nC’est une jolie présentation que nous propose Cuisine Actuelle avec ces barquettes de concombre au thon, radis et fromage frais ! Cela pourrait faire “sensation” auprès de vos invités lors d’un apéro\nPrenez un peu de fraîcheur avec cette salade de tagliatelles de concombre au saumon de Marmiton !\nCourgette\nChangez de la traditionnelle chair à saucisse pour farcir vos légumes, optez pour ces courgettes farcies au thon de Cuisine Actuelle !\nEt pourquoi ne pas les manger en croque monsieur comme le propose le Journal des Femmes ? Avec ce croque courgette, kiri et jambon, vos enfants seront ravis !\nCéleri\nUne idée qui changera des traditionnelles chips pour vos apéros, avec ces branches de céleri farcies de Marmiton !\nVous pouvez également faire simple pour accompagner une viande ou un poisson avec cette purée de céleri rave d’un Amour de Cuisine\nEpinards\nJe trouve cette recette appétissante, My Tasty Cuisine suggère de cuisiner des crevettes avec une sauce parmesan et des épinards.\nUne recette un peu “gourmande” avec ces tagliatelles aux épinards sauce gorgonzola et pignons de pins de la Raffinerie Culinaire La recette nous propose de préparer nous même nos pâtes aux épinards. Pour + de simplicité, achetez des tagliatelles “natures”, fraîches, et mélangez les avec des épinards !\nFenouil\nEt si on donnait à notre organisme un peu d’oméga 3 ? Avec cette salade de fenouil aux deux saumons et à l’aneth de Food for Love, vous allez faire le plein de “bons gras” !\nEnvie de sucré/salé ? “Epices et moi” nous suggère cette quiche au fenouil caramélisé, à la pomme et chèvre frais, allons y !\nHaricots verts\nSi vos enfants sont encore petits, vous pourrez toujours essayer de leur vendre que vous mangez des “pâtes vertes” grâce à ces haricots verts à la carbonara de Plat et Recette !\nSachez que vous pouvez aussi les cuisiner en gratin comme le suggère Elle !\nPetits pois\nJe vais certainement tester cette recette de risotto aux petits pois et chèvre frais que propose Amandine Cooking, qui accompagnera parfaitement une viande blanche !\nVoilà une recette qui change, avec ces petits pois accompagnés de sucrine cuite et de saucisse fumée de la Tambouille de Bouille\nPois gourmands\nC’est une farandole de petits pois que je vous ai sélectionnés, avec ce wok de nouilles sautées au poulet, petits pois et poids gourmands de Regal.fr.\nUn plat très complet qui se laisse mijoter, idéal pour un dimanche midi : un navarin de veau printanier de Madame Figaro, ça donne envie !\nPoivron\nFondez pour ce poulet aux poivrons et pommes de terre à la sauce tomate de Cuisine Culinaire !\nVous pouvez également savourer ce légume à travers ce risotto aux 3 poivrons et chèvre frais de Ptit Chef !\nRadis\nEncore une recette sucrée/salée ! Optez pour cette salade de crevettes, radis et pamplemousse de Papilles et Pupilles !\nUne fois que vous aurez mangé les radis, vous pourrez utiliser les fanes pour en faire.. Des crêpes ! Oui oui ! “Je cuisine sans gluten” nous propose ainsi des crêpes un peu extraterrestres\nTomate\nMiam les bonnes tomates farcies ! Mais en mode un “healthy” svp, avec du thon et du quinoa de Plat et Recette !\nVous pourrez sinon toujours les déguster via ce tatin de tomates cerise à la tapenade de Madame Le Figaro qui me semble bien appétissant !\n \nJ’espère que cet article vous aura donné plein d’idées pour agrémenter vos repas du mois à venir ! Et vous, quel est votre plat fétiche que vous aimez faire durant l’été ?"
-  },
-  {
-   "id": "dropbox:d59d80fe-63c7-4f9e-afff-0fe4365a2655",
-   "t": "Légumes Grillés au Balsamique : Savourez ce Délice Coloré Facile !",
-   "cat": "Plat",
-   "area": "",
-   "min": 35,
-   "serv": 0,
-   "img": "https://www.cuisineraveceva.com/wp-content/uploads/2025/06/Legumes-Grilles-au-Balsamique-et-Herbes-Fraiches.webp",
-   "url": "https://www.cuisineraveceva.com/legumes-grilles-balsamique-herbes-fraiches/?fbclid=IwdGRzaAQ29n5jbGNrBDb2eGV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHgBnwBO9Qf9nlHvRJhJYM6GKaki9qW6_r9y8Q43jRgcKit21MA77tTra94UN_aem_uOczH55vP8-lr89WHJVnQw&sfnsn=scwspmo",
-   "vid": "",
-   "desc": "Légumes grillés au balsamique et aux herbes fraîches, un accompagnement savoureux et coloré.",
-   "ing": [
-    "1 courgette coupée en rondelles épaisses",
-    "1 poivron rouge",
-    "coupé en morceaux",
-    "1 poivron jaune",
-    "1 oignon rouge",
-    "coupé en quartiers",
-    "1 poignée de tomates cerises",
-    "8 petites pommes de terre nouvelles",
-    "précuites et coupées en deux",
-    "2 c. à soupe d’huile d’olive",
-    "1 c. à soupe de vinaigre balsamique",
-    "1 c. à café d’ail en poudre",
-    "Sel et poivre noir fraîchement moulu",
-    "Herbes fraîches : thym",
-    "romarin",
-    "origan"
-   ],
-   "steps": "Préchauffez votre grill ou votre four à 200°C (390°F).\n\nDans un grand saladier, mélangez tous les légumes avec l’huile d’olive, le vinaigre balsamique, l’ail en poudre, le sel et le poivre. Assurez-vous que tous les légumes soient bien enrobés.\n\nÉtalez les légumes sur une plaque de cuisson recouverte de papier sulfurisé ou directement sur la grille du grill.\n\nFaites griller pendant environ 20 à 25 minutes, en remuant à mi-cuisson, jusqu’à ce que les légumes soient tendres et légèrement caramélisés.\n\nUne fois les légumes grillés, retirez-les du grill et parsemez-les d’herbes fraîches hachées selon votre goût.\n\nServez les légumes grillés chauds en accompagnement de vos plats principaux. Ils peuvent également être dégustés froids en salade."
   },
   {
    "id": "dropbox:4d072456-63ba-4d4e-ba6d-37eb641fa9a8",
