@@ -1,34 +1,34 @@
 {
- "version": "ce12238d4e24",
+ "version": "8e3e9864f369",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:-556517079",
-   "t": "Mijoté Poulet Chorizo | Je Papote",
+   "id": "dropbox:1727278756",
+   "t": "One pot quinoa mexicain - Amandine Cooking",
    "cat": "Plat",
    "area": "",
    "min": 0,
    "serv": 0,
-   "img": "https://www.je-papote.com/wp-content/uploads/2014/12/mijote-poulet-chorizo-8.jpg",
-   "url": "http://www.je-papote.com/mijote-poulet-chorizo.html",
+   "img": "https://img.over-blog-kiwi.com/0/65/19/23/20190605/ob_3477d7_quinoa-one-pot-mexicain.jpg",
+   "url": "http://www.amandinecooking.com/one-pot-quinoa-mexicain.html",
    "vid": "",
-   "desc": "Je vous propose une recette que j’ai réalisé plusieurs fois et qui me plait bien, un mijoté poulet chorizo. Le chorizo apporte un gout épicé au poulet, rien de tel pour changer ! C’est un plat mijoté, il faudra une cuisson au four de 45 minutes, de quoi vous laisser le temps de gérer d’autres choses en même temps, pratique !",
+   "desc": "Une nouvelle idée pour cuisiner le quinoa, façon one pot à la mexicaine, une recette riche en saveurs.\n \nL'année dernière je vous proposais ce one pot quinoa et lentilles corail aux courgette, tomate et carotte qui a beaucoup de succès auprès de vous ;-) pas mal se sont réconciliés avec le quinoa, ça fait plaisir ! Cette version mexicaine est encore meilleure (à mon goût, même si j'ai aimé les deux versions). Tout deux sont des plats complets végétariens, pas besoin de viande à coté. Vous aurez votre apport en protéine grâce aux légumineuses et au quinoa, et ça c'est top (je mange de moins en moins de viande, vous l'avez peut-être constaté à travers mes recettes).",
    "ing": [
-    "– 2 cuillères à soupe d’huile d’olive",
-    "– 8 pilons de poulet",
-    "– 100g de chorizo tranché en rondelles",
-    "– 1 oignon",
-    "– 1 poivron rouge",
-    "– 6 branches de thym",
-    "– 2 gousses d’ail",
-    "– 250 ml de vin blanc",
-    "– 20 tomates cerises entières",
-    "– 1 cuillère à soupe de sucre",
-    "– Sel et poivre",
-    "– 60 ml persil frais",
-    "haché"
+    "160g de quinoa",
+    "1 oignon",
+    "1 gousse d'ail",
+    "1 poivron vert",
+    "140g de maïs",
+    "240g de haricots rouges cuits",
+    "400g de tomates concassées",
+    "20cl de bouillon de légumes",
+    "1 cc d'épices chili",
+    "1 cc d'origan",
+    "huile de cuisson",
+    "sel",
+    "poivre"
    ],
-   "steps": "Dans une cocotte, faites chauffer l’huile à feu vif et déposez les pilons de poulet. Ne pas y toucher afin de bien les colorer. Les pilons vont adhérer et se décolleront ensuite lorsqu’ils seront colorés à point.\nColorez ainsi les pilons sur tous les cotés, puis retirez les.\nSaisissez le chorizo, l’oignon, le poivron avec le thym pendant 5 minutes.\nAjoutez l’ail, remuez et remettez les pilons dans la cocotte.\nDéglacez avec le vin blanc puis ajoutez les tomates et saupoudrez de sucre.\nSalez et poivrez\nCouvrez et faites cuire au four à 160°C pendant 45 minutes.\nRetirez les branches de thym, garnissez de persil frais et servez."
+   "steps": "Peler et émincer finement l'oignon, hacher la gousse d'ail. Laver, sécher, épépiner et couper le poivron en petits morceaux.\nDans une grande sauteuse faire chauffer un filet d'huile puis faire revenir l'oignon et l'ail avec les épices chili. Ajouter ensuite le poivron puis poursuivre la cuisson 5 minutes.\nAjouter ensuite le quinoa rincé et égoutté ainsi que le reste des ingrédients.\nPorter à ébullition puis laisser mijoter à frémissement environ 20 minutes de façon à ce que le quinoa soit cuit et le liquide absorbé.\nServir avec un filet de jus de citron vert et un peu de coriandre/persil ciselé si désiré."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -4835,6 +4835,34 @@
    "steps": "Pelez et émincez les oignons et l'ail. Ebouillantez les tomates et les peler. Coupez-les ensuite en petits dés. \nMettez l'huile d'olive dans une cocotte sur feu moyen. Ajoutez-y les tomates, l'oignon, l'ail, la coriandre et les épices. Laissez mijoter 10 minutes. Ajoutez les petits pois et les 300 ml d'eau, laissez cuire 20 minutes.\nPendant ce temps, réunissez la viande, la coriandre et les épices. Mélangez en pétrissant la viande pendant quelques instants. Confectionnez des boulettes de la taille d'une noix puis ajoutez-les avec les dès de pommes de terre à la sauce aux petits pois et laissez cuire pendant 15 minutes."
   },
   {
+   "id": "dropbox:-556517079",
+   "t": "Mijoté Poulet Chorizo | Je Papote",
+   "cat": "Plat",
+   "area": "",
+   "min": 0,
+   "serv": 0,
+   "img": "https://www.je-papote.com/wp-content/uploads/2014/12/mijote-poulet-chorizo-8.jpg",
+   "url": "http://www.je-papote.com/mijote-poulet-chorizo.html",
+   "vid": "",
+   "desc": "Je vous propose une recette que j’ai réalisé plusieurs fois et qui me plait bien, un mijoté poulet chorizo. Le chorizo apporte un gout épicé au poulet, rien de tel pour changer ! C’est un plat mijoté, il faudra une cuisson au four de 45 minutes, de quoi vous laisser le temps de gérer d’autres choses en même temps, pratique !",
+   "ing": [
+    "– 2 cuillères à soupe d’huile d’olive",
+    "– 8 pilons de poulet",
+    "– 100g de chorizo tranché en rondelles",
+    "– 1 oignon",
+    "– 1 poivron rouge",
+    "– 6 branches de thym",
+    "– 2 gousses d’ail",
+    "– 250 ml de vin blanc",
+    "– 20 tomates cerises entières",
+    "– 1 cuillère à soupe de sucre",
+    "– Sel et poivre",
+    "– 60 ml persil frais",
+    "haché"
+   ],
+   "steps": "Dans une cocotte, faites chauffer l’huile à feu vif et déposez les pilons de poulet. Ne pas y toucher afin de bien les colorer. Les pilons vont adhérer et se décolleront ensuite lorsqu’ils seront colorés à point.\nColorez ainsi les pilons sur tous les cotés, puis retirez les.\nSaisissez le chorizo, l’oignon, le poivron avec le thym pendant 5 minutes.\nAjoutez l’ail, remuez et remettez les pilons dans la cocotte.\nDéglacez avec le vin blanc puis ajoutez les tomates et saupoudrez de sucre.\nSalez et poivrez\nCouvrez et faites cuire au four à 160°C pendant 45 minutes.\nRetirez les branches de thym, garnissez de persil frais et servez."
+  },
+  {
    "id": "dropbox:553850884",
    "t": "Mijotée de fêves à la portugaise - Flagrant délit de gourmandise..",
    "cat": "Plat",
@@ -5091,34 +5119,6 @@
     "Poivre"
    ],
    "steps": "Mettez le blanc de poulet, le sel et l’ail dans le bol du Thermomix puis mixez 5 secondes en vitesse 7\n\nAjoutez le pain coupé en morceaux, le fromage frais et le lait puis mixez 10 secondes en vitesse 7.\n\nTransvasez la préparation dans un autre récipient\n\nFormez des boulettes de la taille d’une noix. Aplatissez-les légèrement\n\nMélangez l’œuf avec l’eau\n\nTrempez chaque nugget dans l’œuf battu puis dans la chapelure\n\nFaites chauffer l’huile de friture dans une friteuse puis plongez les nuggets quelques minutes\n\nDéposez sur du papier absorbant et servir.\n\nVous pouvez réaliser des petites portions à servir à l’apéritif avec une sauce barbecue maison. Vous pouvez, également, servir en plat avec des frites fraîches ou une salade verte."
-  },
-  {
-   "id": "dropbox:1727278756",
-   "t": "One pot quinoa mexicain - Amandine Cooking",
-   "cat": "Plat",
-   "area": "",
-   "min": 0,
-   "serv": 0,
-   "img": "https://img.over-blog-kiwi.com/0/65/19/23/20190605/ob_3477d7_quinoa-one-pot-mexicain.jpg",
-   "url": "http://www.amandinecooking.com/one-pot-quinoa-mexicain.html",
-   "vid": "",
-   "desc": "Une nouvelle idée pour cuisiner le quinoa, façon one pot à la mexicaine, une recette riche en saveurs.\n \nL'année dernière je vous proposais ce one pot quinoa et lentilles corail aux courgette, tomate et carotte qui a beaucoup de succès auprès de vous ;-) pas mal se sont réconciliés avec le quinoa, ça fait plaisir ! Cette version mexicaine est encore meilleure (à mon goût, même si j'ai aimé les deux versions). Tout deux sont des plats complets végétariens, pas besoin de viande à coté. Vous aurez votre apport en protéine grâce aux légumineuses et au quinoa, et ça c'est top (je mange de moins en moins de viande, vous l'avez peut-être constaté à travers mes recettes).",
-   "ing": [
-    "160g de quinoa",
-    "1 oignon",
-    "1 gousse d'ail",
-    "1 poivron vert",
-    "140g de maïs",
-    "240g de haricots rouges cuits",
-    "400g de tomates concassées",
-    "20cl de bouillon de légumes",
-    "1 cc d'épices chili",
-    "1 cc d'origan",
-    "huile de cuisson",
-    "sel",
-    "poivre"
-   ],
-   "steps": "Peler et émincer finement l'oignon, hacher la gousse d'ail. Laver, sécher, épépiner et couper le poivron en petits morceaux.\nDans une grande sauteuse faire chauffer un filet d'huile puis faire revenir l'oignon et l'ail avec les épices chili. Ajouter ensuite le poivron puis poursuivre la cuisson 5 minutes.\nAjouter ensuite le quinoa rincé et égoutté ainsi que le reste des ingrédients.\nPorter à ébullition puis laisser mijoter à frémissement environ 20 minutes de façon à ce que le quinoa soit cuit et le liquide absorbé.\nServir avec un filet de jus de citron vert et un peu de coriandre/persil ciselé si désiré."
   },
   {
    "id": "dropbox:2073812807",
