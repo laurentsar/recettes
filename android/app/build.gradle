@@ -7,7 +7,7 @@ android {
         applicationId "com.laurent.recettes"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 24
+        versionCode 21300
         versionName "2.13"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
@@ -18,10 +18,10 @@ android {
     }
     signingConfigs {
         stable {
-            storeFile file('recettes.p12')
-            storePassword 'recettes'
-            keyAlias 'recettes'
-            keyPassword 'recettes'
+            storeFile file('signing.p12')
+            storePassword System.getenv('ANDROID_KEYSTORE_PASSWORD')
+            keyAlias 'app'
+            keyPassword System.getenv('ANDROID_KEYSTORE_PASSWORD')
             storeType 'PKCS12'
         }
     }

@@ -11,3 +11,7 @@ android/local.properties
 node_modules/
 tools/.autosync.lock
 tools/autosync.log
+
+# signing keystores never live in the repo
+*.p12
+*.jks
