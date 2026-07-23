@@ -1,34 +1,33 @@
 {
- "version": "69933d795b1b",
+ "version": "a825737ad268",
  "count": 416,
  "recipes": [
   {
-   "id": "dropbox:-231113342",
-   "t": "Parmentier de lentilles corail aux légumes",
+   "id": "dropbox:38665a1f-a75f-42ce-9278-d0264e6d07dc",
+   "t": "Quiche courgette chèvre",
    "cat": "Plat",
    "area": "",
-   "min": 0,
+   "min": 50,
    "serv": 0,
-   "img": "http://img.over-blog-kiwi.com/0/65/19/23/20190207/ob_7c3148_parmentier-lentilles-corail.JPG",
-   "url": "http://www.amandinecooking.com/parmentier-de-lentilles-corail-aux-legumes.html",
+   "img": "https://img.cuisineactuelle.fr/1200x675/2018/09/25/i31889-quiche-courgette-chevre.webp",
+   "url": "https://www.cuisineactuelle.fr/recettes/quiche-courgette-chevre-198598",
    "vid": "",
-   "desc": "Il me restait encore 2 belles butternut du jardin, je me suis dit que j'allais en faire une purée puis finalement j'ai eu l'idée de plutôt faire un parmentier. N'étant pas fan de viande, j'ai réalisé une sorte de bolognaise à base de lentilles corail dans laquelle j'ai glissé carotte et poireau, selon le gout et la saison vous pouvez varier les légumes (carotte/champignons, courgette/aubergine...).\nC'était vraiment très bon et rassasiant, avec les quantités énoncées plus bas j'ai pu faire deux plats à gratin (comme sur la photo) mais c'était finalement un peu trop pour deux adultes et un enfant, j'ai donc indiqué pour trois personnes (adultes). Un parmentier qui reviendra souvent à la maison ;-)",
+   "desc": "",
    "ing": [
-    "800g de butternut",
-    "300g de pommes de terre",
-    "1 cc de muscade",
-    "120g de lentilles corail",
-    "1 oignon",
-    "1 carotte",
-    "1 blanc de poireaux",
-    "20cl de coulis de tomates",
-    "1cc de persil ciselé",
-    "fromage râpé (facultatif)",
-    "sel",
-    "poivre",
-    "huile d'olive"
+    "Ingrédients",
+    "1 Pâte brisée",
+    "100 g Fromage de chèvre",
+    "50 g Gruyère râpé",
+    "6 Tomates cerise",
+    "2 Courgettes",
+    "15 cl Crème liquide",
+    "3 Oeufs",
+    "2 pincées Herbes de Provence",
+    "2 cuil. à soupe Huile d’olive",
+    "Sel",
+    "Poivre"
    ],
-   "steps": "Peler et couper en dès la butternut et les pommes de terre. Cuire dans une casserole d'eau salée une vingtaine de minutes après le départ de l'ébullition.\r\nEn parallèle, peler et émincer finement l'oignon. Faire chauffer un filet d'huile dans une sauteuse puis faire revenir l'oignon quelques minutes. Peler et couper la carotte en petits dès, émincer finement le blanc de poireau, ajouter le tout à la casserole, ainsi que les lentilles corail, le coulis de tomate et le persil, couvrir d'eau à hauteur, saler et poivrer puis laisser cuire une vingtaine de minutes (si besoin d'ajouter de l'eau en cours de cuisson, le faire petit à petit plutôt que d'en ajouter trop dès le départ).\r\nPréchauffer le four à 200°C.\r\nUne fois les pommes de terre et butternut cuites, les égoutter puis les écraser à l'aide d'un presse-purée. Saler et ajouter la muscade.\r\nDans un plat à gratin, verser la préparation aux lentilles puis la purée, parsemer de fromage râpé si désiré.\r\nEnfourner 20 minutes."
+   "steps": "1 Préchauffez votre four à 200 °C. Étalez la pâte brisée dans un moule à tarte et piquez le fond avec une fourchette.\n\n2 Lavez les courgettes et coupez-les en rondelles bien fines. Faites chauffer l’huile d’olive dans une poêle et ajoutez les rondelles de courgettes. Ajoutez les herbes de Provence, du sel et du poivre. Faites revenir à feu moyen durant 8 à 10 minutes, en remuant souvent.\n\n3 Coupez le fromage de chèvre en petits cubes.\n\n4 Cassez les œufs entiers dans un saladier. Ajoutez la crème, du sel et du poivre et fouettez à la fourchette. Ajoutez le fromage de chèvre et mélangez.\n\n5 Versez le mélange dans le fond de tarte. Disposez les rondelles de courgettes par-dessus. Parsemez de gruyère râpé et disposez les demi-tomates cerise par-dessus, face coupée vers le dessus.\n\n6 Enfournez à 200 °C durant 30 minutes environ."
   },
   {
    "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -5548,6 +5547,34 @@
    "steps": "Peler et couper en dès la butternut et les pommes de terre. Cuire dans une casserole d'eau salée une vingtaine de minutes après le départ de l'ébullition.\r\nEn parallèle, peler et émincer finement l'oignon. Faire chauffer un filet d'huile dans une sauteuse puis faire revenir l'oignon quelques minutes. Peler et couper la carotte en petits dès, émincer finement le blanc de poireau, ajouter le tout à la casserole, ainsi que les lentilles corail, le coulis de tomate et le persil, couvrir d'eau à hauteur, saler et poivrer puis laisser cuire une vingtaine de minutes (si besoin d'ajouter de l'eau en cours de cuisson, le faire petit à petit plutôt que d'en ajouter trop dès le départ).\r\nPréchauffer le four à 200°C.\r\nUne fois les pommes de terre et butternut cuites, les égoutter puis les écraser à l'aide d'un presse-purée. Saler et ajouter la muscade.\r\nDans un plat à gratin, verser la préparation aux lentilles puis la purée, parsemer de fromage râpé si désiré.\r\nEnfourner 20 minutes."
   },
   {
+   "id": "dropbox:-231113342",
+   "t": "Parmentier de lentilles corail aux légumes",
+   "cat": "Plat",
+   "area": "",
+   "min": 0,
+   "serv": 0,
+   "img": "http://img.over-blog-kiwi.com/0/65/19/23/20190207/ob_7c3148_parmentier-lentilles-corail.JPG",
+   "url": "http://www.amandinecooking.com/parmentier-de-lentilles-corail-aux-legumes.html",
+   "vid": "",
+   "desc": "Il me restait encore 2 belles butternut du jardin, je me suis dit que j'allais en faire une purée puis finalement j'ai eu l'idée de plutôt faire un parmentier. N'étant pas fan de viande, j'ai réalisé une sorte de bolognaise à base de lentilles corail dans laquelle j'ai glissé carotte et poireau, selon le gout et la saison vous pouvez varier les légumes (carotte/champignons, courgette/aubergine...).\nC'était vraiment très bon et rassasiant, avec les quantités énoncées plus bas j'ai pu faire deux plats à gratin (comme sur la photo) mais c'était finalement un peu trop pour deux adultes et un enfant, j'ai donc indiqué pour trois personnes (adultes). Un parmentier qui reviendra souvent à la maison ;-)",
+   "ing": [
+    "800g de butternut",
+    "300g de pommes de terre",
+    "1 cc de muscade",
+    "120g de lentilles corail",
+    "1 oignon",
+    "1 carotte",
+    "1 blanc de poireaux",
+    "20cl de coulis de tomates",
+    "1cc de persil ciselé",
+    "fromage râpé (facultatif)",
+    "sel",
+    "poivre",
+    "huile d'olive"
+   ],
+   "steps": "Peler et couper en dès la butternut et les pommes de terre. Cuire dans une casserole d'eau salée une vingtaine de minutes après le départ de l'ébullition.\r\nEn parallèle, peler et émincer finement l'oignon. Faire chauffer un filet d'huile dans une sauteuse puis faire revenir l'oignon quelques minutes. Peler et couper la carotte en petits dès, émincer finement le blanc de poireau, ajouter le tout à la casserole, ainsi que les lentilles corail, le coulis de tomate et le persil, couvrir d'eau à hauteur, saler et poivrer puis laisser cuire une vingtaine de minutes (si besoin d'ajouter de l'eau en cours de cuisson, le faire petit à petit plutôt que d'en ajouter trop dès le départ).\r\nPréchauffer le four à 200°C.\r\nUne fois les pommes de terre et butternut cuites, les égoutter puis les écraser à l'aide d'un presse-purée. Saler et ajouter la muscade.\r\nDans un plat à gratin, verser la préparation aux lentilles puis la purée, parsemer de fromage râpé si désiré.\r\nEnfourner 20 minutes."
+  },
+  {
    "id": "dropbox:1662423398",
    "t": "Parmentier de lentilles corail aux légumes",
    "cat": "Plat",
@@ -6871,33 +6898,6 @@
     "1 pâte feuilleté"
    ],
    "steps": "Préchauffez le four à 200°C, chaleur tournante.\n\nCassez les oeufs dans un saladier et battez-les en omelette. Ajoutez la crème fraiche et mélangez. Versez ensuite les lamelles de jambon et la moitié du fromage râpé.\n\nAppareil à quiche\n\nMettez la pâte dans le moule à tarte. Piquetez-la une dizaine de fois à l’aide d’une fourchette et versez à l’intérieur la préparation précédemment réalisée. Saupoudrez avec l’autre moitié du fromage râpé et enfournez.\n\nFaites cuire 30 minutes environ. (Le fromage doit être bien doré).\n\nServez chaud ou tiède avec une simple salade verte !\n\nQuiche aux lamelles de jambon\n\nBon appétit !"
-  },
-  {
-   "id": "dropbox:38665a1f-a75f-42ce-9278-d0264e6d07dc",
-   "t": "Quiche courgette chèvre",
-   "cat": "Plat",
-   "area": "",
-   "min": 50,
-   "serv": 0,
-   "img": "https://img.cuisineactuelle.fr/1200x675/2018/09/25/i31889-quiche-courgette-chevre.webp",
-   "url": "https://www.cuisineactuelle.fr/recettes/quiche-courgette-chevre-198598",
-   "vid": "",
-   "desc": "",
-   "ing": [
-    "Ingrédients",
-    "1 Pâte brisée",
-    "100 g Fromage de chèvre",
-    "50 g Gruyère râpé",
-    "6 Tomates cerise",
-    "2 Courgettes",
-    "15 cl Crème liquide",
-    "3 Oeufs",
-    "2 pincées Herbes de Provence",
-    "2 cuil. à soupe Huile d’olive",
-    "Sel",
-    "Poivre"
-   ],
-   "steps": "1 Préchauffez votre four à 200 °C. Étalez la pâte brisée dans un moule à tarte et piquez le fond avec une fourchette.\n\n2 Lavez les courgettes et coupez-les en rondelles bien fines. Faites chauffer l’huile d’olive dans une poêle et ajoutez les rondelles de courgettes. Ajoutez les herbes de Provence, du sel et du poivre. Faites revenir à feu moyen durant 8 à 10 minutes, en remuant souvent.\n\n3 Coupez le fromage de chèvre en petits cubes.\n\n4 Cassez les œufs entiers dans un saladier. Ajoutez la crème, du sel et du poivre et fouettez à la fourchette. Ajoutez le fromage de chèvre et mélangez.\n\n5 Versez le mélange dans le fond de tarte. Disposez les rondelles de courgettes par-dessus. Parsemez de gruyère râpé et disposez les demi-tomates cerise par-dessus, face coupée vers le dessus.\n\n6 Enfournez à 200 °C durant 30 minutes environ."
   },
   {
    "id": "dropbox:-13642766",
