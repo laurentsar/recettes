@@ -1,6 +1,6 @@
 {
   "name": "recettes",
-  "version": "2.15",
+  "version": "2.16",
   "private": true,
   "description": "Mes recettes de cuisine, hors-ligne",
   "scripts": { "sync": "cap sync android", "open": "cap open android" },
