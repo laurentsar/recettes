@@ -1105,6 +1105,27 @@ function saveImportedRecipe(url='', vid=''){
 }
 
 /* ---------- onglet cocktails ---------- */
+
+// Conversion mesures impériales → métriques pour les recettes de cocktails
+function convertQty(qty){
+  if(!qty) return '';
+  function parseFrac(s){
+    s = s.trim();
+    let m = s.match(/^(\d+)\s+(\d+)\/(\d+)$/);
+    if(m) return +m[1] + +m[2] / +m[3];
+    m = s.match(/^(\d+)\/(\d+)$/);
+    if(m) return +m[1] / +m[2];
+    return parseFloat(s) || 0;
+  }
+  function r5(n){ return Math.round(n * 2) / 2; } // arrondi au 0.5 le plus proche
+  qty = qty.replace(/([\d\s/]+)\s*oz\b/gi, (_, v) => r5(parseFrac(v) * 3) + ' cl');
+  qty = qty.replace(/([\d\s/]+)\s*tbsp\b/gi, (_, v) => r5(parseFrac(v) * 1.5) + ' cl');
+  qty = qty.replace(/([\d\s/]+)\s*tsp\b/gi, (_, v) => Math.round(parseFrac(v) * 5) + ' ml');
+  qty = qty.replace(/\bdashes\b/gi, 'traits').replace(/\bdash\b/gi, 'trait');
+  qty = qty.replace(/\bsplash(es)?\b/gi, 'giclée');
+  return qty.trim();
+}
+
 const COCKTAIL_IDS = [
   '11003','178325','17212','11000','11007','17196','17253','11009',
   '17213','17186','17829','11417','11006','11001','11403','17207',
@@ -1160,7 +1181,7 @@ async function loadCocktails(){
       for(let i=1;i<=15;i++){
         const ing = c['strIngredient'+i];
         const qty = c['strMeasure'+i];
-        if(ing && ing.trim()) ings.push({ing: ing.trim(), qty: qty ? qty.trim() : ''});
+        if(ing && ing.trim()) ings.push({ing: ing.trim(), qty: convertQty(qty ? qty.trim() : '')});
       }
       return { id: c.idDrink, name: c.strDrink, thumb: c.strDrinkThumb+'/preview',
         category: c.strCategory, glass: c.strGlass, alcoholic: c.strAlcoholic,
@@ -1194,7 +1215,8 @@ function openCocktailDetail(id){
   const ingsHtml = c.ings.map(x=>`<li>${x.qty ? '<strong>'+esc(x.qty)+'</strong> ' : ''}${esc(x.ing)}</li>`).join('');
   const stepsHtml = c.steps ? `<div class="d-sec">Préparation</div><div class="desc">${esc(c.steps)}</div>` : '';
   elCocktailDetail.innerHTML = `
-    <button class="d-back" aria-label="Retour">←</button>
+    <button class="d-back" aria-label="Retour aux cocktails">←</button>
+    <button class="d-home" aria-label="Menu principal">🍽️</button>
     <div class="d-hero"><img src="${esc(c.thumb.replace('/preview',''))}" referrerpolicy="no-referrer" style="width:100%;max-height:46vh;object-fit:cover;display:block" onerror="this.outerHTML='<div class=ph>🍹</div>'"></div>
     <div class="d-body">
       <div class="d-title">${esc(c.name)}</div>
@@ -1210,8 +1232,9 @@ function openCocktailDetail(id){
   elCocktailDetail.hidden = false;
   document.body.style.overflow = 'hidden';
   elCocktailDetail.querySelector('.d-back').addEventListener('click', closeCocktailDetail);
+  elCocktailDetail.querySelector('.d-home').addEventListener('click', ()=>{ closeCocktailDetail(); switchMode('recipes'); });
 }
-function closeCocktailDetail(){ elCocktailDetail.hidden=true; document.body.style.overflow=''; }
+function closeCocktailDetail(){ elCocktailDetail.hidden=true; document.body.style.overflow=''; window.scrollTo({top:0}); }
 
 /* ---------- init ---------- */
 let searchTimer;

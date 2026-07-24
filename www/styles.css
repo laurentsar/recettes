@@ -135,6 +135,8 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
   border:none;background:rgba(0,0,0,.55);color:#fff;font-size:1.2em;cursor:pointer;backdrop-filter:blur(4px)}
 .d-fav{position:fixed;top:calc(env(safe-area-inset-top) + 10px);right:12px;width:42px;height:42px;border-radius:50%;
   border:none;background:rgba(0,0,0,.55);color:#fff;font-size:1.2em;cursor:pointer;backdrop-filter:blur(4px)}
+.d-home{position:fixed;top:calc(env(safe-area-inset-top) + 10px);right:12px;width:42px;height:42px;border-radius:50%;
+  border:none;background:rgba(0,0,0,.55);color:#fff;font-size:1.1em;cursor:pointer;backdrop-filter:blur(4px)}
 .d-body{padding:16px 16px calc(env(safe-area-inset-bottom) + 30px);max-width:760px;margin:0 auto}
 .d-title{font-size:1.5em;font-weight:800;margin:6px 0 8px;line-height:1.2}
 .d-meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
