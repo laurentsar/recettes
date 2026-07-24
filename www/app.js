@@ -520,6 +520,7 @@ function card(r){
     <div class="info"><div class="rt">${esc(r.t)}</div><div class="meta">${esc(meta)}</div></div></div>`;
 }
 function renderGrid(){
+  if(appMode !== 'recipes') return;
   const list = filtered();
   elStatus.textContent = `${list.length} recette${list.length>1?'s':''}` + (state.fav?' en favoris':'');
   elGrid.innerHTML = list.map(card).join('');
