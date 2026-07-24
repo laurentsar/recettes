@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.17';
+const APP_VERSION = '2.18';
 
 let ALL = [];
 let BASE = [];
@@ -520,7 +520,7 @@ function card(r){
     <div class="info"><div class="rt">${esc(r.t)}</div><div class="meta">${esc(meta)}</div></div></div>`;
 }
 function renderGrid(){
-  if(appMode !== 'recipes') return;
+  if(appMode === 'cocktails') return;
   const list = filtered();
   elStatus.textContent = `${list.length} recette${list.length>1?'s':''}` + (state.fav?' en favoris':'');
   elGrid.innerHTML = list.map(card).join('');
@@ -1116,17 +1116,36 @@ let appMode = 'recipes'; // 'recipes' | 'cocktails'
 const elCocktailGrid = document.getElementById('cocktail-grid');
 const elCocktailDetail = document.getElementById('cocktail-detail');
 
+const MODE_CAT = { airfryer: 'Airfryer', thermomix: 'Thermomix' };
 function switchMode(mode){
   appMode = mode;
   document.querySelectorAll('.mode-tab').forEach(b=> b.classList.toggle('active', b.dataset.mode===mode));
-  const isRecipes = mode==='recipes';
-  elSearch.hidden = !isRecipes;
-  document.getElementById('cats').hidden = !isRecipes;
-  document.getElementById('daily').hidden = !isRecipes;
-  document.getElementById('status').hidden = !isRecipes;
-  document.getElementById('grid').hidden = !isRecipes;
-  elCocktailGrid.hidden = isRecipes;
-  if(!isRecipes) loadCocktails();
+  const isCocktails = mode==='cocktails';
+  const isRecipeMode = !isCocktails; // recipes, airfryer, thermomix
+  // Bascule grilles
+  elCocktailGrid.hidden = !isCocktails;
+  document.getElementById('grid').hidden = isCocktails;
+  document.getElementById('status').hidden = isCocktails;
+  // Filtre catégorie selon le mode
+  if (MODE_CAT[mode]){
+    state.cats = [MODE_CAT[mode]];
+    document.getElementById('cats').hidden = true;
+    document.getElementById('daily').hidden = true;
+    elSearch.hidden = false;
+  } else if (mode === 'recipes'){
+    state.cats = [];
+    document.getElementById('cats').hidden = false;
+    document.getElementById('daily').hidden = false;
+    elSearch.hidden = false;
+  }
+  if (isCocktails){
+    elSearch.hidden = true;
+    document.getElementById('cats').hidden = true;
+    document.getElementById('daily').hidden = true;
+    loadCocktails();
+  } else {
+    renderGrid();
+  }
 }
 
 async function loadCocktails(){
