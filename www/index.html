@@ -20,6 +20,10 @@
       <button id="import-btn" title="Importer une recette" aria-label="Importer">⬇</button>
       <button id="sync-btn" title="Synchroniser les recettes" aria-label="Synchroniser">↻</button>
     </div>
+    <div id="mode-tabs">
+      <button class="mode-tab active" data-mode="recipes">🍽️ Recettes</button>
+      <button class="mode-tab" data-mode="cocktails">🍹 Cocktails</button>
+    </div>
     <input id="search" type="search" placeholder="Rechercher (titre, ingrédient…)" autocomplete="off" />
     <div id="cats"></div>
   </header>
@@ -28,9 +32,11 @@
     <div id="daily"></div>
     <div id="status" class="status"></div>
     <div id="grid"></div>
+    <div id="cocktail-grid" hidden></div>
   </main>
 
   <div id="detail" class="detail" hidden></div>
+  <div id="cocktail-detail" class="detail" hidden></div>
   <div id="edit" class="editview" hidden></div>
   <div id="ingpick" class="editview" hidden></div>
   <div id="cook" class="cook" hidden></div>
@@ -44,7 +50,6 @@
   les efface. Renseigne Home Assistant ci-dessous et la sauvegarde devient automatique.</p>
   <div id="backup-panel"></div>
 </details>
-
 
   <script src="app.js"></script>
   <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.17';</script>

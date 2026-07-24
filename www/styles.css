@@ -11,9 +11,30 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 #hero{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
 #hero-title{font-size:1.5em;font-weight:800}
 #hero-sub{color:var(--muted);font-size:.85em}
-#sync-btn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.3em;cursor:pointer;padding:0}
-#sync-btn:active{transform:scale(.94)}
+#sync-btn,#import-btn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.2em;cursor:pointer;padding:0}
+#sync-btn:active,#import-btn:active{transform:scale(.94)}
 #sync-btn.spin{animation:spin 1s linear infinite}
+/* onglets mode */
+#mode-tabs{display:flex;gap:6px;margin-bottom:10px}
+.mode-tab{flex:1;border:1px solid var(--line);background:var(--card);color:var(--muted);
+  padding:8px 0;border-radius:10px;font-size:.9em;font-weight:700;cursor:pointer;transition:all .18s}
+.mode-tab.active{background:linear-gradient(135deg,var(--accent),var(--accent2));border-color:transparent;color:#fff}
+/* cocktails grid */
+#cocktail-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.cktl-card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer;display:flex;flex-direction:column}
+.cktl-card img{width:100%;aspect-ratio:1;object-fit:cover;background:#3a281c}
+.cktl-info{padding:9px 11px}
+.cktl-name{font-weight:700;font-size:.95em;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cktl-sub{color:var(--muted);font-size:.78em;margin-top:4px}
+.cktl-badge{display:inline-block;background:rgba(224,122,63,.18);border:1px solid rgba(224,122,63,.4);
+  color:var(--accent);border-radius:999px;padding:2px 7px;font-size:.72em;font-weight:700;margin-top:4px}
+/* cocktail detail */
+.cktl-ings{list-style:none;padding:0;margin:0}
+.cktl-ings li{padding:9px 0;border-bottom:1px solid var(--line);font-size:.97em;display:flex;align-items:center;gap:8px}
+.cktl-ings li::before{content:"🧪";font-size:.85em}
+.cktl-glass{color:var(--muted);font-size:.88em;margin:4px 0 0;font-style:italic}
+/* loading spinner cocktails */
+.cktl-loading{text-align:center;padding:40px;color:var(--muted);font-size:1em}
 @keyframes spin{to{transform:rotate(360deg)}}
 .toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 22px);transform:translateX(-50%);z-index:80;
   background:#2a1d14;border:1px solid var(--line);color:var(--text);padding:11px 16px;border-radius:999px;

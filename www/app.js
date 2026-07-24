@@ -1103,6 +1103,96 @@ function saveImportedRecipe(url='', vid=''){
   toast(`"${t}" importée ✓`);
 }
 
+/* ---------- onglet cocktails ---------- */
+const COCKTAIL_IDS = [
+  '11003','178325','17212','11000','11007','17196','17253','11009',
+  '17213','17186','17829','11417','11006','11001','11403','17207',
+  '12754','13621'
+];
+let cocktailCache = null; // [{id,name,thumb,category,glass,alcoholic,ings,steps}]
+let appMode = 'recipes'; // 'recipes' | 'cocktails'
+
+const elCocktailGrid = document.getElementById('cocktail-grid');
+const elCocktailDetail = document.getElementById('cocktail-detail');
+
+function switchMode(mode){
+  appMode = mode;
+  document.querySelectorAll('.mode-tab').forEach(b=> b.classList.toggle('active', b.dataset.mode===mode));
+  const isRecipes = mode==='recipes';
+  elSearch.hidden = !isRecipes;
+  document.getElementById('cats').hidden = !isRecipes;
+  document.getElementById('daily').hidden = !isRecipes;
+  document.getElementById('status').hidden = !isRecipes;
+  document.getElementById('grid').hidden = !isRecipes;
+  elCocktailGrid.hidden = isRecipes;
+  if(!isRecipes) loadCocktails();
+}
+
+async function loadCocktails(){
+  if(cocktailCache){ renderCocktailGrid(); return; }
+  elCocktailGrid.innerHTML = '<div class="cktl-loading">🍹 Chargement des cocktails…</div>';
+  try {
+    const cocktails = await Promise.all(COCKTAIL_IDS.map(async id=>{
+      const r = await fetch('https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='+id);
+      const d = await r.json();
+      const c = d.drinks[0];
+      const ings = [];
+      for(let i=1;i<=15;i++){
+        const ing = c['strIngredient'+i];
+        const qty = c['strMeasure'+i];
+        if(ing && ing.trim()) ings.push({ing: ing.trim(), qty: qty ? qty.trim() : ''});
+      }
+      return { id: c.idDrink, name: c.strDrink, thumb: c.strDrinkThumb+'/preview',
+        category: c.strCategory, glass: c.strGlass, alcoholic: c.strAlcoholic,
+        ings, steps: c.strInstructionsFR || c.strInstructions };
+    }));
+    cocktailCache = cocktails;
+    renderCocktailGrid();
+  } catch(e){
+    elCocktailGrid.innerHTML = '<div class="cktl-loading">❌ Impossible de charger les cocktails.</div>';
+  }
+}
+
+function renderCocktailGrid(){
+  if(!cocktailCache) return;
+  elCocktailGrid.innerHTML = cocktailCache.map(c=>`
+    <div class="cktl-card" data-cid="${esc(c.id)}">
+      <img src="${esc(c.thumb)}" loading="lazy" alt="${esc(c.name)}">
+      <div class="cktl-info">
+        <div class="cktl-name">${esc(c.name)}</div>
+        <div class="cktl-sub">${esc(c.glass)}</div>
+        <span class="cktl-badge">${c.alcoholic==='Alcoholic'?'🍸 Alcool':'🥤 Sans alcool'}</span>
+      </div>
+    </div>`).join('');
+  elCocktailGrid.querySelectorAll('.cktl-card').forEach(card=>{
+    card.addEventListener('click', ()=> openCocktailDetail(card.dataset.cid));
+  });
+}
+
+function openCocktailDetail(id){
+  const c = cocktailCache && cocktailCache.find(x=>x.id===id); if(!c) return;
+  const ingsHtml = c.ings.map(x=>`<li>${x.qty ? '<strong>'+esc(x.qty)+'</strong> ' : ''}${esc(x.ing)}</li>`).join('');
+  const stepsHtml = c.steps ? `<div class="d-sec">Préparation</div><div class="desc">${esc(c.steps)}</div>` : '';
+  elCocktailDetail.innerHTML = `
+    <button class="d-back" aria-label="Retour">←</button>
+    <div class="d-hero"><img src="${esc(c.thumb.replace('/preview',''))}" referrerpolicy="no-referrer" style="width:100%;max-height:46vh;object-fit:cover;display:block" onerror="this.outerHTML='<div class=ph>🍹</div>'"></div>
+    <div class="d-body">
+      <div class="d-title">${esc(c.name)}</div>
+      <div class="d-meta">
+        <span class="tag cat">${esc(c.category)}</span>
+        <span class="tag">🥃 ${esc(c.glass)}</span>
+        <span class="tag">${c.alcoholic==='Alcoholic'?'🍸 Alcool':'🥤 Sans alcool'}</span>
+      </div>
+      <div class="d-sec">Ingrédients</div>
+      <ul class="cktl-ings">${ingsHtml}</ul>
+      ${stepsHtml}
+    </div>`;
+  elCocktailDetail.hidden = false;
+  document.body.style.overflow = 'hidden';
+  elCocktailDetail.querySelector('.d-back').addEventListener('click', closeCocktailDetail);
+}
+function closeCocktailDetail(){ elCocktailDetail.hidden=true; document.body.style.overflow=''; }
+
 /* ---------- init ---------- */
 let searchTimer;
 async function init(){
@@ -1135,10 +1225,14 @@ async function init(){
     clearTimeout(searchTimer);
     searchTimer = setTimeout(()=>{ state.q = elSearch.value; renderGrid(); }, 180);
   });
+  document.querySelectorAll('.mode-tab').forEach(btn=>{
+    btn.addEventListener('click', ()=> switchMode(btn.dataset.mode));
+  });
   window.addEventListener('keydown', (e)=>{
     if(e.key!=='Escape') return;
     const ip=document.getElementById('ingpick');
-    if(ip && !ip.hidden) closeIngPick();
+    if(!elCocktailDetail.hidden) closeCocktailDetail();
+    else if(ip && !ip.hidden) closeIngPick();
     else if(!elEdit.hidden) closeEdit();
     else if(!elCook.hidden) closeCook();
     else if(!elImport.hidden) closeImport();
