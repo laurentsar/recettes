@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.22';
+const APP_VERSION = '2.23';
 
 let ALL = [];
 let BASE = [];
@@ -557,7 +557,11 @@ function openDetail(id){
   const steps = splitSteps(r.steps);
   const stepsHtml = steps.length ? `<div class="d-sec">Préparation</div><ol class="steps">${
     steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>` : '';
-  const cookBtn = steps.length ? `<button class="d-cook-btn">🍳 Réaliser cette recette</button>` : '';
+  const hasIng = (r.ing||[]).length > 0;
+  const cookBtn = (steps.length || hasIng) ? `<div class="d-cook-row">
+    ${hasIng ? `<button class="d-ing-btn">📋 Ingrédients</button>` : ''}
+    ${steps.length ? `<button class="d-cook-btn">🍳 Réaliser</button>` : ''}
+  </div>` : '';
   const links = [
     r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">🔗 Source</a>`:'',
     r.vid?`<a href="${esc(r.vid)}" target="_blank" rel="noopener">▶️ Vidéo</a>`:'',
@@ -581,6 +585,8 @@ function openDetail(id){
   elDetail.querySelector('.d-back').addEventListener('click', closeDetail);
   const cookBtnEl = elDetail.querySelector('.d-cook-btn');
   if (cookBtnEl) cookBtnEl.addEventListener('click', ()=> openCook(r.id));
+  const ingBtnEl = elDetail.querySelector('.d-ing-btn');
+  if (ingBtnEl) ingBtnEl.addEventListener('click', ()=> openCook(r.id, 'ings'));
   elDetail.querySelector('.d-fav').addEventListener('click', (e)=>{
     if (favs.has(r.id)) favs.delete(r.id); else favs.add(r.id);
     saveFavs(); e.currentTarget.textContent = favs.has(r.id)?'❤️':'🤍';
@@ -595,42 +601,124 @@ function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; r
 let cookRecipe = null;
 let cookStep = 0;
 let cookSteps = [];
+let cookIngMap = [];
 const cookSynth = window.speechSynthesis || null;
 let cookRecog = null;
 let cookMicActive = false;
 let cookTtsBusy = false;
 let cookRecogGen = 0; // chaque session a un numéro unique ; les callbacks périmés sont ignorés
 
-function openCook(id){
+const ING_QTY_RE = /^([\d.,/½¼¾\s]+(?:g|kg|ml|cl|l|c\.\s*à\s*[sct]\.?|cuill?[eè]res?\s+à\s+[sc]\.?|tasse|verre|bouquet|botte|tranches?|gousses?|pincées?|branches?|filet|boîtes?|sachets?|paquets?|morceaux?|unités?|poignées?)s?\.?\s+)(.+)/i;
+const ING_NUM_RE = /^(\d[\d\s]*(?:\/\d+)?)\s+(.+)/;
+
+function buildIngMap(ings){
+  const out = [];
+  for (const item of ings){
+    const m = item.trim().match(ING_QTY_RE) || item.trim().match(ING_NUM_RE);
+    if (!m) continue;
+    const qty = m[1].trim();
+    const name = m[2].trim().replace(/^(de\s+la\s+|d[e']\s*|du\s+|des\s+|les?\s+|l[a']\s+)/i,'').trim();
+    if (name.length < 3) continue;
+    out.push({ qty, name });
+  }
+  return out.sort((a,b) => b.name.length - a.name.length);
+}
+
+function enrichStep(rawStep, ingMap){
+  if (!ingMap.length) return esc(rawStep);
+  const lower = rawStep.toLowerCase();
+  const usedRanges = [];
+  const hits = [];
+  for (const { qty, name } of ingMap){
+    const nl = name.toLowerCase();
+    for (const v of [nl, nl+'s', nl+'x']){
+      const idx = lower.indexOf(v);
+      if (idx === -1) continue;
+      if (usedRanges.some(([s,e]) => idx < e && idx + v.length > s)) continue;
+      hits.push({ start:idx, end:idx+v.length, qty });
+      usedRanges.push([idx, idx+v.length]);
+      break;
+    }
+  }
+  if (!hits.length) return esc(rawStep);
+  hits.sort((a,b) => a.start - b.start);
+  let result = '', pos = 0;
+  for (const { start, end, qty } of hits){
+    result += esc(rawStep.slice(pos, start));
+    result += `<strong>${esc(rawStep.slice(start,end))}</strong><span class="cook-step-qty"> [${esc(qty)}]</span>`;
+    pos = end;
+  }
+  return result + esc(rawStep.slice(pos));
+}
+
+function cookIngListHtml(r){
+  const sk = SEASON[monthNow()] || [];
+  return (r.ing||[]).map((item,k)=>{
+    const s = sk.some(w=>norm(item).includes(w));
+    const qm = item.match(ING_QTY_RE) || item.match(ING_NUM_RE);
+    const txt = qm ? `<strong class="cook-qty">${esc(qm[1].trim())}</strong> ${esc(qm[2].trim())}` : esc(item);
+    return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${txt}</span>${s?'<span class="leaf">🌿</span>':''}</li>`;
+  }).join('');
+}
+
+function openCook(id, initialTab='steps'){
   const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
   cookRecipe = r;
   cookSteps = splitSteps(r.steps);
-  if(!cookSteps.length){ toast('Aucune étape de préparation'); return; }
+  if(initialTab==='steps' && !cookSteps.length){ toast('Aucune étape de préparation'); return; }
   cookStep = 0;
+  cookIngMap = buildIngMap(r.ing||[]);
+  const ingList = cookIngListHtml(r);
+  const hasSteps = cookSteps.length > 0;
   elCook.innerHTML = `
     <div class="cook-head">
       <button class="cook-quit" aria-label="Quitter">←</button>
       <span class="cook-title">${esc(r.t)}</span>
       <button id="cook-mic" class="cook-mic" aria-label="Contrôle vocal">🎤</button>
     </div>
-    <div class="cook-progress"><div id="cook-progress-bar" class="cook-progress-bar"></div></div>
-    <div class="cook-counter" id="cook-counter"></div>
-    <div class="cook-body"><div id="cook-step-text" class="cook-step"></div></div>
-    <div class="cook-hint">🎤 Dire : « suivant » · « précédent » · « répéter » · « ingrédients »</div>
-    <div class="cook-nav">
-      <button id="cook-prev" class="cook-prev">← Précédent</button>
-      <button id="cook-ing-btn" class="cook-ing-btn" title="Ingrédients">📋</button>
-      <button id="cook-next" class="cook-next">Suivant →</button>
+    <div class="cook-tabs">
+      <button class="cook-tab ${hasSteps && initialTab==='steps'?'active':''}" data-tab="steps"${!hasSteps?' disabled':''}>📝 Étapes${hasSteps?'':' —'}</button>
+      <button class="cook-tab ${!hasSteps || initialTab==='ings'?'active':''}" data-tab="ings">📋 Ingrédients</button>
+    </div>
+    <div id="cook-steps-pane" ${!hasSteps || initialTab==='ings'?'hidden':''}>
+      <div class="cook-progress"><div id="cook-progress-bar" class="cook-progress-bar"></div></div>
+      <div class="cook-counter" id="cook-counter"></div>
+      <div class="cook-body"><div id="cook-step-text" class="cook-step"></div></div>
+      <div class="cook-hint">🎤 Dire : « suivant » · « précédent » · « répéter » · « ingrédients »</div>
+      <div class="cook-nav">
+        <button id="cook-prev" class="cook-prev">← Précédent</button>
+        <button id="cook-next" class="cook-next">Suivant →</button>
+      </div>
+    </div>
+    <div id="cook-ings-pane" class="cook-ings-pane" ${hasSteps && initialTab==='steps'?'hidden':''}>
+      <div class="cook-ing-body">
+        ${ingList ? `<ul class="ing">${ingList}</ul>` : '<p style="padding:20px;text-align:center;color:var(--muted)">Aucun ingrédient</p>'}
+      </div>
     </div>`;
   elCook.hidden = false;
   document.body.style.overflow = 'hidden';
-  renderCookStep();
-  speakCookStep();
+  elCook.querySelectorAll('.cook-tab:not([disabled])').forEach(btn => {
+    btn.addEventListener('click', ()=> switchCookTab(btn.dataset.tab));
+  });
+  if(hasSteps && initialTab==='steps'){ renderCookStep(); speakCookStep(); }
   elCook.querySelector('.cook-quit').addEventListener('click', closeCook);
   document.getElementById('cook-mic').addEventListener('click', toggleCookMic);
-  document.getElementById('cook-prev').addEventListener('click', cookGoPrev);
-  document.getElementById('cook-next').addEventListener('click', cookGoNext);
-  document.getElementById('cook-ing-btn').addEventListener('click', toggleCookIng);
+  const prevBtn = document.getElementById('cook-prev');
+  if(prevBtn){
+    prevBtn.addEventListener('click', cookGoPrev);
+    document.getElementById('cook-next').addEventListener('click', cookGoNext);
+  }
+  document.getElementById('cook-ings-pane').querySelectorAll('.ing li').forEach(li => {
+    li.addEventListener('click', ()=> li.classList.toggle('done'));
+  });
+}
+
+function switchCookTab(tab){
+  elCook.querySelectorAll('.cook-tab').forEach(b=> b.classList.toggle('active', b.dataset.tab===tab));
+  const sp = document.getElementById('cook-steps-pane');
+  const ip = document.getElementById('cook-ings-pane');
+  if(sp) sp.hidden = tab !== 'steps';
+  if(ip) ip.hidden = tab !== 'ings';
 }
 
 function closeCook(){
@@ -643,7 +731,7 @@ function renderCookStep(){
   const total = cookSteps.length;
   document.getElementById('cook-counter').textContent = `Étape ${cookStep+1} / ${total}`;
   document.getElementById('cook-progress-bar').style.width = Math.round(((cookStep+1)/total)*100)+'%';
-  document.getElementById('cook-step-text').textContent = cookSteps[cookStep];
+  document.getElementById('cook-step-text').innerHTML = enrichStep(cookSteps[cookStep], cookIngMap);
   document.getElementById('cook-prev').disabled = cookStep === 0;
   document.getElementById('cook-next').textContent = cookStep === total-1 ? '✓ Terminer' : 'Suivant →';
 }
@@ -730,34 +818,11 @@ function handleVoiceCmd(txt){
   if(/suivant|prochain|suite/.test(txt)) cookGoNext();
   else if(/pr[eé]c[eé]dent|retour|avant|reculer/.test(txt)) cookGoPrev();
   else if(/r[eé]p[eé]ter|relire|encore|lire/.test(txt)) speakCookStep();
-  else if(/ingr[eé]dient/.test(txt)) toggleCookIng();
+  else if(/ingr[eé]dient/.test(txt)) switchCookTab('ings');
   else if(/terminer|quitter|stop|fermer|fin/.test(txt)) closeCook();
   else if(/d[eé]but|recommencer|premi/.test(txt)){ cookStep=0; renderCookStep(); speakCookStep(); }
 }
 
-function toggleCookIng(){
-  const existing = document.getElementById('cook-ing-ov');
-  if(existing){ existing.remove(); return; }
-  const ov = document.createElement('div');
-  ov.id = 'cook-ing-ov';
-  ov.className = 'cook-ing-ov';
-  const sk = SEASON[monthNow()] || [];
-  const ingHtml = (cookRecipe.ing||[]).map((item,k)=>{
-    const s = sk.some(w=>norm(item).includes(w));
-    const qm = item.match(/^([\d.,/½¼¾\s]+(?:g|kg|ml|cl|l|c\.\s*à\s*[sct]\.?|cuill?[eè]res?\s+à\s+[sc]\.?|tasse|verre|bouquet|botte|tranches?|gousses?|pincées?|branches?|filet|boîte|sachets?|paquets?|morceaux?|unités?|poignées?)s?\.?\s+)(.+)/i)
-                || item.match(/^(\d[\d\s]*(?:\/\d+)?)\s+(.+)/);
-    const txt = qm ? `<strong class="cook-qty">${esc(qm[1].trim())}</strong> ${esc(qm[2].trim())}` : esc(item);
-    return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${txt}</span>${s?'<span class="leaf">🌿</span>':''}</li>`;
-  }).join('');
-  ov.innerHTML = `<div class="cook-ing-sheet">
-    <button class="cook-ing-close">✕ Fermer</button>
-    <div class="d-sec" style="margin-top:0">Ingrédients</div>
-    <ul class="ing">${ingHtml}</ul>
-  </div>`;
-  ov.querySelector('.cook-ing-close').addEventListener('click', ()=> ov.remove());
-  ov.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click', ()=> li.classList.toggle('done')));
-  elCook.appendChild(ov);
-}
 
 /* ---------- édition ---------- */
 const elEdit = $('#edit');
