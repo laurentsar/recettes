@@ -56,9 +56,24 @@ for x in src:
         "steps": str(x.get("instructions") or "").strip(),
     })
 
+# Préserver les recettes ajoutées manuellement (non-Dropbox) présentes dans le fichier existant.
+# Leurs IDs ne commencent pas par "dropbox:" (ex: corse:, espagne:, portugal:, ...).
+out_ids = {r["id"] for r in out}
+out_path = os.path.normpath(OUT)
+if os.path.exists(out_path):
+    try:
+        existing = json.load(open(out_path, encoding="utf-8"))
+        manual = [r for r in (existing.get("recipes") or [])
+                  if not str(r.get("id", "")).startswith("dropbox:") and r.get("id") not in out_ids]
+        if manual:
+            out.extend(manual)
+            print(f"  {len(manual)} recettes manuelles préservées ({', '.join(r['id'].split(':')[0] for r in manual[:3])}…)")
+    except Exception as e:
+        print(f"  (impossible de lire le fichier existant pour la fusion : {e})")
+
 # version = hash du contenu => le fichier ne change que si les recettes changent (pas de push inutile)
 import hashlib
 _h = hashlib.md5(json.dumps(out, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:12]
 data = {"version": _h, "count": len(out), "recipes": out}
-json.dump(data, open(os.path.normpath(OUT), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print(f"OK : {len(out)} recettes -> {os.path.normpath(OUT)}  (avec image: {sum(1 for r in out if r['img'])})")
+json.dump(data, open(out_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(f"OK : {len(out)} recettes -> {out_path}  (avec image: {sum(1 for r in out if r['img'])})")
