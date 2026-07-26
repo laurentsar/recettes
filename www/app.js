@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.27';
+const APP_VERSION = '2.28';
 
 let ALL = [];
 let BASE = [];
@@ -1291,7 +1291,7 @@ let appMode = 'recipes'; // 'recipes' | 'cocktails'
 const elCocktailGrid = document.getElementById('cocktail-grid');
 const elCocktailDetail = document.getElementById('cocktail-detail');
 
-const MODE_CAT = { airfryer: 'Airfryer', thermomix: 'Thermomix', corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal', italie: 'Italie', japon: 'Japon', asie: 'Asie' };
+const MODE_CAT = { airfryer: 'Airfryer', thermomix: 'Thermomix', corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal', italie: 'Italie', japon: 'Japon', asie: 'Asie', maghreb: 'Maghreb' };
 function switchMode(mode){
   appMode = mode;
   document.querySelectorAll('.mode-tab').forEach(b=> b.classList.toggle('active', b.dataset.mode===mode));
