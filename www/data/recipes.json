@@ -90,7 +90,7 @@
     {
       "id": "dropbox:6c454f28-b62f-4a9e-9e3e-3634402849f6",
       "t": "22 K vues · 608 réactions | Flans au Airfryer — Da...",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -109,7 +109,7 @@
     {
       "id": "dropbox:9820b483-950e-4063-9bc8-6fb6a2335509",
       "t": "Air Fryer (recettes/conseils) | Bonsoir à toutes et à tous | Facebook",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -141,7 +141,7 @@
     {
       "id": "dropbox:e3105124-3b51-4d96-a548-a93d5462162a",
       "t": "Air Fryer Maison : Recettes Rapides | Bonjour, mon pain fait ce matin | Facebook",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -155,7 +155,7 @@
     {
       "id": "dropbox:ba3ef86f-01c0-4035-b666-620966032201",
       "t": "Air Fryer Maison : Recettes Rapides | recette de poulet et de légumes à l'air friteur permet de préparer un repas rapide et nutritif que vous pouvez concocter en moins de 20 minutes | Facebook",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -184,7 +184,7 @@
     {
       "id": "dropbox:41e20087-8ea4-4402-b6ac-d2d4183f8d47",
       "t": "air fryer Ninja : boudin blanc et pommes - Petite chronique d'Hélène",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -201,7 +201,7 @@
     {
       "id": "dropbox:3b1c541a-6637-4a09-bb01-32cebf9b35cb",
       "t": "AIRFRYER RECETTES | Fondant chocolat | Facebook",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -221,7 +221,7 @@
     {
       "id": "dropbox:589bd902-65dd-4f74-9b05-05171c1e8f56",
       "t": "Aubergine panée au Airfryer : recette facile et croustillante",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -421,7 +421,7 @@
     {
       "id": "dropbox:1122559876",
       "t": "BLANC DE POULET SAUCE MOUTARDE AU THERMOMIX - Cuisine Momix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -469,7 +469,7 @@
     {
       "id": "dropbox:7e45f7aa-99b9-4b53-a52d-b16c7e645341",
       "t": "Blancs de Poulet à l’Air Fryer",
-      "cat": "Poulet",
+      "cat": "Poulet, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -714,7 +714,7 @@
     {
       "id": "dropbox:f6e65199-90c5-4813-9f5f-8ab54dfd9d88",
       "t": "Bouchées Croustillantes de Saumon (15 min, Air Fryer)",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 13,
       "serv": 0,
@@ -889,7 +889,7 @@
     {
       "id": "dropbox:8d941ade-b670-41e3-a164-47b61e4ecc5f",
       "t": "Boursin ail et fines herbes au Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 45,
       "serv": 0,
@@ -950,7 +950,7 @@
     {
       "id": "dropbox:5903908e-7713-4677-b6c8-a12aa10fec8a",
       "t": "Bugnes Faciles au Air Fryer",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -1061,7 +1061,7 @@
     {
       "id": "dropbox:606930240",
       "t": "Bûche de Noël rapide au thermomix - en moins de 30 minutes",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 33,
       "serv": 0,
@@ -1348,7 +1348,7 @@
     {
       "id": "dropbox:532612616",
       "t": "Cake au chèvre, figues et au miel au Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 79,
       "serv": 0,
@@ -1441,7 +1441,7 @@
     {
       "id": "dropbox:-856383941",
       "t": "Caponata... la vraie ! - Le Sot L'y Laisse",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -1595,7 +1595,7 @@
     {
       "id": "dropbox:c3a9cb0f-f7da-4317-9dfb-7bbce1d4438d",
       "t": "Carottes à la Friteuse à Air",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 20,
       "serv": 0,
@@ -1693,7 +1693,7 @@
     {
       "id": "dropbox:fc6d39d5-a79d-43fb-93c4-8f597e26f4c8",
       "t": "Champignons à l’Air Fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -1755,7 +1755,7 @@
     {
       "id": "dropbox:ee807b8b-93aa-44c6-ba9b-7c483a99e8e9",
       "t": "Chips de carotte à l’air fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -1811,7 +1811,7 @@
     {
       "id": "dropbox:1445166428",
       "t": "Chocolat chaud au thermomix - Recette Thermomix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -1953,7 +1953,7 @@
     {
       "id": "dropbox:b705bd70-2d32-470b-9bfe-9f1c1bd2aae2",
       "t": "chou-fleur frit au Airfryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 17,
       "serv": 0,
@@ -1977,7 +1977,7 @@
     {
       "id": "dropbox:eae14f8a-456e-406b-b7fc-7c321a050a71",
       "t": "Chouquettes au Thermomix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 51,
       "serv": 0,
@@ -2000,7 +2000,7 @@
     {
       "id": "dropbox:-100319853",
       "t": "Churros au four au Thermomix » Recette Thermomix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -2154,7 +2154,7 @@
     {
       "id": "dropbox:3ccc4864-cd86-4afc-b665-efdc8ede033b",
       "t": "Comment cuire son filet mignon au Airfryer ?",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -2209,7 +2209,7 @@
     {
       "id": "dropbox:966b0800-1983-4f25-a468-b445e4f761b6",
       "t": "Confit de Canard à l'Air Fryer : peau croustillante en 12 min",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 15,
       "serv": 0,
@@ -2229,7 +2229,7 @@
     {
       "id": "dropbox:370b649a-430b-4219-b238-2ccf4eb55a4b",
       "t": "Cookies Faciles à l’Airfryer",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -2378,7 +2378,7 @@
     {
       "id": "dropbox:812b90db-e11e-4298-a0b5-6e4cafa9a1ab",
       "t": "Crevettes Grillées à l’Espagnole à la Friteuse à Air",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer, Espagne",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -2401,7 +2401,7 @@
     {
       "id": "dropbox:51065440-5120-43a2-92ef-0d53e34e215c",
       "t": "Crevettes panées à l'air fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 25,
       "serv": 0,
@@ -2498,7 +2498,7 @@
     {
       "id": "dropbox:9c178259-af6e-4286-9303-1927cdba54d5",
       "t": "Crème aux Œufs Air Fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 22,
       "serv": 0,
@@ -2518,7 +2518,7 @@
     {
       "id": "dropbox:eb7bfdad-c0c4-4b70-8fec-15ed51f701eb",
       "t": "Crème brûlée à l’Air Fryer",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -2537,7 +2537,7 @@
     {
       "id": "dropbox:882d43f2-80af-41cd-a362-7c3030c324be",
       "t": "Cuisses de Canard au air fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 23,
       "serv": 0,
@@ -2586,7 +2586,7 @@
     {
       "id": "dropbox:-702871618",
       "t": "DOME D'AVOCAT AU SAUMON FUME (thermomix) - Blog cuisine Thermomix avec recettes pour le TM5 & TM31",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -2611,7 +2611,7 @@
     {
       "id": "dropbox:3f3a8eec-c4e9-4b41-b7bc-63eba556854f",
       "t": "Donuts légers à l'airfryer, une recette gourmande",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -2720,7 +2720,7 @@
     {
       "id": "dropbox:399e4513-9951-4e2b-8450-004200361e34",
       "t": "Empanadas Airfryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -2742,7 +2742,7 @@
     {
       "id": "dropbox:b2235e42-be39-430d-887f-b1bd6a41d651",
       "t": "Escalope de dinde au Airfryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 10,
       "serv": 0,
@@ -2837,7 +2837,7 @@
     {
       "id": "dropbox:9ec6c880-7862-45b7-b64e-4d2b23aaef1a",
       "t": "Filet de poisson au citron dans la friteuse à air",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3078,7 +3078,7 @@
     {
       "id": "dropbox:3660747e-1841-456d-a80f-f180ef896c87",
       "t": "Flans Maison à l'Air Fryer en 12 Minutes : La Recette Express Qui Change Tout",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 20,
       "serv": 0,
@@ -3206,7 +3206,7 @@
     {
       "id": "dropbox:12188ae5-c23d-47d7-9046-ff72f1f600b1",
       "t": "Frites fraîches à l’Airfryer à la graisse de canard",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 40,
       "serv": 0,
@@ -3360,7 +3360,7 @@
     {
       "id": "dropbox:6f931762-843f-42c7-a68b-6ef350a0e011",
       "t": "Gnocchi au brocoli sans pomme de terre",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 65,
       "serv": 0,
@@ -3478,7 +3478,7 @@
     {
       "id": "dropbox:d8449748-62f3-4617-9cef-8acba953ff79",
       "t": "Gratin de Courgettes au Air Fryer Ninja : Recette Saine et Délicieuse",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -3550,7 +3550,7 @@
     {
       "id": "dropbox:-56437985",
       "t": "Gratin de légumes d’hiver au thermomix - Cuisine Momix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3577,7 +3577,7 @@
     {
       "id": "dropbox:128978245",
       "t": "Gratin de poireaux sauce camembert au thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3599,7 +3599,7 @@
     {
       "id": "dropbox:889368652",
       "t": "Gratin de poireaux sauce camembert au thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3621,7 +3621,7 @@
     {
       "id": "dropbox:-747399946",
       "t": "Gratin de poireaux sauce camembert au thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -3871,7 +3871,7 @@
     {
       "id": "dropbox:-29192180",
       "t": "Gâteau de carotte et son glaçage crémeux (Carrot Cake) au Thermomix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -4038,7 +4038,7 @@
     {
       "id": "dropbox:bfd46588-4cb4-4686-9696-90b803ff0ed8",
       "t": "Haricots blancs à la mode espagnole.",
-      "cat": "Plat",
+      "cat": "Plat, Espagne",
       "area": "",
       "min": 200,
       "serv": 0,
@@ -4623,7 +4623,7 @@
     {
       "id": "dropbox:4d072456-63ba-4d4e-ba6d-37eb641fa9a8",
       "t": "Magret de Canard au Air Fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -4728,7 +4728,7 @@
     {
       "id": "dropbox:9fbe0eb4-85e1-4dfa-a72d-74e0ea75e843",
       "t": "Mascarpone fait maison au thermomix - delicesetplats",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -4760,7 +4760,7 @@
     {
       "id": "dropbox:e6b7d411-158b-44e9-b470-b0a7da357803",
       "t": "Meringue facile au Airfryer",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 70,
       "serv": 0,
@@ -4837,7 +4837,7 @@
     {
       "id": "dropbox:553850884",
       "t": "Mijotée de fêves à la portugaise - Flagrant délit de gourmandise..",
-      "cat": "Plat",
+      "cat": "Plat, Portugal",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -4902,7 +4902,7 @@
     {
       "id": "dropbox:0df0a8dc-f540-4a74-9991-795c25c212f8",
       "t": "Muffins au citron airfryer moelleux et pleins de peps",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 25,
       "serv": 0,
@@ -4927,7 +4927,7 @@
     {
       "id": "dropbox:3072d049-d557-48b1-a56b-e71026e1b1a3",
       "t": "Muffins Chocolat au Cœur Fondant Spécial Noël au Air Fryer",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -5048,7 +5048,7 @@
     {
       "id": "dropbox:35684ad0-ba92-4d97-b0bf-c35730a0e4e1",
       "t": "Noix de Saint-Jacques Poêlées au Air Fryer",
-      "cat": "Poisson",
+      "cat": "Poisson, Airfryer",
       "area": "",
       "min": 12,
       "serv": 0,
@@ -5069,7 +5069,7 @@
     {
       "id": "dropbox:bc192850-d3f2-4c9f-bf48-975fa93bae0a",
       "t": "Nuggets de poulet au Thermomix - Cuisine Momix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -5176,7 +5176,7 @@
     {
       "id": "dropbox:595697093",
       "t": "Orecchiette aux légumes façon One Pot Pasta",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -5237,7 +5237,7 @@
     {
       "id": "dropbox:34ded57f-919c-415d-8d98-3aba31d8fe98",
       "t": "Pain brioché au miel au Thermomix - Cuisine Momix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -5283,7 +5283,7 @@
     {
       "id": "dropbox:744faa6d-cab5-461f-8484-2b703612002f",
       "t": "Pain de Viande à l'Airfryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -5328,7 +5328,7 @@
     {
       "id": "dropbox:7d168342-eebd-4c12-b912-5201dbac798f",
       "t": "Pain Perdu au Airfryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 23,
       "serv": 0,
@@ -5350,7 +5350,7 @@
     {
       "id": "dropbox:47705959-5e54-4987-ab68-050dcdfe3e39",
       "t": "Pain Perdu à l'Air Fryer",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -5397,7 +5397,7 @@
     {
       "id": "dropbox:7c2dc25f-65c4-4957-80ba-ac2045a1bbe8",
       "t": "Pains burger extra moelleux faits maison au Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 117,
       "serv": 0,
@@ -5605,7 +5605,7 @@
     {
       "id": "dropbox:3e409306-7be1-489c-832e-5ab1f097df11",
       "t": "Pastéis de nata au thermomix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix, Portugal",
       "area": "",
       "min": 51,
       "serv": 0,
@@ -5628,7 +5628,7 @@
     {
       "id": "dropbox:07fd6f1e-91f4-4bb6-a87a-42fcb52cff3e",
       "t": "Pastéis de Nata – Recette Authentique Portugaise 🇵🇹 - EasyDélice : Recettes Faciles et Gourmandes",
-      "cat": "Dessert",
+      "cat": "Dessert, Portugal",
       "area": "",
       "min": 1578,
       "serv": 0,
@@ -5652,7 +5652,7 @@
     {
       "id": "dropbox:f4d80f43-4b47-40ff-b878-8a03dae8b2e9",
       "t": "Patate Douce à la Friteuse à Air",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 20,
       "serv": 0,
@@ -5722,7 +5722,7 @@
     {
       "id": "dropbox:9e64962d-59cd-4bf9-b104-4a5cacb08c7d",
       "t": "Pavé de truite à l’air fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 16,
       "serv": 0,
@@ -5763,7 +5763,7 @@
     {
       "id": "dropbox:1284418300",
       "t": "Petits sablés de Noël au Thermomix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 27,
       "serv": 0,
@@ -5785,7 +5785,7 @@
     {
       "id": "dropbox:ffb2185f-d336-4213-b310-b19169babbf3",
       "t": "Philadelphia fait maison avec Thermomix - Cuisine Momix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -5850,7 +5850,7 @@
     {
       "id": "dropbox:c86d2b46-6085-4fe6-a7c1-d9a7bea89cd2",
       "t": "Poivron Grillé au Airfryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 25,
       "serv": 0,
@@ -5871,7 +5871,7 @@
     {
       "id": "dropbox:593db823-c433-4f6c-9c60-33bb67704fb7",
       "t": "Polenta au Thermomix - Cuisine Momix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix, Italie",
       "area": "",
       "min": 17,
       "serv": 0,
@@ -5946,7 +5946,7 @@
     {
       "id": "dropbox:ecbecd23-583e-4968-9f73-d81624c1710f",
       "t": "pomme de terre entière au air fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 45,
       "serv": 0,
@@ -5965,7 +5965,7 @@
     {
       "id": "dropbox:f2e80501-d4c4-4f34-9058-5f506173ae15",
       "t": "Pommes Dauphines Surgelées au Air Fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 20,
       "serv": 0,
@@ -6006,7 +6006,7 @@
     {
       "id": "dropbox:b62fede1-e34c-45a2-a8a4-2c47a9d7f7b5",
       "t": "Pommes de Terre au Parmesan à l'Airfryer",
-      "cat": "Entrée",
+      "cat": "Entrée, Airfryer",
       "area": "",
       "min": 38,
       "serv": 0,
@@ -6050,7 +6050,7 @@
     {
       "id": "dropbox:f303d5d6-6fcd-4e1a-a71d-f74393032202",
       "t": "Pommes de Terre Grenaille à l'Airfryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -6069,7 +6069,7 @@
     {
       "id": "dropbox:a6874838-8526-4735-8c1b-947d9a529461",
       "t": "Pommes de terre Hasselback au Air Fryer Ninja : beurre à l’ail entre chaque tranche",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 45,
       "serv": 0,
@@ -6121,7 +6121,7 @@
     {
       "id": "dropbox:085ff5be-96b9-469a-9f4f-f2cfa51a2e9c",
       "t": "Pommes de terre rôties à l'Airfryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 18,
       "serv": 0,
@@ -6141,7 +6141,7 @@
     {
       "id": "dropbox:115259676",
       "t": "Pommes de terre à la portugaise - Épices & moi",
-      "cat": "Plat",
+      "cat": "Plat, Portugal",
       "area": "",
       "min": 70,
       "serv": 0,
@@ -6175,7 +6175,7 @@
     {
       "id": "dropbox:249546140",
       "t": "Pommes de terre à la portugaise - Épices & moi",
-      "cat": "Pommes",
+      "cat": "Pommes, Portugal",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -6189,7 +6189,7 @@
     {
       "id": "dropbox:-400268265",
       "t": "Pommes de terre à l’espagnole au Thermomix » Recette Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix, Espagne",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -6377,7 +6377,7 @@
     {
       "id": "dropbox:6a685765-d4bf-4481-9c38-994903f57774",
       "t": "Poulet au Parmesan en Croûte (Air Fryer)",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer, Italie",
       "area": "",
       "min": 28,
       "serv": 0,
@@ -6508,7 +6508,7 @@
     {
       "id": "dropbox:1865427671",
       "t": "Poulet marengo au Thermomix » Recette Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -6536,7 +6536,7 @@
     {
       "id": "dropbox:1801841995",
       "t": "Poulet mijoté façon osso buco",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 46,
       "serv": 0,
@@ -6730,7 +6730,7 @@
     {
       "id": "dropbox:1342394263",
       "t": "Purple risotto",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 25,
       "serv": 0,
@@ -6796,7 +6796,7 @@
     {
       "id": "dropbox:1558506668",
       "t": "Pâtes fraîches Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix, Italie",
       "area": "",
       "min": 1,
       "serv": 0,
@@ -7207,7 +7207,7 @@
     {
       "id": "dropbox:58aef201-1b77-4050-911d-2b509c0d2ec5",
       "t": "Recette Brioche à la crème d’amande au Thermomix - Cuisine Momix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7239,7 +7239,7 @@
     {
       "id": "dropbox:0c0ff256-14a3-48ae-ae05-3852d1b57cbb",
       "t": "Recette brownies au air fryer : rapide et fondant",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -7313,7 +7313,7 @@
     {
       "id": "dropbox:2cf45bbf-b465-493a-bef1-e1ef0b61fc19",
       "t": "Recette de crevettes à la friteuse à air",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7408,7 +7408,7 @@
     {
       "id": "dropbox:1f7ba9b0-85b6-46e3-8b6f-f4aa08a5b834",
       "t": "recette d’Épluchures de Pommes de Terre à l’Air Fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7486,7 +7486,7 @@
     {
       "id": "dropbox:-2077297184",
       "t": "Recette Tiramisu pêche et caramel au beurre salé",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7532,7 +7532,7 @@
     {
       "id": "dropbox:1421649677",
       "t": "Recette: Escalopes de porc parmigiana.",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7560,7 +7560,7 @@
     {
       "id": "dropbox:-866149180",
       "t": "Risotto : la meilleure recette",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7588,7 +7588,7 @@
     {
       "id": "dropbox:-1606532073",
       "t": "Risotto au chou frisé et au citron - Châtelaine",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7616,7 +7616,7 @@
     {
       "id": "dropbox:-149866285",
       "t": "Risotto au potiron et parmesan",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7646,7 +7646,7 @@
     {
       "id": "dropbox:1579931014",
       "t": "Risotto aux courgettes et carottes au Thermomix » Recette Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix, Italie",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7673,7 +7673,7 @@
     {
       "id": "dropbox:-1193241484",
       "t": "Risotto aux petits-pois et chèvre frais - Amandine Cooking",
-      "cat": "Risotto",
+      "cat": "Risotto, Italie",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7697,7 +7697,7 @@
     {
       "id": "dropbox:-1677082054",
       "t": "Risotto aux Poireaux et au Jambon WW - Plat et Recette",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 50,
       "serv": 0,
@@ -7721,7 +7721,7 @@
     {
       "id": "dropbox:-1639881322",
       "t": "Risotto aux trois champignons",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 40,
       "serv": 0,
@@ -7750,7 +7750,7 @@
     {
       "id": "dropbox:9d51417b-4b45-40d9-80f7-fda19e11d1d3",
       "t": "Risotto crémeux à l’Air Fryer",
-      "cat": "Risotto",
+      "cat": "Risotto, Airfryer, Italie",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -7774,7 +7774,7 @@
     {
       "id": "dropbox:e0271056-7f12-45ed-a0bb-ed66ad52e912",
       "t": "Risotto de haricots tarbais à la fourme d’Ambert",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -7827,7 +7827,7 @@
     {
       "id": "dropbox:-1572798649",
       "t": "Risotto italien",
-      "cat": "Risotto",
+      "cat": "Risotto, Italie",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -7846,7 +7846,7 @@
     {
       "id": "dropbox:996216924",
       "t": "Risotto italien",
-      "cat": "Risotto",
+      "cat": "Risotto, Italie",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -7865,7 +7865,7 @@
     {
       "id": "dropbox:cb364473-fd85-41f3-96ed-09a83f8fba70",
       "t": "Risotto léger aux courgettes",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 45,
       "serv": 0,
@@ -7888,7 +7888,7 @@
     {
       "id": "dropbox:1265967939",
       "t": "Risotto Léger aux Légumes WW - Recette WW - Plat et Recette",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7913,7 +7913,7 @@
     {
       "id": "dropbox:-410506130",
       "t": "Risotto petits pois et carottes au thermomix - Recette Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix, Italie",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -7964,7 +7964,7 @@
     {
       "id": "dropbox:75a3cec7-7ca2-4ec6-b148-42bae47da644",
       "t": "riz au Airfryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 30,
       "serv": 0,
@@ -7983,7 +7983,7 @@
     {
       "id": "dropbox:-47459068",
       "t": "Riz au chorizo, comme au Portugal - La Pause",
-      "cat": "Plat",
+      "cat": "Plat, Portugal",
       "area": "",
       "min": 45,
       "serv": 0,
@@ -8066,7 +8066,7 @@
     {
       "id": "dropbox:079322b7-4f94-48f5-8cba-2f7729bb40d4",
       "t": "Riz frit avec thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -8225,7 +8225,7 @@
     {
       "id": "dropbox:63615390",
       "t": "Riz à l'espagnole",
-      "cat": "Plat",
+      "cat": "Plat, Espagne",
       "area": "",
       "min": 19,
       "serv": 0,
@@ -8253,7 +8253,7 @@
     {
       "id": "dropbox:-906755724",
       "t": "Riz à l'espagnole (Arroz con pollo) | Le Blog cuisine de Samar",
-      "cat": "Plat",
+      "cat": "Plat, Espagne",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -8285,7 +8285,7 @@
     {
       "id": "dropbox:217303805",
       "t": "Riz à la portugaise - aufildemacuisine",
-      "cat": "Plat",
+      "cat": "Plat, Portugal",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -8371,7 +8371,7 @@
     {
       "id": "dropbox:2cb0bb41-13a4-4504-8f4f-7515ea963ef7",
       "t": "Rouleaux de Pizza Faciles à l’Air Fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer, Italie",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -8391,7 +8391,7 @@
     {
       "id": "dropbox:b98818fd-40a3-4f02-a58e-4f86e079b842",
       "t": "Rôti de boeuf au airfryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 45,
       "serv": 0,
@@ -8504,7 +8504,7 @@
     {
       "id": "dropbox:-736177392",
       "t": "Sablés au chocolat pour pâques au Thermomix - Thermomix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 140,
       "serv": 0,
@@ -8527,7 +8527,7 @@
     {
       "id": "dropbox:1513175493",
       "t": "Sangria espagnole au Thermomix » Recette Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix, Espagne",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -8548,7 +8548,7 @@
     {
       "id": "dropbox:-1426564820",
       "t": "Sauce champagne au Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 17,
       "serv": 0,
@@ -8569,7 +8569,7 @@
     {
       "id": "dropbox:-833970387",
       "t": "Sauce tomate Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 60,
       "serv": 0,
@@ -8669,7 +8669,7 @@
     {
       "id": "dropbox:69e9a532-ed42-437c-af27-0a7de0e7072f",
       "t": "Saumon Teriyaki au Air Fryer",
-      "cat": "Plat, Japon",
+      "cat": "Plat, Japon, Airfryer",
       "area": "Japon",
       "min": 35,
       "serv": 0,
@@ -8691,7 +8691,7 @@
     {
       "id": "dropbox:5d4a35a9-cd75-4adc-950a-c3e286ad9ab1",
       "t": "Saumon à la toscane (crème épinards)",
-      "cat": "Plat",
+      "cat": "Plat, Italie",
       "area": "",
       "min": 35,
       "serv": 0,
@@ -8841,7 +8841,7 @@
     {
       "id": "dropbox:-606002207",
       "t": "Semoule aux légumes WW (Thermomix) - La marmite de la ferme",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -8926,7 +8926,7 @@
     {
       "id": "dropbox:4eafea61-3437-4d42-a39b-64d857dc4f90",
       "t": "Soufflé au fromage à l'air fryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -8989,7 +8989,7 @@
     {
       "id": "dropbox:1621846856",
       "t": "Super fondant au chocolat au Thermomix » Recette Thermomix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 15,
       "serv": 0,
@@ -9010,7 +9010,7 @@
     {
       "id": "dropbox:-1707553066",
       "t": "Super fondant au chocolat au Thermomix » Recette Thermomix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -9065,7 +9065,7 @@
     {
       "id": "dropbox:124568998",
       "t": "Tajine de carottes et pois chiches au thermomix - Recette Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -9368,7 +9368,7 @@
     {
       "id": "dropbox:-130452383",
       "t": "TIAN À L'ITALIENNE",
-      "cat": "Tian",
+      "cat": "Tian, Italie",
       "area": "",
       "min": 20,
       "serv": 0,
@@ -9392,7 +9392,7 @@
     {
       "id": "dropbox:0d2dc7d7-cb0c-43a3-8bbe-514835e4e9aa",
       "t": "Tomates provençales au Air Fryer (ou pas)",
-      "cat": "Tomates",
+      "cat": "Tomates, Airfryer",
       "area": "",
       "min": 15,
       "serv": 0,
@@ -9415,7 +9415,7 @@
     {
       "id": "dropbox:6da79f3f-9a9f-4eb1-aed0-631795b903cd",
       "t": "Tortilla de pommes de terre au thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix, Espagne",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -9437,7 +9437,7 @@
     {
       "id": "dropbox:ef32c145-057e-464f-93b0-5f2dee8537ae",
       "t": "Tortilla de pommes de terre au thermomix - delicesetplats",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix, Espagne",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -9451,7 +9451,7 @@
     {
       "id": "dropbox:1c831ee7-4902-41f6-a56b-c03501aeffe6",
       "t": "Tortilla Espagnole au Airfryer",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer, Espagne",
       "area": "",
       "min": 50,
       "serv": 0,
@@ -9472,7 +9472,7 @@
     {
       "id": "dropbox:1779252120",
       "t": "Truffes au chocolat de Noël au Thermomix » Recette Thermomix",
-      "cat": "Dessert",
+      "cat": "Dessert, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -9560,7 +9560,7 @@
     {
       "id": "dropbox:-1074079364",
       "t": "VIDÉO – Éplucher des pommes de terre avec Thermomix - Recette Plat - Recette Cuisine Facile",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -9635,7 +9635,7 @@
     {
       "id": "dropbox:-564005755",
       "t": "Yaourt des neiges au Thermomix",
-      "cat": "Plat",
+      "cat": "Plat, Thermomix",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -9732,7 +9732,7 @@
     {
       "id": "dropbox:c85f2f0a-1457-4791-8ca8-1babb944047e",
       "t": "✓ Airfryer Croissant au chocolat débutant 🍗 | On continue dans la pâtisserie | Facebook",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -9791,7 +9791,7 @@
     {
       "id": "dropbox:a3e895dd-0b88-4787-a23b-566b0934006e",
       "t": "👩‍🍳 Secret de cuisine: Chips maison ultra-croustillantes à la friteuse à air!",
-      "cat": "Plat",
+      "cat": "Plat, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
@@ -9855,7 +9855,7 @@
     {
       "id": "dropbox:350e5b6d-1c03-44ef-b98e-c888b0735ba6",
       "t": "🧁Muffins au AirFryer ultra moelleux ! #recettefacile #gateau #muffins #food",
-      "cat": "Dessert",
+      "cat": "Dessert, Airfryer",
       "area": "",
       "min": 0,
       "serv": 0,
