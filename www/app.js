@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.24';
+const APP_VERSION = '2.25';
 
 let ALL = [];
 let BASE = [];
@@ -826,6 +826,25 @@ function handleVoiceCmd(txt){
 }
 
 
+/* ---------- compression photo ---------- */
+function compressImage(file, maxPx=800, quality=0.72){
+  return new Promise((resolve, reject)=>{
+    const img = new Image();
+    const url = URL.createObjectURL(file);
+    img.onload = ()=>{
+      URL.revokeObjectURL(url);
+      const scale = Math.min(1, maxPx / Math.max(img.width, img.height));
+      const w = Math.round(img.width * scale), h = Math.round(img.height * scale);
+      const c = document.createElement('canvas');
+      c.width = w; c.height = h;
+      c.getContext('2d').drawImage(img, 0, 0, w, h);
+      resolve(c.toDataURL('image/jpeg', quality));
+    };
+    img.onerror = ()=>{ URL.revokeObjectURL(url); reject(new Error('Image invalide')); };
+    img.src = url;
+  });
+}
+
 /* ---------- édition ---------- */
 const elEdit = $('#edit');
 let editCatSel = new Set();   // sélection de catégories de l'éditeur (persiste hors DOM)
@@ -844,7 +863,18 @@ function openEdit(id){
       ${field('Titre', `<input id="e-t" value="${v(r.t)}">`)}
       ${field('Catégories', `<div class="e-cats cat-tree" id="e-cats"></div><input id="e-cat-new" autocomplete="off" placeholder="Ajouter de nouvelles (séparées par des virgules)…">`)}
       <div class="ef-row">${field('Durée (min)', `<input id="e-min" type="number" min="0" value="${v(r.min)}">`)}${field('Portions', `<input id="e-serv" type="number" min="0" value="${v(r.serv)}">`)}</div>
-      ${field('Image (URL)', `<input id="e-img" value="${v(r.img)}">`)}
+      <label class="ef"><span>Photo</span>
+        <div class="e-photo-row">
+          <div class="e-photo-thumb" id="e-photo-thumb">
+            ${r.img ? `<img src="${v(r.img)}" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<div class=e-photo-ph>🍲</div>'">` : '<div class="e-photo-ph">🍲</div>'}
+          </div>
+          <div class="e-photo-side">
+            <label class="e-photo-btn" for="e-photo-input">📷 Prendre / Galerie</label>
+            <input type="file" id="e-photo-input" class="frigo-file-hidden" accept="image/*">
+            <input id="e-img" type="url" placeholder="ou coller une URL…" value="${v(r.img)}" class="e-photo-url">
+          </div>
+        </div>
+      </label>
       <div class="ef-row">${field('Source (URL)', `<input id="e-url" value="${v(r.url)}">`)}${field('Vidéo (URL)', `<input id="e-vid" value="${v(r.vid)}">`)}</div>
       ${field('Description', `<textarea id="e-desc" rows="2">${v(r.desc)}</textarea>`)}
       ${field('Ingrédients (un par ligne)', `<textarea id="e-ing" rows="9">${v((r.ing||[]).join('\n'))}</textarea>`)}
@@ -858,6 +888,24 @@ function openEdit(id){
   elEdit.querySelector('.e-cancel').addEventListener('click', closeEdit);
   elEdit.querySelector('.e-save').addEventListener('click', ()=> saveEdit(id));
   const rb = elEdit.querySelector('.e-reset'); if (rb) rb.addEventListener('click', ()=> resetEdit(id));
+  document.getElementById('e-photo-input').addEventListener('change', async (e)=>{
+    const file = e.target.files?.[0]; if(!file) return;
+    try{
+      toast('Compression…');
+      const dataUrl = await compressImage(file);
+      document.getElementById('e-img').value = dataUrl;
+      document.getElementById('e-photo-thumb').innerHTML = `<img src="${dataUrl}">`;
+      toast('Photo ajoutée ✓');
+    } catch(err){ toast('Erreur : '+err.message); }
+    e.target.value = '';
+  });
+  document.getElementById('e-img').addEventListener('change', (e)=>{
+    const url = e.target.value.trim();
+    const th = document.getElementById('e-photo-thumb');
+    th.innerHTML = url
+      ? `<img src="${esc(url)}" referrerpolicy="no-referrer" onerror="this.parentElement.innerHTML='<div class=e-photo-ph>🍲</div>'">`
+      : '<div class="e-photo-ph">🍲</div>';
+  });
   const db = document.getElementById('e-delete-btn');
   db.addEventListener('click', ()=>{
     if(_deleteConfirmTimer){

@@ -331,3 +331,13 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 /* suppression de recette */
 .e-delete{width:100%;margin-top:14px;background:rgba(192,57,43,.12);border:1px solid rgba(192,57,43,.35);color:#f0a090;border-radius:10px;padding:11px;font-weight:700;cursor:pointer;transition:background .2s,border-color .2s}
 .e-delete.e-delete-confirm{background:rgba(192,57,43,.3);border-color:rgba(192,57,43,.7);color:#ffd0c8}
+
+/* bloc photo dans l'édition */
+.e-photo-row{display:flex;gap:12px;align-items:flex-start}
+.e-photo-thumb{flex:0 0 90px;width:90px;height:90px;border-radius:10px;overflow:hidden;background:var(--bg2);border:1px solid var(--line);display:flex;align-items:center;justify-content:center}
+.e-photo-thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.e-photo-ph{font-size:2.2em}
+.e-photo-side{flex:1;min-width:0;display:flex;flex-direction:column;gap:8px}
+.e-photo-btn{display:flex;align-items:center;justify-content:center;padding:11px;background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:10px;font-size:.9em;font-weight:700;cursor:pointer;user-select:none}
+.e-photo-btn:active{opacity:.85}
+.e-photo-url{width:100%;background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:9px 12px;font-size:.85em;font-family:inherit}
