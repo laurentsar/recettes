@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.23';
+const APP_VERSION = '2.24';
 
 let ALL = [];
 let BASE = [];
@@ -11,11 +11,13 @@ let state = { q:'', cats:[], fav:false, ing:null };
 const favs = new Set(JSON.parse(localStorage.getItem('recetteFavs') || '[]'));
 let edits = JSON.parse(localStorage.getItem('recetteEdits') || '{}');
 let imports = JSON.parse(localStorage.getItem('recetteImports') || '[]');
+const deleted = new Set(JSON.parse(localStorage.getItem('recetteDeleted') || '[]'));
 function saveEdits(){ localStorage.setItem('recetteEdits', JSON.stringify(edits)); }
 function saveImports(){ localStorage.setItem('recetteImports', JSON.stringify(imports)); }
+function saveDeleted(){ localStorage.setItem('recetteDeleted', JSON.stringify([...deleted])); }
 function mergeEdits(){
-  const base = BASE.map(r => edits[r.id] ? Object.assign({},r,edits[r.id]) : r);
-  const imp  = imports.map(r => edits[r.id] ? Object.assign({},r,edits[r.id]) : r);
+  const base = BASE.filter(r=> !deleted.has(String(r.id))).map(r => edits[r.id] ? Object.assign({},r,edits[r.id]) : r);
+  const imp  = imports.filter(r=> !deleted.has(String(r.id))).map(r => edits[r.id] ? Object.assign({},r,edits[r.id]) : r);
   return [...base, ...imp];
 }
 function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderGrid(); }
@@ -848,6 +850,7 @@ function openEdit(id){
       ${field('Ingrédients (un par ligne)', `<textarea id="e-ing" rows="9">${v((r.ing||[]).join('\n'))}</textarea>`)}
       ${field('Préparation', `<textarea id="e-steps" rows="10">${v(r.steps)}</textarea>`)}
       ${edits[id] ? `<button class="e-reset">↺ Rétablir la version d'origine</button>` : ''}
+      <button class="e-delete" id="e-delete-btn">🗑️ Supprimer cette recette</button>
     </div>`;
   elEdit.hidden = false; document.body.style.overflow='hidden';
   editCatSel = new Set(catList(r));
@@ -855,6 +858,24 @@ function openEdit(id){
   elEdit.querySelector('.e-cancel').addEventListener('click', closeEdit);
   elEdit.querySelector('.e-save').addEventListener('click', ()=> saveEdit(id));
   const rb = elEdit.querySelector('.e-reset'); if (rb) rb.addEventListener('click', ()=> resetEdit(id));
+  const db = document.getElementById('e-delete-btn');
+  db.addEventListener('click', ()=>{
+    if(_deleteConfirmTimer){
+      clearTimeout(_deleteConfirmTimer);
+      _deleteConfirmTimer = null;
+      db.textContent = '🗑️ Supprimer cette recette';
+      db.classList.remove('e-delete-confirm');
+      deleteRecipe(id);
+    } else {
+      db.textContent = '⚠️ Appuie encore pour confirmer';
+      db.classList.add('e-delete-confirm');
+      _deleteConfirmTimer = setTimeout(()=>{
+        _deleteConfirmTimer = null;
+        db.textContent = '🗑️ Supprimer cette recette';
+        db.classList.remove('e-delete-confirm');
+      }, 3000);
+    }
+  });
 }
 function closeEdit(){ elEdit.hidden = true; }
 function saveEdit(id){
@@ -876,6 +897,19 @@ function resetEdit(id){
   if (!confirm("Rétablir la version d'origine de cette recette ?")) return;
   delete edits[id]; saveEdits(); refreshAll();
   elEdit.hidden = true; openDetail(id);
+}
+
+let _deleteConfirmTimer = null;
+function deleteRecipe(id){
+  const sid = String(id);
+  const impIdx = imports.findIndex(r=> String(r.id)===sid);
+  if(impIdx !== -1){ imports.splice(impIdx, 1); saveImports(); }
+  else { deleted.add(sid); saveDeleted(); }
+  if(edits[sid]){ delete edits[sid]; saveEdits(); }
+  favs.delete(sid); saveFavs();
+  elEdit.hidden = true;
+  refreshAll();
+  toast('Recette supprimée 🗑️');
 }
 
 /* ---------- import de recettes ---------- */
