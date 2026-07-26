@@ -191,6 +191,7 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .cook-nav{flex:0 0 auto;display:flex;gap:12px;padding:14px 16px calc(env(safe-area-inset-bottom) + 14px);
   border-top:1px solid var(--line);background:var(--bg2)}
 .cook-prev,.cook-next{flex:1;padding:16px;border-radius:14px;font-size:1em;font-weight:700;cursor:pointer}
+.cook-ing-btn{flex:0 0 52px;padding:16px 0;border-radius:14px;font-size:1.2em;cursor:pointer;background:var(--card);border:1px solid var(--line);color:var(--text)}
 .cook-prev{background:var(--card);color:var(--text);border:1px solid var(--line)}
 .cook-next{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:none}
 .cook-prev:disabled{opacity:.3;cursor:default}
@@ -205,6 +206,7 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .cook-ing-close{display:block;width:100%;padding:13px;background:var(--card);
   border:1px solid var(--line);color:var(--text);font-weight:700;
   border-radius:10px;cursor:pointer;margin-bottom:14px}
+.cook-qty{color:var(--accent);font-size:1em;min-width:3em;display:inline-block}
 
 /* bouton import header */
 #import-btn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);

@@ -619,6 +619,7 @@ function openCook(id){
     <div class="cook-hint">🎤 Dire : « suivant » · « précédent » · « répéter » · « ingrédients »</div>
     <div class="cook-nav">
       <button id="cook-prev" class="cook-prev">← Précédent</button>
+      <button id="cook-ing-btn" class="cook-ing-btn" title="Ingrédients">📋</button>
       <button id="cook-next" class="cook-next">Suivant →</button>
     </div>`;
   elCook.hidden = false;
@@ -629,6 +630,7 @@ function openCook(id){
   document.getElementById('cook-mic').addEventListener('click', toggleCookMic);
   document.getElementById('cook-prev').addEventListener('click', cookGoPrev);
   document.getElementById('cook-next').addEventListener('click', cookGoNext);
+  document.getElementById('cook-ing-btn').addEventListener('click', toggleCookIng);
 }
 
 function closeCook(){
@@ -742,7 +744,10 @@ function toggleCookIng(){
   const sk = SEASON[monthNow()] || [];
   const ingHtml = (cookRecipe.ing||[]).map((item,k)=>{
     const s = sk.some(w=>norm(item).includes(w));
-    return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${esc(item)}</span>${s?'<span class="leaf">🌿</span>':''}</li>`;
+    const qm = item.match(/^([\d.,/½¼¾\s]+(?:g|kg|ml|cl|l|c\.\s*à\s*[sct]\.?|cuill?[eè]res?\s+à\s+[sc]\.?|tasse|verre|bouquet|botte|tranches?|gousses?|pincées?|branches?|filet|boîte|sachets?|paquets?|morceaux?|unités?|poignées?)s?\.?\s+)(.+)/i)
+                || item.match(/^(\d[\d\s]*(?:\/\d+)?)\s+(.+)/);
+    const txt = qm ? `<strong class="cook-qty">${esc(qm[1].trim())}</strong> ${esc(qm[2].trim())}` : esc(item);
+    return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${txt}</span>${s?'<span class="leaf">🌿</span>':''}</li>`;
   }).join('');
   ov.innerHTML = `<div class="cook-ing-sheet">
     <button class="cook-ing-close">✕ Fermer</button>
