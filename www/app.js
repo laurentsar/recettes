@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.21';
+const APP_VERSION = '2.22';
 
 let ALL = [];
 let BASE = [];
@@ -1245,6 +1245,148 @@ function openCocktailDetail(id){
 }
 function closeCocktailDetail(){ elCocktailDetail.hidden=true; document.body.style.overflow=''; window.scrollTo({top:0}); }
 
+/* ---------- frigo : analyse photo → suggestions ---------- */
+let frigoIngredients = [];
+
+function openFrigo(){
+  const el = document.getElementById('frigo');
+  el.hidden = false;
+  const keyField = document.getElementById('frigo-api-key');
+  if (keyField) keyField.value = localStorage.getItem('frigoApiKey') || '';
+  const settings = document.getElementById('frigo-settings');
+  if (settings) settings.open = !localStorage.getItem('frigoApiKey');
+  renderFrigoIngs();
+  renderFrigoSuggestions();
+}
+
+function closeFrigo(){ document.getElementById('frigo').hidden = true; }
+
+function renderFrigoIngs(){
+  const el = document.getElementById('frigo-ings');
+  if (!el) return;
+  if (!frigoIngredients.length){ el.hidden = true; return; }
+  el.hidden = false;
+  el.innerHTML = `<div class="frigo-ings-title">Ingrédients détectés :</div>
+    <div class="frigo-chips">
+      ${frigoIngredients.map((ing, i) => `<button class="frigo-chip" data-idx="${i}">🥕 ${esc(ing)} ✕</button>`).join('')}
+    </div>`;
+  el.querySelectorAll('.frigo-chip').forEach(btn => {
+    btn.addEventListener('click', ()=>{
+      frigoIngredients.splice(parseInt(btn.dataset.idx), 1);
+      renderFrigoIngs();
+      renderFrigoSuggestions();
+    });
+  });
+}
+
+function matchFrigoRecipes(){
+  if (!frigoIngredients.length) return [];
+  const normIngs = frigoIngredients.map(i => norm(i));
+  return ALL.map(r => {
+    const ingText = norm((r.ing||[]).join(' '));
+    const matched = normIngs.filter(ing => ingText.includes(ing) || norm(r.t||'').includes(ing));
+    return { r, score: matched.length, matched };
+  })
+  .filter(x => x.score > 0)
+  .sort((a, b) => b.score - a.score || a.r.t.localeCompare(b.r.t))
+  .slice(0, 24);
+}
+
+function renderFrigoSuggestions(){
+  const el = document.getElementById('frigo-grid');
+  if (!el) return;
+  const matches = matchFrigoRecipes();
+  if (!matches.length){ el.hidden = true; return; }
+  el.hidden = false;
+  el.innerHTML = `<div class="frigo-suggestions-title">${matches.length} recette${matches.length>1?'s':''} avec ces ingrédients</div>
+    <div class="frigo-rcards">
+      ${matches.map(({r, matched}) => {
+        const img = r.img
+          ? `<img class="thumb" src="${esc(r.img)}" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentElement.innerHTML='<div class=ph>🍲</div>'">`
+          : `<div class="ph">🍲</div>`;
+        const badges = matched.slice(0,3).map(m=>`<span class="frigo-badge">${esc(m)}</span>`).join('');
+        const more = matched.length>3 ? `<span class="frigo-badge">+${matched.length-3}</span>` : '';
+        return `<div class="rcard" data-id="${esc(r.id)}" style="cursor:pointer">
+          ${img}
+          <div class="info">
+            <div class="rt">${esc(r.t)}</div>
+            <div class="frigo-badges">${badges}${more}</div>
+          </div>
+        </div>`;
+      }).join('')}
+    </div>`;
+  el.querySelectorAll('.rcard').forEach(card => {
+    card.addEventListener('click', ()=>{
+      closeFrigo();
+      openDetail(card.dataset.id);
+    });
+  });
+}
+
+async function handleFrigoCapture(e){
+  const file = e.target.files?.[0];
+  if (!file) return;
+  const statusEl = document.getElementById('frigo-status');
+  if (statusEl) statusEl.innerHTML = '<div class="frigo-loading"><div class="imp-spinner"></div> Analyse en cours…</div>';
+  try {
+    const base64 = await new Promise((resolve, reject)=>{
+      const reader = new FileReader();
+      reader.onload = ()=> resolve(reader.result.split(',')[1]);
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    });
+    const ingredients = await analyzeFridgeImage(base64, file.type);
+    if (statusEl) statusEl.innerHTML = '';
+    if (!ingredients.length){
+      if (statusEl) statusEl.innerHTML = '<p class="frigo-note">Aucun ingrédient détecté — réessaie avec une photo plus nette.</p>';
+      return;
+    }
+    for (const ing of ingredients){
+      const n = norm(ing);
+      if (!frigoIngredients.some(x=> norm(x)===n)) frigoIngredients.push(ing);
+    }
+    renderFrigoIngs();
+    renderFrigoSuggestions();
+  } catch(err){
+    if (statusEl) statusEl.innerHTML = `<p class="frigo-note" style="color:#f0a090">Erreur : ${esc(err.message)}</p>`;
+  }
+  e.target.value = '';
+}
+
+async function analyzeFridgeImage(base64, mimeType){
+  const apiKey = localStorage.getItem('frigoApiKey');
+  if (!apiKey) throw new Error('Clé API manquante — renseigne-la dans les paramètres ⚙️');
+  const resp = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'x-api-key': apiKey,
+      'anthropic-version': '2023-06-01',
+      'content-type': 'application/json',
+    },
+    body: JSON.stringify({
+      model: 'claude-haiku-4-5-20251001',
+      max_tokens: 512,
+      messages: [{
+        role: 'user',
+        content: [
+          { type: 'image', source: { type: 'base64', media_type: mimeType, data: base64 } },
+          { type: 'text', text: 'Liste les ingrédients alimentaires visibles dans cette photo. Réponds UNIQUEMENT avec un tableau JSON d\'ingrédients en français minuscules, sans explication ni markdown. Exemple: ["tomate","fromage","oeuf","lait","carotte"]. Maximum 20 ingrédients.' }
+        ]
+      }]
+    })
+  });
+  if (!resp.ok){
+    const err = await resp.json().catch(()=>({}));
+    throw new Error(err.error?.message || `Erreur API (${resp.status})`);
+  }
+  const data = await resp.json();
+  const text = (data.content?.[0]?.text || '').trim();
+  const m = text.match(/\[[\s\S]*?\]/);
+  if (!m) return [];
+  try { return JSON.parse(m[0]).filter(x=> typeof x==='string' && x.trim()).map(x=> x.trim().toLowerCase()); }
+  catch(e){ return []; }
+}
+
 /* ---------- init ---------- */
 let searchTimer;
 async function init(){
@@ -1262,6 +1404,15 @@ async function init(){
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
   document.getElementById('import-btn').addEventListener('click', openImport);
   document.getElementById('photos-btn').addEventListener('click', fillFromSources);
+  document.getElementById('frigo-btn').addEventListener('click', openFrigo);
+  document.getElementById('frigo-back').addEventListener('click', closeFrigo);
+  document.getElementById('frigo-api-save').addEventListener('click', ()=>{
+    const key = document.getElementById('frigo-api-key').value.trim();
+    if (key) localStorage.setItem('frigoApiKey', key);
+    else localStorage.removeItem('frigoApiKey');
+    toast('Clé API sauvegardée ✓');
+  });
+  document.getElementById('frigo-file-input').addEventListener('change', handleFrigoCapture);
   // Liens externes (source, vidéo) -> ouverture dans le navigateur du téléphone.
   document.addEventListener('click', (e)=>{
     const a = e.target.closest && e.target.closest('a[href]');
@@ -1288,6 +1439,7 @@ async function init(){
     else if(!elEdit.hidden) closeEdit();
     else if(!elCook.hidden) closeCook();
     else if(!elImport.hidden) closeImport();
+    else if(!document.getElementById('frigo').hidden) closeFrigo();
     else if(!elDetail.hidden) closeDetail();
   });
   setupAndroidBack();
@@ -1304,6 +1456,7 @@ function setupAndroidBack(){
     ['edit',    closeEdit],
     ['import',  closeImport],
     ['cook',    closeCook],
+    ['frigo',   closeFrigo],
     ['detail',  closeDetail],
   ];
   const isOpen   = id => { const el = document.getElementById(id); return !!el && !el.hidden; };

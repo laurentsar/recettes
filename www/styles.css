@@ -280,3 +280,33 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 /* cases catégories dans le formulaire d'édition */
 .e-cats{display:flex;flex-direction:column;gap:2px;max-height:34vh;overflow:auto;
   background:var(--card);border:1px solid var(--line);border-radius:10px;padding:6px;margin-bottom:8px}
+
+/* === frigo overlay === */
+#frigo-btn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.2em;cursor:pointer;padding:0}
+#frigo-btn:active{transform:scale(.94)}
+.frigo{position:fixed;inset:0;z-index:50;background:var(--bg);display:flex;flex-direction:column;overflow:hidden}
+.frigo[hidden]{display:none!important}
+.frigo-head{flex:0 0 auto;display:flex;align-items:center;gap:12px;padding:calc(env(safe-area-inset-top)+12px) 16px 12px;background:var(--bg2);border-bottom:1px solid var(--line)}
+.frigo-head-back{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.2em;cursor:pointer;flex:0 0 auto}
+.frigo-head-title{font-size:1.15em;font-weight:800}
+.frigo-scroll{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.frigo-body{padding:16px 16px calc(env(safe-area-inset-bottom)+30px);max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.frigo-settings{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.frigo-settings summary{padding:14px 16px;cursor:pointer;font-weight:700;font-size:.95em;user-select:none;list-style:none}
+.frigo-settings summary::-webkit-details-marker{display:none}
+.frigo-api-row{display:flex;gap:8px;padding:0 16px 14px;align-items:center}
+.frigo-api-row input{flex:1;min-width:0;background:var(--bg);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:10px 12px;font-size:.92em}
+.frigo-api-save-btn{flex:0 0 auto;background:linear-gradient(135deg,var(--accent),var(--accent2));border:none;color:#fff;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer;font-size:.9em}
+.frigo-note{margin:0 16px 14px;color:var(--muted);font-size:.8em;line-height:1.4}
+.frigo-capture-btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:20px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border:none;border-radius:16px;font-size:1.1em;font-weight:800;cursor:pointer;letter-spacing:.2px;text-align:center;-webkit-user-select:none;user-select:none}
+.frigo-capture-btn:active{opacity:.88;transform:scale(.98)}
+.frigo-file-hidden{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden;pointer-events:none}
+.frigo-loading{display:flex;align-items:center;gap:10px;padding:16px;color:var(--muted);justify-content:center}
+.frigo-ings-title{font-weight:700;font-size:.9em;color:var(--muted);margin-bottom:10px}
+.frigo-chips{display:flex;gap:8px;flex-wrap:wrap}
+.frigo-chip{background:rgba(224,122,63,.18);border:1px solid rgba(224,122,63,.4);color:var(--accent);border-radius:999px;padding:6px 12px;font-size:.88em;font-weight:600;cursor:pointer;transition:background .15s}
+.frigo-chip:active{background:rgba(224,122,63,.35)}
+.frigo-suggestions-title{font-weight:700;font-size:.95em;color:var(--muted);margin-bottom:12px}
+.frigo-rcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.frigo-badges{display:flex;gap:4px;flex-wrap:wrap;margin-top:5px}
+.frigo-badge{background:rgba(124,179,66,.18);border:1px solid #4d6b2a;color:#cde8a6;font-size:.7em;font-weight:600;padding:2px 7px;border-radius:999px;white-space:nowrap}
