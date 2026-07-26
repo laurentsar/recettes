@@ -31,17 +31,30 @@ def http(s):
 raw = json.load(open(SRC, encoding="utf-8"))
 src = raw.get("recipes", raw) if isinstance(raw, dict) else raw
 
-out = []
+# Charger le fichier existant — toutes les recettes sont conservées telles quelles.
+# Le script n'ajoute que les IDs absentes (nouvelles recettes RecetteTek).
+out_path = os.path.normpath(OUT)
+existing_recipes = []
+existing_ids = set()
+if os.path.exists(out_path):
+    try:
+        existing_data = json.load(open(out_path, encoding="utf-8"))
+        existing_recipes = existing_data.get("recipes") or []
+        existing_ids = {str(r.get("id", "")) for r in existing_recipes}
+    except Exception as e:
+        print(f"  (lecture fichier existant impossible : {e})")
+
+added = 0
 for x in src:
     rid = str(x.get("id") or "").strip()
     title = str(pick(x.get("title_fr"), x.get("title"), "")).strip()
-    if not rid or not title:
+    if not rid or not title or rid in existing_ids:
         continue
     ings = x.get("ingredients_fr") or x.get("ingredients") or []
     if not isinstance(ings, list):
         ings = []
     ings = [str(i).strip() for i in ings if str(i).strip()]
-    out.append({
+    existing_recipes.append({
         "id": rid,
         "t": title,
         "cat": str(pick(x.get("category_fr"), x.get("category"), "")).strip(),
@@ -55,21 +68,14 @@ for x in src:
         "ing": ings,
         "steps": str(x.get("instructions") or "").strip(),
     })
+    added += 1
 
-# Préserver les recettes ajoutées manuellement (non-Dropbox) présentes dans le fichier existant.
-# Leurs IDs ne commencent pas par "dropbox:" (ex: corse:, espagne:, portugal:, ...).
-out_ids = {r["id"] for r in out}
-out_path = os.path.normpath(OUT)
-if os.path.exists(out_path):
-    try:
-        existing = json.load(open(out_path, encoding="utf-8"))
-        manual = [r for r in (existing.get("recipes") or [])
-                  if not str(r.get("id", "")).startswith("dropbox:") and r.get("id") not in out_ids]
-        if manual:
-            out.extend(manual)
-            print(f"  {len(manual)} recettes manuelles préservées ({', '.join(r['id'].split(':')[0] for r in manual[:3])}…)")
-    except Exception as e:
-        print(f"  (impossible de lire le fichier existant pour la fusion : {e})")
+if added:
+    print(f"  {added} nouvelle(s) recette(s) ajoutée(s)")
+else:
+    print("  aucune nouvelle recette")
+
+out = existing_recipes
 
 # version = hash du contenu => le fichier ne change que si les recettes changent (pas de push inutile)
 import hashlib
