@@ -566,13 +566,15 @@ function openDetail(id){
     <button class="d-back" aria-label="Retour">←</button>
     <button class="d-edit" aria-label="Éditer">✏️</button>
     <button class="d-fav" aria-label="Favori">${isFav?'❤️':'🤍'}</button>
-    <div class="d-hero">${hero}</div>
-    <div class="d-body">
-      <div class="d-title">${esc(r.t)}</div>
-      <div class="d-meta">${tags}</div>
-      ${r.desc?`<div class="desc">${esc(r.desc)}</div>`:''}
-      ${ing}${stepsHtml}${cookBtn}
-      ${links?`<div class="d-links">${links}</div>`:''}
+    <div class="d-scroll">
+      <div class="d-hero">${hero}</div>
+      <div class="d-body">
+        <div class="d-title">${esc(r.t)}</div>
+        <div class="d-meta">${tags}</div>
+        ${r.desc?`<div class="desc">${esc(r.desc)}</div>`:''}
+        ${ing}${stepsHtml}${cookBtn}
+        ${links?`<div class="d-links">${links}</div>`:''}
+      </div>
     </div>`;
   elDetail.hidden = false;
   document.body.style.overflow='hidden';
@@ -1217,17 +1219,19 @@ function openCocktailDetail(id){
   elCocktailDetail.innerHTML = `
     <button class="d-back" aria-label="Retour aux cocktails">←</button>
     <button class="d-home" aria-label="Menu principal">🍽️</button>
-    <div class="d-hero"><img src="${esc(c.thumb.replace('/preview',''))}" referrerpolicy="no-referrer" style="width:100%;max-height:46vh;object-fit:cover;display:block" onerror="this.outerHTML='<div class=ph>🍹</div>'"></div>
-    <div class="d-body">
-      <div class="d-title">${esc(c.name)}</div>
-      <div class="d-meta">
-        <span class="tag cat">${esc(c.category)}</span>
-        <span class="tag">🥃 ${esc(c.glass)}</span>
-        <span class="tag">${c.alcoholic==='Alcoholic'?'🍸 Alcool':'🥤 Sans alcool'}</span>
+    <div class="d-scroll">
+      <div class="d-hero"><img src="${esc(c.thumb.replace('/preview',''))}" referrerpolicy="no-referrer" style="width:100%;max-height:46vh;object-fit:cover;display:block" onerror="this.outerHTML='<div class=ph>🍹</div>'"></div>
+      <div class="d-body">
+        <div class="d-title">${esc(c.name)}</div>
+        <div class="d-meta">
+          <span class="tag cat">${esc(c.category)}</span>
+          <span class="tag">🥃 ${esc(c.glass)}</span>
+          <span class="tag">${c.alcoholic==='Alcoholic'?'🍸 Alcool':'🥤 Sans alcool'}</span>
+        </div>
+        <div class="d-sec">Ingrédients</div>
+        <ul class="cktl-ings">${ingsHtml}</ul>
+        ${stepsHtml}
       </div>
-      <div class="d-sec">Ingrédients</div>
-      <ul class="cktl-ings">${ingsHtml}</ul>
-      ${stepsHtml}
     </div>`;
   elCocktailDetail.hidden = false;
   document.body.style.overflow = 'hidden';
