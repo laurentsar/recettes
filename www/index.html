@@ -20,6 +20,7 @@
       <button id="photos-btn" title="Récupérer photos + titres manquants depuis le lien" aria-label="Photos manquantes">📷</button>
       <button id="import-btn" title="Importer une recette" aria-label="Importer">⬇</button>
       <button id="sync-btn" title="Synchroniser les recettes" aria-label="Synchroniser">↻</button>
+      <button id="settings-btn" title="Paramètres" aria-label="Paramètres">⚙️</button>
     </div>
     <div id="mode-tabs">
       <button class="mode-tab active" data-mode="recipes">🍽️ Recettes</button>
@@ -76,16 +77,22 @@
   <div id="catpick" class="catpick-modal" hidden></div>
   <div id="import" class="editview" hidden></div>
   <div id="toast" class="toast" hidden></div>
-
-<details id="backup-details" style="margin:16px auto;max-width:900px;padding:0 12px">
-  <summary style="cursor:pointer;font-weight:600;padding:8px 0">💾 Sauvegarde des données</summary>
-  <p style="font-size:13px;opacity:.8">Tes données vivent sur ce téléphone : désinstaller l'app
-  les efface. Renseigne Home Assistant ci-dessous et la sauvegarde devient automatique.</p>
-  <div id="backup-panel"></div>
-</details>
+  <div id="settings" class="settings-panel" hidden>
+    <div class="settings-head">
+      <button class="settings-head-back" id="settings-back" aria-label="Retour">←</button>
+      <div class="settings-head-title">⚙️ Paramètres</div>
+    </div>
+    <div class="settings-scroll">
+      <div class="settings-body">
+        <div class="settings-section-title">💾 Sauvegarde des données</div>
+        <p class="settings-note">Tes données vivent sur ce téléphone : désinstaller l'app les efface. Renseigne Home Assistant ci-dessous et la sauvegarde devient automatique.</p>
+        <div id="backup-panel"></div>
+      </div>
+    </div>
+  </div>
 
   <script src="app.js"></script>
-  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.28';</script>
+  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.29';</script>
   <script src="update-check.js" defer></script>
   <script>window.BACKUP_APP = 'recettes-app'; window.BACKUP_SKIP = [/^recipesData$/];</script>
   <script src="autobackup.js"></script>

@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.28';
+const APP_VERSION = '2.29';
 
 let ALL = [];
 let BASE = [];
@@ -1408,6 +1408,9 @@ function openFrigo(){
 
 function closeFrigo(){ document.getElementById('frigo').hidden = true; }
 
+function openSettings(){ document.getElementById('settings').hidden = false; }
+function closeSettings(){ document.getElementById('settings').hidden = true; }
+
 function renderFrigoIngs(){
   const el = document.getElementById('frigo-ings');
   if (!el) return;
@@ -1553,6 +1556,8 @@ async function init(){
   document.getElementById('photos-btn').addEventListener('click', fillFromSources);
   document.getElementById('frigo-btn').addEventListener('click', openFrigo);
   document.getElementById('frigo-back').addEventListener('click', closeFrigo);
+  document.getElementById('settings-btn').addEventListener('click', openSettings);
+  document.getElementById('settings-back').addEventListener('click', closeSettings);
   document.getElementById('frigo-api-save').addEventListener('click', ()=>{
     const key = document.getElementById('frigo-api-key').value.trim();
     if (key) localStorage.setItem('frigoApiKey', key);
@@ -1587,6 +1592,7 @@ async function init(){
     else if(!elCook.hidden) closeCook();
     else if(!elImport.hidden) closeImport();
     else if(!document.getElementById('frigo').hidden) closeFrigo();
+    else if(!document.getElementById('settings').hidden) closeSettings();
     else if(!elDetail.hidden) closeDetail();
   });
   setupAndroidBack();
@@ -1603,8 +1609,9 @@ function setupAndroidBack(){
     ['edit',    closeEdit],
     ['import',  closeImport],
     ['cook',    closeCook],
-    ['frigo',   closeFrigo],
-    ['detail',  closeDetail],
+    ['frigo',    closeFrigo],
+    ['settings', closeSettings],
+    ['detail',   closeDetail],
   ];
   const isOpen   = id => { const el = document.getElementById(id); return !!el && !el.hidden; };
   const anyOpen  = () => CLOSERS.some(([id]) => isOpen(id));

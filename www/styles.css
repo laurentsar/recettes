@@ -311,6 +311,19 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .frigo-badges{display:flex;gap:4px;flex-wrap:wrap;margin-top:5px}
 .frigo-badge{background:rgba(124,179,66,.18);border:1px solid #4d6b2a;color:#cde8a6;font-size:.7em;font-weight:600;padding:2px 7px;border-radius:999px;white-space:nowrap}
 
+/* === settings overlay === */
+#settings-btn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.2em;cursor:pointer;padding:0}
+#settings-btn:active{transform:scale(.94)}
+.settings-panel{position:fixed;inset:0;z-index:50;background:var(--bg);display:flex;flex-direction:column;overflow:hidden}
+.settings-panel[hidden]{display:none!important}
+.settings-head{flex:0 0 auto;display:flex;align-items:center;gap:12px;padding:calc(env(safe-area-inset-top)+12px) 16px 12px;background:var(--bg2);border-bottom:1px solid var(--line)}
+.settings-head-back{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.2em;cursor:pointer;flex:0 0 auto}
+.settings-head-title{font-size:1.15em;font-weight:800}
+.settings-scroll{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.settings-body{padding:24px 16px calc(env(safe-area-inset-bottom)+30px);max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.settings-section-title{font-size:1em;font-weight:800;color:var(--text)}
+.settings-note{font-size:.85em;color:var(--muted);line-height:1.5;margin:0}
+
 /* === cook mode : onglets Étapes / Ingrédients === */
 .cook-tabs{flex:0 0 auto;display:flex;background:var(--bg2);border-bottom:1px solid var(--line)}
 .cook-tab{flex:1;padding:11px;background:none;border:none;border-bottom:2px solid transparent;color:var(--muted);font-size:.9em;font-weight:700;cursor:pointer;transition:color .15s,border-color .15s}
