@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.26';
+const APP_VERSION = '2.38';
 
 let ALL = [];
 let BASE = [];
@@ -568,6 +568,22 @@ function openDetail(id){
     r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">🔗 Source</a>`:'',
     r.vid?`<a href="${esc(r.vid)}" target="_blank" rel="noopener">▶️ Vidéo</a>`:'',
   ].filter(Boolean).join('');
+  const pairId = r.pair || null;
+  const pair = pairId ? ALL.find(x=>String(x.id)===String(pairId)) : null;
+  let variantTabs = '';
+  if (pair) {
+    const isTmx = r.cat && r.cat.includes('Thermomix');
+    const isAF  = r.cat && r.cat.includes('Airfryer');
+    const pIsTmx = pair.cat && pair.cat.includes('Thermomix');
+    const isSpecial = isTmx || isAF;
+    const specLabel = (isTmx || pIsTmx) ? '⚙️ Thermomix' : '🌪️ Airfryer';
+    const specId = isSpecial ? r.id : pairId;
+    const manId  = isSpecial ? pairId : r.id;
+    variantTabs = `<div class="d-variant-tabs">
+    <button class="d-variant-tab${!isSpecial?' active':''}" data-vid="${manId}">🥄 Maison</button>
+    <button class="d-variant-tab${isSpecial?' active':''}" data-vid="${specId}">${specLabel}</button>
+  </div>`;
+  }
   elDetail.innerHTML = `
     <button class="d-back" aria-label="Retour">←</button>
     <button class="d-edit" aria-label="Éditer">✏️</button>
@@ -575,6 +591,7 @@ function openDetail(id){
     <div class="d-scroll">
       <div class="d-hero">${hero}</div>
       <div class="d-body">
+        ${variantTabs}
         <div class="d-title">${esc(r.t)}</div>
         <div class="d-meta">${tags}</div>
         ${r.desc?`<div class="desc">${esc(r.desc)}</div>`:''}
@@ -596,6 +613,9 @@ function openDetail(id){
   elDetail.querySelector('.d-edit').addEventListener('click', ()=> openEdit(r.id));
   elDetail.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
   elDetail.querySelector('.tag-cat-btn').addEventListener('click', ()=> openCatPick(r.id));
+  elDetail.querySelectorAll('.d-variant-tab').forEach(btn=>{
+    btn.addEventListener('click', ()=>{ if(!btn.classList.contains('active')) openDetail(btn.dataset.vid); });
+  });
 }
 function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; renderChips(); renderGrid(); }
 
@@ -1291,7 +1311,7 @@ let appMode = 'recipes'; // 'recipes' | 'cocktails'
 const elCocktailGrid = document.getElementById('cocktail-grid');
 const elCocktailDetail = document.getElementById('cocktail-detail');
 
-const MODE_CAT = { airfryer: 'Airfryer', thermomix: 'Thermomix', corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal', italie: 'Italie', japon: 'Japon', asie: 'Asie' };
+const MODE_CAT = { airfryer: 'Airfryer', thermomix: 'Thermomix', corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal', italie: 'Italie', japon: 'Japon', asie: 'Asie', maghreb: 'Maghreb', sauces: 'Sauce' };
 function switchMode(mode){
   appMode = mode;
   document.querySelectorAll('.mode-tab').forEach(b=> b.classList.toggle('active', b.dataset.mode===mode));
@@ -1407,6 +1427,39 @@ function openFrigo(){
 }
 
 function closeFrigo(){ document.getElementById('frigo').hidden = true; }
+
+function openSettings(){
+  document.getElementById('settings').hidden = false;
+  const vEl = document.getElementById('settings-version');
+  if (vEl) vEl.textContent = 'v' + APP_VERSION;
+}
+function closeSettings(){ document.getElementById('settings').hidden = true; }
+function checkUpdateNow(){
+  const btn = document.getElementById('check-update-btn');
+  const status = document.getElementById('check-update-status');
+  if (!btn || !status) return;
+  btn.disabled = true; btn.textContent = '⏳ Vérification…'; status.textContent = '';
+  const REPO = window.UPDATE_REPO;
+  // Effacer le timer pour forcer la vérification
+  try { localStorage.removeItem('updPoll:' + REPO); localStorage.removeItem('updDismiss:' + REPO); } catch(e){}
+  fetch('https://api.github.com/repos/' + REPO + '/releases/latest?_=' + Date.now(), {
+    headers: { Accept: 'application/vnd.github+json' }
+  }).then(r => r.ok ? r.json() : null).then(rel => {
+    btn.disabled = false; btn.textContent = 'Vérifier les mises à jour';
+    if (!rel || !rel.tag_name) { status.textContent = '⚠ Impossible de vérifier (réseau ?)'; return; }
+    const latest = String(rel.tag_name).replace(/^v/, '');
+    const current = String(APP_VERSION);
+    const newer = latest.split('.').map(Number).reduce((a,v,i)=>a||v-(current.split('.')[i]||0), 0) > 0;
+    if (!newer) { status.textContent = '✓ Déjà à jour (v' + current + ')'; return; }
+    status.textContent = '🔄 Nouvelle version v' + latest + ' disponible !';
+    // Déclencher la bannière du update-check.js
+    try { localStorage.setItem('updPoll:' + REPO, '0'); } catch(e){}
+    location.reload();
+  }).catch(() => {
+    btn.disabled = false; btn.textContent = 'Vérifier les mises à jour';
+    status.textContent = '⚠ Erreur réseau';
+  });
+}
 
 function renderFrigoIngs(){
   const el = document.getElementById('frigo-ings');
@@ -1553,6 +1606,9 @@ async function init(){
   document.getElementById('photos-btn').addEventListener('click', fillFromSources);
   document.getElementById('frigo-btn').addEventListener('click', openFrigo);
   document.getElementById('frigo-back').addEventListener('click', closeFrigo);
+  document.getElementById('settings-btn').addEventListener('click', openSettings);
+  document.getElementById('settings-back').addEventListener('click', closeSettings);
+  document.getElementById('check-update-btn').addEventListener('click', checkUpdateNow);
   document.getElementById('frigo-api-save').addEventListener('click', ()=>{
     const key = document.getElementById('frigo-api-key').value.trim();
     if (key) localStorage.setItem('frigoApiKey', key);
@@ -1587,6 +1643,7 @@ async function init(){
     else if(!elCook.hidden) closeCook();
     else if(!elImport.hidden) closeImport();
     else if(!document.getElementById('frigo').hidden) closeFrigo();
+    else if(!document.getElementById('settings').hidden) closeSettings();
     else if(!elDetail.hidden) closeDetail();
   });
   setupAndroidBack();
@@ -1603,8 +1660,9 @@ function setupAndroidBack(){
     ['edit',    closeEdit],
     ['import',  closeImport],
     ['cook',    closeCook],
-    ['frigo',   closeFrigo],
-    ['detail',  closeDetail],
+    ['frigo',    closeFrigo],
+    ['settings', closeSettings],
+    ['detail',   closeDetail],
   ];
   const isOpen   = id => { const el = document.getElementById(id); return !!el && !el.hidden; };
   const anyOpen  = () => CLOSERS.some(([id]) => isOpen(id));
