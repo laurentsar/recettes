@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.32';
+const APP_VERSION = '2.33';
 
 let ALL = [];
 let BASE = [];
@@ -538,14 +538,6 @@ function splitSteps(txt){
   }
   return parts;
 }
-function getSaucePair(id){
-  const s = String(id);
-  if(!s.startsWith('sauce:')) return null;
-  const n = parseInt(s.split(':')[1]);
-  if(n>=1&&n<=8)  return `sauce:${String(n+8).padStart(3,'0')}`;
-  if(n>=9&&n<=16) return `sauce:${String(n-8).padStart(3,'0')}`;
-  return null;
-}
 function openDetail(id){
   const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
   const isFav = favs.has(r.id);
@@ -576,12 +568,14 @@ function openDetail(id){
     r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">🔗 Source</a>`:'',
     r.vid?`<a href="${esc(r.vid)}" target="_blank" rel="noopener">▶️ Vidéo</a>`:'',
   ].filter(Boolean).join('');
-  const pairId = getSaucePair(r.id);
-  const hasPair = pairId && ALL.some(x=>String(x.id)===pairId);
-  const isManual = hasPair && parseInt(String(r.id).split(':')[1]) <= 8;
-  const variantTabs = hasPair ? `<div class="d-variant-tabs">
-    <button class="d-variant-tab${isManual?' active':''}" data-vid="${isManual?r.id:pairId}">🥄 Maison</button>
-    <button class="d-variant-tab${!isManual?' active':''}" data-vid="${!isManual?r.id:pairId}">⚙️ Thermomix</button>
+  const pairId = r.pair || null;
+  const pair = pairId ? ALL.find(x=>String(x.id)===String(pairId)) : null;
+  const isTmx = r.cat && r.cat.includes('Thermomix');
+  const manId  = isTmx ? pairId : r.id;
+  const tmxId  = isTmx ? r.id   : pairId;
+  const variantTabs = pair ? `<div class="d-variant-tabs">
+    <button class="d-variant-tab${!isTmx?' active':''}" data-vid="${manId}">🥄 Maison</button>
+    <button class="d-variant-tab${isTmx?' active':''}" data-vid="${tmxId}">⚙️ Thermomix</button>
   </div>` : '';
   elDetail.innerHTML = `
     <button class="d-back" aria-label="Retour">←</button>
