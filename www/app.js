@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.31';
+const APP_VERSION = '2.32';
 
 let ALL = [];
 let BASE = [];
@@ -538,6 +538,14 @@ function splitSteps(txt){
   }
   return parts;
 }
+function getSaucePair(id){
+  const s = String(id);
+  if(!s.startsWith('sauce:')) return null;
+  const n = parseInt(s.split(':')[1]);
+  if(n>=1&&n<=8)  return `sauce:${String(n+8).padStart(3,'0')}`;
+  if(n>=9&&n<=16) return `sauce:${String(n-8).padStart(3,'0')}`;
+  return null;
+}
 function openDetail(id){
   const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
   const isFav = favs.has(r.id);
@@ -568,6 +576,13 @@ function openDetail(id){
     r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">🔗 Source</a>`:'',
     r.vid?`<a href="${esc(r.vid)}" target="_blank" rel="noopener">▶️ Vidéo</a>`:'',
   ].filter(Boolean).join('');
+  const pairId = getSaucePair(r.id);
+  const hasPair = pairId && ALL.some(x=>String(x.id)===pairId);
+  const isManual = hasPair && parseInt(String(r.id).split(':')[1]) <= 8;
+  const variantTabs = hasPair ? `<div class="d-variant-tabs">
+    <button class="d-variant-tab${isManual?' active':''}" data-vid="${isManual?r.id:pairId}">🥄 Maison</button>
+    <button class="d-variant-tab${!isManual?' active':''}" data-vid="${!isManual?r.id:pairId}">⚙️ Thermomix</button>
+  </div>` : '';
   elDetail.innerHTML = `
     <button class="d-back" aria-label="Retour">←</button>
     <button class="d-edit" aria-label="Éditer">✏️</button>
@@ -575,6 +590,7 @@ function openDetail(id){
     <div class="d-scroll">
       <div class="d-hero">${hero}</div>
       <div class="d-body">
+        ${variantTabs}
         <div class="d-title">${esc(r.t)}</div>
         <div class="d-meta">${tags}</div>
         ${r.desc?`<div class="desc">${esc(r.desc)}</div>`:''}
@@ -596,6 +612,9 @@ function openDetail(id){
   elDetail.querySelector('.d-edit').addEventListener('click', ()=> openEdit(r.id));
   elDetail.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
   elDetail.querySelector('.tag-cat-btn').addEventListener('click', ()=> openCatPick(r.id));
+  elDetail.querySelectorAll('.d-variant-tab').forEach(btn=>{
+    btn.addEventListener('click', ()=>{ if(!btn.classList.contains('active')) openDetail(btn.dataset.vid); });
+  });
 }
 function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; renderChips(); renderGrid(); }
 
