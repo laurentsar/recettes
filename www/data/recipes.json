@@ -14904,6 +14904,164 @@
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Capsicum_diverses.jpg/960px-Capsicum_diverses.jpg",
       "url": "",
       "vid": ""
+    },
+    {
+      "id": "sauce:009",
+      "t": "Sauce tartare maison au Thermomix",
+      "cat": "Sauce, Condiment, Thermomix",
+      "area": "",
+      "min": 5,
+      "serv": 4,
+      "desc": "Sauce tartare crémeuse aux cornichons, câpres et persil — prête en 10 secondes au Thermomix.",
+      "ing": [
+        "150 g de mayonnaise",
+        "1 cornichon finement haché",
+        "1 c. à s. de câpres",
+        "1 c. à s. de persil frais",
+        "1 c. à c. de moutarde",
+        "Poivre"
+      ],
+      "steps": "Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Racler les parois. Mixer encore 5 sec / vitesse 3. Rectifier l'assaisonnement. Réfrigérer 15 min avant de servir. Se conserve 3 jours au réfrigérateur.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Sauce_tartare.jpg/960px-Sauce_tartare.jpg",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:010",
+      "t": "Sauce aïoli rapide au Thermomix",
+      "cat": "Sauce, Condiment, Thermomix",
+      "area": "",
+      "min": 5,
+      "serv": 4,
+      "desc": "Aïoli express à la mayonnaise et à l'ail — 10 secondes dans le Thermomix, saveur authentique.",
+      "ing": [
+        "150 g de mayonnaise",
+        "1 gousse d'ail",
+        "1 c. à c. de jus de citron",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": "Mettre la gousse d'ail dans le bol. Mixer 5 sec / vitesse 7. Racler les parois. Ajouter la mayonnaise, le jus de citron, le sel et le poivre. Mixer 10 sec / vitesse 4. Réserver au frais 10 min avant de servir.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A%C3%AFoli.jpg/960px-A%C3%AFoli.jpg",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:011",
+      "t": "Sauce cocktail au Thermomix",
+      "cat": "Sauce, Condiment, Thermomix",
+      "area": "",
+      "min": 5,
+      "serv": 4,
+      "desc": "La classique sauce rose pour crevettes et avocats — lisse et homogène en quelques secondes.",
+      "ing": [
+        "120 g de mayonnaise",
+        "2 c. à s. de ketchup",
+        "1 c. à c. de cognac (ou jus de citron)",
+        "1 pincée de paprika"
+      ],
+      "steps": "Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Vérifier la couleur rose homogène. Réfrigérer jusqu'au service. Parfaite pour les crevettes, le crabe et les avocats.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Shrimp_cocktail.jpg/960px-Shrimp_cocktail.jpg",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:012",
+      "t": "Sauce moutarde et miel au Thermomix",
+      "cat": "Sauce, Condiment, Thermomix",
+      "area": "",
+      "min": 5,
+      "serv": 4,
+      "desc": "Sauce aigre-douce moutarde-miel parfaitement émulsionnée en 10 secondes.",
+      "ing": [
+        "2 c. à s. de moutarde",
+        "2 c. à s. de miel",
+        "1 c. à s. de mayonnaise",
+        "1 c. à c. de vinaigre de cidre"
+      ],
+      "steps": "Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Racler les parois si besoin et mixer encore 5 sec / vitesse 3. Servir immédiatement ou conserver au frais.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Senf-Variationen.jpg/960px-Senf-Variationen.jpg",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:013",
+      "t": "Sauce fromage blanc et herbes au Thermomix",
+      "cat": "Sauce, Condiment, Thermomix",
+      "area": "",
+      "min": 5,
+      "serv": 4,
+      "desc": "Sauce légère et onctueuse aux herbes fraîches — le Thermomix la rend parfaitement lisse.",
+      "ing": [
+        "200 g de fromage blanc",
+        "1 bouquet de ciboulette",
+        "1 bouquet de persil",
+        "1 c. à c. de jus de citron",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": "Mettre la ciboulette et le persil dans le bol. Mixer 5 sec / vitesse 7. Ajouter le fromage blanc, le jus de citron, le sel et le poivre. Mixer 15 sec / vitesse 4. Racler les parois. Réfrigérer 10 min avant de servir.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Fontainebleau_avec_du_brownie.jpg/960px-Fontainebleau_avec_du_brownie.jpg",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:014",
+      "t": "Sauce curry douce au Thermomix",
+      "cat": "Sauce, Condiment, Thermomix",
+      "area": "",
+      "min": 5,
+      "serv": 4,
+      "desc": "Sauce curry douce et dorée, parfaitement lisse et homogène grâce au Thermomix.",
+      "ing": [
+        "150 g de mayonnaise",
+        "1 c. à c. de curry en poudre",
+        "1 c. à c. de miel",
+        "1 c. à c. de jus de citron"
+      ],
+      "steps": "Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Racler les parois. Mixer encore 5 sec / vitesse 3 pour une texture parfaitement lisse. Réfrigérer 15 min pour laisser le curry s'exprimer.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Beef_curry_rice_003.jpg/960px-Beef_curry_rice_003.jpg",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:015",
+      "t": "Sauce barbecue maison au Thermomix",
+      "cat": "Sauce, Condiment, Thermomix",
+      "area": "",
+      "min": 10,
+      "serv": 6,
+      "desc": "Sauce BBQ fumée et sirupeuse chauffée directement dans le Thermomix — sans surveillance.",
+      "ing": [
+        "200 ml de ketchup",
+        "1 c. à s. de miel",
+        "1 c. à s. de sauce soja",
+        "1 c. à c. de paprika fumé",
+        "1 c. à c. de vinaigre"
+      ],
+      "steps": "Mettre tous les ingrédients dans le bol. Cuire 7 min / 90°C / vitesse 2. Laisser refroidir dans le bol avant de verser dans un pot. Se conserve 2 semaines au réfrigérateur. Peut être mixée 5 sec / vitesse 5 pour une texture plus lisse.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/USMC-110430-M-AJ868-007.jpg/960px-USMC-110430-M-AJ868-007.jpg",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:016",
+      "t": "Sauce piment doux au Thermomix",
+      "cat": "Sauce, Condiment, Thermomix",
+      "area": "",
+      "min": 5,
+      "serv": 4,
+      "desc": "Sauce piment doux onctueuse façon sweet chili — prête en 10 secondes dans le Thermomix.",
+      "ing": [
+        "120 g de mayonnaise",
+        "1 c. à s. de sauce piment doux (sweet chili)",
+        "1 c. à c. de miel",
+        "1 c. à c. de jus de citron"
+      ],
+      "steps": "Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Goûter et ajuster la quantité de sauce piment selon votre tolérance. Servir avec des nems, bouchées apéritives ou crevettes.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Capsicum_diverses.jpg/960px-Capsicum_diverses.jpg",
+      "url": "",
+      "vid": ""
     }
   ]
 }
