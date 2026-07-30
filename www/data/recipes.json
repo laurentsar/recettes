@@ -388,7 +388,8 @@
         "25 g de beurre",
         "sucre glace"
       ],
-      "steps": "Fouetter farine, œufs et lait.\n\nÉplucher et couper les pommes en tranches épaisses.\n3. Faire chauffer le beurre dans une poêle.\n\n4. Tremper les pommes dans la pâte et cuire 2-3 min par côté.\n\n5. Déposer sur papier absorbant puis saupoudrer de sucre glace."
+      "steps": "Fouetter farine, œufs et lait.\n\nÉplucher et couper les pommes en tranches épaisses.\n3. Faire chauffer le beurre dans une poêle.\n\n4. Tremper les pommes dans la pâte et cuire 2-3 min par côté.\n\n5. Déposer sur papier absorbant puis saupoudrer de sucre glace.",
+      "pair": "af:003"
     },
     {
       "id": "dropbox:1122559876",
@@ -4056,7 +4057,8 @@
         "1 gousse de vanille",
         "250 g d'eau"
       ],
-      "steps": "Fendez en deux la gousse de vanille. À l'aide de la lame d'un couteau, grattez l'intérieur afin de récupérer tous les grains noirs. Déposez-les dans le lait avec la peau restante de la gousse.\nDans une casserole, faites chauffer l'eau et le lait infusé à la vanille ainsi que la gousse vidée. Ajoutez dans la foulée le sucre et le riz rond. À l'aide d'une spatule, remuez la préparation afin que le sucre et la vanille ne collent pas.\nLorsque la préparation est à ébullition, diminuez l'intensité du feu afin que ça ne caramélise pas au fond de la casserole. Laissez cuire alors à couvert pendant 45 minutes en remuant de temps en temps avec la spatule. À la fin de la cuisson, gouttez afin de vérifier la cuisson du riz au lait.Dressage\nRépartissez le riz au lait dans un bol et laissez-le refroidir avant de le servir."
+      "steps": "Fendez en deux la gousse de vanille. À l'aide de la lame d'un couteau, grattez l'intérieur afin de récupérer tous les grains noirs. Déposez-les dans le lait avec la peau restante de la gousse.\nDans une casserole, faites chauffer l'eau et le lait infusé à la vanille ainsi que la gousse vidée. Ajoutez dans la foulée le sucre et le riz rond. À l'aide d'une spatule, remuez la préparation afin que le sucre et la vanille ne collent pas.\nLorsque la préparation est à ébullition, diminuez l'intensité du feu afin que ça ne caramélise pas au fond de la casserole. Laissez cuire alors à couvert pendant 45 minutes en remuant de temps en temps avec la spatule. À la fin de la cuisson, gouttez afin de vérifier la cuisson du riz au lait.Dressage\nRépartissez le riz au lait dans un bol et laissez-le refroidir avant de le servir.",
+      "pair": "tmx:007"
     },
     {
       "id": "dropbox:178669351",
@@ -4220,7 +4222,8 @@
         "6 cuillères à soupe de sucre",
         "Extrait de vanille ou une gousse de vanille"
       ],
-      "steps": "Préchauffez le four à 180°C.\n\nDans une casserole, mettre le litre de lait et faire bouillir 5 min à feu doux.\n\nDans un saladier, battre les œufs et le sucre à la fourchette pendant 5 à 10 min.\n\nAjoutez l’extrait de vanille.\n\nVersez le lait chaud sur les œufs petit à petit en battant.\n\nTransvasez la préparation avec une passoire dans un plat rectangle type pyrex.\n\nCuire au bain-marie pendant environ 30 min au four à 180°C.\n\nLes œufs au lait sont cuits quand une couche bien dorée s’est formée sur le dessus.\n\nLaissez refroidir et mettre au frais.\n\nVous pouvez agrémenter vos œufs au lait avec des fruits frais ou un coulis."
+      "steps": "Préchauffez le four à 180°C.\n\nDans une casserole, mettre le litre de lait et faire bouillir 5 min à feu doux.\n\nDans un saladier, battre les œufs et le sucre à la fourchette pendant 5 à 10 min.\n\nAjoutez l’extrait de vanille.\n\nVersez le lait chaud sur les œufs petit à petit en battant.\n\nTransvasez la préparation avec une passoire dans un plat rectangle type pyrex.\n\nCuire au bain-marie pendant environ 30 min au four à 180°C.\n\nLes œufs au lait sont cuits quand une couche bien dorée s’est formée sur le dessus.\n\nLaissez refroidir et mettre au frais.\n\nVous pouvez agrémenter vos œufs au lait avec des fruits frais ou un coulis.",
+      "pair": "tmx:005"
     },
     {
       "id": "dropbox:1840362069",
@@ -10584,7 +10587,8 @@
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg/960px-Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg",
       "area": "Corse",
       "url": "",
-      "vid": ""
+      "vid": "",
+      "pair": "af:006"
     },
     {
       "id": "corse:061",
@@ -11314,7 +11318,8 @@
       "steps": "Mélanger farine et sel. Verser l'eau bouillante et mélanger vigoureusement. Mettre dans une poche à douille. Former des bâtonnets dans l'huile chaude (180°C). Frire jusqu'à dorure. Égoutter et saupoudrer de sucre. Faire fondre le chocolat dans le lait avec la fécule en fouettant. Cuire jusqu'à épaississement.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Churros_Madrid.jpg",
       "url": "",
-      "vid": ""
+      "vid": "",
+      "pair": "af:004"
     },
     {
       "id": "espagne:024",
@@ -11445,7 +11450,8 @@
       "steps": "Chauffer le lait avec la cannelle, le zeste et le sucre. Tremper les tranches de pain dans ce lait parfumé. Laisser bien imbiber. Passer dans l'œuf battu. Faire frire jusqu'à dorure. Égoutter. Rouler dans le mélange sucre-cannelle. Servir tiède.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/FrenchToast.JPG/960px-FrenchToast.JPG",
       "url": "",
-      "vid": ""
+      "vid": "",
+      "pair": "af:005"
     },
     {
       "id": "espagne:030",
@@ -12700,7 +12706,8 @@
       "steps": "Séparer les blancs des jaunes. Battre les jaunes avec le sucre jusqu'à blanchiment. Incorporer le mascarpone. Monter les blancs en neige ferme. Incorporer délicatement. Tremper brièvement les biscuits dans le café + marsala. Alterner couches de biscuits et crème. Réfrigérer 4 h. Saupoudrer de cacao avant de servir.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/960px-Tiramisu_-_Raffaele_Diomede.jpg",
       "url": "",
-      "vid": ""
+      "vid": "",
+      "pair": "tmx:008"
     },
     {
       "id": "italie:026",
@@ -12723,7 +12730,8 @@
       "steps": "Ramollir la gélatine dans l'eau froide. Chauffer crème, lait, sucre et vanille sans bouillir. Incorporer la gélatine essorée hors du feu. Verser dans des ramequins. Réfrigérer 4 h minimum. Mixer les fraises avec sucre et citron. Démouler et napper de coulis.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/0/01/Panna_cotta_with_chocolate_mousse.jpg",
       "url": "",
-      "vid": ""
+      "vid": "",
+      "pair": "tmx:006"
     },
     {
       "id": "italie:027",
@@ -15235,6 +15243,189 @@
       "url": "",
       "vid": "",
       "pair": "dropbox:d2cc2716-392e-4cf8-a4d3-f953354bb027"
+    },
+    {
+      "id": "tmx:005",
+      "t": "Œufs au lait de grand-mère au Thermomix",
+      "cat": "Dessert, Thermomix",
+      "area": "",
+      "min": 35,
+      "serv": 6,
+      "desc": "Les œufs au lait onctueux de grand-mère au Thermomix — le lait vanillé chauffé et mélangé aux œufs directement dans le bol, sans risque de grumeaux.",
+      "ing": [
+        "6 gros œufs",
+        "1 litre de lait entier",
+        "6 c. à soupe de sucre",
+        "1 gousse de vanille ou 1 c. à c. d'extrait de vanille"
+      ],
+      "steps": "Verser le lait dans le bol avec la gousse de vanille fendue (ou l'extrait). Chauffer 7 min / 90°C / vitesse 2. Retirer la gousse de vanille. Ajouter les œufs et le sucre. Mixer 30 sec / vitesse 4. Verser dans des ramequins beurrés. Cuire au bain-marie dans un four préchauffé à 180°C pendant 25-30 minutes. Vérifier la cuisson : la crème doit être ferme mais légèrement tremblotante au centre. Laisser refroidir puis réfrigérer 2 h avant de servir.",
+      "img": "https://www.cuisineraveceva.com/wp-content/uploads/2025/07/Les-oeufs-au-lait-de-ma-grand-mere.webp",
+      "url": "",
+      "vid": "",
+      "pair": "dropbox:1f06e514-74d8-4474-adab-243613cf0da8"
+    },
+    {
+      "id": "tmx:006",
+      "t": "Panna cotta au Thermomix",
+      "cat": "Italie, Dessert, Thermomix",
+      "area": "Italie",
+      "min": 15,
+      "serv": 6,
+      "desc": "Panna cotta italienne soyeuse au Thermomix — la crème vanillée chauffée sans surveillance, la gélatine incorporée en un geste, coulis de fraises en finition.",
+      "ing": [
+        "500 ml de crème entière",
+        "100 ml de lait",
+        "80 g de sucre",
+        "1 gousse de vanille",
+        "3 feuilles de gélatine",
+        "Pour le coulis : 200 g de fraises",
+        "2 c. à s. de sucre",
+        "Jus de citron"
+      ],
+      "steps": "Ramollir la gélatine dans un bol d'eau froide. Mettre la crème, le lait, le sucre et la gousse de vanille fendue dans le bol. Chauffer 6 min / 80°C / vitesse 2. Retirer la gousse. Essorer la gélatine et l'ajouter dans le bol encore chaud. Mixer 30 sec / vitesse 3. Verser dans des ramequins ou verrines. Réfrigérer 4 h minimum. Coulis : mixer les fraises avec le sucre et le jus de citron 30 sec / vitesse 8. Démouler et napper de coulis au moment de servir.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/0/01/Panna_cotta_with_chocolate_mousse.jpg",
+      "url": "",
+      "vid": "",
+      "pair": "italie:026"
+    },
+    {
+      "id": "tmx:007",
+      "t": "Riz au lait de Jean-François Piège au Thermomix",
+      "cat": "Dessert, Thermomix",
+      "area": "",
+      "min": 40,
+      "serv": 4,
+      "desc": "Le riz au lait régressif de Piège revisité au Thermomix — cuisson sens inverse sans surveillance, texture crémeuse et parfumée à la vanille.",
+      "ing": [
+        "75 g de riz rond",
+        "250 ml de lait entier",
+        "250 ml d'eau",
+        "65 g de sucre",
+        "1 gousse de vanille"
+      ],
+      "steps": "Fendre la gousse de vanille, gratter les grains et mettre grains + peau dans le bol avec le lait et l'eau. Chauffer 3 min / 100°C / vitesse 2. Ajouter le riz et le sucre. Cuire 35 min / 90°C / sens inverse / vitesse 0,5. Retirer la peau de vanille. Verser dans des ramequins ou un plat. Déguster tiède ou froid avec une pincée de cannelle si souhaité.",
+      "img": "https://www.lepoint.fr/images/2020/03/14/20148876lpw-20150869-article-jpg_6976522_540x282.jpg",
+      "url": "",
+      "vid": "",
+      "pair": "dropbox:1491359955"
+    },
+    {
+      "id": "tmx:008",
+      "t": "Tiramisu au Thermomix",
+      "cat": "Italie, Dessert, Thermomix",
+      "area": "Italie",
+      "min": 25,
+      "serv": 8,
+      "desc": "Tiramisu classique au Thermomix — jaunes d'œufs fouettés à chaud au bol, blancs en neige au fouet, crème mascarpone parfaitement lisse.",
+      "ing": [
+        "500 g de mascarpone",
+        "5 œufs (blancs et jaunes séparés)",
+        "150 g de sucre",
+        "30 biscuits à la cuillère",
+        "300 ml de café fort refroidi",
+        "4 c. à s. de marsala ou rhum",
+        "Cacao en poudre non sucré"
+      ],
+      "steps": "Mettre le fouet dans le bol. Verser les jaunes et le sucre. Fouetter 3 min / 37°C / vitesse 3,5. Ajouter le mascarpone. Mixer 30 sec / vitesse 3. Verser dans un saladier. Sans rincer le bol, placer le fouet et fouetter les blancs en neige 4 min / vitesse 3,5. Incorporer délicatement les blancs à la crème mascarpone à la spatule. Tremper brièvement les biscuits dans le café mélangé au marsala. Alterner couches de biscuits et crème dans un plat. Réfrigérer 4 h. Saupoudrer de cacao avant de servir.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/960px-Tiramisu_-_Raffaele_Diomede.jpg",
+      "url": "",
+      "vid": "",
+      "pair": "italie:025"
+    },
+    {
+      "id": "af:003",
+      "t": "Beignets de pommes à l'Airfryer",
+      "cat": "Dessert, Airfryer",
+      "area": "",
+      "min": 20,
+      "serv": 4,
+      "desc": "Beignets de pommes légèrs et croustillants à l'Airfryer — sans bain de friture, tout autant gourmands avec une simple pulvérisation d'huile.",
+      "ing": [
+        "2-3 pommes",
+        "125 g de farine",
+        "125 ml de lait",
+        "2 œufs",
+        "Huile en spray",
+        "Sucre glace"
+      ],
+      "steps": "Fouetter la farine, les œufs et le lait pour obtenir une pâte lisse. Éplucher et couper les pommes en tranches épaisses (1 cm). Tremper chaque tranche dans la pâte et laisser l'excès s'égoutter. Déposer dans le panier de l'Airfryer en une seule couche (faire en plusieurs fournées). Pulvériser légèrement d'huile. Cuire à 190°C pendant 8 minutes, retourner et cuire encore 4 minutes. Saupoudrer de sucre glace et servir immédiatement.",
+      "img": "https://www.cuisineraveceva.com/wp-content/uploads/2025/10/beignets-de-pommes-a-la-poele-sans-friture.webp",
+      "url": "",
+      "vid": "",
+      "pair": "dropbox:7472704a-8d06-4efc-bb69-8152536c3149"
+    },
+    {
+      "id": "af:004",
+      "t": "Churros à l'Airfryer",
+      "cat": "Espagne, Dessert, Airfryer",
+      "area": "Espagne",
+      "min": 25,
+      "serv": 4,
+      "desc": "Churros espagnols croustillants à l'Airfryer — sans friture, légèrement huilés, aussi dorés que l'original, servis avec chocolat chaud.",
+      "ing": [
+        "250 g de farine",
+        "250 ml d'eau bouillante",
+        "1 c. à c. de sel",
+        "Huile en spray",
+        "Sucre pour enrober",
+        "Pour le chocolat : 200 g de chocolat noir",
+        "500 ml de lait",
+        "2 c. à s. de fécule de maïs"
+      ],
+      "steps": "Mélanger la farine et le sel. Verser l'eau bouillante et mélanger vigoureusement jusqu'à obtenir une pâte lisse et non collante. Laisser tiédir 5 minutes. Mettre dans une poche à douille cannelée. Former des bâtonnets de 10-12 cm directement sur du papier sulfurisé, puis transférer dans le panier de l'Airfryer. Pulvériser d'huile. Cuire à 200°C pendant 12-14 minutes en retournant à mi-cuisson. Rouler dans le sucre dès la sortie. Chocolat : chauffer le lait, dissoudre la fécule, ajouter le chocolat cassé et remuer jusqu'à épaississement.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Churros_Madrid.jpg",
+      "url": "",
+      "vid": "",
+      "pair": "espagne:023"
+    },
+    {
+      "id": "af:005",
+      "t": "Torrijas à l'Airfryer",
+      "cat": "Espagne, Dessert, Airfryer",
+      "area": "Espagne",
+      "min": 20,
+      "serv": 4,
+      "desc": "Torrijas espagnoles (pain perdu à la cannelle) cuites à l'Airfryer — croustillantes dehors, moelleuses dedans, sans friture dans l'huile.",
+      "ing": [
+        "8 tranches épaisses de pain rassis",
+        "500 ml de lait",
+        "3 œufs battus",
+        "100 g de sucre",
+        "1 bâton de cannelle",
+        "Zeste de citron",
+        "Huile en spray",
+        "Sucre et cannelle pour enrober"
+      ],
+      "steps": "Chauffer le lait avec la cannelle, le zeste de citron et la moitié du sucre — ne pas bouillir. Retirer du feu et laisser infuser 10 min. Tremper les tranches de pain dans le lait parfumé jusqu'à bien imbibées (2 min par côté). Passer chaque tranche dans les œufs battus. Déposer dans le panier de l'Airfryer. Pulvériser légèrement d'huile. Cuire à 180°C pendant 6 minutes, retourner, pulvériser à nouveau et cuire encore 4 minutes. Mélanger le reste du sucre avec de la cannelle. Rouler les torrijas dans ce mélange. Servir tiède.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/FrenchToast.JPG/960px-FrenchToast.JPG",
+      "url": "",
+      "vid": "",
+      "pair": "espagne:029"
+    },
+    {
+      "id": "af:006",
+      "t": "Gâteau aux châtaignes de la Castagniccia à l'Airfryer",
+      "cat": "Corse, Dessert, Airfryer",
+      "area": "Corse",
+      "min": 40,
+      "serv": 8,
+      "desc": "Le gâteau corse aux châtaignes traditionnel cuit à l'Airfryer — 30 minutes à 160°C au lieu de 45 au four, croûte dorée et moelleux préservé.",
+      "ing": [
+        "300 g de farine de châtaigne",
+        "3 œufs",
+        "100 g de sucre",
+        "200 ml de lait",
+        "50 ml d'huile d'olive",
+        "100 g de raisins secs",
+        "50 g de noix concassées",
+        "1 sachet de levure",
+        "Fenouil sauvage (facultatif)"
+      ],
+      "steps": "Mélanger la farine de châtaigne, le sucre et la levure dans un saladier. Creuser un puits, y ajouter les œufs battus, le lait et l'huile d'olive. Mélanger jusqu'à pâte homogène. Incorporer les raisins secs, les noix et le fenouil si utilisé. Huiler un moule compatible Airfryer (18-20 cm max). Verser la pâte. Cuire à 160°C pendant 30-35 minutes. Vérifier la cuisson avec la pointe d'un couteau. Laisser refroidir 10 minutes avant de démouler. Saupoudrer de sucre glace.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg/960px-Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg",
+      "url": "",
+      "vid": "",
+      "pair": "corse:060"
     }
   ]
 }
