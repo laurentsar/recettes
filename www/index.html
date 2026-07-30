@@ -85,6 +85,10 @@
     </div>
     <div class="settings-scroll">
       <div class="settings-body">
+        <div class="settings-section-title">🔄 Mise à jour</div>
+        <p class="settings-note">Version installée : <strong id="settings-version"></strong></p>
+        <button id="check-update-btn" class="settings-check-update-btn">Vérifier les mises à jour</button>
+        <div id="check-update-status" class="settings-note" style="min-height:1.2em"></div>
         <div class="settings-section-title">💾 Sauvegarde des données</div>
         <p class="settings-note">Tes données vivent sur ce téléphone : désinstaller l'app les efface. Renseigne Home Assistant ci-dessous et la sauvegarde devient automatique.</p>
         <div id="backup-panel"></div>
@@ -93,7 +97,7 @@
   </div>
 
   <script src="app.js"></script>
-  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.36';</script>
+  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.37';</script>
   <script src="update-check.js" defer></script>
   <script>window.BACKUP_APP = 'recettes-app'; window.BACKUP_SKIP = [/^recipesData$/];</script>
   <script src="autobackup.js"></script>

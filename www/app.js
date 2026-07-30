@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.36';
+const APP_VERSION = '2.37';
 
 let ALL = [];
 let BASE = [];
@@ -1428,8 +1428,38 @@ function openFrigo(){
 
 function closeFrigo(){ document.getElementById('frigo').hidden = true; }
 
-function openSettings(){ document.getElementById('settings').hidden = false; }
+function openSettings(){
+  document.getElementById('settings').hidden = false;
+  const vEl = document.getElementById('settings-version');
+  if (vEl) vEl.textContent = 'v' + APP_VERSION;
+}
 function closeSettings(){ document.getElementById('settings').hidden = true; }
+function checkUpdateNow(){
+  const btn = document.getElementById('check-update-btn');
+  const status = document.getElementById('check-update-status');
+  if (!btn || !status) return;
+  btn.disabled = true; btn.textContent = '⏳ Vérification…'; status.textContent = '';
+  const REPO = window.UPDATE_REPO;
+  // Effacer le timer pour forcer la vérification
+  try { localStorage.removeItem('updPoll:' + REPO); localStorage.removeItem('updDismiss:' + REPO); } catch(e){}
+  fetch('https://api.github.com/repos/' + REPO + '/releases/latest?_=' + Date.now(), {
+    headers: { Accept: 'application/vnd.github+json' }
+  }).then(r => r.ok ? r.json() : null).then(rel => {
+    btn.disabled = false; btn.textContent = 'Vérifier les mises à jour';
+    if (!rel || !rel.tag_name) { status.textContent = '⚠ Impossible de vérifier (réseau ?)'; return; }
+    const latest = String(rel.tag_name).replace(/^v/, '');
+    const current = String(APP_VERSION);
+    const newer = latest.split('.').map(Number).reduce((a,v,i)=>a||v-(current.split('.')[i]||0), 0) > 0;
+    if (!newer) { status.textContent = '✓ Déjà à jour (v' + current + ')'; return; }
+    status.textContent = '🔄 Nouvelle version v' + latest + ' disponible !';
+    // Déclencher la bannière du update-check.js
+    try { localStorage.setItem('updPoll:' + REPO, '0'); } catch(e){}
+    location.reload();
+  }).catch(() => {
+    btn.disabled = false; btn.textContent = 'Vérifier les mises à jour';
+    status.textContent = '⚠ Erreur réseau';
+  });
+}
 
 function renderFrigoIngs(){
   const el = document.getElementById('frigo-ings');
@@ -1578,6 +1608,7 @@ async function init(){
   document.getElementById('frigo-back').addEventListener('click', closeFrigo);
   document.getElementById('settings-btn').addEventListener('click', openSettings);
   document.getElementById('settings-back').addEventListener('click', closeSettings);
+  document.getElementById('check-update-btn').addEventListener('click', checkUpdateNow);
   document.getElementById('frigo-api-save').addEventListener('click', ()=>{
     const key = document.getElementById('frigo-api-key').value.trim();
     if (key) localStorage.setItem('frigoApiKey', key);
