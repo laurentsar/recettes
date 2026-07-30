@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.33';
+const APP_VERSION = '2.34';
 
 let ALL = [];
 let BASE = [];
@@ -570,13 +570,20 @@ function openDetail(id){
   ].filter(Boolean).join('');
   const pairId = r.pair || null;
   const pair = pairId ? ALL.find(x=>String(x.id)===String(pairId)) : null;
-  const isTmx = r.cat && r.cat.includes('Thermomix');
-  const manId  = isTmx ? pairId : r.id;
-  const tmxId  = isTmx ? r.id   : pairId;
-  const variantTabs = pair ? `<div class="d-variant-tabs">
-    <button class="d-variant-tab${!isTmx?' active':''}" data-vid="${manId}">🥄 Maison</button>
-    <button class="d-variant-tab${isTmx?' active':''}" data-vid="${tmxId}">⚙️ Thermomix</button>
-  </div>` : '';
+  let variantTabs = '';
+  if (pair) {
+    const isTmx = r.cat && r.cat.includes('Thermomix');
+    const isAF  = r.cat && r.cat.includes('Airfryer');
+    const pIsTmx = pair.cat && pair.cat.includes('Thermomix');
+    const isSpecial = isTmx || isAF;
+    const specLabel = (isTmx || pIsTmx) ? '⚙️ Thermomix' : '🌪️ Airfryer';
+    const specId = isSpecial ? r.id : pairId;
+    const manId  = isSpecial ? pairId : r.id;
+    variantTabs = `<div class="d-variant-tabs">
+    <button class="d-variant-tab${!isSpecial?' active':''}" data-vid="${manId}">🥄 Maison</button>
+    <button class="d-variant-tab${isSpecial?' active':''}" data-vid="${specId}">${specLabel}</button>
+  </div>`;
+  }
   elDetail.innerHTML = `
     <button class="d-back" aria-label="Retour">←</button>
     <button class="d-edit" aria-label="Éditer">✏️</button>
