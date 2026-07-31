@@ -833,6 +833,78 @@
         "Garniture : 2 boîtes de thon à l'huile, 2 oignons, 2 poivrons (rouge + vert), 2 tomates, paprika doux, huile d'olive, sel"
       ],
       "steps": "Pâte : mélanger farine, levure, sel. Ajouter huile et eau. Pétrir 5 min jusqu'à pâte souple. Laisser reposer 30 min. Garniture : faire revenir les oignons et poivrons émincés dans l'huile 15 min à feu doux. Ajouter les tomates concassées et le paprika. Cuire 10 min. Incorporer le thon égoutté. Préchauffer le four à 200°C. Diviser la pâte en 2. Étaler une moitié sur plaque huilée. Étaler la garniture refroidie. Recouvrir de la deuxième moitié de pâte. Souder les bords et piquer le dessus. Badigeonner d'œuf battu. Cuire 30-35 min."
+    },
+    {
+      "id": "italie:031",
+      "t": "Parmigiana di Melanzane",
+      "cat": "Italie, Plat, Légume",
+      "area": "Italie du Sud",
+      "min": 75,
+      "serv": 6,
+      "desc": "Le vrai plat italien — couches d'aubergines frites, sauce tomate, basilic et un peu de fromage. Pas de poulet pané.",
+      "ing": [
+        "3 grosses aubergines",
+        "700 g de tomates pelées (ou coulis)",
+        "200 g de mozzarella (fior di latte)",
+        "80 g de parmesan râpé",
+        "1 oignon",
+        "2 gousses d'ail",
+        "Basilic frais",
+        "Huile d'olive pour friture",
+        "Sel, poivre"
+      ],
+      "steps": "Couper les aubergines en tranches de 5 mm. Saler généreusement, laisser dégorger 30 min, rincer et sécher soigneusement. Faire la sauce : revenir l'oignon et l'ail dans l'huile, ajouter les tomates, basilic, sel et poivre. Mijoter 20 min. Frire les tranches d'aubergine dans l'huile à 170°C jusqu'à dorées. Égoutter sur papier absorbant. Dans un plat à gratin, alterner : sauce tomate — tranches d'aubergine — mozzarella en lamelles — parmesan — basilic. Répéter 3 couches. Terminer par sauce et parmesan. Cuire 30 min à 180°C. Laisser reposer 15 min avant de servir — se mange aussi tiède."
+    },
+    {
+      "id": "italie:032",
+      "t": "Pasta alla Carbonara (authentique)",
+      "cat": "Italie, Plat",
+      "area": "Rome, Italie",
+      "min": 20,
+      "serv": 2,
+      "desc": "La vraie carbonara romaine — jaune d'œuf, guanciale, pecorino, poivre. Zéro crème. La crème est une hérésie.",
+      "ing": [
+        "200 g de spaghetti (ou rigatoni)",
+        "150 g de guanciale (ou pancetta si introuvable)",
+        "4 jaunes d'œufs",
+        "60 g de pecorino romano râpé (+ parmesan facultatif)",
+        "Poivre noir fraîchement moulu",
+        "Sel (eau de cuisson uniquement)"
+      ],
+      "steps": "Cuire les pâtes al dente dans l'eau bouillante très salée. Pendant ce temps, faire revenir le guanciale en dés sans matière grasse à feu moyen jusqu'à ce qu'il soit doré et légèrement croustillant. Retirer du feu. Dans un bol, mélanger les jaunes d'œufs avec le pecorino et une généreuse quantité de poivre noir. La texture doit être crémeuse. Égoutter les pâtes en gardant une tasse d'eau de cuisson. Verser les pâtes dans la poêle avec le guanciale (hors du feu). Ajouter le mélange jaunes-pecorino et mélanger rapidement. Si trop épais, ajouter l'eau de cuisson cuillère par cuillère. La chaleur résiduelle \"cuit\" les œufs sans les brouiller. Servir immédiatement avec poivre et pecorino."
+    },
+    {
+      "id": "italie:033",
+      "t": "Pasta al Burro e Parmigiano",
+      "cat": "Italie, Plat",
+      "area": "Italie",
+      "min": 15,
+      "serv": 2,
+      "desc": "La recette la plus simple d'Italie — beurre de qualité et parmesan affiné, rien de plus. La version italienne \"du dimanche soir\".",
+      "ing": [
+        "200 g de tagliatelles fraîches (ou pâtes au choix)",
+        "80 g de beurre doux de qualité",
+        "60 g de parmesan Parmigiano Reggiano râpé finement",
+        "Sel (eau de cuisson)",
+        "Poivre noir (facultatif)"
+      ],
+      "steps": "Cuire les pâtes al dente dans l'eau bouillante abondamment salée. Pendant la cuisson, sortir le beurre du réfrigérateur — il doit être à température ambiante. Garder une tasse d'eau de cuisson avant d'égoutter. Égoutter les pâtes, les remettre dans la casserole hors du feu. Ajouter le beurre en dés et mélanger jusqu'à ce qu'il fonde complètement. Ajouter le parmesan et mélanger. Ajouter 2-3 cuillères d'eau de cuisson pour obtenir une sauce soyeuse qui nappe les pâtes. Servir immédiatement. Aucune autre garniture — la qualité des ingrédients fait tout."
+    },
+    {
+      "id": "italie:034",
+      "t": "Pane e Olio",
+      "cat": "Italie",
+      "area": "Italie",
+      "min": 5,
+      "serv": 4,
+      "desc": "Le vrai pain à l'italienne — pain de qualité, huile d'olive extra vierge à tremper. Pas d'ail rôti, pas de fromage fondu.",
+      "ing": [
+        "1 pain de campagne ou ciabatta",
+        "10 cl d'huile d'olive extra vierge de qualité (Sicile, Toscane, Ligurie)",
+        "Fleur de sel",
+        "1 pincée d'origan séché (facultatif)"
+      ],
+      "steps": "Trancher le pain et le passer sous le grill ou dans un grille-pain pour le faire légèrement dorer — il doit rester moelleux à l'intérieur. Verser l'huile d'olive dans une petite assiette creuse. Tremper le pain dans l'huile, saler de fleur de sel. En Toscane on frotte parfois d'une gousse d'ail crue. En Sicile on ajoute de l'origan. L'essentiel est la qualité de l'huile — une huile médiocre ne donne rien de bon."
     }
   ]
 }
