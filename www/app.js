@@ -1,9 +1,10 @@
 'use strict';
 
-const APP_VERSION = '2.39';
+const APP_VERSION = '2.40';
 
 let ALL = [];
 let BASE = [];
+let EXTRA = { delete: [], overrides: [], recipes: [] };
 let cats = [];
 let catCount = {};
 // state.cats = liste des catégories cochées dans le filtre (vide = toutes) ; state.fav = filtre favoris.
@@ -21,6 +22,21 @@ function mergeEdits(){
   return [...base, ...imp];
 }
 function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderGrid(); }
+
+/* ---------- extra : suppressions + surcharges + recettes custom ---------- */
+function applyExtra(recipes, extra){
+  const del = new Set((extra.delete || []).map(String));
+  let result = recipes.filter(r => !del.has(String(r.id)));
+  for (const ov of (extra.overrides || [])){
+    const r = result.find(x => String(x.id) === String(ov.id));
+    if (r) Object.assign(r, ov);
+  }
+  const existingIds = new Set(result.map(r => String(r.id)));
+  for (const nr of (extra.recipes || [])){
+    if (!existingIds.has(String(nr.id))) result.push(nr);
+  }
+  return result;
+}
 
 /* ---------- synchro OTA (pull du recipes.json publié) ---------- */
 const REMOTE_URL = 'https://raw.githubusercontent.com/laurentsar/recettes/master/www/data/recipes.json';
@@ -45,7 +61,7 @@ async function syncRemote(manual){
   let d; try{ d=JSON.parse(txt); }catch(e){ if(manual) toast('Source invalide'); return; }
   if(!d.recipes || !d.recipes.length){ if(manual) toast('Source vide'); return; }
   localStorage.setItem('recipesData', txt);
-  BASE = d.recipes; refreshAll();
+  BASE = applyExtra(d.recipes, EXTRA); refreshAll();
   toast(`Recettes synchronisées (${BASE.length}) ✓`);
 }
 
@@ -1590,11 +1606,15 @@ async function analyzeFridgeImage(base64, mimeType){
 /* ---------- init ---------- */
 let searchTimer;
 async function init(){
-  const bundled = await (await fetch('data/recipes.json')).json();
+  const [bundled, extraData] = await Promise.all([
+    fetch('data/recipes.json').then(r=>r.json()),
+    fetch('data/recipes-extra.json').then(r=>r.ok?r.json():{}).catch(()=>({})),
+  ]);
+  EXTRA = extraData;
   let dataObj = bundled;
   const cachedTxt = localStorage.getItem('recipesData');
   if (cachedTxt){ try{ const c=JSON.parse(cachedTxt); if(c.recipes && c.recipes.length) dataObj=c; }catch(e){} }
-  BASE = dataObj.recipes || [];
+  BASE = applyExtra(dataObj.recipes || [], EXTRA);
   ALL = mergeEdits();
   buildIngredientIndex();
   elSub.textContent = `${ALL.length} recettes · v${APP_VERSION}`;

@@ -1,0 +1,838 @@
+{
+  "_comment": "Fichier géré manuellement — le bot RecetteTek ne touche que recipes.json",
+  "delete": [
+    "dropbox:1589369469",
+    "dropbox:1682988969",
+    "dropbox:9820b483-950e-4063-9bc8-6fb6a2335509",
+    "dropbox:e3105124-3b51-4d96-a548-a93d5462162a",
+    "dropbox:-1102951874",
+    "dropbox:214148810",
+    "dropbox:443e9aaf-82c3-406f-80bd-557f0fa4f1d9",
+    "dropbox:-404631547",
+    "dropbox:-1357069993",
+    "dropbox:1817039957",
+    "dropbox:366775206",
+    "dropbox:196837970",
+    "dropbox:557788703",
+    "dropbox:182045753",
+    "dropbox:275672444",
+    "dropbox:27011784",
+    "dropbox:110382603",
+    "dropbox:-1074079364",
+    "dropbox:-763943463"
+  ],
+  "overrides": [],
+  "recipes": [
+    {
+      "id": "af:007",
+      "t": "Guide de cuisson Airfryer : Surgelés",
+      "cat": "Airfryer, Guide",
+      "min": 20,
+      "serv": 1,
+      "desc": "Températures et durées de cuisson pour les produits surgelés courants à l'Air Fryer.",
+      "ing": [],
+      "steps": "Cordons bleus — 180°C • 12-15 min • Retourner à mi-cuisson\nNuggets — 200°C • 8-10 min • Bien étaler\nCroustibat — 200°C • 10-12 min • Retourner à mi-cuisson\nPommes de terre (smileys/cubes) — 200°C • 12-15 min • Secouer à mi-cuisson\nFrites surgelées — 200°C • 15-20 min • Secouer 2 fois\nTenders / Aiguillettes — 190°C • 10-12 min\nPizza petite surgelée — 180°C • 8-10 min\nMozza sticks — 190°C • 10-12 min\nPizzas sticks — 190°C • 6-8 min\nPilons de poulet — 180°C • 20-25 min"
+    },
+    {
+      "id": "af:008",
+      "t": "Frites Maison à l'Air Fryer",
+      "cat": "Airfryer, Légume",
+      "min": 25,
+      "serv": 2,
+      "desc": "Frites maison croustillantes sans friture — huile d'olive et paprika, cuites à l'Air Fryer.",
+      "ing": [
+        "4 pommes de terre",
+        "1 c. à soupe d'huile d'olive",
+        "1 c. à café de paprika",
+        "Sel, poivre"
+      ],
+      "steps": "Éplucher et couper les pommes de terre en bâtonnets réguliers. Les rincer à l'eau froide et bien les sécher avec un torchon — c'est essentiel pour la croustillance. Dans un saladier, mélanger les frites avec l'huile d'olive, le paprika, le sel et le poivre. Préchauffer l'Air Fryer à 200°C. Disposer les frites en couche unique dans le panier (cuire en 2 fournées si nécessaire). Cuire 20-22 min en secouant toutes les 7 min. Servir immédiatement."
+    },
+    {
+      "id": "af:009",
+      "t": "Pommes de Terre Rôties à l'Air Fryer",
+      "cat": "Airfryer, Légume",
+      "min": 25,
+      "serv": 3,
+      "desc": "Pommes de terre rôties dorées et parfumées aux herbes de Provence et à l'ail, cuites en 20 min à l'Air Fryer.",
+      "ing": [
+        "500 g de pommes de terre",
+        "2 c. à soupe d'huile d'olive",
+        "1 c. à café d'ail en poudre",
+        "1 c. à café d'herbes de Provence",
+        "Sel, poivre"
+      ],
+      "steps": "Éplucher et couper les pommes de terre en quartiers ou en cubes de taille égale. Les sécher. Mélanger avec l'huile, l'ail en poudre, les herbes, le sel et le poivre. Préchauffer l'Air Fryer à 200°C. Disposer dans le panier. Cuire 20-22 min en secouant à mi-cuisson. Les pommes de terre doivent être dorées et tendres à l'intérieur."
+    },
+    {
+      "id": "af:010",
+      "t": "Pommes de Terre Écrasées Croustillantes à l'Air Fryer",
+      "cat": "Airfryer, Légume",
+      "min": 40,
+      "serv": 3,
+      "desc": "Petites pommes de terre précuites, écrasées puis repassées à l'Air Fryer pour une texture extra-croustillante.",
+      "ing": [
+        "600 g de petites pommes de terre (grenaille)",
+        "2 c. à soupe d'huile d'olive",
+        "1 c. à café d'ail en poudre",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les pommes de terre entières 15 min dans l'eau bouillante salée. Égoutter et sécher. Les disposer sur le panier de l'Air Fryer et les écraser légèrement avec le fond d'un verre. Badigeonner d'huile d'olive et saupoudrer d'ail en poudre, sel et poivre. Cuire à 200°C pendant 15-18 min jusqu'à ce qu'elles soient bien dorées et croustillantes. Servir avec une crème fraîche aux herbes."
+    },
+    {
+      "id": "af:011",
+      "t": "Quartiers de Pommes de Terre Épicés à l'Air Fryer",
+      "cat": "Airfryer, Légume",
+      "min": 30,
+      "serv": 3,
+      "desc": "Wedges de pommes de terre au paprika fumé et à l'ail — croustillants dehors, fondants dedans.",
+      "ing": [
+        "4 pommes de terre",
+        "1 c. à soupe d'huile d'olive",
+        "1 c. à café de paprika fumé",
+        "1 c. à café d'ail en poudre",
+        "Sel, poivre"
+      ],
+      "steps": "Couper les pommes de terre (non épluchées si elles sont bio) en quartiers épais. Les sécher. Mélanger avec l'huile, le paprika fumé, l'ail, le sel et le poivre. Préchauffer l'Air Fryer à 200°C. Disposer les quartiers côté plat vers le bas dans le panier. Cuire 22-25 min en retournant à mi-cuisson. Servir avec une sauce au yaourt à l'ail."
+    },
+    {
+      "id": "af:012",
+      "t": "Pommes de Terre Parmesan à l'Air Fryer",
+      "cat": "Airfryer, Légume",
+      "min": 25,
+      "serv": 3,
+      "desc": "Cubes de pommes de terre enrobés de parmesan râpé et d'ail dorés à l'Air Fryer — croustillants et fromagers.",
+      "ing": [
+        "500 g de pommes de terre en cubes",
+        "2 c. à soupe d'huile d'olive",
+        "40 g de parmesan râpé",
+        "1 c. à café d'ail en poudre",
+        "Sel, poivre"
+      ],
+      "steps": "Couper les pommes de terre en cubes de 2 cm. Sécher. Mélanger avec l'huile, l'ail, le sel et le poivre. Ajouter le parmesan râpé et bien enrober. Préchauffer l'Air Fryer à 195°C. Disposer en couche (pas trop serrés). Cuire 18-20 min en secouant à mi-cuisson. Le parmesan doit former une croûte dorée. Servir immédiatement."
+    },
+    {
+      "id": "af:013",
+      "t": "Pommes de Terre Paprika & Herbes à l'Air Fryer",
+      "cat": "Airfryer, Légume",
+      "min": 25,
+      "serv": 3,
+      "desc": "Pommes de terre dorées au paprika doux et aux herbes de Provence — simple, rapide, parfumé.",
+      "ing": [
+        "500 g de pommes de terre",
+        "1 c. à soupe d'huile d'olive",
+        "1 c. à café de paprika",
+        "1 c. à café d'herbes de Provence",
+        "Sel, poivre"
+      ],
+      "steps": "Couper les pommes de terre en dés ou en rondelles. Sécher soigneusement. Mélanger avec l'huile, le paprika, les herbes, le sel et le poivre. Préchauffer l'Air Fryer à 200°C. Disposer dans le panier en une seule couche. Cuire 18-20 min en secouant à mi-cuisson. Idéal en accompagnement d'une viande grillée."
+    },
+    {
+      "id": "espagne:031",
+      "t": "Gambas à la Plancha",
+      "cat": "Espagne, Poisson",
+      "area": "Espagne",
+      "min": 10,
+      "serv": 2,
+      "desc": "Note TasteAtlas 4.7/5 — Les meilleures crevettes d'Espagne : simplement grillées sur la plancha avec de l'ail, du citron et du persil.",
+      "ing": [
+        "500 g de grosses gambas crues (avec la carapace)",
+        "3 gousses d'ail",
+        "3 c. à soupe d'huile d'olive",
+        "Jus d'1 citron",
+        "Persil plat haché",
+        "Sel, paprika doux"
+      ],
+      "steps": "Inciser le dos des gambas et les assaisonner de sel et paprika. Chauffer la plancha ou une poêle à fond épais à feu très vif jusqu'à ce qu'elle soit très chaude. Verser un filet d'huile. Saisir les gambas 2 min côté carapace, retourner et cuire encore 1-2 min côté chair. Elles doivent être bien rosées. En fin de cuisson, ajouter l'ail émincé et le persil. Arroser de jus de citron. Servir immédiatement avec du pain."
+    },
+    {
+      "id": "espagne:032",
+      "t": "Boquerones en Vinagre",
+      "cat": "Espagne, Poisson",
+      "area": "Espagne",
+      "min": 30,
+      "serv": 4,
+      "desc": "Note TasteAtlas 4.6/5 — Anchois marinés dans le vinaigre jusqu'à être \"cuits\" à froid, puis assaisonnés à l'ail et au persil.",
+      "ing": [
+        "400 g d'anchois frais (ou sardines petites)",
+        "15 cl de vinaigre de vin blanc",
+        "4 gousses d'ail",
+        "Persil plat",
+        "4 c. à soupe d'huile d'olive",
+        "Sel"
+      ],
+      "steps": "Nettoyer les anchois : retirer les arêtes et les têtes, ouvrir en papillon. Rincer et sécher. Disposer dans un plat, couvrir de vinaigre et laisser mariner 2 à 4 h au réfrigérateur (ou toute une nuit) — les filets deviennent blancs, c'est le \"cuisson\" à froid. Égoutter, rincer légèrement. Dresser sur une assiette. Arroser d'huile d'olive, parsemer d'ail émincé et de persil haché. Servir avec des olives et du pain."
+    },
+    {
+      "id": "espagne:033",
+      "t": "Gambas al Ajillo",
+      "cat": "Espagne, Poisson",
+      "area": "Espagne",
+      "min": 10,
+      "serv": 2,
+      "desc": "Note TasteAtlas 4.6/5 — Crevettes sautées à l'ail et au piment dans une huile d'olive brûlante — la tapa de Madrid par excellence.",
+      "ing": [
+        "400 g de crevettes décortiquées crues",
+        "6 gousses d'ail",
+        "1 piment guindilla (ou piment doux)",
+        "10 cl d'huile d'olive",
+        "2 c. à soupe de vin blanc sec",
+        "Persil haché",
+        "Sel"
+      ],
+      "steps": "Émincer finement l'ail. Chauffer l'huile à feu moyen dans une petite casserole en terre cuite (ou poêle). Faire revenir l'ail et le piment 2 min sans laisser dorer. Monter le feu à vif, ajouter les crevettes salées et faire sauter 2-3 min jusqu'à ce qu'elles soient rosées. Déglacer avec le vin blanc et cuire 30 secondes. Parsemer de persil. Servir en cassole avec du pain pour saucer — le plat doit encore grésiller à table."
+    },
+    {
+      "id": "espagne:034",
+      "t": "Patatas Bravas",
+      "cat": "Espagne, Légume",
+      "area": "Espagne",
+      "min": 35,
+      "serv": 4,
+      "desc": "Note TasteAtlas 4.3/5 — Cubes de pommes de terre frits servis avec la sauce brava épicée et de l'aïoli — tapa incontournable de Madrid.",
+      "ing": [
+        "800 g de pommes de terre",
+        "Huile pour frire",
+        "Sauce brava : 1 boîte de tomates pelées, 1 oignon, 2 gousses d'ail, 1 c. à c. de paprika fumé, ½ c. à c. de piment de Cayenne, huile d'olive, sel",
+        "Aïoli (facultatif) : 1 jaune d'œuf, 1 gousse d'ail, 15 cl d'huile, citron"
+      ],
+      "steps": "Sauce brava : faire revenir l'oignon et l'ail dans l'huile. Ajouter les tomates, le paprika et le piment. Mijoter 20 min. Mixer. Rectifier. Pommes de terre : couper en cubes de 3 cm. Cuire à l'eau bouillante salée 10 min (al dente). Égoutter et sécher. Frire à 180°C jusqu'à dorure (8-10 min). Égoutter. Disposer dans une assiette, napper généreusement de sauce brava et d'un filet d'aïoli."
+    },
+    {
+      "id": "espagne:035",
+      "t": "Croquetas de Jamón",
+      "cat": "Espagne",
+      "area": "Espagne",
+      "min": 50,
+      "serv": 20,
+      "desc": "Note TasteAtlas 4.3/5 — Croquettes au jambon ibérique : béchamel crémeuse enrobée de chapelure et frite — la tapa star des bars espagnols.",
+      "ing": [
+        "150 g de jamón ibérico haché finement",
+        "500 ml de lait entier",
+        "60 g de beurre",
+        "80 g de farine",
+        "1 oignon",
+        "Muscade",
+        "Sel, poivre blanc",
+        "Panure : 2 œufs battus, chapelure fine",
+        "Huile pour frire"
+      ],
+      "steps": "Faire fondre le beurre dans une casserole, faire revenir l'oignon émincé 5 min. Ajouter la farine et cuire 2 min en remuant. Verser le lait chaud progressivement en fouettant. Cuire à feu doux 15 min en remuant constamment jusqu'à béchamel très épaisse. Incorporer le jambon, la muscade, le sel et le poivre. Étaler dans un plat, filmer au contact et réfrigérer 3 h (ou une nuit). Former des cylindres. Passer dans l'œuf battu puis dans la chapelure. Frire à 180°C 3-4 min jusqu'à dorure. Égoutter et servir chauds."
+    },
+    {
+      "id": "espagne:036",
+      "t": "Albóndigas en Salsa de Tomate",
+      "cat": "Espagne, Boeuf",
+      "area": "Espagne",
+      "min": 45,
+      "serv": 4,
+      "desc": "Note TasteAtlas 4.3/5 — Boulettes de viande espagnoles mijotées dans une sauce tomate parfumée — tapa réconfortante servie en cassole.",
+      "ing": [
+        "400 g de viande hachée (bœuf + porc)",
+        "1 œuf",
+        "50 g de chapelure",
+        "2 gousses d'ail",
+        "Persil haché",
+        "Sel, poivre",
+        "Sauce : 1 boîte de tomates pelées, 1 oignon, 2 gousses d'ail, ½ verre de vin rouge, paprika doux, sel, huile d'olive"
+      ],
+      "steps": "Mélanger la viande hachée avec l'œuf, la chapelure, l'ail et le persil. Assaisonner. Former des boulettes de la taille d'une noix. Les faire dorer dans l'huile sur toutes les faces. Réserver. Faire la sauce : revenir l'oignon émincé, ajouter l'ail, le paprika, les tomates et le vin rouge. Mijoter 15 min. Mixer ou laisser en morceaux. Remettre les boulettes dans la sauce. Cuire encore 15 min à feu doux. Servir avec du pain ou des frites."
+    },
+    {
+      "id": "espagne:037",
+      "t": "Pimientos de Padrón",
+      "cat": "Espagne, Légume",
+      "area": "Galice",
+      "min": 10,
+      "serv": 2,
+      "desc": "Petits poivrons de Padrón frits entiers dans l'huile d'olive et fleur de sel — \"los hay picantes, los hay que no\" — tapa galicienne.",
+      "ing": [
+        "250 g de pimientos de Padrón (petits poivrons verts)",
+        "3 c. à soupe d'huile d'olive",
+        "Fleur de sel"
+      ],
+      "steps": "Laver et sécher soigneusement les poivrons — l'eau ferait éclater l'huile. Chauffer l'huile dans une poêle à feu très vif jusqu'à fumée. Ajouter les poivrons d'un coup et faire sauter 3-4 min en remuant jusqu'à ce qu'ils soient cloqués et légèrement noircis. Égoutter sur du papier absorbant. Disposer sur une assiette et saler généreusement de fleur de sel. Servir immédiatement."
+    },
+    {
+      "id": "espagne:038",
+      "t": "Pa amb Tomàquet",
+      "cat": "Espagne",
+      "area": "Catalogne",
+      "min": 5,
+      "serv": 2,
+      "desc": "Pain catalan frotté à la tomate et à l'huile d'olive — la base de toute table catalane, simple et irrésistible.",
+      "ing": [
+        "4 tranches de pain de campagne ou baguette",
+        "2 tomates mûres bien rouges",
+        "1 gousse d'ail",
+        "3 c. à soupe d'huile d'olive",
+        "Sel"
+      ],
+      "steps": "Griller les tranches de pain (ou les passer au four). Frotter légèrement chaque tranche avec la gousse d'ail coupée en deux. Couper les tomates en deux et les frotter vigoureusement sur le pain — la pulpe doit s'imprégner dans le pain. Arroser d'huile d'olive et saler. Servir immédiatement, éventuellement avec du jambon ibérico, des anchois ou de la charcuterie."
+    },
+    {
+      "id": "espagne:039",
+      "t": "Chorizo à la Sidra",
+      "cat": "Espagne, Porc",
+      "area": "Asturies",
+      "min": 20,
+      "serv": 4,
+      "desc": "Chorizo cuit dans le cidre des Asturies — tranches fondantes et parfumées au paprika, tapa typique du nord de l'Espagne.",
+      "ing": [
+        "400 g de chorizo frais ou semi-cuit",
+        "33 cl de cidre brut (sidra asturiana)",
+        "1 feuille de laurier"
+      ],
+      "steps": "Couper le chorizo en rondelles épaisses d'environ 1,5 cm. Disposer dans une petite poêle ou une cassole. Verser le cidre à hauteur et ajouter le laurier. Porter à ébullition puis réduire à feu moyen. Cuire 15 min jusqu'à ce que le cidre soit presque entièrement absorbé et que le chorizo soit bien laqué. Servir chaud dans la cassole avec du pain."
+    },
+    {
+      "id": "espagne:040",
+      "t": "Pisto Manchego",
+      "cat": "Espagne, Légume",
+      "area": "Castille-La Manche",
+      "min": 40,
+      "serv": 4,
+      "desc": "La ratatouille espagnole de La Manche — poivrons, courgettes, tomates et aubergines mijotés à l'huile d'olive, à déguster chaud ou froid.",
+      "ing": [
+        "2 courgettes",
+        "1 aubergine",
+        "2 poivrons rouges",
+        "3 tomates",
+        "1 oignon",
+        "3 gousses d'ail",
+        "4 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "Couper tous les légumes en dés de 1,5 cm. Dans une grande poêle, faire revenir l'oignon et l'ail dans l'huile d'olive 5 min. Ajouter les poivrons et cuire 10 min. Ajouter les courgettes et l'aubergine. Cuire 10 min à feu moyen en remuant. Ajouter les tomates, le sel et le poivre. Cuire encore 15 min jusqu'à ce que les légumes soient fondants et le jus réduit. Servir avec un œuf au plat posé dessus, ou froid en tapa."
+    },
+    {
+      "id": "espagne:041",
+      "t": "Polbo à Feira (Pulpo a la Gallega)",
+      "cat": "Espagne, Poisson",
+      "area": "Galice",
+      "min": 60,
+      "serv": 4,
+      "desc": "Poulpe galicien à la foire — cuit dans l'eau, tranché et assaisonné de paprika, sel et huile d'olive — tapa emblématique de Galice.",
+      "ing": [
+        "1 kg de poulpe nettoyé (congelé de préférence)",
+        "2 feuilles de laurier",
+        "1 oignon",
+        "Paprika fumé (pimentón de la Vera)",
+        "Huile d'olive",
+        "Fleur de sel",
+        "Pommes de terre (facultatif)"
+      ],
+      "steps": "Si le poulpe est frais, le congeler 48 h pour attendrir les chairs. Porter une grande casserole d'eau à ébullition avec l'oignon et le laurier. Plonger le poulpe 3 fois rapidement (pour \"effrayer\" les tentacules) puis laisser cuire 40-50 min à feu moyen jusqu'à ce qu'une fourchette pénètre facilement. Laisser reposer 10 min dans l'eau. Couper les tentacules en rondelles avec des ciseaux. Dresser sur une planche en bois ou une assiette avec des rondelles de pommes de terre cuites. Arroser généreusement d'huile d'olive, saupoudrer de paprika fumé et de fleur de sel."
+    },
+    {
+      "id": "espagne:042",
+      "t": "Pescaíto Frito",
+      "cat": "Espagne, Poisson",
+      "area": "Andalousie",
+      "min": 20,
+      "serv": 4,
+      "desc": "Friture de petits poissons à l'andalouse — enrobés de farine de pois chiche et frits dans l'huile d'olive — la tapa de la côte.",
+      "ing": [
+        "500 g de petits poissons variés (anchois, chipirones, puntillitas, merlan)",
+        "150 g de farine de pois chiche (ou farine ordinaire)",
+        "Sel",
+        "Huile d'olive pour frire",
+        "1 citron"
+      ],
+      "steps": "Nettoyer les poissons. Les sécher soigneusement. Saler et enrober de farine en tapotant pour ôter l'excès. Chauffer l'huile à 180°C dans une friteuse ou une poêle profonde. Frire les poissons par petites quantités 2-3 min jusqu'à croûte dorée. Égoutter sur papier absorbant. Servir immédiatement avec des quartiers de citron."
+    },
+    {
+      "id": "espagne:043",
+      "t": "Pinchitos (Pinchos Morunos)",
+      "cat": "Espagne, Porc",
+      "area": "Andalousie",
+      "min": 20,
+      "serv": 4,
+      "desc": "Brochettes de porc marinées aux épices mauresques — cumin, coriandre, paprika et curcuma — une tapa andalouse aux influences arabes.",
+      "ing": [
+        "500 g de porc (épaule ou filet)",
+        "1 c. à c. de cumin moulu",
+        "1 c. à c. de coriandre",
+        "1 c. à c. de paprika doux",
+        "½ c. à c. de curcuma",
+        "½ c. à c. d'ail en poudre",
+        "3 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "Couper la viande en petits cubes de 2 cm. Mélanger toutes les épices avec l'huile et une pincée de sel. Ajouter la viande et bien enrober. Laisser mariner 2 h minimum (idéalement une nuit) au réfrigérateur. Enfiler sur des petites brochettes. Cuire à la plancha ou sur braise très chaude 3-4 min en retournant. La viande doit être légèrement caramélisée. Servir immédiatement avec du pain."
+    },
+    {
+      "id": "espagne:044",
+      "t": "Montaditos",
+      "cat": "Espagne",
+      "area": "Espagne",
+      "min": 15,
+      "serv": 6,
+      "desc": "Petites tartines espagnoles sur baguette — topping jamón ibérico, anchois ou crevettes — indispensables à l'apéritif.",
+      "ing": [
+        "1 baguette fine (baguette espagnole)",
+        "100 g de jamón ibérico",
+        "6 filets d'anchois",
+        "100 g de crevettes cuites",
+        "Mayonnaise ou tomate râpée",
+        "Huile d'olive"
+      ],
+      "steps": "Couper la baguette en tranches de 2 cm. Les faire dorer légèrement au four ou à la poêle. Préparer les toppings : étaler une fine couche de tomate râpée ou de mayonnaise. Garnir selon les goûts : jamón ibérico replié, filet d'anchois avec une olive, crevettes avec mayonnaise… Servir à température ambiante comme mise en bouche."
+    },
+    {
+      "id": "espagne:045",
+      "t": "Chipirones en su Tinta",
+      "cat": "Espagne, Poisson",
+      "area": "Pays Basque",
+      "min": 45,
+      "serv": 4,
+      "desc": "Encornets mijotés dans leur propre encre — sauce noire intense et parfumée, tapa emblématique du Pays Basque.",
+      "ing": [
+        "800 g de chipirones (petites seiches ou encornets)",
+        "2 sachets d'encre de seiche",
+        "1 oignon",
+        "2 gousses d'ail",
+        "10 cl de vin blanc",
+        "1 tomate",
+        "2 c. à soupe d'huile d'olive",
+        "Sel, persil"
+      ],
+      "steps": "Nettoyer les chipirones en gardant les sacs d'encre si possible (ou utiliser des sachets). Couper les corps en anneaux. Faire revenir l'oignon et l'ail émincés dans l'huile 5 min. Ajouter les chipirones et faire revenir 5 min. Ajouter la tomate concassée et le vin blanc. Cuire 5 min. Délayer l'encre dans un peu d'eau et ajouter. Mélanger et mijoter 20-25 min à feu doux jusqu'à sauce noire et brillante. Servir avec du riz blanc."
+    },
+    {
+      "id": "italie:pizza:001",
+      "t": "Pizza Margherita",
+      "cat": "Italie, Plat",
+      "area": "Naples, Italie",
+      "min": 25,
+      "serv": 2,
+      "desc": "La reine des pizzas napolitaines — sauce tomate San Marzano, mozzarella fior di latte et basilic frais. Reconnue par l'UNESCO.",
+      "ing": [
+        "Pour 2 pizzas : 500 g de farine type 00 (ou T45)",
+        "7 g de levure sèche",
+        "10 g de sel",
+        "1 c. à soupe d'huile d'olive",
+        "320 ml d'eau tiède",
+        "Garniture : 400 g de tomates San Marzano ou pelées",
+        "250 g de mozzarella fior di latte",
+        "Basilic frais",
+        "2 c. à soupe d'huile d'olive",
+        "Sel"
+      ],
+      "steps": "Pâte : dissoudre la levure dans l'eau tiède. Mélanger farine et sel, ajouter l'eau levurée et l'huile. Pétrir 10 min jusqu'à pâte lisse et élastique. Couvrir et laisser lever 2 h (ou toute une nuit au frigo). Sauce : écraser les tomates à la main, assaisonner de sel. Préchauffer le four à 250°C (chaleur max) avec une plaque dedans. Étaler la pâte très finement. Étaler la sauce (ni trop épaisse, ni trop fine). Déposer la mozzarella en morceaux. Enfourner 8-10 min. Sortir du four, ajouter basilic frais et filet d'huile d'olive. Servir immédiatement."
+    },
+    {
+      "id": "italie:pizza:002",
+      "t": "Pizza Marinara",
+      "cat": "Italie, Plat",
+      "area": "Naples, Italie",
+      "min": 20,
+      "serv": 2,
+      "desc": "La plus ancienne pizza de Naples — sans fromage, juste tomate, ail, origan et huile d'olive. Simple, intense, parfaite.",
+      "ing": [
+        "Pâte à pizza (voir Margherita)",
+        "400 g de tomates pelées",
+        "4 gousses d'ail",
+        "1 c. à c. d'origan séché",
+        "3 c. à soupe d'huile d'olive",
+        "Sel"
+      ],
+      "steps": "Préparer la pâte comme pour la Margherita. Préchauffer le four à 250°C. Écraser les tomates à la main, saler. Étaler la pâte. Répartir la sauce tomate. Poser les gousses d'ail émincées finement. Saupoudrer d'origan. Arroser d'huile d'olive. Cuire 8-10 min. Servir immédiatement — pas de fromage sur cette pizza."
+    },
+    {
+      "id": "italie:pizza:003",
+      "t": "Pizza Quattro Formaggi",
+      "cat": "Italie, Plat",
+      "area": "Italie",
+      "min": 20,
+      "serv": 2,
+      "desc": "Quatre fromages sur pâte blanche — mozzarella, gorgonzola, parmesan et fontina fondus ensemble. Riche et gourmande.",
+      "ing": [
+        "Pâte à pizza",
+        "150 g de mozzarella",
+        "80 g de gorgonzola (doux)",
+        "50 g de parmesan râpé",
+        "80 g de fontina (ou taleggio)",
+        "1 c. à soupe d'huile d'olive",
+        "Poivre"
+      ],
+      "steps": "Préchauffer le four à 250°C. Étaler la pâte. Ne pas mettre de sauce tomate (pizza bianca). Répartir la mozzarella déchirée, le gorgonzola émietté, la fontina en dés et le parmesan râpé. Poivrer. Arroser d'un filet d'huile d'olive. Cuire 8-10 min jusqu'à fromage fondu et bords dorés. Servir avec quelques feuilles de roquette si souhaité."
+    },
+    {
+      "id": "italie:pizza:004",
+      "t": "Pizza Capricciosa",
+      "cat": "Italie, Plat",
+      "area": "Italie",
+      "min": 25,
+      "serv": 2,
+      "desc": "La capricieuse — garnie selon l'humeur du pizzaiolo : jambon, champignons, artichaut et olives sur sauce tomate.",
+      "ing": [
+        "Pâte à pizza",
+        "200 g de sauce tomate",
+        "150 g de mozzarella",
+        "80 g de jambon cuit",
+        "80 g de champignons de Paris émincés",
+        "4 cœurs d'artichaut (boîte)",
+        "Olives noires",
+        "Origan, huile d'olive"
+      ],
+      "steps": "Préchauffer le four à 250°C. Étaler la pâte. Répartir la sauce tomate. Poser la mozzarella en morceaux. Ajouter le jambon, les champignons, les artichauts en quartiers et les olives. Saupoudrer d'origan. Arroser d'huile. Cuire 10-12 min."
+    },
+    {
+      "id": "italie:pizza:005",
+      "t": "Pizza Prosciutto e Funghi",
+      "cat": "Italie, Plat",
+      "area": "Italie",
+      "min": 20,
+      "serv": 2,
+      "desc": "Association classique jambon et champignons — la plus commandée dans les pizzerias italiennes.",
+      "ing": [
+        "Pâte à pizza",
+        "200 g de sauce tomate",
+        "150 g de mozzarella",
+        "100 g de prosciutto cotto (jambon cuit)",
+        "100 g de champignons de Paris",
+        "Huile d'olive, origan"
+      ],
+      "steps": "Préchauffer four à 250°C. Étaler la pâte, napper de sauce tomate, poser la mozzarella. Ajouter les champignons émincés crus (ils cuisent au four). Cuire 8-10 min. Sortir du four et poser le prosciutto sur la pizza chaude (il ne doit pas cuire pour rester moelleux). Origan + huile et servir."
+    },
+    {
+      "id": "italie:pizza:006",
+      "t": "Pizza ai Funghi",
+      "cat": "Italie, Plat",
+      "area": "Italie",
+      "min": 20,
+      "serv": 2,
+      "desc": "Pizza aux champignons — mozzarella, champignons frais et filet de truffe ou huile de truffe pour la version noble.",
+      "ing": [
+        "Pâte à pizza",
+        "200 g de sauce tomate",
+        "150 g de mozzarella",
+        "150 g de champignons de Paris (ou mélange forestier)",
+        "1 gousse d'ail",
+        "Persil",
+        "Huile d'olive (+ huile de truffe facultatif)"
+      ],
+      "steps": "Faire sauter les champignons émincés à l'ail dans l'huile 5 min. Saler, ajouter le persil. Préchauffer four à 250°C. Étaler la pâte, sauce tomate, mozzarella. Répartir les champignons. Cuire 8-10 min. Finir avec un filet d'huile de truffe si disponible."
+    },
+    {
+      "id": "italie:pizza:007",
+      "t": "Pizza Diavola (Alla Diavola)",
+      "cat": "Italie, Plat",
+      "area": "Italie",
+      "min": 20,
+      "serv": 2,
+      "desc": "La pizza du diable — salami piquant, sauce tomate épicée et mozzarella. Pour les amateurs de piment.",
+      "ing": [
+        "Pâte à pizza",
+        "200 g de sauce tomate",
+        "150 g de mozzarella",
+        "100 g de salami piccante (ou nduja)",
+        "1 piment frais (facultatif)",
+        "Huile pimentée"
+      ],
+      "steps": "Préchauffer four à 250°C. Étaler la pâte, sauce tomate bien assaisonnée, mozzarella. Disposer les tranches de salami piccante. Ajouter des rondelles de piment si souhaité. Cuire 8-10 min. Finir avec un filet d'huile pimentée."
+    },
+    {
+      "id": "italie:pizza:008",
+      "t": "Pizza Quattro Stagioni",
+      "cat": "Italie, Plat",
+      "area": "Italie",
+      "min": 25,
+      "serv": 2,
+      "desc": "Les quatre saisons sur une pizza : chaque quart représente une saison avec ses ingrédients caractéristiques.",
+      "ing": [
+        "Pâte à pizza",
+        "200 g de sauce tomate",
+        "150 g de mozzarella",
+        "Printemps : artichaut | Été : tomate-basilic | Automne : champignons | Hiver : prosciutto et olives"
+      ],
+      "steps": "Étaler la pâte et la diviser visuellement en 4 quarts. Napper de sauce tomate et mozzarella partout. Garnir chaque quart : cœurs d'artichaut marinés, tomates cerise + basilic, champignons sautés, prosciutto + olives noires. Cuire 10-12 min à 250°C."
+    },
+    {
+      "id": "italie:pizza:009",
+      "t": "Pizza Bianca",
+      "cat": "Italie, Plat",
+      "area": "Rome, Italie",
+      "min": 15,
+      "serv": 2,
+      "desc": "Pizza blanche romaine — sans sauce tomate, juste huile d'olive, romarin et fleur de sel sur une pâte fine et croustillante.",
+      "ing": [
+        "Pâte à pizza fine",
+        "4 c. à soupe d'huile d'olive",
+        "2 brins de romarin frais",
+        "Fleur de sel",
+        "Ail en poudre (facultatif)"
+      ],
+      "steps": "Préchauffer le four à 250°C. Étaler la pâte très finement. Badigeonner généreusement d'huile d'olive. Émietter le romarin. Saupoudrer de fleur de sel. Cuire 7-8 min jusqu'à pâte croustillante et légèrement dorée. Servir comme pain pour accompagner charcuterie ou fromages."
+    },
+    {
+      "id": "italie:pizza:010",
+      "t": "Calzone Napolitain",
+      "cat": "Italie, Plat",
+      "area": "Naples, Italie",
+      "min": 30,
+      "serv": 2,
+      "desc": "Pizza fermée napolitaine farcie de ricotta, mozzarella et salami — cuite au four et croustillante dehors, fondante dedans.",
+      "ing": [
+        "Pâte à pizza",
+        "200 g de ricotta",
+        "150 g de mozzarella",
+        "80 g de salami ou prosciutto",
+        "2 c. à soupe de sauce tomate (à servir à côté)",
+        "Sel, poivre, origan"
+      ],
+      "steps": "Préchauffer le four à 250°C. Étaler la pâte en cercle. Sur une moitié, étaler la ricotta, poser la mozzarella et le salami. Saler, poivrer, origan. Replier l'autre moitié de pâte et bien souder les bords en les pinçant. Badigeonner d'huile. Cuire 12-15 min jusqu'à dorure. Servir avec sauce tomate chaude pour tremper."
+    },
+    {
+      "id": "italie:pizza:011",
+      "t": "Pizza al Taglio (à la coupe)",
+      "cat": "Italie, Plat",
+      "area": "Rome, Italie",
+      "min": 30,
+      "serv": 6,
+      "desc": "Pizza rectangulaire romaine à la coupe — pâte épaisse et moelleuse cuite en plaque, vendue au poids dans les boulangeries de Rome.",
+      "ing": [
+        "600 g de farine T00",
+        "400 ml d'eau",
+        "10 g de levure sèche",
+        "12 g de sel",
+        "4 c. à soupe d'huile d'olive",
+        "Garniture au choix : sauce tomate + mozzarella, ou pommes de terre + romarin, ou zucchini + feta"
+      ],
+      "steps": "Pâte : mélanger farine, eau, levure, huile et sel. La pâte est très hydratée (80%). Pétrir 5 min. Laisser pousser 2 h. Huiler généreusement une grande plaque à four. Étaler la pâte sans trop la travailler (elle se rétracte — attendre 10 min). Garnir selon goût. Cuire 20-25 min à 230°C jusqu'à fond croustillant. Couper en rectangles et servir."
+    },
+    {
+      "id": "italie:pizza:012",
+      "t": "Pizza Carbonara",
+      "cat": "Italie, Plat",
+      "area": "Italie",
+      "min": 25,
+      "serv": 2,
+      "desc": "Pizza inspirée de la pasta carbonara — crème d'œuf et pecorino, lardons fumés, sans sauce tomate.",
+      "ing": [
+        "Pâte à pizza",
+        "3 jaunes d'œufs",
+        "80 g de pecorino râpé (ou parmesan)",
+        "100 g de lardons fumés (guanciale idéalement)",
+        "100 g de mozzarella",
+        "Poivre noir concassé",
+        "Huile d'olive"
+      ],
+      "steps": "Faire revenir les lardons sans matière grasse jusqu'à croustillants. Réserver. Mélanger les jaunes d'œufs avec le pecorino et le poivre. Préchauffer four à 250°C. Étaler la pâte. Poser la mozzarella. Cuire 7 min. Sortir du four, verser la crème jaunes-pecorino (la chaleur la fera prendre sans cuire les œufs), poser les lardons. Poivre généreux. Servir immédiatement."
+    },
+    {
+      "id": "italie:pizza:013",
+      "t": "Pizza Fritta (Pizza Frite)",
+      "cat": "Italie, Plat",
+      "area": "Naples, Italie",
+      "min": 20,
+      "serv": 2,
+      "desc": "Pizza frite napolitaine — la pizza des rues de Naples, frite dans l'huile puis garnie. Croustillante et légère.",
+      "ing": [
+        "Pâte à pizza",
+        "Huile pour friture",
+        "200 g de ricotta",
+        "100 g de salami piccante",
+        "Sauce tomate fraîche",
+        "Basilic"
+      ],
+      "steps": "Étaler la pâte en disques fins de 20 cm. Chauffer l'huile à 170°C dans une grande poêle. Faire frire chaque disque 2 min par côté jusqu'à gonflé et doré. Égoutter. Garnir immédiatement de ricotta, salami et une cuillère de sauce tomate. Basilic et servir chaud."
+    },
+    {
+      "id": "italie:pizza:014",
+      "t": "Pizza Mare e Monti",
+      "cat": "Italie, Plat",
+      "area": "Italie",
+      "min": 25,
+      "serv": 2,
+      "desc": "\"Mer et montagne\" — fruits de mer et champignons ensemble sur une pizza sans fromage pour laisser briller les saveurs.",
+      "ing": [
+        "Pâte à pizza",
+        "200 g de sauce tomate",
+        "150 g de fruits de mer (crevettes, palourdes, calamars)",
+        "100 g de champignons",
+        "1 gousse d'ail",
+        "Persil",
+        "Huile d'olive"
+      ],
+      "steps": "Sauter les champignons et les fruits de mer séparément à l'ail dans l'huile. Assaisonner. Préchauffer four à 250°C. Étaler la pâte, sauce tomate (sans fromage). Poser les garnitures. Cuire 8-10 min. Parsemer de persil haché."
+    },
+    {
+      "id": "italie:pizza:015",
+      "t": "Pizza Bufalina",
+      "cat": "Italie, Plat",
+      "area": "Italie",
+      "min": 20,
+      "serv": 2,
+      "desc": "La Margherita élevée au rang suprême — avec de la vraie mozzarella di bufala campana AOP ajoutée après cuisson.",
+      "ing": [
+        "Pâte à pizza",
+        "200 g de tomates San Marzano",
+        "200 g de mozzarella di bufala AOP",
+        "Basilic frais",
+        "3 c. à soupe d'huile d'olive extra vierge",
+        "Sel"
+      ],
+      "steps": "Préchauffer four à 250°C max. Étaler finement la pâte. Napper de sauce tomate. Cuire la pâte seule 6 min. Sortir du four, déposer la bufala déchirée en morceaux (elle ne doit pas cuire — juste tiédir). Basilic, sel, filet d'huile. Servir immédiatement."
+    },
+    {
+      "id": "sm:001",
+      "t": "Smoothie Mangue",
+      "cat": "Dessert, Boisson",
+      "min": 5,
+      "serv": 1,
+      "desc": "Smoothie crémeux à la mangue et à la banane — plein de vitamines, onctueux et naturellement sucré.",
+      "ing": [
+        "½ mangue (fraîche ou surgelée)",
+        "½ banane",
+        "120 g de yaourt nature",
+        "100 ml de lait"
+      ],
+      "steps": "Couper la mangue et la banane en morceaux. Mettre tous les ingrédients dans un blender. Mixer à pleine puissance 1 min jusqu'à consistance lisse et crémeuse. Ajuster la texture avec un peu plus de lait si trop épais. Servir immédiatement dans un grand verre."
+    },
+    {
+      "id": "sm:002",
+      "t": "Smoothie Fraise",
+      "cat": "Dessert, Boisson",
+      "min": 5,
+      "serv": 1,
+      "desc": "Smoothie rose vif aux fraises fraîches et banane — fruité, onctueux et sans sucre ajouté.",
+      "ing": [
+        "200 g de fraises (fraîches ou surgelées)",
+        "½ banane",
+        "120 g de yaourt nature",
+        "100 ml de lait"
+      ],
+      "steps": "Laver et équeuter les fraises. Mettre tous les ingrédients dans le blender. Mixer 1 min. Goûter — si les fraises sont peu sucrées, ajouter 1 c. à café de miel. Servir très frais."
+    },
+    {
+      "id": "sm:003",
+      "t": "Smoothie Ananas & Coco",
+      "cat": "Dessert, Boisson",
+      "min": 5,
+      "serv": 1,
+      "desc": "Smoothie tropical ananas et lait de coco — exotique, rafraîchissant, légèrement sucré au miel.",
+      "ing": [
+        "150 g d'ananas (frais ou en boîte)",
+        "150 ml de lait de coco",
+        "50 ml de jus d'ananas",
+        "1 c. à café de miel"
+      ],
+      "steps": "Couper l'ananas en morceaux. Tout mettre dans le blender. Mixer 1 min. Servir sur glace pour un effet cocktail tropique."
+    },
+    {
+      "id": "sm:004",
+      "t": "Smoothie Myrtille",
+      "cat": "Dessert, Boisson",
+      "min": 5,
+      "serv": 1,
+      "desc": "Smoothie violet intense aux myrtilles et banane — antioxydants, plein de vitamines, très gourmand.",
+      "ing": [
+        "150 g de myrtilles (fraîches ou surgelées)",
+        "½ banane",
+        "120 g de yaourt nature",
+        "100 ml de lait"
+      ],
+      "steps": "Mettre tous les ingrédients dans le blender. Mixer 1 min. Les myrtilles surgelées donnent une texture plus épaisse et bien fraîche. Servir immédiatement."
+    },
+    {
+      "id": "sm:005",
+      "t": "Smoothie Fruits des Bois",
+      "cat": "Dessert, Boisson",
+      "min": 5,
+      "serv": 1,
+      "desc": "Smoothie rose aux fruits des bois mélangés — framboises, mûres, myrtilles et banane. Acidulé et vitaminé.",
+      "ing": [
+        "150 g de fruits des bois mélangés (framboises, mûres, myrtilles)",
+        "½ banane",
+        "120 g de yaourt nature",
+        "100 ml de lait"
+      ],
+      "steps": "Mettre tous les ingrédients dans le blender. Mixer 1 min. Si les fruits sont acides, ajouter 1 c. à café de miel ou de sucre. Passer au tamis si vous n'aimez pas les pépins de framboises. Servir frais."
+    },
+    {
+      "id": "sm:006",
+      "t": "Smoothie Détox Vert",
+      "cat": "Dessert, Boisson",
+      "min": 5,
+      "serv": 1,
+      "desc": "Smoothie vert détoxifiant — épinards, banane, pomme verte et lait d'amande. Plein d'énergie, doux et surprenant.",
+      "ing": [
+        "½ banane",
+        "½ pomme verte",
+        "1 poignée d'épinards frais",
+        "200 ml de lait d'amande"
+      ],
+      "steps": "Peler et couper la banane et la pomme en morceaux. Laver les épinards. Mettre tout dans le blender avec le lait d'amande. Mixer 1 min 30 à pleine puissance pour broyer complètement les épinards. Le smoothie doit être homogène et vert vif. Servir immédiatement — il perd sa couleur rapidement."
+    },
+    {
+      "id": "espagne:046",
+      "t": "Calamares a la Romana",
+      "cat": "Espagne, Poisson",
+      "area": "Madrid",
+      "min": 20,
+      "serv": 4,
+      "desc": "Anneaux de calamar panés et frits — la tapa de Madrid par excellence, croustillante et légère, avec aïoli ou citron.",
+      "ing": [
+        "600 g de calmars nettoyés",
+        "150 g de farine",
+        "2 œufs battus",
+        "150 ml de bière froide (ou eau gazeuse)",
+        "Sel",
+        "Huile pour friture",
+        "1 citron"
+      ],
+      "steps": "Couper les calmars en anneaux de 1 cm. Sécher soigneusement. Préparer la pâte à frire : mélanger la farine avec les œufs et la bière froide jusqu'à pâte lisse (peut rester légèrement grumeleuse). Saler. Chauffer l'huile à 180°C. Tremper les anneaux dans la pâte, laisser égoutter l'excès. Frire par petites quantités 2-3 min jusqu'à dorés et croustillants. Égoutter sur papier absorbant. Saler immédiatement. Servir avec des quartiers de citron et de l'aïoli."
+    },
+    {
+      "id": "espagne:047",
+      "t": "Mejillones al Vapor",
+      "cat": "Espagne, Poisson",
+      "area": "Communauté Valencienne",
+      "min": 10,
+      "serv": 4,
+      "desc": "Moules à la vapeur espagnoles — ouvertes au vin blanc avec ail et persil, servies dans leur jus parfumé.",
+      "ing": [
+        "1 kg de moules fraîches",
+        "1 verre de vin blanc sec",
+        "3 gousses d'ail",
+        "1 oignon",
+        "Persil frais haché",
+        "2 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "Gratter et nettoyer les moules, retirer les barbes. Jeter celles qui restent ouvertes. Faire revenir l'oignon et l'ail émincés dans l'huile 3 min. Ajouter les moules et le vin blanc. Couvrir à feu vif et cuire 4-5 min en secouant la casserole jusqu'à ce que toutes les moules soient ouvertes. Jeter les moules fermées. Parsemer de persil. Servir immédiatement dans un bol avec le jus et du pain pour saucer."
+    },
+    {
+      "id": "espagne:048",
+      "t": "Gilda",
+      "cat": "Espagne",
+      "area": "Pays Basque",
+      "min": 5,
+      "serv": 8,
+      "desc": "Le pintxo basque emblématique — olive, anchois et piment vert guindilla enfilés sur un cure-dent. Simple, intense, inoubliable.",
+      "ing": [
+        "8 filets d'anchois en conserve (huile d'olive)",
+        "8 olives vertes (manzanilla)",
+        "8 piments guindilla en bocal (ou piparra)",
+        "8 cure-dents (palillos)"
+      ],
+      "steps": "Égoutter les anchois, les olives et les piments. Sur chaque cure-dent : enfiler une olive, plier un filet d'anchois en accordéon, et piquer un piment guindilla. L'ordre classique est olive-anchois-piment. Arroser d'un filet d'huile d'olive. Servir immédiatement comme pintxo avec un verre de txakoli ou de cidre basque."
+    },
+    {
+      "id": "espagne:049",
+      "t": "Empanada Gallega",
+      "cat": "Espagne, Plat",
+      "area": "Galice",
+      "min": 70,
+      "serv": 8,
+      "desc": "Tourte galicienne fourrée au thon, poivrons et oignons — pâte croustillante, garniture savoureuse. Emblème de la cuisine galicienne.",
+      "ing": [
+        "Pâte : 500 g de farine, 125 ml d'huile d'olive, 125 ml d'eau tiède, 7 g de levure, 1 œuf, sel",
+        "Garniture : 2 boîtes de thon à l'huile, 2 oignons, 2 poivrons (rouge + vert), 2 tomates, paprika doux, huile d'olive, sel"
+      ],
+      "steps": "Pâte : mélanger farine, levure, sel. Ajouter huile et eau. Pétrir 5 min jusqu'à pâte souple. Laisser reposer 30 min. Garniture : faire revenir les oignons et poivrons émincés dans l'huile 15 min à feu doux. Ajouter les tomates concassées et le paprika. Cuire 10 min. Incorporer le thon égoutté. Préchauffer le four à 200°C. Diviser la pâte en 2. Étaler une moitié sur plaque huilée. Étaler la garniture refroidie. Recouvrir de la deuxième moitié de pâte. Souder les bords et piquer le dessus. Badigeonner d'œuf battu. Cuire 30-35 min."
+    }
+  ]
+}
