@@ -915,6 +915,332 @@
       "desc": "30 trucs et astuces pratiques pour débloquer tout le potentiel de ta friteuse à air. Températures et durées incluses.",
       "ing": [],
       "steps": "🍟 FRITES & FÉCULENTS\nCroustiller des frites froides — 180°C • 3-5 min • Remuer à mi-cuisson\nPommes de terre rôties — Couper en morceaux, assaisonner • 200°C • 15-20 min • Secouer\nBacon sans gâchis — 1 couche, pas d'huile • 200°C • 5-8 min selon épaisseur\nBagels frais — Face coupée vers le haut • 160°C • 2-4 min\n\n🥦 LÉGUMES\nLégumes vapeur rapides — 1-2 c. à soupe d'eau dans le fond • 160°C • 8-12 min\nCarottes rôties sucrées — Huile + miel + épices • 180°C • 12-15 min\nMaïs grillé — Badigeonner de beurre ou d'huile, retourner • 200°C • 10-15 min\n\n🍗 VIANDES & PROTÉINES\nPeau de poulet ultra croustillante — Sécher le poulet + assaisonner • 190°C • 10-15 min\nPoulet frit crousty (réchauffé) — 180°C • 5-8 min • Viande reste juteuse\nSteak saisi parfaitement — Préchauffer l'airfryer • 200°C • 8-12 min selon épaisseur\nCrevettes rapides — Huile + assaisonnements • 180°C • 5-8 min • Ne pas trop cuire\n\n🥚 ŒUFS & PETIT-DÉJ\nŒufs durs sans eau — Placer directement dans le panier • 120°C • 12-16 min selon cuisson désirée\nSandwichs grillés — Beurrer l'extérieur du pain • 180°C • 4-6 min • Retourner à mi-cuisson\nBeignets comme neufs — 150°C • 2-3 min • Attention au glaçage\n\n🌮 TORTILLAS & WRAPS\nCoquilles de tacos croustillantes — Chauffer les tortillas vides, former la coquille • 190°C • 3-4 min\n\n🍞 PAIN & DIVERS\nPain tiède et croquant — Envelopper dans papier alu si nécessaire • 150°C • 3-5 min\nBadigeonner de beurre (toast, légumes) — 200°C • 10-15 min\n\n💡 TIPS ESSENTIELS\nToujours préchauffer l'airfryer pour de meilleurs résultats\nSecouer ou retourner à mi-cuisson pour une cuisson uniforme\n1 seule couche : ne jamais empiler les aliments\nSécher les aliments avant de les mettre (viandes, légumes) pour maximiser le croustillant\nUn filet d'huile suffit — jamais besoin d'immerger"
+    },
+    {
+      "id": "italie:035",
+      "t": "Vitello Tonnato",
+      "cat": "Italie, Plat, Entrée",
+      "area": "Piémont, Italie",
+      "min": 40,
+      "serv": 6,
+      "desc": "Veau froid en tranches fines nappé d'une sauce crémeuse au thon et câpres — l'antipasto piémontais par excellence.",
+      "ing": [
+        "800 g de noix de veau",
+        "1 oignon, 1 carotte, 1 branche céleri",
+        "1 feuille de laurier, quelques grains de poivre",
+        "Sauce : 200 g de thon en boîte à l'huile",
+        "2 jaunes d'œufs durs",
+        "3 filets d'anchois",
+        "2 c. à soupe de câpres",
+        "1 c. à soupe de jus de citron",
+        "4 c. à soupe d'huile d'olive"
+      ],
+      "steps": "Cuire le veau entier dans l'eau bouillante avec oignon, carotte, céleri, laurier et poivre — 40 min à frémissement. Laisser refroidir dans son bouillon. Sauce : mixer le thon égoutté, les jaunes d'œufs, les anchois, les câpres et le citron. Incorporer l'huile en filet pour obtenir une sauce lisse et crémeuse. Trancher le veau très finement. Dresser en éventail sur un plat. Napper généreusement de sauce tonnato. Décorer de câpres. Réfrigérer 1 h avant de servir."
+    },
+    {
+      "id": "italie:036",
+      "t": "Bagna Cauda",
+      "cat": "Italie, Entrée",
+      "area": "Piémont, Italie",
+      "min": 20,
+      "serv": 4,
+      "desc": "Sauce chaude piémontaise à l'ail et aux anchois dans laquelle on trempe des légumes crus et cuits — fondue italienne.",
+      "ing": [
+        "12 filets d'anchois à l'huile",
+        "6 gousses d'ail",
+        "100 ml d'huile d'olive",
+        "50 g de beurre",
+        "Légumes pour tremper : cardons, poivrons crus, fenouil, carottes, céleri, radicchio, pommes de terre cuites"
+      ],
+      "steps": "Écraser l'ail très finement ou le laisser entier pour une saveur plus douce. Dans une petite casserole à feu très doux, chauffer l'huile avec l'ail 10 min sans laisser dorer. Ajouter les anchois et le beurre. Mélanger à feu doux jusqu'à ce que les anchois se dissolvent complètement (5 min). La sauce doit être lisse, jamais frite. Verser dans un caquelon posé sur une petite flamme pour maintenir chaud. Tremper les légumes directement dans la sauce."
+    },
+    {
+      "id": "italie:037",
+      "t": "Cotoletta alla Milanese",
+      "cat": "Italie, Plat",
+      "area": "Milan, Italie",
+      "min": 20,
+      "serv": 2,
+      "desc": "La côtelette de veau à la milanaise — panée dans l'œuf et la chapelure, frite au beurre clarifié avec l'os. L'originale (pas le Wiener Schnitzel).",
+      "ing": [
+        "2 côtelettes de veau avec os (carré de veau)",
+        "2 œufs",
+        "150 g de chapelure fine",
+        "100 g de beurre clarifié",
+        "Sel",
+        "1 citron"
+      ],
+      "steps": "Aplatir légèrement les côtelettes avec un attendrisseur. Battre les œufs dans un plat creux. Tremper chaque côtelette dans l'œuf, puis dans la chapelure en pressant bien. Faire fondre le beurre clarifié dans une grande poêle à feu moyen. Cuire les côtelettes 4-5 min par côté jusqu'à chapelure bien dorée. La viande doit être cuite mais encore rosée. Saler en sortant de la poêle. Servir avec un quartier de citron — rien d'autre."
+    },
+    {
+      "id": "italie:038",
+      "t": "Risotto alla Milanese",
+      "cat": "Italie, Plat",
+      "area": "Milan, Italie",
+      "min": 30,
+      "serv": 4,
+      "desc": "Le risotto d'or de Milan — safran, beurre et parmesan. Servi classiquement avec l'ossobuco comme accompagnement.",
+      "ing": [
+        "320 g de riz Carnaroli ou Vialone Nano",
+        "1 litre de bouillon de bœuf chaud",
+        "1 oignon",
+        "150 ml de vin blanc sec",
+        "1 sachet de safran (0,25 g)",
+        "80 g de beurre",
+        "80 g de parmesan râpé",
+        "Sel"
+      ],
+      "steps": "Dissoudre le safran dans 3 c. à soupe de bouillon chaud. Faire revenir l'oignon émincé dans la moitié du beurre à feu doux 5 min. Ajouter le riz et le faire nacrer 2 min. Déglacer au vin blanc, remuer jusqu'à absorption. Ajouter le bouillon chaud louche par louche en remuant constamment — ajouter la louche suivante seulement quand la précédente est absorbée. À mi-cuisson (10 min), ajouter le safran dissous. Cuire encore 8-10 min. Hors du feu, mantecatura : incorporer le reste du beurre froid et le parmesan en remuant vigoureusement. Couvrir 2 min. Le risotto doit être \"all'onda\" (fluide)."
+    },
+    {
+      "id": "italie:039",
+      "t": "Ossobuco alla Milanese",
+      "cat": "Italie, Plat",
+      "area": "Milan, Italie",
+      "min": 120,
+      "serv": 4,
+      "desc": "Jarrets de veau braisés avec gremolata au citron — le plat milanais par excellence, servi avec le risotto au safran.",
+      "ing": [
+        "4 tranches de jarret de veau (ossobuco)",
+        "1 oignon, 2 carottes, 2 branches de céleri",
+        "1 boîte de tomates pelées",
+        "200 ml de vin blanc",
+        "200 ml de bouillon",
+        "Farine, beurre, huile d'olive",
+        "Sel, poivre",
+        "Gremolata : zeste d'1 citron, 1 gousse d'ail, persil haché"
+      ],
+      "steps": "Fariner les jarrets, les faire dorer dans beurre+huile 5 min par côté. Réserver. Faire revenir oignon, carotte et céleri dans la même cocotte 5 min. Remettre les jarrets, déglacer au vin blanc. Ajouter les tomates et le bouillon — la viande doit être à moitié immergée. Couvrir et cuire à feu très doux 1h30 en retournant à mi-cuisson. La viande doit se détacher de l'os. Préparer la gremolata : mélanger zeste de citron, ail émincé et persil haché. Parsemer sur les jarrets juste avant de servir — ne pas cuire la gremolata."
+    },
+    {
+      "id": "italie:040",
+      "t": "Tagliatelle al Ragù Bolognese",
+      "cat": "Italie, Plat",
+      "area": "Bologne, Emilie-Romagne",
+      "min": 180,
+      "serv": 6,
+      "desc": "Le vrai ragù bolognais — viande, peu de tomate, lait, vin blanc. Sur tagliatelles fraîches, jamais sur spaghetti.",
+      "ing": [
+        "300 g de bœuf haché",
+        "150 g de porc haché",
+        "150 g de pancetta",
+        "1 oignon",
+        "2 carottes",
+        "2 branches de céleri",
+        "150 ml de vin blanc",
+        "150 ml de lait entier",
+        "200 g de tomates pelées",
+        "2 c. à soupe d'huile d'olive",
+        "Sel, poivre",
+        "Pour servir : 400 g de tagliatelles fraîches, parmesan"
+      ],
+      "steps": "Hacher finement oignon, carotte et céleri (soffritto). Faire revenir la pancetta coupée en dés dans l'huile 3 min. Ajouter le soffritto et cuire 10 min à feu doux. Ajouter les viandes hachées et faire dorer en émiettant bien. Déglacer au vin blanc, laisser évaporer. Ajouter le lait, laisser absorber (5 min). Ajouter les tomates. Assaisonner. Mijoter 2h à feu très doux à couvert, en remuant toutes les 30 min. Ajouter un peu d'eau si nécessaire. La sauce doit être dense et fondante. Servir sur tagliatelles fraîches avec parmesan."
+    },
+    {
+      "id": "italie:041",
+      "t": "Tortellini in Brodo",
+      "cat": "Italie, Plat",
+      "area": "Bologne, Emilie-Romagne",
+      "min": 90,
+      "serv": 6,
+      "desc": "Les tortellini bolognais dans un bouillon de chapons et bœuf — le plat de Noël par excellence en Emilie-Romagne.",
+      "ing": [
+        "Pour le bouillon : 1 kg de bœuf (jarret ou plat de côtes), ½ chapon ou poule, 1 oignon, 2 carottes, céleri, persil, sel",
+        "Tortellini frais (du commerce ou maison) : 500 g",
+        "Parmesan pour servir"
+      ],
+      "steps": "Bouillon : mettre viandes et légumes dans une grande casserole d'eau froide. Porter à ébullition, écumer soigneusement. Cuire à frémissement 2-3 h. Filtrer et dégraisser (laisser refroidir puis retirer la couche de gras). Rectifier le sel — le bouillon doit être savoureux et clair. Porter le bouillon à frémissement. Cuire les tortellini dedans 3-4 min selon l'épaisseur. Servir dans une assiette creuse avec beaucoup de bouillon et parmesan râpé. Simple, parfait."
+    },
+    {
+      "id": "italie:042",
+      "t": "Bistecca alla Fiorentina",
+      "cat": "Italie, Plat",
+      "area": "Florence, Toscane",
+      "min": 20,
+      "serv": 2,
+      "desc": "La T-bone toscane — bœuf Chianina, épaisse de 4 cm minimum, cuite à la braise, saignante. Sel, huile, citron. Rien d'autre.",
+      "ing": [
+        "1 bistecca alla Fiorentina (T-bone de bœuf) — 800 g à 1,2 kg, 4 cm d'épaisseur minimum",
+        "Gros sel marin",
+        "Huile d'olive extra vierge toscane",
+        "1 citron",
+        "Poivre noir (facultatif, après cuisson)"
+      ],
+      "steps": "Sortir la viande 1 h avant cuisson — elle DOIT être à température ambiante. Allumer les braises (jamais de gaz) — elles doivent être rougeoyantes et sans flamme. Poser la bistecca sans gras ni huile sur la grille très chaude. Cuire 5-7 min par côté. JAMAIS bien cuite — à l'intérieur elle doit rester rouge. Finir 3 min debout sur l'os. Laisser reposer 5 min. Saler généreusement de gros sel juste avant de servir. Arroser d'huile d'olive. Servir entière sur une planche à découper."
+    },
+    {
+      "id": "italie:043",
+      "t": "Ribollita",
+      "cat": "Italie, Plat, Légume",
+      "area": "Toscane",
+      "min": 60,
+      "serv": 6,
+      "desc": "Soupe paysanne toscane au chou noir, haricots et pain rassis — \"ribollita\" signifie \"rebouillie\", meilleure le lendemain.",
+      "ing": [
+        "400 g de haricots cannellini cuits (ou en boîte)",
+        "1 botte de cavolo nero (chou toscan) ou chou frisé",
+        "2 courgettes",
+        "2 carottes",
+        "2 pommes de terre",
+        "1 oignon, 2 gousses d'ail",
+        "400 g de tomates pelées",
+        "4 tranches de pain de campagne rassis",
+        "4 c. à soupe d'huile d'olive",
+        "Sel, poivre, romarin"
+      ],
+      "steps": "Faire revenir oignon et ail dans l'huile. Ajouter carottes, courgettes et pommes de terre en dés. Cuire 5 min. Ajouter les tomates et 1,5 litre d'eau. Cuire 20 min. Ajouter le chou émincé et la moitié des haricots. Mixer l'autre moitié des haricots et l'ajouter pour épaissir. Cuire encore 20 min. Ajouter les tranches de pain rassis et laisser gonfler dans la soupe. Le lendemain, \"ribollire\" (refaire bouillir) — la soupe est encore meilleure. Finir avec un filet d'huile d'olive à cru."
+    },
+    {
+      "id": "italie:044",
+      "t": "Pesto alla Genovese",
+      "cat": "Italie",
+      "area": "Gênes, Ligurie",
+      "min": 10,
+      "serv": 4,
+      "desc": "Le vrai pesto génois — basilic DOP de Pra, pignons, pecorino, parmesan, ail, huile d'olive ligurie. Au mortier, jamais au mixeur.",
+      "ing": [
+        "50 g de basilic frais (feuilles seulement, petites feuilles DOP idéalement)",
+        "30 g de pignons de pin",
+        "2 gousses d'ail",
+        "30 g de pecorino sardo",
+        "30 g de parmesan Parmigiano Reggiano",
+        "80 ml d'huile d'olive de Ligurie (douce)",
+        "1 pincée de gros sel"
+      ],
+      "steps": "Au mortier (méthode traditionnelle) : écraser l'ail avec le sel. Ajouter les pignons, piler en pâte. Ajouter le basilic par petites quantités, piler en mouvements circulaires. Incorporer les fromages râpés. Verser l'huile en filet en continuant à travailler. Au mixeur (version rapide) : mixer tous les ingrédients sauf l'huile par impulsions courtes pour ne pas chauffer le basilic. Incorporer l'huile. Ne jamais faire chauffer le pesto — mélanger avec les pâtes hors du feu avec un peu d'eau de cuisson."
+    },
+    {
+      "id": "italie:045",
+      "t": "Trofie al Pesto",
+      "cat": "Italie, Plat",
+      "area": "Ligurie",
+      "min": 20,
+      "serv": 4,
+      "desc": "Les trofie ligures avec pesto genovese, haricots verts et pommes de terre — la recette complète et authentique.",
+      "ing": [
+        "400 g de trofie fraîches (ou sèches)",
+        "1 portion de pesto alla genovese (voir recette)",
+        "100 g de haricots verts",
+        "150 g de pommes de terre en dés",
+        "Parmesan pour servir"
+      ],
+      "steps": "Porter l'eau à ébullition, saler. Cuire les pommes de terre en dés 5 min. Ajouter les haricots verts 5 min supplémentaires. Ajouter les trofie et cuire selon indication du paquet. Garder une tasse d'eau de cuisson. Dans un grand bol, mettre le pesto. Égoutter les pâtes + légumes (ne pas rincer). Verser dans le bol, mélanger en ajoutant quelques cuillères d'eau de cuisson pour obtenir une sauce soyeuse. Servir avec parmesan."
+    },
+    {
+      "id": "italie:046",
+      "t": "Arancini di Riso",
+      "cat": "Italie, Plat",
+      "area": "Sicile",
+      "min": 60,
+      "serv": 12,
+      "desc": "Boules de riz siciliennes farcies au ragù, petits pois et mozzarella — panées et frites. Le street food sicilien emblématique.",
+      "ing": [
+        "500 g de riz arborio",
+        "1 litre de bouillon de bœuf",
+        "1 sachet de safran",
+        "60 g de parmesan",
+        "2 œufs",
+        "Farce : 200 g de bœuf haché, 100 g de petits pois, 200 g de sauce tomate, 100 g de mozzarella",
+        "Panure : farine, 2 œufs battus, chapelure fine • Huile pour friture"
+      ],
+      "steps": "Cuire le riz dans le bouillon avec le safran jusqu'à absorption. Hors du feu, incorporer parmesan et œufs. Étaler sur une plaque pour refroidir. Farce : faire revenir le bœuf haché, ajouter les tomates et petits pois, cuire 15 min. Refroidir. Former les arancini : prendre une poignée de riz, aplatir, mettre 1 c. de farce + 1 dé de mozzarella au centre, refermer en boule ou en cône. Passer dans la farine, l'œuf battu, puis la chapelure. Frire à 175°C 4-5 min jusqu'à dorure. Égoutter et servir chaud."
+    },
+    {
+      "id": "italie:047",
+      "t": "Pasta alla Norma",
+      "cat": "Italie, Plat",
+      "area": "Catane, Sicile",
+      "min": 30,
+      "serv": 4,
+      "desc": "Pâtes siciliennes aux aubergines frites, sauce tomate, basilic et ricotta salée — \"c'est une Norma !\" (chef-d'œuvre).",
+      "ing": [
+        "320 g de rigatoni ou penne",
+        "2 grosses aubergines",
+        "500 g de tomates pelées",
+        "3 gousses d'ail",
+        "100 g de ricotta salée (ou pecorino râpé)",
+        "Basilic frais",
+        "4 c. à soupe d'huile d'olive",
+        "Huile pour friture",
+        "Sel"
+      ],
+      "steps": "Couper les aubergines en dés, saler et laisser dégorger 20 min. Rincer et sécher. Frire dans l'huile à 170°C jusqu'à dorées. Égoutter. Faire revenir l'ail dans l'huile d'olive, ajouter les tomates, écraser grossièrement. Cuire 15 min. Cuire les pâtes al dente. Égoutter en gardant l'eau de cuisson. Mélanger pâtes, sauce tomate et aubergines frites. Ajouter basilic. Dresser dans les assiettes et râper généreusement la ricotta salée par-dessus."
+    },
+    {
+      "id": "italie:048",
+      "t": "Caponata Siciliana",
+      "cat": "Italie, Légume",
+      "area": "Sicile",
+      "min": 45,
+      "serv": 6,
+      "desc": "La ratatouille aigre-douce sicilienne — aubergines, olives, câpres, tomates, vinaigre et sucre. Se mange froide.",
+      "ing": [
+        "3 aubergines",
+        "200 g d'olives vertes dénoyautées",
+        "3 c. à soupe de câpres",
+        "4 tomates pelées (ou conserve)",
+        "2 branches de céleri",
+        "1 oignon",
+        "2 c. à soupe de vinaigre de vin",
+        "1 c. à soupe de sucre",
+        "4 c. à soupe d'huile d'olive",
+        "Sel, basilic"
+      ],
+      "steps": "Couper les aubergines en cubes, saler, laisser dégorger 30 min. Sécher et frire dans l'huile. Égoutter. Dans une grande poêle, faire revenir l'oignon et le céleri dans l'huile. Ajouter les tomates et cuire 10 min. Ajouter olives, câpres, les aubergines frites, le vinaigre et le sucre. Mélanger et cuire encore 10 min. Rectifier sel/vinaigre/sucre pour l'équilibre aigre-doux. Refroidir complètement avant de servir — meilleure le lendemain avec basilic."
+    },
+    {
+      "id": "italie:049",
+      "t": "Saltimbocca alla Romana",
+      "cat": "Italie, Plat",
+      "area": "Rome, Lazio",
+      "min": 15,
+      "serv": 4,
+      "desc": "\"Saute en bouche\" — escalopes de veau, prosciutto et sauge, cuites au beurre et déglacées au marsala. Rapide et élégant.",
+      "ing": [
+        "8 fines escalopes de veau",
+        "8 tranches de prosciutto di Parma",
+        "8 grandes feuilles de sauge fraîche",
+        "40 g de beurre",
+        "80 ml de vin blanc sec ou marsala",
+        "Sel, poivre"
+      ],
+      "steps": "Poser une feuille de sauge sur chaque escalope, recouvrir d'une tranche de prosciutto. Fixer avec un cure-dent. Saler légèrement côté veau (le prosciutto est déjà salé). Faire fondre le beurre dans une grande poêle à feu vif. Cuire les escalopes côté prosciutto en premier, 1-2 min. Retourner et cuire encore 1-2 min. Retirer les escalopes. Déglacer avec le vin blanc/marsala en grattant les sucs. Réduire 1 min. Napper les escalopes et servir immédiatement."
+    },
+    {
+      "id": "italie:050",
+      "t": "Pasta alla Sorrentina",
+      "cat": "Italie, Plat",
+      "area": "Sorrente, Campanie",
+      "min": 25,
+      "serv": 4,
+      "desc": "Pâtes gratinées napolitaines — sauce tomate fraîche, mozzarella filante et basilic. Le gratin de pâtes de l'été.",
+      "ing": [
+        "400 g de rigatoni",
+        "500 g de tomates fraîches (ou San Marzano)",
+        "250 g de mozzarella fior di latte",
+        "3 gousses d'ail",
+        "Basilic frais",
+        "4 c. à soupe d'huile d'olive",
+        "50 g de parmesan râpé",
+        "Sel"
+      ],
+      "steps": "Faire revenir l'ail dans l'huile, ajouter les tomates concassées, sel et basilic. Cuire 15 min. Cuire les rigatoni très al dente (ils finiront au four). Mélanger pâtes et sauce dans un plat à gratin. Ajouter la mozzarella déchirée. Saupoudrer de parmesan. Gratiner sous le grill 8-10 min jusqu'à mozzarella fondue et surface dorée. Ajouter basilic frais à la sortie du four."
+    },
+    {
+      "id": "italie:051",
+      "t": "Seadas (Sebadas)",
+      "cat": "Italie, Dessert",
+      "area": "Sardaigne",
+      "min": 40,
+      "serv": 8,
+      "desc": "Raviolis frits sardes fourrés au fromage de brebis légèrement acide, nappés de miel amer — dessert emblématique de la Sardaigne.",
+      "ing": [
+        "Pâte : 300 g de semoule de blé dur, 150 ml d'eau chaude, 2 c. à soupe de saindoux (ou beurre), sel",
+        "Farce : 300 g de fromage de brebis frais (pecorino fresco) ou brousse",
+        "Zeste d'1 citron et d'1 orange",
+        "Miel de châtaignier ou d'arbousier pour servir • Huile pour friture"
+      ],
+      "steps": "Pâte : mélanger semoule, sel, saindoux et eau chaude. Pétrir 10 min jusqu'à pâte souple. Laisser reposer 30 min. Farce : émietter le fromage, mélanger avec les zestes. Former des boules. Étaler la pâte finement. Découper des cercles de 10 cm. Poser la farce au centre, refermer et souder les bords. Frire à 170°C 3-4 min jusqu'à dorées. Napper généreusement de miel chaud. Servir immédiatement."
     }
   ]
 }
