@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.45';
+const APP_VERSION = '2.46';
 
 let ALL = [];
 let BASE = [];
@@ -21,7 +21,7 @@ function mergeEdits(){
   const imp  = imports.filter(r=> !deleted.has(String(r.id))).map(r => edits[r.id] ? Object.assign({},r,edits[r.id]) : r);
   return [...base, ...imp];
 }
-function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderGrid(); }
+function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderFeed(); renderGrid(); }
 
 /* ---------- extra : suppressions + surcharges + recettes custom ---------- */
 function applyExtra(recipes, extra){
@@ -269,6 +269,27 @@ function pickDaily(){
   if (!pool.length) return null;
   return pool[ todayKey() % pool.length ];
 }
+/* ---------- fil de nouveautés (RSS-like) ---------- */
+function renderFeed(){
+  const el = document.getElementById('feed');
+  if (!el) return;
+  const extras = (EXTRA && EXTRA.recipes) ? EXTRA.recipes : [];
+  if (!extras.length){ el.innerHTML = ''; return; }
+  const recent = extras.slice(-8).reverse();
+  el.innerHTML =
+    `<div class="feed-label">📡 Récemment ajoutés <span class="feed-count">${extras.length}</span></div>` +
+    '<div class="feed-strip">' +
+    recent.map(r => {
+      const img = r.img
+        ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=feed-ph>🍲</div>'" loading="lazy">`
+        : '<div class="feed-ph">🍲</div>';
+      const cat = (r.cat || '').split(',')[0].trim();
+      return `<div class="feed-card" data-id="${esc(r.id)}">${img}<div class="feed-info"><div class="feed-t">${esc(r.t)}</div>${cat?`<div class="feed-cat">${esc(cat)}</div>`:''}</div></div>`;
+    }).join('') +
+    '</div>';
+  el.querySelectorAll('.feed-card').forEach(c => c.addEventListener('click', () => openDetail(c.dataset.id)));
+}
+
 function renderDaily(){
   const el = $('#daily'); if(!el) return;
   const pick = pickDaily();
@@ -1342,17 +1363,20 @@ function switchMode(mode){
     state.cats = [MODE_CAT[mode]];
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
+    document.getElementById('feed').hidden = true;
     elSearch.hidden = false;
   } else if (mode === 'recipes'){
     state.cats = [];
     document.getElementById('cats').hidden = false;
     document.getElementById('daily').hidden = false;
+    document.getElementById('feed').hidden = false;
     elSearch.hidden = false;
   }
   if (isCocktails){
     elSearch.hidden = true;
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
+    document.getElementById('feed').hidden = true;
     loadCocktails();
   } else {
     renderGrid();
@@ -1456,19 +1480,21 @@ function checkUpdateNow(){
   if (!btn || !status) return;
   btn.disabled = true; btn.textContent = '⏳ Vérification…'; status.textContent = '';
   const REPO = window.UPDATE_REPO;
-  // Effacer le timer pour forcer la vérification
-  try { localStorage.removeItem('updPoll:' + REPO); localStorage.removeItem('updDismiss:' + REPO); } catch(e){}
-  fetch('https://api.github.com/repos/' + REPO + '/releases/latest?_=' + Date.now(), {
-    headers: { Accept: 'application/vnd.github+json' }
-  }).then(r => r.ok ? r.json() : null).then(rel => {
+  try { localStorage.removeItem('updPoll:' + REPO); } catch(e){}
+  fetch('https://github.com/' + REPO + '/releases.atom?_=' + Date.now(), {
+    headers: { Accept: 'application/atom+xml, text/xml, */*' }
+  }).then(r => r.ok ? r.text() : null).then(xml => {
     btn.disabled = false; btn.textContent = 'Vérifier les mises à jour';
-    if (!rel || !rel.tag_name) { status.textContent = '⚠ Impossible de vérifier (réseau ?)'; return; }
-    const latest = String(rel.tag_name).replace(/^v/, '');
-    const current = String(APP_VERSION);
-    const newer = latest.split('.').map(Number).reduce((a,v,i)=>a||v-(current.split('.')[i]||0), 0) > 0;
-    if (!newer) { status.textContent = '✓ Déjà à jour (v' + current + ')'; return; }
+    if (!xml) { status.textContent = '⚠ Impossible de vérifier (réseau ?)'; return; }
+    const doc = new DOMParser().parseFromString(xml, 'text/xml');
+    const entry = doc.querySelector('entry');
+    const titleEl = entry && entry.querySelector('title');
+    if (!titleEl) { status.textContent = '⚠ Format de réponse inattendu'; return; }
+    const latest = (titleEl.textContent || '').trim().replace(/^v/, '');
+    const cur = String(APP_VERSION).split('.').map(Number);
+    const newer = latest.split('.').map(Number).reduce((a, v, i) => a || v - (cur[i] || 0), 0) > 0;
+    if (!newer) { status.textContent = '✓ Déjà à jour (v' + APP_VERSION + ')'; return; }
     status.textContent = '🔄 Nouvelle version v' + latest + ' disponible !';
-    // Déclencher la bannière du update-check.js
     try { localStorage.setItem('updPoll:' + REPO, '0'); } catch(e){}
     location.reload();
   }).catch(() => {
@@ -1620,6 +1646,7 @@ async function init(){
   elSub.textContent = `${ALL.length} recettes · v${APP_VERSION}`;
   buildCats();
   renderDaily();
+  renderFeed();
   renderGrid();
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
   document.getElementById('import-btn').addEventListener('click', openImport);
