@@ -1512,6 +1512,407 @@
         "Option crumble : 40 g de farine, 30 g de sucre, 25 g de beurre froid en dés"
       ],
       "steps": "PRÉPARER L'APPAREIL\nBattre les œufs avec le sucre, ajouter lait et vanille.\nPeler et couper les pommes en très petits dés (cuisson plus homogène).\nDisposer les dés de pomme dans le fond des moules.\nSaupoudrer de cannelle.\nVerser l'appareil vanille dessus.\n\nCRUMBLE (optionnel)\nMélanger farine, sucre et beurre froid du bout des doigts jusqu'à texture sableuse.\nParsemer sur le dessus avant la cuisson.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 160°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 15 à 18 min\nCroustillant dessus, fondant dessous : un délice !\nVérifier la coloration du crumble.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 160°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 25 à 30 min\nSurveiller la coloration du crumble — couvrir d'alu si trop foncé.\nLaisser tiédir avant de servir pour que le crumble reste croustillant.\n\n💡 ASTUCES\nCouper les pommes très finement pour une cuisson homogène.\nRemplacer les pommes par des poires ou des coings en saison.\nAjouter une pincée de cardamome au crumble pour une touche orientale."
+    },
+    {
+      "id": "tart:001",
+      "t": "Bruschetta Tomate & Basilic",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 4,
+      "desc": "La bruschetta classique italienne : tomates cerises, basilic frais, huile d'olive et vinaigre balsamique sur baguette grillée.",
+      "ing": [
+        "1 baguette",
+        "300 g de tomates cerises",
+        "2 c. à soupe d'huile d'olive",
+        "1 c. à café de vinaigre balsamique",
+        "Basilic frais",
+        "Sel, Poivre"
+      ],
+      "steps": "Couper la baguette en tranches biseautées et les faire griller au four (200°C, 5 min) ou au grille-pain.\nCouper les tomates cerises en deux. Assaisonner avec l'huile d'olive, le vinaigre balsamique, sel et poivre.\nRépartir les tomates sur les tranches grillées.\nFrotter avec une gousse d'ail si souhaité.\nParsemer de feuilles de basilic frais au moment de servir."
+    },
+    {
+      "id": "tart:002",
+      "t": "Bruschetta Jambon Cru & Mozzarella",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 4,
+      "desc": "Bruschetta généreuse au jambon cru et mozzarella fondante, relevée d'herbes de Provence.",
+      "ing": [
+        "1 baguette",
+        "4 tranches de jambon cru (serrano, parme...)",
+        "1 boule de mozzarella",
+        "Huile d'olive",
+        "Herbes de Provence",
+        "Sel, Poivre"
+      ],
+      "steps": "Couper la baguette en tranches et les griller.\nTrancher la mozzarella en rondelles.\nDisposer le jambon cru puis la mozzarella sur les tranches.\nArroser d'un filet d'huile d'olive.\nSaupoudrer d'herbes de Provence, sel et poivre.\nOption : passer 2-3 min sous le grill du four pour fondre légèrement la mozzarella."
+    },
+    {
+      "id": "tart:003",
+      "t": "Bruschetta Chèvre Miel & Noix",
+      "cat": "Tartinade",
+      "min": 12,
+      "serv": 4,
+      "desc": "La combinaison irrésistible chèvre fondant, miel doré et noix croquantes. Parfait en entrée ou apéro.",
+      "ing": [
+        "1 baguette",
+        "1 bûche de chèvre",
+        "4 c. à soupe de miel",
+        "60 g de noix concassées",
+        "Herbes de Provence",
+        "Sel, Poivre"
+      ],
+      "steps": "Couper la baguette en tranches et les griller légèrement.\nCouper le chèvre en rondelles et disposer une rondelle sur chaque tranche.\nPasser 3-4 min sous le grill du four jusqu'à ce que le chèvre soit légèrement doré.\nArroser de miel, parsemer de noix concassées.\nSaupoudrer d'herbes de Provence, sel et poivre."
+    },
+    {
+      "id": "tart:004",
+      "t": "Bruschetta Pizza",
+      "cat": "Tartinade",
+      "min": 15,
+      "serv": 4,
+      "desc": "Bruschetta version pizza : sauce tomate, mozzarella fondue et origan. Simple, rapide, ultra gourmand.",
+      "ing": [
+        "1 baguette",
+        "100 g de sauce tomate",
+        "100 g de mozzarella râpée ou en tranches",
+        "Origan séché",
+        "Huile d'olive",
+        "Sel, Poivre"
+      ],
+      "steps": "Couper la baguette en tranches.\nTartiner chaque tranche de sauce tomate.\nAjouter la mozzarella.\nSaupoudrer d'origan, sel, poivre et un filet d'huile d'olive.\nEnfourner à 200°C pendant 8-10 min jusqu'à ce que la mozzarella soit fondue et légèrement dorée.\nOption : ajouter pepperoni, olives, champignons selon goût."
+    },
+    {
+      "id": "tart:005",
+      "t": "Bruschetta Saumon Fumé & Avocat",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 4,
+      "desc": "Bruschetta fraîche et raffinée : saumon fumé, crème cheese, avocat et citron sur baguette grillée.",
+      "ing": [
+        "1 baguette",
+        "150 g de saumon fumé",
+        "1 avocat bien mûr",
+        "4 c. à soupe de crème cheese (Philadelphia, St Môret...)",
+        "Jus de citron",
+        "Sel, Poivre"
+      ],
+      "steps": "Griller les tranches de baguette.\nTartiner chaque tranche de crème cheese.\nÉcraser l'avocat avec du jus de citron, sel et poivre. Étaler sur la crème cheese.\nDisposer le saumon fumé par-dessus.\nFinir avec quelques gouttes de citron et aneth si disponible."
+    },
+    {
+      "id": "tart:006",
+      "t": "Bruschetta Poulet & Guacamole",
+      "cat": "Tartinade",
+      "min": 15,
+      "serv": 4,
+      "desc": "Bruschetta copieuse au poulet grillé et guacamole maison. Repas complet ou apéro généreux.",
+      "ing": [
+        "1 baguette",
+        "200 g de poulet grillé ou émincé",
+        "2 avocats",
+        "1 petit oignon rouge",
+        "2 tomates",
+        "Jus de citron vert",
+        "Sel, Poivre"
+      ],
+      "steps": "Préparer le guacamole : écraser les avocats, ajouter l'oignon rouge finement haché, les tomates en dés, le jus de citron vert, sel et poivre.\nGriller les tranches de baguette.\nÉtaler généreusement le guacamole.\nAjouter le poulet grillé émincé ou coupé en dés.\nGarnir de coriandre fraîche ou d'un filet de sriracha si souhaité."
+    },
+    {
+      "id": "tart:007",
+      "t": "Bruschetta Fromage & Jambon Fondu",
+      "cat": "Tartinade",
+      "min": 15,
+      "serv": 4,
+      "desc": "Bruschetta chaude et réconfortante : jambon, emmental fondu et crème fraîche. Version gratinée au four.",
+      "ing": [
+        "1 baguette",
+        "150 g de jambon",
+        "120 g d'emmental râpé",
+        "2 c. à soupe de crème fraîche",
+        "Sel, Poivre"
+      ],
+      "steps": "Couper la baguette en tranches.\nTartiner chaque tranche d'une fine couche de crème fraîche.\nDisposer le jambon puis saupoudrer généreusement d'emmental.\nAssaisonner de sel et poivre.\nEnfourner à 200°C, 8-10 min jusqu'à gratinage doré.\nServir chaud."
+    },
+    {
+      "id": "tart:008",
+      "t": "Bruschetta Chorizo & Poivrons",
+      "cat": "Tartinade",
+      "min": 12,
+      "serv": 4,
+      "desc": "Bruschetta espagnole colorée : chorizo, poivrons sautés, herbes de Provence. Idéale pour un apéro haut en couleur.",
+      "ing": [
+        "1 baguette",
+        "100 g de chorizo tranché",
+        "1/2 poivron rouge + 1/2 poivron vert (ou couleurs variées)",
+        "Huile d'olive",
+        "Herbes de Provence",
+        "Sel, Poivre"
+      ],
+      "steps": "Couper les poivrons en lanières et les faire sauter à la poêle dans l'huile d'olive jusqu'à tendreté (8-10 min).\nGriller les tranches de baguette.\nDisposer les poivrons puis le chorizo sur chaque tranche.\nSaupoudrer d'herbes de Provence, sel et poivre.\nArroser d'un filet d'huile d'olive.\nOption : passer 3 min sous le grill pour un chorizo légèrement croustillant."
+    },
+    {
+      "id": "tart:009",
+      "t": "16 Idées de Tartines — Guide Express",
+      "cat": "Tartinade, Guide",
+      "min": 5,
+      "serv": 1,
+      "desc": "16 combinaisons de tartines testées et approuvées, de la plus simple à la plus gourmande. Toutes rapides à préparer.",
+      "ing": [],
+      "steps": "🥑 AVOCAT & ŒUFS\nSaumon - St Môret - Avocat : tartiner de St Môret, avocat en tranches, saumon fumé\nSaumon - St Môret - Concombre : St Môret + saumon + rondelles de concombre\nAvocat - Œuf : guacamole + œuf poché ou mollet\nŒuf - Avocat - Thon - Olives : écrasé d'avocat + thon + olives + œuf dur\n\n🥩 JAMBON & CHARCUTERIE\nJambon C. - Olives - Carré frais : Carré frais + jambon + olives noires\nPoivron - Jambon - Champignon : poivrons rôtis + jambon + champignons sautés\nJambon C. - Salade - Tomates C. - Carré frais : Carré frais + salade + tomates cerises + jambon\nJambon - Parmesan - Vinaigre B. : jambon cru + copeaux de parmesan + trait de balsamique\n\n🧀 FROMAGES\nAvocat - Tomate - Mozza - Vinaigre B. : avocat + tomate + mozzarella + balsamique\nCarré frais - Noix - Champignons : Carré frais + champignons sautés + noix concassées\nF. de chèvre - Pesto - Noix : fromage de chèvre + pesto + noix\nSaumon Fumé - Carré frais : Carré frais + saumon fumé + aneth\n\n🌶️ COPIEUX\nHoumous - Poivron - Poulet grillé : houmous + poivron + poulet grillé émincé\nS. Tomate - Mozza - Olives - Champignons : sauce tomate + mozzarella + olives + champignons (griller au four)\nPoulet - Tzatziki - Huile d'olive : tzatziki + poulet grillé + filet d'huile d'olive\nŒuf - Avocat - Emmental râpé : avocat écrasé + œuf + emmental (passer au grill)\n\n💡 BASE COMMUNE\nPain de campagne, pain complet ou baguette légèrement grillé(e).\nAssaisonner avec sel, poivre et un filet d'huile d'olive sur chaque tartine."
+    },
+    {
+      "id": "tart:010",
+      "t": "Bruschetta Classique à la Tomate",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 4,
+      "desc": "La vraie bruschetta italienne : tomates fraîches confites à l'huile d'olive extra-vierge, ail, basilic. Simple et absolue.",
+      "ing": [
+        "1 ciabatta ou baguette de tradition",
+        "4 tomates bien mûres",
+        "2 gousses d'ail",
+        "4 c. à soupe d'huile d'olive extra-vierge",
+        "Basilic frais",
+        "Fleur de sel, poivre noir"
+      ],
+      "steps": "Couper les tomates en dés, les laisser dégorger 10 min avec une pincée de sel.\nGriller le pain au four à 220°C ou sur une plancha — le pain doit être bien craquant.\nFrotter chaque tranche avec une gousse d'ail coupée.\nÉgoutter les tomates et les mélanger avec l'huile d'olive.\nDisposer sur les tranches, finir avec basilic frais et fleur de sel."
+    },
+    {
+      "id": "tart:011",
+      "t": "Bruschetta Saumon Fumé & Rose d'Avocat",
+      "cat": "Tartinade",
+      "min": 15,
+      "serv": 4,
+      "desc": "Bruschetta élégante façon chef : rose d'avocat en rosette sur saumon fumé. Effet visuel garanti, goût exceptionnel.",
+      "ing": [
+        "1 baguette ou pain de campagne",
+        "150 g de saumon fumé premium",
+        "2 avocats bien mûrs",
+        "Crème cheese (Philadelphia)",
+        "Aneth frais",
+        "Citron, sel, poivre"
+      ],
+      "steps": "Griller les tranches de pain.\nTartiner de crème cheese.\nDisposer le saumon fumé.\nÉplucher les avocats, couper en fines tranches longitudinales.\nRouler les tranches d'avocat en rosette et disposer sur le saumon.\nFinir avec aneth, zeste de citron et quelques gouttes de jus de citron."
+    },
+    {
+      "id": "tart:012",
+      "t": "Bruschetta Pistache & Ricotta au Grenat",
+      "cat": "Tartinade",
+      "min": 12,
+      "serv": 4,
+      "desc": "Bruschetta gastronomique : ricotta crémeuse, pistaches concassées et graines de grenade pour une explosion de saveurs et de couleurs.",
+      "ing": [
+        "1 pain de campagne ou ciabatta",
+        "150 g de ricotta fraîche",
+        "50 g de pistaches non salées, concassées",
+        "Graines d'une grenade",
+        "Miel",
+        "Huile d'olive, sel, poivre"
+      ],
+      "steps": "Griller les tranches de pain.\nAssaisonner la ricotta avec sel, poivre et un filet d'huile d'olive.\nÉtaler généreusement la ricotta sur les tranches.\nParsemer de pistaches concassées et de graines de grenade.\nFinir avec un trait de miel et quelques feuilles de menthe."
+    },
+    {
+      "id": "tart:013",
+      "t": "Bruschetta Pêche Grillée, Chèvre & Miel",
+      "cat": "Tartinade",
+      "min": 15,
+      "serv": 4,
+      "desc": "Bruschetta d'été sucrée-salée : pêche caramélisée à la plancha, fromage de chèvre frais et miel. Accord parfait.",
+      "ing": [
+        "1 pain de campagne",
+        "2 pêches mûres mais fermes",
+        "150 g de fromage de chèvre frais",
+        "3 c. à soupe de miel",
+        "Quelques feuilles de basilic ou thym",
+        "Huile d'olive, sel, poivre"
+      ],
+      "steps": "Couper les pêches en quartiers. Les faire griller à la plancha ou à la poêle avec un filet d'huile d'olive jusqu'à caramélisation (2-3 min par face).\nGriller les tranches de pain.\nTartiner de fromage de chèvre frais.\nDisposer les quartiers de pêche grillés.\nArroser de miel, parsemer d'herbes fraîches.\nAssaisonner de sel et poivre."
+    },
+    {
+      "id": "tart:014",
+      "t": "Bruschetta Poivrons Rôtis & Pignons",
+      "cat": "Tartinade",
+      "min": 20,
+      "serv": 4,
+      "desc": "Bruschetta méditerranéenne : poivrons rôtis à l'ail et huile d'olive, pignons de pin grillés. Doux, fumé, irrésistible.",
+      "ing": [
+        "1 ciabatta ou baguette",
+        "2 poivrons rouges rôtis (ou en bocal)",
+        "2 gousses d'ail",
+        "3 c. à soupe de pignons de pin",
+        "Huile d'olive",
+        "Basilic frais, sel, poivre"
+      ],
+      "steps": "Si poivrons frais : les faire rôtir à 220°C, 25 min, peler et égrener.\nCouper les poivrons en lanières. Faire revenir avec l'ail haché dans l'huile d'olive.\nFaire dorer les pignons à sec dans une poêle (2-3 min, surveiller).\nGriller le pain.\nDisposer les poivrons, parsemer de pignons.\nFinir avec basilic frais et un filet d'huile d'olive."
+    },
+    {
+      "id": "tart:015",
+      "t": "Bruschetta Burrata & Fraise au Basilic",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 4,
+      "desc": "Bruschetta estivale de chef : burrata crémeuse, fraises fraîches et basilic. Accord sucré-salé ultra raffiné.",
+      "ing": [
+        "1 pain de campagne grillé",
+        "1 burrata (125 g)",
+        "200 g de fraises",
+        "Basilic frais",
+        "Vinaigre balsamique réduit",
+        "Huile d'olive extra-vierge, fleur de sel, poivre"
+      ],
+      "steps": "Couper les fraises en deux ou en quartiers.\nGriller les tranches de pain.\nOuvrir la burrata et la déposer généreusement sur chaque tranche.\nDisposer les fraises fraîches autour.\nArroser de vinaigre balsamique réduit et d'huile d'olive.\nParsemer de feuilles de basilic frais, fleur de sel et poivre noir."
+    },
+    {
+      "id": "tart:016",
+      "t": "Bruschetta Agneau Épicé & Houmous",
+      "cat": "Tartinade",
+      "min": 20,
+      "serv": 4,
+      "desc": "Bruschetta orientale : agneau haché épicé (ras el hanout, cumin) sur houmous maison. Saveurs du Moyen-Orient.",
+      "ing": [
+        "1 pain pita ou ciabatta",
+        "200 g d'agneau haché",
+        "150 g de houmous",
+        "Ras el hanout, cumin, paprika",
+        "Persil plat, citron",
+        "Huile d'olive, sel, poivre"
+      ],
+      "steps": "Faire revenir l'agneau haché à feu vif avec ras el hanout, cumin, sel et poivre.\nGriller les tranches de pain.\nTartiner généreusement de houmous.\nDisposer l'agneau épicé sur le houmous.\nFinir avec persil plat haché, un filet de citron et paprika."
+    },
+    {
+      "id": "tart:017",
+      "t": "Bruschetta Champignons & Crème de Truffe",
+      "cat": "Tartinade",
+      "min": 15,
+      "serv": 4,
+      "desc": "Bruschetta umami intense : champignons sautés au beurre, crème à la truffe, thym. La bruschetta d'automne par excellence.",
+      "ing": [
+        "1 pain de campagne",
+        "300 g de champignons (shiitaké, pleurotes, champignons de Paris)",
+        "2 c. à soupe de crème fraîche ou crème cheese à la truffe",
+        "1 gousse d'ail",
+        "Beurre, thym frais",
+        "Sel, poivre, huile de truffe (optionnel)"
+      ],
+      "steps": "Émincer les champignons. Les faire sauter à feu vif dans le beurre avec l'ail haché et le thym jusqu'à évaporation complète de l'eau.\nAssaisonner généreusement.\nGriller les tranches de pain.\nTartiner de crème à la truffe ou crème fraîche.\nDéposer les champignons sautés.\nFinir avec quelques gouttes d'huile de truffe et thym frais."
+    },
+    {
+      "id": "tart:018",
+      "t": "Bruschetta Crevettes & Avocat Mojo",
+      "cat": "Tartinade",
+      "min": 15,
+      "serv": 4,
+      "desc": "Bruschetta tropicale : crevettes sautées à l'ail et avocat façon mojo (citron vert, coriandre, piment). Fraîcheur garantie.",
+      "ing": [
+        "1 ciabatta",
+        "200 g de crevettes décortiquées",
+        "2 avocats",
+        "Jus de 2 citrons verts",
+        "Coriandre fraîche, 1 piment",
+        "Ail, huile d'olive, sel"
+      ],
+      "steps": "Préparer le mojo avocat : écraser les avocats avec le jus de citron vert, coriandre hachée, piment, sel.\nFaire sauter les crevettes 2-3 min à feu vif dans l'huile d'olive avec l'ail haché.\nGriller les tranches de pain.\nÉtaler le mojo avocat.\nDisposer les crevettes sautées.\nFinir avec coriandre fraîche et un trait de citron vert."
+    },
+    {
+      "id": "tart:019",
+      "t": "Bruschetta Figue, Noix & Bleu",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 4,
+      "desc": "Bruschetta d'automne sophistiquée : figues fraîches ou séchées, fromage bleu crémeux et noix. Accord sucré-salé-piquant de caractère.",
+      "ing": [
+        "1 pain de campagne aux noix",
+        "4 figues fraîches (ou 8 moitiés de figues séchées réhydratées)",
+        "100 g de fromage bleu (roquefort, gorgonzola)",
+        "50 g de cerneaux de noix",
+        "Miel, thym",
+        "Huile d'olive"
+      ],
+      "steps": "Couper les figues en quartiers.\nGriller les tranches de pain.\nÉmietter le fromage bleu sur chaque tranche.\nDisposer les figues et les noix.\nArroser d'un filet de miel et d'huile d'olive.\nParsemer de thym frais."
+    },
+    {
+      "id": "tart:020",
+      "t": "Bruschetta Guacamole & Œuf Poché",
+      "cat": "Tartinade",
+      "min": 15,
+      "serv": 4,
+      "desc": "Bruschetta brunch parfaite : guacamole onctueux et œuf poché coulant sur pain grillé. Le combo californien par excellence.",
+      "ing": [
+        "1 pain de campagne ou baguette",
+        "2 avocats mûrs",
+        "4 œufs frais",
+        "Jus de citron",
+        "Piment d'Espelette ou piment rouge",
+        "Sel, poivre, vinaigre blanc (pour le pochage)"
+      ],
+      "steps": "Préparer le guacamole : écraser les avocats avec le jus de citron, sel, poivre.\nPocher les œufs : eau à 85°C + 1 c. de vinaigre blanc, tourbillon, déposer l'œuf délicatement, 3-4 min.\nGriller les tranches de pain.\nÉtaler le guacamole généreusement.\nDéposer un œuf poché sur chaque tranche.\nSaupoudrer de piment d'Espelette, sel et poivre."
+    },
+    {
+      "id": "tart:021",
+      "t": "Bruschetta Caprese Pesto & Pignons",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 4,
+      "desc": "Caprese revisitée en bruschetta : pesto basilic, mozzarella di bufala, tomates et pignons grillés. L'Italie dans une bouchée.",
+      "ing": [
+        "1 ciabatta ou focaccia",
+        "1 boule de mozzarella di bufala",
+        "2-3 tomates bien mûres",
+        "3 c. à soupe de pesto basilic (maison ou du commerce)",
+        "30 g de pignons de pin",
+        "Huile d'olive, fleur de sel, basilic"
+      ],
+      "steps": "Griller les pignons à sec dans une poêle jusqu'à dorure (2-3 min).\nCouper le pain et le griller.\nTartiner de pesto.\nDisposer la mozzarella déchirée à la main et les tranches de tomates.\nParsemer de pignons grillés.\nFinir avec basilic frais, fleur de sel et huile d'olive."
+    },
+    {
+      "id": "tart:022",
+      "t": "Bruschetta Betterave & Feta Crumble",
+      "cat": "Tartinade",
+      "min": 12,
+      "serv": 4,
+      "desc": "Bruschetta colorée et originale : purée de betterave, feta émiettée et aneth. Rose vif, saveur terreuse et saline. Effet visuel garanti.",
+      "ing": [
+        "1 pain de campagne",
+        "2 betteraves cuites",
+        "100 g de feta",
+        "2 c. à soupe de crème cheese ou fromage blanc",
+        "Aneth frais",
+        "Huile d'olive, jus de citron, sel, poivre"
+      ],
+      "steps": "Mixer les betteraves avec la crème cheese, le jus de citron, sel et poivre jusqu'à obtenir une purée lisse.\nGriller les tranches de pain.\nÉtaler la purée de betterave.\nÉmietter la feta par-dessus.\nParsemer d'aneth frais et d'un filet d'huile d'olive."
+    },
+    {
+      "id": "tart:023",
+      "t": "Bruschetta Poulet & Poulet Citron-Herbes",
+      "cat": "Tartinade",
+      "min": 20,
+      "serv": 4,
+      "desc": "Bruschetta complète et généreuse : poulet mariné aux herbes et citron, sauce crémeuse. Un vrai repas sur du pain.",
+      "ing": [
+        "1 ciabatta",
+        "2 blancs de poulet",
+        "Jus d'1 citron",
+        "Thym, romarin, ail",
+        "2 c. à soupe de crème fraîche ou yaourt grec",
+        "Roquette, huile d'olive, sel, poivre"
+      ],
+      "steps": "Mariner le poulet dans le jus de citron, l'ail haché, thym, romarin, huile d'olive, sel et poivre (30 min minimum).\nGriller le poulet à la plancha ou à la poêle 4-5 min par côté. Laisser reposer et émincer.\nGriller les tranches de pain.\nMélanger la crème fraîche avec un peu d'ail et d'herbes.\nTartiner la crème herbes.\nDisposer le poulet émincé et la roquette."
+    },
+    {
+      "id": "tart:024",
+      "t": "Bruschetta Dattes & Brie aux Amandes",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 4,
+      "desc": "Bruschetta dessert-apéro : brie fondant, dattes moelleuses et amandes effilées grillées. Sucré-salé d'exception, accord fromager exquis.",
+      "ing": [
+        "1 pain brioché ou pain de campagne",
+        "150 g de brie",
+        "8-10 dattes Medjool dénoyautées",
+        "40 g d'amandes effilées",
+        "Miel",
+        "Romarin frais (optionnel)"
+      ],
+      "steps": "Griller les amandes effilées à sec dans une poêle.\nCouper le pain, disposer des tranches de brie dessus.\nPasser 2-3 min au four à 180°C pour faire fondre le brie.\nCouper les dattes en deux et disposer sur le brie fondu.\nParsemer d'amandes grillées.\nFinir avec un filet de miel et du romarin frais."
     }
   ]
 }
