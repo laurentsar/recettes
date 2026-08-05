@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.48';
+const APP_VERSION = '2.49';
 
 let ALL = [];
 let BASE = [];
@@ -1343,43 +1343,97 @@ const COCKTAIL_IDS = [
   '12754','13621'
 ];
 let cocktailCache = null; // [{id,name,thumb,category,glass,alcoholic,ings,steps}]
-let appMode = 'recipes'; // 'recipes' | 'cocktails'
+let appMode = 'recipes';
+let appSubMode = null;
 
 const elCocktailGrid = document.getElementById('cocktail-grid');
 const elCocktailDetail = document.getElementById('cocktail-detail');
 
-const MODE_CAT = { airfryer: 'Airfryer', thermomix: 'Thermomix', corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal', italie: 'Italie', japon: 'Japon', asie: 'Asie', maghreb: 'Maghreb', sauces: 'Sauce', tartinades: 'Tartinade', techniques: 'Technique' };
-function switchMode(mode){
-  appMode = mode;
-  document.querySelectorAll('.mode-tab').forEach(b=> b.classList.toggle('active', b.dataset.mode===mode));
-  const isCocktails = mode==='cocktails';
-  const isRecipeMode = !isCocktails; // recipes, airfryer, thermomix
-  // Bascule grilles
+const MODE_GROUPS = {
+  regions:         { subs: ['corse','espagne','portugal','italie','japon','asie','maghreb'] },
+  ustensiles:      { subs: ['airfryer','thermomix'] },
+  aperitif:        { subs: ['tartinades','wraps'] },
+  boissons:        { subs: ['smoothies','milkshakes'] },
+  accompagnements: { subs: ['sauces','marinades'] },
+};
+const SUB_TAB_LABELS = {
+  corse:'🏝️ Corse', espagne:'🇪🇸 Espagne', portugal:'🇵🇹 Portugal',
+  italie:'🇮🇹 Italie', japon:'🇯🇵 Japon', asie:'🍜 Asie', maghreb:'🫖 Maghreb',
+  airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix',
+  tartinades:'🥖 Tartinades', wraps:'🌮 Wraps',
+  smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes',
+  sauces:'🥣 Sauces', marinades:'🌿 Marinades',
+};
+const MODE_CAT = {
+  airfryer: 'Airfryer', thermomix: 'Thermomix',
+  corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal',
+  italie: 'Italie', japon: 'Japon', asie: 'Asie', maghreb: 'Maghreb',
+  sauces: 'Sauce', tartinades: 'Tartinade', techniques: 'Technique',
+  wraps: 'Wrap', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
+};
+
+function showSubTabs(group){
+  const el = document.getElementById('sub-tabs');
+  if (!el) return;
+  const g = MODE_GROUPS[group];
+  if (!g){ el.hidden = true; el.innerHTML = ''; return; }
+  el.innerHTML = g.subs.map(s =>
+    `<button class="sub-tab${appSubMode===s?' active':''}" data-sub="${s}">${SUB_TAB_LABELS[s]||s}</button>`
+  ).join('');
+  el.hidden = false;
+  el.querySelectorAll('.sub-tab').forEach(b => b.addEventListener('click', ()=> switchSubMode(group, b.dataset.sub)));
+}
+
+function applyLeafMode(leaf){
+  const isCocktails = leaf === 'cocktails';
   elCocktailGrid.hidden = !isCocktails;
   document.getElementById('grid').hidden = isCocktails;
   document.getElementById('status').hidden = isCocktails;
-  // Filtre catégorie selon le mode
-  if (MODE_CAT[mode]){
-    state.cats = [MODE_CAT[mode]];
-    document.getElementById('cats').hidden = true;
-    document.getElementById('daily').hidden = true;
-    document.getElementById('feed').hidden = true;
-    elSearch.hidden = false;
-  } else if (mode === 'recipes'){
-    state.cats = [];
-    document.getElementById('cats').hidden = false;
-    document.getElementById('daily').hidden = false;
-    document.getElementById('feed').hidden = false;
-    elSearch.hidden = false;
-  }
   if (isCocktails){
     elSearch.hidden = true;
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
     document.getElementById('feed').hidden = true;
     loadCocktails();
+  } else if (MODE_CAT[leaf]){
+    state.cats = [MODE_CAT[leaf]];
+    document.getElementById('cats').hidden = true;
+    document.getElementById('daily').hidden = true;
+    document.getElementById('feed').hidden = true;
+    elSearch.hidden = false;
+    renderGrid();
+  } else if (leaf === 'recipes'){
+    state.cats = [];
+    document.getElementById('cats').hidden = false;
+    document.getElementById('daily').hidden = false;
+    document.getElementById('feed').hidden = false;
+    elSearch.hidden = false;
+    renderGrid();
   } else {
     renderGrid();
+  }
+}
+
+function switchSubMode(group, sub){
+  appSubMode = sub;
+  showSubTabs(group);
+  applyLeafMode(sub);
+}
+
+function switchMode(mode){
+  appMode = mode;
+  document.querySelectorAll('.mode-tab').forEach(b=> b.classList.toggle('active', b.dataset.mode===mode));
+  const g = MODE_GROUPS[mode];
+  if (g){
+    const firstSub = g.subs[0];
+    appSubMode = firstSub;
+    showSubTabs(mode);
+    applyLeafMode(firstSub);
+  } else {
+    appSubMode = null;
+    const el = document.getElementById('sub-tabs');
+    if (el){ el.hidden = true; el.innerHTML = ''; }
+    applyLeafMode(mode);
   }
 }
 

@@ -24,20 +24,15 @@
     </div>
     <div id="mode-tabs">
       <button class="mode-tab active" data-mode="recipes">🍽️ Recettes</button>
-      <button class="mode-tab" data-mode="airfryer">🌪️ Airfryer</button>
-      <button class="mode-tab" data-mode="thermomix">⚙️ Thermomix</button>
+      <button class="mode-tab" data-mode="regions">🌍 Régions</button>
+      <button class="mode-tab" data-mode="ustensiles">🔧 Ustensiles</button>
+      <button class="mode-tab" data-mode="aperitif">🥂 Apéritif</button>
+      <button class="mode-tab" data-mode="boissons">🥤 Boissons</button>
+      <button class="mode-tab" data-mode="accompagnements">🥣 Accompagnements</button>
       <button class="mode-tab" data-mode="cocktails">🍹 Cocktails</button>
-      <button class="mode-tab" data-mode="corse">🏝️ Corse</button>
-      <button class="mode-tab" data-mode="espagne">🇪🇸 Espagne</button>
-      <button class="mode-tab" data-mode="portugal">🇵🇹 Portugal</button>
-      <button class="mode-tab" data-mode="italie">🇮🇹 Italie</button>
-      <button class="mode-tab" data-mode="japon">🇯🇵 Japon</button>
-      <button class="mode-tab" data-mode="asie">🍜 Asie</button>
-      <button class="mode-tab" data-mode="maghreb">🫖 Maghreb</button>
-      <button class="mode-tab" data-mode="sauces">🥣 Sauces</button>
-      <button class="mode-tab" data-mode="tartinades">🥖 Tartinades</button>
       <button class="mode-tab" data-mode="techniques">👨‍🍳 Techniques</button>
     </div>
+    <div id="sub-tabs" hidden></div>
     <input id="search" type="search" placeholder="Rechercher (titre, ingrédient…)" autocomplete="off" />
     <div id="cats"></div>
   </header>
@@ -100,7 +95,7 @@
   </div>
 
   <script src="app.js"></script>
-  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.48';</script>
+  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.49';</script>
   <script src="update-check.js" defer></script>
   <script>window.BACKUP_APP = 'recettes-app'; window.BACKUP_SKIP = [/^recipesData$/];</script>
   <script src="autobackup.js"></script>

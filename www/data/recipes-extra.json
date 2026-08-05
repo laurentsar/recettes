@@ -21,7 +21,32 @@
     "dropbox:-1074079364",
     "dropbox:-763943463"
   ],
-  "overrides": [],
+  "overrides": [
+    {
+      "id": "sm:001",
+      "cat": "Dessert, Boisson, Smoothie"
+    },
+    {
+      "id": "sm:002",
+      "cat": "Dessert, Boisson, Smoothie"
+    },
+    {
+      "id": "sm:003",
+      "cat": "Dessert, Boisson, Smoothie"
+    },
+    {
+      "id": "sm:004",
+      "cat": "Dessert, Boisson, Smoothie"
+    },
+    {
+      "id": "sm:005",
+      "cat": "Dessert, Boisson, Smoothie"
+    },
+    {
+      "id": "sm:006",
+      "cat": "Dessert, Boisson, Smoothie"
+    }
+  ],
   "recipes": [
     {
       "id": "af:007",
@@ -1913,6 +1938,689 @@
         "Romarin frais (optionnel)"
       ],
       "steps": "Griller les amandes effilées à sec dans une poêle.\nCouper le pain, disposer des tranches de brie dessus.\nPasser 2-3 min au four à 180°C pour faire fondre le brie.\nCouper les dattes en deux et disposer sur le brie fondu.\nParsemer d'amandes grillées.\nFinir avec un filet de miel et du romarin frais."
+    },
+    {
+      "id": "wrap:001",
+      "t": "Wrap Classique Jambon Cheddar",
+      "cat": "Wrap, Apéritif",
+      "min": 10,
+      "serv": 4,
+      "desc": "Le wrap incontournable — jambon, cheddar fondu et fromage frais. Simple, efficace, toujours apprécié.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "150 g de fromage frais",
+        "8 tranches de jambon blanc",
+        "100 g de cheddar râpé",
+        "Quelques feuilles de salade",
+        "Sel, poivre"
+      ],
+      "steps": "Étaler généreusement le fromage frais sur chaque tortilla.\nDéposer 2 tranches de jambon, quelques feuilles de salade et du cheddar râpé.\nAssaisonner. Rouler serré, couper en 2 ou en tronçons.\n\n💡 Garder les wraps emballés dans du film plastique pour les préparer à l'avance."
+    },
+    {
+      "id": "wrap:002",
+      "t": "Wrap Jambon & Bacon Crunchy",
+      "cat": "Wrap, Apéritif",
+      "min": 12,
+      "serv": 4,
+      "desc": "Le crunch du bacon grillé associé au jambon et fromage frais — un wrap gourmand et généreux.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "150 g de fromage frais",
+        "6 tranches de jambon blanc",
+        "8 tranches de bacon grillé et croustillant",
+        "Cheddar râpé",
+        "Roquette ou salade"
+      ],
+      "steps": "Faire griller le bacon jusqu'à ce qu'il soit bien croustillant. Égoutter sur papier absorbant.\nÉtaler le fromage frais sur les tortillas.\nDéposer jambon, bacon émietté, cheddar et roquette.\nRouler, couper et servir immédiatement pour garder le crunch."
+    },
+    {
+      "id": "wrap:003",
+      "t": "Wrap Poulet Cheddar",
+      "cat": "Wrap, Apéritif",
+      "min": 15,
+      "serv": 4,
+      "desc": "Poulet grillé ou rôti, cheddar et fromage frais — le wrap protéiné par excellence.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "150 g de fromage frais",
+        "200 g de poulet cuit (grillé ou rôti)",
+        "100 g de cheddar râpé",
+        "Salade verte",
+        "1 c. à soupe de sauce barbecue ou mayonnaise"
+      ],
+      "steps": "Trancher ou effilocher le poulet cuit.\nMélanger le fromage frais avec la sauce choisie.\nÉtaler sur les tortillas, déposer poulet, cheddar et salade.\nRouler serré et couper en biseau.\n\n💡 Idéal pour utiliser les restes de poulet rôti."
+    },
+    {
+      "id": "wrap:004",
+      "t": "Wrap Jambon Épicé",
+      "cat": "Wrap, Apéritif",
+      "min": 10,
+      "serv": 4,
+      "desc": "Une touche de piment et d'épices pour relever le classique jambon-fromage frais.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "150 g de fromage frais",
+        "8 tranches de jambon blanc",
+        "1 c. à café de paprika fumé",
+        "½ c. à café de piment en poudre (ou Tabasco)",
+        "Salade, tomates cerises"
+      ],
+      "steps": "Mélanger le fromage frais avec paprika et piment.\nÉtaler sur les tortillas.\nDéposer le jambon, la salade et les tomates cerises coupées.\nRouler et déguster.\n\n💡 Ajuster le niveau de piment selon les goûts."
+    },
+    {
+      "id": "wrap:005",
+      "t": "Wrap Jambon & Cornichons",
+      "cat": "Wrap, Apéritif",
+      "min": 10,
+      "serv": 4,
+      "desc": "Le mariage acide-salé du cornichon avec le jambon et le fromage frais — frais et savoureux.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "150 g de fromage frais",
+        "8 tranches de jambon blanc",
+        "8 cornichons en rondelles",
+        "1 c. à café de moutarde à l'ancienne",
+        "Ciboulette ciselée"
+      ],
+      "steps": "Mélanger le fromage frais avec la moutarde et la ciboulette.\nÉtaler sur les tortillas.\nDéposer le jambon et les rondelles de cornichon.\nRouler et couper. Servir frais."
+    },
+    {
+      "id": "wrap:006",
+      "t": "Wrap Cheddar & Herbes",
+      "cat": "Wrap, Apéritif",
+      "min": 10,
+      "serv": 4,
+      "desc": "Version végétarienne parfumée — fromage frais aux herbes fraîches et cheddar fondant.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "150 g de fromage frais",
+        "100 g de cheddar râpé",
+        "Ciboulette, persil, coriandre (au choix)",
+        "Tomates en rondelles",
+        "Poivron rouge rôti en lamelles"
+      ],
+      "steps": "Mélanger le fromage frais avec les herbes fraîches ciselées.\nÉtaler sur les tortillas.\nDéposer le cheddar, les tomates et le poivron rôti.\nRouler et couper.\n\n💡 Excellent en version froide pour un pique-nique."
+    },
+    {
+      "id": "wrap:007",
+      "t": "Wrap Jambon Raclette",
+      "cat": "Wrap, Apéritif",
+      "min": 12,
+      "serv": 4,
+      "desc": "Le fromage à raclette fondu dans un wrap — la montagne en format tortilla.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "100 g de fromage frais",
+        "8 tranches de jambon blanc",
+        "150 g de fromage à raclette en tranches",
+        "2 petites pommes de terre cuites en rondelles"
+      ],
+      "steps": "Préchauffer le four à 180°C ou le grill.\nÉtaler le fromage frais sur les tortillas.\nDéposer jambon, rondelles de pomme de terre et raclette.\nPlier en demi-lune et passer 3-4 min sous le grill pour faire fondre le fromage.\nServir chaud.\n\n💡 Variante : faire chauffer dans une poêle sans matière grasse."
+    },
+    {
+      "id": "wrap:008",
+      "t": "Wrap Jambon Parmesan",
+      "cat": "Wrap, Apéritif",
+      "min": 10,
+      "serv": 4,
+      "desc": "L'élégance du parmesan sur fond de jambon et fromage frais — apéritif chic et rapide.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "150 g de fromage frais",
+        "6 tranches de jambon blanc",
+        "40 g de parmesan râpé",
+        "Roquette",
+        "Quelques gouttes d'huile d'olive",
+        "Poivre du moulin"
+      ],
+      "steps": "Étaler le fromage frais sur les tortillas.\nDéposer le jambon, arroser d'un filet d'huile d'olive.\nParsemer de parmesan et ajouter la roquette.\nPoivrer généreusement. Rouler et couper."
+    },
+    {
+      "id": "wrap:009",
+      "t": "Wrap Méditerranéen",
+      "cat": "Wrap, Apéritif",
+      "min": 12,
+      "serv": 4,
+      "desc": "Houmous ou tapenade, tomates séchées, olives et feta — les saveurs de la Méditerranée en wrap.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "4 c. à soupe de houmous (ou fromage frais)",
+        "100 g de feta émiettée",
+        "Tomates cerises coupées",
+        "Olives noires",
+        "Poivron rouge en lanières",
+        "Feuilles de basilic"
+      ],
+      "steps": "Étaler le houmous ou fromage frais sur les tortillas.\nRépartir feta, tomates, olives, poivron et basilic.\nRouler serré et couper en tronçons.\n\n💡 Ajouter une c. à café de tapenade pour plus d'intensité."
+    },
+    {
+      "id": "wrap:010",
+      "t": "Wrap Jambon Tomates Séchées",
+      "cat": "Wrap, Apéritif",
+      "min": 10,
+      "serv": 4,
+      "desc": "Les tomates séchées apportent une douceur acidulée et concentrée qui sublime le jambon.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "150 g de fromage frais",
+        "8 tranches de jambon blanc",
+        "6 tomates séchées à l'huile, égouttées et ciselées",
+        "Salade ou roquette",
+        "Basilic frais"
+      ],
+      "steps": "Mélanger le fromage frais avec les tomates séchées ciselées et le basilic.\nÉtaler sur les tortillas.\nDéposer le jambon et la roquette.\nRouler et couper."
+    },
+    {
+      "id": "wrap:011",
+      "t": "Wrap Jambon & Maïs",
+      "cat": "Wrap, Apéritif",
+      "min": 10,
+      "serv": 4,
+      "desc": "La douceur sucrée du maïs avec jambon et fromage frais — coloré, équilibré, apprécié de tous.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "150 g de fromage frais",
+        "8 tranches de jambon blanc",
+        "80 g de maïs en boîte, égoutté",
+        "Salade iceberg",
+        "1 c. à café de jus de citron"
+      ],
+      "steps": "Mélanger le fromage frais avec le jus de citron.\nÉtaler sur les tortillas.\nDéposer jambon, maïs et salade.\nRouler et couper en tronçons.\n\n💡 Ajouter un peu de poivron rouge haché pour la couleur."
+    },
+    {
+      "id": "wrap:012",
+      "t": "Wrap Jambon Curry Doux",
+      "cat": "Wrap, Apéritif",
+      "min": 10,
+      "serv": 4,
+      "desc": "Une pointe de curry dans le fromage frais transforme un wrap simple en bouchée exotique.",
+      "ing": [
+        "4 grandes tortillas de blé",
+        "150 g de fromage frais",
+        "8 tranches de jambon blanc",
+        "1 c. à café de curry doux",
+        "Raisins secs (optionnel)",
+        "Salade verte"
+      ],
+      "steps": "Mélanger le fromage frais avec le curry.\nÉtaler sur les tortillas.\nDéposer le jambon, quelques raisins secs et la salade.\nRouler et couper.\n\n💡 Le raisin sec apporte une note sucrée qui équilibre le curry — inattendu mais délicieux."
+    },
+    {
+      "id": "shake:001",
+      "t": "Milkshake Chocolat",
+      "cat": "Milkshake, Boisson",
+      "min": 5,
+      "serv": 2,
+      "desc": "Le grand classique — intense, onctueux, chocolaté à souhait. La base de tout bon milkshake.",
+      "ing": [
+        "3 boules de glace chocolat",
+        "200 ml de lait entier froid",
+        "2 c. à soupe de pâte à tartiner (Nutella ou similaire)",
+        "Chantilly (optionnel)"
+      ],
+      "steps": "Mettre la glace, le lait et la pâte à tartiner dans le blender.\nMixer 30 secondes jusqu'à consistance lisse et épaisse.\nAjouter un peu de lait si trop épais.\nVerser dans des grands verres. Garnir de chantilly et copeaux de chocolat si souhaité.\n\n💡 Plus la glace est ferme (sortie du congélateur), plus le shake est épais."
+    },
+    {
+      "id": "shake:002",
+      "t": "Milkshake Fraise",
+      "cat": "Milkshake, Boisson",
+      "min": 5,
+      "serv": 2,
+      "desc": "Fruité, rose et rafraîchissant — idéal avec des fraises fraîches de saison ou surgelées.",
+      "ing": [
+        "3 boules de glace fraise ou vanille",
+        "150 ml de lait entier froid",
+        "150 g de fraises (fraîches ou surgelées décongelées)",
+        "1 c. à soupe de sucre (si fraises peu sucrées)"
+      ],
+      "steps": "Laver et équeuter les fraises.\nMixer fraises, glace, lait (et sucre si besoin) jusqu'à consistance onctueuse.\nAjuster le lait pour la texture souhaitée.\nServir immédiatement, décoré d'une fraise sur le bord du verre."
+    },
+    {
+      "id": "shake:003",
+      "t": "Milkshake Vanille Caramel",
+      "cat": "Milkshake, Boisson",
+      "min": 5,
+      "serv": 2,
+      "desc": "La douceur vanillée rencontre le caramel beurre salé — un milkshake régressif et gourmand.",
+      "ing": [
+        "3 boules de glace vanille",
+        "200 ml de lait entier froid",
+        "3 c. à soupe de caramel beurre salé (maison ou du commerce)",
+        "Chantilly, fleur de sel"
+      ],
+      "steps": "Mixer glace vanille, lait et 2 c. à soupe de caramel jusqu'à consistance crémeuse.\nVerser dans des grands verres.\nNapper de caramel restant, ajouter chantilly et une pincée de fleur de sel.\n\n💡 Pour un effet wahou : faire couler le caramel sur les parois du verre avant de verser le shake."
+    },
+    {
+      "id": "shake:004",
+      "t": "Milkshake Oreo",
+      "cat": "Milkshake, Boisson",
+      "min": 5,
+      "serv": 2,
+      "desc": "Biscuits Oreo mixés dans la glace vanille — épais, gourmand, inratable.",
+      "ing": [
+        "3 boules de glace vanille",
+        "180 ml de lait entier froid",
+        "8 biscuits Oreo",
+        "Chantilly et biscuits Oreo entiers pour décorer"
+      ],
+      "steps": "Réserver 2 biscuits pour la déco.\nMixer les 6 autres Oreo grossièrement.\nAjouter glace, lait et Oreo concassés dans le blender. Mixer.\nNe pas trop mixer pour garder des morceaux de biscuit.\nGarnir de chantilly et Oreo."
+    },
+    {
+      "id": "shake:005",
+      "t": "Milkshake Pistache",
+      "cat": "Milkshake, Boisson",
+      "min": 5,
+      "serv": 2,
+      "desc": "Saveur pistache délicate et légèrement salée — le milkshake des gourmets.",
+      "ing": [
+        "3 boules de glace pistache",
+        "180 ml de lait entier froid",
+        "2 c. à soupe de pâte de pistache (ou pistaches mixées)",
+        "Pistaches concassées pour décorer"
+      ],
+      "steps": "Mixer glace pistache, lait et pâte de pistache jusqu'à consistance onctueuse.\nVerser dans des grands verres.\nDécorer de pistaches concassées et servir immédiatement.\n\n💡 La pâte de pistache (sans sucre ajouté) intensifie la saveur. Disponible en épiceries fines."
+    },
+    {
+      "id": "shake:006",
+      "t": "Milkshake Banane Chocolat",
+      "cat": "Milkshake, Boisson",
+      "min": 5,
+      "serv": 2,
+      "desc": "Le duo banane-chocolat en version frappée — naturellement sucré, épais et fondant.",
+      "ing": [
+        "2 boules de glace chocolat",
+        "1 banane bien mûre (congelée de préférence)",
+        "200 ml de lait entier froid",
+        "1 c. à soupe de cacao en poudre"
+      ],
+      "steps": "Peler et couper la banane (de préférence congelée pour un shake plus épais).\nMixer banane, glace chocolat, lait et cacao.\nAjuster la texture avec le lait.\nServir décoré de rondelles de banane et copeaux de chocolat.\n\n💡 Congeler les bananes mûres en tranches : prêtes à l'emploi et plus sucrées."
+    },
+    {
+      "id": "shake:007",
+      "t": "Milkshake Myrtille",
+      "cat": "Milkshake, Boisson",
+      "min": 5,
+      "serv": 2,
+      "desc": "Violet intense, antioxydants, saveur légèrement acidulée — le milkshake le plus coloré.",
+      "ing": [
+        "2 boules de glace vanille ou myrtille",
+        "150 g de myrtilles (fraîches ou surgelées)",
+        "180 ml de lait entier froid",
+        "1 c. à soupe de sirop de cassis (optionnel)"
+      ],
+      "steps": "Mixer myrtilles, glace, lait (et sirop si souhaité) jusqu'à consistance onctueuse.\nLa couleur sera d'un violet profond.\nServir immédiatement garni de quelques myrtilles fraîches."
+    },
+    {
+      "id": "shake:008",
+      "t": "Milkshake Café",
+      "cat": "Milkshake, Boisson",
+      "min": 5,
+      "serv": 2,
+      "desc": "Le café froid et crémeux version milkshake — le pick-me-up parfait pour les amateurs de café.",
+      "ing": [
+        "3 boules de glace café ou vanille",
+        "1 expresso froid (ou 1 c. à café de café soluble dans 30ml d'eau)",
+        "150 ml de lait entier froid",
+        "Chantilly, chocolat râpé"
+      ],
+      "steps": "Préparer l'expresso et laisser refroidir.\nMixer glace, lait et expresso froid jusqu'à consistance crémeuse.\nVerser dans de grands verres, garnir de chantilly et chocolat râpé.\n\n💡 Ajouter un trait de liqueur Baileys pour une version adulte."
+    },
+    {
+      "id": "shake:009",
+      "t": "Milkshake Fruits Rouges",
+      "cat": "Milkshake, Boisson",
+      "min": 5,
+      "serv": 2,
+      "desc": "Un mélange fruité de fraises, framboises et myrtilles — acidulé, vitaminé et très coloré.",
+      "ing": [
+        "2 boules de glace vanille ou sorbet fruits rouges",
+        "200 g de fruits rouges mélangés (fraises, framboises, myrtilles)",
+        "150 ml de lait (ou lait végétal)",
+        "1 c. à soupe de miel ou sucre"
+      ],
+      "steps": "Mixer tous les fruits rouges avec la glace, le lait et le miel.\nFiltrer si désiré pour retirer les pépins de framboise.\nServir décoré de fruits frais.\n\n💡 Version sorbet : remplacer la glace vanille par du sorbet framboise pour encore plus d'intensité."
+    },
+    {
+      "id": "shake:010",
+      "t": "Milkshake Noix de Coco & Ananas",
+      "cat": "Milkshake, Boisson",
+      "min": 5,
+      "serv": 2,
+      "desc": "Tropical et exotique — le Piña Colada des milkshakes, sans alcool et super frais.",
+      "ing": [
+        "2 boules de glace coco ou vanille",
+        "150 g d'ananas (frais ou en boîte égoutté)",
+        "100 ml de lait de coco",
+        "80 ml de lait entier froid",
+        "Noix de coco râpée pour décorer"
+      ],
+      "steps": "Mixer ananas, glace, lait de coco et lait entier jusqu'à consistance onctueuse.\nVerser dans des grands verres givrants (passés au congélateur 10 min).\nDécorer de noix de coco râpée et d'une tranche d'ananas.\n\n💡 Congeler les dés d'ananas à l'avance pour un shake encore plus frais et épais."
+    },
+    {
+      "id": "mar:001",
+      "t": "Marinade Poulet Citron & Herbes",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "La marinade la plus fraîche — jus de citron, huile d'olive, ail et herbes. Idéale pour le poulet grillé ou en papillote.",
+      "ing": [
+        "4 blancs ou cuisses de poulet",
+        "3 c. à soupe de jus de citron (1 citron)",
+        "3 c. à soupe d'huile d'olive",
+        "2 gousses d'ail écrasées",
+        "1 c. à soupe de persil haché",
+        "1 c. à café de thym",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger citron, huile, ail, persil et thym.\nInciser légèrement la chair du poulet pour que la marinade pénètre.\nEnrober le poulet et laisser mariner 30 min minimum (2h idéalement).\n\n🔥 CUISSON\nGrill ou four 200°C : 20-25 min pour des blancs, 30-35 min pour des cuisses.\nArroser de temps en temps avec le reste de marinade.\n\n💡 Zester le citron pour plus d'intensité aromatique."
+    },
+    {
+      "id": "mar:002",
+      "t": "Marinade Poulet Moutarde & Miel",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "L'équilibre sucré-piquant de la moutarde et du miel — une marinade caramélisée qui plaît à tous.",
+      "ing": [
+        "4 morceaux de poulet",
+        "3 c. à soupe de moutarde (de Dijon ou à l'ancienne)",
+        "2 c. à soupe de miel",
+        "2 c. à soupe d'huile d'olive",
+        "2 gousses d'ail",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger moutarde, miel, huile et ail émincé.\nBadigeonner généreusement le poulet.\nMariner 30 min à 2h au réfrigérateur.\n\n🔥 CUISSON\nFour 200°C : 25-30 min. La surface caramélise — c'est voulu !\nRetourner à mi-cuisson pour une dorure uniforme.\n\n💡 La moutarde à l'ancienne donne une texture plus rustique et moins piquante."
+    },
+    {
+      "id": "mar:003",
+      "t": "Marinade Poulet Herbes de Provence",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "Le soleil du Midi en marinade — herbes de Provence, huile d'olive, ail et romarin pour un poulet parfumé.",
+      "ing": [
+        "4 morceaux de poulet",
+        "4 c. à soupe d'huile d'olive",
+        "2 c. à soupe d'herbes de Provence",
+        "3 gousses d'ail émincées",
+        "1 brin de romarin frais",
+        "Zeste d'un citron",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger huile, herbes, ail, romarin effeuillé et zeste de citron.\nFrotter généreusement le poulet avec ce mélange.\nMariner 30 min à 2h au frais.\n\n🔥 CUISSON\nFour 200°C ou grill : 25-35 min selon la taille des morceaux.\nLa peau (si présente) doit être bien dorée et croustillante.\n\n💡 Excellent avec des pommes de terre en rondelles cuites dans la même lèchefrite."
+    },
+    {
+      "id": "mar:004",
+      "t": "Marinade Poulet Tikka Masala",
+      "cat": "Marinade, Accompagnement",
+      "min": 40,
+      "serv": 4,
+      "desc": "La marinade au yaourt et épices indiennes qui attendrit la chair et colore magnifiquement le poulet.",
+      "ing": [
+        "4 morceaux de poulet",
+        "150 g de yaourt nature",
+        "2 c. à soupe d'épices tikka masala (ou curry)",
+        "1 c. à soupe de jus de citron",
+        "2 gousses d'ail râpées",
+        "1 c. à café de gingembre râpé",
+        "Sel"
+      ],
+      "steps": "Mélanger yaourt, épices tikka, citron, ail et gingembre.\nInciser profondément la chair et enrober de marinade.\nMariner 2h minimum (idéalement une nuit au frigo).\n\n🔥 CUISSON\nFour 220°C : 25-30 min. Le yaourt caramélise en surface.\nOu grill très chaud pour des marques de charbon.\n\n💡 Le yaourt attendrit la viande et empêche le dessèchement — ne pas écourter la marinade."
+    },
+    {
+      "id": "mar:005",
+      "t": "Marinade Poulet Teriyaki",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "La sauce japonaise laquée — soja, miel, gingembre et ail pour un poulet brillant et savoureux.",
+      "ing": [
+        "4 blancs de poulet",
+        "4 c. à soupe de sauce soja",
+        "2 c. à soupe de miel",
+        "1 c. à café de gingembre frais râpé",
+        "2 gousses d'ail râpées",
+        "1 c. à soupe d'huile de sésame",
+        "Graines de sésame pour servir"
+      ],
+      "steps": "Mélanger soja, miel, gingembre, ail et huile de sésame.\nFaire mariner le poulet 30 min à 1h.\n\n🔥 CUISSON POÊLE (méthode idéale)\nDorer le poulet 5 min côté lisse dans une poêle bien chaude.\nRetourner, verser le reste de marinade. Cuire 5-7 min à feu moyen en arrosant souvent.\nLa sauce se concentre et laque le poulet.\n\nServir avec du riz blanc et parsemer de graines de sésame."
+    },
+    {
+      "id": "mar:006",
+      "t": "Marinade Poulet BBQ",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "La marinade barbecue fumée et légèrement sucrée — parfaite pour le grill ou l'airfryer.",
+      "ing": [
+        "4 morceaux de poulet",
+        "4 c. à soupe de sauce barbecue",
+        "2 c. à soupe d'huile",
+        "1 c. à café de paprika fumé",
+        "½ c. à café d'ail en poudre",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger sauce BBQ, huile, paprika fumé et ail en poudre.\nBadigeonner généreusement le poulet.\nMariner 30 min à 2h au frais.\n\n🔥 CUISSON GRILL ou AIRFRYER\nGrill : 25-35 min selon les morceaux, retourner à mi-cuisson.\nAirfryer 200°C : 18-22 min pour des blancs, 25-28 min pour des cuisses.\nBadigeonner de sauce supplémentaire en fin de cuisson pour lacquer.\n\n💡 Ajouter 1 c. à café de sauce Worcestershire pour plus de profondeur."
+    },
+    {
+      "id": "mar:007",
+      "t": "Marinade Poulet Lime & Chili",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "La marinade mexicaine piquante et acidulée — lime, piment, coriandre et ail pour un poulet vibrant.",
+      "ing": [
+        "4 morceaux de poulet",
+        "Jus de 2 limes (ou citrons verts)",
+        "1-2 piments (frais ou flocons)",
+        "1 c. à soupe de coriandre fraîche ciselée",
+        "3 gousses d'ail",
+        "3 c. à soupe d'huile d'olive",
+        "Sel"
+      ],
+      "steps": "Mixer ou mélanger jus de lime, piment, coriandre, ail et huile.\nInciser la chair du poulet pour que les saveurs pénètrent.\nMariner 30 min à 2h au frais.\n\n🔥 CUISSON\nGrill très chaud ou poêle : 20-25 min pour des blancs.\nLa lime caramélise et donne un aspect légèrement doré.\n\nServir avec guacamole, riz ou tortillas.\n💡 Remplacer les piments frais par ½ c. à café de cayenne selon disponibilité."
+    },
+    {
+      "id": "italie:sauce:001",
+      "t": "Sauce Marinara",
+      "cat": "Italie, Sauce",
+      "min": 25,
+      "serv": 4,
+      "desc": "La sauce tomate de base — simple, goûteuse, rapide. Tomates, ail, basilic : l'âme de la cuisine italienne.",
+      "ing": [
+        "400 g de tomates concassées (boîte ou fraîches)",
+        "3 gousses d'ail",
+        "3 c. à soupe d'huile d'olive",
+        "Feuilles de basilic frais",
+        "Sel, poivre, sucre (pincée)"
+      ],
+      "steps": "Faire revenir l'ail émincé dans l'huile à feu doux 2 min sans coloration.\nAjouter les tomates, sel, poivre et pincée de sucre.\nLaisser mijoter 15-20 min à feu moyen.\nHors du feu, ajouter le basilic frais. Mixe optionnel.\n\n💡 Base de toutes les pizzas et pâtes à la tomate. Se conserve 5 jours au frigo."
+    },
+    {
+      "id": "italie:sauce:002",
+      "t": "Sauce Bolognese",
+      "cat": "Italie, Sauce",
+      "min": 90,
+      "serv": 6,
+      "desc": "Le ragù bolognais authentique — mijoté longuement, viande et légumes fondants, sauce onctueuse.",
+      "ing": [
+        "400 g de bœuf haché (ou mélange bœuf/veau)",
+        "100 g de pancetta ou lardons",
+        "1 oignon, 2 carottes, 2 branches de céleri",
+        "150 ml de vin rouge",
+        "400 g de tomates concassées",
+        "2 c. à soupe de concentré de tomates",
+        "200 ml de lait",
+        "Huile d'olive, sel, poivre"
+      ],
+      "steps": "Faire revenir pancetta. Ajouter légumes émincés, cuire 10 min.\nAjouter la viande, dorer en cassant les grumeaux.\nDéglacer au vin, laisser évaporer.\nAjouter tomates, concentré, sel, poivre.\nMijoter 1h30 à feu très doux.\nEn fin de cuisson, incorporer le lait (adoucit l'acidité).\n\n💡 La vraie bolognaise se mange avec des tagliatelles fraîches, pas des spaghettis."
+    },
+    {
+      "id": "italie:sauce:003",
+      "t": "Pesto Genovese",
+      "cat": "Italie, Sauce",
+      "min": 10,
+      "serv": 4,
+      "desc": "Le pesto authentique de Gênes — basilic frais, pignons, parmesan et huile d'olive. Sans cuisson.",
+      "ing": [
+        "50 g de feuilles de basilic frais",
+        "3 c. à soupe de pignons de pin",
+        "50 g de parmesan râpé (ou pecorino)",
+        "1 gousse d'ail",
+        "100 ml d'huile d'olive extra vierge",
+        "Sel, poivre"
+      ],
+      "steps": "Idéalement : écraser au mortier (texture authentique et plus parfumée).\nOu mixer (rapide) : basilic, pignons, ail et parmesan en pulsant.\nIncorporer l'huile en filet pour une texture onctueuse.\nAssaisonner. Ne pas chauffer — le pesto se sert à température ambiante.\n\n💡 Diluer avec 1-2 c. à soupe d'eau de cuisson des pâtes pour mieux enrober.\n💡 Se congèle très bien en cubes à glaçons."
+    },
+    {
+      "id": "italie:sauce:004",
+      "t": "Sauce Alfredo",
+      "cat": "Italie, Sauce",
+      "min": 15,
+      "serv": 4,
+      "desc": "Beurre, parmesan et eau de cuisson — la sauce la plus simple et la plus crémeuse d'Italie.",
+      "ing": [
+        "80 g de beurre",
+        "100 g de parmesan fraîchement râpé",
+        "200 ml d'eau de cuisson des pâtes (réservée)",
+        "Sel, poivre blanc",
+        "Muscade (optionnel)"
+      ],
+      "steps": "Cuire les pâtes al dente, réserver 200 ml d'eau de cuisson.\nDans la même casserole hors du feu, mettre le beurre en dés.\nAjouter les pâtes égouttées, le parmesan et l'eau de cuisson peu à peu.\nMélanger vigoureusement — l'amidon crée une sauce crémeuse sans crème.\nAssaisonner, muscade si souhaité.\n\n💡 Pas de crème fraîche dans l'authentique Alfredo — c'est l'eau de cuisson qui lie."
+    },
+    {
+      "id": "italie:sauce:005",
+      "t": "Sauce Arrabbiata",
+      "cat": "Italie, Sauce",
+      "min": 20,
+      "serv": 4,
+      "desc": "La marinara qui « met en rage » — relevée au piment, simple et puissante.",
+      "ing": [
+        "400 g de tomates concassées",
+        "3 gousses d'ail",
+        "1 à 2 piments secs (peperoncino) ou flocons de piment",
+        "3 c. à soupe d'huile d'olive",
+        "Sel, persil pour servir"
+      ],
+      "steps": "Faire revenir l'ail et le piment dans l'huile 2 min.\nAjouter les tomates, sel. Mijoter 15-18 min.\nServir sur des penne (pasta traditionnelle pour l'arrabbiata).\nParsemer de persil haché.\n\n💡 Sans fromage — la tradition interdit le parmesan sur les pâtes au poisson ou épicées."
+    },
+    {
+      "id": "italie:sauce:006",
+      "t": "Sauce Pomodoro",
+      "cat": "Italie, Sauce",
+      "min": 15,
+      "serv": 4,
+      "desc": "La sauce tomate la plus pure — tomates fraîches en saison, huile, sel. Minimalisme absolu.",
+      "ing": [
+        "600 g de tomates fraîches bien mûres (ou San Marzano)",
+        "2 gousses d'ail",
+        "4 c. à soupe d'huile d'olive extra vierge",
+        "Basilic frais",
+        "Sel"
+      ],
+      "steps": "Blanchir les tomates 30 sec, peler et épépiner.\nConcasser grossièrement.\nChauffer l'huile avec l'ail, ajouter les tomates.\nCuire 10 min à feu vif pour concentrer.\nFinir avec le basilic, ajuster le sel.\n\n💡 La différence entre pomodoro et marinara : le pomodoro est plus court, plus frais, moins mijoté."
+    },
+    {
+      "id": "italie:sauce:007",
+      "t": "Aglio e Olio",
+      "cat": "Italie, Sauce",
+      "min": 12,
+      "serv": 4,
+      "desc": "Ail et huile — la sauce spaghetti la plus simple, la plus rapide et la plus emblématique de Naples.",
+      "ing": [
+        "6 gousses d'ail finement émincées",
+        "100 ml d'huile d'olive extra vierge",
+        "1 pincée de piment (peperoncino)",
+        "Eau de cuisson des pâtes",
+        "Persil plat haché",
+        "Sel, parmesan (optionnel)"
+      ],
+      "steps": "Faire revenir l'ail à feu très doux dans l'huile — doit blondir légèrement, jamais bruler.\nAjouter le piment. Couper le feu.\nMélanger avec les spaghettis égouttés et quelques c. à soupe d'eau de cuisson.\nParsemer de persil.\n\n💡 La règle : ail blond = parfumé / ail brun = amer. Surveiller attentivement."
+    },
+    {
+      "id": "italie:sauce:008",
+      "t": "Besciamella (Béchamel Italienne)",
+      "cat": "Italie, Sauce",
+      "min": 15,
+      "serv": 6,
+      "desc": "La béchamel à l'italienne — indispensable pour les lasagnes, légèrement plus épaisse et parfumée à la muscade.",
+      "ing": [
+        "50 g de beurre",
+        "50 g de farine",
+        "500 ml de lait entier chaud",
+        "Muscade fraîche râpée",
+        "Sel, poivre blanc"
+      ],
+      "steps": "Faire fondre le beurre, ajouter la farine d'un coup. Remuer 1 min (roux blanc).\nVerser le lait chaud petit à petit en fouettant sans arrêt.\nCuire à feu moyen en remuant jusqu'à épaississement (5-7 min).\nAssaisonner sel, poivre blanc, muscade généreuse.\n\n💡 Pour les lasagnes : faire une besciamella assez fluide (un peu plus de lait) car elle épaissit à la cuisson."
+    },
+    {
+      "id": "italie:sauce:009",
+      "t": "Sauce Amatriciana",
+      "cat": "Italie, Sauce",
+      "min": 30,
+      "serv": 4,
+      "desc": "Guanciale (ou pancetta), tomates, pecorino — la sauce romaine emblématique, fumée et savoureuse.",
+      "ing": [
+        "150 g de guanciale (joue de porc) ou pancetta",
+        "400 g de tomates concassées",
+        "50 g de pecorino romano râpé",
+        "1 piment sec (optionnel)",
+        "Sel, poivre",
+        "Huile d'olive (peu)"
+      ],
+      "steps": "Faire revenir le guanciale en lardons à feu moyen jusqu'à dorure et rendu du gras.\nAjouter le piment, puis les tomates.\nMijoter 20 min. Assaisonner.\nMélanger avec les bucatini (pasta traditionnelle).\nFinir avec le pecorino — pas de parmesan dans l'authentique.\n\n💡 Le guanciale est la joue de porc séchée — plus gras et parfumé que la pancetta."
+    },
+    {
+      "id": "italie:sauce:010",
+      "t": "Sauce Crème Saumon",
+      "cat": "Italie, Sauce",
+      "min": 20,
+      "serv": 4,
+      "desc": "Saumon fumé ou frais, crème fraîche et aneth — élégante et prête en 20 minutes.",
+      "ing": [
+        "200 g de saumon fumé ou frais en dés",
+        "200 ml de crème liquide",
+        "1 échalote",
+        "1 c. à soupe de beurre",
+        "Aneth frais",
+        "Zeste de citron",
+        "Sel, poivre"
+      ],
+      "steps": "Faire fondre l'échalote dans le beurre 3 min.\nSi saumon frais : saisir 2-3 min. Si fumé : ajouter hors du feu.\nVerser la crème, laisser réduire 3-5 min.\nAjouter zeste de citron, aneth, assaisonner.\nServir sur des tagliatelles ou pappardelle.\n\n💡 Avec du saumon fumé : l'ajouter en tout dernier pour ne pas surcuire."
+    },
+    {
+      "id": "italie:sauce:011",
+      "t": "Sauce Crème aux Champignons",
+      "cat": "Italie, Sauce",
+      "min": 20,
+      "serv": 4,
+      "desc": "Champignons sautés, crème et ail — la sauce forestière italienne, simple et réconfortante.",
+      "ing": [
+        "300 g de champignons (de Paris, shiitake, ou mélange)",
+        "200 ml de crème liquide",
+        "2 gousses d'ail",
+        "2 c. à soupe de beurre",
+        "Persil haché",
+        "Sel, poivre, parmesan"
+      ],
+      "steps": "Faire sauter les champignons à feu vif dans le beurre jusqu'à évaporation de l'eau (8 min).\nAjouter l'ail, cuire 1 min.\nVerser la crème, réduire 3-4 min.\nAssaisonner, parsemer de persil.\nServir avec tagliatelles ou pappardelle. Parmesan à table.\n\n💡 Ne pas saler en début de cuisson — les champignons rendraient trop d'eau."
+    },
+    {
+      "id": "italie:sauce:012",
+      "t": "Sauce Vodka (Pasta alla Vodka)",
+      "cat": "Italie, Sauce",
+      "min": 25,
+      "serv": 4,
+      "desc": "La sauce rose crémeuse tomate-vodka qui a conquis les réseaux — rose, intense, légèrement piquante.",
+      "ing": [
+        "400 g de tomates concassées",
+        "100 ml de vodka",
+        "200 ml de crème liquide entière",
+        "3 gousses d'ail",
+        "½ oignon",
+        "Parmesan râpé",
+        "Flocons de piment, beurre, sel"
+      ],
+      "steps": "Faire revenir oignon et ail dans le beurre 5 min.\nAjouter les tomates et flocons de piment, cuire 10 min.\nAjouter la vodka, laisser évaporer 2-3 min (brûler l'alcool).\nIncorporer la crème, mijoter 5 min jusqu'à sauce rose onctueuse.\nFinir avec le parmesan, assaisonner.\nServir avec des rigatoni.\n\n💡 La vodka libère les arômes liposolubles de la tomate inaccessibles à l'eau — pas juste de l'alcool."
     }
   ]
 }
