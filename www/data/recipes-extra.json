@@ -1416,6 +1416,102 @@
       "desc": "Cuire un plat longtemps à feu très doux avec de la vapeur visible mais sans ébullition turbulente. Le mijotage développe les saveurs par l'osmose, l'infusion et la concentration progressive.",
       "ing": [],
       "steps": "🔬 LE PRINCIPE\nMijoter = maintenir à 80-95°C (frémissement léger). C'est moins chaud que l'ébullition (100°C) mais plus régulier. Cette température transforme les fibres coriaces sans les durcir, permet aux arômes de s'infuser, et concentre la sauce progressivement.\n\n🥘 PLATS TAILLÉS POUR MIJOTER\nBœuf bourguignon, navarin d'agneau, blanquette de veau\nTajines, couscous, rougail saucisses\nRagoût de légumes, ratatouille\nSoupes et potages\nLentilles et légumineuses\nPot-au-feu, bouillabaisse\n\n📋 LA TECHNIQUE\n1. Faire revenir les aromates et viandes à feu vif d'abord (Maillard)\n2. Mouiller avec fond, vin, eau\n3. Porter à ébullition\n4. Réduire immédiatement à feu très doux\n5. Couvrir partiellement (vapeur s'échappe, sauce se concentre un peu)\n6. Maintenir le frémissement léger — jamais de gros bouillons\n7. Surveiller régulièrement, ajuster le feu si besoin\n\n🌡️ TEMPÉRATURES CIBLES\nFrémissement idéal : 85-90°C\nGros bouillons : éviter → la viande durcit, la sauce devient grasse et trouble\n\nDURÉES SELON LES PLATS\nLégumineuses (lentilles) : 25-40 min\nLégumes durs (carottes, panais) : 20-30 min\nPoulet en morceaux : 40-50 min\nBœuf (joue, jarret) : 2h30-3h\nAgneau (épaule entière) : 3-4h\n\n❌ ERREURS CLASSIQUES\n— Gros bouillons → viande qui se défait trop tôt, sauce trouble\n— Feu trop bas → pas de cuisson réelle, juste eau tiède\n— Couvrir hermétiquement → sauce qui n'épaissit jamais, trop diluée\n— Saler trop tôt → légumineuses qui durcissent (sel en fin de cuisson)\n\n💡 ASTUCES DE PRO\n— Cocotte-minute : réduit les temps de 60-70% (3h de bœuf → 1h en autocuiseur)\n— La règle d'or : préparer la veille, réchauffer doucement → toujours meilleur\n— Bouquet garni (thym + laurier + persil) en début, retiré en fin\n— Dégraisser la sauce froide : mettre au frigo, la graisse fige en surface — retirer avec une cuillère"
+    },
+    {
+      "id": "af:016",
+      "t": "Flan Vanille Ultra Fondant — Airfryer",
+      "cat": "Airfryer, Dessert",
+      "min": 30,
+      "serv": 4,
+      "desc": "Flan vanille crémeux et fondant cuit à l'airfryer, en version ramequins individuels ou grand plat à partager. Centre légèrement tremblant = cuisson parfaite.",
+      "ing": [
+        "3 œufs",
+        "50 g de sucre",
+        "250 ml de lait",
+        "1 c. à café de vanille (extrait ou gousse)"
+      ],
+      "steps": "PRÉPARER L'APPAREIL\nBattre les œufs avec le sucre.\nAjouter le lait et la vanille, mélanger sans faire mousser.\nNe pas remplir les moules à ras bord — laisser 1 cm de marge.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 18 à 22 min\nLe centre doit trembler légèrement à la sortie — c'est normal.\nLaisser refroidir avant de déguster.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 28 à 35 min\nCouvrir d'une feuille d'aluminium ou cuire au bain-marie pour plus de fondant.\nLaisser bien refroidir avant de découper.\n\n💡 ASTUCES\nSi le dessus colore trop vite : baisser à 140-150°C.\nLe flan est prêt quand le centre tremble légèrement sous une légère secousse.\nMeilleur froid ou légèrement tiède."
+    },
+    {
+      "id": "af:017",
+      "t": "Crème aux Œufs Caramel Façon Bistrot — Airfryer",
+      "cat": "Airfryer, Dessert",
+      "min": 35,
+      "serv": 4,
+      "desc": "La crème caramel façon bistrot, cuisson rapide et précise à l'airfryer. Caramel dans le fond, démoulage wahou garanti.",
+      "ing": [
+        "3 œufs",
+        "50 g de sucre (pour l'appareil)",
+        "250 ml de lait",
+        "1 c. à café de vanille",
+        "80 g de sucre (pour le caramel)",
+        "2 c. à soupe d'eau"
+      ],
+      "steps": "PRÉPARER LE CARAMEL\nChauffer 80 g de sucre avec 2 c. à soupe d'eau à feu moyen sans remuer.\nDès la couleur ambrée, verser immédiatement dans le fond des moules.\nLaisser figer.\n\nPRÉPARER L'APPAREIL\nBattre les œufs avec 50 g de sucre.\nAjouter le lait et la vanille, mélanger sans faire mousser.\nVerser doucement sur le caramel figé.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 20 min\nLaisser refroidir complètement puis démouler pour un effet wahou !\nPasser une lame tout autour avant de retourner.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 30 à 35 min\nLaisser bien refroidir avant de découper.\nLe caramel se liquéfie à la découpe — effet bistrot garanti.\n\n💡 ASTUCE\nLa base de cet appareil est identique au Flan Vanille — seul le caramel change.\nPour un caramel plus foncé et amer : prolonger la cuisson du sucre de 30 secondes."
+    },
+    {
+      "id": "af:018",
+      "t": "Flan Chocolat Cœur Fondant — Airfryer",
+      "cat": "Airfryer, Dessert",
+      "min": 25,
+      "serv": 4,
+      "desc": "Flan au chocolat avec un cœur coulant fondant, cuit à l'airfryer. La clé : arrêter la cuisson quand le centre tremble encore. Délice absolu.",
+      "ing": [
+        "2 œufs",
+        "40 g de sucre",
+        "200 ml de lait",
+        "80 g de chocolat fondu (noir ou au lait)"
+      ],
+      "steps": "PRÉPARER L'APPAREIL\nFaire fondre le chocolat (micro-ondes 30 sec par 30 sec ou bain-marie).\nBattre les œufs avec le sucre.\nIncorporer le lait puis le chocolat fondu tiédi. Mélanger jusqu'à homogénéité.\nVerser dans les moules en laissant 1 cm de marge.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 160°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 12 à 15 min\nArrêter la cuisson quand le centre tremble encore légèrement — c'est la clé !\nLaisser reposer 5 min avant de servir tiède.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 160°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 20 à 25 min\nNe pas trop cuire pour garder le cœur fondant.\nVérifier en secouant doucement — le centre doit bouger.\n\n💡 ASTUCES\nChocolat 70% = résultat plus intense et moins sucré.\nServir avec une boule de glace vanille ou une crème anglaise.\nLe cœur se solidifie en refroidissant : mieux vaut servir tiède."
+    },
+    {
+      "id": "af:019",
+      "t": "Crème Banane Ultra Régressive — Airfryer",
+      "cat": "Airfryer, Dessert",
+      "min": 28,
+      "serv": 4,
+      "desc": "Crème onctueuse à la banane, douce et parfumée, option pépites de chocolat. Une douceur d'enfance cuite à l'airfryer en un rien de temps.",
+      "ing": [
+        "2 bananes bien mûres (tachées de noir = meilleures)",
+        "2 œufs",
+        "200 ml de lait",
+        "30 g de sucre",
+        "Option : pépites de chocolat"
+      ],
+      "steps": "PRÉPARER L'APPAREIL\nÉcraser les bananes en purée fine (ou mixer).\nBattre les œufs avec le sucre.\nAjouter le lait et la purée de banane, mélanger.\nRépartir dans les moules. Parsemer de pépites si souhaité.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 15 à 18 min\nTexture douce et parfumée, parfaite tiède ou froide.\nLe dessus doit être juste pris et légèrement doré.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 25 à 30 min\nSi le dessus colore trop vite : couvrir d'une feuille d'alu.\nServir tiède ou réfrigéré selon préférence.\n\n💡 ASTUCES\nPlus les bananes sont mûres, plus la crème est sucrée et parfumée — inutile d'en mettre plus.\nVersion glacée : placer au congélateur 30 min avant service pour une texture semifreddo."
+    },
+    {
+      "id": "af:020",
+      "t": "Flan Coco Façon Îles — Airfryer",
+      "cat": "Airfryer, Dessert",
+      "min": 30,
+      "serv": 4,
+      "desc": "Flan exotique au lait de coco et noix de coco râpée, texture légèrement granuleuse et parfum des îles. Simple, dépaysant, fondant.",
+      "ing": [
+        "2 œufs",
+        "200 ml de lait de coco",
+        "40 g de sucre",
+        "30 g de noix de coco râpée"
+      ],
+      "steps": "PRÉPARER L'APPAREIL\nBattre les œufs avec le sucre.\nAjouter le lait de coco et la noix de coco râpée, mélanger.\nVerser dans les moules en laissant 1 cm de marge.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 18 min\nUn parfum exotique et une texture légèrement granuleuse due à la noix de coco.\nLe centre doit trembler légèrement à la sortie.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 28 à 32 min\nLaisser tiédir pour un fondant absolu.\nServir froid pour une texture plus ferme.\n\n💡 ASTUCES\nAjouter 1 c. à soupe de rhum ambré pour une version adulte.\nServir avec un coulis de mangue ou d'ananas pour l'effet cocktail plage.\nLa noix de coco râpée remonte à la surface et dore légèrement — c'est voulu."
+    },
+    {
+      "id": "af:021",
+      "t": "Crème Pomme Cannelle Crumble Sans Pâte — Airfryer",
+      "cat": "Airfryer, Dessert",
+      "min": 28,
+      "serv": 4,
+      "desc": "Crème façon flan vanille aux dés de pomme et cannelle, avec crumble croustillant sur le dessus. Fondant dessous, croustillant dessus — un délice.",
+      "ing": [
+        "3 œufs",
+        "50 g de sucre",
+        "250 ml de lait",
+        "1 c. à café de vanille",
+        "1-2 pommes, coupées en petits dés",
+        "1 c. à café de cannelle",
+        "Option crumble : 40 g de farine, 30 g de sucre, 25 g de beurre froid en dés"
+      ],
+      "steps": "PRÉPARER L'APPAREIL\nBattre les œufs avec le sucre, ajouter lait et vanille.\nPeler et couper les pommes en très petits dés (cuisson plus homogène).\nDisposer les dés de pomme dans le fond des moules.\nSaupoudrer de cannelle.\nVerser l'appareil vanille dessus.\n\nCRUMBLE (optionnel)\nMélanger farine, sucre et beurre froid du bout des doigts jusqu'à texture sableuse.\nParsemer sur le dessus avant la cuisson.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 160°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 15 à 18 min\nCroustillant dessus, fondant dessous : un délice !\nVérifier la coloration du crumble.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 160°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 25 à 30 min\nSurveiller la coloration du crumble — couvrir d'alu si trop foncé.\nLaisser tiédir avant de servir pour que le crumble reste croustillant.\n\n💡 ASTUCES\nCouper les pommes très finement pour une cuisson homogène.\nRemplacer les pommes par des poires ou des coings en saison.\nAjouter une pincée de cardamome au crumble pour une touche orientale."
     }
   ]
 }
