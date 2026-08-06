@@ -2621,6 +2621,1050 @@
         "Flocons de piment, beurre, sel"
       ],
       "steps": "Faire revenir oignon et ail dans le beurre 5 min.\nAjouter les tomates et flocons de piment, cuire 10 min.\nAjouter la vodka, laisser évaporer 2-3 min (brûler l'alcool).\nIncorporer la crème, mijoter 5 min jusqu'à sauce rose onctueuse.\nFinir avec le parmesan, assaisonner.\nServir avec des rigatoni.\n\n💡 La vodka libère les arômes liposolubles de la tomate inaccessibles à l'eau — pas juste de l'alcool."
+    },
+    {
+      "id": "tech:016",
+      "t": "Les 10 façons de couper une courgette",
+      "cat": "Technique",
+      "min": 5,
+      "serv": 1,
+      "desc": "Maîtriser la découpe de la courgette change tout à la cuisson. 10 coupes classiques, leurs dimensions et leurs utilisations.",
+      "ing": [
+        "1 courgette bien ferme",
+        "Couteau bien aiguisé",
+        "Planche à découper"
+      ],
+      "steps": "BON À SAVOIR\nLaver la courgette avant de couper. Retirer les deux extrémités.\nInutile d'éplucher sauf si la peau est très épaisse.\nCouper des morceaux réguliers pour une cuisson homogène.\n\n① EN RONDELLES — 2 à 10 mm\nTranches perpendiculaires à la longueur.\n✔ Poêlées · Gratins · Ratatouille · Barbecue\n\n② EN DEMI-RONDELLES — 3 à 8 mm\nCouper la courgette en deux dans la longueur, puis en tranches.\n✔ Sautés de légumes · Soupes · Poêlées\n\n③ EN BÂTONNETS (Julienne épaisse) — ≈5 × 5 mm\nDécouper en morceaux de 5 à 8 cm de long, puis en bâtonnets.\n✔ Frites de courgettes · Apéritifs · Wok · Salades\n\n④ EN JULIENNE — ≈2 × 2 mm\nFins bâtonnets réguliers.\n✔ Salades · Garnitures · Wok · Rouleaux de printemps\n\n⑤ EN BRUNOISE — 2 à 3 mm\nPetits cubes obtenus à partir d'une julienne.\n✔ Farces · Sauces · Potages · Décoration des assiettes\n\n⑥ EN DÉS — 1 à 2 cm\nCubes plus gros que la brunoise.\n✔ Ratatouille · Couscous · Poêlées · Brochettes\n\n⑦ EN PAYSANNE — 1 à 2 mm\nMorceaux fins de forme carrée, triangulaire ou losange.\n✔ Potages · Garnitures · Cuisson rapide\n\n⑧ EN SIFFLET (biais) — 5 à 10 mm\nTranches coupées en diagonale.\n✔ Présentation soignée · Poêlées · Grillades\n\n⑨ EN LAMELLES — 1 à 3 mm\nFines tranches dans la longueur au couteau ou à l'économe.\n✔ Lasagnes de légumes · Carpaccio · Rouleaux · Grillades\n\n⑩ EN TAGLIATELLES — longues bandes\nLongues bandes obtenues avec un épluche-légumes ou une mandoline.\n✔ Salades · Pâtes de légumes · Accompagnements\n\n💡 ASTUCE : Pour une cuisson homogène, essayez de couper des morceaux de taille régulière."
+    },
+    {
+      "id": "tech:017",
+      "t": "Les 15 façons de couper une pomme de terre",
+      "cat": "Technique",
+      "min": 5,
+      "serv": 1,
+      "desc": "15 coupes de pomme de terre — de la brunoise à la spirale en passant par les fameuses allumettes. Chaque coupe a son usage précis.",
+      "ing": [
+        "Pommes de terre fermes",
+        "Couteau bien aiguisé ou mandoline",
+        "Planche à découper"
+      ],
+      "steps": "BON À SAVOIR\nLaver et éplucher les pommes de terre avant de couper.\nCouper des morceaux de taille régulière pour une cuisson homogène.\nUtiliser un couteau bien aiguisé ou une mandoline pour plus de précision.\n\n① EN RONDELLES — 2 à 10 mm\nTranches perpendiculaires à la longueur.\n✔ Gratin dauphinois · Poêlées · Pot-au-feu · Frites au four\n\n② EN DEMI-RONDELLES — 3 à 8 mm\nCouper en deux dans la longueur, puis en tranches.\n✔ Soupes · Poêlées · Wok · Rissolées\n\n③ EN BÂTONNETS — 7 × 7 mm\nDécouper en morceaux de 5 à 8 cm de long.\n✔ Frites maison · Apéritifs · Wok · Pot-au-feu\n\n④ EN JULIENNE — 2 × 2 mm\nFins bâtonnets réguliers.\n✔ Salades · Garnitures · Wok · Soupe julienne de légumes\n\n⑤ EN BRUNOISE — 2 à 3 mm\nPetits cubes obtenus à partir d'une julienne.\n✔ Farces · Sauces · Potages · Décoration des assiettes\n\n⑥ EN DÉS — 1 à 2 cm\nCubes plus gros que la brunoise.\n✔ Ragoûts · Couscous · Pot-au-feu · Brochettes\n\n⑦ EN PAYSANNE — 1 à 2 mm\nMorceaux fins de forme carrée, triangulaire ou losange.\n✔ Soupes · Potages · Garnitures · Cuisson rapide\n\n⑧ EN SIFFLET (biais) — 5 à 10 mm\nTranches coupées en diagonale.\n✔ Poêlées · Grillades · Présentation soignée · Accompagnements\n\n⑨ EN LAMELLES — 1 à 3 mm\nFines tranches réalisées dans la longueur au couteau ou à la mandoline.\n✔ Gratin · Lasagnes de pommes de terre · Tian · Mille-feuille\n\n⑩ EN ALLUMETTES — 1 × 1 mm\nBâtonnets très fins.\n✔ Frites très croustillantes · Salades · Décorations\n\n⑪ EN QUARTIERS\nCouper en deux, puis chaque moitié en deux dans la longueur.\n✔ Rôtis au four · Pot-au-feu · Barbecue · Pommes de terre sautées\n\n⑫ EN WEDGES\nQuartiers taillés en form de quartiers épais (avec la peau).\n✔ Frites au four · Accompagnements · Apéritifs\n\n⑬ EN PONT-NEUF — 1 × 1 × 4,5 cm\nBâtonnets rectangulaires réguliers (4 faces droites).\n✔ Potages · Ragoûts · Garnitures\n\n⑭ EN SPIRALES\nDécoupe en spirale à l'aide d'un ustensile adapté.\n✔ Frites originales · Fêtes / Barbecue · Présentation ludique\n\n⑮ ÉCRASÉE\nCuire entière puis écraser à la fourchette ou au presse-purée.\n✔ Purée · Pommes de terre écrasées à l'ail et au persil\n\n💡 CONSEILS : Les petites pièces cuisent plus vite que les grosses.\nRincer les pommes de terre coupées à l'eau froide pour enlever l'excès d'amidon (surtout pour les frites)."
+    },
+    {
+      "id": "tech:018",
+      "t": "Guide des Dumplings — 4 Types Maison",
+      "cat": "Technique, Asie, Japon",
+      "min": 45,
+      "serv": 4,
+      "desc": "Wontons frits, pot stickers, dumplings vapeur et soup dumplings — maîtriser les 4 familles de dumplings avec leurs techniques de remplissage, pliage et cuisson.",
+      "ing": [
+        "Feuilles à wontons (ou pâte à gyoza)",
+        "Farce au choix (porc, crevette, légumes…)",
+        "Eau froide pour souder"
+      ],
+      "steps": "LES 4 TYPES DE DUMPLINGS\n\n🍤 WONTONS FRITS\nREMPLISSAGE : Humidifier légèrement les bords de la feuille avant de plier pour maintenir la soudure pendant la friture.\nPLIAGE : Replier 1 coin en diagonale vers le coin opposé pour former un triangle. Appuyer fermement sur les bords.\nCUISSON : Friture à 175°C jusqu'à dorure. Les bords croustillants sont leur signature.\n\n🥟 POT STICKERS (Gyoza)\nREMPLISSAGE : Mélanger les ingrédients à la main plutôt qu'à la cuillère pour obtenir une farce bien liée qui ne se défait pas.\nPLIAGE : Même principe que le wonton frit — triangle pressé. Puis se tenir à plat et plisser les bords soudés de 1 extrémité vers l'autre.\nCUISSON : Saisir à plat dans une poêle huilée bien chaude 2 min (fond doré). Ajouter 50 ml d'eau, couvrir 5 min (vapeur). Retirer couvercle, sécher 1 min.\n✔ La base caramélisée est leur signature — plat + croustillant dessous, fondant dessus.\n\n🟢 STEAMED DUMPLINGS (Vapeur)\nREMPLISSAGE : Ne pas trop remplir — 2 c. à café bombées maximum pour que la soudure tienne sans s'ouvrir à la vapeur.\nPLIAGE : Former une \"bourse\" en pinçant chaque coin de la feuille sur la farce en faisant des plis tout autour.\nCUISSON : Cuire-vapeur 8-10 min (bambou ou inox). Utiliser du papier sulfurisé percé pour éviter que ça colle.\n✔ Utiliser les doigts pour pincer fermement les plis au centre.\n\n🥣 SOUP DUMPLINGS (Xiao Long Bao)\nREMPLISSAGE : Farce maison incluant une gelée gélifiée (bouillon + gélatine) — celle-ci fond pendant la cuisson et devient le bouillon intérieur.\nPLIAGE : Poser 1 c. à café de farce au centre. Former une bourse en plissant tout autour. Laisser une petite ouverture au sommet pour que la vapeur s'échappe pendant la cuisson.\nCUISSON : Vapeur 8-10 min. Très délicats — ne pas empiler.\n✔ Déguster en mordant d'abord légèrement pour aspirer le bouillon — sinon brûlure garantie !\n\n💡 FARCE CLASSIQUE (pour tous types)\n300 g de porc haché + 100 g de crevettes hachées + 2 oignons verts + 1 c. café sauce soja + 1 c. café huile de sésame + gingembre râpé + sel\nMélanger énergiquement jusqu'à texture collante.\n\n💡 VARIANTES VÉGÉTARIENNES\nChou chinois + tofu émietté + champignons shiitake + gingembre + sauce soja"
+    },
+    {
+      "id": "tart:025",
+      "t": "Tartinade de Lentilles & Tomates Séchées",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 6,
+      "desc": "Lentilles rouges cuites mixées avec des tomates séchées — une tartinade savoureuse, riche en protéines et sans produit laitier.",
+      "ing": [
+        "150 g de lentilles rouges cuites",
+        "50 g de tomates séchées",
+        "1 c. à soupe d'huile d'olive",
+        "1 c. à café de jus de citron",
+        "Sel, poivre"
+      ],
+      "steps": "Mixer les lentilles cuites avec les tomates séchées, l'huile et le jus de citron.\nAjuster la texture avec un peu d'eau si nécessaire.\nAssaisonner. Réserver au frigo.\n\n💡 Se conserve 4 jours au réfrigérateur. Servir sur des toasts, des crackers ou des légumes crus."
+    },
+    {
+      "id": "tart:026",
+      "t": "Tartinade Fromage de Chèvre & Herbes",
+      "cat": "Tartinade",
+      "min": 5,
+      "serv": 4,
+      "desc": "Fromage de chèvre frais, ciboulette et persil — la tartinade fraîche idéale pour les apéritifs.",
+      "ing": [
+        "200 g de fromage de chèvre frais",
+        "1 c. à soupe de ciboulette ciselée",
+        "1 c. à soupe de persil haché",
+        "Sel, poivre"
+      ],
+      "steps": "Écraser le fromage de chèvre à la fourchette.\nIncorporer les herbes ciselées. Assaisonner.\nRéfrigérer 30 min avant de servir.\n\n💡 Ajouter un filet d'huile d'olive et du poivre concassé pour une présentation soignée."
+    },
+    {
+      "id": "tart:027",
+      "t": "Houmous Pois Chiches & Ail",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 6,
+      "desc": "Le houmous maison classique — pois chiches, tahini, ail et citron. Simple, économique, bien meilleur que l'industriel.",
+      "ing": [
+        "200 g de pois chiches cuits (boîte égouttée)",
+        "1 gousse d'ail",
+        "1 c. à soupe de tahini",
+        "1 c. à soupe de jus de citron",
+        "1 à 2 c. à soupe d'eau",
+        "Sel, huile d'olive pour servir"
+      ],
+      "steps": "Mixer pois chiches, ail, tahini, citron et eau jusqu'à consistance lisse et crémeuse.\nAssaisonner de sel. Ajouter de l'eau si trop épais.\nServir dans un bol, arroser d'huile d'olive et saupoudrer de paprika.\n\n💡 La clé d'un houmous ultra-lisse : peler les pois chiches (retirer la petite peau) avant de mixer."
+    },
+    {
+      "id": "tart:028",
+      "t": "Tartinade Fromage Frais & Concombre",
+      "cat": "Tartinade",
+      "min": 8,
+      "serv": 4,
+      "desc": "Concombre râpé et égoutté, fromage frais et aneth — fraîche, légère, version tzatziki à tartiner.",
+      "ing": [
+        "2 petits concombres râpés",
+        "100 g de fromage frais",
+        "1 c. à soupe d'aneth ciselé",
+        "Sel, poivre"
+      ],
+      "steps": "Râper les concombres, les saler et laisser dégorger 10 min dans une passoire.\nPresser pour éliminer l'eau.\nMélanger avec le fromage frais et l'aneth. Assaisonner.\n\n💡 Ajouter une pointe d'ail pour une version tzatziki. Excellent sur pain grillé ou crackers de seigle."
+    },
+    {
+      "id": "tart:029",
+      "t": "Tartinade Cacahuète & Miel",
+      "cat": "Tartinade",
+      "min": 5,
+      "serv": 4,
+      "desc": "Beurre de cacahuète, miel et citron — la tartinade sucrée-salée naturellement protéinée.",
+      "ing": [
+        "2 c. à soupe de beurre de cacahuète (100% cacahuètes)",
+        "1 c. à café de miel",
+        "1 c. à soupe de jus de citron",
+        "Pincée de sel"
+      ],
+      "steps": "Mélanger tous les ingrédients à la fourchette jusqu'à consistance crémeuse.\nAjuster le miel selon le goût souhaité.\n\n💡 Délicieux sur des tranches de pomme, des branches de céleri ou du pain complet.\nAjouter une pincée de cannelle pour une version réconfortante."
+    },
+    {
+      "id": "tart:030",
+      "t": "Crème de Thon Citronnée",
+      "cat": "Tartinade",
+      "min": 8,
+      "serv": 4,
+      "desc": "Thon mixé avec yaourt et fromage blanc type skyr — légère, protéinée, onctueuse.",
+      "ing": [
+        "1 boîte de thon au naturel (140 g égouttée)",
+        "1 c. à soupe de yaourt nature",
+        "100 g de fromage blanc type Skyr",
+        "1 c. à soupe de jus de citron",
+        "Sel, poivre"
+      ],
+      "steps": "Égoutter et émietter le thon.\nMélanger avec yaourt, skyr et jus de citron.\nAssaisonner. Mixer ou laisser rustique selon la texture souhaitée.\n\n💡 Ajouter des câpres ou de la ciboulette pour plus de pep. Se conserve 2 jours au frigo."
+    },
+    {
+      "id": "tart:031",
+      "t": "Tartinade Avocat & Skyr Protéinée",
+      "cat": "Tartinade",
+      "min": 5,
+      "serv": 4,
+      "desc": "Avocat et fromage blanc type skyr — plus dense qu'un guacamole, riche en protéines.",
+      "ing": [
+        "1 avocat bien mûr",
+        "100 g de fromage blanc type Skyr",
+        "1 c. à soupe de jus de citron",
+        "Sel, poivre"
+      ],
+      "steps": "Écraser l'avocat à la fourchette ou mixer.\nIncorporer le skyr et le jus de citron.\nAssaisonner. Servir immédiatement ou filmer au contact pour éviter le noircissement.\n\n💡 Ajouter une pincée de piment et de la coriandre pour une version guacamole protéiné."
+    },
+    {
+      "id": "tart:032",
+      "t": "Tartinade Yaourt à la Feta",
+      "cat": "Tartinade",
+      "min": 5,
+      "serv": 4,
+      "desc": "Feta et yaourt grec — onctueuse, salée, méditerranéenne. Parfaite avec du pain pita.",
+      "ing": [
+        "100 g de feta émiettée",
+        "100 g de yaourt grec",
+        "1 c. à soupe d'huile d'olive",
+        "Poivre noir"
+      ],
+      "steps": "Mixer la feta avec le yaourt grec jusqu'à consistance crémeuse (ou laisser avec des morceaux).\nIncorporer l'huile d'olive. Poivrer.\nServir avec un filet d'huile, quelques olives et du pain pita.\n\n💡 Ajouter du miel pour un contraste sucré-salé qui fonctionne très bien."
+    },
+    {
+      "id": "tart:033",
+      "t": "Tartinade de Poulet Effiloché",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 4,
+      "desc": "Poulet cuit effiloché avec fromage frais et aneth — une tartinade rassasiante façon rillettes légères.",
+      "ing": [
+        "150 g de poulet cuit (rôti ou poché)",
+        "100 g de fromage frais",
+        "1 c. à soupe d'aneth ciselé",
+        "Sel, poivre"
+      ],
+      "steps": "Effilocher finement le poulet cuit à la fourchette.\nMélanger avec le fromage frais et l'aneth.\nAssaisonner. Réfrigérer avant de servir.\n\n💡 Idéal pour utiliser les restes de poulet rôti. Excellent sur du pain de campagne grillé.\nVariante : remplacer l'aneth par de la ciboulette ou du paprika fumé."
+    },
+    {
+      "id": "tart:034",
+      "t": "Tartinade de Haricots Blancs à l'Huile d'Olive",
+      "cat": "Tartinade",
+      "min": 8,
+      "serv": 6,
+      "desc": "Haricots blancs mixés à l'huile d'olive et ail — la tartinade rustique italienne, vegan et rassasiante.",
+      "ing": [
+        "200 g de haricots blancs cuits (boîte égouttée)",
+        "60 g d'huile d'olive extra vierge",
+        "1 gousse d'ail",
+        "1 c. à soupe de jus de citron",
+        "Sel"
+      ],
+      "steps": "Mixer haricots blancs, ail, jus de citron avec la moitié de l'huile.\nIncorporer le reste de l'huile en filet pour une texture onctueuse.\nAssaisonner de sel.\n\n💡 Servir saupoudré de romarin haché et arrosé d'huile d'olive sur des bruschette.\nVersion épicée : ajouter ½ c. à café de piment."
+    },
+    {
+      "id": "tart:035",
+      "t": "Tartinade Poivrons & Skyr",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 4,
+      "desc": "Poivron rouge rôti mixé avec du skyr et paprika — couleur vive, saveur fumée, très protéinée.",
+      "ing": [
+        "150 g de Skyr (ou fromage blanc épais)",
+        "1 poivron rouge (rôti ou en boîte)",
+        "1 c. à café de paprika fumé",
+        "Sel, poivre"
+      ],
+      "steps": "Rôtir le poivron sous le grill jusqu'à la peau noircie. Peler et épépiner.\nMixer le poivron avec le skyr et le paprika.\nAssaisonner. Réfrigérer.\n\n💡 Utiliser des poivrons rouges grillés en bocal pour une version encore plus rapide."
+    },
+    {
+      "id": "tart:036",
+      "t": "Tartinade Curry aux Noix de Cajou",
+      "cat": "Tartinade",
+      "min": 10,
+      "serv": 6,
+      "desc": "Noix de cajou trempées mixées avec curry, citron et ail — onctueuse, exotique, 100% végétale.",
+      "ing": [
+        "100 g de noix de cajou (trempées 2h dans l'eau)",
+        "1 c. à café de curry en poudre",
+        "1 c. à soupe de jus de citron",
+        "1 gousse d'ail",
+        "Sel, eau pour ajuster la texture"
+      ],
+      "steps": "Égoutter et rincer les noix de cajou trempées.\nMixer avec curry, citron, ail et un peu d'eau.\nAjouter de l'eau progressivement jusqu'à texture crémeuse souhaitée.\nAssaisonner.\n\n💡 Les noix de cajou se mixent en crème ultra-lisse après trempage — indispensable pour la texture.\nVariante : ajouter du curcuma pour une couleur dorée."
+    },
+    {
+      "id": "mar:008",
+      "t": "Marinade Poulet Ail & Parmesan",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "Ail haché, parmesan et huile d'olive — une marinade italienne intense qui caramélise magnifiquement au four.",
+      "ing": [
+        "4 morceaux de poulet",
+        "3 gousses d'ail finement hachées",
+        "50 g de parmesan râpé",
+        "4 c. à soupe d'huile d'olive",
+        "1 c. à soupe de jus de citron",
+        "1 c. à café d'origan séché",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger ail, parmesan, huile, citron et origan.\nEnrober le poulet généreusement de cette marinade.\nMariner 30 min à 2h au frais.\n\n🔥 CUISSON\nFour 200°C : 25-30 min. Le parmesan gratine et caramélise — surveiller la dorure.\nRetourner à mi-cuisson pour une croûte uniforme.\n\n❄️ CONGÉLATEUR : mettre poulet + marinade dans un sac de congélation. Décongeler une nuit au frigo avant cuisson.\n\n💡 Excellent avec des pâtes ou une salade de roquette."
+    },
+    {
+      "id": "mar:009",
+      "t": "Marinade Poulet Buffalo Épicée",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "Sauce piquante, beurre fondu et vinaigre — le goût Buffalo américain sur du poulet maison.",
+      "ing": [
+        "4 morceaux de poulet",
+        "4 c. à soupe de sauce piquante (type Frank's ou Tabasco)",
+        "2 c. à soupe de beurre fondu",
+        "1 c. à soupe de vinaigre de cidre",
+        "1 c. à café d'ail en poudre",
+        "1 c. à café de paprika",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger sauce piquante, beurre fondu, vinaigre, ail en poudre et paprika.\nEnrober le poulet et mariner 30 min minimum.\n\n🔥 CUISSON\nFour 220°C ou airfryer 200°C : 20-25 min pour des blancs.\nLa sauce caramélise et donne une surface légèrement collante — c'est voulu.\nServir avec une sauce ranch ou blue cheese et des bâtonnets de céleri.\n\n❄️ CONGÉLATEUR : Convient parfaitement. Décongeler une nuit au frigo."
+    },
+    {
+      "id": "mar:010",
+      "t": "Marinade Poulet Curry Coco",
+      "cat": "Marinade, Accompagnement",
+      "min": 40,
+      "serv": 4,
+      "desc": "Lait de coco, pâte de curry et gingembre — une marinade exotique douce et parfumée.",
+      "ing": [
+        "4 morceaux de poulet",
+        "100 ml de lait de coco",
+        "1 c. à soupe de pâte de curry (rouge ou vert)",
+        "Jus d'1 citron vert",
+        "2 gousses d'ail hachées",
+        "1 c. à café de gingembre râpé",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger lait de coco, pâte de curry, citron vert, ail et gingembre.\nEnrober le poulet et mariner 30 min à 2h (voire une nuit pour plus d'intensité).\n\n🔥 CUISSON\nFour 200°C : 25-30 min. Le lait de coco caramélise légèrement.\nOu cocotte 25 min avec un peu de lait de coco supplémentaire pour une sauce.\nServir avec du riz basmati ou du riz de coco.\n\n❄️ CONGÉLATEUR : Excellente marinade pour congeler — le coco protège la chair."
+    },
+    {
+      "id": "mar:011",
+      "t": "Marinade Poulet Ranch Crémeuse",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "Yaourt, assaisonnement ranch et aneth — une marinade crémeuse à l'américaine, douce et parfumée.",
+      "ing": [
+        "4 morceaux de poulet",
+        "150 g de yaourt nature",
+        "1 sachet d'assaisonnement ranch (ou 1 c. à café mélange : ail en poudre, oignon, aneth, persil)",
+        "1 c. à café d'ail en poudre",
+        "1 c. à soupe d'aneth ciselé",
+        "Jus d'½ citron",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger yaourt, assaisonnement ranch, ail en poudre, aneth et citron.\nEnrober le poulet de marinade crémeuse.\nMariner 30 min à 2h.\n\n🔥 CUISSON\nFour 200°C : 25-30 min. Le yaourt attendrit la viande.\nLa surface sera légèrement dorée, la chair très tendre.\nExcellent pour des wraps, des sandwichs ou avec une salade César.\n\n❄️ CONGÉLATEUR : Idéale pour le batch cooking — la texture est parfaite après décongélation."
+    },
+    {
+      "id": "mar:012",
+      "t": "Marinade Poulet Mexicaine",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "Lime, cumin et ail — la marinade fajitas par excellence, relevée et parfumée.",
+      "ing": [
+        "4 morceaux de poulet",
+        "Jus de 2 limes (citrons verts)",
+        "3 c. à soupe d'huile d'olive",
+        "3 gousses d'ail hachées",
+        "2 c. à café de cumin moulu",
+        "1 c. à café de paprika fumé",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger jus de lime, huile, ail, cumin et paprika.\nInciser le poulet et enrober généreusement.\nMariner 30 min à 2h.\n\n🔥 CUISSON\nPoêle très chaude ou grill : 5-6 min par face pour des blancs.\nLaisser reposer 3 min avant de trancher — pour les fajitas, couper en lamelles.\nServir avec tortillas, guacamole, salsa, crème fraîche.\n\n❄️ CONGÉLATEUR : Parfait pour préparer les fajitas à l'avance."
+    },
+    {
+      "id": "mar:013",
+      "t": "Marinade Poulet Asiatique",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "Sauce soja, miel, vinaigre de riz et sésame — la marinade panasiautique au doux équilibre umami-sucré.",
+      "ing": [
+        "4 morceaux de poulet",
+        "4 c. à soupe de sauce soja",
+        "2 c. à soupe de miel",
+        "2 c. à soupe de vinaigre de riz",
+        "1 c. à café de gingembre râpé",
+        "1 c. à soupe d'huile de sésame",
+        "Graines de sésame pour servir"
+      ],
+      "steps": "Mélanger sauce soja, miel, vinaigre de riz, gingembre et huile de sésame.\nMariner le poulet 30 min à 2h.\n\n🔥 CUISSON\nWok ou poêle très chaude : 5-7 min par face en arrosant régulièrement.\nLa marinade laque le poulet — ne pas laisser brûler, réduire le feu si nécessaire.\nParsemer de graines de sésame et oignons verts.\n\n❄️ CONGÉLATEUR : Convient. Décongeler une nuit au frigo."
+    },
+    {
+      "id": "mar:014",
+      "t": "Marinade Poulet Cajun",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "Épices cajun, paprika et ail — la marinade du Sud américain, fumée et relevée.",
+      "ing": [
+        "4 morceaux de poulet",
+        "3 c. à soupe d'huile d'olive",
+        "2 c. à café d'assaisonnement cajun (ou mélange : paprika, thym, origan, cayenne, ail en poudre)",
+        "1 c. à café d'ail en poudre",
+        "1 c. à café d'oignon en poudre",
+        "½ c. à café de paprika fumé",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger huile et toutes les épices pour faire une pâte d'épices.\nEnrober généreusement le poulet et mariner 30 min à 1h.\n\n🔥 CUISSON\nPoêle ou grill très chaud : 5-7 min par face. La croûte d'épices doit bien dorer.\nOu airfryer 200°C : 18-22 min pour des blancs.\nExcellent avec du riz créole, des haricots rouges et une sauce yaourt citronnée.\n\n❄️ CONGÉLATEUR : Idéal. Préparer des lots pour des soirées cajun express."
+    },
+    {
+      "id": "mar:015",
+      "t": "Marinade Poulet Yaourt & Herbes Fraîches",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "Yaourt, herbes fraîches et citron — une marinade douce et méditerranéenne qui attendrit parfaitement.",
+      "ing": [
+        "4 morceaux de poulet",
+        "150 g de yaourt nature",
+        "Jus d'1 citron",
+        "2 gousses d'ail hachées",
+        "3 c. à soupe d'herbes fraîches (persil, ciboulette, menthe ou basilic)",
+        "2 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger yaourt, jus de citron, ail, herbes et huile.\nEnrober le poulet et mariner 1h à 4h (plus long = plus tendre).\n\n🔥 CUISSON\nFour 200°C : 25-30 min. Le yaourt forme une légère croûte blanche qui dore.\nExcellent aussi grillé au barbecue — surveiller car le yaourt peut brûler.\nServir avec du pain pita, du riz ou des légumes grillés.\n\n❄️ CONGÉLATEUR : Le yaourt protège la chair pendant la congélation — excellent résultat."
+    },
+    {
+      "id": "mar:016",
+      "t": "Marinade Poulet Chorizo Épicée",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "Chorizo haché, paprika fumé et vinaigre de cidre — une marinade ibérique intense qui parfume profondément la chair.",
+      "ing": [
+        "4 morceaux de poulet",
+        "60 g de chorizo finement haché ou émietté",
+        "3 c. à soupe d'huile d'olive",
+        "1 c. à café de paprika fumé",
+        "1 c. à soupe de vinaigre de cidre",
+        "2 gousses d'ail hachées",
+        "Sel, poivre"
+      ],
+      "steps": "Mixer ou hacher finement le chorizo.\nMélanger avec huile, paprika, vinaigre et ail.\nEnrober le poulet et mariner 30 min à 2h.\n\n🔥 CUISSON\nFour 200°C : 25-35 min. Le gras du chorizo parfume et dore le poulet.\nEn cocotte avec des tomates concassées et des poivrons pour un plat complet.\nServir avec du riz ou des pommes de terre sautées.\n\n❄️ CONGÉLATEUR : Convient très bien — le gras du chorizo préserve la chair."
+    },
+    {
+      "id": "mar:017",
+      "t": "Marinade Poulet Citron Poivre",
+      "cat": "Marinade, Accompagnement",
+      "min": 35,
+      "serv": 4,
+      "desc": "Citron généreux et poivre noir concassé — minimaliste, raffiné, le poulet laissé au naturel avec caractère.",
+      "ing": [
+        "4 morceaux de poulet",
+        "Jus et zeste de 2 citrons",
+        "2 c. à café de poivre noir grossièrement concassé",
+        "3 gousses d'ail hachées",
+        "1 c. à café de gingembre frais râpé",
+        "3 c. à soupe d'huile d'olive",
+        "Sel"
+      ],
+      "steps": "Mélanger jus et zeste de citron, poivre concassé, ail, gingembre et huile.\nEnrober le poulet et mariner 30 min à 2h.\n\n🔥 CUISSON\nFour 200°C ou grill : 25-30 min. Le citron caramélise légèrement.\nPresser un peu de citron frais à la sortie du four pour la fraîcheur.\nExcellent avec des asperges, des haricots verts ou une purée citronnée.\n\n❄️ CONGÉLATEUR : Parfait — simple et efficace."
+    },
+    {
+      "id": "mar:018",
+      "t": "Marinade Poulet Deluxe Gourmande",
+      "cat": "Marinade, Accompagnement",
+      "min": 40,
+      "serv": 4,
+      "desc": "Crème fraîche, moutarde à l'ancienne, parmesan et herbes — la marinade des grands dîners, riche et onctueuse.",
+      "ing": [
+        "4 morceaux de poulet",
+        "3 c. à soupe de crème fraîche épaisse",
+        "2 c. à soupe de moutarde à l'ancienne",
+        "50 g de parmesan râpé",
+        "2 gousses d'ail hachées",
+        "Zeste d'1 citron",
+        "1 c. à soupe d'herbes de Provence",
+        "Sel, poivre"
+      ],
+      "steps": "Mélanger crème fraîche, moutarde, parmesan, ail, zeste de citron et herbes.\nEnrober généreusement le poulet.\nMariner 30 min à 2h.\n\n🔥 CUISSON\nFour 190°C : 30-35 min. La crème et le parmesan forment une croûte dorée et gratinée.\nArroser mi-cuisson avec le jus de cuisson.\nServir avec des tagliatelles fraîches ou du riz.\n\n❄️ CONGÉLATEUR : Convient — décongeler lentement au frigo.\n\n💡 La crème fraîche empêche le dessèchement même après congélation."
+    },
+    {
+      "id": "tomate:001",
+      "t": "Tomates Farcies au Thon Classiques",
+      "cat": "Entrée, Été",
+      "min": 15,
+      "serv": 4,
+      "desc": "La recette fondamentale : thon, mayonnaise, cornichons et câpres. Simple, fraîche, indétrônable.",
+      "ing": [
+        "4 grosses tomates rondes",
+        "1 boîte de thon au naturel (140 g égouttée)",
+        "2 c. à soupe de mayonnaise",
+        "4 cornichons hachés",
+        "1 c. à soupe de câpres",
+        "Sel, poivre"
+      ],
+      "steps": "Couper le chapeau des tomates, évider la chair et les retourner 5 min pour égoutter.\nMélanger thon émietté, mayo, cornichons hachés et câpres.\nAssaisonner. Farcir les tomates. Remettre le chapeau.\nRéfrigérer 30 min avant de servir.\n\n💡 Conserver la chair pour une sauce ou une soupe. Servir très frais."
+    },
+    {
+      "id": "tomate:002",
+      "t": "Tomates Farcies Thon & Avocat",
+      "cat": "Entrée, Été",
+      "min": 15,
+      "serv": 4,
+      "desc": "Thon, avocat crémeux et oignon rouge — fraîcheur et onctuosité dans une tomate.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "1 avocat mûr",
+        "Jus d'½ citron",
+        "¼ d'oignon rouge finement haché",
+        "Sel, poivre"
+      ],
+      "steps": "Évider les tomates. Écraser l'avocat avec le jus de citron.\nMélanger avec le thon émietté et l'oignon rouge.\nAssaisonner. Farcir les tomates. Servir frais.\n\n💡 L'avocat noircit rapidement — préparer et servir dans l'heure."
+    },
+    {
+      "id": "tomate:003",
+      "t": "Tomates Farcies Thon & Feta",
+      "cat": "Entrée, Été",
+      "min": 15,
+      "serv": 4,
+      "desc": "Thon, feta émiettée, olives noires et origan — les saveurs de la Méditerranée dans une tomate.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "80 g de feta émiettée",
+        "8 olives noires dénoyautées et coupées",
+        "½ c. à café d'origan séché",
+        "Sel, poivre"
+      ],
+      "steps": "Évider les tomates. Mélanger thon, feta, olives et origan.\nNe pas trop saler — la feta et les olives sont déjà salées.\nFarcir les tomates. Servir avec un filet d'huile d'olive."
+    },
+    {
+      "id": "tomate:004",
+      "t": "Tomates Farcies Thon & Œufs Durs",
+      "cat": "Entrée, Été",
+      "min": 20,
+      "serv": 4,
+      "desc": "Thon, œufs durs, mayonnaise et ciboulette — le grand classique de la cafétéria qui reste indémodable.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "2 œufs durs",
+        "2 c. à soupe de mayonnaise",
+        "1 c. à soupe de ciboulette ciselée",
+        "Sel, poivre"
+      ],
+      "steps": "Faire cuire les œufs durs 10 min. Refroidir et hacher grossièrement.\nÉvider les tomates. Mélanger thon, œufs hachés, mayo et ciboulette.\nAssaisonner. Farcir. Réfrigérer avant de servir."
+    },
+    {
+      "id": "tomate:005",
+      "t": "Tomates Farcies Thon & Maïs",
+      "cat": "Entrée, Été",
+      "min": 12,
+      "serv": 4,
+      "desc": "Thon, maïs sucré, mayo et oignon — colorée, douce et appréciée par tous, petits et grands.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "80 g de maïs en boîte égoutté",
+        "2 c. à soupe de mayonnaise",
+        "¼ d'oignon finement haché",
+        "Sel, poivre"
+      ],
+      "steps": "Évider les tomates. Mélanger thon, maïs, mayo et oignon.\nAssaisonner. Farcir. Servir frais.\n\n💡 Ajouter un peu de poivron rouge haché pour la couleur et le croquant."
+    },
+    {
+      "id": "tomate:006",
+      "t": "Tomates Farcies Méditerranéennes",
+      "cat": "Entrée, Été",
+      "min": 15,
+      "serv": 4,
+      "desc": "Thon, tomates séchées, olives et basilic — la version estivale la plus parfumée.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "4 tomates séchées à l'huile hachées",
+        "8 olives noires ou vertes",
+        "Basilic frais",
+        "2 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "Évider les tomates. Mélanger thon, tomates séchées et olives.\nAssaisonner, ajouter l'huile d'olive.\nFarcir. Garnir de feuilles de basilic. Servir à température ambiante."
+    },
+    {
+      "id": "tomate:007",
+      "t": "Tomates Farcies au Thon Citronnées",
+      "cat": "Entrée, Été",
+      "min": 12,
+      "serv": 4,
+      "desc": "Thon, citron, persil et mayo — très fraîche et vive, la meilleure pour les journées chaudes.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "Jus et zeste d'1 citron",
+        "2 c. à soupe de persil haché",
+        "2 c. à soupe de mayonnaise",
+        "Sel, poivre"
+      ],
+      "steps": "Évider les tomates. Mélanger thon, jus et zeste de citron, persil et mayo.\nAssaisonner généreusement. Farcir. Servir très frais.\n\n💡 Le zeste de citron est la clé — bien plus parfumé que le jus seul."
+    },
+    {
+      "id": "tomate:008",
+      "t": "Tomates Farcies Thon & Fromage Frais",
+      "cat": "Entrée, Été",
+      "min": 12,
+      "serv": 4,
+      "desc": "Thon, fromage frais à la ciboulette et citron — plus légère que la version mayo, tout aussi savoureuse.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "100 g de fromage frais (type Philadelphia ou St-Môret)",
+        "1 c. à soupe de ciboulette ciselée",
+        "Jus d'½ citron",
+        "Sel, poivre"
+      ],
+      "steps": "Évider les tomates. Fouetter le fromage frais avec le citron et la ciboulette.\nIncorporer le thon émietté. Assaisonner.\nFarcir et réfrigérer 20 min avant de servir."
+    },
+    {
+      "id": "tomate:009",
+      "t": "Tomates Farcies au Thon Épicées",
+      "cat": "Entrée, Été",
+      "min": 12,
+      "serv": 4,
+      "desc": "Thon relevé au piment, paprika et oignon rouge — pour ceux qui aiment quand ça pique.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "½ à 1 piment rouge ou ½ c. à café de Tabasco",
+        "¼ d'oignon rouge haché",
+        "1 c. à café de paprika",
+        "2 c. à soupe de mayo ou fromage frais",
+        "Sel, poivre"
+      ],
+      "steps": "Évider les tomates. Mélanger thon, piment ou Tabasco, oignon et paprika.\nIncorporer la mayo. Assaisonner.\nFarcir et servir frais.\n\n💡 Ajuster le niveau de piment selon les goûts."
+    },
+    {
+      "id": "tomate:010",
+      "t": "Tomates Farcies Thon & Concombre",
+      "cat": "Entrée, Été",
+      "min": 15,
+      "serv": 4,
+      "desc": "Thon, concombre croquant, yaourt et aneth — fraîcheur maximale, presque un tzatziki au thon.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "½ concombre râpé et égoutté",
+        "50 g de fromage frais ou yaourt grec",
+        "1 c. à soupe d'aneth",
+        "Sel, poivre"
+      ],
+      "steps": "Râper le concombre, saler et égoutter 10 min dans une passoire.\nÉvider les tomates. Mélanger thon, concombre pressé, fromage frais et aneth.\nAssaisonner. Farcir. Servir très frais."
+    },
+    {
+      "id": "tomate:011",
+      "t": "Tomates Farcies Thon & Riz Complet",
+      "cat": "Entrée, Été",
+      "min": 20,
+      "serv": 4,
+      "desc": "Thon et riz complet — une farce rassasiante qui en fait un plat complet léger.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "80 g de riz complet cuit",
+        "¼ d'oignon haché",
+        "2 c. à soupe de persil haché",
+        "Jus d'½ citron",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire le riz complet à l'avance et refroidir.\nÉvider les tomates. Mélanger thon, riz, oignon, persil et jus de citron.\nAssaisonner. Farcir. Servir à température ambiante ou frais.\n\n💡 Remplacer le riz complet par du quinoa pour plus de protéines."
+    },
+    {
+      "id": "tomate:012",
+      "t": "Tomates Farcies Thon Deluxe",
+      "cat": "Entrée, Été",
+      "min": 15,
+      "serv": 4,
+      "desc": "Thon, avocat, saumon fumé et citron — la version festive et luxueuse des tomates farcies.",
+      "ing": [
+        "4 grosses tomates",
+        "100 g de thon au naturel",
+        "1 avocat mûr",
+        "50 g de saumon fumé en morceaux",
+        "Jus d'1 citron",
+        "Sel, poivre"
+      ],
+      "steps": "Écraser l'avocat avec le jus de citron.\nÉvider les tomates. Mélanger thon, avocat écrasé et saumon fumé.\nAssaisonner. Farcir. Servir immédiatement.\n\n💡 Garnir d'un peu de caviar ou d'œufs de saumon pour une touche vraiment festive."
+    },
+    {
+      "id": "tomate:013",
+      "t": "Tomates Farcies Thon & Ciboulette",
+      "cat": "Entrée, Été",
+      "min": 12,
+      "serv": 4,
+      "desc": "Thon, mayo, moutarde et ciboulette — classique avec une pointe de moutarde qui change tout.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "2 c. à soupe de mayonnaise",
+        "1 c. à café de moutarde de Dijon",
+        "2 c. à soupe de ciboulette ciselée",
+        "Sel, poivre"
+      ],
+      "steps": "Évider les tomates. Mélanger thon, mayo, moutarde et ciboulette.\nAssaisonner. Farcir. Réfrigérer avant de servir.\n\n💡 La moutarde apporte une légère chaleur et de la profondeur — indispensable."
+    },
+    {
+      "id": "tomate:014",
+      "t": "Tomates Farcies Fraîcheur d'Été",
+      "cat": "Entrée, Été",
+      "min": 12,
+      "serv": 4,
+      "desc": "Thon, concombre, tomates cerises et basilic — sans mayo, très légère, comme une salade dans une tomate.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "½ concombre en petits dés",
+        "8 tomates cerises coupées en 4",
+        "Basilic frais",
+        "2 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "Évider les tomates. Mélanger thon, concombre en dés et tomates cerises.\nAjouter huile d'olive et basilic. Assaisonner.\nFarcir et servir immédiatement.\n\n💡 Version sans mayo — idéale pour un repas léger en été."
+    },
+    {
+      "id": "tomate:015",
+      "t": "Tomates Farcies Thon & Olives Noires",
+      "cat": "Entrée, Été",
+      "min": 12,
+      "serv": 4,
+      "desc": "Thon, olives noires, tomates séchées et origan — saveur intense et méditerranéenne, sans mayo.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "10 olives noires dénoyautées et hachées",
+        "3 tomates séchées hachées",
+        "½ c. à café d'origan",
+        "2 c. à soupe d'huile d'olive",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": "Évider les tomates. Mélanger thon, olives, tomates séchées et origan.\nAssaisonner. Arroser d'huile d'olive.\nParsemer de persil. Farcir et servir."
+    },
+    {
+      "id": "tomate:016",
+      "t": "Tomates Crémeuses au Thon & Yaourt",
+      "cat": "Entrée, Été",
+      "min": 12,
+      "serv": 4,
+      "desc": "Thon, yaourt nature, citron et aneth — une version légère et crémeuse à la façon grecque.",
+      "ing": [
+        "4 grosses tomates",
+        "1 boîte de thon au naturel",
+        "4 c. à soupe de yaourt nature (ou grec)",
+        "Jus d'½ citron",
+        "1 c. à soupe d'aneth ciselé",
+        "Sel, poivre"
+      ],
+      "steps": "Évider les tomates. Mélanger thon émietté, yaourt, citron et aneth.\nAssaisonner. Farcir. Réfrigérer 20 min.\n\n💡 Le yaourt grec donne plus d'onctuosité. Saupoudrer d'un peu de paprika pour la couleur."
+    },
+    {
+      "id": "empanada:001",
+      "t": "Empanadas Bœuf Classiques",
+      "cat": "Espagne, Apéritif",
+      "min": 50,
+      "serv": 6,
+      "desc": "La recette d'empanadas au bœuf haché classique — bœuf, poivron rouge, ail et cumin. La base indémodable.",
+      "ing": [
+        "12 disques de pâte à empanadas (ou pâte brisée en cercles de 15 cm)",
+        "400 g de bœuf haché",
+        "1 oignon haché",
+        "1 poivron rouge en dés",
+        "2 gousses d'ail",
+        "1 c. à café de cumin",
+        "Sel, poivre",
+        "1 œuf pour dorer"
+      ],
+      "steps": "FARCE\nFaire revenir oignon, ail et poivron 5 min. Ajouter le bœuf, cuire 8 min.\nAssaisonner de cumin, sel, poivre. Laisser refroidir.\n\nMONTAGE\nDéposer 1-2 c. à soupe de farce au centre de chaque disque.\nHumidifier les bords, replier en demi-lune, sceller en appuyant.\nChiqueter le bord (plier/torsader le bord sur lui-même).\n\nCUISSON\nFour 200°C : 20-25 min jusqu'à dorure.\nBadigeonner d'œuf battu avant d'enfourner.\n\n💡 La farce doit être froide avant le montage pour éviter de détremper la pâte."
+    },
+    {
+      "id": "empanada:002",
+      "t": "Empanadas Poulet & Fromage",
+      "cat": "Espagne, Apéritif",
+      "min": 45,
+      "serv": 6,
+      "desc": "Poulet fondant, fromage râpé fondu et crème fraîche — les empanadas préférées des enfants.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "300 g de poulet cuit effiloché",
+        "100 g de fromage râpé (mozzarella ou emmental)",
+        "1 oignon haché",
+        "2 c. à soupe de crème fraîche",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nFaire revenir l'oignon 5 min. Ajouter le poulet effiloché, mélanger.\nIncorporer fromage et crème fraîche hors du feu. Assaisonner. Laisser tiédir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer à l'œuf.\nFour 200°C : 20-25 min.\n\n💡 Idéal pour utiliser les restes de poulet rôti."
+    },
+    {
+      "id": "empanada:003",
+      "t": "Empanadas Végétariennes",
+      "cat": "Apéritif",
+      "min": 45,
+      "serv": 6,
+      "desc": "Haricots noirs, maïs et poivron avec épices — des empanadas végétariennes colorées et savoureuses.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "200 g de haricots noirs cuits (boîte)",
+        "80 g de maïs",
+        "1 poivron en dés",
+        "1 c. à café de cumin",
+        "½ c. à café de paprika fumé",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nFaire revenir le poivron 5 min. Ajouter haricots et maïs.\nAssaisonner de cumin et paprika. Laisser refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer à l'œuf.\nFour 200°C : 20-22 min.\n\n💡 Ajouter du fromage râpé pour plus de gourmandise."
+    },
+    {
+      "id": "empanada:004",
+      "t": "Empanadas Thon & Tomate",
+      "cat": "Apéritif",
+      "min": 40,
+      "serv": 6,
+      "desc": "Thon, tomate concassée et olives — des empanadas légères façon méditerranéenne.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "2 boîtes de thon au naturel (280 g total)",
+        "200 g de tomates concassées",
+        "1 oignon",
+        "8 olives vertes hachées",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nFaire revenir l'oignon. Ajouter les tomates, cuire 5 min pour réduire.\nIncorporer le thon et les olives. Assaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20 min."
+    },
+    {
+      "id": "empanada:005",
+      "t": "Empanadas Fromage & Champignons",
+      "cat": "Apéritif",
+      "min": 45,
+      "serv": 6,
+      "desc": "Champignons sautés, fromage râpé et ail — des empanadas végétariennes forestières et gourmandes.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "300 g de champignons hachés",
+        "100 g de fromage râpé",
+        "1 oignon",
+        "2 gousses d'ail",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nFaire sauter oignon, ail et champignons à feu vif jusqu'à évaporation de l'eau (8 min).\nLaisser refroidir. Incorporer le fromage.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min."
+    },
+    {
+      "id": "empanada:006",
+      "t": "Empanadas Bœuf Épicées au Jalapeño",
+      "cat": "Espagne, Apéritif",
+      "min": 50,
+      "serv": 6,
+      "desc": "Bœuf haché relevé au piment jalapeño — pour les amateurs de chaleur.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "400 g de bœuf haché",
+        "1 piment jalapeño haché (ou flocons de piment)",
+        "1 oignon",
+        "1 c. à café de paprika fumé",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nFaire revenir oignon et bœuf. Ajouter jalapeño et paprika.\nAssaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 22-25 min."
+    },
+    {
+      "id": "empanada:007",
+      "t": "Empanadas Poulet Curry",
+      "cat": "Apéritif",
+      "min": 45,
+      "serv": 6,
+      "desc": "Poulet cuit, curry en poudre et crème de coco — la fusion empanada-asie qui surprend agréablement.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "300 g de poulet cuit",
+        "1 c. à soupe de curry en poudre",
+        "1 oignon haché",
+        "4 c. à soupe de crème de coco",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nFaire revenir oignon avec curry. Ajouter poulet effiloché et crème de coco.\nCuire 3 min pour que tout s'enrobe. Assaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min."
+    },
+    {
+      "id": "empanada:008",
+      "t": "Empanadas Fromage & Épinards",
+      "cat": "Apéritif",
+      "min": 45,
+      "serv": 6,
+      "desc": "Épinards fondus, ricotta ou feta — l'empanada végétarienne la plus raffinée.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "200 g d'épinards frais (ou surgelés décongelés)",
+        "150 g de ricotta (ou feta émiettée)",
+        "1 oignon",
+        "Noix de muscade",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nFaire revenir l'oignon, ajouter les épinards et faire fondre.\nÉgoutter et presser pour enlever l'eau. Mélanger avec la ricotta. Muscade, sel, poivre.\nRefroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min."
+    },
+    {
+      "id": "empanada:009",
+      "t": "Empanadas Saumon & Aneth",
+      "cat": "Apéritif",
+      "min": 45,
+      "serv": 6,
+      "desc": "Saumon fumé ou cuit, fromage frais et aneth — des empanadas élégantes pour les grandes occasions.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "200 g de saumon (fumé ou poché)",
+        "100 g de fromage frais",
+        "1 c. à soupe d'aneth frais",
+        "Jus d'½ citron",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nÉmietter ou hacher le saumon. Mélanger avec fromage frais, aneth et jus de citron.\nAssaisonner délicatement (le saumon fumé est déjà salé). Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 190°C : 18-20 min (plus délicat)."
+    },
+    {
+      "id": "empanada:010",
+      "t": "Empanadas Chorizo & Fromage",
+      "cat": "Espagne, Apéritif",
+      "min": 45,
+      "serv": 6,
+      "desc": "Chorizo espagnol et fromage fondant — intenses, généreux, indéniablement ibériques.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "150 g de chorizo en petits dés",
+        "100 g de fromage râpé (manchego ou emmental)",
+        "1 oignon",
+        "2 gousses d'ail",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nFaire revenir oignon et ail. Ajouter le chorizo, cuire 3 min pour rendre le gras.\nÉgoutter légèrement. Incorporer le fromage. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min. Le fromage bulle à l'intérieur — délicieux.\n\n💡 Le manchego (fromage espagnol) renforce le caractère ibérique."
+    },
+    {
+      "id": "empanada:011",
+      "t": "Empanadas Sucrées à la Pomme",
+      "cat": "Dessert, Apéritif",
+      "min": 45,
+      "serv": 6,
+      "desc": "Pommes fondantes à la cannelle et cassonade — la version dessert des empanadas, façon chausson aux pommes.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "3 pommes pelées en petits dés",
+        "2 c. à soupe de cassonade",
+        "1 c. à café de cannelle",
+        "Jus d'½ citron",
+        "1 c. à soupe de beurre",
+        "Sucre glace pour servir"
+      ],
+      "steps": "FARCE\nFaire revenir les pommes avec beurre, cassonade, cannelle et citron 5-7 min.\nLes pommes doivent être fondantes mais pas en purée. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer à l'œuf sucré.\nFour 190°C : 18-20 min jusqu'à dorure.\nSaupoudrer de sucre glace. Servir tiède."
+    },
+    {
+      "id": "empanada:012",
+      "t": "Empanadas Chocolat-Noisette",
+      "cat": "Dessert",
+      "min": 35,
+      "serv": 6,
+      "desc": "Pâte à tartiner chocolat-noisette et noisettes concassées — l'empanada la plus gourmande.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "150 g de pâte à tartiner chocolat-noisette",
+        "50 g de noisettes concassées",
+        "Sucre glace pour servir"
+      ],
+      "steps": "FARCE\nMélanger pâte à tartiner et noisettes concassées.\n\nMONTAGE & CUISSON\nDéposer 1 c. à soupe bombée au centre de chaque disque.\nSceller soigneusement (la farce est liquide à chaud).\nDorer à l'œuf. Four 190°C : 15-18 min.\nLaisser refroidir 5 min — l'intérieur est très chaud.\n\n💡 Servir saupoudré de sucre glace avec une boule de glace vanille."
+    },
+    {
+      "id": "empanada:013",
+      "t": "Empanadas Banane & Caramel",
+      "cat": "Dessert",
+      "min": 35,
+      "serv": 6,
+      "desc": "Banane caramélisée, cassonade et cannelle — tropical, fondant, régressif.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "3 bananes mûres en rondelles",
+        "3 c. à soupe de cassonade",
+        "1 c. à café de cannelle",
+        "1 c. à soupe de beurre",
+        "Sucre glace"
+      ],
+      "steps": "FARCE\nFaire caraméliser les bananes avec beurre, cassonade et cannelle 3-4 min.\nLaisser refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 190°C : 18 min.\nSaupoudrer de sucre glace. Servir tiède."
+    },
+    {
+      "id": "empanada:014",
+      "t": "Empanadas Poulet BBQ",
+      "cat": "Apéritif",
+      "min": 45,
+      "serv": 6,
+      "desc": "Poulet nappé de sauce BBQ, oignon rouge et fromage — savoureux, légèrement fumé, ultra-populaire.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "300 g de poulet cuit effiloché",
+        "4 c. à soupe de sauce BBQ",
+        "1 oignon rouge haché",
+        "80 g de fromage râpé",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nMélanger poulet effiloché, sauce BBQ, oignon rouge et fromage.\nAssaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min."
+    },
+    {
+      "id": "empanada:015",
+      "t": "Empanadas Crevettes & Ail",
+      "cat": "Apéritif",
+      "min": 45,
+      "serv": 6,
+      "desc": "Crevettes sautées à l'ail et persil — des empanadas aux saveurs de fruits de mer délicates.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "300 g de crevettes décortiquées",
+        "4 gousses d'ail hachées",
+        "2 c. à soupe de persil haché",
+        "2 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nFaire sauter les crevettes avec ail et huile 3-4 min. Hacher grossièrement.\nAjouter le persil. Assaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 190°C : 18-20 min."
+    },
+    {
+      "id": "empanada:016",
+      "t": "Empanadas Fromage & Miel",
+      "cat": "Apéritif, Dessert",
+      "min": 35,
+      "serv": 6,
+      "desc": "Fromage chèvre ou brie, miel et noix — la combinaison sucré-salé la plus élégante en empanada.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "150 g de fromage de chèvre ou brie",
+        "3 c. à soupe de miel",
+        "30 g de noix concassées (optionnel)"
+      ],
+      "steps": "FARCE\nCouper le fromage en petits morceaux.\nMélanger avec le miel et les noix.\n\nMONTAGE & CUISSON\nFarcir (ne pas trop remplir — le fromage fond beaucoup).\nSceller soigneusement. Dorer.\nFour 190°C : 16-18 min. Surveiller — le fromage peut s'échapper.\n\n💡 Servir tiède en entrée ou avec une salade endive-noix-miel."
+    },
+    {
+      "id": "empanada:017",
+      "t": "Empanadas Bœuf & Olives Vertes",
+      "cat": "Espagne, Apéritif",
+      "min": 50,
+      "serv": 6,
+      "desc": "Bœuf haché et olives vertes — la garniture classique argentine avec la touche ibérique des olives.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "400 g de bœuf haché",
+        "60 g d'olives vertes hachées",
+        "1 oignon haché",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nFaire revenir oignon et bœuf. Incorporer les olives hors du feu.\nAssaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 22-25 min."
+    },
+    {
+      "id": "empanada:018",
+      "t": "Empanadas Légumes Grillés",
+      "cat": "Apéritif",
+      "min": 50,
+      "serv": 6,
+      "desc": "Courgette, aubergine et poivron grillés — des empanadas végétariennes colorées et estivales.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "1 courgette en dés",
+        "1 aubergine en dés",
+        "1 poivron en dés",
+        "2 c. à soupe d'huile d'olive",
+        "Herbes de Provence",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nMélanger légumes avec huile et herbes. Rôtir à 200°C : 20 min jusqu'à coloration.\nLaisser refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min."
+    },
+    {
+      "id": "empanada:019",
+      "t": "Empanadas Poulet & Épinards",
+      "cat": "Apéritif",
+      "min": 45,
+      "serv": 6,
+      "desc": "Poulet fondant et épinards — équilibré, nutritif, parfait pour un repas léger.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "250 g de poulet cuit effiloché",
+        "150 g d'épinards frais (fondus et égouttés)",
+        "1 oignon",
+        "2 c. à soupe de crème fraîche",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nFaire fondre les épinards, égoutter et presser. Mélanger avec poulet, oignon cuit et crème.\nAssaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min."
+    },
+    {
+      "id": "empanada:020",
+      "t": "Empanadas Fromage & Pesto",
+      "cat": "Apéritif, Italie",
+      "min": 35,
+      "serv": 6,
+      "desc": "Mozzarella, pesto au basilic et tomates séchées — la fusion italo-espagnole express.",
+      "ing": [
+        "12 disques de pâte à empanadas",
+        "150 g de mozzarella en dés",
+        "4 c. à soupe de pesto au basilic",
+        "4 tomates séchées hachées",
+        "Sel, poivre"
+      ],
+      "steps": "FARCE\nMélanger mozzarella, pesto et tomates séchées. Assaisonner légèrement.\n\nMONTAGE & CUISSON\nFarcir, sceller soigneusement (fromage fondu).\nDorer. Four 190°C : 18-20 min.\n\n💡 Servir avec un bol de sauce tomate pour tremper."
     }
   ]
 }
