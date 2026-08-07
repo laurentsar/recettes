@@ -3665,6 +3665,234 @@
         "Sel, poivre"
       ],
       "steps": "FARCE\nMélanger mozzarella, pesto et tomates séchées. Assaisonner légèrement.\n\nMONTAGE & CUISSON\nFarcir, sceller soigneusement (fromage fondu).\nDorer. Four 190°C : 18-20 min.\n\n💡 Servir avec un bol de sauce tomate pour tremper."
+    },
+    {
+      "id": "salade:001",
+      "t": "Salade de Pâtes Saumon Fumé, Tomates & Olives",
+      "cat": "Salade, Pâtes, Été",
+      "min": 20,
+      "serv": 4,
+      "desc": "Coquillettes froides, saumon fumé, tomates cerises et olives avec crème fraîche citronnée à l'aneth.",
+      "ing": [
+        "300 g de coquillettes",
+        "180 g de saumon fumé en lanières",
+        "200 g de tomates cerises coupées en deux",
+        "80 g d'olives noires ou vertes",
+        "3 c. à soupe de crème fraîche",
+        "2 c. à soupe d'aneth ciselé",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les pâtes al dente, rincer à l'eau froide, égoutter.\nMélanger crème fraîche, aneth et ciboulette. Assaisonner.\nAjouter saumon, tomates cerises et olives aux pâtes.\nNapper de sauce. Mélanger délicatement. Réfrigérer 20 min avant de servir.\n\n💡 Préparer à l'avance — meilleure après 1h au frigo pour que les saveurs se mêlent."
+    },
+    {
+      "id": "salade:002",
+      "t": "Salade de Pâtes Thon, Poivron & Carotte",
+      "cat": "Salade, Pâtes, Été",
+      "min": 20,
+      "serv": 4,
+      "desc": "Penne, thon, poivron coloré et carottes râpées — la salade de pâtes classique des grandes tablées estivales.",
+      "ing": [
+        "300 g de penne",
+        "1 grande boîte de thon au naturel (égoutté)",
+        "1 poivron (rouge ou jaune) en dés",
+        "2 carottes râpées",
+        "3 c. à soupe d'huile d'olive",
+        "1 c. à soupe de jus de citron",
+        "Persil haché",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les pâtes al dente, rincer et égoutter.\nÉmietter le thon. Mélanger huile d'olive et jus de citron.\nCombiner pâtes, thon, poivron en dés et carottes râpées.\nArroser de vinaigrette. Parsemer de persil. Assaisonner.\n\n💡 Ajouter une c. à soupe de moutarde à la vinaigrette pour plus de caractère."
+    },
+    {
+      "id": "salade:003",
+      "t": "Salade de Pâtes Crevettes, Brocoli & Tomate",
+      "cat": "Salade, Pâtes, Été",
+      "min": 25,
+      "serv": 4,
+      "desc": "Orecchiette, crevettes cuites, brocoli croquant et sauce yaourt grecque au citron.",
+      "ing": [
+        "300 g d'orecchiette",
+        "250 g de crevettes cuites décortiquées",
+        "½ brocoli en petits bouquets",
+        "2 tomates en dés",
+        "150 g de yaourt grec",
+        "1 c. à soupe de jus de citron",
+        "Ciboulette ciselée",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les pâtes al dente. Les 3 dernières minutes, ajouter les bouquets de brocoli dans l'eau.\nÉgoutter, rincer à l'eau froide.\nFouetter yaourt grec et jus de citron, assaisonner.\nMélanger pâtes, crevettes, brocoli et tomates. Napper de sauce yaourt. Ciboulette.\n\n💡 Le brocoli cuit avec les pâtes : moins de vaisselle, brocoli croquant parfait."
+    },
+    {
+      "id": "salade:004",
+      "t": "Salade de Pâtes Maquereau, Tomates & Olives",
+      "cat": "Salade, Pâtes, Été",
+      "min": 20,
+      "serv": 4,
+      "desc": "Fusilli, maquereau fumé au poivre, tomates cerises et olives avec mayonnaise légère à l'aneth.",
+      "ing": [
+        "300 g de fusilli",
+        "1 boîte de maquereau au naturel ou fumé (égoutté)",
+        "200 g de tomates cerises",
+        "80 g d'olives noires",
+        "3 c. à soupe de mayonnaise légère",
+        "1 c. à soupe de jus de citron",
+        "Aneth ciselé",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les fusilli al dente, rincer à l'eau froide.\nÉmietter le maquereau en gros morceaux.\nMélanger mayonnaise, citron et aneth. Assaisonner.\nCombiner pâtes, maquereau, tomates et olives. Napper de sauce.\n\n💡 Le maquereau fumé au poivre apporte encore plus de caractère. Éviter de trop mixer."
+    },
+    {
+      "id": "salade:005",
+      "t": "Salade de Pâtes Saumon Fumé, Brocoli & Pesto",
+      "cat": "Salade, Pâtes, Été",
+      "min": 22,
+      "serv": 4,
+      "desc": "Farfalle au pesto, saumon fumé, brocoli croquant et tomates — fraîche, parfumée et colorée.",
+      "ing": [
+        "300 g de farfalle",
+        "180 g de saumon fumé en lanières",
+        "½ brocoli en petits bouquets",
+        "2 tomates en dés",
+        "2 c. à soupe de pesto au basilic",
+        "1 c. à soupe d'huile d'olive",
+        "Basilic frais",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les farfalle al dente avec le brocoli les 3 dernières minutes.\nÉgoutter et rincer à l'eau froide.\nMélanger pesto et huile d'olive.\nCombiner pâtes, saumon, brocoli et tomates. Napper de pesto.\nDécorer de basilic frais. Réfrigérer avant de servir.\n\n💡 Le pesto maison (basilic + pignons + parmesan + huile) est ici particulièrement délicieux."
+    },
+    {
+      "id": "salade:006",
+      "t": "Salade de Pâtes Saumon Cuit, Avocat & Radis",
+      "cat": "Salade, Pâtes, Été",
+      "min": 22,
+      "serv": 4,
+      "desc": "Penne, saumon cuit émietté, avocat crémeux et radis croquants — fraîcheur et onctuosité.",
+      "ing": [
+        "300 g de penne",
+        "180 g de saumon cuit (poché ou grillé) émietté",
+        "1 avocat mûr en dés",
+        "6 radis en rondelles fines",
+        "3 c. à soupe d'huile d'olive",
+        "Jus d'½ citron",
+        "Persil haché",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les pâtes al dente, rincer à l'eau froide.\nPréparer l'avocat en dés, arroser de citron pour ne pas noircir.\nFouetter huile d'olive et jus de citron.\nCombiner pâtes, saumon émietté, avocat et radis. Vinaigrette. Persil.\n\n💡 Utiliser des restes de saumon grillé ou poché — encore meilleur que du saumon en boîte."
+    },
+    {
+      "id": "salade:007",
+      "t": "Salade de Pâtes Surimi, Poivron & Carotte",
+      "cat": "Salade, Pâtes, Été",
+      "min": 18,
+      "serv": 4,
+      "desc": "Fusilli, surimi en morceaux, poivron et carottes râpées avec mayo légère à l'aneth — économique et populaire.",
+      "ing": [
+        "300 g de fusilli",
+        "220 g de surimi en bâtonnets (ou miettes)",
+        "1 poivron en dés",
+        "2 carottes râpées",
+        "3 c. à soupe de mayonnaise légère",
+        "1 c. à soupe de jus de citron",
+        "Aneth ciselé",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les pâtes al dente, rincer et égoutter.\nCouper le surimi en rondelles ou morceaux.\nMélanger mayonnaise, citron et aneth. Assaisonner.\nCombiner pâtes, surimi, poivron et carottes. Napper de sauce.\n\n💡 Parsemer de ciboulette pour la fraîcheur. Se prépare la veille sans problème."
+    },
+    {
+      "id": "salade:008",
+      "t": "Salade de Pâtes Saumon Fumé, Courgette & Basilic",
+      "cat": "Salade, Pâtes, Été",
+      "min": 20,
+      "serv": 4,
+      "desc": "Penne, saumon fumé, courgette râpée crue et basilic frais — légère, estivale, parfumée.",
+      "ing": [
+        "300 g de penne",
+        "180 g de saumon fumé en lanières",
+        "1 courgette râpée crue",
+        "Quelques feuilles de basilic frais",
+        "3 c. à soupe d'huile d'olive",
+        "1 c. à soupe de jus de citron",
+        "Persil haché",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les pâtes al dente, rincer à l'eau froide.\nRâper la courgette crue (pas besoin de cuisson).\nFouetter huile et citron. Assaisonner.\nCombiner pâtes, saumon, courgette râpée. Vinaigrette. Basilic et persil.\n\n💡 La courgette crue râpée reste croquante et apporte une légèreté inattendue."
+    },
+    {
+      "id": "salade:009",
+      "t": "Salade de Pâtes Thon, Concombre & Maïs",
+      "cat": "Salade, Pâtes, Été",
+      "min": 18,
+      "serv": 4,
+      "desc": "La salade de pâtes thon-maïs préférée des enfants — fraîche, douce et simple.",
+      "ing": [
+        "300 g de coquillettes ou fusilli",
+        "1 grande boîte de thon au naturel (égoutté)",
+        "½ concombre en dés",
+        "80 g de maïs en boîte",
+        "3 c. à soupe de crème fraîche ou mayonnaise",
+        "Jus d'½ citron",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les pâtes al dente, rincer et égoutter.\nMélanger crème fraîche (ou mayo) avec jus de citron.\nÉmietter le thon. Ajouter concombre et maïs.\nTout combiner. Ciboulette. Réfrigérer avant de servir.\n\n💡 Version allégée : remplacer la mayo par du yaourt grec."
+    },
+    {
+      "id": "salade:010",
+      "t": "Salade de Pâtes Surimi, Avocat & Radis",
+      "cat": "Salade, Pâtes, Été",
+      "min": 18,
+      "serv": 4,
+      "desc": "Orecchiette, surimi, avocat fondant et radis croquants avec yaourt grec citronné.",
+      "ing": [
+        "300 g d'orecchiette",
+        "220 g de surimi en morceaux",
+        "1 avocat mûr en dés",
+        "6 radis en rondelles",
+        "150 g de yaourt grec",
+        "1 c. à soupe de jus de citron",
+        "Aneth ciselé",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les pâtes al dente, rincer à l'eau froide.\nMélanger yaourt grec et jus de citron. Assaisonner.\nCouper l'avocat, arroser de citron.\nCombiner pâtes, surimi, avocat et radis. Sauce yaourt. Aneth.\n\n💡 Les radis apportent le croquant — ne pas les omettre."
+    },
+    {
+      "id": "salade:011",
+      "t": "Salade de Pâtes Crevettes, Courgette & Basilic",
+      "cat": "Salade, Pâtes, Été",
+      "min": 20,
+      "serv": 4,
+      "desc": "Fusilli, crevettes cuites, courgette râpée et basilic avec mayo légère citronnée.",
+      "ing": [
+        "300 g de fusilli",
+        "180 g de crevettes cuites décortiquées",
+        "1 courgette râpée crue",
+        "Quelques feuilles de basilic frais",
+        "3 c. à soupe de mayonnaise légère",
+        "1 c. à soupe de jus de citron",
+        "Aneth",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les fusilli al dente, rincer à l'eau froide.\nRâper la courgette et la saler légèrement, essorer après 5 min.\nMélanger mayonnaise, citron et aneth.\nCombiner pâtes, crevettes, courgette. Sauce. Basilic.\n\n💡 Essorer la courgette râpée évite une salade trop liquide."
+    },
+    {
+      "id": "salade:012",
+      "t": "Salade de Pâtes Thon, Mangue & Concombre",
+      "cat": "Salade, Pâtes, Été",
+      "min": 20,
+      "serv": 4,
+      "desc": "Fusilli, thon, mangue sucrée et concombre frais — la salade exotique-sucrée-salée qui surprend toujours.",
+      "ing": [
+        "300 g de fusilli",
+        "1 grande boîte de thon au naturel (égoutté)",
+        "1 mangue mûre en dés",
+        "½ concombre en dés",
+        "3 c. à soupe de mayonnaise légère",
+        "1 c. à soupe de jus de citron",
+        "Aneth ciselé",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire les fusilli al dente, rincer à l'eau froide.\nPeler et couper la mangue en petits dés.\nMélanger mayonnaise et citron.\nCombiner pâtes, thon, mangue et concombre. Sauce. Aneth.\n\n💡 La mangue doit être mûre mais ferme pour ne pas se désintégrer dans la salade.\nVariante : remplacer la mayo par du yaourt à la coriandre pour une version plus fraîche."
     }
   ]
 }
