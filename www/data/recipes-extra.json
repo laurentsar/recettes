@@ -3893,6 +3893,991 @@
         "Sel, poivre"
       ],
       "steps": "Cuire les fusilli al dente, rincer à l'eau froide.\nPeler et couper la mangue en petits dés.\nMélanger mayonnaise et citron.\nCombiner pâtes, thon, mangue et concombre. Sauce. Aneth.\n\n💡 La mangue doit être mûre mais ferme pour ne pas se désintégrer dans la salade.\nVariante : remplacer la mayo par du yaourt à la coriandre pour une version plus fraîche."
+    },
+    {
+      "id": "grece:001",
+      "t": "Moussaka",
+      "cat": "Grèce",
+      "min": 90,
+      "serv": 6,
+      "desc": "Le gratin grec par excellence — couches d'aubergines fondantes, ragù à la cannelle et béchamel crémeuse. Un plat qui réunit toute la famille.",
+      "ing": [
+        "3 grosses aubergines en rondelles",
+        "500 g de bœuf ou agneau haché",
+        "2 oignons hachés",
+        "3 gousses d'ail",
+        "400 g de tomates concassées",
+        "1 c. à café de cannelle",
+        "½ c. à café de muscade",
+        "BÉCHAMEL : 60g beurre, 60g farine, 600ml lait, 2 œufs, parmesan",
+        "Huile d'olive, sel, poivre"
+      ],
+      "steps": "AUBERGINES\nSaler les rondelles d'aubergines 20 min, rincer et sécher. Faire dorer à la poêle dans l'huile ou badigeonner d'huile et passer au four 200°C 20 min.\n\nRAGÙ\nFaire revenir oignon et ail. Ajouter la viande, dorer. Tomates, cannelle, muscade, sel, poivre. Mijoter 20 min pour concentrer.\n\nBÉCHAMEL\nFaire fondre beurre + farine 1 min. Ajouter le lait chaud en fouettant. Épaissir 5 min. Hors du feu, incorporer les œufs battus.\n\nMONTAGE — Dans un grand plat :\n1. Couche d'aubergines\n2. Ragù\n3. Aubergines\n4. Béchamel généreuse. Parmesan.\n\nFour 180°C : 40-45 min jusqu'à dorure.\nLaisser tiédir 15 min avant de couper — tient mieux.\n\n💡 Meilleure réchauffée le lendemain — les saveurs se concentrent."
+    },
+    {
+      "id": "grece:002",
+      "t": "Souvlaki",
+      "cat": "Grèce",
+      "min": 35,
+      "serv": 4,
+      "desc": "Brochettes grecques marinées à l'origan, citron et ail — poulet, porc ou agneau. La street food la plus emblématique de Grèce.",
+      "ing": [
+        "600 g de viande (poulet, porc ou agneau) en cubes de 3 cm",
+        "4 c. à soupe d'huile d'olive",
+        "Jus d'1 citron",
+        "2 gousses d'ail râpées",
+        "2 c. à café d'origan séché",
+        "1 c. à café de paprika",
+        "Sel, poivre",
+        "Brochettes en bois (trempées 30 min)"
+      ],
+      "steps": "Mélanger huile, citron, ail, origan et paprika.\nMariner les cubes de viande 30 min minimum (2h idéalement).\nEnfiler sur brochettes. Saler, poivrer.\n\nCUISSON\nGrill ou barbecue très chaud : 10-15 min en tournant souvent.\nOu four 220°C avec grill : 12-15 min.\n\nServir avec pain pita, tzatziki, tomates et oignons rouges.\n\n💡 Le secret est dans l'origan — ne pas lésiner. Arroser de jus de citron à la sortie."
+    },
+    {
+      "id": "grece:003",
+      "t": "Gyros au Poulet",
+      "cat": "Grèce",
+      "min": 30,
+      "serv": 4,
+      "desc": "Le sandwich grec roulé — poulet mariné aux épices grillé, pita, tzatziki, tomates et oignons. Rapide et savoureux.",
+      "ing": [
+        "4 blancs de poulet",
+        "1 c. à soupe d'origan",
+        "1 c. à café de cumin",
+        "1 c. à café de paprika fumé",
+        "2 gousses d'ail",
+        "3 c. à soupe d'huile d'olive",
+        "4 pains pita",
+        "Tzatziki, tomates, oignon rouge, frites (optionnel)"
+      ],
+      "steps": "Couper le poulet en fines lanières. Mélanger avec ail, épices et huile.\nMariner 20 min minimum.\n\nCUISSON\nPoêle très chaude ou grill : 8-10 min en remuant. Les bords doivent légèrement caraméliser.\n\nASSEMBLAGE\nRéchauffer les pitas. Garnir de poulet, tzatziki, tomates coupées et oignons rouges.\nRouler serré.\n\n💡 Le vrai gyros est cuit à la broche — en version maison, la poêle très chaude donne un beau résultat si on ne surchage pas."
+    },
+    {
+      "id": "grece:004",
+      "t": "Tzatziki",
+      "cat": "Grèce",
+      "min": 15,
+      "serv": 6,
+      "desc": "La sauce grecque fondamentale — yaourt, concombre, ail et aneth. Incontournable avec tout souvlaki, gyros ou simplement en trempette.",
+      "ing": [
+        "500 g de yaourt grec épais",
+        "1 concombre moyen",
+        "2 gousses d'ail râpées",
+        "2 c. à soupe d'huile d'olive extra vierge",
+        "1 c. à soupe d'aneth frais (ou menthe)",
+        "1 c. à soupe de jus de citron",
+        "Sel, poivre"
+      ],
+      "steps": "Râper le concombre grossièrement. Saler et laisser dégorger 15 min dans une passoire.\nPresser fortement pour éliminer un maximum d'eau — c'est la clé.\nMélanger yaourt, concombre pressé, ail, huile, aneth et citron.\nAssaisonner. Réfrigérer au moins 30 min.\n\n💡 Plus l'eau est bien extraite du concombre, plus le tzatziki est épais et savoureux.\nAvec du yaourt grec entier (non allégé) pour la meilleure texture."
+    },
+    {
+      "id": "grece:005",
+      "t": "Spanakopita",
+      "cat": "Grèce",
+      "min": 60,
+      "serv": 8,
+      "desc": "La tourte grecque aux épinards et feta — feuilles de phyllo croustillantes et garniture fondante. Un chef-d'œuvre de la cuisine grecque.",
+      "ing": [
+        "500 g d'épinards frais (ou 300g surgelés, décongelés et pressés)",
+        "300 g de feta émiettée",
+        "3 œufs",
+        "4 oignons verts hachés",
+        "Aneth frais haché",
+        "10 feuilles de pâte phyllo",
+        "80 g de beurre fondu",
+        "Huile d'olive, sel, poivre"
+      ],
+      "steps": "GARNITURE\nFaire fondre les épinards, égoutter et presser fortement.\nMélanger épinards, feta émiettée, œufs battus, oignons verts et aneth.\nAssaisonner (attention : la feta est salée).\n\nMONTAGE\nBeurrer un plat 30×20 cm. Disposer 5 feuilles de phyllo en badigeonnant chacune de beurre.\nÉtaler la garniture. Couvrir de 5 feuilles de phyllo beurrées.\nInciser en portions avant cuisson.\n\nFour 180°C : 40-45 min jusqu'à belle dorure.\n\n💡 Le phyllo sèche vite — travailler sous un linge humide. Huile d'olive + beurre pour plus de saveur."
+    },
+    {
+      "id": "grece:006",
+      "t": "Pastitsio (Lasagne Grecque)",
+      "cat": "Grèce",
+      "min": 75,
+      "serv": 8,
+      "desc": "La \"lasagne grecque\" — penne au bœuf à la cannelle, nappées de béchamel et gratinées. Un plat familial réconfortant.",
+      "ing": [
+        "400 g de penne rigate",
+        "500 g de bœuf haché",
+        "1 oignon haché",
+        "400 g de tomates concassées",
+        "1 c. à café de cannelle",
+        "½ c. à café de muscade",
+        "BÉCHAMEL : 60g beurre, 60g farine, 700ml lait, 2 œufs, 100g parmesan",
+        "Huile d'olive, sel, poivre"
+      ],
+      "steps": "PÂTES : Cuire al dente, égoutter.\nRAGÙ : Faire revenir oignon et bœuf. Tomates, cannelle, muscade. Mijoter 20 min.\nBÉCHAMEL : Roux blanc, lait chaud en fouettant, épaissir. Hors du feu : œufs + parmesan.\n\nMONTAGE\nCouche de pâtes (la moitié). Ragù. Reste des pâtes. Béchamel généreuse. Parmesan.\n\nFour 180°C : 40 min.\nLaisser tiédir 15 min avant de servir.\n\n💡 La cannelle est la signature du pastitsio — ne pas l'omettre même si cela semble surprenant."
+    },
+    {
+      "id": "grece:007",
+      "t": "Salade Grecque (Horiatiki)",
+      "cat": "Grèce",
+      "min": 10,
+      "serv": 4,
+      "desc": "La salade paysanne grecque authentique — tomates, concombre, olives kalamata, feta entière et origan. Sans laitue, sans fioritures.",
+      "ing": [
+        "3 grosses tomates en quartiers",
+        "1 concombre en rondelles épaisses",
+        "100 g d'olives kalamata",
+        "200 g de feta en bloc (pas émiettée)",
+        "½ oignon rouge en rondelles",
+        "1 poivron vert en lanières",
+        "4 c. à soupe d'huile d'olive extra vierge",
+        "Origan séché généreusement",
+        "Sel (peu — la feta sale)"
+      ],
+      "steps": "Couper les légumes grossièrement — la salade grecque se fait en morceaux généreux, pas en petits dés.\nDisposer dans un saladier : tomates, concombre, poivron, oignon.\nAjouter les olives.\nPoser le bloc de feta entier au centre — ne pas émietter.\nArroser d'huile d'olive. Saupoudrer d'origan. Saler légèrement.\n\nServir immédiatement avec du pain de campagne.\n\n💡 La feta entière est la signature — l'huile d'olive doit être de qualité."
+    },
+    {
+      "id": "grece:008",
+      "t": "Dolmades (Feuilles de Vigne Farcies)",
+      "cat": "Grèce",
+      "min": 75,
+      "serv": 6,
+      "desc": "Feuilles de vigne farcies au riz, menthe et aneth, cuites au citron. Servies tièdes ou froides, toujours avec du tzatziki.",
+      "ing": [
+        "30 feuilles de vigne (en bocal)",
+        "200 g de riz à grain rond (type arborio)",
+        "1 oignon finement haché",
+        "2 c. à soupe de menthe fraîche hachée",
+        "2 c. à soupe d'aneth haché",
+        "Jus de 2 citrons",
+        "4 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "Rincer les feuilles de vigne, les blanchir 2 min si fraîches.\nFARCE : Mélanger riz cru, oignon, herbes, 2 c. d'huile, sel, poivre.\nROULAGE : Poser une feuille, vein côté visible. 1 c. à café de farce à la base. Rabattre les côtés, rouler fermement.\nDisposer en couches serrées dans une cocotte.\nArroser de citron, huile, couvrir d'eau à hauteur.\nCouvrir d'une assiette (poids) pour qu'ils ne bougent pas.\nCuire 40-45 min à feu doux.\nLaisser refroidir dans le jus.\n\n💡 Le riz cru absorbe le jus de cuisson — ne pas pré-cuire. Servir avec tzatziki et citron."
+    },
+    {
+      "id": "grece:009",
+      "t": "Gigantes Plaki (Haricots Géants en Sauce Tomate)",
+      "cat": "Grèce",
+      "min": 90,
+      "serv": 6,
+      "desc": "Haricots géants mijotés dans une sauce tomate parfumée au four. Le plat végétarien grec le plus réconfortant.",
+      "ing": [
+        "400 g de haricots géants secs (ou 800g en boîte)",
+        "400 g de tomates concassées",
+        "1 oignon haché",
+        "3 gousses d'ail",
+        "1 carotte en dés",
+        "4 c. à soupe d'huile d'olive",
+        "1 c. à café d'origan",
+        "Persil frais",
+        "Sel, poivre, sucre (pincée)"
+      ],
+      "steps": "Si haricots secs : faire tremper 12h, cuire 1h jusqu'à tendres, égoutter.\nSAUCE : Faire revenir oignon, ail et carotte 10 min dans l'huile.\nAjouter tomates, origan, sel, poivre, pincée de sucre. Cuire 10 min.\nMélanger avec les haricots dans un plat allant au four.\nArroser d'un filet d'huile. Ajouter un peu d'eau si trop sec.\nFour 180°C : 45-60 min jusqu'à sauce concentrée et légèrement caramélisée en surface.\nGarnir de persil frais.\n\n💡 Les haricots géants en boîte réduisent le temps de 2h. Excellent avec du pain pita."
+    },
+    {
+      "id": "grece:010",
+      "t": "Saganaki (Fromage Frit)",
+      "cat": "Grèce",
+      "min": 10,
+      "serv": 4,
+      "desc": "Fromage grec frit doré et croustillant dehors, fondant dedans. Servi avec un jus de citron et du pain — starter irrésistible.",
+      "ing": [
+        "300 g de fromage kefalotiri, kasseri, graviera (ou halloumi)",
+        "4 c. à soupe de farine",
+        "2 c. à soupe de beurre",
+        "2 c. à soupe d'huile d'olive",
+        "Jus d'1 citron",
+        "Poivre"
+      ],
+      "steps": "Couper le fromage en tranches de 1,5 cm. Humidifier légèrement.\nFariner sur les deux faces en tapotant l'excédent.\nChauffer beurre + huile dans une poêle à feu moyen-vif.\nFaire dorer 2 min par face — croûte dorée et croustillante.\nServir immédiatement avec un filet de citron et du pain.\n\n💡 Faire chauffer la poêle correctement pour que la farine adhère et forme une croûte — sinon le fromage s'effondre.\nL'opa ! (feu) est optionnel mais spectaculaire."
+    },
+    {
+      "id": "grece:011",
+      "t": "Halloumi Grillé",
+      "cat": "Grèce",
+      "min": 10,
+      "serv": 4,
+      "desc": "Fromage chypriote aux propriétés uniques — il ne fond pas à la chaleur, parfait pour griller. Croustillant, salé, avec du citron.",
+      "ing": [
+        "250 g de halloumi",
+        "Huile d'olive",
+        "Jus d'½ citron",
+        "Menthe fraîche ou thym"
+      ],
+      "steps": "Couper le halloumi en tranches de 1 cm.\nBadigeonner légèrement d'huile d'olive.\n\nGRILL / POÊLE CHAUDE (sans matière grasse)\nGriller 2-3 min par face jusqu'à belles marques de grill et surface dorée.\n\nArroser de citron immédiatement à la sortie.\nGarnir de menthe ou thym frais.\n\nServir chaud — le halloumi refroidi devient caoutchouteux.\n\n💡 Excellent en salade avec pastèque et menthe, ou en burger végétarien."
+    },
+    {
+      "id": "grece:012",
+      "t": "Soupe Avgolemono (Bouillon Citron-Œuf)",
+      "cat": "Grèce",
+      "min": 30,
+      "serv": 4,
+      "desc": "La soupe grecque la plus réconfortante — bouillon de poulet soyeux avec riz, tempéré aux œufs et citron. Veloutée sans une goutte de crème.",
+      "ing": [
+        "1,5 litre de bouillon de poulet",
+        "150 g de riz",
+        "300 g de poulet cuit effiloché",
+        "3 œufs",
+        "Jus de 2 citrons",
+        "Sel, poivre",
+        "Aneth pour servir"
+      ],
+      "steps": "Porter le bouillon à ébullition. Ajouter le riz, cuire 15-18 min.\nRéduire à feu très doux.\nLIAISON AVGOLEMONO : Battre les œufs, ajouter le jus de citron en fouettant.\nPrélever 2 louches de bouillon chaud, les incorporer lentement au mélange œuf-citron (tempérage).\nVerser la liaison dans la soupe en remuant constamment. Ne plus faire bouillir.\nAjouter le poulet effiloché. Assaisonner.\nServir garni d'aneth et d'un peu de citron.\n\n💡 Ne jamais faire bouillir après l'ajout de la liaison — les œufs coaguleraient."
+    },
+    {
+      "id": "grece:013",
+      "t": "Baklava",
+      "cat": "Grèce, Dessert",
+      "min": 75,
+      "serv": 20,
+      "desc": "Le dessert grec et moyen-oriental par excellence — feuilles de phyllo beurrées, noix et pistaches, sirop de miel. Un seul suffit !",
+      "ing": [
+        "400 g de feuilles de phyllo",
+        "200 g de beurre fondu",
+        "300 g de noix + pistaches mélangées, hachées grossièrement",
+        "2 c. à café de cannelle",
+        "SIROP : 200g sucre, 150ml eau, 150g miel, zeste de citron"
+      ],
+      "steps": "GARNITURE : Mélanger noix hachées, pistaches et cannelle.\nMONTAGE (plat 30×20 cm) :\n- 8 feuilles de phyllo beurrées une à une\n- 1 couche de mélange de noix\n- Répéter (5-6 couches) jusqu'à épuisement\n- Finir par 8 feuilles beurrées\nCouper en losanges ou carrés AVANT cuisson.\n\nCUISSON Four 160°C : 45-50 min jusqu'à dorure profonde.\n\nSIROP : Porter eau + sucre à ébullition 5 min. Ajouter miel et citron. Refroidir.\nVerser le sirop FROID sur le baklava CHAUD — ou sirop chaud sur baklava froid.\n\nLaisser absorber 4h minimum. Se conserve 2 semaines."
+    },
+    {
+      "id": "grece:014",
+      "t": "Loukoumades (Beignets au Miel)",
+      "cat": "Grèce, Dessert",
+      "min": 35,
+      "serv": 6,
+      "desc": "Petits beignets grecs aériens et croustillants, nappés de miel et cannelle. La street food sucrée de la Grèce antique.",
+      "ing": [
+        "250 g de farine",
+        "1 sachet de levure de boulanger instantanée (7g)",
+        "250 ml d'eau tiède",
+        "1 c. à café de sel",
+        "1 c. à café de sucre",
+        "Huile de friture",
+        "Miel liquide genereux",
+        "Cannelle, noix concassées (optionnel)"
+      ],
+      "steps": "Diluer la levure dans l'eau tiède avec le sucre. Attendre 10 min (mousse).\nMélanger farine et sel. Ajouter la levure. Fouetter jusqu'à pâte lisse et collante.\nLaisser lever 1h à couvert jusqu'à doublement.\n\nFRITURE\nChauffer l'huile à 170-175°C.\nPrendre des cuillerées à soupe de pâte, les plonger avec une cuillère humide.\nFrire 3-4 min en retournant pour une dorure uniforme.\nÉgoutter sur papier absorbant.\n\nNapper de miel chaud immédiatement. Cannelle et noix.\n\n💡 Servir chaud — ils perdent leur légèreté en refroidissant."
+    },
+    {
+      "id": "grece:015",
+      "t": "Galaktoboureko (Flan à la Semoule en Phyllo)",
+      "cat": "Grèce, Dessert",
+      "min": 80,
+      "serv": 12,
+      "desc": "Crème à la semoule vanillée emprisonnée dans du phyllo croustillant, imbibée de sirop citronné. La pâtisserie grecque la plus délicate.",
+      "ing": [
+        "10 feuilles de phyllo",
+        "80 g de beurre fondu",
+        "CRÈME : 1L lait, 150g semoule fine, 150g sucre, 4 œufs, vanille, zeste citron",
+        "SIROP : 200g sucre, 200ml eau, jus de citron"
+      ],
+      "steps": "CRÈME SEMOULE\nPorter le lait à frémissement. Ajouter semoule + sucre en pluie en fouettant.\nCuire 5 min à feu moyen en remuant — épaissit rapidement.\nHors du feu : œufs battus + vanille + zeste. Mélanger vigoureusement.\n\nMONTAGE\nPlat beurré. Disposer 5 feuilles phyllo beurrées.\nVerser la crème tiède. Couvrir de 5 feuilles phyllo beurrées.\nInciser en portions.\n\nFour 180°C : 40 min jusqu'à bien doré.\n\nSIROP (pendant la cuisson) : Dissoudre sucre + eau 5 min. Citron. Refroidir.\nVerser sirop froid sur galaktoboureko chaud à la sortie du four.\nLaisser absorber au moins 1h."
+    },
+    {
+      "id": "grece:016",
+      "t": "Kleftiko (Agneau Lentement Cuit)",
+      "cat": "Grèce",
+      "min": 240,
+      "serv": 6,
+      "desc": "L'agneau des \"brigands\" — marinés aux herbes et citron, cuit très lentement enveloppé en papillote. Chair qui se détache à la fourchette.",
+      "ing": [
+        "1,5 kg d'épaule ou gigot d'agneau (ou en morceaux)",
+        "4 gousses d'ail en lamelles",
+        "2 citrons (jus + zeste)",
+        "2 c. à soupe d'origan séché",
+        "2 c. à soupe d'huile d'olive",
+        "2 tomates en quartiers",
+        "Sel, poivre"
+      ],
+      "steps": "Inciser profondément la viande. Insérer des lamelles d'ail dans les incisions.\nEnrober de citron, huile, origan, sel, poivre. Mariner 2h ou toute la nuit.\nDisposer sur une grande feuille d'alu avec les tomates.\nFermer hermétiquement en papillote.\n\nFour 160°C : 3h à 3h30 — la viande doit se détacher à la fourchette.\nOuvrir la papillote les 20 dernières minutes pour faire dorer.\n\n💡 La cuisson lente en papillote conserve tous les jus — ne pas ouvrir trop tôt.\nServir avec du riz, des pommes de terre rôties ou du pain pita."
+    },
+    {
+      "id": "grece:017",
+      "t": "Stifado (Ragoût aux Oignons Grelots)",
+      "cat": "Grèce",
+      "min": 120,
+      "serv": 6,
+      "desc": "Ragoût de bœuf aux oignons grelots entiers, cannelle et vin rouge — profond, parfumé, réconfortant.",
+      "ing": [
+        "800 g de bœuf à braiser en gros morceaux",
+        "500 g d'oignons grelots entiers pelés",
+        "400 g de tomates concassées",
+        "200 ml de vin rouge",
+        "2 c. à café de cannelle",
+        "3 clous de girofle",
+        "2 feuilles de laurier",
+        "2 gousses d'ail",
+        "Huile d'olive, sel, poivre"
+      ],
+      "steps": "Faire dorer les morceaux de bœuf sur toutes les faces dans l'huile. Réserver.\nFaire dorer les oignons grelots entiers 5 min.\nRemettre la viande. Ajouter ail, tomates, vin, cannelle, clous, laurier.\nAssaisonner. Couvrir et mijoter 1h30-2h à feu très doux.\nLes oignons doivent être fondants et la sauce réduite.\n\n💡 La cannelle est la signature — ne pas la sauter. Excellent avec des pâtes larges ou du riz."
+    },
+    {
+      "id": "grece:018",
+      "t": "Gemista (Légumes Farcis Grecs)",
+      "cat": "Grèce",
+      "min": 80,
+      "serv": 4,
+      "desc": "Tomates et poivrons farcis de riz, menthe et persil, cuits au four dans leur propre jus. Simple et absolument délicieux.",
+      "ing": [
+        "4 grosses tomates",
+        "4 poivrons rouges ou verts",
+        "200 g de riz à grain long",
+        "1 oignon haché",
+        "3 c. à soupe de persil haché",
+        "2 c. à soupe de menthe fraîche",
+        "4 c. à soupe d'huile d'olive",
+        "Sel, poivre",
+        "Un peu d'eau ou bouillon"
+      ],
+      "steps": "Couper le chapeau des tomates et poivrons. Évider soigneusement.\nHacher grossièrement la chair des tomates.\nFARCE : Mélanger riz cru, oignon, persil, menthe, chair de tomate, huile, sel, poivre.\nRemplir les légumes aux 3/4 (le riz gonfle).\nRemettre les chapeaux. Disposer dans un plat serré.\nAjouter un fond d'eau ou bouillon dans le plat. Arroser d'huile.\n\nFour 180°C : 60-70 min jusqu'à riz cuit et légumes fondants.\n\n💡 Ne pas trop remplir — le riz gonfle et fera éclater les légumes."
+    },
+    {
+      "id": "grece:019",
+      "t": "Fasolada (Soupe aux Haricots Blancs)",
+      "cat": "Grèce",
+      "min": 90,
+      "serv": 6,
+      "desc": "La \"soupe nationale grecque\" — haricots blancs, légumes et huile d'olive. Simple, nourrissante, vegan. Le plat du quotidien depuis l'Antiquité.",
+      "ing": [
+        "400 g de haricots blancs secs (ou 2 boîtes égouttées)",
+        "2 carottes en dés",
+        "2 branches de céleri en dés",
+        "1 oignon haché",
+        "3 gousses d'ail",
+        "400 g de tomates concassées",
+        "5 c. à soupe d'huile d'olive extra vierge",
+        "Persil frais",
+        "Sel, poivre"
+      ],
+      "steps": "Si secs : faire tremper 12h, rincer. Cuire 45 min à 1h, égoutter.\nFaire revenir oignon, ail, carottes et céleri dans l'huile 10 min.\nAjouter haricots et tomates. Couvrir d'eau.\nMijoter 30-40 min jusqu'à haricots bien fondants.\nAssaisonner généreusement de sel et poivre.\nFinir avec le persil et un filet d'huile d'olive crue.\n\n💡 Ne pas saler les légumineuses en début de cuisson — durcit les haricots. Saler en fin seulement."
+    },
+    {
+      "id": "grece:020",
+      "t": "Kolokithokeftedes (Galettes de Courgette & Feta)",
+      "cat": "Grèce",
+      "min": 30,
+      "serv": 4,
+      "desc": "Galettes de courgette râpée, feta et menthe — croustillantes dehors, fondantes dedans. L'apéritif grec végétarien idéal.",
+      "ing": [
+        "3 courgettes râpées (environ 600 g)",
+        "200 g de feta émiettée",
+        "2 œufs",
+        "3 c. à soupe de farine",
+        "1 c. à soupe de menthe fraîche hachée",
+        "1 c. à soupe d'aneth haché",
+        "Sel, poivre",
+        "Huile d'olive pour cuire"
+      ],
+      "steps": "Râper les courgettes. Saler et laisser dégorger 15 min dans une passoire.\nPresser FORTEMENT dans un torchon pour extraire un maximum d'eau — c'est crucial.\nMélanger courgettes pressées, feta, œufs, farine, herbes. Poivrer (peu de sel, la feta sale).\nFormer des galettes de 5 cm. Réfrigérer 20 min si la pâte semble molle.\n\nCUISSON POÊLE : Huile d'olive à feu moyen. 3-4 min par face jusqu'à dorure.\nOU FOUR 200°C : 20 min en retournant à mi-cuisson (moins d'huile).\n\nServir avec tzatziki.\n\n💡 L'eau des courgettes est l'ennemi — plus on presse, meilleures sont les galettes."
+    },
+    {
+      "id": "france:001",
+      "t": "Coq au Vin",
+      "cat": "France",
+      "min": 90,
+      "serv": 6,
+      "desc": "Le grand classique bourguignon — poulet mijoté longtemps dans le vin rouge avec lardons, champignons et oignons grelots.",
+      "ing": [
+        "1 poulet entier coupé en morceaux (ou 6 cuisses)",
+        "750 ml de vin rouge (Bourgogne de préférence)",
+        "150 g de lardons fumés",
+        "200 g de champignons de Paris",
+        "150 g d'oignons grelots",
+        "3 gousses d'ail",
+        "2 c. à soupe de farine",
+        "Thym, laurier, persil",
+        "Huile d'olive, beurre, sel, poivre"
+      ],
+      "steps": "Faire mariner le poulet 2h dans le vin avec thym et laurier (idéalement une nuit).\nÉgoutter et sécher les morceaux. Garder la marinade.\nFaire dorer les lardons, réserver. Faire dorer le poulet dans beurre+huile, fariner.\nFaire dorer oignons grelots et champignons, réserver.\nRemettre le poulet, verser la marinade. Porter à ébullition, écumer.\nAjouter ail, lardons, oignons. Couvrir. Mijoter 1h à feu doux.\nAjouter champignons les 15 dernières minutes.\nAssaisonner. Parsemer de persil.\n\n💡 Le coq (mâle) ou une vieille poule demandent 2h+ de cuisson — le poulet standard suffit en 1h."
+    },
+    {
+      "id": "france:002",
+      "t": "Œufs en Meurette",
+      "cat": "France",
+      "min": 35,
+      "serv": 4,
+      "desc": "Œufs pochés dans une sauce au vin rouge bourguignonne, avec lardons et croûtons. L'entrée la plus emblématique de Bourgogne.",
+      "ing": [
+        "8 œufs frais",
+        "500 ml de vin rouge (Bourgogne)",
+        "150 g de lardons",
+        "1 oignon haché",
+        "1 carotte en dés",
+        "2 gousses d'ail",
+        "1 c. à soupe de farine",
+        "Beurre, thym, laurier",
+        "Croûtons frottés à l'ail pour servir",
+        "Sel, poivre"
+      ],
+      "steps": "SAUCE MEURETTE\nFaire revenir lardons, oignon et carotte dans le beurre. Ajouter farine, cuire 1 min.\nVerser le vin, thym, laurier, ail. Mijoter 20 min pour réduire d'1/3. Passer au chinois si souhaité.\n\nŒUFS POCHÉS\nPorter à frémissement une casserole d'eau vinaigrée (pas salée).\nCasser un œuf dans un ramequin. Créer un tourbillon, glisser l'œuf délicatement.\nPocher 3-4 min. Récupérer avec une écumoire. Couper les filaments.\n\nServir les œufs sur croûtons, napper de sauce meurette chaude. Lardons dessus.\n\n💡 Les œufs pochés se préparent à l'avance et se réchauffent dans de l'eau chaude."
+    },
+    {
+      "id": "france:003",
+      "t": "Jambon Persillé de Bourgogne",
+      "cat": "France",
+      "min": 30,
+      "serv": 10,
+      "desc": "Terrine froide bourguignonne — jambon effiloché en gelée au persil et vin blanc. Servie en tranches à l'apéritif ou en entrée.",
+      "ing": [
+        "800 g de jarret ou jambon cuit",
+        "3 c. à soupe de persil plat haché finement",
+        "200 ml de vin blanc sec",
+        "200 ml de bouillon de volaille",
+        "8 g de gélatine en feuilles",
+        "1 échalote",
+        "1 gousse d'ail",
+        "Moutarde à l'ancienne, cornichons pour servir"
+      ],
+      "steps": "Effilocher finement le jambon cuit avec les doigts.\nFaire tremper la gélatine dans l'eau froide 5 min.\nChauffer le vin et bouillon avec échalote et ail 5 min. Passer.\nEssorer la gélatine, incorporer au liquide chaud. Laisser tiédir.\nMélanger jambon effiloché, persil et liquide gélifiant.\nVerser dans une terrine ou un moule à cake chemisé de film plastique.\nRéfrigérer 12h minimum.\nDémouler, trancher. Servir avec moutarde à l'ancienne et cornichons."
+    },
+    {
+      "id": "france:004",
+      "t": "Gougères Bourguignonnes",
+      "cat": "France",
+      "min": 40,
+      "serv": 20,
+      "desc": "Les choux au fromage qui accompagnent tous les apéritifs bourguignons. Légères, dorées, parfumées au gruyère.",
+      "ing": [
+        "250 ml d'eau",
+        "80 g de beurre",
+        "150 g de farine",
+        "4 œufs",
+        "120 g de gruyère râpé finement",
+        "1 pincée de muscade",
+        "Sel, poivre"
+      ],
+      "steps": "Porter eau et beurre coupé en dés à ébullition.\nHors du feu, ajouter la farine d'un coup. Remuer vigoureusement (dessécher la pâte 2 min sur feu doux).\nLaisser tiédir 5 min. Incorporer les œufs un par un en fouettant énergiquement après chaque.\nAjouter gruyère, muscade, sel, poivre.\nFormer des petits choux (noix) sur plaque beurrée avec une cuillère ou poche à douille.\nFour 200°C : 20-25 min sans ouvrir le four. Doivent être bien dorés et sonneux.\n\n💡 Ne jamais ouvrir le four pendant la cuisson — les choux s'affaisseraient."
+    },
+    {
+      "id": "france:005",
+      "t": "Fondue Savoyarde",
+      "cat": "France",
+      "min": 25,
+      "serv": 4,
+      "desc": "La reine des fondues alpines — Beaufort, Comté et Emmental fondus au vin blanc du Jura ou de Savoie. Conviviale et généreuse.",
+      "ing": [
+        "300 g de Beaufort râpé",
+        "300 g de Comté râpé (ou Emmental)",
+        "200 ml de vin blanc sec (Apremont, Chignin ou Jura)",
+        "1 gousse d'ail",
+        "1 c. à soupe de Maïzena",
+        "Poivre, muscade",
+        "Pain de campagne rassis coupé en cubes",
+        "Kirsch (optionnel, 1 c. à soupe)"
+      ],
+      "steps": "Frotter le caquelon (poêlon à fondue) avec la gousse d'ail coupée.\nChauffer le vin blanc à feu moyen — ne pas bouillir.\nAjouter les fromages par poignées en remuant en 8.\nDélayer la Maïzena dans un peu de vin, incorporer.\nContinuer jusqu'à consistance crémeuse et homogène.\nAjouter kirsch si souhaité. Muscade, poivre.\nMaintenir à feu doux sur réchaud. Tremper les cubes de pain.\n\n💡 Si la fondue tranche : ajouter du jus de citron et fouetter. Remuer TOUJOURS en 8, jamais en cercle."
+    },
+    {
+      "id": "france:006",
+      "t": "Raclette Savoyarde",
+      "cat": "France",
+      "min": 20,
+      "serv": 4,
+      "desc": "Le repas d'hiver alpin par excellence — fromage à raclette fondu sur des pommes de terre, charcuterie et cornichons.",
+      "ing": [
+        "600 g de fromage à raclette (en tranches)",
+        "800 g de pommes de terre à chair ferme",
+        "200 g de jambon cru ou sec",
+        "150 g de viande des grisons ou lard",
+        "Cornichons, oignons au vinaigre",
+        "Poivre du moulin"
+      ],
+      "steps": "Cuire les pommes de terre entières en robe des champs 20-25 min (selon taille).\nDisposer charcuterie, cornichons et pommes de terre au centre de la table.\nFaire fondre les tranches de raclette dans les poêlons (appareil à raclette) ou sous le grill.\nNapper les pommes de terre de fromage fondu. Accompagner de charcuterie et cornichons.\n\n💡 Sans appareil : disposer les tranches sur des pommes de terre dans un plat, grill du four 3-4 min."
+    },
+    {
+      "id": "france:007",
+      "t": "Gratin Dauphinois",
+      "cat": "France",
+      "min": 80,
+      "serv": 6,
+      "desc": "Le plus célèbre gratin de France — pommes de terre en rondelles cuites dans la crème et l'ail, sans fromage. Pure perfection.",
+      "ing": [
+        "1,2 kg de pommes de terre à chair ferme",
+        "400 ml de crème liquide entière",
+        "200 ml de lait entier",
+        "2 gousses d'ail",
+        "Beurre",
+        "Muscade râpée",
+        "Sel, poivre"
+      ],
+      "steps": "Peler et trancher les pommes de terre en rondelles de 2-3 mm (mandoline idéale).\nNE PAS les rincer — l'amidon est essentiel pour lier la crème.\nFrotter un plat à gratin avec l'ail, beurrer généreusement.\nDisposer les rondelles en couches légèrement superposées.\nMélanger crème + lait + sel + poivre + muscade. Verser sur les pommes de terre.\nDisposer quelques noisettes de beurre sur le dessus.\n\nFour 160°C : 1h15-1h30 jusqu'à pommes de terre fondantes et surface gratinée.\nVérifier la cuisson avec la pointe d'un couteau.\n\n💡 Le vrai gratin dauphinois n'a PAS de fromage et PAS d'œuf. Juste crème, ail, muscade."
+    },
+    {
+      "id": "france:008",
+      "t": "Croziflette (Gratin de Crozets au Reblochon)",
+      "cat": "France",
+      "min": 50,
+      "serv": 4,
+      "desc": "La tartiflette des crozets — ces petites pâtes carrées savoyardes gratinées au reblochon. Encore plus réconfortante que l'original.",
+      "ing": [
+        "300 g de crozets de Savoie",
+        "250 g de reblochon",
+        "100 g de lardons fumés",
+        "1 oignon",
+        "100 ml de crème fraîche",
+        "Sel, poivre, noix de muscade"
+      ],
+      "steps": "Cuire les crozets al dente (15-18 min). Égoutter.\nFaire revenir lardons et oignon jusqu'à dorure.\nMélanger crozets, lardons, oignon et crème fraîche. Assaisonner.\nVerser dans un plat à gratin beurré.\nCouper le reblochon en deux dans l'épaisseur, poser croûte vers le haut.\n\nFour 200°C : 20-25 min jusqu'à fonte et dorure du fromage.\n\n💡 Les crozets de Sarrasin (noix) ont plus de caractère que les nature. Disponibles en épiceries savoyardes."
+    },
+    {
+      "id": "france:009",
+      "t": "Ravioles du Dauphiné",
+      "cat": "France",
+      "min": 15,
+      "serv": 4,
+      "desc": "Minuscules ravioles farcies au fromage frais et persil, spécialité de Romans-sur-Isère. Délicates, fondantes, en gratin ou en bouillon.",
+      "ing": [
+        "2 plaques de ravioles du Dauphiné (fraîches du commerce)",
+        "30 g de beurre",
+        "50 g de gruyère râpé",
+        "Crème fraîche épaisse (optionnel)",
+        "Sel, poivre"
+      ],
+      "steps": "VERSION GRATIN (la plus courante)\nBeurrer un plat à gratin. Déposer les plaques de ravioles sans les séparer.\nNapper de crème fraîche ou de beurre fondu. Gruyère râpé.\nFour 180°C ou grill : 10 min jusqu'à fromage doré.\nServir immédiatement — les ravioles sèchent vite.\n\nVERSION BOUILLON\nPlonger les ravioles dans un bouillon de volaille frémissant 2-3 min.\n\n💡 Les ravioles du Dauphiné sont minuscules (1,5 cm) — ne pas confondre avec des ravioli italiens."
+    },
+    {
+      "id": "france:010",
+      "t": "Crique Ardéchoise",
+      "cat": "France",
+      "min": 25,
+      "serv": 4,
+      "desc": "La \"pomme de terre grillée\" ardéchoise — râpée et dorée à la poêle comme une grande galette. Croustillante dehors, fondante dedans.",
+      "ing": [
+        "1 kg de pommes de terre à chair ferme",
+        "2 œufs",
+        "1 gousse d'ail hachée",
+        "Persil haché",
+        "Huile ou saindoux pour cuire",
+        "Sel, poivre"
+      ],
+      "steps": "Éplucher et râper grossièrement les pommes de terre. NE PAS rincer.\nSaler, mélanger. Laisser dégorger 5 min. Presser légèrement dans un torchon.\nIncorporer œufs battus, ail et persil. Assaisonner.\nChauffer l'huile dans une grande poêle à feu moyen-vif.\nÉtaler l'appareil en galette épaisse. Appuyer légèrement.\nCuire 8-10 min côté 1 — dessous bien doré.\nRetourner avec une assiette. Cuire encore 8-10 min.\nServir immédiatement.\n\n💡 Accompagnée de salade verte et lard fumé, c'est le plat paysan ardéchois par excellence."
+    },
+    {
+      "id": "france:011",
+      "t": "Fondue Jurassienne au Comté",
+      "cat": "France",
+      "min": 25,
+      "serv": 4,
+      "desc": "La fondue franc-comtoise — 100% Comté AOP fondu au vin blanc du Jura. Plus rustique et plus intense que la savoyarde.",
+      "ing": [
+        "600 g de Comté râpé (bien affiné, 18 mois idéal)",
+        "200 ml de vin jaune du Jura (ou vin blanc sec)",
+        "1 gousse d'ail",
+        "1 c. à soupe de Maïzena",
+        "Poivre, muscade",
+        "Pain de campagne pour tremper"
+      ],
+      "steps": "Frotter le caquelon d'ail.\nChauffer le vin blanc à feu moyen.\nIncorporer le Comté par poignées en remuant en 8 constamment.\nDélayer la Maïzena dans un peu de vin, ajouter en fin de cuisson.\nPoivre, muscade.\n\nLa texture doit être crémeuse et homogène — plus dense que la savoyarde.\n\n💡 Avec du vin jaune : saveur inimitable de noix et de xérès. Si introuvable, Jura blanc ou Chardonnay."
+    },
+    {
+      "id": "france:012",
+      "t": "Croûte aux Morilles",
+      "cat": "France",
+      "min": 30,
+      "serv": 4,
+      "desc": "Entrée franc-comtoise festive — croûtons de pain garnis de morilles à la crème et vin jaune. Raffinée et délicieuse.",
+      "ing": [
+        "4 grandes tranches de pain de campagne",
+        "300 g de morilles (fraîches ou séchées réhydratées)",
+        "200 ml de crème fraîche épaisse",
+        "100 ml de vin jaune du Jura (ou vin blanc)",
+        "1 échalote hachée",
+        "1 c. à soupe de beurre",
+        "Sel, poivre"
+      ],
+      "steps": "Si morilles séchées : réhydrater 30 min dans l'eau tiède. Filtrer et garder le jus.\nGriller les tranches de pain au four 180°C 10 min jusqu'à dorure.\nFaire revenir l'échalote dans le beurre. Ajouter les morilles 5 min.\nDéglacer au vin jaune. Ajouter la crème (et le jus de trempage filtré si morilles séchées).\nRéduire 5 min. Assaisonner.\nVerser généreusement sur les croûtons.\n\n💡 Les morilles séchées sont aussi bonnes que les fraîches avec le jus de trempage. Ne jamais jeter ce jus."
+    },
+    {
+      "id": "france:013",
+      "t": "Saucisse de Morteau aux Pommes de Terre",
+      "cat": "France",
+      "min": 45,
+      "serv": 4,
+      "desc": "La saucisse fumée la plus célèbre de Franche-Comté, cuite doucement et servie avec pommes de terre. Fumé, savoureux, généreux.",
+      "ing": [
+        "1 saucisse de Morteau (environ 500 g)",
+        "800 g de pommes de terre à chair ferme",
+        "2 oignons",
+        "Laurier, thym",
+        "Moutarde à l'ancienne pour servir",
+        "Sel, poivre"
+      ],
+      "steps": "Ne jamais piquer la saucisse de Morteau — elle perdrait son jus.\nPlonger la saucisse dans un grand volume d'eau froide non salée avec oignons, laurier, thym.\nPorter à frémissement (ne jamais bouillir fort). Cuire 40 min à frémissement doux.\nLes 20 dernières minutes : ajouter les pommes de terre entières pelées.\nSortir la saucisse et les pommes de terre. Couper en tranches épaisses.\nServir avec moutarde à l'ancienne et salade verte.\n\n💡 L'eau de cuisson devient un excellent bouillon pour une soupe."
+    },
+    {
+      "id": "france:014",
+      "t": "Poulet au Vin Jaune et aux Morilles",
+      "cat": "France",
+      "min": 60,
+      "serv": 4,
+      "desc": "Le plat de fête franc-comtois — poulet en sauce crémeuse au vin jaune du Jura et morilles. Incomparable.",
+      "ing": [
+        "1 poulet coupé en morceaux",
+        "30 g de morilles séchées",
+        "200 ml de vin jaune du Jura (ou vin blanc de Jura)",
+        "200 ml de crème fraîche épaisse",
+        "1 échalote",
+        "Beurre, sel, poivre"
+      ],
+      "steps": "Réhydrater les morilles 30 min dans l'eau tiède. Garder le jus filtré.\nFaire dorer les morceaux de poulet dans le beurre. Réserver.\nFaire revenir l'échalote, déglacer au vin jaune.\nAjouter le jus de morilles filtré. Remettre le poulet. Couvrir 30 min à feu doux.\nAjouter morilles et crème fraîche les 10 dernières minutes.\nAssaisonner, réduire si nécessaire.\n\n💡 Le vin jaune est irremplaçable ici — son goût de noix et de xérès est la signature du plat."
+    },
+    {
+      "id": "france:015",
+      "t": "Diots de Savoie au Vin Blanc",
+      "cat": "France",
+      "min": 40,
+      "serv": 4,
+      "desc": "Saucisses de porc savoyardes aux herbes, mijotées dans le vin blanc de Savoie. Simple, rustique, délicieux.",
+      "ing": [
+        "8 diots de Savoie (ou saucisses aux herbes)",
+        "200 ml de vin blanc de Savoie (Apremont ou Roussette)",
+        "2 oignons émincés",
+        "2 gousses d'ail",
+        "Thym, laurier",
+        "Huile d'olive, sel, poivre"
+      ],
+      "steps": "Faire dorer les diots dans un peu d'huile 5 min en les retournant.\nAjouter oignons et ail, cuire 5 min.\nVerser le vin blanc, thym et laurier.\nCouvrir et mijoter 25-30 min à feu doux.\nLa sauce doit réduire légèrement.\nServir avec des crozets, du riz ou des pommes de terre.\n\n💡 Les diots aux herbes des maraîchers de Savoie ont un goût unique. Le vin blanc de Savoie est recommandé."
+    },
+    {
+      "id": "france:016",
+      "t": "Crozets Savoyards Gratinés",
+      "cat": "France",
+      "min": 35,
+      "serv": 4,
+      "desc": "Petites pâtes carrées savoyardes au sarrasin, gratinées avec lardons et Beaufort. Le gratin de pâtes des Alpes.",
+      "ing": [
+        "300 g de crozets de Savoie (nature ou sarrasin)",
+        "150 g de lardons fumés",
+        "100 g de Beaufort ou gruyère râpé",
+        "100 ml de crème fraîche",
+        "1 oignon",
+        "Sel, poivre, muscade"
+      ],
+      "steps": "Cuire les crozets dans l'eau bouillante salée 15-18 min. Égoutter.\nFaire revenir lardons et oignon jusqu'à légère dorure.\nMélanger crozets, lardons, crème fraîche et la moitié du fromage. Assaisonner.\nVerser dans un plat beurré. Couvrir du reste de fromage.\nFour 200°C : 15-20 min jusqu'à gratin doré.\n\n💡 Les crozets de sarrasin ont un goût de noix plus prononcé — préférables pour ce plat."
+    },
+    {
+      "id": "france:017",
+      "t": "Baklava Bourguignon — Gâteau de Savoie",
+      "cat": "France",
+      "min": 60,
+      "serv": 8,
+      "desc": "Le gâteau emblématique de Savoie — ultra léger, aérien, avec son moule en forme de couronne cannelée. La légèreté alpine.",
+      "ing": [
+        "5 œufs séparés",
+        "200 g de sucre",
+        "150 g de fécule (ou farine)",
+        "Zeste d'1 citron et d'1 orange",
+        "1 c. à café de levure chimique",
+        "Beurre et sucre glace pour le moule"
+      ],
+      "steps": "Battre les jaunes avec le sucre jusqu'à mélange blanchi et rubanné.\nAjouter zestes citron et orange.\nIncorporer fécule tamisée + levure délicatement.\nBattre les blancs en neige ferme. Incorporer en 3 fois sans casser les blancs.\nBeurrer et sucrer un moule à gâteau de Savoie cannelé.\nVerser la pâte délicatement.\nFour 170°C : 35-40 min (lame propre au centre).\nLaisser refroidir 10 min avant de démouler.\n\n💡 Ne jamais graisser seul — le sucre adhère aux parois et aide au démoulage."
+    },
+    {
+      "id": "france:018",
+      "t": "Pochouse Bourguignonne",
+      "cat": "France",
+      "min": 45,
+      "serv": 6,
+      "desc": "La bouillabaisse de Bourgogne — matelote de poissons de rivière (brochet, perche, tanche) au vin blanc et lardons.",
+      "ing": [
+        "1,5 kg de poissons de rivière mélangés (brochet, perche, sandre, tanche)",
+        "750 ml de vin blanc Bourgogne Aligoté",
+        "150 g de lardons",
+        "2 oignons hachés",
+        "2 gousses d'ail",
+        "1 bouquet garni (thym, laurier, persil)",
+        "2 c. à soupe de beurre",
+        "Sel, poivre",
+        "Croûtons frottés à l'ail pour servir"
+      ],
+      "steps": "Vider, écailler et couper les poissons en tronçons.\nFaire revenir lardons et oignons dans le beurre.\nAjouter poissons, couvrir de vin blanc. Bouquet garni, ail, sel, poivre.\nPorter à frémissement. Cuire 20-25 min à feu doux.\nRetirer délicatement les poissons.\nRéduire le bouillon 10 min. Ajuster l'assaisonnement.\nServir les poissons arrosés de bouillon avec des croûtons.\n\n💡 La pochouse s'accompagne traditionnellement de pain grillé frotté d'ail."
+    },
+    {
+      "id": "france:019",
+      "t": "Poulet de Bresse à la Crème",
+      "cat": "France",
+      "min": 55,
+      "serv": 4,
+      "desc": "Le poulet le plus célèbre du monde en sauce à la crème et morilles — l'apothéose de la cuisine bourguignonne.",
+      "ing": [
+        "1 beau poulet de Bresse (ou volaille Label Rouge)",
+        "200 ml de crème fraîche épaisse",
+        "100 ml de vin blanc",
+        "1 échalote hachée",
+        "50 g de beurre",
+        "Sel, poivre",
+        "Persil pour servir"
+      ],
+      "steps": "Découper le poulet en morceaux. Saler et poivrer.\nFaire dorer dans le beurre mousseux sur toutes les faces.\nAjouter l'échalote, cuire 2 min. Déglacer au vin blanc.\nCouvrir, cuire à feu doux 35-40 min.\nSortir la volaille. Monter la crème fraîche dans le jus de cuisson.\nRéduire 5 min jusqu'à sauce onctueuse. Remettre les morceaux.\nParsemer de persil. Servir avec du riz ou des pâtes fraîches.\n\n💡 La qualité du poulet fait toute la différence — un Label Rouge ou IGP Bresse est indispensable."
+    },
+    {
+      "id": "france:020",
+      "t": "Farcement Savoyard",
+      "cat": "France",
+      "min": 180,
+      "serv": 8,
+      "desc": "Le gâteau salé-sucré savoyard — pommes de terre râpées avec pruneaux, raisins, lardons et épices, cuit dans un moule à kougelhopf. Surprenant et délicieux.",
+      "ing": [
+        "1,5 kg de pommes de terre râpées",
+        "100 g de lardons",
+        "80 g de pruneaux dénoyautés",
+        "50 g de raisins secs",
+        "2 œufs",
+        "Sel, poivre, muscade, cannelle (pincée)"
+      ],
+      "steps": "Râper les pommes de terre. Saler, laisser dégorger 15 min. Presser fortement.\nMélanger avec œufs, lardons, pruneaux, raisins, épices. Assaisonner.\nVerser dans un moule à kougelhopf beurré et fariné.\nCouvrir de papier alu.\n\nFour 180°C : 2h30-3h. Découvrir les 30 dernières minutes pour dorer.\nDémouler tiède. Servir en tranches.\n\n💡 Le farcement se mange chaud, en accompagnement de charcuteries de Savoie ou d'œufs."
+    },
+    {
+      "id": "soupe:001",
+      "t": "Gaspacho Andalou",
+      "cat": "Soupe, Espagne, Été",
+      "min": 15,
+      "serv": 4,
+      "desc": "La soupe froide espagnole par excellence — tomates, concombre et poivron mixés, servis glacés. Fraîcheur absolue.",
+      "ing": [
+        "800 g de tomates bien mûres",
+        "1 concombre pelé",
+        "1 poivron rouge",
+        "1 gousse d'ail",
+        "3 c. à soupe d'huile d'olive extra vierge",
+        "2 c. à soupe de vinaigre de Xérès (ou vin rouge)",
+        "1 tranche de pain rassis (optionnel, pour lier)",
+        "Sel, poivre",
+        "Garniture : dés de tomate, concombre, poivron, croûtons, basilic"
+      ],
+      "steps": "Couper grossièrement tous les légumes. Peler et épépiner les tomates si on veut une texture très lisse.\nMixer tomates, concombre, poivron, ail, huile et vinaigre jusqu'à consistance lisse.\nAjouter le pain trempé pour lier si souhaité.\nAssaisonner. Passer au tamis fin pour une texture soyeuse (optionnel).\nRéfrigérer minimum 2h (idéalement 4h).\nServir glacé, garni de dés de légumes, croûtons et basilic.\n\n💡 Avec des tomates de qualité, en plein été. Un gaspacho avec des tomates insipides est décevant."
+    },
+    {
+      "id": "soupe:002",
+      "t": "Velouté Froid de Courgettes à la Menthe",
+      "cat": "Soupe, Été",
+      "min": 25,
+      "serv": 4,
+      "desc": "Velouté de courgettes mixé avec du yaourt grec et menthe fraîche — rafraîchissant, léger et très verdoyant.",
+      "ing": [
+        "600 g de courgettes en rondelles",
+        "500 ml de bouillon de volaille ou légumes",
+        "1 oignon haché",
+        "1 gousse d'ail",
+        "150 g de yaourt grec",
+        "10 feuilles de menthe fraîche",
+        "2 c. à soupe d'huile d'olive",
+        "Sel, poivre",
+        "Huile d'olive et menthe pour servir"
+      ],
+      "steps": "Faire revenir oignon et ail dans l'huile 5 min.\nAjouter courgettes et bouillon. Cuire 15 min jusqu'à courgettes très tendres.\nMixer finement avec le yaourt et la menthe fraîche.\nAssaisonner. Laisser refroidir puis réfrigérer 2h minimum.\nServir froid, arrosé d'un filet d'huile d'olive et garni de menthe.\n\n💡 Les courgettes s'oxydent peu — ce velouté garde sa belle couleur verte plusieurs heures."
+    },
+    {
+      "id": "soupe:003",
+      "t": "Soupe Froide Pastèque, Tomate & Feta",
+      "cat": "Soupe, Été",
+      "min": 15,
+      "serv": 4,
+      "desc": "La soupe estivale la plus originale — pastèque et tomate mixées avec basilic, servie avec des dés de feta. Sucrée-salée inoubliable.",
+      "ing": [
+        "600 g de pastèque épépinée",
+        "300 g de tomates mûres",
+        "1 c. à soupe de jus de citron",
+        "1 c. à soupe d'huile d'olive",
+        "5 feuilles de basilic",
+        "Sel, poivre",
+        "150 g de feta en dés pour servir",
+        "Basilic et huile pour la garniture"
+      ],
+      "steps": "Mixer pastèque, tomates, jus de citron, huile d'olive et basilic.\nAssaisonner (peu de sel — la feta sale).\nRéfrigérer 2h minimum.\nServir dans des bols froids, garnir de dés de feta, basilic et un filet d'huile.\n\n💡 La pastèque doit être bien froide — idéalement réfrigérée entière avant. Mariage pastèque-feta : un classique grec à explorer."
+    },
+    {
+      "id": "soupe:004",
+      "t": "Velouté Froid Avocat & Concombre",
+      "cat": "Soupe, Été",
+      "min": 15,
+      "serv": 4,
+      "desc": "Onctueux, vert pâle et très frais — l'avocat et le concombre mixés avec citron et herbes pour une soupe froide crémeuse sans cuisson.",
+      "ing": [
+        "2 avocats mûrs",
+        "1 concombre pelé et épépiné",
+        "200 ml de bouillon de légumes froid",
+        "150 ml de yaourt grec (ou crème légère)",
+        "Jus d'1 citron",
+        "1 gousse d'ail",
+        "Coriandre ou persil",
+        "Sel, poivre, piment (optionnel)"
+      ],
+      "steps": "Mixer avocats, concombre, bouillon, yaourt, jus de citron, ail et herbes.\nAjouter du bouillon pour ajuster la consistance.\nAssaisonner — le citron est essentiel pour la fraîcheur et contre l'oxydation.\nRéfrigérer 1h maximum (l'avocat noircit).\nServir froid garni de dés d'avocat, coriandre et un filet d'huile.\n\n💡 Préparer et servir dans l'heure pour éviter le noircissement. Le citron ralentit mais ne stoppe pas l'oxydation."
+    },
+    {
+      "id": "soupe:005",
+      "t": "Soupe Froide de Poivrons Grillés",
+      "cat": "Soupe, Été",
+      "min": 30,
+      "serv": 4,
+      "desc": "Poivrons rouges rôtis au four, mixés avec ail et bouillon — fumé, doux, intense. Le gaspacho des amateurs de poivrons.",
+      "ing": [
+        "6 poivrons rouges",
+        "3 gousses d'ail en chemise",
+        "400 ml de bouillon de légumes",
+        "3 c. à soupe d'huile d'olive",
+        "1 c. à soupe de vinaigre balsamique",
+        "½ c. à café de paprika fumé",
+        "Sel, poivre",
+        "Persil ou basilic et poivrons rôtis pour servir"
+      ],
+      "steps": "Poivrons entiers + ail en chemise sur plaque huilée.\nFour 220°C : 30-35 min jusqu'à peau cloquée et noircie.\nPlacer dans un sac plastique hermétique 15 min — la vapeur aide à peler.\nPeler, épépiner.\nMixer chair de poivrons, ail extrait de sa chemise, bouillon, huile, vinaigre et paprika.\nAssaisonner. Réfrigérer 2h.\nServir froid garni de persil et poivrons rôtis.\n\n💡 Le charbon de la peau apporte un léger fumé agréable — ne pas trop peler."
+    },
+    {
+      "id": "af:022",
+      "t": "Saumon Citron-Aneth et Quinoa — Airfryer",
+      "cat": "Airfryer, Santé",
+      "min": 20,
+      "serv": 2,
+      "desc": "Pavé de saumon assaisonné citron-aneth cuit à l'airfryer, servi avec quinoa. Riche en oméga-3, parfait pour le cholestérol.",
+      "ing": [
+        "2 pavés de saumon (150 g chacun)",
+        "Jus d'1 citron",
+        "1 c. à soupe d'aneth ciselé",
+        "1 c. à soupe d'huile d'olive",
+        "180 g de quinoa",
+        "Sel, poivre"
+      ],
+      "steps": "Cuire le quinoa selon le paquet (15-18 min dans 2x son volume d'eau).\nAssaisonner le saumon avec jus de citron, aneth, huile, sel, poivre.\nLaisser mariner 10 min.\n\n🌡️ AIRFRYER — Air Fry 180°C : 10-12 min\nLa chair doit être translucide à cœur ou juste nacrée selon préférence.\nServir le saumon sur le quinoa avec une rondelle de citron et aneth frais.\n\n💡 Le saumon est riche en oméga-3 qui réduisent le mauvais cholestérol — excellent 2-3x par semaine."
+    },
+    {
+      "id": "af:023",
+      "t": "Boulettes de Lentilles Corail — Airfryer",
+      "cat": "Airfryer, Santé",
+      "min": 30,
+      "serv": 2,
+      "desc": "Boulettes végétariennes aux lentilles corail et épices, croustillantes à l'airfryer sans friture. Riches en fibres, pauvres en graisses saturées.",
+      "ing": [
+        "200 g de lentilles corail cuites et égouttées",
+        "1 œuf",
+        "50 g de chapelure",
+        "1 gousse d'ail",
+        "1 c. à café de cumin",
+        "½ c. à café de coriandre",
+        "½ oignon haché finement",
+        "Sel, poivre"
+      ],
+      "steps": "Réduire les lentilles cuites en purée à la fourchette (pas trop lisse).\nMélanger avec œuf, chapelure, ail, oignon et épices. Assaisonner.\nFormer des boulettes de la taille d'une noix.\nRéfrigérer 15 min (tiennent mieux à la cuisson).\n\n🌡️ AIRFRYER — Air Fry 190°C : 12 min\nRetourner à mi-cuisson. Doivent être dorées et fermes.\n\nServir avec une sauce au yaourt et coriandre, salade et quinoa.\n\n💡 Les lentilles sont riches en fibres solubles qui aident à réduire le cholestérol LDL."
+    },
+    {
+      "id": "af:024",
+      "t": "Cabillaud en Croûte d'Herbes — Airfryer",
+      "cat": "Airfryer, Santé",
+      "min": 18,
+      "serv": 2,
+      "desc": "Filet de cabillaud nappé d'une croûte d'herbes et chapelure, cuit à l'airfryer. Protéiné, maigre, savoureux.",
+      "ing": [
+        "2 filets de cabillaud (150-180 g chacun)",
+        "3 c. à soupe de chapelure panko",
+        "1 c. à soupe de persil haché",
+        "1 c. à soupe de ciboulette",
+        "Zeste d'½ citron",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "Sécher les filets avec du papier absorbant.\nMélanger chapelure, persil, ciboulette, zeste de citron et huile.\nBadigeonner les filets d'huile. Poser dessus la croûte d'herbes en appuyant légèrement.\n\n🌡️ AIRFRYER — Air Fry 180°C : 10 min\nNe pas retourner — la croûte doit rester dessus.\nLe poisson est cuit quand il se détache en feuillets.\n\nServir avec légumes vapeur et quartier de citron.\n\n💡 Le cabillaud est maigre et sans graisses saturées — idéal pour le cholestérol."
+    },
+    {
+      "id": "af:025",
+      "t": "Poulet Paprika & Patates Douces — Airfryer",
+      "cat": "Airfryer, Santé",
+      "min": 25,
+      "serv": 2,
+      "desc": "Blancs de poulet au paprika et patates douces cuits ensemble à l'airfryer. Coloré, équilibré, indice glycémique modéré.",
+      "ing": [
+        "2 blancs de poulet",
+        "2 patates douces moyennes en cubes",
+        "2 c. à café de paprika fumé",
+        "1 c. à café d'ail en poudre",
+        "2 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "Assaisonner le poulet et les patates douces séparément avec paprika, ail, huile, sel, poivre.\n\n🌡️ AIRFRYER — Air Fry 190°C : 15 min\nCuire patates douces et poulet ensemble si la cuve est grande.\nOu commencer les patates 5 min avant d'ajouter le poulet.\nRetourner à mi-cuisson.\n\nServir avec salade verte et herbes fraîches.\n\n💡 La patate douce a un indice glycémique plus faible que la pomme de terre classique."
+    },
+    {
+      "id": "af:026",
+      "t": "Galettes de Pois Chiches — Airfryer",
+      "cat": "Airfryer, Santé",
+      "min": 25,
+      "serv": 2,
+      "desc": "Galettes croustillantes aux pois chiches et épices, cuites sans friture à l'airfryer. Végétariennes, riches en fibres et protéines végétales.",
+      "ing": [
+        "400 g de pois chiches cuits (boîte égouttée)",
+        "½ oignon haché",
+        "1 gousse d'ail",
+        "1 c. à café de cumin",
+        "½ c. à café de coriandre",
+        "2 c. à soupe de farine ou de chapelure",
+        "Persil haché",
+        "Sel, poivre"
+      ],
+      "steps": "Égoutter et sécher les pois chiches. Mixer grossièrement (pas en purée lisse — texture grumeleuse).\nMélanger avec oignon, ail, épices, farine et persil. Assaisonner.\nFormer des galettes de 1 cm d'épaisseur. Réfrigérer 15 min.\nBadigeonner légèrement d'huile.\n\n🌡️ AIRFRYER — Air Fry 190°C : 12 min\nRetourner délicatement à mi-cuisson. Doivent être bien dorées.\n\nServir avec tzatziki, salade et pain pita.\n\n💡 Idéales en remplacement des falafels traditionnels (frits). Zéro cholestérol, riches en fibres."
+    },
+    {
+      "id": "af:027",
+      "t": "Truite aux Amandes — Airfryer",
+      "cat": "Airfryer, Santé",
+      "min": 18,
+      "serv": 2,
+      "desc": "Filets de truite avec croûte d'amandes effilées, dorés à l'airfryer. Classique français revisité, riche en oméga-3.",
+      "ing": [
+        "2 filets de truite",
+        "40 g d'amandes effilées",
+        "1 c. à soupe d'huile d'olive",
+        "Jus d'½ citron",
+        "Persil haché",
+        "Sel, poivre"
+      ],
+      "steps": "Sécher les filets. Assaisonner de sel et poivre.\nBadigeonner d'huile. Parsemer d'amandes effilées en appuyant pour adhérer.\n\n🌡️ AIRFRYER — Air Fry 180°C : 12 min\nNe pas retourner — les amandes dorent dessus.\nSurveiller la coloration des amandes les 3 dernières minutes.\n\nArroser de jus de citron à la sortie. Parsemer de persil.\nServir avec ratatouille légère ou légumes vapeur.\n\n💡 La truite arc-en-ciel est riche en oméga-3, moins grasse que le saumon mais aussi bénéfique."
+    },
+    {
+      "id": "af:028",
+      "t": "Ratatouille Légère — Airfryer",
+      "cat": "Airfryer, Santé",
+      "min": 25,
+      "serv": 4,
+      "desc": "La ratatouille provençale cuite à l'airfryer — légumes du soleil rôtis et fondants, sans excès d'huile.",
+      "ing": [
+        "1 courgette en dés",
+        "1 aubergine en dés",
+        "2 poivrons en lanières",
+        "2 tomates en quartiers",
+        "1 oignon en dés",
+        "2 gousses d'ail",
+        "2 c. à soupe d'huile d'olive",
+        "Herbes de Provence, thym",
+        "Sel, poivre"
+      ],
+      "steps": "Couper les légumes en morceaux réguliers de 2 cm.\nMélanger dans un grand saladier avec huile, ail haché, herbes, sel, poivre.\n\n🌡️ AIRFRYER — Air Fry 180°C : 15 min\nMélanger à mi-cuisson. Les légumes doivent être fondants et légèrement dorés.\n\nServir chaud ou à température ambiante avec du riz ou du quinoa.\n\n💡 En airfryer, les légumes rôtissent au lieu de braiser — meilleure caramélisation avec moins d'huile."
+    },
+    {
+      "id": "af:029",
+      "t": "Tian de Légumes & Feta — Airfryer",
+      "cat": "Airfryer, Santé",
+      "min": 25,
+      "serv": 2,
+      "desc": "Rondelles de légumes provençaux superposées avec feta légère, rôties à l'airfryer. Beau visuellement, léger nutritionnellement.",
+      "ing": [
+        "1 courgette en rondelles fines",
+        "2 tomates en rondelles",
+        "1 poivron rouge en lanières",
+        "80 g de feta émiettée",
+        "Herbes de Provence",
+        "2 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "Alterner rondelles de courgette et tomate en les faisant se chevaucher dans la cuve.\nIntercaler les lanières de poivron. Parsemer de feta.\nArroser d'huile d'olive. Herbes de Provence, sel, poivre.\n\n🌡️ AIRFRYER — Roast 180°C : 15 min\nLes légumes doivent être tendres et légèrement grillés sur les bords.\n\nServir en plat principal végétarien ou en accompagnement de poisson.\n\n💡 La feta allégée (moins de 9% MG) divise par 2 les apports en graisses saturées."
+    },
+    {
+      "id": "af:030",
+      "t": "Filet de Bar Rôti & Risotto Safrané — Airfryer",
+      "cat": "Airfryer, Santé",
+      "min": 35,
+      "serv": 2,
+      "desc": "Bar (loup) rôti à l'airfryer sur lit de risotto au safran. Le dimanche gastronomique version saine.",
+      "ing": [
+        "2 filets de bar",
+        "Jus d'½ citron",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, poivre",
+        "RISOTTO : 150g riz arborio, 600ml bouillon chaud, 1 échalote, 1 pincée de safran, 1 c. beurre, parmesan"
+      ],
+      "steps": "RISOTTO (à faire en parallèle sur le feu)\nFaire revenir l'échalote dans le beurre. Ajouter le riz, nacrer 2 min.\nInfuser le safran dans le bouillon. Ajouter louche par louche en remuant. 18-20 min.\nMantecare (hors du feu) avec beurre et parmesan.\n\nBAR\nAssaisonner les filets avec citron, huile, sel, poivre.\n🌡️ AIRFRYER — Air Fry 180°C : 12-15 min (selon épaisseur).\nLe poisson est cuit quand il se détache en feuillets et la peau est dorée.\n\nServir le filet sur le risotto safrané.\n\n💡 Le bar est maigre et riche en protéines — parfait pour le cholestérol."
     }
   ]
 }

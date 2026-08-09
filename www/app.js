@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.51';
+const APP_VERSION = '2.52';
 
 let ALL = [];
 let BASE = [];
@@ -1350,7 +1350,7 @@ const elCocktailGrid = document.getElementById('cocktail-grid');
 const elCocktailDetail = document.getElementById('cocktail-detail');
 
 const MODE_GROUPS = {
-  regions:         { subs: ['corse','espagne','portugal','italie','japon','asie','maghreb'] },
+  regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb'] },
   ustensiles:      { subs: ['airfryer','thermomix'] },
   aperitif:        { subs: ['tartinades','wraps'] },
   boissons:        { subs: ['smoothies','milkshakes'] },
@@ -1358,7 +1358,8 @@ const MODE_GROUPS = {
 };
 const SUB_TAB_LABELS = {
   corse:'🏝️ Corse', espagne:'🇪🇸 Espagne', portugal:'🇵🇹 Portugal',
-  italie:'🇮🇹 Italie', japon:'🇯🇵 Japon', asie:'🍜 Asie', maghreb:'🫖 Maghreb',
+  italie:'🇮🇹 Italie', grece:'🇬🇷 Grèce', france:'🇫🇷 France',
+  japon:'🇯🇵 Japon', asie:'🍜 Asie', maghreb:'🫖 Maghreb',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix',
   tartinades:'🥖 Tartinades', wraps:'🌮 Wraps',
   smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes',
@@ -1367,7 +1368,8 @@ const SUB_TAB_LABELS = {
 const MODE_CAT = {
   airfryer: 'Airfryer', thermomix: 'Thermomix',
   corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal',
-  italie: 'Italie', japon: 'Japon', asie: 'Asie', maghreb: 'Maghreb',
+  italie: 'Italie', grece: 'Grèce', france: 'France',
+  japon: 'Japon', asie: 'Asie', maghreb: 'Maghreb',
   sauces: 'Sauce', tartinades: 'Tartinade', techniques: 'Technique',
   wraps: 'Wrap', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
 };
