@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.52';
+const APP_VERSION = '2.53';
 
 let ALL = [];
 let BASE = [];
