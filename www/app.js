@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.64';
+const APP_VERSION = '2.65';
 
 let ALL = [];
 let BASE = [];
@@ -16,9 +16,17 @@ const deleted = new Set(JSON.parse(localStorage.getItem('recetteDeleted') || '[]
 function saveEdits(){ localStorage.setItem('recetteEdits', JSON.stringify(edits)); }
 function saveImports(){ localStorage.setItem('recetteImports', JSON.stringify(imports)); }
 function saveDeleted(){ localStorage.setItem('recetteDeleted', JSON.stringify([...deleted])); }
+function applyPatch(r, patch){
+  if (!patch) return r;
+  const delta = {};
+  for (const [k, v] of Object.entries(patch)){
+    if (Array.isArray(v) ? v.length > 0 : (v !== '' && v !== null && v !== undefined)) delta[k] = v;
+  }
+  return Object.keys(delta).length ? Object.assign({}, r, delta) : r;
+}
 function mergeEdits(){
-  const base = BASE.filter(r=> !deleted.has(String(r.id))).map(r => edits[r.id] ? Object.assign({},r,edits[r.id]) : r);
-  const imp  = imports.filter(r=> !deleted.has(String(r.id))).map(r => edits[r.id] ? Object.assign({},r,edits[r.id]) : r);
+  const base = BASE.filter(r=> !deleted.has(String(r.id))).map(r => applyPatch(r, edits[r.id]));
+  const imp  = imports.filter(r=> !deleted.has(String(r.id))).map(r => applyPatch(r, edits[r.id]));
   return [...base, ...imp];
 }
 function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderFeed(); renderGrid(); }
