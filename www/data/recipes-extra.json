@@ -79,6 +79,254 @@
     {
       "id": "dropbox:56209378",
       "img": "https://bonasavoir.net/wp-content/uploads/2019/11/Pot-au-feu-léger-façon-grand-mère.jpg"
+    },
+    {
+      "id": "italie:001",
+      "url": "https://www.recipetineats.com/real-tomato-basil-bruschetta/"
+    },
+    {
+      "id": "italie:002",
+      "url": "https://food52.com/recipes/12816-simple-beef-carpaccio"
+    },
+    {
+      "id": "italie:003",
+      "url": "https://www.recipetineats.com/caprese-salad/"
+    },
+    {
+      "id": "italie:004",
+      "url": "https://www.recipetineats.com/cheesy-italian-arancini-balls/"
+    },
+    {
+      "id": "italie:005",
+      "url": "https://food52.com/recipes/35199-prosciutto-and-melon-prosciutto-melone-antipasto-starter"
+    },
+    {
+      "id": "italie:006",
+      "url": "https://www.recipetineats.com/minestrone-soup/"
+    },
+    {
+      "id": "italie:007",
+      "url": "https://food52.com/recipes/19737-tuscan-ribollita"
+    },
+    {
+      "id": "italie:008",
+      "url": "https://www.onceuponachef.com/recipes/stracciatella-soup-italian-egg-drop-soup.html"
+    },
+    {
+      "id": "italie:009",
+      "url": "https://www.recipetineats.com/carbonara/"
+    },
+    {
+      "id": "italie:011",
+      "url": "https://www.recipetineats.com/penne-all-arrabbiata-spicy-tomato-pasta/"
+    },
+    {
+      "id": "italie:012",
+      "url": "https://food52.com/recipes/42150-cacio-e-pepe"
+    },
+    {
+      "id": "italie:013",
+      "url": "https://www.recipetineats.com/pasta-alla-norma-eggplant-pasta/"
+    },
+    {
+      "id": "italie:015",
+      "url": "https://food52.com/recipes/1863-risotto-alla-milanese"
+    },
+    {
+      "id": "italie:016",
+      "url": "https://food52.com/recipes/77867-porcini-mushroom-risotto"
+    },
+    {
+      "id": "italie:017",
+      "url": "https://www.recipetineats.com/osso-buco/"
+    },
+    {
+      "id": "italie:018",
+      "url": "https://www.recipetineats.com/saltimbocca/"
+    },
+    {
+      "id": "italie:019",
+      "url": "https://www.recipetineats.com/chicken-cacciatore-italian-chicken-stew/"
+    },
+    {
+      "id": "italie:020",
+      "url": "https://www.eataly.com/us_en/magazine/recipes/main-course-recipes/bistecca-fiorentina-steak"
+    },
+    {
+      "id": "italie:021",
+      "url": "https://www.recipetineats.com/porchetta-recipe/"
+    },
+    {
+      "id": "italie:024",
+      "url": "https://food52.com/recipes/2494-venetian-sardines"
+    },
+    {
+      "id": "italie:025",
+      "url": "https://www.recipetineats.com/easy-tiramisu/"
+    },
+    {
+      "id": "italie:026",
+      "url": "https://www.recipetineats.com/panna-cotta/"
+    },
+    {
+      "id": "italie:027",
+      "url": "https://food52.com/recipes/39485-homemade-cannoli"
+    },
+    {
+      "id": "italie:028",
+      "url": "https://www.saveur.com/pistachio-gelato-recipe"
+    },
+    {
+      "id": "italie:029",
+      "url": "https://food52.com/recipes/73558-grandma-s-tart-torta-della-nonna"
+    },
+    {
+      "id": "italie:030",
+      "url": "https://www.recipetineats.com/affogato/"
+    },
+    {
+      "id": "sauce:001",
+      "url": "https://food52.com/recipes/82952-best-tartar-sauce-recipe"
+    },
+    {
+      "id": "sauce:002",
+      "url": "https://food52.com/recipes/82713-grand-desk-aioli-recipe"
+    },
+    {
+      "id": "sauce:003",
+      "url": "https://www.recipetineats.com/prawn-cocktail/"
+    },
+    {
+      "id": "sauce:004",
+      "url": "https://www.recipetineats.com/honey-mustard-dipping-sauce/"
+    },
+    {
+      "id": "sauce:007",
+      "url": "https://food52.com/story/27479-how-to-make-barbecue-sauce"
+    },
+    {
+      "id": "sauce:008",
+      "url": "https://food52.com/recipes/27795-sweet-chili-sauce"
+    },
+    {
+      "id": "sauce:009",
+      "url": "https://food52.com/recipes/82952-best-tartar-sauce-recipe"
+    },
+    {
+      "id": "sauce:010",
+      "url": "https://food52.com/recipes/82713-grand-desk-aioli-recipe"
+    },
+    {
+      "id": "sauce:011",
+      "url": "https://www.recipetineats.com/prawn-cocktail/"
+    },
+    {
+      "id": "sauce:012",
+      "url": "https://www.recipetineats.com/honey-mustard-dipping-sauce/"
+    },
+    {
+      "id": "sauce:015",
+      "url": "https://food52.com/story/27479-how-to-make-barbecue-sauce"
+    },
+    {
+      "id": "sauce:016",
+      "url": "https://food52.com/recipes/27795-sweet-chili-sauce"
+    },
+    {
+      "id": "espagne:001",
+      "url": "https://www.seriouseats.com/andalusian-gazpacho-recipe"
+    },
+    {
+      "id": "espagne:002",
+      "url": "https://www.saveur.com/article/Recipes/Classic-Salmorejo"
+    },
+    {
+      "id": "espagne:003",
+      "url": "https://www.seriouseats.com/tortilla-espanola-spanish-potato-omelette-recipe"
+    },
+    {
+      "id": "espagne:004",
+      "url": "https://www.saveur.com/article/recipes/patatas-bravas"
+    },
+    {
+      "id": "espagne:005",
+      "url": "https://www.seriouseats.com/pan-con-tomate-tomato-bread-spanish-recipe"
+    },
+    {
+      "id": "espagne:006",
+      "url": "https://www.saveur.com/article/Recipes/Ham-and-Shrimp-Croquettes/"
+    },
+    {
+      "id": "espagne:007",
+      "url": "https://www.saveur.com/article/Recipes/Salt-Cod-Vizcaya-Style"
+    },
+    {
+      "id": "espagne:008",
+      "url": "https://www.americastestkitchen.com/recipes/16080-zarzuela-spanish-seafood-stew"
+    },
+    {
+      "id": "espagne:009",
+      "url": "https://www.seriouseats.com/spanish-style-garlic-shrimp-gambas-al-ajillo-recipe"
+    },
+    {
+      "id": "espagne:010",
+      "url": "https://www.saveur.com/article/Recipes/Paella-with-Rabbit-and-Snails-Paella-Valenciana/"
+    },
+    {
+      "id": "espagne:011",
+      "url": "https://www.simplyrecipes.com/seafood-paella-recipe-5101818"
+    },
+    {
+      "id": "espagne:013",
+      "url": "https://tastesbetterfromscratch.com/fideua/"
+    },
+    {
+      "id": "espagne:015",
+      "url": "https://www.carolinescooking.com/fabada-asturiana-pork-bean-stew/"
+    },
+    {
+      "id": "espagne:017",
+      "url": "https://www.themediterraneandish.com/spanish-garlic-chicken-pollo-al-ajillo/"
+    },
+    {
+      "id": "espagne:020",
+      "url": "https://www.recipetineats.com/spanish-tortilla-omelette/"
+    },
+    {
+      "id": "espagne:023",
+      "url": "https://www.seriouseats.com/churros-recipe-11680433"
+    },
+    {
+      "id": "espagne:024",
+      "url": "https://www.themediterraneandish.com/crema-catalana/"
+    },
+    {
+      "id": "espagne:025",
+      "url": "https://www.carolinescooking.com/tarta-de-santiago/"
+    },
+    {
+      "id": "espagne:027",
+      "url": "https://www.americastestkitchen.com/recipes/5088-arroz-con-leche"
+    },
+    {
+      "id": "portugal:001",
+      "url": "https://www.seriouseats.com/caldo-verde-portuguese-potato-kale-soup-recipe"
+    },
+    {
+      "id": "portugal:004",
+      "url": "https://food52.com/recipes/75424-bacalhau-a-bras-salt-cod-with-potatoes-and-eggs"
+    },
+    {
+      "id": "portugal:017",
+      "url": "https://www.feastingathome.com/portuguese-fish-stew-caldeirada/"
+    },
+    {
+      "id": "portugal:022",
+      "url": "https://leitesculinaria.com/7759/recipes-pasteis-de-nata.html"
+    },
+    {
+      "id": "portugal:030",
+      "url": "https://leitesculinaria.com/7759/recipes-pasteis-de-nata.html"
     }
   ],
   "recipes": [
@@ -320,7 +568,8 @@
         "3 c. à soupe d'huile d'olive",
         "Fleur de sel"
       ],
-      "steps": "Laver et sécher soigneusement les poivrons — l'eau ferait éclater l'huile. Chauffer l'huile dans une poêle à feu très vif jusqu'à fumée. Ajouter les poivrons d'un coup et faire sauter 3-4 min en remuant jusqu'à ce qu'ils soient cloqués et légèrement noircis. Égoutter sur du papier absorbant. Disposer sur une assiette et saler généreusement de fleur de sel. Servir immédiatement."
+      "steps": "Laver et sécher soigneusement les poivrons — l'eau ferait éclater l'huile. Chauffer l'huile dans une poêle à feu très vif jusqu'à fumée. Ajouter les poivrons d'un coup et faire sauter 3-4 min en remuant jusqu'à ce qu'ils soient cloqués et légèrement noircis. Égoutter sur du papier absorbant. Disposer sur une assiette et saler généreusement de fleur de sel. Servir immédiatement.",
+      "url": "https://food52.com/recipes/11790-pimientos-de-padron"
     },
     {
       "id": "espagne:038",
@@ -353,7 +602,8 @@
         "33 cl de cidre brut (sidra asturiana)",
         "1 feuille de laurier"
       ],
-      "steps": "Couper le chorizo en rondelles épaisses d'environ 1,5 cm. Disposer dans une petite poêle ou une cassole. Verser le cidre à hauteur et ajouter le laurier. Porter à ébullition puis réduire à feu moyen. Cuire 15 min jusqu'à ce que le cidre soit presque entièrement absorbé et que le chorizo soit bien laqué. Servir chaud dans la cassole avec du pain."
+      "steps": "Couper le chorizo en rondelles épaisses d'environ 1,5 cm. Disposer dans une petite poêle ou une cassole. Verser le cidre à hauteur et ajouter le laurier. Porter à ébullition puis réduire à feu moyen. Cuire 15 min jusqu'à ce que le cidre soit presque entièrement absorbé et que le chorizo soit bien laqué. Servir chaud dans la cassole avec du pain.",
+      "url": "https://www.foodnetwork.com/recipes/emeril-lagasse/spanish-chorizo-stewed-in-cider-3644328"
     },
     {
       "id": "espagne:040",
@@ -373,7 +623,8 @@
         "4 c. à soupe d'huile d'olive",
         "Sel, poivre"
       ],
-      "steps": "Couper tous les légumes en dés de 1,5 cm. Dans une grande poêle, faire revenir l'oignon et l'ail dans l'huile d'olive 5 min. Ajouter les poivrons et cuire 10 min. Ajouter les courgettes et l'aubergine. Cuire 10 min à feu moyen en remuant. Ajouter les tomates, le sel et le poivre. Cuire encore 15 min jusqu'à ce que les légumes soient fondants et le jus réduit. Servir avec un œuf au plat posé dessus, ou froid en tapa."
+      "steps": "Couper tous les légumes en dés de 1,5 cm. Dans une grande poêle, faire revenir l'oignon et l'ail dans l'huile d'olive 5 min. Ajouter les poivrons et cuire 10 min. Ajouter les courgettes et l'aubergine. Cuire 10 min à feu moyen en remuant. Ajouter les tomates, le sel et le poivre. Cuire encore 15 min jusqu'à ce que les légumes soient fondants et le jus réduit. Servir avec un œuf au plat posé dessus, ou froid en tapa.",
+      "url": "https://food52.com/recipes/69114-pisto-manchego-vegetable-stew-from-la-mancha"
     },
     {
       "id": "espagne:041",
@@ -512,7 +763,8 @@
         "3 c. à soupe d'huile d'olive",
         "Sel"
       ],
-      "steps": "Préparer la pâte comme pour la Margherita. Préchauffer le four à 250°C. Écraser les tomates à la main, saler. Étaler la pâte. Répartir la sauce tomate. Poser les gousses d'ail émincées finement. Saupoudrer d'origan. Arroser d'huile d'olive. Cuire 8-10 min. Servir immédiatement — pas de fromage sur cette pizza."
+      "steps": "Préparer la pâte comme pour la Margherita. Préchauffer le four à 250°C. Écraser les tomates à la main, saler. Étaler la pâte. Répartir la sauce tomate. Poser les gousses d'ail émincées finement. Saupoudrer d'origan. Arroser d'huile d'olive. Cuire 8-10 min. Servir immédiatement — pas de fromage sur cette pizza.",
+      "url": "https://www.giallozafferano.com/recipes/pizza-marinara.html"
     },
     {
       "id": "italie:pizza:003",
@@ -552,7 +804,8 @@
         "Olives noires",
         "Origan, huile d'olive"
       ],
-      "steps": "Préchauffer le four à 250°C. Étaler la pâte. Répartir la sauce tomate. Poser la mozzarella en morceaux. Ajouter le jambon, les champignons, les artichauts en quartiers et les olives. Saupoudrer d'origan. Arroser d'huile. Cuire 10-12 min."
+      "steps": "Préchauffer le four à 250°C. Étaler la pâte. Répartir la sauce tomate. Poser la mozzarella en morceaux. Ajouter le jambon, les champignons, les artichauts en quartiers et les olives. Saupoudrer d'origan. Arroser d'huile. Cuire 10-12 min.",
+      "url": "https://www.recipetineats.com/pizza-capricciosa/"
     },
     {
       "id": "italie:pizza:005",
@@ -609,7 +862,8 @@
         "1 piment frais (facultatif)",
         "Huile pimentée"
       ],
-      "steps": "Préchauffer four à 250°C. Étaler la pâte, sauce tomate bien assaisonnée, mozzarella. Disposer les tranches de salami piccante. Ajouter des rondelles de piment si souhaité. Cuire 8-10 min. Finir avec un filet d'huile pimentée."
+      "steps": "Préchauffer four à 250°C. Étaler la pâte, sauce tomate bien assaisonnée, mozzarella. Disposer les tranches de salami piccante. Ajouter des rondelles de piment si souhaité. Cuire 8-10 min. Finir avec un filet d'huile pimentée.",
+      "url": "https://www.foodnetwork.com/recipes/pizza-diavola-19458461"
     },
     {
       "id": "italie:pizza:008",
@@ -681,7 +935,8 @@
         "4 c. à soupe d'huile d'olive",
         "Garniture au choix : sauce tomate + mozzarella, ou pommes de terre + romarin, ou zucchini + feta"
       ],
-      "steps": "Pâte : mélanger farine, eau, levure, huile et sel. La pâte est très hydratée (80%). Pétrir 5 min. Laisser pousser 2 h. Huiler généreusement une grande plaque à four. Étaler la pâte sans trop la travailler (elle se rétracte — attendre 10 min). Garnir selon goût. Cuire 20-25 min à 230°C jusqu'à fond croustillant. Couper en rectangles et servir."
+      "steps": "Pâte : mélanger farine, eau, levure, huile et sel. La pâte est très hydratée (80%). Pétrir 5 min. Laisser pousser 2 h. Huiler généreusement une grande plaque à four. Étaler la pâte sans trop la travailler (elle se rétracte — attendre 10 min). Garnir selon goût. Cuire 20-25 min à 230°C jusqu'à fond croustillant. Couper en rectangles et servir.",
+      "url": "https://www.americastestkitchen.com/articles/1281-introducing-pizza-al-taglio"
     },
     {
       "id": "italie:pizza:012",
@@ -719,7 +974,8 @@
         "Sauce tomate fraîche",
         "Basilic"
       ],
-      "steps": "Étaler la pâte en disques fins de 20 cm. Chauffer l'huile à 170°C dans une grande poêle. Faire frire chaque disque 2 min par côté jusqu'à gonflé et doré. Égoutter. Garnir immédiatement de ricotta, salami et une cuillère de sauce tomate. Basilic et servir chaud."
+      "steps": "Étaler la pâte en disques fins de 20 cm. Chauffer l'huile à 170°C dans une grande poêle. Faire frire chaque disque 2 min par côté jusqu'à gonflé et doré. Égoutter. Garnir immédiatement de ricotta, salami et une cuillère de sauce tomate. Basilic et servir chaud.",
+      "url": "https://www.sipandfeast.com/pizza-fritta/"
     },
     {
       "id": "italie:pizza:014",
@@ -756,7 +1012,8 @@
         "3 c. à soupe d'huile d'olive extra vierge",
         "Sel"
       ],
-      "steps": "Préchauffer four à 250°C max. Étaler finement la pâte. Napper de sauce tomate. Cuire la pâte seule 6 min. Sortir du four, déposer la bufala déchirée en morceaux (elle ne doit pas cuire — juste tiédir). Basilic, sel, filet d'huile. Servir immédiatement."
+      "steps": "Préchauffer four à 250°C max. Étaler finement la pâte. Napper de sauce tomate. Cuire la pâte seule 6 min. Sortir du four, déposer la bufala déchirée en morceaux (elle ne doit pas cuire — juste tiédir). Basilic, sel, filet d'huile. Servir immédiatement.",
+      "url": "https://food52.com/recipes/35203-authentic-neapolitan-cheese-pizza-la-vera-pizza-margherita-campania"
     },
     {
       "id": "sm:001",
@@ -906,7 +1163,8 @@
         "8 piments guindilla en bocal (ou piparra)",
         "8 cure-dents (palillos)"
       ],
-      "steps": "Égoutter les anchois, les olives et les piments. Sur chaque cure-dent : enfiler une olive, plier un filet d'anchois en accordéon, et piquer un piment guindilla. L'ordre classique est olive-anchois-piment. Arroser d'un filet d'huile d'olive. Servir immédiatement comme pintxo avec un verre de txakoli ou de cidre basque."
+      "steps": "Égoutter les anchois, les olives et les piments. Sur chaque cure-dent : enfiler une olive, plier un filet d'anchois en accordéon, et piquer un piment guindilla. L'ordre classique est olive-anchois-piment. Arroser d'un filet d'huile d'olive. Servir immédiatement comme pintxo avec un verre de txakoli ou de cidre basque.",
+      "url": "https://food52.com/recipes/26785-garlicky-gilda-pintxo"
     },
     {
       "id": "espagne:049",
@@ -979,7 +1237,8 @@
         "Sel (eau de cuisson)",
         "Poivre noir (facultatif)"
       ],
-      "steps": "Cuire les pâtes al dente dans l'eau bouillante abondamment salée. Pendant la cuisson, sortir le beurre du réfrigérateur — il doit être à température ambiante. Garder une tasse d'eau de cuisson avant d'égoutter. Égoutter les pâtes, les remettre dans la casserole hors du feu. Ajouter le beurre en dés et mélanger jusqu'à ce qu'il fonde complètement. Ajouter le parmesan et mélanger. Ajouter 2-3 cuillères d'eau de cuisson pour obtenir une sauce soyeuse qui nappe les pâtes. Servir immédiatement. Aucune autre garniture — la qualité des ingrédients fait tout."
+      "steps": "Cuire les pâtes al dente dans l'eau bouillante abondamment salée. Pendant la cuisson, sortir le beurre du réfrigérateur — il doit être à température ambiante. Garder une tasse d'eau de cuisson avant d'égoutter. Égoutter les pâtes, les remettre dans la casserole hors du feu. Ajouter le beurre en dés et mélanger jusqu'à ce qu'il fonde complètement. Ajouter le parmesan et mélanger. Ajouter 2-3 cuillères d'eau de cuisson pour obtenir une sauce soyeuse qui nappe les pâtes. Servir immédiatement. Aucune autre garniture — la qualité des ingrédients fait tout.",
+      "url": "https://www.foodnetwork.com/recipes/pasta-al-burro-con-formaggino-pasta-with-butter-and-cheese-1959234"
     },
     {
       "id": "italie:034",
@@ -1164,7 +1423,8 @@
         "1 citron",
         "Poivre noir (facultatif, après cuisson)"
       ],
-      "steps": "Sortir la viande 1 h avant cuisson — elle DOIT être à température ambiante. Allumer les braises (jamais de gaz) — elles doivent être rougeoyantes et sans flamme. Poser la bistecca sans gras ni huile sur la grille très chaude. Cuire 5-7 min par côté. JAMAIS bien cuite — à l'intérieur elle doit rester rouge. Finir 3 min debout sur l'os. Laisser reposer 5 min. Saler généreusement de gros sel juste avant de servir. Arroser d'huile d'olive. Servir entière sur une planche à découper."
+      "steps": "Sortir la viande 1 h avant cuisson — elle DOIT être à température ambiante. Allumer les braises (jamais de gaz) — elles doivent être rougeoyantes et sans flamme. Poser la bistecca sans gras ni huile sur la grille très chaude. Cuire 5-7 min par côté. JAMAIS bien cuite — à l'intérieur elle doit rester rouge. Finir 3 min debout sur l'os. Laisser reposer 5 min. Saler généreusement de gros sel juste avant de servir. Arroser d'huile d'olive. Servir entière sur une planche à découper.",
+      "url": "https://www.saveur.com/article/Recipes/Bistecca-Alla-Fiorentina-Florentine-Steak/"
     },
     {
       "id": "italie:043",
@@ -1186,7 +1446,8 @@
         "4 c. à soupe d'huile d'olive",
         "Sel, poivre, romarin"
       ],
-      "steps": "Faire revenir oignon et ail dans l'huile. Ajouter carottes, courgettes et pommes de terre en dés. Cuire 5 min. Ajouter les tomates et 1,5 litre d'eau. Cuire 20 min. Ajouter le chou émincé et la moitié des haricots. Mixer l'autre moitié des haricots et l'ajouter pour épaissir. Cuire encore 20 min. Ajouter les tranches de pain rassis et laisser gonfler dans la soupe. Le lendemain, \"ribollire\" (refaire bouillir) — la soupe est encore meilleure. Finir avec un filet d'huile d'olive à cru."
+      "steps": "Faire revenir oignon et ail dans l'huile. Ajouter carottes, courgettes et pommes de terre en dés. Cuire 5 min. Ajouter les tomates et 1,5 litre d'eau. Cuire 20 min. Ajouter le chou émincé et la moitié des haricots. Mixer l'autre moitié des haricots et l'ajouter pour épaissir. Cuire encore 20 min. Ajouter les tranches de pain rassis et laisser gonfler dans la soupe. Le lendemain, \"ribollire\" (refaire bouillir) — la soupe est encore meilleure. Finir avec un filet d'huile d'olive à cru.",
+      "url": "https://food52.com/recipes/19737-tuscan-ribollita"
     },
     {
       "id": "italie:044",
@@ -1328,7 +1589,8 @@
         "50 g de parmesan râpé",
         "Sel"
       ],
-      "steps": "Faire revenir l'ail dans l'huile, ajouter les tomates concassées, sel et basilic. Cuire 15 min. Cuire les rigatoni très al dente (ils finiront au four). Mélanger pâtes et sauce dans un plat à gratin. Ajouter la mozzarella déchirée. Saupoudrer de parmesan. Gratiner sous le grill 8-10 min jusqu'à mozzarella fondue et surface dorée. Ajouter basilic frais à la sortie du four."
+      "steps": "Faire revenir l'ail dans l'huile, ajouter les tomates concassées, sel et basilic. Cuire 15 min. Cuire les rigatoni très al dente (ils finiront au four). Mélanger pâtes et sauce dans un plat à gratin. Ajouter la mozzarella déchirée. Saupoudrer de parmesan. Gratiner sous le grill 8-10 min jusqu'à mozzarella fondue et surface dorée. Ajouter basilic frais à la sortie du four.",
+      "url": "https://www.giallozafferano.com/recipes/Pasta-alla-sorrentina.html"
     },
     {
       "id": "italie:051",
@@ -2073,7 +2335,8 @@
         "Quelques feuilles de salade",
         "Sel, poivre"
       ],
-      "steps": "Étaler généreusement le fromage frais sur chaque tortilla.\nDéposer 2 tranches de jambon, quelques feuilles de salade et du cheddar râpé.\nAssaisonner. Rouler serré, couper en 2 ou en tronçons.\n\n💡 Garder les wraps emballés dans du film plastique pour les préparer à l'avance."
+      "steps": "Étaler généreusement le fromage frais sur chaque tortilla.\nDéposer 2 tranches de jambon, quelques feuilles de salade et du cheddar râpé.\nAssaisonner. Rouler serré, couper en 2 ou en tronçons.\n\n💡 Garder les wraps emballés dans du film plastique pour les préparer à l'avance.",
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
     },
     {
       "id": "wrap:002",
@@ -2090,7 +2353,8 @@
         "Cheddar râpé",
         "Roquette ou salade"
       ],
-      "steps": "Faire griller le bacon jusqu'à ce qu'il soit bien croustillant. Égoutter sur papier absorbant.\nÉtaler le fromage frais sur les tortillas.\nDéposer jambon, bacon émietté, cheddar et roquette.\nRouler, couper et servir immédiatement pour garder le crunch."
+      "steps": "Faire griller le bacon jusqu'à ce qu'il soit bien croustillant. Égoutter sur papier absorbant.\nÉtaler le fromage frais sur les tortillas.\nDéposer jambon, bacon émietté, cheddar et roquette.\nRouler, couper et servir immédiatement pour garder le crunch.",
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
     },
     {
       "id": "wrap:003",
@@ -2107,7 +2371,8 @@
         "Salade verte",
         "1 c. à soupe de sauce barbecue ou mayonnaise"
       ],
-      "steps": "Trancher ou effilocher le poulet cuit.\nMélanger le fromage frais avec la sauce choisie.\nÉtaler sur les tortillas, déposer poulet, cheddar et salade.\nRouler serré et couper en biseau.\n\n💡 Idéal pour utiliser les restes de poulet rôti."
+      "steps": "Trancher ou effilocher le poulet cuit.\nMélanger le fromage frais avec la sauce choisie.\nÉtaler sur les tortillas, déposer poulet, cheddar et salade.\nRouler serré et couper en biseau.\n\n💡 Idéal pour utiliser les restes de poulet rôti.",
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
     },
     {
       "id": "wrap:004",
@@ -2124,7 +2389,8 @@
         "½ c. à café de piment en poudre (ou Tabasco)",
         "Salade, tomates cerises"
       ],
-      "steps": "Mélanger le fromage frais avec paprika et piment.\nÉtaler sur les tortillas.\nDéposer le jambon, la salade et les tomates cerises coupées.\nRouler et déguster.\n\n💡 Ajuster le niveau de piment selon les goûts."
+      "steps": "Mélanger le fromage frais avec paprika et piment.\nÉtaler sur les tortillas.\nDéposer le jambon, la salade et les tomates cerises coupées.\nRouler et déguster.\n\n💡 Ajuster le niveau de piment selon les goûts.",
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
     },
     {
       "id": "wrap:005",
@@ -2141,7 +2407,8 @@
         "1 c. à café de moutarde à l'ancienne",
         "Ciboulette ciselée"
       ],
-      "steps": "Mélanger le fromage frais avec la moutarde et la ciboulette.\nÉtaler sur les tortillas.\nDéposer le jambon et les rondelles de cornichon.\nRouler et couper. Servir frais."
+      "steps": "Mélanger le fromage frais avec la moutarde et la ciboulette.\nÉtaler sur les tortillas.\nDéposer le jambon et les rondelles de cornichon.\nRouler et couper. Servir frais.",
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
     },
     {
       "id": "wrap:006",
@@ -2158,7 +2425,8 @@
         "Tomates en rondelles",
         "Poivron rouge rôti en lamelles"
       ],
-      "steps": "Mélanger le fromage frais avec les herbes fraîches ciselées.\nÉtaler sur les tortillas.\nDéposer le cheddar, les tomates et le poivron rôti.\nRouler et couper.\n\n💡 Excellent en version froide pour un pique-nique."
+      "steps": "Mélanger le fromage frais avec les herbes fraîches ciselées.\nÉtaler sur les tortillas.\nDéposer le cheddar, les tomates et le poivron rôti.\nRouler et couper.\n\n💡 Excellent en version froide pour un pique-nique.",
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
     },
     {
       "id": "wrap:007",
@@ -2174,7 +2442,8 @@
         "150 g de fromage à raclette en tranches",
         "2 petites pommes de terre cuites en rondelles"
       ],
-      "steps": "Préchauffer le four à 180°C ou le grill.\nÉtaler le fromage frais sur les tortillas.\nDéposer jambon, rondelles de pomme de terre et raclette.\nPlier en demi-lune et passer 3-4 min sous le grill pour faire fondre le fromage.\nServir chaud.\n\n💡 Variante : faire chauffer dans une poêle sans matière grasse."
+      "steps": "Préchauffer le four à 180°C ou le grill.\nÉtaler le fromage frais sur les tortillas.\nDéposer jambon, rondelles de pomme de terre et raclette.\nPlier en demi-lune et passer 3-4 min sous le grill pour faire fondre le fromage.\nServir chaud.\n\n💡 Variante : faire chauffer dans une poêle sans matière grasse.",
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
     },
     {
       "id": "wrap:008",
@@ -2192,7 +2461,8 @@
         "Quelques gouttes d'huile d'olive",
         "Poivre du moulin"
       ],
-      "steps": "Étaler le fromage frais sur les tortillas.\nDéposer le jambon, arroser d'un filet d'huile d'olive.\nParsemer de parmesan et ajouter la roquette.\nPoivrer généreusement. Rouler et couper."
+      "steps": "Étaler le fromage frais sur les tortillas.\nDéposer le jambon, arroser d'un filet d'huile d'olive.\nParsemer de parmesan et ajouter la roquette.\nPoivrer généreusement. Rouler et couper.",
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
     },
     {
       "id": "wrap:009",
@@ -2227,7 +2497,8 @@
         "Salade ou roquette",
         "Basilic frais"
       ],
-      "steps": "Mélanger le fromage frais avec les tomates séchées ciselées et le basilic.\nÉtaler sur les tortillas.\nDéposer le jambon et la roquette.\nRouler et couper."
+      "steps": "Mélanger le fromage frais avec les tomates séchées ciselées et le basilic.\nÉtaler sur les tortillas.\nDéposer le jambon et la roquette.\nRouler et couper.",
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
     },
     {
       "id": "wrap:011",
@@ -2244,7 +2515,8 @@
         "Salade iceberg",
         "1 c. à café de jus de citron"
       ],
-      "steps": "Mélanger le fromage frais avec le jus de citron.\nÉtaler sur les tortillas.\nDéposer jambon, maïs et salade.\nRouler et couper en tronçons.\n\n💡 Ajouter un peu de poivron rouge haché pour la couleur."
+      "steps": "Mélanger le fromage frais avec le jus de citron.\nÉtaler sur les tortillas.\nDéposer jambon, maïs et salade.\nRouler et couper en tronçons.\n\n💡 Ajouter un peu de poivron rouge haché pour la couleur.",
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
     },
     {
       "id": "wrap:012",
@@ -2261,7 +2533,8 @@
         "Raisins secs (optionnel)",
         "Salade verte"
       ],
-      "steps": "Mélanger le fromage frais avec le curry.\nÉtaler sur les tortillas.\nDéposer le jambon, quelques raisins secs et la salade.\nRouler et couper.\n\n💡 Le raisin sec apporte une note sucrée qui équilibre le curry — inattendu mais délicieux."
+      "steps": "Mélanger le fromage frais avec le curry.\nÉtaler sur les tortillas.\nDéposer le jambon, quelques raisins secs et la salade.\nRouler et couper.\n\n💡 Le raisin sec apporte une note sucrée qui équilibre le curry — inattendu mais délicieux.",
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
     },
     {
       "id": "shake:001",
@@ -2710,7 +2983,8 @@
         "Sel, poivre",
         "Huile d'olive (peu)"
       ],
-      "steps": "Faire revenir le guanciale en lardons à feu moyen jusqu'à dorure et rendu du gras.\nAjouter le piment, puis les tomates.\nMijoter 20 min. Assaisonner.\nMélanger avec les bucatini (pasta traditionnelle).\nFinir avec le pecorino — pas de parmesan dans l'authentique.\n\n💡 Le guanciale est la joue de porc séchée — plus gras et parfumé que la pancetta."
+      "steps": "Faire revenir le guanciale en lardons à feu moyen jusqu'à dorure et rendu du gras.\nAjouter le piment, puis les tomates.\nMijoter 20 min. Assaisonner.\nMélanger avec les bucatini (pasta traditionnelle).\nFinir avec le pecorino — pas de parmesan dans l'authentique.\n\n💡 Le guanciale est la joue de porc séchée — plus gras et parfumé que la pancetta.",
+      "url": "https://food52.com/recipes/76039-rigatoni-all-amatriciana-in-the-style-of-felix-trattoria"
     },
     {
       "id": "italie:sauce:010",
@@ -2746,7 +3020,8 @@
         "Persil haché",
         "Sel, poivre, parmesan"
       ],
-      "steps": "Faire sauter les champignons à feu vif dans le beurre jusqu'à évaporation de l'eau (8 min).\nAjouter l'ail, cuire 1 min.\nVerser la crème, réduire 3-4 min.\nAssaisonner, parsemer de persil.\nServir avec tagliatelles ou pappardelle. Parmesan à table.\n\n💡 Ne pas saler en début de cuisson — les champignons rendraient trop d'eau."
+      "steps": "Faire sauter les champignons à feu vif dans le beurre jusqu'à évaporation de l'eau (8 min).\nAjouter l'ail, cuire 1 min.\nVerser la crème, réduire 3-4 min.\nAssaisonner, parsemer de persil.\nServir avec tagliatelles ou pappardelle. Parmesan à table.\n\n💡 Ne pas saler en début de cuisson — les champignons rendraient trop d'eau.",
+      "url": "https://food52.com/recipes/31878-creamy-mushroom-pasta"
     },
     {
       "id": "italie:sauce:012",
@@ -2764,7 +3039,8 @@
         "Parmesan râpé",
         "Flocons de piment, beurre, sel"
       ],
-      "steps": "Faire revenir oignon et ail dans le beurre 5 min.\nAjouter les tomates et flocons de piment, cuire 10 min.\nAjouter la vodka, laisser évaporer 2-3 min (brûler l'alcool).\nIncorporer la crème, mijoter 5 min jusqu'à sauce rose onctueuse.\nFinir avec le parmesan, assaisonner.\nServir avec des rigatoni.\n\n💡 La vodka libère les arômes liposolubles de la tomate inaccessibles à l'eau — pas juste de l'alcool."
+      "steps": "Faire revenir oignon et ail dans le beurre 5 min.\nAjouter les tomates et flocons de piment, cuire 10 min.\nAjouter la vodka, laisser évaporer 2-3 min (brûler l'alcool).\nIncorporer la crème, mijoter 5 min jusqu'à sauce rose onctueuse.\nFinir avec le parmesan, assaisonner.\nServir avec des rigatoni.\n\n💡 La vodka libère les arômes liposolubles de la tomate inaccessibles à l'eau — pas juste de l'alcool.",
+      "url": "https://www.recipetineats.com/vodka-pasta/"
     },
     {
       "id": "tech:016",
@@ -3323,7 +3599,8 @@
         "2 c. à soupe d'huile d'olive",
         "Sel, poivre"
       ],
-      "steps": "Évider les tomates. Mélanger thon, tomates séchées et olives.\nAssaisonner, ajouter l'huile d'olive.\nFarcir. Garnir de feuilles de basilic. Servir à température ambiante."
+      "steps": "Évider les tomates. Mélanger thon, tomates séchées et olives.\nAssaisonner, ajouter l'huile d'olive.\nFarcir. Garnir de feuilles de basilic. Servir à température ambiante.",
+      "url": "https://www.food.com/recipe/mediterranean-stuffed-tomatoes-132407"
     },
     {
       "id": "tomate:007",
@@ -3646,7 +3923,8 @@
         "Noix de muscade",
         "Sel, poivre"
       ],
-      "steps": "FARCE\nFaire revenir l'oignon, ajouter les épinards et faire fondre.\nÉgoutter et presser pour enlever l'eau. Mélanger avec la ricotta. Muscade, sel, poivre.\nRefroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min."
+      "steps": "FARCE\nFaire revenir l'oignon, ajouter les épinards et faire fondre.\nÉgoutter et presser pour enlever l'eau. Mélanger avec la ricotta. Muscade, sel, poivre.\nRefroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min.",
+      "url": "https://www.foodnetwork.com/recipes/spinach-and-cheese-empanadas-3646175"
     },
     {
       "id": "empanada:009",
@@ -3768,7 +4046,8 @@
         "2 c. à soupe d'huile d'olive",
         "Sel, poivre"
       ],
-      "steps": "FARCE\nFaire sauter les crevettes avec ail et huile 3-4 min. Hacher grossièrement.\nAjouter le persil. Assaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 190°C : 18-20 min."
+      "steps": "FARCE\nFaire sauter les crevettes avec ail et huile 3-4 min. Hacher grossièrement.\nAjouter le persil. Assaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 190°C : 18-20 min.",
+      "url": "https://food52.com/recipes/90158-garlic-shrimp-empanadas"
     },
     {
       "id": "empanada:016",
@@ -4282,7 +4561,8 @@
         "Sel, poivre, sucre (pincée)"
       ],
       "steps": "Si haricots secs : faire tremper 12h, cuire 1h jusqu'à tendres, égoutter.\nSAUCE : Faire revenir oignon, ail et carotte 10 min dans l'huile.\nAjouter tomates, origan, sel, poivre, pincée de sucre. Cuire 10 min.\nMélanger avec les haricots dans un plat allant au four.\nArroser d'un filet d'huile. Ajouter un peu d'eau si trop sec.\nFour 180°C : 45-60 min jusqu'à sauce concentrée et légèrement caramélisée en surface.\nGarnir de persil frais.\n\n💡 Les haricots géants en boîte réduisent le temps de 2h. Excellent avec du pain pita.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Gigandes_plaki.jpg/640px-Gigandes_plaki.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Gigandes_plaki.jpg/640px-Gigandes_plaki.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "url": "https://www.themediterraneandish.com/gigantes-plaki-greek-giant-beans/"
     },
     {
       "id": "grece:010",
@@ -4300,7 +4580,8 @@
         "Poivre"
       ],
       "steps": "Couper le fromage en tranches de 1,5 cm. Humidifier légèrement.\nFariner sur les deux faces en tapotant l'excédent.\nChauffer beurre + huile dans une poêle à feu moyen-vif.\nFaire dorer 2 min par face — croûte dorée et croustillante.\nServir immédiatement avec un filet de citron et du pain.\n\n💡 Faire chauffer la poêle correctement pour que la farine adhère et forme une croûte — sinon le fromage s'effondre.\nL'opa ! (feu) est optionnel mais spectaculaire.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Grekiska_koket_02.jpg/640px-Grekiska_koket_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Grekiska_koket_02.jpg/640px-Grekiska_koket_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "url": "https://food52.com/recipes/10628-saganaki"
     },
     {
       "id": "grece:011",
@@ -4316,7 +4597,8 @@
         "Menthe fraîche ou thym"
       ],
       "steps": "Couper le halloumi en tranches de 1 cm.\nBadigeonner légèrement d'huile d'olive.\n\nGRILL / POÊLE CHAUDE (sans matière grasse)\nGriller 2-3 min par face jusqu'à belles marques de grill et surface dorée.\n\nArroser de citron immédiatement à la sortie.\nGarnir de menthe ou thym frais.\n\nServir chaud — le halloumi refroidi devient caoutchouteux.\n\n💡 Excellent en salade avec pastèque et menthe, ou en burger végétarien.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Halloumislice_zoom.jpg/640px-Halloumislice_zoom.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Halloumislice_zoom.jpg/640px-Halloumislice_zoom.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "url": "https://food52.com/recipes/15754-grilled-lemon-halloumi"
     },
     {
       "id": "grece:012",
@@ -4411,7 +4693,8 @@
         "Sel, poivre"
       ],
       "steps": "Inciser profondément la viande. Insérer des lamelles d'ail dans les incisions.\nEnrober de citron, huile, origan, sel, poivre. Mariner 2h ou toute la nuit.\nDisposer sur une grande feuille d'alu avec les tomates.\nFermer hermétiquement en papillote.\n\nFour 160°C : 3h à 3h30 — la viande doit se détacher à la fourchette.\nOuvrir la papillote les 20 dernières minutes pour faire dorer.\n\n💡 La cuisson lente en papillote conserve tous les jus — ne pas ouvrir trop tôt.\nServir avec du riz, des pommes de terre rôties ou du pain pita.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kleftiko.JPG/640px-Kleftiko.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kleftiko.JPG/640px-Kleftiko.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "url": "https://www.mygreekdish.com/recipe/lamb-kleftiko-recipe-greek-lamb-cooked-in-parchment-paper/"
     },
     {
       "id": "grece:017",
@@ -4432,7 +4715,8 @@
         "Huile d'olive, sel, poivre"
       ],
       "steps": "Faire dorer les morceaux de bœuf sur toutes les faces dans l'huile. Réserver.\nFaire dorer les oignons grelots entiers 5 min.\nRemettre la viande. Ajouter ail, tomates, vin, cannelle, clous, laurier.\nAssaisonner. Couvrir et mijoter 1h30-2h à feu très doux.\nLes oignons doivent être fondants et la sauce réduite.\n\n💡 La cannelle est la signature — ne pas la sauter. Excellent avec des pâtes larges ou du riz.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stifado.jpg/640px-Stifado.jpg"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Stifado.jpg/640px-Stifado.jpg",
+      "url": "https://www.dietdoctor.com/recipes/stifado-greek-meat-and-onion-stew"
     },
     {
       "id": "grece:018",
@@ -4453,7 +4737,8 @@
         "Un peu d'eau ou bouillon"
       ],
       "steps": "Couper le chapeau des tomates et poivrons. Évider soigneusement.\nHacher grossièrement la chair des tomates.\nFARCE : Mélanger riz cru, oignon, persil, menthe, chair de tomate, huile, sel, poivre.\nRemplir les légumes aux 3/4 (le riz gonfle).\nRemettre les chapeaux. Disposer dans un plat serré.\nAjouter un fond d'eau ou bouillon dans le plat. Arroser d'huile.\n\nFour 180°C : 60-70 min jusqu'à riz cuit et légumes fondants.\n\n💡 Ne pas trop remplir — le riz gonfle et fera éclater les légumes.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Gemista_peppers.jpg/640px-Gemista_peppers.jpg"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Gemista_peppers.jpg/640px-Gemista_peppers.jpg",
+      "url": "https://www.themediterraneandish.com/gemista-greek-stuffed-vegetables/"
     },
     {
       "id": "grece:019",
@@ -4957,7 +5242,8 @@
         "Basilic et huile pour la garniture"
       ],
       "steps": "Mixer pastèque, tomates, jus de citron, huile d'olive et basilic.\nAssaisonner (peu de sel — la feta sale).\nRéfrigérer 2h minimum.\nServir dans des bols froids, garnir de dés de feta, basilic et un filet d'huile.\n\n💡 La pastèque doit être bien froide — idéalement réfrigérée entière avant. Mariage pastèque-feta : un classique grec à explorer.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Watermelon-2.JPG/640px-Watermelon-2.JPG"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Watermelon-2.JPG/640px-Watermelon-2.JPG",
+      "url": "https://food52.com/recipes/30657-watermelon-gazpacho-with-feta-and-mint"
     },
     {
       "id": "soupe:004",
