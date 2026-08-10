@@ -20,6 +20,7 @@
       <button id="photos-btn" title="Récupérer photos + titres manquants depuis le lien" aria-label="Photos manquantes">📷</button>
       <button id="import-btn" title="Importer une recette" aria-label="Importer">⬇</button>
       <button id="batch-btn" title="Batch cooking" aria-label="Batch cooking">🍱</button>
+      <button id="panier-btn" title="Panier légumes" aria-label="Panier légumes">🧺</button>
       <button id="sync-btn" title="Synchroniser les recettes" aria-label="Synchroniser">↻</button>
       <button id="settings-btn" title="Paramètres" aria-label="Paramètres">⚙️</button>
     </div>
@@ -89,6 +90,19 @@
     <div id="batch-courses-pane" class="batch-pane" hidden></div>
     <div id="batch-cuisson-pane" class="batch-pane" hidden></div>
   </div>
+  <div id="panier" class="panier-panel" hidden>
+    <div class="panier-head">
+      <button class="panier-head-back" id="panier-back" aria-label="Retour">←</button>
+      <div class="panier-head-title">🧺 Panier du producteur</div>
+      <button id="panier-clear" class="panier-head-clear">Vider</button>
+    </div>
+    <div class="panier-input-row">
+      <input id="panier-input" type="text" placeholder="Ajouter un légume…" autocomplete="off" autocapitalize="off" />
+      <button id="panier-add">+</button>
+    </div>
+    <div id="panier-chips" class="panier-chips-row"></div>
+    <div id="panier-grid" class="panier-scroll"></div>
+  </div>
   <div id="catpick" class="catpick-modal" hidden></div>
   <div id="import" class="editview" hidden></div>
   <div id="toast" class="toast" hidden></div>
@@ -111,7 +125,7 @@
   </div>
 
   <script src="app.js"></script>
-  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.59';</script>
+  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.60';</script>
   <script src="update-check.js" defer></script>
   <script>window.BACKUP_APP = 'recettes-app'; window.BACKUP_SKIP = [/^recipesData$/];</script>
   <script src="autobackup.js"></script>

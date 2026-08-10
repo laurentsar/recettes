@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.59';
+const APP_VERSION = '2.60';
 
 let ALL = [];
 let BASE = [];
@@ -1685,6 +1685,108 @@ async function analyzeFridgeImage(base64, mimeType){
   catch(e){ return []; }
 }
 
+/* ---------- panier du producteur ---------- */
+let panierVegs = JSON.parse(localStorage.getItem('panierVegs') || '[]');
+function savePanierVegs(){ localStorage.setItem('panierVegs', JSON.stringify(panierVegs)); }
+
+function openPanier(){
+  document.getElementById('panier').hidden = false;
+  document.body.style.overflow = 'hidden';
+  renderPanierChips();
+  renderPanierGrid();
+  const inp = document.getElementById('panier-input');
+  if (inp) setTimeout(()=> inp.focus(), 80);
+}
+function closePanier(){ document.getElementById('panier').hidden = true; document.body.style.overflow = ''; }
+
+function updatePanierBtn(){
+  const btn = document.getElementById('panier-btn');
+  if (btn) btn.classList.toggle('has-veg', panierVegs.length > 0);
+}
+
+function addPanierVeg(){
+  const inp = document.getElementById('panier-input');
+  if (!inp) return;
+  const raw = inp.value.trim();
+  if (!raw) return;
+  // support multiple comma-separated entries
+  const items = raw.split(/[,;]+/).map(s=> s.trim()).filter(Boolean);
+  let added = false;
+  for (const item of items){
+    const n = norm(item);
+    if (!panierVegs.some(v=> norm(v)===n)){ panierVegs.push(item); added = true; }
+  }
+  if (added){ savePanierVegs(); updatePanierBtn(); renderPanierChips(); renderPanierGrid(); }
+  inp.value = '';
+  inp.focus();
+}
+
+function removePanierVeg(idx){
+  panierVegs.splice(idx, 1);
+  savePanierVegs(); updatePanierBtn(); renderPanierChips(); renderPanierGrid();
+}
+
+function renderPanierChips(){
+  const el = document.getElementById('panier-chips');
+  if (!el) return;
+  el.innerHTML = panierVegs.map((v, i)=>
+    `<button class="panier-chip" data-pidx="${i}">🥦 ${esc(v)} <span class="panier-chip-x">✕</span></button>`
+  ).join('');
+  el.querySelectorAll('.panier-chip').forEach(btn=>{
+    btn.addEventListener('click', ()=> removePanierVeg(parseInt(btn.dataset.pidx)));
+  });
+}
+
+function scorePanier(r, normVegs){
+  const corpus = norm((r.ing||[]).join(' ') + ' ' + (r.t||''));
+  const matched = normVegs.filter(v=> corpus.includes(v));
+  return { matched, pct: matched.length / normVegs.length };
+}
+
+function renderPanierGrid(){
+  const el = document.getElementById('panier-grid');
+  if (!el) return;
+  if (!panierVegs.length){
+    el.innerHTML = '<div class="panier-empty">Ajoute des légumes de ton panier ci-dessus pour voir les recettes adaptées.<br><br>🥕 carotte · 🥦 brocoli · 🍅 tomate …</div>';
+    return;
+  }
+  const normVegs = panierVegs.map(v=> norm(v));
+  const scored = ALL
+    .map(r=>{ const s = scorePanier(r, normVegs); return { r, ...s }; })
+    .filter(x=> x.matched.length > 0)
+    .sort((a,b)=> b.pct - a.pct || b.matched.length - a.matched.length);
+  if (!scored.length){
+    el.innerHTML = '<div class="panier-empty">Aucune recette trouvée avec ces légumes.<br>Essaie des noms plus génériques (ex : "tomate" plutôt que "tomates cerises").</div>';
+    return;
+  }
+  const tier = (pct)=> pct >= 0.5 ? 'high' : pct >= 0.25 ? 'mid' : 'low';
+  el.innerHTML = `
+    <div class="panier-results-header">${scored.length} recette${scored.length>1?'s':''} trouvée${scored.length>1?'s':''}</div>
+    <div class="panier-rcards">${scored.map(({r, matched, pct})=>{
+      const img = r.img
+        ? `<img class="thumb" src="${esc(r.img)}" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentElement.innerHTML='<div class=ph>🍲</div>'">`
+        : `<div class="ph">🍲</div>`;
+      const t = tier(pct);
+      const pctPx = Math.round(pct*100);
+      const badges = matched.slice(0,4).map(m=> `<span class="panier-veg-badge">${esc(m)}</span>`).join('');
+      const more = matched.length > 4 ? `<span class="panier-veg-badge">+${matched.length-4}</span>` : '';
+      return `<div class="panier-rcard" data-pid="${esc(String(r.id))}">
+        ${img}
+        <div class="info">
+          <div class="rt">${esc(r.t)}</div>
+          <div class="panier-score">
+            <div class="panier-score-bar"><div class="panier-score-fill ${t}" style="width:${pctPx}%"></div></div>
+            <span class="panier-score-label ${t}">${matched.length}/${panierVegs.length} · ${pctPx}%</span>
+          </div>
+          <div class="panier-veg-badges">${badges}${more}</div>
+        </div>
+      </div>`;
+    }).join('')}</div>`;
+  el.querySelectorAll('.panier-rcard').forEach(card=>{
+    card.addEventListener('click', ()=>{ closePanier(); openDetail(card.dataset.pid); });
+  });
+}
+
 /* ---------- batch cooking ---------- */
 let batchSel = new Set(JSON.parse(localStorage.getItem('batchSelection') || '[]'));
 function saveBatchSel(){ localStorage.setItem('batchSelection', JSON.stringify([...batchSel])); }
@@ -1830,6 +1932,14 @@ async function init(){
   document.getElementById('photos-btn').addEventListener('click', fillFromSources);
   document.getElementById('frigo-btn').addEventListener('click', openFrigo);
   document.getElementById('frigo-back').addEventListener('click', closeFrigo);
+  document.getElementById('panier-btn').addEventListener('click', openPanier);
+  document.getElementById('panier-back').addEventListener('click', closePanier);
+  document.getElementById('panier-clear').addEventListener('click', ()=>{
+    panierVegs = []; savePanierVegs(); updatePanierBtn(); renderPanierChips(); renderPanierGrid();
+  });
+  document.getElementById('panier-add').addEventListener('click', addPanierVeg);
+  document.getElementById('panier-input').addEventListener('keydown', (e)=>{ if(e.key==='Enter'){ e.preventDefault(); addPanierVeg(); } });
+  updatePanierBtn();
   document.getElementById('batch-btn').addEventListener('click', openBatch);
   document.getElementById('batch-back').addEventListener('click', closeBatch);
   document.getElementById('batch-clear').addEventListener('click', ()=>{
@@ -1878,6 +1988,7 @@ async function init(){
     else if(!document.getElementById('frigo').hidden) closeFrigo();
     else if(!document.getElementById('settings').hidden) closeSettings();
     else if(!document.getElementById('batch').hidden) closeBatch();
+    else if(!document.getElementById('panier').hidden) closePanier();
     else if(!elDetail.hidden) closeDetail();
   });
   setupAndroidBack();
@@ -1897,6 +2008,7 @@ function setupAndroidBack(){
     ['frigo',    closeFrigo],
     ['settings', closeSettings],
     ['batch',    closeBatch],
+    ['panier',   closePanier],
     ['detail',   closeDetail],
   ];
   const isOpen   = id => { const el = document.getElementById(id); return !!el && !el.hidden; };
