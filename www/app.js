@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.60';
+const APP_VERSION = '2.61';
 
 let ALL = [];
 let BASE = [];
@@ -231,7 +231,13 @@ const $ = (s)=>document.querySelector(s);
 const elGrid=$('#grid'), elCats=$('#cats'), elStatus=$('#status'), elSearch=$('#search'),
       elDetail=$('#detail'), elSub=$('#hero-sub'), elCook=$('#cook'), elImport=$('#import');
 
-const norm = (s)=> (s||'').toString().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+const _nc = new Map();
+const norm = (s)=>{
+  const k = s==null?'':String(s);
+  if(_nc.has(k)) return _nc.get(k);
+  const v = k.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+  _nc.set(k,v); return v;
+};
 const esc = (s)=> (s||'').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function saveFavs(){ localStorage.setItem('recetteFavs', JSON.stringify([...favs])); }
 
@@ -558,13 +564,32 @@ function card(r){
   return `<div class="rcard ${fav}" data-id="${esc(r.id)}">${img}
     <div class="info"><div class="rt">${esc(r.t)}</div><div class="meta">${esc(meta)}</div></div></div>`;
 }
+const GRID_PG = 48;
+let _gList = [], _gPage = 0, _gObs = null;
+
 function renderGrid(){
   if(appMode === 'cocktails') return;
-  const list = filtered();
-  elStatus.textContent = `${list.length} recette${list.length>1?'s':''}` + (state.fav?' en favoris':'');
-  elGrid.innerHTML = list.map(card).join('');
-  elGrid.querySelectorAll('.rcard').forEach(c=> c.addEventListener('click',()=> openDetail(c.dataset.id)));
+  _gList = filtered(); _gPage = 0;
+  elStatus.textContent = `${_gList.length} recette${_gList.length>1?'s':''}` + (state.fav?' en favoris':'');
+  if(_gObs){ _gObs.disconnect(); _gObs=null; }
+  elGrid.innerHTML = '';
+  _gridAppendPage();
   window.scrollTo({top:0});
+}
+function _gridAppendPage(){
+  if(_gObs){ _gObs.disconnect(); _gObs=null; }
+  const slice = _gList.slice(_gPage*GRID_PG, (_gPage+1)*GRID_PG);
+  if(!slice.length) return;
+  const frag = document.createDocumentFragment();
+  slice.forEach(r=>{ const d=document.createElement('div'); d.innerHTML=card(r); const c=d.firstElementChild; c.addEventListener('click',()=>openDetail(c.dataset.id)); frag.appendChild(c); });
+  elGrid.appendChild(frag);
+  _gPage++;
+  if(_gPage*GRID_PG < _gList.length){
+    const s=document.createElement('div'); s.id='grid-sentinel'; s.style.cssText='grid-column:1/-1;height:1px';
+    elGrid.appendChild(s);
+    _gObs=new IntersectionObserver(es=>{ if(es[0].isIntersecting) _gridAppendPage(); },{rootMargin:'300px'});
+    _gObs.observe(s);
+  }
 }
 
 /* ---------- fiche ---------- */
@@ -1737,10 +1762,25 @@ function renderPanierChips(){
   });
 }
 
-function scorePanier(r, normVegs){
+const PANIER_SEASONS = {
+  '🌱 Printemps': ['asperge','artichaut','petit pois','épinard','radis','blette','laitue','fève','oignon nouveau'],
+  '🌞 Été':       ['tomate','courgette','aubergine','poivron','concombre','haricot vert','maïs','fenouil','betterave'],
+  '🍂 Automne':   ['courge','potiron','champignon','poireau','chou-fleur','brocoli','navet','panais','châtaigne'],
+  '❄️ Hiver':     ['carotte','pomme de terre','céleri','chou','endive','navet','topinambour','mâche','poireau'],
+};
+function addPanierSeason(label){
+  const veg = PANIER_SEASONS[label] || [];
+  let added = false;
+  for(const v of veg){ const n=norm(v); if(!panierVegs.some(x=>norm(x)===n)){ panierVegs.push(v); added=true; } }
+  if(added){ savePanierVegs(); updatePanierBtn(); renderPanierChips(); renderPanierGrid(); }
+}
+
+function vegWords(v){ return norm(v).split(/\s+/).filter(w=>w.length>=4); }
+
+function scorePanier(r, vegWordsList){
   const corpus = norm((r.ing||[]).join(' ') + ' ' + (r.t||''));
-  const matched = normVegs.filter(v=> corpus.includes(v));
-  return { matched, pct: matched.length / normVegs.length };
+  const matched = panierVegs.filter((_,i)=> vegWordsList[i].some(w=> corpus.includes(w)));
+  return { matched, pct: matched.length / panierVegs.length };
 }
 
 function renderPanierGrid(){
@@ -1750,9 +1790,9 @@ function renderPanierGrid(){
     el.innerHTML = '<div class="panier-empty">Ajoute des légumes de ton panier ci-dessus pour voir les recettes adaptées.<br><br>🥕 carotte · 🥦 brocoli · 🍅 tomate …</div>';
     return;
   }
-  const normVegs = panierVegs.map(v=> norm(v));
+  const vegWordsList = panierVegs.map(v=> vegWords(v));
   const scored = ALL
-    .map(r=>{ const s = scorePanier(r, normVegs); return { r, ...s }; })
+    .map(r=>{ const s = scorePanier(r, vegWordsList); return { r, ...s }; })
     .filter(x=> x.matched.length > 0)
     .sort((a,b)=> b.pct - a.pct || b.matched.length - a.matched.length);
   if (!scored.length){
@@ -1825,8 +1865,13 @@ function renderBatchSel(){
   const pane = document.getElementById('batch-sel-pane');
   if (!pane) return;
   if (!ALL.length){ pane.innerHTML = '<div class="batch-empty">Aucune recette chargée.</div>'; return; }
-  pane.innerHTML = `<div class="batch-sel-grid">${
-    ALL.map(r=>{
+  const q = norm((document.getElementById('batch-search')?.value||'').trim());
+  const list = q ? ALL.filter(r=> norm(r.t).includes(q) || norm(r.cat).includes(q)) : ALL;
+  const selCount = batchSel.size;
+  // Preserve scroll position
+  const scrollTop = pane.scrollTop;
+  pane.innerHTML = `<div class="batch-sel-header">${selCount > 0 ? `<span class="batch-sel-count">${selCount} sélectionnée${selCount>1?'s':''}</span>` : `<span style="color:var(--muted);font-size:.85em">${list.length} recettes</span>`}</div><div class="batch-sel-grid">${
+    list.map(r=>{
       const isSel = batchSel.has(String(r.id));
       const img = r.img
         ? `<img class="thumb" src="${esc(r.img)}" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentElement.innerHTML='<div class=ph>🍲</div>'">`
@@ -1843,6 +1888,7 @@ function renderBatchSel(){
       </div>`;
     }).join('')
   }</div>`;
+  pane.scrollTop = scrollTop;
   pane.querySelectorAll('.batch-rcard').forEach(card=>{
     card.addEventListener('click', ()=>{
       const bid = card.dataset.bid;
@@ -1851,6 +1897,9 @@ function renderBatchSel(){
       card.classList.toggle('sel', batchSel.has(bid));
       const chk = card.parentElement.querySelector('.batch-chk');
       if (chk) chk.style.opacity = batchSel.has(bid) ? '1' : '0';
+      // update header count without full re-render
+      const hdr = pane.querySelector('.batch-sel-header');
+      if(hdr){ const n=batchSel.size; hdr.innerHTML = n>0 ? `<span class="batch-sel-count">${n} sélectionnée${n>1?'s':''}</span>` : `<span style="color:var(--muted);font-size:.85em">${list.length} recettes</span>`; }
     });
   });
 }
@@ -1930,6 +1979,14 @@ async function init(){
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
   document.getElementById('import-btn').addEventListener('click', openImport);
   document.getElementById('photos-btn').addEventListener('click', fillFromSources);
+  // More menu
+  const moreBtn = document.getElementById('more-btn');
+  const moreMenu = document.getElementById('more-menu');
+  if(moreBtn && moreMenu){
+    moreBtn.addEventListener('click', (e)=>{ e.stopPropagation(); moreMenu.hidden = !moreMenu.hidden; });
+    document.addEventListener('click', ()=>{ if(moreMenu) moreMenu.hidden=true; });
+    moreMenu.addEventListener('click', ()=>{ moreMenu.hidden=true; });
+  }
   document.getElementById('frigo-btn').addEventListener('click', openFrigo);
   document.getElementById('frigo-back').addEventListener('click', closeFrigo);
   document.getElementById('panier-btn').addEventListener('click', openPanier);
@@ -1939,6 +1996,9 @@ async function init(){
   });
   document.getElementById('panier-add').addEventListener('click', addPanierVeg);
   document.getElementById('panier-input').addEventListener('keydown', (e)=>{ if(e.key==='Enter'){ e.preventDefault(); addPanierVeg(); } });
+  document.querySelectorAll('.panier-season-btn').forEach(btn=>{
+    btn.addEventListener('click', ()=> addPanierSeason(btn.dataset.season));
+  });
   updatePanierBtn();
   document.getElementById('batch-btn').addEventListener('click', openBatch);
   document.getElementById('batch-back').addEventListener('click', closeBatch);
@@ -1948,6 +2008,7 @@ async function init(){
   document.querySelectorAll('.batch-tab').forEach(btn=>{
     btn.addEventListener('click', ()=> switchBatchTab(btn.dataset.btab));
   });
+  document.getElementById('batch-search').addEventListener('input', ()=> renderBatchSel());
   updateBatchBtn();
   document.getElementById('settings-btn').addEventListener('click', openSettings);
   document.getElementById('settings-back').addEventListener('click', closeSettings);

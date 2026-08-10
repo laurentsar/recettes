@@ -17,10 +17,15 @@
         <div id="hero-sub"></div>
       </div>
       <button id="frigo-btn" title="Analyser le frigo" aria-label="Frigo">🧊</button>
-      <button id="photos-btn" title="Récupérer photos + titres manquants depuis le lien" aria-label="Photos manquantes">📷</button>
-      <button id="import-btn" title="Importer une recette" aria-label="Importer">⬇</button>
       <button id="batch-btn" title="Batch cooking" aria-label="Batch cooking">🍱</button>
       <button id="panier-btn" title="Panier légumes" aria-label="Panier légumes">🧺</button>
+      <div class="more-wrap">
+        <button id="more-btn" title="Plus d'options" aria-label="Plus">⋯</button>
+        <div class="more-menu" id="more-menu" hidden>
+          <button id="photos-btn" class="more-menu-item">📷 Photos</button>
+          <button id="import-btn" class="more-menu-item">⬇ Importer</button>
+        </div>
+      </div>
       <button id="sync-btn" title="Synchroniser les recettes" aria-label="Synchroniser">↻</button>
       <button id="settings-btn" title="Paramètres" aria-label="Paramètres">⚙️</button>
     </div>
@@ -81,6 +86,9 @@
       <div class="batch-head-title">🍱 Batch cooking</div>
       <button id="batch-clear" class="batch-head-clear">Tout vider</button>
     </div>
+    <div class="batch-search-row">
+      <input id="batch-search" type="search" placeholder="Rechercher une recette…" autocomplete="off" />
+    </div>
     <div class="batch-tabs">
       <button class="batch-tab active" data-btab="sel">📋 Sélection</button>
       <button class="batch-tab" data-btab="courses">🛒 Courses</button>
@@ -101,6 +109,12 @@
       <button id="panier-add">+</button>
     </div>
     <div id="panier-chips" class="panier-chips-row"></div>
+    <div class="panier-seasons">
+      <button class="panier-season-btn" data-season="🌱 Printemps">🌱 Printemps</button>
+      <button class="panier-season-btn" data-season="🌞 Été">🌞 Été</button>
+      <button class="panier-season-btn" data-season="🍂 Automne">🍂 Automne</button>
+      <button class="panier-season-btn" data-season="❄️ Hiver">❄️ Hiver</button>
+    </div>
     <div id="panier-grid" class="panier-scroll"></div>
   </div>
   <div id="catpick" class="catpick-modal" hidden></div>
@@ -125,7 +139,7 @@
   </div>
 
   <script src="app.js"></script>
-  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.60';</script>
+  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.61';</script>
   <script src="update-check.js" defer></script>
   <script>window.BACKUP_APP = 'recettes-app'; window.BACKUP_SKIP = [/^recipesData$/];</script>
   <script src="autobackup.js"></script>

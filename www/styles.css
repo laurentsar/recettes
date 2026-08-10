@@ -464,3 +464,25 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .panier-score-label.mid{color:var(--accent)}
 .panier-veg-badges{display:flex;gap:3px;flex-wrap:wrap;margin-top:5px}
 .panier-veg-badge{background:rgba(124,179,66,.15);border:1px solid #4d6b2a;color:#cde8a6;font-size:.68em;font-weight:600;padding:2px 6px;border-radius:999px;white-space:nowrap}
+
+/* === more menu (⋯) === */
+.more-wrap{position:relative;flex:0 0 auto}
+#more-btn{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.3em;font-weight:700;cursor:pointer;padding:0;letter-spacing:.05em}
+#more-btn:active{transform:scale(.94)}
+.more-menu{position:absolute;top:calc(100% + 8px);right:0;background:var(--bg2);border:1px solid var(--line);border-radius:14px;min-width:160px;padding:6px;box-shadow:0 8px 24px rgba(0,0,0,.5);z-index:200;display:flex;flex-direction:column;gap:2px}
+.more-menu[hidden]{display:none}
+.more-menu-item{width:100%;text-align:left;padding:11px 14px;border:none;background:none;color:var(--text);font-size:.93em;font-weight:600;cursor:pointer;border-radius:10px;display:flex;align-items:center;gap:10px}
+.more-menu-item:active{background:var(--card)}
+
+/* === batch : search row === */
+.batch-search-row{flex:0 0 auto;padding:10px 14px;background:var(--bg2);border-bottom:1px solid var(--line)}
+#batch-search{width:100%;background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:12px;padding:10px 14px;font-size:.95em;font-family:inherit}
+#batch-search:focus{outline:none;border-color:var(--accent)}
+.batch-sel-header{padding:8px 14px 2px;display:flex;align-items:center}
+.batch-sel-count{font-size:.85em;font-weight:700;color:var(--accent)}
+
+/* === panier : saisons === */
+.panier-seasons{flex:0 0 auto;display:flex;gap:6px;padding:6px 14px 10px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.panier-seasons::-webkit-scrollbar{display:none}
+.panier-season-btn{flex:0 0 auto;padding:7px 13px;border-radius:999px;border:1px solid #4d8c25;background:rgba(124,179,66,.12);color:#cde8a6;font-size:.85em;font-weight:700;cursor:pointer;white-space:nowrap;transition:background .15s}
+.panier-season-btn:active{background:rgba(124,179,66,.3)}
