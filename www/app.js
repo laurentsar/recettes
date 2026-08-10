@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.63';
+const APP_VERSION = '2.64';
 
 let ALL = [];
 let BASE = [];
@@ -964,7 +964,8 @@ function openEdit(id){
           <div class="e-photo-side">
             <label class="e-photo-btn" for="e-photo-input">📷 Prendre / Galerie</label>
             <input type="file" id="e-photo-input" class="frigo-file-hidden" accept="image/*">
-            <input id="e-img" type="url" placeholder="ou coller une URL…" value="${v(r.img)}" class="e-photo-url">
+            <input id="e-img" type="text" placeholder="ou coller une URL…" value="${v(r.img)}" class="e-photo-url">
+            <input id="e-img-data" type="hidden" value="">
           </div>
         </div>
       </label>
@@ -986,13 +987,15 @@ function openEdit(id){
     try{
       toast('Compression…');
       const dataUrl = await compressImage(file);
-      document.getElementById('e-img').value = dataUrl;
+      document.getElementById('e-img-data').value = dataUrl;
+      document.getElementById('e-img').value = '';
       document.getElementById('e-photo-thumb').innerHTML = `<img src="${dataUrl}">`;
       toast('Photo ajoutée ✓');
     } catch(err){ toast('Erreur : '+err.message); }
     e.target.value = '';
   });
-  document.getElementById('e-img').addEventListener('change', (e)=>{
+  document.getElementById('e-img').addEventListener('input', (e)=>{
+    document.getElementById('e-img-data').value = '';
     const url = e.target.value.trim();
     const th = document.getElementById('e-photo-thumb');
     th.innerHTML = url
@@ -1028,7 +1031,7 @@ function saveEdit(id){
   edits[id] = {
     t: ev('e-t').trim(), cat: catsOut.join(', '),
     min: parseInt(ev('e-min'),10)||0, serv: parseInt(ev('e-serv'),10)||0,
-    img: ev('e-img').trim(), url: ev('e-url').trim(), vid: ev('e-vid').trim(),
+    img: (ev('e-img-data').trim() || ev('e-img').trim()), url: ev('e-url').trim(), vid: ev('e-vid').trim(),
     desc: ev('e-desc').trim(), ing, steps: ev('e-steps').trim(),
   };
   saveEdits(); refreshAll();
