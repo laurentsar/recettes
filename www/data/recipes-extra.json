@@ -611,6 +611,99 @@
         "espagne:003",
         "dropbox:6da79f3f-9a9f-4eb1-aed0-631795b903cd"
       ]
+    },
+    {
+      "id": "corse:001",
+      "name": "Soupe à l'ail",
+      "min": 30,
+      "serv": 4,
+      "desc": "La plus simple et la plus parfumée des soupes corses — ail, pomme de terre, jaune d'œuf et tomme de brebis râpée sur pain grillé.",
+      "ing": [
+        "3 belles gousses d'ail",
+        "1 grosse pomme de terre",
+        "2 c. à soupe d'huile d'olive",
+        "1 feuille de laurier",
+        "1 pincée de thym effeuillé",
+        "75 cl d'eau",
+        "1 jaune d'œuf",
+        "8 tranches de pain (baguette) grillées",
+        "100 g de vieille tomme de brebis fraîchement râpée",
+        "sel et poivre"
+      ],
+      "steps": "Éplucher et couper la pomme de terre en petits dés. Éplucher et écraser les gousses d'ail.\nFaire revenir ensemble la pomme de terre et l'ail avec l'huile d'olive dans une casserole à fond épais, sans faire roussir.\nMouiller de 75 cl d'eau. Saler modérément, poivrer, parsemer de thym effeuillé et ajouter la feuille de laurier.\nLaisser cuire à feu doux pendant au moins 20 minutes.\nÔter la feuille de laurier. Passer la soupe et la verser en soupière.\nRectifier l'assaisonnement si besoin. Incorporer le jaune d'œuf en fouettant dans la soupière.\nServir dans des assiettes chaudes avec les tranches de pain grillées et le fromage râpé.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Garlic-Bulbs.jpg/640px-Garlic-Bulbs.jpg"
+    },
+    {
+      "id": "corse:003",
+      "name": "Soupe aux haricots et aux herbes du maquis",
+      "min": 85,
+      "serv": 7,
+      "desc": "Soupe rustique parfumée aux herbes sauvages du maquis corse — marjolaine, bourrache — servie sur pain frotté à l'ail.",
+      "ing": [
+        "200 g de haricots rouges secs, mis à tremper la veille",
+        "4 pommes de terre moyennes, épluchées et coupées en petits dés",
+        "1 gros oignon rose émincé",
+        "2 gousses d'ail écrasées",
+        "2 tomates bien mûres, pelées et épépinées",
+        "1 bouquet garni (thym, laurier, romarin)",
+        "herbes sauvages du maquis : marjolaine, bourrache (ou équivalent séché)",
+        "2 c. à soupe d'huile d'olive",
+        "tranches de pain de campagne",
+        "sel et poivre"
+      ],
+      "steps": "La veille : mettre les haricots à tremper dans l'eau froide.\n\nMettre les haricots dans un faitout et les recouvrir d'eau froide. Placer à feu doux et ajouter, dès frémissement, l'ail écrasé, l'oignon émincé, les pommes de terre, les tomates, le bouquet garni et l'huile d'olive.\nSaler et poivrer. Couvrir et laisser cuire à feu moyen 45 minutes.\nIncorporer les herbes sauvages (marjolaine, bourrache…) et poursuivre la cuisson environ 30 minutes.\nServir la soupe sur des tranches de pain de campagne frottées d'ail selon goût.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Minestrone_di_verdure.jpg/640px-Minestrone_di_verdure.jpg"
+    },
+    {
+      "id": "corse:004",
+      "name": "Soupe du Niolo aux haricots",
+      "min": 105,
+      "serv": 7,
+      "desc": "La soupe emblématique du Niolo, la haute montagne corse — haricots rouges mijotés avec poireaux, oignon et couenne de jambon.",
+      "ing": [
+        "250 g de haricots secs rouges, mis à tremper la veille",
+        "4 blancs de poireaux",
+        "2 gousses d'ail",
+        "1 oignon",
+        "2 belles tomates bien mûres",
+        "1 morceau de couenne de jambon",
+        "1 bouquet garni (thym, laurier, romarin)",
+        "4 c. à soupe d'huile d'olive",
+        "sel et poivre"
+      ],
+      "steps": "La veille : mettre les haricots à tremper dans l'eau froide.\n\nDans une grande cocotte, faire cuire les haricots dans de l'eau salée pendant une heure.\nPendant ce temps, faire revenir dans une autre cocotte avec l'huile d'olive les blancs de poireaux coupés finement, l'ail et l'oignon coupés en rondelles.\nAjouter les haricots avec leur eau de cuisson. Incorporer les tomates pelées et épépinées, le bouquet garni et le morceau de couenne de jambon.\nSaler et poivrer. Couvrir et laisser frémir encore 30 minutes avant de servir.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Feijoada_2.jpg/640px-Feijoada_2.jpg"
+    },
+    {
+      "id": "corse:005",
+      "name": "Soupe paysanne corse (a minestra)",
+      "min": 125,
+      "serv": 7,
+      "desc": "La grande soupe paysanne corse, riche et généreuse — sept légumes, lard fumé, os de jambon et saindoux mijotés 1h45. Un plat complet.",
+      "ing": [
+        "300 g de haricots rouges (frais ou secs trempés la veille)",
+        "200 g de haricots verts",
+        "200 g de carottes",
+        "400 g de pommes de terre",
+        "1 petit chou vert",
+        "300 g de verts de blettes (blanchis 3 mn à l'eau salée, refroidis)",
+        "1 gros oignon rose",
+        "4 gousses d'ail rouge",
+        "250 g de potiron en cubes",
+        "2 grosses tomates bien mûres, épluchées et épépinées",
+        "1 branche de céleri",
+        "1 branche de basilic",
+        "1 branche de menthe",
+        "1 bouquet garni (thym, laurier, romarin)",
+        "350 g de lard de poitrine de porc fumé",
+        "1 os de jambon cru ou 1 tranche de coppa",
+        "4 c. à soupe d'huile d'olive",
+        "80 g de saindoux",
+        "5 litres d'eau",
+        "sel et poivre"
+      ],
+      "steps": "Si haricots secs : faire tremper quelques heures au préalable. Blanchir les verts de blettes 3 mn à l'eau salée bouillante, refroidir à l'eau froide, réserver.\n\nCuire les haricots rouges 10 minutes dans un faitout avec de l'eau bouillante non salée. (Si frais : les écosser directement.)\nPendant ce temps, faire revenir dans le saindoux les autres légumes : haricots verts, carottes, pommes de terre, chou, verts de blettes et potiron.\nJeter la moitié de l'eau de cuisson des haricots, puis compléter dans le faitout jusqu'à 5 litres.\nAjouter les légumes revenus, l'oignon et l'ail pilés au mortier avec les tomates, les branches de basilic, menthe et céleri, le bouquet garni, le lard fumé et l'os de jambon (ou la coppa).\nSaler, poivrer. Arroser d'huile d'olive. Laisser mijoter à feu doux jusqu'à ce que tous les légumes soient fondants (environ 1h30 après la mise en commun).\n\n💡 Cette soupe est encore meilleure réchauffée le lendemain.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Minestrone_di_verdure.jpg/640px-Minestrone_di_verdure.jpg"
     }
   ],
   "recipes": [
