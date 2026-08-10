@@ -21,7 +21,9 @@
     "dropbox:-1074079364",
     "dropbox:-763943463",
     "dropbox:-1568242711",
-    "dropbox:382709832"
+    "dropbox:382709832",
+    "espagne:020",
+    "dropbox:ef32c145-057e-464f-93b0-5f2dee8537ae"
   ],
   "overrides": [
     {
@@ -242,7 +244,11 @@
     },
     {
       "id": "espagne:003",
-      "url": "https://www.seriouseats.com/tortilla-espanola-spanish-potato-omelette-recipe"
+      "url": "https://www.seriouseats.com/tortilla-espanola-spanish-potato-omelette-recipe",
+      "pair": [
+        "dropbox:6da79f3f-9a9f-4eb1-aed0-631795b903cd",
+        "dropbox:1c831ee7-4902-41f6-a56b-c03501aeffe6"
+      ]
     },
     {
       "id": "espagne:004",
@@ -591,6 +597,20 @@
     {
       "id": "asie:015",
       "url": "https://www.recipetineats.com/beef-rendang/"
+    },
+    {
+      "id": "dropbox:6da79f3f-9a9f-4eb1-aed0-631795b903cd",
+      "pair": [
+        "espagne:003",
+        "dropbox:1c831ee7-4902-41f6-a56b-c03501aeffe6"
+      ]
+    },
+    {
+      "id": "dropbox:1c831ee7-4902-41f6-a56b-c03501aeffe6",
+      "pair": [
+        "espagne:003",
+        "dropbox:6da79f3f-9a9f-4eb1-aed0-631795b903cd"
+      ]
     }
   ],
   "recipes": [
@@ -6752,6 +6772,2106 @@
       "steps": "FARCE DATTES\nMixer dattes avec cannelle, eau de fleur d'oranger et huile jusqu'à pâte homogène.\nFormer un long boudin de 1,5 cm de diamètre. Réserver.\n\nPÂTE\nMélanger semoule et sel. Incorporer beurre fondu et huile en sablant.\nAjouter eau de fleur d'oranger et eau froide progressivement jusqu'à pâte souple (non collante).\nReposer 20 min.\n\nMONTAGE\nÉtaler la pâte en rectangle de 5mm d'épaisseur. Poser le boudin de dattes.\nEnrouler la pâte autour en scellant les bords. Former un cylindre.\nCouper en losanges de 4-5 cm. Dessiner des traits avec une fourchette.\n\nFRITURE\nFrire à 170°C 4-5 min jusqu'à dorure.\nPlonger immédiatement dans le miel chaud 30 sec. Égoutter.\n\n💡 Les makroud se conservent 2-3 semaines à température ambiante — se bonifiont avec le temps.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Makrouds.JPG/960px-Makrouds.JPG?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
       "url": "https://www.750g.com/makrout-aux-dattes-r13541.htm"
+    },
+    {
+      "id": "italie:052",
+      "t": "Tiramisu aux Fraises",
+      "cat": "Italie, Dessert",
+      "min": 30,
+      "serv": 6,
+      "desc": "Un tiramisu fruité et léger : les fraises fraîches remplacent le café, avec une crème mascarpone vanillée. Parfait pour l'été.",
+      "ing": [
+        "500 g de mascarpone",
+        "4 œufs (jaunes séparés des blancs)",
+        "120 g de sucre",
+        "400 g de fraises",
+        "200 g de biscuits à la cuillère",
+        "Coulis de fraises : 200 g fraises + 2 c. sucre + jus de citron",
+        "Quelques fraises pour décorer"
+      ],
+      "steps": "COULIS\nMixer 200 g de fraises avec le sucre et le jus de citron. Filtrer. Réserver.\n\nCRÈME\nFouetter les jaunes avec le sucre jusqu'à blanchiment. Incorporer le mascarpone.\nMonter les blancs en neige ferme. Plier délicatement dans le mélange.\n\nMONTAGE\nTremper rapidement les biscuits dans le coulis de fraises.\nDisposer une couche dans un plat. Étaler la moitié de la crème.\nAjouter une couche de fraises coupées en lamelles.\nRépéter. Terminer par la crème.\nRéfrigérer 4 h minimum. Décorer de fraises fraîches.\n\n💡 À préparer la veille pour un résultat optimal.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Tiramisu_fraise.jpg/640px-Tiramisu_fraise.jpg",
+      "url": "https://www.marmiton.org/recettes/recette_tiramisu-aux-fraises_20895.aspx"
+    },
+    {
+      "id": "italie:053",
+      "t": "Tiramisu au Citron",
+      "cat": "Italie, Dessert",
+      "min": 25,
+      "serv": 6,
+      "desc": "Version acidulée du tiramisu classique : citrons de Sicile, limoncello et mascarpone pour une version fraîche et estivale.",
+      "ing": [
+        "500 g de mascarpone",
+        "4 œufs",
+        "120 g de sucre",
+        "3 citrons (zestes + jus)",
+        "4 cl de limoncello",
+        "200 g de boudoirs",
+        "200 ml de jus de citron allongé d'eau pour trempage",
+        "Zestes de citron pour décorer"
+      ],
+      "steps": "Fouetter les jaunes avec le sucre. Ajouter le mascarpone et les zestes de citron.\nMonter les blancs en neige. Incorporer délicatement.\nTremper les boudoirs dans le jus de citron légèrement sucré et le limoncello.\nDresser couches de biscuits et crème.\nRéfrigérer 4 h. Décorer de zestes de citron confits.\n\n💡 Le limoncello peut être remplacé par du jus de citron pour une version sans alcool.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Tiramisù.jpg/640px-Tiramisù.jpg",
+      "url": "https://www.750g.com/tiramisu-au-citron-r99000.htm"
+    },
+    {
+      "id": "italie:054",
+      "t": "Tiramisu Spéculoos",
+      "cat": "Italie, Dessert",
+      "min": 20,
+      "serv": 6,
+      "desc": "Le mariage parfait entre le tiramisu classique et les épices de spéculoos : café, mascarpone et cette touche de cannelle-caramel irrésistible.",
+      "ing": [
+        "500 g de mascarpone",
+        "4 œufs",
+        "100 g de sucre",
+        "250 g de spéculoos (en remplacement des boudoirs)",
+        "300 ml de café fort refroidi",
+        "3 c. de pâte de spéculoos",
+        "Cacao en poudre et spéculoos émiettés pour le dessus"
+      ],
+      "steps": "Fouetter les jaunes avec le sucre jusqu'à blanchiment. Incorporer le mascarpone et la pâte de spéculoos.\nMonter les blancs en neige. Incorporer délicatement.\nTremper brièvement les spéculoos dans le café froid (attention, ils ramollissent vite).\nAlternez couches de spéculoos trempés et crème.\nSaupoudrer de cacao et spéculoos émiettés. Réfrigérer 4 h.\n\n💡 Les spéculoos absorbent le café plus vite que les biscuits classiques — trempage 2-3 secondes maxi.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Tiramisù.jpg/640px-Tiramisù.jpg",
+      "url": "https://www.750g.com/tiramisu-aux-speculoos-r50082.htm"
+    },
+    {
+      "id": "italie:055",
+      "t": "Tiramisu Chocolat Blanc & Framboises",
+      "cat": "Italie, Dessert",
+      "min": 30,
+      "serv": 6,
+      "desc": "Décadent et fruité : la douceur du chocolat blanc rencontre l'acidité des framboises fraîches dans ce tiramisu élégant.",
+      "ing": [
+        "500 g de mascarpone",
+        "4 œufs",
+        "80 g de sucre",
+        "200 g de chocolat blanc",
+        "300 g de framboises fraîches",
+        "200 g de boudoirs",
+        "150 ml de sirop de framboise pour trempage",
+        "Framboises et copeaux de chocolat blanc pour décorer"
+      ],
+      "steps": "Fondre le chocolat blanc au bain-marie. Laisser tiédir.\nFouetter les jaunes avec le sucre. Incorporer le mascarpone et le chocolat blanc fondu.\nMonter les blancs en neige. Incorporer délicatement.\nTremper les boudoirs dans le sirop de framboise.\nAlternerCouches de biscuits, framboises fraîches et crème.\nRéfrigérer 4 h. Décorer de framboises et copeaux de chocolat blanc.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Tiramisù.jpg/640px-Tiramisù.jpg",
+      "url": "https://www.750g.com/tiramisu-chocolat-blanc-framboises-r99001.htm"
+    },
+    {
+      "id": "italie:056",
+      "t": "Tiramisu Mangue-Coco",
+      "cat": "Italie, Dessert",
+      "min": 25,
+      "serv": 6,
+      "desc": "Version tropicale exotique : lait de coco, mangue fraîche et rhum blanc pour un tiramisu qui sent bon les îles.",
+      "ing": [
+        "400 g de mascarpone",
+        "100 ml de lait de coco épais",
+        "4 œufs",
+        "100 g de sucre",
+        "2 mangues mûres",
+        "200 g de boudoirs",
+        "150 ml de jus de mangue + 3 cl de rhum blanc pour trempage",
+        "Noix de coco râpée grillée pour décorer"
+      ],
+      "steps": "Fouetter les jaunes avec le sucre. Incorporer le mascarpone et le lait de coco.\nMonter les blancs en neige. Incorporer délicatement. Ajouter 1 mangue coupée en petits cubes.\nTremper les boudoirs dans le mélange jus de mangue-rhum.\nAlternerCouches de biscuits, dés de mangue et crème.\nRéfrigérer 4 h. Saupoudrer de noix de coco râpée grillée.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Tiramisù.jpg/640px-Tiramisù.jpg",
+      "url": "https://www.750g.com/tiramisu-mangue-coco-r99002.htm"
+    },
+    {
+      "id": "italie:057",
+      "t": "Tiramisu Pistache",
+      "cat": "Italie, Dessert",
+      "min": 25,
+      "serv": 6,
+      "desc": "Élégant et gourmand : la pâte de pistache sicilienne transforme la crème mascarpone en une couleur verte envoûtante. La recette des gelaterie de Palerme.",
+      "ing": [
+        "500 g de mascarpone",
+        "4 œufs",
+        "100 g de sucre",
+        "80 g de pâte de pistache pure",
+        "200 g de boudoirs",
+        "200 ml de café pour trempage",
+        "Pistaches concassées et cacao pour décorer"
+      ],
+      "steps": "Fouetter les jaunes avec le sucre. Incorporer le mascarpone et la pâte de pistache.\nMonter les blancs en neige. Incorporer délicatement.\nTremper les boudoirs dans le café froid.\nAlternerCouches de biscuits et crème verte.\nRéfrigérer 4 h. Décorer de pistaches concassées et cacao.\n\n💡 Utiliser une pâte de pistache pure (sans sucre ajouté) pour un goût authentique.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Tiramisù.jpg/640px-Tiramisù.jpg",
+      "url": "https://www.750g.com/tiramisu-pistache-r99003.htm"
+    },
+    {
+      "id": "france:021",
+      "t": "Soupe à l'Oignon Gratinée",
+      "cat": "France, Soupe, Plat",
+      "min": 60,
+      "serv": 4,
+      "desc": "Le symbole des bistrots parisiens : oignons caramélisés longuement dans le beurre, bouillon de bœuf, croûtons grillés et gruyère fondu gratinée sous le grill.",
+      "ing": [
+        "1 kg d'oignons jaunes",
+        "50 g de beurre",
+        "2 c. d'huile d'olive",
+        "1 c. de sucre",
+        "1 L de bouillon de bœuf",
+        "200 ml de vin blanc sec",
+        "1 baguette (tranches)",
+        "200 g de gruyère râpé",
+        "Sel, poivre, thym"
+      ],
+      "steps": "Émincer finement les oignons. Faire fondre le beurre avec l'huile à feu moyen.\nAjouter les oignons, le sucre, sel. Cuire 40 min en remuant souvent jusqu'à caramélisation dorée.\nDéglacer au vin blanc. Laisser évaporer. Ajouter le bouillon. Mijoter 20 min. Assaisonner.\nGriller les tranches de baguette. Les frotter à l'ail.\nVerser la soupe dans des bols allant au four. Poser les croûtons. Couvrir généreusement de gruyère.\nGratiner sous le grill 5-7 min jusqu'à bouillonnement doré.\n\n💡 La caramélisation des oignons est la clé — ne pas aller trop vite.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sopa_de_ceba.JPG/640px-Sopa_de_ceba.JPG",
+      "url": "https://www.750g.com/soupe-a-l-oignon-gratinee-r83921.htm"
+    },
+    {
+      "id": "france:022",
+      "t": "Steak Tartare",
+      "cat": "France, Plat, Bœuf",
+      "min": 15,
+      "serv": 2,
+      "desc": "Le grand classique de brasserie française — bœuf haché à la main, câpres, cornichons, moutarde et jaune d'œuf. À préparer et consommer immédiatement.",
+      "ing": [
+        "400 g de bœuf (rumsteck ou filet) haché à la main au couteau",
+        "2 jaunes d'œufs",
+        "2 échalotes finement hachées",
+        "2 c. câpres hachées",
+        "4 cornichons hachés",
+        "1 c. moutarde de Dijon",
+        "1 c. ketchup",
+        "Quelques gouttes de Worcestershire",
+        "Tabasco",
+        "Persil plat haché",
+        "Sel, poivre",
+        "Frites ou toast pour servir"
+      ],
+      "steps": "Hacher le bœuf au couteau (jamais au hachoir) en brunoise fine. Réserver au frais.\nMélanger dans un bol : jaune d'œuf, moutarde, ketchup, Worcestershire, Tabasco.\nIncorporer la viande. Ajouter échalotes, câpres, cornichons, persil.\nAssaisonner généreusement de sel et poivre. Goûter et rectifier.\nFormer en dome avec un emporte-pièce. Poser un jaune d'œuf au centre.\nServir immédiatement avec frites ou toasts grillés.\n\n⚠️ Utiliser uniquement de la viande très fraîche de qualité bouchère.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Steak_tartare_1.jpg/640px-Steak_tartare_1.jpg",
+      "url": "https://www.750g.com/steak-tartare-r83922.htm"
+    },
+    {
+      "id": "france:023",
+      "t": "Bouillabaisse Marseillaise",
+      "cat": "France, Plat, Poisson, Soupe",
+      "min": 90,
+      "serv": 6,
+      "desc": "La soupe de poissons provençale par excellence — rascasse, saint-pierre, grondin, saffran et rouille sur croûtons aillés. Un plat de fête du bord de mer.",
+      "ing": [
+        "1,5 kg de poissons variés (rascasse, saint-pierre, grondin, vive)",
+        "500 g de crevettes et moules",
+        "3 tomates concassées",
+        "2 oignons, 4 gousses d'ail",
+        "1 blanc de poireau",
+        "Fenouil frais et graines de fenouil",
+        "1 c. de safran",
+        "Huile d'olive, sel, poivre",
+        "ROUILLE : 4 gousses ail, 1 jaune d'œuf, huile d'olive, safran, piment"
+      ],
+      "steps": "Faire revenir oignons, poireau et ail dans l'huile. Ajouter tomates et fenouil 10 min.\nAjouter poissons durs (rascasse, grondin). Couvrir d'eau bouillante. Ajouter safran.\nFaire bouillir vivement 15 min. Ajouter les poissons tendres et coquillages. 10 min de plus.\nRETIRER les poissons. Mixer et filtrer le bouillon. Assaisonner.\n\nROUILLE : Piler ail et safran. Incorporer jaune d'œuf puis huile en filet (comme une mayo). Sel, piment.\n\nServir le bouillon chaud en soupière. Poissons à part. Croûtons frottés à l'ail. Rouille en pot.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Bouillabaisse.jpg/640px-Bouillabaisse.jpg",
+      "url": "https://www.750g.com/la-vraie-bouillabaisse-marseillaise-r83923.htm"
+    },
+    {
+      "id": "france:024",
+      "t": "Confit de Canard",
+      "cat": "France, Plat, Volaille",
+      "min": 180,
+      "serv": 4,
+      "desc": "La spécialité gasconne par excellence : cuisses de canard lentement confites dans leur propre graisse. Croustillant dehors, fondant dedans.",
+      "ing": [
+        "4 cuisses de canard",
+        "1 kg de graisse de canard (ou saindoux)",
+        "Gros sel : 2 c. par cuisse",
+        "4 gousses d'ail",
+        "Thym, laurier, poivre"
+      ],
+      "steps": "SAUMURAGE (24h avant) : Frotter les cuisses de gros sel, ail écrasé, thym. Couvrir. Réfrigérer 24 h.\nRincer les cuisses à l'eau froide. Sécher soigneusement.\nFaire fondre la graisse de canard dans une cocotte à feu très doux.\nImmerger complètement les cuisses dans la graisse. Temp 80-85°C max.\nCuire 2h30-3h — la viande doit se détacher facilement de l'os.\nLaisser refroidir dans la graisse. Se conserve des semaines ainsi.\n\nPOUR SERVIR : Retirer de la graisse. Dorer côté peau dans une poêle sans matière grasse.\n\n💡 Servir avec sarladaises ou lentilles du Puy.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Confit_de_canard.jpg/640px-Confit_de_canard.jpg",
+      "url": "https://www.750g.com/confit-de-canard-maison-r83924.htm"
+    },
+    {
+      "id": "france:025",
+      "t": "Cassoulet Toulousain",
+      "cat": "France, Plat",
+      "min": 240,
+      "serv": 6,
+      "desc": "Le grand plat du Languedoc : haricots blancs longuement mijotés avec confit de canard, saucisses de Toulouse et couenne. La croûte croustillante est cassée 7 fois selon la tradition.",
+      "ing": [
+        "1 kg de haricots lingots secs (trempés 12 h)",
+        "4 cuisses de canard confites",
+        "600 g de saucisses de Toulouse",
+        "300 g de lardons",
+        "1 couenne de porc",
+        "4 tomates concassées",
+        "4 gousses d'ail, 2 oignons",
+        "Bouquet garni, sel, poivre"
+      ],
+      "steps": "Cuire les haricots 1h dans bouillon aromatique (pas à fond).\nFaire dorer saucisses et lardons. Réserver.\nFaire revenir oignons et ail. Ajouter tomates. Mijoter 10 min.\nDans une cassole (plat en terre) : disposer couches de haricots, viandes, sauce tomate.\nFinir par une couche de haricots. Verser le bouillon à hauteur.\nCuire au four 160°C pendant 3 h. Casser la croûte 7 fois en ajoutant du bouillon.\n\n💡 Le cassoulet est encore meilleur réchauffé le lendemain.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cassoulet.jpg/640px-Cassoulet.jpg",
+      "url": "https://www.750g.com/cassoulet-de-toulouse-maison-r83925.htm"
+    },
+    {
+      "id": "france:026",
+      "t": "Crêpes Suzette",
+      "cat": "France, Dessert",
+      "min": 45,
+      "serv": 4,
+      "desc": "Le dessert flambé emblématique de la cuisine française : crêpes fines légèrement caramélisées, sauce à l'orange et au Grand Marnier, flambées spectaculairement en salle.",
+      "ing": [
+        "CRÊPES : 250 g farine, 500 ml lait, 2 œufs, 1 c. beurre fondu, pincée sel",
+        "SAUCE SUZETTE : 100 g beurre, 100 g sucre, jus de 3 oranges, zestes d'orange, 6 cl Grand Marnier"
+      ],
+      "steps": "CRÊPES : Mélanger farine, œufs, lait, beurre. Laisser reposer 30 min. Cuire des crêpes fines.\n\nSAUCE SUZETTE : Caraméliser le sucre dans une poêle large. Ajouter le beurre en morceaux.\nVerser le jus d'orange et les zestes. Laisser réduire 5 min en sauce brillante.\n\nPlier les crêpes en quatre. Les faire chauffer dans la sauce orange.\nVerser le Grand Marnier. FLAMBER avec une allumette longue.\nServir immédiatement, avec une boule de glace vanille si désiré.\n\n💡 Le flambage peut se faire à table pour l'effet dramatique.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Cr%C3%AApes_Suzette.jpg/640px-Cr%C3%AApes_Suzette.jpg",
+      "url": "https://www.750g.com/crepes-suzette-r83926.htm"
+    },
+    {
+      "id": "france:027",
+      "t": "Crème Brûlée",
+      "cat": "France, Dessert",
+      "min": 60,
+      "serv": 6,
+      "desc": "Le dessert français le plus célèbre : une crème onctueuse vanillée sous une carapace de caramel craquante créée au chalumeau. Simple, parfait, imparable.",
+      "ing": [
+        "500 ml de crème entière liquide",
+        "6 jaunes d'œufs",
+        "100 g de sucre en poudre + sucre roux pour caraméliser",
+        "2 gousses de vanille",
+        "Pincée de sel"
+      ],
+      "steps": "Préchauffer le four à 150°C. Fendre les gousses de vanille, gratter les graines dans la crème.\nChauffer la crème avec la vanille sans bouillir. Retirer les gousses.\nFouetter les jaunes avec le sucre jusqu'à blanchiment. Incorporer la crème chaude progressivement.\nVerser dans des ramequins. Placer dans un bain-marie.\nCuire 40-50 min — la crème doit trembler légèrement au centre.\nRefroidir, puis réfrigérer 2 h minimum.\n\nJuste avant de servir : saupoudrer de sucre roux. Caraméliser au chalumeau en mouvements circulaires.\nLaisser refroidir 1 min — la carapace doit être craquante.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Crema_catalana_brulee.jpg/640px-Crema_catalana_brulee.jpg",
+      "url": "https://www.750g.com/creme-brulee-r83927.htm"
+    },
+    {
+      "id": "france:028",
+      "t": "Tarte Tatin",
+      "cat": "France, Dessert",
+      "min": 60,
+      "serv": 6,
+      "desc": "La tarte renversée des sœurs Tatin : pommes caramélisées dans le beurre et le sucre, recouvertes de pâte feuilletée et retournées à la sortie du four. Un accident culinaire devenu classique.",
+      "ing": [
+        "1,2 kg de pommes Golden ou Reinette",
+        "150 g de sucre",
+        "80 g de beurre demi-sel",
+        "1 pâte feuilletée",
+        "Crème fraîche pour servir"
+      ],
+      "steps": "Préchauffer le four à 190°C.\nDans une poêle allant au four (ou moule à tarte tatin) : faire fondre le beurre. Ajouter le sucre.\nCuire jusqu'à caramel doré sans remuer.\nDéposer les pommes épluchées et coupées en quartiers épais. Cuire 15-20 min en les retournant.\nLes pommes doivent être bien caramélisées.\nRecouvrir avec la pâte feuilletée en rentrant les bords sous les pommes.\nCuire au four 25-30 min jusqu'à dorure.\nLaisser reposer 5 min. RETOURNER d'un geste rapide sur un plat.\n\n💡 Servir tiède avec de la crème fraîche. Refaire réchauffer si nécessaire.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tarte_Tatin.jpg/640px-Tarte_Tatin.jpg",
+      "url": "https://www.750g.com/tarte-tatin-r83928.htm"
+    },
+    {
+      "id": "france:029",
+      "t": "Madeleines de Commercy",
+      "cat": "France, Dessert",
+      "min": 40,
+      "serv": 24,
+      "desc": "Les petites coquilles dorées chères à Proust : légères, beurrées, avec cette bosse caractéristique qui signe une madeleine réussie. Le secret : le choc thermique.",
+      "ing": [
+        "3 œufs",
+        "150 g de sucre",
+        "200 g de farine",
+        "1 sachet de levure chimique",
+        "150 g de beurre fondu refroidi",
+        "Zeste de 1 citron ou 1 c. extrait de vanille",
+        "1 c. de miel",
+        "Beurre et farine pour les moules"
+      ],
+      "steps": "Fouetter les œufs avec le sucre et le miel jusqu'à blanchiment (5 min).\nIncorporer le zeste de citron. Tamiser la farine et la levure. Incorporer.\nAjouter le beurre fondu refroidi en mélangeant délicatement.\nCouvrir et RÉFRIGÉRER 1 heure minimum (clé de la bosse !).\n\nPréchauffer le four à 220°C. Beurrer et fariner les moules.\nRemplir aux 3/4. Enfourner. BAISSER immédiatement à 200°C.\nCuire 8-10 min — la bosse se forme en 3-4 min.\n\n💡 La différence de température (pâte froide/four chaud) crée la bosse caractéristique.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Madeleines.jpg/640px-Madeleines.jpg",
+      "url": "https://www.750g.com/madeleines-de-commercy-r83929.htm"
+    },
+    {
+      "id": "france:030",
+      "t": "Croque-Monsieur Parisien",
+      "cat": "France, Entrée, Plat",
+      "min": 15,
+      "serv": 2,
+      "desc": "Le sandwich chaud de bistrot par excellence : jambon, béchamel et gruyère entre deux tranches de pain de mie grillées. La version monsieur, ou madame avec un œuf au plat.",
+      "ing": [
+        "4 tranches de pain de mie épais",
+        "4 tranches de jambon blanc",
+        "200 g de gruyère râpé",
+        "BÉCHAMEL : 20 g beurre, 20 g farine, 200 ml lait, sel, poivre, noix de muscade"
+      ],
+      "steps": "BÉCHAMEL : Faire un roux beurre-farine. Verser le lait progressivement. Cuire jusqu'à épaississement. Assaisonner.\n\nToaster légèrement les tranches de pain.\nÉtaler la béchamel sur une face de chaque tranche.\nDisposer le jambon sur 2 tranches. Ajouter du gruyère.\nRefermer. Étaler béchamel sur le dessus et couvrir de gruyère.\nGratiner au four/grill 200°C pendant 5-7 min jusqu'à bouillonnement doré.\n\n💡 CROQUE-MADAME : ajouter un œuf au plat sur le dessus après cuisson.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Croque-monsieur.jpg/640px-Croque-monsieur.jpg",
+      "url": "https://www.750g.com/croque-monsieur-parfait-r83930.htm"
+    },
+    {
+      "id": "france:031",
+      "t": "Steak Frites Brasserie",
+      "cat": "France, Plat, Bœuf",
+      "min": 25,
+      "serv": 2,
+      "desc": "Le plat national officieux de la France : entrecôte ou faux-filet saignant, frites dorées croustillantes et beurre maître d'hôtel. La grande tradition des brasseries parisiennes.",
+      "ing": [
+        "2 entrecôtes (250 g chacune) ou faux-filets",
+        "800 g de pommes de terre à frites (Bintje)",
+        "Huile de friture",
+        "BEURRE MAÎTRE D'HÔTEL : 80 g beurre mou, persil plat, ail, jus de citron, sel, poivre"
+      ],
+      "steps": "BEURRE MAÎTRE D'HÔTEL : Mélanger beurre mou, persil haché, ail, citron. Former un boudin dans film plastique. Réfrigérer.\n\nFRITES : Couper en bâtonnets réguliers. Première friture à 160°C pendant 6 min. Égoutter. Reposer 10 min. Deuxième friture à 180°C jusqu'à dorure croustillante. Saler.\n\nSTEAK : Sortir la viande 30 min avant. Saler juste avant cuisson. Poêle très chaude avec huile.\nSaisir 2 min chaque face pour saignant. Reposer 3 min sous papier alu.\nDisposer une tranche de beurre maître d'hôtel sur le steak chaud.\n\n💡 Le repos est essentiel — ne jamais couper immédiatement.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Steak_frites_01.jpg/640px-Steak_frites_01.jpg",
+      "url": "https://www.750g.com/steak-frites-parfait-r83931.htm"
+    },
+    {
+      "id": "france:032",
+      "t": "Quiche Lorraine",
+      "cat": "France, Entrée, Plat",
+      "min": 60,
+      "serv": 6,
+      "desc": "La tarte salée emblématique de Lorraine : une pâte brisée croustillante, des lardons, une migaine crémeuse aux œufs. Chaude ou froide, à toute heure.",
+      "ing": [
+        "1 pâte brisée",
+        "200 g de lardons fumés",
+        "4 œufs",
+        "300 ml de crème fraîche épaisse",
+        "150 ml de lait",
+        "Sel, poivre, noix de muscade",
+        "(Optionnel : 100 g de gruyère râpé — débat alsacien/lorrain)"
+      ],
+      "steps": "Préchauffer le four à 180°C. Foncer un moule à tarte avec la pâte brisée. Piquer.\nFaire revenir les lardons à sec jusqu'à légère coloration. Égoutter.\nFouetter les œufs avec la crème et le lait. Assaisonner sel, poivre, muscade.\nRépartir les lardons sur la pâte. Verser l'appareil à œufs.\nCuire 35-40 min jusqu'à légère dorure et tremblements.\nLaisser tiédir 10 min avant de couper.\n\n💡 La vraie quiche lorraine n'a PAS de fromage — c'est l'ajout de gruyère qui en fait une quiche alsacienne.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Quiche_Lorraine.jpg/640px-Quiche_Lorraine.jpg",
+      "url": "https://www.750g.com/la-vraie-quiche-lorraine-r83932.htm"
+    },
+    {
+      "id": "australie:001",
+      "t": "Meat Pie Australien",
+      "cat": "Australie, Plat",
+      "min": 90,
+      "serv": 6,
+      "desc": "Le plat national australien : tourte à la viande hachée et à la sauce brune, coiffée d'un chapeau de pâte feuilletée. Incontournable à l'AFL football.",
+      "ing": [
+        "500 g de bœuf haché",
+        "1 oignon haché",
+        "2 c. de concentré de tomate",
+        "200 ml de bouillon de bœuf",
+        "1 c. de Worcestershire",
+        "1 c. de fécule de maïs",
+        "1 pâte brisée (fond)",
+        "1 pâte feuilletée (couvercle)",
+        "Sel, poivre",
+        "Ketchup pour servir"
+      ],
+      "steps": "Faire revenir l'oignon dans l'huile. Ajouter le bœuf haché. Cuire jusqu'à coloration.\nAjouter concentré de tomate, bouillon, Worcestershire. Mijoter 20 min.\nDélayer la fécule dans un peu d'eau froide. Incorporer pour épaissir la sauce.\nAssaisonner. Laisser refroidir.\nFoncer des moules à tartelette individuels avec la pâte brisée.\nRemplir de farce refroidie. Couvrir de pâte feuilletée. Sceller et dorer au jaune d'œuf.\nCuire au four 200°C pendant 25-30 min jusqu'à dorure.\n\n💡 Servir avec du ketchup — c'est la tradition australienne incontournable.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Meat_pie_with_sauce_03.jpg/640px-Meat_pie_with_sauce_03.jpg",
+      "url": "https://www.taste.com.au/recipes/classic-meat-pie/"
+    },
+    {
+      "id": "australie:002",
+      "t": "Chicken Parmigiana (Parma)",
+      "cat": "Australie, Plat, Poulet",
+      "min": 40,
+      "serv": 4,
+      "desc": "La 'Parma' version australienne : escalope de poulet panée, sauce napolitaine, jambon et mozzarella fondue. Le pub food n°1 d'Australie.",
+      "ing": [
+        "4 escalopes de poulet aplaties",
+        "2 œufs battus",
+        "150 g de chapelure panko",
+        "Sauce napolitaine : 400 g tomates concassées, ail, basilic",
+        "4 tranches de jambon",
+        "200 g de mozzarella râpée",
+        "Huile pour friture",
+        "Sel, poivre"
+      ],
+      "steps": "Aplatir les escalopes à 1 cm. Saler, poivrer.\nPaner : farine, œuf battu, chapelure panko.\nFaire dorer dans l'huile 3-4 min chaque face. Égoutter.\nSAUCE : Faire revenir l'ail, ajouter tomates et basilic. Mijoter 15 min.\nDisposer les escalopes dans un plat. Napper de sauce tomate.\nPoser une tranche de jambon sur chaque escalope. Couvrir de mozzarella.\nGratiner au four 200°C pendant 10-12 min jusqu'à fondu doré.\n\n💡 Servir avec frites et salade de chou — l'accompagnement classique de pub.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Parma_side.jpg/640px-Parma_side.jpg",
+      "url": "https://www.taste.com.au/recipes/chicken-parmigiana/"
+    },
+    {
+      "id": "australie:003",
+      "t": "ANZAC Biscuits",
+      "cat": "Australie, Dessert, Biscuit",
+      "min": 30,
+      "serv": 24,
+      "desc": "Les biscuits emblématiques de la fête nationale ANZAC, envoyés aux soldats australiens pendant la WWI car ils ne se périment pas. Flocons d'avoine, noix de coco et golden syrup.",
+      "ing": [
+        "1 tasse de flocons d'avoine",
+        "1 tasse de noix de coco râpée",
+        "1 tasse de farine",
+        "1 tasse de sucre",
+        "125 g de beurre",
+        "2 c. de golden syrup (ou sirop d'agave)",
+        "1 c. de bicarbonate de soude",
+        "2 c. d'eau bouillante"
+      ],
+      "steps": "Préchauffer le four à 160°C. Mélanger flocons d'avoine, noix de coco, farine et sucre dans un grand bol.\nFaire fondre le beurre avec le golden syrup à feu doux.\nDissoudre le bicarbonate dans l'eau bouillante. Incorporer au mélange beurre-sirop.\nVerser sur les ingrédients secs. Mélanger.\nFormer des boules de 2 cm. Disposer sur plaque en espaçant.\nAplatir légèrement. Cuire 12-15 min jusqu'à dorure.\nLaisser refroidir sur la plaque — ils durcissent en refroidissant.\n\n💡 Durée de conservation exceptionnelle : 2-3 semaines dans une boîte hermétique.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/ANZAC_biscuits.jpg/640px-ANZAC_biscuits.jpg",
+      "url": "https://www.taste.com.au/recipes/anzac-biscuits/"
+    },
+    {
+      "id": "australie:004",
+      "t": "Lamington",
+      "cat": "Australie, Dessert",
+      "min": 60,
+      "serv": 16,
+      "desc": "Le gâteau national australien : carrés de génoise enrobés de glaçage chocolat et roulés dans la noix de coco râpée. Présent à chaque fête d'école et community event.",
+      "ing": [
+        "GÉNOISE : 4 œufs, 150 g sucre, 150 g farine, 30 g beurre fondu, 1 c. vanille",
+        "GLAÇAGE : 300 g sucre glace, 60 g cacao, 60 ml lait bouillant, 30 g beurre",
+        "200 g de noix de coco râpée",
+        "(Optionnel : confiture de fraise au centre)"
+      ],
+      "steps": "GÉNOISE : Fouetter œufs et sucre jusqu'à ruban (10 min). Incorporer farine en pluie. Puis beurre fondu.\nVerser dans un moule carré 20×20 cm beurré. Cuire 180°C, 25 min. Laisser refroidir complètement.\nCouper en carrés de 5 cm. Réfrigérer 1 h (plus facile à enrober).\n\nGLAÇAGE : Mélanger sucre glace et cacao. Ajouter le lait bouillant et le beurre. Travailler jusqu'à glaçage lisse.\n\nTrempez chaque carré dans le glaçage chocolat. Égoutter. Rouler dans la noix de coco.\nLaisser prendre sur une grille.\n\n💡 Plus facile avec la génoise de la veille — elle s'émiette moins.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Lamington.jpg/640px-Lamington.jpg",
+      "url": "https://www.taste.com.au/recipes/lamingtons/"
+    },
+    {
+      "id": "australie:005",
+      "t": "Pavlova",
+      "cat": "Australie, Dessert",
+      "min": 120,
+      "serv": 8,
+      "desc": "Le grand dessert de fête australo-néo-zélandais : meringue craquante, cœur moelleux, crème fouettée et fruits de la passion ou kiwi. Le sujet d'une rivalité nationale légendaire.",
+      "ing": [
+        "4 blancs d'œufs",
+        "220 g de sucre fin",
+        "1 c. de vinaigre blanc",
+        "1 c. de fécule de maïs",
+        "DESSUS : 300 ml de crème fouettée, fruits de la passion, fraises, kiwis"
+      ],
+      "steps": "Préchauffer le four à 120°C. Couvrir une plaque de papier cuisson. Tracer un cercle de 22 cm.\nMonter les blancs en neige ferme. Incorporer le sucre cuillerée par cuillerée en fouettant.\nAjouter vinaigre et fécule. Fouetter encore 2 min — la meringue doit être brillante.\nÉtaler sur le cercle tracé en faisant un creux central.\nCuire 1h30. Éteindre le four. Laisser refroidir DANS LE FOUR porte fermée (évite les craquelures).\n\nDÉCORATION : Fouetter la crème. Remplir le creux. Ajouter les fruits.\n\n💡 Cuisson et refroidissement dans le four fermé = secret d'un cœur moelleux.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Pavlova.jpg/640px-Pavlova.jpg",
+      "url": "https://www.taste.com.au/recipes/pavlova/"
+    },
+    {
+      "id": "australie:006",
+      "t": "Sausage Roll Australien",
+      "cat": "Australie, Entrée, Apéritif",
+      "min": 45,
+      "serv": 12,
+      "desc": "Le snack apéritif incontournable des Australiens : chair à saucisse épicée enroulée dans de la pâte feuilletée, croustillante et dorée. Sur toutes les tables de fête.",
+      "ing": [
+        "500 g de chair à saucisse",
+        "1 oignon râpé",
+        "1 carotte râpée",
+        "2 c. de sauce Worcestershire",
+        "1 c. de moutarde",
+        "1 œuf",
+        "50 g de chapelure",
+        "2 rouleaux de pâte feuilletée",
+        "1 jaune d'œuf pour dorer",
+        "Ketchup pour servir"
+      ],
+      "steps": "Préchauffer le four à 200°C. Mélanger chair à saucisse, oignon, carotte, Worcestershire, moutarde, œuf et chapelure.\nDérouler la pâte feuilletée. Couper en bandes de 12 cm.\nFormer un boudin de farce sur le bord de chaque bande.\nRefermer en rouleau en soudant avec un peu d'eau.\nCouper en tronçons de 4-5 cm. Dorer au jaune d'œuf. Entailler le dessus.\nCuire 20-25 min jusqu'à dorure croustillante.\n\n💡 Se congèlent très bien crus — à cuire directement congelés (5 min de plus).",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sausage_rolls.jpg/640px-Sausage_rolls.jpg",
+      "url": "https://www.taste.com.au/recipes/sausage-rolls/"
+    },
+    {
+      "id": "australie:007",
+      "t": "Barramundi Grillé au Citron",
+      "cat": "Australie, Plat, Poisson",
+      "min": 20,
+      "serv": 4,
+      "desc": "Le poisson noble australien par excellence : barramundi grillé en croûte dorée, jus de citron, huile d'olive et herbes fraîches. Cuisine côtière australienne dans sa simplicité.",
+      "ing": [
+        "4 filets de barramundi (200 g chacun)",
+        "2 citrons (jus + zestes)",
+        "3 c. d'huile d'olive",
+        "2 gousses d'ail",
+        "Herbes fraîches : persil, coriandre, aneth",
+        "Sel de mer, poivre",
+        "Légumes grillés ou salade pour servir"
+      ],
+      "steps": "Sécher les filets. Assaisonner de sel et poivre.\nMélanger huile, ail émincé, jus de citron et zestes. Badigeonner les filets.\nChauffer un grill ou une poêle à feu vif. Griller côté peau 4-5 min jusqu'à croustillant.\nRetourner délicatement. Cuire 2-3 min côté chair.\nPresser un filet de citron frais sur chaque portion.\nServir avec les herbes fraîches et les légumes grillés.\n\n💡 Le barramundi peut être remplacé par du bar ou du lieu selon la disponibilité.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Grilled_barramundi.jpg/640px-Grilled_barramundi.jpg",
+      "url": "https://www.taste.com.au/recipes/grilled-barramundi-lemon/"
+    },
+    {
+      "id": "australie:008",
+      "t": "Damper (Pain du Buisson)",
+      "cat": "Australie, Accompagnement",
+      "min": 40,
+      "serv": 8,
+      "desc": "Le pain des cowboys australiens (bushrangers) : farine, eau et bicarbonate, cuit dans les braises ou au four. Une tradition de l'outback depuis les pionniers.",
+      "ing": [
+        "3 tasses de farine",
+        "1 sachet de levure chimique",
+        "1 c. de sel",
+        "1 c. de sucre",
+        "30 g de beurre froid en dés",
+        "300 ml de lait (ou eau, ou lait ribot)",
+        "(Optionnel : herbes séchées, fromage râpé)"
+      ],
+      "steps": "Préchauffer le four à 200°C. Mélanger farine, levure, sel et sucre.\nIncorporer le beurre du bout des doigts jusqu'à sableux.\nAjouter le lait progressivement — pétrir brièvement jusqu'à pâte souple (ne pas trop pétrir).\nFormer une boule. Poser sur une plaque farinée. Aplatir légèrement.\nEntailler une croix sur le dessus. Dorer au lait.\nCuire 25-30 min jusqu'à creux sonnant creux quand on tape dessous.\nServir chaud avec beurre et golden syrup ou miel.\n\n💡 Tradition : cuit enveloppé dans du papier alu dans les braises d'un feu de camp.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Damper_bread.jpg/640px-Damper_bread.jpg",
+      "url": "https://www.taste.com.au/recipes/damper-bread/"
+    },
+    {
+      "id": "australie:009",
+      "t": "Sticky Date Pudding",
+      "cat": "Australie, Dessert",
+      "min": 60,
+      "serv": 8,
+      "desc": "Le pudding aux dattes humide et collant, nappé de sauce caramel butterscotch chaude. Le dessert d'hiver des pubs australiens, servi avec glace vanille ou crème.",
+      "ing": [
+        "PUDDING : 200 g dattes dénoyautées, 250 ml eau bouillante, 1 c. bicarbonate, 80 g beurre, 150 g sucre, 2 œufs, 200 g farine, 1 c. levure",
+        "SAUCE BUTTERSCOTCH : 200 g sucre roux, 200 ml crème, 80 g beurre, 1 c. vanille"
+      ],
+      "steps": "PUDDING : Couvrir les dattes d'eau bouillante. Ajouter le bicarbonate. Laisser tremper 15 min. Mixer grossièrement.\nCreamer beurre et sucre. Ajouter les œufs un à un. Incorporer la farine et levure. Ajouter la purée de dattes.\nVerser dans un moule beurré. Cuire 180°C, 35-40 min.\n\nSAUCE BUTTERSCOTCH : Chauffer le sucre roux et le beurre. Ajouter la crème. Cuire 5 min jusqu'à sauce brillante.\n\nServir des tranches de pudding chaud nappées généreusement de sauce butterscotch chaude et glace vanille.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Sticky_date_pudding.jpg/640px-Sticky_date_pudding.jpg",
+      "url": "https://www.taste.com.au/recipes/sticky-date-pudding/"
+    },
+    {
+      "id": "australie:010",
+      "t": "Smashed Avocado Toast",
+      "cat": "Australie, Petit-déjeuner, Entrée",
+      "min": 10,
+      "serv": 2,
+      "desc": "Le petit-déjeuner qui a défini une génération et un débat économique mondial : avocat écrasé sur pain grillé au levain avec œuf poché, feta et piment.",
+      "ing": [
+        "2 avocats mûrs",
+        "4 tranches de pain au levain épais",
+        "2 œufs (pour pocher)",
+        "80 g de feta émiettée",
+        "Piment rouge frais ou flocons de piment",
+        "Jus de citron vert",
+        "Sel fleur de sel, poivre",
+        "Graines de sésame, coriandre fraîche",
+        "Huile d'olive"
+      ],
+      "steps": "Toaster le pain au levain jusqu'à croustillant.\nÉcraser la chair des avocats à la fourchette — texture rustique, pas lisse. Assaisonner de jus de citron vert, sel.\nPocher les œufs dans l'eau frémissante vinaigrée 3 min.\nÉtaler généreusement l'avocat sur les toasts.\nPoser un œuf poché sur chaque toast.\nParsemer de feta émiettée, piment, graines de sésame, coriandre.\nFinir d'un filet d'huile d'olive et fleur de sel.\n\n💡 Pain au levain = essentiel. L'avocat ne doit pas être trop mûr — des morceaux, pas de la purée.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Avocado_toast.jpg/640px-Avocado_toast.jpg",
+      "url": "https://www.taste.com.au/recipes/smashed-avocado-toast/"
+    },
+    {
+      "id": "australie:011",
+      "t": "Tim Tam Cheesecake",
+      "cat": "Australie, Dessert",
+      "min": 30,
+      "serv": 10,
+      "desc": "Le cheesecake australien ultime : base de Tim Tams (biscuits chocolat australiens), cheesecake crémeux et glaçage ganache chocolat. Un dessert pour les vrais fans.",
+      "ing": [
+        "BASE : 24 Tim Tams (ou Fingers), 80 g beurre fondu",
+        "FILLING : 600 g Philadelphia, 200 g sucre, 300 ml crème fouettée, 1 c. vanille",
+        "GANACHE : 150 g chocolat noir, 150 ml crème chaude"
+      ],
+      "steps": "BASE : Mixer les Tim Tams en miettes. Mélanger avec le beurre fondu. Presser dans un moule à charnière. Réfrigérer.\nFILLING : Battre le Philadelphia avec le sucre. Incorporer la crème fouettée et la vanille.\nVerser sur la base. Lisser. Réfrigérer 4 h minimum (ou toute la nuit).\nGANACHE : Verser la crème chaude sur le chocolat haché. Mélanger jusqu'à lisse. Verser sur le cheesecake.\nRéfrigérer encore 1 h.\nDécorer de Tim Tams brisés.\n\n💡 Les Tim Tams peuvent être remplacés par des Oréos ou des Finger.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Cheesecake.jpg/640px-Cheesecake.jpg",
+      "url": "https://www.taste.com.au/recipes/tim-tam-cheesecake/"
+    },
+    {
+      "id": "australie:012",
+      "t": "Kangaroo Steak au Poivre Vert",
+      "cat": "Australie, Plat",
+      "min": 20,
+      "serv": 2,
+      "desc": "Le steak de kangourou — viande rouge maigre, riche en protéines et ultra-tendance — poêlé saignant avec une sauce au poivre vert. Expérience authentiquement australienne.",
+      "ing": [
+        "2 steaks de kangourou (200 g chacun)",
+        "2 c. de poivre vert en grains (frais ou en saumure)",
+        "100 ml de cognac ou brandy",
+        "200 ml de crème",
+        "1 échalote",
+        "Huile d'olive, beurre",
+        "Sel"
+      ],
+      "steps": "Sortir la viande 30 min avant. Le kangourou se mange SAIGNANT — trop cuit, il devient dur.\nChauffer poêle très chaude. Saisir les steaks 2 min chaque face. Sel uniquement APRÈS cuisson.\nRetirer. Laisser reposer 5 min sous papier alu.\nDans la même poêle : faire revenir l'échalote. Ajouter le poivre vert. Flamber au cognac.\nAjouter la crème. Réduire 3 min. Assaisonner.\nNapper les steaks de sauce. Servir avec légumes du bush (ou légumes grillés).\n\n⚠️ La viande de kangourou est très maigre — saignant obligatoire, 60°C à cœur max.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Kangaroo_steak.jpg/640px-Kangaroo_steak.jpg",
+      "url": "https://www.taste.com.au/recipes/kangaroo-steak/"
+    },
+    {
+      "id": "australie:013",
+      "t": "Vegemite Scrolls",
+      "cat": "Australie, Boulangerie",
+      "min": 90,
+      "serv": 12,
+      "desc": "Des briochettes roulées au Vegemite et fromage, similaires aux escargots à la cannelle mais en version salée très australienne. Petit-déjeuner ou goûter d'école.",
+      "ing": [
+        "PÂTE : 500 g farine, 7 g levure sèche, 250 ml lait tiède, 50 g beurre, 1 c. sucre, 1 c. sel",
+        "REMPLISSAGE : 3 c. de Vegemite (ou Marmite), 200 g de cheddar râpé",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": "Pâte : Dissoudre la levure dans le lait tiède. Mélanger farine, sel, sucre. Incorporer beurre fondu et lait-levure. Pétrir 8 min. Lever 1 h.\nÉtaler la pâte en rectangle 30×40 cm. Tartiner de Vegemite (couche mince !).\nParsemer de cheddar râpé.\nRouler serré sur la longueur. Couper en 12 tranches.\nDisposer dans un moule beurré. Lever 30 min.\nDorer au jaune d'œuf. Cuire 180°C, 20-25 min.\n\n⚠️ Le Vegemite est très salé et fort — une fine couche suffit !",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Vegemite_scroll.jpg/640px-Vegemite_scroll.jpg",
+      "url": "https://www.taste.com.au/recipes/vegemite-cheese-scrolls/"
+    },
+    {
+      "id": "australie:014",
+      "t": "Pavlova aux Fruits de la Passion",
+      "cat": "Australie, Dessert",
+      "min": 120,
+      "serv": 8,
+      "desc": "La version tropicale de la pavlova nationale : meringue parfaite avec fruits de la passion, mangue et fraises fraîches pour un dessert de Noël estival.",
+      "ing": [
+        "4 blancs d'œufs",
+        "220 g de sucre fin",
+        "1 c. de fécule de maïs",
+        "1 c. de vinaigre blanc",
+        "DESSUS : 300 ml crème fouettée, pulpe de 6 fruits de la passion, 1 mangue, fraises fraîches"
+      ],
+      "steps": "Mêmes étapes que Pavlova classique — meringue cuite 1h30 à 120°C, refroidie dans le four.\nFouetter la crème jusqu'à pics mous. Remplir le creux de la meringue.\nDéposer la pulpe de fruits de la passion, les tranches de mangue et les fraises.\nServir immédiatement (se ramollit vite).\n\n💡 En Australie, Noël étant en été, la Pavlova est souvent le dessert de Noël avec des fruits tropicaux.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Pavlova.jpg/640px-Pavlova.jpg",
+      "url": "https://www.taste.com.au/recipes/pavlova-passionfruit/"
+    },
+    {
+      "id": "australie:015",
+      "t": "BBQ Prawns à l'Australienne",
+      "cat": "Australie, Apéritif, Plat, Poisson",
+      "min": 20,
+      "serv": 4,
+      "desc": "\"Throw another shrimp on the barbie\" — les grosses crevettes grillées au BBQ australien avec sauce Marie Rose maison. Ritual incontournable de l'été australien.",
+      "ing": [
+        "1 kg de grosses crevettes entières",
+        "4 c. d'huile d'olive",
+        "4 gousses d'ail émincées",
+        "Jus de citron",
+        "Persil, coriandre",
+        "Sel, poivre",
+        "SAUCE MARIE ROSE : mayonnaise, ketchup, citron, cognac, tabasco"
+      ],
+      "steps": "Ouvrir les crevettes en butterfly en laissant la carapace. Retirer le boyau.\nMariner 30 min dans huile, ail, citron, sel, poivre.\nChauffer le BBQ à vif. Griller les crevettes côté chair 2-3 min puis 1 min côté carapace.\n\nSAUCE MARIE ROSE : Mélanger 4 c. mayo, 2 c. ketchup, 1 c. cognac, jus de citron, quelques gouttes de tabasco.\n\nServir immédiatement avec la sauce Marie Rose, du pain et des quartiers de citron.\n\n💡 La carapace protège la chair pendant la cuisson — plus juteux que les crevettes décortiquées.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Grilled_prawns.jpg/640px-Grilled_prawns.jpg",
+      "url": "https://www.taste.com.au/recipes/bbq-prawns/"
+    },
+    {
+      "id": "australie:016",
+      "t": "Caramelised Banana Bread",
+      "cat": "Australie, Boulangerie, Dessert",
+      "min": 75,
+      "serv": 10,
+      "desc": "Le banana bread australien au caramel : bananes caramélisées au beurre brun incorporées dans le cake pour une profondeur de saveur exceptionnelle. Incontournable dans les cafés.",
+      "ing": [
+        "4 bananes très mûres",
+        "50 g de beurre salé",
+        "3 c. de sucre roux",
+        "3 œufs",
+        "120 g de sucre",
+        "80 ml d'huile",
+        "200 g de farine",
+        "1 sachet de levure chimique",
+        "1 c. de cannelle",
+        "Pincée de sel",
+        "Noix ou pépites de chocolat (optionnel)"
+      ],
+      "steps": "CARAMÉLISATION : Couper 2 bananes en rondelles. Faire dorer dans le beurre et le sucre roux 5 min jusqu'à caramélisé. Réserver.\nÉcraser les 2 autres bananes en purée.\nFouetter œufs et sucre. Ajouter l'huile et la purée de bananes.\nIncorporer farine, levure, cannelle, sel.\nAjouter délicatement les bananes caramélisées (pas toutes — en garder pour le dessus).\nVerser dans un moule à cake beurré. Poser les bananes caramélisées restantes sur le dessus.\nCuire 170°C pendant 55-60 min.\n\n💡 Test de cuisson : couteau inséré au centre ressort propre.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Banana_bread_with_nuts.jpg/640px-Banana_bread_with_nuts.jpg",
+      "url": "https://www.taste.com.au/recipes/caramelised-banana-bread/"
+    },
+    {
+      "id": "gb:001",
+      "t": "Fish and Chips",
+      "cat": "Grande-Bretagne, Plat, Poisson",
+      "min": 45,
+      "serv": 4,
+      "desc": "Le plat national britannique : filets de cabillaud enrobés d'une pâte à la bière croustillante, servis avec des chips épaisses et du vinaigre de malt.",
+      "ing": [
+        "4 filets de cabillaud (180 g chacun)",
+        "PÂTE : 200 g farine, 200 ml bière blonde, 1 c. levure chimique, sel",
+        "Huile de friture",
+        "800 g de pommes de terre à frites",
+        "Vinaigre de malt, sel",
+        "Mushy peas (petits pois écrasés) pour servir"
+      ],
+      "steps": "CHIPS : Couper les pommes de terre en tranches épaisses. Blanchir 5 min. Égoutter et sécher.\nFrire à 160°C pendant 5 min. Réserver.\n\nPÂTE : Mélanger farine, levure, sel et bière froide jusqu'à texture de crème. Ne pas trop mélanger.\nSécher le poisson. Tremper dans la pâte.\nFrire le poisson à 180°C pendant 6-8 min jusqu'à dorure croustillante.\n\nRefrire les chips à 180°C jusqu'à croustillant doré. Saler.\nServir avec vinaigre de malt, sel, et petits pois écrasés.\n\n💡 La bière froide dans la pâte crée des bulles = texture plus légère.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Durham-ncl_fish_chips.jpg/640px-Durham-ncl_fish_chips.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/fish-chips"
+    },
+    {
+      "id": "gb:002",
+      "t": "Full English Breakfast",
+      "cat": "Grande-Bretagne, Petit-déjeuner, Plat",
+      "min": 25,
+      "serv": 2,
+      "desc": "Le petit-déjeuner anglais complet : bacon, œufs, saucisses, haricots blancs, tomates grillées, champignons et toast. L'institution britannique du matin.",
+      "ing": [
+        "4 tranches de bacon back",
+        "2 saucisses de porc (pork sausages)",
+        "2 œufs",
+        "1 boîte de haricots blancs à la tomate (Heinz)",
+        "2 tomates coupées en deux",
+        "4 champignons",
+        "2 tranches de boudin noir (black pudding)",
+        "2 tranches de pain de mie grillé",
+        "Huile ou beurre"
+      ],
+      "steps": "Chauffer une grande poêle. Cuire les saucisses 8-10 min à feu moyen en les retournant.\nAjouter le bacon et cuire jusqu'à croustillant selon préférence.\nGriller les tomates et champignons à côté.\nChauffer les haricots dans une casserole.\nFaire les œufs : au plat, brouillés ou pochés selon préférence.\nToaster le pain.\nServir tout ensemble chaud sur une grande assiette.\n\n💡 L'ordre de cuisson est clé — commencer par ce qui prend le plus de temps (saucisses).",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Full_English_Breakfast.jpg/640px-Full_English_Breakfast.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/full-english-breakfast"
+    },
+    {
+      "id": "gb:003",
+      "t": "Beef Wellington",
+      "cat": "Grande-Bretagne, Plat, Bœuf",
+      "min": 90,
+      "serv": 6,
+      "desc": "L'élégant rôti de bœuf en croûte — filet de bœuf enrobé de duxelles de champignons, serrano et pâte feuilletée. Le plat de fête britannique par excellence.",
+      "ing": [
+        "900 g de filet de bœuf",
+        "300 g de champignons",
+        "6 tranches de jambon de Parme ou Serrano",
+        "2 c. de moutarde de Dijon",
+        "1 rouleau de pâte feuilletée",
+        "2 jaunes d'œuf",
+        "Sel, poivre, thym",
+        "Huile et beurre"
+      ],
+      "steps": "Saisir le filet assaisonné sur toutes les faces dans une poêle très chaude. Laisser refroidir.\nBAdigeonner de moutarde de Dijon. Réfrigérer 30 min.\n\nDUXELLES : Mixer champignons. Cuire dans beurre jusqu'à toute l'eau évaporée et mixture sèche.\n\nÉtaler le jambon sur film plastique. Étaler les duxelles. Poser le filet. Rouler serré. Réfrigérer 30 min.\n\nEnvelopper dans la pâte feuilletée. Sceller, dorer au jaune d'œuf. Strier.\nCuire 200°C : 25 min pour saignant (55°C cœur), 30 min pour à point.\nREPOSER 10 min avant de trancher.\n\n💡 Les duxelles parfaitement sèches = clé pour ne pas détremper la pâte.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Beef_wellington.jpg/640px-Beef_wellington.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/beef-wellington"
+    },
+    {
+      "id": "gb:004",
+      "t": "Shepherd's Pie",
+      "cat": "Grande-Bretagne, Plat",
+      "min": 75,
+      "serv": 6,
+      "desc": "La tourte sans pâte de l'hiver anglais : agneau haché mijoté aux légumes et couvert d'une couche de purée de pommes de terre gratinée. Cottage Pie = version bœuf.",
+      "ing": [
+        "600 g d'agneau haché (ou bœuf pour Cottage Pie)",
+        "2 oignons",
+        "2 carottes",
+        "2 branches de céleri",
+        "200 g de petits pois",
+        "400 g de tomates concassées",
+        "200 ml de bouillon d'agneau",
+        "1 c. de farine, thym, romarin",
+        "PURÉE : 1 kg de pommes de terre, beurre, lait, sel"
+      ],
+      "steps": "Faire revenir oignons, carottes et céleri. Ajouter l'agneau. Cuire jusqu'à coloration.\nIncorporer farine, tomates, bouillon, herbes. Mijoter 20 min. Ajouter les petits pois.\nVerser dans un grand plat à four.\nPURÉE : Écraser pommes de terre cuites avec beurre et lait. Assaisonner.\nÉtaler la purée sur la viande. Strier à la fourchette.\nCuire au four 190°C pendant 25-30 min jusqu'à dorure de la purée.\n\n💡 Shepherd's Pie (agneau) vs Cottage Pie (bœuf) — deux plats différents selon les Britanniques.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Shepard%27s_pie.jpg/640px-Shepard%27s_pie.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/shepherds-pie"
+    },
+    {
+      "id": "gb:005",
+      "t": "Bangers and Mash",
+      "cat": "Grande-Bretagne, Plat",
+      "min": 40,
+      "serv": 4,
+      "desc": "Le comfort food ultime des pubs britanniques : grosses saucisses de porc grillées sur purée crémeuse, nappées de sauce oignon brune. Simple, réconfortant, parfait.",
+      "ing": [
+        "8 saucisses de porc anglaises (pork bangers)",
+        "1 kg de pommes de terre",
+        "80 g de beurre",
+        "150 ml de lait chaud",
+        "SAUCE OIGNON : 3 oignons, 300 ml bouillon de bœuf, 1 c. Worcestershire, beurre"
+      ],
+      "steps": "PURÉE : Cuire les pommes de terre. Écraser avec beurre et lait chaud. Assaisonner généreusement.\n\nSAUCE OIGNON : Émincer les oignons. Cuire dans le beurre 30 min à feu doux jusqu'à caramélisation.\nAjouter le bouillon et Worcestershire. Laisser réduire jusqu'à sauce brillante.\n\nSaucisses : Griller à la poêle 10-12 min à feu moyen en les retournant régulièrement.\n\nServir les saucisses sur la purée, napper de sauce oignon.\n\n💡 Les vraies pork bangers anglaises contiennent plus de viande que les chipolatas françaises.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Bangers_and_mash.jpg/640px-Bangers_and_mash.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/bangers-mash"
+    },
+    {
+      "id": "gb:006",
+      "t": "Sunday Roast au Bœuf",
+      "cat": "Grande-Bretagne, Plat, Bœuf",
+      "min": 120,
+      "serv": 6,
+      "desc": "Le rituel dominical britannique sacré : rôti de bœuf juteux avec Yorkshire puddings aériens, légumes rôtis, sauce gravy et raifort. La tradition du dimanche.",
+      "ing": [
+        "1,5 kg de rosbif (côte de bœuf ou rumsteck)",
+        "YORKSHIRE PUDDING : 140 g farine, 4 œufs, 200 ml lait, sel",
+        "Légumes : carottes, panais, pommes de terre, haricots verts",
+        "Gravy : jus de cuisson, bouillon, farine, Worcestershire",
+        "Sauce raifort préparée"
+      ],
+      "steps": "Rôti : Sortir 1 h avant. Huiler et assaisonner. Saisir 5 min sur toutes les faces.\nCuire au four 220°C/20 min puis 180°C : 20 min/kg pour saignant.\nREPOSER 20 min recouvert d'alu.\n\nYORKSHIRE PUDDING : Mélanger farine, œufs, lait, sel. Reposer 30 min. Huile très chaude dans moules à muffins. Verser la pâte. Four à 220°C, 20 min sans ouvrir.\n\nLégumes : Rôtir dans la graisse de bœuf 45 min.\n\nGRAVY : Déglacer la plaque de cuisson. Incorporer farine, bouillon, Worcestershire. Réduire.\n\nServir ensemble avec sauce raifort.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Sunday_roast.jpg/640px-Sunday_roast.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/sunday-roast"
+    },
+    {
+      "id": "gb:007",
+      "t": "Sticky Toffee Pudding",
+      "cat": "Grande-Bretagne, Dessert",
+      "min": 60,
+      "serv": 8,
+      "desc": "Le dessert chaud emblématique des pubs anglais : cake aux dattes ultra-moelleux, nappé de sauce toffee chaude et servi avec glace vanille. Réconfort absolu.",
+      "ing": [
+        "CAKE : 200 g dattes, 200 ml eau bouillante, 1 c. bicarbonate, 80 g beurre, 150 g sucre roux, 2 œufs, 200 g farine, 1 c. levure, vanille",
+        "SAUCE TOFFEE : 200 g sucre roux, 200 ml crème, 100 g beurre, vanille"
+      ],
+      "steps": "Couvrir les dattes d'eau bouillante + bicarbonate. Laisser ramollir 15 min. Mixer.\nCreamer beurre et sucre. Ajouter les œufs. Incorporer farine, levure, purée de dattes et vanille.\nVerser dans un moule 20×20 cm beurré. Cuire 180°C, 35 min.\n\nSAUCE TOFFEE : Chauffer beurre et sucre jusqu'à caramel. Ajouter crème et vanille. Mijoter 5 min.\n\nPercer des trous dans le cake chaud. Verser la moitié de la sauce. Laisser absorber.\nServir des tranches chaudes avec la sauce toffee restante et une boule de glace vanille.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Sticky_toffee_pudding.jpg/640px-Sticky_toffee_pudding.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/sticky-toffee-pudding"
+    },
+    {
+      "id": "gb:008",
+      "t": "Scones Cream Tea",
+      "cat": "Grande-Bretagne, Goûter, Boulangerie",
+      "min": 35,
+      "serv": 12,
+      "desc": "Les scones de l'afternoon tea britannique : tendres et beurrés, avec la crème clotted et la confiture de fraises. Le débat cornouaillais sur l'ordre (crème ou confiture en premier ?) reste ouvert.",
+      "ing": [
+        "450 g de farine",
+        "2 c. de levure chimique",
+        "85 g de beurre froid en dés",
+        "80 g de sucre",
+        "2 œufs",
+        "150 ml de lait ribot (buttermilk)",
+        "Pincée de sel",
+        "Crème clotted (ou crème fraîche épaisse) et confiture de fraises pour servir"
+      ],
+      "steps": "Préchauffer le four à 220°C. Frotter le beurre dans la farine jusqu'à sableux.\nAjouter sucre et sel. Incorporer les œufs et le lait ribot progressivement.\nPétrir brièvement — la pâte doit être collante mais pas trop. Ne pas trop travailler.\nÉtaler à 2,5 cm d'épaisseur. Découper avec un emporte-pièce rond de 5 cm.\nDorer au lait ou à l'œuf. Cuire 12-15 min jusqu'à dorure.\n\nServir tièdes avec crème et confiture.\n\n💡 Devon: crème d'abord, confiture dessus. Cornwall: confiture d'abord. Le grand débat !",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Scones.jpg/640px-Scones.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/scones"
+    },
+    {
+      "id": "gb:009",
+      "t": "Toad in the Hole",
+      "cat": "Grande-Bretagne, Plat",
+      "min": 60,
+      "serv": 4,
+      "desc": "Les saucisses dans la pâte à Yorkshire pudding — un nom étrange pour un plat réconfortant. Saucisses croustillantes dans une pâte soufflée et aérienne, sauce oignon.",
+      "ing": [
+        "8 saucisses de porc",
+        "PÂTE YORKSHIRE : 140 g farine, 4 œufs, 200 ml lait, sel",
+        "4 c. d'huile végétale",
+        "SAUCE OIGNON (voir Bangers & Mash)"
+      ],
+      "steps": "Préchauffer le four à 220°C.\nMélanger farine, œufs, lait et sel. Laisser reposer 30 min.\nVerser l'huile dans un grand plat à four. Chauffer 5 min au four jusqu'à fumer.\nDisposer les saucisses dans l'huile chaude. Remettre 10 min au four.\nVerser rapidement la pâte froide sur les saucisses chaudes.\nCuire 25-30 min SANS OUVRIR le four — la pâte doit monter et dorer.\nServir immédiatement avec sauce oignon et légumes verts.\n\n⚠️ L'huile doit être très chaude avant de verser la pâte — sinon la pâte ne monte pas.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Toad_in_the_hole.jpg/640px-Toad_in_the_hole.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/toad-hole"
+    },
+    {
+      "id": "gb:010",
+      "t": "Welsh Rarebit",
+      "cat": "Grande-Bretagne, Entrée, Plat",
+      "min": 20,
+      "serv": 4,
+      "desc": "Le 'fondue britannique' sur toast : sauce au cheddar fondu, bière brune, moutarde et Worcestershire, versée sur des toasts et gratinée. Le plat gallois de brasserie.",
+      "ing": [
+        "300 g de cheddar mature râpé",
+        "100 ml de bière brune ou ale",
+        "1 c. de moutarde de Dijon",
+        "1 c. de sauce Worcestershire",
+        "1 jaune d'œuf",
+        "1 c. de farine",
+        "Poivre de Cayenne",
+        "4 tranches de pain de campagne"
+      ],
+      "steps": "Dans une casserole, faire fondre le fromage avec la bière à feu doux en remuant.\nAjouter moutarde, Worcestershire, cayenne et farine. Mélanger jusqu'à sauce lisse.\nRetirer du feu. Incorporer le jaune d'œuf. Laisser refroidir légèrement.\nToaster le pain.\nÉtaler généreusement la sauce fromage sur les toasts.\nGratiner sous le grill jusqu'à bouillonnement et légère coloration.\nServir immédiatement avec une salade.\n\n💡 Le Buck Rarebit = version avec un œuf poché sur le dessus.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Welsh_rarebit.jpg/640px-Welsh_rarebit.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/welsh-rarebit"
+    },
+    {
+      "id": "gb:011",
+      "t": "Eton Mess",
+      "cat": "Grande-Bretagne, Dessert",
+      "min": 15,
+      "serv": 6,
+      "desc": "Le dessert estival du collège d'Eton : fraises fraîches, chantilly et morceaux de meringue grossièrement mélangés. La \"catastrophe\" délicieuse de la tradition anglaise.",
+      "ing": [
+        "500 g de fraises fraîches",
+        "300 ml de crème fouettée",
+        "4 meringues (du commerce ou maison)",
+        "2 c. de sucre glace",
+        "Quelques feuilles de menthe",
+        "Coulis de fraises optionnel"
+      ],
+      "steps": "Écraser grossièrement 200 g de fraises avec le sucre glace. Couper le reste en quartiers.\nFouetter la crème jusqu'à pics fermes.\nCasser les meringues en gros morceaux irréguliers.\nMélanger grossièrement fraises, crème fouettée et morceaux de meringue — ne pas trop incorporer, des traînées de coulis et morceaux sont les bienvenues.\nServir immédiatement dans des coupes ou verres transparents.\n\n💡 L'Eton Mess se prépare à la dernière seconde — la meringue ramollit très vite.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Eton_Mess.jpg/640px-Eton_Mess.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/eton-mess"
+    },
+    {
+      "id": "gb:012",
+      "t": "Haggis Écossais",
+      "cat": "Grande-Bretagne, Plat",
+      "min": 180,
+      "serv": 6,
+      "desc": "Le plat national d'Écosse, chanté par Burns : abats de mouton (cœur, foie, poumon) hachés avec flocons d'avoine, oignon et épices, cuits dans une panse de brebis.",
+      "ing": [
+        "Haggis préparé (disponible en conserve ou chez les bouchers)",
+        "1 kg de rutabaga (neeps)",
+        "1 kg de pommes de terre",
+        "Beurre, sel, poivre",
+        "Whisky d'Écosse pour flamber",
+        "Pour haggis maison : abats d'agneau, flocons d'avoine, oignon, saindoux, épices"
+      ],
+      "steps": "Pour le haggis en conserve : Cuire à la vapeur ou au four 45 min selon les instructions.\nPour servir traditionnel (Burns Night) : Neeps (rutabaga écrasé), Tatties (purée de pommes de terre), Haggis.\n\nFlamber au whisky à table pour l'effet dramatique.\nRéciter le poème de Burns \"To a Haggis\" avant de servir — tradition absolue.\n\n💡 Le 25 janvier (Burns Night) est la grande occasion nationale de manger du haggis. Les supermarchés écossais le vendent toute l'année.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Haggis_with_turnip_and_mashed_potato.jpg/640px-Haggis_with_turnip_and_mashed_potato.jpg",
+      "url": "https://www.bbcgoodfood.com/recipes/haggis"
+    },
+    {
+      "id": "allemagne:001",
+      "t": "Sauerbraten",
+      "cat": "Allemagne, Plat, Bœuf",
+      "min": 240,
+      "serv": 6,
+      "desc": "Le rôti allemand mariné au vinaigre et aux épices pendant 3 jours : bœuf fondant dans une sauce aigre-douce aux raisins secs et aux spéculoos. La fierté de Rhénanie.",
+      "ing": [
+        "1,2 kg de bœuf (paleron ou gîte)",
+        "MARINADE : 500 ml de vinaigre de vin rouge, 250 ml d'eau, 1 oignon, 2 carottes, 2 laurier, 10 baies de genièvre, poivre, clous de girofle, thym",
+        "SAUCE : 2 c. de sucre, 100 g de raisins secs, 5-6 spéculoos émiettés",
+        "Huile, sel"
+      ],
+      "steps": "MARINADE (3 jours avant) : Porter la marinade à ébullition. Laisser refroidir. Immerger le bœuf. Réfrigérer 2-3 jours en retournant chaque jour.\n\nRetirer le bœuf. Sécher. Réserver la marinade.\nSaisir le bœuf sur toutes les faces dans l'huile. Ajouter les légumes de la marinade. Verser la marinade. Mijoter à couvert 2-2h30.\nRetirer la viande. Filtrer la sauce. Ajouter sucre, raisins secs et spéculoos émiettés. Réduire 15 min.\n\nServir tranché avec la sauce, Knödel (quenelles) ou pommes de terre.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Sauerbraten.jpg/640px-Sauerbraten.jpg",
+      "url": "https://www.chefkoch.de/rezepte/sauerbraten/"
+    },
+    {
+      "id": "allemagne:002",
+      "t": "Wiener Schnitzel",
+      "cat": "Allemagne, Plat",
+      "min": 30,
+      "serv": 4,
+      "desc": "L'escalope panée viennoise authentique : veau finement battu, panure légère (sans œuf dans la panure !), frite dans le beurre clarifié jusqu'à dorure ondulée et croustillante.",
+      "ing": [
+        "4 escalopes de veau (150 g chacune)",
+        "Farine",
+        "2 œufs battus",
+        "150 g de chapelure fine",
+        "100 g de beurre clarifié (ou huile)",
+        "1 citron",
+        "Sel",
+        "Persil frit (optionnel)",
+        "Câpres et anchois pour garnir (optionnel)"
+      ],
+      "steps": "Aplatir les escalopes à 4 mm d'épaisseur entre deux feuilles de film. Saler.\nPaner : fariner, tremper dans l'œuf, enrober de chapelure. Ne pas appuyer.\nChauffer abondamment le beurre clarifié dans une large poêle — la viande doit \"nager\".\nCuire 2-3 min chaque face en arrosant avec la graisse chaude. La panure doit être dorée ondulée.\nÉgoutter sur papier. Servir immédiatement avec un quartier de citron.\n\n💡 Ne JAMAIS appuyer sur la panure — l'air entre la viande et la panure crée les ondulations caractéristiques.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Wiener_Schnitzel_-_Wien.jpg/640px-Wiener_Schnitzel_-_Wien.jpg",
+      "url": "https://www.chefkoch.de/rezepte/wiener-schnitzel/"
+    },
+    {
+      "id": "allemagne:003",
+      "t": "Schweinshaxe Bavarois (Jarret de Porc)",
+      "cat": "Allemagne, Plat",
+      "min": 180,
+      "serv": 4,
+      "desc": "Le jarret de porc bavarois rôti : peau croustillante à souhait, chair confite tombant de l'os, servi avec choucroute et bretzel. Le plat de l'Oktoberfest.",
+      "ing": [
+        "2 jarrets de porc (Schweinshaxe, 1 kg chacun)",
+        "1 L de bière blonde",
+        "2 oignons",
+        "4 gousses d'ail",
+        "1 c. de carvi (cumin)",
+        "Sel, poivre",
+        "Choucroute et moutarde bavaroise pour servir"
+      ],
+      "steps": "Entailler la peau en losanges. Frotter de sel, poivre et carvi.\nPoser dans un plat à four. Ajouter oignons, ail et la moitié de la bière.\nCuire 180°C pendant 2h30 en arrosant régulièrement avec la bière.\nÉlever la température à 220°C les 20 dernières minutes pour faire croustiller la peau.\nFaire plusieurs entailles profondes dans la peau si elle ne croustille pas assez — arroser avec la graisse.\nServir avec choucroute chaude et moutarde bavaroise.\n\n💡 Le secret de la peau croustillante : sécher la peau au frigo 24h à découvert avant cuisson.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Schweinshaxe.jpg/640px-Schweinshaxe.jpg",
+      "url": "https://www.chefkoch.de/rezepte/schweinshaxe/"
+    },
+    {
+      "id": "allemagne:004",
+      "t": "Bratwurst et Choucroute",
+      "cat": "Allemagne, Plat",
+      "min": 60,
+      "serv": 4,
+      "desc": "La combinaison classique de l'Allemagne du Sud : bratwurst grillées à la perfection, choucroute aux baies de genièvre et bière, moutarde forte. Le repas de brasserie.",
+      "ing": [
+        "8 bratwürste (saucisses de Nuremberg ou Thuringe)",
+        "800 g de choucroute crue",
+        "200 ml de bière blanche ou riesling",
+        "1 oignon",
+        "1 c. de baies de genièvre",
+        "2 feuilles de laurier",
+        "100 g de lard fumé",
+        "Moutarde de Bavière forte"
+      ],
+      "steps": "CHOUCROUTE : Faire revenir le lard et l'oignon. Ajouter la choucroute rincée.\nVerser la bière. Ajouter genièvre et laurier. Mijoter à couvert 45 min à feu doux.\nGRILLER les bratwürste sur un grill ou dans une poêle sèche 10-12 min en les retournant.\nPas de fourchette ! Seulement des pinces — ne jamais piquer la saucisse.\nServir sur la choucroute avec la moutarde de Bavière.\n\n💡 La bratwurst de Nuremberg : mini-saucisses 8 cm. Celle de Thuringe : longue et épicée à la marjolaine.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Bratwurst_with_sauerkraut.jpg/640px-Bratwurst_with_sauerkraut.jpg",
+      "url": "https://www.chefkoch.de/rezepte/bratwurst-sauerkraut/"
+    },
+    {
+      "id": "allemagne:005",
+      "t": "Rouladen (Roulés de Bœuf Farcis)",
+      "cat": "Allemagne, Plat, Bœuf",
+      "min": 120,
+      "serv": 4,
+      "desc": "Les rouleaux de bœuf de la cuisine bourgeoise allemande : fines tranches de bœuf farcies de lard, cornichons et moutarde, braisées lentement dans une sauce brune. Recette des grands-mères.",
+      "ing": [
+        "4 tranches de bœuf à braiser (paleron aplati, 200 g chacune)",
+        "4 c. de moutarde forte",
+        "8 tranches de lard fumé",
+        "4 cornichons allongés",
+        "2 oignons",
+        "SAUCE : 400 ml de bouillon de bœuf, 200 ml de vin rouge, 2 c. concentré de tomate, farine"
+      ],
+      "steps": "Étaler chaque tranche. Badigeonner de moutarde. Poser 2 tranches de lard, 1 cornichon et 1/4 d'oignon.\nRouler serré. Ficeler ou fixer avec des cure-dents.\nSaisir sur toutes les faces dans l'huile chaude jusqu'à bien colorés.\nAjouter oignons restants hachés. Déglacer au vin rouge. Ajouter bouillon et concentré.\nCouvrir. Mijoter 1h30 à feu très doux.\nRetirer les roulades. Lier la sauce avec un peu de farine délayée. Rectifier.\n\nServir avec Knödel, Spätzle ou purée.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Rinderrouladen_mit_Rotkohl_und_Kl%C3%B6%C3%9Fe.jpg/640px-Rinderrouladen_mit_Rotkohl_und_Kl%C3%B6%C3%9Fe.jpg",
+      "url": "https://www.chefkoch.de/rezepte/rouladen/"
+    },
+    {
+      "id": "allemagne:006",
+      "t": "Kartoffelsalat (Salade de Pommes de Terre)",
+      "cat": "Allemagne, Accompagnement, Salade",
+      "min": 40,
+      "serv": 6,
+      "desc": "La salade de pommes de terre allemande — deux écoles : le Sud (Bavière) avec bouillon de bœuf et vinaigre ; le Nord avec mayo et cornichons. Indispensable à chaque barbecue.",
+      "ing": [
+        "1 kg de pommes de terre fermes",
+        "VINAIGRETTE BAVAROISE : 200 ml bouillon de bœuf chaud, 4 c. vinaigre de cidre, 1 c. moutarde, 4 c. huile neutre, 1 oignon haché fin",
+        "Ciboulette, sel, poivre",
+        "(NORD : mayo, concombres, œufs durs, cornichons)"
+      ],
+      "steps": "Cuire les pommes de terre non épluchées. Laisser tiédir. Éplucher et trancher finement.\n\nVERSION BAVAROISE :\nMélanger le bouillon chaud avec le vinaigre, la moutarde et l'huile.\nVerser IMMÉDIATEMENT sur les pommes de terre encore chaudes. Ajouter l'oignon.\nMélanger délicatement. Assaisonner. Laisser reposer 1 h.\nParsemer de ciboulette juste avant de servir.\n\n💡 Le bouillon chaud doit être versé sur des pommes de terre chaudes — c'est la clé de la texture.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Potato_salad.jpg/640px-Potato_salad.jpg",
+      "url": "https://www.chefkoch.de/rezepte/kartoffelsalat/"
+    },
+    {
+      "id": "allemagne:007",
+      "t": "Spätzle (Pâtes Alsaciennes)",
+      "cat": "Allemagne, Accompagnement, Pâtes",
+      "min": 30,
+      "serv": 4,
+      "desc": "Les petites pâtes à l'œuf du Bade-Wurtemberg et d'Alsace : une pâte molle passée à travers une râpe dans l'eau bouillante, dorées au beurre. Accompagnement de tout plat en sauce.",
+      "ing": [
+        "400 g de farine",
+        "4 œufs",
+        "150 ml d'eau froide",
+        "1 c. de sel",
+        "Pincée de noix de muscade",
+        "50 g de beurre",
+        "Gruyère râpé (pour Käsespätzle)"
+      ],
+      "steps": "Mélanger farine, sel et muscade. Ajouter les œufs et l'eau. Battre jusqu'à pâte lisse et élastique qui fait des fils.\nPorter une grande casserole d'eau salée à ébullition.\nPasser la pâte à travers une râpe à spätzle (ou passoire à grands trous) directement dans l'eau.\nLes spätzle remontent à la surface en 2-3 min. Retirer à l'écumoire.\n\nKÄSSPÄTZLE : Faire revenir dans le beurre. Incorporer le gruyère en couches. Garnir d'oignons frits.\n\n💡 La pâte doit être suffisamment liquide pour couler à travers les trous — si trop épaisse, ajouter de l'eau.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/K%C3%A4sesp%C3%A4tzle.jpg/640px-K%C3%A4sesp%C3%A4tzle.jpg",
+      "url": "https://www.chefkoch.de/rezepte/spaetzle/"
+    },
+    {
+      "id": "allemagne:008",
+      "t": "Flammkuchen (Tarte Flambée)",
+      "cat": "Allemagne, Entrée, Plat",
+      "min": 30,
+      "serv": 4,
+      "desc": "La tarte flambée d'Alsace-Bade : pâte ultra-fine et croustillante, crème fraîche, lardons et oignons crus. Cuite au four très chaud en 10 minutes, à partager.",
+      "ing": [
+        "PÂTE : 250 g farine, 125 ml eau, 4 c. huile d'olive, 1 c. sel",
+        "GARNITURE : 200 ml crème fraîche épaisse, 200 g lardons, 2 oignons blancs émincés",
+        "Sel, poivre, noix de muscade"
+      ],
+      "steps": "PÂTE : Mélanger farine, sel, eau et huile. Pétrir 5 min jusqu'à pâte lisse et souple. Reposer 30 min.\nPréchauffer le four à 240°C (max). Pierre à pizza ou plaque retournée.\nÉtaler la pâte très finement (2 mm) en rectangle allongé.\nAssaisonner la crème fraîche avec sel, poivre, muscade. Étaler finement sur la pâte.\nDisposer les lardons et les oignons émincés.\nCuire 10-12 min jusqu'à bords croustillants et légèrement noircis.\nServir immédiatement — coupée en rectangles.\n\n💡 Plus la pâte est fine, plus c'est bon. Elle doit être presque translucide.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Flammekueche.jpg/640px-Flammekueche.jpg",
+      "url": "https://www.chefkoch.de/rezepte/flammkuchen/"
+    },
+    {
+      "id": "allemagne:009",
+      "t": "Currywurst Berlinois",
+      "cat": "Allemagne, Plat, Streetfood",
+      "min": 20,
+      "serv": 4,
+      "desc": "Le street food iconique de Berlin depuis 1949 : saucisse de porc grillée tranchée, nappée d'une sauce tomate-curry et saupoudrée de poudre de curry. Incontournable avec des frites.",
+      "ing": [
+        "4 saucisses de veau ou de porc sans boyau (Brühwurst)",
+        "SAUCE CURRY : 400 g tomates concassées, 1 oignon, 2 c. curry madras, 1 c. paprika, 1 c. sucre, sel",
+        "Poudre de curry pour saupoudrer",
+        "Frites pour servir"
+      ],
+      "steps": "SAUCE CURRY : Faire revenir l'oignon. Ajouter tomates, curry, paprika, sucre, sel. Mijoter 20 min. Mixer si souhaité.\n\nGriller les saucisses entières dans une poêle ou au grill 8-10 min.\nCouper en tranches de 1,5 cm.\nNapper de sauce curry chaude.\nSaupoudrer généreusement de poudre de curry.\nServir avec un cure-dent et des frites ou du pain.\n\n💡 La vraie Currywurst utilise une Brühwurst (saucisse de Francfort) sans boyau naturel.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Currywurst_2.jpg/640px-Currywurst_2.jpg",
+      "url": "https://www.chefkoch.de/rezepte/currywurst/"
+    },
+    {
+      "id": "allemagne:010",
+      "t": "Gulaschsuppe",
+      "cat": "Allemagne, Soupe, Plat",
+      "min": 90,
+      "serv": 6,
+      "desc": "La soupe de goulash allemande : bœuf mijoté avec paprika, oignons et poivrons dans un bouillon épicé. Entre le goulash hongrois et la soupe consistante. Réconfort d'hiver.",
+      "ing": [
+        "600 g de bœuf à braiser en dés",
+        "3 oignons",
+        "2 poivrons rouges",
+        "3 c. de paprika doux",
+        "1 c. paprika fumé",
+        "1 c. cumin",
+        "2 gousses d'ail",
+        "400 g tomates concassées",
+        "1 L de bouillon de bœuf",
+        "Huile, sel, poivre"
+      ],
+      "steps": "Faire revenir les oignons jusqu'à caramélisation. Ajouter l'ail.\nMonter le feu. Ajouter le bœuf. Saisir rapidement.\nHors du feu : ajouter le paprika (ne pas le brûler). Mélanger.\nRemettre sur le feu. Ajouter tomates, bouillon, cumin, sel.\nMijoter à couvert 1h30 jusqu'à viande très tendre.\nAjouter les poivrons les 20 dernières minutes.\nRectifier l'assaisonnement. Servir avec du pain ou des Knödel.\n\n💡 Paprika ajouté hors du feu = saveur plus douce et parfumée sans amertume.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Gulaschsuppe.jpg/640px-Gulaschsuppe.jpg",
+      "url": "https://www.chefkoch.de/rezepte/gulaschsuppe/"
+    },
+    {
+      "id": "allemagne:011",
+      "t": "Schwarzwälder Kirschtorte (Forêt Noire)",
+      "cat": "Allemagne, Dessert, Gâteau",
+      "min": 120,
+      "serv": 10,
+      "desc": "Le gâteau emblématique de la Forêt Noire : génoise au cacao, crème chantilly, griottes au kirsch et copeaux de chocolat. La star des pâtisseries allemandes depuis 1915.",
+      "ing": [
+        "GÉNOISE CACAO : 6 œufs, 180 g sucre, 120 g farine, 60 g cacao",
+        "GARNITURE : 400 ml crème fouettée, 400 g griottes au sirop, 4 cl kirsch",
+        "DÉCOR : copeaux de chocolat noir, griottes fraîches",
+        "100 ml de sirop des griottes + 3 cl kirsch pour imbiber"
+      ],
+      "steps": "GÉNOISE : Fouetter œufs et sucre 10 min. Incorporer farine et cacao tamisés. Cuire dans un moule 20 cm à 175°C pendant 30 min. Refroidir, couper en 3 disques.\n\nIMBIBER chaque disque de sirop-kirsch.\nMONTAGE : Fouetter la crème. Garnir le premier disque de crème et griottes. Couvrir du deuxième disque. Répéter.\nCouvrir extérieur de chantilly. Parsemer de copeaux de chocolat.\nDécorer de griottes et rosettes de chantilly.\nRéfrigérer 2 h.\n\n💡 Le kirsch est l'ingrédient signature — sans alcool, c'est un gâteau aux cerises, pas une Forêt Noire.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Black_Forest_gateau.jpg/640px-Black_Forest_gateau.jpg",
+      "url": "https://www.chefkoch.de/rezepte/schwarzwaelder-kirschtorte/"
+    },
+    {
+      "id": "allemagne:012",
+      "t": "Apfelstrudel (Strudel aux Pommes)",
+      "cat": "Allemagne, Dessert",
+      "min": 90,
+      "serv": 8,
+      "desc": "La pâtisserie austro-allemande emblématique : pâte étirée à la main quasi-transparente, roulée autour de pommes, raisins secs, cannelle et chapelure beurrée. Servi tiède avec sauce vanille.",
+      "ing": [
+        "PÂTE STRUDEL : 250 g farine, 1 œuf, 125 ml eau tiède, 2 c. huile, 1 c. vinaigre, pincée sel",
+        "GARNITURE : 1 kg de pommes, 100 g raisins secs, 80 g sucre, 1 c. cannelle, 60 g chapelure, 60 g beurre fondu",
+        "Sucre glace pour servir",
+        "Sauce vanille ou crème"
+      ],
+      "steps": "PÂTE : Pétrir tous les ingrédients 10 min jusqu'à très lisse. Envelopper. Reposer 1 h.\n\nGARNITURE : Éplucher et émincer les pommes. Mélanger avec raisins secs, sucre et cannelle.\nFaire revenir la chapelure dans le beurre jusqu'à dorée.\n\nÉTIRER LA PÂTE : Sur une nappe farinée, étirer à la main jusqu'à quasi-transparente (40×60 cm).\nBadigeonner de beurre fondu. Étaler la chapelure. Déposer les pommes en bande.\nRouler en s'aidant de la nappe. Mettre sur plaque. Badigeonner de beurre.\nCuire 190°C pendant 35-40 min.\nSaupoudrer de sucre glace. Servir avec sauce vanille.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Apfelstrudel.jpg/640px-Apfelstrudel.jpg",
+      "url": "https://www.chefkoch.de/rezepte/apfelstrudel/"
+    },
+    {
+      "id": "allemagne:013",
+      "t": "Bienenstich (Gâteau Abeille)",
+      "cat": "Allemagne, Dessert, Gâteau",
+      "min": 90,
+      "serv": 10,
+      "desc": "Le mystérieux \"dard d'abeille\" : une brioche moelleuse couverte d'un caramel aux amandes croustillant, fourrée de crème pâtissière à la vanille. Un classique de pâtisserie allemande.",
+      "ing": [
+        "BRIOCHE : 400 g farine, 7 g levure sèche, 200 ml lait tiède, 80 g beurre, 60 g sucre, 2 œufs, sel",
+        "CARAMEL AMANDES : 100 g beurre, 100 g sucre, 100 g amandes effilées, 3 c. crème",
+        "CRÈME VANILLE : 500 ml lait, 4 jaunes, 80 g sucre, 50 g fécule, vanille, 200 ml crème fouettée"
+      ],
+      "steps": "BRIOCHE : Préparer la pâte levée. Lever 1 h. Étaler dans un moule carré 30×20.\nCARAMEL AMANDES : Cuire beurre, sucre et crème jusqu'à caramel doré. Ajouter les amandes. Étaler sur la brioche.\nCuire 180°C pendant 25 min.\nLaisser refroidir. Couper en deux horizontalement.\n\nCRÈME : Pâtissière classique. Refroidir. Incorporer la crème fouettée.\n\nFourrer la base de crème. Replacer le dessus caramélisé.\nRéfrigérer 2 h.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Bienenstich.jpg/640px-Bienenstich.jpg",
+      "url": "https://www.chefkoch.de/rezepte/bienenstich/"
+    },
+    {
+      "id": "allemagne:014",
+      "t": "Linsensuppe (Soupe aux Lentilles)",
+      "cat": "Allemagne, Soupe",
+      "min": 60,
+      "serv": 6,
+      "desc": "La soupe de lentilles réconfortante de la cuisine bourgeoise allemande : lentilles vertes avec carottes, céleri, saucisse de Francfort et vinaigre en fin de cuisson.",
+      "ing": [
+        "300 g de lentilles vertes",
+        "2 carottes",
+        "2 branches de céleri",
+        "1 oignon",
+        "2 gousses d'ail",
+        "200 g de saucisses de Francfort tranchées",
+        "1 L de bouillon",
+        "1 c. de vinaigre",
+        "1 c. de moutarde",
+        "Persil, sel, poivre",
+        "1 feuille de laurier"
+      ],
+      "steps": "Faire revenir oignon, carotte et céleri dans l'huile.\nAjouter l'ail, les lentilles rincées, le laurier. Couvrir de bouillon.\nMijoter 35-40 min jusqu'à lentilles tendres.\nÉcraser légèrement quelques lentilles pour épaissir la soupe.\nAjouter les saucisses de Francfort tranchées. Chauffer 5 min.\nAssaisonner avec vinaigre et moutarde (touche typiquement allemande).\nParsemer de persil haché.\n\n💡 Le vinaigre ajouté en fin de cuisson est la signature de la Linsensuppe allemande — ne pas oublier.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Linsensuppe.jpg/640px-Linsensuppe.jpg",
+      "url": "https://www.chefkoch.de/rezepte/linsensuppe/"
+    },
+    {
+      "id": "allemagne:015",
+      "t": "Maultaschen (Raviolis Souabes)",
+      "cat": "Allemagne, Plat, Pâtes",
+      "min": 90,
+      "serv": 4,
+      "desc": "Les grands raviolis du Bade-Wurtemberg : pâte aux œufs épaisse fourrée d'épinards, viande et herbes, pochés dans le bouillon. Inventés pour cacher la viande pendant le Carême.",
+      "ing": [
+        "PÂTE : 400 g farine, 4 œufs, 1 c. sel",
+        "FARCE : 300 g épinards, 200 g porc haché, 100 g de lard fumé haché, 1 oignon, persil, sel, poivre, noix de muscade",
+        "Bouillon de bœuf pour pocher",
+        "Oignons frits pour servir"
+      ],
+      "steps": "PÂTE : Pétrir farine, œufs et sel 10 min. Reposer 30 min emballé.\nFARCE : Cuire les épinards. Presser pour retirer l'eau. Hacher grossièrement.\nMélanger avec le porc haché, le lard, l'oignon haché et les herbes. Assaisonner.\nÉtaler la pâte finement (1-2 mm). Couper en rectangles 10×15 cm.\nDéposer une cuillère de farce. Rabattre et sceller.\nPocher dans le bouillon frémissant 15 min.\nServir dans le bouillon ou poêlés avec des oignons frits et une salade verte.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Maultasche.jpg/640px-Maultasche.jpg",
+      "url": "https://www.chefkoch.de/rezepte/maultaschen/"
+    },
+    {
+      "id": "allemagne:016",
+      "t": "Brezeln (Bretzels Bavarois)",
+      "cat": "Allemagne, Boulangerie",
+      "min": 120,
+      "serv": 12,
+      "desc": "Les bretzels dorés et brillants de Munich : pâte levée plongée dans un bain de soude (laugen) qui crée la croûte brune caractéristique. Gros sel, beurre frais, c'est tout.",
+      "ing": [
+        "PÂTE : 500 g farine, 7 g levure sèche, 250 ml eau tiède, 30 g beurre, 1 c. sucre, 1 c. sel",
+        "BAIN DE SOUDE : 1 L eau + 40 g de bicarbonate de soude (ou 20 g de soude alimentaire)",
+        "Gros sel pour saupoudrer",
+        "Beurre pour servir"
+      ],
+      "steps": "PÂTE : Dissoudre la levure dans l'eau tiède. Pétrir tous les ingrédients 8 min. Lever 1 h.\nDiviser en 12 morceaux. Rouler chaque morceau en long boudin fin (60 cm), plus épais au centre.\nFormer les bretzels : croiser les deux bouts, vriller, rabattre sur le cercle.\nRéfrigérer 30 min (non couvert).\n\nBAIN DE SOUDE : Porter à ébullition. Plonger chaque bretzel 30 secondes. Égoutter.\nDisposer sur plaques. Saupoudrer de gros sel.\nCuire 230°C pendant 12-14 min jusqu'à brun profond et brillant.\n\n⚠️ La soude alimentaire donne la vraie couleur brune — le bicarbonate seul donne une couleur plus claire.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Brezel.JPG/640px-Brezel.JPG",
+      "url": "https://www.chefkoch.de/rezepte/brezeln/"
+    },
+    {
+      "id": "bresil:001",
+      "t": "Feijoada Completa",
+      "cat": "Brésil, Plat",
+      "min": 240,
+      "serv": 8,
+      "desc": "Le plat national brésilien : ragoût de haricots noirs avec viandes fumées et salées (saucisse, lard, côtes, oreille, pied de porc), servi avec riz, chou sauté et orange. Le festin du samedi.",
+      "ing": [
+        "500 g de haricots noirs (trempés une nuit)",
+        "200 g de lard fumé",
+        "200 g de saucisses calabraises",
+        "200 g de côtes de porc salées",
+        "200 g de jarret de porc salé",
+        "4 gousses d'ail, 2 oignons",
+        "Laurier, cumin",
+        "RIZ blanc, chou vert sauté à l'ail (couve), farinha de mandioca (farine de manioc), orange"
+      ],
+      "steps": "Dessaler les viandes salées : tremper 12 h en changeant l'eau 2-3 fois.\nFaire revenir ail et oignons. Ajouter toutes les viandes sauf la saucisse. Couvrir de 2 L d'eau.\nMijoter 1h30 à couvert.\nAjouter les haricots égouttés et la saucisse. Continuer 1h30.\nRetirer 2-3 louches de haricots, les écraser, remettre dans le pot pour épaissir.\nCHOU : Sauter le chou effilé avec ail dans l'huile.\nServir la feijoada avec riz, chou, farinha, oranges et cachaça.\n\n💡 Se prépare la veille — encore meilleure réchauffée.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Feijoada_2.jpg/640px-Feijoada_2.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/feijoada"
+    },
+    {
+      "id": "bresil:002",
+      "t": "Churrasco Brésilien",
+      "cat": "Brésil, Plat, Bœuf",
+      "min": 60,
+      "serv": 6,
+      "desc": "Le barbecue brésilien rituel : grosses pièces de viande marinées dans de l'ail et du sel, grillées lentement sur braises. Picanha, fraldinha, costela — la cérémonie de la rodízio.",
+      "ing": [
+        "1,5 kg de picanha (pièce de bœuf brésilienne avec sa couche de gras)",
+        "Gros sel (sel grosso)",
+        "3 gousses d'ail",
+        "(Optionnel : autres pièces : fraldinha, costela, maminha)",
+        "Farofa : 200 g de farine de manioc, beurre, oignon, sel"
+      ],
+      "steps": "Inciser la couche de gras de la picanha en losanges (sans couper la viande).\nMasser de gros sel et ail émincé. Laisser mariner 30 min à température ambiante.\nPlier la picanha en U (gras à l'extérieur) et enfiler sur la brochette.\nCuire sur braises moyennes 20-25 min en tournant régulièrement.\nLe gras doit fondre et caraméliser — c'est le secret de la saveur brésilienne.\nCouper en tranches fines directement sur la brochette à table.\n\nFAROFA : Frire l'oignon dans le beurre. Ajouter la farine de manioc. Griller en remuant 5 min.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Churrasco_brasileiro.jpg/640px-Churrasco_brasileiro.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/churrasco"
+    },
+    {
+      "id": "bresil:003",
+      "t": "Pão de Queijo",
+      "cat": "Brésil, Boulangerie, Apéritif",
+      "min": 40,
+      "serv": 25,
+      "desc": "Les petits choux brésiliens au fromage sans gluten : tapioca, œufs et fromage parmesan forment des boules aériennes à l'extérieur croustillant et au cœur filant. Addiction garantie.",
+      "ing": [
+        "250 g de tapioca (fécule de manioc fermentée — polvilho azedo de préférence)",
+        "125 ml de lait",
+        "125 ml d'huile neutre",
+        "1 œuf",
+        "100 g de parmesan râpé",
+        "100 g de fromage Minas (ou feta ou emmental)",
+        "1 c. de sel"
+      ],
+      "steps": "Préchauffer le four à 200°C.\nChauffer lait et huile jusqu'à frémissement. Verser sur le tapioca. Mélanger jusqu'à absorption.\nLaisser tiédir. Incorporer l'œuf, puis les fromages et le sel. Pétrir jusqu'à pâte homogène.\nFormer des boules de 3 cm (les mains légèrement huilées).\nDisposer sur une plaque non graissée.\nCuire 20-25 min jusqu'à gonflés et légèrement dorés.\nServir IMMÉDIATEMENT — se dégonflent en refroidissant.\n\n💡 Se congèlent crus parfaitement — cuire directement congelés (5 min de plus).",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/P%C3%A3o_de_queijo.jpg/640px-P%C3%A3o_de_queijo.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/pao-de-queijo"
+    },
+    {
+      "id": "bresil:004",
+      "t": "Coxinha de Frango",
+      "cat": "Brésil, Apéritif, Streetfood",
+      "min": 90,
+      "serv": 20,
+      "desc": "La croquette-cuisse brésilienne : poulet effiloché et fromage cream enfermés dans une pâte de pommes de terre en forme de cuisse de poulet, panés et frits. Le snack de rue incontournable.",
+      "ing": [
+        "PÂTE : 500 g pommes de terre, 200 ml bouillon, 200 g farine, 1 œuf, sel",
+        "FARCE : 400 g poulet cuit effiloché, 200 g fromage frais Philadelphia, 1 oignon, ail, coriandre",
+        "PANURE : chapelure fine",
+        "Huile de friture"
+      ],
+      "steps": "PÂTE : Cuire et écraser les pommes de terre. Chauffer bouillon et intégrer la purée. Ajouter farine progressivement. La pâte doit être souple et non collante. Laisser refroidir.\nFARCE : Mélanger le poulet effiloché avec fromage frais, oignon haché et coriandre. Assaisonner.\nFormer des boules de pâte (60 g). Aplatir. Mettre 1 c. de farce au centre. Refermer en forme de cuisse de poulet (pyramide pointue).\nTremper dans l'œuf battu puis la chapelure. Frire à 175°C pendant 4-5 min jusqu'à dorure.\n\n💡 Les coxinhas se congèlent très bien une fois panées.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Coxinha_de_Frango.jpg/640px-Coxinha_de_Frango.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/coxinha"
+    },
+    {
+      "id": "bresil:005",
+      "t": "Brigadeiro",
+      "cat": "Brésil, Dessert, Confiserie",
+      "min": 30,
+      "serv": 30,
+      "desc": "Le chocolat brésilien par excellence : truffes de lait condensé et cacao roulées dans des granulés de chocolat. La confiserie nationale servie à tous les anniversaires et fêtes.",
+      "ing": [
+        "1 boîte de lait condensé (395 g)",
+        "4 c. de cacao en poudre",
+        "1 c. de beurre",
+        "Granulés de chocolat (ou noix de coco, noix concassées pour varier)",
+        "Pincée de sel"
+      ],
+      "steps": "Mélanger lait condensé, cacao et beurre dans une casserole à fond épais.\nCuire à feu doux en remuant constamment 10-15 min.\nLa pâte est prête quand elle se détache des bords — test : passer le doigt, ça doit former un sillon propre.\nTransférer dans un plat beurré. Laisser refroidir complètement.\nBeurrer les mains. Former des boules de 2 cm.\nRouler dans les granulés de chocolat. Poser dans des caissettes.\nRéfrigérer jusqu'au service.\n\n💡 Variantes : Brigadeiro blanc (chocolat blanc), pistache, citron, noix de coco.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Brigadeiro.jpg/640px-Brigadeiro.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/brigadeiro"
+    },
+    {
+      "id": "bresil:006",
+      "t": "Moqueca Baiana",
+      "cat": "Brésil, Plat, Poisson",
+      "min": 45,
+      "serv": 4,
+      "desc": "Le ragoût de poisson brésilien : daurade ou tilapia cuit dans le lait de coco, le lait de coco dendê (huile de palme rouge), poivrons et tomates. La spécialité de Bahia.",
+      "ing": [
+        "700 g de filets de poisson ferme (daurade, tilapia, cabillaud)",
+        "1 boîte de lait de coco (400 ml)",
+        "2 c. d'huile de dendê (huile de palme rouge) ou huile d'olive",
+        "3 tomates",
+        "2 poivrons (rouge et vert)",
+        "2 oignons",
+        "4 gousses d'ail",
+        "Coriandre fraîche, sel",
+        "Jus de citron vert"
+      ],
+      "steps": "Mariner le poisson avec citron vert, sel et ail 30 min.\nFaire revenir oignons dans l'huile de dendê. Ajouter ail, poivrons et tomates en rondelles.\nDisposer les couches de légumes et de poisson alternées dans la cocotte.\nVerser le lait de coco. Ne pas mélanger.\nCuire à couvert à feu moyen 20-25 min.\nParsemer de coriandre fraîche. Servir directement dans la cocotte avec riz blanc.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Moqueca_capixaba.jpg/640px-Moqueca_capixaba.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/moqueca"
+    },
+    {
+      "id": "bresil:007",
+      "t": "Bobó de Camarão",
+      "cat": "Brésil, Plat, Poisson",
+      "min": 60,
+      "serv": 4,
+      "desc": "Le plat de Bahia aux crevettes : sauce crémeuse à base de manioc (mandioca) mixé avec lait de coco et huile de dendê, avec des crevettes royales. Exotique et riche.",
+      "ing": [
+        "600 g de crevettes royales décortiquées",
+        "500 g de manioc épluché en morceaux",
+        "400 ml de lait de coco",
+        "2 c. d'huile de dendê",
+        "3 tomates",
+        "2 oignons",
+        "4 gousses d'ail",
+        "Coriandre, sel"
+      ],
+      "steps": "Cuire le manioc dans l'eau salée 25 min jusqu'à très tendre. Égoutter. Mixer avec 200 ml de lait de coco jusqu'à crème lisse.\nFaire revenir oignons et ail dans l'huile de dendê. Ajouter les tomates. Cuire 5 min.\nAjouter la crème de manioc et le reste du lait de coco. Chauffer en remuant.\nIncorporer les crevettes. Cuire 5 min jusqu'à roses.\nAssaisonner. Parsemer de coriandre.\nServir avec du riz blanc et de la farofa.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Bob%C3%B3_de_camar%C3%A3o.jpg/640px-Bob%C3%B3_de_camar%C3%A3o.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/bobo-de-camarao"
+    },
+    {
+      "id": "bresil:008",
+      "t": "Picanha au Sel Grosso",
+      "cat": "Brésil, Plat, Bœuf",
+      "min": 30,
+      "serv": 4,
+      "desc": "La reine du churrasco brésilien : picanha avec sa couche de gras caractéristique, simplement assaisonnée de gros sel et grillée sur braises chaudes. L'essence de la cuisine brésilienne.",
+      "ing": [
+        "1 kg de picanha entière (avec sa couche de gras)",
+        "Gros sel de mer",
+        "Poivre noir (optionnel)",
+        "Chimichurri ou sauce vinaigrette brésilienne pour servir"
+      ],
+      "steps": "Sortir la viande 1 h avant. Entailler le gras en losanges (sans couper la viande).\nSaler généreusement des deux côtés avec le gros sel juste avant cuisson.\nGrill très chaud. Commencer côté gras 5 min jusqu'à rendu doré.\nCuire côté chair selon préférence : saignant 3-4 min, à point 5-6 min.\nLaisser reposer 5 min sous papier alu.\nCouper en tranches fines perpendiculairement aux fibres.\n\n💡 La picanha est coupée dans le rumsteck brésilien. En France, chercher le «couvercle de rumsteck».",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Picanha.jpg/640px-Picanha.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/picanha"
+    },
+    {
+      "id": "bresil:009",
+      "t": "Acarajé",
+      "cat": "Brésil, Streetfood, Apéritif",
+      "min": 90,
+      "serv": 16,
+      "desc": "Les beignets de niébé bahianais : haricots à œil noir mixés avec crevettes séchées, frits dans l'huile de dendê, garnis de vatapá et camarão seco. Cuisine afro-brésilienne ancestrale.",
+      "ing": [
+        "500 g de haricots niébé (œil noir) trempés 12 h",
+        "1 oignon",
+        "Sel",
+        "Huile de dendê pour friture",
+        "GARNITURE : vatapá préparé, crevettes séchées, salade, purée de piment"
+      ],
+      "steps": "Frotter les haricots trempés entre les mains pour retirer les peaux. Rincer.\nMixer les haricots avec l'oignon jusqu'à pâte lisse. Assaisonner de sel.\nChauffer l'huile de dendê à 180°C dans une poêle profonde.\nFormer des cuillerées ovales de pâte. Frire 5-7 min en retournant jusqu'à dorure orange.\nÉgoutter sur papier. Couper en deux.\nFarcir de vatapá, camarão seco et piment selon goût.\n\n💡 L'acarajé est une offrande à Iansã dans la religion candomblé. Les bahianas en tablier blanc en vendent dans les rues de Salvador.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Acaraj%C3%A9_with_filling.jpg/640px-Acaraj%C3%A9_with_filling.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/acaraje"
+    },
+    {
+      "id": "bresil:010",
+      "t": "Açaí Bowl Brésilien",
+      "cat": "Brésil, Petit-déjeuner, Dessert",
+      "min": 10,
+      "serv": 2,
+      "desc": "Le bol d'açaï authentique de Belém : pulpe d'açaï congelée mixée épaisse, surmontée de granola, banane, mel de guaraná et noix. Le super-food originel avant que le monde entier le découvre.",
+      "ing": [
+        "400 g de pulpe d'açaï congelée",
+        "50 ml de jus de guaraná ou lait végétal",
+        "TOPPINGS : granola croustillant, banane en rondelles, fraises, miel de guaraná (ou miel normal), noix, noix de coco râpée"
+      ],
+      "steps": "Mettre la pulpe congelée dans le blender. Ajouter 50 ml de liquide.\nMixer rapidement — la texture doit être très épaisse, presque comme de la crème glacée.\nVerser dans des bols préalablement refroidis.\nDisposer les toppings : granola d'abord (évite de ramollir), puis banane, fraises, miel, noix.\nServir IMMÉDIATEMENT.\n\n💡 La clé : peu de liquide pour une texture épaisse. L'açaï doit se manger à la cuillère, pas se boire.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/A%C3%A7a%C3%AD.jpg/640px-A%C3%A7a%C3%AD.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/acai-bowl"
+    },
+    {
+      "id": "bresil:011",
+      "t": "Caipirinha",
+      "cat": "Brésil, Boisson, Cocktail",
+      "min": 5,
+      "serv": 1,
+      "desc": "Le cocktail national brésilien : cachaça, citron vert pilé et sucre sur glace pilée. Trois ingrédients, technique parfaite, résultat inoubliable. L'âme de la fête brésilienne.",
+      "ing": [
+        "2 citrons verts coupés en 8 quartiers",
+        "2 c. à café de sucre cristallisé",
+        "50 ml de cachaça (ou vodka pour Caipiroska)",
+        "Glace pilée"
+      ],
+      "steps": "Mettre les quartiers de citron vert dans un verre old fashioned.\nAjouter le sucre. Piler vigoureusement avec un pilon — pas trop longtemps pour ne pas extraire l'amertume de la peau.\nRemplir de glace pilée.\nVerser la cachaça. Remuer avec une cuillère longue.\nGoûter — ajuster sucre ou citron si besoin. Servir immédiatement avec une paille courte.\n\n💡 La cachaça de qualité fait toute la différence. Cachaça artisanale (alambique) >> cachaça industrielle.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Caipirinha.jpg/640px-Caipirinha.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/caipirinha"
+    },
+    {
+      "id": "bresil:012",
+      "t": "Bolinho de Bacalhau Brésilien",
+      "cat": "Brésil, Apéritif, Entrée",
+      "min": 60,
+      "serv": 20,
+      "desc": "Les croquettes de morue brésiliennes héritées des Portugais : morue dessalée, purée de pommes de terre, œufs et persil, frits en petites quenelles. Incontournables de tout happy hour.",
+      "ing": [
+        "400 g de morue salée (dessalée 48 h en changeant l'eau)",
+        "400 g de pommes de terre",
+        "2 œufs",
+        "1 oignon haché",
+        "Persil haché",
+        "Poivre",
+        "Huile de friture"
+      ],
+      "steps": "Cuire la morue dans l'eau 15 min. Égoutter. Effiler en petits flocons.\nCuire les pommes de terre. Écraser en purée.\nMélanger morue, purée, œufs, oignon, persil. Assaisonner de poivre.\nFormer des quenelles à l'aide de deux cuillères.\nFrire à 175°C en petites fournées jusqu'à dorure (4-5 min).\nÉgoutter. Servir chaud avec mayonnaise à l'ail.\n\n💡 Le dessalage est crucial : 48 h minimum dans l'eau froide au frigo en changeant l'eau 3-4 fois.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Bolinhos_de_bacalhau.jpg/640px-Bolinhos_de_bacalhau.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/bolinho-de-bacalhau"
+    },
+    {
+      "id": "bresil:013",
+      "t": "Quindim",
+      "cat": "Brésil, Dessert",
+      "min": 60,
+      "serv": 12,
+      "desc": "Le petit flan à la noix de coco brésilien d'origine africaine : jaunes d'œufs, sucre, beurre et noix de coco râpée. Jaune doré, lisse comme de la soie, parfumé de coco.",
+      "ing": [
+        "12 jaunes d'œufs",
+        "250 g de sucre",
+        "50 g de beurre fondu",
+        "200 g de noix de coco râpée fraîche (ou déshydratée réhydratée)",
+        "100 ml d'eau",
+        "Beurre et sucre pour les moules"
+      ],
+      "steps": "Préchauffer le four à 160°C. Beurrer et sucrer des petits moules à tartelette.\nMélanger les jaunes avec le sucre et l'eau. Fouetter légèrement sans faire mousser.\nIncorporer le beurre fondu et la noix de coco.\nVerser dans les moules. Cuire au bain-marie 40-45 min.\nLaisser refroidir. Réfrigérer 2 h. Démouler côté brillant vers le haut.\n\n💡 La couleur jaune intense vient des jaunes d'œufs — les œufs de poules élevées en plein air donnent la plus belle couleur.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Quindim.jpg/640px-Quindim.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/quindim"
+    },
+    {
+      "id": "bresil:014",
+      "t": "Bolo de Fubá (Gâteau de Maïs)",
+      "cat": "Brésil, Dessert, Gâteau",
+      "min": 60,
+      "serv": 8,
+      "desc": "Le gâteau de farine de maïs brésilien : moelleux, parfumé, légèrement sucré avec une texture entre le cake et le pudding de maïs. Le gâteau des familles brésiliennes du Minas Gerais.",
+      "ing": [
+        "200 g de fubá (semoule de maïs fine) ou polenta fine",
+        "150 g de farine de blé",
+        "200 g de sucre",
+        "3 œufs",
+        "200 ml de lait",
+        "100 ml d'huile",
+        "1 sachet de levure chimique",
+        "Parmesan râpé (optionnel — tradition du Minas)",
+        "Sel"
+      ],
+      "steps": "Préchauffer le four à 180°C. Beurrer un moule à cake ou à savarin.\nMixer ou fouetter : œufs, sucre, huile et lait jusqu'à bien mélangés.\nIncorporer fubá, farine, levure et sel. Mélanger jusqu'à pâte lisse.\nAjouter le parmesan si utilisé.\nVerser dans le moule. Cuire 40-45 min.\nTester avec un couteau. Laisser refroidir avant de démouler.\n\n💡 Le parmesan ajoute une saveur umami qui amplifie le goût du maïs sans que ça soit salé.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Bolo_de_fub%C3%A1.jpg/640px-Bolo_de_fub%C3%A1.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/bolo-de-fuba"
+    },
+    {
+      "id": "bresil:015",
+      "t": "Pastel Brésilien",
+      "cat": "Brésil, Streetfood, Apéritif",
+      "min": 60,
+      "serv": 16,
+      "desc": "Le chausson frit brésilien : pâte croustillante et feuilletée remplie de bœuf haché ou de fromage, frits dans l'huile bouillante jusqu'à dorure soufflée. La collation des marchés.",
+      "ing": [
+        "PÂTE : 500 g farine, 1 c. sel, 1 c. sucre, 50 ml huile, 200 ml eau chaude, 1 c. cachaça (rend croustillant)",
+        "FARCE BŒUF : 400 g bœuf haché, oignon, ail, tomate, sel, poivre",
+        "Huile de friture"
+      ],
+      "steps": "PÂTE : Mélanger farine, sel, sucre. Incorporer huile, eau chaude et cachaça. Pétrir 10 min. Couvrir 30 min.\nFARCE : Faire revenir bœuf haché avec oignon, ail et tomate. Assaisonner. Laisser refroidir.\nÉtaler la pâte finement (1-2 mm). Couper en cercles ou carrés de 12 cm.\nDéposer 2 c. de farce au centre. Refermer. Sceller les bords à la fourchette.\nFrire à 180°C 3-4 min jusqu'à soufflé et doré.\nÉgoutter. Servir avec sauce tomate épicée.\n\n💡 La cachaça dans la pâte crée la texture croustillante feuilletée — secret des marchands de rua.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Pastel_brasileiro.jpg/640px-Pastel_brasileiro.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/pastel"
+    },
+    {
+      "id": "bresil:016",
+      "t": "Empadão de Frango",
+      "cat": "Brésil, Plat, Poulet",
+      "min": 90,
+      "serv": 8,
+      "desc": "La grande tourte de poulet brésilienne : pâte brisée feuilletée fourrée d'un ragoût de poulet crémeux avec olives, cœurs de palmier et coriandre. Le plat de fête de la famille.",
+      "ing": [
+        "PÂTE : 400 g farine, 200 g beurre froid, 2 jaunes d'œufs, 100 ml eau froide, 1 c. sel",
+        "FARCE : 600 g poulet cuit effiloché, 100 g cœurs de palmier tranchés, 50 g olives vertes, 200 ml crème, 1 oignon, ail, tomate, coriandre, fécule"
+      ],
+      "steps": "PÂTE : Sabler farine et beurre. Ajouter jaunes et eau froide. Pétrir brièvement. Reposer 30 min au frigo.\nFARCE : Faire revenir oignon, ail, tomates. Ajouter le poulet. Incorporer crème épaissie à la fécule. Ajouter olives et cœurs de palmier. Laisser refroidir.\nFoncer un moule à tarte (24 cm) avec 2/3 de la pâte.\nRemplir de farce froide. Couvrir avec le reste de pâte. Souder les bords. Dorer au jaune d'œuf.\nPercer quelques trous. Cuire 180°C, 40-45 min jusqu'à dorure.\n\n💡 La farce doit être froide avant de garnir pour ne pas faire fondre la pâte.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Empad%C3%A3o.jpg/640px-Empad%C3%A3o.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/empadao"
+    },
+    {
+      "id": "bresil:017",
+      "t": "Vatapá",
+      "cat": "Brésil, Sauce, Plat",
+      "min": 60,
+      "serv": 6,
+      "desc": "La sauce crémeuse aux crevettes séchées de Bahia : pain rassis, lait de coco, huile de dendê, arachides et noix de cajou broyés avec des crevettes séchées. Garniture de l'acarajé.",
+      "ing": [
+        "200 g de pain rassis",
+        "400 ml de lait de coco",
+        "2 c. d'huile de dendê",
+        "100 g de crevettes séchées",
+        "100 g d'arachides grillées sans peau",
+        "100 g de noix de cajou grillées",
+        "2 oignons",
+        "3 gousses d'ail",
+        "Gingembre frais",
+        "Coriandre, sel, poivre"
+      ],
+      "steps": "Tremper le pain dans le lait de coco. Égoutter, presser.\nFaire revenir oignons et ail dans l'huile de dendê. Ajouter le gingembre.\nMixer ensemble : pain trempé, crevettes séchées, arachides, noix de cajou avec un peu de lait de coco.\nAjouter cette pâte dans la poêle. Cuire à feu moyen en remuant constamment 20-25 min jusqu'à texture de pâte épaisse.\nAssaisonner. Parsemer de coriandre.\nServir dans l'acarajé ou comme accompagnement.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Vatap%C3%A1.jpg/640px-Vatap%C3%A1.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/vatapa"
+    },
+    {
+      "id": "bresil:018",
+      "t": "Caldo Verde Brésilien",
+      "cat": "Brésil, Soupe",
+      "min": 40,
+      "serv": 6,
+      "desc": "La version brésilienne du caldo verde portugais : soupe de pommes de terre crémeuse avec chou noir finement ciselé et rondelles de saucisse calabraise.",
+      "ing": [
+        "1 kg de pommes de terre",
+        "300 g de chou noir ou couve-frisée",
+        "200 g de saucisse calabraise (linguiça) en rondelles",
+        "1 oignon",
+        "3 gousses d'ail",
+        "1 L de bouillon",
+        "4 c. d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": "Faire revenir oignon et ail dans l'huile. Ajouter pommes de terre coupées et bouillon.\nCuire jusqu'à tendres. Mixer grossièrement pour une consistance crémeuse avec quelques morceaux.\nÉmincer très finement le chou (chiffonnade). Ajouter dans la soupe chaude. Cuire 5 min.\nFaire dorer les rondelles de saucisse. Ajouter dans la soupe.\nAssaisonner. Filet d'huile d'olive pour servir.\n\n💡 La coupe du chou en chiffonnade ultra-fine est essentielle pour la texture.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Caldo-verde.jpg/640px-Caldo-verde.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/caldo-verde"
+    },
+    {
+      "id": "bresil:019",
+      "t": "Arroz com Feijão",
+      "cat": "Brésil, Accompagnement",
+      "min": 60,
+      "serv": 4,
+      "desc": "Le plat quotidien de chaque Brésilien : riz blanc parfumé à l'ail et haricots rouges ou noirs en sauce légèrement dorée. La combinaison protéinée complète de la cuisine brésilienne.",
+      "ing": [
+        "RIZ : 2 tasses riz blanc, 4 tasses eau, 2 gousses ail, 2 c. huile, sel",
+        "FEIJÃO : 400 g haricots rouges ou noirs (cuits en conserve ou trempés et cuits), 2 gousses ail, 1 oignon, huile, sel, laurier"
+      ],
+      "steps": "RIZ : Faire revenir l'ail dans l'huile jusqu'à doré. Ajouter le riz rincé. Faire revenir 2 min. Ajouter eau bouillante et sel. Couvrir. Cuire à feu doux 18 min. Laisser reposer 5 min couvert.\n\nFEIJÃO : Faire revenir ail et oignon. Ajouter 2-3 louches de haricots cuits et les écraser dans la poêle (crée la sauce). Ajouter le reste des haricots avec leur jus. Mijoter 15 min. Assaisonner.\n\nServir ensemble avec viande et farofa.\n\n💡 La technique d'écraser quelques haricots dans la poêle crée la sauce épaisse caractéristique.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Arroz_feij%C3%A3o.jpg/640px-Arroz_feij%C3%A3o.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/arroz-com-feijao"
+    },
+    {
+      "id": "bresil:020",
+      "t": "Brigadeiro Gourmet au Chocolat Belge",
+      "cat": "Brésil, Dessert, Confiserie",
+      "min": 30,
+      "serv": 20,
+      "desc": "La version haut de gamme du brigadeiro : chocolat noir de qualité 70%, crème de lait, beurre de cacao — les truffes brésiliennes élevées au rang de confiserie de luxe.",
+      "ing": [
+        "200 g de chocolat noir 70%",
+        "1 boîte lait condensé (395 g)",
+        "50 ml de crème de lait",
+        "20 g de beurre",
+        "Sel de Guérande",
+        "Cacao de qualité ou éclats de chocolat pour enrober"
+      ],
+      "steps": "Fondre le chocolat au bain-marie. Réserver.\nDans une casserole : lait condensé, crème et beurre. Chauffer à feu moyen en remuant.\nAjouter le chocolat fondu. Continuer à cuire en remuant 8-10 min.\nTest : la pâte se détache du fond et forme un sillon propre.\nAjouter une pincée de sel de Guérande. Mélanger.\nRefroidir dans un plat beurré. Former des truffes. Rouler dans le cacao.\n\n💡 Utiliser du chocolat de qualité = la différence entre le brigadeiro du quotidien et le brigadeiro d'exception.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Brigadeiro.jpg/640px-Brigadeiro.jpg",
+      "url": "https://www.tudogostoso.com.br/receita/brigadeiro-gourmet"
+    },
+    {
+      "id": "argentine:001",
+      "t": "Asado Argentin",
+      "cat": "Argentine, Plat, Bœuf",
+      "min": 180,
+      "serv": 6,
+      "desc": "Le rituel national argentin : grandes pièces de bœuf et abats grillés lentement sur la parrilla au bois ou charbon. Un événement social autant qu'un repas.",
+      "ing": [
+        "2 kg de costillas de bœuf (côtes)",
+        "500 g de chorizo argentin",
+        "500 g de morcilla (boudin)",
+        "Entraña (hampe) ou vacio (flanchet)",
+        "Gros sel",
+        "Chimichurri pour servir",
+        "Chimichurri : ail, persil, origan, piment, vinaigre, huile d'olive"
+      ],
+      "steps": "CHIMICHURRI (la veille) : Hacher finement ail, persil et piment rouge. Ajouter origan séché, vinaigre, huile d'olive. Sel. Laisser mariner.\n\nPARRILLA : Préparer le feu. Les braises doivent être blanches, pas flambantes.\nSaler les côtes côté os. Déposer côté os vers le bas sur la grille basse.\nCuire LENTEMENT 1h30-2h à chaleur modérée.\nRetourner pour finir la cuisson côté chair 30 min.\nCuire chorizo et morcilla à part, à feu plus vif.\n\nServir l'asado avec chimichurri, pain et salade de crudités.\n\n💡 L'asado se mange asado mariposa (bien cuit) en Argentine. Oublier les troupes du saignant !",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Asado_de_tira.jpg/640px-Asado_de_tira.jpg",
+      "url": "https://www.recetasargentinas.net/asado/"
+    },
+    {
+      "id": "argentine:002",
+      "t": "Milanesa a la Napolitana",
+      "cat": "Argentine, Plat, Bœuf",
+      "min": 30,
+      "serv": 4,
+      "desc": "L'escalope panée argentinisée à l'italienne : milanesa de bœuf couverte de sauce tomate, jambon et mozzarella fondante gratinée. La pizzeria dans une assiette.",
+      "ing": [
+        "4 fines tranches de bœuf (rump ou tapa de nalga)",
+        "2 œufs battus",
+        "150 g de chapelure fine",
+        "Farine",
+        "GARNITURE : 200 ml sauce tomate, 4 tranches jambon, 200 g mozzarella",
+        "Huile de friture",
+        "Sel, poivre, ail"
+      ],
+      "steps": "Aplatir les tranches. Saler, poivrer. Paner : fariner, tremper dans l'œuf, enrober de chapelure (mélangée à ail et persil).\nFaire dorer dans l'huile 3 min chaque face. Égoutter.\nDisposer dans un plat à four. Couvrir de sauce tomate, puis jambon, puis mozzarella.\nGratiner au four 200°C, 8-10 min jusqu'à fondu et légèrement coloré.\nServir avec frites (papas fritas) et salade de tomate.\n\n💡 La vraie milanesa se mange fine et croustillante. Épaisse = bresaola panée, pas milanesa.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Milanesa_a_la_napolitana.jpg/640px-Milanesa_a_la_napolitana.jpg",
+      "url": "https://www.recetasargentinas.net/milanesa-napolitana/"
+    },
+    {
+      "id": "argentine:003",
+      "t": "Locro",
+      "cat": "Argentine, Plat, Soupe",
+      "min": 300,
+      "serv": 8,
+      "desc": "Le ragoût andin du 25 mai : maïs blanc, haricots, courge, viandes de porc et bœuf mijotés 5 heures. La soupe nationale de l'Independence Day argentin.",
+      "ing": [
+        "500 g de maïs blanc hominy (pozole)",
+        "300 g de haricots blancs",
+        "500 g de côtes de porc",
+        "300 g de jarret de bœuf",
+        "200 g de chorizo colorado",
+        "200 g de panceta",
+        "500 g de courge butternut",
+        "2 oignons, 4 gousses ail",
+        "1 c. pimentón (paprika fumé), cumin, origan",
+        "SOFRITO : oignon, ail, pimentón, huile, ciboulette"
+      ],
+      "steps": "Tremper maïs et haricots 12 h séparément.\nDans une grande cocotte : faire revenir oignons et ail. Ajouter les viandes en morceaux. Saisir.\nAjouter maïs, haricots, cumin, pimentón, origan. Couvrir de 3 L d'eau.\nMijoter 3-4 h à feu très doux en remuant régulièrement.\nAjouter la courge en dés 1 h avant la fin. Ajouter chorizo et panceta.\nLe locro doit être épais et crémeux.\n\nSOFRITO : Faire revenir oignon et ail. Ajouter pimentón. Servir en saucière à côté.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Locro.jpg/640px-Locro.jpg",
+      "url": "https://www.recetasargentinas.net/locro/"
+    },
+    {
+      "id": "argentine:004",
+      "t": "Chimichurri",
+      "cat": "Argentine, Sauce",
+      "min": 10,
+      "serv": 8,
+      "desc": "La sauce verte argentine pour tout : ail, persil, origan, piment rouge, vinaigre et huile d'olive. Indissociable de l'asado. La condiment national argentin.",
+      "ing": [
+        "1 tête d'ail entière (10-12 gousses hachées très fin)",
+        "1 bouquet de persil plat (haché fin)",
+        "1 c. d'origan séché",
+        "1 c. de flocons de piment rouge (ají molido)",
+        "100 ml de vinaigre de vin rouge",
+        "150 ml d'huile d'olive",
+        "1 c. sel",
+        "Poivre noir"
+      ],
+      "steps": "Hacher l'ail le plus finement possible à la main (jamais au mixeur).\nHacher le persil finement.\nMélanger ail et persil avec origan, piment rouge, sel et poivre.\nAjouter le vinaigre. Bien mélanger.\nIncorporer l'huile d'olive. Rectifier l'assaisonnement.\nLaisser mariner 24 h à température ambiante avant utilisation.\n\n💡 Le chimichurri se prépare TOUJOURS à la main, jamais au blender. Et il se bonifie avec le temps — préparer 2 jours à l'avance.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Chimichurri.jpg/640px-Chimichurri.jpg",
+      "url": "https://www.recetasargentinas.net/chimichurri/"
+    },
+    {
+      "id": "argentine:005",
+      "t": "Provoleta",
+      "cat": "Argentine, Entrée, Apéritif",
+      "min": 15,
+      "serv": 4,
+      "desc": "Le fromage grillé argentin : provolone épais sur la parrilla jusqu'à crust doré et cœur coulant, garni d'origan et de piment. L'entrée incontournable de tout asado.",
+      "ing": [
+        "4 tranches épaisses (2 cm) de provolone",
+        "Origan séché",
+        "Flocons de piment (ají molido)",
+        "Huile d'olive",
+        "(Optionnel : tomates cerises, basilic)"
+      ],
+      "steps": "Chauffer la parrilla ou une poêle en fonte à feu moyen-vif.\nPoser les tranches de provolone directement sur la grille chaude.\nCuire sans toucher 4-5 min jusqu'à formation d'une croûte brune.\nAvec une spatule large, retourner délicatement. Cuire encore 2-3 min.\nSaupoudrer d'origan et de piment. Arroser d'un filet d'huile d'olive.\nServir immédiatement — le fromage fige très vite.\n\n💡 Si pas de provolone : utiliser du halloumi ou du fromage à raclette épais.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Provoleta.jpg/640px-Provoleta.jpg",
+      "url": "https://www.recetasargentinas.net/provoleta/"
+    },
+    {
+      "id": "argentine:006",
+      "t": "Dulce de Leche Maison",
+      "cat": "Argentine, Dessert, Confiserie",
+      "min": 120,
+      "serv": 10,
+      "desc": "La confiture de lait argentine : lait entier et sucre cuits très lentement jusqu'à caramel brun profond et onctueux. La saveur qui définit l'enfance argentine.",
+      "ing": [
+        "1 L de lait entier",
+        "300 g de sucre",
+        "1 c. de bicarbonate de soude",
+        "1 c. d'extrait de vanille",
+        "Pincée de sel"
+      ],
+      "steps": "Mélanger lait, sucre, bicarbonate et sel dans une grande casserole.\nPorter à ébullition en remuant pour dissoudre le sucre.\nRéduire à feu doux. Cuire en remuant régulièrement (toutes les 5 min) pendant 1h30-2h.\nLa couleur passe de blanc à caramel doré puis brun profond.\nTest : une goutte dans l'eau froide doit former une boule molle.\nRetirer du feu. Ajouter la vanille. Mélanger.\nVersez dans des pots stérilisés. Conserve 3 semaines au frigo.\n\n💡 Méthode express : boîte de lait condensé non ouverte dans l'eau bouillante 3h. Refroidir complètement avant d'ouvrir.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dulce_de_leche_casero.jpg/640px-Dulce_de_leche_casero.jpg",
+      "url": "https://www.recetasargentinas.net/dulce-de-leche/"
+    },
+    {
+      "id": "argentine:007",
+      "t": "Alfajores",
+      "cat": "Argentine, Dessert, Biscuit",
+      "min": 60,
+      "serv": 15,
+      "desc": "Les sablés fourrés au dulce de leche et roulés dans la noix de coco : la pâtisserie nationale argentine. Fondants, délicats, impossibles à résister.",
+      "ing": [
+        "SABLÉS : 200 g de fécule de maïs (maïzena), 100 g de farine, 100 g de beurre, 80 g de sucre glace, 2 jaunes d'œufs, 1 c. vanille, 1 c. levure chimique",
+        "200 g de dulce de leche épais",
+        "Noix de coco râpée pour enrober",
+        "Sucre glace pour saupoudrer (optionnel)"
+      ],
+      "steps": "Crémer le beurre avec le sucre glace. Ajouter les jaunes et la vanille.\nIncorporer fécule de maïs, farine et levure. La pâte est très friable — c'est normal.\nFormer une boule. Réfrigérer 30 min.\nÉtaler à 5 mm. Découper des ronds de 5 cm.\nCuire 160°C, 10-12 min — les sablés restent PÂLES. Ne pas colorer.\nRefroidir complètement.\nFourrer de dulce de leche. Assembler deux sablés. Rouler les bords dans la noix de coco.\n\n💡 La fécule de maïs donne la texture fondante en bouche — ne pas la remplacer.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Alfajor_triple.jpg/640px-Alfajor_triple.jpg",
+      "url": "https://www.recetasargentinas.net/alfajores/"
+    },
+    {
+      "id": "argentine:008",
+      "t": "Medialunas (Croissants Argentins)",
+      "cat": "Argentine, Boulangerie, Petit-déjeuner",
+      "min": 240,
+      "serv": 12,
+      "desc": "Les croissants argentins de La Boca : feuilletage plus sucré et collant que le croissant français, laqué de sirop et servi dans les cafés avec le café con leche du matin.",
+      "ing": [
+        "PÂTE : 400 g farine, 7 g levure, 200 ml lait tiède, 50 g sucre, 1 c. sel, 2 œufs",
+        "BEURRAGE : 200 g beurre froid",
+        "LAQUAGE : 150 g sucre, 100 ml eau (sirop dense)"
+      ],
+      "steps": "DÉTREMPE : Pétrir farine, levure, lait, sucre, sel, œufs. Lever 1 h.\nFEUILLETAGE : Envelopper le beurre froid en carré. Étaler la pâte. Poser le beurre. Plier et donner 4 tours doubles au frigo (30 min entre chaque tour).\nFormer des triangles. Rouler en croissants. Laisser pousser 1h30.\nCuire 200°C, 15-18 min jusqu'à dorure.\nLaquage : Bouillir sirop 5 min. Badigeonner immédiatement à la sortie du four DEUX FOIS.\n\n💡 La différence avec le croissant français : plus de sucre dans la pâte, le laquage collant et la forme plus serrée.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Medialunas.jpg/640px-Medialunas.jpg",
+      "url": "https://www.recetasargentinas.net/medialunas/"
+    },
+    {
+      "id": "argentine:009",
+      "t": "Choripán",
+      "cat": "Argentine, Streetfood, Plat",
+      "min": 20,
+      "serv": 4,
+      "desc": "Le hot-dog argentin : chorizo de porc et bœuf grillé à la parrilla, servi dans une baguette avec chimichurri et salsa criolla. Le snack de stade et de fête nationale.",
+      "ing": [
+        "4 chorizos argentins (mélange bœuf-porc)",
+        "4 petites baguettes ou pain pan de viena",
+        "Chimichurri (voir recette)",
+        "SALSA CRIOLLA : 2 tomates, 1 oignon rouge, poivron vert, vinaigrette, coriandre"
+      ],
+      "steps": "SALSA CRIOLLA : Couper tomates, oignon et poivron en petits dés. Mélanger avec vinaigrette légère et coriandre. Reposer 1 h.\nGriller les chorizos entiers à la parrilla 10-12 min en les retournant. Ne pas piquer.\nCouper en deux dans la longueur sans détacher complètement.\nÉtaler le pain sur la grille quelques secondes pour le tiédir.\nGarnir : chorizo dans le pain, chimichurri, salsa criolla.\n\n💡 JAMAIS de ketchup ou moutarde sur un choripán — c'est une insulte à la cuisine argentine.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Chorip%C3%A1n.jpg/640px-Chorip%C3%A1n.jpg",
+      "url": "https://www.recetasargentinas.net/choripan/"
+    },
+    {
+      "id": "argentine:010",
+      "t": "Empanadas Salteñas",
+      "cat": "Argentine, Entrée, Apéritif, Empanada",
+      "min": 90,
+      "serv": 16,
+      "desc": "Les empanadas de Salta : chaussons farcis de bœuf avec pommes de terre, œufs durs et olives, cuits au four ou frits. Le repas-voyage dans les provinces du Nord-Ouest argentin.",
+      "ing": [
+        "PÂTE : 400 g farine, 100 g saindoux ou beurre, 150 ml eau tiède, 1 c. sel",
+        "FARCE : 400 g bœuf haché, 2 oignons, 2 pommes de terre en dés, 2 œufs durs, 10 olives vertes, paprika, cumin, piment, sel",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": "PÂTE : Sabler farine et saindoux. Ajouter eau tiède et sel. Pétrir. Reposer 30 min.\nFARCE : Faire revenir les oignons. Ajouter le bœuf haché et épices. Cuire. Ajouter les pommes de terre cuites en dés, olives et œufs durs hachés. Laisser refroidir.\nÉtaler la pâte. Découper des ronds de 14 cm.\nGarnir, plier et sceller avec le repulgue (torsade décorative).\nDorer au jaune. Cuire au four 200°C, 20 min.\n\n💡 Le repulgue (bord tressé) est la signature de chaque région argentine — chacune a sa technique.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Empanadas.jpg/640px-Empanadas.jpg",
+      "url": "https://www.recetasargentinas.net/empanadas-saltenas/"
+    },
+    {
+      "id": "argentine:011",
+      "t": "Matambre a la Pizza",
+      "cat": "Argentine, Plat, Bœuf",
+      "min": 90,
+      "serv": 6,
+      "desc": "Le flanc de bœuf argentin en version pizzaiola : matambre cuit, puis nappé de sauce tomate, mozzarella et olives et passé sous le grill. Deux classiques argentins fusionnés.",
+      "ing": [
+        "1,5 kg de matambre (flanc de bœuf aplati)",
+        "MARINADE : ail, persil, origan, piment",
+        "GARNITURE PIZZA : 300 ml sauce tomate, 300 g mozzarella, olives vertes, origan",
+        "Sel, poivre"
+      ],
+      "steps": "Étaler le matambre. Frotter avec ail, persil, origan et piment. Assaisonner.\nRouler serré. Ficeler. Cuire dans de l'eau salée 1h30 (ou au four à 180°C avec bouillon).\nLaisser refroidir. Couper en tranches de 2 cm.\nDisposer dans un plat à four. Napper de sauce tomate.\nCouvrir de mozzarella et olives.\nGratiner sous le grill jusqu'à fondu et gratiné.\n\n💡 Le matambre se sert aussi roulé froid avec farce de légumes — le matambre arrollado.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Matambre_a_la_pizza.jpg/640px-Matambre_a_la_pizza.jpg",
+      "url": "https://www.recetasargentinas.net/matambre-pizza/"
+    },
+    {
+      "id": "argentine:012",
+      "t": "Revuelto Gramajo",
+      "cat": "Argentine, Plat, Entrée",
+      "min": 20,
+      "serv": 2,
+      "desc": "L'omelette-frites argentine : œufs brouillés avec pommes de terre frites en allumettes et jambon. La recette créée à la fin du XIXe siècle dans les bistrots de Buenos Aires.",
+      "ing": [
+        "4 œufs",
+        "200 g de pommes de terre en julienne fine",
+        "100 g de jambon en julienne",
+        "2 c. d'huile",
+        "Sel, poivre",
+        "Persil haché"
+      ],
+      "steps": "Frire les pommes de terre en allumettes dans l'huile jusqu'à croustillantes et dorées. Égoutter.\nDans la même poêle, faire revenir le jambon en julienne 2 min.\nAjouter les pommes de terre frites.\nBattre les œufs avec sel et poivre. Verser sur les pommes de terre et jambon.\nRemuer doucement avec une spatule pour avoir des œufs brouillés crémeux (pas secs).\nServir immédiatement parsemé de persil.\n\n💡 Les œufs doivent rester légèrement coulants — retirer du feu avant la cuisson complète.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Revuelto_gramajo.jpg/640px-Revuelto_gramajo.jpg",
+      "url": "https://www.recetasargentinas.net/revuelto-gramajo/"
+    },
+    {
+      "id": "argentine:013",
+      "t": "Dulce de Leche Pancakes",
+      "cat": "Argentine, Dessert, Petit-déjeuner",
+      "min": 25,
+      "serv": 4,
+      "desc": "Les pancakes du matin argentin : crêpes épaisses style américain garnies de dulce de leche chaud et crème fraîche. Le petit-déjeuner des dimanches de Buenos Aires.",
+      "ing": [
+        "PÂTE : 200 g farine, 1 c. levure, 2 œufs, 250 ml lait, 50 g beurre fondu, 1 c. sucre, 1 c. sel",
+        "Dulce de leche pour garnir",
+        "Crème fraîche ou chantilly",
+        "Banane ou fraises fraîches"
+      ],
+      "steps": "Mélanger farine, levure, sucre, sel. Ajouter œufs battus, lait et beurre fondu. Fouetter jusqu'à pâte lisse.\nLaisser reposer 15 min.\nCuire dans une poêle beurrée à feu moyen : verser 1 louche, cuire jusqu'aux bulles en surface, retourner, 1 min de plus.\nEmpiler les pancakes chauds. Napper généreusement de dulce de leche réchauffé.\nAjouter crème fraîche et fruits frais.\n\n💡 Réchauffer le dulce de leche 30 sec au micro-ondes avec une c. d'eau pour le rendre coulant.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Dulce_de_leche_pancakes.jpg/640px-Dulce_de_leche_pancakes.jpg",
+      "url": "https://www.recetasargentinas.net/pancakes-dulce-de-leche/"
+    },
+    {
+      "id": "argentine:014",
+      "t": "Locro de Papas",
+      "cat": "Argentine, Soupe, Plat",
+      "min": 60,
+      "serv": 6,
+      "desc": "Le locro léger de pommes de terre et chorizos : version rapide du grand locro national sans maïs ni haricots — idéal pour un repas d'hiver en semaine.",
+      "ing": [
+        "1 kg de pommes de terre en dés",
+        "300 g de chorizo colorado tranché",
+        "1 oignon",
+        "3 gousses ail",
+        "1 c. de pimentón fumé",
+        "Cumin, origan",
+        "1 L de bouillon",
+        "Ciboulette, sel, poivre"
+      ],
+      "steps": "Faire revenir oignon et ail. Ajouter le chorizo. Cuire 5 min.\nAjouter pimentón, cumin et origan. Incorporer les pommes de terre.\nCouvrir de bouillon. Cuire 25-30 min.\nÉcraser légèrement quelques pommes de terre pour épaissir.\nRectifier. Parsemer de ciboulette.\nServir avec un sofrito de pimentón à part.\n\n💡 Version express du locro qui n'exige pas les 5 heures de cuisson du grand locro traditionnel.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Locro.jpg/640px-Locro.jpg",
+      "url": "https://www.recetasargentinas.net/locro-papas/"
+    },
+    {
+      "id": "argentine:015",
+      "t": "Puchero Argentin",
+      "cat": "Argentine, Plat, Soupe",
+      "min": 180,
+      "serv": 8,
+      "desc": "Le pot-au-feu argentin : jarret de bœuf, chorizo, poulet et légumes de racine mijotés des heures dans un bouillon riche. La tradition du dimanche en famille.",
+      "ing": [
+        "600 g de jarret de bœuf",
+        "2 cuisses de poulet",
+        "2 chorizos",
+        "200 g de lard fumé",
+        "4 carottes",
+        "4 pommes de terre",
+        "2 patates douces",
+        "2 épis de maïs coupés",
+        "1 chou vert",
+        "2 oignons, ail, laurier",
+        "Sel, poivre"
+      ],
+      "steps": "Déposer bœuf et poulet dans une grande casserole. Couvrir de 3 L d'eau froide. Porter à ébullition. Écumer.\nAjouter oignons, ail, laurier, sel. Mijoter 1h30.\nAjouter carottes, patates douces et pommes de terre. Cuire 30 min.\nAjouter maïs, chou et chorizos. Cuire 20 min de plus.\nServir le bouillon en premier, puis les légumes et viandes.\n\n💡 Le bouillon de puchero est la base de toutes les soupes argentines de la semaine.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Puchero.jpg/640px-Puchero.jpg",
+      "url": "https://www.recetasargentinas.net/puchero/"
+    },
+    {
+      "id": "argentine:016",
+      "t": "Bife de Chorizo (Steak Argentin)",
+      "cat": "Argentine, Plat, Bœuf",
+      "min": 20,
+      "serv": 2,
+      "desc": "Le roi de la parrilla : bife de chorizo (faux-filet argentin) épais, gros sel, cuisson directe sur les braises. Trois ingrédients, technique, perfection. L'art de l'asado en format individuel.",
+      "ing": [
+        "2 bife de chorizo (faux-filet), 3-4 cm d'épaisseur, 350 g chacun",
+        "Gros sel (sel grosso)",
+        "Chimichurri pour servir",
+        "Ensalada mixta (tomates, oignon rouge, laitue)"
+      ],
+      "steps": "Sortir la viande 1 h avant. Amener à température ambiante.\nSaler généreusement avec gros sel des deux côtés JUSTE avant de cuire.\nBraise vive directe. Saisir 3-4 min côté 1 sans toucher.\nRetourner une seule fois. Cuire encore 3-4 min pour saignant (55°C), 5-6 pour à point.\nL'argentin mange bien cuit — ajuster selon les convives.\nReposer 5 min avant de couper.\n\n💡 Un seul retournement, jamais de fourchette. Ne jamais presser la viande. Ne rien mettre dessus pendant la cuisson.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Bife_de_chorizo.jpg/640px-Bife_de_chorizo.jpg",
+      "url": "https://www.recetasargentinas.net/bife-de-chorizo/"
+    },
+    {
+      "id": "argentine:017",
+      "t": "Torta Rogel",
+      "cat": "Argentine, Dessert, Gâteau",
+      "min": 120,
+      "serv": 10,
+      "desc": "L'imposant millefeuille argentin : 8-10 disques de pâte brisée empilés avec du dulce de leche entre chaque couche, couverts de meringue italienne grillée. Un monument de la pâtisserie.",
+      "ing": [
+        "PÂTE : 400 g farine, 200 g beurre, 2 jaunes, 100 ml eau froide, sel",
+        "GARNITURE : 600 g dulce de leche épais",
+        "MERINGUE ITALIENNE : 4 blancs, 300 g sucre, 100 ml eau"
+      ],
+      "steps": "PÂTE : Sabler farine et beurre. Ajouter jaunes et eau. Pétrir brièvement. Reposer 30 min.\nÉtaler en disques très fins de 22 cm. Cuire 180°C, 10 min chacun. Laisser refroidir.\nEmpiler en tartinant du dulce de leche entre chaque disque (8-10 disques).\nMERINGUE : Cuire sucre+eau à 118°C. Verser sur blancs montés en filet. Battre jusqu'à refroidissement.\nCouvrir le gâteau de meringue. Dorer au chalumeau ou grill.\nRéfrigérer 4 h.\n\n💡 La torta rogel est servie aux anniversaires argentins et se prépare obligatoirement la veille.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Torta_Rogel.jpg/640px-Torta_Rogel.jpg",
+      "url": "https://www.recetasargentinas.net/torta-rogel/"
+    },
+    {
+      "id": "argentine:018",
+      "t": "Humita en Chala",
+      "cat": "Argentine, Entrée, Plat",
+      "min": 90,
+      "serv": 8,
+      "desc": "Le tamale de maïs andin : purée de maïs frais avec fromage frais et oignons caramélisés, emballée dans les feuilles du maïs et cuite à la vapeur. Cuisine précolombienne.",
+      "ing": [
+        "6 épis de maïs frais (utiliser les feuilles aussi)",
+        "2 oignons",
+        "1 poivron rouge",
+        "200 g de fromage frais (type Minas ou ricotta)",
+        "1 c. de sucre",
+        "1 c. de pimentón",
+        "Sel, poivre, beurre"
+      ],
+      "steps": "Éplucher les épis en gardant les grandes feuilles intactes. Réserver les feuilles.\nRaper les épis pour obtenir la pulpe de maïs et leur jus.\nFaire revenir oignons et poivron jusqu'à caramélisation. Ajouter la pulpe de maïs et le sucre. Cuire 15 min en remuant.\nAjouter le fromage. Assaisonner. Laisser tiédir.\nDisposer 2-3 feuilles de maïs croisées. Mettre 3 c. de farce au centre.\nReplier les feuilles et ficeler. Cuire à la vapeur 45 min.\n\n💡 Recette andine précolombienne, partagée avec la Bolivie et le Pérou.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Humita.jpg/640px-Humita.jpg",
+      "url": "https://www.recetasargentinas.net/humita/"
+    },
+    {
+      "id": "argentine:019",
+      "t": "Salsa Criolla Argentina",
+      "cat": "Argentine, Sauce, Accompagnement",
+      "min": 10,
+      "serv": 6,
+      "desc": "La sauce fraîche universelle du churrasco argentin : tomates, oignon, poivron et herbes en vinaigrette. Simple, fraîche, indispensable à côté du chimichurri sur toute table.",
+      "ing": [
+        "3 tomates fermes en petits dés",
+        "1 oignon rouge en petits dés",
+        "1 poivron vert en petits dés",
+        "1 poivron rouge en petits dés",
+        "3 c. d'huile d'olive",
+        "3 c. de vinaigre de vin rouge",
+        "1 c. d'origan séché",
+        "Coriandre ou persil frais",
+        "Sel, poivre"
+      ],
+      "steps": "Couper tous les légumes en petits dés uniformes de 5 mm.\nMélanger dans un bol. Assaisonner avec huile, vinaigre, origan, sel et poivre.\nAjouter les herbes fraîches.\nLaisser mariner 1 h avant de servir.\n\n💡 La salsa criolla se sert toujours à température ambiante — jamais chaude ni trop froide du frigo.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Salsa_criolla.jpg/640px-Salsa_criolla.jpg",
+      "url": "https://www.recetasargentinas.net/salsa-criolla/"
+    },
+    {
+      "id": "argentine:020",
+      "t": "Carbonada Criolla",
+      "cat": "Argentine, Plat",
+      "min": 90,
+      "serv": 6,
+      "desc": "Le ragoût de bœuf aux fruits argentins : viande mijotée avec pommes, poires, pêches, patates douces et maïs. La fusion entre cuisine coloniale et ingrédients autochtones.",
+      "ing": [
+        "800 g de bœuf en cubes (paleron)",
+        "2 pommes épluchées en dés",
+        "2 poires épluchées en dés",
+        "2 pêches en dés (fraîches ou en conserve)",
+        "2 patates douces",
+        "2 épis de maïs en rondelles",
+        "2 tomates",
+        "2 oignons, ail",
+        "Pimentón, cumin, origan",
+        "500 ml de bouillon"
+      ],
+      "steps": "Saisir le bœuf en dés. Réserver.\nFaire revenir oignons et ail. Ajouter pimentón, cumin et origan hors du feu.\nAjouter bœuf, tomates et bouillon. Mijoter 1 h à couvert.\nAjouter patates douces et maïs. Cuire 20 min.\nIncorporer les fruits (pommes, poires, pêches) les 10 dernières minutes — juste réchauffer, pas compoter.\nRectifier. Servir dans une citrouille évidée (optionnel — présentation traditionnelle).\n\n💡 Les fruits donnent une douceur qui équilibre le pimentón — ne pas trop cuire pour qu'ils restent en morceaux.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Carbonada.jpg/640px-Carbonada.jpg",
+      "url": "https://www.recetasargentinas.net/carbonada/"
+    },
+    {
+      "id": "asie:026",
+      "t": "Chicken Tikka Masala",
+      "cat": "Asie, Poulet, Inde",
+      "min": 60,
+      "serv": 4,
+      "desc": "Le curry de poulet le plus populaire du monde : poulet mariné au yaourt et épices, grillé au tandoor puis mijoté dans une sauce tomate-crème aux épices. Né en Grande-Bretagne, adopté par la planète.",
+      "ing": [
+        "700 g de poulet en cubes",
+        "MARINADE : yaourt, garam masala, cumin, coriandre, ail, gingembre, piment, curcuma, sel",
+        "SAUCE : 400 g tomates concassées, 200 ml crème, 1 oignon, 4 gousses ail, gingembre, cumin, coriandre, garam masala, paprika, cardamome",
+        "Huile, sel",
+        "Coriandre fraîche, riz basmati"
+      ],
+      "steps": "MARINADE : Mélanger yaourt et épices. Incorporer le poulet. Mariner 4 h minimum (nuit idéal).\nGriller le poulet mariné au grill ou à la poêle jusqu'à légèrement brûlé. Réserver.\nSAUCE : Faire revenir oignons, ail et gingembre. Ajouter toutes les épices. Cuire 2 min.\nAjouter les tomates concassées. Mijoter 15 min. Mixer pour sauce lisse.\nAjouter la crème. Porter à frémissement.\nIncorporer le poulet grillé. Mijoter 15 min.\nServir avec riz basmati et naan. Parsemer de coriandre fraîche.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Chicken_tikka_masala.jpg/640px-Chicken_tikka_masala.jpg",
+      "url": "https://www.recipetineats.com/chicken-tikka-masala/"
+    },
+    {
+      "id": "asie:027",
+      "t": "Murgh Makhani (Butter Chicken)",
+      "cat": "Asie, Poulet, Inde",
+      "min": 60,
+      "serv": 4,
+      "desc": "Le poulet au beurre de Delhi : sauce tomate onctueuse au beurre, fenugrec et crème, avec du poulet tandoori. Plus doux que le tikka masala, d'une richesse enveloppante.",
+      "ing": [
+        "700 g de cuisses de poulet désossées",
+        "MARINADE : yaourt, citron, cumin, coriandre, piment, gingembre, ail, sel",
+        "SAUCE MAKHANI : 400 g tomates, 80 g beurre, 1 oignon, ail, gingembre, 1 c. fenugrec (methi), cardamome, cannelle, crème, sucre",
+        "Coriandre, riz basmati ou naan"
+      ],
+      "steps": "Mariner le poulet 4-6 h dans les épices yaourt.\nGriller au four 220°C, 20 min jusqu'à légèrement brûlé. Réserver.\n\nSAUCE : Fondre le beurre. Faire revenir oignons, ail, gingembre. Ajouter épices. Cuire 2 min.\nAjouter tomates. Mijoter 20 min. Mixer. Filtrer pour sauce très lisse.\nAjouter crème et fenugrec. Assaisonner d'une pincée de sucre.\nIncorporer le poulet. Mijoter 15 min.\nFinir avec une noix de beurre pour la brillance.\n\n💡 Le fenugrec séché (kasuri methi) est le goût signature du Butter Chicken — ne pas omettre.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Butter_Chicken_on_a_plate.jpg/640px-Butter_Chicken_on_a_plate.jpg",
+      "url": "https://www.recipetineats.com/butter-chicken/"
+    },
+    {
+      "id": "asie:028",
+      "t": "Chicken Adobo Philippin",
+      "cat": "Asie, Poulet, Philippines",
+      "min": 60,
+      "serv": 4,
+      "desc": "Le plat national des Philippines : poulet braisé dans le vinaigre de palme, sauce soja, ail et feuilles de laurier. Aigre-salé, conservateur naturel, addictif.",
+      "ing": [
+        "1 kg de cuisses et pilons de poulet",
+        "100 ml de vinaigre de riz ou blanc",
+        "80 ml de sauce soja (toyo)",
+        "1 tête d'ail entière, gousses écrasées",
+        "4 feuilles de laurier",
+        "1 c. de grains de poivre noir",
+        "1 c. de sucre (optionnel)",
+        "Huile"
+      ],
+      "steps": "Mélanger poulet, vinaigre, sauce soja, ail, laurier et poivre. Mariner 30 min.\nFaire revenir le poulet dans l'huile jusqu'à légèrement doré. Réserver.\nVider le gras. Verser la marinade dans la poêle. Porter à ébullition.\nRemettre le poulet. Mijoter à couvert 30 min en retournant.\nÔter le couvercle. Laisser réduire la sauce jusqu'à brillante et épaissie. Retourner le poulet pour le caraméliser.\nServir avec riz blanc. La sauce est intense — peu suffit.\n\n💡 L'adobo se conserve plusieurs jours — encore meilleur réchauffé. La tradition : cuire pour toute la semaine.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Chicken_Adobo_2.jpg/640px-Chicken_Adobo_2.jpg",
+      "url": "https://www.recipetineats.com/chicken-adobo/"
+    },
+    {
+      "id": "asie:029",
+      "t": "Dakgangjeong (Korean Fried Chicken)",
+      "cat": "Asie, Poulet, Corée",
+      "min": 60,
+      "serv": 4,
+      "desc": "Le poulet frit coréen : double friture pour une croustillance inégalée, nappé d'une sauce gochujang-soja-miel brillante et collante. La révolution du fried chicken.",
+      "ing": [
+        "1 kg d'ailes de poulet",
+        "PÂTE : fécule de maïs, farine, sel, poivre blanc, bicarbonate",
+        "Huile de friture",
+        "SAUCE GOCHUJANG : 3 c. gochujang, 2 c. sauce soja, 2 c. miel, 2 c. vinaigre de riz, 4 gousses ail émincées, gingembre",
+        "Graines de sésame, oignon vert"
+      ],
+      "steps": "Sécher les ailes soigneusement. Assaisonner de sel et poivre.\nPaner dans le mélange fécule-farine-bicarbonate (texture légère).\n\nDOUBLE FRITURE : 1ère friture 170°C pendant 7 min. Égoutter 5 min. 2ème friture 190°C pendant 4-5 min jusqu'à ultra-croustillant.\n\nSAUCE GOCHUJANG : Faire revenir ail et gingembre. Ajouter gochujang, sauce soja, miel, vinaigre. Cuire 3 min jusqu'à brillante.\n\nTosser les ailes dans la sauce chaude immédiatement. Parsemer de graines de sésame et oignon vert.\n\n💡 La double friture = secret absolu du croustillant coréen qui dure même avec la sauce.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Korean_fried_chicken.jpg/640px-Korean_fried_chicken.jpg",
+      "url": "https://www.recipetineats.com/korean-fried-chicken/"
+    },
+    {
+      "id": "asie:030",
+      "t": "Hainanese Chicken Rice",
+      "cat": "Asie, Poulet, Singapour",
+      "min": 90,
+      "serv": 4,
+      "desc": "Le plat national de Singapour : poulet entier poché dans un bouillon aromatique, servi avec riz cuit dans le gras de poulet, concombre, gingembre et sauce soja. La simplicité parfaite.",
+      "ing": [
+        "1 poulet entier (1,5 kg)",
+        "BOUILLON : gingembre tranché, oignons verts, ail, sel",
+        "RIZ : 2 tasses riz jasmin, 1 c. graisse de poulet, 3 gousses ail, gingembre, sel, 2,5 tasses bouillon de cuisson",
+        "SAUCES : sauce gingembre (gingembre, ail, huile), sauce soja sucrée, sauce chili"
+      ],
+      "steps": "Frotter le poulet de sel et gingembre. Plonger dans l'eau froide avec gingembre, ail, oignons verts.\nPorter à ébullition. Réduire à feu très doux (frémissement). Cuire 30-40 min.\nÉteindre. Laisser le poulet dans le bouillon 20 min. Plonger dans l'eau glacée pour la peau.\n\nRIZ : Faire revenir ail et gingembre dans la graisse de poulet. Ajouter le riz lavé. Toaster 2 min.\nCuire avec le bouillon de cuisson selon ratio.\n\nServir poulet découpé sur riz, avec concombre, oignons verts et les 3 sauces séparées.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Hainanese_chicken_rice.jpg/640px-Hainanese_chicken_rice.jpg",
+      "url": "https://www.recipetineats.com/hainanese-chicken-rice/"
+    },
+    {
+      "id": "monde:001",
+      "t": "Jerk Chicken Jamaïcain",
+      "cat": "Monde, Poulet, Caraïbes",
+      "min": 480,
+      "serv": 4,
+      "desc": "Le poulet jamaïcain aux épices jerk : piment Scotch Bonnet, allspice, thym et gingembre en marinade, grillé lentement sur bois de laurier d'épices. Le BBQ de la Jamaïque.",
+      "ing": [
+        "8 morceaux de poulet",
+        "MARINADE JERK : 3 piments Scotch Bonnet (ou habanero), 6 gousses ail, 4 oignons verts, 2 c. allspice, thym frais, gingembre, noix de muscade, cannelle, sauce soja, huile, sucre roux, sel, vinaigre"
+      ],
+      "steps": "MARINADE : Mixer tous les ingrédients jerk jusqu'à pâte. Goûter — elle doit être très épicée.\nInciser le poulet profondément. Frotter généreusement la marinade partout. Réfrigérer minimum 6 h (idéal 24 h).\nBBQ : Cuire à feu indirect moyen 45-60 min en retournant. Finir à feu direct 10 min pour la croûte.\nSi pas de BBQ : four à 180°C, 50 min + grill 5 min.\nServir avec riz aux haricots rouges (Rice and Peas) et bananes plantain grillées.\n\n💡 Le vrai jerk se cuit sur du bois d'allspice (piment jamaïcain) — une essence qui donne la saveur signature.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Jerk_chicken_Jamaica.jpg/640px-Jerk_chicken_Jamaica.jpg",
+      "url": "https://www.recipetineats.com/jerk-chicken/"
+    },
+    {
+      "id": "monde:002",
+      "t": "Pollo a la Brasa (Poulet Péruvien)",
+      "cat": "Monde, Poulet, Pérou, Amérique du Sud",
+      "min": 120,
+      "serv": 4,
+      "desc": "Le poulet rôti péruvien mondialement célèbre : mariné à l'ají panca, cumin et soja, rôti en rotisserie jusqu'à peau croustillante. Servi avec ají verde (sauce verte péruvienne).",
+      "ing": [
+        "1 poulet entier (1,5 kg)",
+        "MARINADE : 3 c. pâte d'ají panca (ou paprika fumé), 3 c. cumin, 3 c. sauce soja, 4 gousses ail, jus de citron vert, huile, 1 c. origan, sel, poivre",
+        "AJÍ VERDE : coriandre, jalapeños, ail, maya, crème, citron vert"
+      ],
+      "steps": "MARINADE : Mixer tous les ingrédients. Frotter sous et sur la peau du poulet. Réfrigérer 4-8 h.\nRotisserie : Broche. Cuire 1h15 jusqu'à 74°C à cœur.\nFour : 200°C, 1 h en le retournant. Terminer côté peau vers le haut les 15 dernières min.\nAJÍ VERDE : Mixer coriandre, jalapeños, ail, mayo et crème jusqu'à sauce verte. Assaisonner de citron.\nServir avec ají verde, frites, salade criolla.\n\n💡 L'ají panca est un piment séché péruvien fumé aux notes chocolatées — substitut : paprika fumé + chili en poudre.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Pollo_a_la_brasa.jpg/640px-Pollo_a_la_brasa.jpg",
+      "url": "https://www.recipetineats.com/pollo-a-la-brasa/"
+    },
+    {
+      "id": "monde:003",
+      "t": "Buffalo Chicken Wings",
+      "cat": "Monde, Poulet, États-Unis",
+      "min": 60,
+      "serv": 4,
+      "desc": "Les ailes de poulet Buffalo de Buffalo, NY : frites croustillantes, nappées de sauce au beurre et tabasco, servies avec sauce blue cheese et céleri. Le snack de l'Amérique.",
+      "ing": [
+        "1 kg d'ailes de poulet",
+        "Sel, poivre, poudre d'ail",
+        "Huile de friture ou four",
+        "SAUCE BUFFALO : 100 g beurre, 100 ml sauce piquante type Frank's RedHot, 1 c. vinaigre de cidre, 1 c. Worcestershire",
+        "SAUCE BLUE CHEESE : fromage bleu, mayo, crème fraîche, citron"
+      ],
+      "steps": "Sécher les ailes. Assaisonner de sel, poivre et poudre d'ail.\nFRITURE : 175°C, 12-15 min jusqu'à très croustillantes. OU FOUR : 230°C, 40-45 min avec baking powder pour croustiller.\n\nSAUCE BUFFALO : Fondre le beurre. Ajouter la sauce piquante, vinaigre et Worcestershire. Maintenir chaud.\nTosser les ailes cuites dans la sauce chaude immédiatement.\nSERVIR dans les 5 min avec sauce blue cheese, branches de céleri et carottes.\n\n💡 La qualité de la sauce piquante fait tout — Frank's RedHot est l'originale. Ne pas cuire la sauce longtemps.",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Buffalo_wings.jpg/640px-Buffalo_wings.jpg",
+      "url": "https://www.recipetineats.com/buffalo-wings/"
     }
   ]
 }

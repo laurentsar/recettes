@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.61';
+const APP_VERSION = '2.62';
 
 let ALL = [];
 let BASE = [];
@@ -630,21 +630,32 @@ function openDetail(id){
     r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">🔗 Source</a>`:'',
     r.vid?`<a href="${esc(r.vid)}" target="_blank" rel="noopener">▶️ Vidéo</a>`:'',
   ].filter(Boolean).join('');
-  const pairId = r.pair || null;
-  const pair = pairId ? ALL.find(x=>String(x.id)===String(pairId)) : null;
+  const _pairRaw = r.pair || null;
+  const _pairIds = _pairRaw ? (Array.isArray(_pairRaw) ? _pairRaw : [_pairRaw]) : [];
+  const _pairs = _pairIds.map(pid=>ALL.find(x=>String(x.id)===String(pid))).filter(Boolean);
   let variantTabs = '';
-  if (pair) {
-    const isTmx = r.cat && r.cat.includes('Thermomix');
-    const isAF  = r.cat && r.cat.includes('Airfryer');
-    const pIsTmx = pair.cat && pair.cat.includes('Thermomix');
-    const isSpecial = isTmx || isAF;
-    const specLabel = (isTmx || pIsTmx) ? '⚙️ Thermomix' : '🌪️ Airfryer';
-    const specId = isSpecial ? r.id : pairId;
-    const manId  = isSpecial ? pairId : r.id;
+  if (_pairs.length > 0) {
+    const _lbl = (rec) => {
+      const c = rec ? (rec.cat||'') : '';
+      if (c.includes('Thermomix')) return '⚙️ Thermomix';
+      if (c.includes('Airfryer')) return '🌪️ Airfryer';
+      return '🥄 Maison';
+    };
+    const curLbl = _lbl(r);
+    const isSpecial = curLbl !== '🥄 Maison';
+    const tabList = [];
+    if (!isSpecial) {
+      tabList.push({id: r.id, label: '🥄 Maison', active: true});
+      _pairs.forEach(p => tabList.push({id: p.id, label: _lbl(p), active: false}));
+    } else {
+      _pairs.forEach(p => tabList.push({id: p.id, label: _lbl(p), active: false}));
+      tabList.push({id: r.id, label: curLbl, active: true});
+      tabList.sort((a,b) => a.label==='🥄 Maison'?-1:b.label==='🥄 Maison'?1:0);
+      tabList.forEach(t => { t.active = (t.id===r.id); });
+    }
     variantTabs = `<div class="d-variant-tabs">
-    <button class="d-variant-tab${!isSpecial?' active':''}" data-vid="${manId}">🥄 Maison</button>
-    <button class="d-variant-tab${isSpecial?' active':''}" data-vid="${specId}">${specLabel}</button>
-  </div>`;
+  ${tabList.map(t=>`<button class="d-variant-tab${t.active?' active':''}" data-vid="${t.id}">${t.label}</button>`).join('\n  ')}
+</div>`;
   }
   elDetail.innerHTML = `
     <button class="d-back" aria-label="Retour">←</button>
@@ -1375,7 +1386,7 @@ const elCocktailGrid = document.getElementById('cocktail-grid');
 const elCocktailDetail = document.getElementById('cocktail-detail');
 
 const MODE_GROUPS = {
-  regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb'] },
+  regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af'] },
   ustensiles:      { subs: ['airfryer','thermomix'] },
   aperitif:        { subs: ['tartinades','wraps'] },
   boissons:        { subs: ['smoothies','milkshakes'] },
@@ -1385,6 +1396,8 @@ const SUB_TAB_LABELS = {
   corse:'🏝️ Corse', espagne:'🇪🇸 Espagne', portugal:'🇵🇹 Portugal',
   italie:'🇮🇹 Italie', grece:'🇬🇷 Grèce', france:'🇫🇷 France',
   japon:'🇯🇵 Japon', asie:'🍜 Asie', maghreb:'🫖 Maghreb',
+  allemagne:'🇩🇪 Allemagne', gb:'🇬🇧 Grande-Bretagne', australie:'🇦🇺 Australie',
+  bresil:'🇧🇷 Brésil', argentine:'🇦🇷 Argentine', af:'🌍 Afrique',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix',
   tartinades:'🥖 Tartinades', wraps:'🌮 Wraps',
   smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes',
@@ -1395,6 +1408,8 @@ const MODE_CAT = {
   corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal',
   italie: 'Italie', grece: 'Grèce', france: 'France',
   japon: 'Japon', asie: 'Asie', maghreb: 'Maghreb',
+  allemagne: 'Allemagne', gb: 'Grande-Bretagne', australie: 'Australie',
+  bresil: 'Brésil', argentine: 'Argentine', af: 'Afrique', monde: 'Monde',
   sauces: 'Sauce', tartinades: 'Tartinade', techniques: 'Technique',
   wraps: 'Wrap', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
 };
