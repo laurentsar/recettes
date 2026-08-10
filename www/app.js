@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.58';
+const APP_VERSION = '2.59';
 
 let ALL = [];
 let BASE = [];
@@ -1685,6 +1685,127 @@ async function analyzeFridgeImage(base64, mimeType){
   catch(e){ return []; }
 }
 
+/* ---------- batch cooking ---------- */
+let batchSel = new Set(JSON.parse(localStorage.getItem('batchSelection') || '[]'));
+function saveBatchSel(){ localStorage.setItem('batchSelection', JSON.stringify([...batchSel])); }
+let _batchTab = 'sel';
+
+function openBatch(){
+  document.getElementById('batch').hidden = false;
+  document.body.style.overflow = 'hidden';
+  _batchTab = 'sel';
+  _batchApplyTab();
+  renderBatchSel();
+}
+function closeBatch(){ document.getElementById('batch').hidden = true; document.body.style.overflow = ''; }
+
+function _batchApplyTab(){
+  document.querySelectorAll('.batch-tab').forEach(b=> b.classList.toggle('active', b.dataset.btab === _batchTab));
+  document.getElementById('batch-sel-pane').hidden     = _batchTab !== 'sel';
+  document.getElementById('batch-courses-pane').hidden = _batchTab !== 'courses';
+  document.getElementById('batch-cuisson-pane').hidden = _batchTab !== 'cuisson';
+}
+
+function switchBatchTab(tab){
+  _batchTab = tab;
+  _batchApplyTab();
+  if (tab === 'courses') renderBatchCourses();
+  else if (tab === 'cuisson') renderBatchCuisson();
+  else renderBatchSel();
+}
+
+function updateBatchBtn(){
+  const btn = document.getElementById('batch-btn');
+  if (btn) btn.classList.toggle('has-sel', batchSel.size > 0);
+}
+
+function renderBatchSel(){
+  const pane = document.getElementById('batch-sel-pane');
+  if (!pane) return;
+  if (!ALL.length){ pane.innerHTML = '<div class="batch-empty">Aucune recette chargée.</div>'; return; }
+  pane.innerHTML = `<div class="batch-sel-grid">${
+    ALL.map(r=>{
+      const isSel = batchSel.has(String(r.id));
+      const img = r.img
+        ? `<img class="thumb" src="${esc(r.img)}" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentElement.innerHTML='<div class=ph>🍲</div>'">`
+        : `<div class="ph">🍲</div>`;
+      return `<div class="batch-rcard-wrap">
+        <div class="batch-rcard${isSel?' sel':''}" data-bid="${esc(String(r.id))}">
+          ${img}
+          <div class="info">
+            <div class="rt">${esc(r.t)}</div>
+            ${r.min?`<div class="meta">⏱️ ${r.min} min</div>`:''}
+          </div>
+        </div>
+        <div class="batch-chk">✓</div>
+      </div>`;
+    }).join('')
+  }</div>`;
+  pane.querySelectorAll('.batch-rcard').forEach(card=>{
+    card.addEventListener('click', ()=>{
+      const bid = card.dataset.bid;
+      if (batchSel.has(bid)) batchSel.delete(bid); else batchSel.add(bid);
+      saveBatchSel(); updateBatchBtn();
+      card.classList.toggle('sel', batchSel.has(bid));
+      const chk = card.parentElement.querySelector('.batch-chk');
+      if (chk) chk.style.opacity = batchSel.has(bid) ? '1' : '0';
+    });
+  });
+}
+
+function renderBatchCourses(){
+  const pane = document.getElementById('batch-courses-pane');
+  if (!pane) return;
+  if (!batchSel.size){
+    pane.innerHTML = '<div class="batch-empty">Sélectionne des recettes dans l\'onglet 📋 Sélection pour voir la liste de courses.</div>';
+    return;
+  }
+  const selected = [...batchSel].map(id=> ALL.find(r=> String(r.id)===id)).filter(Boolean);
+  let totalIngs = 0;
+  const byRecipeHtml = selected.map(r=>{
+    const ings = r.ing || [];
+    totalIngs += ings.length;
+    const ingsHtml = ings.map(i=>`<li data-k="${esc(i)}"><span class="box"></span><span>${esc(i)}</span></li>`).join('');
+    return `<div class="batch-ing-section">
+      <div class="batch-ing-title">${esc(r.t)}${r.min?` <span style="font-weight:400;font-size:.85em;color:var(--muted)">⏱️ ${r.min} min</span>`:''}${r.serv?` <span style="font-weight:400;font-size:.85em;color:var(--muted)">· 🍽️ ${r.serv} pers.</span>`:''}</div>
+      <ul class="ing" style="margin:0">${ingsHtml}</ul>
+    </div>`;
+  }).join('');
+  pane.innerHTML = `<div class="batch-body">
+    <p style="color:var(--muted);font-size:.85em;margin:0 0 16px">${selected.length} recette${selected.length>1?'s':''} · ${totalIngs} ingrédient${totalIngs>1?'s':''} au total</p>
+    ${byRecipeHtml}
+  </div>`;
+  pane.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click', ()=> li.classList.toggle('done')));
+}
+
+function renderBatchCuisson(){
+  const pane = document.getElementById('batch-cuisson-pane');
+  if (!pane) return;
+  if (!batchSel.size){
+    pane.innerHTML = '<div class="batch-empty">Sélectionne des recettes dans l\'onglet 📋 Sélection pour organiser la cuisson.</div>';
+    return;
+  }
+  const selected = [...batchSel].map(id=> ALL.find(r=> String(r.id)===id)).filter(Boolean);
+  selected.sort((a,b)=> (a.min||0) - (b.min||0));
+  const html = selected.map((r, i)=>{
+    const steps = splitSteps(r.steps);
+    return `<div class="batch-cook-card">
+      <div class="batch-cook-card-title">
+        <span class="batch-cook-order">${i+1}</span>
+        <span>${esc(r.t)}</span>
+      </div>
+      ${(r.min||r.serv)?`<div class="batch-cook-meta">${r.min?'⏱️ '+r.min+' min':''}${r.serv?' · 🍽️ '+r.serv+' pers.':''}</div>`:''}
+      ${steps.length
+        ? `<button class="batch-cook-start" data-bid="${esc(String(r.id))}">🍳 Lancer la cuisson guidée</button>`
+        : '<p style="color:var(--muted);font-size:.85em;margin:0">Aucune étape de préparation</p>'}
+    </div>`;
+  }).join('');
+  pane.innerHTML = `<div class="batch-body">${html}</div>`;
+  pane.querySelectorAll('.batch-cook-start').forEach(btn=>{
+    btn.addEventListener('click', ()=>{ closeBatch(); openCook(btn.dataset.bid); });
+  });
+}
+
 /* ---------- init ---------- */
 let searchTimer;
 async function init(){
@@ -1709,6 +1830,15 @@ async function init(){
   document.getElementById('photos-btn').addEventListener('click', fillFromSources);
   document.getElementById('frigo-btn').addEventListener('click', openFrigo);
   document.getElementById('frigo-back').addEventListener('click', closeFrigo);
+  document.getElementById('batch-btn').addEventListener('click', openBatch);
+  document.getElementById('batch-back').addEventListener('click', closeBatch);
+  document.getElementById('batch-clear').addEventListener('click', ()=>{
+    batchSel.clear(); saveBatchSel(); updateBatchBtn(); renderBatchSel();
+  });
+  document.querySelectorAll('.batch-tab').forEach(btn=>{
+    btn.addEventListener('click', ()=> switchBatchTab(btn.dataset.btab));
+  });
+  updateBatchBtn();
   document.getElementById('settings-btn').addEventListener('click', openSettings);
   document.getElementById('settings-back').addEventListener('click', closeSettings);
   document.getElementById('check-update-btn').addEventListener('click', checkUpdateNow);
@@ -1747,6 +1877,7 @@ async function init(){
     else if(!elImport.hidden) closeImport();
     else if(!document.getElementById('frigo').hidden) closeFrigo();
     else if(!document.getElementById('settings').hidden) closeSettings();
+    else if(!document.getElementById('batch').hidden) closeBatch();
     else if(!elDetail.hidden) closeDetail();
   });
   setupAndroidBack();
@@ -1765,6 +1896,7 @@ function setupAndroidBack(){
     ['cook',    closeCook],
     ['frigo',    closeFrigo],
     ['settings', closeSettings],
+    ['batch',    closeBatch],
     ['detail',   closeDetail],
   ];
   const isOpen   = id => { const el = document.getElementById(id); return !!el && !el.hidden; };
