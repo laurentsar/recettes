@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.65';
+const APP_VERSION = '2.68';
 
 let ALL = [];
 let BASE = [];
@@ -1853,6 +1853,203 @@ function renderPanierGrid(){
   });
 }
 
+/* ---------- planning semaine ---------- */
+let mealPlan = JSON.parse(localStorage.getItem('mealPlan') || '{}');
+let planChecked = JSON.parse(localStorage.getItem('planChecked') || '{}');
+let planWeekOffset = 0;
+let planPickerSlot = null;
+let _planTab = 'week';
+function saveMealPlan(){ localStorage.setItem('mealPlan', JSON.stringify(mealPlan)); }
+function savePlanChecked(){ localStorage.setItem('planChecked', JSON.stringify(planChecked)); }
+
+function getMondayOfWeek(offset){
+  const now = new Date();
+  const day = now.getDay();
+  const diff = (day === 0 ? -6 : 1 - day);
+  return new Date(now.getFullYear(), now.getMonth(), now.getDate() + diff + offset * 7);
+}
+function dateKey(d){ return d.toISOString().slice(0,10); }
+
+function openPlan(){
+  planWeekOffset = 0;
+  _planTab = 'week';
+  document.getElementById('plan').hidden = false;
+  switchPlanTab('week');
+}
+function closePlan(){ document.getElementById('plan').hidden = true; }
+
+function switchPlanTab(tab){
+  _planTab = tab;
+  document.querySelectorAll('.plan-tab').forEach(b=> b.classList.toggle('active', b.dataset.ptab === tab));
+  document.getElementById('plan-week-pane').hidden = tab !== 'week';
+  document.getElementById('plan-courses-pane').hidden = tab !== 'courses';
+  if (tab === 'week') renderPlanWeek(); else renderPlanCourses();
+}
+
+const PLAN_SHORT = ['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
+
+function renderPlanWeek(){
+  const pane = document.getElementById('plan-week-pane');
+  if (!pane) return;
+  const mon = getMondayOfWeek(planWeekOffset);
+  const end = new Date(mon); end.setDate(mon.getDate() + 6);
+  const fmt = d => d.toLocaleDateString('fr-FR', {day:'numeric', month:'short'});
+  document.getElementById('plan-week-label').textContent = `${fmt(mon)} – ${fmt(end)}`;
+  const todayKey = dateKey(new Date());
+  let html = '<div class="plan-grid">';
+  for (let i = 0; i < 7; i++){
+    const d = new Date(mon); d.setDate(mon.getDate() + i);
+    const dk = dateKey(d);
+    const slots = mealPlan[dk] || {};
+    html += `<div class="plan-day${dk===todayKey?' today':''}">
+      <div class="plan-day-name">${PLAN_SHORT[i]} <span class="plan-day-num">${d.getDate()}</span></div>
+      <div class="plan-slots">
+        ${planSlotHtml(dk,'lunch',slots.lunch,'🍽️')}
+        ${planSlotHtml(dk,'dinner',slots.dinner,'🌙')}
+      </div>
+    </div>`;
+  }
+  html += '</div>';
+  pane.innerHTML = html;
+  pane.querySelectorAll('.plan-add-btn').forEach(btn=>{
+    btn.addEventListener('click', ()=> openPlanPicker(btn.dataset.date, btn.dataset.meal));
+  });
+  pane.querySelectorAll('.plan-slot-clear').forEach(btn=>{
+    btn.addEventListener('click', (e)=>{
+      e.stopPropagation();
+      const {date, meal} = btn.dataset;
+      if (!mealPlan[date]) return;
+      delete mealPlan[date][meal];
+      if (!mealPlan[date].lunch && !mealPlan[date].dinner) delete mealPlan[date];
+      saveMealPlan(); renderPlanWeek();
+    });
+  });
+  pane.querySelectorAll('.plan-slot-recipe').forEach(card=>{
+    card.addEventListener('click', ()=>{ closePlan(); openDetail(card.dataset.rid); });
+  });
+}
+
+function planSlotHtml(date, meal, rid, emoji){
+  if (rid){
+    const r = ALL.find(x=> String(x.id) === rid);
+    if (r){
+      const imgHtml = r.img
+        ? `<div class="plan-slot-img"><img src="${esc(r.img)}" referrerpolicy="no-referrer" loading="lazy"></div>`
+        : '';
+      return `<div class="plan-slot plan-slot--filled plan-slot-recipe" data-rid="${esc(rid)}">
+        <div class="plan-slot-emoji">${emoji}</div>
+        ${imgHtml}
+        <div class="plan-slot-name">${esc(r.t)}</div>
+        <button class="plan-slot-clear" data-date="${esc(date)}" data-meal="${meal}" aria-label="Supprimer">×</button>
+      </div>`;
+    }
+  }
+  return `<button class="plan-slot plan-slot--empty plan-add-btn" data-date="${esc(date)}" data-meal="${meal}">
+    <span class="plan-slot-emoji">${emoji}</span>
+    <span class="plan-slot-plus">+</span>
+  </button>`;
+}
+
+function renderPlanCourses(){
+  const pane = document.getElementById('plan-courses-pane');
+  if (!pane) return;
+  const mon = getMondayOfWeek(planWeekOffset);
+  const assigned = [];
+  for (let i = 0; i < 7; i++){
+    const d = new Date(mon); d.setDate(mon.getDate() + i);
+    const dk = dateKey(d);
+    const slots = mealPlan[dk] || {};
+    for (const meal of ['lunch','dinner']){
+      if (slots[meal]){
+        const r = ALL.find(x=> String(x.id) === slots[meal]);
+        if (r) assigned.push({r, day: PLAN_SHORT[i], meal, dk});
+      }
+    }
+  }
+  if (!assigned.length){
+    pane.innerHTML = '<div class="plan-empty">Assigne des recettes dans l\'onglet 📅 Semaine pour voir la liste de courses.</div>';
+    return;
+  }
+  const weekKey = `w${planWeekOffset}_${dateKey(mon)}`;
+  const checked = planChecked[weekKey] || {};
+  const byRecipe = assigned.map(({r, day, meal})=>{
+    const icon = meal === 'lunch' ? '🍽️' : '🌙';
+    const ings = (r.ing||[]).map((ing, i)=>{
+      const ck = `${r.id}_${i}`;
+      return `<li class="plan-ing-item${checked[ck]?' done':''}" data-ck="${esc(ck)}"><span class="plan-ing-check"></span><span>${esc(ing)}</span></li>`;
+    }).join('');
+    return `<div class="plan-ing-section">
+      <div class="plan-ing-title">${icon} ${esc(day)} — ${esc(r.t)}</div>
+      <ul class="plan-ing-list">${ings}</ul>
+    </div>`;
+  }).join('');
+  pane.innerHTML = `<div class="plan-courses-body">
+    <div class="plan-courses-actions">
+      <button class="plan-copy-btn" id="plan-copy-btn">📋 Copier</button>
+      <button class="plan-uncheck-btn" id="plan-uncheck-btn">↺ Tout décocher</button>
+    </div>
+    ${byRecipe}
+  </div>`;
+  pane.querySelectorAll('.plan-ing-item').forEach(li=>{
+    li.addEventListener('click', ()=>{
+      const ck = li.dataset.ck;
+      if (!planChecked[weekKey]) planChecked[weekKey] = {};
+      if (planChecked[weekKey][ck]) delete planChecked[weekKey][ck];
+      else planChecked[weekKey][ck] = 1;
+      savePlanChecked();
+      li.classList.toggle('done', !!planChecked[weekKey][ck]);
+    });
+  });
+  document.getElementById('plan-copy-btn').addEventListener('click', ()=>{
+    const text = assigned.map(({r, day, meal})=>{
+      const label = meal === 'lunch' ? 'Midi' : 'Soir';
+      const ings = (r.ing||[]).map(i=> `  - ${i}`).join('\n');
+      return `${day} ${label} — ${r.t}\n${ings}`;
+    }).join('\n\n');
+    navigator.clipboard.writeText(text).then(()=> toast('Liste copiée ✓')).catch(()=> toast('Copie impossible'));
+  });
+  document.getElementById('plan-uncheck-btn').addEventListener('click', ()=>{
+    delete planChecked[weekKey]; savePlanChecked(); renderPlanCourses();
+  });
+}
+
+function openPlanPicker(date, meal){
+  planPickerSlot = {date, meal};
+  const el = document.getElementById('plan-picker');
+  if (!el) return;
+  el.hidden = false;
+  document.getElementById('plan-picker-search').value = '';
+  renderPlanPicker('');
+}
+function closePlanPicker(){
+  planPickerSlot = null;
+  const el = document.getElementById('plan-picker');
+  if (el) el.hidden = true;
+}
+function renderPlanPicker(q){
+  const grid = document.getElementById('plan-picker-grid');
+  if (!grid) return;
+  const lq = q.trim().toLowerCase();
+  const list = lq
+    ? ALL.filter(r=> (r.t||'').toLowerCase().includes(lq) || (r.ing||[]).some(i=> i.toLowerCase().includes(lq)))
+    : ALL;
+  grid.innerHTML = list.slice(0, 80).map(r=>{
+    const img = r.img
+      ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.innerHTML='<div class=ph>🍲</div>'">`
+      : `<div class="ph">🍲</div>`;
+    return `<div class="plan-pick-card" data-pid="${esc(String(r.id))}">${img}<div class="plan-pick-name">${esc(r.t)}</div></div>`;
+  }).join('');
+  grid.querySelectorAll('.plan-pick-card').forEach(card=>{
+    card.addEventListener('click', ()=>{
+      if (!planPickerSlot) return;
+      const {date, meal} = planPickerSlot;
+      if (!mealPlan[date]) mealPlan[date] = {};
+      mealPlan[date][meal] = card.dataset.pid;
+      saveMealPlan(); closePlanPicker(); renderPlanWeek();
+    });
+  });
+}
+
 /* ---------- batch cooking ---------- */
 let batchSel = new Set(JSON.parse(localStorage.getItem('batchSelection') || '[]'));
 function saveBatchSel(){ localStorage.setItem('batchSelection', JSON.stringify([...batchSel])); }
@@ -2026,6 +2223,19 @@ async function init(){
     btn.addEventListener('click', ()=> addPanierSeason(btn.dataset.season));
   });
   updatePanierBtn();
+  document.getElementById('plan-btn').addEventListener('click', openPlan);
+  document.getElementById('plan-back').addEventListener('click', closePlan);
+  document.getElementById('plan-prev').addEventListener('click', ()=>{
+    planWeekOffset--; if(_planTab==='week') renderPlanWeek(); else renderPlanCourses();
+  });
+  document.getElementById('plan-next').addEventListener('click', ()=>{
+    planWeekOffset++; if(_planTab==='week') renderPlanWeek(); else renderPlanCourses();
+  });
+  document.querySelectorAll('.plan-tab').forEach(btn=>{
+    btn.addEventListener('click', ()=> switchPlanTab(btn.dataset.ptab));
+  });
+  document.getElementById('plan-picker-close').addEventListener('click', closePlanPicker);
+  document.getElementById('plan-picker-search').addEventListener('input', (e)=> renderPlanPicker(e.target.value));
   document.getElementById('batch-btn').addEventListener('click', openBatch);
   document.getElementById('batch-back').addEventListener('click', closeBatch);
   document.getElementById('batch-clear').addEventListener('click', ()=>{
@@ -2074,6 +2284,8 @@ async function init(){
     else if(!elImport.hidden) closeImport();
     else if(!document.getElementById('frigo').hidden) closeFrigo();
     else if(!document.getElementById('settings').hidden) closeSettings();
+    else if(!document.getElementById('plan-picker').hidden) closePlanPicker();
+    else if(!document.getElementById('plan').hidden) closePlan();
     else if(!document.getElementById('batch').hidden) closeBatch();
     else if(!document.getElementById('panier').hidden) closePanier();
     else if(!elDetail.hidden) closeDetail();
@@ -2087,16 +2299,18 @@ init();
 function setupAndroidBack(){
   // Du plus prioritaire (modale au-dessus) au moins prioritaire (fiche).
   const CLOSERS = [
-    ['catpick', closeCatPick],
-    ['ingpick', closeIngPick],
-    ['edit',    closeEdit],
-    ['import',  closeImport],
-    ['cook',    closeCook],
-    ['frigo',    closeFrigo],
-    ['settings', closeSettings],
-    ['batch',    closeBatch],
-    ['panier',   closePanier],
-    ['detail',   closeDetail],
+    ['catpick',      closeCatPick],
+    ['ingpick',      closeIngPick],
+    ['edit',         closeEdit],
+    ['import',       closeImport],
+    ['cook',         closeCook],
+    ['frigo',        closeFrigo],
+    ['settings',     closeSettings],
+    ['plan-picker',  closePlanPicker],
+    ['plan',         closePlan],
+    ['batch',        closeBatch],
+    ['panier',       closePanier],
+    ['detail',       closeDetail],
   ];
   const isOpen   = id => { const el = document.getElementById(id); return !!el && !el.hidden; };
   const anyOpen  = () => CLOSERS.some(([id]) => isOpen(id));

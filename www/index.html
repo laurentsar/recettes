@@ -19,6 +19,7 @@
       <button id="frigo-btn" title="Analyser le frigo" aria-label="Frigo">🧊</button>
       <button id="batch-btn" title="Batch cooking" aria-label="Batch cooking">🍱</button>
       <button id="panier-btn" title="Panier légumes" aria-label="Panier légumes">🧺</button>
+      <button id="plan-btn" title="Planning des repas" aria-label="Planning">📅</button>
       <div class="more-wrap">
         <button id="more-btn" title="Plus d'options" aria-label="Plus">⋯</button>
         <div class="more-menu" id="more-menu" hidden>
@@ -119,6 +120,33 @@
   </div>
   <div id="catpick" class="catpick-modal" hidden></div>
   <div id="import" class="editview" hidden></div>
+  <div id="plan" class="plan-panel" hidden>
+    <div class="plan-head">
+      <button class="plan-head-back" id="plan-back" aria-label="Retour">←</button>
+      <div class="plan-head-title">📅 Planning</div>
+      <div class="plan-week-nav">
+        <button id="plan-prev" class="plan-nav-btn" aria-label="Semaine précédente">‹</button>
+        <span id="plan-week-label"></span>
+        <button id="plan-next" class="plan-nav-btn" aria-label="Semaine suivante">›</button>
+      </div>
+    </div>
+    <div class="plan-tabs">
+      <button class="plan-tab active" data-ptab="week">📅 Semaine</button>
+      <button class="plan-tab" data-ptab="courses">🛒 Courses</button>
+    </div>
+    <div id="plan-week-pane" class="plan-pane"></div>
+    <div id="plan-courses-pane" class="plan-pane" hidden></div>
+  </div>
+  <div id="plan-picker" class="plan-picker-overlay" hidden>
+    <div class="plan-picker-sheet">
+      <div class="plan-picker-head">
+        <span class="plan-picker-title">Choisir une recette</span>
+        <button id="plan-picker-close" class="plan-picker-close">×</button>
+      </div>
+      <input id="plan-picker-search" type="search" placeholder="Rechercher…" autocomplete="off" class="plan-picker-search" />
+      <div id="plan-picker-grid" class="plan-picker-grid"></div>
+    </div>
+  </div>
   <div id="toast" class="toast" hidden></div>
   <div id="settings" class="settings-panel" hidden>
     <div class="settings-head">
@@ -139,7 +167,7 @@
   </div>
 
   <script src="app.js"></script>
-  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.65';</script>
+  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.68';</script>
   <script src="update-check.js" defer></script>
   <script>window.BACKUP_APP = 'recettes-app'; window.BACKUP_SKIP = [/^recipesData$/];</script>
   <script src="autobackup.js"></script>
