@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.70';
+const APP_VERSION = '2.72';
 
 let ALL = [];
 let BASE = [];
@@ -8,7 +8,7 @@ let EXTRA = { delete: [], overrides: [], recipes: [] };
 let cats = [];
 let catCount = {};
 // state.cats = liste des catégories cochées dans le filtre (vide = toutes) ; state.fav = filtre favoris.
-let state = { q:'', cats:[], fav:false, ing:null };
+let state = { q:'', cats:[], fav:false, ing:null, diet:null };
 const favs = new Set(JSON.parse(localStorage.getItem('recetteFavs') || '[]'));
 let edits = JSON.parse(localStorage.getItem('recetteEdits') || '{}');
 let imports = JSON.parse(localStorage.getItem('recetteImports') || '[]');
@@ -344,6 +344,44 @@ function matchKw(r, kw){
   if (kw.indexOf(' ')>=0 || kw.indexOf('-')>=0){ return (' '+r._il+' ').indexOf(' '+flat(kw)+' ')>=0; }
   return r._iw.some(w => w===kw || w===kw+'s' || w===kw+'x' || (kw.length>=4 && w.startsWith(kw)));
 }
+/* ---------- filtres diététiques (Santé) ---------- */
+const SANTE_SUBS = new Set(['sansgluten','proteines','antiinflamm','vegetarien','vegan','keto','rapide']);
+
+const _GLUTEN_KWS = ['pates','spaghetti','tagliatelle','linguine','penne','fusilli','macaroni','lasagne','semoule','boulgour','couscous','chapelure','biscottes','biscuit','epeautre','seigle','pain','ble','orge','avoine'];
+const _GLUTEN_SAFE_FARINE = ['riz','mais','sarrasin','coco','pois','chataigne','manioc','quinoa','teff','sorgho','lupin','lentille','feve','potiron'];
+
+const _PROTEIN_KWS = ['poulet','dinde','boeuf','veau','porc','agneau','canard','lapin','jambon','oeuf','saumon','thon','cabillaud','dorade','sardine','crevette','moule','langoustine','tofu','lentille','pois chiche','fromage','fromage blanc','quinoa','edamame','tempeh','seitan'];
+
+const _ANTIINFL_STRONG = ['curcuma','gingembre','saumon','sardine','maquereau','noix','amande','avocat','epinard','brocoli','myrtille','cerise','framboise','baie'];
+const _ANTIINFL_SUPPORT = ['ail','oignon','tomate','citron','olive','thym','romarin','cumin','cannelle'];
+
+const _MEAT_KWS = ['poulet','dinde','boeuf','veau','porc','agneau','canard','lapin','jambon','lardons','saucisse','chorizo','merguez','steak','viande','foie','rognon','magret','pigeon','pintade','caille','perdreau'];
+const _FISH_KWS = ['thon','saumon','cabillaud','sardine','maquereau','anchois','crevette','moule','palourde','homard','crabe','poisson','lotte','langoustine','seiche','poulpe','calamar','merlu','daurade','dorade'];
+
+const _KETO_INCLUDE = ['avocat','oeuf','fromage','amande','noix','saumon','boeuf','poulet','agneau','porc','canard','lardons','beurre','creme','parmesan','gruyere'];
+const _KETO_EXCLUDE = ['pates','pain','riz','pomme de terre','farine','sucre','cereale','mais','haricot','lentille','pois chiche','biscuit','couscous','semoule','boulgour','miel','sirop','banane','dattes'];
+
+function dietFilter(r){
+  if (!state.diet) return true;
+  const hasKw = kw => matchKw(r, kw);
+  if (state.diet === 'sansgluten'){
+    if (_GLUTEN_KWS.some(hasKw)) return false;
+    const ings = (r.ing||[]).map(i => flat(i));
+    if (ings.some(i => i.includes('farine') && !_GLUTEN_SAFE_FARINE.some(sf => i.includes(sf)))) return false;
+    return true;
+  }
+  if (state.diet === 'proteines') return _PROTEIN_KWS.some(hasKw);
+  if (state.diet === 'antiinflamm') return _ANTIINFL_STRONG.some(hasKw) || _ANTIINFL_SUPPORT.filter(hasKw).length >= 3;
+  if (state.diet === 'vegetarien') return !_MEAT_KWS.some(hasKw) && !_FISH_KWS.some(hasKw);
+  if (state.diet === 'vegan'){
+    const animal = [..._MEAT_KWS, ..._FISH_KWS, 'oeuf','lait','creme','beurre','fromage','yaourt','miel','parmesan','emmental','gruyere','ricotta','mozzarella','mascarpone'];
+    return !animal.some(hasKw);
+  }
+  if (state.diet === 'keto') return _KETO_INCLUDE.some(hasKw) && !_KETO_EXCLUDE.some(hasKw);
+  if (state.diet === 'rapide') return !!(r.min && r.min <= 30);
+  return true;
+}
+
 let ingIndex = [];
 function buildIngredientIndex(){
   ingIndex = INGR.map(kw=>({kw, n: ALL.reduce((a,r)=> a + (matchKw(r,kw)?1:0), 0)}))
@@ -358,6 +396,7 @@ function filtered(){
     if (state.fav && !favs.has(r.id)) return false;
     if (state.cats.length){ const cl = catList(r); if(!state.cats.some(c=> cl.includes(c))) return false; }
     if (state.ing && !matchKw(r, state.ing)) return false;
+    if (!dietFilter(r)) return false;
     if (!q) return true;
     if (norm(r.t).includes(q)) return true;
     if (norm(r.cat).includes(q)) return true;
@@ -1405,6 +1444,7 @@ const MODE_GROUPS = {
   aperitif:        { subs: ['tartinades','wraps'] },
   boissons:        { subs: ['smoothies','milkshakes'] },
   accompagnements: { subs: ['sauces','marinades'] },
+  sante:           { subs: ['sansgluten','proteines','antiinflamm','vegetarien','vegan','keto','rapide'] },
 };
 const SUB_TAB_LABELS = {
   corse:'🏝️ Corse', espagne:'🇪🇸 Espagne', portugal:'🇵🇹 Portugal',
@@ -1416,6 +1456,8 @@ const SUB_TAB_LABELS = {
   tartinades:'🥖 Tartinades', wraps:'🌮 Wraps',
   smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes',
   sauces:'🥣 Sauces', marinades:'🌿 Marinades',
+  sansgluten:'🌾 Sans gluten', proteines:'💪 Hyper protéiné', antiinflamm:'🌿 Anti-inflammatoire',
+  vegetarien:'🥦 Végétarien', vegan:'🌱 Vegan', keto:'🥑 Keto', rapide:'⚡ Rapide (≤30 min)',
 };
 const MODE_CAT = {
   airfryer: 'Airfryer', thermomix: 'Thermomix',
@@ -1442,6 +1484,8 @@ function showSubTabs(group){
 
 function applyLeafMode(leaf){
   const isCocktails = leaf === 'cocktails';
+  const isDiet = SANTE_SUBS.has(leaf);
+  if (!isDiet) state.diet = null;
   elCocktailGrid.hidden = !isCocktails;
   document.getElementById('grid').hidden = isCocktails;
   document.getElementById('status').hidden = isCocktails;
@@ -1451,6 +1495,14 @@ function applyLeafMode(leaf){
     document.getElementById('daily').hidden = true;
     document.getElementById('feed').hidden = true;
     loadCocktails();
+  } else if (isDiet){
+    state.cats = [];
+    state.diet = leaf;
+    document.getElementById('cats').hidden = true;
+    document.getElementById('daily').hidden = true;
+    document.getElementById('feed').hidden = true;
+    elSearch.hidden = false;
+    renderGrid();
   } else if (MODE_CAT[leaf]){
     state.cats = [MODE_CAT[leaf]];
     document.getElementById('cats').hidden = true;
