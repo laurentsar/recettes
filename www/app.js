@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.69';
+const APP_VERSION = '2.70';
 
 let ALL = [];
 let BASE = [];
@@ -271,7 +271,10 @@ function seasonalHits(r, m){
   const kws = SEASON[m] || [];
   const text = norm((r.ing||[]).join(' ') + ' ' + (r.t||''));
   const hits = [];
-  for (const k of kws){ if (text.includes(k) && !hits.includes(k)) hits.push(k); }
+  for (const k of kws){
+    const re = new RegExp('\\b' + k + '\\b');
+    if (re.test(text) && !hits.includes(k)) hits.push(k);
+  }
   return hits;
 }
 function todayKey(){ const d=new Date(); return d.getFullYear()*10000 + (d.getMonth()+1)*100 + d.getDate(); }
