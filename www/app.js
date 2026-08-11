@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.72';
+const APP_VERSION = '2.73';
 
 let ALL = [];
 let BASE = [];
@@ -382,6 +382,22 @@ function dietFilter(r){
   return true;
 }
 
+function checkDiet(r, diet){
+  const hasKw = kw => matchKw(r, kw);
+  if (diet === 'sansgluten'){
+    if (_GLUTEN_KWS.some(hasKw)) return false;
+    const ings = (r.ing||[]).map(i => flat(i));
+    return !ings.some(i => i.includes('farine') && !_GLUTEN_SAFE_FARINE.some(sf => i.includes(sf)));
+  }
+  if (diet === 'proteines') return _PROTEIN_KWS.some(hasKw);
+  if (diet === 'antiinflamm') return _ANTIINFL_STRONG.some(hasKw) || _ANTIINFL_SUPPORT.filter(hasKw).length >= 3;
+  if (diet === 'vegetarien') return !_MEAT_KWS.some(hasKw) && !_FISH_KWS.some(hasKw);
+  if (diet === 'vegan') return ![..._MEAT_KWS,..._FISH_KWS,'oeuf','lait','creme','beurre','fromage','yaourt','miel','parmesan','emmental','gruyere','ricotta','mozzarella','mascarpone'].some(hasKw);
+  if (diet === 'keto') return _KETO_INCLUDE.some(hasKw) && !_KETO_EXCLUDE.some(hasKw);
+  if (diet === 'rapide') return !!(r.min && r.min <= 30);
+  return false;
+}
+
 let ingIndex = [];
 function buildIngredientIndex(){
   ingIndex = INGR.map(kw=>({kw, n: ALL.reduce((a,r)=> a + (matchKw(r,kw)?1:0), 0)}))
@@ -620,7 +636,10 @@ let _gList = [], _gPage = 0, _gObs = null;
 function renderGrid(){
   if(appMode === 'cocktails') return;
   _gList = filtered(); _gPage = 0;
-  elStatus.textContent = `${_gList.length} recette${_gList.length>1?'s':''}` + (state.fav?' en favoris':'');
+  const _dietLabel = {sansgluten:'sans gluten',proteines:'riches en protéines',antiinflamm:'anti-inflammatoires',vegetarien:'végétariennes',vegan:'vegan',keto:'keto',rapide:'rapides (≤30 min)'}[state.diet] || '';
+  elStatus.textContent = `${_gList.length} recette${_gList.length>1?'s':''}`
+    + (_dietLabel ? ` ${_dietLabel}` : '')
+    + (state.fav?' en favoris':'');
   if(_gObs){ _gObs.disconnect(); _gObs=null; }
   elGrid.innerHTML = '';
   _gridAppendPage();
@@ -657,11 +676,18 @@ function openDetail(id){
     ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph>🍲</div>'">`
     : `<div class="ph">🍲</div>`;
   const catLabel = catList(r).length ? `${esc(catList(r).join(' · '))} ✏️` : '+ Catégorie';
+  const _dietTags = [
+    ['sansgluten','🌾','Sans gluten'], ['proteines','💪','Protéines'],
+    ['antiinflamm','🌿','Anti-inflam.'], ['vegetarien','🥦','Végétarien'],
+    ['vegan','🌱','Vegan'], ['keto','🥑','Keto'],
+    ['rapide','⚡','≤30 min'],
+  ].filter(([key])=> checkDiet(r, key)).map(([,ico,lbl])=> `<span class="tag tag-diet">${ico} ${lbl}</span>`);
   const tags = [
     `<button class="tag cat tag-cat-btn" title="${catList(r).length?'Modifier les catégories':'Ajouter une catégorie'}">${catLabel}</button>`,
     r.area?`<span class="tag">📍 ${esc(r.area)}</span>`:'',
     r.min?`<span class="tag">⏱️ ${r.min} min</span>`:'',
     r.serv?`<span class="tag">🍽️ ${r.serv} pers.</span>`:'',
+    ..._dietTags,
   ].join('');
   const sk = SEASON[monthNow()] || [];
   const ing = r.ing.length ? `<div class="d-sec">Ingrédients</div><ul class="ing">${
@@ -1456,8 +1482,8 @@ const SUB_TAB_LABELS = {
   tartinades:'🥖 Tartinades', wraps:'🌮 Wraps',
   smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes',
   sauces:'🥣 Sauces', marinades:'🌿 Marinades',
-  sansgluten:'🌾 Sans gluten', proteines:'💪 Hyper protéiné', antiinflamm:'🌿 Anti-inflammatoire',
-  vegetarien:'🥦 Végétarien', vegan:'🌱 Vegan', keto:'🥑 Keto', rapide:'⚡ Rapide (≤30 min)',
+  sansgluten:'🌾 Sans gluten', proteines:'💪 Protéines', antiinflamm:'🌿 Anti-inflam.',
+  vegetarien:'🥦 Végétarien', vegan:'🌱 Vegan', keto:'🥑 Keto', rapide:'⚡ ≤30 min',
 };
 const MODE_CAT = {
   airfryer: 'Airfryer', thermomix: 'Thermomix',
