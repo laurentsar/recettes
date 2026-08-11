@@ -9229,6 +9229,140 @@
       "steps": "Sécher les ailes. Assaisonner de sel, poivre et poudre d'ail.\nFRITURE : 175°C, 12-15 min jusqu'à très croustillantes. OU FOUR : 230°C, 40-45 min avec baking powder pour croustiller.\n\nSAUCE BUFFALO : Fondre le beurre. Ajouter la sauce piquante, vinaigre et Worcestershire. Maintenir chaud.\nTosser les ailes cuites dans la sauce chaude immédiatement.\nSERVIR dans les 5 min avec sauce blue cheese, branches de céleri et carottes.\n\n💡 La qualité de la sauce piquante fait tout — Frank's RedHot est l'originale. Ne pas cuire la sauce longtemps.",
       "img": "https://www.recipetineats.com/tachyon/2019/01/Baked-Buffalo-Wings_0.jpg",
       "url": "https://www.recipetineats.com/truly-crispy-oven-baked-buffalo-wings-my-wings-cookbook/"
+    },
+    {
+      "id": "france:033",
+      "t": "Poularde de Bresse aux Morilles",
+      "cat": "France",
+      "region": "Bourgogne-Franche-Comté",
+      "min": 80,
+      "serv": 4,
+      "desc": "La reine des volailles française mijotée à la crème avec des morilles fraîches — un grand classique de la cuisine bourguignonne.",
+      "ing": [
+        "1 poularde de Bresse (env. 2 kg) découpée en 8 morceaux",
+        "30 g de morilles séchées (ou 150 g fraîches)",
+        "2 échalotes finement ciselées",
+        "20 cl de vin jaune du Jura (ou vin blanc sec)",
+        "40 cl de crème fraîche épaisse",
+        "20 cl de bouillon de volaille",
+        "30 g de beurre",
+        "1 c. à soupe d'huile",
+        "Sel, poivre blanc"
+      ],
+      "steps": [
+        "Si morilles séchées : réhydrater 30 min dans l'eau tiède. Égoutter et conserver le liquide filtré.",
+        "Saler et poivrer les morceaux de poularde. Dorer dans beurre + huile 8-10 min de tous côtés. Réserver.",
+        "Dans la même cocotte, faire revenir les échalotes 2 min. Ajouter les morilles, sauter 3 min.",
+        "Déglacer au vin jaune, racler les sucs. Ajouter le bouillon et le liquide de trempage filtré. Porter à frémissement.",
+        "Remettre la poularde, couvrir et cuire à feu doux 40-45 min.",
+        "Retirer la poularde, réduire la sauce de moitié. Incorporer la crème, épaissir 5 min. Rectifier l'assaisonnement.",
+        "Remettre la poularde dans la sauce. Servir avec des pâtes fraîches ou du riz pilaf."
+      ]
+    },
+    {
+      "id": "france:034",
+      "t": "Les Gaudes (Polenta Bourguignonne au Maïs Grillé)",
+      "cat": "France",
+      "region": "Bourgogne-Franche-Comté",
+      "min": 50,
+      "serv": 4,
+      "desc": "La polenta ancestrale de Bourgogne et Franche-Comté, à base de farine de maïs torréfiée. Servie molle ou grillée en tranches.",
+      "ing": [
+        "250 g de farine de gaudes (farine de maïs torréfiée)",
+        "1 litre d'eau ou de bouillon de légumes",
+        "1 c. à café de sel",
+        "30 g de beurre",
+        "Comté ou gruyère râpé pour servir",
+        "💡 Farine de gaudes disponible en épicerie fine ou en ligne"
+      ],
+      "steps": [
+        "Porter l'eau salée à ébullition dans une casserole à fond épais.",
+        "Verser la farine de gaudes en pluie fine tout en fouettant vigoureusement.",
+        "Réduire à feu très doux. Cuire en remuant constamment 30-40 min jusqu'à texture épaisse se décollant des bords.",
+        "Incorporer le beurre. Servir en polenta molle avec fromage râpé.",
+        "💡 Variante grillée : couler dans un plat huilé, laisser figer, couper en tranches et griller au beurre jusqu'à dorure."
+      ]
+    },
+    {
+      "id": "france:035",
+      "t": "Saucisse de Montbéliard Fumée aux Lentilles",
+      "cat": "France",
+      "region": "Bourgogne-Franche-Comté",
+      "min": 55,
+      "serv": 4,
+      "desc": "La saucisse fumée IGP de Franche-Comté mijotée avec des lentilles vertes. Un plat de terroir réconfortant au caractère boisé incomparable.",
+      "ing": [
+        "4 saucisses de Montbéliard (env. 120 g chacune)",
+        "300 g de lentilles vertes du Puy",
+        "1 oignon piqué de 2 clous de girofle",
+        "2 carottes en brunoise",
+        "2 gousses d'ail",
+        "1 bouquet garni (thym, laurier, persil)",
+        "1 c. à soupe de moutarde de Dijon",
+        "1 c. à soupe de vinaigre de vin rouge",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Rincer les lentilles. Mettre dans une casserole avec 1 litre d'eau froide, oignon, carottes, ail et bouquet garni. Porter à ébullition.",
+        "Cuire 20 min à petit frémissement. Saler en fin de cuisson seulement.",
+        "Piquer les saucisses de Montbéliard. Les pocher 15 min dans l'eau frémissante (ne pas bouillir).",
+        "Égoutter les lentilles, retirer bouquet garni et oignon.",
+        "Assaisonner les lentilles avec moutarde, vinaigre, sel et poivre.",
+        "Servir les lentilles avec les saucisses coupées en biais. Accompagner de moutarde à l'ancienne."
+      ]
+    },
+    {
+      "id": "france:036",
+      "t": "Rissoles Savoyardes",
+      "cat": "France",
+      "region": "Savoie",
+      "min": 90,
+      "serv": 4,
+      "desc": "Chaussons frits traditionnels de Savoie fourrés de viandes et pommes de terre. Un en-cas festif emblématique des marchés savoyards.",
+      "ing": [
+        "PÂTE : 300 g de farine, 150 g de beurre froid en dés, 1 pincée de sel, 70 ml d'eau froide",
+        "FARCE : 200 g de viande cuite hachée (bœuf ou restes de pot-au-feu)",
+        "200 g de pommes de terre cuites écrasées",
+        "1 oignon émincé revenu au beurre",
+        "Persil haché, sel, poivre, muscade",
+        "Huile de friture"
+      ],
+      "steps": [
+        "Pâte brisée : sabler farine + beurre du bout des doigts. Ajouter eau froide progressivement. Former une boule, filmer et reposer 30 min au frais.",
+        "Farce : mélanger viande hachée, pommes de terre écrasées, oignon revenu, persil, sel, poivre et muscade.",
+        "Abaisser la pâte à 3 mm. Découper des disques de 12 cm.",
+        "Déposer 1 c. à soupe bombée de farce au centre. Humecter les bords, replier en demi-lune et souder à la fourchette.",
+        "Frire à 170°C pendant 4-5 min en retournant, jusqu'à dorure uniforme.",
+        "Égoutter sur papier absorbant. Servir chaud avec salade verte."
+      ]
+    },
+    {
+      "id": "france:037",
+      "t": "Caillettes Ardéchoises",
+      "cat": "France",
+      "region": "Ardèche / Drôme",
+      "min": 75,
+      "serv": 6,
+      "desc": "Boulettes de charcuterie artisanale enveloppées dans la crépine, spécialité de l'Ardèche et de la Drôme. Servies chaudes ou froides en charcuterie.",
+      "ing": [
+        "500 g de chair à saucisse",
+        "200 g de foie de porc haché",
+        "200 g d'épinards (ou blettes) blanchis et pressés",
+        "4 gousses d'ail hachées",
+        "1 bouquet de persil haché",
+        "2 c. à soupe d'herbes de Provence",
+        "1 c. à café de 4-épices",
+        "Sel, poivre",
+        "Crépine de porc (trempée dans l'eau froide avant utilisation)"
+      ],
+      "steps": [
+        "Mélanger chair à saucisse, foie haché, épinards pressés et hachés, ail, persil, herbes de Provence et 4-épices. Saler et poivrer généreusement.",
+        "Former des boules de la taille d'une mandarine (env. 150 g chacune).",
+        "Essorer la crépine. Envelopper chaque boule dans un morceau de crépine en la faisant bien adhérer.",
+        "Disposer dans un plat à gratin huilé. Enfourner à 180°C pendant 45-50 min jusqu'à belle coloration dorée.",
+        "Arroser avec le jus de cuisson à mi-cuisson.",
+        "💡 Se conservent 5 jours au frigo. Délicieuses froides en charcuterie avec cornichons et moutarde."
+      ]
     }
   ]
 }
