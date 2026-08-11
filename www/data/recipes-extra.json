@@ -9368,6 +9368,1449 @@
         "💡 Se conservent 5 jours au frigo. Délicieuses froides en charcuterie avec cornichons et moutarde."
       ],
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Caillette_ard%C3%A9choise.jpg/640px-Caillette_ard%C3%A9choise.jpg"
+    },
+    {
+      "id": "arabe:001",
+      "t": "Kabsa (Riz Épicé au Poulet)",
+      "cat": "Monde arabe, Plat",
+      "desc": "Plat national saoudien : riz basmati et poulet cuits dans un bouillon richement épicé, garnis d'amandes et de raisins.",
+      "min": 90,
+      "serv": "4-6 personnes",
+      "ing": [
+        "1 poulet coupé en morceaux",
+        "500 g de riz basmati",
+        "2 oignons",
+        "4 gousses d'ail",
+        "2 tomates",
+        "3 cs de concentré de tomate",
+        "2 cs d'huile",
+        "1 cc de cardamome moulue",
+        "1 cc de cumin moulu",
+        "1 cc de coriandre moulue",
+        "½ cc de cannelle",
+        "½ cc de clou de girofle moulu",
+        "¼ cc de muscade",
+        "sel, poivre",
+        "amandes effilées et raisins secs grillés pour garnir"
+      ],
+      "steps": [
+        "Faire dorer le poulet dans l'huile, réserver.",
+        "Faire revenir oignons et ail, ajouter tomates et concentré.",
+        "Ajouter les épices et le poulet, couvrir d'eau, mijoter 40 min.",
+        "Retirer le poulet, cuire le riz dans ce bouillon 20 min.",
+        "Servir le riz surmonté du poulet, garnir d'amandes et raisins."
+      ]
+    },
+    {
+      "id": "arabe:002",
+      "t": "Mansaf (Agneau au Yaourt Fermenté)",
+      "cat": "Monde arabe, Plat",
+      "desc": "Plat national jordanien : agneau cuit dans un yaourt fermenté (jameed) sur un lit de riz et pain shrak.",
+      "min": 120,
+      "serv": "6 personnes",
+      "ing": [
+        "1 kg d'épaule d'agneau en morceaux",
+        "500 g de riz long",
+        "500 ml de yaourt grec épais",
+        "1 oignon",
+        "3 gousses d'ail",
+        "1 cc de curcuma",
+        "1 cc de cannelle",
+        "1 cc de cardamome",
+        "sel, poivre",
+        "amandes et pignons grillés",
+        "persil frais"
+      ],
+      "steps": [
+        "Cuire l'agneau dans l'eau salée épicée 1 h 30 jusqu'à tendreté.",
+        "Diluer le yaourt avec du bouillon chaud, chauffer sans bouillir.",
+        "Cuire le riz dans le bouillon d'agneau.",
+        "Dresser : riz, agneau, napper de sauce yaourt, garnir de fruits secs."
+      ]
+    },
+    {
+      "id": "arabe:003",
+      "t": "Maqluba (Riz Renversé aux Légumes)",
+      "cat": "Monde arabe, Plat",
+      "desc": "«Renversé» en arabe : légumes frits, viande et riz cuits en couches dans une casserole, puis retournés spectaculairement.",
+      "min": 90,
+      "serv": "4 personnes",
+      "ing": [
+        "500 g de riz basmati",
+        "500 g de poulet ou d'agneau",
+        "2 aubergines",
+        "2 pommes de terre",
+        "2 tomates",
+        "1 oignon",
+        "3 gousses d'ail",
+        "1 cc de curcuma",
+        "1 cc de cannelle",
+        "1 cc de cumin",
+        "sel, poivre",
+        "huile pour friture",
+        "pignons de pin grillés"
+      ],
+      "steps": [
+        "Frire aubergines et pommes de terre en tranches, réserver.",
+        "Cuire le poulet épicé, réserver.",
+        "Dans la casserole : couches de tomates, légumes frits, poulet, riz.",
+        "Verser le bouillon, cuire à couvert 30 min.",
+        "Retourner d'un geste sur un grand plat, garnir de pignons."
+      ]
+    },
+    {
+      "id": "arabe:004",
+      "t": "Kofta Grillée",
+      "cat": "Monde arabe, Plat",
+      "desc": "Saucisses ou boulettes de viande hachée aux épices orientales, grillées à la braise sur brochettes.",
+      "min": 30,
+      "serv": "4 personnes",
+      "ing": [
+        "500 g de viande hachée (bœuf ou agneau)",
+        "1 oignon râpé",
+        "3 cs de persil haché",
+        "1 cc de cumin",
+        "1 cc de coriandre moulue",
+        "½ cc de cannelle",
+        "½ cc de paprika",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mélanger viande, oignon râpé, persil et épices.",
+        "Former des saucisses allongées autour de brochettes.",
+        "Griller 10-15 min sur feu vif ou à la plancha.",
+        "Servir avec pita, tomates et sauce tahini."
+      ]
+    },
+    {
+      "id": "arabe:005",
+      "t": "Shawarma au Poulet",
+      "cat": "Monde arabe, Plat",
+      "desc": "Poulet mariné aux épices orientales, rôti lentement, servi en pita avec sauce tahini et légumes frais.",
+      "min": 40,
+      "serv": "4 personnes",
+      "ing": [
+        "600 g de cuisses de poulet désossées",
+        "jus d'1 citron",
+        "4 cs de yaourt",
+        "3 gousses d'ail",
+        "2 cs d'huile",
+        "1 cc de cumin",
+        "1 cc de curcuma",
+        "1 cc de paprika fumé",
+        "½ cc de cannelle",
+        "½ cc de cardamome",
+        "sel, poivre",
+        "pains pita",
+        "tomates, concombres, oignon rouge",
+        "sauce tahini"
+      ],
+      "steps": [
+        "Mélanger marinade (yaourt, citron, ail, épices), enrober le poulet, mariner 2 h minimum.",
+        "Cuire au four 220°C 30 min ou à la poêle.",
+        "Trancher finement le poulet.",
+        "Garnir les pitas avec poulet, crudités et tahini."
+      ]
+    },
+    {
+      "id": "arabe:006",
+      "t": "Molokhia (Soupe aux Feuilles de Corète)",
+      "cat": "Monde arabe, Soupe",
+      "desc": "Soupe nationale égyptienne aux feuilles de molokhia (corète), ail et coriandre, servie sur du riz avec poulet.",
+      "min": 60,
+      "serv": "4 personnes",
+      "ing": [
+        "300 g de feuilles de molokhia fraîches ou surgelées",
+        "1 poulet",
+        "6 gousses d'ail",
+        "2 cs de coriandre moulue",
+        "1 cs de beurre ou de ghee",
+        "sel, poivre",
+        "riz cuit pour servir",
+        "citron"
+      ],
+      "steps": [
+        "Cuire le poulet dans l'eau salée 45 min pour obtenir le bouillon.",
+        "Hacher finement la molokhia.",
+        "Faire revenir ail et coriandre dans le beurre.",
+        "Ajouter la molokhia et le bouillon chaud, mijoter 10 min.",
+        "Servir sur riz avec morceaux de poulet et quartiers de citron."
+      ]
+    },
+    {
+      "id": "arabe:007",
+      "t": "Mandi (Agneau Fumé au Riz)",
+      "cat": "Monde arabe, Plat",
+      "desc": "Agneau et riz parfumés cuits lentement au four traditionnel yéménite avec un charbon fumant pour la fumée.",
+      "min": 180,
+      "serv": "6 personnes",
+      "ing": [
+        "1 kg d'épaule d'agneau",
+        "500 g de riz basmati",
+        "2 oignons",
+        "4 gousses d'ail",
+        "2 cs de ghee",
+        "1 cc de cardamome",
+        "1 cc de cumin",
+        "1 cc de coriandre",
+        "1 cc de curcuma",
+        "bâton de cannelle",
+        "clous de girofle",
+        "safran",
+        "sel"
+      ],
+      "steps": [
+        "Mariner l'agneau dans les épices, ghee et ail 2 h.",
+        "Cuire l'agneau au four 180°C 2 h sous papier alu.",
+        "Cuire le riz dans le bouillon de cuisson épicé.",
+        "Poser le tout dans un grand récipient avec un charbon ardent pour fumer 5 min (optionnel)."
+      ]
+    },
+    {
+      "id": "arabe:008",
+      "t": "Kunafa (Feuilleté au Fromage et Sirop)",
+      "cat": "Monde arabe, Dessert",
+      "desc": "Dessert emblématique du Levant : pâte kataïfi croustillante fourrée de fromage fondu, nappée de sirop à l'eau de rose.",
+      "min": 60,
+      "serv": "8 personnes",
+      "ing": [
+        "400 g de pâte kataïfi (cheveux d'ange)",
+        "300 g de mozzarella fraîche ou fromage à pâte fraîche",
+        "150 g de beurre fondu",
+        "300 ml de sirop de sucre",
+        "2 cs d'eau de rose",
+        "pistaches concassées pour décorer"
+      ],
+      "steps": [
+        "Effilocher la kataïfi, mélanger avec le beurre fondu.",
+        "Tasser la moitié dans le moule, répartir le fromage, couvrir du reste.",
+        "Cuire au four 200°C 30-40 min jusqu'à dorure.",
+        "Napper immédiatement de sirop froid, décorer de pistaches, servir chaud."
+      ]
+    },
+    {
+      "id": "arabe:009",
+      "t": "Basbousa (Gâteau de Semoule)",
+      "cat": "Monde arabe, Dessert",
+      "desc": "Gâteau moelleux à la semoule imbibé de sirop parfumé à l'eau de fleur d'oranger, très répandu dans tout le monde arabe.",
+      "min": 45,
+      "serv": "8 personnes",
+      "ing": [
+        "250 g de semoule fine",
+        "150 g de sucre",
+        "150 g de yaourt",
+        "100 g de beurre fondu",
+        "1 sachet de levure",
+        "1 cs d'eau de fleur d'oranger",
+        "amandes entières pour décorer",
+        "sirop: 200 g sucre, 150 ml eau, eau de fleur d'oranger"
+      ],
+      "steps": [
+        "Mélanger semoule, sucre, yaourt, beurre, levure et fleur d'oranger.",
+        "Verser dans un moule beurré, décorer d'amandes.",
+        "Cuire au four 180°C 25-30 min.",
+        "Napper du sirop chaud dès la sortie du four."
+      ]
+    },
+    {
+      "id": "arabe:010",
+      "t": "Umm Ali (Pain Perdu aux Noix)",
+      "cat": "Monde arabe, Dessert",
+      "desc": "Dessert chaud égyptien : morceaux de pâte feuilletée cuits dans de la crème avec noix, raisins et noix de coco.",
+      "min": 35,
+      "serv": "6 personnes",
+      "ing": [
+        "6 feuilles de pâte feuilletée cuite",
+        "500 ml de lait",
+        "200 ml de crème liquide",
+        "50 g de sucre",
+        "50 g de noix concassées",
+        "50 g d'amandes effilées",
+        "50 g de raisins secs",
+        "50 g de noix de coco râpée",
+        "cannelle moulue"
+      ],
+      "steps": [
+        "Émietter grossièrement la pâte feuilletée dans un plat.",
+        "Mélanger lait, crème et sucre, porter à ébullition.",
+        "Verser sur la pâte, parsemer noix, raisins et coco.",
+        "Gratiner au four 200°C 20 min jusqu'à dorure. Servir chaud."
+      ]
+    },
+    {
+      "id": "tapas:001",
+      "t": "Croquetas de Jamón",
+      "cat": "Espagne, Tapas",
+      "desc": "Croquettes crémeuses au jambon ibérique, incontournables des bars à tapas espagnols.",
+      "min": 45,
+      "serv": "4 personnes",
+      "ing": [
+        "200 g de jambon ibérique haché",
+        "500 ml de lait",
+        "60 g de beurre",
+        "80 g de farine",
+        "sel, poivre, muscade",
+        "chapelure",
+        "2 œufs battus",
+        "huile de friture"
+      ],
+      "steps": [
+        "Faire un roux avec beurre et farine, verser le lait progressivement.",
+        "Ajouter le jambon, sel, poivre, muscade. Épaissir à feu doux.",
+        "Laisser refroidir 3 h au réfrigérateur.",
+        "Former des croquettes, paner (farine-œuf-chapelure).",
+        "Frire en huile chaude jusqu'à dorure. Égoutter, servir chaud."
+      ]
+    },
+    {
+      "id": "tapas:002",
+      "t": "Gambas a la Plancha",
+      "cat": "Espagne, Tapas",
+      "desc": "Crevettes royales grillées à l'huile d'olive et à l'ail, ultra-simples et savoureuses.",
+      "min": 15,
+      "serv": "4 personnes",
+      "ing": [
+        "500 g de grosses crevettes entières",
+        "4 gousses d'ail émincées",
+        "4 cs d'huile d'olive vierge extra",
+        "persil frais haché",
+        "gros sel",
+        "citron"
+      ],
+      "steps": [
+        "Chauffer fortement la plancha ou poêle en fonte.",
+        "Badigeonner les crevettes d'huile, saupoudrer de gros sel.",
+        "Griller 2-3 min de chaque côté.",
+        "Faire revenir l'ail dans l'huile, verser sur les crevettes.",
+        "Parsemer de persil, servir avec citron."
+      ]
+    },
+    {
+      "id": "tapas:003",
+      "t": "Pimientos de Padrón",
+      "cat": "Espagne, Tapas",
+      "desc": "Petits poivrons verts de Galice poêlés à l'huile et saupoudrés de gros sel — un sur dix est piquant !",
+      "min": 10,
+      "serv": "4 personnes",
+      "ing": [
+        "300 g de pimientos de Padrón",
+        "3 cs d'huile d'olive vierge extra",
+        "gros sel de mer"
+      ],
+      "steps": [
+        "Chauffer l'huile à feu vif dans une grande poêle.",
+        "Ajouter les poivrons entiers, faire sauter 5-7 min en remuant.",
+        "Lorsque la peau commence à cloquer, retirer du feu.",
+        "Saler généreusement de gros sel, servir immédiatement."
+      ]
+    },
+    {
+      "id": "tapas:004",
+      "t": "Pa amb Tomàquet",
+      "cat": "Espagne, Tapas",
+      "desc": "Pain frotté à la tomate et nappé d'huile d'olive, base absolue de la cuisine catalane.",
+      "min": 10,
+      "serv": "4 personnes",
+      "ing": [
+        "1 baguette ou pain de campagne tranché",
+        "3 tomates bien mûres coupées en deux",
+        "2 gousses d'ail",
+        "huile d'olive vierge extra",
+        "fleur de sel"
+      ],
+      "steps": [
+        "Toaster les tranches de pain.",
+        "Frotter d'abord d'ail, puis frotter généreusement avec la tomate coupée.",
+        "Arroser d'un filet d'huile d'olive.",
+        "Saler de fleur de sel, servir tel quel ou avec du jambon, fromage."
+      ]
+    },
+    {
+      "id": "tapas:005",
+      "t": "Chorizo al Vino Tinto",
+      "cat": "Espagne, Tapas",
+      "desc": "Rondelles de chorizo caramélisées dans un vin rouge réduit, tapas robuste et parfumée.",
+      "min": 20,
+      "serv": "4 personnes",
+      "ing": [
+        "300 g de chorizo fort en rondelles",
+        "200 ml de vin rouge",
+        "2 gousses d'ail",
+        "1 feuille de laurier",
+        "persil haché",
+        "pain rustique pour servir"
+      ],
+      "steps": [
+        "Faire dorer les rondelles de chorizo à la poêle.",
+        "Ajouter l'ail, la feuille de laurier et le vin rouge.",
+        "Laisser réduire 10-15 min jusqu'à caramélisation.",
+        "Parsemer de persil, servir dans le plat avec du pain."
+      ]
+    },
+    {
+      "id": "tapas:006",
+      "t": "Boquerones en Vinagre",
+      "cat": "Espagne, Tapas",
+      "desc": "Anchois frais marinés dans le vinaigre puis conservés dans l'huile d'olive, servis froids.",
+      "min": 30,
+      "serv": "4 personnes",
+      "ing": [
+        "500 g d'anchois frais",
+        "200 ml de vinaigre de vin blanc",
+        "100 ml d'huile d'olive",
+        "3 gousses d'ail émincées",
+        "persil haché",
+        "sel"
+      ],
+      "steps": [
+        "Nettoyer les anchois (retirer arêtes et têtes), rincer.",
+        "Disposer en couche, couvrir de vinaigre. Mariner 3 h au frais.",
+        "Rincer, égoutter. Arroser d'huile d'olive.",
+        "Ajouter ail et persil. Mariner encore 30 min. Servir frais."
+      ]
+    },
+    {
+      "id": "tapas:007",
+      "t": "Patatas Bravas",
+      "cat": "Espagne, Tapas",
+      "desc": "Cubes de pommes de terre frits, servis avec sauce bravas épicée et aioli, tapas de bar par excellence.",
+      "min": 35,
+      "serv": "4 personnes",
+      "ing": [
+        "600 g de pommes de terre",
+        "huile de friture",
+        "sauce bravas: 200 ml de sauce tomate, 1 cc de paprika fumé, piment de Cayenne, vinaigre de vin",
+        "aioli: 2 gousses d'ail, 1 jaune d'œuf, 150 ml d'huile, citron"
+      ],
+      "steps": [
+        "Couper les pommes de terre en cubes, frire 15-20 min jusqu'à dorure.",
+        "Préparer la bravas : tomate+paprika+piment, réduire 10 min.",
+        "Préparer l'aioli : monter au blender ail, jaune, huile, citron.",
+        "Égoutter les patatas, napper des deux sauces, servir chaud."
+      ]
+    },
+    {
+      "id": "tapas:008",
+      "t": "Albóndigas en Salsa",
+      "cat": "Espagne, Tapas",
+      "desc": "Boulettes de viande mijotées dans une sauce tomate au vin blanc, tapas généreuse et conviviale.",
+      "min": 40,
+      "serv": "4 personnes",
+      "ing": [
+        "400 g de viande hachée mixte",
+        "1 oignon",
+        "2 gousses d'ail",
+        "1 œuf",
+        "2 cs de chapelure",
+        "400 g de tomates concassées",
+        "100 ml de vin blanc",
+        "1 cc de paprika",
+        "sel, poivre, persil"
+      ],
+      "steps": [
+        "Mélanger viande, œuf, chapelure, ail haché, sel, poivre.",
+        "Former des boulettes, les dorer à la poêle.",
+        "Faire revenir oignon, ajouter tomates, vin, paprika.",
+        "Ajouter les boulettes, mijoter 20 min. Parsemer de persil."
+      ]
+    },
+    {
+      "id": "tapas:009",
+      "t": "Polbo á Feira (Pieuvre à la Galicienne)",
+      "cat": "Espagne, Tapas",
+      "desc": "Pieuvre cuite et émincée, assaisonnée de paprika, huile d'olive et gros sel, spécialité emblématique de Galice.",
+      "min": 90,
+      "serv": "4 personnes",
+      "ing": [
+        "1 pieuvre de 1 kg (ou surgelée)",
+        "4 cs d'huile d'olive vierge extra",
+        "1 cs de paprika doux",
+        "½ cc de paprika fumé",
+        "gros sel",
+        "pommes de terre cuites en rondelles pour servir"
+      ],
+      "steps": [
+        "Cuire la pieuvre 45-60 min dans l'eau bouillante (la tremper 3 fois d'abord).",
+        "Laisser refroidir, couper en tronçons de 1 cm.",
+        "Disposer sur rondelles de pommes de terre.",
+        "Arroser d'huile, saupoudrer de paprika et gros sel. Servir tiède."
+      ]
+    },
+    {
+      "id": "bulgarie:001",
+      "t": "Banitsa (Feuilleté Bulgare au Fromage)",
+      "cat": "Bulgarie, Entrée",
+      "desc": "Feuilleté traditionnel de phyllo et fromage bulgare (sirene), croustillant dehors et fondant dedans, servi au petit-déjeuner.",
+      "min": 50,
+      "serv": "6 personnes",
+      "ing": [
+        "10 feuilles de pâte phyllo",
+        "400 g de fromage bulgare ou de féta émietté",
+        "4 œufs",
+        "150 ml de yaourt nature",
+        "100 g de beurre fondu"
+      ],
+      "steps": [
+        "Battre les œufs avec le yaourt et le fromage émietté.",
+        "Badigeonner chaque feuille de beurre fondu.",
+        "Alterner feuilles beurrées et farce au fromage dans un plat beurré.",
+        "Cuire au four 180°C 35-40 min jusqu'à dorure. Laisser tiédir avant de couper."
+      ]
+    },
+    {
+      "id": "bulgarie:002",
+      "t": "Tarator (Soupe Froide au Concombre)",
+      "cat": "Bulgarie, Soupe",
+      "desc": "Soupe froide et rafraîchissante au yaourt bulgare et concombre, parfumée à l'aneth et aux noix.",
+      "min": 15,
+      "serv": "4 personnes",
+      "ing": [
+        "500 ml de yaourt nature bulgare",
+        "1 concombre épluché en petits dés",
+        "3 gousses d'ail écrasées",
+        "3 cs de noix concassées",
+        "3 cs d'aneth frais haché",
+        "3 cs d'huile de tournesol",
+        "eau froide",
+        "sel"
+      ],
+      "steps": [
+        "Fouetter le yaourt avec un peu d'eau froide pour le détendre.",
+        "Ajouter concombre, ail, aneth, noix, huile, sel.",
+        "Ajuster la consistance avec de l'eau froide.",
+        "Réfrigérer 30 min. Servir bien frais avec de la glace si désiré."
+      ]
+    },
+    {
+      "id": "bulgarie:003",
+      "t": "Shopska Salade",
+      "cat": "Bulgarie, Entrée",
+      "desc": "Salade bulgare emblématique : tomates, concombres, poivrons et une généreuse couche de fromage sirene râpé.",
+      "min": 15,
+      "serv": "4 personnes",
+      "ing": [
+        "3 tomates en dés",
+        "1 concombre en dés",
+        "1 poivron rouge en lamelles",
+        "1 oignon rouge émincé",
+        "200 g de fromage bulgare (sirene) ou féta râpé",
+        "persil frais",
+        "2 cs d'huile de tournesol",
+        "sel"
+      ],
+      "steps": [
+        "Couper tomates, concombre, poivron et oignon.",
+        "Mélanger légèrement, disposer dans des assiettes ou saladier.",
+        "Arroser d'huile de tournesol, saler.",
+        "Couvrir généreusement de fromage râpé. Parsemer de persil."
+      ]
+    },
+    {
+      "id": "bulgarie:004",
+      "t": "Kebapche (Saucisses Grillées Bulgares)",
+      "cat": "Bulgarie, Plat",
+      "desc": "Petites saucisses allongées de porc et bœuf épicées, grillées à la braise, accompagnement classique des mehana (tavernes).",
+      "min": 30,
+      "serv": "4 personnes",
+      "ing": [
+        "500 g de viande hachée mixte (bœuf et porc)",
+        "1 cc de cumin moulu",
+        "1 cc de paprika",
+        "½ cc de poivre noir",
+        "½ cc de bicarbonate de soude",
+        "1 cc de sel"
+      ],
+      "steps": [
+        "Mélanger viande et épices, malaxer vigoureusement.",
+        "Laisser reposer 1 h au réfrigérateur.",
+        "Former des saucisses allongées de 10 cm.",
+        "Griller sur braise ou poêle à feu vif 10-15 min en tournant.",
+        "Servir avec shopska salade et frites."
+      ]
+    },
+    {
+      "id": "bulgarie:005",
+      "t": "Kavarma (Ragoût en Poterie)",
+      "cat": "Bulgarie, Plat",
+      "desc": "Ragoût de poulet ou de porc aux poivrons et champignons, cuit lentement dans des pots en argile.",
+      "min": 75,
+      "serv": "4 personnes",
+      "ing": [
+        "600 g de poulet ou de porc en morceaux",
+        "2 poivrons (rouge et vert)",
+        "200 g de champignons",
+        "2 tomates en dés",
+        "2 oignons",
+        "3 gousses d'ail",
+        "1 cc de paprika",
+        "sel, poivre",
+        "persil frais",
+        "huile de tournesol"
+      ],
+      "steps": [
+        "Faire revenir la viande, oignons et ail dans l'huile.",
+        "Ajouter poivrons, champignons, tomates et paprika.",
+        "Verser un peu d'eau, assaisonner.",
+        "Transférer dans des pots en argile, couvrir.",
+        "Cuire au four 180°C 50 min. Servir dans les pots, persiller."
+      ]
+    },
+    {
+      "id": "bulgarie:006",
+      "t": "Sarmi (Feuilles de Vigne Farcies Bulgares)",
+      "cat": "Bulgarie, Plat",
+      "desc": "Feuilles de vigne farcies à la viande hachée et au riz, mijotées dans un bouillon acidulé.",
+      "min": 90,
+      "serv": "4 personnes",
+      "ing": [
+        "30 feuilles de vigne en saumure",
+        "400 g de viande hachée mixte",
+        "200 g de riz",
+        "2 oignons émincés",
+        "1 cc de paprika",
+        "persil et menthe hachés",
+        "sel, poivre",
+        "200 ml de bouillon",
+        "yaourt nature pour servir"
+      ],
+      "steps": [
+        "Rincer et blanchir les feuilles de vigne.",
+        "Mélanger viande, riz, oignons, herbes, épices.",
+        "Farcir chaque feuille en roulant serré.",
+        "Disposer en couches dans une casserole, ajouter le bouillon.",
+        "Mijoter à couvert 50 min. Servir avec yaourt."
+      ]
+    },
+    {
+      "id": "bulgarie:007",
+      "t": "Kyopolou (Caviar d'Aubergine Bulgare)",
+      "cat": "Bulgarie, Entrée",
+      "desc": "Tartinade d'aubergines et poivrons rôtis au feu, froide et fumée, servie sur du pain rustique.",
+      "min": 60,
+      "serv": "6 personnes",
+      "ing": [
+        "3 aubergines",
+        "3 poivrons rouges",
+        "3 tomates",
+        "4 gousses d'ail",
+        "3 cs d'huile de tournesol",
+        "persil haché",
+        "vinaigre de vin",
+        "sel"
+      ],
+      "steps": [
+        "Faire griller directement sur la flamme ou au four 200°C les aubergines et poivrons.",
+        "Peler, égoutter, hacher grossièrement.",
+        "Rôtir les tomates, peler et ajouter.",
+        "Mélanger avec ail écrasé, huile, vinaigre, sel.",
+        "Réfrigérer 1 h. Servir froid sur du pain."
+      ]
+    },
+    {
+      "id": "bulgarie:008",
+      "t": "Mekitsa (Beignets Bulgares)",
+      "cat": "Bulgarie, Dessert",
+      "desc": "Beignets frits légers servis au petit-déjeuner avec miel, confiture ou fromage blanc.",
+      "min": 40,
+      "serv": "4 personnes",
+      "ing": [
+        "250 g de farine",
+        "1 sachet de levure sèche",
+        "200 ml de yaourt nature",
+        "1 œuf",
+        "1 cc de sel",
+        "huile de friture",
+        "miel ou confiture pour servir"
+      ],
+      "steps": [
+        "Mélanger farine, levure, sel. Incorporer yaourt et œuf.",
+        "Pétrir jusqu'à obtenir une pâte molle. Laisser lever 30 min.",
+        "Aplatir des portions en galettes épaisses.",
+        "Frire dans l'huile chaude 3-4 min de chaque côté.",
+        "Servir chauds avec miel ou confiture."
+      ]
+    },
+    {
+      "id": "afrique:001",
+      "t": "Jollof Rice (Riz Épicé d'Afrique de l'Ouest)",
+      "cat": "Afrique, Plat",
+      "desc": "Riz cuit dans une sauce tomate épicée, plat festif emblématique du Nigeria, Ghana et Sénégal.",
+      "min": 60,
+      "serv": "6 personnes",
+      "ing": [
+        "400 g de riz long grain",
+        "400 g de tomates concassées",
+        "2 poivrons rouges",
+        "2 oignons",
+        "3 gousses d'ail",
+        "2 cm de gingembre frais",
+        "2 cs d'huile",
+        "1 cs de concentré de tomate",
+        "1 cc de paprika",
+        "thym, laurier",
+        "sel, poivre",
+        "bouillon de poulet"
+      ],
+      "steps": [
+        "Mixer tomates, poivrons, oignons et gingembre.",
+        "Faire revenir ail dans l'huile, ajouter le mélange, cuire 20 min.",
+        "Ajouter concentré, bouillon, épices. Porter à ébullition.",
+        "Ajouter le riz, couvrir, cuire à feu doux 25 min.",
+        "Remuer délicatement et servir avec poulet grillé."
+      ]
+    },
+    {
+      "id": "afrique:002",
+      "t": "Mafé (Ragoût à la Pâte d'Arachide)",
+      "cat": "Afrique, Plat",
+      "desc": "Ragoût sénégalais riche et savoureux à base de pâte d'arachide, parfumé aux épices et servi avec du riz.",
+      "min": 75,
+      "serv": "4 personnes",
+      "ing": [
+        "600 g de poulet ou de bœuf",
+        "200 g de pâte d'arachide",
+        "2 tomates",
+        "2 oignons",
+        "3 gousses d'ail",
+        "2 cs de concentré de tomate",
+        "2 carottes",
+        "2 pommes de terre",
+        "1 feuille de laurier",
+        "sel, poivre, piment"
+      ],
+      "steps": [
+        "Faire dorer la viande, réserver.",
+        "Faire revenir oignons et ail, ajouter tomates et concentré.",
+        "Délayer la pâte d'arachide dans un peu de bouillon, verser.",
+        "Ajouter viande, légumes, laurier, piment. Mijoter 45 min.",
+        "Ajuster le sel, servir sur riz blanc."
+      ]
+    },
+    {
+      "id": "afrique:003",
+      "t": "Injera (Galette Éthiopienne Fermentée)",
+      "cat": "Afrique, Plat",
+      "desc": "Grande galette spongieuse à base de teff fermentée 24 h, utilisée comme pain et couverts en Éthiopie.",
+      "min": 30,
+      "serv": "4 personnes",
+      "ing": [
+        "500 g de farine de teff (ou sarrasin mélangé à de la farine de blé)",
+        "700 ml d'eau",
+        "1 cc de levure sèche",
+        "sel"
+      ],
+      "steps": [
+        "Mélanger farine, eau, levure. Laisser fermenter 24 h à température ambiante.",
+        "La pâte doit être légèrement acide et bulleuse.",
+        "Cuire comme des crêpes dans une grande poêle légèrement huilée.",
+        "Servir avec les ragoûts (wats) posés dessus pour les partager."
+      ]
+    },
+    {
+      "id": "afrique:004",
+      "t": "Doro Wat (Poulet en Sauce Berbéré)",
+      "cat": "Afrique, Plat",
+      "desc": "Ragoût éthiopien de poulet aux œufs durs dans une sauce épicée au berbéré, plat de fête national.",
+      "min": 90,
+      "serv": "4 personnes",
+      "ing": [
+        "1 poulet coupé en morceaux",
+        "4 œufs durs",
+        "4 oignons rouges finement émincés",
+        "3 gousses d'ail",
+        "2 cm de gingembre frais",
+        "3 cs de berbéré",
+        "2 cs de niter kibbeh (beurre clarifié épicé) ou de beurre",
+        "sel"
+      ],
+      "steps": [
+        "Cuire les oignons à sec 30 min jusqu'à caramélisation.",
+        "Ajouter niter kibbeh, ail, gingembre, berbéré. Cuire 10 min.",
+        "Ajouter poulet, couvrir et mijoter 40 min.",
+        "Ajouter les œufs durs entiers, enrober de sauce.",
+        "Servir sur injera."
+      ]
+    },
+    {
+      "id": "afrique:005",
+      "t": "Bobotie (Hachis au Curry d'Afrique du Sud)",
+      "cat": "Afrique, Plat",
+      "desc": "Plat national sud-africain : hachis de bœuf au curry, chutney et raisins, recouvert d'une couverture d'œufs et lait dorée au four.",
+      "min": 65,
+      "serv": "4 personnes",
+      "ing": [
+        "600 g de viande hachée de bœuf",
+        "2 oignons",
+        "2 cs de curry en poudre",
+        "2 cs de chutney de mangue",
+        "2 cs de raisins secs",
+        "2 cs de vinaigre",
+        "50 g d'amandes effilées",
+        "feuilles de laurier",
+        "2 œufs",
+        "250 ml de lait",
+        "sel"
+      ],
+      "steps": [
+        "Faire revenir oignons, ajouter viande et curry.",
+        "Incorporer chutney, raisins, vinaigre, amandes.",
+        "Verser dans un plat à gratin avec les feuilles de laurier.",
+        "Battre œufs et lait, verser sur le dessus.",
+        "Cuire au four 160°C 40 min. Servir avec riz au curcuma."
+      ]
+    },
+    {
+      "id": "afrique:006",
+      "t": "Egusi Soup (Soupe Nigériane aux Graines de Courge)",
+      "cat": "Afrique, Soupe",
+      "desc": "Soupe nigériane dense aux graines de courge moulues (egusi), feuilles vertes et viande fumée.",
+      "min": 60,
+      "serv": "4 personnes",
+      "ing": [
+        "200 g de graines de courge (egusi) moulues",
+        "400 g de viande ou poisson fumé",
+        "100 g d'épinards ou feuilles de légumes verts",
+        "1 oignon",
+        "2 cs d'huile de palme",
+        "2 tomates",
+        "piment fort",
+        "sel, bouillon"
+      ],
+      "steps": [
+        "Faire revenir oignon et tomates dans l'huile de palme.",
+        "Ajouter les graines d'egusi moulues, remuer 5 min.",
+        "Ajouter la viande fumée et le bouillon, mijoter 20 min.",
+        "Incorporer les feuilles vertes en fin de cuisson.",
+        "Servir avec fufu, eba ou riz."
+      ]
+    },
+    {
+      "id": "afrique:007",
+      "t": "Suya (Brochettes Épicées)",
+      "cat": "Afrique, Plat",
+      "desc": "Brochettes de bœuf enduites d'un mélange de cacahuètes et d'épices (suya spice), grillées à la braise au Nigeria.",
+      "min": 35,
+      "serv": "4 personnes",
+      "ing": [
+        "600 g de bœuf (filet) en fines lamelles",
+        "100 g de cacahuètes grillées moulues",
+        "1 cc de gingembre moulu",
+        "1 cc de paprika",
+        "1 cc d'ail en poudre",
+        "1 cc d'oignon en poudre",
+        "sel, piment de Cayenne",
+        "huile"
+      ],
+      "steps": [
+        "Mélanger cacahuètes moulues et toutes les épices.",
+        "Huiler les lamelles de bœuf, enduire du mélange d'épices.",
+        "Enfiler sur brochettes.",
+        "Griller sur braise vive 3-4 min de chaque côté.",
+        "Servir avec oignon rouge, tomates et piment frais."
+      ]
+    },
+    {
+      "id": "afrique:008",
+      "t": "Nyama Choma (Viande Grillée Est-Africaine)",
+      "cat": "Afrique, Plat",
+      "desc": "Viande de bœuf ou de chèvre grillée au feu de bois, plat festif incontournable au Kenya et en Tanzanie.",
+      "min": 60,
+      "serv": "4 personnes",
+      "ing": [
+        "1 kg de côtes de bœuf ou de chèvre",
+        "jus de 2 citrons verts",
+        "3 gousses d'ail",
+        "1 cc de sel",
+        "piment en poudre",
+        "huile",
+        "kachumbari : tomates, oignons, coriandre, citron vert"
+      ],
+      "steps": [
+        "Mariner la viande avec citron, ail, sel et piment 1 h.",
+        "Griller sur feu de bois ou barbecue 30-40 min en retournant régulièrement.",
+        "Préparer le kachumbari : mélanger tomates et oignons émincés, citron, coriandre.",
+        "Couper la viande en morceaux, servir avec kachumbari et ugali."
+      ]
+    },
+    {
+      "id": "hongrie:001",
+      "t": "Gulyás (Goulash Hongrois)",
+      "cat": "Hongrie, Soupe",
+      "desc": "Soupe-ragoût nationale hongroise : bœuf et pommes de terre généreusement paprikés dans un bouillon parfumé.",
+      "min": 120,
+      "serv": "4-6 personnes",
+      "ing": [
+        "600 g de bœuf (paleron) en cubes",
+        "500 g de pommes de terre",
+        "2 oignons",
+        "3 cs de paprika doux hongrois",
+        "1 cs de paprika fort",
+        "2 cs de saindoux ou huile",
+        "2 tomates",
+        "2 poivrons verts",
+        "1 cc de cumin",
+        "sel, poivre",
+        "bouillon de bœuf"
+      ],
+      "steps": [
+        "Faire revenir oignons dans le saindoux, retirer du feu, ajouter le paprika.",
+        "Remettre sur feu, ajouter le bœuf, faire revenir.",
+        "Ajouter tomates, poivrons, cumin, couvrir de bouillon.",
+        "Mijoter à couvert 1 h, ajouter pommes de terre, cuire 30 min.",
+        "Ajuster assaisonnement, servir avec pain ou spätzle."
+      ]
+    },
+    {
+      "id": "hongrie:002",
+      "t": "Pörkölt (Ragoût de Bœuf au Paprika)",
+      "cat": "Hongrie, Plat",
+      "desc": "Ragoût épais de bœuf au paprika hongrois, ancêtre du goulash, servi avec des spätzle ou pâtes tarhonya.",
+      "min": 150,
+      "serv": "4 personnes",
+      "ing": [
+        "800 g de bœuf (épaule) en gros cubes",
+        "3 oignons",
+        "4 cs de paprika doux",
+        "1 cs de paprika fort",
+        "3 gousses d'ail",
+        "2 tomates",
+        "200 ml de bouillon de bœuf",
+        "2 cs de saindoux ou de beurre",
+        "sel, poivre",
+        "crème fraîche pour servir"
+      ],
+      "steps": [
+        "Faire fondre les oignons dans le saindoux.",
+        "Hors du feu, ajouter le paprika. Remettre sur feu.",
+        "Ajouter le bœuf, faire dorer. Ajouter ail, tomates, sel.",
+        "Couvrir d'un peu de bouillon, mijoter à couvert 1 h 30.",
+        "Servir avec spätzle et une cuillère de crème fraîche."
+      ]
+    },
+    {
+      "id": "hongrie:003",
+      "t": "Töltött Káposzta (Chou Farci Hongrois)",
+      "cat": "Hongrie, Plat",
+      "desc": "Feuilles de chou farcies à la viande et au riz, mijotées dans de la choucroute et crème fraîche.",
+      "min": 120,
+      "serv": "4-6 personnes",
+      "ing": [
+        "1 chou blanc",
+        "500 g de viande hachée mixte (porc et bœuf)",
+        "200 g de riz",
+        "1 oignon",
+        "1 cs de paprika",
+        "300 g de choucroute",
+        "200 ml de crème fraîche",
+        "200 g de lard fumé tranché",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Blanchir les feuilles de chou 5 min.",
+        "Mélanger viande, riz, oignon, paprika, sel, poivre.",
+        "Farcir chaque feuille, rouler en ballotines.",
+        "Tapisser la casserole de lard, couche de choucroute, sarmi, répéter.",
+        "Verser crème fraîche allongée d'eau, mijoter 1 h."
+      ]
+    },
+    {
+      "id": "hongrie:004",
+      "t": "Rakott Krumpli (Gratin Hongrois)",
+      "cat": "Hongrie, Plat",
+      "desc": "Gratin généreux en couches de pommes de terre, œufs durs, saucisse fumée kolbász et crème fraîche.",
+      "min": 75,
+      "serv": "4 personnes",
+      "ing": [
+        "1 kg de pommes de terre cuites",
+        "4 œufs durs",
+        "300 g de saucisse fumée hongroise (kolbász) en rondelles",
+        "400 ml de crème fraîche",
+        "beurre",
+        "sel, paprika"
+      ],
+      "steps": [
+        "Trancher finement pommes de terre et saucisses.",
+        "Beurrer un plat à gratin.",
+        "Alterner couches : pommes de terre, saucisse, œuf tranché.",
+        "Napper de crème fraîche, saupoudrer de paprika.",
+        "Cuire au four 180°C 45 min jusqu'à dorure."
+      ]
+    },
+    {
+      "id": "hongrie:005",
+      "t": "Lángos (Pain Frit Hongrois)",
+      "cat": "Hongrie, Plat",
+      "desc": "Pain frit dans l'huile, garni de crème fraîche aillée et fromage râpé, street food adorée des marchés hongrois.",
+      "min": 45,
+      "serv": "4 personnes",
+      "ing": [
+        "300 g de farine",
+        "1 sachet de levure sèche",
+        "200 ml de lait tiède",
+        "1 cc de sel",
+        "huile de friture",
+        "200 ml de crème fraîche",
+        "1 gousse d'ail écrasée",
+        "100 g de fromage râpé"
+      ],
+      "steps": [
+        "Mélanger farine, levure, sel et lait tiède. Pétrir 10 min.",
+        "Laisser lever 30 min couvert.",
+        "Étirer des portions en galettes minces.",
+        "Frire 3-4 min de chaque côté dans l'huile chaude.",
+        "Tartiner de crème fraîche aillée, saupoudrer de fromage râpé."
+      ]
+    },
+    {
+      "id": "hongrie:006",
+      "t": "Főzelék (Purée Épaisse de Légumes)",
+      "cat": "Hongrie, Accompagnement",
+      "desc": "Plat de légumes hongrois épaissis à la farine et crème fraîche, servi comme plat principal ou accompagnement d'un œuf au plat.",
+      "min": 30,
+      "serv": "4 personnes",
+      "ing": [
+        "500 g de haricots verts ou courgettes ou épinards",
+        "1 oignon",
+        "2 cs de farine",
+        "200 ml de crème fraîche",
+        "1 cs de beurre",
+        "vinaigre de vin blanc",
+        "sel, aneth ou marjolaine"
+      ],
+      "steps": [
+        "Cuire les légumes dans l'eau salée.",
+        "Faire fondre oignon dans le beurre, ajouter farine.",
+        "Verser le bouillon de cuisson, épaissir en remuant.",
+        "Ajouter légumes et crème fraîche, un trait de vinaigre.",
+        "Assaisonner d'herbes, servir avec œuf au plat ou saucisse."
+      ]
+    },
+    {
+      "id": "hongrie:007",
+      "t": "Kürtöskalács (Gâteau à la Broche)",
+      "cat": "Hongrie, Dessert",
+      "desc": "Spirale de pâte levée roulée autour d'une broche, caramélisée et parfumée à la cannelle ou aux noix.",
+      "min": 90,
+      "serv": "6 personnes",
+      "ing": [
+        "500 g de farine",
+        "250 ml de lait tiède",
+        "20 g de levure fraîche",
+        "80 g de sucre",
+        "2 œufs",
+        "80 g de beurre fondu",
+        "sucre pour enrober",
+        "cannelle moulue et noix concassées"
+      ],
+      "steps": [
+        "Dissoudre levure dans lait tiède. Mélanger à farine, sucre, œufs, beurre.",
+        "Pétrir et laisser lever 1 h.",
+        "Abaisser en bande, enrouler en spirale autour d'une broche.",
+        "Rouler dans le sucre mélangé à la cannelle.",
+        "Cuire en tournant au-dessus des braises ou au four 180°C 20 min."
+      ]
+    },
+    {
+      "id": "hongrie:008",
+      "t": "Dobos Torte (Gâteau au Caramel)",
+      "cat": "Hongrie, Dessert",
+      "desc": "Gâteau hongrois élaboré à 7 couches de génoise, crème au beurre chocolatée et disque de caramel dur craquant.",
+      "min": 120,
+      "serv": "8 personnes",
+      "ing": [
+        "6 œufs",
+        "120 g de sucre",
+        "120 g de farine",
+        "200 g de beurre",
+        "200 g de chocolat noir fondu",
+        "80 g de sucre glace",
+        "150 g de sucre pour le caramel"
+      ],
+      "steps": [
+        "Préparer 7 disques de génoise fine, cuire 8-10 min chacun.",
+        "Préparer crème au beurre chocolat (beurre+chocolat+sucre glace).",
+        "Monter les couches en alternant génoise et crème.",
+        "Caraméliser 150 g de sucre, verser sur le dernier disque, marquer en parts.",
+        "Couvrir les côtés de crème, réfrigérer 2 h."
+      ]
+    },
+    {
+      "id": "roumanie:001",
+      "t": "Sarmale (Choux Farcis Roumains)",
+      "cat": "Roumanie, Plat",
+      "desc": "Feuilles de chou fermenté farcies à la viande et au riz, mijotées avec lard fumé et jus de tomate, plat national de Noël.",
+      "min": 180,
+      "serv": "6 personnes",
+      "ing": [
+        "1 chou fermenté (varză murată)",
+        "600 g de viande hachée mixte (porc et bœuf)",
+        "200 g de riz",
+        "2 oignons",
+        "100 g de lard fumé",
+        "400 ml de jus de tomate",
+        "2 cs de concentré de tomate",
+        "aneth, thym",
+        "sel, poivre",
+        "crème fraîche pour servir"
+      ],
+      "steps": [
+        "Séparer les feuilles de chou, couper les côtes épaisses.",
+        "Mélanger viande, riz, oignon haché, aneth, sel, poivre.",
+        "Farcir et rouler chaque feuille.",
+        "Tapisser la casserole de lard, couches de sarmi, jus de tomate.",
+        "Mijoter à couvert 2 h 30. Servir avec crème fraîche."
+      ]
+    },
+    {
+      "id": "roumanie:002",
+      "t": "Mămăligă (Polenta Roumaine)",
+      "cat": "Roumanie, Accompagnement",
+      "desc": "Polenta épaisse à base de farine de maïs, accompagnement incontournable servi avec fromage téléméa et crème fraîche.",
+      "min": 30,
+      "serv": "4 personnes",
+      "ing": [
+        "500 g de farine de maïs",
+        "1,5 L d'eau",
+        "1 cc de sel",
+        "50 g de beurre",
+        "200 g de fromage roumain (téléméa) ou féta",
+        "200 ml de crème fraîche"
+      ],
+      "steps": [
+        "Porter l'eau salée à ébullition.",
+        "Verser la farine de maïs en pluie en fouettant.",
+        "Cuire à feu moyen 20-25 min en remuant sans cesse.",
+        "Incorporer le beurre.",
+        "Servir avec fromage émietté et crème fraîche. Peut aussi être grillée."
+      ]
+    },
+    {
+      "id": "roumanie:003",
+      "t": "Mici / Mititei (Saucisses Grillées Roumaines)",
+      "cat": "Roumanie, Plat",
+      "desc": "Petites saucisses sans boyau de bœuf et porc aux épices, grillées à la braise, accompagnées de moutarde.",
+      "min": 35,
+      "serv": "4 personnes",
+      "ing": [
+        "500 g de bœuf haché",
+        "300 g de porc haché",
+        "1 cs d'ail haché",
+        "1 cc de bicarbonate de soude",
+        "1 cc de cumin moulu",
+        "1 cc de coriandre moulue",
+        "thym séché",
+        "sel, poivre noir",
+        "moutarde pour servir"
+      ],
+      "steps": [
+        "Mélanger les viandes et épices, malaxer 10 min.",
+        "Incorporer bicarbonate dilué dans un peu d'eau.",
+        "Réfrigérer la pâte 2 h.",
+        "Former des rouleaux de 8 cm.",
+        "Griller sur braise vive 10-15 min. Servir avec moutarde forte."
+      ]
+    },
+    {
+      "id": "roumanie:004",
+      "t": "Ciorbă de Burtă (Soupe de Tripes)",
+      "cat": "Roumanie, Soupe",
+      "desc": "Soupe roumaine crémeuse et acidulée aux tripes de bœuf, au vinaigre et à la crème, plat de récupération légendaire.",
+      "min": 180,
+      "serv": "4-6 personnes",
+      "ing": [
+        "600 g de tripes de bœuf nettoyées",
+        "2 carottes",
+        "1 céleri-rave",
+        "1 oignon",
+        "3 gousses d'ail écrasées",
+        "4 jaunes d'œufs",
+        "400 ml de crème fraîche",
+        "vinaigre blanc",
+        "sel, poivre",
+        "piment frais"
+      ],
+      "steps": [
+        "Cuire les tripes 2 h dans l'eau avec carottes, céleri, oignon.",
+        "Retirer les tripes, découper en lanières.",
+        "Filtrer le bouillon.",
+        "Battre jaunes d'œufs avec la crème, incorporer au bouillon chaud sans bouillir.",
+        "Ajouter tripes, vinaigre, ail. Servir avec piment."
+      ]
+    },
+    {
+      "id": "roumanie:005",
+      "t": "Zacuscă (Caviar de Légumes Roumain)",
+      "cat": "Roumanie, Entrée",
+      "desc": "Tartinade de légumes rôtis au feu (aubergines, poivrons, tomates) cuite longuement, en bocaux pour l'hiver.",
+      "min": 120,
+      "serv": "8 personnes",
+      "ing": [
+        "3 aubergines",
+        "6 poivrons rouges",
+        "400 g de tomates",
+        "2 oignons émincés",
+        "4 cs d'huile de tournesol",
+        "sel, poivre, sucre",
+        "feuilles de laurier"
+      ],
+      "steps": [
+        "Rôtir directement sur flamme ou au four les aubergines et poivrons.",
+        "Peler, égoutter soigneusement, hacher.",
+        "Faire revenir les oignons dans l'huile.",
+        "Ajouter tous les légumes, laurier, sel, un peu de sucre.",
+        "Cuire à feu doux 1 h en remuant. Servir sur pain ou en bocaux."
+      ]
+    },
+    {
+      "id": "roumanie:006",
+      "t": "Cozonac (Brioche Roumaine aux Noix)",
+      "cat": "Roumanie, Dessert",
+      "desc": "Brioche moelleuse de Noël et Pâques fourrée aux noix, cacao et raisins, parfumée au rhum et citron.",
+      "min": 180,
+      "serv": "8 personnes",
+      "ing": [
+        "500 g de farine",
+        "200 ml de lait",
+        "3 œufs",
+        "100 g de sucre",
+        "80 g de beurre mou",
+        "25 g de levure fraîche",
+        "zeste de citron et d'orange",
+        "vanille",
+        "rhum",
+        "garniture: 350 g de noix moulues, 100 g de sucre, 2 cs de cacao, 2 cs de rhum"
+      ],
+      "steps": [
+        "Dissoudre levure dans lait tiède, mélanger à farine, œufs, sucre, beurre, arômes.",
+        "Pétrir longuement 20 min. Laisser lever 2 h.",
+        "Préparer la garniture : noix moulues, sucre, cacao, rhum.",
+        "Étaler la pâte, répartir la garniture, rouler en boudin.",
+        "Cuire au four 180°C 50-60 min. Refroidir avant de couper."
+      ]
+    },
+    {
+      "id": "roumanie:007",
+      "t": "Papanași (Beignets au Fromage Blanc)",
+      "cat": "Roumanie, Dessert",
+      "desc": "Beignets moelleux au fromage blanc frits dans l'huile, nappés de crème fraîche et confiture de cerises.",
+      "min": 35,
+      "serv": "4 personnes",
+      "ing": [
+        "400 g de fromage blanc bien égoutté",
+        "2 œufs",
+        "150 g de farine",
+        "50 g de semoule fine",
+        "1 sachet de levure chimique",
+        "zeste de citron",
+        "vanille",
+        "huile de friture",
+        "200 ml de crème fraîche",
+        "confiture de cerises griottes"
+      ],
+      "steps": [
+        "Mélanger fromage, œufs, farine, semoule, levure, zeste, vanille.",
+        "Former des boulettes légèrement aplaties avec un trou au centre.",
+        "Frire 4-5 min de chaque côté dans l'huile chaude.",
+        "Égoutter sur papier absorbant.",
+        "Servir chauds couverts de crème fraîche et confiture."
+      ]
+    },
+    {
+      "id": "paysbas:001",
+      "t": "Stamppot (Purée aux Saucisses)",
+      "cat": "Pays-Bas, Plat",
+      "desc": "Plat national hollandais d'hiver : purée de pommes de terre mélangée à du chou frisé ou des endives, accompagnée de rookworst.",
+      "min": 40,
+      "serv": "4 personnes",
+      "ing": [
+        "1 kg de pommes de terre",
+        "400 g de chou frisé (boerenkool) ou d'endives émincées",
+        "300 g de saucisse fumée (rookworst)",
+        "50 g de beurre",
+        "100 ml de lait chaud",
+        "moutarde de Dijon",
+        "sel, poivre, muscade"
+      ],
+      "steps": [
+        "Cuire pommes de terre et chou ensemble 20 min.",
+        "Cuire la saucisse dans l'eau chaude 15 min.",
+        "Écraser en purée avec beurre, lait, sel, poivre, muscade.",
+        "Mélanger le chou dans la purée.",
+        "Servir avec la saucisse et un trait de moutarde."
+      ]
+    },
+    {
+      "id": "paysbas:002",
+      "t": "Bitterballen (Croquettes Hollandaises)",
+      "cat": "Pays-Bas, Entrée",
+      "desc": "Petites croquettes rondes et croustillantes fourrées à la ragôut de bœuf, servies avec moutarde en apéritif.",
+      "min": 60,
+      "serv": "6 personnes",
+      "ing": [
+        "300 g de viande de bœuf cuite effilochée",
+        "500 ml de bouillon de bœuf",
+        "60 g de beurre",
+        "80 g de farine",
+        "muscade",
+        "persil haché",
+        "chapelure",
+        "2 œufs battus",
+        "huile de friture",
+        "moutarde de Dijon"
+      ],
+      "steps": [
+        "Faire un roux beurre+farine, verser le bouillon, épaissir.",
+        "Ajouter bœuf, persil, muscade, sel.",
+        "Laisser refroidir 3 h au réfrigérateur jusqu'à fermeté.",
+        "Former des boules, paner (farine-œuf-chapelure).",
+        "Frire 3-4 min dans l'huile chaude. Servir avec moutarde."
+      ]
+    },
+    {
+      "id": "paysbas:003",
+      "t": "Erwtensoep / Snert (Soupe aux Pois Cassés)",
+      "cat": "Pays-Bas, Soupe",
+      "desc": "Soupe épaisse et consistante aux pois cassés verts et légumes racines, plat d'hiver hollandais par excellence.",
+      "min": 90,
+      "serv": "6 personnes",
+      "ing": [
+        "400 g de pois cassés verts",
+        "200 g de lard fumé",
+        "2 saucisses fumées",
+        "2 carottes",
+        "1 céleri-rave",
+        "1 poireau",
+        "2 pommes de terre",
+        "1 oignon",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire tremper les pois 1 h (ou utiliser pois cassés sans trempage).",
+        "Couvrir d'eau avec le lard, porter à ébullition.",
+        "Ajouter légumes coupés, cuire 1 h.",
+        "Retirer et couper le lard en morceaux, le remettre.",
+        "Ajouter les saucisses les 15 dernières minutes. Servir très épais."
+      ]
+    },
+    {
+      "id": "paysbas:004",
+      "t": "Stroopwafels (Gaufres au Sirop Caramel)",
+      "cat": "Pays-Bas, Dessert",
+      "desc": "Fines gaufres croustillantes collées par un caramel mou, posées sur une tasse de thé pour attendrir la garniture.",
+      "min": 60,
+      "serv": "12 stroopwafels",
+      "ing": [
+        "300 g de farine",
+        "150 g de beurre froid",
+        "75 g de sucre",
+        "1 œuf",
+        "1 sachet de levure chimique",
+        "sirop: 200 g de stroop (sirop de sucre de canne), 100 g de cassonade, 1 cc de cannelle, 50 g de beurre"
+      ],
+      "steps": [
+        "Mélanger farine, beurre, sucre, œuf, levure en une pâte ferme.",
+        "Préparer le sirop : chauffer tous les ingrédients jusqu'à épaississement.",
+        "Cuire de petites boules de pâte au gaufrier.",
+        "Couper chaque gaufre en deux, garnir de sirop, refermer.",
+        "Laisser refroidir pour que le caramel se solidifie légèrement."
+      ]
+    },
+    {
+      "id": "paysbas:005",
+      "t": "Pannekoeken (Crêpes Hollandaises)",
+      "cat": "Pays-Bas, Plat",
+      "desc": "Grandes crêpes épaisses garnies salé (lard, gouda) ou sucré (sirop, pommes caramélisées), repas convivial en famille.",
+      "min": 30,
+      "serv": "4 personnes",
+      "ing": [
+        "250 g de farine",
+        "500 ml de lait",
+        "2 œufs",
+        "pincée de sel",
+        "beurre pour cuire",
+        "garnitures: lard, gouda râpé, pommes caramélisées, sirop de sucre de canne (stroop)"
+      ],
+      "steps": [
+        "Fouetter farine, lait, œufs et sel jusqu'à obtenir une pâte lisse.",
+        "Laisser reposer 30 min.",
+        "Cuire dans une grande poêle beurrée.",
+        "Pour la version salée : cuire le lard sur la crêpe, retourner, ajouter le fromage.",
+        "Servir avec sirop ou pommes à la cannelle."
+      ]
+    },
+    {
+      "id": "paysbas:006",
+      "t": "Oliebollen (Beignets du Réveillon)",
+      "cat": "Pays-Bas, Dessert",
+      "desc": "Boules de pâte levée aux raisins et écorces d'orange confites, frits dans l'huile, incontournables du Nouvel An hollandais.",
+      "min": 60,
+      "serv": "20 beignets",
+      "ing": [
+        "300 g de farine",
+        "1 sachet de levure sèche",
+        "300 ml de lait tiède",
+        "1 œuf",
+        "100 g de raisins secs",
+        "50 g d'écorces d'orange confites",
+        "pincée de sel",
+        "huile de friture",
+        "sucre glace"
+      ],
+      "steps": [
+        "Mélanger farine, levure, sel, lait et œuf en pâte molle.",
+        "Incorporer raisins et écorces confites.",
+        "Laisser lever 1 h.",
+        "À l'aide de deux cuillères, former des boules et plonger dans l'huile à 180°C.",
+        "Frire 4-5 min en retournant. Saupoudrer de sucre glace."
+      ]
+    },
+    {
+      "id": "paysbas:007",
+      "t": "Appeltaart (Tarte aux Pommes Hollandaise)",
+      "cat": "Pays-Bas, Dessert",
+      "desc": "Tarte aux pommes haute et parfumée à la cannelle avec pâte sablée croustillante, version hollandaise de la tarte classique.",
+      "min": 90,
+      "serv": "8 personnes",
+      "ing": [
+        "300 g de farine",
+        "200 g de beurre froid",
+        "150 g de sucre",
+        "1 œuf",
+        "pincée de sel",
+        "1,2 kg de pommes (reinettes)",
+        "100 g de sucre",
+        "2 cc de cannelle",
+        "raisins secs",
+        "chapelure",
+        "sucre perlé pour décorer"
+      ],
+      "steps": [
+        "Préparer la pâte sablée, réfrigérer 30 min.",
+        "Peler et couper les pommes, mélanger avec sucre, cannelle, raisins.",
+        "Foncer un moule haut, saupoudrer de chapelure.",
+        "Remplir de garniture, couvrir d'un treillis de pâte.",
+        "Saupoudrer de sucre perlé, cuire au four 180°C 50-60 min."
+      ]
+    },
+    {
+      "id": "paysbas:008",
+      "t": "Haring met Uitjes (Hareng aux Oignons)",
+      "cat": "Pays-Bas, Entrée",
+      "desc": "Hareng cru mariné (hollandse nieuwe) servi avec oignons finement émincés et cornichons, street food emblématique d'Amsterdam.",
+      "min": 5,
+      "serv": "2 personnes",
+      "ing": [
+        "4 harengs marinés (hollandse nieuwe ou rollmops)",
+        "1 gros oignon doux finement émincé",
+        "cornichons",
+        "pain blanc pour servir"
+      ],
+      "steps": [
+        "Égoutter les harengs marinés.",
+        "Couper en morceaux ou servir entiers selon la tradition.",
+        "Accompagner d'oignons émincés et cornichons.",
+        "Servir sur pain ou à la main, tenu par la queue selon la tradition."
+      ]
     }
   ]
 }
