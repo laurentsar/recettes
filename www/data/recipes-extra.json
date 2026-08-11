@@ -1,29 +1,75 @@
 {
-  "_comment": "Fichier géré manuellement — le bot RecetteTek ne touche que recipes.json",
   "delete": [
-    "dropbox:1589369469",
-    "dropbox:1682988969",
-    "dropbox:9820b483-950e-4063-9bc8-6fb6a2335509",
-    "dropbox:e3105124-3b51-4d96-a548-a93d5462162a",
-    "dropbox:-1102951874",
-    "dropbox:214148810",
-    "dropbox:443e9aaf-82c3-406f-80bd-557f0fa4f1d9",
-    "dropbox:-404631547",
-    "dropbox:-1357069993",
-    "dropbox:1817039957",
-    "dropbox:366775206",
-    "dropbox:196837970",
-    "dropbox:557788703",
-    "dropbox:182045753",
-    "dropbox:275672444",
-    "dropbox:27011784",
-    "dropbox:110382603",
-    "dropbox:-1074079364",
-    "dropbox:-763943463",
+    "sauce:009",
     "dropbox:-1568242711",
-    "dropbox:382709832",
+    "sauce:014",
+    "dropbox:-1102951874",
+    "dropbox:182045753",
+    "dropbox:156762462",
+    "espagne:034",
+    "dropbox:249546140",
+    "sauce:013",
+    "dropbox:889368652",
+    "dropbox:196837970",
+    "af:005",
+    "dropbox:e3105124-3b51-4d96-a548-a93d5462162a",
+    "dropbox:437684102",
+    "dropbox:353947105",
+    "sauce:010",
+    "dropbox:110382603",
+    "dropbox:-410736209",
+    "dropbox:56209378",
     "espagne:020",
-    "dropbox:ef32c145-057e-464f-93b0-5f2dee8537ae"
+    "dropbox:-747399946",
+    "portugal:032",
+    "dropbox:382709832",
+    "dropbox:-1303051855",
+    "dropbox:275672444",
+    "sauce:015",
+    "italie:047",
+    "dropbox:-1549464665",
+    "dropbox:443e9aaf-82c3-406f-80bd-557f0fa4f1d9",
+    "sauce:016",
+    "dropbox:366775206",
+    "dropbox:8fad5967-d3b1-476e-9d0a-cd1c9f44a093",
+    "soupe:001",
+    "dropbox:9820b483-950e-4063-9bc8-6fb6a2335509",
+    "portugal:031",
+    "dropbox:214148810",
+    "italie:042",
+    "dropbox:-763943463",
+    "dropbox:-1074079364",
+    "dropbox:ef32c145-057e-464f-93b0-5f2dee8537ae",
+    "espagne:033",
+    "italie:049",
+    "dropbox:-1357069993",
+    "italie:040",
+    "dropbox:-404631547",
+    "portugal:040",
+    "portugal:034",
+    "dropbox:1589369469",
+    "sauce:011",
+    "dropbox:1662423398",
+    "dropbox:996216924",
+    "dropbox:1682988969",
+    "espagne:035",
+    "dropbox:27011784",
+    "corse:071",
+    "dropbox:1809157029",
+    "dropbox:fdeef656-c72e-4174-92bb-6985184722df",
+    "dropbox:557788703",
+    "italie:046",
+    "dropbox:-275244418",
+    "sauce:012",
+    "italie:038",
+    "af:004",
+    "af:006",
+    "dropbox:66fbbc6c-a9c6-4687-9b9e-4c4d537c4d80",
+    "dropbox:1817039957",
+    "dropbox:8ecff8fa-30d7-455b-8350-a7ace1f38c7c",
+    "dropbox:-231113342",
+    "dropbox:-322620166",
+    "portugal:033"
   ],
   "overrides": [
     {
@@ -79,10 +125,6 @@
       "img": "https://www.lesepicesrient.fr/wp-content/uploads/2014/09/roti-porc-cuisson-longue.jpg"
     },
     {
-      "id": "dropbox:56209378",
-      "img": "https://bonasavoir.net/wp-content/uploads/2019/11/Pot-au-feu-léger-façon-grand-mère.jpg"
-    },
-    {
       "id": "italie:001",
       "url": "https://www.recipetineats.com/real-tomato-basil-bruschetta/"
     },
@@ -132,7 +174,18 @@
     },
     {
       "id": "italie:015",
-      "url": "https://food52.com/recipes/1863-risotto-alla-milanese"
+      "url": "https://food52.com/recipes/1863-risotto-alla-milanese",
+      "ing": [
+        "320 g de riz Carnaroli ou Vialone Nano (à défaut Arborio)",
+        "1 L de bouillon de bœuf chaud",
+        "1 oignon",
+        "150 ml de vin blanc sec",
+        "1 sachet de safran (0,25 g)",
+        "80 g de beurre",
+        "80 g de parmesan râpé",
+        "Sel"
+      ],
+      "steps": "Dissoudre le safran dans 3 c. à soupe de bouillon chaud. Faire revenir l'oignon émincé dans la moitié du beurre à feu doux 5 min. Ajouter le riz, nacrer 2 min. Déglacer au vin blanc, remuer jusqu'à absorption. Ajouter le bouillon chaud louche par louche en remuant constamment — ajouter la suivante seulement quand la précédente est absorbée. À mi-cuisson (10 min), incorporer le safran dissous. Cuire encore 8-10 min. Hors du feu, mantecatura : incorporer le reste du beurre froid et le parmesan en remuant vigoureusement. Couvrir 2 min. Servir \"all'onda\" — le risotto doit être fluide et ondulant."
     },
     {
       "id": "italie:016",
@@ -188,55 +241,50 @@
     },
     {
       "id": "sauce:001",
-      "url": "https://food52.com/recipes/82952-best-tartar-sauce-recipe"
+      "url": "https://food52.com/recipes/82952-best-tartar-sauce-recipe",
+      "steps": "Mélanger tous les ingrédients dans un bol. Goûter et rectifier l'assaisonnement. Réfrigérer 15 min avant de servir pour que les saveurs se développent. Se conserve 3 jours au réfrigérateur.\n\n🤖 Thermomix : Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Racler les parois. Mixer encore 5 sec / vitesse 3."
     },
     {
       "id": "sauce:002",
-      "url": "https://food52.com/recipes/82713-grand-desk-aioli-recipe"
+      "url": "https://food52.com/recipes/82713-grand-desk-aioli-recipe",
+      "steps": "Presser l'ail directement dans la mayonnaise. Ajouter le jus de citron. Saler et poivrer. Bien mélanger. Laisser reposer 10 min au frais avant de servir pour que l'ail parfume bien la sauce.\n\n🤖 Thermomix : Mettre l'ail dans le bol. Mixer 5 sec / vitesse 7. Racler les parois. Ajouter mayonnaise, citron, sel, poivre. Mixer 10 sec / vitesse 4."
     },
     {
       "id": "sauce:003",
-      "url": "https://www.recipetineats.com/prawn-cocktail/"
+      "url": "https://www.recipetineats.com/prawn-cocktail/",
+      "steps": "Mélanger la mayonnaise et le ketchup jusqu'à obtenir une couleur rose homogène. Ajouter le cognac ou le jus de citron et le paprika. Mélanger. Réfrigérer jusqu'au service. Parfaite pour les crevettes, le crabe et les avocats farcis.\n\n🤖 Thermomix : Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Racler les parois. Mixer 5 sec / vitesse 3."
     },
     {
       "id": "sauce:004",
-      "url": "https://www.recipetineats.com/honey-mustard-dipping-sauce/"
+      "url": "https://www.recipetineats.com/honey-mustard-dipping-sauce/",
+      "steps": "Mélanger la moutarde, le miel, la mayonnaise et le vinaigre de cidre jusqu'à consistance lisse. Goûter et ajuster le ratio moutarde/miel selon vos préférences. Servir immédiatement ou conserver au frais.\n\n🤖 Thermomix : Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Racler si besoin. Mixer 5 sec / vitesse 3."
     },
     {
       "id": "sauce:007",
-      "url": "https://food52.com/story/27479-how-to-make-barbecue-sauce"
+      "url": "https://food52.com/story/27479-how-to-make-barbecue-sauce",
+      "steps": "Mélanger tous les ingrédients dans une petite casserole. Chauffer à feu doux 5 min en remuant jusqu'à léger épaississement. Laisser refroidir avant d'utiliser. Se conserve 2 semaines au réfrigérateur dans un pot fermé.\n\n🤖 Thermomix : Mettre tous les ingrédients dans le bol. Cuire 7 min / 90°C / vitesse 2. Peut être mixée 5 sec / vitesse 5 pour texture plus lisse."
     },
     {
       "id": "sauce:008",
-      "url": "https://food52.com/recipes/27795-sweet-chili-sauce"
-    },
-    {
-      "id": "sauce:009",
-      "url": "https://food52.com/recipes/82952-best-tartar-sauce-recipe"
-    },
-    {
-      "id": "sauce:010",
-      "url": "https://food52.com/recipes/82713-grand-desk-aioli-recipe"
-    },
-    {
-      "id": "sauce:011",
-      "url": "https://www.recipetineats.com/prawn-cocktail/"
-    },
-    {
-      "id": "sauce:012",
-      "url": "https://www.recipetineats.com/honey-mustard-dipping-sauce/"
-    },
-    {
-      "id": "sauce:015",
-      "url": "https://food52.com/story/27479-how-to-make-barbecue-sauce"
-    },
-    {
-      "id": "sauce:016",
-      "url": "https://food52.com/recipes/27795-sweet-chili-sauce"
+      "url": "https://food52.com/recipes/27795-sweet-chili-sauce",
+      "steps": "Mélanger la mayonnaise, la sauce piment doux, le miel et le jus de citron. Goûter et ajuster la quantité de sauce piment selon votre tolérance. Servir avec des nems, des bouchées apéritives ou des crevettes.\n\n🤖 Thermomix : Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Racler. Mixer 5 sec / vitesse 3."
     },
     {
       "id": "espagne:001",
-      "url": "https://www.seriouseats.com/andalusian-gazpacho-recipe"
+      "url": "https://www.seriouseats.com/andalusian-gazpacho-recipe",
+      "ing": [
+        "1 kg de tomates mûres bien parfumées",
+        "1 concombre pelé et épépiné",
+        "1 poivron rouge",
+        "2 gousses d'ail",
+        "1 oignon rouge",
+        "100 ml d'huile d'olive extra vierge",
+        "3 c. à s. de vinaigre de Xérès",
+        "1 tranche de pain rassis trempé dans l'eau (optionnel, pour lier)",
+        "Sel, poivre",
+        "Garniture : dés de tomate, concombre, poivron, croûtons"
+      ],
+      "steps": "Couper grossièrement tous les légumes. Mettre dans un blender avec l'ail, le vinaigre, l'huile d'olive et le pain imbibé si utilisé. Mixer finement. Assaisonner. Passer au tamis fin pour une texture soyeuse (optionnel). Réfrigérer 2 h minimum (idéalement 4 h). Servir très frais, garni de dés de légumes et croûtons.\n\n💡 Un gaspacho est aussi bon que ses tomates — choisir des tomates mûres de plein été, en saison."
     },
     {
       "id": "espagne:002",
@@ -272,7 +320,18 @@
     },
     {
       "id": "espagne:009",
-      "url": "https://www.seriouseats.com/spanish-style-garlic-shrimp-gambas-al-ajillo-recipe"
+      "url": "https://www.seriouseats.com/spanish-style-garlic-shrimp-gambas-al-ajillo-recipe",
+      "ing": [
+        "500 g de gambas crues",
+        "6 gousses d'ail finement émincées",
+        "1 piment rouge séché (guindilla)",
+        "10 cl d'huile d'olive",
+        "2 c. à soupe de vin blanc sec",
+        "Persil haché",
+        "Sel"
+      ],
+      "steps": "Chauffer l'huile d'olive dans une cazuela (petite cocotte en terre cuite) à feu moyen. Ajouter l'ail et le piment, faire revenir 2 min sans laisser dorer. Monter le feu à vif, ajouter les gambas salées. Faire sauter 2-3 min jusqu'à ce qu'elles soient rosées. Déglacer avec le vin blanc, cuire 30 secondes. Parsemer de persil. Servir immédiatement — le plat doit encore grésiller à table — avec du pain pour saucer.",
+      "min": 10
     },
     {
       "id": "espagne:010",
@@ -295,12 +354,19 @@
       "url": "https://www.themediterraneandish.com/spanish-garlic-chicken-pollo-al-ajillo/"
     },
     {
-      "id": "espagne:020",
-      "url": "https://www.recipetineats.com/spanish-tortilla-omelette/"
-    },
-    {
       "id": "espagne:023",
-      "url": "https://www.seriouseats.com/churros-recipe-11680433"
+      "url": "https://www.seriouseats.com/churros-recipe-11680433",
+      "steps": "Mélanger farine et sel. Verser l'eau bouillante et mélanger vigoureusement. Mettre dans une poche à douille. Former des bâtonnets dans l'huile chaude (180°C). Frire jusqu'à dorure. Égoutter et saupoudrer de sucre. Faire fondre le chocolat dans le lait avec la fécule en fouettant. Cuire jusqu'à épaississement.\n\n✈️ Variante Air Fryer : former les bâtonnets sur papier sulfurisé, transférer dans le panier. Pulvériser d'huile. Cuire à 200°C, 12-14 min en retournant à mi-cuisson. Rouler dans le sucre dès la sortie. Moins gras, croûte légèrement différente.",
+      "ing": [
+        "250 g de farine",
+        "250 ml d'eau bouillante",
+        "1 c. à c. de sel",
+        "Huile de friture (ou huile en spray pour la version Air Fryer)",
+        "Sucre pour enrober",
+        "Pour le chocolat : 200 g de chocolat noir",
+        "500 ml de lait",
+        "2 c. à s. de fécule de maïs"
+      ]
     },
     {
       "id": "espagne:024",
@@ -316,7 +382,20 @@
     },
     {
       "id": "portugal:001",
-      "url": "https://www.seriouseats.com/caldo-verde-portuguese-potato-kale-soup-recipe"
+      "url": "https://www.seriouseats.com/caldo-verde-portuguese-potato-kale-soup-recipe",
+      "ing": [
+        "600 g de pommes de terre",
+        "300 g de chou vert (couve-galega, kale ou chou frisé)",
+        "2 chorizos (chouriço portugais)",
+        "1 oignon",
+        "3 gousses d'ail",
+        "6 c. à s. d'huile d'olive extra vierge",
+        "1,5 L d'eau",
+        "Sel, poivre"
+      ],
+      "steps": "Faire revenir l'oignon et l'ail dans l'huile d'olive. Ajouter les pommes de terre en cubes et l'eau. Porter à ébullition, cuire 25-30 min. Écraser ou mixer grossièrement les pommes de terre dans le bouillon — texture rustique, pas de velouté. Couper le chou en très fine julienne (chiffonnade ultra-serrée — le geste signature). Ajouter le chou au bouillon, cuire 5 min à feu doux — doit rester vert et légèrement croquant. Ajouter le chorizo en rondelles. Verser un filet d'huile d'olive. Ajuster sel et poivre. Servir avec du pain de campagne.\n\n💡 La julienne ultra-fine du chou est la signature du plat — prendre son temps au couteau.",
+      "serv": 6,
+      "min": 50
     },
     {
       "id": "portugal:004",
@@ -404,11 +483,23 @@
     },
     {
       "id": "corse:060",
-      "url": "https://www.recettes-corses.fr/recipe-items/gateau-a-farine-de-chataigne"
+      "url": "https://www.recettes-corses.fr/recipe-items/gateau-a-farine-de-chataigne",
+      "steps": "Préchauffer le four à 170°C.\nMélanger farine, sucre et levure.\nIncorporer œufs, lait et huile d'olive.\nAjouter raisins, noix et éventuellement fenouil sauvage.\nVerser dans un moule huilé.\nCuire 45 min. Laisser refroidir avant de démouler.\n\n✈️ Variante Air Fryer : verser dans un moule adapté. Cuire à 175°C pendant 25-30 min en vérifiant la cuisson."
     },
     {
       "id": "corse:061",
-      "url": "https://www.recettes-corses.fr/fiadone-corse-au-citron"
+      "url": "https://www.recettes-corses.fr/fiadone-corse-au-citron",
+      "ing": [
+        "500 g de brocciu frais (ou ricotta entière, ou brousse fraîche)",
+        "4 œufs (blancs et jaunes séparés)",
+        "150 g de sucre",
+        "Zeste de 2 citrons non traités",
+        "1 c. à s. d'eau-de-vie ou grappa (optionnel)",
+        "Beurre pour le moule"
+      ],
+      "steps": "Préchauffer le four à 180°C. Écraser le brocciu à la fourchette jusqu'à texture homogène. Mélanger brocciu, jaunes d'œufs, sucre, zestes et eau-de-vie jusqu'à crème lisse. Battre les blancs en neige ferme. Incorporer délicatement les blancs au mélange en 3 fois — ne pas casser les blancs. Beurrer un moule à manqué de 24-26 cm. Verser la préparation. Cuire 35-40 min jusqu'à belle dorure. Le cœur doit être légèrement tremblotant. Laisser refroidir complètement avant de servir — se déguste froid ou à température ambiante.\n\n💡 Le brocciu est le fromage frais de brebis corse. La ricotta entière est un excellent substitut continental.",
+      "min": 55,
+      "img": "https://static.750g.com/images/1200-630/7e93c205fab527454a9433bd485a48eb/fiadone.jpg"
     },
     {
       "id": "corse:063",
@@ -704,6 +795,22 @@
       ],
       "steps": "Si haricots secs : faire tremper quelques heures au préalable. Blanchir les verts de blettes 3 mn à l'eau salée bouillante, refroidir à l'eau froide, réserver.\n\nCuire les haricots rouges 10 minutes dans un faitout avec de l'eau bouillante non salée. (Si frais : les écosser directement.)\nPendant ce temps, faire revenir dans le saindoux les autres légumes : haricots verts, carottes, pommes de terre, chou, verts de blettes et potiron.\nJeter la moitié de l'eau de cuisson des haricots, puis compléter dans le faitout jusqu'à 5 litres.\nAjouter les légumes revenus, l'oignon et l'ail pilés au mortier avec les tomates, les branches de basilic, menthe et céleri, le bouquet garni, le lard fumé et l'os de jambon (ou la coppa).\nSaler, poivrer. Arroser d'huile d'olive. Laisser mijoter à feu doux jusqu'à ce que tous les légumes soient fondants (environ 1h30 après la mise en commun).\n\n💡 Cette soupe est encore meilleure réchauffée le lendemain.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Minestrone_di_verdure.jpg/640px-Minestrone_di_verdure.jpg"
+    },
+    {
+      "id": "dropbox:-2129200168",
+      "img": "https://bonasavoir.net/wp-content/uploads/2019/11/Pot-au-feu-léger-façon-grand-mère.jpg"
+    },
+    {
+      "id": "sauce:005",
+      "steps": "Mélanger le fromage blanc avec les herbes fraîches. Ajouter le jus de citron. Saler et poivrer. Mélanger et réfrigérer 10 min. Servir bien frais avec des crudités, du saumon ou des légumes grillés.\n\n🤖 Thermomix : Mettre tous les ingrédients dans le bol. Mixer 15 sec / vitesse 4."
+    },
+    {
+      "id": "sauce:006",
+      "steps": "Mélanger la mayonnaise avec le curry, le miel et le jus de citron. Bien incorporer jusqu'à couleur homogène. Réfrigérer 15 min pour laisser le curry s'exprimer. Servir avec des brochettes de poulet, des samosas ou des légumes.\n\n🤖 Thermomix : Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Racler. Mixer 5 sec / vitesse 3."
+    },
+    {
+      "id": "espagne:029",
+      "steps": "Chauffer le lait avec la cannelle, le zeste et le sucre. Tremper les tranches de pain dans ce lait parfumé. Laisser bien imbiber. Passer dans l'œuf battu. Faire frire jusqu'à dorure. Égoutter. Rouler dans le mélange sucre-cannelle. Servir tiède.\n\n✈️ Variante Air Fryer : déposer les tranches imbibées dans le panier. Pulvériser légèrement d'huile. Cuire 180°C / 6 min, retourner, re-pulvériser, encore 4 min. Plus légères, texture légèrement différente de la version frite."
     }
   ],
   "recipes": [
