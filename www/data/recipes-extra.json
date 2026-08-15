@@ -10811,6 +10811,1113 @@
         "Accompagner d'oignons émincés et cornichons.",
         "Servir sur pain ou à la main, tenu par la queue selon la tradition."
       ]
+    },
+    {
+      "id": "wrap:013",
+      "t": "Wrap Classique Viande & Fromage",
+      "cat": "Wrap",
+      "desc": "Le wrap viande hachée par excellence : bœuf haché, fromage fondu, oignons et paprika dans une tortilla grillée.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée de bœuf",
+        "1 oignon émincé",
+        "100 g de fromage râpé",
+        "1 cc de paprika",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:014",
+      "t": "Wrap Mexicain Épicé",
+      "cat": "Wrap",
+      "desc": "Version tex-mex épicée avec haricots rouges, mozzarella et épices mexicaines.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "1 oignon",
+        "100 g de haricots rouges égouttés",
+        "100 g de mozzarella",
+        "1 cs d'épices mexicaines (cumin, paprika, piment, origan)",
+        "sel"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:015",
+      "t": "Wrap Bacon & Cheddar",
+      "cat": "Wrap",
+      "desc": "Duo gourmand bœuf haché et bacon croustillant, lié par une sauce burger et du cheddar fondant.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "250 g de viande hachée",
+        "4 tranches de bacon",
+        "100 g de mozzarella râpée",
+        "2 cs de sauce burger",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:016",
+      "t": "Wrap Poulet & Viande Mixte",
+      "cat": "Wrap",
+      "desc": "Mélange de bœuf haché et poulet émincé pour un wrap plus léger avec mozzarella et paprika.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "200 g de viande hachée",
+        "150 g de poulet émincé",
+        "100 g de mozzarella",
+        "1 cc de paprika fumé",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:017",
+      "t": "Wrap Chorizo & Fromage",
+      "cat": "Wrap",
+      "desc": "L'alliance bœuf haché et chorizo épicé avec du fromage râpé fondant et oignons caramélisés.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "200 g de viande hachée",
+        "100 g de chorizo en rondelles",
+        "100 g de fromage râpé",
+        "1 oignon",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:018",
+      "t": "Wrap Viande & Raclette",
+      "cat": "Wrap",
+      "desc": "Wrap hivernal généreux : bœuf haché et fromage à raclette fondant avec oignons caramélisés.",
+      "min": 25,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "100 g de fromage à raclette",
+        "2 oignons caramélisés",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:019",
+      "t": "Wrap BBQ Fondant",
+      "cat": "Wrap",
+      "desc": "Wrap façon burger BBQ : bœuf haché, sauce BBQ fumée, crème fraîche et oignons frits croustillants.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "3 cs de sauce BBQ",
+        "2 cs de crème fraîche",
+        "1 oignon frit (ou friture d'oignons)",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:020",
+      "t": "Wrap Curry Fromage",
+      "cat": "Wrap",
+      "desc": "Viande hachée parfumée au curry avec crème fraîche et fromage fondu pour une version orientale.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "1 cs de curry en poudre",
+        "3 cs de crème fraîche",
+        "100 g de fromage râpé",
+        "sel"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:021",
+      "t": "Wrap Viande & Champignons",
+      "cat": "Wrap",
+      "desc": "Bœuf haché et champignons sautés, mozzarella fondante et persil frais pour un wrap forestier.",
+      "min": 25,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "250 g de viande hachée",
+        "150 g de champignons émincés",
+        "100 g de mozzarella",
+        "persil frais",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:022",
+      "t": "Wrap Deluxe 3 Fromages",
+      "cat": "Wrap",
+      "desc": "Le wrap fromage ultime : bœuf haché avec mozzarella, cheddar et parmesan pour un fondant exceptionnel.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "50 g de mozzarella",
+        "50 g de cheddar râpé",
+        "30 g de parmesan râpé",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:023",
+      "t": "Wrap Viande & Jalapeños",
+      "cat": "Wrap",
+      "desc": "Wrap pimenté pour les amateurs de sensations : bœuf haché, jalapeños, cheddar et sauce piquante.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "2 cs de jalapeños en bocal",
+        "100 g de cheddar râpé",
+        "2 cs de sauce piquante",
+        "sel"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:024",
+      "t": "Wrap Viande & Pommes de Terre",
+      "cat": "Wrap",
+      "desc": "Wrap généreux et roboratif : bœuf haché, pommes de terre sautées et fromage fondant.",
+      "min": 30,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "250 g de viande hachée",
+        "200 g de pommes de terre cuites en dés",
+        "100 g de fromage râpé",
+        "1 oignon",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:025",
+      "t": "Wrap Bolognaise",
+      "cat": "Wrap",
+      "desc": "La sauce bolognaise en wrap : bœuf haché à la tomate avec parmesan et basilic frais.",
+      "min": 25,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "100 ml de sauce tomate",
+        "30 g de parmesan râpé",
+        "basilic frais",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:026",
+      "t": "Wrap Viande & Épinards",
+      "cat": "Wrap",
+      "desc": "Wrap équilibré : bœuf haché, épinards frais, féta émiettée et ail pour une version plus healthy.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "250 g de viande hachée",
+        "100 g d'épinards frais",
+        "80 g de féta émiettée",
+        "2 gousses d'ail",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:027",
+      "t": "Wrap Viande Crémeuse",
+      "cat": "Wrap",
+      "desc": "Version ultra-fondante : bœuf haché enrobé de crème fraîche et fromage, oignons confits.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "3 cs de crème fraîche",
+        "100 g de fromage râpé",
+        "1 oignon",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:028",
+      "t": "Wrap Viande & Maïs",
+      "cat": "Wrap",
+      "desc": "Wrap festif avec bœuf haché, maïs doux, cheddar fondu et paprika fumé.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "250 g de viande hachée",
+        "100 g de maïs en boîte",
+        "100 g de cheddar râpé",
+        "1 cc de paprika fumé",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:029",
+      "t": "Wrap Viande & Poivrons",
+      "cat": "Wrap",
+      "desc": "Coloré et savoureux : bœuf haché, poivrons sautés tricolores, mozzarella et oignons.",
+      "min": 25,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "250 g de viande hachée",
+        "1 poivron rouge et 1 vert en lamelles",
+        "100 g de mozzarella",
+        "1 oignon",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:030",
+      "t": "Wrap Viande & Sauce Ranch",
+      "cat": "Wrap",
+      "desc": "Inspiré des diners américains : bœuf haché, bacon croustillant, cheddar et sauce ranch maison.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "250 g de viande hachée",
+        "3 cs de sauce ranch",
+        "3 tranches de bacon",
+        "100 g de cheddar râpé",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:031",
+      "t": "Wrap Viande Italienne",
+      "cat": "Wrap",
+      "desc": "Version italienne : bœuf haché à la sauce tomate, parmesan, basilic frais, façon pizza.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "80 ml de sauce tomate",
+        "40 g de parmesan râpé",
+        "basilic frais",
+        "sel, poivre, origan"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:032",
+      "t": "Wrap Viande & Oignons Caramélisés",
+      "cat": "Wrap",
+      "desc": "La douceur des oignons caramélisés avec du bœuf haché et du fromage fondant.",
+      "min": 35,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "3 oignons caramélisés longuement",
+        "100 g de fromage râpé",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Caraméliser les oignons à feu doux 20 min avec un peu de beurre.",
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale."
+      ]
+    },
+    {
+      "id": "wrap:033",
+      "t": "Wrap Viande & Avocat",
+      "cat": "Wrap",
+      "desc": "Version fraîche et gourmande : bœuf haché, avocat crémeux, cheddar et citron vert.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "250 g de viande hachée",
+        "1 avocat écrasé",
+        "100 g de cheddar râpé",
+        "jus d'½ citron vert",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:034",
+      "t": "Wrap Viande & Sauce Fromagère",
+      "cat": "Wrap",
+      "desc": "Sauce fromagère maison (fromage frais + mozzarella) sur bœuf haché pour un wrap ultra-fondant.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "3 cs de fromage frais à tartiner",
+        "50 g de mozzarella râpée",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:035",
+      "t": "Wrap Viande & Courgettes",
+      "cat": "Wrap",
+      "desc": "Wrap estival : bœuf haché, courgettes sautées, parmesan et ail pour une version légère.",
+      "min": 25,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "250 g de viande hachée",
+        "1 courgette en dés sautée",
+        "40 g de parmesan râpé",
+        "2 gousses d'ail",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:036",
+      "t": "Wrap Viande & Fromage Bleu",
+      "cat": "Wrap",
+      "desc": "Pour les amateurs de saveurs corsées : bœuf haché, fromage bleu crémeux et crème légère.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "80 g de fromage bleu (roquefort ou gorgonzola)",
+        "2 cs de crème légère",
+        "poivre noir"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "wrap:037",
+      "t": "Wrap Deluxe Suprême",
+      "cat": "Wrap",
+      "desc": "Le wrap ultime : bœuf haché, bacon, double fromage, sauce burger et oignons croustillants.",
+      "min": 25,
+      "serv": "2 personnes",
+      "ing": [
+        "2 tortillas",
+        "300 g de viande hachée",
+        "4 tranches de bacon",
+        "50 g de cheddar râpé",
+        "50 g de mozzarella",
+        "2 cs de sauce burger",
+        "oignons frits croustillants",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer la viande hachée dans une poêle avec l'oignon émincé.",
+        "Assaisonner et ajouter les garnitures selon la variante.",
+        "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
+        "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
+        "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
+      ]
+    },
+    {
+      "id": "technique:001",
+      "t": "Couper un Poivron — 10 façons",
+      "cat": "Technique",
+      "desc": "Fiche technique complète : les 10 coupes du poivron avec dimensions, utilisations et conseils.",
+      "min": 10,
+      "serv": "1 poivron",
+      "ing": [
+        "1 — En lanières (3-5 mm de large) : poêlées, fajitas, tacos, salades",
+        "2 — En demi-lanières (1-1,5 cm) : poêlées, grillades, ratatouille, brochettes",
+        "3 — En julienne (2-3 mm) : salades, garnitures, wok, rouleaux de printemps",
+        "4 — En dés (1-1,5 cm côté) : ratatouille, poêlées, couscous, brochettes",
+        "5 — En brunoise (2-3 mm) : farces, sauces, salades, décoration des assiettes",
+        "6 — En paysanne (2-3 mm épaisseur) : potages, garnitures, cuisson rapide, accompagnements",
+        "7 — En lamelles (2-4 mm) : lasagnes de légumes, carpaccio de poivron, grillades, rouleaux",
+        "8 — En quartiers (¼ du poivron) : à farcir, grillades au four, plancha, rôtis",
+        "9 — En lanières ondulées (3-5 mm) : présentation originale, accompagnements",
+        "10 — En rondelles (5-8 mm) : grillades, farcis, burgers, présentation"
+      ],
+      "steps": [
+        "Laver le poivron avant de le couper.",
+        "Retirer le pédoncule, ouvrir en deux, enlever graines et membranes blanches (amères).",
+        "Utiliser un couteau bien aiguisé pour des découpes nettes et régulières.",
+        "Les parties blanches (membranes) sont amères : bien les retirer.",
+        "Plus les morceaux sont petits, plus la cuisson sera rapide.",
+        "Utiliser des poivrons de différentes couleurs pour des plats plus gourmands et colorés !"
+      ]
+    },
+    {
+      "id": "technique:002",
+      "t": "Couper une Pomme de Terre — 15 façons",
+      "cat": "Technique",
+      "desc": "Fiche technique complète : les 15 coupes de pomme de terre avec dimensions, utilisations et conseils.",
+      "min": 10,
+      "serv": "1 pomme de terre",
+      "ing": [
+        "1 — En rondelles (2-10 mm) : gratin dauphinois, tian de légumes, frites au four",
+        "2 — En demi-rondelles (3-8 mm) : soupes, poêlées, wok, rissolées",
+        "3 — En bâtonnets / julienne épaisse (7×7 mm) : frites maison, apéritifs, wok, pot-au-feu",
+        "4 — En julienne (2×2 mm) : salades, garnitures, soupe julienne de légumes",
+        "5 — En brunoise (2-3 mm) : farces, sauces, décoration d'assiettes",
+        "6 — En dés (1-2 cm) : ragoûts, couscous, pot-au-feu, brochettes",
+        "7 — En paysanne (1-2 mm) : soupes, potages, garnitures, cuisson rapide",
+        "8 — En sifflet/biais (5-10 mm) : poêlées, grillades, présentation soignée, accompagnements",
+        "9 — En lamelles (1-3 mm) : gratin, lasagnes de pommes de terre, tian, mille-feuille",
+        "10 — En allumettes (1×1 mm) : frites très croustillantes, salades, décorations",
+        "11 — En quartiers (gros quartiers) : rôtis au four, pot-au-feu, barbecue, pommes de terre sautées",
+        "12 — En wedges (quartiers épais avec peau) : frites au four, accompagnements, apéritifs",
+        "13 — En pont-neuf (1×1×4-5 cm, 4 faces droites) : potages, garnitures",
+        "14 — En spirales : frites originales, fêtes/barbecue, présentation ludique",
+        "15 — Écrasée : purée, pommes de terre écrasées à l'ail et au persil"
+      ],
+      "steps": [
+        "Laver et éplucher les pommes de terre avant de les couper.",
+        "Couper des morceaux de taille régulière pour une cuisson homogène.",
+        "Utiliser un couteau bien aiguisé ou une mandoline pour plus de précision.",
+        "Rincer les pommes de terre coupées à l'eau froide pour enlever l'excès d'amidon (surtout pour les frites).",
+        "Les petites pièces cuisent plus vite que les grosses."
+      ]
+    },
+    {
+      "id": "cakesale:001",
+      "t": "Cake Courgette & Féta",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake moelleux à la courgette et à la féta, parfumé à la menthe fraîche, idéal en pique-nique ou apéritif.",
+      "min": 60,
+      "serv": "6 personnes",
+      "ing": [
+        "200 g de farine",
+        "1 sachet de levure",
+        "3 œufs",
+        "10 cl de lait",
+        "8 cl d'huile d'olive",
+        "1 courgette râpée",
+        "150 g de féta émiettée",
+        "quelques feuilles de menthe",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer un moule à cake.",
+        "Battre œufs, lait et huile. Ajouter farine et levure, mélanger.",
+        "Incorporer courgette râpée (essorée), féta et menthe. Saler, poivrer.",
+        "Verser dans le moule, cuire 45-50 min. Vérifier la cuisson au couteau.",
+        "Laisser tiédir avant de démouler. Servir tiède ou froid."
+      ]
+    },
+    {
+      "id": "cakesale:002",
+      "t": "Cake Jambon & Olives",
+      "cat": "Entrée, Cake salé",
+      "desc": "Le classique cake salé jambon-olives avec du gruyère râpé, moelleux et savoureux.",
+      "min": 60,
+      "serv": "6 personnes",
+      "ing": [
+        "200 g de farine",
+        "1 sachet de levure",
+        "3 œufs",
+        "10 cl de lait",
+        "8 cl d'huile",
+        "150 g de jambon en dés",
+        "100 g d'olives vertes dénoyautées",
+        "100 g de gruyère râpé",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Battre œufs, lait et huile. Incorporer farine et levure.",
+        "Ajouter jambon, olives et gruyère. Assaisonner.",
+        "Verser dans le moule beurré, cuire 45-50 min.",
+        "Laisser tiédir avant de démouler."
+      ]
+    },
+    {
+      "id": "cakesale:003",
+      "t": "Cake Tomates Séchées & Mozzarella",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake ensoleillé aux tomates séchées et mozzarella, parfumé au basilic frais, goût méditerranéen.",
+      "min": 60,
+      "serv": "6 personnes",
+      "ing": [
+        "200 g de farine",
+        "1 sachet de levure",
+        "3 œufs",
+        "10 cl de lait",
+        "8 cl d'huile d'olive",
+        "120 g de tomates séchées en morceaux",
+        "150 g de mozzarella en dés",
+        "basilic frais",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Battre œufs, lait et huile d'olive. Incorporer farine et levure.",
+        "Ajouter tomates séchées, mozzarella et basilic ciselé. Assaisonner.",
+        "Verser dans le moule beurré, cuire 45-50 min.",
+        "Démouler tiède, servir avec une salade."
+      ]
+    },
+    {
+      "id": "cakesale:004",
+      "t": "Cake Poireaux & Saumon",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake délicat aux poireaux fondants et saumon fumé, parfumé à l'aneth frais.",
+      "min": 65,
+      "serv": "6 personnes",
+      "ing": [
+        "200 g de farine",
+        "1 sachet de levure",
+        "3 œufs",
+        "10 cl de lait",
+        "8 cl d'huile",
+        "2 poireaux émincés et cuits",
+        "200 g de saumon fumé en morceaux",
+        "aneth frais",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire fondre les poireaux dans un peu de beurre 10 min. Laisser refroidir.",
+        "Préchauffer le four à 180°C.",
+        "Battre œufs, lait et huile. Incorporer farine et levure.",
+        "Ajouter poireaux, saumon et aneth. Assaisonner légèrement (saumon salé).",
+        "Cuire dans le moule beurré 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:005",
+      "t": "Cake Chèvre & Noix",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake rustique au fromage de chèvre et aux noix, légèrement sucré au miel, parfait à l'apéritif.",
+      "min": 60,
+      "serv": "6 personnes",
+      "ing": [
+        "200 g de farine",
+        "1 sachet de levure",
+        "3 œufs",
+        "10 cl de lait",
+        "8 cl d'huile d'olive",
+        "150 g de fromage de chèvre en morceaux",
+        "80 g de noix concassées",
+        "1 cs de miel",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Battre œufs, lait, huile et miel. Incorporer farine et levure.",
+        "Ajouter chèvre et noix. Assaisonner.",
+        "Verser dans le moule beurré, cuire 45-50 min.",
+        "Servir tiède ou froid avec une salade de roquette."
+      ]
+    },
+    {
+      "id": "cakesale:006",
+      "t": "Cake Légumes Grillés",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake estival aux légumes du soleil grillés (courgette, poivron, aubergine) et herbes de Provence.",
+      "min": 75,
+      "serv": "6 personnes",
+      "ing": [
+        "200 g de farine",
+        "1 sachet de levure",
+        "3 œufs",
+        "10 cl de lait",
+        "8 cl d'huile d'olive",
+        "1 courgette en rondelles grillées",
+        "1 poivron rouge grillé en morceaux",
+        "1 aubergine en cubes grillée",
+        "1 cs d'herbes de Provence",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Griller les légumes en dés à la plancha ou au four avec de l'huile. Laisser refroidir.",
+        "Préchauffer le four à 180°C.",
+        "Battre œufs, lait et huile. Incorporer farine et levure.",
+        "Ajouter légumes grillés et herbes. Assaisonner.",
+        "Cuire dans le moule beurré 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:007",
+      "t": "Cake Thon & Maïs",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake simple et rapide au thon et maïs, parsemé de persil frais, un grand classique des pique-niques.",
+      "min": 55,
+      "serv": "6 personnes",
+      "ing": [
+        "200 g de farine",
+        "1 sachet de levure",
+        "3 œufs",
+        "10 cl de lait",
+        "8 cl d'huile",
+        "1 boîte de thon égoutté (160 g)",
+        "100 g de maïs en boîte",
+        "persil frais haché",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Battre œufs, lait et huile. Incorporer farine et levure.",
+        "Émietter le thon, ajouter maïs et persil. Mélanger.",
+        "Incorporer à la pâte. Assaisonner.",
+        "Verser dans le moule beurré, cuire 45 min."
+      ]
+    },
+    {
+      "id": "cakesale:008",
+      "t": "Cake Champignons & Comté",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake automnal aux champignons sautés et comté affiné, parsemé de ciboulette fraîche.",
+      "min": 65,
+      "serv": "6 personnes",
+      "ing": [
+        "200 g de farine",
+        "1 sachet de levure",
+        "3 œufs",
+        "10 cl de lait",
+        "8 cl d'huile",
+        "250 g de champignons de Paris sautés",
+        "150 g de comté râpé",
+        "ciboulette fraîche",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire sauter les champignons émincés dans le beurre jusqu'à évaporation. Laisser refroidir.",
+        "Préchauffer le four à 180°C.",
+        "Battre œufs, lait et huile. Incorporer farine et levure.",
+        "Ajouter champignons, comté et ciboulette. Assaisonner.",
+        "Cuire dans le moule beurré 45-50 min."
+      ]
+    },
+    {
+      "id": "omelette:001",
+      "t": "Omelette Classique Jambon Fromage",
+      "cat": "Entrée, Omelette",
+      "desc": "L'incontournable omelette jambon-fromage : baveuse, dorée et fondante.",
+      "min": 10,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "100 g de jambon en dés",
+        "80 g de fromage râpé",
+        "2 cs de lait",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Battre les œufs avec le lait, sel et poivre.",
+        "Faire fondre le beurre dans une poêle antiadhésive à feu moyen.",
+        "Verser les œufs, remuer légèrement. Ajouter jambon et fromage.",
+        "Plier l'omelette baveuse. Servir immédiatement."
+      ]
+    },
+    {
+      "id": "omelette:002",
+      "t": "Omelette Raclette & Jambon",
+      "cat": "Entrée, Omelette",
+      "desc": "Omelette garnie de fromage à raclette fondant, jambon et pommes de terre, version alpine.",
+      "min": 15,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "100 g de jambon",
+        "100 g de fromage à raclette",
+        "150 g de pommes de terre cuites en dés",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire revenir les pommes de terre dans le beurre jusqu'à dorure.",
+        "Battre les œufs, verser dans la poêle.",
+        "Ajouter jambon, pommes de terre et raclette en morceaux.",
+        "Plier et servir dès que le fromage est fondu."
+      ]
+    },
+    {
+      "id": "omelette:003",
+      "t": "Omelette Champignons & Fromage",
+      "cat": "Entrée, Omelette",
+      "desc": "Omelette forestière aux champignons sautés, jambon et fromage fondu.",
+      "min": 15,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "80 g de jambon",
+        "150 g de champignons émincés",
+        "80 g de fromage râpé",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire sauter les champignons dans le beurre 5 min.",
+        "Battre les œufs avec sel et poivre, verser dans la poêle.",
+        "Ajouter jambon, champignons et fromage.",
+        "Plier l'omelette baveuse et servir."
+      ]
+    },
+    {
+      "id": "omelette:004",
+      "t": "Omelette Bacon & Fromage",
+      "cat": "Entrée, Omelette",
+      "desc": "Omelette gourmande au bacon grillé et fromage fondu, façon petit-déjeuner américain.",
+      "min": 10,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "6 tranches de bacon",
+        "80 g de fromage râpé",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire griller le bacon dans la poêle jusqu'à croustillant. Réserver.",
+        "Dans la même poêle beurrée, verser les œufs battus assaisonnés.",
+        "Ajouter bacon émietté et fromage.",
+        "Plier et servir immédiatement."
+      ]
+    },
+    {
+      "id": "omelette:005",
+      "t": "Omelette Épinards & Jambon",
+      "cat": "Entrée, Omelette",
+      "desc": "Omelette verte et légère aux épinards frais, jambon et fromage râpé.",
+      "min": 15,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "100 g de jambon en dés",
+        "100 g d'épinards frais",
+        "80 g de fromage râpé",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire tomber les épinards dans le beurre 2 min. Réserver.",
+        "Battre les œufs, verser dans la poêle beurrée.",
+        "Ajouter jambon, épinards et fromage.",
+        "Plier baveuse et servir."
+      ]
+    },
+    {
+      "id": "omelette:006",
+      "t": "Omelette Chèvre & Jambon",
+      "cat": "Entrée, Omelette",
+      "desc": "Omelette fondante au chèvre et jambon, avec un filet de crème fraîche pour plus d'onctuosité.",
+      "min": 10,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "100 g de jambon",
+        "100 g de fromage de chèvre en tranches",
+        "2 cs de crème fraîche",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Battre œufs et crème fraîche avec sel et poivre.",
+        "Verser dans la poêle beurrée chaude.",
+        "Disposer jambon et rondelles de chèvre.",
+        "Plier et servir dès que le chèvre commence à fondre."
+      ]
+    },
+    {
+      "id": "omelette:007",
+      "t": "Omelette Pommes de Terre & Fromage",
+      "cat": "Entrée, Omelette",
+      "desc": "Omelette généreuse aux pommes de terre dorées, jambon et fromage fondu, façon tortilla.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "80 g de jambon",
+        "200 g de pommes de terre cuites en rondelles",
+        "80 g de fromage râpé",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer les rondelles de pommes de terre dans le beurre.",
+        "Battre les œufs assaisonnés, verser sur les pommes de terre.",
+        "Ajouter jambon et fromage.",
+        "Cuire 5-7 min à couvert. Servir non pliée."
+      ]
+    },
+    {
+      "id": "omelette:008",
+      "t": "Omelette Saumon & Fromage Frais",
+      "cat": "Entrée, Omelette",
+      "desc": "Omelette raffinée au saumon fumé et fromage frais, parsemée de ciboulette fraîche.",
+      "min": 10,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "80 g de saumon fumé en morceaux",
+        "60 g de fromage frais (Saint-Moret ou Philadelphia)",
+        "ciboulette fraîche",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Battre les œufs légèrement assaisonnés.",
+        "Verser dans la poêle beurrée à feu moyen.",
+        "Déposer saumon, cuillerées de fromage frais et ciboulette.",
+        "Plier baveuse et servir."
+      ]
+    },
+    {
+      "id": "omelette:009",
+      "t": "Omelette Chorizo & Fromage",
+      "cat": "Entrée, Omelette",
+      "desc": "Omelette épicée au chorizo grillé et fromage fondu, parfumée d'une touche de lait.",
+      "min": 10,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "80 g de chorizo en rondelles",
+        "80 g de fromage râpé",
+        "2 cs de lait",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire griller les rondelles de chorizo dans la poêle. Réserver.",
+        "Battre œufs et lait, verser dans la poêle beurrée.",
+        "Ajouter chorizo et fromage.",
+        "Plier et servir."
+      ]
+    },
+    {
+      "id": "omelette:010",
+      "t": "Omelette Poulet & Cheddar",
+      "cat": "Entrée, Omelette",
+      "desc": "Omelette façon club sandwich : poulet cuit émincé, cheddar fondant pour un repas complet.",
+      "min": 10,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "120 g de poulet cuit émincé",
+        "80 g de cheddar râpé",
+        "2 cs de lait",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Battre œufs, lait, sel et poivre.",
+        "Verser dans la poêle beurrée chaude.",
+        "Ajouter poulet et cheddar râpé.",
+        "Plier et servir immédiatement."
+      ]
+    },
+    {
+      "id": "omelette:011",
+      "t": "Omelette Tomates & Basilic",
+      "cat": "Entrée, Omelette",
+      "desc": "Omelette estivale aux tomates cerises et basilic frais, avec du jambon et fromage fondu.",
+      "min": 10,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "80 g de jambon",
+        "100 g de tomates cerises coupées en deux",
+        "60 g de fromage râpé",
+        "basilic frais",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Battre les œufs assaisonnés, verser dans la poêle beurrée.",
+        "Déposer tomates, jambon, fromage et basilic ciselé.",
+        "Plier baveuse et servir."
+      ]
+    },
+    {
+      "id": "omelette:012",
+      "t": "Omelette Deluxe 3 Fromages",
+      "cat": "Entrée, Omelette",
+      "desc": "L'omelette au fromage ultime : emmental, comté et parmesan avec du jambon pour une version grand luxe.",
+      "min": 10,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "80 g de jambon",
+        "40 g d'emmental râpé",
+        "40 g de comté râpé",
+        "20 g de parmesan râpé",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Battre les œufs avec sel et poivre.",
+        "Verser dans la poêle beurrée chaude.",
+        "Répartir jambon et les 3 fromages.",
+        "Plier lorsque le dessous est cuit, servir immédiatement."
+      ]
     }
   ]
 }
