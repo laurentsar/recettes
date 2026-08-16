@@ -11658,7 +11658,7 @@
     {
       "id": "omelette:001",
       "t": "Omelette Classique Jambon Fromage",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "L'incontournable omelette jambon-fromage : baveuse, dorée et fondante.",
       "min": 10,
       "serv": "2 personnes",
@@ -11680,7 +11680,7 @@
     {
       "id": "omelette:002",
       "t": "Omelette Raclette & Jambon",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "Omelette garnie de fromage à raclette fondant, jambon et pommes de terre, version alpine.",
       "min": 15,
       "serv": "2 personnes",
@@ -11702,7 +11702,7 @@
     {
       "id": "omelette:003",
       "t": "Omelette Champignons & Fromage",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "Omelette forestière aux champignons sautés, jambon et fromage fondu.",
       "min": 15,
       "serv": "2 personnes",
@@ -11724,7 +11724,7 @@
     {
       "id": "omelette:004",
       "t": "Omelette Bacon & Fromage",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "Omelette gourmande au bacon grillé et fromage fondu, façon petit-déjeuner américain.",
       "min": 10,
       "serv": "2 personnes",
@@ -11745,7 +11745,7 @@
     {
       "id": "omelette:005",
       "t": "Omelette Épinards & Jambon",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "Omelette verte et légère aux épinards frais, jambon et fromage râpé.",
       "min": 15,
       "serv": "2 personnes",
@@ -11767,7 +11767,7 @@
     {
       "id": "omelette:006",
       "t": "Omelette Chèvre & Jambon",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "Omelette fondante au chèvre et jambon, avec un filet de crème fraîche pour plus d'onctuosité.",
       "min": 10,
       "serv": "2 personnes",
@@ -11789,7 +11789,7 @@
     {
       "id": "omelette:007",
       "t": "Omelette Pommes de Terre & Fromage",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "Omelette généreuse aux pommes de terre dorées, jambon et fromage fondu, façon tortilla.",
       "min": 20,
       "serv": "2 personnes",
@@ -11811,7 +11811,7 @@
     {
       "id": "omelette:008",
       "t": "Omelette Saumon & Fromage Frais",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "Omelette raffinée au saumon fumé et fromage frais, parsemée de ciboulette fraîche.",
       "min": 10,
       "serv": "2 personnes",
@@ -11833,7 +11833,7 @@
     {
       "id": "omelette:009",
       "t": "Omelette Chorizo & Fromage",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "Omelette épicée au chorizo grillé et fromage fondu, parfumée d'une touche de lait.",
       "min": 10,
       "serv": "2 personnes",
@@ -11855,7 +11855,7 @@
     {
       "id": "omelette:010",
       "t": "Omelette Poulet & Cheddar",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "Omelette façon club sandwich : poulet cuit émincé, cheddar fondant pour un repas complet.",
       "min": 10,
       "serv": "2 personnes",
@@ -11877,7 +11877,7 @@
     {
       "id": "omelette:011",
       "t": "Omelette Tomates & Basilic",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "Omelette estivale aux tomates cerises et basilic frais, avec du jambon et fromage fondu.",
       "min": 10,
       "serv": "2 personnes",
@@ -11899,7 +11899,7 @@
     {
       "id": "omelette:012",
       "t": "Omelette Deluxe 3 Fromages",
-      "cat": "Entrée, Omelette",
+      "cat": "Omelette",
       "desc": "L'omelette au fromage ultime : emmental, comté et parmesan avec du jambon pour une version grand luxe.",
       "min": 10,
       "serv": "2 personnes",
@@ -11917,6 +11917,1039 @@
         "Verser dans la poêle beurrée chaude.",
         "Répartir jambon et les 3 fromages.",
         "Plier lorsque le dessous est cuit, servir immédiatement."
+      ]
+    },
+    {
+      "id": "cocotte:001",
+      "t": "Œuf Cocotte Chèvre, Oignons & Crème",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte onctueux au fromage de chèvre, oignons caramélisés et crème fraîche.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "60 g de fromage de chèvre en morceaux",
+        "2 oignons caramélisés",
+        "sel, poivre",
+        "beurre pour les ramequins"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:002",
+      "t": "Œuf Cocotte Roquefort & Oignons Verts",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte au roquefort fondant et oignons verts, saveur corsée et crémeuse.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "60 g de roquefort émietté",
+        "2 oignons verts émincés",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:003",
+      "t": "Œuf Cocotte Comté & Jambon Fumé",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte généreux au comté râpé et jambon fumé, un classique indémodable.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "60 g de comté râpé",
+        "80 g de jambon fumé en dés",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:004",
+      "t": "Œuf Cocotte Tartiflette",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte façon tartiflette : reblochon fondant, lardons et pommes de terre.",
+      "min": 25,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "80 g de reblochon",
+        "60 g de lardons fumés",
+        "100 g de pommes de terre cuites en dés",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:005",
+      "t": "Œuf Cocotte Tomates, Mozzarella & Basilic",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte estival aux tomates cerises, mozzarella fondante et basilic frais.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "100 g de tomates cerises",
+        "80 g de mozzarella en dés",
+        "basilic frais",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:006",
+      "t": "Œuf Cocotte Jambon & Crème",
+      "cat": "Cocotte",
+      "desc": "Le plus simple et le plus gourmand : œuf cocotte au jambon blanc et crème fraîche épaisse.",
+      "min": 18,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "6 cs de crème fraîche épaisse",
+        "100 g de jambon blanc en dés",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:007",
+      "t": "Œuf Cocotte Lardons & Champignons",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte forestier aux lardons rissolés et champignons sautés.",
+      "min": 25,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "80 g de lardons fumés",
+        "150 g de champignons sautés",
+        "sel, poivre",
+        "beurre",
+        "persil"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:008",
+      "t": "Œuf Cocotte Chorizo & Fromage",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte épicé au chorizo grillé et fromage râpé fondant.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "80 g de chorizo en rondelles",
+        "60 g de fromage râpé",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:009",
+      "t": "Œuf Cocotte Bacon, Chèvre & Épinards",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte vert et savoureux : bacon croustillant, chèvre et épinards frais.",
+      "min": 22,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "4 tranches de bacon grillé",
+        "60 g de chèvre",
+        "60 g d'épinards frais tombés au beurre",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:010",
+      "t": "Œuf Cocotte Saucisse & Pommes de Terre",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte roboratif à la saucisse fumée et pommes de terre sautées.",
+      "min": 25,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "100 g de saucisse fumée en rondelles",
+        "120 g de pommes de terre cuites en dés",
+        "sel, poivre",
+        "beurre",
+        "ciboulette"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:011",
+      "t": "Œuf Cocotte Saumon & Fromage Frais",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte délicat au saumon frais et fromage frais, élégant et léger.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de fromage frais (Saint-Moret)",
+        "100 g de saumon en dés",
+        "aneth frais",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:012",
+      "t": "Œuf Cocotte Saumon Fumé & Aneth",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte raffiné au saumon fumé et aneth dans une crème citronnée.",
+      "min": 18,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "100 g de saumon fumé",
+        "aneth frais",
+        "quelques gouttes de jus de citron",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:013",
+      "t": "Œuf Cocotte Thon, Tomates & Fromage Blanc",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte méditerranéen au thon émietté, tomates et fromage blanc frais.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de fromage blanc",
+        "1 boîte de thon égoutté",
+        "100 g de tomates en dés",
+        "basilic",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:014",
+      "t": "Œuf Cocotte Cabillaud, Crème & Curry",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte exotique au cabillaud et sa crème au curry parfumée.",
+      "min": 25,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "150 g de cabillaud en dés",
+        "1 cc de curry en poudre",
+        "sel, poivre",
+        "beurre",
+        "coriandre fraîche"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:015",
+      "t": "Œuf Cocotte Tartare de Saumon",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte au tartare de saumon citronnée, finesse et fraîcheur dans un ramequin.",
+      "min": 18,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "150 g de saumon cru en tartare (citron, aneth, échalote)",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:016",
+      "t": "Œuf Cocotte Champignons, Crème & Truffe",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte luxueux aux champignons sautés et crème à la truffe noire.",
+      "min": 25,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "200 g de champignons sautés",
+        "1 cc d'huile de truffe ou copeaux de truffe",
+        "sel, poivre",
+        "beurre",
+        "persil"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:017",
+      "t": "Œuf Cocotte Saumon, Chèvre & Asperges",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte printanier au saumon fumé, chèvre crémeux et pointes d'asperges.",
+      "min": 22,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "80 g de saumon fumé",
+        "60 g de fromage de chèvre",
+        "6 pointes d'asperges cuites",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:018",
+      "t": "Œuf Cocotte Végétarien aux Légumes",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte 100% légumes : courgettes, tomates cerises et herbes fraîches dans une crème.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "1 courgette en petits dés sautée",
+        "80 g de tomates cerises",
+        "60 g de fromage râpé",
+        "herbes de Provence",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "cocotte:019",
+      "t": "Œuf Cocotte Chèvre & Tomates Séchées",
+      "cat": "Cocotte",
+      "desc": "Œuf cocotte méditerranéen au chèvre fondant et tomates séchées parfumées.",
+      "min": 20,
+      "serv": "2 personnes",
+      "ing": [
+        "4 œufs",
+        "4 cs de crème fraîche",
+        "80 g de fromage de chèvre",
+        "60 g de tomates séchées hachées",
+        "basilic frais",
+        "sel, poivre",
+        "beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer les ramequins.",
+        "Casser 1-2 œufs dans chaque ramequin.",
+        "Ajouter la crème et la garniture selon la variante.",
+        "Assaisonner de sel et poivre.",
+        "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
+        "Servir immédiatement avec des mouillettes de pain grillé."
+      ]
+    },
+    {
+      "id": "frites:001",
+      "t": "Frites Belges Traditionnelles",
+      "cat": "Accompagnement, Frites",
+      "desc": "Les vraies frites belges en deux bains d'huile : croustillantes dehors, fondantes dedans.",
+      "min": 40,
+      "serv": "4 personnes",
+      "ing": [
+        "1,2 kg de pommes de terre à frites (Bintje)",
+        "huile de friture (idéalement graisse de bœuf)",
+        "sel fin"
+      ],
+      "steps": [
+        "Éplucher et couper en bâtonnets de 1 cm. Rincer, bien sécher.",
+        "1er bain à 160°C pendant 6-8 min (blanchi sans dorure). Égoutter, laisser refroidir.",
+        "2e bain à 180°C pendant 3-4 min jusqu'à dorure parfaite.",
+        "Égoutter, saler immédiatement. Servir avec mayonnaise maison."
+      ]
+    },
+    {
+      "id": "frites:002",
+      "t": "Frites à l'Ail & au Persil",
+      "cat": "Accompagnement, Frites",
+      "desc": "Frites maison aillées et persillées, façon bistrot, à tomber.",
+      "min": 35,
+      "serv": "4 personnes",
+      "ing": [
+        "1 kg de pommes de terre",
+        "huile de friture",
+        "4 gousses d'ail émincées",
+        "1 bouquet de persil plat haché",
+        "fleur de sel",
+        "2 cs d'huile d'olive"
+      ],
+      "steps": [
+        "Cuire les frites (double friture ou four 220°C 25 min).",
+        "Faire revenir ail 30 s dans l'huile d'olive.",
+        "Mélanger frites chaudes avec ail, persil et fleur de sel.",
+        "Servir immédiatement."
+      ]
+    },
+    {
+      "id": "frites:003",
+      "t": "Frites au Parmesan & Herbes",
+      "cat": "Accompagnement, Frites",
+      "desc": "Frites croustillantes enrobées de parmesan râpé et herbes fraîches, façon restaurant.",
+      "min": 35,
+      "serv": "4 personnes",
+      "ing": [
+        "1 kg de pommes de terre",
+        "huile de friture ou 2 cs d'huile d'olive (four)",
+        "60 g de parmesan râpé",
+        "2 cs de persil haché",
+        "1 cs de thym",
+        "fleur de sel"
+      ],
+      "steps": [
+        "Cuire les frites (double friture ou four 220°C).",
+        "Mélanger parmesan, persil et thym dans un bol.",
+        "Enrober les frites chaudes de ce mélange.",
+        "Servir immédiatement avec une sauce aïoli."
+      ]
+    },
+    {
+      "id": "frites:004",
+      "t": "Frites Épicées au Paprika Fumé",
+      "cat": "Accompagnement, Frites",
+      "desc": "Frites relevées au paprika fumé, cumin et piment de Cayenne pour un côté barbecue irrésistible.",
+      "min": 35,
+      "serv": "4 personnes",
+      "ing": [
+        "1 kg de pommes de terre",
+        "2 cs d'huile d'olive",
+        "1 cc de paprika fumé",
+        "½ cc de cumin",
+        "¼ cc de piment de Cayenne",
+        "¼ cc d'ail en poudre",
+        "sel"
+      ],
+      "steps": [
+        "Préchauffer le four à 220°C. Couper les pommes de terre en bâtonnets.",
+        "Mélanger avec huile et épices. Disposer en couche unique sur plaque.",
+        "Cuire 25-30 min en retournant à mi-cuisson.",
+        "Servir avec une sauce ranch ou ketchup."
+      ]
+    },
+    {
+      "id": "frites:005",
+      "t": "Frites Façon Cheddar",
+      "cat": "Accompagnement, Frites",
+      "desc": "Frites nappées d'une sauce cheddar fondu crémeuse, façon diner américain.",
+      "min": 35,
+      "serv": "4 personnes",
+      "ing": [
+        "1 kg de pommes de terre",
+        "huile de friture",
+        "sauce cheddar: 150 g de cheddar râpé, 100 ml de crème, 1 cc de moutarde, sel",
+        "lardons grillés",
+        "ciboulette"
+      ],
+      "steps": [
+        "Cuire les frites (double friture).",
+        "Préparer la sauce : chauffer crème, ajouter cheddar en fouettant jusqu'à lisse.",
+        "Disposer les frites dans un plat, napper de sauce cheddar.",
+        "Garnir de lardons grillés et ciboulette. Servir immédiatement."
+      ]
+    },
+    {
+      "id": "frites:006",
+      "t": "Frites de Patates Douces au Romarin",
+      "cat": "Accompagnement, Frites",
+      "desc": "Frites de patates douces au four, croustillantes et parfumées au romarin frais.",
+      "min": 35,
+      "serv": "4 personnes",
+      "ing": [
+        "800 g de patates douces",
+        "2 cs d'huile d'olive",
+        "2 branches de romarin frais",
+        "½ cc de paprika",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 220°C. Éplucher et couper les patates douces en bâtonnets.",
+        "Mélanger avec huile, romarin effeuillé, paprika, sel et poivre.",
+        "Disposer en couche unique sur plaque. Cuire 25-30 min.",
+        "Servir avec une sauce tzatziki ou yaourt à l'ail."
+      ]
+    },
+    {
+      "id": "bouchee:001",
+      "t": "Canapé Entrecôte & Fromage Frais",
+      "cat": "Bouchée",
+      "desc": "Toast grillé garni de fromage frais et fine tranche d'entrecôte, bouchée raffinée.",
+      "min": 15,
+      "serv": "20 bouchées",
+      "ing": [
+        "10 tranches de pain baguette grillées",
+        "150 g de fromage frais (Philadelphia)",
+        "100 g d'entrecôte fine cuite et tranchée",
+        "roquette",
+        "fleur de sel, poivre"
+      ],
+      "steps": [
+        "Toaster les tranches de baguette.",
+        "Tartiner de fromage frais.",
+        "Poser une lamelle d'entrecôte et quelques feuilles de roquette.",
+        "Assaisonner, servir immédiatement."
+      ]
+    },
+    {
+      "id": "bouchee:002",
+      "t": "Canapé Tomates, Mozzarella & Pesto",
+      "cat": "Bouchée",
+      "desc": "Toast caprese en version bouchée : tomate, mozzarella fraîche et pesto basilic.",
+      "min": 10,
+      "serv": "20 bouchées",
+      "ing": [
+        "10 tranches de pain grillé",
+        "2 tomates en rondelles",
+        "150 g de mozzarella",
+        "3 cs de pesto basilic",
+        "basilic frais",
+        "fleur de sel"
+      ],
+      "steps": [
+        "Tartiner les toasts de pesto.",
+        "Déposer une rondelle de tomate et une de mozzarella.",
+        "Décorer d'une feuille de basilic. Assaisonner et servir."
+      ]
+    },
+    {
+      "id": "bouchee:003",
+      "t": "Brochettes de Thon Marinées",
+      "cat": "Bouchée",
+      "desc": "Cubes de thon frais marinés à la sauce soja et gingembre, piqués sur mini-brochettes.",
+      "min": 20,
+      "serv": "20 bouchées",
+      "ing": [
+        "300 g de thon frais",
+        "2 cs de sauce soja",
+        "1 cs d'huile de sésame",
+        "1 cc de gingembre râpé",
+        "sésame",
+        "ciboulette"
+      ],
+      "steps": [
+        "Couper le thon en cubes, mariner 30 min dans soja+huile de sésame+gingembre.",
+        "Piquer sur brochettes courtes.",
+        "Saupoudrer de sésame et ciboulette. Servir frais."
+      ]
+    },
+    {
+      "id": "bouchee:004",
+      "t": "Rillettes de Thon sur Toast",
+      "cat": "Bouchée",
+      "desc": "Rillettes légères au thon, fromage frais et citron sur tranches de baguette grillée.",
+      "min": 10,
+      "serv": "20 bouchées",
+      "ing": [
+        "2 boîtes de thon égoutté",
+        "100 g de fromage frais",
+        "1 cs de jus de citron",
+        "aneth ou ciboulette",
+        "sel, poivre",
+        "tranches de baguette grillées"
+      ],
+      "steps": [
+        "Écraser le thon à la fourchette avec fromage frais, citron et herbes.",
+        "Assaisonner.",
+        "Tartiner sur les toasts. Garnir d'une herbe fraîche."
+      ]
+    },
+    {
+      "id": "bouchee:005",
+      "t": "Toast Tapenade & Jambon Cru",
+      "cat": "Bouchée",
+      "desc": "Toast croustillant à la tapenade d'olives, rosette de jambon de Parme et basilic.",
+      "min": 10,
+      "serv": "20 bouchées",
+      "ing": [
+        "10 tranches de baguette grillée",
+        "3 cs de tapenade noire",
+        "6 tranches de jambon cru (Parme ou Serrano)",
+        "basilic frais"
+      ],
+      "steps": [
+        "Tartiner les toasts de tapenade.",
+        "Déposer une demi-tranche de jambon cru en rosette.",
+        "Décorer d'une feuille de basilic. Servir."
+      ]
+    },
+    {
+      "id": "bouchee:006",
+      "t": "Mini Brochettes Caprese",
+      "cat": "Bouchée",
+      "desc": "Mini brochettes mozzarella-tomate cerise-basilic, l'apéritif le plus simple et le plus élégant.",
+      "min": 10,
+      "serv": "20 brochettes",
+      "ing": [
+        "200 g de mini mozzarella (bocconcini)",
+        "200 g de tomates cerises",
+        "feuilles de basilic frais",
+        "huile d'olive",
+        "fleur de sel, poivre"
+      ],
+      "steps": [
+        "Piquer sur chaque pique: 1 bocconcino, 1 feuille de basilic, 1 tomate cerise.",
+        "Arroser d'un filet d'huile d'olive.",
+        "Assaisonner de fleur de sel et poivre. Servir frais."
+      ]
+    },
+    {
+      "id": "bouchee:007",
+      "t": "Boulettes de Poulet Sauce Aigre-Douce",
+      "cat": "Bouchée",
+      "desc": "Mini boulettes de poulet tendre panées, accompagnées d'une sauce aigre-douce maison.",
+      "min": 30,
+      "serv": "20 boulettes",
+      "ing": [
+        "400 g de poulet haché",
+        "1 oignon haché",
+        "2 cs de chapelure",
+        "1 œuf",
+        "sauce aigre-douce: 3 cs de ketchup, 2 cs de vinaigre de riz, 1 cs de sucre, 1 cs de sauce soja",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mélanger poulet, oignon, chapelure, œuf, sel, poivre.",
+        "Former des boulettes de 2 cm.",
+        "Frire 3-4 min ou cuire au four 200°C 15 min.",
+        "Préparer sauce, servir les boulettes piquées avec cure-dents."
+      ]
+    },
+    {
+      "id": "bouchee:008",
+      "t": "Toasts au Caviar",
+      "cat": "Bouchée",
+      "desc": "Blinis ou toast beurrés garnis de crème fraîche et œufs de saumon ou caviar pour les grandes occasions.",
+      "min": 10,
+      "serv": "20 bouchées",
+      "ing": [
+        "20 petits blinis ou toasts",
+        "150 g de crème fraîche épaisse",
+        "100 g d'œufs de saumon (ou caviar)",
+        "aneth frais",
+        "citron"
+      ],
+      "steps": [
+        "Réchauffer les blinis légèrement.",
+        "Garnir de crème fraîche, puis d'une cuillère d'œufs de saumon.",
+        "Décorer d'aneth et d'un zeste de citron."
+      ]
+    },
+    {
+      "id": "bouchee:009",
+      "t": "Sauce César & Crudités",
+      "cat": "Bouchée",
+      "desc": "Légumes crus colorés à tremper dans une sauce César crémeuse, frais et léger.",
+      "min": 15,
+      "serv": "6 personnes",
+      "ing": [
+        "carottes, concombre, céleri, radis, poivrons en bâtonnets",
+        "sauce César: 2 cs de mayonnaise, 1 cs de parmesan, 1 gousse d'ail, 1 cc de jus de citron, 1 cc de sauce Worcestershire, sel, poivre"
+      ],
+      "steps": [
+        "Préparer et tailler tous les légumes en bâtonnets.",
+        "Mélanger les ingrédients de la sauce César, ajuster l'assaisonnement.",
+        "Disposer les légumes autour de la sauce. Servir frais."
+      ]
+    },
+    {
+      "id": "bouchee:010",
+      "t": "Mini Brochettes Grecques",
+      "cat": "Bouchée",
+      "desc": "Mini brochettes d'olives, féta et légumes marinés aux herbes, esprit taverne grecque.",
+      "min": 10,
+      "serv": "20 brochettes",
+      "ing": [
+        "100 g d'olives noires Kalamata",
+        "150 g de féta en cubes",
+        "100 g de poivrons rouges grillés en morceaux",
+        "concombre",
+        "origan séché, huile d'olive"
+      ],
+      "steps": [
+        "Alterner sur mini-piques: olive, féta, poivron, concombre.",
+        "Arroser d'huile d'olive et saupoudrer d'origan.",
+        "Réfrigérer 30 min avant de servir."
+      ]
+    },
+    {
+      "id": "bouchee:011",
+      "t": "Feuilletés aux Saucisses",
+      "cat": "Bouchée",
+      "desc": "Mini feuilletés croustillants aux saucisses cocktail, indémodables à l'apéritif.",
+      "min": 25,
+      "serv": "20 pièces",
+      "ing": [
+        "2 rouleaux de pâte feuilletée",
+        "20 saucisses cocktail",
+        "1 jaune d'œuf",
+        "graines de sésame ou pavot"
+      ],
+      "steps": [
+        "Couper la pâte en bandes. Enrouler chaque saucisse.",
+        "Badigeonner au jaune d'œuf, parsemer de graines.",
+        "Cuire au four 200°C 15-18 min jusqu'à dorure."
+      ]
+    },
+    {
+      "id": "bouchee:012",
+      "t": "Samoussas au Poulet",
+      "cat": "Bouchée",
+      "desc": "Samoussas croustillants fourrés de poulet épicé aux légumes, dorés à la poêle.",
+      "min": 40,
+      "serv": "12 pièces",
+      "ing": [
+        "6 feuilles de brick",
+        "300 g de poulet cuit émincé",
+        "1 oignon",
+        "1 cc de cumin",
+        "1 cc de coriandre",
+        "1 carotte râpée",
+        "huile de friture",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire revenir oignon, carotte, poulet et épices.",
+        "Couper les feuilles de brick en bandes, former des triangles avec la farce.",
+        "Frire 3-4 min jusqu'à dorure. Égoutter, servir avec sauce yaourt."
+      ]
+    },
+    {
+      "id": "bouchee:013",
+      "t": "Camembert Frit",
+      "cat": "Bouchée",
+      "desc": "Portions de camembert panées et frites jusqu'à être croustillantes dehors et coulantes dedans.",
+      "min": 20,
+      "serv": "4 personnes",
+      "ing": [
+        "1 camembert",
+        "1 œuf battu",
+        "chapelure",
+        "farine",
+        "huile de friture",
+        "confiture de figues ou airelles pour servir"
+      ],
+      "steps": [
+        "Couper le camembert en 6-8 parts.",
+        "Paner: farine → œuf → chapelure (2 fois pour plus de croustillant).",
+        "Frire 2-3 min dans l'huile chaude.",
+        "Servir immédiatement avec confiture de figues."
+      ]
+    },
+    {
+      "id": "bouchee:014",
+      "t": "Mini Pizzas Tomate & Mozzarella",
+      "cat": "Bouchée",
+      "desc": "Mini pizzas sur pâte feuilletée ou pain pita, garnies de sauce tomate et mozzarella fondante.",
+      "min": 20,
+      "serv": "12 pièces",
+      "ing": [
+        "12 ronds de pâte feuilletée (5 cm)",
+        "6 cs de coulis de tomate",
+        "150 g de mozzarella râpée",
+        "origan séché",
+        "basilic frais"
+      ],
+      "steps": [
+        "Préchauffer le four à 200°C.",
+        "Garnir chaque rond de coulis et mozzarella.",
+        "Saupoudrer d'origan.",
+        "Cuire 12-15 min. Décorer de basilic et servir chaud."
+      ]
+    },
+    {
+      "id": "bouchee:015",
+      "t": "Croquettes au Jambon & Fromage",
+      "cat": "Bouchée",
+      "desc": "Mini croquettes crémeuses au jambon et fromage, panées et frites, version apéritive des croquetas.",
+      "min": 45,
+      "serv": "20 pièces",
+      "ing": [
+        "200 g de jambon en dés",
+        "100 g de fromage râpé",
+        "500 ml de lait",
+        "60 g de beurre",
+        "80 g de farine",
+        "chapelure, œuf, huile",
+        "sel, poivre, muscade"
+      ],
+      "steps": [
+        "Faire un roux, verser le lait progressivement, ajouter jambon et fromage.",
+        "Refroidir 2 h. Former des petites boules.",
+        "Paner (farine-œuf-chapelure).",
+        "Frire 3-4 min. Égoutter et servir."
+      ]
+    },
+    {
+      "id": "bouchee:016",
+      "t": "Tzatziki & Concombre",
+      "cat": "Bouchée",
+      "desc": "Rondelles de concombre garnies de tzatziki maison, fraîches et légères.",
+      "min": 15,
+      "serv": "20 bouchées",
+      "ing": [
+        "1 concombre",
+        "tzatziki: 200 g de yaourt grec, 1 concombre râpé essoré, 2 gousses d'ail, aneth, huile d'olive, sel"
+      ],
+      "steps": [
+        "Préparer le tzatziki: mélanger tous les ingrédients, réfrigérer.",
+        "Couper le concombre en rondelles épaisses.",
+        "Garnir chaque rondelle d'une cuillère de tzatziki.",
+        "Décorer d'une pluche d'aneth."
+      ]
+    },
+    {
+      "id": "bouchee:017",
+      "t": "Tartelettes Chèvre & Miel",
+      "cat": "Bouchée",
+      "desc": "Mini tartelettes à la pâte croustillante, garnies de fromage de chèvre et miel de fleurs.",
+      "min": 25,
+      "serv": "12 tartelettes",
+      "ing": [
+        "1 rouleau de pâte brisée",
+        "150 g de fromage de chèvre frais",
+        "3 cs de miel",
+        "thym frais",
+        "noix concassées",
+        "poivre"
+      ],
+      "steps": [
+        "Foncer des mini-moules à tartelette de pâte brisée.",
+        "Cuire à blanc 10 min à 180°C.",
+        "Garnir de chèvre, arroser de miel, parsemer de thym et noix.",
+        "Remettre au four 8-10 min. Servir tiède."
+      ]
+    },
+    {
+      "id": "bouchee:018",
+      "t": "Petits Rouleaux de Saumon",
+      "cat": "Bouchée",
+      "desc": "Tranches de saumon fumé roulées autour d'une mousse de fromage frais et ciboulette.",
+      "min": 15,
+      "serv": "20 rouleaux",
+      "ing": [
+        "200 g de saumon fumé en tranches",
+        "150 g de fromage frais",
+        "2 cs de ciboulette ciselée",
+        "zeste de citron",
+        "poivre"
+      ],
+      "steps": [
+        "Mélanger fromage frais, ciboulette, zeste de citron et poivre.",
+        "Étaler sur chaque tranche de saumon.",
+        "Rouler et couper en tronçons de 2 cm.",
+        "Piquer d'un cure-dent. Réfrigérer jusqu'au service."
+      ]
+    },
+    {
+      "id": "bouchee:019",
+      "t": "Petites Quiches Lorraine",
+      "cat": "Bouchée",
+      "desc": "Mini quiches lorraines à la pâte croustillante, garnies de lardons et crème, parfaites en deux bouchées.",
+      "min": 35,
+      "serv": "12 quiches",
+      "ing": [
+        "1 rouleau de pâte brisée",
+        "3 œufs",
+        "200 ml de crème fraîche",
+        "100 ml de lait",
+        "100 g de lardons fumés",
+        "60 g de gruyère râpé",
+        "sel, poivre, muscade"
+      ],
+      "steps": [
+        "Foncer des mini-moules de pâte brisée. Cuire à blanc 10 min.",
+        "Battre œufs, crème, lait, assaisonner.",
+        "Répartir lardons et gruyère dans les fonds.",
+        "Verser l'appareil. Cuire 20 min à 180°C."
+      ]
+    },
+    {
+      "id": "bouchee:020",
+      "t": "Bruschetta à la Tomate",
+      "cat": "Bouchée",
+      "desc": "Pain grillé à l'huile d'olive frotté à l'ail, garni de tomates fraîches et basilic.",
+      "min": 15,
+      "serv": "20 bouchées",
+      "ing": [
+        "1 baguette en tranches",
+        "4 tomates bien mûres en dés",
+        "2 gousses d'ail",
+        "4 cs d'huile d'olive vierge extra",
+        "basilic frais",
+        "fleur de sel, poivre"
+      ],
+      "steps": [
+        "Faire griller les tranches de baguette au four ou à la plancha.",
+        "Frotter immédiatement d'une gousse d'ail coupée.",
+        "Mélanger tomates, basilic, huile, sel, poivre.",
+        "Déposer la garniture sur les toasts. Servir aussitôt."
+      ]
+    },
+    {
+      "id": "bouchee:021",
+      "t": "Escalope Grillée sur Toast",
+      "cat": "Bouchée",
+      "desc": "Mini escalopes de veau ou poulet grillées sur toast avec une crème citronnée, bouchée élégante.",
+      "min": 20,
+      "serv": "12 bouchées",
+      "ing": [
+        "3 petites escalopes de veau ou poulet",
+        "12 petits toasts ronds",
+        "2 cs de fromage frais",
+        "1 cs de jus de citron",
+        "thym frais",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Assaisonner et griller les escalopes 3 min de chaque côté.",
+        "Couper en petits morceaux de la taille des toasts.",
+        "Mélanger fromage frais et citron, tartiner les toasts.",
+        "Déposer l'escalope, décorer de thym."
       ]
     }
   ]
