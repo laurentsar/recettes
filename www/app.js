@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.76';
+const APP_VERSION = '2.77';
 
 let ALL = [];
 let BASE = [];
@@ -1467,7 +1467,7 @@ const elCocktailDetail = document.getElementById('cocktail-detail');
 const MODE_GROUPS = {
   regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas'] },
   ustensiles:      { subs: ['airfryer','thermomix'] },
-  aperitif:        { subs: ['tartinades','wraps','bouchees'] },
+  aperitif:        { subs: ['tartinades','wraps','bouchees','brochettes'] },
   oeufs:           { subs: ['omelettes','cocottes'] },
   boissons:        { subs: ['smoothies','milkshakes'] },
   accompagnements: { subs: ['sauces','marinades'] },
@@ -1481,7 +1481,7 @@ const SUB_TAB_LABELS = {
   bresil:'🇧🇷 Brésil', argentine:'🇦🇷 Argentine', af:'🌍 Afrique',
   arabe:'🌙 Monde arabe', bulgarie:'🇧🇬 Bulgarie', hongrie:'🇭🇺 Hongrie', roumanie:'🇷🇴 Roumanie', paysbas:'🇳🇱 Pays-Bas',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix',
-  tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées',
+  tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes',
   omelettes:'🍳 Omelettes', cocottes:'🥚 Cocottes',
   smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes',
   sauces:'🥣 Sauces', marinades:'🌿 Marinades',
@@ -1498,7 +1498,7 @@ const MODE_CAT = {
   arabe: 'Monde arabe', bulgarie: 'Bulgarie', hongrie: 'Hongrie', roumanie: 'Roumanie', paysbas: 'Pays-Bas',
   sauces: 'Sauce', tartinades: 'Tartinade', techniques: 'Technique',
   wraps: 'Wrap', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
-  bouchees: 'Bouchée', omelettes: 'Omelette', cocottes: 'Cocotte',
+  bouchees: 'Bouchée', brochettes: 'Brochette', omelettes: 'Omelette', cocottes: 'Cocotte',
 };
 
 function showSubTabs(group){
