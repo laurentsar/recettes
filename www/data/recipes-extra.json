@@ -12951,6 +12951,448 @@
         "Mélanger fromage frais et citron, tartiner les toasts.",
         "Déposer l'escalope, décorer de thym."
       ]
+    },
+    {
+      "id": "brochette:001",
+      "t": "Brochettes Poulet & Poivrons",
+      "cat": "Brochette",
+      "desc": "Brochettes classiques de poulet mariné aux herbes avec poivrons colorés",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "400 g blancs de poulet",
+        "1 poivron rouge",
+        "1 poivron jaune",
+        "1 poivron vert",
+        "2 c. à s. huile d'olive",
+        "herbes de Provence",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper le poulet et les poivrons en cubes.",
+        "Mariner le poulet avec huile d'olive, herbes, sel, poivre 30 min.",
+        "Alterner poulet et poivrons sur les brochettes.",
+        "Griller 15 min en retournant à mi-cuisson."
+      ]
+    },
+    {
+      "id": "brochette:002",
+      "t": "Brochettes Boeuf Teriyaki",
+      "cat": "Brochette",
+      "desc": "Boeuf tendre laqué à la sauce teriyaki, avec poivrons et oignon",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "500 g boeuf à brochettes",
+        "3 c. à s. sauce teriyaki",
+        "1 poivron",
+        "1 oignon",
+        "1 c. à s. huile de sésame"
+      ],
+      "steps": [
+        "Couper le boeuf, poivron et oignon en cubes.",
+        "Mariner le boeuf dans la sauce teriyaki 30 min.",
+        "Former les brochettes en alternant les ingrédients.",
+        "Griller 10-12 min en badigeonnant de marinade."
+      ]
+    },
+    {
+      "id": "brochette:003",
+      "t": "Brochettes Crevettes Citron",
+      "cat": "Brochette",
+      "desc": "Crevettes marinées au citron et ail, fraîches et parfumées",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "500 g grosses crevettes décortiquées",
+        "2 citrons",
+        "3 gousses d'ail",
+        "2 c. à s. huile d'olive",
+        "persil frais",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mariner les crevettes avec jus de citron, ail écrasé, huile, sel, poivre 20 min.",
+        "Enfiler sur les brochettes.",
+        "Griller 3-4 min de chaque côté.",
+        "Servir avec persil ciselé et quartiers de citron."
+      ]
+    },
+    {
+      "id": "brochette:004",
+      "t": "Brochettes Caprese",
+      "cat": "Brochette",
+      "desc": "Brochettes fraîches tomates cerises, mozzarella et basilic",
+      "min": 10,
+      "serv": 4,
+      "ing": [
+        "250 g tomates cerises",
+        "250 g mozzarella (boules)",
+        "feuilles de basilic frais",
+        "2 c. à s. huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Alterner tomates cerises, billes de mozzarella et feuilles de basilic sur les brochettes.",
+        "Arroser d'huile d'olive.",
+        "Assaisonner de sel et poivre.",
+        "Servir frais en apéritif ou entrée."
+      ]
+    },
+    {
+      "id": "brochette:005",
+      "t": "Brochettes Poulet Ananas",
+      "cat": "Brochette",
+      "desc": "Alliance sucrée-salée du poulet mariné au miel-soja avec ananas",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "400 g blancs de poulet",
+        "300 g ananas en morceaux",
+        "3 c. à s. sauce soja",
+        "2 c. à s. miel",
+        "1 c. à s. huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mélanger sauce soja, miel, huile pour la marinade.",
+        "Mariner le poulet en cubes 30 min.",
+        "Alterner poulet et ananas sur les brochettes.",
+        "Griller 15 min en badigeonnant de marinade."
+      ]
+    },
+    {
+      "id": "brochette:006",
+      "t": "Brochettes Saucisse Légumes",
+      "cat": "Brochette",
+      "desc": "Brochettes généreuses de saucisses avec courgettes et poivrons",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "400 g saucisses",
+        "2 courgettes",
+        "2 poivrons",
+        "1 oignon",
+        "2 c. à s. huile d'olive",
+        "paprika, sel, poivre"
+      ],
+      "steps": [
+        "Couper saucisses en rondelles épaisses, courgettes, poivrons et oignon en cubes.",
+        "Badigeonner d'huile d'olive et saupoudrer de paprika.",
+        "Former les brochettes en alternant les ingrédients.",
+        "Griller 15-20 min en retournant régulièrement."
+      ]
+    },
+    {
+      "id": "brochette:007",
+      "t": "Brochettes Saumon Citron Vert",
+      "cat": "Brochette",
+      "desc": "Saumon frais mariné à l'aneth et citron vert, grillé à la perfection",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "600 g filet de saumon sans peau",
+        "2 citrons verts",
+        "1 bouquet d'aneth",
+        "3 c. à s. huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper le saumon en cubes de 3 cm.",
+        "Mariner avec zeste et jus d'un citron vert, aneth, huile, sel, poivre 20 min.",
+        "Enfiler sur les brochettes.",
+        "Griller 8-10 min en retournant une fois.",
+        "Servir avec rondelles de citron vert et aneth."
+      ]
+    },
+    {
+      "id": "brochette:008",
+      "t": "Brochettes Poulet Tandoori",
+      "cat": "Brochette",
+      "desc": "Poulet mariné aux épices tandoori et yaourt, saveur indienne authentique",
+      "min": 35,
+      "serv": 4,
+      "ing": [
+        "500 g blancs de poulet",
+        "150 g yaourt nature",
+        "2 c. à s. épices tandoori",
+        "1 citron",
+        "2 gousses d'ail",
+        "sel"
+      ],
+      "steps": [
+        "Mélanger yaourt, épices tandoori, jus de citron, ail et sel.",
+        "Mariner le poulet en cubes au moins 2 h.",
+        "Enfiler sur les brochettes.",
+        "Griller ou cuire au four 200°C 20-25 min.",
+        "Servir avec quartiers de citron et sauce raïta."
+      ]
+    },
+    {
+      "id": "brochette:009",
+      "t": "Brochettes Melon Jambon",
+      "cat": "Brochette",
+      "desc": "Brochettes fraîches melon, jambon cru et basilic",
+      "min": 10,
+      "serv": 4,
+      "ing": [
+        "1/2 melon",
+        "150 g jambon cru",
+        "feuilles de basilic",
+        "poivre concassé"
+      ],
+      "steps": [
+        "Couper le melon en cubes.",
+        "Enrouler chaque cube de melon d'une tranche de jambon cru.",
+        "Enfiler sur de petites brochettes avec une feuille de basilic.",
+        "Poivrer généreusement. Servir frais."
+      ]
+    },
+    {
+      "id": "brochette:010",
+      "t": "Brochettes Boeuf Champignons",
+      "cat": "Brochette",
+      "desc": "Boeuf juteux et champignons aillés, une combinaison classique et savoureuse",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "500 g boeuf à brochettes",
+        "300 g champignons de Paris",
+        "3 gousses d'ail",
+        "3 c. à s. huile d'olive",
+        "persil frais",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper le boeuf en cubes, nettoyer les champignons.",
+        "Mariner avec ail émincé, huile, sel, poivre 20 min.",
+        "Alterner boeuf et champignons sur les brochettes.",
+        "Griller 12-15 min selon la cuisson souhaitée.",
+        "Parsemer de persil ciselé avant de servir."
+      ]
+    },
+    {
+      "id": "brochette:011",
+      "t": "Brochettes Poulet Fromage",
+      "cat": "Brochette",
+      "desc": "Poulet fondant avec mozzarella, poivrons et herbes fraîches",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "400 g blancs de poulet",
+        "200 g mozzarella",
+        "2 poivrons",
+        "herbes de Provence",
+        "2 c. à s. huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper poulet et mozzarella en cubes, poivrons en morceaux.",
+        "Badigeonner d'huile d'olive et saupoudrer d'herbes.",
+        "Former les brochettes en alternant les ingrédients.",
+        "Griller 15 min jusqu'à ce que la mozzarella commence à fondre."
+      ]
+    },
+    {
+      "id": "brochette:012",
+      "t": "Brochettes Halloumi Légumes",
+      "cat": "Brochette",
+      "desc": "Halloumi grillé avec courgettes et poivrons, brochettes végétariennes savoureuses",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "300 g halloumi",
+        "2 courgettes",
+        "2 poivrons",
+        "3 c. à s. huile d'olive",
+        "origan séché",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper halloumi, courgettes et poivrons en cubes similaires.",
+        "Badigeonner d'huile d'olive et saupoudrer d'origan.",
+        "Former les brochettes en alternant les ingrédients.",
+        "Griller 10-12 min en retournant à mi-cuisson.",
+        "Le halloumi ne fond pas et doit dorer."
+      ]
+    },
+    {
+      "id": "brochette:013",
+      "t": "Brochettes Porc au Miel",
+      "cat": "Brochette",
+      "desc": "Porc laqué au miel et sauce soja, caramélisé et irrésistible",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "500 g échine de porc",
+        "3 c. à s. miel",
+        "2 c. à s. sauce soja",
+        "2 gousses d'ail",
+        "1 c. à s. huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper le porc en cubes.",
+        "Mélanger miel, sauce soja, ail écrasé pour la marinade.",
+        "Mariner le porc 1 h minimum.",
+        "Enfiler sur les brochettes.",
+        "Griller 15-18 min en badigeonnant de marinade."
+      ]
+    },
+    {
+      "id": "brochette:014",
+      "t": "Brochettes Méditerranéennes",
+      "cat": "Brochette",
+      "desc": "Tomates cerises, olives, courgettes et feta – saveurs du bassin méditerranéen",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "250 g tomates cerises",
+        "150 g olives noires",
+        "2 courgettes",
+        "200 g feta",
+        "3 c. à s. huile d'olive",
+        "origan frais",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper courgettes et feta en cubes.",
+        "Alterner tomates cerises, olives, courgettes et feta sur les brochettes.",
+        "Arroser d'huile d'olive et saupoudrer d'origan.",
+        "Griller légèrement 5-8 min ou servir crues."
+      ]
+    },
+    {
+      "id": "brochette:015",
+      "t": "Brochettes Crevettes Coco",
+      "cat": "Brochette",
+      "desc": "Crevettes exotiques marinées au lait de coco et curry",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "500 g grosses crevettes",
+        "100 ml lait de coco",
+        "2 c. à c. curry en poudre",
+        "1 citron vert",
+        "coriandre fraîche",
+        "sel"
+      ],
+      "steps": [
+        "Mariner les crevettes avec lait de coco, curry, jus de citron vert, sel 20 min.",
+        "Enfiler sur les brochettes.",
+        "Griller 3-4 min de chaque côté.",
+        "Servir avec coriandre et rondelles de citron vert."
+      ]
+    },
+    {
+      "id": "brochette:016",
+      "t": "Brochettes Tex-Mex",
+      "cat": "Brochette",
+      "desc": "Poulet épicé Tex-Mex avec maïs et poivrons colorés",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "400 g blancs de poulet",
+        "200 g maïs en grains",
+        "2 poivrons",
+        "2 c. à c. épices Tex-Mex",
+        "2 c. à s. huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mélanger épices Tex-Mex, huile pour la marinade.",
+        "Mariner le poulet en cubes 30 min.",
+        "Alterner poulet, maïs et morceaux de poivrons sur les brochettes.",
+        "Griller 15 min en retournant régulièrement."
+      ]
+    },
+    {
+      "id": "brochette:017",
+      "t": "Brochettes Fruits Tropicaux",
+      "cat": "Brochette",
+      "desc": "Brochettes de fruits tropicaux sucrés, parfaites pour un dessert ou apéritif frais",
+      "min": 10,
+      "serv": 4,
+      "ing": [
+        "200 g ananas en cubes",
+        "2 kiwis",
+        "200 g fraises",
+        "1 mangue",
+        "menthe fraîche"
+      ],
+      "steps": [
+        "Couper tous les fruits en cubes ou morceaux similaires.",
+        "Alterner ananas, kiwi, fraises et mangue sur les brochettes.",
+        "Décorer de feuilles de menthe fraîche.",
+        "Servir frais immédiatement."
+      ]
+    },
+    {
+      "id": "brochette:018",
+      "t": "Brochettes Poulet Cajun",
+      "cat": "Brochette",
+      "desc": "Poulet aux épices cajun relevées avec poivrons et oignon",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "500 g blancs de poulet",
+        "2 c. à s. épices cajun",
+        "2 poivrons",
+        "1 oignon",
+        "2 c. à s. huile d'olive",
+        "sel"
+      ],
+      "steps": [
+        "Mélanger épices cajun et huile pour former la marinade.",
+        "Mariner le poulet en cubes 30 min.",
+        "Alterner poulet, poivrons et oignon sur les brochettes.",
+        "Griller 15-18 min en retournant à mi-cuisson."
+      ]
+    },
+    {
+      "id": "brochette:019",
+      "t": "Brochettes Agneau Romarin",
+      "cat": "Brochette",
+      "desc": "Agneau parfumé au romarin et ail, façon méditerranéenne",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "500 g épaule d'agneau désossée",
+        "3 branches de romarin frais",
+        "3 gousses d'ail",
+        "3 c. à s. huile d'olive",
+        "1 citron",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper l'agneau en cubes de 3 cm.",
+        "Mariner avec romarin haché, ail écrasé, huile d'olive, jus de citron, sel, poivre 1 h.",
+        "Enfiler sur les brochettes.",
+        "Griller 12-15 min selon cuisson désirée.",
+        "Repos 5 min avant de servir."
+      ]
+    },
+    {
+      "id": "brochette:020",
+      "t": "Brochettes Façon Grand-Mère",
+      "cat": "Brochette",
+      "desc": "Brochettes campagnardes porc, lardons et oignons laqués à la moutarde",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "400 g échine de porc",
+        "100 g lardons",
+        "2 oignons",
+        "2 c. à s. moutarde",
+        "1 c. à s. huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper le porc en cubes, oignons en quartiers.",
+        "Badigeonner le porc de moutarde.",
+        "Alterner porc, lardons et oignons sur les brochettes.",
+        "Griller 20 min en retournant régulièrement jusqu'à belle coloration."
+      ]
     }
   ]
 }
