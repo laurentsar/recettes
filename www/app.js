@@ -1467,8 +1467,8 @@ const elCocktailDetail = document.getElementById('cocktail-detail');
 const MODE_GROUPS = {
   regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas'] },
   ustensiles:      { subs: ['airfryer','thermomix'] },
-  aperitif:        { subs: ['tartinades','wraps','bouchees','brochettes'] },
-  oeufs:           { subs: ['omelettes','cocottes'] },
+  aperitif:        { subs: ['tartinades','wraps','bouchees','brochettes','paninis','samoussas'] },
+  oeufs:           { subs: ['omelettes','cocottes','preparations'] },
   boissons:        { subs: ['smoothies','milkshakes','mocktails'] },
   accompagnements: { subs: ['sauces','marinades'] },
   sante:           { subs: ['sansgluten','proteines','antiinflamm','vegetarien','vegan','keto','rapide'] },
@@ -1481,8 +1481,8 @@ const SUB_TAB_LABELS = {
   bresil:'🇧🇷 Brésil', argentine:'🇦🇷 Argentine', af:'🌍 Afrique',
   arabe:'🌙 Monde arabe', bulgarie:'🇧🇬 Bulgarie', hongrie:'🇭🇺 Hongrie', roumanie:'🇷🇴 Roumanie', paysbas:'🇳🇱 Pays-Bas',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix',
-  tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes',
-  omelettes:'🍳 Omelettes', cocottes:'🥚 Cocottes',
+  tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas',
+  omelettes:'🍳 Omelettes', cocottes:'🥚 Cocottes', preparations:'🍳 Préparations',
   smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes', mocktails:'🍹 Sans alcool',
   sauces:'🥣 Sauces', marinades:'🌿 Marinades',
   sansgluten:'🌾 Sans gluten', proteines:'💪 Protéines', antiinflamm:'🌿 Anti-inflam.',
@@ -1499,7 +1499,8 @@ const MODE_CAT = {
   sauces: 'Sauce', tartinades: 'Tartinade', techniques: 'Technique',
   wraps: 'Wrap', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
   bouchees: 'Bouchée', brochettes: 'Brochette', omelettes: 'Omelette', cocottes: 'Cocotte',
-  mocktails: 'Cocktail sans alcool',
+  mocktails: 'Cocktail sans alcool', preparations: 'Préparation Oeuf',
+  paninis: 'Panini', samoussas: 'Samoussa',
 };
 
 function showSubTabs(group){
