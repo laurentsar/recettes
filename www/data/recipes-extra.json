@@ -13393,6 +13393,330 @@
         "Alterner porc, lardons et oignons sur les brochettes.",
         "Griller 20 min en retournant régulièrement jusqu'à belle coloration."
       ]
+    },
+    {
+      "id": "millas:001",
+      "t": "Millas Sucré d'Autrefois",
+      "cat": "France, Dessert",
+      "desc": "Dessert rustique du Sud-Ouest à base de farine de maïs, parfumé à la fleur d'oranger et à la vanille. Encore meilleur préparé la veille.",
+      "min": 75,
+      "serv": 10,
+      "ing": [
+        "250 g farine de maïs très fine",
+        "1 litre lait entier",
+        "3 oeufs entiers + 2 jaunes",
+        "120 g sucre roux ou miel",
+        "50 g beurre doux + pour le moule",
+        "2 c. à s. eau de fleur d'oranger",
+        "2 c. à s. armagnac ou rhum (facultatif)",
+        "zeste d'1/2 citron (facultatif)",
+        "1 gousse de vanille ou 1 pincée vanille en poudre",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Préchauffez le four à 160°C (chaleur tournante 140°C). Beurrez généreusement un plat à gratin.",
+        "Dans une casserole, portez le lait à ébullition avec la pincée de sel et la gousse de vanille fendue.",
+        "Versez la farine de maïs en pluie tout en remuant énergiquement avec un fouet pour éviter les grumeaux.",
+        "Continuez à faire cuire à feu doux 8 à 10 min en remuant sans cesse jusqu'à épaississement.",
+        "Retirez du feu et laissez tiédir légèrement.",
+        "Dans un saladier, battez les oeufs entiers, les jaunes et le sucre jusqu'à ce que le mélange blanchisse.",
+        "Incorporez ce mélange à la préparation de maïs tiédie.",
+        "Ajoutez le beurre fondu, l'eau de fleur d'oranger, l'armagnac et le zeste de citron. Mélangez bien.",
+        "Versez la préparation dans le plat beurré et lissez le dessus.",
+        "Enfournez 50 à 60 min. Le dessus doit être doré et légèrement bruni, le centre encore moelleux.",
+        "Laissez refroidir complètement : le millas se raffermit en refroidissant.",
+        "Réfrigérez au moins 2 heures avant de servir. Découpez en carrés ou en losanges."
+      ]
+    },
+    {
+      "id": "cocktail:exo01",
+      "t": "Cocktail Ananas Passion Pétillant",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail exotique frais et pétillant ananas et fruit de la passion",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "200 ml jus d'ananas",
+        "1 fruit de la passion",
+        "150 ml eau pétillante",
+        "menthe fraîche",
+        "glaçons"
+      ],
+      "steps": [
+        "Couper le fruit de la passion en deux et récupérer la pulpe.",
+        "Verser le jus d'ananas sur des glaçons dans un grand verre.",
+        "Ajouter la pulpe de passion et l'eau pétillante.",
+        "Mélanger délicatement. Garnir de menthe fraîche."
+      ]
+    },
+    {
+      "id": "cocktail:exo02",
+      "t": "Cocktail Mangue Citron Vert",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail tropical mangue et citron vert légèrement sucré et gazeux",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "200 ml jus de mangue",
+        "1 citron vert",
+        "150 ml eau gazeuse",
+        "1 c. à c. sucre de canne",
+        "glaçons"
+      ],
+      "steps": [
+        "Presser le citron vert et dissoudre le sucre dans le jus.",
+        "Verser le jus de mangue sur des glaçons.",
+        "Ajouter le jus de citron vert sucré.",
+        "Compléter avec l'eau gazeuse. Garnir d'une rondelle de citron vert."
+      ]
+    },
+    {
+      "id": "cocktail:exo03",
+      "t": "Cocktail Fraise Basilic Pétillant",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail frais et original aux fraises fraîches et basilic parfumé",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "250 g fraises fraîches",
+        "quelques feuilles de basilic",
+        "150 ml eau pétillante",
+        "jus d'1 citron",
+        "glaçons"
+      ],
+      "steps": [
+        "Écraser les fraises et les feuilles de basilic dans un shaker ou verre.",
+        "Ajouter le jus de citron et mélanger.",
+        "Filtrer si désiré, verser sur des glaçons.",
+        "Compléter avec l'eau pétillante. Garnir d'une fraise et basilic."
+      ]
+    },
+    {
+      "id": "cocktail:exo04",
+      "t": "Cocktail Kiwi Menthe Tropical",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail vert vibrant au kiwi, menthe fraîche et citron vert",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "3 kiwis",
+        "1 bouquet de menthe fraîche",
+        "150 ml eau gazeuse",
+        "jus d'1 citron vert",
+        "glaçons"
+      ],
+      "steps": [
+        "Éplucher et mixer les kiwis.",
+        "Presser le citron vert, écraser quelques feuilles de menthe.",
+        "Mélanger jus de kiwi, citron vert et menthe.",
+        "Verser sur glaçons et compléter avec l'eau gazeuse. Garnir de menthe."
+      ]
+    },
+    {
+      "id": "cocktail:exo05",
+      "t": "Cocktail Orange Passion",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail soleil à l'orange et fruit de la passion, pétillant et exotique",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "200 ml jus d'orange",
+        "2 fruits de la passion",
+        "150 ml eau pétillante",
+        "glaçons"
+      ],
+      "steps": [
+        "Couper les fruits de la passion et récupérer la pulpe.",
+        "Verser le jus d'orange sur des glaçons.",
+        "Ajouter la pulpe de passion.",
+        "Compléter avec l'eau pétillante. Mélanger et servir immédiatement."
+      ]
+    },
+    {
+      "id": "cocktail:exo06",
+      "t": "Cocktail Coco Ananas Pétillant",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail tropical crémeux ananas et lait de coco, façon piña colada sans alcool",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "150 ml jus d'ananas",
+        "100 ml lait de coco",
+        "100 ml eau gazeuse",
+        "noix de coco râpée",
+        "glaçons"
+      ],
+      "steps": [
+        "Mélanger le jus d'ananas et le lait de coco.",
+        "Verser sur des glaçons dans un grand verre.",
+        "Ajouter l'eau gazeuse délicatement.",
+        "Saupoudrer de noix de coco râpée. Garnir d'un morceau d'ananas."
+      ]
+    },
+    {
+      "id": "cocktail:exo07",
+      "t": "Cocktail Pastèque Citronnée",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail estival désaltérant à la pastèque et citron frais",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "400 g pastèque épépinée",
+        "jus d'1 citron",
+        "150 ml eau pétillante",
+        "menthe fraîche",
+        "glaçons"
+      ],
+      "steps": [
+        "Mixer la pastèque et filtrer le jus.",
+        "Ajouter le jus de citron.",
+        "Verser sur des glaçons et compléter avec l'eau pétillante.",
+        "Garnir d'une rondelle de citron et de menthe fraîche."
+      ]
+    },
+    {
+      "id": "cocktail:exo08",
+      "t": "Cocktail Framboise Exotique",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail rouge rubis aux framboises et ananas, frais et pétillant",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "200 g framboises",
+        "100 ml jus d'ananas",
+        "150 ml eau gazeuse",
+        "jus d'1 citron vert",
+        "glaçons"
+      ],
+      "steps": [
+        "Écraser les framboises et filtrer pour obtenir le jus.",
+        "Mélanger jus de framboise, jus d'ananas et citron vert.",
+        "Verser sur des glaçons.",
+        "Ajouter l'eau gazeuse. Garnir de framboises et citron vert."
+      ]
+    },
+    {
+      "id": "cocktail:exo09",
+      "t": "Cocktail Tropical Blue Lagoon",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail bleu lagon spectaculaire au curaçao sans alcool et eau pétillante",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "50 ml sirop de curaçao bleu sans alcool",
+        "jus d'1 citron",
+        "200 ml eau pétillante",
+        "glaçons",
+        "cerise pour décorer"
+      ],
+      "steps": [
+        "Verser le sirop de curaçao bleu dans un verre sur des glaçons.",
+        "Ajouter le jus de citron.",
+        "Compléter avec l'eau pétillante.",
+        "Garnir d'une cerise et d'une rondelle de citron. Ne pas mélanger pour l'effet dégradé."
+      ]
+    },
+    {
+      "id": "cocktail:exo10",
+      "t": "Cocktail Pêche Mangue Pétillant",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail doré et fruité à la pêche et mangue, frais et pétillant",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "150 ml jus de pêche",
+        "100 ml jus de mangue",
+        "150 ml eau gazeuse",
+        "menthe fraîche",
+        "glaçons"
+      ],
+      "steps": [
+        "Mélanger le jus de pêche et le jus de mangue.",
+        "Verser sur des glaçons dans un grand verre.",
+        "Compléter avec l'eau gazeuse.",
+        "Garnir de menthe fraîche et d'une tranche de pêche."
+      ]
+    },
+    {
+      "id": "cocktail:exo11",
+      "t": "Cocktail Deluxe Fruits Exotiques",
+      "cat": "Cocktail sans alcool",
+      "desc": "Grand cocktail festif aux fruits exotiques frais, ananas, mangue et passion",
+      "min": 10,
+      "serv": 4,
+      "ing": [
+        "200 ml jus d'ananas",
+        "1 mangue en dés",
+        "2 fruits de la passion",
+        "200 ml eau pétillante",
+        "fruits frais variés pour décorer",
+        "glaçons"
+      ],
+      "steps": [
+        "Mixer la mangue en dés et filtrer le jus.",
+        "Mélanger jus d'ananas, jus de mangue et pulpe de passion.",
+        "Verser sur des glaçons dans une grande carafe ou verres.",
+        "Compléter avec l'eau pétillante. Décorer généreusement de fruits frais."
+      ]
+    },
+    {
+      "id": "shake:011",
+      "t": "Milkshake Beurre de Cacahuète",
+      "cat": "Milkshake",
+      "desc": "Milkshake onctueux et gourmand au beurre de cacahuète, irrésistible",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "4 boules (≈ 400 g) glace vanille",
+        "120 ml lait",
+        "60 g beurre de cacahuète"
+      ],
+      "steps": [
+        "Mettre la glace vanille, le lait et le beurre de cacahuète dans un blender.",
+        "Mixer jusqu'à obtenir un mélange lisse et crémeux.",
+        "Verser dans des grands verres bien froids.",
+        "Décorer de cacahuètes concassées ou de beurre de cacahuète en filet."
+      ]
+    },
+    {
+      "id": "shake:012",
+      "t": "Milkshake Mangue",
+      "cat": "Milkshake",
+      "desc": "Milkshake tropical fruité à la mangue, frais et exotique",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "4 boules (≈ 400 g) glace vanille",
+        "160 ml lait",
+        "1 mangue mûre ou 200 g pulpe de mangue"
+      ],
+      "steps": [
+        "Peler et couper la mangue en dés.",
+        "Mettre la glace, le lait et la mangue dans un blender.",
+        "Mixer jusqu'à obtenir un mélange lisse.",
+        "Verser dans des verres et servir immédiatement. Décorer d'un dé de mangue."
+      ]
+    },
+    {
+      "id": "shake:013",
+      "t": "Milkshake Menthe Chocolat",
+      "cat": "Milkshake",
+      "desc": "Milkshake rafraîchissant menthe et chocolat, façon after-eight en verre",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "4 boules (≈ 400 g) glace menthe-chocolat",
+        "160 ml lait",
+        "chantilly",
+        "copeaux de chocolat noir",
+        "feuilles de menthe fraîche"
+      ],
+      "steps": [
+        "Mettre la glace menthe-chocolat et le lait dans un blender.",
+        "Mixer jusqu'à obtenir une texture crémeuse.",
+        "Verser dans des grands verres.",
+        "Garnir de chantilly, copeaux de chocolat et feuilles de menthe."
+      ]
     }
   ]
 }
