@@ -15180,6 +15180,619 @@
         "Enfourner 10 à 12 min – les bords doivent être dorés mais le centre encore mou.",
         "Laisser refroidir quelques minutes avant de déguster : le coeur est encore fondant."
       ]
+    },
+    {
+      "id": "vietnam:001",
+      "t": "Phô Vietnamien",
+      "cat": "Asie, Soupe",
+      "desc": "Le grand classique vietnamien : bouillon de bœuf longuement mijoté aux épices, nouilles et garnitures fraîches",
+      "min": 210,
+      "serv": 4,
+      "ing": [
+        "800 g bœuf à braiser (jumeau, collier ou macreuse)",
+        "1 cube de bouillon de bœuf",
+        "2 oignons",
+        "2 carottes",
+        "34 g gingembre frais",
+        "1 branche de céleri",
+        "1 bâton de cannelle",
+        "1 étoile de badiane",
+        "4 capsules de cardamome verte",
+        "2 g noix de muscade râpée",
+        "200 g pousses de soja",
+        "3 oignons nouveaux (cives)",
+        "200 g nouilles de riz chinoises",
+        "67 g pousses d'épinard",
+        "2 citrons verts",
+        "sauce poisson, sauce soja, sriracha (pour servir)"
+      ],
+      "steps": [
+        "Éplucher et couper en morceaux les oignons, gingembre, céleri et carottes.",
+        "Faire bouillir 2 L d'eau dans une grande marmite avec le bœuf, le cube de bouillon et les épices (cannelle, badiane, cardamome, muscade). Écumer régulièrement.",
+        "Après 30 min de cuisson, ajouter les légumes coupés en gros morceaux. Poursuivre la cuisson à petits frémissements.",
+        "Cuire au total au moins 3 h jusqu'à ce que la viande soit très fondante. Égoutter la viande et l'émincer très finement.",
+        "Filtrer le bouillon pour le clarifier.",
+        "Tremper les nouilles dans de l'eau bouillante hors du feu 1-2 min à l'aide d'une passoire pour les ramollir.",
+        "Émincer les oignons nouveaux en fines lamelles.",
+        "Répartir les nouilles dans les bols, ajouter la viande émincée, pousses de soja, épinards et oignons nouveaux.",
+        "Verser le bouillon brûlant par-dessus. Servir avec citron vert et condiments (sauce poisson, soja, sriracha)."
+      ]
+    },
+    {
+      "id": "crepe:001",
+      "t": "Crêpe Salée Jambon Emmental",
+      "cat": "France, Crêpe salée",
+      "desc": "La crêpe salée classique garnie de jambon fondant et emmental gratiné",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "200 g jambon en tranches",
+        "150 g emmental râpé",
+        "beurre"
+      ],
+      "steps": [
+        "Beurrer légèrement chaque crêpe.",
+        "Garnir de tranches de jambon et d'emmental râpé.",
+        "Plier en quatre ou rouler.",
+        "Faire chauffer à la poêle 2 min de chaque côté jusqu'à ce que le fromage fonde."
+      ]
+    },
+    {
+      "id": "crepe:002",
+      "t": "Crêpe Salée Saumon Fromage Frais",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe élégante saumon fumé et fromage frais crémeux",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "150 g saumon fumé",
+        "150 g fromage frais",
+        "aneth frais",
+        "jus de citron"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec l'aneth ciselé et un trait de citron.",
+        "Étaler ce mélange sur chaque crêpe.",
+        "Ajouter les tranches de saumon fumé.",
+        "Rouler ou plier. Servir frais."
+      ]
+    },
+    {
+      "id": "crepe:003",
+      "t": "Crêpe Salée Chèvre Miel Noix",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe raffinée au fromage de chèvre, miel et noix croquantes",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "150 g fromage de chèvre",
+        "2 c. à s. miel",
+        "60 g cerneaux de noix",
+        "roquette (facultatif)"
+      ],
+      "steps": [
+        "Émietter le fromage de chèvre sur chaque crêpe.",
+        "Parsemer de noix concassées.",
+        "Arroser d'un filet de miel.",
+        "Plier en quatre, réchauffer 2 min à la poêle. Garnir de roquette."
+      ]
+    },
+    {
+      "id": "crepe:004",
+      "t": "Crêpe Salée Savoyarde",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe montagnarde aux pommes de terre, lardons et emmental fondu",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "300 g pommes de terre cuites en rondelles",
+        "150 g lardons",
+        "150 g emmental râpé",
+        "crème fraîche"
+      ],
+      "steps": [
+        "Faire revenir les lardons à la poêle. Ajouter les rondelles de pommes de terre 5 min.",
+        "Napper chaque crêpe de crème fraîche.",
+        "Garnir du mélange pommes de terre-lardons et d'emmental râpé.",
+        "Plier et faire gratiner à la poêle 3 min."
+      ]
+    },
+    {
+      "id": "crepe:005",
+      "t": "Crêpe Salée Chèvre Épinards Miel",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe fraîche aux épinards fondants, chèvre et miel légèrement sucré",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "200 g épinards frais",
+        "150 g fromage de chèvre",
+        "2 c. à s. miel",
+        "ail",
+        "beurre"
+      ],
+      "steps": [
+        "Faire revenir les épinards à l'ail dans le beurre 3 min.",
+        "Garnir chaque crêpe d'épinards et de chèvre émietté.",
+        "Arroser d'un filet de miel.",
+        "Plier et réchauffer à la poêle 2 min."
+      ]
+    },
+    {
+      "id": "crepe:006",
+      "t": "Crêpe Salée Jambon Raclette Cornichons",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe façon raclette avec jambon, fromage fondu et cornichons acidulés",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "200 g jambon",
+        "150 g raclette en tranches",
+        "10 cornichons tranchés"
+      ],
+      "steps": [
+        "Disposer jambon et raclette sur chaque crêpe.",
+        "Ajouter les rondelles de cornichons.",
+        "Plier en quatre.",
+        "Faire fondre à la poêle 3 min à feu moyen."
+      ]
+    },
+    {
+      "id": "crepe:007",
+      "t": "Crêpe Salée Montagnarde",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe généreuse reblochon, jambon de montagne et pommes de terre",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "200 g reblochon en tranches",
+        "150 g jambon de montagne",
+        "250 g pommes de terre cuites en rondelles",
+        "oignons caramélisés"
+      ],
+      "steps": [
+        "Caraméliser les oignons 10 min à la poêle.",
+        "Garnir chaque crêpe de pommes de terre, jambon, reblochon et oignons.",
+        "Plier et faire fondre à la poêle 3-4 min.",
+        "Servir immédiatement."
+      ]
+    },
+    {
+      "id": "crepe:008",
+      "t": "Crêpe Salée 4 Fromages",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe ultra fromagère bleu, mozzarella, raclette et emmental fondus",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "60 g bleu d'Auvergne",
+        "60 g mozzarella",
+        "60 g raclette",
+        "60 g emmental"
+      ],
+      "steps": [
+        "Couper tous les fromages en morceaux.",
+        "Répartir les 4 fromages sur chaque crêpe.",
+        "Plier en quatre et faire fondre à la poêle ou au four 3 min.",
+        "Servir aussitôt quand les fromages sont bien fondants."
+      ]
+    },
+    {
+      "id": "crepe:009",
+      "t": "Crêpe Salée Thon Niçoise",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe façon salade niçoise avec thon, olives, tomates et oeufs durs",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "1 boîte thon égoutté",
+        "100 g olives noires",
+        "2 tomates",
+        "2 oeufs durs",
+        "mayonnaise",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper les tomates et les oeufs durs. Mélanger thon et mayonnaise.",
+        "Garnir les crêpes du mélange thon, tomates, oeufs durs et olives.",
+        "Assaisonner de sel et poivre.",
+        "Plier et servir froid ou légèrement réchauffé."
+      ]
+    },
+    {
+      "id": "crepe:010",
+      "t": "Crêpe Salée Poulet Curry",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe exotique au poulet mariné au curry et crème fraîche",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "250 g poulet cuit émincé",
+        "2 c. à c. curry en poudre",
+        "150 ml crème fraîche",
+        "1 oignon",
+        "beurre"
+      ],
+      "steps": [
+        "Faire revenir l'oignon dans le beurre. Ajouter le poulet et le curry, cuire 3 min.",
+        "Incorporer la crème fraîche. Laisser mijoter 5 min.",
+        "Garnir les crêpes de ce mélange.",
+        "Plier et réchauffer à la poêle 2 min."
+      ]
+    },
+    {
+      "id": "crepe:011",
+      "t": "Crêpe Salée Italienne Prosciutto Mozzarella",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe aux saveurs italiennes prosciutto, mozzarella et basilic frais",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "150 g prosciutto",
+        "150 g mozzarella",
+        "feuilles de basilic frais",
+        "tomates cerises",
+        "huile d'olive"
+      ],
+      "steps": [
+        "Disposer prosciutto et mozzarella sur chaque crêpe.",
+        "Ajouter les tomates cerises coupées et le basilic.",
+        "Arroser d'un filet d'huile d'olive.",
+        "Plier et réchauffer légèrement. Servir."
+      ]
+    },
+    {
+      "id": "crepe:012",
+      "t": "Crêpe Salée Reblochon Raclette",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe alpine extra fondante reblochon et raclette avec pommes de terre",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "100 g reblochon",
+        "100 g raclette",
+        "200 g pommes de terre cuites",
+        "lardons",
+        "poivre"
+      ],
+      "steps": [
+        "Faire revenir les lardons à la poêle. Ajouter les pommes de terre en rondelles.",
+        "Garnir les crêpes de pommes de terre-lardons, reblochon et raclette.",
+        "Plier et faire fondre à la poêle couverte 4 min.",
+        "Poivrer généreusement."
+      ]
+    },
+    {
+      "id": "crepe:013",
+      "t": "Crêpe Salée Club",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe façon club sandwich : jambon, salade, tomates et fromage",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "200 g jambon",
+        "salade verte",
+        "2 tomates",
+        "100 g fromage râpé",
+        "mayonnaise"
+      ],
+      "steps": [
+        "Tartiner chaque crêpe de mayonnaise.",
+        "Garnir de salade, tomates en rondelles, jambon et fromage râpé.",
+        "Rouler les crêpes et les fixer avec un pic.",
+        "Servir frais, coupé en tronçons."
+      ]
+    },
+    {
+      "id": "crepe:014",
+      "t": "Crêpe Salée 3 Fromages Jambon",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe généreuse au jambon et trio de fromages fondants",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "200 g jambon",
+        "70 g emmental",
+        "70 g comté",
+        "70 g mozzarella",
+        "crème fraîche"
+      ],
+      "steps": [
+        "Napper légèrement les crêpes de crème fraîche.",
+        "Ajouter le jambon et les 3 fromages râpés ou en tranches.",
+        "Plier en quatre.",
+        "Faire fondre à la poêle couverte 3-4 min."
+      ]
+    },
+    {
+      "id": "crepe:015",
+      "t": "Crêpe Salée Tartiflette",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe façon tartiflette : reblochon, lardons, oignons et pommes de terre",
+      "min": 35,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "200 g reblochon",
+        "200 g lardons",
+        "200 g pommes de terre cuites",
+        "2 oignons",
+        "crème fraîche"
+      ],
+      "steps": [
+        "Caraméliser les oignons et faire revenir les lardons. Ajouter les pommes de terre.",
+        "Incorporer la crème fraîche, mijoter 5 min.",
+        "Garnir les crêpes de ce mélange et ajouter des tranches de reblochon.",
+        "Plier et faire fondre à la poêle couverte 4 min."
+      ]
+    },
+    {
+      "id": "crepe:016",
+      "t": "Crêpe Salée Fruits de Mer",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe élégante aux fruits de mer dans une sauce crème au vin blanc",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "300 g fruits de mer mélangés (crevettes, Saint-Jacques, moules)",
+        "150 ml crème fraîche",
+        "50 ml vin blanc",
+        "1 échalote",
+        "beurre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire revenir l'échalote dans le beurre. Ajouter les fruits de mer 3 min.",
+        "Déglacer au vin blanc, ajouter la crème fraîche. Réduire 5 min.",
+        "Garnir les crêpes de cette préparation.",
+        "Plier et réchauffer 2 min à la poêle."
+      ]
+    },
+    {
+      "id": "crepe:017",
+      "t": "Crêpe Salée Saumon Fumé Avocat",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe fraîche et délicate saumon fumé, avocat crémeux et citron",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "150 g saumon fumé",
+        "2 avocats mûrs",
+        "jus d'1 citron",
+        "aneth frais",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Écraser les avocats avec le jus de citron, sel et poivre.",
+        "Étaler l'avocat sur chaque crêpe.",
+        "Ajouter les tranches de saumon fumé et l'aneth.",
+        "Rouler et servir frais."
+      ]
+    },
+    {
+      "id": "crepe:018",
+      "t": "Crêpe Salée Oeuf Bacon Cheddar",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe brunch au bacon croustillant, oeuf et cheddar fondu",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "8 tranches bacon",
+        "4 oeufs",
+        "150 g cheddar râpé",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire griller le bacon à la poêle jusqu'à croustillant.",
+        "Cuire les oeufs au plat.",
+        "Garnir chaque crêpe de cheddar, bacon et oeuf.",
+        "Plier et faire fondre le cheddar à la poêle couverte 2 min."
+      ]
+    },
+    {
+      "id": "crepe:019",
+      "t": "Crêpe Salée Crabe Crevettes",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe raffinée au crabe et crevettes dans une sauce bisque légère",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "150 g chair de crabe",
+        "150 g crevettes décortiquées",
+        "150 ml crème fraîche",
+        "1 c. à s. bisque de homard",
+        "aneth",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mélanger crabe, crevettes, crème fraîche et bisque. Assaisonner.",
+        "Réchauffer à la poêle 3 min à feu doux.",
+        "Garnir les crêpes de cette préparation et parsemer d'aneth.",
+        "Plier et servir immédiatement."
+      ]
+    },
+    {
+      "id": "crepe:020",
+      "t": "Crêpe Salée Courgette Chèvre",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe légère et fraîche aux courgettes grillées et fromage de chèvre",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "2 courgettes",
+        "150 g fromage de chèvre",
+        "menthe fraîche",
+        "huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper les courgettes en rondelles et griller à la poêle avec huile d'olive.",
+        "Garnir chaque crêpe de courgettes grillées et chèvre émietté.",
+        "Ajouter quelques feuilles de menthe fraîche.",
+        "Plier et réchauffer légèrement. Servir."
+      ]
+    },
+    {
+      "id": "crepe:021",
+      "t": "Crêpe Salée Pesto Mozzarella Jambon",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe italienne au pesto généreux, mozzarella fondante et jambon",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "3 c. à s. pesto",
+        "150 g mozzarella",
+        "150 g jambon",
+        "tomates cerises",
+        "basilic"
+      ],
+      "steps": [
+        "Tartiner chaque crêpe de pesto.",
+        "Ajouter la mozzarella, le jambon et les tomates cerises coupées.",
+        "Plier et faire fondre à la poêle 3 min.",
+        "Garnir de basilic frais. Servir."
+      ]
+    },
+    {
+      "id": "crepe:022",
+      "t": "Crêpe Salée Champignons Fromage",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe forestière aux champignons sautés et fromage fondant",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "300 g champignons de Paris",
+        "100 g emmental râpé",
+        "1 gousse d'ail",
+        "crème fraîche",
+        "persil",
+        "beurre"
+      ],
+      "steps": [
+        "Faire sauter les champignons avec ail et beurre 5 min. Assaisonner.",
+        "Ajouter 2 cuillères de crème fraîche, mélanger.",
+        "Garnir les crêpes de champignons et d'emmental.",
+        "Plier et réchauffer 2 min à la poêle."
+      ]
+    },
+    {
+      "id": "crepe:023",
+      "t": "Crêpe Salée Épinards Ricotta",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe italienne légère et crémeuse aux épinards et ricotta",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "200 g épinards frais",
+        "200 g ricotta",
+        "50 g parmesan râpé",
+        "muscade",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire revenir les épinards 2 min, égoutter soigneusement.",
+        "Mélanger épinards, ricotta, parmesan et muscade. Assaisonner.",
+        "Garnir chaque crêpe de cette préparation.",
+        "Plier et réchauffer 2 min à la poêle."
+      ]
+    },
+    {
+      "id": "crepe:024",
+      "t": "Crêpe Salée Poulet Champignons Crème",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe familiale au poulet en sauce crème et champignons parfumés",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "250 g poulet cuit",
+        "200 g champignons",
+        "200 ml crème fraîche",
+        "1 échalote",
+        "persil",
+        "beurre"
+      ],
+      "steps": [
+        "Faire revenir l'échalote et les champignons dans le beurre 5 min.",
+        "Ajouter le poulet émincé et la crème fraîche. Mijoter 5 min.",
+        "Parsemer de persil. Garnir les crêpes.",
+        "Plier et réchauffer 2 min à la poêle."
+      ]
+    },
+    {
+      "id": "crepe:025",
+      "t": "Crêpe Salée Ratatouille",
+      "cat": "France, Crêpe salée",
+      "desc": "Crêpe provençale aux légumes du soleil façon ratatouille",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "8 crêpes salées",
+        "1 courgette",
+        "1 aubergine",
+        "1 poivron rouge",
+        "2 tomates",
+        "herbes de Provence",
+        "huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper tous les légumes en petits dés. Faire sauter 15 min dans l'huile d'olive avec herbes de Provence.",
+        "Assaisonner de sel et poivre.",
+        "Garnir les crêpes de ratatouille.",
+        "Plier et réchauffer 2 min à la poêle."
+      ]
+    },
+    {
+      "id": "belgique:001",
+      "t": "Gaufres de Liège",
+      "cat": "Belgique, Dessert",
+      "desc": "Les célèbres gaufres belges, croustillantes dehors et moelleuses dedans avec du sucre perlé caramélisé",
+      "min": 120,
+      "serv": 10,
+      "ing": [
+        "500 g farine",
+        "20 g levure boulangère fraîche (ou 7 g levure sèche)",
+        "180 ml lait tiède",
+        "2 oeufs",
+        "200 g beurre mou",
+        "80 g sucre",
+        "1 sachet sucre vanillé",
+        "1 pincée de sel",
+        "200 g sucre perlé"
+      ],
+      "steps": [
+        "Diluer la levure dans le lait tiède et laisser reposer 10 min.",
+        "Mélanger la farine, le sucre, le sucre vanillé et le sel dans un grand bol.",
+        "Ajouter les oeufs et le lait avec la levure, pétrir jusqu'à obtenir une pâte homogène.",
+        "Incorporer progressivement le beurre mou et pétrir jusqu'à obtenir une pâte souple.",
+        "Couvrir et laisser lever 1 h 30 dans un endroit tiède.",
+        "Ajouter délicatement le sucre perlé à la pâte levée sans trop travailler.",
+        "Former des boules de pâte d'environ 80 g.",
+        "Cuire dans un gaufrier bien chaud 3 à 5 min jusqu'à belle dorure. Ne pas saupoudrer de sucre après : le sucre perlé caramélise naturellement dans le gaufrier."
+      ]
     }
   ]
 }

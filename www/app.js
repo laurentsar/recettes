@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.78';
+const APP_VERSION = '2.79';
 
 let ALL = [];
 let BASE = [];
@@ -1465,7 +1465,7 @@ const elCocktailGrid = document.getElementById('cocktail-grid');
 const elCocktailDetail = document.getElementById('cocktail-detail');
 
 const MODE_GROUPS = {
-  regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas'] },
+  regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas','belgique'] },
   ustensiles:      { subs: ['airfryer','thermomix'] },
   aperitif:        { subs: ['tartinades','wraps','bouchees','brochettes','paninis','samoussas'] },
   oeufs:           { subs: ['omelettes','cocottes','preparations'] },
@@ -1479,7 +1479,7 @@ const SUB_TAB_LABELS = {
   japon:'🇯🇵 Japon', asie:'🍜 Asie', maghreb:'🫖 Maghreb',
   allemagne:'🇩🇪 Allemagne', gb:'🇬🇧 Grande-Bretagne', australie:'🇦🇺 Australie',
   bresil:'🇧🇷 Brésil', argentine:'🇦🇷 Argentine', af:'🌍 Afrique',
-  arabe:'🌙 Monde arabe', bulgarie:'🇧🇬 Bulgarie', hongrie:'🇭🇺 Hongrie', roumanie:'🇷🇴 Roumanie', paysbas:'🇳🇱 Pays-Bas',
+  arabe:'🌙 Monde arabe', bulgarie:'🇧🇬 Bulgarie', hongrie:'🇭🇺 Hongrie', roumanie:'🇷🇴 Roumanie', paysbas:'🇳🇱 Pays-Bas', belgique:'🇧🇪 Belgique',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix',
   tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas',
   omelettes:'🍳 Omelettes', cocottes:'🥚 Cocottes', preparations:'🍳 Préparations',
@@ -1495,7 +1495,7 @@ const MODE_CAT = {
   japon: 'Japon', asie: 'Asie', maghreb: 'Maghreb',
   allemagne: 'Allemagne', gb: 'Grande-Bretagne', australie: 'Australie',
   bresil: 'Brésil', argentine: 'Argentine', af: 'Afrique', monde: 'Monde',
-  arabe: 'Monde arabe', bulgarie: 'Bulgarie', hongrie: 'Hongrie', roumanie: 'Roumanie', paysbas: 'Pays-Bas',
+  arabe: 'Monde arabe', bulgarie: 'Bulgarie', hongrie: 'Hongrie', roumanie: 'Roumanie', paysbas: 'Pays-Bas', belgique: 'Belgique',
   sauces: 'Sauce', tartinades: 'Tartinade', techniques: 'Technique',
   wraps: 'Wrap', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
   bouchees: 'Bouchée', brochettes: 'Brochette', omelettes: 'Omelette', cocottes: 'Cocotte',
