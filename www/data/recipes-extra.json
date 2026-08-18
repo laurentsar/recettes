@@ -13393,6 +13393,1793 @@
         "Alterner porc, lardons et oignons sur les brochettes.",
         "Griller 20 min en retournant régulièrement jusqu'à belle coloration."
       ]
+    },
+    {
+      "id": "millas:001",
+      "t": "Millas Sucré d'Autrefois",
+      "cat": "France, Dessert",
+      "desc": "Dessert rustique du Sud-Ouest à base de farine de maïs, parfumé à la fleur d'oranger et à la vanille. Encore meilleur préparé la veille.",
+      "min": 75,
+      "serv": 10,
+      "ing": [
+        "250 g farine de maïs très fine",
+        "1 litre lait entier",
+        "3 oeufs entiers + 2 jaunes",
+        "120 g sucre roux ou miel",
+        "50 g beurre doux + pour le moule",
+        "2 c. à s. eau de fleur d'oranger",
+        "2 c. à s. armagnac ou rhum (facultatif)",
+        "zeste d'1/2 citron (facultatif)",
+        "1 gousse de vanille ou 1 pincée vanille en poudre",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Préchauffez le four à 160°C (chaleur tournante 140°C). Beurrez généreusement un plat à gratin.",
+        "Dans une casserole, portez le lait à ébullition avec la pincée de sel et la gousse de vanille fendue.",
+        "Versez la farine de maïs en pluie tout en remuant énergiquement avec un fouet pour éviter les grumeaux.",
+        "Continuez à faire cuire à feu doux 8 à 10 min en remuant sans cesse jusqu'à épaississement.",
+        "Retirez du feu et laissez tiédir légèrement.",
+        "Dans un saladier, battez les oeufs entiers, les jaunes et le sucre jusqu'à ce que le mélange blanchisse.",
+        "Incorporez ce mélange à la préparation de maïs tiédie.",
+        "Ajoutez le beurre fondu, l'eau de fleur d'oranger, l'armagnac et le zeste de citron. Mélangez bien.",
+        "Versez la préparation dans le plat beurré et lissez le dessus.",
+        "Enfournez 50 à 60 min. Le dessus doit être doré et légèrement bruni, le centre encore moelleux.",
+        "Laissez refroidir complètement : le millas se raffermit en refroidissant.",
+        "Réfrigérez au moins 2 heures avant de servir. Découpez en carrés ou en losanges."
+      ]
+    },
+    {
+      "id": "cocktail:exo01",
+      "t": "Cocktail Ananas Passion Pétillant",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail exotique frais et pétillant ananas et fruit de la passion",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "200 ml jus d'ananas",
+        "1 fruit de la passion",
+        "150 ml eau pétillante",
+        "menthe fraîche",
+        "glaçons"
+      ],
+      "steps": [
+        "Couper le fruit de la passion en deux et récupérer la pulpe.",
+        "Verser le jus d'ananas sur des glaçons dans un grand verre.",
+        "Ajouter la pulpe de passion et l'eau pétillante.",
+        "Mélanger délicatement. Garnir de menthe fraîche."
+      ]
+    },
+    {
+      "id": "cocktail:exo02",
+      "t": "Cocktail Mangue Citron Vert",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail tropical mangue et citron vert légèrement sucré et gazeux",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "200 ml jus de mangue",
+        "1 citron vert",
+        "150 ml eau gazeuse",
+        "1 c. à c. sucre de canne",
+        "glaçons"
+      ],
+      "steps": [
+        "Presser le citron vert et dissoudre le sucre dans le jus.",
+        "Verser le jus de mangue sur des glaçons.",
+        "Ajouter le jus de citron vert sucré.",
+        "Compléter avec l'eau gazeuse. Garnir d'une rondelle de citron vert."
+      ]
+    },
+    {
+      "id": "cocktail:exo03",
+      "t": "Cocktail Fraise Basilic Pétillant",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail frais et original aux fraises fraîches et basilic parfumé",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "250 g fraises fraîches",
+        "quelques feuilles de basilic",
+        "150 ml eau pétillante",
+        "jus d'1 citron",
+        "glaçons"
+      ],
+      "steps": [
+        "Écraser les fraises et les feuilles de basilic dans un shaker ou verre.",
+        "Ajouter le jus de citron et mélanger.",
+        "Filtrer si désiré, verser sur des glaçons.",
+        "Compléter avec l'eau pétillante. Garnir d'une fraise et basilic."
+      ]
+    },
+    {
+      "id": "cocktail:exo04",
+      "t": "Cocktail Kiwi Menthe Tropical",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail vert vibrant au kiwi, menthe fraîche et citron vert",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "3 kiwis",
+        "1 bouquet de menthe fraîche",
+        "150 ml eau gazeuse",
+        "jus d'1 citron vert",
+        "glaçons"
+      ],
+      "steps": [
+        "Éplucher et mixer les kiwis.",
+        "Presser le citron vert, écraser quelques feuilles de menthe.",
+        "Mélanger jus de kiwi, citron vert et menthe.",
+        "Verser sur glaçons et compléter avec l'eau gazeuse. Garnir de menthe."
+      ]
+    },
+    {
+      "id": "cocktail:exo05",
+      "t": "Cocktail Orange Passion",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail soleil à l'orange et fruit de la passion, pétillant et exotique",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "200 ml jus d'orange",
+        "2 fruits de la passion",
+        "150 ml eau pétillante",
+        "glaçons"
+      ],
+      "steps": [
+        "Couper les fruits de la passion et récupérer la pulpe.",
+        "Verser le jus d'orange sur des glaçons.",
+        "Ajouter la pulpe de passion.",
+        "Compléter avec l'eau pétillante. Mélanger et servir immédiatement."
+      ]
+    },
+    {
+      "id": "cocktail:exo06",
+      "t": "Cocktail Coco Ananas Pétillant",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail tropical crémeux ananas et lait de coco, façon piña colada sans alcool",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "150 ml jus d'ananas",
+        "100 ml lait de coco",
+        "100 ml eau gazeuse",
+        "noix de coco râpée",
+        "glaçons"
+      ],
+      "steps": [
+        "Mélanger le jus d'ananas et le lait de coco.",
+        "Verser sur des glaçons dans un grand verre.",
+        "Ajouter l'eau gazeuse délicatement.",
+        "Saupoudrer de noix de coco râpée. Garnir d'un morceau d'ananas."
+      ]
+    },
+    {
+      "id": "cocktail:exo07",
+      "t": "Cocktail Pastèque Citronnée",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail estival désaltérant à la pastèque et citron frais",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "400 g pastèque épépinée",
+        "jus d'1 citron",
+        "150 ml eau pétillante",
+        "menthe fraîche",
+        "glaçons"
+      ],
+      "steps": [
+        "Mixer la pastèque et filtrer le jus.",
+        "Ajouter le jus de citron.",
+        "Verser sur des glaçons et compléter avec l'eau pétillante.",
+        "Garnir d'une rondelle de citron et de menthe fraîche."
+      ]
+    },
+    {
+      "id": "cocktail:exo08",
+      "t": "Cocktail Framboise Exotique",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail rouge rubis aux framboises et ananas, frais et pétillant",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "200 g framboises",
+        "100 ml jus d'ananas",
+        "150 ml eau gazeuse",
+        "jus d'1 citron vert",
+        "glaçons"
+      ],
+      "steps": [
+        "Écraser les framboises et filtrer pour obtenir le jus.",
+        "Mélanger jus de framboise, jus d'ananas et citron vert.",
+        "Verser sur des glaçons.",
+        "Ajouter l'eau gazeuse. Garnir de framboises et citron vert."
+      ]
+    },
+    {
+      "id": "cocktail:exo09",
+      "t": "Cocktail Tropical Blue Lagoon",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail bleu lagon spectaculaire au curaçao sans alcool et eau pétillante",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "50 ml sirop de curaçao bleu sans alcool",
+        "jus d'1 citron",
+        "200 ml eau pétillante",
+        "glaçons",
+        "cerise pour décorer"
+      ],
+      "steps": [
+        "Verser le sirop de curaçao bleu dans un verre sur des glaçons.",
+        "Ajouter le jus de citron.",
+        "Compléter avec l'eau pétillante.",
+        "Garnir d'une cerise et d'une rondelle de citron. Ne pas mélanger pour l'effet dégradé."
+      ]
+    },
+    {
+      "id": "cocktail:exo10",
+      "t": "Cocktail Pêche Mangue Pétillant",
+      "cat": "Cocktail sans alcool",
+      "desc": "Cocktail doré et fruité à la pêche et mangue, frais et pétillant",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "150 ml jus de pêche",
+        "100 ml jus de mangue",
+        "150 ml eau gazeuse",
+        "menthe fraîche",
+        "glaçons"
+      ],
+      "steps": [
+        "Mélanger le jus de pêche et le jus de mangue.",
+        "Verser sur des glaçons dans un grand verre.",
+        "Compléter avec l'eau gazeuse.",
+        "Garnir de menthe fraîche et d'une tranche de pêche."
+      ]
+    },
+    {
+      "id": "cocktail:exo11",
+      "t": "Cocktail Deluxe Fruits Exotiques",
+      "cat": "Cocktail sans alcool",
+      "desc": "Grand cocktail festif aux fruits exotiques frais, ananas, mangue et passion",
+      "min": 10,
+      "serv": 4,
+      "ing": [
+        "200 ml jus d'ananas",
+        "1 mangue en dés",
+        "2 fruits de la passion",
+        "200 ml eau pétillante",
+        "fruits frais variés pour décorer",
+        "glaçons"
+      ],
+      "steps": [
+        "Mixer la mangue en dés et filtrer le jus.",
+        "Mélanger jus d'ananas, jus de mangue et pulpe de passion.",
+        "Verser sur des glaçons dans une grande carafe ou verres.",
+        "Compléter avec l'eau pétillante. Décorer généreusement de fruits frais."
+      ]
+    },
+    {
+      "id": "shake:011",
+      "t": "Milkshake Beurre de Cacahuète",
+      "cat": "Milkshake",
+      "desc": "Milkshake onctueux et gourmand au beurre de cacahuète, irrésistible",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "4 boules (≈ 400 g) glace vanille",
+        "120 ml lait",
+        "60 g beurre de cacahuète"
+      ],
+      "steps": [
+        "Mettre la glace vanille, le lait et le beurre de cacahuète dans un blender.",
+        "Mixer jusqu'à obtenir un mélange lisse et crémeux.",
+        "Verser dans des grands verres bien froids.",
+        "Décorer de cacahuètes concassées ou de beurre de cacahuète en filet."
+      ]
+    },
+    {
+      "id": "shake:012",
+      "t": "Milkshake Mangue",
+      "cat": "Milkshake",
+      "desc": "Milkshake tropical fruité à la mangue, frais et exotique",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "4 boules (≈ 400 g) glace vanille",
+        "160 ml lait",
+        "1 mangue mûre ou 200 g pulpe de mangue"
+      ],
+      "steps": [
+        "Peler et couper la mangue en dés.",
+        "Mettre la glace, le lait et la mangue dans un blender.",
+        "Mixer jusqu'à obtenir un mélange lisse.",
+        "Verser dans des verres et servir immédiatement. Décorer d'un dé de mangue."
+      ]
+    },
+    {
+      "id": "shake:013",
+      "t": "Milkshake Menthe Chocolat",
+      "cat": "Milkshake",
+      "desc": "Milkshake rafraîchissant menthe et chocolat, façon after-eight en verre",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "4 boules (≈ 400 g) glace menthe-chocolat",
+        "160 ml lait",
+        "chantilly",
+        "copeaux de chocolat noir",
+        "feuilles de menthe fraîche"
+      ],
+      "steps": [
+        "Mettre la glace menthe-chocolat et le lait dans un blender.",
+        "Mixer jusqu'à obtenir une texture crémeuse.",
+        "Verser dans des grands verres.",
+        "Garnir de chantilly, copeaux de chocolat et feuilles de menthe."
+      ]
+    },
+    {
+      "id": "cakesale:009",
+      "t": "Cake Salé Tomate Feta Basilic",
+      "cat": "Entrée, Cake salé",
+      "desc": "Le classique des cakes salés d'été : tomate, feta et basilic frais",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile d'olive",
+        "200 g farine",
+        "1 sachet levure",
+        "150 g feta émiettée",
+        "150 g tomates cerises",
+        "1 bouquet de basilic",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Battre oeufs, lait et huile.",
+        "Incorporer la farine et la levure. Assaisonner.",
+        "Ajouter feta émiettée, tomates cerises coupées en deux et basilic ciselé.",
+        "Verser dans un moule à cake beurré.",
+        "Cuire 45-50 min jusqu'à ce qu'un couteau ressorte propre."
+      ]
+    },
+    {
+      "id": "cakesale:010",
+      "t": "Cake Salé Courgette Chèvre Menthe",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake frais et léger aux courgettes, fromage de chèvre et menthe",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile d'olive",
+        "200 g farine",
+        "1 sachet levure",
+        "2 courgettes râpées",
+        "150 g fromage de chèvre",
+        "feuilles de menthe fraîche",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Râper les courgettes et les égoutter en pressant bien.",
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
+        "Incorporer courgettes, chèvre émietté et menthe ciselée.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:011",
+      "t": "Cake Salé Thon Olives Citron",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake méditerranéen au thon, olives vertes et zeste de citron",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile",
+        "200 g farine",
+        "1 sachet levure",
+        "1 boîte thon égoutté (200 g)",
+        "100 g olives vertes",
+        "zeste d'1 citron",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
+        "Incorporer le thon émietté, les olives coupées et le zeste de citron.",
+        "Verser en moule beurré, cuire 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:012",
+      "t": "Cake Salé Jambon Dinde Emmental Ciboulette",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake moelleux au jambon de dinde, emmental et ciboulette fraîche",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile",
+        "200 g farine",
+        "1 sachet levure",
+        "150 g jambon de dinde en dés",
+        "100 g emmental râpé",
+        "1 bouquet de ciboulette",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
+        "Incorporer jambon de dinde, emmental et ciboulette ciselée.",
+        "Verser en moule beurré, cuire 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:013",
+      "t": "Cake Salé Poivrons Grillés Mozzarella",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake coloré aux poivrons grillés et mozzarella fondante",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile d'olive",
+        "200 g farine",
+        "1 sachet levure",
+        "2 poivrons (rouge, jaune) grillés",
+        "150 g mozzarella",
+        "sel, poivre, origan"
+      ],
+      "steps": [
+        "Griller les poivrons au four, peler et couper en lanières.",
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
+        "Incorporer poivrons et mozzarella en morceaux.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:014",
+      "t": "Cake Salé Saumon Fumé Aneth",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake élégant au saumon fumé et aneth, parfait pour les repas festifs",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile",
+        "200 g farine",
+        "1 sachet levure",
+        "150 g saumon fumé en lanières",
+        "100 g fromage frais",
+        "1 bouquet d'aneth",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mélanger oeufs, lait, huile, fromage frais, farine, levure. Assaisonner.",
+        "Incorporer le saumon fumé et l'aneth ciselé.",
+        "Verser en moule beurré, cuire 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:015",
+      "t": "Cake Salé Courgette Parmesan Tomates Séchées",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake savoureux aux courgettes, parmesan et tomates séchées concentrées",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile d'olive",
+        "200 g farine",
+        "1 sachet levure",
+        "2 courgettes râpées",
+        "80 g parmesan râpé",
+        "80 g tomates séchées",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Râper les courgettes et bien les égoutter.",
+        "Mélanger oeufs, lait, huile, farine, levure, parmesan. Assaisonner.",
+        "Incorporer courgettes et tomates séchées coupées.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:016",
+      "t": "Cake Salé Poulet Rôti Maïs Poivrons",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake généreux au poulet rôti, maïs et poivrons, repas complet",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile",
+        "200 g farine",
+        "1 sachet levure",
+        "200 g poulet rôti effiloché",
+        "100 g maïs en boîte",
+        "1 poivron rouge",
+        "sel, poivre, paprika"
+      ],
+      "steps": [
+        "Couper le poivron en petits dés.",
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner avec paprika.",
+        "Incorporer poulet, maïs et poivron.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:017",
+      "t": "Cake Salé Feta Olives Noires Origan",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake grec aux saveurs méditerranéennes, feta, olives noires et origan",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile d'olive",
+        "200 g farine",
+        "1 sachet levure",
+        "150 g feta émiettée",
+        "100 g olives noires",
+        "1 c. à c. origan séché",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
+        "Incorporer feta, olives noires coupées en rondelles et origan.",
+        "Verser en moule beurré, cuire 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:018",
+      "t": "Cake Salé Carottes Fromage Frais aux Herbes",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake léger aux carottes râpées et fromage frais aux herbes",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "80 ml huile",
+        "200 g farine",
+        "1 sachet levure",
+        "2 carottes râpées",
+        "150 g fromage frais aux herbes",
+        "ciboulette, persil",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Râper les carottes.",
+        "Mélanger oeufs, lait, huile, fromage frais, farine, levure. Assaisonner.",
+        "Incorporer les carottes râpées et les herbes ciselées.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:019",
+      "t": "Cake Salé Crevettes Curry Coriandre",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake exotique aux crevettes, curry doux et coriandre fraîche",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile",
+        "200 g farine",
+        "1 sachet levure",
+        "200 g crevettes décortiquées",
+        "1 c. à c. curry doux",
+        "1 bouquet de coriandre",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Poêler rapidement les crevettes avec le curry 2 min. Laisser refroidir.",
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
+        "Incorporer crevettes et coriandre ciselée.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:020",
+      "t": "Cake Salé Épinards Ricotta Pignons",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake fondant aux épinards, ricotta crémeuse et pignons de pin grillés",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "80 ml huile",
+        "200 g farine",
+        "1 sachet levure",
+        "150 g épinards cuits et essorés",
+        "150 g ricotta",
+        "50 g pignons de pin",
+        "sel, poivre, muscade"
+      ],
+      "steps": [
+        "Faire revenir les épinards, égoutter soigneusement. Griller les pignons à sec.",
+        "Mélanger oeufs, lait, huile, ricotta, farine, levure. Assaisonner avec muscade.",
+        "Incorporer épinards et pignons.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:021",
+      "t": "Cake Salé Chèvre Miel Noix",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake raffiné alliance chèvre, miel et noix croquantes",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "80 ml huile",
+        "200 g farine",
+        "1 sachet levure",
+        "150 g fromage de chèvre",
+        "2 c. à s. miel",
+        "80 g cerneaux de noix",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mélanger oeufs, lait, huile, miel, farine, levure. Assaisonner.",
+        "Incorporer le chèvre émietté et les noix grossièrement concassées.",
+        "Verser en moule beurré.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:022",
+      "t": "Cake Salé Thon Tomates Séchées Câpres",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake méditerranéen intense au thon, tomates séchées et câpres",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile d'olive",
+        "200 g farine",
+        "1 sachet levure",
+        "1 boîte thon égoutté (200 g)",
+        "80 g tomates séchées",
+        "2 c. à s. câpres",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
+        "Incorporer thon émietté, tomates séchées et câpres.",
+        "Verser en moule beurré, cuire 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:023",
+      "t": "Cake Salé Poireaux Lardons Comté",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake rustique et gourmand aux poireaux, lardons de dinde et comté",
+      "min": 65,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "80 ml huile",
+        "200 g farine",
+        "1 sachet levure",
+        "2 poireaux",
+        "100 g lardons de dinde",
+        "100 g comté râpé",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire revenir les poireaux émincés et les lardons 5 min. Laisser refroidir.",
+        "Mélanger oeufs, lait, huile, farine, levure, comté. Assaisonner.",
+        "Incorporer le mélange poireaux-lardons.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:024",
+      "t": "Cake Salé Aubergines Grillées Mozzarella",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake estival aux aubergines grillées et mozzarella fondante",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile d'olive",
+        "200 g farine",
+        "1 sachet levure",
+        "2 aubergines",
+        "150 g mozzarella",
+        "basilic frais",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Griller les aubergines en tranches à la poêle ou au four. Laisser refroidir.",
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
+        "Incorporer aubergines coupées, mozzarella et basilic.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:025",
+      "t": "Cake Salé Brocoli Cheddar Tournesol",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake nutritif au brocoli, cheddar fondant et graines de tournesol",
+      "min": 65,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "80 ml huile",
+        "200 g farine",
+        "1 sachet levure",
+        "200 g brocoli en petits bouquets",
+        "100 g cheddar râpé",
+        "2 c. à s. graines de tournesol",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Blanchir le brocoli 3 min à l'eau bouillante. Égoutter.",
+        "Mélanger oeufs, lait, huile, farine, levure, cheddar. Assaisonner.",
+        "Incorporer le brocoli et les graines de tournesol.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:026",
+      "t": "Cake Salé Poulet Olives Tomates Confites",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake méditerranéen au poulet, olives et tomates confites sucrées-salées",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile d'olive",
+        "200 g farine",
+        "1 sachet levure",
+        "200 g poulet cuit en dés",
+        "80 g olives noires",
+        "80 g tomates confites",
+        "herbes de Provence, sel, poivre"
+      ],
+      "steps": [
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner avec herbes de Provence.",
+        "Incorporer poulet, olives coupées et tomates confites.",
+        "Verser en moule beurré, cuire 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:027",
+      "t": "Cake Salé Feta Courgettes Menthe",
+      "cat": "Entrée, Cake salé",
+      "desc": "Cake frais et léger à la feta, courgettes et menthe fraîche d'été",
+      "min": 60,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile d'olive",
+        "200 g farine",
+        "1 sachet levure",
+        "150 g feta émiettée",
+        "2 courgettes râpées",
+        "feuilles de menthe fraîche",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Râper les courgettes et bien les égoutter.",
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
+        "Incorporer feta, courgettes et menthe ciselée.",
+        "Cuire au four 180°C 45-50 min."
+      ]
+    },
+    {
+      "id": "cakesale:028",
+      "t": "Cake Salé Méditerranéen Légumes du Soleil",
+      "cat": "Entrée, Cake salé",
+      "desc": "Grand cake estival aux légumes du soleil : courgettes, aubergines, poivrons et tomates",
+      "min": 75,
+      "serv": 8,
+      "ing": [
+        "3 oeufs",
+        "150 ml lait",
+        "100 ml huile d'olive",
+        "200 g farine",
+        "1 sachet levure",
+        "1 courgette",
+        "1 aubergine",
+        "1 poivron rouge",
+        "2 tomates",
+        "herbes de Provence, sel, poivre"
+      ],
+      "steps": [
+        "Couper tous les légumes en petits dés. Faire revenir à la poêle 10 min. Laisser refroidir.",
+        "Mélanger oeufs, lait, huile, farine, levure. Assaisonner avec herbes de Provence.",
+        "Incorporer les légumes poêlés.",
+        "Cuire au four 180°C 50-55 min."
+      ]
+    },
+    {
+      "id": "oeuf:001",
+      "t": "Oeufs Brouillés Crémeux Maison",
+      "cat": "Préparation Oeuf",
+      "desc": "Oeufs brouillés soyeux et crémeux, cuits à feu doux avec beurre et crème fraîche",
+      "min": 10,
+      "serv": 2,
+      "ing": [
+        "4 oeufs",
+        "20 g beurre",
+        "2 c. à s. crème fraîche",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Casser les oeufs dans une casserole froide avec le beurre. Assaisonner.",
+        "Cuire à feu très doux en remuant constamment avec une spatule.",
+        "Retirer du feu dès que les oeufs commencent à prendre – ils continueront à cuire.",
+        "Incorporer la crème fraîche hors du feu pour stopper la cuisson. Servir immédiatement."
+      ]
+    },
+    {
+      "id": "oeuf:002",
+      "t": "Salade d'Oeufs Fraîcheur",
+      "cat": "Préparation Oeuf",
+      "desc": "Salade d'œufs durs crémeuse à la mayonnaise, moutarde et ciboulette",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "6 oeufs durs",
+        "3 c. à s. mayonnaise",
+        "1 c. à c. moutarde",
+        "1 bouquet de ciboulette",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire cuire les oeufs 10 min à l'eau bouillante. Refroidir et écaler.",
+        "Couper les oeufs en morceaux.",
+        "Mélanger avec mayonnaise, moutarde, sel et poivre.",
+        "Parsemer de ciboulette ciselée. Servir frais."
+      ]
+    },
+    {
+      "id": "oeuf:003",
+      "t": "Toast Avocat et Oeuf Poché",
+      "cat": "Préparation Oeuf",
+      "desc": "Toast croustillant surmonté d'avocat écrasé et d'un oeuf poché parfait",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "2 tranches pain complet",
+        "1 avocat mûr",
+        "2 oeufs",
+        "1 citron",
+        "sel, poivre",
+        "fleur de sel"
+      ],
+      "steps": [
+        "Toaster les tranches de pain. Écraser l'avocat avec le jus de citron, sel, poivre.",
+        "Porter de l'eau frémissante à ébullition avec un trait de vinaigre blanc.",
+        "Casser chaque oeuf dans un ramequin, créer un tourbillon dans l'eau et y glisser l'oeuf 3 min.",
+        "Étaler l'avocat sur les toasts, déposer l'oeuf poché et terminer avec fleur de sel."
+      ]
+    },
+    {
+      "id": "oeuf:004",
+      "t": "Oeufs Bénédicte Gourmands",
+      "cat": "Préparation Oeuf",
+      "desc": "La grande classique du brunch : oeufs pochés sur muffin anglais avec sauce hollandaise",
+      "min": 25,
+      "serv": 2,
+      "ing": [
+        "4 oeufs",
+        "2 muffins anglais",
+        "4 tranches jambon",
+        "sauce hollandaise prête",
+        "ciboulette",
+        "sel"
+      ],
+      "steps": [
+        "Toaster les muffins anglais coupés en deux.",
+        "Pocher les oeufs 3 min dans de l'eau frémissante vinaigrée.",
+        "Disposer le jambon sur chaque moitié de muffin.",
+        "Poser un oeuf poché, napper de sauce hollandaise et garnir de ciboulette."
+      ]
+    },
+    {
+      "id": "oeuf:005",
+      "t": "Frittata Méditerranéenne Facile",
+      "cat": "Préparation Oeuf",
+      "desc": "Frittata italienne aux tomates cerises, épinards, basilic et feta",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 oeufs",
+        "150 g tomates cerises",
+        "100 g épinards frais",
+        "100 g feta émiettée",
+        "basilic frais",
+        "2 c. à s. huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Faire revenir les épinards et tomates cerises dans une poêle allant au four avec l'huile d'olive.",
+        "Battre les oeufs, assaisonner, verser dans la poêle. Parsemer de feta et basilic.",
+        "Cuire 3 min sur feu moyen puis enfourner 10-12 min jusqu'à prise complète."
+      ]
+    },
+    {
+      "id": "oeuf:006",
+      "t": "Oeufs Mollets Parfaits",
+      "cat": "Préparation Oeuf",
+      "desc": "Oeufs mollets au jaune coulant, technique infaillible pour une cuisson parfaite",
+      "min": 10,
+      "serv": 2,
+      "ing": [
+        "4 oeufs",
+        "eau",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Porter une casserole d'eau à ébullition.",
+        "Plonger les oeufs délicatement avec une cuillère. Cuire exactement 6 minutes.",
+        "Transfert immédiat dans un bain d'eau froide 2 min pour stopper la cuisson.",
+        "Écaler délicatement. Le blanc est pris, le jaune doit être fondant. Assaisonner."
+      ]
+    },
+    {
+      "id": "oeuf:007",
+      "t": "Oeufs à la Florentine",
+      "cat": "Préparation Oeuf",
+      "desc": "Oeufs pochés sur lit d'épinards crémeux et parmesan, recette franco-italienne",
+      "min": 25,
+      "serv": 2,
+      "ing": [
+        "4 oeufs",
+        "300 g épinards frais",
+        "2 c. à s. crème fraîche",
+        "30 g parmesan râpé",
+        "1 gousse d'ail",
+        "beurre",
+        "sel, poivre, muscade"
+      ],
+      "steps": [
+        "Faire revenir les épinards à l'ail dans le beurre 3 min. Ajouter crème, muscade, sel, poivre.",
+        "Pocher les oeufs 3 min dans eau frémissante vinaigrée.",
+        "Disposer les épinards crémeux dans des assiettes.",
+        "Déposer les oeufs pochés, parsemer de parmesan. Servir chaud."
+      ]
+    },
+    {
+      "id": "oeuf:008",
+      "t": "Oeufs au Plat Croustillants",
+      "cat": "Préparation Oeuf",
+      "desc": "Oeufs au plat avec blanc croustillant et jaune coulant, cuits à l'huile d'olive chaude",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "4 oeufs",
+        "3 c. à s. huile d'olive",
+        "sel, poivre",
+        "fleur de sel"
+      ],
+      "steps": [
+        "Chauffer l'huile d'olive à feu moyen-vif dans une poêle.",
+        "Casser les oeufs délicatement dans la poêle.",
+        "Cuire 2-3 min jusqu'à ce que les bords du blanc soient dorés et croustillants.",
+        "Le jaune doit rester coulant. Assaisonner de fleur de sel et poivre."
+      ]
+    },
+    {
+      "id": "oeuf:009",
+      "t": "Oeufs Mimosa Classiques",
+      "cat": "Préparation Oeuf",
+      "desc": "Oeufs mimosa traditionnels farcis mayonnaise-moutarde, parfaits pour les buffets",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 oeufs durs",
+        "3 c. à s. mayonnaise",
+        "1 c. à c. moutarde",
+        "persil frais ciselé",
+        "sel, poivre",
+        "paprika (facultatif)"
+      ],
+      "steps": [
+        "Cuire les oeufs durs 10 min. Refroidir et écaler.",
+        "Couper en deux dans la longueur, extraire les jaunes.",
+        "Écraser les jaunes avec mayonnaise, moutarde, sel, poivre.",
+        "Garnir les blancs avec la farce (poche à douille pour un beau rendu). Décorer de persil et paprika."
+      ]
+    },
+    {
+      "id": "oeuf:010",
+      "t": "Mini Muffins aux Oeufs",
+      "cat": "Préparation Oeuf",
+      "desc": "Mini muffins salés aux oeufs et légumes, idéaux pour un brunch ou pique-nique",
+      "min": 30,
+      "serv": 6,
+      "ing": [
+        "6 oeufs",
+        "légumes variés (poivron, courgette, tomate)",
+        "80 g fromage râpé",
+        "4 c. à s. lait",
+        "sel, poivre",
+        "herbes de Provence"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Beurrer un moule à muffins.",
+        "Couper les légumes en petits dés. Battre les oeufs avec le lait, sel, poivre.",
+        "Répartir les légumes dans les moules, verser l'appareil à oeufs dessus.",
+        "Parsemer de fromage. Cuire 20-25 min jusqu'à dorure."
+      ]
+    },
+    {
+      "id": "oeuf:011",
+      "t": "Omelette Espagnole Traditionnelle",
+      "cat": "Préparation Oeuf",
+      "desc": "La tortilla española authentique : oeufs, pommes de terre et oignon, épaisse et moelleuse",
+      "min": 40,
+      "serv": 4,
+      "ing": [
+        "6 oeufs",
+        "4 pommes de terre",
+        "1 oignon",
+        "150 ml huile d'olive",
+        "sel"
+      ],
+      "steps": [
+        "Éplucher et couper les pommes de terre et l'oignon en fines tranches.",
+        "Cuire à feu doux dans l'huile d'olive 20 min jusqu'à tendreté. Égoutter.",
+        "Battre les oeufs avec sel, incorporer les pommes de terre et oignon.",
+        "Cuire dans une poêle huilée à feu moyen 5 min, retourner avec une assiette et cuire l'autre face 3-5 min."
+      ]
+    },
+    {
+      "id": "oeuf:012",
+      "t": "Shakshuka Tomate Épicée",
+      "cat": "Préparation Oeuf",
+      "desc": "Oeufs pochés dans une sauce tomate épicée aux poivrons, recette du Moyen-Orient",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "6 oeufs",
+        "400 g tomates concassées",
+        "2 poivrons rouges",
+        "1 oignon",
+        "2 gousses d'ail",
+        "1 c. à c. cumin",
+        "1 c. à c. paprika",
+        "huile d'olive",
+        "sel, poivre",
+        "persil ou coriandre"
+      ],
+      "steps": [
+        "Faire revenir oignon et poivrons émincés 5 min dans l'huile d'olive.",
+        "Ajouter ail, cumin, paprika, tomates concassées. Mijoter 15 min.",
+        "Creuser des puits dans la sauce, y casser les oeufs délicatement.",
+        "Couvrir et cuire 8-10 min jusqu'à ce que les blancs soient pris. Parsemer d'herbes fraîches."
+      ]
+    },
+    {
+      "id": "mocktail:001",
+      "t": "Mojito Sans Alcool",
+      "cat": "Cocktail sans alcool",
+      "desc": "Le classique mojito revisité sans alcool, aussi frais et parfumé",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "menthe fraîche",
+        "2 citrons verts",
+        "2 c. à c. sucre de canne",
+        "250 ml eau gazeuse",
+        "glaçons"
+      ],
+      "steps": [
+        "Écraser la menthe et le sucre dans un verre avec un pilon.",
+        "Presser les citrons verts, ajouter le jus.",
+        "Remplir de glaçons, compléter avec l'eau gazeuse.",
+        "Mélanger délicatement. Garnir de feuilles de menthe et citron vert."
+      ]
+    },
+    {
+      "id": "mocktail:002",
+      "t": "Virgin Piña Colada",
+      "cat": "Cocktail sans alcool",
+      "desc": "Piña Colada sans alcool crémeuse ananas et coco, exotique et gourmande",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "200 ml jus d'ananas",
+        "100 ml lait de coco",
+        "50 ml crème de coco",
+        "glaçons",
+        "ananas frais pour décorer"
+      ],
+      "steps": [
+        "Mettre jus d'ananas, lait de coco, crème de coco et glaçons dans un blender.",
+        "Mixer jusqu'à obtenir une texture crémeuse et homogène.",
+        "Verser dans des grands verres.",
+        "Décorer d'ananas frais et d'une paille."
+      ]
+    },
+    {
+      "id": "mocktail:003",
+      "t": "Mocktail Fraise Citron",
+      "cat": "Cocktail sans alcool",
+      "desc": "Mocktail rouge vif fraises fraîches, sirop de fraise et citron pétillant",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "200 g fraises fraîches",
+        "jus d'1 citron",
+        "2 c. à s. sirop de fraise",
+        "150 ml eau pétillante",
+        "glaçons"
+      ],
+      "steps": [
+        "Écraser les fraises ou les mixer et filtrer.",
+        "Mélanger jus de fraise, jus de citron et sirop de fraise.",
+        "Verser sur glaçons et ajouter l'eau pétillante.",
+        "Garnir d'une fraise fraîche sur le bord du verre."
+      ]
+    },
+    {
+      "id": "mocktail:004",
+      "t": "Mocktail Orange Gingembre",
+      "cat": "Cocktail sans alcool",
+      "desc": "Mocktail revigorant orange fraîche et gingembre, légèrement épicé et pétillant",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "200 ml jus d'orange frais",
+        "2 cm gingembre frais",
+        "1 c. à s. miel",
+        "150 ml eau pétillante",
+        "glaçons"
+      ],
+      "steps": [
+        "Râper le gingembre et en extraire le jus (ou presser directement).",
+        "Mélanger jus d'orange, jus de gingembre et miel.",
+        "Verser sur des glaçons et compléter avec l'eau pétillante.",
+        "Garnir d'une rondelle d'orange et d'un morceau de gingembre."
+      ]
+    },
+    {
+      "id": "mocktail:005",
+      "t": "Mocktail Pastèque Menthe",
+      "cat": "Cocktail sans alcool",
+      "desc": "Mocktail estival et désaltérant à la pastèque mixée et menthe fraîche",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "400 g pastèque épépinée",
+        "jus d'1 citron vert",
+        "2 c. à c. sirop de sucre",
+        "menthe fraîche",
+        "glaçons"
+      ],
+      "steps": [
+        "Mixer la pastèque et filtrer le jus.",
+        "Mélanger avec jus de citron vert et sirop de sucre.",
+        "Verser sur des glaçons avec feuilles de menthe.",
+        "Décorer de menthe fraîche et d'un cube de pastèque."
+      ]
+    },
+    {
+      "id": "mocktail:006",
+      "t": "Virgin Sunrise",
+      "cat": "Cocktail sans alcool",
+      "desc": "Virgin Sunrise coloré orange-grenadine, spectaculaire sans alcool",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "150 ml jus d'orange",
+        "100 ml jus d'ananas",
+        "2 c. à s. sirop de grenadine",
+        "glaçons",
+        "rondelle d'orange pour décorer"
+      ],
+      "steps": [
+        "Remplir les verres de glaçons.",
+        "Verser le jus d'orange et le jus d'ananas mélangés.",
+        "Verser délicatement le sirop de grenadine sur le bord – il descend naturellement créant un dégradé.",
+        "Ne pas mélanger. Garnir d'une rondelle d'orange."
+      ]
+    },
+    {
+      "id": "mocktail:007",
+      "t": "Mocktail Kiwi Citron Vert",
+      "cat": "Cocktail sans alcool",
+      "desc": "Mocktail vert vibrant au kiwi et citron vert, frais et pétillant",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "4 kiwis",
+        "jus d'1 citron vert",
+        "2 c. à c. sirop de sucre",
+        "150 ml eau pétillante",
+        "glaçons"
+      ],
+      "steps": [
+        "Éplucher et mixer les kiwis. Filtrer le jus.",
+        "Mélanger jus de kiwi, jus de citron vert et sirop de sucre.",
+        "Verser sur des glaçons et compléter avec l'eau pétillante.",
+        "Garnir d'une rondelle de kiwi et citron vert."
+      ]
+    },
+    {
+      "id": "mocktail:008",
+      "t": "Mocktail Fruits Rouges",
+      "cat": "Cocktail sans alcool",
+      "desc": "Mocktail rubis aux framboises, myrtilles et fraises, pétillant et fruité",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "150 g fruits rouges (framboises, myrtilles, fraises)",
+        "jus d'1 citron",
+        "2 c. à c. sirop de sucre",
+        "150 ml eau pétillante",
+        "glaçons"
+      ],
+      "steps": [
+        "Écraser les fruits rouges et filtrer pour obtenir le jus.",
+        "Mélanger jus de fruits, citron et sirop de sucre.",
+        "Verser sur glaçons et compléter avec l'eau pétillante.",
+        "Garnir de fruits rouges frais."
+      ]
+    },
+    {
+      "id": "mocktail:009",
+      "t": "Citronnade Concombre Menthe",
+      "cat": "Cocktail sans alcool",
+      "desc": "Citronnade fraîche et désaltérante au concombre et menthe, parfaite pour l'été",
+      "min": 10,
+      "serv": 4,
+      "ing": [
+        "3 citrons",
+        "1 concombre",
+        "menthe fraîche",
+        "3 c. à s. sirop de sucre",
+        "1 litre eau fraîche",
+        "glaçons"
+      ],
+      "steps": [
+        "Presser les citrons. Trancher le concombre finement.",
+        "Mélanger jus de citron, sirop de sucre et eau fraîche.",
+        "Ajouter le concombre et les feuilles de menthe.",
+        "Verser sur glaçons. Laisser infuser 10 min au frais avant de servir."
+      ]
+    },
+    {
+      "id": "mocktail:010",
+      "t": "Mocktail Mangue Passion",
+      "cat": "Cocktail sans alcool",
+      "desc": "Mocktail tropical mangue et fruit de la passion, exotique et ensoleillé",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "1 mangue mûre",
+        "2 fruits de la passion",
+        "jus d'1 citron vert",
+        "2 c. à c. sirop de sucre",
+        "glaçons"
+      ],
+      "steps": [
+        "Mixer la mangue en dés et filtrer le jus.",
+        "Extraire la pulpe des fruits de la passion.",
+        "Mélanger jus de mangue, passion, citron vert et sirop de sucre.",
+        "Verser sur des glaçons. Garnir de pulpe de passion."
+      ]
+    },
+    {
+      "id": "mocktail:011",
+      "t": "Mocktail Pomme Verte Basilic",
+      "cat": "Cocktail sans alcool",
+      "desc": "Mocktail original et raffiné à la pomme verte et basilic frais, pétillant",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "2 pommes vertes",
+        "jus d'1 citron",
+        "quelques feuilles de basilic frais",
+        "2 c. à c. sirop de sucre",
+        "150 ml eau pétillante",
+        "glaçons"
+      ],
+      "steps": [
+        "Mixer les pommes vertes et filtrer le jus (ou utiliser un extracteur).",
+        "Ajouter jus de citron, basilic ciselé et sirop de sucre. Mélanger.",
+        "Verser sur des glaçons et compléter avec l'eau pétillante.",
+        "Garnir d'une tranche de pomme et de basilic."
+      ]
+    },
+    {
+      "id": "mocktail:012",
+      "t": "Mocktail Coco Ananas",
+      "cat": "Cocktail sans alcool",
+      "desc": "Mocktail crémeux eau de coco et ananas, tropical et désaltérant",
+      "min": 5,
+      "serv": 2,
+      "ing": [
+        "200 ml eau de coco",
+        "150 ml jus d'ananas",
+        "50 ml crème de coco",
+        "glaçons",
+        "ananas frais pour décorer"
+      ],
+      "steps": [
+        "Mélanger eau de coco, jus d'ananas et crème de coco.",
+        "Verser sur des glaçons dans de grands verres.",
+        "Décorer d'un morceau d'ananas frais et d'une paille.",
+        "Servir immédiatement bien frais."
+      ]
+    },
+    {
+      "id": "panini:001",
+      "t": "Panini Jambon Fromage Coulant",
+      "cat": "Panini",
+      "desc": "Le classique des paninis : jambon et fromage raclette fondant entre deux pains grillés",
+      "min": 10,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "4 tranches jambon",
+        "100 g fromage raclette en tranches",
+        "beurre"
+      ],
+      "steps": [
+        "Beurrer légèrement les pains panini.",
+        "Garnir de jambon et de tranches de raclette.",
+        "Appuyer dans un grill panini préchauffé 4-5 min jusqu'à dorure et fromage fondant.",
+        "Servir immédiatement bien chaud."
+      ]
+    },
+    {
+      "id": "panini:002",
+      "t": "Panini Poulet Mozzarella Pesto",
+      "cat": "Panini",
+      "desc": "Panini italien au poulet grillé, mozzarella fondante, pesto et tomates",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "200 g poulet grillé en lamelles",
+        "100 g mozzarella",
+        "2 c. à s. pesto",
+        "2 tomates en rondelles"
+      ],
+      "steps": [
+        "Tartiner l'intérieur des pains de pesto.",
+        "Garnir de poulet, mozzarella et rondelles de tomates.",
+        "Griller au panini 4-5 min jusqu'à ce que la mozzarella fonde.",
+        "Servir aussitôt."
+      ]
+    },
+    {
+      "id": "panini:003",
+      "t": "Panini Steak Cheddar BBQ",
+      "cat": "Panini",
+      "desc": "Panini généreux steak haché, cheddar fondu et sauce barbecue avec oignons caramélisés",
+      "min": 20,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "200 g steak haché",
+        "80 g cheddar",
+        "3 c. à s. sauce barbecue",
+        "1 oignon caramélisé"
+      ],
+      "steps": [
+        "Cuire le steak haché à la poêle. Assaisonner.",
+        "Caraméliser l'oignon émincé 10 min à feu doux.",
+        "Garnir les pains de steak, cheddar, oignons et sauce barbecue.",
+        "Griller au panini 4-5 min."
+      ]
+    },
+    {
+      "id": "panini:004",
+      "t": "Panini Thon Fromage",
+      "cat": "Panini",
+      "desc": "Panini fondant thon, fromage râpé et mayonnaise citronnée",
+      "min": 10,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "1 boîte thon égoutté",
+        "80 g fromage râpé",
+        "2 c. à s. mayonnaise",
+        "jus d'1/2 citron"
+      ],
+      "steps": [
+        "Mélanger le thon émietté avec la mayonnaise et le jus de citron.",
+        "Garnir les pains de ce mélange et parsemer de fromage râpé.",
+        "Griller au panini 4-5 min jusqu'à dorure.",
+        "Servir chaud."
+      ]
+    },
+    {
+      "id": "panini:005",
+      "t": "Panini 4 Fromages",
+      "cat": "Panini",
+      "desc": "Panini ultra fromager : mozzarella, gorgonzola, emmental et parmesan",
+      "min": 10,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "50 g mozzarella",
+        "50 g gorgonzola",
+        "50 g emmental",
+        "30 g parmesan râpé"
+      ],
+      "steps": [
+        "Répartir les 4 fromages à l'intérieur des pains panini.",
+        "Fermer et griller 4-5 min au panini jusqu'à ce que tous les fromages soient bien fondus.",
+        "Servir immédiatement."
+      ]
+    },
+    {
+      "id": "panini:006",
+      "t": "Panini Poulet Curry",
+      "cat": "Panini",
+      "desc": "Panini exotique au poulet mariné au curry avec fromage fondant et oignons",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "200 g poulet cuit en lamelles",
+        "1 c. à s. sauce curry",
+        "80 g fromage râpé",
+        "1 oignon émincé"
+      ],
+      "steps": [
+        "Faire revenir le poulet avec la sauce curry 2 min.",
+        "Faire suer l'oignon émincé 3 min.",
+        "Garnir les pains de poulet au curry, oignon et fromage.",
+        "Griller au panini 4-5 min."
+      ]
+    },
+    {
+      "id": "panini:007",
+      "t": "Panini Végétarien Grillés",
+      "cat": "Panini",
+      "desc": "Panini végétarien savoureux aux légumes grillés et fromage de chèvre",
+      "min": 20,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "1 aubergine",
+        "1 courgette",
+        "1 poivron",
+        "80 g fromage de chèvre",
+        "huile d'olive",
+        "herbes de Provence"
+      ],
+      "steps": [
+        "Couper les légumes en tranches. Griller à la poêle avec huile d'olive et herbes.",
+        "Répartir les légumes grillés et le chèvre dans les pains.",
+        "Griller au panini 4-5 min.",
+        "Servir chaud."
+      ]
+    },
+    {
+      "id": "panini:008",
+      "t": "Panini Saumon Fromage Frais",
+      "cat": "Panini",
+      "desc": "Panini élégant au saumon fumé, fromage frais crémeux, citron et aneth",
+      "min": 10,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "150 g saumon fumé",
+        "100 g fromage frais",
+        "1/2 citron",
+        "aneth frais"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec le jus de citron et l'aneth ciselé.",
+        "Étaler ce mélange sur les pains.",
+        "Ajouter les tranches de saumon fumé.",
+        "Griller légèrement 2-3 min (le saumon ne doit pas trop cuire). Servir."
+      ]
+    },
+    {
+      "id": "panini:009",
+      "t": "Panini Poulet Avocat",
+      "cat": "Panini",
+      "desc": "Panini frais et gourmand au poulet, avocat crémeux, tomates et sauce yaourt",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "150 g poulet cuit en lamelles",
+        "1 avocat mûr",
+        "2 tomates en rondelles",
+        "3 c. à s. sauce yaourt",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Écraser l'avocat avec sel et poivre. Tartiner sur les pains.",
+        "Ajouter le poulet, les tomates et la sauce yaourt.",
+        "Griller au panini 4-5 min jusqu'à dorure.",
+        "Servir immédiatement."
+      ]
+    },
+    {
+      "id": "panini:010",
+      "t": "Panini Dinde Moutarde",
+      "cat": "Panini",
+      "desc": "Panini simple et efficace dinde, fromage, moutarde et salade fraîche",
+      "min": 10,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "150 g tranches de dinde",
+        "80 g fromage en tranches",
+        "1 c. à s. moutarde",
+        "salade verte"
+      ],
+      "steps": [
+        "Tartiner les pains de moutarde.",
+        "Garnir de tranches de dinde, fromage et salade.",
+        "Griller au panini 4-5 min.",
+        "Servir avec les feuilles de salade fraîches qui restent croquantes."
+      ]
+    },
+    {
+      "id": "panini:011",
+      "t": "Panini Nutella Banane",
+      "cat": "Panini",
+      "desc": "Panini sucré gourmand au Nutella et banane, fondant et réconfortant",
+      "min": 8,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "4 c. à s. Nutella",
+        "2 bananes en rondelles"
+      ],
+      "steps": [
+        "Tartiner généreusement les pains de Nutella.",
+        "Disposer les rondelles de banane.",
+        "Fermer et griller au panini 3-4 min jusqu'à légère dorure.",
+        "Servir chaud, le Nutella bien fondant."
+      ]
+    },
+    {
+      "id": "panini:012",
+      "t": "Panini Poulet BBQ",
+      "cat": "Panini",
+      "desc": "Panini américain au poulet, sauce BBQ fumée, cheddar fondu et oignons",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "2 pains panini",
+        "200 g poulet cuit en lamelles",
+        "3 c. à s. sauce BBQ",
+        "80 g cheddar",
+        "1 oignon émincé"
+      ],
+      "steps": [
+        "Mélanger le poulet avec la sauce BBQ.",
+        "Faire suer l'oignon 3 min.",
+        "Garnir les pains de poulet BBQ, oignons et cheddar.",
+        "Griller au panini 4-5 min jusqu'à ce que le cheddar fonde."
+      ]
+    },
+    {
+      "id": "samoussa:001",
+      "t": "Samoussas Chorizo Fromage",
+      "cat": "Samoussa",
+      "desc": "Samoussas croustillants et fondants au chorizo et fromage râpé",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 feuilles de brick",
+        "80 g chorizo en dés",
+        "100 g fromage râpé",
+        "1 c. à s. crème fraîche",
+        "poivre"
+      ],
+      "steps": [
+        "Mélanger chorizo, fromage râpé et crème fraîche. Poivrer.",
+        "Couper les feuilles de brick en deux. Déposer une cuillère de farce à la base.",
+        "Plier en triangle en rabattant les bords. Coller avec un peu d'eau.",
+        "Badigeonner d'huile et cuire au four 180°C 15-20 min jusqu'à dorure."
+      ]
+    },
+    {
+      "id": "samoussa:002",
+      "t": "Samoussas Poulet BBQ",
+      "cat": "Samoussa",
+      "desc": "Samoussas croustillants garnis de poulet émincé et sauce barbecue",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "4 feuilles de brick",
+        "200 g poulet cuit émincé",
+        "2 c. à s. sauce barbecue",
+        "1 oignon",
+        "1 c. à s. huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Faire revenir l'oignon dans l'huile 3 min. Ajouter le poulet et la sauce BBQ.",
+        "Laisser refroidir. Former les samoussas en triangle avec les feuilles de brick.",
+        "Badigeonner d'huile d'olive ou beurre fondu.",
+        "Cuire au four 180°C 15-20 min jusqu'à dorure et croustillant."
+      ]
+    },
+    {
+      "id": "samoussa:003",
+      "t": "Samoussas Aubergine Parmesan",
+      "cat": "Samoussa",
+      "desc": "Samoussas végétariens à l'aubergine fondante et parmesan gratiné",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "4 feuilles de brick",
+        "1 aubergine",
+        "60 g parmesan râpé",
+        "1 c. à s. huile d'olive",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Couper l'aubergine en petits dés, faire revenir dans l'huile 8 min jusqu'à fondant.",
+        "Mélanger avec parmesan, sel et poivre. Laisser refroidir.",
+        "Former les samoussas en triangle avec les feuilles de brick.",
+        "Cuire au four 180°C 15-20 min."
+      ]
+    },
+    {
+      "id": "samoussa:004",
+      "t": "Samoussas Boeuf Oignons Fondants",
+      "cat": "Samoussa",
+      "desc": "Samoussas généreux bœuf haché et oignons caramélisés au paprika",
+      "min": 35,
+      "serv": 4,
+      "ing": [
+        "4 feuilles de brick",
+        "200 g boeuf haché",
+        "2 oignons",
+        "10 g beurre",
+        "1 c. à c. paprika",
+        "sel, poivre"
+      ],
+      "steps": [
+        "Caraméliser les oignons dans le beurre 10 min à feu doux.",
+        "Ajouter le bœuf haché, le paprika, sel et poivre. Cuire 8 min. Laisser refroidir.",
+        "Former les samoussas en triangle avec les feuilles de brick.",
+        "Badigeonner d'huile et cuire au four 180°C 20 min."
+      ]
+    },
+    {
+      "id": "samoussa:005",
+      "t": "Samoussas Fromage Pesto",
+      "cat": "Samoussa",
+      "desc": "Samoussas végétariens fondants mozzarella, pesto et parmesan",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "4 feuilles de brick",
+        "100 g mozzarella en dés",
+        "1 c. à s. pesto",
+        "2 c. à s. crème fraîche",
+        "40 g parmesan râpé",
+        "poivre"
+      ],
+      "steps": [
+        "Mélanger mozzarella, pesto, crème fraîche et parmesan. Poivrer.",
+        "Former les samoussas en triangle avec les feuilles de brick.",
+        "Badigeonner d'huile d'olive.",
+        "Cuire au four 180°C 15 min jusqu'à dorure."
+      ]
+    },
+    {
+      "id": "samoussa:006",
+      "t": "Samoussas Poire Chocolat",
+      "cat": "Samoussa",
+      "desc": "Samoussas sucrés poire fondante et chocolat noir, dessert croustillant",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "4 feuilles de brick",
+        "1 poire",
+        "80 g chocolat noir",
+        "1 c. à c. sucre glace",
+        "beurre fondu"
+      ],
+      "steps": [
+        "Éplucher et couper la poire en petits dés. Casser le chocolat en morceaux.",
+        "Mélanger poire et chocolat. Répartir sur les feuilles de brick.",
+        "Former les samoussas en triangle, badigeonner de beurre fondu.",
+        "Cuire au four 180°C 15 min. Saupoudrer de sucre glace."
+      ]
+    },
+    {
+      "id": "samoussa:007",
+      "t": "Samoussas Thon Fromage Frais",
+      "cat": "Samoussa",
+      "desc": "Samoussas frais et légers au thon, fromage frais crémeux et ciboulette",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 feuilles de brick",
+        "1 boîte thon égoutté",
+        "100 g fromage frais",
+        "1 c. à s. jus de citron",
+        "ciboulette ciselée",
+        "poivre"
+      ],
+      "steps": [
+        "Mélanger thon émietté, fromage frais, jus de citron, ciboulette et poivre.",
+        "Former les samoussas en triangle avec les feuilles de brick.",
+        "Badigeonner d'huile d'olive.",
+        "Cuire au four 180°C 15-20 min jusqu'à légère dorure."
+      ]
+    },
+    {
+      "id": "samoussa:008",
+      "t": "Samoussas Épinards Feta",
+      "cat": "Samoussa",
+      "desc": "Samoussas grecs aux épinards fondants, feta et ail, façon spanakopita",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "4 feuilles de brick",
+        "200 g épinards frais",
+        "100 g feta émiettée",
+        "1 gousse d'ail",
+        "1 c. à s. huile d'olive",
+        "poivre"
+      ],
+      "steps": [
+        "Faire revenir l'ail et les épinards dans l'huile 3-4 min. Égoutter soigneusement.",
+        "Mélanger avec la feta émiettée et poivrer. Laisser refroidir.",
+        "Former les samoussas en triangle avec les feuilles de brick.",
+        "Badigeonner d'huile et cuire au four 180°C 20 min jusqu'à dorure."
+      ]
+    },
+    {
+      "id": "cookie:kinder01",
+      "t": "Cookies Kinder Bueno Fondants",
+      "cat": "Dessert",
+      "desc": "Cookies ultra fondants au Kinder Bueno, croustillants dehors et coulants dedans",
+      "min": 25,
+      "serv": 15,
+      "ing": [
+        "150 g beurre mou",
+        "100 g cassonade",
+        "80 g sucre",
+        "1 oeuf",
+        "300 g farine",
+        "1 pincée bicarbonate de soude",
+        "1 pincée de sel",
+        "300 g Kinder Bueno coupés en morceaux",
+        "quelques morceaux Kinder Bueno pour décorer"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C. Fouetter le beurre mou avec la cassonade et le sucre jusqu'à texture crémeuse.",
+        "Ajouter l'oeuf et mélanger.",
+        "Incorporer la farine, le bicarbonate et le sel.",
+        "Ajouter les morceaux de Kinder Bueno et mélanger délicatement.",
+        "Former 15 grosses boules de pâte sur une plaque recouverte de papier cuisson.",
+        "Déposer quelques morceaux de Kinder Bueno sur le dessus de chaque cookie.",
+        "Enfourner 10 à 12 min – les bords doivent être dorés mais le centre encore mou.",
+        "Laisser refroidir quelques minutes avant de déguster : le coeur est encore fondant."
+      ]
     }
   ]
 }
