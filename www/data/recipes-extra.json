@@ -15793,6 +15793,37 @@
         "Former des boules de pâte d'environ 80 g.",
         "Cuire dans un gaufrier bien chaud 3 à 5 min jusqu'à belle dorure. Ne pas saupoudrer de sucre après : le sucre perlé caramélise naturellement dans le gaufrier."
       ]
+    },
+    {
+      "id": "tapas:010",
+      "t": "Beignets d'Épinards à l'Espagnole",
+      "cat": "Espagne, Tapas",
+      "desc": "Buñuelos de espinacas croustillants, parfumés à l'ail et au cumin, frits à la poêle comme en Andalousie",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "300 g épinards frais (ou surgelés décongelés et essorés)",
+        "120 g farine",
+        "2 oeufs",
+        "80 ml lait",
+        "2 gousses d'ail",
+        "1 c. à café cumin moulu",
+        "1 c. à café paprika doux",
+        "1/2 c. à café sel",
+        "Poivre noir",
+        "Huile végétale pour friture"
+      ],
+      "steps": [
+        "Laver les épinards frais, les faire tomber à la poêle sans matière grasse 2 min. Bien les égoutter et hacher grossièrement.",
+        "Écraser l'ail et le mélanger aux épinards hachés.",
+        "Dans un bol, mélanger la farine, le cumin, le paprika, le sel et le poivre.",
+        "Battre les oeufs avec le lait, puis incorporer au mélange de farine pour obtenir une pâte épaisse.",
+        "Ajouter les épinards et l'ail à la pâte et mélanger.",
+        "Chauffer 2 cm d'huile dans une poêle à feu moyen-vif.",
+        "Déposer des cuillerées de pâte dans l'huile chaude et aplatir légèrement.",
+        "Frire 2 à 3 min de chaque côté jusqu'à dorure croustillante.",
+        "Égoutter sur du papier absorbant et servir chaud avec une sauce au yaourt et à l'ail ou de l'aïoli."
+      ]
     }
   ]
 }
