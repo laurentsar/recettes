@@ -69,7 +69,9 @@
     "dropbox:8ecff8fa-30d7-455b-8350-a7ace1f38c7c",
     "dropbox:-231113342",
     "dropbox:-322620166",
-    "portugal:033"
+    "portugal:033",
+    "espagne:004",
+    "espagne:006"
   ],
   "overrides": [
     {
@@ -1671,28 +1673,6 @@
       "img": "https://static.750g.com/images/1200-630/0eaadcbe724367935a5980c28c45db79/escalope-milanaise.jpg"
     },
     {
-      "id": "italie:038",
-      "t": "Risotto alla Milanese",
-      "cat": "Italie, Plat",
-      "area": "Milan, Italie",
-      "min": 30,
-      "serv": 4,
-      "desc": "Le risotto d'or de Milan — safran, beurre et parmesan. Servi classiquement avec l'ossobuco comme accompagnement.",
-      "ing": [
-        "320 g de riz Carnaroli ou Vialone Nano",
-        "1 litre de bouillon de bœuf chaud",
-        "1 oignon",
-        "150 ml de vin blanc sec",
-        "1 sachet de safran (0,25 g)",
-        "80 g de beurre",
-        "80 g de parmesan râpé",
-        "Sel"
-      ],
-      "steps": "Dissoudre le safran dans 3 c. à soupe de bouillon chaud. Faire revenir l'oignon émincé dans la moitié du beurre à feu doux 5 min. Ajouter le riz et le faire nacrer 2 min. Déglacer au vin blanc, remuer jusqu'à absorption. Ajouter le bouillon chaud louche par louche en remuant constamment — ajouter la louche suivante seulement quand la précédente est absorbée. À mi-cuisson (10 min), ajouter le safran dissous. Cuire encore 8-10 min. Hors du feu, mantecatura : incorporer le reste du beurre froid et le parmesan en remuant vigoureusement. Couvrir 2 min. Le risotto doit être \"all'onda\" (fluide).",
-      "url": "https://www.750g.com/risotto-a-la-milanaise-r100543.htm",
-      "img": "https://static.750g.com/images/1200-630/81d5cca7a2313ff4ff881a4173e95c13/risotto-a-la-milanaise.jpg"
-    },
-    {
       "id": "italie:039",
       "t": "Ossobuco alla Milanese",
       "cat": "Italie, Plat",
@@ -1715,32 +1695,6 @@
       "img": "https://static.750g.com/images/1200-630/906936511be2573f19843050ed75cab1/osso-bucco-7-.jpg"
     },
     {
-      "id": "italie:040",
-      "t": "Tagliatelle al Ragù Bolognese",
-      "cat": "Italie, Plat",
-      "area": "Bologne, Emilie-Romagne",
-      "min": 180,
-      "serv": 6,
-      "desc": "Le vrai ragù bolognais — viande, peu de tomate, lait, vin blanc. Sur tagliatelles fraîches, jamais sur spaghetti.",
-      "ing": [
-        "300 g de bœuf haché",
-        "150 g de porc haché",
-        "150 g de pancetta",
-        "1 oignon",
-        "2 carottes",
-        "2 branches de céleri",
-        "150 ml de vin blanc",
-        "150 ml de lait entier",
-        "200 g de tomates pelées",
-        "2 c. à soupe d'huile d'olive",
-        "Sel, poivre",
-        "Pour servir : 400 g de tagliatelles fraîches, parmesan"
-      ],
-      "steps": "Hacher finement oignon, carotte et céleri (soffritto). Faire revenir la pancetta coupée en dés dans l'huile 3 min. Ajouter le soffritto et cuire 10 min à feu doux. Ajouter les viandes hachées et faire dorer en émiettant bien. Déglacer au vin blanc, laisser évaporer. Ajouter le lait, laisser absorber (5 min). Ajouter les tomates. Assaisonner. Mijoter 2h à feu très doux à couvert, en remuant toutes les 30 min. Ajouter un peu d'eau si nécessaire. La sauce doit être dense et fondante. Servir sur tagliatelles fraîches avec parmesan.",
-      "url": "https://www.750g.com/tagliatelles-bolognaise-r92115.htm",
-      "img": "https://static.750g.com/images/1200-630/ca7de3c31e0168caf665fe5b8439bfe5/tagliatelles-bolognaise.png"
-    },
-    {
       "id": "italie:041",
       "t": "Tortellini in Brodo",
       "cat": "Italie, Plat",
@@ -1756,24 +1710,6 @@
       "steps": "Bouillon : mettre viandes et légumes dans une grande casserole d'eau froide. Porter à ébullition, écumer soigneusement. Cuire à frémissement 2-3 h. Filtrer et dégraisser (laisser refroidir puis retirer la couche de gras). Rectifier le sel — le bouillon doit être savoureux et clair. Porter le bouillon à frémissement. Cuire les tortellini dedans 3-4 min selon l'épaisseur. Servir dans une assiette creuse avec beaucoup de bouillon et parmesan râpé. Simple, parfait.",
       "url": "https://www.750g.com/tortellini-in-brodo-r97232.htm",
       "img": "https://static.750g.com/images/1200-630/21486c516fbc24343c03ae5464376101/tortellini-in-brodo.jpg"
-    },
-    {
-      "id": "italie:042",
-      "t": "Bistecca alla Fiorentina",
-      "cat": "Italie, Plat",
-      "area": "Florence, Toscane",
-      "min": 20,
-      "serv": 2,
-      "desc": "La T-bone toscane — bœuf Chianina, épaisse de 4 cm minimum, cuite à la braise, saignante. Sel, huile, citron. Rien d'autre.",
-      "ing": [
-        "1 bistecca alla Fiorentina (T-bone de bœuf) — 800 g à 1,2 kg, 4 cm d'épaisseur minimum",
-        "Gros sel marin",
-        "Huile d'olive extra vierge toscane",
-        "1 citron",
-        "Poivre noir (facultatif, après cuisson)"
-      ],
-      "steps": "Sortir la viande 1 h avant cuisson — elle DOIT être à température ambiante. Allumer les braises (jamais de gaz) — elles doivent être rougeoyantes et sans flamme. Poser la bistecca sans gras ni huile sur la grille très chaude. Cuire 5-7 min par côté. JAMAIS bien cuite — à l'intérieur elle doit rester rouge. Finir 3 min debout sur l'os. Laisser reposer 5 min. Saler généreusement de gros sel juste avant de servir. Arroser d'huile d'olive. Servir entière sur une planche à découper.",
-      "url": "https://www.saveur.com/article/Recipes/Bistecca-Alla-Fiorentina-Florentine-Steak/"
     },
     {
       "id": "italie:043",
@@ -1839,50 +1775,6 @@
       "img": "https://static.750g.com/images/1200-630/ed2695c566402682c7e1386b37efb9df/diapositive1.jpg"
     },
     {
-      "id": "italie:046",
-      "t": "Arancini di Riso",
-      "cat": "Italie, Plat",
-      "area": "Sicile",
-      "min": 60,
-      "serv": 12,
-      "desc": "Boules de riz siciliennes farcies au ragù, petits pois et mozzarella — panées et frites. Le street food sicilien emblématique.",
-      "ing": [
-        "500 g de riz arborio",
-        "1 litre de bouillon de bœuf",
-        "1 sachet de safran",
-        "60 g de parmesan",
-        "2 œufs",
-        "Farce : 200 g de bœuf haché, 100 g de petits pois, 200 g de sauce tomate, 100 g de mozzarella",
-        "Panure : farine, 2 œufs battus, chapelure fine • Huile pour friture"
-      ],
-      "steps": "Cuire le riz dans le bouillon avec le safran jusqu'à absorption. Hors du feu, incorporer parmesan et œufs. Étaler sur une plaque pour refroidir. Farce : faire revenir le bœuf haché, ajouter les tomates et petits pois, cuire 15 min. Refroidir. Former les arancini : prendre une poignée de riz, aplatir, mettre 1 c. de farce + 1 dé de mozzarella au centre, refermer en boule ou en cône. Passer dans la farine, l'œuf battu, puis la chapelure. Frire à 175°C 4-5 min jusqu'à dorure. Égoutter et servir chaud.",
-      "url": "https://www.750g.com/arancini-boulettes-de-riz-farcies-siciliennes-r91734.htm",
-      "img": "https://static.750g.com/images/1200-630/20f2819a15d59ce5c06662de197af09c/arancini-boulettes-de-riz-farcies-siciliennes-r91734.png"
-    },
-    {
-      "id": "italie:047",
-      "t": "Pasta alla Norma",
-      "cat": "Italie, Plat",
-      "area": "Catane, Sicile",
-      "min": 30,
-      "serv": 4,
-      "desc": "Pâtes siciliennes aux aubergines frites, sauce tomate, basilic et ricotta salée — \"c'est une Norma !\" (chef-d'œuvre).",
-      "ing": [
-        "320 g de rigatoni ou penne",
-        "2 grosses aubergines",
-        "500 g de tomates pelées",
-        "3 gousses d'ail",
-        "100 g de ricotta salée (ou pecorino râpé)",
-        "Basilic frais",
-        "4 c. à soupe d'huile d'olive",
-        "Huile pour friture",
-        "Sel"
-      ],
-      "steps": "Couper les aubergines en dés, saler et laisser dégorger 20 min. Rincer et sécher. Frire dans l'huile à 170°C jusqu'à dorées. Égoutter. Faire revenir l'ail dans l'huile d'olive, ajouter les tomates, écraser grossièrement. Cuire 15 min. Cuire les pâtes al dente. Égoutter en gardant l'eau de cuisson. Mélanger pâtes, sauce tomate et aubergines frites. Ajouter basilic. Dresser dans les assiettes et râper généreusement la ricotta salée par-dessus.",
-      "url": "https://www.750g.com/pates-a-la-norma-r207845.htm",
-      "img": "https://static.750g.com/images/1200-630/2af18d81e7fa3e038d51fc1c13571376/pasta-alla-norma-img-8877.jpg"
-    },
-    {
       "id": "italie:048",
       "t": "Caponata Siciliana",
       "cat": "Italie, Légume",
@@ -1905,26 +1797,6 @@
       "steps": "Couper les aubergines en cubes, saler, laisser dégorger 30 min. Sécher et frire dans l'huile. Égoutter. Dans une grande poêle, faire revenir l'oignon et le céleri dans l'huile. Ajouter les tomates et cuire 10 min. Ajouter olives, câpres, les aubergines frites, le vinaigre et le sucre. Mélanger et cuire encore 10 min. Rectifier sel/vinaigre/sucre pour l'équilibre aigre-doux. Refroidir complètement avant de servir — meilleure le lendemain avec basilic.",
       "url": "https://www.750g.com/caponata-d-aubergines-a-la-sicilienne-r206920.htm",
       "img": "https://static.750g.com/images/1200-630/bc15e7ba044429a0afc4cb30b92fa56d/caponata-01.jpg"
-    },
-    {
-      "id": "italie:049",
-      "t": "Saltimbocca alla Romana",
-      "cat": "Italie, Plat",
-      "area": "Rome, Lazio",
-      "min": 15,
-      "serv": 4,
-      "desc": "\"Saute en bouche\" — escalopes de veau, prosciutto et sauge, cuites au beurre et déglacées au marsala. Rapide et élégant.",
-      "ing": [
-        "8 fines escalopes de veau",
-        "8 tranches de prosciutto di Parma",
-        "8 grandes feuilles de sauge fraîche",
-        "40 g de beurre",
-        "80 ml de vin blanc sec ou marsala",
-        "Sel, poivre"
-      ],
-      "steps": "Poser une feuille de sauge sur chaque escalope, recouvrir d'une tranche de prosciutto. Fixer avec un cure-dent. Saler légèrement côté veau (le prosciutto est déjà salé). Faire fondre le beurre dans une grande poêle à feu vif. Cuire les escalopes côté prosciutto en premier, 1-2 min. Retourner et cuire encore 1-2 min. Retirer les escalopes. Déglacer avec le vin blanc/marsala en grattant les sucs. Réduire 1 min. Napper les escalopes et servir immédiatement.",
-      "url": "https://www.750g.com/saltimbocca-alla-romana-r79034.htm",
-      "img": "https://static.750g.com/images/1200-630/294551b7373771583f4b415c7ebb76ec/saltimbocca-alla-romana.jpeg"
     },
     {
       "id": "italie:050",
@@ -5640,28 +5512,6 @@
       "url": "https://www.750g.com/farcement-savoyard-r206167.htm"
     },
     {
-      "id": "soupe:001",
-      "t": "Gaspacho Andalou",
-      "cat": "Soupe, Espagne, Été",
-      "min": 15,
-      "serv": 4,
-      "desc": "La soupe froide espagnole par excellence — tomates, concombre et poivron mixés, servis glacés. Fraîcheur absolue.",
-      "ing": [
-        "800 g de tomates bien mûres",
-        "1 concombre pelé",
-        "1 poivron rouge",
-        "1 gousse d'ail",
-        "3 c. à soupe d'huile d'olive extra vierge",
-        "2 c. à soupe de vinaigre de Xérès (ou vin rouge)",
-        "1 tranche de pain rassis (optionnel, pour lier)",
-        "Sel, poivre",
-        "Garniture : dés de tomate, concombre, poivron, croûtons, basilic"
-      ],
-      "steps": "Couper grossièrement tous les légumes. Peler et épépiner les tomates si on veut une texture très lisse.\nMixer tomates, concombre, poivron, ail, huile et vinaigre jusqu'à consistance lisse.\nAjouter le pain trempé pour lier si souhaité.\nAssaisonner. Passer au tamis fin pour une texture soyeuse (optionnel).\nRéfrigérer minimum 2h (idéalement 4h).\nServir glacé, garni de dés de légumes, croûtons et basilic.\n\n💡 Avec des tomates de qualité, en plein été. Un gaspacho avec des tomates insipides est décevant.",
-      "img": "https://static.750g.com/images/1200-630/bba1d5c7c7d180f045783d65c5b8dd49/gaspacho.jpg",
-      "url": "https://www.750g.com/gaspacho-andalou-r4230.htm"
-    },
-    {
       "id": "soupe:002",
       "t": "Velouté Froid de Courgettes à la Menthe",
       "cat": "Soupe, Été",
@@ -5918,85 +5768,6 @@
       "steps": "RISOTTO (à faire en parallèle sur le feu)\nFaire revenir l'échalote dans le beurre. Ajouter le riz, nacrer 2 min.\nInfuser le safran dans le bouillon. Ajouter louche par louche en remuant. 18-20 min.\nMantecare (hors du feu) avec beurre et parmesan.\n\nBAR\nAssaisonner les filets avec citron, huile, sel, poivre.\n🌡️ AIRFRYER — Air Fry 180°C : 12-15 min (selon épaisseur).\nLe poisson est cuit quand il se détache en feuillets et la peau est dorée.\n\nServir le filet sur le risotto safrané.\n\n💡 Le bar est maigre et riche en protéines — parfait pour le cholestérol."
     },
     {
-      "id": "portugal:031",
-      "t": "Caldo Verde",
-      "cat": "Portugal",
-      "min": 50,
-      "serv": 6,
-      "desc": "La soupe nationale portugaise — pommes de terre, chou en julienne ultra-fine et chorizo. Simple, nourrissante, profondément réconfortante.",
-      "ing": [
-        "4 pommes de terre moyennes pelées",
-        "300 g de chou vert (couve-galega, kale ou chou frisé)",
-        "1 oignon haché",
-        "2 gousses d'ail",
-        "6 c. à soupe d'huile d'olive extra vierge",
-        "150 g de chouriço (chorizo portugais) en rondelles fines",
-        "1,5 L d'eau",
-        "Sel, poivre"
-      ],
-      "steps": "Couper les pommes de terre en gros morceaux. Mettre dans une casserole avec oignon, ail et eau froide. Saler.\nPorter à ébullition, cuire 25-30 min jusqu'à pommes de terre bien fondantes.\nÉcraser ou mixer grossièrement les pommes de terre dans le bouillon — texture rustique, pas de velouté.\nPendant ce temps, couper le chou en très fine julienne (chiffonnade très serrée — le geste clé).\nAjouter le chou au bouillon, cuire 5 min à feu doux — doit rester vert et légèrement croquant.\nAjouter les rondelles de chorizo. Verser l'huile d'olive. Ajuster sel et poivre.\nServir avec du pain de campagne.\n\n💡 La julienne ultra-fine du chou est la signature — prendre son temps au couteau.",
-      "img": "https://static.750g.com/images/1200-630/5f5f9cccba5dc2bf8b025bb54d725103/caldo-verde-soupe-portugaise.png",
-      "url": "https://www.750g.com/caldo-verde-soupe-portugaise-r43714.htm"
-    },
-    {
-      "id": "portugal:032",
-      "t": "Bacalhau à Brás",
-      "cat": "Portugal",
-      "min": 60,
-      "serv": 4,
-      "desc": "L'incontournable plat lisbonnais — morue effilochée, pommes de terre paille croustillantes et œufs brouillés baveux. Né au Bairro Alto au XIXe siècle.",
-      "ing": [
-        "500 g de morue salée séchée (bacalhau)",
-        "4 pommes de terre moyennes",
-        "1 grand oignon émincé",
-        "3 gousses d'ail",
-        "6 œufs",
-        "Olives noires",
-        "Persil plat",
-        "Huile d'olive",
-        "Sel, poivre"
-      ],
-      "steps": "DESSALAGE (48h avant)\nPlonger la morue dans l'eau froide, réfrigérer 48h en changeant l'eau toutes les 8-12h.\n\nMORUE\nPocher la morue dessalée 10 min dans l'eau frémissante. Égoutter, émietter en petits morceaux en retirant peau et arêtes.\n\nPOMMES DE TERRE PAILLE\nÉplucher, tailler en allumettes très fines. Frire ou cuire à l'huile jusqu'à croustillantes et dorées. Égoutter sur papier absorbant.\n\nASSEMBLAGE\nFaire revenir oignon et ail dans l'huile d'olive jusqu'à translucides.\nAjouter la morue effilochée, mélanger 3 min.\nIncorporer les pommes paille.\nBattre les œufs, verser dans la poêle et remuer doucement — les œufs doivent rester baveux.\nCouper le feu dès qu'ils commencent à prendre.\nGarnir d'olives et persil. Servir immédiatement.\n\n💡 Le point crucial : les œufs baveux. On coupe le feu tôt — l'inertie de la poêle finit la cuisson.",
-      "img": "https://static.750g.com/images/1200-630/948840ed39b94e74b8423ebc28ca7ae3/bacalhau-a-bras-morue-a-la-portugaise.png",
-      "url": "https://www.750g.com/bacalhau-a-bras-morue-a-la-portugaise-r45645.htm"
-    },
-    {
-      "id": "portugal:033",
-      "t": "Pastéis de Nata",
-      "cat": "Portugal, Dessert",
-      "min": 45,
-      "serv": 12,
-      "desc": "Les tartelettes à la crème caramélisée nées au monastère des Hiéronymites à Belém. Croustillantes, crémeuses, avec leurs taches noires caractéristiques.",
-      "ing": [
-        "250 g de pâte feuilletée pur beurre",
-        "CRÈME : 4 jaunes d'œufs + 1 œuf entier",
-        "200 g de sucre",
-        "35 g de farine tamisée",
-        "500 ml de lait entier",
-        "1 c. à café d'extrait de vanille",
-        "1 c. à soupe de jus de citron",
-        "Cannelle pour servir"
-      ],
-      "steps": "CRÈME\nFouetter œufs, sucre et farine. Incorporer le lait froid progressivement.\nCuire à feu moyen en remuant constamment jusqu'à épaississement (texture crème anglaise épaisse).\nAjouter vanille et citron. Couvrir au contact, laisser tiédir.\n\nFOND\nDérouler la pâte feuilletée, rouler en boudin serré. Couper en 12 tronçons de 1,5 cm.\nPoser chaque tronçon dans un moule à muffin beurré. Mouiller le doigt, étaler la pâte en remontant sur les bords jusqu'à former une coupe.\n\nCUISSON\nFour 240°C (très chaud) préchauffé 30 min.\nRemplir les fonds aux 3/4 de crème refroidie.\nCuire 12-15 min jusqu'à taches brunes foncées en surface — signe de caramélisation parfaite.\n\nSaupoudrer de cannelle à la sortie. Servir tièdes.\n\n💡 Le four très chaud et les taches noires en surface sont la signature authentique. Ne pas hésiter à laisser caraméliser.",
-      "img": "https://static.750g.com/images/1200-630/98bfc3b1580004423f86acdc4b8d3900/pasteis-de-nata-tartelette-de-creme-aux-oeufs.png",
-      "url": "https://www.750g.com/pasteis-de-nata-tartelette-de-creme-aux-oeufs-r36815.htm"
-    },
-    {
-      "id": "portugal:034",
-      "t": "Frango Piri-Piri",
-      "cat": "Portugal",
-      "min": 60,
-      "serv": 4,
-      "desc": "Poulet grillé marinié dans la sauce piri-piri (piments africains, ail, citron) — la grande spécialité portugaise héritée des colonies.",
-      "ing": [
-        "1 poulet entier coupé en 2 (ou 4 cuisses + hauts de cuisse)",
-        "MARINADE : 4 piments rouges frais, 4 gousses d'ail, jus d'1 citron, 3 c. huile d'olive, 1 c. paprika, origan séché, sel"
-      ],
-      "steps": "SAUCE PIRI-PIRI\nMixer piments, ail, jus de citron, huile, paprika, origan et sel.\n(Enlever les graines pour moins de piquant.)\n\nMARINADE\nInciser profondément la chair du poulet pour que la marinade pénètre.\nEnrober généreusement. Mariner minimum 2h (idéalement toute la nuit au réfrigérateur).\n\nCUISSON\nBARBECUE : Gril à feu moyen, 30-40 min en retournant souvent. Badigeonner de marinade régulièrement.\nFOUR : 200°C, 40-45 min, position grill les 10 dernières minutes.\nLa peau doit être croustillante et légèrement carbonisée aux bords.\n\nServir avec frites et salade verte.\n\n💡 Le piri-piri originel est un piment originaire d'Afrique (Mozambique). Les piments ordinaires conviennent très bien.",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Grilled_Piri_Piri_Chicken.jpg/640px-Grilled_Piri_Piri_Chicken.jpg",
-      "url": "https://www.papillesetpupilles.fr/2023/11/poulet-grille-a-la-portugaise-sauce-piri-piri.html/"
-    },
-    {
       "id": "portugal:035",
       "t": "Arroz de Marisco",
       "cat": "Portugal",
@@ -6099,49 +5870,6 @@
       "steps": "Battre les jaunes avec le sucre jusqu'à mélange jaune pâle et très mousseux (5 min minimum).\nIncorporer le zeste de citron et la farine tamisée en pluie, délicatement.\nBattre les blancs en neige ferme avec la pincée de sel.\nIncorporer les blancs en 3 fois en soulevant délicatement la masse.\nVerser dans un moule rond (26 cm) chemisé de papier beurré.\n\nFour 180°C : 30-35 min. Le centre doit rester légèrement tremblotant — c'est voulu.\n\nLaisser refroidir dans le moule 15 min. Démouler délicatement.\n\n💡 Le secret : ne pas sur-cuire. Le cœur légèrement humide est une qualité, pas un défaut.",
       "img": "https://static.750g.com/images/1200-630/b4f8123aa5407b67f045957fa50c5bac/recette-pao-de-lo-portugais-3-1-.jpg",
       "url": "https://www.750g.com/pao-de-lo-r74264.htm"
-    },
-    {
-      "id": "portugal:040",
-      "t": "Cozido à Portuguesa",
-      "cat": "Portugal",
-      "min": 150,
-      "serv": 8,
-      "desc": "Le pot-au-feu portugais — morceaux de bœuf, porc, poulet, chouriço et légumes mijotés dans un bouillon commun. Festif et généreux.",
-      "ing": [
-        "500 g de bœuf à braiser",
-        "400 g d'épaule de porc salée (ou nature)",
-        "300 g de poulet",
-        "200 g de chouriço (chorizo portugais)",
-        "200 g de morcela (boudin noir portugais)",
-        "2 carottes",
-        "2 navets",
-        "1 chou vert",
-        "4 pommes de terre",
-        "200 g de pois chiches (cuits)",
-        "Oignon, ail, laurier, sel, poivre"
-      ],
-      "steps": "Placer bœuf, porc et poulet dans une grande cocotte. Couvrir d'eau froide.\nPorter à ébullition, écumer soigneusement.\nAjouter oignon, ail, laurier, sel et poivre. Mijoter 1h30 à feu doux.\nAjouter carottes et navets. Cuire 20 min.\nAjouter pommes de terre, chou et chorizos (entiers pour ne pas perdre le jus). Cuire 25 min.\nAjouter pois chiches les 10 dernières minutes.\nRectifier l'assaisonnement.\n\nServir : le bouillon en soupe avec vermicelles, puis la viande et légumes sur plat.\n\n💡 Plat du dimanche par excellence — le bouillon sert de soupe d'entrée, les viandes de plat principal.",
-      "img": "https://i0.wp.com/www.laplanetedecaro.com/wp-content/uploads/2026/05/o-mane-portimao-3640.webp",
-      "url": "https://www.laplanetedecaro.com/cozido-a-portuguesa/"
-    },
-    {
-      "id": "corse:071",
-      "t": "Fiadone",
-      "cat": "Corse, Dessert",
-      "min": 55,
-      "serv": 8,
-      "desc": "Le gâteau de l'île de Beauté — brocciu frais, œufs, zeste de citron et rien d'autre. Sans farine, sans beurre : léger, parfumé, inoubliable.",
-      "ing": [
-        "500 g de brocciu frais (ou brousse fraîche, ou ricotta)",
-        "4 œufs (blancs et jaunes séparés)",
-        "150 g de sucre",
-        "Zeste de 2 citrons jaunes non traités",
-        "1 c. à café d'extrait de citron (optionnel)",
-        "Beurre pour le moule"
-      ],
-      "steps": "Écraser le brocciu à la fourchette pour obtenir une texture homogène.\nMélanger brocciu, jaunes d'œufs, sucre et zestes de citron jusqu'à crème lisse.\nBattre les blancs en neige ferme.\nIncorporer délicatement les blancs au mélange brocciu en 3 fois — ne pas casser les blancs.\nBeurrer un moule à manqué de 24-26 cm. Verser la préparation.\n\nFour 180°C : 30-35 min jusqu'à belle dorure en surface. Le cœur doit être légèrement tremblotant.\nLaisser refroidir complètement avant de servir — se déguste froid ou à température ambiante.\n\n💡 Le brocciu est le fromage frais de brebis corse, insaisissable en dehors de l'île. La ricotta entière ou brousse fraîche sont d'excellents substituts.",
-      "img": "https://static.750g.com/images/1200-630/7e93c205fab527454a9433bd485a48eb/fiadone-gateau-corse.png",
-      "url": "https://www.750g.com/fiadone-gateau-corse-r56937.htm"
     },
     {
       "id": "corse:072",
