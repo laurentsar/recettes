@@ -15375,6 +15375,294 @@
         "Frire 2 à 3 min de chaque côté jusqu'à dorure croustillante.",
         "Égoutter sur du papier absorbant et servir chaud avec une sauce au yaourt et à l'ail ou de l'aïoli."
       ]
+    },
+    {
+      "id": "moule:001",
+      "t": "Moules Marinières sans Alcool",
+      "cat": "Poisson, Moules",
+      "desc": "Les classiques moules marinières revisitées sans alcool, cuites dans un bouillon parfumé à l'ail",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "1 gousse d'ail",
+        "200 ml de bouillon de légumes ou de poisson",
+        "1 échalote",
+        "Persil frais",
+        "Poivre"
+      ],
+      "steps": [
+        "Gratter et laver soigneusement les moules, éliminer celles qui sont ouvertes.",
+        "Émincer l'échalote et écraser l'ail.",
+        "Dans une grande casserole, faire revenir l'échalote et l'ail 2 min à feu moyen.",
+        "Ajouter le bouillon, porter à ébullition.",
+        "Mettre les moules, couvrir et cuire à feu vif 4-5 min en remuant à mi-cuisson.",
+        "Dès que les moules sont ouvertes, retirer du feu. Jeter celles qui restent fermées.",
+        "Parsemer de persil haché et servir aussitôt avec du pain."
+      ]
+    },
+    {
+      "id": "moule:002",
+      "t": "Moules à la Crème",
+      "cat": "Poisson, Moules",
+      "desc": "Moules onctueuses dans une sauce crémeuse à l'échalote, un grand classique de la brasserie",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "250 ml de crème fraîche",
+        "1 échalote",
+        "1 verre de vin blanc sec",
+        "Persil",
+        "Poivre"
+      ],
+      "steps": [
+        "Nettoyer les moules, retirer les barbes.",
+        "Émincer finement l'échalote.",
+        "Faire fondre une noix de beurre dans une grande casserole, faire revenir l'échalote 2 min.",
+        "Ajouter le vin blanc (ou bouillon), porter à ébullition.",
+        "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
+        "Retirer les moules ouvertes avec une écumoire, réserver au chaud.",
+        "Filtrer le jus, le remettre dans la casserole avec la crème. Faire réduire 3 min.",
+        "Napper les moules de sauce, parsemer de persil et servir."
+      ]
+    },
+    {
+      "id": "moule:003",
+      "t": "Moules au Roquefort",
+      "cat": "Poisson, Moules",
+      "desc": "Moules généreuses fondues dans une sauce au roquefort et à l'échalote, une association audacieuse",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "100 g de roquefort",
+        "1 échalote",
+        "150 ml de crème fraîche",
+        "Poivre"
+      ],
+      "steps": [
+        "Nettoyer les moules.",
+        "Émincer l'échalote et la faire revenir dans un peu de beurre.",
+        "Ajouter un verre d'eau ou de bouillon, cuire les moules à feu vif 4-5 min à couvert.",
+        "Retirer les moules ouvertes. Filtrer le jus de cuisson.",
+        "Remettre le jus dans la casserole, ajouter la crème et le roquefort émietté.",
+        "Faire fondre à feu doux en fouettant jusqu'à sauce lisse.",
+        "Verser sur les moules et servir immédiatement avec du pain grillé."
+      ]
+    },
+    {
+      "id": "moule:004",
+      "t": "Moules à la Provençale",
+      "cat": "Poisson, Moules",
+      "desc": "Moules cuisinées façon Méditerranée avec tomates, ail et herbes de Provence",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "3 tomates",
+        "2 gousses d'ail",
+        "1 oignon",
+        "Herbes de Provence",
+        "Huile d'olive",
+        "Poivre"
+      ],
+      "steps": [
+        "Nettoyer les moules.",
+        "Couper les tomates en dés, émincer l'ail et l'oignon.",
+        "Faire revenir l'oignon et l'ail dans l'huile d'olive 3 min.",
+        "Ajouter les tomates et les herbes de Provence, cuire 5 min.",
+        "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
+        "Mélanger délicatement et servir dès que toutes les moules sont ouvertes."
+      ]
+    },
+    {
+      "id": "moule:005",
+      "t": "Moules au Curry et Lait de Coco",
+      "cat": "Poisson, Moules",
+      "desc": "Moules parfumées à l'exotisme du curry doux et du lait de coco, fraîcheur assurée",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "1 c. à soupe de curry en poudre doux",
+        "200 ml de lait de coco",
+        "1 échalote",
+        "1 gousse d'ail",
+        "Coriandre fraîche"
+      ],
+      "steps": [
+        "Nettoyer les moules.",
+        "Faire revenir l'échalote et l'ail émincés dans un peu d'huile.",
+        "Ajouter le curry et faire revenir 1 min pour libérer les arômes.",
+        "Verser le lait de coco et porter à frémissement.",
+        "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
+        "Parsemer de coriandre fraîche et servir avec du riz basmati."
+      ]
+    },
+    {
+      "id": "moule:006",
+      "t": "Moules à l'Ail et au Persil",
+      "cat": "Poisson, Moules",
+      "desc": "Version simple et parfumée des moules, généreusement aillées et parsemées de persil frais",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "4 gousses d'ail",
+        "Persil frais (1 bouquet)",
+        "Huile d'olive",
+        "Poivre"
+      ],
+      "steps": [
+        "Nettoyer les moules.",
+        "Hacher finement l'ail et le persil.",
+        "Faire chauffer l'huile d'olive dans une grande casserole, y faire revenir l'ail 1 min.",
+        "Ajouter les moules, couvrir et cuire à feu vif 4-5 min.",
+        "Parsemer de persil haché, poivrer et servir."
+      ]
+    },
+    {
+      "id": "moule:007",
+      "t": "Moules au Citron",
+      "cat": "Poisson, Moules",
+      "desc": "Moules légères et acidulées cuites dans un bouillon citronné, idéales pour l'été",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "Le jus de 2 citrons",
+        "150 ml de bouillon de légumes ou de poisson",
+        "1 échalote",
+        "Thym",
+        "Poivre"
+      ],
+      "steps": [
+        "Nettoyer les moules.",
+        "Émincer l'échalote et la faire revenir 2 min.",
+        "Ajouter le bouillon, le jus de citron et le thym, porter à ébullition.",
+        "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
+        "Servir avec quelques rondelles de citron et du pain croustillant."
+      ]
+    },
+    {
+      "id": "moule:008",
+      "t": "Moules aux Poireaux",
+      "cat": "Poisson, Moules",
+      "desc": "Moules mijotées avec des poireaux fondants et une échalote, recette douce et réconfortante",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "2 poireaux",
+        "1 échalote",
+        "20 g de beurre",
+        "100 ml de crème fraîche",
+        "Poivre"
+      ],
+      "steps": [
+        "Nettoyer les moules. Laver et émincer les poireaux en rondelles.",
+        "Faire fondre le beurre, y attendrir l'échalote émincée et les poireaux 5-7 min à feu doux.",
+        "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
+        "Retirer les moules, filtrer le jus et le remettre avec la crème.",
+        "Faire réduire 2 min, napper les moules et les poireaux, servir chaud."
+      ]
+    },
+    {
+      "id": "moule:009",
+      "t": "Moules aux Champignons",
+      "cat": "Poisson, Moules",
+      "desc": "Moules et champignons sautés à l'ail, un mariage terre-mer savoureux",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "250 g de champignons de Paris",
+        "2 gousses d'ail",
+        "Persil",
+        "Beurre",
+        "Poivre"
+      ],
+      "steps": [
+        "Nettoyer les moules. Nettoyer et émincer les champignons.",
+        "Faire sauter les champignons avec le beurre et l'ail 5 min, réserver.",
+        "Dans la même casserole, cuire les moules à couvert 4-5 min à feu vif.",
+        "Ajouter les champignons aux moules, mélanger.",
+        "Parsemer de persil haché et servir."
+      ]
+    },
+    {
+      "id": "moule:010",
+      "t": "Moules aux Herbes Fraîches",
+      "cat": "Poisson, Moules",
+      "desc": "Moules beurrées et parfumées à la ciboulette et aux herbes fraîches, une recette lumineuse",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "30 g de beurre",
+        "Ciboulette (1 bouquet)",
+        "Persil",
+        "Estragon",
+        "Poivre"
+      ],
+      "steps": [
+        "Nettoyer les moules. Ciseler finement la ciboulette, le persil et l'estragon.",
+        "Faire fondre le beurre dans une grande casserole.",
+        "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
+        "Dès qu'elles sont ouvertes, parsemer généreusement d'herbes fraîches.",
+        "Poivrer et servir aussitôt."
+      ]
+    },
+    {
+      "id": "moule:011",
+      "t": "Moules aux Crevettes et Safran",
+      "cat": "Poisson, Moules",
+      "desc": "Moules et crevettes dorées au safran, une recette festive aux parfums de la mer",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "200 g de crevettes décortiquées",
+        "1 dose de safran",
+        "1 échalote",
+        "1 verre de vin blanc",
+        "Poivre"
+      ],
+      "steps": [
+        "Nettoyer les moules.",
+        "Faire revenir l'échalote émincée dans un peu de beurre.",
+        "Ajouter le vin blanc et le safran, porter à ébullition.",
+        "Cuire les moules à couvert 4-5 min à feu vif.",
+        "Retirer les moules, ajouter les crevettes dans le jus 2 min.",
+        "Remettre les moules, mélanger et servir."
+      ]
+    },
+    {
+      "id": "moule:012",
+      "t": "Moules Crémeuses aux Crevettes et Safran",
+      "cat": "Poisson, Moules",
+      "desc": "Moules et crevettes nappées d'une sauce crémeuse dorée au safran, version luxueuse",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "200 g de crevettes décortiquées",
+        "1 dose de safran",
+        "200 ml de crème fraîche",
+        "1 échalote",
+        "1 verre de vin blanc",
+        "Poivre"
+      ],
+      "steps": [
+        "Nettoyer les moules.",
+        "Faire revenir l'échalote émincée dans du beurre.",
+        "Ajouter le vin blanc et le safran, porter à ébullition.",
+        "Cuire les moules à couvert 4-5 min. Retirer et réserver.",
+        "Filtrer le jus, le remettre dans la casserole avec la crème.",
+        "Faire réduire 3 min jusqu'à sauce nappante, ajouter les crevettes 2 min.",
+        "Remettre les moules dans la sauce, servir aussitôt avec du pain grillé."
+      ]
     }
   ]
 }
