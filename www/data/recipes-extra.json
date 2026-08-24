@@ -15663,6 +15663,378 @@
         "Faire réduire 3 min jusqu'à sauce nappante, ajouter les crevettes 2 min.",
         "Remettre les moules dans la sauce, servir aussitôt avec du pain grillé."
       ]
+    },
+    {
+      "id": "majorque:001",
+      "t": "Coca de Trempó (Coca aux Légumes)",
+      "cat": "Espagne, Majorque, Apéritif",
+      "desc": "La coca est le plat emblématique de Majorque : une pâte levée garnie de tomates, oignons et poivrons, servie froide",
+      "min": 75,
+      "serv": 6,
+      "ing": [
+        "Pour la garniture : 4 tomates",
+        "2 oignons",
+        "4 poivrons verts",
+        "1 verre d'huile d'olive",
+        "Sel, poivre",
+        "Pour la pâte : 500 g de farine",
+        "20 g de levure fraîche",
+        "2 c. à soupe d'huile d'olive",
+        "Beurre",
+        "Sel"
+      ],
+      "steps": [
+        "Diluer la levure dans un peu d'eau tiède. Dans un grand bol, faire un puits dans la farine, ajouter la levure diluée, l'huile d'olive et le sel. Mélanger et pétrir jusqu'à obtenir une pâte homogène.",
+        "Couvrir et laisser reposer 15 min, puis ajouter 250 ml d'eau tiède. Pétrir pour obtenir une pâte souple. Laisser lever dans un endroit tiède jusqu'à ce qu'elle double de volume.",
+        "Préparer la garniture : peler et émincer finement les oignons. Laver et émincer finement les tomates et les poivrons (épépinés).",
+        "Fariner le plan de travail et étaler la pâte en rectangle. Beurrer et huiler la plaque de cuisson.",
+        "Déposer la pâte sur la plaque. Répartir les légumes dessus et arroser d'huile d'olive.",
+        "Cuire au four à 200°C pendant 25-30 min. Servir froid."
+      ]
+    },
+    {
+      "id": "majorque:002",
+      "t": "Canapés Sobrassada et Miel",
+      "cat": "Espagne, Majorque, Apéritif",
+      "desc": "L'apéritif majorquin par excellence : pain grillé garni de sobrassada (saucisse épicée) et de miel de romarin",
+      "min": 10,
+      "serv": 6,
+      "ing": [
+        "Pain de campagne",
+        "Sobrassada (saucisse majorquine épicée)",
+        "Miel de romarin"
+      ],
+      "steps": [
+        "Couper le pain en tranches. Faire griller les tranches.",
+        "Couper en portions plus petites.",
+        "Étaler généreusement la sobrassada sur chaque portion.",
+        "Arroser de miel.",
+        "Passer sous le gril jusqu'à dorure. Servir chaud."
+      ]
+    },
+    {
+      "id": "majorque:003",
+      "t": "Cocarroi (Chaussons aux Épinards et Raisins)",
+      "cat": "Espagne, Majorque, Apéritif",
+      "desc": "Chaussons traditionnels majorquins à la pâte à l'huile, garnis d'épinards, raisins secs et pignons",
+      "min": 60,
+      "serv": 6,
+      "ing": [
+        "Pour la farce : 500 g d'épinards",
+        "150 g de raisins secs",
+        "100 g de pignons",
+        "Sel",
+        "Pour la pâte : 500 g de farine",
+        "1 verre d'huile d'olive",
+        "2 verres d'eau tiède",
+        "Sel"
+      ],
+      "steps": [
+        "Faire bouillir les épinards, égoutter et réserver.",
+        "Préparer la pâte : dans un grand bol, mélanger la farine, l'huile d'olive, l'eau tiède et le sel. Pétrir jusqu'à obtenir une pâte souple et homogène.",
+        "Dans une poêle, faire revenir les épinards avec les raisins et les pignons quelques minutes.",
+        "Prélever des portions de pâte et les étaler en ronds de 10 cm de diamètre. Saupoudrer de farine.",
+        "À la cuillère, déposer la farce sur chaque rond. Refermer en demi-lune en pinçant bien les bords.",
+        "Disposer sur un plat allant au four huilé et cuire à 180°C pendant 25 min. Servir chaud ou froid."
+      ]
+    },
+    {
+      "id": "majorque:004",
+      "t": "Ous a la Mallorquina (Œufs à la Majorquine)",
+      "cat": "Espagne, Majorque, Préparation Oeuf",
+      "desc": "La recette d'œufs la plus populaire de Majorque : cuits au four sur lit de sobrassada, les jaunes encore coulants",
+      "min": 15,
+      "serv": 4,
+      "ing": [
+        "8 œufs",
+        "200 g de sobrassada",
+        "Huile d'olive",
+        "Sel"
+      ],
+      "steps": [
+        "Préchauffer le four à 180°C.",
+        "Huiler 4 petits plats individuels allant au four.",
+        "Casser 2 œufs dans chaque plat et ajouter un peu de sobrassada à côté (ou en dessous).",
+        "Saler légèrement les jaunes.",
+        "Cuire au four 6-8 min jusqu'à ce que les blancs soient pris mais les jaunes encore un peu coulants.",
+        "Servir accompagné de pain."
+      ]
+    },
+    {
+      "id": "majorque:005",
+      "t": "Coca aux Abricots (Apricot Coca)",
+      "cat": "Espagne, Majorque, Dessert",
+      "desc": "Coca sucrée majorquine garnie d'abricots frais et parfumée à la cannelle, une douceur de la Saint-Antoine",
+      "min": 60,
+      "serv": 6,
+      "ing": [
+        "Pour la pâte : 500 g de farine",
+        "200 g de sucre",
+        "100 g de saindoux",
+        "1/2 verre de lait",
+        "2 œufs",
+        "10 g de levure pressée",
+        "Pour la garniture : 250 g d'abricots mûrs",
+        "1 c. à café de cannelle en poudre",
+        "1 c. à soupe d'huile d'olive",
+        "Sucre glace"
+      ],
+      "steps": [
+        "Diluer la levure dans un peu d'eau tiède. Préparer la pâte : mélanger farine, sucre, saindoux, lait, œufs et levure. Pétrir jusqu'à obtenir une pâte souple. Laisser lever 1 h.",
+        "Laver les abricots, les couper en deux, retirer les noyaux. Les frotter avec un peu de sucre et de cannelle.",
+        "Étaler la pâte sur une plaque huilée. Disposer les abricots sur la pâte. Arroser d'huile d'olive.",
+        "Cuire au four à 180°C pendant environ 30 min.",
+        "Laisser refroidir et saupoudrer de sucre glace."
+      ]
+    },
+    {
+      "id": "majorque:006",
+      "t": "Crespells (Biscuits Majorquins de Pâques)",
+      "cat": "Espagne, Majorque, Dessert",
+      "desc": "Biscuits sucrés à l'huile d'olive et à l'orange en forme d'étoile, traditionnellement confectionnés pour Noël et Pâques à Majorque",
+      "min": 45,
+      "serv": 40,
+      "ing": [
+        "800 g de farine",
+        "200 g de sucre",
+        "100 g de saindoux",
+        "3 jaunes d'œufs",
+        "100 ml d'huile d'olive",
+        "100 ml de jus d'orange frais",
+        "Sucre glace"
+      ],
+      "steps": [
+        "Faire un puits dans la farine. Y verser l'huile d'olive, le saindoux, le jus d'orange et les jaunes d'œufs.",
+        "Mélanger puis pétrir pour obtenir une pâte homogène.",
+        "Fariner le plan de travail et étaler la pâte sur moins d'1 cm d'épaisseur.",
+        "Découper à l'emporte-pièce en forme d'étoile ou de fleur.",
+        "Disposer sur une plaque huilée et cuire au four à 180°C pendant environ 20 min.",
+        "Laisser refroidir et saupoudrer de sucre glace."
+      ]
+    },
+    {
+      "id": "majorque:007",
+      "t": "Greixonera de Brossat (Tarte au Fromage Blanc)",
+      "cat": "Espagne, Majorque, Dessert",
+      "desc": "Dessert majorquin typique cuit en terrine : fromage blanc frais, orange, citron et œufs, fondant et parfumé",
+      "min": 60,
+      "serv": 6,
+      "ing": [
+        "200 g de fromage blanc (brossat / cottage cheese)",
+        "200 g de sucre",
+        "4 œufs",
+        "1 orange (zeste)",
+        "1/2 citron (zeste râpé)",
+        "Beurre"
+      ],
+      "steps": [
+        "Préchauffer le four à 175°C. Séparer les blancs des jaunes.",
+        "Fouetter les jaunes avec le sucre jusqu'à ce qu'ils soient mousseux.",
+        "Ajouter le zeste d'orange et le citron râpé. Incorporer le fromage blanc.",
+        "Monter les blancs en neige ferme. Les incorporer délicatement à la préparation avec des mouvements circulaires.",
+        "Beurrer une terrine (greixonera) ou un plat en terre cuite. Y verser la préparation.",
+        "Cuire au four environ 45 min jusqu'à ce que la tarte soit prise. Servir tiède ou froid. On peut saupoudrer de cannelle avant cuisson."
+      ]
+    },
+    {
+      "id": "majorque:008",
+      "t": "Robiols (Chaussons Sucrés à la Confiture)",
+      "cat": "Espagne, Majorque, Dessert",
+      "desc": "Petits chaussons sucrés en forme de demi-lune fourrés à la confiture, typiques de Noël et Pâques à Majorque",
+      "min": 60,
+      "serv": 30,
+      "ing": [
+        "1 kg de farine",
+        "200 g de saindoux",
+        "200 g de sucre glace",
+        "3 jaunes d'œufs",
+        "2 c. à soupe d'huile d'olive",
+        "1 orange (jus)",
+        "2 c. à soupe d'eau",
+        "Confiture (abricot, fraise ou fromage blanc)"
+      ],
+      "steps": [
+        "Dans un bol, battre les jaunes avec 150 g de sucre, 2 c. à soupe d'eau, le saindoux et le jus d'orange.",
+        "Ajouter la farine petit à petit en mélangeant. Se mouiller les mains avec l'huile pour faciliter le pétrissage. Former une boule et laisser reposer 20-30 min.",
+        "Fariner le plan de travail et étaler la pâte finement. Découper des ronds de 10-12 cm.",
+        "Déposer 1 c. à soupe de confiture au centre de chaque rond.",
+        "Replier en demi-lune et pincer ou souder avec une fourchette.",
+        "Disposer sur plaque et cuire au four à 180°C pendant 15-20 min jusqu'à légère dorure.",
+        "Laisser refroidir et saupoudrer avec le sucre glace restant."
+      ]
+    },
+    {
+      "id": "majorque:009",
+      "t": "Gatò amb Gelat d'Ametlles (Gâteau aux Amandes et Glace)",
+      "cat": "Espagne, Majorque, Dessert",
+      "desc": "Le dessert roi de Majorque : un gâteau aux amandes sans farine servi avec une glace maison aux amandes et à la cannelle",
+      "min": 90,
+      "serv": 8,
+      "ing": [
+        "Pour le gâteau : 500 g d'amandes mondées",
+        "400 g de sucre",
+        "10 œufs",
+        "Zeste d'1 citron râpé",
+        "1/2 c. à café de cannelle en poudre",
+        "Sucre glace",
+        "1 c. à café de saindoux",
+        "Pour la glace : 1 l de lait",
+        "250 g d'amandes moulues",
+        "300 g de sucre",
+        "Zeste d'1 citron",
+        "1 brin de cannelle"
+      ],
+      "steps": [
+        "Moudre les amandes. Séparer les blancs des jaunes.",
+        "Fouetter les jaunes avec le sucre jusqu'à ce qu'ils moussent. Ajouter les amandes moulues et la cannelle. Mélanger.",
+        "Monter les blancs en neige. Incorporer délicatement à la préparation.",
+        "Graisser un moule rond avec le saindoux. Y verser la préparation. Cuire à 180°C environ 45 min.",
+        "Retirer du moule, laisser refroidir et saupoudrer de sucre glace.",
+        "Pour la glace : faire bouillir le lait avec le zeste de citron et la cannelle. Égoutter. Dans un bol, mélanger le lait filtré avec les amandes moulues. Passer si nécessaire.",
+        "Mettre au congélateur. Remuer de temps en temps pour éviter la cristallisation. Servir en boules avec le gâteau."
+      ]
+    },
+    {
+      "id": "majorque:010",
+      "t": "Calamars Farcits (Calmars Farcis Majorquins)",
+      "cat": "Espagne, Majorque, Poisson",
+      "desc": "Calmars farcis d'une farce originale à la sobrassada, épinards et pignons, mijotés dans une sauce tomate au vin blanc",
+      "min": 90,
+      "serv": 4,
+      "ing": [
+        "6 calmars",
+        "125 g de sobrassada",
+        "60 g de pignons",
+        "1 bouquet d'épinards",
+        "1 oignon",
+        "4 tomates ramellet (ou tomates séchées)",
+        "4 gousses d'ail",
+        "1/2 verre de vin blanc",
+        "Chapelure",
+        "Farine",
+        "1 brin de persil",
+        "Huile d'olive",
+        "1/2 c. à café de paprika doux",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Laver les calmars à l'eau froide, retirer la tête et les nageoires. Retourner et hacher les nageoires. Hacher les épinards. Peler et émincer finement l'oignon. Râper les tomates. Peler l'ail.",
+        "Dans un bol, mélanger épinards, sobrassada, pignons, nageoires hachées et un peu de tomate. Farcir les calmars avec ce mélange et les tentacules. Réserver.",
+        "Dans une cocotte en terre, faire revenir l'oignon dans l'huile. Quand il est transparent, ajouter les tomates râpées, laisser mijoter quelques minutes.",
+        "Ajouter le vin et le paprika. Puis les calmars farcis entiers, les gousses d'ail entières. Saler, poivrer.",
+        "Couvrir d'eau. Bien mélanger. Laisser mijoter très doucement pendant 60 min."
+      ]
+    },
+    {
+      "id": "majorque:011",
+      "t": "Llampuga amb Pebres (Coryphène aux Poivrons)",
+      "cat": "Espagne, Majorque, Poisson",
+      "desc": "Plat traditionnel de Majorque en automne : filets de coryphène (llampuga) mijotés avec poivrons et tomates à l'huile d'olive",
+      "min": 45,
+      "serv": 4,
+      "ing": [
+        "1 coryphène (llampuga) ou filets de daurade",
+        "Poivrons rouges",
+        "400 g de tomates ramellet (ou tomates concassées)",
+        "Gousses d'ail",
+        "1 brin de persil",
+        "Huile d'olive",
+        "Sel",
+        "Poivre noir",
+        "Farine"
+      ],
+      "steps": [
+        "Laver les poivrons, épépiner et couper en lanières. Laver et râper les tomates. Peler et trancher l'ail. Hacher le persil.",
+        "Laver le poisson et couper en tranches épaisses. Saler, poivrer et fariner.",
+        "Dans une cocotte avec de l'huile chaude, faire frire le poisson. Retirer et réserver. Vider l'huile de la farine.",
+        "Dans la même cocotte, chauffer de l'huile propre. Faire revenir l'ail et, quand doré, ajouter les poivrons. Laisser mijoter quelques minutes.",
+        "Ajouter les tomates, mélanger et laisser mijoter jusqu'à ce que les poivrons soient tendres.",
+        "En fin de cuisson, ajouter le persil et le poisson. Bien mélanger et servir chaud."
+      ]
+    },
+    {
+      "id": "majorque:012",
+      "t": "Frit Mallorquí (Poêlée Majorquine Poisson et Fruits de Mer)",
+      "cat": "Espagne, Majorque, Poisson",
+      "desc": "Le frit mallorquí traditionnel : seiches, calamars, lotte et crevettes sautés avec légumes de saison et fenouil, le plat populaire de l'île",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "200 g de seiche",
+        "200 g de calamar",
+        "200 g de lotte",
+        "100 g de crevettes décortiquées",
+        "150 g de pommes de terre",
+        "1 poivron rouge",
+        "1 poivron vert",
+        "3 ciboulettes tendres",
+        "1 aubergine",
+        "1 bulbe de fenouil",
+        "200 g de petits pois (ou fèves)",
+        "1 tête d'ail",
+        "1 feuille de laurier",
+        "Huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Laver et couper la seiche et le calamar en dés. Couper la lotte en dés. Éplucher et couper les pommes de terre. Laver les poivrons, épépiner et couper. Éplucher et hacher les ciboulettes. Laver et couper l'aubergine en dés. Émincer le fenouil.",
+        "Dans une cocotte en terre avec un peu d'huile chaude, faire revenir la seiche, le calamar, la lotte et les crevettes avec le laurier et le fenouil. Retirer et réserver.",
+        "Ajouter un peu d'huile et faire revenir tous les légumes sauf les pommes de terre avec les gousses d'ail entières, sel et poivre.",
+        "Quand les légumes sont tendres, remettre le poisson et les fruits de mer.",
+        "Dans une poêle séparée, faire frire les pommes de terre. Les ajouter à la cocotte. Bien mélanger et servir chaud."
+      ]
+    },
+    {
+      "id": "majorque:013",
+      "t": "Ensaïmada Llisa (Ensaimada Nature)",
+      "cat": "Espagne, Majorque, Dessert",
+      "desc": "Le symbole gastronomique de Majorque : brioche en escargot au saindoux, légère et filante, saupoudrée de sucre glace",
+      "min": 240,
+      "serv": 8,
+      "ing": [
+        "1 kg de farine",
+        "250 g de saindoux",
+        "100 g de sucre",
+        "40 g de levure fraîche pressée",
+        "3 œufs",
+        "1 c. à soupe d'huile d'olive",
+        "Sucre glace"
+      ],
+      "steps": [
+        "Diluer la levure dans un peu d'eau tiède (ou lait). Dans un bol, faire un puits dans la farine, verser la levure diluée et le sucre. Pétrir pour obtenir une pâte souple. Laisser reposer 2 h dans un endroit tiède jusqu'à doubler de volume.",
+        "Ajouter les œufs un par un, avec de la farine si nécessaire, en pétrissant bien. Former une pâte consistante et laisser reposer encore 20 min.",
+        "Fariner le plan de travail et étaler la pâte en long morceau fin. Badigeonner d'une couche de saindoux.",
+        "Rouler et former une spirale. Laisser reposer dans un endroit tiède pour doubler de volume.",
+        "Huiler une plaque à pâtisserie. Déposer l'ensaimada. Cuire à feu moyen jusqu'à croustillant.",
+        "Laisser refroidir et saupoudrer de sucre glace."
+      ]
+    },
+    {
+      "id": "majorque:014",
+      "t": "Panades de Carn (Chaussons à l'Agneau)",
+      "cat": "Espagne, Majorque, Plat",
+      "desc": "Chaussons cylindriques majorquins à la pâte au saindoux, farcis d'agneau, bacon et sobrassada, traditionnellement préparés à Pâques",
+      "min": 120,
+      "serv": 8,
+      "ing": [
+        "1 gigot d'agneau désossé",
+        "200 g de bacon frais",
+        "200 g de sobrassada",
+        "1,5 kg de farine",
+        "500 g de saindoux",
+        "150 ml d'huile d'olive",
+        "4 jaunes d'œufs",
+        "200 ml d'eau tiède",
+        "Sel, poivre noir"
+      ],
+      "steps": [
+        "Couper l'agneau et la sobrassada en petits morceaux. Assaisonner avec sel et poivre. Mélanger et laisser reposer au moins 1 h.",
+        "Préparer la pâte : mélanger le saindoux, l'huile d'olive et les jaunes d'œufs jusqu'à obtenir une pâte crémeuse.",
+        "Ajouter l'eau tiède et la farine en mélangeant bien. Pétrir pour obtenir une pâte compacte et souple.",
+        "Former 8 boules. Étaler chaque boule, la couper en deux et la mouler comme une petite coupelle de 10-15 cm. Garnir avec la farce à l'agneau. Couvrir avec l'autre moitié de pâte (aussi ronde). Fermer en pinçant les deux parties.",
+        "Disposer dans un plat allant au four. Faire un petit trou au centre de chaque chausson pour laisser échapper la vapeur.",
+        "Cuire au four préchauffé à 180°C pendant 30 min."
+      ]
     }
   ]
 }
