@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.86';
+const APP_VERSION = '2.87';
 
 let ALL = [];
 let BASE = [];
@@ -663,6 +663,7 @@ function _gridAppendPage(){
 
 /* ---------- fiche ---------- */
 function splitSteps(txt){
+  if (Array.isArray(txt)) return txt.map(s=>s.trim()).filter(Boolean);
   let parts = (txt||'').split(/\r?\n+/).map(s=>s.trim()).filter(Boolean);
   if (parts.length<2){
     parts = (txt||'').split(/(?<=[.!?])\s+(?=[A-ZÀ-ÝÉÈ0-9])/).map(s=>s.trim()).filter(Boolean);
