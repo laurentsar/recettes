@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.89';
+const APP_VERSION = '2.90';
 
 let ALL = [];
 let BASE = [];
@@ -2432,12 +2432,10 @@ let wizSt = { step:0, types:new Set(), regime:'', temps:'', saison:new Set(), co
 function openWizard(){
   wizSt = { step:0, types:new Set(), regime:'', temps:'', saison:new Set(), complexite:'' };
   document.getElementById('wizard').hidden = false;
-  document.body.style.overflow = 'hidden';
   wzRender();
 }
 function closeWizard(){
   document.getElementById('wizard').hidden = true;
-  document.body.style.overflow = '';
 }
 function wizardPrev(){
   if(wizSt.step === 0){ closeWizard(); return; }
@@ -2519,11 +2517,10 @@ function wzRender(){
   body.querySelectorAll('.wz-opt').forEach(btn=>{
     btn.addEventListener('click',()=>{
       const val = btn.dataset.val;
-      if(s===0){ if(wizSt.types.has(val)) wizSt.types.delete(val); else wizSt.types.add(val); }
-      else if(s===1) wizSt.regime=val;
-      else if(s===2) wizSt.temps=val;
-      else if(s===4) wizSt.complexite=val;
-      wzRender();
+      if(s===0){ if(wizSt.types.has(val)) wizSt.types.delete(val); else wizSt.types.add(val); wzRender(); }
+      else if(s===1){ wizSt.regime=val; setTimeout(wizardNext,120); }
+      else if(s===2){ wizSt.temps=val; setTimeout(wizardNext,120); }
+      else if(s===4){ wizSt.complexite=val; setTimeout(wizardNext,120); }
     });
   });
   // Bind wz-chip
