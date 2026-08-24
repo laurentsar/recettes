@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.88';
+const APP_VERSION = '2.89';
 
 let ALL = [];
 let BASE = [];
@@ -2490,7 +2490,7 @@ function wzRender(){
     html += wzOptsHtml([
       {val:'tout',           label:'🍖 Tout (avec viande)'},
       {val:'sansvianderge',  label:'🐟 Sans viande rouge (poisson OK)'},
-      {val:'vegetarien',     label:'🥦 Végétarien'},
+      {val:'pescatarien',    label:'🦐 Sans viande (crevettes & poisson OK)'},
       {val:'vegan',          label:'🌱 Vegan'},
     ], new Set([wizSt.regime]));
   } else if(s===2){
@@ -2554,7 +2554,7 @@ function wzScore(r, habitScores){
   if(wizSt.regime && wizSt.regime!=='tout'){
     const hasKw = kw=>matchKw(r,kw);
     if(wizSt.regime==='sansvianderge'){ if(WZ_RED_MEAT.some(hasKw)) return -1; }
-    else if(wizSt.regime==='vegetarien'){ if(!checkDiet(r,'vegetarien')) return -1; }
+    else if(wizSt.regime==='pescatarien'){ if(_MEAT_KWS.some(hasKw)) return -1; }
     else if(wizSt.regime==='vegan'){ if(!checkDiet(r,'vegan')) return -1; }
     score += 80;
   }
