@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.84';
+const APP_VERSION = '2.85';
 
 let ALL = [];
 let BASE = [];
@@ -1465,7 +1465,7 @@ const elCocktailGrid = document.getElementById('cocktail-grid');
 const elCocktailDetail = document.getElementById('cocktail-detail');
 
 const MODE_GROUPS = {
-  regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas','belgique'] },
+  regions:         { subs: ['corse','espagne','majorque','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas','belgique'] },
   ustensiles:      { subs: ['airfryer','thermomix'] },
   aperitif:        { subs: ['tartinades','wraps','bouchees','brochettes','paninis','samoussas'] },
   oeufs:           { subs: ['omelettes','cocottes','preparations'] },
@@ -1474,7 +1474,7 @@ const MODE_GROUPS = {
   sante:           { subs: ['sansgluten','proteines','antiinflamm','vegetarien','vegan','keto','rapide'] },
 };
 const SUB_TAB_LABELS = {
-  corse:'🏝️ Corse', espagne:'🇪🇸 Espagne', portugal:'🇵🇹 Portugal',
+  corse:'🏝️ Corse', espagne:'🇪🇸 Espagne', majorque:'🏝️ Majorque', portugal:'🇵🇹 Portugal',
   italie:'🇮🇹 Italie', grece:'🇬🇷 Grèce', france:'🇫🇷 France',
   japon:'🇯🇵 Japon', asie:'🍜 Asie', maghreb:'🫖 Maghreb',
   allemagne:'🇩🇪 Allemagne', gb:'🇬🇧 Grande-Bretagne', australie:'🇦🇺 Australie',
@@ -1490,7 +1490,7 @@ const SUB_TAB_LABELS = {
 };
 const MODE_CAT = {
   airfryer: 'Airfryer', thermomix: 'Thermomix',
-  corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal',
+  corse: 'Corse', espagne: 'Espagne', majorque: 'Majorque', portugal: 'Portugal',
   italie: 'Italie', grece: 'Grèce', france: 'France',
   japon: 'Japon', asie: 'Asie', maghreb: 'Maghreb',
   allemagne: 'Allemagne', gb: 'Grande-Bretagne', australie: 'Australie',
