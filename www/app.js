@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.87';
+const APP_VERSION = '2.88';
 
 let ALL = [];
 let BASE = [];
@@ -670,8 +670,33 @@ function splitSteps(txt){
   }
   return parts;
 }
+function trackView(id){
+  try {
+    const hist = JSON.parse(localStorage.getItem('recetteHistory')||'[]');
+    hist.push({id:String(id), ts:Date.now()});
+    if(hist.length>600) hist.splice(0, hist.length-600);
+    localStorage.setItem('recetteHistory', JSON.stringify(hist));
+  } catch(e){}
+}
+function getHabitScores(){
+  try {
+    const hist = JSON.parse(localStorage.getItem('recetteHistory')||'[]');
+    const now = Date.now(); const dow = new Date().getDay(); const mon = new Date().getMonth();
+    const scores = {};
+    for(const {id, ts} of hist){
+      const age = (now-ts)/(86400000);
+      const d = new Date(ts);
+      let w = age < 7 ? 4 : age < 30 ? 2 : 1;
+      if(d.getDay()===dow) w += 2;
+      if(d.getMonth()===mon) w += 1;
+      scores[id] = (scores[id]||0) + w;
+    }
+    return scores;
+  } catch(e){ return {}; }
+}
 function openDetail(id){
   const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
+  trackView(id);
   const isFav = favs.has(r.id);
   const hero = r.img
     ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph>🍲</div>'">`
@@ -2299,6 +2324,10 @@ async function init(){
     document.addEventListener('click', ()=>{ if(moreMenu) moreMenu.hidden=true; });
     moreMenu.addEventListener('click', ()=>{ moreMenu.hidden=true; });
   }
+  document.getElementById('wizard-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; openWizard(); });
+  document.getElementById('wizard-close-btn').addEventListener('click', closeWizard);
+  document.getElementById('wz-prev').addEventListener('click', wizardPrev);
+  document.getElementById('wz-next').addEventListener('click', wizardNext);
   document.getElementById('frigo-btn').addEventListener('click', openFrigo);
   document.getElementById('frigo-back').addEventListener('click', closeFrigo);
   document.getElementById('panier-btn').addEventListener('click', openPanier);
@@ -2382,6 +2411,219 @@ async function init(){
   setupAndroidBack();
   if ('serviceWorker' in navigator){ try{ navigator.serviceWorker.register('sw.js'); }catch(e){} }
 }
+/* ========== WIZARD SUGGESTIONS ========== */
+const WZ_BASIC = new Set(['oignon','ail','echalote','radis','laitue','salade','sel','poivre']);
+const WZ_TYPE_NORMS = {
+  entree:   ['entree','soupe','salade','quiche','terrine','veloute','gaspacho','tarte salee'],
+  plat:     ['plat','viande','poisson','volaille','legume','riz','pates','tajine','gratin','ragout','curry','wok','vegetarien','vegan','risotto','couscous','poele','fricassee','saumon','poulet','boeuf'],
+  dessert:  ['dessert','patisserie','gateau','glace','mousse','biscuit','cake','crepe','tarte','confiture'],
+  aperitif: ['aperitif','tapas','bouchee','brochette','tartinade','wrap','panini','samoussa','canape','rillette'],
+};
+const WZ_RED_MEAT = ['boeuf','veau','porc','agneau','mouton','steak','merguez'];
+const WZ_STEPS_DEF = [
+  { title:'Type de plat',           sub:'Plusieurs choix possibles' },
+  { title:'Régime alimentaire',     sub:'Un seul choix' },
+  { title:'Temps disponible',       sub:'Un seul choix' },
+  { title:'Légumes & fruits',       sub:'Ceux que tu as (facultatif)' },
+  { title:'Complexité',             sub:'Un seul choix' },
+];
+let wizSt = { step:0, types:new Set(), regime:'', temps:'', saison:new Set(), complexite:'' };
+
+function openWizard(){
+  wizSt = { step:0, types:new Set(), regime:'', temps:'', saison:new Set(), complexite:'' };
+  document.getElementById('wizard').hidden = false;
+  document.body.style.overflow = 'hidden';
+  wzRender();
+}
+function closeWizard(){
+  document.getElementById('wizard').hidden = true;
+  document.body.style.overflow = '';
+}
+function wizardPrev(){
+  if(wizSt.step === 0){ closeWizard(); return; }
+  wizSt.step--;
+  wzRender();
+}
+function wizardNext(){
+  if(wizSt.step === 0 && wizSt.types.size === 0) return;
+  wizSt.step++;
+  wzRender();
+}
+
+function wzSeasonItems(){
+  return (SEASON[monthNow()]||[]).filter(k=> !WZ_BASIC.has(k)).slice(0,18);
+}
+function wzStepsCount(r){
+  return Array.isArray(r.steps) ? r.steps.length : splitSteps(r.steps).length;
+}
+
+function wzRender(){
+  const s = wizSt.step;
+  const total = WZ_STEPS_DEF.length;
+  document.getElementById('wizard-title').textContent = s < total ? WZ_STEPS_DEF[s].title : '✨ Suggestions';
+  // Progress dots
+  const prog = document.getElementById('wizard-prog');
+  prog.innerHTML = Array.from({length:total},(_,i)=>`<span class="wz-dot${i===s?' active':i<s?' done':''}"></span>`).join('');
+  // Footer
+  const prevBtn = document.getElementById('wz-prev');
+  const nextBtn = document.getElementById('wz-next');
+  const footer  = document.getElementById('wizard-footer');
+  if(s >= total){ footer.hidden=true; } else {
+    footer.hidden = false;
+    prevBtn.textContent  = s===0 ? '✕ Fermer' : '← Précédent';
+    nextBtn.textContent  = s===total-1 ? '✨ Voir les recettes' : 'Suivant →';
+    nextBtn.disabled     = s===0 && wizSt.types.size===0;
+  }
+  // Body
+  const body = document.getElementById('wizard-body');
+  if(s === total){ wzRenderResults(body); return; }
+  const def = WZ_STEPS_DEF[s];
+  let html = `<div class="wz-question">${esc(def.title)}</div><div class="wz-sub">${esc(def.sub)}</div>`;
+  if(s===0){
+    html += wzOptsHtml([
+      {val:'entree',   label:'🥗 Entrée / Soupe'},
+      {val:'plat',     label:'🍽️ Plat principal'},
+      {val:'dessert',  label:'🍰 Dessert'},
+      {val:'aperitif', label:'🥂 Apéritif / Snack'},
+    ], wizSt.types);
+  } else if(s===1){
+    html += wzOptsHtml([
+      {val:'tout',           label:'🍖 Tout (avec viande)'},
+      {val:'sansvianderge',  label:'🐟 Sans viande rouge (poisson OK)'},
+      {val:'vegetarien',     label:'🥦 Végétarien'},
+      {val:'vegan',          label:'🌱 Vegan'},
+    ], new Set([wizSt.regime]));
+  } else if(s===2){
+    html += wzOptsHtml([
+      {val:'rapide', label:'⚡ Rapide — ≤ 30 min'},
+      {val:'moyen',  label:'🕐 Moyen — ≤ 60 min'},
+      {val:'all',    label:'🍳 Peu importe'},
+    ], new Set([wizSt.temps]));
+  } else if(s===3){
+    const items = wzSeasonItems();
+    const MNAMES=['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+    html += `<div class="wz-saison-note">🌿 De saison en ${MNAMES[monthNow()-1]} — sélectionne ce que tu as :</div>`;
+    html += '<div class="wz-chips">';
+    items.forEach(k=>{ const a=wizSt.saison.has(k)?' active':''; html+=`<button class="wz-chip${a}" data-kw="${k}">${esc(cap(k))}</button>`; });
+    html += '</div><div class="wz-skip-note">Passe si tu n\'as pas de préférence.</div>';
+  } else if(s===4){
+    html += wzOptsHtml([
+      {val:'simple',  label:'😊 Simple — peu d\'étapes'},
+      {val:'normal',  label:'🧑‍🍳 Intermédiaire'},
+      {val:'complexe',label:'👨‍🍳 Complexe / Technique'},
+      {val:'all',     label:'🎲 Peu importe'},
+    ], new Set([wizSt.complexite]));
+  }
+  body.innerHTML = html;
+  // Bind wz-opt
+  body.querySelectorAll('.wz-opt').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const val = btn.dataset.val;
+      if(s===0){ if(wizSt.types.has(val)) wizSt.types.delete(val); else wizSt.types.add(val); }
+      else if(s===1) wizSt.regime=val;
+      else if(s===2) wizSt.temps=val;
+      else if(s===4) wizSt.complexite=val;
+      wzRender();
+    });
+  });
+  // Bind wz-chip
+  body.querySelectorAll('.wz-chip').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const kw=btn.dataset.kw;
+      if(wizSt.saison.has(kw)) wizSt.saison.delete(kw); else wizSt.saison.add(kw);
+      wzRender();
+    });
+  });
+}
+
+function wzOptsHtml(opts, selected){
+  return '<div class="wz-options">' + opts.map(o=>`<button class="wz-opt${selected.has(o.val)?' active':''}" data-val="${o.val}">${esc(o.label)}</button>`).join('') + '</div>';
+}
+
+function wzScore(r, habitScores){
+  let score = 0;
+  // Type (hard)
+  if(wizSt.types.size>0){
+    const catN = norm(r.cat||'');
+    let ok=false;
+    for(const t of wizSt.types){ if(WZ_TYPE_NORMS[t]&&WZ_TYPE_NORMS[t].some(kw=>catN.includes(kw))){ ok=true; break; } }
+    if(!ok) return -1;
+    score += 100;
+  }
+  // Régime (hard)
+  if(wizSt.regime && wizSt.regime!=='tout'){
+    const hasKw = kw=>matchKw(r,kw);
+    if(wizSt.regime==='sansvianderge'){ if(WZ_RED_MEAT.some(hasKw)) return -1; }
+    else if(wizSt.regime==='vegetarien'){ if(!checkDiet(r,'vegetarien')) return -1; }
+    else if(wizSt.regime==='vegan'){ if(!checkDiet(r,'vegan')) return -1; }
+    score += 80;
+  }
+  // Temps (hard)
+  if(wizSt.temps==='rapide'){ if(!r.min||r.min>30) return -1; score+=60; }
+  else if(wizSt.temps==='moyen'){ if(r.min&&r.min>60) return -1; score+=50; }
+  // Saison (soft)
+  if(wizSt.saison.size>0){ for(const kw of wizSt.saison) if(matchKw(r,kw)) score+=25; }
+  // Complexité (soft)
+  const sc=wzStepsCount(r); const ic=(r.ing||[]).length;
+  if(wizSt.complexite==='simple'){ score += (sc<=4&&ic<=9)?60:(sc<=5||ic<=10)?30:-10; }
+  else if(wizSt.complexite==='normal'){ score += (sc>=4&&sc<=7)?60:20; }
+  else if(wizSt.complexite==='complexe'){ score += (sc>=7||ic>=12)?60:sc>=5?30:0; }
+  // Habitudes (soft)
+  score += Math.min((habitScores[String(r.id)]||0)*5, 40);
+  return score;
+}
+
+function wzRenderResults(body){
+  const habitScores = getHabitScores();
+  const scored = ALL
+    .map(r=>({r, score: wzScore(r, habitScores) + Math.random()*4}))
+    .filter(x=>x.score>=0)
+    .sort((a,b)=>b.score-a.score);
+  const results = scored.slice(0,10);
+
+  // Habitudes : top 5 most viewed
+  const topHabits = Object.entries(habitScores)
+    .sort((a,b)=>b[1]-a[1]).slice(0,5)
+    .map(([id])=>ALL.find(x=>String(x.id)===String(id))).filter(Boolean);
+
+  let html = '';
+  if(topHabits.length){
+    html += '<div class="wz-habit-section">';
+    html += '<div class="wz-habit-title">🔁 Tes habitudes</div>';
+    html += '<div class="wz-habit-strip">';
+    topHabits.forEach(r=>{
+      const img = r.img
+        ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=wz-hph>🍽️</div>'">`
+        : '<div class="wz-hph">🍽️</div>';
+      html += `<div class="wz-habit-card" data-id="${esc(r.id)}">${img}<div class="wz-habit-name">${esc(r.t)}</div></div>`;
+    });
+    html += '</div></div>';
+  }
+
+  if(!results.length){
+    html += '<div class="wz-empty">😕 Aucune recette ne correspond à tous tes critères.<br>Essaie d\'élargir tes choix !</div>';
+  } else {
+    html += `<div class="wz-result-label">${results.length} recette${results.length>1?'s':''} sélectionnée${results.length>1?'s':''}</div>`;
+    html += '<div class="wz-result-grid">';
+    results.forEach(({r})=>{
+      const img = r.img
+        ? `<img class="wz-thumb" src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=wz-ph>🍽️</div>'">`
+        : '<div class="wz-ph">🍽️</div>';
+      const meta = [r.min?'⏱️ '+r.min+' min':'', r.serv?'🍽️ '+r.serv+' pers.':''].filter(Boolean).join(' · ');
+      const hab = (habitScores[String(r.id)]||0)>3 ? '<span class="wz-badge">🔁 Habituel</span>' : '';
+      html += `<div class="wz-rcard" data-id="${esc(r.id)}">${img}<div class="wz-rinfo"><div class="wz-rt">${esc(r.t)}${hab}</div><div class="wz-rmeta">${esc(meta||catList(r).slice(0,2).join(' · '))}</div></div></div>`;
+    });
+    html += '</div>';
+  }
+  html += '<button class="wz-restart" id="wz-restart-btn">🔄 Recommencer</button>';
+  body.innerHTML = html;
+
+  body.querySelectorAll('.wz-rcard,.wz-habit-card').forEach(c=>{
+    c.addEventListener('click',()=>{ closeWizard(); openDetail(c.dataset.id); });
+  });
+  document.getElementById('wz-restart-btn').addEventListener('click', openWizard);
+}
+
 init();
 
 /* ---------- bouton RETOUR Android : ferme l'écran du dessus au lieu de quitter l'appli ---------- */
@@ -2397,6 +2639,7 @@ function setupAndroidBack(){
     ['settings',     closeSettings],
     ['plan-picker',  closePlanPicker],
     ['plan',         closePlan],
+    ['wizard',       closeWizard],
     ['batch',        closeBatch],
     ['panier',       closePanier],
     ['detail',       closeDetail],

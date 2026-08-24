@@ -25,6 +25,7 @@
         <div class="more-menu" id="more-menu" hidden>
           <button id="photos-btn" class="more-menu-item">📷 Photos</button>
           <button id="import-btn" class="more-menu-item">⬇ Importer</button>
+          <button id="wizard-btn" class="more-menu-item">✨ Suggestions</button>
         </div>
       </div>
       <button id="sync-btn" title="Synchroniser les recettes" aria-label="Synchroniser">↻</button>
@@ -149,6 +150,18 @@
       <div id="plan-picker-grid" class="plan-picker-grid"></div>
     </div>
   </div>
+  <div id="wizard" class="wizard-panel" hidden>
+    <div class="wizard-head">
+      <button class="wizard-close-btn" id="wizard-close-btn" aria-label="Fermer">←</button>
+      <div class="wizard-title" id="wizard-title">Suggestions</div>
+      <div class="wz-dots" id="wizard-prog"></div>
+    </div>
+    <div id="wizard-body" class="wizard-body-area"></div>
+    <div class="wizard-footer" id="wizard-footer">
+      <button class="wz-nav" id="wz-prev">← Précédent</button>
+      <button class="wz-nav wz-primary" id="wz-next">Suivant →</button>
+    </div>
+  </div>
   <div id="toast" class="toast" hidden></div>
   <div id="settings" class="settings-panel" hidden>
     <div class="settings-head">
@@ -169,7 +182,7 @@
   </div>
 
   <script src="app.js"></script>
-  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.87';</script>
+  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.88';</script>
   <script src="update-check.js" defer></script>
   <script>window.BACKUP_APP = 'recettes-app'; window.BACKUP_SKIP = [/^recipesData$/];</script>
   <script src="autobackup.js"></script>
