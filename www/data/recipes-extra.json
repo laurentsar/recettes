@@ -16112,6 +16112,76 @@
       "min": 100
     },
     {
+      "id": "pizza:006",
+      "title": "Pâte à Pizza Fine et Croustillante",
+      "cat": "Techniques, Italie, Pizza",
+      "ing": ["500g farine", "300ml eau tiède", "7g levure boulangère sèche", "1 c.à.c. sel", "2 c.à.s. huile d'olive"],
+      "steps": [
+        "Dissoudre la levure dans l'eau tiède. Laisser reposer 5-10 min jusqu'à ce qu'elle mousse.",
+        "Mélanger la farine et le sel. Ajouter l'eau levurée et l'huile d'olive.",
+        "Pétrir 8-10 min jusqu'à obtenir une pâte lisse et élastique.",
+        "Laisser lever 1h dans un endroit chaud, couverte d'un linge propre.",
+        "Étaler très finement sur une surface farinée. Garnir et cuire 12-15 min à 240°C pour une croûte croustillante."
+      ],
+      "min": 85
+    },
+    {
+      "id": "pizza:007",
+      "title": "Pâte à Pizza Moelleuse",
+      "cat": "Techniques, Italie, Pizza",
+      "ing": ["500g farine", "320ml eau tiède", "7g levure boulangère sèche", "1 c.à.c. sucre", "1 c.à.c. sel", "2 c.à.s. huile d'olive"],
+      "steps": [
+        "Dissoudre la levure et le sucre dans l'eau tiède. Laisser activer 5-10 min.",
+        "Mélanger la farine et le sel. Creuser un puits, verser l'eau levurée et l'huile d'olive.",
+        "Pétrir 10 min vigoureusement jusqu'à obtenir une pâte souple et élastique.",
+        "Laisser lever 1h30 couverte. La pâte doit doubler de volume.",
+        "Étaler en gardant une légère épaisseur. Garnir et cuire 12-15 min à 220°C. La pâte sera dorée et moelleuse."
+      ],
+      "min": 105
+    },
+    {
+      "id": "pizza:008",
+      "title": "Pâte à Pizza Express (Sans Levure Boulangère)",
+      "cat": "Techniques, Italie, Pizza",
+      "ing": ["300g farine", "1 yaourt nature", "1 sachet levure chimique", "1 pincée de sel", "1 c.à.s. huile d'olive"],
+      "steps": [
+        "Mélanger la farine, la levure chimique et le sel dans un bol.",
+        "Ajouter le yaourt nature et l'huile d'olive. Mélanger jusqu'à former une boule.",
+        "Pétrir 2-3 min. Pas besoin de temps de levée.",
+        "Étaler directement sur une surface farinée à l'épaisseur souhaitée.",
+        "Garnir selon votre goût et cuire 12-15 min à 220°C jusqu'à ce que les bords soient dorés."
+      ],
+      "min": 25
+    },
+    {
+      "id": "pizza:009",
+      "title": "Pâte à Pizza Complète",
+      "cat": "Techniques, Italie, Pizza",
+      "ing": ["250g farine complète", "250g farine de blé", "320ml eau tiède", "7g levure boulangère sèche", "1 c.à.c. sel", "2 c.à.s. huile d'olive"],
+      "steps": [
+        "Dissoudre la levure dans l'eau tiède. Laisser reposer 5-10 min.",
+        "Mélanger les deux farines et le sel. Incorporer l'eau levurée et l'huile d'olive.",
+        "Pétrir 10 min. La pâte complète sera plus dense qu'une pâte blanche, c'est normal.",
+        "Laisser lever 1h30 couverte. Elle montera moins qu'une pâte blanche.",
+        "Étaler sur une surface farinée. Garnir et cuire 15-18 min à 220°C."
+      ],
+      "min": 110
+    },
+    {
+      "id": "pizza:010",
+      "title": "Pâte à Pizza Herbes et Huile d'Olive",
+      "cat": "Techniques, Italie, Pizza",
+      "ing": ["500g farine", "300ml eau tiède", "7g levure boulangère sèche", "1 c.à.c. sel", "3 c.à.s. huile d'olive", "herbes de Provence"],
+      "steps": [
+        "Dissoudre la levure dans l'eau tiède. Laisser reposer 5-10 min jusqu'à ce qu'elle mousse.",
+        "Mélanger la farine, le sel et les herbes de Provence généreusement.",
+        "Incorporer l'eau levurée et l'huile d'olive. Pétrir 8-10 min.",
+        "Laisser lever 1h couverte. La pâte sera parfumée aux herbes.",
+        "Étaler, badigeonner d'un filet d'huile d'olive avant de garnir. Cuire 12-15 min à 230°C."
+      ],
+      "min": 85
+    },
+    {
       "id": "marinade:001",
       "title": "Marinade Poulet Grecque",
       "cat": "Techniques, Poulet, BBQ",
