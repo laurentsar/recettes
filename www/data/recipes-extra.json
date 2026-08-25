@@ -16035,6 +16035,396 @@
         "Disposer dans un plat allant au four. Faire un petit trou au centre de chaque chausson pour laisser échapper la vapeur.",
         "Cuire au four préchauffé à 180°C pendant 30 min."
       ]
+    },
+    {
+      "id": "pizza:001",
+      "title": "Pâte à Pizza Classique",
+      "cat": "Techniques, Italie, Pizza",
+      "ing": ["400g farine", "300ml eau chaude", "2 c.à.s. huile", "1 c.à.s. sucre", "1 c.à.c. sel", "1 sachet levure sèche"],
+      "steps": [
+        "Dissoudre la levure et le sucre dans l'eau chaude (40°C). Laisser activer 5-10 min jusqu'à ce qu'elle mousse.",
+        "Mélanger la farine et le sel dans un grand bol. Faire un puits au centre.",
+        "Verser l'eau levurée et l'huile. Mélanger jusqu'à obtenir une boule rugueuse.",
+        "Pétrir sur un plan fariné 8-10 min jusqu'à obtenir une pâte lisse, souple et élastique.",
+        "Placer dans un bol huilé, couvrir d'un torchon. Laisser lever 1h à température ambiante jusqu'à doubler de volume.",
+        "Dégazer, former une boule, étaler et garnir selon votre goût."
+      ],
+      "min": 90
+    },
+    {
+      "id": "pizza:002",
+      "title": "Pâte à Pizza Napolitaine",
+      "cat": "Techniques, Italie, Pizza",
+      "ing": ["400g farine 00 (ou farine T45)", "300ml eau froide", "2 c.à.c. sel", "¼ c.à.c. levure sèche (optionnel)"],
+      "steps": [
+        "Dissoudre la levure dans l'eau froide si vous l'utilisez (la pâte napolitaine peut se faire sans levure grâce à une longue fermentation).",
+        "Mélanger la farine et le sel dans un grand bol. Verser l'eau progressivement.",
+        "Mélanger jusqu'à obtenir une pâte, puis pétrir vigoureusement 10-15 min pour bien développer le gluten.",
+        "Emballer dans du film alimentaire. Laisser fermenter 24-48h au réfrigérateur pour une saveur optimale.",
+        "Sortir 1-2h avant utilisation. Former des boules de 280g, laisser reposer 30 min à température ambiante.",
+        "Étaler à la main sans rouleau en poussant l'air vers les bords pour former la corniche."
+      ],
+      "min": 120
+    },
+    {
+      "id": "pizza:003",
+      "title": "Pâte à Pizza Fine et Croustillante",
+      "cat": "Techniques, Italie, Pizza",
+      "ing": ["280g farine", "60ml eau chaude", "2 c.à.s. huile d'olive", "1 c.à.c. sucre", "1 c.à.c. sel", "1 sachet levure sèche"],
+      "steps": [
+        "Dissoudre la levure dans l'eau chaude avec le sucre. Activer 5 min.",
+        "Mélanger farine et sel. Incorporer l'eau levurée et l'huile d'olive.",
+        "Pétrir 6-8 min. La pâte sera plus ferme et sèche qu'une pâte classique.",
+        "Laisser lever 30-45 min couverte.",
+        "Étaler très finement au rouleau (2-3mm). Piquer le fond avec une fourchette.",
+        "Précuire 5 min à 240°C avant de garnir pour garantir le croustillant."
+      ],
+      "min": 60
+    },
+    {
+      "id": "pizza:004",
+      "title": "Pâte à Pizza Chicago Deep Dish",
+      "cat": "Techniques, Italie, Pizza",
+      "ing": ["400g farine", "60ml eau chaude", "60ml huile d'olive", "60g beurre fondu", "1 c.à.s. sucre", "1¼ c.à.c. sel", "1 sachet levure sèche"],
+      "steps": [
+        "Dissoudre la levure dans l'eau tiède avec le sucre. Laisser mousser 5 min.",
+        "Mélanger farine et sel. Incorporer l'eau levurée, l'huile d'olive et le beurre fondu.",
+        "Pétrir 5-7 min. La pâte sera plus grasse et tendre qu'une pâte classique.",
+        "Laisser lever 1h couverte.",
+        "Huiler généreusement un moule à bords hauts (28cm). Étaler la pâte en faisant remonter les bords sur 4-5cm.",
+        "Garnir en commençant par le fromage, puis les garnitures, et enfin la sauce tomate par-dessus. Cuire 25-30 min à 200°C."
+      ],
+      "min": 120
+    },
+    {
+      "id": "pizza:005",
+      "title": "Pâte à Pizza Croûte Farcie",
+      "cat": "Techniques, Italie, Pizza",
+      "ing": ["400g farine", "300ml eau chaude", "2 c.à.s. huile d'olive", "1 c.à.s. sucre", "1 c.à.c. sel", "1 sachet levure sèche", "bâtonnets de mozzarella"],
+      "steps": [
+        "Dissoudre la levure et le sucre dans l'eau chaude. Activer 5-10 min.",
+        "Mélanger farine, sel, eau levurée et huile. Pétrir 8-10 min. Laisser lever 1h.",
+        "Étaler la pâte en cercle légèrement plus grand que le moule (3-4 cm de marge).",
+        "Disposer les bâtonnets de mozzarella tout autour du bord de la pâte, sans les superposer.",
+        "Replier le bord de pâte sur les bâtonnets et appuyer fermement pour sceller.",
+        "Garnir le centre, cuire 12-15 min à 220°C jusqu'à ce que la croûte soit bien dorée."
+      ],
+      "min": 100
+    },
+    {
+      "id": "marinade:001",
+      "title": "Marinade Poulet Grecque",
+      "cat": "Techniques, Poulet, BBQ",
+      "ing": ["moutarde de Dijon 2 c.à.s.", "épices à steak 1 c.à.s.", "sauce soja 2 c.à.s.", "ail 3 gousses", "origan séché 1 c.à.c.", "feuilles de laurier 2"],
+      "steps": [
+        "Mélanger la moutarde de Dijon, les épices à steak et la sauce soja dans un bol.",
+        "Écraser l'ail, l'incorporer avec l'origan et les feuilles de laurier froissées.",
+        "Enduire généreusement les morceaux de poulet. Mariner au minimum 2h (idéalement une nuit) au réfrigérateur.",
+        "Cuire au BBQ à feu moyen 6-8 min par côté, ou au four à 200°C pendant 30-35 min."
+      ],
+      "min": 15
+    },
+    {
+      "id": "marinade:002",
+      "title": "Marinade Poulet Paprika Fumé",
+      "cat": "Techniques, Poulet, BBQ",
+      "ing": ["paprika fumé 2 c.à.s.", "jus de 1 citron", "ail 3 gousses", "huile d'olive 3 c.à.s.", "sel, poivre"],
+      "steps": [
+        "Mélanger le paprika fumé, le jus de citron, l'ail écrasé et l'huile d'olive. Saler et poivrer.",
+        "Badigeonner généreusement les morceaux de poulet. Mariner 1-4h au frais.",
+        "Griller au BBQ 15-20 min selon l'épaisseur, en retournant à mi-cuisson.",
+        "Servir avec une salade fraîche ou des légumes grillés."
+      ],
+      "min": 15
+    },
+    {
+      "id": "marinade:003",
+      "title": "Marinade Poulet Miel et Moutarde",
+      "cat": "Techniques, Poulet, BBQ",
+      "ing": ["miel 3 c.à.s.", "moutarde de Dijon 2 c.à.s.", "vinaigre de vin rouge 1 c.à.s.", "huile d'olive 2 c.à.s.", "sel, poivre"],
+      "steps": [
+        "Fouetter ensemble le miel, la moutarde de Dijon, le vinaigre de vin rouge et l'huile d'olive jusqu'à émulsion.",
+        "Saler et poivrer. Immerger le poulet et laisser mariner 2-4h au réfrigérateur.",
+        "Griller au BBQ ou rôtir au four à 180°C, en badigeonnant régulièrement avec la marinade pour caraméliser.",
+        "La moutarde crée une belle croûte dorée. Surveiller pour ne pas brûler."
+      ],
+      "min": 15
+    },
+    {
+      "id": "marinade:004",
+      "title": "Marinade Poulet Moutarde et Érable",
+      "cat": "Techniques, Poulet, BBQ",
+      "ing": ["sirop d'érable 3 c.à.s.", "moutarde de Dijon 2 c.à.s.", "huile végétale 2 c.à.s.", "ail 2 gousses", "sel, poivre"],
+      "steps": [
+        "Mélanger le sirop d'érable, la moutarde de Dijon, l'ail écrasé et l'huile. Saler et poivrer.",
+        "Mariner le poulet au moins 2h au réfrigérateur, de préférence une nuit.",
+        "Cuire au BBQ à feu moyen, en badigeonnant souvent avec le reste de marinade pour caraméliser.",
+        "Attention : le sirop d'érable caramélise vite, surveiller et baisser le feu si nécessaire."
+      ],
+      "min": 15
+    },
+    {
+      "id": "marinade:005",
+      "title": "Marinade Poulet au Cumin",
+      "cat": "Techniques, Poulet, BBQ",
+      "ing": ["yaourt nature 150g", "huile de canola 2 c.à.s.", "cumin 2 c.à.c.", "sel 1 c.à.c."],
+      "steps": [
+        "Mélanger le yaourt nature, l'huile de canola, le cumin et le sel dans un bol.",
+        "Inciser légèrement le poulet pour que la marinade pénètre bien. Immerger dans la marinade.",
+        "Laisser mariner au minimum 4h, idéalement une nuit au réfrigérateur.",
+        "Cuire au BBQ : commencer à feu vif pour saisir (2-3 min), puis finir à feu moyen pour ne pas brûler le yaourt."
+      ],
+      "min": 15
+    },
+    {
+      "id": "marinade:006",
+      "title": "Marinade Poulet Bourbon et Mélasse",
+      "cat": "Techniques, Poulet, BBQ",
+      "ing": ["bourbon 3 c.à.s.", "mélasse 2 c.à.s.", "moutarde sèche 1 c.à.c.", "gingembre frais râpé 1 c.à.c.", "ail, sel, poivre"],
+      "steps": [
+        "Mélanger le bourbon, la mélasse, la moutarde sèche et le gingembre râpé.",
+        "Saler et poivrer. Enduire le poulet et mariner 4h minimum (ou une nuit).",
+        "La mélasse caramélise facilement : cuire au BBQ à feu moyen en surveillant.",
+        "Badigeonner en fin de cuisson pour une belle laque brillante. Idéal avec des cuisses ou pilons."
+      ],
+      "min": 15
+    },
+    {
+      "id": "marinade:007",
+      "title": "Marinade Poulet Sud-Ouest",
+      "cat": "Techniques, Poulet, BBQ",
+      "ing": ["huile d'olive 3 c.à.s.", "vinaigre de cidre 2 c.à.s.", "poudre de chili 1 c.à.s.", "origan séché 1 c.à.c.", "poudre d'ail 1 c.à.c.", "coriandre fraîche", "sel, poivre"],
+      "steps": [
+        "Mélanger l'huile d'olive, le vinaigre de cidre, la poudre de chili, l'origan et la poudre d'ail.",
+        "Ciseler la coriandre fraîche et l'incorporer. Saler et poivrer généreusement.",
+        "Enduire le poulet et mariner 2-4h au frais.",
+        "Griller au BBQ 6-8 min par côté selon l'épaisseur. Servir avec du guacamole ou du riz."
+      ],
+      "min": 15
+    },
+    {
+      "id": "effiloche:001",
+      "title": "Bœuf Effiloché Sauce BBQ",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "200ml sauce BBQ", "1 oignon", "3 gousses d'ail", "sel, poivre"],
+      "steps": [
+        "Couper le paleron en 2-3 gros morceaux. Saler et poivrer généreusement.",
+        "Chauffer de l'huile dans une cocotte à feu vif. Faire dorer la viande sur toutes les faces (5-6 min).",
+        "Ajouter l'oignon émincé et l'ail. Verser la sauce BBQ et 100ml d'eau.",
+        "Couvrir et cuire à feu très doux 3-4h (ou 6-8h en mijoteuse) jusqu'à ce que la viande s'effiloche facilement.",
+        "Effilocher avec deux fourchettes. Mélanger à la sauce et servir dans des burgers, sandwichs ou wraps."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:002",
+      "title": "Pulled Beef Miel et Ail",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "3 c.à.s. miel", "6 gousses d'ail", "3 c.à.s. sauce soja", "poivre noir", "huile"],
+      "steps": [
+        "Saisir le paleron entier dans une cocotte avec de l'huile bien chaude, sur toutes les faces.",
+        "Mélanger le miel, la sauce soja, l'ail écrasé et le poivre noir. Verser sur la viande.",
+        "Ajouter 150ml d'eau, couvrir et cuire 3h30-4h à feu doux en retournant à mi-cuisson.",
+        "Effilocher à la fourchette. Réduire la sauce à feu vif 5 min pour la concentrer.",
+        "Napper la viande effilochée de sauce miel-ail. Servir sur du riz ou en bao."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:003",
+      "title": "Bœuf Effiloché Tex-Mex",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "400g tomates concassées", "400g haricots rouges", "1 c.à.s. cumin", "1 c.à.c. origan", "1 c.à.c. paprika fumé", "1 oignon", "ail"],
+      "steps": [
+        "Saisir le paleron dans une cocotte huilée. Ajouter l'oignon et les épices (cumin, origan, paprika).",
+        "Verser les tomates concassées et les haricots rouges égouttés. Couvrir d'eau à mi-hauteur.",
+        "Cuire 3-4h à feu doux à couvert, en mélangeant de temps en temps.",
+        "Effilocher la viande à la fourchette et l'incorporer à la sauce.",
+        "Servir dans des tacos ou wraps avec avocat, crème fraîche, coriandre fraîche et jalapeños."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:004",
+      "title": "Bœuf Fondant au Vin Rouge Effiloché",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "250ml vin rouge", "2 carottes", "2 oignons", "bouquet garni", "bouillon de bœuf", "sel, poivre"],
+      "steps": [
+        "Émincer les oignons et couper les carottes en rondelles. Faire revenir dans la cocotte huilée. Réserver.",
+        "Saisir le paleron sur toutes les faces dans la même cocotte. Déglacer avec le vin rouge, laisser réduire 2 min.",
+        "Remettre les légumes, ajouter le bouquet garni. Couvrir de bouillon de bœuf.",
+        "Cuire 3h30-4h à feu très doux (ou 1h30 en cocotte-minute). La viande doit s'effilocher au toucher.",
+        "Effilocher. Réduire le jus de cuisson à feu vif pour obtenir une sauce onctueuse."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:005",
+      "title": "Bœuf Effiloché Caramélisé",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "2 c.à.s. cassonade", "3 c.à.s. sauce soja", "4 gousses d'ail", "2 c.à.s. huile d'olive", "sel, poivre"],
+      "steps": [
+        "Saisir le paleron dans l'huile d'olive à feu très vif jusqu'à belle coloration.",
+        "Mélanger la cassonade, la sauce soja et l'ail écrasé. Enduire la viande.",
+        "Ajouter un verre d'eau, couvrir et cuire 3-4h à feu doux.",
+        "Effilocher la viande. Remettre dans la cocotte découverte et cuire 5-10 min à feu moyen-vif pour caraméliser.",
+        "La viande doit être légèrement croustillante en surface avec une sauce sirupeuse."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:006",
+      "title": "Bœuf Effiloché Épicé Maison",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "1-2 piments", "4 gousses d'ail", "2 c.à.c. cumin", "400g tomates concassées", "huile, sel, poivre"],
+      "steps": [
+        "Saisir le paleron dans une cocotte huilée. Réserver.",
+        "Faire revenir l'ail émincé et le piment haché 1 min. Saupoudrer de cumin.",
+        "Remettre la viande. Verser les tomates concassées et 100ml d'eau.",
+        "Cuire 3-4h à feu doux couvert. Ajuster le piment selon le goût.",
+        "Effilocher et mélanger à la sauce. Servir avec du riz ou des tortillas."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:007",
+      "title": "Bœuf Mijoté Style Bourguignon Effiloché",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "300ml vin rouge", "150g lardons", "200g champignons", "2 oignons", "bouquet garni", "beurre"],
+      "steps": [
+        "Faire revenir les lardons dans une cocotte beurrée jusqu'à légère coloration. Ajouter les oignons émincés. Réserver.",
+        "Saisir le paleron dans la même cocotte. Déglacer au vin rouge, laisser réduire 3 min.",
+        "Remettre lardons et oignons. Ajouter les champignons coupés et le bouquet garni.",
+        "Couvrir et cuire 3h30 à feu très doux.",
+        "Effilocher la viande à la fourchette et mélanger à la sauce riche aux champignons."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:008",
+      "title": "Pulled Beef Cheddar Fondant",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "cheddar râpé 150g", "200ml sauce BBQ", "1 oignon", "3 gousses d'ail", "sel, poivre"],
+      "steps": [
+        "Saisir le paleron avec l'oignon et l'ail dans une cocotte huilée.",
+        "Verser la sauce BBQ et 100ml d'eau. Couvrir et cuire 3-4h à feu doux.",
+        "Effilocher la viande à la fourchette. Disposer dans un plat à gratin ou des pains à burger.",
+        "Parsemer de cheddar râpé et passer 5 min au four chaud (210°C) jusqu'à ce que le fromage soit bien fondu et doré.",
+        "Servir immédiatement avec des pickles et de la coleslaw."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:009",
+      "title": "Bœuf Effiloché Tomates et Herbes de Provence",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "400g tomates concassées", "1 c.à.s. herbes de Provence", "4 gousses d'ail", "1 oignon", "huile d'olive, sel, poivre"],
+      "steps": [
+        "Faire revenir l'oignon et l'ail dans l'huile d'olive. Saisir le paleron sur toutes les faces.",
+        "Verser les tomates concassées. Saupoudrer généreusement d'herbes de Provence.",
+        "Couvrir et mijoter 3-4h à feu très doux en mélangeant de temps en temps.",
+        "Effilocher à la fourchette. La sauce tomate aux herbes doit être bien concentrée.",
+        "Servir sur des pâtes, du riz ou des polenta."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:010",
+      "title": "Bœuf Effiloché Oignons Confits",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "3 gros oignons", "2 c.à.s. cassonade", "4 gousses d'ail", "thym frais", "bouillon de bœuf 300ml", "beurre"],
+      "steps": [
+        "Émincer finement les oignons. Les faire confire à feu doux avec le beurre, la cassonade et le thym pendant 20-25 min jusqu'à caramélisation dorée.",
+        "Dans la même cocotte, saisir le paleron sur toutes les faces.",
+        "Remettre les oignons confits. Ajouter l'ail et le bouillon. Couvrir.",
+        "Cuire 3h30-4h à feu très doux.",
+        "Effilocher et mélanger avec les oignons fondants. Servir dans des tartines ou avec de la purée."
+      ],
+      "min": 260
+    },
+    {
+      "id": "effiloche:011",
+      "title": "Bœuf BBQ Fumé au Paprika",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "200ml sauce BBQ", "2 c.à.s. paprika fumé", "3 gousses d'ail", "1 oignon", "sel, poivre"],
+      "steps": [
+        "Mélanger le paprika fumé, sel et poivre. Enduire le paleron de toutes parts.",
+        "Saisir à feu très vif dans une cocotte pour bien colorer. Ajouter l'oignon et l'ail.",
+        "Verser la sauce BBQ et 100ml d'eau. Couvrir et cuire 3-4h à feu doux.",
+        "Effilocher. Le paprika fumé donne un arôme de fumée naturel.",
+        "Servir dans des burgers, wraps ou avec des frites de patate douce."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:012",
+      "title": "Bœuf Effiloché Champignons et Crème",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "300g champignons de Paris", "100ml crème fraîche", "3 gousses d'ail", "persil frais", "bouillon 300ml", "beurre"],
+      "steps": [
+        "Saisir le paleron dans une cocotte beurrée. Ajouter les champignons émincés et l'ail.",
+        "Verser le bouillon. Couvrir et cuire 3-4h à feu doux.",
+        "Effilocher la viande à la fourchette.",
+        "Incorporer la crème fraîche à la sauce chaude et mélanger délicatement.",
+        "Parsemer de persil haché frais. Servir sur des pâtes fraîches ou des tagliatelles."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:013",
+      "title": "Bœuf Mijoté Sauce Poivre Noir",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "poivre noir concassé 1 c.à.s.", "150ml crème fraîche", "1 oignon", "30g beurre", "bouillon 200ml"],
+      "steps": [
+        "Faire revenir l'oignon émincé dans le beurre. Saisir le paleron sur toutes les faces.",
+        "Saupoudrer généreusement de poivre noir concassé. Verser le bouillon.",
+        "Couvrir et cuire 3-4h à feu très doux.",
+        "Effilocher la viande. Incorporer la crème fraîche à la sauce poivrée.",
+        "Servir avec des pommes de terre vapeur ou des tagliatelles. Rectifier l'assaisonnement."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:014",
+      "title": "Bœuf Effiloché Mexicain",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "400g tomates concassées", "200g maïs en boîte", "1 c.à.s. épices mexicaines (cumin, origan, paprika)", "coriandre fraîche", "1 oignon", "ail"],
+      "steps": [
+        "Saisir le paleron dans une cocotte huilée. Ajouter l'oignon, l'ail et les épices mexicaines.",
+        "Verser les tomates concassées. Ajouter le maïs égoutté et 100ml d'eau.",
+        "Cuire 3-4h à feu doux couvert.",
+        "Effilocher la viande et l'incorporer à la sauce.",
+        "Parsemer de coriandre fraîche ciselée. Servir en tacos ou burritos avec guacamole et crème fraîche."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:015",
+      "title": "Bœuf Fondant à la Bière Brune",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "33cl bière brune", "2 oignons", "2 c.à.s. moutarde", "thym frais", "bouillon 100ml", "huile, sel, poivre"],
+      "steps": [
+        "Saisir le paleron sur toutes les faces dans une cocotte huilée.",
+        "Ajouter les oignons émincés et le thym. Faire revenir 2 min.",
+        "Verser la bière brune et le bouillon. Incorporer la moutarde et mélanger.",
+        "Couvrir et cuire 3h30 à feu doux. La bière donne une saveur profonde et légèrement maltée.",
+        "Effilocher et laisser réduire la sauce 10 min à découvert. Servir avec des pommes de terre vapeur ou de la choucroute."
+      ],
+      "min": 240
+    },
+    {
+      "id": "effiloche:016",
+      "title": "Bœuf Effiloché Grand Classique",
+      "cat": "Bœuf, Plat, Viande",
+      "ing": ["1 kg paleron de bœuf", "2 oignons", "4 gousses d'ail", "500ml bouillon de bœuf", "2 carottes", "sel, poivre noir"],
+      "steps": [
+        "Couper le paleron en 2-3 morceaux. Saler et poivrer généreusement.",
+        "Faire revenir les oignons et les carottes dans une cocotte huilée pendant 5 min. Réserver.",
+        "Saisir le paleron sur toutes les faces jusqu'à belle coloration. Remettre les légumes.",
+        "Ajouter l'ail entier et couvrir de bouillon de bœuf chaud.",
+        "Cuire 3-4h à feu très doux (ou 1h30 en cocotte-minute). Effilocher à la fourchette et servir avec les légumes et le bouillon réduit."
+      ],
+      "min": 240
     }
   ]
 }
