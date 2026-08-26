@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.92';
+const APP_VERSION = '2.93';
 
 let ALL = [];
 let BASE = [];
@@ -2646,11 +2646,19 @@ function setupAndroidBack(){
   const topClose = () => { for (const [id, fn] of CLOSERS) if (isOpen(id)) return fn; return null; };
   const hasTrap  = () => !!(history.state && history.state.alxBack);
 
-  // Bouton/geste RETOUR Android -> popstate : on ferme l'overlay du dessus.
+  // Bouton RETOUR Android via Capacitor (triggerJSEvent → CustomEvent 'backButton' sur document).
+  const handleBack = () => {
+    const fn = topClose();
+    if (fn) { fn(); if (anyOpen()) history.pushState({ alxBack: 1 }, ''); }
+    else if (window.Capacitor) window.Capacitor.toNative('App', 'exitApp', {});
+  };
+  document.addEventListener('backButton', handleBack);
+
+  // Fallback popstate pour PWA / navigateur web.
   window.addEventListener('popstate', () => {
     const fn = topClose();
-    if (fn) fn();                                       // ferme l'écran visible
-    if (anyOpen()) history.pushState({ alxBack: 1 }, ''); // ré-arme pour l'écran suivant
+    if (fn) fn();
+    if (anyOpen()) history.pushState({ alxBack: 1 }, '');
   });
 
   // Pose un "piège" d'historique dès qu'un overlay s'ouvre ; le consomme quand tout est refermé
