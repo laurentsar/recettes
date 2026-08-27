@@ -16495,6 +16495,603 @@
         "Cuire 3-4h à feu très doux (ou 1h30 en cocotte-minute). Effilocher à la fourchette et servir avec les légumes et le bouillon réduit."
       ],
       "min": 240
+    },
+    {
+      "id": "charlotte:001",
+      "title": "Charlotte aux Fraises",
+      "cat": "Dessert, Charlotte, Fraise",
+      "ing": ["30 biscuits cuillère", "500g fraises", "40cl crème liquide entière", "60g sucre glace", "3 feuilles gélatine", "10cl d'eau", "2 c.à.s sirop de fraise"],
+      "steps": [
+        "Faire tremper la gélatine dans l'eau froide 10 min.",
+        "Chauffer 10cl d'eau avec le sirop de fraise. Dissoudre la gélatine égouttée dedans. Laisser tiédir.",
+        "Fouetter la crème en chantilly ferme avec le sucre glace. Incorporer délicatement la gélatine refroidie.",
+        "Tremper brièvement les biscuits dans le sirop tiédi et tapisser le fond et le contour du moule.",
+        "Alterner couches de crème chantilly et de fraises coupées. Terminer par une couche de biscuits.",
+        "Réfrigérer 4h minimum. Démouler et décorer de fraises fraîches avant de servir."
+      ],
+      "min": 280
+    },
+    {
+      "id": "charlotte:002",
+      "title": "Charlotte au Chocolat",
+      "cat": "Dessert, Charlotte, Chocolat",
+      "ing": ["30 biscuits cuillère", "200g chocolat noir", "4 œufs", "50g beurre", "10cl sirop de canne"],
+      "steps": [
+        "Faire fondre le chocolat avec le beurre au bain-marie. Laisser tiédir.",
+        "Séparer les blancs des jaunes. Incorporer les jaunes un à un au chocolat fondu tiédi.",
+        "Monter les blancs en neige ferme et les incorporer délicatement au chocolat en trois fois.",
+        "Tremper les biscuits dans le sirop de canne et tapisser le fond et le contour du moule.",
+        "Verser la mousse au chocolat. Couvrir de biscuits imbibés. Filmer et réfrigérer 4h.",
+        "Démouler délicatement et décorer de copeaux de chocolat avant de servir."
+      ],
+      "min": 280
+    },
+    {
+      "id": "charlotte:003",
+      "title": "Charlotte aux Framboises",
+      "cat": "Dessert, Charlotte, Framboise",
+      "ing": ["30 biscuits cuillère", "400g framboises", "300g fromage blanc", "50g sucre", "3 feuilles gélatine", "10cl d'eau"],
+      "steps": [
+        "Faire tremper la gélatine dans l'eau froide 10 min. Chauffer 10cl d'eau et y dissoudre la gélatine égouttée.",
+        "Écraser 200g de framboises avec le sucre pour faire un coulis. Réserver les 200g restantes entières.",
+        "Mélanger le fromage blanc avec le coulis. Incorporer la gélatine refroidie.",
+        "Tremper les biscuits dans un peu de coulis dilué avec de l'eau et tapisser le moule.",
+        "Alterner couches de crème au fromage blanc et framboises entières.",
+        "Réfrigérer 4h minimum. Démouler et garnir de framboises fraîches."
+      ],
+      "min": 280
+    },
+    {
+      "id": "charlotte:004",
+      "title": "Charlotte aux Abricots",
+      "cat": "Dessert, Charlotte, Abricot",
+      "ing": ["30 biscuits cuillère", "1 boîte d'abricots au sirop", "40cl crème liquide entière", "50g sucre", "3 feuilles gélatine"],
+      "steps": [
+        "Égoutter les abricots en conservant le sirop. Couper la moitié en dés, mixer l'autre moitié en purée.",
+        "Faire tremper la gélatine dans l'eau froide 10 min. La dissoudre dans un peu de sirop d'abricot chaud.",
+        "Fouetter la crème en chantilly avec le sucre. Incorporer la purée d'abricot et la gélatine refroidie.",
+        "Tremper les biscuits dans le sirop d'abricot et tapisser le fond et le contour du moule.",
+        "Alterner couches de crème et de dés d'abricot. Terminer par des biscuits.",
+        "Réfrigérer 4h minimum. Démouler et décorer d'abricots au sirop."
+      ],
+      "min": 280
+    },
+    {
+      "id": "charlotte:005",
+      "title": "Charlotte au Citron",
+      "cat": "Dessert, Charlotte, Citron",
+      "ing": ["30 biscuits cuillère", "3 citrons", "4 œufs", "100g sucre", "1 c.à.s maïzena", "3 feuilles gélatine", "10cl sirop de citron"],
+      "steps": [
+        "Faire tremper la gélatine dans l'eau froide 10 min.",
+        "Fouetter les œufs avec le sucre, le jus et les zestes des 3 citrons et la maïzena dans une casserole.",
+        "Cuire à feu doux en remuant sans cesse jusqu'à épaississement. Hors du feu, incorporer la gélatine égouttée.",
+        "Laisser refroidir complètement en remuant de temps en temps pour éviter la formation d'une peau.",
+        "Tremper les biscuits dans le sirop de citron et tapisser le fond et le contour du moule.",
+        "Verser la crème citron et couvrir de biscuits imbibés. Réfrigérer 4h. Décorer de zestes de citron."
+      ],
+      "min": 280
+    },
+    {
+      "id": "charlotte:006",
+      "title": "Charlotte Poire Chocolat",
+      "cat": "Dessert, Charlotte, Chocolat",
+      "ing": ["30 biscuits cuillère", "3 poires au sirop", "150g chocolat noir", "3 œufs", "30g beurre", "10cl sirop des poires"],
+      "steps": [
+        "Faire fondre le chocolat avec le beurre au bain-marie. Laisser tiédir.",
+        "Séparer les blancs des jaunes. Incorporer les jaunes au chocolat tiédi, puis les blancs montés en neige délicatement.",
+        "Égoutter les poires et les couper en fines lamelles.",
+        "Tremper les biscuits dans le sirop des poires et tapisser le fond et le contour du moule.",
+        "Alterner couches de mousse au chocolat et lamelles de poires.",
+        "Réfrigérer 4h minimum. Décorer de copeaux de chocolat et de lamelles de poires."
+      ],
+      "min": 280
+    },
+    {
+      "id": "milkshake:001",
+      "title": "Milkshake Chocolat",
+      "cat": "Boissons, Milkshake",
+      "ing": ["3 boules de glace chocolat", "25cl lait froid", "2 c.à.s cacao en poudre", "chantilly"],
+      "steps": [
+        "Mettre la glace, le lait et le cacao dans un blender.",
+        "Mixer 30 secondes jusqu'à consistance crémeuse et homogène.",
+        "Verser dans un grand verre refroidi et garnir de chantilly."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:002",
+      "title": "Milkshake Vanille",
+      "cat": "Boissons, Milkshake",
+      "ing": ["3 boules de glace vanille", "25cl lait froid", "1 c.à.c extrait de vanille", "chantilly"],
+      "steps": [
+        "Mettre la glace, le lait et l'extrait de vanille dans un blender.",
+        "Mixer 30 secondes jusqu'à consistance crémeuse.",
+        "Verser dans un verre refroidi et garnir de chantilly."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:003",
+      "title": "Milkshake Fraise",
+      "cat": "Boissons, Milkshake, Fraise",
+      "ing": ["3 boules de glace vanille", "200g fraises fraîches ou surgelées", "20cl lait froid", "chantilly"],
+      "steps": [
+        "Laver et équeuter les fraises.",
+        "Mettre tous les ingrédients dans un blender.",
+        "Mixer jusqu'à consistance crémeuse et lisse. Garnir de chantilly et d'une fraise."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:004",
+      "title": "Milkshake Mangue",
+      "cat": "Boissons, Milkshake, Mangue",
+      "ing": ["3 boules de glace vanille", "200g mangue fraîche ou surgelée", "20cl lait froid", "chantilly"],
+      "steps": [
+        "Éplucher et couper la mangue en morceaux.",
+        "Mettre dans le blender avec la glace et le lait.",
+        "Mixer jusqu'à consistance lisse et crémeuse. Garnir de chantilly."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:005",
+      "title": "Milkshake Banane",
+      "cat": "Boissons, Milkshake, Banane",
+      "ing": ["3 boules de glace vanille", "2 bananes mûres", "20cl lait froid", "chantilly"],
+      "steps": [
+        "Éplucher et couper les bananes en morceaux.",
+        "Mettre dans le blender avec la glace et le lait.",
+        "Mixer jusqu'à consistance crémeuse et onctueuse. Garnir de chantilly."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:006",
+      "title": "Milkshake Oreo",
+      "cat": "Boissons, Milkshake",
+      "ing": ["3 boules de glace vanille", "6 biscuits Oreo", "25cl lait froid", "chantilly"],
+      "steps": [
+        "Écraser grossièrement 4 Oreo. Garder 2 biscuits entiers pour la déco.",
+        "Mettre la glace, le lait et les Oreo écrasés dans un blender.",
+        "Mixer brièvement. Garnir de chantilly et d'un Oreo entier."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:007",
+      "title": "Milkshake KitKat",
+      "cat": "Boissons, Milkshake, Chocolat",
+      "ing": ["3 boules de glace vanille", "2 barres KitKat", "25cl lait froid", "chantilly"],
+      "steps": [
+        "Casser les KitKat en morceaux, en garder quelques-uns pour la déco.",
+        "Mettre dans le blender avec la glace et le lait.",
+        "Mixer jusqu'à consistance crémeuse. Garnir de chantilly et d'éclats de KitKat."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:008",
+      "title": "Milkshake Myrtille",
+      "cat": "Boissons, Milkshake, Myrtille",
+      "ing": ["3 boules de glace vanille", "200g myrtilles fraîches ou surgelées", "20cl lait froid", "chantilly"],
+      "steps": [
+        "Mettre les myrtilles, la glace et le lait dans un blender.",
+        "Mixer jusqu'à consistance lisse et crémeuse.",
+        "Garnir de chantilly et de myrtilles fraîches."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:009",
+      "title": "Milkshake Ananas",
+      "cat": "Boissons, Milkshake, Ananas",
+      "ing": ["3 boules de glace vanille", "200g ananas frais ou en boîte", "20cl lait froid", "chantilly"],
+      "steps": [
+        "Couper l'ananas en morceaux.",
+        "Mettre dans le blender avec la glace et le lait.",
+        "Mixer jusqu'à consistance crémeuse. Garnir de chantilly et d'un morceau d'ananas."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:010",
+      "title": "Milkshake Café",
+      "cat": "Boissons, Milkshake, Café",
+      "ing": ["3 boules de glace café ou vanille", "25cl lait froid", "1 expresso refroidi", "1 c.à.s sucre", "chantilly"],
+      "steps": [
+        "Préparer un expresso et laisser refroidir complètement.",
+        "Mettre dans le blender avec la glace, le lait et le sucre.",
+        "Mixer. Garnir de chantilly et saupoudrer d'une pincée de cacao en poudre."
+      ],
+      "min": 10
+    },
+    {
+      "id": "milkshake:011",
+      "title": "Milkshake Caramel",
+      "cat": "Boissons, Milkshake, Caramel",
+      "ing": ["3 boules de glace caramel ou vanille", "25cl lait froid", "3 c.à.s caramel liquide", "fleur de sel", "chantilly"],
+      "steps": [
+        "Mettre la glace, le lait et le caramel dans un blender.",
+        "Mixer jusqu'à consistance crémeuse.",
+        "Garnir de chantilly, d'un filet de caramel et d'une pincée de fleur de sel."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:012",
+      "title": "Milkshake Butterscotch",
+      "cat": "Boissons, Milkshake, Caramel",
+      "ing": ["3 boules de glace vanille", "25cl lait froid", "2 c.à.s sucre brun", "2 c.à.s crème liquide", "1 c.à.s beurre", "chantilly"],
+      "steps": [
+        "Préparer la sauce butterscotch : chauffer le sucre brun avec la crème et le beurre jusqu'à caramélisation dorée. Laisser refroidir.",
+        "Mettre la glace, le lait et 3 c.à.s de sauce butterscotch dans un blender.",
+        "Mixer. Garnir de chantilly et d'un filet de sauce butterscotch."
+      ],
+      "min": 15
+    },
+    {
+      "id": "milkshake:013",
+      "title": "Milkshake Beurre de Cacahuète",
+      "cat": "Boissons, Milkshake",
+      "ing": ["3 boules de glace vanille", "25cl lait froid", "3 c.à.s beurre de cacahuète", "1 c.à.s sucre", "chantilly"],
+      "steps": [
+        "Mettre tous les ingrédients dans un blender.",
+        "Mixer jusqu'à consistance crémeuse et homogène.",
+        "Garnir de chantilly et d'un filet de beurre de cacahuète."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:014",
+      "title": "Milkshake Cookies and Cream",
+      "cat": "Boissons, Milkshake",
+      "ing": ["3 boules de glace vanille", "25cl lait froid", "6 biscuits chocolatés fourrés", "chantilly"],
+      "steps": [
+        "Écraser les biscuits grossièrement en gardant quelques morceaux pour la déco.",
+        "Mettre dans le blender avec la glace et le lait.",
+        "Mixer brièvement pour garder des morceaux croquants. Garnir de chantilly et de biscuits écrasés."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:015",
+      "title": "Milkshake Rose",
+      "cat": "Boissons, Milkshake",
+      "ing": ["3 boules de glace vanille", "20cl lait froid", "2 c.à.s eau de rose", "1 c.à.s sirop de rose", "pétales de rose comestibles"],
+      "steps": [
+        "Mettre la glace, le lait, l'eau de rose et le sirop de rose dans un blender.",
+        "Mixer jusqu'à consistance crémeuse.",
+        "Garnir de chantilly et de pétales de rose comestibles."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:016",
+      "title": "Milkshake Amande",
+      "cat": "Boissons, Milkshake",
+      "ing": ["3 boules de glace vanille ou amande", "25cl lait d'amande froid", "2 c.à.s poudre d'amandes", "1 c.à.s sirop d'orgeat", "amandes effilées grillées"],
+      "steps": [
+        "Mettre tous les ingrédients dans un blender.",
+        "Mixer jusqu'à consistance crémeuse.",
+        "Garnir de chantilly et d'amandes effilées grillées."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:017",
+      "title": "Milkshake Pistache",
+      "cat": "Boissons, Milkshake, Pistache",
+      "ing": ["3 boules de glace pistache", "25cl lait froid", "2 c.à.s pâte de pistache", "pistaches concassées", "chantilly"],
+      "steps": [
+        "Mettre la glace, le lait et la pâte de pistache dans un blender.",
+        "Mixer jusqu'à consistance crémeuse.",
+        "Garnir de chantilly et de pistaches concassées."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:018",
+      "title": "Milkshake Cassis",
+      "cat": "Boissons, Milkshake",
+      "ing": ["3 boules de glace vanille", "200g cassis frais ou surgelés", "20cl lait froid", "2 c.à.s sucre", "chantilly"],
+      "steps": [
+        "Mettre le cassis, la glace, le lait et le sucre dans un blender.",
+        "Mixer jusqu'à consistance lisse.",
+        "Passer au tamis si souhaité pour retirer les pépins. Garnir de chantilly."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:019",
+      "title": "Milkshake Bubble Gum",
+      "cat": "Boissons, Milkshake",
+      "ing": ["3 boules de glace vanille ou fraise", "20cl lait froid", "1 c.à.s sirop de fraise ou bubble gum", "colorant rose", "bonbons multicolores", "chantilly"],
+      "steps": [
+        "Mixer la glace, le lait et le sirop dans un blender.",
+        "Ajouter quelques gouttes de colorant rose et mixer brièvement.",
+        "Garnir de chantilly et de bonbons multicolores."
+      ],
+      "min": 5
+    },
+    {
+      "id": "milkshake:020",
+      "title": "Milkshake Arc-en-ciel",
+      "cat": "Boissons, Milkshake",
+      "ing": ["3 boules de glace vanille", "20cl lait froid", "colorants alimentaires (rouge, jaune, vert, bleu)", "chantilly", "vermicelles multicolores"],
+      "steps": [
+        "Mixer la glace et le lait jusqu'à consistance crémeuse. Diviser en 4 petites portions.",
+        "Colorer chaque portion d'une couleur différente avec les colorants.",
+        "Verser délicatement dans le verre en couches successives. Garnir de chantilly et de vermicelles multicolores."
+      ],
+      "min": 20
+    },
+    {
+      "id": "tiramisu:001",
+      "title": "Tiramisu Classique Cacao Express",
+      "cat": "Dessert, Tiramisu, Express",
+      "ing": ["250g mascarpone", "3 œufs", "80g sucre", "20cl café fort refroidi", "boudoirs", "cacao amer en poudre"],
+      "steps": [
+        "Séparer les blancs des jaunes. Fouetter les jaunes avec le sucre jusqu'à blanchiment.",
+        "Incorporer le mascarpone et mélanger jusqu'à consistance lisse.",
+        "Monter les blancs en neige ferme et les incorporer délicatement à la crème.",
+        "Tremper rapidement les boudoirs dans le café froid refroidi.",
+        "Alterner couches de biscuits imbibés et de crème mascarpone dans des verrines.",
+        "Réfrigérer 2h minimum. Saupoudrer généreusement de cacao amer au moment de servir."
+      ],
+      "min": 140
+    },
+    {
+      "id": "tiramisu:002",
+      "title": "Tiramisu Spéculoos Caramel Express",
+      "cat": "Dessert, Tiramisu, Express",
+      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "spéculoos", "caramel au beurre salé", "cacao en poudre (facultatif)"],
+      "steps": [
+        "Fouetter les jaunes d'œufs avec le sucre jusqu'à blanchiment. Incorporer le mascarpone.",
+        "Monter les blancs en neige et les incorporer délicatement à la crème.",
+        "Émietter les spéculoos. Alterner couches de biscuits émiettés, crème et filet de caramel dans des verrines.",
+        "Répéter les couches en terminant par de la crème.",
+        "Réfrigérer 2h. Décorer de spéculoos émiettés et d'un filet de caramel beurre salé."
+      ],
+      "min": 140
+    },
+    {
+      "id": "tiramisu:003",
+      "title": "Tiramisu Fruits Rouges Express",
+      "cat": "Dessert, Tiramisu, Express, Framboise",
+      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "coulis de fruits rouges", "boudoirs", "fruits rouges frais"],
+      "steps": [
+        "Fouetter les jaunes avec le sucre jusqu'à blanchiment. Incorporer le mascarpone.",
+        "Monter les blancs en neige et les plier délicatement dans la crème.",
+        "Tremper les boudoirs dans le coulis de fruits rouges.",
+        "Alterner couches de biscuits imbibés, crème et fruits rouges dans des verrines.",
+        "Réfrigérer 2h. Garnir de fruits rouges frais au moment de servir."
+      ],
+      "min": 140
+    },
+    {
+      "id": "tiramisu:004",
+      "title": "Tiramisu Citron Framboise Express",
+      "cat": "Dessert, Tiramisu, Express, Citron",
+      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "lemon curd", "boudoirs", "framboises fraîches"],
+      "steps": [
+        "Fouetter les jaunes avec le sucre. Incorporer le mascarpone et 2 c.à.s de lemon curd.",
+        "Monter les blancs en neige et les incorporer délicatement.",
+        "Tremper les boudoirs dans un sirop de citron (jus de citron + eau + sucre).",
+        "Alterner couches de biscuits, crème et framboises dans les verrines.",
+        "Réfrigérer 2h. Garnir de framboises et d'un peu de lemon curd avant de servir."
+      ],
+      "min": 140
+    },
+    {
+      "id": "tiramisu:005",
+      "title": "Tiramisu Choco Noisette Express",
+      "cat": "Dessert, Tiramisu, Express, Chocolat",
+      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "pâte à tartiner chocolat noisette", "boudoirs", "noisettes concassées"],
+      "steps": [
+        "Fouetter les jaunes avec le sucre. Incorporer le mascarpone et 2 c.à.s de pâte à tartiner.",
+        "Monter les blancs en neige et les incorporer délicatement.",
+        "Tremper les boudoirs dans du lait chaud ou café léger.",
+        "Alterner couches de biscuits, crème et noisettes concassées dans les verrines.",
+        "Réfrigérer 2h. Garnir d'un filet de pâte à tartiner fondue et de noisettes."
+      ],
+      "min": 140
+    },
+    {
+      "id": "tiramisu:006",
+      "title": "Tiramisu Pistache Framboise Express",
+      "cat": "Dessert, Tiramisu, Express, Pistache",
+      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "pâte de pistache", "boudoirs", "framboises fraîches", "pistaches concassées"],
+      "steps": [
+        "Fouetter les jaunes avec le sucre. Incorporer le mascarpone et 2 c.à.s de pâte de pistache.",
+        "Monter les blancs en neige et les plier délicatement dans la crème.",
+        "Tremper les boudoirs dans du lait sucré aromatisé à la vanille.",
+        "Alterner couches de biscuits, crème verte et framboises dans les verrines.",
+        "Réfrigérer 2h. Garnir de framboises et de pistaches concassées."
+      ],
+      "min": 140
+    },
+    {
+      "id": "tiramisu:007",
+      "title": "Tiramisu Coco Ananas Express",
+      "cat": "Dessert, Tiramisu, Express",
+      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "10cl lait de coco", "ananas en dés", "noix de coco râpée", "boudoirs"],
+      "steps": [
+        "Fouetter les jaunes avec le sucre. Incorporer le mascarpone et le lait de coco.",
+        "Monter les blancs en neige et les incorporer délicatement à la crème.",
+        "Tremper les boudoirs dans du jus d'ananas ou du lait de coco sucré.",
+        "Alterner couches de biscuits, crème coco et dés d'ananas dans les verrines.",
+        "Réfrigérer 2h. Parsemer généreusement de noix de coco râpée avant de servir."
+      ],
+      "min": 140
+    },
+    {
+      "id": "punch:001",
+      "title": "Punch Classique aux Fruits",
+      "cat": "Boissons, Punch, Sans alcool",
+      "ing": ["50cl jus d'orange", "50cl jus d'ananas", "50cl jus de canneberge", "50cl soda citron-lime", "fruits frais mélangés (fraises, kiwi, orange)", "glaçons"],
+      "steps": [
+        "Mélanger les jus d'orange, d'ananas et de canneberge dans un grand bol à punch.",
+        "Couper les fruits frais en morceaux et les ajouter.",
+        "Incorporer le soda citron-lime juste avant de servir pour conserver les bulles.",
+        "Ajouter les glaçons et servir immédiatement."
+      ],
+      "min": 10
+    },
+    {
+      "id": "punch:002",
+      "title": "Punch Tropical",
+      "cat": "Boissons, Punch, Sans alcool",
+      "ing": ["50cl jus d'ananas", "50cl jus de mangue", "25cl jus d'orange", "50cl ginger ale", "morceaux d'ananas frais", "glaçons"],
+      "steps": [
+        "Mélanger les jus d'ananas, mangue et orange dans un grand bol.",
+        "Ajouter les morceaux d'ananas frais.",
+        "Verser le ginger ale juste avant de servir.",
+        "Ajouter les glaçons et décorer d'une tranche d'ananas."
+      ],
+      "min": 10
+    },
+    {
+      "id": "punch:003",
+      "title": "Punch Limonade Rosée",
+      "cat": "Boissons, Punch, Sans alcool",
+      "ing": ["1 litre de limonade rosée", "50cl soda citron-lime", "25cl jus de canneberge", "rondelles de citron", "framboises fraîches"],
+      "steps": [
+        "Mélanger la limonade rosée avec le jus de canneberge dans un grand bol.",
+        "Ajouter les rondelles de citron et les framboises fraîches.",
+        "Verser le soda citron-lime juste avant de servir et mélanger délicatement.",
+        "Ajouter des glaçons et servir frais."
+      ],
+      "min": 10
+    },
+    {
+      "id": "punch:004",
+      "title": "Punch Agrumes",
+      "cat": "Boissons, Punch, Sans alcool",
+      "ing": ["50cl jus d'orange", "50cl jus de citron", "50cl soda citron-lime", "25cl eau pétillante", "rondelles d'orange"],
+      "steps": [
+        "Mélanger les jus d'orange et de citron dans un grand bol.",
+        "Ajouter les rondelles d'orange.",
+        "Incorporer le soda et l'eau pétillante juste avant de servir.",
+        "Ajouter des glaçons et servir frais."
+      ],
+      "min": 10
+    },
+    {
+      "id": "punch:005",
+      "title": "Punch Vert",
+      "cat": "Boissons, Punch, Sans alcool",
+      "ing": ["50cl jus d'ananas", "50cl soda citron-lime", "25cl sorbet citron vert", "raisins verts", "rondelles de citron vert"],
+      "steps": [
+        "Mélanger le jus d'ananas avec le soda dans un grand bol.",
+        "Ajouter le sorbet citron vert en boules.",
+        "Incorporer les raisins verts et les rondelles de citron vert.",
+        "Servir aussitôt : le sorbet garde le punch bien frais."
+      ],
+      "min": 10
+    },
+    {
+      "id": "punch:006",
+      "title": "Punch Canneberge",
+      "cat": "Boissons, Punch, Sans alcool",
+      "ing": ["75cl jus de canneberge", "50cl ginger ale", "25cl jus d'orange", "rondelles d'orange", "glaçons"],
+      "steps": [
+        "Mélanger le jus de canneberge et le jus d'orange dans un grand bol.",
+        "Ajouter les rondelles d'orange.",
+        "Verser le ginger ale juste avant de servir.",
+        "Ajouter les glaçons et servir immédiatement."
+      ],
+      "min": 10
+    },
+    {
+      "id": "cheesecake:001",
+      "title": "Cheesecake Citron Sans Cuisson",
+      "cat": "Dessert, Cheesecake, Citron, Sans cuisson",
+      "ing": ["200g biscuits spéculoos", "80g beurre fondu", "400g fromage frais type Philadelphia", "20cl crème liquide entière", "80g sucre glace", "2 citrons (jus et zestes)", "3 feuilles gélatine"],
+      "steps": [
+        "Émietter les spéculoos et mélanger au beurre fondu. Tasser dans un moule à fond amovible et réfrigérer 30 min.",
+        "Faire tremper la gélatine dans l'eau froide 10 min. La dissoudre dans 2 c.à.s de jus de citron chaud.",
+        "Fouetter le fromage frais avec le sucre glace, le jus et les zestes des 2 citrons.",
+        "Incorporer la gélatine refroidie, puis la crème fouettée en chantilly ferme délicatement.",
+        "Verser sur la base biscuitée. Lisser et réfrigérer 4h minimum.",
+        "Décorer de zestes de citron et de tranches fines avant de servir."
+      ],
+      "min": 290
+    },
+    {
+      "id": "cheesecake:002",
+      "title": "Cheesecake Framboise Sans Cuisson",
+      "cat": "Dessert, Cheesecake, Framboise, Sans cuisson",
+      "ing": ["200g biscuits sablés", "80g beurre fondu", "400g fromage frais", "20cl crème liquide entière", "80g sucre glace", "200g coulis de framboise", "3 feuilles gélatine"],
+      "steps": [
+        "Émietter les biscuits et mélanger au beurre fondu. Tasser dans le moule et réfrigérer 30 min.",
+        "Faire tremper la gélatine dans l'eau froide. La dissoudre dans un peu de coulis de framboise chaud.",
+        "Fouetter le fromage frais avec le sucre glace. Incorporer 150g de coulis.",
+        "Ajouter la gélatine refroidie, puis la crème fouettée en chantilly délicatement.",
+        "Verser sur la base. Napper du reste de coulis. Réfrigérer 4h.",
+        "Décorer de framboises fraîches avant de servir."
+      ],
+      "min": 290
+    },
+    {
+      "id": "cheesecake:003",
+      "title": "Cheesecake Vanille Caramel Sans Cuisson",
+      "cat": "Dessert, Cheesecake, Caramel, Sans cuisson",
+      "ing": ["200g biscuits type Petit Beurre", "80g beurre fondu", "400g fromage frais", "20cl crème liquide entière", "60g sucre glace", "1 gousse de vanille", "150g caramel au beurre salé"],
+      "steps": [
+        "Écraser les biscuits et mélanger au beurre fondu. Tasser dans le moule et réfrigérer.",
+        "Gratter les graines de la gousse de vanille. Fouetter le fromage frais avec le sucre glace et les graines de vanille.",
+        "Incorporer la crème fouettée en chantilly délicatement.",
+        "Verser sur la base biscuitée. Lisser la surface.",
+        "Napper de caramel au beurre salé et faire des swirls avec la pointe d'un couteau.",
+        "Réfrigérer 4h minimum avant de servir."
+      ],
+      "min": 280
+    },
+    {
+      "id": "cheesecake:004",
+      "title": "Cheesecake Chocolat Blanc Sans Cuisson",
+      "cat": "Dessert, Cheesecake, Chocolat, Sans cuisson",
+      "ing": ["200g sablés bretons", "80g beurre fondu", "300g fromage frais", "20cl crème liquide entière", "200g chocolat blanc", "2 feuilles gélatine"],
+      "steps": [
+        "Émietter les sablés et mélanger au beurre fondu. Tasser dans le moule et réfrigérer.",
+        "Faire tremper la gélatine dans l'eau froide. La dissoudre dans un peu de crème chauffée.",
+        "Faire fondre le chocolat blanc au bain-marie et laisser tiédir.",
+        "Mélanger le fromage frais avec le chocolat blanc fondu. Incorporer la gélatine.",
+        "Plier délicatement la crème fouettée dans la préparation.",
+        "Verser sur la base et réfrigérer 4h. Décorer de copeaux de chocolat blanc."
+      ],
+      "min": 280
+    },
+    {
+      "id": "cheesecake:005",
+      "title": "Cheesecake Mangue Passion Sans Cuisson",
+      "cat": "Dessert, Cheesecake, Mangue, Sans cuisson",
+      "ing": ["200g biscuits sablés au coco", "80g beurre fondu", "400g fromage frais", "20cl crème liquide entière", "60g sucre glace", "200g purée de mangue", "2 fruits de la passion", "3 feuilles gélatine"],
+      "steps": [
+        "Émietter les biscuits et mélanger au beurre fondu. Tasser dans le moule et réfrigérer.",
+        "Faire tremper la gélatine dans l'eau froide. La dissoudre dans un peu de purée de mangue chauffée.",
+        "Fouetter le fromage frais avec le sucre glace et la purée de mangue.",
+        "Incorporer la gélatine refroidie, puis la crème fouettée délicatement.",
+        "Verser sur la base. Réfrigérer 4h.",
+        "Décorer avec la pulpe des fruits de la passion au moment de servir."
+      ],
+      "min": 280
+    },
+    {
+      "id": "cheesecake:006",
+      "title": "Cheesecake Pâte à Tartiner Sans Cuisson",
+      "cat": "Dessert, Cheesecake, Chocolat, Sans cuisson",
+      "ing": ["200g biscuits sablés au cacao", "80g beurre fondu", "300g fromage frais", "20cl crème liquide entière", "200g pâte à tartiner chocolat noisette", "2 feuilles gélatine"],
+      "steps": [
+        "Émietter les biscuits au cacao et mélanger au beurre fondu. Tasser dans le moule et réfrigérer.",
+        "Faire tremper la gélatine dans l'eau froide. La dissoudre dans un peu de crème chauffée.",
+        "Mélanger le fromage frais avec la pâte à tartiner jusqu'à consistance lisse.",
+        "Incorporer la gélatine refroidie et la crème fouettée délicatement.",
+        "Verser sur la base. Lisser et réfrigérer 4h.",
+        "Garnir d'un filet de pâte à tartiner fondue et de noisettes concassées."
+      ],
+      "min": 280
     }
   ]
 }
