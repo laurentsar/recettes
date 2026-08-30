@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.94';
+const APP_VERSION = '2.95';
 
 let ALL = [];
 let BASE = [];
@@ -775,6 +775,7 @@ function openDetail(id){
       </div>
     </div>`;
   elDetail.hidden = false;
+  if (window._wlAcquire) window._wlAcquire();
   document.body.style.overflow='hidden';
   elDetail.querySelector('.d-back').addEventListener('click', closeDetail);
   const cookBtnEl = elDetail.querySelector('.d-cook-btn');
@@ -792,7 +793,7 @@ function openDetail(id){
     btn.addEventListener('click', ()=>{ if(!btn.classList.contains('active')) openDetail(btn.dataset.vid); });
   });
 }
-function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; renderChips(); renderGrid(); }
+function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; renderChips(); renderGrid(); if(window._wlDrop) window._wlDrop(); }
 
 /* ---------- mode cuisine pas-à-pas ---------- */
 let cookRecipe = null;
@@ -893,6 +894,7 @@ function openCook(id, initialTab='steps'){
       </div>
     </div>`;
   elCook.hidden = false;
+  if (window._wlAcquire) window._wlAcquire();
   document.body.style.overflow = 'hidden';
   elCook.querySelectorAll('.cook-tab:not([disabled])').forEach(btn => {
     btn.addEventListener('click', ()=> switchCookTab(btn.dataset.tab));
@@ -922,6 +924,7 @@ function closeCook(){
   stopCookMic();
   stopCookSpeech();
   elCook.hidden = true;
+  if (window._wlDrop) window._wlDrop();
 }
 
 function renderCookStep(){
@@ -2409,6 +2412,7 @@ async function init(){
     else if(!elDetail.hidden) closeDetail();
   });
   setupAndroidBack();
+  setupWakeLock();
   if ('serviceWorker' in navigator){ try{ navigator.serviceWorker.register('sw.js'); }catch(e){} }
 }
 /* ========== WIZARD SUGGESTIONS ========== */
@@ -2622,6 +2626,25 @@ function wzRenderResults(body){
 }
 
 init();
+
+/* ---------- Wake Lock : écran allumé pendant la lecture / cuisson ---------- */
+function setupWakeLock(){
+  if (!('wakeLock' in navigator)) return;
+  let lock = null;
+  async function acquire(){
+    if (lock) return;
+    try { lock = await navigator.wakeLock.request('screen'); lock.addEventListener('release', ()=>{ lock=null; }); } catch(e){}
+  }
+  function drop(){
+    const det = document.getElementById('detail');
+    const cok = document.getElementById('cook');
+    if ((det && !det.hidden) || (cok && !cok.hidden)) return;
+    if (lock){ lock.release(); lock=null; }
+  }
+  document.addEventListener('visibilitychange', ()=>{ if(document.visibilityState==='visible'){ const det=document.getElementById('detail'); const cok=document.getElementById('cook'); if((det&&!det.hidden)||(cok&&!cok.hidden)) acquire(); } });
+  window._wlAcquire = acquire;
+  window._wlDrop   = drop;
+}
 
 /* ---------- bouton RETOUR Android : ferme l'écran du dessus au lieu de quitter l'appli ---------- */
 function setupAndroidBack(){
