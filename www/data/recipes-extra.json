@@ -17079,6 +17079,96 @@
       "min": 280
     },
     {
+      "id": "tortilla:001",
+      "title": "Tortillas de Blé Classiques",
+      "cat": "Techniques, Mexique, Tortilla, Wrap",
+      "ing": ["250g de farine", "1/2 c. à café de sel", "2 c. à soupe d'huile", "150ml d'eau tiède"],
+      "steps": [
+        "Mélanger la farine, le sel et l'huile dans un saladier. Ajouter l'eau tiède progressivement.",
+        "Pétrir jusqu'à obtenir une pâte lisse et souple, environ 5 min. Former une boule et laisser reposer 15 min.",
+        "Diviser en 6-8 boules égales. Étaler chaque boule très finement en cercle sur un plan fariné.",
+        "Faire chauffer une poêle à sec à feu moyen-vif.",
+        "Cuire chaque tortilla 1-2 min de chaque côté jusqu'à ce qu'elle soit dorée et souple.",
+        "Réserver sous un torchon pour garder la chaleur et la souplesse."
+      ],
+      "min": 40
+    },
+    {
+      "id": "tortilla:002",
+      "title": "Tortillas Semi-Complètes",
+      "cat": "Techniques, Mexique, Tortilla, Wrap",
+      "ing": ["180g de farine complète", "60g de farine blanche", "1/2 c. à café de sel", "150ml d'eau tiède"],
+      "steps": [
+        "Mélanger les deux farines et le sel dans un saladier.",
+        "Ajouter l'eau tiède progressivement et mélanger jusqu'à formation d'une pâte.",
+        "Pétrir 5 min jusqu'à obtenir une pâte souple. Laisser reposer 15 min.",
+        "Diviser en 6-8 boules. Étaler très finement sur un plan fariné.",
+        "Cuire dans une poêle chaude à sec, 1-2 min de chaque côté.",
+        "Réserver sous un torchon. La farine complète donne une saveur légèrement noisette."
+      ],
+      "min": 40
+    },
+    {
+      "id": "tortilla:003",
+      "title": "Tortillas aux Épinards",
+      "cat": "Techniques, Mexique, Tortilla, Wrap, Légumes",
+      "ing": ["250g de farine", "1/2 c. à café de sel", "100g d'épinards frais", "150ml d'eau tiède"],
+      "steps": [
+        "Mixer les épinards frais avec 100ml d'eau tiède jusqu'à obtenir un jus vert homogène.",
+        "Mélanger la farine et le sel. Ajouter le jus d'épinards et le reste d'eau progressivement.",
+        "Pétrir 5 min jusqu'à pâte lisse et verte. Laisser reposer 15 min.",
+        "Diviser en 6-8 boules. Étaler très finement en cercle.",
+        "Cuire dans une poêle chaude à sec, 1-2 min de chaque côté.",
+        "Réserver sous un torchon. Couleur verte naturelle, goût discret d'épinards."
+      ],
+      "min": 40
+    },
+    {
+      "id": "tortilla:004",
+      "title": "Tortillas à la Betterave",
+      "cat": "Techniques, Mexique, Tortilla, Wrap",
+      "ing": ["250g de farine", "1/2 c. à café de sel", "120ml de jus de betterave", "150ml d'eau tiède"],
+      "steps": [
+        "Mélanger la farine et le sel dans un saladier.",
+        "Ajouter le jus de betterave et l'eau tiède progressivement en mélangeant.",
+        "Pétrir 5 min jusqu'à obtenir une pâte rose-rouge lisse. Laisser reposer 15 min.",
+        "Diviser en 6-8 boules. Étaler très finement sur un plan fariné.",
+        "Cuire dans une poêle chaude à sec, 1-2 min de chaque côté.",
+        "La couleur rose s'atténue légèrement à la cuisson mais reste prononcée."
+      ],
+      "min": 40
+    },
+    {
+      "id": "tortilla:005",
+      "title": "Tortillas de Maïs",
+      "cat": "Techniques, Mexique, Tortilla, Wrap",
+      "ing": ["180g de farine de maïs (masa harina)", "1/4 c. à café de sel", "150ml d'eau tiède"],
+      "steps": [
+        "Mélanger la farine de maïs et le sel dans un saladier.",
+        "Ajouter l'eau tiède progressivement et pétrir jusqu'à pâte homogène et légèrement collante.",
+        "Si la pâte est trop sèche, ajouter un peu d'eau. Laisser reposer 10 min.",
+        "Former des boules de la taille d'une balle de golf. Étaler entre deux feuilles de papier cuisson.",
+        "Cuire dans une poêle chaude à sec, 1-2 min de chaque côté jusqu'à légère coloration.",
+        "Idéales pour les tacos. Conserver enveloppées dans un torchon humide."
+      ],
+      "min": 30
+    },
+    {
+      "id": "tortilla:006",
+      "title": "Wrap Healthy Avoine et Chia",
+      "cat": "Techniques, Wrap, Santé, Sans gluten",
+      "ing": ["150g de flocons d'avoine", "10g de graines de chia", "500ml d'eau", "sel selon goût", "curry selon goût"],
+      "steps": [
+        "Mélanger les flocons d'avoine, les graines de chia, le sel et le curry dans un saladier.",
+        "Verser 500ml d'eau et mixer au blender ou robot de cuisine jusqu'à obtenir une pâte liquide lisse.",
+        "Laisser reposer 5 min pour que les graines de chia gonflent et épaississent la pâte.",
+        "Faire chauffer une poêle légèrement huilée à feu moyen.",
+        "Verser une louche de pâte et faire cuire 1-2 min de chaque côté jusqu'à ce que le wrap soit doré et souple.",
+        "Réserver et déguster garni de crudités, poulet ou houmous."
+      ],
+      "min": 25
+    },
+    {
       "id": "cheesecake:006",
       "title": "Cheesecake Pâte à Tartiner Sans Cuisson",
       "cat": "Dessert, Cheesecake, Chocolat, Sans cuisson",
