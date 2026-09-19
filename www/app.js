@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '2.96';
+const APP_VERSION = '2.99';
 
 let ALL = [];
 let BASE = [];
@@ -1676,8 +1676,14 @@ function openCocktailDetail(id){
 }
 function closeCocktailDetail(){ elCocktailDetail.hidden=true; document.body.style.overflow=''; window.scrollTo({top:0}); }
 
-/* ---------- frigo : analyse photo → suggestions ---------- */
-let frigoIngredients = [];
+/* ---------- frigo / congélateur / cellier : analyse photo → suggestions ---------- */
+const FTABS = ['frigo', 'congelateur', 'cellier'];
+const FTAB_EMOJIS = { frigo: '🧊', congelateur: '❄️', cellier: '🥫' };
+let storageIngs = Object.fromEntries(FTABS.map(t => [t, JSON.parse(localStorage.getItem('frigoIngs_' + t) || '[]')]));
+let activeFTab = 'frigo';
+
+function saveStorageIngs(tab){ localStorage.setItem('frigoIngs_' + tab, JSON.stringify(storageIngs[tab])); }
+function getAllStorageIngs(){ return FTABS.flatMap(t => storageIngs[t]); }
 
 function openFrigo(){
   const el = document.getElementById('frigo');
@@ -1686,11 +1692,21 @@ function openFrigo(){
   if (keyField) keyField.value = localStorage.getItem('frigoApiKey') || '';
   const settings = document.getElementById('frigo-settings');
   if (settings) settings.open = !localStorage.getItem('frigoApiKey');
-  renderFrigoIngs();
+  switchFrigoTab(activeFTab);
   renderFrigoSuggestions();
 }
 
 function closeFrigo(){ document.getElementById('frigo').hidden = true; }
+
+function switchFrigoTab(tab){
+  activeFTab = tab;
+  document.querySelectorAll('.frigo-tab').forEach(b => b.classList.toggle('active', b.dataset.ftab === tab));
+  FTABS.forEach(t => {
+    const pane = document.getElementById('ftab-' + t);
+    if (pane) pane.hidden = t !== tab;
+  });
+  renderFrigoIngs(tab);
+}
 
 function openSettings(){
   document.getElementById('settings').hidden = false;
@@ -1727,27 +1743,33 @@ function checkUpdateNow(){
   });
 }
 
-function renderFrigoIngs(){
-  const el = document.getElementById('frigo-ings');
+function renderFrigoIngs(tab){
+  if (!tab) tab = activeFTab;
+  const el = document.getElementById('frigo-ings-' + tab);
   if (!el) return;
-  if (!frigoIngredients.length){ el.hidden = true; return; }
+  const ings = storageIngs[tab] || [];
+  if (!ings.length){ el.hidden = true; return; }
+  const emoji = FTAB_EMOJIS[tab];
   el.hidden = false;
-  el.innerHTML = `<div class="frigo-ings-title">Ingrédients détectés :</div>
+  el.innerHTML = `<div class="frigo-ings-title">${emoji} ${ings.length} article${ings.length>1?'s':''} :</div>
     <div class="frigo-chips">
-      ${frigoIngredients.map((ing, i) => `<button class="frigo-chip" data-idx="${i}">🥕 ${esc(ing)} ✕</button>`).join('')}
+      ${ings.map((ing, i) => `<button class="frigo-chip" data-tab="${tab}" data-idx="${i}">${emoji} ${esc(ing)} ✕</button>`).join('')}
     </div>`;
   el.querySelectorAll('.frigo-chip').forEach(btn => {
     btn.addEventListener('click', ()=>{
-      frigoIngredients.splice(parseInt(btn.dataset.idx), 1);
-      renderFrigoIngs();
+      const t = btn.dataset.tab;
+      storageIngs[t].splice(parseInt(btn.dataset.idx), 1);
+      saveStorageIngs(t);
+      renderFrigoIngs(t);
       renderFrigoSuggestions();
     });
   });
 }
 
 function matchFrigoRecipes(){
-  if (!frigoIngredients.length) return [];
-  const normIngs = frigoIngredients.map(i => norm(i));
+  const all = getAllStorageIngs();
+  if (!all.length) return [];
+  const normIngs = all.map(i => norm(i));
   return ALL.map(r => {
     const ingText = norm((r.ing||[]).join(' '));
     const matched = normIngs.filter(ing => ingText.includes(ing) || norm(r.t||'').includes(ing));
@@ -1789,10 +1811,184 @@ function renderFrigoSuggestions(){
   });
 }
 
+/* ---------- scan code-barres ---------- */
+let scanTargetTab = 'cellier';
+
+function openScanOverlay(tab){
+  scanTargetTab = tab || activeFTab;
+  const el = document.getElementById('scan-overlay');
+  if (el) { el.hidden = false; setScanState('init'); }
+}
+
+function closeScanOverlay(){
+  const el = document.getElementById('scan-overlay');
+  if (el) el.hidden = true;
+}
+
+function setScanState(state, data){
+  data = data || {};
+  const body = document.getElementById('scan-body');
+  const titleEl = document.getElementById('scan-title');
+  if (!body) return;
+
+  if (state === 'init'){
+    if (titleEl) titleEl.textContent = 'Scanner un produit';
+    body.innerHTML = `
+      <p class="scan-info">Photographie le code-barres ou l'étiquette.<br>Le code-barres sera lu automatiquement.</p>
+      <label class="frigo-capture-btn" for="scan-barcode-photo">📷 Ouvrir l'appareil photo</label>
+      <input type="file" id="scan-barcode-photo" class="frigo-file-hidden" accept="image/*" capture="environment" />
+      <div class="scan-or">— ou saisir manuellement —</div>
+      <div class="frigo-manual-row">
+        <input id="scan-manual-inp" class="frigo-manual-input" type="text" placeholder="Nom du produit…" autocomplete="off" autocapitalize="sentences" />
+        <button id="scan-manual-add" class="frigo-manual-add">+</button>
+      </div>`;
+    body.querySelector('#scan-barcode-photo').addEventListener('change', handleScanCapture);
+    const inp = body.querySelector('#scan-manual-inp');
+    const btn = body.querySelector('#scan-manual-add');
+    function doManual(){ const v=inp.value.trim(); if(v) confirmAddProduct(v, scanTargetTab); }
+    btn.addEventListener('click', doManual);
+    inp.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); doManual(); } });
+    return;
+  }
+
+  if (state === 'loading'){
+    if (titleEl) titleEl.textContent = 'Scanner un produit';
+    body.innerHTML = `<div class="frigo-loading"><div class="imp-spinner"></div> ${esc(data.message || 'Analyse…')}</div>`;
+    return;
+  }
+
+  if (state === 'confirm'){
+    if (titleEl) titleEl.textContent = data.source === 'openfoodfacts' ? '✓ Produit trouvé' : '✓ Produit identifié';
+    body.innerHTML = `
+      ${data.barcode ? `<p class="scan-barcode-code">Code-barres : ${esc(data.barcode)}</p>` : ''}
+      ${!data.name ? '<p class="scan-info">Produit non reconnu — saisir le nom :</p>' : ''}
+      <label class="scan-label-sm">Nom du produit</label>
+      <input id="scan-product-name" class="frigo-manual-input" type="text" value="${esc(data.name || '')}" autocapitalize="sentences" />
+      <label class="scan-label-sm">Ajouter au stock</label>
+      <div class="scan-tab-sel">
+        ${FTABS.map(t=>`<button class="scan-tab-btn${t===scanTargetTab?' active':''}" data-stab="${t}">${FTAB_EMOJIS[t]} ${t==='frigo'?'Frigo':t==='congelateur'?'Congélo':'Cellier'}</button>`).join('')}
+      </div>
+      <button class="scan-add-btn" id="scan-add-btn">✓ Ajouter au stock</button>`;
+    body.querySelectorAll('.scan-tab-btn').forEach(b=>{
+      b.addEventListener('click', ()=>{
+        scanTargetTab = b.dataset.stab;
+        body.querySelectorAll('.scan-tab-btn').forEach(x=>x.classList.toggle('active', x===b));
+      });
+    });
+    body.querySelector('#scan-add-btn').addEventListener('click', ()=>{
+      const name = body.querySelector('#scan-product-name').value.trim();
+      if (name) confirmAddProduct(name, scanTargetTab);
+    });
+    body.querySelector('#scan-product-name').addEventListener('keydown', e=>{
+      if(e.key==='Enter'){ e.preventDefault(); const v=e.target.value.trim(); if(v) confirmAddProduct(v, scanTargetTab); }
+    });
+    setTimeout(()=>{ const inp=body.querySelector('#scan-product-name'); if(inp&&!data.name) inp.focus(); }, 80);
+    return;
+  }
+
+  if (state === 'error'){
+    if (titleEl) titleEl.textContent = '⚠ Problème';
+    body.innerHTML = `
+      <p class="frigo-note" style="color:#f0a090">${esc(data.message)}</p>
+      <div class="scan-or">Saisir manuellement :</div>
+      <div class="frigo-manual-row">
+        <input id="scan-manual-inp" class="frigo-manual-input" type="text" placeholder="Nom du produit…" autocomplete="off" autocapitalize="sentences" />
+        <button id="scan-manual-add" class="frigo-manual-add">+</button>
+      </div>`;
+    const inp = body.querySelector('#scan-manual-inp');
+    const btn = body.querySelector('#scan-manual-add');
+    function doAdd(){ const v=inp.value.trim(); if(v) confirmAddProduct(v, scanTargetTab); }
+    btn.addEventListener('click', doAdd);
+    inp.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); doAdd(); } });
+  }
+}
+
+async function handleScanCapture(e){
+  const file = e.target.files?.[0];
+  if (!file) return;
+  e.target.value = '';
+
+  setScanState('loading', { message: 'Lecture du code-barres…' });
+  try {
+    let barcode = null;
+
+    if ('BarcodeDetector' in window){
+      try {
+        const bitmap = await createImageBitmap(file);
+        const det = new BarcodeDetector({ formats: ['ean_13','ean_8','upc_a','upc_e','code_128','code_39','qr_code','data_matrix','itf'] });
+        const codes = await det.detect(bitmap);
+        if (codes.length) barcode = codes[0].rawValue;
+      } catch(_){}
+    }
+
+    if (barcode){
+      setScanState('loading', { message: `Code ${barcode} — recherche en base…` });
+      const name = await lookupBarcode(barcode);
+      if (name){
+        setScanState('confirm', { name, barcode, source: 'openfoodfacts' });
+        return;
+      }
+      setScanState('loading', { message: 'Produit inconnu — analyse de l\'étiquette…' });
+    } else {
+      setScanState('loading', { message: 'Code-barres non détecté — analyse de l\'image…' });
+    }
+
+    const apiKey = localStorage.getItem('frigoApiKey');
+    if (!apiKey){
+      setScanState('confirm', { name: '', barcode, source: 'manual' });
+      return;
+    }
+    const base64 = await fileToBase64(file);
+    const names = await analyzeFridgeImage(base64, file.type, 'cellier');
+    setScanState('confirm', { name: names[0] || '', barcode, source: 'claude' });
+
+  } catch(err){
+    setScanState('error', { message: err.message });
+  }
+}
+
+async function lookupBarcode(code){
+  try {
+    const r = await fetch(
+      `https://world.openfoodfacts.org/api/v2/product/${encodeURIComponent(code)}?fields=product_name_fr,product_name,generic_name_fr,generic_name`,
+      { headers: { 'User-Agent': 'RecettesApp/2.98 (github.com/laurentsar/recettes)' } }
+    );
+    if (!r.ok) return null;
+    const d = await r.json();
+    if (d.status !== 1) return null;
+    const p = d.product || {};
+    const name = (p.product_name_fr || p.product_name || p.generic_name_fr || p.generic_name || '').trim();
+    return name || null;
+  } catch(e){ return null; }
+}
+
+function fileToBase64(file){
+  return new Promise((resolve, reject)=>{
+    const reader = new FileReader();
+    reader.onload = ()=> resolve(reader.result.split(',')[1]);
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
+function confirmAddProduct(name, tab){
+  const n = norm(name);
+  if (!storageIngs[tab].some(x=>norm(x)===n)){
+    storageIngs[tab].push(name);
+    saveStorageIngs(tab);
+  }
+  renderFrigoIngs(tab);
+  renderFrigoSuggestions();
+  switchFrigoTab(tab);
+  closeScanOverlay();
+  toast(`${FTAB_EMOJIS[tab]} « ${esc(name)} » ajouté`);
+}
+
 async function handleFrigoCapture(e){
   const file = e.target.files?.[0];
   if (!file) return;
-  const statusEl = document.getElementById('frigo-status');
+  const tab = e.target.dataset.ftab || 'frigo';
+  const statusEl = document.getElementById('frigo-status-' + tab);
   if (statusEl) statusEl.innerHTML = '<div class="frigo-loading"><div class="imp-spinner"></div> Analyse en cours…</div>';
   try {
     const base64 = await new Promise((resolve, reject)=>{
@@ -1801,17 +1997,18 @@ async function handleFrigoCapture(e){
       reader.onerror = reject;
       reader.readAsDataURL(file);
     });
-    const ingredients = await analyzeFridgeImage(base64, file.type);
+    const ingredients = await analyzeFridgeImage(base64, file.type, tab);
     if (statusEl) statusEl.innerHTML = '';
     if (!ingredients.length){
-      if (statusEl) statusEl.innerHTML = '<p class="frigo-note">Aucun ingrédient détecté — réessaie avec une photo plus nette.</p>';
+      if (statusEl) statusEl.innerHTML = '<p class="frigo-note">Aucun produit détecté — réessaie avec une photo plus nette.</p>';
       return;
     }
     for (const ing of ingredients){
       const n = norm(ing);
-      if (!frigoIngredients.some(x=> norm(x)===n)) frigoIngredients.push(ing);
+      if (!storageIngs[tab].some(x=> norm(x)===n)) storageIngs[tab].push(ing);
     }
-    renderFrigoIngs();
+    saveStorageIngs(tab);
+    renderFrigoIngs(tab);
     renderFrigoSuggestions();
   } catch(err){
     if (statusEl) statusEl.innerHTML = `<p class="frigo-note" style="color:#f0a090">Erreur : ${esc(err.message)}</p>`;
@@ -1819,9 +2016,16 @@ async function handleFrigoCapture(e){
   e.target.value = '';
 }
 
-async function analyzeFridgeImage(base64, mimeType){
+const FRIGO_PROMPTS = {
+  frigo: 'Liste les ingrédients alimentaires visibles dans cette photo du réfrigérateur. Réponds UNIQUEMENT avec un tableau JSON d\'ingrédients en français minuscules, sans explication ni markdown. Exemple: ["tomate","fromage","oeuf","lait","carotte"]. Maximum 20 ingrédients.',
+  congelateur: 'Liste les aliments surgelés visibles dans cette photo du congélateur. Réponds UNIQUEMENT avec un tableau JSON en français minuscules, sans explication ni markdown. Exemple: ["épinards surgelés","poisson pané","petits pois"]. Maximum 20 produits.',
+  cellier: 'Liste les produits alimentaires visibles dans cette photo (conserves, boîtes, bocaux, pâtes, riz, légumineuses, épices, huiles, condiments, farines…). Réponds UNIQUEMENT avec un tableau JSON en français minuscules, sans explication ni markdown. Exemple: ["tomates pelées","lentilles","huile d\'olive","pâtes"]. Maximum 25 produits.',
+};
+
+async function analyzeFridgeImage(base64, mimeType, tab){
   const apiKey = localStorage.getItem('frigoApiKey');
   if (!apiKey) throw new Error('Clé API manquante — renseigne-la dans les paramètres ⚙️');
+  const prompt = FRIGO_PROMPTS[tab] || FRIGO_PROMPTS.frigo;
   const resp = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -1836,7 +2040,7 @@ async function analyzeFridgeImage(base64, mimeType){
         role: 'user',
         content: [
           { type: 'image', source: { type: 'base64', media_type: mimeType, data: base64 } },
-          { type: 'text', text: 'Liste les ingrédients alimentaires visibles dans cette photo. Réponds UNIQUEMENT avec un tableau JSON d\'ingrédients en français minuscules, sans explication ni markdown. Exemple: ["tomate","fromage","oeuf","lait","carotte"]. Maximum 20 ingrédients.' }
+          { type: 'text', text: prompt }
         ]
       }]
     })
@@ -2376,7 +2580,36 @@ async function init(){
     else localStorage.removeItem('frigoApiKey');
     toast('Clé API sauvegardée ✓');
   });
-  document.getElementById('frigo-file-input').addEventListener('change', handleFrigoCapture);
+  document.querySelectorAll('.frigo-tab').forEach(btn=>{
+    btn.addEventListener('click', ()=> switchFrigoTab(btn.dataset.ftab));
+  });
+  document.querySelectorAll('.frigo-scan-btn').forEach(btn=>{
+    btn.addEventListener('click', ()=> openScanOverlay(btn.dataset.ftab));
+  });
+  document.getElementById('scan-close').addEventListener('click', closeScanOverlay);
+  document.getElementById('scan-overlay').addEventListener('click', e=>{ if(e.target===e.currentTarget) closeScanOverlay(); });
+  ['frigo','congelateur','cellier'].forEach(tab=>{
+    const fileInput = document.getElementById('frigo-file-' + tab);
+    if (fileInput) fileInput.addEventListener('change', handleFrigoCapture);
+    const addBtn = document.querySelector(`.frigo-manual-add[data-ftab="${tab}"]`);
+    const manualInput = document.querySelector(`.frigo-manual-input[data-ftab="${tab}"]`);
+    function addManualIng(){
+      if (!manualInput) return;
+      const raw = manualInput.value.trim();
+      if (!raw) return;
+      const items = raw.split(/[,;]+/).map(s=>s.trim()).filter(Boolean);
+      for (const item of items){
+        const n = norm(item);
+        if (!storageIngs[tab].some(x=>norm(x)===n)) storageIngs[tab].push(item);
+      }
+      saveStorageIngs(tab);
+      manualInput.value = '';
+      renderFrigoIngs(tab);
+      renderFrigoSuggestions();
+    }
+    if (addBtn) addBtn.addEventListener('click', addManualIng);
+    if (manualInput) manualInput.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); addManualIng(); } });
+  });
   // Liens externes (source, vidéo) -> ouverture dans le navigateur du téléphone.
   document.addEventListener('click', (e)=>{
     const a = e.target.closest && e.target.closest('a[href]');

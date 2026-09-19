@@ -332,6 +332,33 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .frigo-chips{display:flex;gap:8px;flex-wrap:wrap}
 .frigo-chip{background:rgba(224,122,63,.18);border:1px solid rgba(224,122,63,.4);color:var(--accent);border-radius:999px;padding:6px 12px;font-size:.88em;font-weight:600;cursor:pointer;transition:background .15s}
 .frigo-chip:active{background:rgba(224,122,63,.35)}
+.frigo-tabs{display:flex;gap:6px;padding:10px 16px 0;flex-wrap:wrap}
+.frigo-tab{flex:1;min-width:0;padding:9px 6px;border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:12px;font-size:.85em;font-weight:700;cursor:pointer;text-align:center;transition:background .15s,color .15s}
+.frigo-tab.active{background:linear-gradient(135deg,var(--accent),var(--accent2));border-color:transparent;color:#fff}
+.frigo-tab-pane{display:flex;flex-direction:column;gap:12px}
+.frigo-tab-pane[hidden]{display:none!important}
+.frigo-manual-row{display:flex;gap:8px;align-items:center}
+.frigo-manual-input{flex:1;min-width:0;background:var(--bg);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:10px 12px;font-size:.92em}
+.frigo-manual-add{flex:0 0 auto;width:40px;height:40px;background:linear-gradient(135deg,var(--accent),var(--accent2));border:none;color:#fff;border-radius:10px;font-size:1.3em;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.frigo-scan-btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:14px 16px;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:14px;font-size:.95em;font-weight:700;cursor:pointer;width:100%;text-align:center;transition:opacity .15s,transform .15s}
+.frigo-scan-btn:active{opacity:.82;transform:scale(.98)}
+/* scan overlay */
+.scan-overlay{position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.72);display:flex;align-items:center;justify-content:center;padding:16px;-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+.scan-overlay[hidden]{display:none!important}
+.scan-card{background:var(--bg2);border-radius:22px;width:100%;max-width:440px;overflow:hidden;box-shadow:0 24px 64px rgba(0,0,0,.55)}
+.scan-card-head{display:flex;align-items:center;gap:12px;padding:16px;border-bottom:1px solid var(--line)}
+.scan-close{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.1em;cursor:pointer;flex:0 0 auto}
+.scan-title{font-size:1.1em;font-weight:800}
+.scan-body{padding:20px;display:flex;flex-direction:column;gap:14px;max-height:70vh;overflow-y:auto}
+.scan-info{margin:0;color:var(--muted);font-size:.9em;line-height:1.5}
+.scan-barcode-code{margin:0;font-family:monospace;font-size:.82em;color:var(--muted);background:var(--card);padding:6px 10px;border-radius:8px;border:1px solid var(--line)}
+.scan-label-sm{font-size:.8em;font-weight:700;color:var(--muted);margin:0}
+.scan-or{text-align:center;color:var(--muted);font-size:.82em;padding:2px 0}
+.scan-tab-sel{display:flex;gap:8px}
+.scan-tab-btn{flex:1;padding:11px 4px;border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:12px;font-size:.82em;font-weight:700;cursor:pointer;text-align:center;transition:background .15s,color .15s}
+.scan-tab-btn.active{background:linear-gradient(135deg,var(--accent),var(--accent2));border-color:transparent;color:#fff}
+.scan-add-btn{background:linear-gradient(135deg,var(--accent),var(--accent2));border:none;color:#fff;border-radius:14px;padding:15px;font-size:1em;font-weight:800;cursor:pointer;width:100%;letter-spacing:.2px;transition:opacity .15s}
+.scan-add-btn:active{opacity:.85}
 .frigo-suggestions-title{font-weight:700;font-size:.95em;color:var(--muted);margin-bottom:12px}
 .frigo-rcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
 .frigo-badges{display:flex;gap:4px;flex-wrap:wrap;margin-top:5px}

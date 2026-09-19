@@ -64,7 +64,12 @@
   <div id="frigo" class="frigo" hidden>
     <div class="frigo-head">
       <button class="frigo-head-back" id="frigo-back" aria-label="Retour">←</button>
-      <div class="frigo-head-title">🧊 Frigo</div>
+      <div class="frigo-head-title">🧊 Mes stocks</div>
+    </div>
+    <div class="frigo-tabs">
+      <button class="frigo-tab active" data-ftab="frigo">🧊 Frigo</button>
+      <button class="frigo-tab" data-ftab="congelateur">❄️ Congélo</button>
+      <button class="frigo-tab" data-ftab="cellier">🥫 Cellier</button>
     </div>
     <div class="frigo-scroll">
       <div class="frigo-body">
@@ -76,10 +81,43 @@
           </div>
           <p class="frigo-note">La clé est stockée localement sur l'appareil. Modèle : claude-haiku-4-5.</p>
         </details>
-        <label class="frigo-capture-btn" for="frigo-file-input">📷 Photographier le frigo</label>
-        <input type="file" id="frigo-file-input" class="frigo-file-hidden" accept="image/*" capture="environment">
-        <div id="frigo-status"></div>
-        <div id="frigo-ings" hidden></div>
+
+        <div class="frigo-tab-pane" id="ftab-frigo">
+          <label class="frigo-capture-btn" for="frigo-file-frigo">📷 Photographier le frigo</label>
+          <input type="file" id="frigo-file-frigo" class="frigo-file-hidden" accept="image/*" capture="environment" data-ftab="frigo">
+          <button class="frigo-scan-btn" data-ftab="frigo">🔍 Scanner un code-barres</button>
+          <div class="frigo-manual-row">
+            <input class="frigo-manual-input" type="text" placeholder="Ajouter un ingrédient…" autocomplete="off" autocapitalize="off" data-ftab="frigo" />
+            <button class="frigo-manual-add" data-ftab="frigo">+</button>
+          </div>
+          <div id="frigo-status-frigo"></div>
+          <div id="frigo-ings-frigo" hidden></div>
+        </div>
+
+        <div class="frigo-tab-pane" id="ftab-congelateur" hidden>
+          <label class="frigo-capture-btn" for="frigo-file-congelateur">📷 Photographier le congélateur</label>
+          <input type="file" id="frigo-file-congelateur" class="frigo-file-hidden" accept="image/*" capture="environment" data-ftab="congelateur">
+          <button class="frigo-scan-btn" data-ftab="congelateur">🔍 Scanner un code-barres</button>
+          <div class="frigo-manual-row">
+            <input class="frigo-manual-input" type="text" placeholder="Ajouter un aliment surgelé…" autocomplete="off" autocapitalize="off" data-ftab="congelateur" />
+            <button class="frigo-manual-add" data-ftab="congelateur">+</button>
+          </div>
+          <div id="frigo-status-congelateur"></div>
+          <div id="frigo-ings-congelateur" hidden></div>
+        </div>
+
+        <div class="frigo-tab-pane" id="ftab-cellier" hidden>
+          <label class="frigo-capture-btn" for="frigo-file-cellier">📷 Photographier boîtes &amp; cellier</label>
+          <input type="file" id="frigo-file-cellier" class="frigo-file-hidden" accept="image/*" capture="environment" data-ftab="cellier">
+          <button class="frigo-scan-btn" data-ftab="cellier">🔍 Scanner un code-barres</button>
+          <div class="frigo-manual-row">
+            <input class="frigo-manual-input" type="text" placeholder="Ex: tomates pelées, lentilles…" autocomplete="off" autocapitalize="off" data-ftab="cellier" />
+            <button class="frigo-manual-add" data-ftab="cellier">+</button>
+          </div>
+          <div id="frigo-status-cellier"></div>
+          <div id="frigo-ings-cellier" hidden></div>
+        </div>
+
         <div id="frigo-grid" hidden></div>
       </div>
     </div>
@@ -162,6 +200,15 @@
       <button class="wz-nav wz-primary" id="wz-next">Suivant →</button>
     </div>
   </div>
+  <div id="scan-overlay" class="scan-overlay" hidden>
+    <div class="scan-card">
+      <div class="scan-card-head">
+        <button id="scan-close" class="scan-close" aria-label="Fermer">←</button>
+        <div id="scan-title" class="scan-title">Scanner un produit</div>
+      </div>
+      <div id="scan-body" class="scan-body"></div>
+    </div>
+  </div>
   <div id="toast" class="toast" hidden></div>
   <div id="settings" class="settings-panel" hidden>
     <div class="settings-head">
@@ -182,7 +229,7 @@
   </div>
 
   <script src="app.js"></script>
-  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.96';</script>
+  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.99';</script>
   <script src="update-check.js" defer></script>
   <script>window.BACKUP_APP = 'recettes-app'; window.BACKUP_SKIP = [/^recipesData$/];</script>
   <script src="autobackup.js"></script>
