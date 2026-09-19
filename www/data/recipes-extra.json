@@ -71,7 +71,8 @@
     "dropbox:-322620166",
     "portugal:033",
     "espagne:004",
-    "espagne:006"
+    "espagne:006",
+    "dropbox:1161474497"
   ],
   "overrides": [
     {
@@ -112,7 +113,8 @@
     },
     {
       "id": "dropbox:-6587008",
-      "img": "https://image.over-blog.com/A04uazSO7X_CwX5U785LlMN8NYc=/filters:no_upscale()/image%2F0651923%2F20191014%2Fob_0c232e_ob-c6192a-riz-cajun-vegetarien.jpeg"
+      "img": "https://image.over-blog.com/A04uazSO7X_CwX5U785LlMN8NYc=/filters:no_upscale()/image%2F0651923%2F20191014%2Fob_0c232e_ob-c6192a-riz-cajun-vegetarien.jpeg",
+      "t": "Riz cajun aux haricots rouges"
     },
     {
       "id": "dropbox:217303805",
@@ -813,6 +815,210 @@
     {
       "id": "espagne:029",
       "steps": "Chauffer le lait avec la cannelle, le zeste et le sucre. Tremper les tranches de pain dans ce lait parfumé. Laisser bien imbiber. Passer dans l'œuf battu. Faire frire jusqu'à dorure. Égoutter. Rouler dans le mélange sucre-cannelle. Servir tiède.\n\n✈️ Variante Air Fryer : déposer les tranches imbibées dans le panier. Pulvériser légèrement d'huile. Cuire 180°C / 6 min, retourner, re-pulvériser, encore 4 min. Plus légères, texture légèrement différente de la version frite."
+    },
+    {
+      "id": "dropbox:a38d453a-b399-49a9-9015-a8520da67249",
+      "t": "Pain dans la friteuse à air"
+    },
+    {
+      "id": "dropbox:3b1c541a-6637-4a09-bb01-32cebf9b35cb",
+      "t": "Fondant au Chocolat (Airfryer)"
+    },
+    {
+      "id": "dropbox:1122559876",
+      "t": "Blanc de poulet sauce moutarde au Thermomix"
+    },
+    {
+      "id": "dropbox:5a095a0e-c8a2-4b7e-8b24-5d18362f4a7c",
+      "t": "Carottes confites au miel, cuisson au four"
+    },
+    {
+      "id": "dropbox:1890171165",
+      "t": "Chakalaka (plat sud africain)"
+    },
+    {
+      "id": "dropbox:1290192065",
+      "t": "Cheesecake au Toblerone au Thermomix"
+    },
+    {
+      "id": "dropbox:1445166428",
+      "t": "Chocolat chaud au thermomix"
+    },
+    {
+      "id": "dropbox:-1926016397",
+      "t": "Chou-fleur à l'indienne"
+    },
+    {
+      "id": "dropbox:-100319853",
+      "t": "Churros au four au Thermomix"
+    },
+    {
+      "id": "dropbox:1598849039",
+      "t": "Clafoutis à la courgette, chorizo et parmesan"
+    },
+    {
+      "id": "dropbox:-702871618",
+      "t": "Dôme d'avocat au saumon fumé (Thermomix)"
+    },
+    {
+      "id": "dropbox:2110403382",
+      "t": "Filet mignon au boursin et champignons WW"
+    },
+    {
+      "id": "dropbox:-56437985",
+      "t": "Gratin de légumes d’hiver au thermomix"
+    },
+    {
+      "id": "dropbox:2137136955",
+      "t": "Gratin de riz aux courgettes râpées et jambon"
+    },
+    {
+      "id": "dropbox:680266388",
+      "t": "Gratin Léger d'Halloween WW"
+    },
+    {
+      "id": "dropbox:bc192850-d3f2-4c9f-bf48-975fa93bae0a",
+      "t": "Nuggets de poulet au Thermomix"
+    },
+    {
+      "id": "dropbox:1727278756",
+      "t": "One pot quinoa mexicain"
+    },
+    {
+      "id": "dropbox:2073812807",
+      "t": "One pot rice: poulet, courgettes et carotte"
+    },
+    {
+      "id": "dropbox:34ded57f-919c-415d-8d98-3aba31d8fe98",
+      "t": "Pain brioché au miel au Thermomix"
+    },
+    {
+      "id": "dropbox:07fd6f1e-91f4-4bb6-a87a-42fcb52cff3e",
+      "t": "Pastéis de Nata – Recette Authentique Portugaise 🇵🇹"
+    },
+    {
+      "id": "dropbox:ffb2185f-d336-4213-b310-b19169babbf3",
+      "t": "Philadelphia fait maison avec Thermomix"
+    },
+    {
+      "id": "dropbox:593db823-c433-4f6c-9c60-33bb67704fb7",
+      "t": "Polenta au Thermomix"
+    },
+    {
+      "id": "dropbox:-1647413520",
+      "t": "Pommes de terre gratinées à la sauce tomate"
+    },
+    {
+      "id": "dropbox:-400268265",
+      "t": "Pommes de terre à l’espagnole au Thermomix"
+    },
+    {
+      "id": "dropbox:1865427671",
+      "t": "Poulet marengo au Thermomix"
+    },
+    {
+      "id": "dropbox:1581859705",
+      "t": "Poulet à la crème, moutarde et vin blanc"
+    },
+    {
+      "id": "dropbox:1202916742",
+      "t": "Poulet à l'orange WW"
+    },
+    {
+      "id": "dropbox:58aef201-1b77-4050-911d-2b509c0d2ec5",
+      "t": "Recette Brioche à la crème d’amande au Thermomix"
+    },
+    {
+      "id": "dropbox:1579931014",
+      "t": "Risotto aux courgettes et carottes au Thermomix"
+    },
+    {
+      "id": "dropbox:-1193241484",
+      "t": "Risotto aux petits-pois et chèvre frais"
+    },
+    {
+      "id": "dropbox:-1677082054",
+      "t": "Risotto aux Poireaux et au Jambon WW"
+    },
+    {
+      "id": "dropbox:-1693180694",
+      "t": "Risotto façon mexicaine"
+    },
+    {
+      "id": "dropbox:1265967939",
+      "t": "Risotto Léger aux Légumes WW"
+    },
+    {
+      "id": "dropbox:-410506130",
+      "t": "Risotto petits pois et carottes au thermomix"
+    },
+    {
+      "id": "dropbox:1513175493",
+      "t": "Sangria espagnole au Thermomix"
+    },
+    {
+      "id": "dropbox:c9604a28-c9fa-4835-95c9-039767b2de3d",
+      "t": "Saucisses en bocal"
+    },
+    {
+      "id": "dropbox:50051132",
+      "t": "Soubressade fait maison au thermomix"
+    },
+    {
+      "id": "dropbox:1621846856",
+      "t": "Super fondant au chocolat au Thermomix"
+    },
+    {
+      "id": "dropbox:124568998",
+      "t": "Tajine de carottes et pois chiches au thermomix"
+    },
+    {
+      "id": "dropbox:1779252120",
+      "t": "Truffes au chocolat de Noël au Thermomix"
+    },
+    {
+      "id": "dropbox:144314435",
+      "t": "Vin de figues"
+    },
+    {
+      "id": "dropbox:c85f2f0a-1457-4791-8ca8-1babb944047e",
+      "t": "Croissant au Chocolat (Airfryer)"
+    },
+    {
+      "id": "dropbox:49a192db-a8ac-4420-ab17-f7597e9f70cb",
+      "t": "Gratin d'œufs durs au jambon"
+    },
+    {
+      "id": "dropbox:7df9c70b-aff1-4919-98c5-01aef1a65b4e",
+      "cat": "Légume, Plat"
+    },
+    {
+      "id": "dropbox:8865b0d5-aa6d-477c-838f-5ed00102a3ed",
+      "cat": "Légume, Plat"
+    },
+    {
+      "id": "dropbox:b933c545-051d-45c4-a9dd-13d750a2f4dc",
+      "cat": "Légume, Plat"
+    },
+    {
+      "id": "dropbox:53b5657d-8918-4a23-a9ad-eaa5cfc7548d",
+      "cat": "Légume, Plat"
+    },
+    {
+      "id": "dropbox:1084151442",
+      "cat": "Légume, Tarte, Plat"
+    },
+    {
+      "id": "dropbox:-227631228",
+      "cat": "Légume, Plat"
+    },
+    {
+      "id": "dropbox:b82a7f5e-252a-4c7e-90aa-cacb1e5d873b",
+      "cat": "Légume, Plat"
+    },
+    {
+      "id": "dropbox:510910326",
+      "cat": "Tarte, Légume, Plat"
     }
   ],
   "recipes": [
@@ -16040,7 +16246,14 @@
       "id": "pizza:001",
       "title": "Pâte à Pizza Classique",
       "cat": "Techniques, Italie, Pizza",
-      "ing": ["400g farine", "300ml eau chaude", "2 c.à.s. huile", "1 c.à.s. sucre", "1 c.à.c. sel", "1 sachet levure sèche"],
+      "ing": [
+        "400g farine",
+        "300ml eau chaude",
+        "2 c.à.s. huile",
+        "1 c.à.s. sucre",
+        "1 c.à.c. sel",
+        "1 sachet levure sèche"
+      ],
       "steps": [
         "Dissoudre la levure et le sucre dans l'eau chaude (40°C). Laisser activer 5-10 min jusqu'à ce qu'elle mousse.",
         "Mélanger la farine et le sel dans un grand bol. Faire un puits au centre.",
@@ -16049,13 +16262,19 @@
         "Placer dans un bol huilé, couvrir d'un torchon. Laisser lever 1h à température ambiante jusqu'à doubler de volume.",
         "Dégazer, former une boule, étaler et garnir selon votre goût."
       ],
-      "min": 90
+      "min": 90,
+      "t": "Pâte à Pizza Classique"
     },
     {
       "id": "pizza:002",
       "title": "Pâte à Pizza Napolitaine",
       "cat": "Techniques, Italie, Pizza",
-      "ing": ["400g farine 00 (ou farine T45)", "300ml eau froide", "2 c.à.c. sel", "¼ c.à.c. levure sèche (optionnel)"],
+      "ing": [
+        "400g farine 00 (ou farine T45)",
+        "300ml eau froide",
+        "2 c.à.c. sel",
+        "¼ c.à.c. levure sèche (optionnel)"
+      ],
       "steps": [
         "Dissoudre la levure dans l'eau froide si vous l'utilisez (la pâte napolitaine peut se faire sans levure grâce à une longue fermentation).",
         "Mélanger la farine et le sel dans un grand bol. Verser l'eau progressivement.",
@@ -16064,13 +16283,21 @@
         "Sortir 1-2h avant utilisation. Former des boules de 280g, laisser reposer 30 min à température ambiante.",
         "Étaler à la main sans rouleau en poussant l'air vers les bords pour former la corniche."
       ],
-      "min": 120
+      "min": 120,
+      "t": "Pâte à Pizza Napolitaine"
     },
     {
       "id": "pizza:003",
       "title": "Pâte à Pizza Fine et Croustillante",
       "cat": "Techniques, Italie, Pizza",
-      "ing": ["280g farine", "60ml eau chaude", "2 c.à.s. huile d'olive", "1 c.à.c. sucre", "1 c.à.c. sel", "1 sachet levure sèche"],
+      "ing": [
+        "280g farine",
+        "60ml eau chaude",
+        "2 c.à.s. huile d'olive",
+        "1 c.à.c. sucre",
+        "1 c.à.c. sel",
+        "1 sachet levure sèche"
+      ],
       "steps": [
         "Dissoudre la levure dans l'eau chaude avec le sucre. Activer 5 min.",
         "Mélanger farine et sel. Incorporer l'eau levurée et l'huile d'olive.",
@@ -16079,13 +16306,22 @@
         "Étaler très finement au rouleau (2-3mm). Piquer le fond avec une fourchette.",
         "Précuire 5 min à 240°C avant de garnir pour garantir le croustillant."
       ],
-      "min": 60
+      "min": 60,
+      "t": "Pâte à Pizza Rapide à l'Huile d'Olive"
     },
     {
       "id": "pizza:004",
       "title": "Pâte à Pizza Chicago Deep Dish",
       "cat": "Techniques, Italie, Pizza",
-      "ing": ["400g farine", "60ml eau chaude", "60ml huile d'olive", "60g beurre fondu", "1 c.à.s. sucre", "1¼ c.à.c. sel", "1 sachet levure sèche"],
+      "ing": [
+        "400g farine",
+        "60ml eau chaude",
+        "60ml huile d'olive",
+        "60g beurre fondu",
+        "1 c.à.s. sucre",
+        "1¼ c.à.c. sel",
+        "1 sachet levure sèche"
+      ],
       "steps": [
         "Dissoudre la levure dans l'eau tiède avec le sucre. Laisser mousser 5 min.",
         "Mélanger farine et sel. Incorporer l'eau levurée, l'huile d'olive et le beurre fondu.",
@@ -16094,13 +16330,22 @@
         "Huiler généreusement un moule à bords hauts (28cm). Étaler la pâte en faisant remonter les bords sur 4-5cm.",
         "Garnir en commençant par le fromage, puis les garnitures, et enfin la sauce tomate par-dessus. Cuire 25-30 min à 200°C."
       ],
-      "min": 120
+      "min": 120,
+      "t": "Pâte à Pizza Moelleuse au Beurre"
     },
     {
       "id": "pizza:005",
       "title": "Pâte à Pizza Croûte Farcie",
       "cat": "Techniques, Italie, Pizza",
-      "ing": ["400g farine", "300ml eau chaude", "2 c.à.s. huile d'olive", "1 c.à.s. sucre", "1 c.à.c. sel", "1 sachet levure sèche", "bâtonnets de mozzarella"],
+      "ing": [
+        "400g farine",
+        "300ml eau chaude",
+        "2 c.à.s. huile d'olive",
+        "1 c.à.s. sucre",
+        "1 c.à.c. sel",
+        "1 sachet levure sèche",
+        "bâtonnets de mozzarella"
+      ],
       "steps": [
         "Dissoudre la levure et le sucre dans l'eau chaude. Activer 5-10 min.",
         "Mélanger farine, sel, eau levurée et huile. Pétrir 8-10 min. Laisser lever 1h.",
@@ -16109,13 +16354,20 @@
         "Replier le bord de pâte sur les bâtonnets et appuyer fermement pour sceller.",
         "Garnir le centre, cuire 12-15 min à 220°C jusqu'à ce que la croûte soit bien dorée."
       ],
-      "min": 100
+      "min": 100,
+      "t": "Pâte à Pizza Méditerranéenne"
     },
     {
       "id": "pizza:006",
       "title": "Pâte à Pizza Fine et Croustillante",
       "cat": "Techniques, Italie, Pizza",
-      "ing": ["500g farine", "300ml eau tiède", "7g levure boulangère sèche", "1 c.à.c. sel", "2 c.à.s. huile d'olive"],
+      "ing": [
+        "500g farine",
+        "300ml eau tiède",
+        "7g levure boulangère sèche",
+        "1 c.à.c. sel",
+        "2 c.à.s. huile d'olive"
+      ],
       "steps": [
         "Dissoudre la levure dans l'eau tiède. Laisser reposer 5-10 min jusqu'à ce qu'elle mousse.",
         "Mélanger la farine et le sel. Ajouter l'eau levurée et l'huile d'olive.",
@@ -16123,13 +16375,21 @@
         "Laisser lever 1h dans un endroit chaud, couverte d'un linge propre.",
         "Étaler très finement sur une surface farinée. Garnir et cuire 12-15 min à 240°C pour une croûte croustillante."
       ],
-      "min": 85
+      "min": 85,
+      "t": "Pâte à Pizza Légère"
     },
     {
       "id": "pizza:007",
       "title": "Pâte à Pizza Moelleuse",
       "cat": "Techniques, Italie, Pizza",
-      "ing": ["500g farine", "320ml eau tiède", "7g levure boulangère sèche", "1 c.à.c. sucre", "1 c.à.c. sel", "2 c.à.s. huile d'olive"],
+      "ing": [
+        "500g farine",
+        "320ml eau tiède",
+        "7g levure boulangère sèche",
+        "1 c.à.c. sucre",
+        "1 c.à.c. sel",
+        "2 c.à.s. huile d'olive"
+      ],
       "steps": [
         "Dissoudre la levure et le sucre dans l'eau tiède. Laisser activer 5-10 min.",
         "Mélanger la farine et le sel. Creuser un puits, verser l'eau levurée et l'huile d'olive.",
@@ -16137,13 +16397,20 @@
         "Laisser lever 1h30 couverte. La pâte doit doubler de volume.",
         "Étaler en gardant une légère épaisseur. Garnir et cuire 12-15 min à 220°C. La pâte sera dorée et moelleuse."
       ],
-      "min": 105
+      "min": 105,
+      "t": "Pâte à Pizza Fondante"
     },
     {
       "id": "pizza:008",
       "title": "Pâte à Pizza Express (Sans Levure Boulangère)",
       "cat": "Techniques, Italie, Pizza",
-      "ing": ["300g farine", "1 yaourt nature", "1 sachet levure chimique", "1 pincée de sel", "1 c.à.s. huile d'olive"],
+      "ing": [
+        "300g farine",
+        "1 yaourt nature",
+        "1 sachet levure chimique",
+        "1 pincée de sel",
+        "1 c.à.s. huile d'olive"
+      ],
       "steps": [
         "Mélanger la farine, la levure chimique et le sel dans un bol.",
         "Ajouter le yaourt nature et l'huile d'olive. Mélanger jusqu'à former une boule.",
@@ -16151,13 +16418,21 @@
         "Étaler directement sur une surface farinée à l'épaisseur souhaitée.",
         "Garnir selon votre goût et cuire 12-15 min à 220°C jusqu'à ce que les bords soient dorés."
       ],
-      "min": 25
+      "min": 25,
+      "t": "Pâte à Pizza au Yaourt"
     },
     {
       "id": "pizza:009",
       "title": "Pâte à Pizza Complète",
       "cat": "Techniques, Italie, Pizza",
-      "ing": ["250g farine complète", "250g farine de blé", "320ml eau tiède", "7g levure boulangère sèche", "1 c.à.c. sel", "2 c.à.s. huile d'olive"],
+      "ing": [
+        "250g farine complète",
+        "250g farine de blé",
+        "320ml eau tiède",
+        "7g levure boulangère sèche",
+        "1 c.à.c. sel",
+        "2 c.à.s. huile d'olive"
+      ],
       "steps": [
         "Dissoudre la levure dans l'eau tiède. Laisser reposer 5-10 min.",
         "Mélanger les deux farines et le sel. Incorporer l'eau levurée et l'huile d'olive.",
@@ -16165,13 +16440,21 @@
         "Laisser lever 1h30 couverte. Elle montera moins qu'une pâte blanche.",
         "Étaler sur une surface farinée. Garnir et cuire 15-18 min à 220°C."
       ],
-      "min": 110
+      "min": 110,
+      "t": "Pâte à Pizza Semi-Complète"
     },
     {
       "id": "pizza:010",
       "title": "Pâte à Pizza Herbes et Huile d'Olive",
       "cat": "Techniques, Italie, Pizza",
-      "ing": ["500g farine", "300ml eau tiède", "7g levure boulangère sèche", "1 c.à.c. sel", "3 c.à.s. huile d'olive", "herbes de Provence"],
+      "ing": [
+        "500g farine",
+        "300ml eau tiède",
+        "7g levure boulangère sèche",
+        "1 c.à.c. sel",
+        "3 c.à.s. huile d'olive",
+        "herbes de Provence"
+      ],
       "steps": [
         "Dissoudre la levure dans l'eau tiède. Laisser reposer 5-10 min jusqu'à ce qu'elle mousse.",
         "Mélanger la farine, le sel et les herbes de Provence généreusement.",
@@ -16179,104 +16462,162 @@
         "Laisser lever 1h couverte. La pâte sera parfumée aux herbes.",
         "Étaler, badigeonner d'un filet d'huile d'olive avant de garnir. Cuire 12-15 min à 230°C."
       ],
-      "min": 85
+      "min": 85,
+      "t": "Pâte à Pizza Croustillante"
     },
     {
       "id": "marinade:001",
       "title": "Marinade Poulet Grecque",
       "cat": "Techniques, Poulet, BBQ",
-      "ing": ["moutarde de Dijon 2 c.à.s.", "épices à steak 1 c.à.s.", "sauce soja 2 c.à.s.", "ail 3 gousses", "origan séché 1 c.à.c.", "feuilles de laurier 2"],
+      "ing": [
+        "moutarde de Dijon 2 c.à.s.",
+        "épices à steak 1 c.à.s.",
+        "sauce soja 2 c.à.s.",
+        "ail 3 gousses",
+        "origan séché 1 c.à.c.",
+        "feuilles de laurier 2"
+      ],
       "steps": [
         "Mélanger la moutarde de Dijon, les épices à steak et la sauce soja dans un bol.",
         "Écraser l'ail, l'incorporer avec l'origan et les feuilles de laurier froissées.",
         "Enduire généreusement les morceaux de poulet. Mariner au minimum 2h (idéalement une nuit) au réfrigérateur.",
         "Cuire au BBQ à feu moyen 6-8 min par côté, ou au four à 200°C pendant 30-35 min."
       ],
-      "min": 15
+      "min": 15,
+      "t": "Marinade Moutarde-Épices pour Steak"
     },
     {
       "id": "marinade:002",
       "title": "Marinade Poulet Paprika Fumé",
       "cat": "Techniques, Poulet, BBQ",
-      "ing": ["paprika fumé 2 c.à.s.", "jus de 1 citron", "ail 3 gousses", "huile d'olive 3 c.à.s.", "sel, poivre"],
+      "ing": [
+        "paprika fumé 2 c.à.s.",
+        "jus de 1 citron",
+        "ail 3 gousses",
+        "huile d'olive 3 c.à.s.",
+        "sel, poivre"
+      ],
       "steps": [
         "Mélanger le paprika fumé, le jus de citron, l'ail écrasé et l'huile d'olive. Saler et poivrer.",
         "Badigeonner généreusement les morceaux de poulet. Mariner 1-4h au frais.",
         "Griller au BBQ 15-20 min selon l'épaisseur, en retournant à mi-cuisson.",
         "Servir avec une salade fraîche ou des légumes grillés."
       ],
-      "min": 15
+      "min": 15,
+      "t": "Marinade Paprika Fumé et Citron"
     },
     {
       "id": "marinade:003",
       "title": "Marinade Poulet Miel et Moutarde",
       "cat": "Techniques, Poulet, BBQ",
-      "ing": ["miel 3 c.à.s.", "moutarde de Dijon 2 c.à.s.", "vinaigre de vin rouge 1 c.à.s.", "huile d'olive 2 c.à.s.", "sel, poivre"],
+      "ing": [
+        "miel 3 c.à.s.",
+        "moutarde de Dijon 2 c.à.s.",
+        "vinaigre de vin rouge 1 c.à.s.",
+        "huile d'olive 2 c.à.s.",
+        "sel, poivre"
+      ],
       "steps": [
         "Fouetter ensemble le miel, la moutarde de Dijon, le vinaigre de vin rouge et l'huile d'olive jusqu'à émulsion.",
         "Saler et poivrer. Immerger le poulet et laisser mariner 2-4h au réfrigérateur.",
         "Griller au BBQ ou rôtir au four à 180°C, en badigeonnant régulièrement avec la marinade pour caraméliser.",
         "La moutarde crée une belle croûte dorée. Surveiller pour ne pas brûler."
       ],
-      "min": 15
+      "min": 15,
+      "t": "Marinade Miel-Moutarde"
     },
     {
       "id": "marinade:004",
       "title": "Marinade Poulet Moutarde et Érable",
       "cat": "Techniques, Poulet, BBQ",
-      "ing": ["sirop d'érable 3 c.à.s.", "moutarde de Dijon 2 c.à.s.", "huile végétale 2 c.à.s.", "ail 2 gousses", "sel, poivre"],
+      "ing": [
+        "sirop d'érable 3 c.à.s.",
+        "moutarde de Dijon 2 c.à.s.",
+        "huile végétale 2 c.à.s.",
+        "ail 2 gousses",
+        "sel, poivre"
+      ],
       "steps": [
         "Mélanger le sirop d'érable, la moutarde de Dijon, l'ail écrasé et l'huile. Saler et poivrer.",
         "Mariner le poulet au moins 2h au réfrigérateur, de préférence une nuit.",
         "Cuire au BBQ à feu moyen, en badigeonnant souvent avec le reste de marinade pour caraméliser.",
         "Attention : le sirop d'érable caramélise vite, surveiller et baisser le feu si nécessaire."
       ],
-      "min": 15
+      "min": 15,
+      "t": "Marinade Sirop d'Érable-Moutarde"
     },
     {
       "id": "marinade:005",
       "title": "Marinade Poulet au Cumin",
       "cat": "Techniques, Poulet, BBQ",
-      "ing": ["yaourt nature 150g", "huile de canola 2 c.à.s.", "cumin 2 c.à.c.", "sel 1 c.à.c."],
+      "ing": [
+        "yaourt nature 150g",
+        "huile de canola 2 c.à.s.",
+        "cumin 2 c.à.c.",
+        "sel 1 c.à.c."
+      ],
       "steps": [
         "Mélanger le yaourt nature, l'huile de canola, le cumin et le sel dans un bol.",
         "Inciser légèrement le poulet pour que la marinade pénètre bien. Immerger dans la marinade.",
         "Laisser mariner au minimum 4h, idéalement une nuit au réfrigérateur.",
         "Cuire au BBQ : commencer à feu vif pour saisir (2-3 min), puis finir à feu moyen pour ne pas brûler le yaourt."
       ],
-      "min": 15
+      "min": 15,
+      "t": "Marinade Yaourt-Cumin"
     },
     {
       "id": "marinade:006",
       "title": "Marinade Poulet Bourbon et Mélasse",
       "cat": "Techniques, Poulet, BBQ",
-      "ing": ["bourbon 3 c.à.s.", "mélasse 2 c.à.s.", "moutarde sèche 1 c.à.c.", "gingembre frais râpé 1 c.à.c.", "ail, sel, poivre"],
+      "ing": [
+        "bourbon 3 c.à.s.",
+        "mélasse 2 c.à.s.",
+        "moutarde sèche 1 c.à.c.",
+        "gingembre frais râpé 1 c.à.c.",
+        "ail, sel, poivre"
+      ],
       "steps": [
         "Mélanger le bourbon, la mélasse, la moutarde sèche et le gingembre râpé.",
         "Saler et poivrer. Enduire le poulet et mariner 4h minimum (ou une nuit).",
         "La mélasse caramélise facilement : cuire au BBQ à feu moyen en surveillant.",
         "Badigeonner en fin de cuisson pour une belle laque brillante. Idéal avec des cuisses ou pilons."
       ],
-      "min": 15
+      "min": 15,
+      "t": "Marinade Bourbon et Mélasse"
     },
     {
       "id": "marinade:007",
       "title": "Marinade Poulet Sud-Ouest",
       "cat": "Techniques, Poulet, BBQ",
-      "ing": ["huile d'olive 3 c.à.s.", "vinaigre de cidre 2 c.à.s.", "poudre de chili 1 c.à.s.", "origan séché 1 c.à.c.", "poudre d'ail 1 c.à.c.", "coriandre fraîche", "sel, poivre"],
+      "ing": [
+        "huile d'olive 3 c.à.s.",
+        "vinaigre de cidre 2 c.à.s.",
+        "poudre de chili 1 c.à.s.",
+        "origan séché 1 c.à.c.",
+        "poudre d'ail 1 c.à.c.",
+        "coriandre fraîche",
+        "sel, poivre"
+      ],
       "steps": [
         "Mélanger l'huile d'olive, le vinaigre de cidre, la poudre de chili, l'origan et la poudre d'ail.",
         "Ciseler la coriandre fraîche et l'incorporer. Saler et poivrer généreusement.",
         "Enduire le poulet et mariner 2-4h au frais.",
         "Griller au BBQ 6-8 min par côté selon l'épaisseur. Servir avec du guacamole ou du riz."
       ],
-      "min": 15
+      "min": 15,
+      "t": "Marinade Pimentée à l'Huile d'Olive"
     },
     {
       "id": "effiloche:001",
       "title": "Bœuf Effiloché Sauce BBQ",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "200ml sauce BBQ", "1 oignon", "3 gousses d'ail", "sel, poivre"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "200ml sauce BBQ",
+        "1 oignon",
+        "3 gousses d'ail",
+        "sel, poivre"
+      ],
       "steps": [
         "Couper le paleron en 2-3 gros morceaux. Saler et poivrer généreusement.",
         "Chauffer de l'huile dans une cocotte à feu vif. Faire dorer la viande sur toutes les faces (5-6 min).",
@@ -16284,13 +16625,21 @@
         "Couvrir et cuire à feu très doux 3-4h (ou 6-8h en mijoteuse) jusqu'à ce que la viande s'effiloche facilement.",
         "Effilocher avec deux fourchettes. Mélanger à la sauce et servir dans des burgers, sandwichs ou wraps."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché BBQ"
     },
     {
       "id": "effiloche:002",
       "title": "Pulled Beef Miel et Ail",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "3 c.à.s. miel", "6 gousses d'ail", "3 c.à.s. sauce soja", "poivre noir", "huile"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "3 c.à.s. miel",
+        "6 gousses d'ail",
+        "3 c.à.s. sauce soja",
+        "poivre noir",
+        "huile"
+      ],
       "steps": [
         "Saisir le paleron entier dans une cocotte avec de l'huile bien chaude, sur toutes les faces.",
         "Mélanger le miel, la sauce soja, l'ail écrasé et le poivre noir. Verser sur la viande.",
@@ -16298,13 +16647,23 @@
         "Effilocher à la fourchette. Réduire la sauce à feu vif 5 min pour la concentrer.",
         "Napper la viande effilochée de sauce miel-ail. Servir sur du riz ou en bao."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché Miel-Soja"
     },
     {
       "id": "effiloche:003",
       "title": "Bœuf Effiloché Tex-Mex",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "400g tomates concassées", "400g haricots rouges", "1 c.à.s. cumin", "1 c.à.c. origan", "1 c.à.c. paprika fumé", "1 oignon", "ail"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "400g tomates concassées",
+        "400g haricots rouges",
+        "1 c.à.s. cumin",
+        "1 c.à.c. origan",
+        "1 c.à.c. paprika fumé",
+        "1 oignon",
+        "ail"
+      ],
       "steps": [
         "Saisir le paleron dans une cocotte huilée. Ajouter l'oignon et les épices (cumin, origan, paprika).",
         "Verser les tomates concassées et les haricots rouges égouttés. Couvrir d'eau à mi-hauteur.",
@@ -16312,13 +16671,22 @@
         "Effilocher la viande à la fourchette et l'incorporer à la sauce.",
         "Servir dans des tacos ou wraps avec avocat, crème fraîche, coriandre fraîche et jalapeños."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché Tex-Mex"
     },
     {
       "id": "effiloche:004",
       "title": "Bœuf Fondant au Vin Rouge Effiloché",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "250ml vin rouge", "2 carottes", "2 oignons", "bouquet garni", "bouillon de bœuf", "sel, poivre"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "250ml vin rouge",
+        "2 carottes",
+        "2 oignons",
+        "bouquet garni",
+        "bouillon de bœuf",
+        "sel, poivre"
+      ],
       "steps": [
         "Émincer les oignons et couper les carottes en rondelles. Faire revenir dans la cocotte huilée. Réserver.",
         "Saisir le paleron sur toutes les faces dans la même cocotte. Déglacer avec le vin rouge, laisser réduire 2 min.",
@@ -16326,13 +16694,21 @@
         "Cuire 3h30-4h à feu très doux (ou 1h30 en cocotte-minute). La viande doit s'effilocher au toucher.",
         "Effilocher. Réduire le jus de cuisson à feu vif pour obtenir une sauce onctueuse."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché au Vin Rouge"
     },
     {
       "id": "effiloche:005",
       "title": "Bœuf Effiloché Caramélisé",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "2 c.à.s. cassonade", "3 c.à.s. sauce soja", "4 gousses d'ail", "2 c.à.s. huile d'olive", "sel, poivre"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "2 c.à.s. cassonade",
+        "3 c.à.s. sauce soja",
+        "4 gousses d'ail",
+        "2 c.à.s. huile d'olive",
+        "sel, poivre"
+      ],
       "steps": [
         "Saisir le paleron dans l'huile d'olive à feu très vif jusqu'à belle coloration.",
         "Mélanger la cassonade, la sauce soja et l'ail écrasé. Enduire la viande.",
@@ -16340,13 +16716,21 @@
         "Effilocher la viande. Remettre dans la cocotte découverte et cuire 5-10 min à feu moyen-vif pour caraméliser.",
         "La viande doit être légèrement croustillante en surface avec une sauce sirupeuse."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché Caramel-Soja"
     },
     {
       "id": "effiloche:006",
       "title": "Bœuf Effiloché Épicé Maison",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "1-2 piments", "4 gousses d'ail", "2 c.à.c. cumin", "400g tomates concassées", "huile, sel, poivre"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "1-2 piments",
+        "4 gousses d'ail",
+        "2 c.à.c. cumin",
+        "400g tomates concassées",
+        "huile, sel, poivre"
+      ],
       "steps": [
         "Saisir le paleron dans une cocotte huilée. Réserver.",
         "Faire revenir l'ail émincé et le piment haché 1 min. Saupoudrer de cumin.",
@@ -16354,13 +16738,22 @@
         "Cuire 3-4h à feu doux couvert. Ajuster le piment selon le goût.",
         "Effilocher et mélanger à la sauce. Servir avec du riz ou des tortillas."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché Épicé"
     },
     {
       "id": "effiloche:007",
       "title": "Bœuf Mijoté Style Bourguignon Effiloché",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "300ml vin rouge", "150g lardons", "200g champignons", "2 oignons", "bouquet garni", "beurre"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "300ml vin rouge",
+        "150g lardons",
+        "200g champignons",
+        "2 oignons",
+        "bouquet garni",
+        "beurre"
+      ],
       "steps": [
         "Faire revenir les lardons dans une cocotte beurrée jusqu'à légère coloration. Ajouter les oignons émincés. Réserver.",
         "Saisir le paleron dans la même cocotte. Déglacer au vin rouge, laisser réduire 3 min.",
@@ -16368,13 +16761,21 @@
         "Couvrir et cuire 3h30 à feu très doux.",
         "Effilocher la viande à la fourchette et mélanger à la sauce riche aux champignons."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché Façon Bourguignon"
     },
     {
       "id": "effiloche:008",
       "title": "Pulled Beef Cheddar Fondant",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "cheddar râpé 150g", "200ml sauce BBQ", "1 oignon", "3 gousses d'ail", "sel, poivre"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "cheddar râpé 150g",
+        "200ml sauce BBQ",
+        "1 oignon",
+        "3 gousses d'ail",
+        "sel, poivre"
+      ],
       "steps": [
         "Saisir le paleron avec l'oignon et l'ail dans une cocotte huilée.",
         "Verser la sauce BBQ et 100ml d'eau. Couvrir et cuire 3-4h à feu doux.",
@@ -16382,13 +16783,21 @@
         "Parsemer de cheddar râpé et passer 5 min au four chaud (210°C) jusqu'à ce que le fromage soit bien fondu et doré.",
         "Servir immédiatement avec des pickles et de la coleslaw."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché Cheddar BBQ"
     },
     {
       "id": "effiloche:009",
       "title": "Bœuf Effiloché Tomates et Herbes de Provence",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "400g tomates concassées", "1 c.à.s. herbes de Provence", "4 gousses d'ail", "1 oignon", "huile d'olive, sel, poivre"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "400g tomates concassées",
+        "1 c.à.s. herbes de Provence",
+        "4 gousses d'ail",
+        "1 oignon",
+        "huile d'olive, sel, poivre"
+      ],
       "steps": [
         "Faire revenir l'oignon et l'ail dans l'huile d'olive. Saisir le paleron sur toutes les faces.",
         "Verser les tomates concassées. Saupoudrer généreusement d'herbes de Provence.",
@@ -16396,13 +16805,22 @@
         "Effilocher à la fourchette. La sauce tomate aux herbes doit être bien concentrée.",
         "Servir sur des pâtes, du riz ou des polenta."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché Provençal"
     },
     {
       "id": "effiloche:010",
       "title": "Bœuf Effiloché Oignons Confits",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "3 gros oignons", "2 c.à.s. cassonade", "4 gousses d'ail", "thym frais", "bouillon de bœuf 300ml", "beurre"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "3 gros oignons",
+        "2 c.à.s. cassonade",
+        "4 gousses d'ail",
+        "thym frais",
+        "bouillon de bœuf 300ml",
+        "beurre"
+      ],
       "steps": [
         "Émincer finement les oignons. Les faire confire à feu doux avec le beurre, la cassonade et le thym pendant 20-25 min jusqu'à caramélisation dorée.",
         "Dans la même cocotte, saisir le paleron sur toutes les faces.",
@@ -16410,13 +16828,21 @@
         "Cuire 3h30-4h à feu très doux.",
         "Effilocher et mélanger avec les oignons fondants. Servir dans des tartines ou avec de la purée."
       ],
-      "min": 260
+      "min": 260,
+      "t": "Bœuf Effiloché aux Oignons Confits"
     },
     {
       "id": "effiloche:011",
       "title": "Bœuf BBQ Fumé au Paprika",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "200ml sauce BBQ", "2 c.à.s. paprika fumé", "3 gousses d'ail", "1 oignon", "sel, poivre"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "200ml sauce BBQ",
+        "2 c.à.s. paprika fumé",
+        "3 gousses d'ail",
+        "1 oignon",
+        "sel, poivre"
+      ],
       "steps": [
         "Mélanger le paprika fumé, sel et poivre. Enduire le paleron de toutes parts.",
         "Saisir à feu très vif dans une cocotte pour bien colorer. Ajouter l'oignon et l'ail.",
@@ -16424,13 +16850,22 @@
         "Effilocher. Le paprika fumé donne un arôme de fumée naturel.",
         "Servir dans des burgers, wraps ou avec des frites de patate douce."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché Paprika Fumé"
     },
     {
       "id": "effiloche:012",
       "title": "Bœuf Effiloché Champignons et Crème",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "300g champignons de Paris", "100ml crème fraîche", "3 gousses d'ail", "persil frais", "bouillon 300ml", "beurre"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "300g champignons de Paris",
+        "100ml crème fraîche",
+        "3 gousses d'ail",
+        "persil frais",
+        "bouillon 300ml",
+        "beurre"
+      ],
       "steps": [
         "Saisir le paleron dans une cocotte beurrée. Ajouter les champignons émincés et l'ail.",
         "Verser le bouillon. Couvrir et cuire 3-4h à feu doux.",
@@ -16438,13 +16873,21 @@
         "Incorporer la crème fraîche à la sauce chaude et mélanger délicatement.",
         "Parsemer de persil haché frais. Servir sur des pâtes fraîches ou des tagliatelles."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché Crème et Champignons"
     },
     {
       "id": "effiloche:013",
       "title": "Bœuf Mijoté Sauce Poivre Noir",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "poivre noir concassé 1 c.à.s.", "150ml crème fraîche", "1 oignon", "30g beurre", "bouillon 200ml"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "poivre noir concassé 1 c.à.s.",
+        "150ml crème fraîche",
+        "1 oignon",
+        "30g beurre",
+        "bouillon 200ml"
+      ],
       "steps": [
         "Faire revenir l'oignon émincé dans le beurre. Saisir le paleron sur toutes les faces.",
         "Saupoudrer généreusement de poivre noir concassé. Verser le bouillon.",
@@ -16452,13 +16895,22 @@
         "Effilocher la viande. Incorporer la crème fraîche à la sauce poivrée.",
         "Servir avec des pommes de terre vapeur ou des tagliatelles. Rectifier l'assaisonnement."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché au Poivre Noir"
     },
     {
       "id": "effiloche:014",
       "title": "Bœuf Effiloché Mexicain",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "400g tomates concassées", "200g maïs en boîte", "1 c.à.s. épices mexicaines (cumin, origan, paprika)", "coriandre fraîche", "1 oignon", "ail"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "400g tomates concassées",
+        "200g maïs en boîte",
+        "1 c.à.s. épices mexicaines (cumin, origan, paprika)",
+        "coriandre fraîche",
+        "1 oignon",
+        "ail"
+      ],
       "steps": [
         "Saisir le paleron dans une cocotte huilée. Ajouter l'oignon, l'ail et les épices mexicaines.",
         "Verser les tomates concassées. Ajouter le maïs égoutté et 100ml d'eau.",
@@ -16466,13 +16918,22 @@
         "Effilocher la viande et l'incorporer à la sauce.",
         "Parsemer de coriandre fraîche ciselée. Servir en tacos ou burritos avec guacamole et crème fraîche."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché Mexicain"
     },
     {
       "id": "effiloche:015",
       "title": "Bœuf Fondant à la Bière Brune",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "33cl bière brune", "2 oignons", "2 c.à.s. moutarde", "thym frais", "bouillon 100ml", "huile, sel, poivre"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "33cl bière brune",
+        "2 oignons",
+        "2 c.à.s. moutarde",
+        "thym frais",
+        "bouillon 100ml",
+        "huile, sel, poivre"
+      ],
       "steps": [
         "Saisir le paleron sur toutes les faces dans une cocotte huilée.",
         "Ajouter les oignons émincés et le thym. Faire revenir 2 min.",
@@ -16480,13 +16941,21 @@
         "Couvrir et cuire 3h30 à feu doux. La bière donne une saveur profonde et légèrement maltée.",
         "Effilocher et laisser réduire la sauce 10 min à découvert. Servir avec des pommes de terre vapeur ou de la choucroute."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché à la Bière Brune"
     },
     {
       "id": "effiloche:016",
       "title": "Bœuf Effiloché Grand Classique",
       "cat": "Bœuf, Plat, Viande",
-      "ing": ["1 kg paleron de bœuf", "2 oignons", "4 gousses d'ail", "500ml bouillon de bœuf", "2 carottes", "sel, poivre noir"],
+      "ing": [
+        "1 kg paleron de bœuf",
+        "2 oignons",
+        "4 gousses d'ail",
+        "500ml bouillon de bœuf",
+        "2 carottes",
+        "sel, poivre noir"
+      ],
       "steps": [
         "Couper le paleron en 2-3 morceaux. Saler et poivrer généreusement.",
         "Faire revenir les oignons et les carottes dans une cocotte huilée pendant 5 min. Réserver.",
@@ -16494,13 +16963,22 @@
         "Ajouter l'ail entier et couvrir de bouillon de bœuf chaud.",
         "Cuire 3-4h à feu très doux (ou 1h30 en cocotte-minute). Effilocher à la fourchette et servir avec les légumes et le bouillon réduit."
       ],
-      "min": 240
+      "min": 240,
+      "t": "Bœuf Effiloché Fondant au Bouillon"
     },
     {
       "id": "charlotte:001",
       "title": "Charlotte aux Fraises",
       "cat": "Dessert, Charlotte, Fraise",
-      "ing": ["30 biscuits cuillère", "500g fraises", "40cl crème liquide entière", "60g sucre glace", "3 feuilles gélatine", "10cl d'eau", "2 c.à.s sirop de fraise"],
+      "ing": [
+        "30 biscuits cuillère",
+        "500g fraises",
+        "40cl crème liquide entière",
+        "60g sucre glace",
+        "3 feuilles gélatine",
+        "10cl d'eau",
+        "2 c.à.s sirop de fraise"
+      ],
       "steps": [
         "Faire tremper la gélatine dans l'eau froide 10 min.",
         "Chauffer 10cl d'eau avec le sirop de fraise. Dissoudre la gélatine égouttée dedans. Laisser tiédir.",
@@ -16509,13 +16987,20 @@
         "Alterner couches de crème chantilly et de fraises coupées. Terminer par une couche de biscuits.",
         "Réfrigérer 4h minimum. Démouler et décorer de fraises fraîches avant de servir."
       ],
-      "min": 280
+      "min": 280,
+      "t": "Charlotte aux Fraises"
     },
     {
       "id": "charlotte:002",
       "title": "Charlotte au Chocolat",
       "cat": "Dessert, Charlotte, Chocolat",
-      "ing": ["30 biscuits cuillère", "200g chocolat noir", "4 œufs", "50g beurre", "10cl sirop de canne"],
+      "ing": [
+        "30 biscuits cuillère",
+        "200g chocolat noir",
+        "4 œufs",
+        "50g beurre",
+        "10cl sirop de canne"
+      ],
       "steps": [
         "Faire fondre le chocolat avec le beurre au bain-marie. Laisser tiédir.",
         "Séparer les blancs des jaunes. Incorporer les jaunes un à un au chocolat fondu tiédi.",
@@ -16524,13 +17009,21 @@
         "Verser la mousse au chocolat. Couvrir de biscuits imbibés. Filmer et réfrigérer 4h.",
         "Démouler délicatement et décorer de copeaux de chocolat avant de servir."
       ],
-      "min": 280
+      "min": 280,
+      "t": "Charlotte au Chocolat Noir"
     },
     {
       "id": "charlotte:003",
       "title": "Charlotte aux Framboises",
       "cat": "Dessert, Charlotte, Framboise",
-      "ing": ["30 biscuits cuillère", "400g framboises", "300g fromage blanc", "50g sucre", "3 feuilles gélatine", "10cl d'eau"],
+      "ing": [
+        "30 biscuits cuillère",
+        "400g framboises",
+        "300g fromage blanc",
+        "50g sucre",
+        "3 feuilles gélatine",
+        "10cl d'eau"
+      ],
       "steps": [
         "Faire tremper la gélatine dans l'eau froide 10 min. Chauffer 10cl d'eau et y dissoudre la gélatine égouttée.",
         "Écraser 200g de framboises avec le sucre pour faire un coulis. Réserver les 200g restantes entières.",
@@ -16539,13 +17032,20 @@
         "Alterner couches de crème au fromage blanc et framboises entières.",
         "Réfrigérer 4h minimum. Démouler et garnir de framboises fraîches."
       ],
-      "min": 280
+      "min": 280,
+      "t": "Charlotte aux Framboises"
     },
     {
       "id": "charlotte:004",
       "title": "Charlotte aux Abricots",
       "cat": "Dessert, Charlotte, Abricot",
-      "ing": ["30 biscuits cuillère", "1 boîte d'abricots au sirop", "40cl crème liquide entière", "50g sucre", "3 feuilles gélatine"],
+      "ing": [
+        "30 biscuits cuillère",
+        "1 boîte d'abricots au sirop",
+        "40cl crème liquide entière",
+        "50g sucre",
+        "3 feuilles gélatine"
+      ],
       "steps": [
         "Égoutter les abricots en conservant le sirop. Couper la moitié en dés, mixer l'autre moitié en purée.",
         "Faire tremper la gélatine dans l'eau froide 10 min. La dissoudre dans un peu de sirop d'abricot chaud.",
@@ -16554,13 +17054,22 @@
         "Alterner couches de crème et de dés d'abricot. Terminer par des biscuits.",
         "Réfrigérer 4h minimum. Démouler et décorer d'abricots au sirop."
       ],
-      "min": 280
+      "min": 280,
+      "t": "Charlotte aux Abricots"
     },
     {
       "id": "charlotte:005",
       "title": "Charlotte au Citron",
       "cat": "Dessert, Charlotte, Citron",
-      "ing": ["30 biscuits cuillère", "3 citrons", "4 œufs", "100g sucre", "1 c.à.s maïzena", "3 feuilles gélatine", "10cl sirop de citron"],
+      "ing": [
+        "30 biscuits cuillère",
+        "3 citrons",
+        "4 œufs",
+        "100g sucre",
+        "1 c.à.s maïzena",
+        "3 feuilles gélatine",
+        "10cl sirop de citron"
+      ],
       "steps": [
         "Faire tremper la gélatine dans l'eau froide 10 min.",
         "Fouetter les œufs avec le sucre, le jus et les zestes des 3 citrons et la maïzena dans une casserole.",
@@ -16569,13 +17078,21 @@
         "Tremper les biscuits dans le sirop de citron et tapisser le fond et le contour du moule.",
         "Verser la crème citron et couvrir de biscuits imbibés. Réfrigérer 4h. Décorer de zestes de citron."
       ],
-      "min": 280
+      "min": 280,
+      "t": "Charlotte au Citron"
     },
     {
       "id": "charlotte:006",
       "title": "Charlotte Poire Chocolat",
       "cat": "Dessert, Charlotte, Chocolat",
-      "ing": ["30 biscuits cuillère", "3 poires au sirop", "150g chocolat noir", "3 œufs", "30g beurre", "10cl sirop des poires"],
+      "ing": [
+        "30 biscuits cuillère",
+        "3 poires au sirop",
+        "150g chocolat noir",
+        "3 œufs",
+        "30g beurre",
+        "10cl sirop des poires"
+      ],
       "steps": [
         "Faire fondre le chocolat avec le beurre au bain-marie. Laisser tiédir.",
         "Séparer les blancs des jaunes. Incorporer les jaunes au chocolat tiédi, puis les blancs montés en neige délicatement.",
@@ -16584,253 +17101,393 @@
         "Alterner couches de mousse au chocolat et lamelles de poires.",
         "Réfrigérer 4h minimum. Décorer de copeaux de chocolat et de lamelles de poires."
       ],
-      "min": 280
+      "min": 280,
+      "t": "Charlotte Poire-Chocolat"
     },
     {
       "id": "milkshake:001",
       "title": "Milkshake Chocolat",
       "cat": "Boissons, Milkshake",
-      "ing": ["3 boules de glace chocolat", "25cl lait froid", "2 c.à.s cacao en poudre", "chantilly"],
+      "ing": [
+        "3 boules de glace chocolat",
+        "25cl lait froid",
+        "2 c.à.s cacao en poudre",
+        "chantilly"
+      ],
       "steps": [
         "Mettre la glace, le lait et le cacao dans un blender.",
         "Mixer 30 secondes jusqu'à consistance crémeuse et homogène.",
         "Verser dans un grand verre refroidi et garnir de chantilly."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake au Chocolat"
     },
     {
       "id": "milkshake:002",
       "title": "Milkshake Vanille",
       "cat": "Boissons, Milkshake",
-      "ing": ["3 boules de glace vanille", "25cl lait froid", "1 c.à.c extrait de vanille", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "25cl lait froid",
+        "1 c.à.c extrait de vanille",
+        "chantilly"
+      ],
       "steps": [
         "Mettre la glace, le lait et l'extrait de vanille dans un blender.",
         "Mixer 30 secondes jusqu'à consistance crémeuse.",
         "Verser dans un verre refroidi et garnir de chantilly."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Vanille"
     },
     {
       "id": "milkshake:003",
       "title": "Milkshake Fraise",
       "cat": "Boissons, Milkshake, Fraise",
-      "ing": ["3 boules de glace vanille", "200g fraises fraîches ou surgelées", "20cl lait froid", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "200g fraises fraîches ou surgelées",
+        "20cl lait froid",
+        "chantilly"
+      ],
       "steps": [
         "Laver et équeuter les fraises.",
         "Mettre tous les ingrédients dans un blender.",
         "Mixer jusqu'à consistance crémeuse et lisse. Garnir de chantilly et d'une fraise."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Fraise"
     },
     {
       "id": "milkshake:004",
       "title": "Milkshake Mangue",
       "cat": "Boissons, Milkshake, Mangue",
-      "ing": ["3 boules de glace vanille", "200g mangue fraîche ou surgelée", "20cl lait froid", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "200g mangue fraîche ou surgelée",
+        "20cl lait froid",
+        "chantilly"
+      ],
       "steps": [
         "Éplucher et couper la mangue en morceaux.",
         "Mettre dans le blender avec la glace et le lait.",
         "Mixer jusqu'à consistance lisse et crémeuse. Garnir de chantilly."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Mangue"
     },
     {
       "id": "milkshake:005",
       "title": "Milkshake Banane",
       "cat": "Boissons, Milkshake, Banane",
-      "ing": ["3 boules de glace vanille", "2 bananes mûres", "20cl lait froid", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "2 bananes mûres",
+        "20cl lait froid",
+        "chantilly"
+      ],
       "steps": [
         "Éplucher et couper les bananes en morceaux.",
         "Mettre dans le blender avec la glace et le lait.",
         "Mixer jusqu'à consistance crémeuse et onctueuse. Garnir de chantilly."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Banane"
     },
     {
       "id": "milkshake:006",
       "title": "Milkshake Oreo",
       "cat": "Boissons, Milkshake",
-      "ing": ["3 boules de glace vanille", "6 biscuits Oreo", "25cl lait froid", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "6 biscuits Oreo",
+        "25cl lait froid",
+        "chantilly"
+      ],
       "steps": [
         "Écraser grossièrement 4 Oreo. Garder 2 biscuits entiers pour la déco.",
         "Mettre la glace, le lait et les Oreo écrasés dans un blender.",
         "Mixer brièvement. Garnir de chantilly et d'un Oreo entier."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Oreo"
     },
     {
       "id": "milkshake:007",
       "title": "Milkshake KitKat",
       "cat": "Boissons, Milkshake, Chocolat",
-      "ing": ["3 boules de glace vanille", "2 barres KitKat", "25cl lait froid", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "2 barres KitKat",
+        "25cl lait froid",
+        "chantilly"
+      ],
       "steps": [
         "Casser les KitKat en morceaux, en garder quelques-uns pour la déco.",
         "Mettre dans le blender avec la glace et le lait.",
         "Mixer jusqu'à consistance crémeuse. Garnir de chantilly et d'éclats de KitKat."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake KitKat"
     },
     {
       "id": "milkshake:008",
       "title": "Milkshake Myrtille",
       "cat": "Boissons, Milkshake, Myrtille",
-      "ing": ["3 boules de glace vanille", "200g myrtilles fraîches ou surgelées", "20cl lait froid", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "200g myrtilles fraîches ou surgelées",
+        "20cl lait froid",
+        "chantilly"
+      ],
       "steps": [
         "Mettre les myrtilles, la glace et le lait dans un blender.",
         "Mixer jusqu'à consistance lisse et crémeuse.",
         "Garnir de chantilly et de myrtilles fraîches."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Myrtille"
     },
     {
       "id": "milkshake:009",
       "title": "Milkshake Ananas",
       "cat": "Boissons, Milkshake, Ananas",
-      "ing": ["3 boules de glace vanille", "200g ananas frais ou en boîte", "20cl lait froid", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "200g ananas frais ou en boîte",
+        "20cl lait froid",
+        "chantilly"
+      ],
       "steps": [
         "Couper l'ananas en morceaux.",
         "Mettre dans le blender avec la glace et le lait.",
         "Mixer jusqu'à consistance crémeuse. Garnir de chantilly et d'un morceau d'ananas."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Ananas"
     },
     {
       "id": "milkshake:010",
       "title": "Milkshake Café",
       "cat": "Boissons, Milkshake, Café",
-      "ing": ["3 boules de glace café ou vanille", "25cl lait froid", "1 expresso refroidi", "1 c.à.s sucre", "chantilly"],
+      "ing": [
+        "3 boules de glace café ou vanille",
+        "25cl lait froid",
+        "1 expresso refroidi",
+        "1 c.à.s sucre",
+        "chantilly"
+      ],
       "steps": [
         "Préparer un expresso et laisser refroidir complètement.",
         "Mettre dans le blender avec la glace, le lait et le sucre.",
         "Mixer. Garnir de chantilly et saupoudrer d'une pincée de cacao en poudre."
       ],
-      "min": 10
+      "min": 10,
+      "t": "Milkshake Café"
     },
     {
       "id": "milkshake:011",
       "title": "Milkshake Caramel",
       "cat": "Boissons, Milkshake, Caramel",
-      "ing": ["3 boules de glace caramel ou vanille", "25cl lait froid", "3 c.à.s caramel liquide", "fleur de sel", "chantilly"],
+      "ing": [
+        "3 boules de glace caramel ou vanille",
+        "25cl lait froid",
+        "3 c.à.s caramel liquide",
+        "fleur de sel",
+        "chantilly"
+      ],
       "steps": [
         "Mettre la glace, le lait et le caramel dans un blender.",
         "Mixer jusqu'à consistance crémeuse.",
         "Garnir de chantilly, d'un filet de caramel et d'une pincée de fleur de sel."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Caramel Beurre Salé"
     },
     {
       "id": "milkshake:012",
       "title": "Milkshake Butterscotch",
       "cat": "Boissons, Milkshake, Caramel",
-      "ing": ["3 boules de glace vanille", "25cl lait froid", "2 c.à.s sucre brun", "2 c.à.s crème liquide", "1 c.à.s beurre", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "25cl lait froid",
+        "2 c.à.s sucre brun",
+        "2 c.à.s crème liquide",
+        "1 c.à.s beurre",
+        "chantilly"
+      ],
       "steps": [
         "Préparer la sauce butterscotch : chauffer le sucre brun avec la crème et le beurre jusqu'à caramélisation dorée. Laisser refroidir.",
         "Mettre la glace, le lait et 3 c.à.s de sauce butterscotch dans un blender.",
         "Mixer. Garnir de chantilly et d'un filet de sauce butterscotch."
       ],
-      "min": 15
+      "min": 15,
+      "t": "Milkshake Butterscotch"
     },
     {
       "id": "milkshake:013",
       "title": "Milkshake Beurre de Cacahuète",
       "cat": "Boissons, Milkshake",
-      "ing": ["3 boules de glace vanille", "25cl lait froid", "3 c.à.s beurre de cacahuète", "1 c.à.s sucre", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "25cl lait froid",
+        "3 c.à.s beurre de cacahuète",
+        "1 c.à.s sucre",
+        "chantilly"
+      ],
       "steps": [
         "Mettre tous les ingrédients dans un blender.",
         "Mixer jusqu'à consistance crémeuse et homogène.",
         "Garnir de chantilly et d'un filet de beurre de cacahuète."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Beurre de Cacahuète"
     },
     {
       "id": "milkshake:014",
       "title": "Milkshake Cookies and Cream",
       "cat": "Boissons, Milkshake",
-      "ing": ["3 boules de glace vanille", "25cl lait froid", "6 biscuits chocolatés fourrés", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "25cl lait froid",
+        "6 biscuits chocolatés fourrés",
+        "chantilly"
+      ],
       "steps": [
         "Écraser les biscuits grossièrement en gardant quelques morceaux pour la déco.",
         "Mettre dans le blender avec la glace et le lait.",
         "Mixer brièvement pour garder des morceaux croquants. Garnir de chantilly et de biscuits écrasés."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Cookies & Cream"
     },
     {
       "id": "milkshake:015",
       "title": "Milkshake Rose",
       "cat": "Boissons, Milkshake",
-      "ing": ["3 boules de glace vanille", "20cl lait froid", "2 c.à.s eau de rose", "1 c.à.s sirop de rose", "pétales de rose comestibles"],
+      "ing": [
+        "3 boules de glace vanille",
+        "20cl lait froid",
+        "2 c.à.s eau de rose",
+        "1 c.à.s sirop de rose",
+        "pétales de rose comestibles"
+      ],
       "steps": [
         "Mettre la glace, le lait, l'eau de rose et le sirop de rose dans un blender.",
         "Mixer jusqu'à consistance crémeuse.",
         "Garnir de chantilly et de pétales de rose comestibles."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake à la Rose"
     },
     {
       "id": "milkshake:016",
       "title": "Milkshake Amande",
       "cat": "Boissons, Milkshake",
-      "ing": ["3 boules de glace vanille ou amande", "25cl lait d'amande froid", "2 c.à.s poudre d'amandes", "1 c.à.s sirop d'orgeat", "amandes effilées grillées"],
+      "ing": [
+        "3 boules de glace vanille ou amande",
+        "25cl lait d'amande froid",
+        "2 c.à.s poudre d'amandes",
+        "1 c.à.s sirop d'orgeat",
+        "amandes effilées grillées"
+      ],
       "steps": [
         "Mettre tous les ingrédients dans un blender.",
         "Mixer jusqu'à consistance crémeuse.",
         "Garnir de chantilly et d'amandes effilées grillées."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Amande"
     },
     {
       "id": "milkshake:017",
       "title": "Milkshake Pistache",
       "cat": "Boissons, Milkshake, Pistache",
-      "ing": ["3 boules de glace pistache", "25cl lait froid", "2 c.à.s pâte de pistache", "pistaches concassées", "chantilly"],
+      "ing": [
+        "3 boules de glace pistache",
+        "25cl lait froid",
+        "2 c.à.s pâte de pistache",
+        "pistaches concassées",
+        "chantilly"
+      ],
       "steps": [
         "Mettre la glace, le lait et la pâte de pistache dans un blender.",
         "Mixer jusqu'à consistance crémeuse.",
         "Garnir de chantilly et de pistaches concassées."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Pistache"
     },
     {
       "id": "milkshake:018",
       "title": "Milkshake Cassis",
       "cat": "Boissons, Milkshake",
-      "ing": ["3 boules de glace vanille", "200g cassis frais ou surgelés", "20cl lait froid", "2 c.à.s sucre", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille",
+        "200g cassis frais ou surgelés",
+        "20cl lait froid",
+        "2 c.à.s sucre",
+        "chantilly"
+      ],
       "steps": [
         "Mettre le cassis, la glace, le lait et le sucre dans un blender.",
         "Mixer jusqu'à consistance lisse.",
         "Passer au tamis si souhaité pour retirer les pépins. Garnir de chantilly."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Cassis"
     },
     {
       "id": "milkshake:019",
       "title": "Milkshake Bubble Gum",
       "cat": "Boissons, Milkshake",
-      "ing": ["3 boules de glace vanille ou fraise", "20cl lait froid", "1 c.à.s sirop de fraise ou bubble gum", "colorant rose", "bonbons multicolores", "chantilly"],
+      "ing": [
+        "3 boules de glace vanille ou fraise",
+        "20cl lait froid",
+        "1 c.à.s sirop de fraise ou bubble gum",
+        "colorant rose",
+        "bonbons multicolores",
+        "chantilly"
+      ],
       "steps": [
         "Mixer la glace, le lait et le sirop dans un blender.",
         "Ajouter quelques gouttes de colorant rose et mixer brièvement.",
         "Garnir de chantilly et de bonbons multicolores."
       ],
-      "min": 5
+      "min": 5,
+      "t": "Milkshake Fraise-Rose"
     },
     {
       "id": "milkshake:020",
       "title": "Milkshake Arc-en-ciel",
       "cat": "Boissons, Milkshake",
-      "ing": ["3 boules de glace vanille", "20cl lait froid", "colorants alimentaires (rouge, jaune, vert, bleu)", "chantilly", "vermicelles multicolores"],
+      "ing": [
+        "3 boules de glace vanille",
+        "20cl lait froid",
+        "colorants alimentaires (rouge, jaune, vert, bleu)",
+        "chantilly",
+        "vermicelles multicolores"
+      ],
       "steps": [
         "Mixer la glace et le lait jusqu'à consistance crémeuse. Diviser en 4 petites portions.",
         "Colorer chaque portion d'une couleur différente avec les colorants.",
         "Verser délicatement dans le verre en couches successives. Garnir de chantilly et de vermicelles multicolores."
       ],
-      "min": 20
+      "min": 20,
+      "t": "Milkshake Arc-en-Ciel"
     },
     {
       "id": "tiramisu:001",
       "title": "Tiramisu Classique Cacao Express",
       "cat": "Dessert, Tiramisu, Express",
-      "ing": ["250g mascarpone", "3 œufs", "80g sucre", "20cl café fort refroidi", "boudoirs", "cacao amer en poudre"],
+      "ing": [
+        "250g mascarpone",
+        "3 œufs",
+        "80g sucre",
+        "20cl café fort refroidi",
+        "boudoirs",
+        "cacao amer en poudre"
+      ],
       "steps": [
         "Séparer les blancs des jaunes. Fouetter les jaunes avec le sucre jusqu'à blanchiment.",
         "Incorporer le mascarpone et mélanger jusqu'à consistance lisse.",
@@ -16839,13 +17496,21 @@
         "Alterner couches de biscuits imbibés et de crème mascarpone dans des verrines.",
         "Réfrigérer 2h minimum. Saupoudrer généreusement de cacao amer au moment de servir."
       ],
-      "min": 140
+      "min": 140,
+      "t": "Tiramisu Express Café"
     },
     {
       "id": "tiramisu:002",
       "title": "Tiramisu Spéculoos Caramel Express",
       "cat": "Dessert, Tiramisu, Express",
-      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "spéculoos", "caramel au beurre salé", "cacao en poudre (facultatif)"],
+      "ing": [
+        "250g mascarpone",
+        "3 œufs",
+        "60g sucre",
+        "spéculoos",
+        "caramel au beurre salé",
+        "cacao en poudre (facultatif)"
+      ],
       "steps": [
         "Fouetter les jaunes d'œufs avec le sucre jusqu'à blanchiment. Incorporer le mascarpone.",
         "Monter les blancs en neige et les incorporer délicatement à la crème.",
@@ -16853,13 +17518,21 @@
         "Répéter les couches en terminant par de la crème.",
         "Réfrigérer 2h. Décorer de spéculoos émiettés et d'un filet de caramel beurre salé."
       ],
-      "min": 140
+      "min": 140,
+      "t": "Tiramisu Express Spéculoos"
     },
     {
       "id": "tiramisu:003",
       "title": "Tiramisu Fruits Rouges Express",
       "cat": "Dessert, Tiramisu, Express, Framboise",
-      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "coulis de fruits rouges", "boudoirs", "fruits rouges frais"],
+      "ing": [
+        "250g mascarpone",
+        "3 œufs",
+        "60g sucre",
+        "coulis de fruits rouges",
+        "boudoirs",
+        "fruits rouges frais"
+      ],
       "steps": [
         "Fouetter les jaunes avec le sucre jusqu'à blanchiment. Incorporer le mascarpone.",
         "Monter les blancs en neige et les plier délicatement dans la crème.",
@@ -16867,13 +17540,21 @@
         "Alterner couches de biscuits imbibés, crème et fruits rouges dans des verrines.",
         "Réfrigérer 2h. Garnir de fruits rouges frais au moment de servir."
       ],
-      "min": 140
+      "min": 140,
+      "t": "Tiramisu Express Fruits Rouges"
     },
     {
       "id": "tiramisu:004",
       "title": "Tiramisu Citron Framboise Express",
       "cat": "Dessert, Tiramisu, Express, Citron",
-      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "lemon curd", "boudoirs", "framboises fraîches"],
+      "ing": [
+        "250g mascarpone",
+        "3 œufs",
+        "60g sucre",
+        "lemon curd",
+        "boudoirs",
+        "framboises fraîches"
+      ],
       "steps": [
         "Fouetter les jaunes avec le sucre. Incorporer le mascarpone et 2 c.à.s de lemon curd.",
         "Monter les blancs en neige et les incorporer délicatement.",
@@ -16881,13 +17562,21 @@
         "Alterner couches de biscuits, crème et framboises dans les verrines.",
         "Réfrigérer 2h. Garnir de framboises et d'un peu de lemon curd avant de servir."
       ],
-      "min": 140
+      "min": 140,
+      "t": "Tiramisu Express Citron"
     },
     {
       "id": "tiramisu:005",
       "title": "Tiramisu Choco Noisette Express",
       "cat": "Dessert, Tiramisu, Express, Chocolat",
-      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "pâte à tartiner chocolat noisette", "boudoirs", "noisettes concassées"],
+      "ing": [
+        "250g mascarpone",
+        "3 œufs",
+        "60g sucre",
+        "pâte à tartiner chocolat noisette",
+        "boudoirs",
+        "noisettes concassées"
+      ],
       "steps": [
         "Fouetter les jaunes avec le sucre. Incorporer le mascarpone et 2 c.à.s de pâte à tartiner.",
         "Monter les blancs en neige et les incorporer délicatement.",
@@ -16895,13 +17584,22 @@
         "Alterner couches de biscuits, crème et noisettes concassées dans les verrines.",
         "Réfrigérer 2h. Garnir d'un filet de pâte à tartiner fondue et de noisettes."
       ],
-      "min": 140
+      "min": 140,
+      "t": "Tiramisu Express Chocolat-Noisette"
     },
     {
       "id": "tiramisu:006",
       "title": "Tiramisu Pistache Framboise Express",
       "cat": "Dessert, Tiramisu, Express, Pistache",
-      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "pâte de pistache", "boudoirs", "framboises fraîches", "pistaches concassées"],
+      "ing": [
+        "250g mascarpone",
+        "3 œufs",
+        "60g sucre",
+        "pâte de pistache",
+        "boudoirs",
+        "framboises fraîches",
+        "pistaches concassées"
+      ],
       "steps": [
         "Fouetter les jaunes avec le sucre. Incorporer le mascarpone et 2 c.à.s de pâte de pistache.",
         "Monter les blancs en neige et les plier délicatement dans la crème.",
@@ -16909,13 +17607,22 @@
         "Alterner couches de biscuits, crème verte et framboises dans les verrines.",
         "Réfrigérer 2h. Garnir de framboises et de pistaches concassées."
       ],
-      "min": 140
+      "min": 140,
+      "t": "Tiramisu Express Pistache"
     },
     {
       "id": "tiramisu:007",
       "title": "Tiramisu Coco Ananas Express",
       "cat": "Dessert, Tiramisu, Express",
-      "ing": ["250g mascarpone", "3 œufs", "60g sucre", "10cl lait de coco", "ananas en dés", "noix de coco râpée", "boudoirs"],
+      "ing": [
+        "250g mascarpone",
+        "3 œufs",
+        "60g sucre",
+        "10cl lait de coco",
+        "ananas en dés",
+        "noix de coco râpée",
+        "boudoirs"
+      ],
       "steps": [
         "Fouetter les jaunes avec le sucre. Incorporer le mascarpone et le lait de coco.",
         "Monter les blancs en neige et les incorporer délicatement à la crème.",
@@ -16923,91 +17630,144 @@
         "Alterner couches de biscuits, crème coco et dés d'ananas dans les verrines.",
         "Réfrigérer 2h. Parsemer généreusement de noix de coco râpée avant de servir."
       ],
-      "min": 140
+      "min": 140,
+      "t": "Tiramisu Express Coco"
     },
     {
       "id": "punch:001",
       "title": "Punch Classique aux Fruits",
       "cat": "Boissons, Punch, Sans alcool",
-      "ing": ["50cl jus d'orange", "50cl jus d'ananas", "50cl jus de canneberge", "50cl soda citron-lime", "fruits frais mélangés (fraises, kiwi, orange)", "glaçons"],
+      "ing": [
+        "50cl jus d'orange",
+        "50cl jus d'ananas",
+        "50cl jus de canneberge",
+        "50cl soda citron-lime",
+        "fruits frais mélangés (fraises, kiwi, orange)",
+        "glaçons"
+      ],
       "steps": [
         "Mélanger les jus d'orange, d'ananas et de canneberge dans un grand bol à punch.",
         "Couper les fruits frais en morceaux et les ajouter.",
         "Incorporer le soda citron-lime juste avant de servir pour conserver les bulles.",
         "Ajouter les glaçons et servir immédiatement."
       ],
-      "min": 10
+      "min": 10,
+      "t": "Punch Tropical Multifruits"
     },
     {
       "id": "punch:002",
       "title": "Punch Tropical",
       "cat": "Boissons, Punch, Sans alcool",
-      "ing": ["50cl jus d'ananas", "50cl jus de mangue", "25cl jus d'orange", "50cl ginger ale", "morceaux d'ananas frais", "glaçons"],
+      "ing": [
+        "50cl jus d'ananas",
+        "50cl jus de mangue",
+        "25cl jus d'orange",
+        "50cl ginger ale",
+        "morceaux d'ananas frais",
+        "glaçons"
+      ],
       "steps": [
         "Mélanger les jus d'ananas, mangue et orange dans un grand bol.",
         "Ajouter les morceaux d'ananas frais.",
         "Verser le ginger ale juste avant de servir.",
         "Ajouter les glaçons et décorer d'une tranche d'ananas."
       ],
-      "min": 10
+      "min": 10,
+      "t": "Punch Ananas-Mangue"
     },
     {
       "id": "punch:003",
       "title": "Punch Limonade Rosée",
       "cat": "Boissons, Punch, Sans alcool",
-      "ing": ["1 litre de limonade rosée", "50cl soda citron-lime", "25cl jus de canneberge", "rondelles de citron", "framboises fraîches"],
+      "ing": [
+        "1 litre de limonade rosée",
+        "50cl soda citron-lime",
+        "25cl jus de canneberge",
+        "rondelles de citron",
+        "framboises fraîches"
+      ],
       "steps": [
         "Mélanger la limonade rosée avec le jus de canneberge dans un grand bol.",
         "Ajouter les rondelles de citron et les framboises fraîches.",
         "Verser le soda citron-lime juste avant de servir et mélanger délicatement.",
         "Ajouter des glaçons et servir frais."
       ],
-      "min": 10
+      "min": 10,
+      "t": "Punch Rosé Pétillant"
     },
     {
       "id": "punch:004",
       "title": "Punch Agrumes",
       "cat": "Boissons, Punch, Sans alcool",
-      "ing": ["50cl jus d'orange", "50cl jus de citron", "50cl soda citron-lime", "25cl eau pétillante", "rondelles d'orange"],
+      "ing": [
+        "50cl jus d'orange",
+        "50cl jus de citron",
+        "50cl soda citron-lime",
+        "25cl eau pétillante",
+        "rondelles d'orange"
+      ],
       "steps": [
         "Mélanger les jus d'orange et de citron dans un grand bol.",
         "Ajouter les rondelles d'orange.",
         "Incorporer le soda et l'eau pétillante juste avant de servir.",
         "Ajouter des glaçons et servir frais."
       ],
-      "min": 10
+      "min": 10,
+      "t": "Punch Agrumes Pétillant"
     },
     {
       "id": "punch:005",
       "title": "Punch Vert",
       "cat": "Boissons, Punch, Sans alcool",
-      "ing": ["50cl jus d'ananas", "50cl soda citron-lime", "25cl sorbet citron vert", "raisins verts", "rondelles de citron vert"],
+      "ing": [
+        "50cl jus d'ananas",
+        "50cl soda citron-lime",
+        "25cl sorbet citron vert",
+        "raisins verts",
+        "rondelles de citron vert"
+      ],
       "steps": [
         "Mélanger le jus d'ananas avec le soda dans un grand bol.",
         "Ajouter le sorbet citron vert en boules.",
         "Incorporer les raisins verts et les rondelles de citron vert.",
         "Servir aussitôt : le sorbet garde le punch bien frais."
       ],
-      "min": 10
+      "min": 10,
+      "t": "Punch Ananas-Citron Vert"
     },
     {
       "id": "punch:006",
       "title": "Punch Canneberge",
       "cat": "Boissons, Punch, Sans alcool",
-      "ing": ["75cl jus de canneberge", "50cl ginger ale", "25cl jus d'orange", "rondelles d'orange", "glaçons"],
+      "ing": [
+        "75cl jus de canneberge",
+        "50cl ginger ale",
+        "25cl jus d'orange",
+        "rondelles d'orange",
+        "glaçons"
+      ],
       "steps": [
         "Mélanger le jus de canneberge et le jus d'orange dans un grand bol.",
         "Ajouter les rondelles d'orange.",
         "Verser le ginger ale juste avant de servir.",
         "Ajouter les glaçons et servir immédiatement."
       ],
-      "min": 10
+      "min": 10,
+      "t": "Punch Canneberge-Gingembre"
     },
     {
       "id": "cheesecake:001",
       "title": "Cheesecake Citron Sans Cuisson",
       "cat": "Dessert, Cheesecake, Citron, Sans cuisson",
-      "ing": ["200g biscuits spéculoos", "80g beurre fondu", "400g fromage frais type Philadelphia", "20cl crème liquide entière", "80g sucre glace", "2 citrons (jus et zestes)", "3 feuilles gélatine"],
+      "ing": [
+        "200g biscuits spéculoos",
+        "80g beurre fondu",
+        "400g fromage frais type Philadelphia",
+        "20cl crème liquide entière",
+        "80g sucre glace",
+        "2 citrons (jus et zestes)",
+        "3 feuilles gélatine"
+      ],
       "steps": [
         "Émietter les spéculoos et mélanger au beurre fondu. Tasser dans un moule à fond amovible et réfrigérer 30 min.",
         "Faire tremper la gélatine dans l'eau froide 10 min. La dissoudre dans 2 c.à.s de jus de citron chaud.",
@@ -17016,13 +17776,22 @@
         "Verser sur la base biscuitée. Lisser et réfrigérer 4h minimum.",
         "Décorer de zestes de citron et de tranches fines avant de servir."
       ],
-      "min": 290
+      "min": 290,
+      "t": "Cheesecake Citron Sans Cuisson"
     },
     {
       "id": "cheesecake:002",
       "title": "Cheesecake Framboise Sans Cuisson",
       "cat": "Dessert, Cheesecake, Framboise, Sans cuisson",
-      "ing": ["200g biscuits sablés", "80g beurre fondu", "400g fromage frais", "20cl crème liquide entière", "80g sucre glace", "200g coulis de framboise", "3 feuilles gélatine"],
+      "ing": [
+        "200g biscuits sablés",
+        "80g beurre fondu",
+        "400g fromage frais",
+        "20cl crème liquide entière",
+        "80g sucre glace",
+        "200g coulis de framboise",
+        "3 feuilles gélatine"
+      ],
       "steps": [
         "Émietter les biscuits et mélanger au beurre fondu. Tasser dans le moule et réfrigérer 30 min.",
         "Faire tremper la gélatine dans l'eau froide. La dissoudre dans un peu de coulis de framboise chaud.",
@@ -17031,13 +17800,22 @@
         "Verser sur la base. Napper du reste de coulis. Réfrigérer 4h.",
         "Décorer de framboises fraîches avant de servir."
       ],
-      "min": 290
+      "min": 290,
+      "t": "Cheesecake Framboise Sans Cuisson"
     },
     {
       "id": "cheesecake:003",
       "title": "Cheesecake Vanille Caramel Sans Cuisson",
       "cat": "Dessert, Cheesecake, Caramel, Sans cuisson",
-      "ing": ["200g biscuits type Petit Beurre", "80g beurre fondu", "400g fromage frais", "20cl crème liquide entière", "60g sucre glace", "1 gousse de vanille", "150g caramel au beurre salé"],
+      "ing": [
+        "200g biscuits type Petit Beurre",
+        "80g beurre fondu",
+        "400g fromage frais",
+        "20cl crème liquide entière",
+        "60g sucre glace",
+        "1 gousse de vanille",
+        "150g caramel au beurre salé"
+      ],
       "steps": [
         "Écraser les biscuits et mélanger au beurre fondu. Tasser dans le moule et réfrigérer.",
         "Gratter les graines de la gousse de vanille. Fouetter le fromage frais avec le sucre glace et les graines de vanille.",
@@ -17046,13 +17824,21 @@
         "Napper de caramel au beurre salé et faire des swirls avec la pointe d'un couteau.",
         "Réfrigérer 4h minimum avant de servir."
       ],
-      "min": 280
+      "min": 280,
+      "t": "Cheesecake Caramel Beurre Salé Sans Cuisson"
     },
     {
       "id": "cheesecake:004",
       "title": "Cheesecake Chocolat Blanc Sans Cuisson",
       "cat": "Dessert, Cheesecake, Chocolat, Sans cuisson",
-      "ing": ["200g sablés bretons", "80g beurre fondu", "300g fromage frais", "20cl crème liquide entière", "200g chocolat blanc", "2 feuilles gélatine"],
+      "ing": [
+        "200g sablés bretons",
+        "80g beurre fondu",
+        "300g fromage frais",
+        "20cl crème liquide entière",
+        "200g chocolat blanc",
+        "2 feuilles gélatine"
+      ],
       "steps": [
         "Émietter les sablés et mélanger au beurre fondu. Tasser dans le moule et réfrigérer.",
         "Faire tremper la gélatine dans l'eau froide. La dissoudre dans un peu de crème chauffée.",
@@ -17061,13 +17847,23 @@
         "Plier délicatement la crème fouettée dans la préparation.",
         "Verser sur la base et réfrigérer 4h. Décorer de copeaux de chocolat blanc."
       ],
-      "min": 280
+      "min": 280,
+      "t": "Cheesecake Chocolat Sans Cuisson"
     },
     {
       "id": "cheesecake:005",
       "title": "Cheesecake Mangue Passion Sans Cuisson",
       "cat": "Dessert, Cheesecake, Mangue, Sans cuisson",
-      "ing": ["200g biscuits sablés au coco", "80g beurre fondu", "400g fromage frais", "20cl crème liquide entière", "60g sucre glace", "200g purée de mangue", "2 fruits de la passion", "3 feuilles gélatine"],
+      "ing": [
+        "200g biscuits sablés au coco",
+        "80g beurre fondu",
+        "400g fromage frais",
+        "20cl crème liquide entière",
+        "60g sucre glace",
+        "200g purée de mangue",
+        "2 fruits de la passion",
+        "3 feuilles gélatine"
+      ],
       "steps": [
         "Émietter les biscuits et mélanger au beurre fondu. Tasser dans le moule et réfrigérer.",
         "Faire tremper la gélatine dans l'eau froide. La dissoudre dans un peu de purée de mangue chauffée.",
@@ -17076,13 +17872,19 @@
         "Verser sur la base. Réfrigérer 4h.",
         "Décorer avec la pulpe des fruits de la passion au moment de servir."
       ],
-      "min": 280
+      "min": 280,
+      "t": "Cheesecake Mangue Sans Cuisson"
     },
     {
       "id": "tortilla:001",
       "title": "Tortillas de Blé Classiques",
       "cat": "Techniques, Mexique, Tortilla, Wrap",
-      "ing": ["250g de farine", "1/2 c. à café de sel", "2 c. à soupe d'huile", "150ml d'eau tiède"],
+      "ing": [
+        "250g de farine",
+        "1/2 c. à café de sel",
+        "2 c. à soupe d'huile",
+        "150ml d'eau tiède"
+      ],
       "steps": [
         "Mélanger la farine, le sel et l'huile dans un saladier. Ajouter l'eau tiède progressivement.",
         "Pétrir jusqu'à obtenir une pâte lisse et souple, environ 5 min. Former une boule et laisser reposer 15 min.",
@@ -17091,13 +17893,19 @@
         "Cuire chaque tortilla 1-2 min de chaque côté jusqu'à ce qu'elle soit dorée et souple.",
         "Réserver sous un torchon pour garder la chaleur et la souplesse."
       ],
-      "min": 40
+      "min": 40,
+      "t": "Tortillas Maison à la Farine"
     },
     {
       "id": "tortilla:002",
       "title": "Tortillas Semi-Complètes",
       "cat": "Techniques, Mexique, Tortilla, Wrap",
-      "ing": ["180g de farine complète", "60g de farine blanche", "1/2 c. à café de sel", "150ml d'eau tiède"],
+      "ing": [
+        "180g de farine complète",
+        "60g de farine blanche",
+        "1/2 c. à café de sel",
+        "150ml d'eau tiède"
+      ],
       "steps": [
         "Mélanger les deux farines et le sel dans un saladier.",
         "Ajouter l'eau tiède progressivement et mélanger jusqu'à formation d'une pâte.",
@@ -17106,13 +17914,19 @@
         "Cuire dans une poêle chaude à sec, 1-2 min de chaque côté.",
         "Réserver sous un torchon. La farine complète donne une saveur légèrement noisette."
       ],
-      "min": 40
+      "min": 40,
+      "t": "Tortillas Semi-Complètes"
     },
     {
       "id": "tortilla:003",
       "title": "Tortillas aux Épinards",
       "cat": "Techniques, Mexique, Tortilla, Wrap, Légumes",
-      "ing": ["250g de farine", "1/2 c. à café de sel", "100g d'épinards frais", "150ml d'eau tiède"],
+      "ing": [
+        "250g de farine",
+        "1/2 c. à café de sel",
+        "100g d'épinards frais",
+        "150ml d'eau tiède"
+      ],
       "steps": [
         "Mixer les épinards frais avec 100ml d'eau tiède jusqu'à obtenir un jus vert homogène.",
         "Mélanger la farine et le sel. Ajouter le jus d'épinards et le reste d'eau progressivement.",
@@ -17121,13 +17935,19 @@
         "Cuire dans une poêle chaude à sec, 1-2 min de chaque côté.",
         "Réserver sous un torchon. Couleur verte naturelle, goût discret d'épinards."
       ],
-      "min": 40
+      "min": 40,
+      "t": "Tortillas Vertes aux Épinards"
     },
     {
       "id": "tortilla:004",
       "title": "Tortillas à la Betterave",
       "cat": "Techniques, Mexique, Tortilla, Wrap",
-      "ing": ["250g de farine", "1/2 c. à café de sel", "120ml de jus de betterave", "150ml d'eau tiède"],
+      "ing": [
+        "250g de farine",
+        "1/2 c. à café de sel",
+        "120ml de jus de betterave",
+        "150ml d'eau tiède"
+      ],
       "steps": [
         "Mélanger la farine et le sel dans un saladier.",
         "Ajouter le jus de betterave et l'eau tiède progressivement en mélangeant.",
@@ -17136,13 +17956,18 @@
         "Cuire dans une poêle chaude à sec, 1-2 min de chaque côté.",
         "La couleur rose s'atténue légèrement à la cuisson mais reste prononcée."
       ],
-      "min": 40
+      "min": 40,
+      "t": "Tortillas Roses à la Betterave"
     },
     {
       "id": "tortilla:005",
       "title": "Tortillas de Maïs",
       "cat": "Techniques, Mexique, Tortilla, Wrap",
-      "ing": ["180g de farine de maïs (masa harina)", "1/4 c. à café de sel", "150ml d'eau tiède"],
+      "ing": [
+        "180g de farine de maïs (masa harina)",
+        "1/4 c. à café de sel",
+        "150ml d'eau tiède"
+      ],
       "steps": [
         "Mélanger la farine de maïs et le sel dans un saladier.",
         "Ajouter l'eau tiède progressivement et pétrir jusqu'à pâte homogène et légèrement collante.",
@@ -17151,13 +17976,20 @@
         "Cuire dans une poêle chaude à sec, 1-2 min de chaque côté jusqu'à légère coloration.",
         "Idéales pour les tacos. Conserver enveloppées dans un torchon humide."
       ],
-      "min": 30
+      "min": 30,
+      "t": "Tortillas à la Farine de Maïs"
     },
     {
       "id": "tortilla:006",
       "title": "Wrap Healthy Avoine et Chia",
       "cat": "Techniques, Wrap, Santé, Sans gluten",
-      "ing": ["150g de flocons d'avoine", "10g de graines de chia", "500ml d'eau", "sel selon goût", "curry selon goût"],
+      "ing": [
+        "150g de flocons d'avoine",
+        "10g de graines de chia",
+        "500ml d'eau",
+        "sel selon goût",
+        "curry selon goût"
+      ],
       "steps": [
         "Mélanger les flocons d'avoine, les graines de chia, le sel et le curry dans un saladier.",
         "Verser 500ml d'eau et mixer au blender ou robot de cuisine jusqu'à obtenir une pâte liquide lisse.",
@@ -17166,13 +17998,21 @@
         "Verser une louche de pâte et faire cuire 1-2 min de chaque côté jusqu'à ce que le wrap soit doré et souple.",
         "Réserver et déguster garni de crudités, poulet ou houmous."
       ],
-      "min": 25
+      "min": 25,
+      "t": "Wraps Avoine-Chia Sans Gluten"
     },
     {
       "id": "cheesecake:006",
       "title": "Cheesecake Pâte à Tartiner Sans Cuisson",
       "cat": "Dessert, Cheesecake, Chocolat, Sans cuisson",
-      "ing": ["200g biscuits sablés au cacao", "80g beurre fondu", "300g fromage frais", "20cl crème liquide entière", "200g pâte à tartiner chocolat noisette", "2 feuilles gélatine"],
+      "ing": [
+        "200g biscuits sablés au cacao",
+        "80g beurre fondu",
+        "300g fromage frais",
+        "20cl crème liquide entière",
+        "200g pâte à tartiner chocolat noisette",
+        "2 feuilles gélatine"
+      ],
       "steps": [
         "Émietter les biscuits au cacao et mélanger au beurre fondu. Tasser dans le moule et réfrigérer.",
         "Faire tremper la gélatine dans l'eau froide. La dissoudre dans un peu de crème chauffée.",
@@ -17181,7 +18021,8 @@
         "Verser sur la base. Lisser et réfrigérer 4h.",
         "Garnir d'un filet de pâte à tartiner fondue et de noisettes concassées."
       ],
-      "min": 280
+      "min": 280,
+      "t": "Cheesecake Double Chocolat Sans Cuisson"
     }
   ]
 }
