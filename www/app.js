@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.00';
+const APP_VERSION = '3.01';
 
 let ALL = [];
 let BASE = [];
@@ -1494,6 +1494,7 @@ const elCocktailGrid = document.getElementById('cocktail-grid');
 const elCocktailDetail = document.getElementById('cocktail-detail');
 
 const MODE_GROUPS = {
+  pizza:           { subs: ['garnies','pates_pizza'] },
   regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas','belgique'] },
   ustensiles:      { subs: ['airfryer','thermomix'] },
   aperitif:        { subs: ['tartinades','wraps','bouchees','brochettes','paninis','samoussas'] },
@@ -1509,6 +1510,7 @@ const SUB_TAB_LABELS = {
   allemagne:'🇩🇪 Allemagne', gb:'🇬🇧 Grande-Bretagne', australie:'🇦🇺 Australie',
   bresil:'🇧🇷 Brésil', argentine:'🇦🇷 Argentine', af:'🌍 Afrique',
   arabe:'🌙 Monde arabe', bulgarie:'🇧🇬 Bulgarie', hongrie:'🇭🇺 Hongrie', roumanie:'🇷🇴 Roumanie', paysbas:'🇳🇱 Pays-Bas', belgique:'🇧🇪 Belgique',
+  garnies:'🍕 Garnitures', pates_pizza:'🍞 Pâtes',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix',
   tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas',
   omelettes:'🍳 Omelettes', cocottes:'🥚 Cocottes', preparations:'🍳 Préparations',
@@ -1518,6 +1520,7 @@ const SUB_TAB_LABELS = {
   vegetarien:'🥦 Végétarien', vegan:'🌱 Vegan', keto:'🥑 Keto', rapide:'⚡ ≤30 min',
 };
 const MODE_CAT = {
+  garnies: 'Pizza', pates_pizza: 'Pâte à Pizza',
   airfryer: 'Airfryer', thermomix: 'Thermomix',
   corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal',
   italie: 'Italie', grece: 'Grèce', france: 'France',

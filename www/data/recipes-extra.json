@@ -1256,7 +1256,7 @@
     {
       "id": "italie:pizza:001",
       "t": "Pizza Margherita",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Naples, Italie",
       "min": 25,
       "serv": 2,
@@ -1280,7 +1280,7 @@
     {
       "id": "italie:pizza:002",
       "t": "Pizza Marinara",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Naples, Italie",
       "min": 20,
       "serv": 2,
@@ -1300,7 +1300,7 @@
     {
       "id": "italie:pizza:003",
       "t": "Pizza Quattro Formaggi",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Italie",
       "min": 20,
       "serv": 2,
@@ -1321,7 +1321,7 @@
     {
       "id": "italie:pizza:004",
       "t": "Pizza Capricciosa",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Italie",
       "min": 25,
       "serv": 2,
@@ -1343,7 +1343,7 @@
     {
       "id": "italie:pizza:005",
       "t": "Pizza Prosciutto e Funghi",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Italie",
       "min": 20,
       "serv": 2,
@@ -1363,7 +1363,7 @@
     {
       "id": "italie:pizza:006",
       "t": "Pizza ai Funghi",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Italie",
       "min": 20,
       "serv": 2,
@@ -1384,7 +1384,7 @@
     {
       "id": "italie:pizza:007",
       "t": "Pizza Diavola (Alla Diavola)",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Italie",
       "min": 20,
       "serv": 2,
@@ -1404,7 +1404,7 @@
     {
       "id": "italie:pizza:008",
       "t": "Pizza Quattro Stagioni",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Italie",
       "min": 25,
       "serv": 2,
@@ -1422,7 +1422,7 @@
     {
       "id": "italie:pizza:009",
       "t": "Pizza Bianca",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Rome, Italie",
       "min": 15,
       "serv": 2,
@@ -1441,7 +1441,7 @@
     {
       "id": "italie:pizza:010",
       "t": "Calzone Napolitain",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Naples, Italie",
       "min": 30,
       "serv": 2,
@@ -1461,7 +1461,7 @@
     {
       "id": "italie:pizza:011",
       "t": "Pizza al Taglio (à la coupe)",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Rome, Italie",
       "min": 30,
       "serv": 6,
@@ -1481,7 +1481,7 @@
     {
       "id": "italie:pizza:012",
       "t": "Pizza Carbonara",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Italie",
       "min": 25,
       "serv": 2,
@@ -1501,7 +1501,7 @@
     {
       "id": "italie:pizza:013",
       "t": "Pizza Fritta (Pizza Frite)",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Naples, Italie",
       "min": 20,
       "serv": 2,
@@ -1521,7 +1521,7 @@
     {
       "id": "italie:pizza:014",
       "t": "Pizza Mare e Monti",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Italie",
       "min": 25,
       "serv": 2,
@@ -1540,7 +1540,7 @@
     {
       "id": "italie:pizza:015",
       "t": "Pizza Bufalina",
-      "cat": "Italie, Plat",
+      "cat": "Italie, Pizza, Plat",
       "area": "Italie",
       "min": 20,
       "serv": 2,
@@ -16245,7 +16245,7 @@
     {
       "id": "pizza:001",
       "title": "Pâte à Pizza Classique",
-      "cat": "Techniques, Italie, Pizza",
+      "cat": "Techniques, Italie, Pâte à Pizza",
       "ing": [
         "400g farine",
         "300ml eau chaude",
@@ -16268,7 +16268,7 @@
     {
       "id": "pizza:002",
       "title": "Pâte à Pizza Napolitaine",
-      "cat": "Techniques, Italie, Pizza",
+      "cat": "Techniques, Italie, Pâte à Pizza",
       "ing": [
         "400g farine 00 (ou farine T45)",
         "300ml eau froide",
@@ -16289,7 +16289,7 @@
     {
       "id": "pizza:003",
       "title": "Pâte à Pizza Fine et Croustillante",
-      "cat": "Techniques, Italie, Pizza",
+      "cat": "Techniques, Italie, Pâte à Pizza",
       "ing": [
         "280g farine",
         "60ml eau chaude",
@@ -16312,7 +16312,7 @@
     {
       "id": "pizza:004",
       "title": "Pâte à Pizza Chicago Deep Dish",
-      "cat": "Techniques, Italie, Pizza",
+      "cat": "Techniques, Italie, Pâte à Pizza",
       "ing": [
         "400g farine",
         "60ml eau chaude",
@@ -16336,7 +16336,7 @@
     {
       "id": "pizza:005",
       "title": "Pâte à Pizza Croûte Farcie",
-      "cat": "Techniques, Italie, Pizza",
+      "cat": "Techniques, Italie, Pâte à Pizza",
       "ing": [
         "400g farine",
         "300ml eau chaude",
@@ -16360,7 +16360,7 @@
     {
       "id": "pizza:006",
       "title": "Pâte à Pizza Fine et Croustillante",
-      "cat": "Techniques, Italie, Pizza",
+      "cat": "Techniques, Italie, Pâte à Pizza",
       "ing": [
         "500g farine",
         "300ml eau tiède",
@@ -16381,7 +16381,7 @@
     {
       "id": "pizza:007",
       "title": "Pâte à Pizza Moelleuse",
-      "cat": "Techniques, Italie, Pizza",
+      "cat": "Techniques, Italie, Pâte à Pizza",
       "ing": [
         "500g farine",
         "320ml eau tiède",
@@ -16403,7 +16403,7 @@
     {
       "id": "pizza:008",
       "title": "Pâte à Pizza Express (Sans Levure Boulangère)",
-      "cat": "Techniques, Italie, Pizza",
+      "cat": "Techniques, Italie, Pâte à Pizza",
       "ing": [
         "300g farine",
         "1 yaourt nature",
@@ -16424,7 +16424,7 @@
     {
       "id": "pizza:009",
       "title": "Pâte à Pizza Complète",
-      "cat": "Techniques, Italie, Pizza",
+      "cat": "Techniques, Italie, Pâte à Pizza",
       "ing": [
         "250g farine complète",
         "250g farine de blé",
@@ -16446,7 +16446,7 @@
     {
       "id": "pizza:010",
       "title": "Pâte à Pizza Herbes et Huile d'Olive",
-      "cat": "Techniques, Italie, Pizza",
+      "cat": "Techniques, Italie, Pâte à Pizza",
       "ing": [
         "500g farine",
         "300ml eau tiède",
