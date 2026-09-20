@@ -12,8 +12,6 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 #hero{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
 #hero-title{font-size:1.5em;font-weight:800}
 #hero-sub{color:var(--muted);font-size:.85em}
-#sync-btn,#import-btn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.2em;cursor:pointer;padding:0}
-#sync-btn:active,#import-btn:active{transform:scale(.94)}
 #sync-btn.spin{animation:spin 1s linear infinite}
 /* onglets mode */
 #mode-tabs{display:flex;gap:6px;margin-bottom:10px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
@@ -365,8 +363,6 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .frigo-badge{background:rgba(124,179,66,.18);border:1px solid #4d6b2a;color:#cde8a6;font-size:.7em;font-weight:600;padding:2px 7px;border-radius:999px;white-space:nowrap}
 
 /* === settings overlay === */
-#settings-btn{flex:0 0 auto;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:1.2em;cursor:pointer;padding:0}
-#settings-btn:active{transform:scale(.94)}
 .settings-panel{position:fixed;inset:0;z-index:50;background:var(--bg);display:flex;flex-direction:column;overflow:hidden}
 .settings-panel[hidden]{display:none!important}
 .settings-head{flex:0 0 auto;display:flex;align-items:center;gap:12px;padding:calc(env(safe-area-inset-top)+12px) 16px 12px;background:var(--bg2);border-bottom:1px solid var(--line)}
@@ -501,6 +497,7 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .more-menu[hidden]{display:none}
 .more-menu-item{width:100%;text-align:left;padding:11px 14px;border:none;background:none;color:var(--text);font-size:.93em;font-weight:600;cursor:pointer;border-radius:10px;display:flex;align-items:center;gap:10px}
 .more-menu-item:active{background:var(--card)}
+.more-menu-sep{height:1px;background:var(--line);margin:4px 8px}
 
 /* === batch : search row === */
 .batch-search-row{flex:0 0 auto;padding:10px 14px;background:var(--bg2);border-bottom:1px solid var(--line)}

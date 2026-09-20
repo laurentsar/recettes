@@ -26,10 +26,11 @@
           <button id="photos-btn" class="more-menu-item">📷 Photos</button>
           <button id="import-btn" class="more-menu-item">⬇ Importer</button>
           <button id="wizard-btn" class="more-menu-item">✨ Suggestions</button>
+          <div class="more-menu-sep"></div>
+          <button id="sync-btn" class="more-menu-item" title="Synchroniser les recettes" aria-label="Synchroniser">↻ Synchroniser</button>
+          <button id="settings-btn" class="more-menu-item" title="Paramètres" aria-label="Paramètres">⚙️ Paramètres</button>
         </div>
       </div>
-      <button id="sync-btn" title="Synchroniser les recettes" aria-label="Synchroniser">↻</button>
-      <button id="settings-btn" title="Paramètres" aria-label="Paramètres">⚙️</button>
     </div>
     <div id="mode-tabs">
       <button class="mode-tab active" data-mode="recipes">🍽️ Recettes</button>
@@ -229,7 +230,7 @@
   </div>
 
   <script src="app.js"></script>
-  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='2.99';</script>
+  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='3.00';</script>
   <script src="update-check.js" defer></script>
   <script>window.BACKUP_APP = 'recettes-app'; window.BACKUP_SKIP = [/^recipesData$/];</script>
   <script src="autobackup.js"></script>
