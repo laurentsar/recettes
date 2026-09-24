@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.01';
+const APP_VERSION = '3.02';
 
 let ALL = [];
 let BASE = [];
@@ -1769,43 +1769,119 @@ function renderFrigoIngs(tab){
   });
 }
 
-function matchFrigoRecipes(){
-  const all = getAllStorageIngs();
-  if (!all.length) return [];
-  const normIngs = all.map(i => norm(i));
-  return ALL.map(r => {
-    const ingText = norm((r.ing||[]).join(' '));
-    const matched = normIngs.filter(ing => ingText.includes(ing) || norm(r.t||'').includes(ing));
-    return { r, score: matched.length, matched };
-  })
-  .filter(x => x.score > 0)
-  .sort((a, b) => b.score - a.score || a.r.t.localeCompare(b.r.t))
-  .slice(0, 24);
+/* Appariement stock ↔ recettes : on réduit chaque produit à 1-2 mots-clés
+   (« Lentilles vertes du Puy Bio - Carrefour » → lentille, verte) puis on mesure
+   quelle part des ingrédients de chaque recette est couverte par les stocks. */
+const STOCK_STOP = new Set(('de du des la le les un une et en au aux a d l avec sans pour sur par ou '+
+  'bio nature naturel naturelle extra fin fins fine fines classique original originale qualite premium superieur superieure '+
+  'boite boites conserve conserves bocal bocaux sachet sachets paquet pack lot format familial maxi mini '+
+  'france francais francaise origine marque repere gr kg cl ml litre litres '+
+  'carrefour auchan leclerc lidl casino intermarche monoprix franprix systeme reflets panzani barilla lustucru '+
+  'bonduelle cassegrain daucy heinz amora maille lesieur puget knorr maggi vahine ancel francine saupiquet connetable').split(' '));
+// Mots trop vagues pour suffire seuls (« sauce tomate » ne doit pas matcher « sauce soja »).
+const STOCK_GENERIC = new Set(['sauce','jus','creme','poudre','sirop','bouillon','puree','confiture','soupe','pate','huile','vinaigre','fromage','lait']);
+const LINE_STOP = new Set(['de','du','des','la','le','les','un','une','et','en','au','aux','ou','pour','avec','cuillere','cuilleres','soupe','cafe','pincee','pincees','gousse','gousses','tranche','tranches','boite','boites','sachet','sachets','verre','verres','bouquet','brin','brins','feuille','feuilles']);
+
+// « pâtes » (pâtes alimentaires) ≠ « pâte » (feuilletée, brisée…) : on ne singularise pas ce mot.
+function stockStem(w){ return w !== 'pates' && w.length > 4 && /[sx]$/.test(w) ? w.slice(0, -1) : w; }
+function stockTokens(s, stop){
+  return norm(s).replace(/[^a-z0-9]+/g, ' ').split(' ')
+    .filter(w => w.length >= 3 && !/^\d/.test(w) && !stop.has(w)).map(stockStem);
+}
+function stockKeys(name){ return stockTokens(name, STOCK_STOP).slice(0, 2); }
+function lineHasProduct(lineSet, keys){
+  if (!keys.length || !lineSet.has(keys[0])) return false;
+  return keys.length === 1 || lineSet.has(keys[1]) || !STOCK_GENERIC.has(keys[0]);
+}
+// Sel, poivre, eau… : supposés toujours disponibles, n'entrent pas dans la couverture.
+function isStapleLine(line){ return /\b(sel|poivre|eau)\b/.test(norm(line)) && norm(line).split(/\s+/).length <= 6; }
+function cleanIngLine(line){
+  return String(line).replace(/^[\d\s.,/½¼¾⅓⅔-]+/, '')
+    .replace(/^(g|kg|mg|ml|cl|dl|l|grammes?|c\.?\s?[aà]\s?[sc]\.?|cuill?\w*( à \w+)?|pinc\w*|gousses?|tranches?|bo[iî]tes?|sachets?|verres?|brins?|feuilles?)\s+/i, '')
+    .replace(/^(de |d'|d’)/i, '').trim();
+}
+const _recipeLineCache = new WeakMap();
+function recipeLines(r){
+  let v = _recipeLineCache.get(r);
+  if (!v){
+    v = (r.ing || []).filter(l => l && l.trim() && !isStapleLine(l))
+      .map(l => ({ raw: l, set: new Set(stockTokens(l, LINE_STOP)) }))
+      .filter(x => x.set.size);
+    _recipeLineCache.set(r, v);
+  }
+  return v;
+}
+
+let frigoSugFilter = 'all';
+
+function matchFrigoRecipes(filter = frigoSugFilter){
+  const have = FTABS.flatMap(t => storageIngs[t].map(name => ({ name, tab: t, keys: stockKeys(name) })))
+    .filter(p => p.keys.length);
+  if (!have.length) return [];
+  const out = [];
+  for (const r of ALL){
+    const lines = recipeLines(r);
+    if (!lines.length) continue;
+    const used = new Map();
+    let covered = 0;
+    const missing = [];
+    for (const ln of lines){
+      const hit = have.find(p => lineHasProduct(ln.set, p.keys));
+      if (hit){ covered++; used.set(hit.name, hit.tab); }
+      else missing.push(cleanIngLine(ln.raw));
+    }
+    if (!covered) continue;
+    // Filtre : la recette doit utiliser au moins un produit de ce stock.
+    if (filter !== 'all' && ![...used.values()].includes(filter)) continue;
+    out.push({ r, covered, total: lines.length, pct: covered / lines.length, matched: [...used.keys()], missing });
+  }
+  return out.sort((a, b) => b.pct - a.pct || b.covered - a.covered || a.r.t.localeCompare(b.r.t)).slice(0, 40);
 }
 
 function renderFrigoSuggestions(){
   const el = document.getElementById('frigo-grid');
   if (!el) return;
-  const matches = matchFrigoRecipes();
-  if (!matches.length){ el.hidden = true; return; }
+  if (!getAllStorageIngs().length){ el.hidden = true; return; }
   el.hidden = false;
-  el.innerHTML = `<div class="frigo-suggestions-title">${matches.length} recette${matches.length>1?'s':''} avec ces ingrédients</div>
+  const counts = { all: getAllStorageIngs().length };
+  FTABS.forEach(t => counts[t] = storageIngs[t].length);
+  if (frigoSugFilter !== 'all' && !counts[frigoSugFilter]) frigoSugFilter = 'all';
+  const matches = matchFrigoRecipes();
+  const filterLabel = { all: '🍽️ Tout', frigo: '🧊 Frigo', congelateur: '❄️ Congélo', cellier: '🥫 Cellier' };
+  const filters = ['all', ...FTABS].filter(f => counts[f])
+    .map(f => `<button class="frigo-sfilter${f===frigoSugFilter?' active':''}" data-sf="${f}">${filterLabel[f]}</button>`).join('');
+  const tier = (pct)=> pct >= 0.6 ? 'high' : pct >= 0.3 ? 'mid' : 'low';
+  el.innerHTML = `<div class="frigo-suggestions-title">Recettes à faire avec ${frigoSugFilter==='all' ? 'mes stocks' : 'mon ' + filterLabel[frigoSugFilter].slice(3).toLowerCase()}</div>
+    <div class="frigo-sfilters">${filters}</div>
+    ${matches.length ? `<div class="frigo-sub">${matches.length} recette${matches.length>1?'s':''}, classées par ingrédients déjà en stock</div>
     <div class="frigo-rcards">
-      ${matches.map(({r, matched}) => {
+      ${matches.map(({r, matched, covered, total, pct, missing}) => {
         const img = r.img
           ? `<img class="thumb" src="${esc(r.img)}" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentElement.innerHTML='<div class=ph>🍲</div>'">`
           : `<div class="ph">🍲</div>`;
+        const t = tier(pct);
         const badges = matched.slice(0,3).map(m=>`<span class="frigo-badge">${esc(m)}</span>`).join('');
         const more = matched.length>3 ? `<span class="frigo-badge">+${matched.length-3}</span>` : '';
-        return `<div class="rcard" data-id="${esc(r.id)}" style="cursor:pointer">
+        const miss = missing.length
+          ? `<div class="frigo-missing">Manque : ${esc(missing.slice(0,3).join(', '))}${missing.length>3?'…':''}</div>`
+          : `<div class="frigo-missing ok">✓ Tout est en stock</div>`;
+        return `<div class="rcard" data-id="${esc(String(r.id))}" style="cursor:pointer">
           ${img}
           <div class="info">
             <div class="rt">${esc(r.t)}</div>
+            <div class="panier-score">
+              <div class="panier-score-bar"><div class="panier-score-fill ${t}" style="width:${Math.round(pct*100)}%"></div></div>
+              <span class="panier-score-label ${t}">${covered}/${total}</span>
+            </div>
             <div class="frigo-badges">${badges}${more}</div>
+            ${miss}
           </div>
         </div>`;
       }).join('')}
-    </div>`;
+    </div>` : '<p class="frigo-sub">Aucune recette de l\'application ne correspond à ces produits.</p>'}`;
+  el.querySelectorAll('.frigo-sfilter').forEach(b => b.addEventListener('click', ()=>{
+    frigoSugFilter = b.dataset.sf; renderFrigoSuggestions();
+  }));
   el.querySelectorAll('.rcard').forEach(card => {
     card.addEventListener('click', ()=>{
       closeFrigo();
@@ -1817,6 +1893,116 @@ function renderFrigoSuggestions(){
 /* ---------- scan code-barres ---------- */
 let scanTargetTab = 'cellier';
 
+/* Scan en continu : la caméra reste ouverte, chaque code-barres lu est
+   recherché sur Open Food Facts et ajouté directement au stock choisi. */
+const BARCODE_FORMATS = ['ean_13','ean_8','upc_a','upc_e','code_128','code_39','itf'];
+let liveScan = null;
+function canLiveScan(){ return 'BarcodeDetector' in window && !!navigator.mediaDevices?.getUserMedia; }
+
+function stopLiveScan(){
+  if (!liveScan) return;
+  clearInterval(liveScan.timer);
+  liveScan.stream?.getTracks().forEach(t => t.stop());
+  liveScan = null;
+}
+
+function addStockItem(name, tab){
+  const n = norm(name);
+  if (storageIngs[tab].some(x => norm(x) === n)) return false;
+  storageIngs[tab].push(name);
+  saveStorageIngs(tab);
+  return true;
+}
+
+async function startLiveScan(){
+  const body = document.getElementById('scan-body');
+  const titleEl = document.getElementById('scan-title');
+  if (!body) return;
+  stopLiveScan();
+  if (titleEl) titleEl.textContent = 'Scan en continu';
+  body.innerHTML = `
+    <div class="scan-live"><video id="scan-video" playsinline muted autoplay></video><div class="scan-live-frame"></div></div>
+    <p class="scan-info" id="scan-live-msg">Vise les codes-barres un par un…</p>
+    <div class="scan-tab-sel">
+      ${FTABS.map(t=>`<button class="scan-tab-btn${t===scanTargetTab?' active':''}" data-stab="${t}">${FTAB_EMOJIS[t]} ${t==='frigo'?'Frigo':t==='congelateur'?'Congélo':'Cellier'}</button>`).join('')}
+    </div>
+    <div id="scan-live-list" class="frigo-chips"></div>
+    <button class="scan-add-btn" id="scan-live-done">✓ Terminer et voir les recettes</button>`;
+  body.querySelectorAll('.scan-tab-btn').forEach(b => b.addEventListener('click', ()=>{
+    scanTargetTab = b.dataset.stab;
+    body.querySelectorAll('.scan-tab-btn').forEach(x => x.classList.toggle('active', x === b));
+  }));
+  body.querySelector('#scan-live-done').addEventListener('click', ()=>{
+    const tab = scanTargetTab;
+    closeScanOverlay();
+    frigoSugFilter = tab;
+    switchFrigoTab(tab);
+    renderFrigoSuggestions();
+    document.getElementById('frigo-grid')?.scrollIntoView({ behavior: 'smooth' });
+  });
+  const msg = body.querySelector('#scan-live-msg');
+  const list = body.querySelector('#scan-live-list');
+  const video = body.querySelector('#scan-video');
+  const session = { stream: null, timer: 0, busy: false, seen: new Set() };
+  liveScan = session;
+  try {
+    session.stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' }, audio: false });
+  } catch(e){
+    if (liveScan === session) liveScan = null;
+    msg.textContent = '⚠ Caméra inaccessible (' + (e.message || e.name) + '). Utilise le mode photo.';
+    return;
+  }
+  if (liveScan !== session){ session.stream.getTracks().forEach(t => t.stop()); return; }
+  video.srcObject = session.stream;
+  try { await video.play(); } catch(e){}
+  const det = new BarcodeDetector({ formats: BARCODE_FORMATS });
+
+  function addChip(label, cls){
+    const c = document.createElement('span');
+    c.className = 'frigo-chip ' + (cls || '');
+    c.textContent = label;
+    list.prepend(c);
+    return c;
+  }
+
+  session.timer = setInterval(async ()=>{
+    if (session.busy || liveScan !== session || video.readyState < 2) return;
+    session.busy = true;
+    try {
+      const codes = await det.detect(video);
+      const code = codes.map(c => c.rawValue).find(v => v && !session.seen.has(v));
+      if (!code) return;
+      session.seen.add(code);
+      navigator.vibrate?.(60);
+      const tab = scanTargetTab;
+      msg.textContent = `Code ${code} — recherche…`;
+      const name = await lookupBarcode(code);
+      if (liveScan !== session) return;
+      if (name){
+        const added = addStockItem(name, tab);
+        addChip(`${FTAB_EMOJIS[tab]} ${name}${added ? '' : ' (déjà là)'}`);
+        msg.textContent = `✓ ${name}`;
+      } else {
+        const chip = addChip(`❓ ${code} — toucher pour nommer`, 'unknown');
+        chip.addEventListener('click', ()=>{
+          const v = (prompt('Nom du produit ?') || '').trim();
+          if (!v) return;
+          addStockItem(v, tab);
+          chip.textContent = `${FTAB_EMOJIS[tab]} ${v}`;
+          chip.classList.remove('unknown');
+          renderFrigoIngs(tab);
+          renderFrigoSuggestions();
+        });
+        msg.textContent = 'Produit inconnu d\'Open Food Facts — touche la pastille pour le nommer.';
+      }
+      renderFrigoIngs(tab);
+      renderFrigoSuggestions();
+    } catch(e){ /* image illisible : on réessaie au tick suivant */ }
+    finally { session.busy = false; }
+  }, 400);
+}
+
+
 function openScanOverlay(tab){
   scanTargetTab = tab || activeFTab;
   const el = document.getElementById('scan-overlay');
@@ -1824,6 +2010,7 @@ function openScanOverlay(tab){
 }
 
 function closeScanOverlay(){
+  stopLiveScan();
   const el = document.getElementById('scan-overlay');
   if (el) el.hidden = true;
 }
@@ -1833,12 +2020,14 @@ function setScanState(state, data){
   const body = document.getElementById('scan-body');
   const titleEl = document.getElementById('scan-title');
   if (!body) return;
+  stopLiveScan();
 
   if (state === 'init'){
     if (titleEl) titleEl.textContent = 'Scanner un produit';
     body.innerHTML = `
-      <p class="scan-info">Photographie le code-barres ou l'étiquette.<br>Le code-barres sera lu automatiquement.</p>
-      <label class="frigo-capture-btn" for="scan-barcode-photo">📷 Ouvrir l'appareil photo</label>
+      <p class="scan-info">Scanne tes produits pour les ajouter au stock : les recettes adaptées s'affichent ensuite.</p>
+      ${canLiveScan() ? '<button class="frigo-capture-btn" id="scan-live-btn">🎥 Scan en continu</button>' : ''}
+      <label class="${canLiveScan() ? 'frigo-scan-btn' : 'frigo-capture-btn'}" for="scan-barcode-photo">📷 Une photo du code-barres ou de l'étiquette</label>
       <input type="file" id="scan-barcode-photo" class="frigo-file-hidden" accept="image/*" capture="environment" />
       <div class="scan-or">— ou saisir manuellement —</div>
       <div class="frigo-manual-row">
@@ -1846,6 +2035,7 @@ function setScanState(state, data){
         <button id="scan-manual-add" class="frigo-manual-add">+</button>
       </div>`;
     body.querySelector('#scan-barcode-photo').addEventListener('change', handleScanCapture);
+    body.querySelector('#scan-live-btn')?.addEventListener('click', startLiveScan);
     const inp = body.querySelector('#scan-manual-inp');
     const btn = body.querySelector('#scan-manual-add');
     function doManual(){ const v=inp.value.trim(); if(v) confirmAddProduct(v, scanTargetTab); }
@@ -1975,11 +2165,7 @@ function fileToBase64(file){
 }
 
 function confirmAddProduct(name, tab){
-  const n = norm(name);
-  if (!storageIngs[tab].some(x=>norm(x)===n)){
-    storageIngs[tab].push(name);
-    saveStorageIngs(tab);
-  }
+  addStockItem(name, tab);
   renderFrigoIngs(tab);
   renderFrigoSuggestions();
   switchFrigoTab(tab);

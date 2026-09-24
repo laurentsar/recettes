@@ -361,6 +361,16 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .frigo-rcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
 .frigo-badges{display:flex;gap:4px;flex-wrap:wrap;margin-top:5px}
 .frigo-badge{background:rgba(124,179,66,.18);border:1px solid #4d6b2a;color:#cde8a6;font-size:.7em;font-weight:600;padding:2px 7px;border-radius:999px;white-space:nowrap}
+.frigo-sub{color:var(--muted);font-size:.82em;margin:12px 0 10px}
+.frigo-sfilters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.frigo-sfilter{padding:7px 12px;border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:999px;font-size:.82em;font-weight:700;cursor:pointer}
+.frigo-sfilter.active{background:linear-gradient(135deg,var(--accent),var(--accent2));border-color:transparent;color:#fff}
+.frigo-missing{margin-top:5px;font-size:.72em;color:var(--muted);line-height:1.35}
+.frigo-missing.ok{color:#9ccc65;font-weight:700}
+.scan-live{position:relative;border-radius:14px;overflow:hidden;background:#000;aspect-ratio:4/3}
+.scan-live video{width:100%;height:100%;object-fit:cover;display:block}
+.scan-live-frame{position:absolute;left:12%;right:12%;top:32%;bottom:32%;border:2px solid rgba(255,255,255,.85);border-radius:10px;box-shadow:0 0 0 999px rgba(0,0,0,.25);pointer-events:none}
+.frigo-chip.unknown{background:rgba(240,160,144,.15);border-color:rgba(240,160,144,.5);color:#f0a090}
 
 /* === settings overlay === */
 .settings-panel{position:fixed;inset:0;z-index:50;background:var(--bg);display:flex;flex-direction:column;overflow:hidden}
