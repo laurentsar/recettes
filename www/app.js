@@ -2090,12 +2090,13 @@ async function startLiveScan(){
       if (name){
         const added = addStockItem(name, tab, prod.img);
         addChip(`${FTAB_EMOJIS[tab]} ${name}${added ? '' : ' (déjà là)'}`);
-        msg.textContent = `✓ ${name}`;
+        msg.textContent = `✓ ${name}${prod.known ? ' (déjà connu)' : ''}`;
       } else {
         const chip = addChip(`❓ ${code} — toucher pour nommer`, 'unknown');
         chip.addEventListener('click', ()=>{
           const v = (prompt('Nom du produit ?') || '').trim();
           if (!v) return;
+          rememberBarcode(code, v, '');
           addStockItem(v, tab);
           chip.textContent = `${FTAB_EMOJIS[tab]} ${v}`;
           chip.classList.remove('unknown');
@@ -2180,10 +2181,10 @@ function setScanState(state, data){
     });
     body.querySelector('#scan-add-btn').addEventListener('click', ()=>{
       const name = body.querySelector('#scan-product-name').value.trim();
-      if (name) confirmAddProduct(name, scanTargetTab, data.img);
+      if (name){ rememberBarcode(data.barcode, name, data.img); confirmAddProduct(name, scanTargetTab, data.img); }
     });
     body.querySelector('#scan-product-name').addEventListener('keydown', e=>{
-      if(e.key==='Enter'){ e.preventDefault(); const v=e.target.value.trim(); if(v) confirmAddProduct(v, scanTargetTab, data.img); }
+      if(e.key==='Enter'){ e.preventDefault(); const v=e.target.value.trim(); if(v){ rememberBarcode(data.barcode, v, data.img); confirmAddProduct(v, scanTargetTab, data.img); } }
     });
     setTimeout(()=>{ const inp=body.querySelector('#scan-product-name'); if(inp&&!data.name) inp.focus(); }, 80);
     return;
@@ -2252,7 +2253,18 @@ async function handleScanCapture(e){
   }
 }
 
+/* Carnet local des codes-barres déjà scannés : code → { name, img }.
+   Évite de réinterroger Open Food Facts, marche hors-ligne et garde
+   le nom choisi (ou saisi pour un produit inconnu) pour les prochaines fois. */
+let barcodeBook = JSON.parse(localStorage.getItem('barcodeBook') || '{}');
+function rememberBarcode(code, name, img){
+  if (!code || !name) return;
+  barcodeBook[code] = { name, img: img || barcodeBook[code]?.img || '' };
+  try { localStorage.setItem('barcodeBook', JSON.stringify(barcodeBook)); } catch(e){}
+}
+
 async function lookupBarcode(code){
+  if (barcodeBook[code]) return { ...barcodeBook[code], known: true };
   try {
     const r = await fetch(
       `https://world.openfoodfacts.org/api/v2/product/${encodeURIComponent(code)}?fields=product_name_fr,product_name,generic_name_fr,generic_name,image_front_small_url,image_small_url`,
@@ -2263,7 +2275,10 @@ async function lookupBarcode(code){
     if (d.status !== 1) return null;
     const p = d.product || {};
     const name = (p.product_name_fr || p.product_name || p.generic_name_fr || p.generic_name || '').trim();
-    return name ? { name, img: p.image_front_small_url || p.image_small_url || '' } : null;
+    if (!name) return null;
+    const img = p.image_front_small_url || p.image_small_url || '';
+    rememberBarcode(code, name, img);
+    return { name, img };
   } catch(e){ return null; }
 }
 
