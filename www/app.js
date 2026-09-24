@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.03';
+const APP_VERSION = '3.04';
 
 let ALL = [];
 let BASE = [];
@@ -29,7 +29,7 @@ function mergeEdits(){
   const imp  = imports.filter(r=> !deleted.has(String(r.id))).map(r => applyPatch(r, edits[r.id]));
   return [...base, ...imp];
 }
-function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderCellarHome(); renderFeed(); renderGrid(); }
+function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderCellarHome(); renderGrid(); }
 
 /* ---------- extra : suppressions + surcharges + recettes custom ---------- */
 function applyExtra(recipes, extra){
@@ -287,27 +287,6 @@ function pickDaily(){
   if (!pool.length) return null;
   return pool[ todayKey() % pool.length ];
 }
-/* ---------- fil de nouveautés (RSS-like) ---------- */
-function renderFeed(){
-  const el = document.getElementById('feed');
-  if (!el) return;
-  const extras = (EXTRA && EXTRA.recipes) ? EXTRA.recipes : [];
-  if (!extras.length){ el.innerHTML = ''; return; }
-  const recent = extras.slice(-8).reverse();
-  el.innerHTML =
-    `<div class="feed-label">📡 Récemment ajoutés <span class="feed-count">${extras.length}</span></div>` +
-    '<div class="feed-strip">' +
-    recent.map(r => {
-      const img = r.img
-        ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=feed-ph>🍲</div>'" loading="lazy">`
-        : '<div class="feed-ph">🍲</div>';
-      const cat = (r.cat || '').split(',')[0].trim();
-      return `<div class="feed-card" data-id="${esc(r.id)}">${img}<div class="feed-info"><div class="feed-t">${esc(r.t)}</div>${cat?`<div class="feed-cat">${esc(cat)}</div>`:''}</div></div>`;
-    }).join('') +
-    '</div>';
-  el.querySelectorAll('.feed-card').forEach(c => c.addEventListener('click', () => openDetail(c.dataset.id)));
-}
-
 function renderDaily(){
   const el = $('#daily'); if(!el) return;
   const pick = pickDaily();
@@ -643,8 +622,32 @@ function renderGrid(){
     + (state.fav?' en favoris':'');
   if(_gObs){ _gObs.disconnect(); _gObs=null; }
   elGrid.innerHTML = '';
-  _gridAppendPage();
+  updateGridFold();
+  if(!elGrid.hidden) _gridAppendPage();
   window.scrollTo({top:0});
+}
+/* Accueil sans recherche ni filtre : la liste complète est repliée derrière
+   « Toutes les recettes » (fermée à chaque ouverture de l'app). Dès qu'on
+   cherche ou filtre, ou dans les autres onglets, les résultats s'affichent. */
+let gridOpen = false;
+function gridFoldable(){
+  return appMode === 'recipes' && !state.q && !state.cats.length && !state.fav && !state.ing && !state.diet;
+}
+function updateGridFold(){
+  const btn = document.getElementById('all-toggle');
+  const fold = gridFoldable();
+  btn.hidden = !fold;
+  elStatus.hidden = fold;
+  elGrid.hidden = fold && !gridOpen;
+  if (fold){
+    btn.innerHTML = `📚 Toutes les recettes <span class="all-count">${_gList.length}</span><span class="all-chev">${gridOpen ? '▴' : '▾'}</span>`;
+    btn.setAttribute('aria-expanded', String(gridOpen));
+  }
+}
+function toggleAllRecipes(){
+  gridOpen = !gridOpen;
+  updateGridFold();
+  if (gridOpen && !elGrid.children.length) _gridAppendPage();
 }
 function _gridAppendPage(){
   if(_gObs){ _gObs.disconnect(); _gObs=null; }
@@ -1556,11 +1559,11 @@ function applyLeafMode(leaf){
   document.getElementById('grid').hidden = isCocktails;
   document.getElementById('status').hidden = isCocktails;
   if (isCocktails){
+    document.getElementById('all-toggle').hidden = true;
     elSearch.hidden = true;
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
     document.getElementById('cellar-home').hidden = true;
-    document.getElementById('feed').hidden = true;
     loadCocktails();
   } else if (isDiet){
     state.cats = [];
@@ -1568,7 +1571,6 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
     document.getElementById('cellar-home').hidden = true;
-    document.getElementById('feed').hidden = true;
     elSearch.hidden = false;
     renderGrid();
   } else if (MODE_CAT[leaf]){
@@ -1576,7 +1578,6 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
     document.getElementById('cellar-home').hidden = true;
-    document.getElementById('feed').hidden = true;
     elSearch.hidden = false;
     renderGrid();
   } else if (leaf === 'recipes'){
@@ -1584,7 +1585,6 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = false;
     document.getElementById('daily').hidden = false;
     document.getElementById('cellar-home').hidden = false;
-    document.getElementById('feed').hidden = false;
     elSearch.hidden = false;
     renderGrid();
   } else {
@@ -2863,7 +2863,6 @@ async function init(){
   buildCats();
   renderDaily();
   renderCellarHome();
-  renderFeed();
   renderGrid();
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
   document.getElementById('import-btn').addEventListener('click', openImport);
@@ -2919,6 +2918,7 @@ async function init(){
   document.getElementById('settings-btn').addEventListener('click', openSettings);
   document.getElementById('settings-back').addEventListener('click', closeSettings);
   document.getElementById('check-update-btn').addEventListener('click', checkUpdateNow);
+  document.getElementById('all-toggle').addEventListener('click', toggleAllRecipes);
   document.getElementById('frigo-api-save').addEventListener('click', ()=>{
     const key = document.getElementById('frigo-api-key').value.trim();
     if (key) localStorage.setItem('frigoApiKey', key);
