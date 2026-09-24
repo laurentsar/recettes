@@ -29,7 +29,7 @@ function mergeEdits(){
   const imp  = imports.filter(r=> !deleted.has(String(r.id))).map(r => applyPatch(r, edits[r.id]));
   return [...base, ...imp];
 }
-function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderFeed(); renderGrid(); }
+function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderCellarHome(); renderFeed(); renderGrid(); }
 
 /* ---------- extra : suppressions + surcharges + recettes custom ---------- */
 function applyExtra(recipes, extra){
@@ -1558,6 +1558,7 @@ function applyLeafMode(leaf){
     elSearch.hidden = true;
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
+    document.getElementById('cellar-home').hidden = true;
     document.getElementById('feed').hidden = true;
     loadCocktails();
   } else if (isDiet){
@@ -1565,6 +1566,7 @@ function applyLeafMode(leaf){
     state.diet = leaf;
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
+    document.getElementById('cellar-home').hidden = true;
     document.getElementById('feed').hidden = true;
     elSearch.hidden = false;
     renderGrid();
@@ -1572,6 +1574,7 @@ function applyLeafMode(leaf){
     state.cats = [MODE_CAT[leaf]];
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
+    document.getElementById('cellar-home').hidden = true;
     document.getElementById('feed').hidden = true;
     elSearch.hidden = false;
     renderGrid();
@@ -1579,6 +1582,7 @@ function applyLeafMode(leaf){
     state.cats = [];
     document.getElementById('cats').hidden = false;
     document.getElementById('daily').hidden = false;
+    document.getElementById('cellar-home').hidden = false;
     document.getElementById('feed').hidden = false;
     elSearch.hidden = false;
     renderGrid();
@@ -1688,6 +1692,71 @@ let activeFTab = 'frigo';
 function saveStorageIngs(tab){ localStorage.setItem('frigoIngs_' + tab, JSON.stringify(storageIngs[tab])); }
 function getAllStorageIngs(){ return FTABS.flatMap(t => storageIngs[t]); }
 
+/* Photos des produits : URL Open Food Facts ou vignette de la photo prise,
+   indexées par nom normalisé. '' = déjà cherché, pas de photo trouvée. */
+let stockImgs = JSON.parse(localStorage.getItem('stockImgs') || '{}');
+function saveStockImgs(){ try { localStorage.setItem('stockImgs', JSON.stringify(stockImgs)); } catch(e){} }
+function setStockImg(name, img){ stockImgs[norm(name)] = img; saveStockImgs(); }
+function getStockImg(name){ return stockImgs[norm(name)] || ''; }
+
+// Réduit une photo en petite vignette JPEG (quelques Ko) stockable localement.
+function imageThumb(file, size = 160){
+  return createImageBitmap(file).then(bmp => {
+    const k = size / Math.max(bmp.width, bmp.height);
+    const c = document.createElement('canvas');
+    c.width = Math.round(bmp.width * Math.min(1, k)); c.height = Math.round(bmp.height * Math.min(1, k));
+    c.getContext('2d').drawImage(bmp, 0, 0, c.width, c.height);
+    return c.toDataURL('image/jpeg', 0.72);
+  });
+}
+
+// Produits ajoutés à la main ou par analyse photo : on cherche une photo par nom sur Open Food Facts.
+const _imgQueue = [];
+let _imgBusy = false;
+function queueStockImg(name){
+  const n = norm(name);
+  if (n in stockImgs || _imgQueue.some(x => norm(x) === n) || !navigator.onLine) return;
+  _imgQueue.push(name);
+  pumpStockImgs();
+}
+async function pumpStockImgs(){
+  if (_imgBusy) return;
+  _imgBusy = true;
+  while (_imgQueue.length){
+    const name = _imgQueue.shift();
+    let img = '';
+    try {
+      const r = await fetch(`https://world.openfoodfacts.org/cgi/search.pl?search_terms=${encodeURIComponent(name)}&search_simple=1&action=process&json=1&page_size=3&fields=image_front_small_url&lc=fr&cc=fr`);
+      if (!r.ok) continue; // erreur serveur : on retentera plus tard
+      const d = await r.json();
+      img = (d.products || []).map(p => p.image_front_small_url).find(Boolean) || '';
+    } catch(e){ continue; }
+    if (!(norm(name) in stockImgs)) setStockImg(name, img);
+    if (img) FTABS.forEach(t => { if (storageIngs[t].some(x => norm(x) === norm(name))) renderFrigoIngs(t); });
+  }
+  _imgBusy = false;
+}
+
+let _photoTarget = null;
+function pickStockPhoto(name){
+  _photoTarget = name;
+  let inp = document.getElementById('stock-photo-input');
+  if (!inp){
+    inp = document.createElement('input');
+    inp.type = 'file'; inp.accept = 'image/*'; inp.setAttribute('capture', 'environment');
+    inp.id = 'stock-photo-input'; inp.className = 'frigo-file-hidden';
+    inp.addEventListener('change', async ()=>{
+      const f = inp.files?.[0]; inp.value = '';
+      if (!f || !_photoTarget) return;
+      try { setStockImg(_photoTarget, await imageThumb(f)); renderFrigoIngs(activeFTab); }
+      catch(e){ toast('Photo illisible'); }
+    });
+    document.body.appendChild(inp);
+  }
+  inp.click();
+}
+
+
 function openFrigo(){
   const el = document.getElementById('frigo');
   el.hidden = false;
@@ -1699,7 +1768,7 @@ function openFrigo(){
   renderFrigoSuggestions();
 }
 
-function closeFrigo(){ document.getElementById('frigo').hidden = true; }
+function closeFrigo(){ document.getElementById('frigo').hidden = true; renderCellarHome(); }
 
 function switchFrigoTab(tab){
   activeFTab = tab;
@@ -1721,29 +1790,15 @@ function checkUpdateNow(){
   const btn = document.getElementById('check-update-btn');
   const status = document.getElementById('check-update-status');
   if (!btn || !status) return;
+  const done = ()=>{ btn.disabled = false; btn.textContent = 'Vérifier les mises à jour'; };
+  if (typeof window.checkAppUpdate !== 'function'){ status.textContent = '⚠ Module de mise à jour absent'; return; }
   btn.disabled = true; btn.textContent = '⏳ Vérification…'; status.textContent = '';
-  const REPO = window.UPDATE_REPO;
-  try { localStorage.removeItem('updPoll:' + REPO); } catch(e){}
-  fetch('https://github.com/' + REPO + '/releases.atom?_=' + Date.now(), {
-    headers: { Accept: 'application/atom+xml, text/xml, */*' }
-  }).then(r => r.ok ? r.text() : null).then(xml => {
-    btn.disabled = false; btn.textContent = 'Vérifier les mises à jour';
-    if (!xml) { status.textContent = '⚠ Impossible de vérifier (réseau ?)'; return; }
-    const doc = new DOMParser().parseFromString(xml, 'text/xml');
-    const entry = doc.querySelector('entry');
-    const titleEl = entry && entry.querySelector('title');
-    if (!titleEl) { status.textContent = '⚠ Format de réponse inattendu'; return; }
-    const latest = (titleEl.textContent || '').trim().replace(/^v/, '');
-    const cur = String(APP_VERSION).split('.').map(Number);
-    const newer = latest.split('.').map(Number).reduce((a, v, i) => a || v - (cur[i] || 0), 0) > 0;
-    if (!newer) { status.textContent = '✓ Déjà à jour (v' + APP_VERSION + ')'; return; }
-    status.textContent = '🔄 Nouvelle version v' + latest + ' disponible !';
-    try { localStorage.setItem('updPoll:' + REPO, '0'); } catch(e){}
-    location.reload();
-  }).catch(() => {
-    btn.disabled = false; btn.textContent = 'Vérifier les mises à jour';
-    status.textContent = '⚠ Erreur réseau';
-  });
+  window.checkAppUpdate(true).then(res => {
+    done();
+    if (!res) status.textContent = '⚠ Impossible de vérifier (réseau ?)';
+    else if (!res.newer) status.textContent = '✓ Déjà à jour (v' + APP_VERSION + ')';
+    else { status.textContent = '🔄 Version v' + res.latest + ' disponible — voir le bandeau en bas'; closeSettings(); }
+  }).catch(() => { done(); status.textContent = '⚠ Erreur réseau'; });
 }
 
 function renderFrigoIngs(tab){
@@ -1755,18 +1810,31 @@ function renderFrigoIngs(tab){
   const emoji = FTAB_EMOJIS[tab];
   el.hidden = false;
   el.innerHTML = `<div class="frigo-ings-title">${emoji} ${ings.length} article${ings.length>1?'s':''} :</div>
-    <div class="frigo-chips">
-      ${ings.map((ing, i) => `<button class="frigo-chip" data-tab="${tab}" data-idx="${i}">${emoji} ${esc(ing)} ✕</button>`).join('')}
-    </div>`;
-  el.querySelectorAll('.frigo-chip').forEach(btn => {
+    <div class="stock-cards">
+      ${ings.map((ing, i) => {
+        const img = getStockImg(ing);
+        return `<div class="stock-card">
+          <button class="stock-card-img" data-idx="${i}" title="Changer la photo">${img
+            ? `<img src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode('${emoji}'))">`
+            : emoji}</button>
+          <div class="stock-card-name">${esc(ing)}</div>
+          <button class="stock-card-del" data-idx="${i}" aria-label="Retirer">✕</button>
+        </div>`;
+      }).join('')}
+    </div>
+    <p class="stock-hint">Touche une photo pour la remplacer par la tienne.</p>`;
+  el.querySelectorAll('.stock-card-del').forEach(btn => {
     btn.addEventListener('click', ()=>{
-      const t = btn.dataset.tab;
-      storageIngs[t].splice(parseInt(btn.dataset.idx), 1);
-      saveStorageIngs(t);
-      renderFrigoIngs(t);
+      storageIngs[tab].splice(parseInt(btn.dataset.idx), 1);
+      saveStorageIngs(tab);
+      renderFrigoIngs(tab);
       renderFrigoSuggestions();
     });
   });
+  el.querySelectorAll('.stock-card-img').forEach(btn => {
+    btn.addEventListener('click', ()=> pickStockPhoto(ings[parseInt(btn.dataset.idx)]));
+  });
+  ings.forEach(queueStockImg);
 }
 
 /* Appariement stock ↔ recettes : on réduit chaque produit à 1-2 mots-clés
@@ -1814,7 +1882,7 @@ function recipeLines(r){
 
 let frigoSugFilter = 'all';
 
-function matchFrigoRecipes(filter = frigoSugFilter){
+function matchFrigoRecipes(filter = frigoSugFilter, limit = 40){
   const have = FTABS.flatMap(t => storageIngs[t].map(name => ({ name, tab: t, keys: stockKeys(name) })))
     .filter(p => p.keys.length);
   if (!have.length) return [];
@@ -1835,7 +1903,7 @@ function matchFrigoRecipes(filter = frigoSugFilter){
     if (filter !== 'all' && ![...used.values()].includes(filter)) continue;
     out.push({ r, covered, total: lines.length, pct: covered / lines.length, matched: [...used.keys()], missing });
   }
-  return out.sort((a, b) => b.pct - a.pct || b.covered - a.covered || a.r.t.localeCompare(b.r.t)).slice(0, 40);
+  return out.sort((a, b) => b.pct - a.pct || b.covered - a.covered || a.r.t.localeCompare(b.r.t)).slice(0, limit);
 }
 
 function renderFrigoSuggestions(){
@@ -1890,6 +1958,45 @@ function renderFrigoSuggestions(){
   });
 }
 
+/* Accueil : recettes de saison qui utilisent les produits du cellier. */
+const HOME_SEASON_SKIP = new Set(['oignon','ail','echalote','citron','carotte']);
+function renderCellarHome(){
+  const el = document.getElementById('cellar-home');
+  if (!el) return;
+  const m = monthNow();
+  if (!storageIngs.cellier.length){
+    el.innerHTML = `<button class="cellar-cta" id="cellar-cta">🥫 Scanne ton cellier pour voir des recettes de saison adaptées →</button>`;
+    el.querySelector('#cellar-cta').addEventListener('click', ()=>{ activeFTab = 'cellier'; openFrigo(); });
+    return;
+  }
+  const cellarSet = new Set(storageIngs.cellier.map(norm));
+  const picks = matchFrigoRecipes('cellier', Infinity)
+    .map(x => {
+      // Oignon, ail… sont « de saison » toute l'année : ils ne suffisent pas à inspirer une recette.
+      const hits = seasonalHits(x.r, m).filter(h => !HOME_SEASON_SKIP.has(h));
+      const fromCellar = x.matched.filter(n => cellarSet.has(norm(n)));
+      return { ...x, hits, fromCellar, score: fromCellar.length * 2 + Math.min(hits.length, 3) + x.pct };
+    })
+    .filter(x => x.hits.length && x.fromCellar.length)
+    .sort((a, b) => b.score - a.score || a.r.t.localeCompare(b.r.t))
+    .slice(0, 12);
+  if (!picks.length){ el.innerHTML = ''; return; }
+  el.innerHTML =
+    `<div class="feed-label">🌿 De saison + mon cellier · ${MONTHS[m-1]} <span class="feed-count">${picks.length}</span></div>` +
+    '<div class="feed-strip">' +
+    picks.map(({ r, hits, fromCellar }) => {
+      const img = r.img
+        ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=feed-ph>🍲</div>'" loading="lazy">`
+        : '<div class="feed-ph">🍲</div>';
+      return `<div class="feed-card cellar-card" data-id="${esc(String(r.id))}">${img}<div class="feed-info">
+        <div class="feed-t">${esc(r.t)}</div>
+        <div class="cellar-tags">${hits.slice(0,2).map(h=>`<span class="cellar-tag season">🌿 ${esc(cap(h))}</span>`).join('')}${fromCellar.slice(0,2).map(n=>`<span class="cellar-tag">🥫 ${esc(n)}</span>`).join('')}</div>
+      </div></div>`;
+    }).join('') +
+    '</div>';
+  el.querySelectorAll('.feed-card').forEach(c => c.addEventListener('click', () => openDetail(c.dataset.id)));
+}
+
 /* ---------- scan code-barres ---------- */
 let scanTargetTab = 'cellier';
 
@@ -1906,8 +2013,9 @@ function stopLiveScan(){
   liveScan = null;
 }
 
-function addStockItem(name, tab){
+function addStockItem(name, tab, img){
   const n = norm(name);
+  if (img) setStockImg(name, img);
   if (storageIngs[tab].some(x => norm(x) === n)) return false;
   storageIngs[tab].push(name);
   saveStorageIngs(tab);
@@ -1976,10 +2084,11 @@ async function startLiveScan(){
       navigator.vibrate?.(60);
       const tab = scanTargetTab;
       msg.textContent = `Code ${code} — recherche…`;
-      const name = await lookupBarcode(code);
+      const prod = await lookupBarcode(code);
       if (liveScan !== session) return;
+      const name = prod?.name;
       if (name){
-        const added = addStockItem(name, tab);
+        const added = addStockItem(name, tab, prod.img);
         addChip(`${FTAB_EMOJIS[tab]} ${name}${added ? '' : ' (déjà là)'}`);
         msg.textContent = `✓ ${name}`;
       } else {
@@ -2053,6 +2162,7 @@ function setScanState(state, data){
   if (state === 'confirm'){
     if (titleEl) titleEl.textContent = data.source === 'openfoodfacts' ? '✓ Produit trouvé' : '✓ Produit identifié';
     body.innerHTML = `
+      ${data.img ? `<img class="scan-product-img" src="${esc(data.img)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}
       ${data.barcode ? `<p class="scan-barcode-code">Code-barres : ${esc(data.barcode)}</p>` : ''}
       ${!data.name ? '<p class="scan-info">Produit non reconnu — saisir le nom :</p>' : ''}
       <label class="scan-label-sm">Nom du produit</label>
@@ -2070,10 +2180,10 @@ function setScanState(state, data){
     });
     body.querySelector('#scan-add-btn').addEventListener('click', ()=>{
       const name = body.querySelector('#scan-product-name').value.trim();
-      if (name) confirmAddProduct(name, scanTargetTab);
+      if (name) confirmAddProduct(name, scanTargetTab, data.img);
     });
     body.querySelector('#scan-product-name').addEventListener('keydown', e=>{
-      if(e.key==='Enter'){ e.preventDefault(); const v=e.target.value.trim(); if(v) confirmAddProduct(v, scanTargetTab); }
+      if(e.key==='Enter'){ e.preventDefault(); const v=e.target.value.trim(); if(v) confirmAddProduct(v, scanTargetTab, data.img); }
     });
     setTimeout(()=>{ const inp=body.querySelector('#scan-product-name'); if(inp&&!data.name) inp.focus(); }, 80);
     return;
@@ -2104,6 +2214,8 @@ async function handleScanCapture(e){
   setScanState('loading', { message: 'Lecture du code-barres…' });
   try {
     let barcode = null;
+    // La photo prise sert de vignette si Open Food Facts n'en fournit pas.
+    const photo = await imageThumb(file).catch(()=> '');
 
     if ('BarcodeDetector' in window){
       try {
@@ -2116,9 +2228,9 @@ async function handleScanCapture(e){
 
     if (barcode){
       setScanState('loading', { message: `Code ${barcode} — recherche en base…` });
-      const name = await lookupBarcode(barcode);
-      if (name){
-        setScanState('confirm', { name, barcode, source: 'openfoodfacts' });
+      const prod = await lookupBarcode(barcode);
+      if (prod){
+        setScanState('confirm', { name: prod.name, img: prod.img || photo, barcode, source: 'openfoodfacts' });
         return;
       }
       setScanState('loading', { message: 'Produit inconnu — analyse de l\'étiquette…' });
@@ -2128,12 +2240,12 @@ async function handleScanCapture(e){
 
     const apiKey = localStorage.getItem('frigoApiKey');
     if (!apiKey){
-      setScanState('confirm', { name: '', barcode, source: 'manual' });
+      setScanState('confirm', { name: '', img: photo, barcode, source: 'manual' });
       return;
     }
     const base64 = await fileToBase64(file);
     const names = await analyzeFridgeImage(base64, file.type, 'cellier');
-    setScanState('confirm', { name: names[0] || '', barcode, source: 'claude' });
+    setScanState('confirm', { name: names[0] || '', img: photo, barcode, source: 'claude' });
 
   } catch(err){
     setScanState('error', { message: err.message });
@@ -2143,7 +2255,7 @@ async function handleScanCapture(e){
 async function lookupBarcode(code){
   try {
     const r = await fetch(
-      `https://world.openfoodfacts.org/api/v2/product/${encodeURIComponent(code)}?fields=product_name_fr,product_name,generic_name_fr,generic_name`,
+      `https://world.openfoodfacts.org/api/v2/product/${encodeURIComponent(code)}?fields=product_name_fr,product_name,generic_name_fr,generic_name,image_front_small_url,image_small_url`,
       { headers: { 'User-Agent': 'RecettesApp/2.98 (github.com/laurentsar/recettes)' } }
     );
     if (!r.ok) return null;
@@ -2151,7 +2263,7 @@ async function lookupBarcode(code){
     if (d.status !== 1) return null;
     const p = d.product || {};
     const name = (p.product_name_fr || p.product_name || p.generic_name_fr || p.generic_name || '').trim();
-    return name || null;
+    return name ? { name, img: p.image_front_small_url || p.image_small_url || '' } : null;
   } catch(e){ return null; }
 }
 
@@ -2164,8 +2276,8 @@ function fileToBase64(file){
   });
 }
 
-function confirmAddProduct(name, tab){
-  addStockItem(name, tab);
+function confirmAddProduct(name, tab, img){
+  addStockItem(name, tab, img);
   renderFrigoIngs(tab);
   renderFrigoSuggestions();
   switchFrigoTab(tab);
@@ -2707,6 +2819,7 @@ async function init(){
   elSub.textContent = `${ALL.length} recettes · v${APP_VERSION}`;
   buildCats();
   renderDaily();
+  renderCellarHome();
   renderFeed();
   renderGrid();
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));

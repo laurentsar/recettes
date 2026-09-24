@@ -36,39 +36,53 @@
     return 0;
   }
 
-  var last = parseInt(ls(true, KEY_POLL), 10) || 0;
-  if (Date.now() - last < POLL_INTERVAL) return;
+  // Extrait « 3.01 » du lien de release (…/releases/tag/v3.01) ou du titre
+  // (« Recettes v3.01 » : le titre Atom est le nom de la release, pas le tag).
+  function versionOf(entry) {
+    var linkEl = entry.querySelector('link[rel="alternate"]') || entry.querySelector('link');
+    var href = linkEl ? (linkEl.getAttribute('href') || '') : '';
+    var titleEl = entry.querySelector('title');
+    var sources = [href.split('/tag/')[1] || '', titleEl ? titleEl.textContent : ''];
+    for (var i = 0; i < sources.length; i++) {
+      var m = String(sources[i]).match(/v?(\d+(?:\.\d+)+)/);
+      if (m) return m[1];
+    }
+    return null;
+  }
 
-  fetch('https://github.com/' + REPO + '/releases.atom?_=' + Date.now(), {
-    headers: { Accept: 'application/atom+xml, text/xml, */*' }
-  })
-    .then(function (r) { return r.ok ? r.text() : null; })
-    .then(function (xml) {
-      if (!xml) return;
-      var doc = new DOMParser().parseFromString(xml, 'text/xml');
-      var entry = doc.querySelector('entry');
-      if (!entry) return;
-
-      var titleEl = entry.querySelector('title');
-      if (!titleEl) return;
-      var tagName = (titleEl.textContent || '').trim();
-
-      var contentEl = entry.querySelector('content');
-      var notesHtml = contentEl ? (contentEl.textContent || '').trim() : '';
-
-      var linkEl = entry.querySelector('link[rel="alternate"]') || entry.querySelector('link');
-      var pageUrl = linkEl ? (linkEl.getAttribute('href') || '') : ('https://github.com/' + REPO + '/releases/latest');
-
-      ls(false, KEY_POLL, Date.now());
-      var latest = tagName.replace(/^v/, '');
-      if (cmp(latest, CURRENT) <= 0) return;
-      if (ls(true, KEY_DISMISS) === latest) return;
-
-      var apkUrl = 'https://github.com/' + REPO + '/releases/download/v' + latest + '/recettes-' + latest + '.apk';
-      ls(false, KEY_NOTES, JSON.stringify({ ver: latest, notes: notesHtml, url: pageUrl }));
-      showBanner(latest, apkUrl, pageUrl, notesHtml);
+  /* Vérifie la dernière release. force = ignore l'anti-spam et le « Plus tard ».
+     Résout { latest, newer } ou null si la vérification a échoué. */
+  function check(force) {
+    return fetch('https://github.com/' + REPO + '/releases.atom?_=' + Date.now(), {
+      headers: { Accept: 'application/atom+xml, text/xml, */*' }
     })
-    .catch(function () {});
+      .then(function (r) { return r.ok ? r.text() : null; })
+      .then(function (xml) {
+        if (!xml) return null;
+        var doc = new DOMParser().parseFromString(xml, 'text/xml');
+        var entry = doc.querySelector('entry');
+        if (!entry) return null;
+        var latest = versionOf(entry);
+        if (!latest) return null;
+
+        var contentEl = entry.querySelector('content');
+        var notesHtml = contentEl ? (contentEl.textContent || '').trim() : '';
+        var pageUrl = 'https://github.com/' + REPO + '/releases/tag/v' + latest;
+
+        ls(false, KEY_POLL, Date.now());
+        var newer = cmp(latest, CURRENT) > 0;
+        if (newer && (force || ls(true, KEY_DISMISS) !== latest)) {
+          var apkUrl = 'https://github.com/' + REPO + '/releases/download/v' + latest + '/recettes-' + latest + '.apk';
+          ls(false, KEY_NOTES, JSON.stringify({ ver: latest, notes: notesHtml, url: pageUrl }));
+          showBanner(latest, apkUrl, pageUrl, notesHtml);
+        }
+        return { latest: latest, newer: newer };
+      });
+  }
+  window.checkAppUpdate = check;
+
+  var last = parseInt(ls(true, KEY_POLL), 10) || 0;
+  if (Date.now() - last >= POLL_INTERVAL) check(false).catch(function () {});
 
   function parseNoteItems(html) {
     if (!html) return [];
@@ -128,7 +142,7 @@
 
     var actHtml = canInstall
       ? '<button class="ub-act" id="ub-install-btn">⬇ Installer v' + esc(version) + '</button>'
-      : '<a class="ub-act" href="' + esc(pageUrl) + '" target="_blank" rel="noopener">⬇ v' + esc(version) + ' — Télécharger</a>';
+      : '<a class="ub-act" href="' + esc(apkUrl) + '" target="_blank" rel="noopener">⬇ Télécharger v' + esc(version) + '</a>';
 
     var b = document.createElement('div');
     b.id = 'update-banner';
