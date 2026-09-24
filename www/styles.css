@@ -647,3 +647,7 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .cellar-tag{font-size:.66em;font-weight:600;padding:1px 6px;border-radius:999px;background:rgba(224,122,63,.15);border:1px solid rgba(224,122,63,.35);color:var(--accent);white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
 .cellar-tag.season{background:rgba(124,179,66,.18);border-color:#4d6b2a;color:#cde8a6}
 .cellar-cta{width:100%;padding:12px 14px;border:1px dashed var(--line);background:var(--card);color:var(--muted);border-radius:14px;font-size:.85em;font-weight:600;cursor:pointer;text-align:left}
+.all-toggle{display:flex;align-items:center;gap:10px;width:100%;margin:4px 0 14px;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:14px;color:var(--text);font-size:1em;font-weight:800;cursor:pointer;text-align:left}
+.all-toggle[hidden]{display:none}
+.all-count{font-weight:400;font-size:.8em;color:var(--muted);background:var(--bg2);border:1px solid var(--line);padding:1px 8px;border-radius:999px}
+.all-chev{margin-left:auto;color:var(--muted)}

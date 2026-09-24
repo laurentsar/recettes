@@ -622,8 +622,32 @@ function renderGrid(){
     + (state.fav?' en favoris':'');
   if(_gObs){ _gObs.disconnect(); _gObs=null; }
   elGrid.innerHTML = '';
-  _gridAppendPage();
+  updateGridFold();
+  if(!elGrid.hidden) _gridAppendPage();
   window.scrollTo({top:0});
+}
+/* Accueil sans recherche ni filtre : la liste complète est repliée derrière
+   « Toutes les recettes » (fermée à chaque ouverture de l'app). Dès qu'on
+   cherche ou filtre, ou dans les autres onglets, les résultats s'affichent. */
+let gridOpen = false;
+function gridFoldable(){
+  return appMode === 'recipes' && !state.q && !state.cats.length && !state.fav && !state.ing && !state.diet;
+}
+function updateGridFold(){
+  const btn = document.getElementById('all-toggle');
+  const fold = gridFoldable();
+  btn.hidden = !fold;
+  elStatus.hidden = fold;
+  elGrid.hidden = fold && !gridOpen;
+  if (fold){
+    btn.innerHTML = `📚 Toutes les recettes <span class="all-count">${_gList.length}</span><span class="all-chev">${gridOpen ? '▴' : '▾'}</span>`;
+    btn.setAttribute('aria-expanded', String(gridOpen));
+  }
+}
+function toggleAllRecipes(){
+  gridOpen = !gridOpen;
+  updateGridFold();
+  if (gridOpen && !elGrid.children.length) _gridAppendPage();
 }
 function _gridAppendPage(){
   if(_gObs){ _gObs.disconnect(); _gObs=null; }
@@ -1535,6 +1559,7 @@ function applyLeafMode(leaf){
   document.getElementById('grid').hidden = isCocktails;
   document.getElementById('status').hidden = isCocktails;
   if (isCocktails){
+    document.getElementById('all-toggle').hidden = true;
     elSearch.hidden = true;
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
@@ -2893,6 +2918,7 @@ async function init(){
   document.getElementById('settings-btn').addEventListener('click', openSettings);
   document.getElementById('settings-back').addEventListener('click', closeSettings);
   document.getElementById('check-update-btn').addEventListener('click', checkUpdateNow);
+  document.getElementById('all-toggle').addEventListener('click', toggleAllRecipes);
   document.getElementById('frigo-api-save').addEventListener('click', ()=>{
     const key = document.getElementById('frigo-api-key').value.trim();
     if (key) localStorage.setItem('frigoApiKey', key);
