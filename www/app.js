@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.02';
+const APP_VERSION = '3.03';
 
 let ALL = [];
 let BASE = [];
@@ -1737,6 +1737,26 @@ async function pumpStockImgs(){
   _imgBusy = false;
 }
 
+// Corrige le nom d'un produit (ex. mauvais nom renvoyé par Open Food Facts) :
+// la photo suit, et le carnet des codes-barres retient le nouveau nom.
+function renameStockItem(tab, idx){
+  const old = storageIngs[tab][idx];
+  if (old == null) return;
+  const v = (prompt('Nom du produit', old) || '').trim();
+  if (!v || v === old) return;
+  storageIngs[tab][idx] = v;
+  saveStorageIngs(tab);
+  const img = stockImgs[norm(old)];
+  if (img && !getStockImg(v)) setStockImg(v, img);
+  let changed = false;
+  for (const code in barcodeBook){
+    if (norm(barcodeBook[code].name) === norm(old)){ barcodeBook[code].name = v; changed = true; }
+  }
+  if (changed){ try { localStorage.setItem('barcodeBook', JSON.stringify(barcodeBook)); } catch(e){} }
+  renderFrigoIngs(tab);
+  renderFrigoSuggestions();
+}
+
 let _photoTarget = null;
 function pickStockPhoto(name){
   _photoTarget = name;
@@ -1817,7 +1837,7 @@ function renderFrigoIngs(tab){
           <button class="stock-card-img" data-idx="${i}" title="Changer la photo">${img
             ? `<img src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode('${emoji}'))">`
             : emoji}</button>
-          <div class="stock-card-name">${esc(ing)}</div>
+          <button class="stock-card-name" data-idx="${i}" title="Renommer">${esc(ing)} ✎</button>
           <button class="stock-card-del" data-idx="${i}" aria-label="Retirer">✕</button>
         </div>`;
       }).join('')}
@@ -1830,6 +1850,9 @@ function renderFrigoIngs(tab){
       renderFrigoIngs(tab);
       renderFrigoSuggestions();
     });
+  });
+  el.querySelectorAll('.stock-card-name').forEach(btn => {
+    btn.addEventListener('click', ()=> renameStockItem(tab, parseInt(btn.dataset.idx)));
   });
   el.querySelectorAll('.stock-card-img').forEach(btn => {
     btn.addEventListener('click', ()=> pickStockPhoto(ings[parseInt(btn.dataset.idx)]));
@@ -1846,8 +1869,12 @@ const STOCK_STOP = new Set(('de du des la le les un une et en au aux a d l avec 
   'france francais francaise origine marque repere gr kg cl ml litre litres '+
   'carrefour auchan leclerc lidl casino intermarche monoprix franprix systeme reflets panzani barilla lustucru '+
   'bonduelle cassegrain daucy heinz amora maille lesieur puget knorr maggi vahine ancel francine saupiquet connetable').split(' '));
-// Mots trop vagues pour suffire seuls (« sauce tomate » ne doit pas matcher « sauce soja »).
-const STOCK_GENERIC = new Set(['sauce','jus','creme','poudre','sirop','bouillon','puree','confiture','soupe','pate','huile','vinaigre','fromage','lait']);
+// Mots qui ne suffisent pas seuls : il faut aussi le 2ᵉ mot-clé.
+// Formes (« pulpe de mangue » ≠ « pulpe de tomates ») et noms ambigus
+// (« pois chiches » ≠ « petits pois », « pomme de terre » ≠ « pomme »).
+const STOCK_GENERIC = new Set(['sauce','jus','creme','poudre','sirop','bouillon','puree','confiture','soupe','pate','huile','vinaigre','fromage','lait',
+  'pulpe','couli','concentre','compote','nectar','gelee','fond','fumet','cube','flocon','farine','graine','feuille','eau','boisson','yaourt','preparation','melange',
+  'filet','dos','steak','morceau','tranche','rondelle','coeur','brisure','haricot','pois','petit','pomme','noix','chou','fruit','cuisse','blanc','aile']);
 const LINE_STOP = new Set(['de','du','des','la','le','les','un','une','et','en','au','aux','ou','pour','avec','cuillere','cuilleres','soupe','cafe','pincee','pincees','gousse','gousses','tranche','tranches','boite','boites','sachet','sachets','verre','verres','bouquet','brin','brins','feuille','feuilles']);
 
 // « pâtes » (pâtes alimentaires) ≠ « pâte » (feuilletée, brisée…) : on ne singularise pas ce mot.
