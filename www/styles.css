@@ -109,12 +109,13 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .schip{background:rgba(124,179,66,.18);border:1px solid #4d6b2a;color:#cde8a6;font-size:.74em;font-weight:600;padding:3px 8px;border-radius:999px;white-space:nowrap}
 
 /* fil de nouveautés */
-#feed{margin:0 0 14px}
+#feed,#cellar-home{margin:0 0 14px}
+#cellar-home:empty{display:none}
 #feed:empty{display:none}
 .feed-label{color:var(--muted);font-size:.77em;font-weight:700;text-transform:uppercase;letter-spacing:.4px;margin-bottom:8px;display:flex;align-items:center;gap:7px}
 .feed-count{font-weight:400;text-transform:none;letter-spacing:0;background:var(--card);border:1px solid var(--line);padding:1px 7px;border-radius:999px;font-size:.95em}
-#feed .feed-strip{display:flex;gap:10px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}
-#feed .feed-strip::-webkit-scrollbar{display:none}
+#feed .feed-strip,#cellar-home .feed-strip{display:flex;gap:10px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}
+#feed .feed-strip::-webkit-scrollbar,#cellar-home .feed-strip::-webkit-scrollbar{display:none}
 .feed-card{flex:none;width:128px;background:var(--card);border-radius:14px;overflow:hidden;cursor:pointer;border:1px solid var(--line);transition:transform .13s,box-shadow .13s}
 .feed-card:active{transform:scale(.96);box-shadow:0 2px 8px rgba(0,0,0,.25)}
 .feed-card img{width:100%;height:78px;object-fit:cover;display:block}
@@ -361,6 +362,16 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .frigo-rcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
 .frigo-badges{display:flex;gap:4px;flex-wrap:wrap;margin-top:5px}
 .frigo-badge{background:rgba(124,179,66,.18);border:1px solid #4d6b2a;color:#cde8a6;font-size:.7em;font-weight:600;padding:2px 7px;border-radius:999px;white-space:nowrap}
+.frigo-sub{color:var(--muted);font-size:.82em;margin:12px 0 10px}
+.frigo-sfilters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.frigo-sfilter{padding:7px 12px;border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:999px;font-size:.82em;font-weight:700;cursor:pointer}
+.frigo-sfilter.active{background:linear-gradient(135deg,var(--accent),var(--accent2));border-color:transparent;color:#fff}
+.frigo-missing{margin-top:5px;font-size:.72em;color:var(--muted);line-height:1.35}
+.frigo-missing.ok{color:#9ccc65;font-weight:700}
+.scan-live{position:relative;border-radius:14px;overflow:hidden;background:#000;aspect-ratio:4/3}
+.scan-live video{width:100%;height:100%;object-fit:cover;display:block}
+.scan-live-frame{position:absolute;left:12%;right:12%;top:32%;bottom:32%;border:2px solid rgba(255,255,255,.85);border-radius:10px;box-shadow:0 0 0 999px rgba(0,0,0,.25);pointer-events:none}
+.frigo-chip.unknown{background:rgba(240,160,144,.15);border-color:rgba(240,160,144,.5);color:#f0a090}
 
 /* === settings overlay === */
 .settings-panel{position:fixed;inset:0;z-index:50;background:var(--bg);display:flex;flex-direction:column;overflow:hidden}
@@ -619,3 +630,16 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .wz-restart{display:block;width:100%;padding:13px;border-radius:14px;border:1px solid var(--line);background:var(--card);color:var(--muted);font-size:.9em;font-weight:600;cursor:pointer;margin-bottom:24px}
 .wz-restart:active{opacity:.7}
 .wz-habit-intro{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:20px;font-size:.88em;line-height:1.5;color:var(--muted)}
+.stock-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:10px}
+.stock-card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:8px;display:flex;flex-direction:column;align-items:center;gap:6px}
+.stock-card-img{width:100%;aspect-ratio:1;border:none;border-radius:10px;background:#fff;display:flex;align-items:center;justify-content:center;font-size:2em;cursor:pointer;padding:0;overflow:hidden}
+.stock-card-img img{width:100%;height:100%;object-fit:contain}
+.stock-card-name{font-size:.75em;font-weight:600;text-align:center;line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;word-break:break-word}
+.stock-card-del{position:absolute;top:4px;right:4px;width:24px;height:24px;border-radius:50%;border:none;background:rgba(0,0,0,.6);color:#fff;font-size:.75em;cursor:pointer;padding:0}
+.stock-hint{margin:8px 0 0;color:var(--muted);font-size:.75em}
+.scan-product-img{align-self:center;max-width:140px;max-height:140px;object-fit:contain;border-radius:12px;background:#fff}
+.cellar-card{width:150px}
+.cellar-tags{display:flex;flex-wrap:wrap;gap:3px;margin-top:5px}
+.cellar-tag{font-size:.66em;font-weight:600;padding:1px 6px;border-radius:999px;background:rgba(224,122,63,.15);border:1px solid rgba(224,122,63,.35);color:var(--accent);white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
+.cellar-tag.season{background:rgba(124,179,66,.18);border-color:#4d6b2a;color:#cde8a6}
+.cellar-cta{width:100%;padding:12px 14px;border:1px dashed var(--line);background:var(--card);color:var(--muted);border-radius:14px;font-size:.85em;font-weight:600;cursor:pointer;text-align:left}
