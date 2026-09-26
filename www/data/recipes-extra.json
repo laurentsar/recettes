@@ -15605,7 +15605,8 @@
         "Mettre les moules, couvrir et cuire à feu vif 4-5 min en remuant à mi-cuisson.",
         "Dès que les moules sont ouvertes, retirer du feu. Jeter celles qui restent fermées.",
         "Parsemer de persil haché et servir aussitôt avec du pain."
-      ]
+      ],
+      "img": "img/moules/01.jpg"
     },
     {
       "id": "moule:002",
@@ -15631,7 +15632,8 @@
         "Retirer les moules ouvertes avec une écumoire, réserver au chaud.",
         "Filtrer le jus, le remettre dans la casserole avec la crème. Faire réduire 3 min.",
         "Napper les moules de sauce, parsemer de persil et servir."
-      ]
+      ],
+      "img": "img/moules/02.jpg"
     },
     {
       "id": "moule:003",
@@ -15655,7 +15657,8 @@
         "Remettre le jus dans la casserole, ajouter la crème et le roquefort émietté.",
         "Faire fondre à feu doux en fouettant jusqu'à sauce lisse.",
         "Verser sur les moules et servir immédiatement avec du pain grillé."
-      ]
+      ],
+      "img": "img/moules/05.jpg"
     },
     {
       "id": "moule:004",
@@ -15680,7 +15683,8 @@
         "Ajouter les tomates et les herbes de Provence, cuire 5 min.",
         "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
         "Mélanger délicatement et servir dès que toutes les moules sont ouvertes."
-      ]
+      ],
+      "img": "img/moules/06.jpg"
     },
     {
       "id": "moule:005",
@@ -15704,7 +15708,8 @@
         "Verser le lait de coco et porter à frémissement.",
         "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
         "Parsemer de coriandre fraîche et servir avec du riz basmati."
-      ]
+      ],
+      "img": "img/moules/03.jpg"
     },
     {
       "id": "moule:006",
@@ -15726,7 +15731,8 @@
         "Faire chauffer l'huile d'olive dans une grande casserole, y faire revenir l'ail 1 min.",
         "Ajouter les moules, couvrir et cuire à feu vif 4-5 min.",
         "Parsemer de persil haché, poivrer et servir."
-      ]
+      ],
+      "img": "img/moules/08.jpg"
     },
     {
       "id": "moule:007",
@@ -15749,7 +15755,8 @@
         "Ajouter le bouillon, le jus de citron et le thym, porter à ébullition.",
         "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
         "Servir avec quelques rondelles de citron et du pain croustillant."
-      ]
+      ],
+      "img": "img/moules/09.jpg"
     },
     {
       "id": "moule:008",
@@ -15842,7 +15849,8 @@
         "Cuire les moules à couvert 4-5 min à feu vif.",
         "Retirer les moules, ajouter les crevettes dans le jus 2 min.",
         "Remettre les moules, mélanger et servir."
-      ]
+      ],
+      "img": "img/moules/11.jpg"
     },
     {
       "id": "moule:012",
@@ -15868,7 +15876,363 @@
         "Filtrer le jus, le remettre dans la casserole avec la crème.",
         "Faire réduire 3 min jusqu'à sauce nappante, ajouter les crevettes 2 min.",
         "Remettre les moules dans la sauce, servir aussitôt avec du pain grillé."
-      ]
+      ],
+      "img": "img/moules/11.jpg"
+    },
+    {
+      "id": "moule:013",
+      "t": "Moules Marinières Classiques",
+      "cat": "Poisson, Moules",
+      "desc": "La recette de base : vin blanc, échalotes, beurre et persil.",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "3 échalotes",
+        "2 gousses d'ail",
+        "25 cl de vin blanc sec",
+        "40 g de beurre",
+        "1 bouquet de persil",
+        "1 brin de thym",
+        "1 feuille de laurier",
+        "Poivre"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Émincer les échalotes et l'ail, hacher le persil.",
+        "Faire fondre le beurre dans une grande cocotte, faire suer échalotes et ail 2 min.",
+        "Ajouter le vin blanc, le thym et le laurier, porter à ébullition.",
+        "Ajouter les moules, couvrir et cuire 5 min à feu vif en secouant la cocotte.",
+        "Dès que les moules sont ouvertes, poivrer, parsemer de persil et servir avec le jus."
+      ],
+      "img": "img/moules/01.jpg"
+    },
+    {
+      "id": "moule:014",
+      "t": "Moules à la Tomate et au Basilic",
+      "cat": "Poisson, Moules",
+      "desc": "Tomates cerises fondantes, ail et basilic frais.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "300 g de tomates cerises",
+        "2 gousses d'ail",
+        "1 échalote",
+        "10 cl de vin blanc sec",
+        "2 c. à s. d'huile d'olive",
+        "1 bouquet de basilic",
+        "Poivre"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Couper les tomates cerises en deux, émincer l'ail et l'échalote.",
+        "Dans une cocotte, faire revenir ail et échalote dans l'huile d'olive 2 min.",
+        "Ajouter les tomates et cuire 5 min jusqu'à ce qu'elles compotent.",
+        "Verser le vin blanc, ajouter les moules, couvrir et cuire 5 min à feu vif.",
+        "Poivrer, ajouter le basilic ciselé au dernier moment et servir."
+      ],
+      "img": "img/moules/04.jpg"
+    },
+    {
+      "id": "moule:015",
+      "t": "Moules au Chorizo",
+      "cat": "Poisson, Moules",
+      "desc": "Le chorizo relâche son huile pimentée dans un jus à la tomate.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "150 g de chorizo",
+        "1 oignon",
+        "2 gousses d'ail",
+        "200 g de tomates concassées",
+        "15 cl de vin blanc sec",
+        "1 c. à s. d'huile d'olive",
+        "Persil"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Couper le chorizo en rondelles, émincer l'oignon et l'ail.",
+        "Faire revenir le chorizo dans l'huile 2 min, puis ajouter oignon et ail 3 min.",
+        "Ajouter les tomates concassées et le vin blanc, laisser mijoter 5 min.",
+        "Ajouter les moules, couvrir et cuire 5 min à feu vif.",
+        "Parsemer de persil et servir."
+      ],
+      "img": "img/moules/07.jpg"
+    },
+    {
+      "id": "moule:016",
+      "t": "Moules Sauce Tomate Épicée",
+      "cat": "Poisson, Moules",
+      "desc": "Sauce tomate relevée au piment, façon arrabbiata.",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "400 g de tomates concassées",
+        "1 oignon",
+        "3 gousses d'ail",
+        "1 piment rouge (ou 1/2 c. à c. de piment d'Espelette)",
+        "10 cl de vin blanc sec",
+        "2 c. à s. d'huile d'olive",
+        "Persil"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Émincer l'oignon, l'ail et le piment.",
+        "Faire revenir oignon, ail et piment dans l'huile d'olive 3 min.",
+        "Ajouter les tomates et le vin blanc, laisser réduire 10 min.",
+        "Ajouter les moules, couvrir et cuire 5 min à feu vif.",
+        "Parsemer de persil et servir avec du pain grillé."
+      ],
+      "img": "img/moules/10.jpg"
+    },
+    {
+      "id": "moule:017",
+      "t": "Moules Façon Méditerranéenne",
+      "cat": "Poisson, Moules",
+      "desc": "Tomates, olives noires, oignon rouge et herbes de Provence.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "200 g de tomates cerises",
+        "80 g d'olives noires",
+        "1 oignon rouge",
+        "2 gousses d'ail",
+        "10 cl de vin blanc sec",
+        "2 c. à s. d'huile d'olive",
+        "1 c. à c. d'herbes de Provence",
+        "Persil"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Émincer l'oignon rouge et l'ail, couper les tomates en deux.",
+        "Faire revenir oignon et ail dans l'huile d'olive 3 min.",
+        "Ajouter tomates, olives et herbes de Provence, cuire 3 min.",
+        "Verser le vin blanc, ajouter les moules, couvrir et cuire 5 min.",
+        "Parsemer de persil et servir."
+      ],
+      "img": "img/moules/12.jpg"
+    },
+    {
+      "id": "moule:018",
+      "t": "Moules au Beurre Persillé",
+      "cat": "Poisson, Moules",
+      "desc": "Beurre, ail et beaucoup de persil, tout simplement.",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "80 g de beurre",
+        "3 gousses d'ail",
+        "1 échalote",
+        "1 gros bouquet de persil",
+        "10 cl de vin blanc sec",
+        "Poivre"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Hacher finement l'ail, l'échalote et le persil. Mélanger avec le beurre mou.",
+        "Dans une cocotte, porter le vin blanc à ébullition avec l'échalote.",
+        "Ajouter les moules, couvrir et cuire 5 min à feu vif.",
+        "Hors du feu, ajouter le beurre persillé et remuer jusqu'à ce qu'il fonde.",
+        "Poivrer et servir aussitôt."
+      ],
+      "img": "img/moules/13.jpg"
+    },
+    {
+      "id": "moule:019",
+      "t": "Moules au Vin Rouge",
+      "cat": "Poisson, Moules",
+      "desc": "Une variante corsée aux oignons rouges et au vin rouge.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "25 cl de vin rouge",
+        "2 oignons rouges",
+        "2 gousses d'ail",
+        "30 g de beurre",
+        "1 brin de thym",
+        "Persil",
+        "Poivre"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Émincer les oignons rouges et l'ail.",
+        "Faire fondre le beurre, faire revenir oignons et ail 4 min.",
+        "Ajouter le vin rouge et le thym, laisser réduire de moitié.",
+        "Ajouter les moules, couvrir et cuire 5 min à feu vif.",
+        "Poivrer, parsemer de persil et servir."
+      ],
+      "img": "img/moules/14.jpg"
+    },
+    {
+      "id": "moule:020",
+      "t": "Moules Sauce Moutarde",
+      "cat": "Poisson, Moules",
+      "desc": "Sauce crémeuse à la moutarde à l'ancienne.",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "2 échalotes",
+        "15 cl de vin blanc sec",
+        "20 cl de crème fraîche",
+        "2 c. à s. de moutarde à l'ancienne",
+        "1 c. à s. de moutarde de Dijon",
+        "20 g de beurre",
+        "Persil"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Émincer les échalotes et les faire suer dans le beurre 2 min.",
+        "Ajouter le vin blanc, puis les moules. Couvrir et cuire 5 min à feu vif.",
+        "Retirer les moules, filtrer le jus et le remettre dans la cocotte.",
+        "Ajouter la crème et les deux moutardes, laisser réduire 3 min.",
+        "Remettre les moules, mélanger, parsemer de persil et servir."
+      ],
+      "img": "img/moules/15.jpg"
+    },
+    {
+      "id": "moule:021",
+      "t": "Moules à la Crème de Tomate",
+      "cat": "Poisson, Moules",
+      "desc": "Sauce onctueuse tomate et crème.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "1 échalote",
+        "2 gousses d'ail",
+        "200 g de coulis de tomate",
+        "2 c. à s. de concentré de tomate",
+        "20 cl de crème fraîche",
+        "10 cl de vin blanc sec",
+        "1 c. à s. d'huile d'olive",
+        "Persil"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Émincer l'échalote et l'ail, les faire revenir dans l'huile 2 min.",
+        "Ajouter le concentré, le coulis de tomate et le vin blanc, cuire 5 min.",
+        "Ajouter la crème et mélanger.",
+        "Ajouter les moules, couvrir et cuire 5 min à feu vif.",
+        "Parsemer de persil et servir."
+      ],
+      "img": "img/moules/16.jpg"
+    },
+    {
+      "id": "moule:022",
+      "t": "Moules au Pesto",
+      "cat": "Poisson, Moules",
+      "desc": "Pesto au basilic et tomates cerises.",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "4 c. à s. de pesto au basilic",
+        "150 g de tomates cerises",
+        "2 gousses d'ail",
+        "10 cl de vin blanc sec",
+        "1 c. à s. d'huile d'olive",
+        "Parmesan râpé",
+        "Basilic frais"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Couper les tomates cerises en deux, émincer l'ail.",
+        "Faire revenir l'ail dans l'huile 1 min, ajouter les tomates 2 min.",
+        "Verser le vin blanc, ajouter les moules, couvrir et cuire 5 min.",
+        "Hors du feu, incorporer le pesto et mélanger.",
+        "Servir avec parmesan râpé et basilic frais."
+      ],
+      "img": "img/moules/17.jpg"
+    },
+    {
+      "id": "moule:023",
+      "t": "Moules Façon Thaïlandaise",
+      "cat": "Poisson, Moules",
+      "desc": "Lait de coco, citronnelle, gingembre, piment et citron vert.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "40 cl de lait de coco",
+        "1 c. à s. de pâte de curry rouge (ou vert)",
+        "2 tiges de citronnelle",
+        "1 morceau de gingembre (3 cm)",
+        "2 gousses d'ail",
+        "1 piment rouge",
+        "1 c. à s. de sauce nuoc-mâm",
+        "2 citrons verts",
+        "Coriandre fraîche"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Émincer ail, gingembre, piment et citronnelle (partie tendre).",
+        "Faire revenir ces aromates 2 min avec la pâte de curry.",
+        "Ajouter le lait de coco, le nuoc-mâm et le jus d'un citron vert, porter à frémissement.",
+        "Ajouter les moules, couvrir et cuire 5 min à feu vif.",
+        "Servir avec la coriandre et des quartiers de citron vert."
+      ],
+      "img": "img/moules/18.jpg"
+    },
+    {
+      "id": "moule:024",
+      "t": "Moules Gratinées à l'Ail et au Fromage",
+      "cat": "Poisson, Moules",
+      "desc": "Moules en demi-coquille gratinées, chapelure, ail et parmesan.",
+      "min": 35,
+      "serv": 4,
+      "ing": [
+        "1,5 kg de grosses moules",
+        "10 cl de vin blanc sec",
+        "80 g de beurre mou",
+        "3 gousses d'ail",
+        "1 bouquet de persil",
+        "50 g de chapelure",
+        "60 g de parmesan (ou gruyère) râpé"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Ouvrir les moules 3-4 min à couvert avec le vin blanc, les égoutter.",
+        "Retirer une demi-coquille et disposer les moules sur une plaque.",
+        "Préchauffer le four en position gril (220 °C).",
+        "Mélanger le beurre mou, l'ail et le persil hachés. En déposer un peu sur chaque moule.",
+        "Parsemer de chapelure et de fromage râpé.",
+        "Gratiner 5 min sous le gril et servir aussitôt."
+      ],
+      "img": "img/moules/19.jpg"
+    },
+    {
+      "id": "moule:025",
+      "t": "Moules Sauce Citronnée Crémeuse",
+      "cat": "Poisson, Moules",
+      "desc": "Crème et citron, fraîche et douce.",
+      "min": 20,
+      "serv": 4,
+      "ing": [
+        "2 kg de moules",
+        "2 échalotes",
+        "15 cl de vin blanc sec",
+        "20 cl de crème fraîche",
+        "1 citron (zeste et jus)",
+        "20 g de beurre",
+        "Persil",
+        "Poivre"
+      ],
+      "steps": [
+        "Gratter et laver les moules, retirer les barbes et jeter celles qui sont cassées ou restent ouvertes.",
+        "Émincer les échalotes, les faire suer dans le beurre 2 min.",
+        "Ajouter le vin blanc, puis les moules. Couvrir et cuire 5 min à feu vif.",
+        "Retirer les moules, filtrer le jus et le remettre dans la cocotte.",
+        "Ajouter la crème, le zeste et le jus du citron, laisser réduire 3 min.",
+        "Remettre les moules, poivrer, parsemer de persil et servir avec des rondelles de citron."
+      ],
+      "img": "img/moules/20.jpg"
     },
     {
       "id": "majorque:001",
@@ -17894,7 +18258,8 @@
         "Réserver sous un torchon pour garder la chaleur et la souplesse."
       ],
       "min": 40,
-      "t": "Tortillas Maison à la Farine"
+      "t": "Tortillas Maison à la Farine",
+      "img": "img/pates/08.jpg"
     },
     {
       "id": "tortilla:002",
@@ -18023,6 +18388,170 @@
       ],
       "min": 280,
       "t": "Cheesecake Double Chocolat Sans Cuisson"
+    },
+    {
+      "id": "pate:001",
+      "t": "Pâte à Raviolis Maison",
+      "cat": "Techniques, Pâte maison, Italie, Pâtes",
+      "desc": "Pâte fraîche aux œufs, souple et fine, pour raviolis et tortellinis.",
+      "min": 45,
+      "serv": 4,
+      "ing": [
+        "300 g de farine (type 00 ou T45)",
+        "3 œufs",
+        "1 à 2 c. à s. d'eau",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Verser la farine en fontaine avec le sel, casser les œufs au centre.",
+        "Mélanger à la fourchette en ramenant la farine peu à peu, ajouter l'eau si la pâte est trop sèche.",
+        "Pétrir 8-10 min jusqu'à obtenir une pâte lisse et élastique.",
+        "Filmer et laisser reposer 30 min à température ambiante.",
+        "Étaler très finement (1 mm) au rouleau ou au laminoir, en bandes.",
+        "Garnir, recouvrir d'une seconde bande, souder et découper les raviolis.",
+        "Cuire 3-4 min dans l'eau bouillante salée."
+      ],
+      "img": "img/pates/01.jpg"
+    },
+    {
+      "id": "pate:002",
+      "t": "Pâte à Gyozas Maison",
+      "cat": "Techniques, Pâte maison, Japon",
+      "desc": "Disques fins à l'eau chaude pour gyozas et raviolis asiatiques.",
+      "min": 45,
+      "serv": 30,
+      "ing": [
+        "250 g de farine",
+        "150 ml d'eau très chaude (frémissante)",
+        "1/2 c. à c. de sel",
+        "Fécule de maïs pour le plan de travail"
+      ],
+      "steps": [
+        "Dissoudre le sel dans l'eau chaude.",
+        "Verser l'eau sur la farine petit à petit en mélangeant avec des baguettes.",
+        "Quand la pâte est tiède, la pétrir 5 min jusqu'à ce qu'elle soit lisse.",
+        "Filmer et laisser reposer 30 min.",
+        "Former un boudin, couper en 30 morceaux et étaler chacun en disque fin de 8 cm.",
+        "Fariner les disques à la fécule pour qu'ils ne collent pas, puis garnir et plisser."
+      ],
+      "img": "img/pates/02.jpg"
+    },
+    {
+      "id": "pate:003",
+      "t": "Feuilles de Brick Maison",
+      "cat": "Techniques, Pâte maison, Maghreb",
+      "desc": "Feuilles très fines cuites à la poêle, pour bricks, samoussas et pastillas.",
+      "min": 40,
+      "serv": 12,
+      "ing": [
+        "250 g de farine",
+        "400 ml d'eau",
+        "1/2 c. à c. de sel",
+        "1 c. à s. d'huile"
+      ],
+      "steps": [
+        "Mixer la farine, l'eau, le sel et l'huile jusqu'à obtenir une pâte liquide et lisse, sans grumeaux.",
+        "Laisser reposer 30 min.",
+        "Chauffer une poêle antiadhésive à feu doux, légèrement huilée.",
+        "Étaler une fine couche de pâte au pinceau sur toute la surface de la poêle.",
+        "Cuire 1 min sans retourner : la feuille se décolle quand elle est prête.",
+        "Empiler les feuilles sur un torchon, séparées par du papier sulfurisé, et couvrir pour qu'elles restent souples."
+      ],
+      "img": "img/pates/03.jpg"
+    },
+    {
+      "id": "pate:004",
+      "t": "Pâte à Wonton Maison",
+      "cat": "Techniques, Pâte maison, Asie, Chine",
+      "desc": "Carrés fins aux œufs pour wontons, frits ou en bouillon.",
+      "min": 45,
+      "serv": 40,
+      "ing": [
+        "250 g de farine",
+        "1 œuf",
+        "80 ml d'eau",
+        "1/2 c. à c. de sel",
+        "Fécule de maïs pour le plan de travail"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel, ajouter l'œuf battu et l'eau.",
+        "Pétrir 8 min jusqu'à obtenir une pâte ferme et lisse.",
+        "Filmer et laisser reposer 30 min.",
+        "Étaler très finement (moins de 1 mm) sur un plan fariné à la fécule.",
+        "Découper des carrés de 8 cm, les fariner et les empiler.",
+        "Garnir au centre, humidifier les bords et plier en triangle, puis rabattre les coins."
+      ],
+      "img": "img/pates/04.jpg"
+    },
+    {
+      "id": "pate:005",
+      "t": "Pâte à Samoussas Maison",
+      "cat": "Techniques, Pâte maison, Inde, Samoussa",
+      "desc": "Pâte à l'huile pour samoussas croustillants.",
+      "min": 40,
+      "serv": 20,
+      "ing": [
+        "250 g de farine",
+        "4 c. à s. d'huile",
+        "100 ml d'eau tiède",
+        "1/2 c. à c. de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel, ajouter l'huile et sabler du bout des doigts.",
+        "Ajouter l'eau progressivement et pétrir 5 min pour obtenir une pâte ferme.",
+        "Couvrir et laisser reposer 30 min.",
+        "Diviser en boules, étaler en disques fins et couper chaque disque en deux.",
+        "Former un cône avec chaque demi-disque, garnir et souder le bord à l'eau.",
+        "Frire à 170 °C ou cuire au four à 200 °C, badigeonnés d'huile, 15-20 min."
+      ],
+      "img": "img/pates/05.jpg"
+    },
+    {
+      "id": "pate:006",
+      "t": "Pâte à Empanadas Maison",
+      "cat": "Techniques, Pâte maison, Espagne, Amérique latine, Empanada",
+      "desc": "Pâte au beurre et à l'œuf, sablée et solide, pour empanadas au four.",
+      "min": 60,
+      "serv": 12,
+      "ing": [
+        "400 g de farine",
+        "100 g de beurre froid",
+        "1 œuf",
+        "120 ml d'eau tiède",
+        "1 c. à c. de sel",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel, ajouter le beurre en dés et sabler du bout des doigts.",
+        "Ajouter l'œuf battu puis l'eau petit à petit, en rassemblant la pâte sans trop la travailler.",
+        "Filmer et réserver 30 min au frais.",
+        "Étaler sur 3 mm et découper des disques de 12 cm.",
+        "Garnir, replier en demi-lune et souder en faisant un repulgue (bord torsadé) ou à la fourchette.",
+        "Dorer au jaune d'œuf et cuire 20-25 min à 200 °C."
+      ],
+      "img": "img/pates/06.jpg"
+    },
+    {
+      "id": "pate:007",
+      "t": "Feuilles de Lasagnes Maison",
+      "cat": "Techniques, Pâte maison, Italie, Pâtes",
+      "desc": "Pâte fraîche aux œufs étalée en grandes feuilles pour lasagnes.",
+      "min": 45,
+      "serv": 6,
+      "ing": [
+        "400 g de farine (type 00 ou T45)",
+        "4 œufs",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Verser la farine en fontaine avec le sel, casser les œufs au centre.",
+        "Mélanger puis pétrir 10 min jusqu'à ce que la pâte soit lisse.",
+        "Filmer et laisser reposer 30 min.",
+        "Étaler finement (1 à 2 mm) et découper des rectangles à la taille du plat.",
+        "Pas besoin de précuire : monter directement les lasagnes, la pâte fraîche cuit au four.",
+        "Pour les conserver, laisser sécher 1 h puis garder au frais 2 jours, ou congeler à plat."
+      ],
+      "img": "img/pates/07.jpg"
     }
   ]
 }

@@ -1,8 +1,9 @@
 /*
- * update-check.js — vérification de mise à jour via flux Atom GitHub.
- * Utilise /releases.atom (pas de rate-limiting, inclut les notes de version)
- * plutôt que l'API JSON. L'URL de l'APK est construite depuis le numéro de
- * version (pattern du workflow CI : recettes-{version}.apk).
+ * update-check.js — vérification et installation des mises à jour (même
+ * principe que Flux RSS) : dernière release via l'API GitHub (repli sur le
+ * flux Atom /releases.atom), puis bouton « Installer » qui télécharge l'APK
+ * et ouvre l'installeur Android via le plugin natif UpdatePlugin.
+ * Sans le plugin (APK < 3.05, navigateur) : lien de téléchargement direct.
  *
  * Config (dans index.html, avant ce script) :
  *   window.UPDATE_REPO = 'laurentsar/<repo>';
@@ -50,9 +51,22 @@
     return null;
   }
 
-  /* Vérifie la dernière release. force = ignore l'anti-spam et le « Plus tard ».
-     Résout { latest, newer } ou null si la vérification a échoué. */
-  function check(force) {
+  // Dernière release via l'API GitHub (comme Flux RSS) : tag exact + vrai lien de l'APK.
+  function fromApi() {
+    return fetch('https://api.github.com/repos/' + REPO + '/releases/latest', {
+      headers: { Accept: 'application/vnd.github+json' }
+    })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || !d.tag_name) return null;
+        var m = String(d.tag_name).match(/v?(\d+(?:\.\d+)+)/);
+        if (!m) return null;
+        var apk = (d.assets || []).filter(function (a) { return /\.apk$/i.test(a.name || ''); })[0];
+        return { latest: m[1], apkUrl: apk ? apk.browser_download_url : '', notes: d.body || '', pageUrl: d.html_url || '' };
+      });
+  }
+  // Repli : flux Atom des releases (pas de quota d'API).
+  function fromAtom() {
     return fetch('https://github.com/' + REPO + '/releases.atom?_=' + Date.now(), {
       headers: { Accept: 'application/atom+xml, text/xml, */*' }
     })
@@ -61,24 +75,48 @@
         if (!xml) return null;
         var doc = new DOMParser().parseFromString(xml, 'text/xml');
         var entry = doc.querySelector('entry');
-        if (!entry) return null;
-        var latest = versionOf(entry);
+        var latest = entry && versionOf(entry);
         if (!latest) return null;
-
         var contentEl = entry.querySelector('content');
-        var notesHtml = contentEl ? (contentEl.textContent || '').trim() : '';
-        var pageUrl = 'https://github.com/' + REPO + '/releases/tag/v' + latest;
+        return { latest: latest, apkUrl: '', notes: contentEl ? (contentEl.textContent || '').trim() : '', pageUrl: '' };
+      });
+  }
 
+  /* Vérifie la dernière release. force = ignore l'anti-spam et le « Plus tard ».
+     Résout { latest, newer } ou null si la vérification a échoué. */
+  function check(force) {
+    return fromApi().catch(function () { return null; })
+      .then(function (rel) { return rel || fromAtom(); })
+      .then(function (rel) {
+        if (!rel) return null;
+        var latest = rel.latest;
+        var pageUrl = rel.pageUrl || ('https://github.com/' + REPO + '/releases/tag/v' + latest);
+        var apkUrl = rel.apkUrl || ('https://github.com/' + REPO + '/releases/download/v' + latest + '/recettes-' + latest + '.apk');
         ls(false, KEY_POLL, Date.now());
         var newer = cmp(latest, CURRENT) > 0;
         if (newer && (force || ls(true, KEY_DISMISS) !== latest)) {
-          var apkUrl = 'https://github.com/' + REPO + '/releases/download/v' + latest + '/recettes-' + latest + '.apk';
-          ls(false, KEY_NOTES, JSON.stringify({ ver: latest, notes: notesHtml, url: pageUrl }));
-          showBanner(latest, apkUrl, pageUrl, notesHtml);
+          ls(false, KEY_NOTES, JSON.stringify({ ver: latest, notes: rel.notes, url: pageUrl }));
+          showBanner(latest, apkUrl, pageUrl, rel.notes);
         }
         return { latest: latest, newer: newer };
       });
   }
+
+  // Installation in-app via le plugin natif (APK ≥ 3.05) : télécharge puis ouvre l'installeur Android.
+  window.installApkUpdate = function (apkUrl, btn, onFail) {
+    var UP = window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.UpdatePlugin;
+    if (!UP) { window.open(apkUrl, '_blank'); onFail && onFail(); return; }
+    if (btn) btn.textContent = '⏳ Téléchargement…';
+    UP.downloadAndInstall({ url: apkUrl }).then(function () {
+      if (btn) { btn.disabled = false; btn.textContent = '📲 Installer à nouveau'; }
+    }).catch(function (e) {
+      onFail && onFail();
+      var msg = (e && e.message) || String(e);
+      alert(/permission|unknown|source/i.test(msg)
+        ? 'Autorise l\'installation d\'applications depuis Recettes dans les paramètres Android, puis réessaie.'
+        : 'Erreur : ' + msg);
+    });
+  };
   window.checkAppUpdate = check;
 
   var last = parseInt(ls(true, KEY_POLL), 10) || 0;
