@@ -18258,7 +18258,8 @@
         "Réserver sous un torchon pour garder la chaleur et la souplesse."
       ],
       "min": 40,
-      "t": "Tortillas Maison à la Farine"
+      "t": "Tortillas Maison à la Farine",
+      "img": "img/pates/08.jpg"
     },
     {
       "id": "tortilla:002",
@@ -18387,6 +18388,170 @@
       ],
       "min": 280,
       "t": "Cheesecake Double Chocolat Sans Cuisson"
+    },
+    {
+      "id": "pate:001",
+      "t": "Pâte à Raviolis Maison",
+      "cat": "Techniques, Pâte maison, Italie, Pâtes",
+      "desc": "Pâte fraîche aux œufs, souple et fine, pour raviolis et tortellinis.",
+      "min": 45,
+      "serv": 4,
+      "ing": [
+        "300 g de farine (type 00 ou T45)",
+        "3 œufs",
+        "1 à 2 c. à s. d'eau",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Verser la farine en fontaine avec le sel, casser les œufs au centre.",
+        "Mélanger à la fourchette en ramenant la farine peu à peu, ajouter l'eau si la pâte est trop sèche.",
+        "Pétrir 8-10 min jusqu'à obtenir une pâte lisse et élastique.",
+        "Filmer et laisser reposer 30 min à température ambiante.",
+        "Étaler très finement (1 mm) au rouleau ou au laminoir, en bandes.",
+        "Garnir, recouvrir d'une seconde bande, souder et découper les raviolis.",
+        "Cuire 3-4 min dans l'eau bouillante salée."
+      ],
+      "img": "img/pates/01.jpg"
+    },
+    {
+      "id": "pate:002",
+      "t": "Pâte à Gyozas Maison",
+      "cat": "Techniques, Pâte maison, Japon",
+      "desc": "Disques fins à l'eau chaude pour gyozas et raviolis asiatiques.",
+      "min": 45,
+      "serv": 30,
+      "ing": [
+        "250 g de farine",
+        "150 ml d'eau très chaude (frémissante)",
+        "1/2 c. à c. de sel",
+        "Fécule de maïs pour le plan de travail"
+      ],
+      "steps": [
+        "Dissoudre le sel dans l'eau chaude.",
+        "Verser l'eau sur la farine petit à petit en mélangeant avec des baguettes.",
+        "Quand la pâte est tiède, la pétrir 5 min jusqu'à ce qu'elle soit lisse.",
+        "Filmer et laisser reposer 30 min.",
+        "Former un boudin, couper en 30 morceaux et étaler chacun en disque fin de 8 cm.",
+        "Fariner les disques à la fécule pour qu'ils ne collent pas, puis garnir et plisser."
+      ],
+      "img": "img/pates/02.jpg"
+    },
+    {
+      "id": "pate:003",
+      "t": "Feuilles de Brick Maison",
+      "cat": "Techniques, Pâte maison, Maghreb",
+      "desc": "Feuilles très fines cuites à la poêle, pour bricks, samoussas et pastillas.",
+      "min": 40,
+      "serv": 12,
+      "ing": [
+        "250 g de farine",
+        "400 ml d'eau",
+        "1/2 c. à c. de sel",
+        "1 c. à s. d'huile"
+      ],
+      "steps": [
+        "Mixer la farine, l'eau, le sel et l'huile jusqu'à obtenir une pâte liquide et lisse, sans grumeaux.",
+        "Laisser reposer 30 min.",
+        "Chauffer une poêle antiadhésive à feu doux, légèrement huilée.",
+        "Étaler une fine couche de pâte au pinceau sur toute la surface de la poêle.",
+        "Cuire 1 min sans retourner : la feuille se décolle quand elle est prête.",
+        "Empiler les feuilles sur un torchon, séparées par du papier sulfurisé, et couvrir pour qu'elles restent souples."
+      ],
+      "img": "img/pates/03.jpg"
+    },
+    {
+      "id": "pate:004",
+      "t": "Pâte à Wonton Maison",
+      "cat": "Techniques, Pâte maison, Asie, Chine",
+      "desc": "Carrés fins aux œufs pour wontons, frits ou en bouillon.",
+      "min": 45,
+      "serv": 40,
+      "ing": [
+        "250 g de farine",
+        "1 œuf",
+        "80 ml d'eau",
+        "1/2 c. à c. de sel",
+        "Fécule de maïs pour le plan de travail"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel, ajouter l'œuf battu et l'eau.",
+        "Pétrir 8 min jusqu'à obtenir une pâte ferme et lisse.",
+        "Filmer et laisser reposer 30 min.",
+        "Étaler très finement (moins de 1 mm) sur un plan fariné à la fécule.",
+        "Découper des carrés de 8 cm, les fariner et les empiler.",
+        "Garnir au centre, humidifier les bords et plier en triangle, puis rabattre les coins."
+      ],
+      "img": "img/pates/04.jpg"
+    },
+    {
+      "id": "pate:005",
+      "t": "Pâte à Samoussas Maison",
+      "cat": "Techniques, Pâte maison, Inde, Samoussa",
+      "desc": "Pâte à l'huile pour samoussas croustillants.",
+      "min": 40,
+      "serv": 20,
+      "ing": [
+        "250 g de farine",
+        "4 c. à s. d'huile",
+        "100 ml d'eau tiède",
+        "1/2 c. à c. de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel, ajouter l'huile et sabler du bout des doigts.",
+        "Ajouter l'eau progressivement et pétrir 5 min pour obtenir une pâte ferme.",
+        "Couvrir et laisser reposer 30 min.",
+        "Diviser en boules, étaler en disques fins et couper chaque disque en deux.",
+        "Former un cône avec chaque demi-disque, garnir et souder le bord à l'eau.",
+        "Frire à 170 °C ou cuire au four à 200 °C, badigeonnés d'huile, 15-20 min."
+      ],
+      "img": "img/pates/05.jpg"
+    },
+    {
+      "id": "pate:006",
+      "t": "Pâte à Empanadas Maison",
+      "cat": "Techniques, Pâte maison, Espagne, Amérique latine, Empanada",
+      "desc": "Pâte au beurre et à l'œuf, sablée et solide, pour empanadas au four.",
+      "min": 60,
+      "serv": 12,
+      "ing": [
+        "400 g de farine",
+        "100 g de beurre froid",
+        "1 œuf",
+        "120 ml d'eau tiède",
+        "1 c. à c. de sel",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel, ajouter le beurre en dés et sabler du bout des doigts.",
+        "Ajouter l'œuf battu puis l'eau petit à petit, en rassemblant la pâte sans trop la travailler.",
+        "Filmer et réserver 30 min au frais.",
+        "Étaler sur 3 mm et découper des disques de 12 cm.",
+        "Garnir, replier en demi-lune et souder en faisant un repulgue (bord torsadé) ou à la fourchette.",
+        "Dorer au jaune d'œuf et cuire 20-25 min à 200 °C."
+      ],
+      "img": "img/pates/06.jpg"
+    },
+    {
+      "id": "pate:007",
+      "t": "Feuilles de Lasagnes Maison",
+      "cat": "Techniques, Pâte maison, Italie, Pâtes",
+      "desc": "Pâte fraîche aux œufs étalée en grandes feuilles pour lasagnes.",
+      "min": 45,
+      "serv": 6,
+      "ing": [
+        "400 g de farine (type 00 ou T45)",
+        "4 œufs",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Verser la farine en fontaine avec le sel, casser les œufs au centre.",
+        "Mélanger puis pétrir 10 min jusqu'à ce que la pâte soit lisse.",
+        "Filmer et laisser reposer 30 min.",
+        "Étaler finement (1 à 2 mm) et découper des rectangles à la taille du plat.",
+        "Pas besoin de précuire : monter directement les lasagnes, la pâte fraîche cuit au four.",
+        "Pour les conserver, laisser sécher 1 h puis garder au frais 2 jours, ou congeler à plat."
+      ],
+      "img": "img/pates/07.jpg"
     }
   ]
 }
