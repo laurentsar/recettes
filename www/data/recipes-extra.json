@@ -18552,6 +18552,165 @@
         "Pour les conserver, laisser sécher 1 h puis garder au frais 2 jours, ou congeler à plat."
       ],
       "img": "img/pates/07.jpg"
+    },
+    {
+      "id": "pdt:001",
+      "t": "Pommes de Terre Écrasées Cheddar & Ciboulette",
+      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "desc": "Croustillantes et gratinées au cheddar fondant, ciboulette fraîche.",
+      "min": 55,
+      "serv": 4,
+      "ing": [
+        "1 kg de petites pommes de terre (grenailles)",
+        "3 c. à s. d'huile d'olive",
+        "Sel, poivre",
+        "120 g de cheddar râpé",
+        "1 bouquet de ciboulette"
+      ],
+      "steps": [
+        "Cuire les pommes de terre entières 20 min dans l'eau bouillante salée, jusqu'à ce qu'elles soient tendres. Égoutter et laisser sécher 5 min.",
+        "Préchauffer le four à 220 °C. Disposer les pommes de terre sur une plaque recouverte de papier cuisson.",
+        "Les écraser une à une avec le fond d'un verre ou un presse-purée, sur 1,5 cm d'épaisseur environ.",
+        "Arroser d'huile d'olive, saler, poivrer et enfourner 20-25 min, jusqu'à ce que les bords soient bien croustillants.",
+        "Répartir le cheddar sur les pommes de terre et remettre 5-8 min au four, jusqu'à ce qu'il soit fondu et doré.",
+        "Parsemer de ciboulette ciselée et servir chaud."
+      ],
+      "img": "img/pdt/01.jpg"
+    },
+    {
+      "id": "pdt:002",
+      "t": "Pommes de Terre Écrasées Ail & Mozzarella",
+      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "desc": "Beurre à l'ail et mozzarella filante.",
+      "min": 55,
+      "serv": 4,
+      "ing": [
+        "1 kg de petites pommes de terre (grenailles)",
+        "3 c. à s. d'huile d'olive",
+        "Sel, poivre",
+        "150 g de mozzarella râpée (ou en dés)",
+        "3 gousses d'ail",
+        "30 g de beurre fondu",
+        "Persil"
+      ],
+      "steps": [
+        "Cuire les pommes de terre entières 20 min dans l'eau bouillante salée, jusqu'à ce qu'elles soient tendres. Égoutter et laisser sécher 5 min.",
+        "Préchauffer le four à 220 °C. Disposer les pommes de terre sur une plaque recouverte de papier cuisson.",
+        "Les écraser une à une avec le fond d'un verre ou un presse-purée, sur 1,5 cm d'épaisseur environ.",
+        "Mélanger le beurre fondu avec l'ail haché et en badigeonner les pommes de terre écrasées.",
+        "Arroser d'huile d'olive, saler, poivrer et enfourner 20-25 min, jusqu'à ce que les bords soient bien croustillants.",
+        "Couvrir de mozzarella et gratiner 5-8 min.",
+        "Parsemer de persil haché et servir."
+      ],
+      "img": "img/pdt/02.jpg"
+    },
+    {
+      "id": "pdt:003",
+      "t": "Pommes de Terre Écrasées Parmesan & Herbes",
+      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "desc": "Croûte dorée au parmesan, thym et romarin.",
+      "min": 55,
+      "serv": 4,
+      "ing": [
+        "1 kg de petites pommes de terre (grenailles)",
+        "3 c. à s. d'huile d'olive",
+        "Sel, poivre",
+        "80 g de parmesan râpé",
+        "1 c. à c. de thym",
+        "1 c. à c. de romarin haché",
+        "1 gousse d'ail"
+      ],
+      "steps": [
+        "Cuire les pommes de terre entières 20 min dans l'eau bouillante salée, jusqu'à ce qu'elles soient tendres. Égoutter et laisser sécher 5 min.",
+        "Préchauffer le four à 220 °C. Disposer les pommes de terre sur une plaque recouverte de papier cuisson.",
+        "Les écraser une à une avec le fond d'un verre ou un presse-purée, sur 1,5 cm d'épaisseur environ.",
+        "Mélanger l'huile avec l'ail haché, le thym et le romarin, et en badigeonner les pommes de terre.",
+        "Arroser d'huile d'olive, saler, poivrer et enfourner 20-25 min, jusqu'à ce que les bords soient bien croustillants.",
+        "Parsemer généreusement de parmesan et remettre 5-8 min au four, jusqu'à ce qu'il forme une croûte dorée.",
+        "Servir aussitôt."
+      ],
+      "img": "img/pdt/03.jpg"
+    },
+    {
+      "id": "pdt:004",
+      "t": "Pommes de Terre Écrasées Paprika & Emmental",
+      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "desc": "Paprika fumé et emmental gratiné.",
+      "min": 55,
+      "serv": 4,
+      "ing": [
+        "1 kg de petites pommes de terre (grenailles)",
+        "3 c. à s. d'huile d'olive",
+        "Sel, poivre",
+        "120 g d'emmental râpé",
+        "1 c. à c. de paprika fumé",
+        "1/2 c. à c. d'ail en poudre"
+      ],
+      "steps": [
+        "Cuire les pommes de terre entières 20 min dans l'eau bouillante salée, jusqu'à ce qu'elles soient tendres. Égoutter et laisser sécher 5 min.",
+        "Préchauffer le four à 220 °C. Disposer les pommes de terre sur une plaque recouverte de papier cuisson.",
+        "Les écraser une à une avec le fond d'un verre ou un presse-purée, sur 1,5 cm d'épaisseur environ.",
+        "Mélanger l'huile avec le paprika et l'ail en poudre, et en badigeonner les pommes de terre.",
+        "Arroser d'huile d'olive, saler, poivrer et enfourner 20-25 min, jusqu'à ce que les bords soient bien croustillants.",
+        "Couvrir d'emmental et gratiner 5-8 min.",
+        "Saupoudrer d'une pincée de paprika et servir."
+      ],
+      "img": "img/pdt/04.jpg"
+    },
+    {
+      "id": "pdt:005",
+      "t": "Pommes de Terre Écrasées Façon Pizza",
+      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "desc": "Sauce tomate, mozzarella, tomates cerises et olives noires.",
+      "min": 55,
+      "serv": 4,
+      "ing": [
+        "1 kg de petites pommes de terre (grenailles)",
+        "3 c. à s. d'huile d'olive",
+        "Sel, poivre",
+        "6 c. à s. de sauce tomate (ou coulis)",
+        "150 g de mozzarella râpée",
+        "10 tomates cerises",
+        "10 olives noires",
+        "1 c. à c. d'origan"
+      ],
+      "steps": [
+        "Cuire les pommes de terre entières 20 min dans l'eau bouillante salée, jusqu'à ce qu'elles soient tendres. Égoutter et laisser sécher 5 min.",
+        "Préchauffer le four à 220 °C. Disposer les pommes de terre sur une plaque recouverte de papier cuisson.",
+        "Les écraser une à une avec le fond d'un verre ou un presse-purée, sur 1,5 cm d'épaisseur environ.",
+        "Arroser d'huile d'olive, saler, poivrer et enfourner 20-25 min, jusqu'à ce que les bords soient bien croustillants.",
+        "Napper chaque pomme de terre d'une cuillère de sauce tomate, ajouter la mozzarella, une rondelle de tomate cerise et une demi-olive.",
+        "Saupoudrer d'origan et gratiner 8-10 min.",
+        "Servir chaud, éventuellement avec quelques feuilles de basilic."
+      ],
+      "img": "img/pdt/05.jpg"
+    },
+    {
+      "id": "pdt:006",
+      "t": "Pommes de Terre Écrasées Chèvre, Miel & Thym",
+      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "desc": "Rondelles de chèvre fondant, miel, noix et thym.",
+      "min": 55,
+      "serv": 4,
+      "ing": [
+        "1 kg de petites pommes de terre (grenailles)",
+        "3 c. à s. d'huile d'olive",
+        "Sel, poivre",
+        "1 bûche de chèvre (150 g)",
+        "2 c. à s. de miel",
+        "40 g de cerneaux de noix",
+        "Thym frais"
+      ],
+      "steps": [
+        "Cuire les pommes de terre entières 20 min dans l'eau bouillante salée, jusqu'à ce qu'elles soient tendres. Égoutter et laisser sécher 5 min.",
+        "Préchauffer le four à 220 °C. Disposer les pommes de terre sur une plaque recouverte de papier cuisson.",
+        "Les écraser une à une avec le fond d'un verre ou un presse-purée, sur 1,5 cm d'épaisseur environ.",
+        "Arroser d'huile d'olive, saler, poivrer et enfourner 20-25 min, jusqu'à ce que les bords soient bien croustillants.",
+        "Déposer une rondelle de chèvre sur chaque pomme de terre et parsemer de noix concassées.",
+        "Remettre 6-8 min au four, jusqu'à ce que le chèvre soit fondant et doré.",
+        "Arroser d'un filet de miel, parsemer de thym frais et servir."
+      ],
+      "img": "img/pdt/06.jpg"
     }
   ]
 }
