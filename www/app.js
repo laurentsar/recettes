@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.11';
+const APP_VERSION = '3.12';
 
 let ALL = [];
 let BASE = [];
@@ -1529,7 +1529,7 @@ const MODE_GROUPS = {
   pizza:           { subs: ['garnies','pates_pizza'] },
   regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas','belgique'] },
   ustensiles:      { subs: ['airfryer','thermomix'] },
-  aperitif:        { subs: ['tartines','tartinades','wraps','bouchees','brochettes','paninis','samoussas'] },
+  aperitif:        { subs: ['tartines','tartinades','wraps','bouchees','brochettes','paninis','samoussas','empanadas'] },
   oeufs:           { subs: ['omelettes','cocottes','preparations'] },
   boissons:        { subs: ['smoothies','milkshakes','mocktails'] },
   accompagnements: { subs: ['sauces','marinades'] },
@@ -1544,7 +1544,7 @@ const SUB_TAB_LABELS = {
   arabe:'🌙 Monde arabe', bulgarie:'🇧🇬 Bulgarie', hongrie:'🇭🇺 Hongrie', roumanie:'🇷🇴 Roumanie', paysbas:'🇳🇱 Pays-Bas', belgique:'🇧🇪 Belgique',
   garnies:'🍕 Garnitures', pates_pizza:'🍞 Pâtes',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix',
-  tartines:'🍞 Tartines', tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas',
+  tartines:'🍞 Tartines', tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas', empanadas:'🥟 Empanadas',
   omelettes:'🍳 Omelettes', cocottes:'🥚 Cocottes', preparations:'🍳 Préparations',
   smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes', mocktails:'🍹 Sans alcool',
   sauces:'🥣 Sauces', marinades:'🌿 Marinades',
@@ -1564,7 +1564,7 @@ const MODE_CAT = {
   wraps: 'Wrap', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
   bouchees: 'Bouchée', brochettes: 'Brochette', omelettes: 'Omelette', cocottes: 'Cocotte',
   mocktails: 'Cocktail sans alcool', preparations: 'Préparation Oeuf',
-  paninis: 'Panini', samoussas: 'Samoussa',
+  paninis: 'Panini', samoussas: 'Samoussa', empanadas: 'Empanada',
 };
 
 function showSubTabs(group){

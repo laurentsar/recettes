@@ -1786,6 +1786,10 @@
     {
       "id": "tmx:007",
       "img": "img/illus/tmx-007.jpg"
+    },
+    {
+      "id": "dropbox:399e4513-9951-4e2b-8450-004200361e34",
+      "cat": "Plat, Airfryer, Empanada"
     }
   ],
   "recipes": [
@@ -2494,7 +2498,7 @@
     {
       "id": "espagne:049",
       "t": "Empanada Gallega",
-      "cat": "Espagne, Plat",
+      "cat": "Espagne, Plat, Empanada",
       "area": "Galice",
       "min": 70,
       "serv": 8,
@@ -5114,7 +5118,7 @@
     {
       "id": "empanada:001",
       "t": "Empanadas Bœuf Classiques",
-      "cat": "Espagne, Apéritif",
+      "cat": "Espagne, Apéritif, Empanada",
       "min": 50,
       "serv": 6,
       "desc": "La recette d'empanadas au bœuf haché classique — bœuf, poivron rouge, ail et cumin. La base indémodable.",
@@ -5135,7 +5139,7 @@
     {
       "id": "empanada:002",
       "t": "Empanadas Poulet & Fromage",
-      "cat": "Espagne, Apéritif",
+      "cat": "Espagne, Apéritif, Empanada",
       "min": 45,
       "serv": 6,
       "desc": "Poulet fondant, fromage râpé fondu et crème fraîche — les empanadas préférées des enfants.",
@@ -5154,7 +5158,7 @@
     {
       "id": "empanada:003",
       "t": "Empanadas Végétariennes",
-      "cat": "Apéritif",
+      "cat": "Apéritif, Empanada",
       "min": 45,
       "serv": 6,
       "desc": "Haricots noirs, maïs et poivron avec épices — des empanadas végétariennes colorées et savoureuses.",
@@ -5174,7 +5178,7 @@
     {
       "id": "empanada:004",
       "t": "Empanadas Thon & Tomate",
-      "cat": "Apéritif",
+      "cat": "Apéritif, Empanada",
       "min": 40,
       "serv": 6,
       "desc": "Thon, tomate concassée et olives — des empanadas légères façon méditerranéenne.",
@@ -5193,7 +5197,7 @@
     {
       "id": "empanada:005",
       "t": "Empanadas Fromage & Champignons",
-      "cat": "Apéritif",
+      "cat": "Apéritif, Empanada",
       "min": 45,
       "serv": 6,
       "desc": "Champignons sautés, fromage râpé et ail — des empanadas végétariennes forestières et gourmandes.",
@@ -5212,7 +5216,7 @@
     {
       "id": "empanada:006",
       "t": "Empanadas Bœuf Épicées au Jalapeño",
-      "cat": "Espagne, Apéritif",
+      "cat": "Espagne, Apéritif, Empanada",
       "min": 50,
       "serv": 6,
       "desc": "Bœuf haché relevé au piment jalapeño — pour les amateurs de chaleur.",
@@ -5231,7 +5235,7 @@
     {
       "id": "empanada:007",
       "t": "Empanadas Poulet Curry",
-      "cat": "Apéritif",
+      "cat": "Apéritif, Empanada",
       "min": 45,
       "serv": 6,
       "desc": "Poulet cuit, curry en poudre et crème de coco — la fusion empanada-asie qui surprend agréablement.",
@@ -5249,7 +5253,7 @@
     {
       "id": "empanada:008",
       "t": "Empanadas Fromage & Épinards",
-      "cat": "Apéritif",
+      "cat": "Apéritif, Empanada",
       "min": 45,
       "serv": 6,
       "desc": "Épinards fondus, ricotta ou feta — l'empanada végétarienne la plus raffinée.",
@@ -5268,7 +5272,7 @@
     {
       "id": "empanada:009",
       "t": "Empanadas Saumon & Aneth",
-      "cat": "Apéritif",
+      "cat": "Apéritif, Empanada",
       "min": 45,
       "serv": 6,
       "desc": "Saumon fumé ou cuit, fromage frais et aneth — des empanadas élégantes pour les grandes occasions.",
@@ -5286,7 +5290,7 @@
     {
       "id": "empanada:010",
       "t": "Empanadas Chorizo & Fromage",
-      "cat": "Espagne, Apéritif",
+      "cat": "Espagne, Apéritif, Empanada",
       "min": 45,
       "serv": 6,
       "desc": "Chorizo espagnol et fromage fondant — intenses, généreux, indéniablement ibériques.",
@@ -5305,7 +5309,7 @@
     {
       "id": "empanada:011",
       "t": "Empanadas Sucrées à la Pomme",
-      "cat": "Dessert, Apéritif",
+      "cat": "Dessert, Apéritif, Empanada",
       "min": 45,
       "serv": 6,
       "desc": "Pommes fondantes à la cannelle et cassonade — la version dessert des empanadas, façon chausson aux pommes.",
@@ -5324,7 +5328,7 @@
     {
       "id": "empanada:012",
       "t": "Empanadas Chocolat-Noisette",
-      "cat": "Dessert",
+      "cat": "Dessert, Empanada",
       "min": 35,
       "serv": 6,
       "desc": "Pâte à tartiner chocolat-noisette et noisettes concassées — l'empanada la plus gourmande.",
@@ -5341,7 +5345,7 @@
     {
       "id": "empanada:013",
       "t": "Empanadas Banane & Caramel",
-      "cat": "Dessert",
+      "cat": "Dessert, Empanada",
       "min": 35,
       "serv": 6,
       "desc": "Banane caramélisée, cassonade et cannelle — tropical, fondant, régressif.",
@@ -5360,7 +5364,7 @@
     {
       "id": "empanada:014",
       "t": "Empanadas Poulet BBQ",
-      "cat": "Apéritif",
+      "cat": "Apéritif, Empanada",
       "min": 45,
       "serv": 6,
       "desc": "Poulet nappé de sauce BBQ, oignon rouge et fromage — savoureux, légèrement fumé, ultra-populaire.",
@@ -5379,7 +5383,7 @@
     {
       "id": "empanada:015",
       "t": "Empanadas Crevettes & Ail",
-      "cat": "Apéritif",
+      "cat": "Apéritif, Empanada",
       "min": 45,
       "serv": 6,
       "desc": "Crevettes sautées à l'ail et persil — des empanadas aux saveurs de fruits de mer délicates.",
@@ -5398,7 +5402,7 @@
     {
       "id": "empanada:016",
       "t": "Empanadas Fromage & Miel",
-      "cat": "Apéritif, Dessert",
+      "cat": "Apéritif, Dessert, Empanada",
       "min": 35,
       "serv": 6,
       "desc": "Fromage chèvre ou brie, miel et noix — la combinaison sucré-salé la plus élégante en empanada.",
@@ -5415,7 +5419,7 @@
     {
       "id": "empanada:017",
       "t": "Empanadas Bœuf & Olives Vertes",
-      "cat": "Espagne, Apéritif",
+      "cat": "Espagne, Apéritif, Empanada",
       "min": 50,
       "serv": 6,
       "desc": "Bœuf haché et olives vertes — la garniture classique argentine avec la touche ibérique des olives.",
@@ -5433,7 +5437,7 @@
     {
       "id": "empanada:018",
       "t": "Empanadas Légumes Grillés",
-      "cat": "Apéritif",
+      "cat": "Apéritif, Empanada",
       "min": 50,
       "serv": 6,
       "desc": "Courgette, aubergine et poivron grillés — des empanadas végétariennes colorées et estivales.",
@@ -5453,7 +5457,7 @@
     {
       "id": "empanada:019",
       "t": "Empanadas Poulet & Épinards",
-      "cat": "Apéritif",
+      "cat": "Apéritif, Empanada",
       "min": 45,
       "serv": 6,
       "desc": "Poulet fondant et épinards — équilibré, nutritif, parfait pour un repas léger.",
@@ -5471,7 +5475,7 @@
     {
       "id": "empanada:020",
       "t": "Empanadas Fromage & Pesto",
-      "cat": "Apéritif, Italie",
+      "cat": "Apéritif, Italie, Empanada",
       "min": 35,
       "serv": 6,
       "desc": "Mozzarella, pesto au basilic et tomates séchées — la fusion italo-espagnole express.",
