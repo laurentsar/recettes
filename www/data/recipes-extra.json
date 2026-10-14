@@ -101,32 +101,32 @@
     },
     {
       "id": "dropbox:79981182",
-      "img": "https://img.over-blog-kiwi.com/2/33/29/84/20181204/ob_54d708_20181201-193502-1.jpg"
+      "img": "img/illus/dropbox-79981182.jpg"
     },
     {
       "id": "dropbox:1840362069",
-      "img": "https://www.cuisinonsencouleurs.fr/wp-content/uploads/2018/10/Loubia-haricots-blancs-marocain.jpg"
+      "img": "img/illus/dropbox-1840362069.jpg"
     },
     {
       "id": "dropbox:10655386",
-      "img": "https://storage.canalblog.com/21/20/855762/121549543_o.jpg"
+      "img": "img/illus/dropbox-10655386.jpg"
     },
     {
       "id": "dropbox:-6587008",
-      "img": "https://image.over-blog.com/A04uazSO7X_CwX5U785LlMN8NYc=/filters:no_upscale()/image%2F0651923%2F20191014%2Fob_0c232e_ob-c6192a-riz-cajun-vegetarien.jpeg",
+      "img": "img/illus/dropbox-6587008.jpg",
       "t": "Riz cajun aux haricots rouges"
     },
     {
       "id": "dropbox:217303805",
-      "img": "https://storage.canalblog.com/64/41/1118717/96727631_o.jpg"
+      "img": "img/illus/dropbox-217303805.jpg"
     },
     {
       "id": "dropbox:b98818fd-40a3-4f02-a58e-4f86e079b842",
-      "img": "https://omegacuisine.fr/wp-content/uploads/2024/12/ROTI-BOEUF.jpg"
+      "img": "img/illus/dropbox-b98818fd-40a3-4f02-a58e-4f86e079b842.jpg"
     },
     {
       "id": "dropbox:1832660928",
-      "img": "https://www.lesepicesrient.fr/wp-content/uploads/2014/09/roti-porc-cuisson-longue.jpg"
+      "img": "img/illus/dropbox-1832660928.jpg"
     },
     {
       "id": "italie:001",
@@ -1006,7 +1006,8 @@
     },
     {
       "id": "dropbox:1084151442",
-      "cat": "Légume, Tarte, Plat"
+      "cat": "Légume, Tarte, Plat",
+      "img": "img/illus/dropbox-1084151442.jpg"
     },
     {
       "id": "dropbox:-227631228",
@@ -1019,6 +1020,138 @@
     {
       "id": "dropbox:510910326",
       "cat": "Tarte, Légume, Plat"
+    },
+    {
+      "id": "dropbox:6c454f28-b62f-4a9e-9e3e-3634402849f6",
+      "img": "img/illus/dropbox-6c454f28-b62f-4a9e-9e3e-3634402849f6.jpg"
+    },
+    {
+      "id": "dropbox:1759851535",
+      "img": "img/illus/dropbox-1759851535.jpg"
+    },
+    {
+      "id": "dropbox:2072371711",
+      "img": "img/illus/dropbox-2072371711.jpg"
+    },
+    {
+      "id": "dropbox:77937872",
+      "img": "img/illus/dropbox-77937872.jpg"
+    },
+    {
+      "id": "dropbox:1231896210",
+      "img": "img/illus/dropbox-1231896210.jpg"
+    },
+    {
+      "id": "dropbox:187282729",
+      "img": "img/illus/dropbox-187282729.jpg"
+    },
+    {
+      "id": "dropbox:226846606",
+      "img": "img/illus/dropbox-226846606.jpg"
+    },
+    {
+      "id": "dropbox:1584485240",
+      "img": "img/illus/dropbox-1584485240.jpg"
+    },
+    {
+      "id": "dropbox:b4265baf-7628-4337-acfc-7bcac9ae4b3e",
+      "img": "img/illus/dropbox-b4265baf-7628-4337-acfc-7bcac9ae4b3e.jpg"
+    },
+    {
+      "id": "dropbox:a501b658-095b-43dd-ae6b-6549c5ab79e4",
+      "img": "img/illus/dropbox-a501b658-095b-43dd-ae6b-6549c5ab79e4.jpg"
+    },
+    {
+      "id": "dropbox:12188ae5-c23d-47d7-9046-ff72f1f600b1",
+      "img": "img/illus/dropbox-12188ae5-c23d-47d7-9046-ff72f1f600b1.jpg"
+    },
+    {
+      "id": "dropbox:8356096",
+      "img": "img/illus/dropbox-8356096.jpg"
+    },
+    {
+      "id": "dropbox:128978245",
+      "img": "img/illus/dropbox-128978245.jpg"
+    },
+    {
+      "id": "dropbox:316278123",
+      "img": "img/illus/dropbox-316278123.jpg"
+    },
+    {
+      "id": "dropbox:be88afa5-4bbc-42b3-b7ac-4f12a6093354",
+      "img": "img/illus/dropbox-be88afa5-4bbc-42b3-b7ac-4f12a6093354.jpg"
+    },
+    {
+      "id": "dropbox:-29192180",
+      "img": "img/illus/dropbox-29192180.jpg"
+    },
+    {
+      "id": "dropbox:1933497657",
+      "img": "img/illus/dropbox-1933497657.jpg"
+    },
+    {
+      "id": "dropbox:-622542989",
+      "img": "img/illus/dropbox-622542989.jpg"
+    },
+    {
+      "id": "dropbox:178669351",
+      "img": "img/illus/dropbox-178669351.jpg"
+    },
+    {
+      "id": "dropbox:6a685765-d4bf-4481-9c38-994903f57774",
+      "img": "img/illus/dropbox-6a685765-d4bf-4481-9c38-994903f57774.jpg"
+    },
+    {
+      "id": "dropbox:72445595",
+      "img": "img/illus/dropbox-72445595.jpg"
+    },
+    {
+      "id": "dropbox:182639795",
+      "img": "img/illus/dropbox-182639795.jpg"
+    },
+    {
+      "id": "dropbox:-2068074220",
+      "img": "img/illus/dropbox-2068074220.jpg"
+    },
+    {
+      "id": "dropbox:-149866285",
+      "img": "img/illus/dropbox-149866285.jpg"
+    },
+    {
+      "id": "dropbox:9c0c9c15-757c-4cea-85fc-4a683c0b6d02",
+      "img": "img/illus/dropbox-9c0c9c15-757c-4cea-85fc-4a683c0b6d02.jpg"
+    },
+    {
+      "id": "dropbox:1793649744",
+      "img": "img/illus/dropbox-1793649744.jpg"
+    },
+    {
+      "id": "dropbox:b6e8e4d7-5e89-4fd4-9ef8-0f706f492edf",
+      "img": "img/illus/dropbox-b6e8e4d7-5e89-4fd4-9ef8-0f706f492edf.jpg"
+    },
+    {
+      "id": "dropbox:14530873",
+      "img": "img/illus/dropbox-14530873.jpg"
+    },
+    {
+      "id": "dropbox:-564005755",
+      "img": "img/illus/dropbox-564005755.jpg"
+    },
+    {
+      "id": "dropbox:1847695048",
+      "img": "img/illus/dropbox-1847695048.jpg"
+    },
+    {
+      "id": "dropbox:ea076000-d27b-4c59-b2ad-6d7bed5afa91",
+      "img": "img/illus/dropbox-ea076000-d27b-4c59-b2ad-6d7bed5afa91.jpg"
+    },
+    {
+      "id": "dropbox:13dd5187-429b-4541-9f2b-c613fd116e64",
+      "img": "img/illus/dropbox-13dd5187-429b-4541-9f2b-c613fd116e64.jpg"
+    },
+    {
+      "id": "dropbox:115259676",
+      "img": "img/illus/dropbox-115259676.jpg"
     }
   ],
   "recipes": [
@@ -1030,7 +1163,8 @@
       "serv": 1,
       "desc": "Températures et durées de cuisson pour les produits surgelés courants à l'Air Fryer.",
       "ing": [],
-      "steps": "Cordons bleus — 180°C • 12-15 min • Retourner à mi-cuisson\nNuggets — 200°C • 8-10 min • Bien étaler\nCroustibat — 200°C • 10-12 min • Retourner à mi-cuisson\nPommes de terre (smileys/cubes) — 200°C • 12-15 min • Secouer à mi-cuisson\nFrites surgelées — 200°C • 15-20 min • Secouer 2 fois\nTenders / Aiguillettes — 190°C • 10-12 min\nPizza petite surgelée — 180°C • 8-10 min\nMozza sticks — 190°C • 10-12 min\nPizzas sticks — 190°C • 6-8 min\nPilons de poulet — 180°C • 20-25 min"
+      "steps": "Cordons bleus — 180°C • 12-15 min • Retourner à mi-cuisson\nNuggets — 200°C • 8-10 min • Bien étaler\nCroustibat — 200°C • 10-12 min • Retourner à mi-cuisson\nPommes de terre (smileys/cubes) — 200°C • 12-15 min • Secouer à mi-cuisson\nFrites surgelées — 200°C • 15-20 min • Secouer 2 fois\nTenders / Aiguillettes — 190°C • 10-12 min\nPizza petite surgelée — 180°C • 8-10 min\nMozza sticks — 190°C • 10-12 min\nPizzas sticks — 190°C • 6-8 min\nPilons de poulet — 180°C • 20-25 min",
+      "img": "img/illus/af-007.jpg"
     },
     {
       "id": "af:008",
@@ -1116,7 +1250,8 @@
         "1 c. à café d'ail en poudre",
         "Sel, poivre"
       ],
-      "steps": "Couper les pommes de terre en cubes de 2 cm. Sécher. Mélanger avec l'huile, l'ail, le sel et le poivre. Ajouter le parmesan râpé et bien enrober. Préchauffer l'Air Fryer à 195°C. Disposer en couche (pas trop serrés). Cuire 18-20 min en secouant à mi-cuisson. Le parmesan doit former une croûte dorée. Servir immédiatement."
+      "steps": "Couper les pommes de terre en cubes de 2 cm. Sécher. Mélanger avec l'huile, l'ail, le sel et le poivre. Ajouter le parmesan râpé et bien enrober. Préchauffer l'Air Fryer à 195°C. Disposer en couche (pas trop serrés). Cuire 18-20 min en secouant à mi-cuisson. Le parmesan doit former une croûte dorée. Servir immédiatement.",
+      "img": "img/illus/af-012.jpg"
     },
     {
       "id": "af:013",
@@ -1132,7 +1267,8 @@
         "1 c. à café d'herbes de Provence",
         "Sel, poivre"
       ],
-      "steps": "Couper les pommes de terre en dés ou en rondelles. Sécher soigneusement. Mélanger avec l'huile, le paprika, les herbes, le sel et le poivre. Préchauffer l'Air Fryer à 200°C. Disposer dans le panier en une seule couche. Cuire 18-20 min en secouant à mi-cuisson. Idéal en accompagnement d'une viande grillée."
+      "steps": "Couper les pommes de terre en dés ou en rondelles. Sécher soigneusement. Mélanger avec l'huile, le paprika, les herbes, le sel et le poivre. Préchauffer l'Air Fryer à 200°C. Disposer dans le panier en une seule couche. Cuire 18-20 min en secouant à mi-cuisson. Idéal en accompagnement d'une viande grillée.",
+      "img": "img/illus/af-013.jpg"
     },
     {
       "id": "espagne:039",
@@ -1170,7 +1306,8 @@
         "Sel, poivre"
       ],
       "steps": "Couper tous les légumes en dés de 1,5 cm. Dans une grande poêle, faire revenir l'oignon et l'ail dans l'huile d'olive 5 min. Ajouter les poivrons et cuire 10 min. Ajouter les courgettes et l'aubergine. Cuire 10 min à feu moyen en remuant. Ajouter les tomates, le sel et le poivre. Cuire encore 15 min jusqu'à ce que les légumes soient fondants et le jus réduit. Servir avec un œuf au plat posé dessus, ou froid en tapa.",
-      "url": "https://food52.com/recipes/69114-pisto-manchego-vegetable-stew-from-la-mancha"
+      "url": "https://food52.com/recipes/69114-pisto-manchego-vegetable-stew-from-la-mancha",
+      "img": "img/illus/espagne-040.jpg"
     },
     {
       "id": "espagne:042",
@@ -1187,7 +1324,8 @@
         "Huile d'olive pour frire",
         "1 citron"
       ],
-      "steps": "Nettoyer les poissons. Les sécher soigneusement. Saler et enrober de farine en tapotant pour ôter l'excès. Chauffer l'huile à 180°C dans une friteuse ou une poêle profonde. Frire les poissons par petites quantités 2-3 min jusqu'à croûte dorée. Égoutter sur papier absorbant. Servir immédiatement avec des quartiers de citron."
+      "steps": "Nettoyer les poissons. Les sécher soigneusement. Saler et enrober de farine en tapotant pour ôter l'excès. Chauffer l'huile à 180°C dans une friteuse ou une poêle profonde. Frire les poissons par petites quantités 2-3 min jusqu'à croûte dorée. Égoutter sur papier absorbant. Servir immédiatement avec des quartiers de citron.",
+      "img": "img/illus/espagne-042.jpg"
     },
     {
       "id": "espagne:043",
@@ -1496,7 +1634,8 @@
         "Huile d'olive"
       ],
       "steps": "Faire revenir les lardons sans matière grasse jusqu'à croustillants. Réserver. Mélanger les jaunes d'œufs avec le pecorino et le poivre. Préchauffer four à 250°C. Étaler la pâte. Poser la mozzarella. Cuire 7 min. Sortir du four, verser la crème jaunes-pecorino (la chaleur la fera prendre sans cuire les œufs), poser les lardons. Poivre généreux. Servir immédiatement.",
-      "url": "https://www.750g.com/pizza-carbonara-minute-r14632.htm"
+      "url": "https://www.750g.com/pizza-carbonara-minute-r14632.htm",
+      "img": "img/illus/italie-pizza-012.jpg"
     },
     {
       "id": "italie:pizza:013",
@@ -1535,7 +1674,8 @@
         "Persil",
         "Huile d'olive"
       ],
-      "steps": "Sauter les champignons et les fruits de mer séparément à l'ail dans l'huile. Assaisonner. Préchauffer four à 250°C. Étaler la pâte, sauce tomate (sans fromage). Poser les garnitures. Cuire 8-10 min. Parsemer de persil haché."
+      "steps": "Sauter les champignons et les fruits de mer séparément à l'ail dans l'huile. Assaisonner. Préchauffer four à 250°C. Étaler la pâte, sauce tomate (sans fromage). Poser les garnitures. Cuire 8-10 min. Parsemer de persil haché.",
+      "img": "img/illus/italie-pizza-014.jpg"
     },
     {
       "id": "italie:pizza:015",
@@ -1554,7 +1694,8 @@
         "Sel"
       ],
       "steps": "Préchauffer four à 250°C max. Étaler finement la pâte. Napper de sauce tomate. Cuire la pâte seule 6 min. Sortir du four, déposer la bufala déchirée en morceaux (elle ne doit pas cuire — juste tiédir). Basilic, sel, filet d'huile. Servir immédiatement.",
-      "url": "https://food52.com/recipes/35203-authentic-neapolitan-cheese-pizza-la-vera-pizza-margherita-campania"
+      "url": "https://food52.com/recipes/35203-authentic-neapolitan-cheese-pizza-la-vera-pizza-margherita-campania",
+      "img": "img/illus/italie-pizza-015.jpg"
     },
     {
       "id": "sm:001",
@@ -1569,7 +1710,8 @@
         "120 g de yaourt nature",
         "100 ml de lait"
       ],
-      "steps": "Couper la mangue et la banane en morceaux. Mettre tous les ingrédients dans un blender. Mixer à pleine puissance 1 min jusqu'à consistance lisse et crémeuse. Ajuster la texture avec un peu plus de lait si trop épais. Servir immédiatement dans un grand verre."
+      "steps": "Couper la mangue et la banane en morceaux. Mettre tous les ingrédients dans un blender. Mixer à pleine puissance 1 min jusqu'à consistance lisse et crémeuse. Ajuster la texture avec un peu plus de lait si trop épais. Servir immédiatement dans un grand verre.",
+      "img": "img/illus/sm-001.jpg"
     },
     {
       "id": "sm:002",
@@ -1652,7 +1794,8 @@
         "1 poignée d'épinards frais",
         "200 ml de lait d'amande"
       ],
-      "steps": "Peler et couper la banane et la pomme en morceaux. Laver les épinards. Mettre tout dans le blender avec le lait d'amande. Mixer 1 min 30 à pleine puissance pour broyer complètement les épinards. Le smoothie doit être homogène et vert vif. Servir immédiatement — il perd sa couleur rapidement."
+      "steps": "Peler et couper la banane et la pomme en morceaux. Laver les épinards. Mettre tout dans le blender avec le lait d'amande. Mixer 1 min 30 à pleine puissance pour broyer complètement les épinards. Le smoothie doit être homogène et vert vif. Servir immédiatement — il perd sa couleur rapidement.",
+      "img": "img/illus/sm-006.jpg"
     },
     {
       "id": "espagne:046",
@@ -1693,7 +1836,8 @@
         "Sel, poivre"
       ],
       "steps": "Gratter et nettoyer les moules, retirer les barbes. Jeter celles qui restent ouvertes. Faire revenir l'oignon et l'ail émincés dans l'huile 3 min. Ajouter les moules et le vin blanc. Couvrir à feu vif et cuire 4-5 min en secouant la casserole jusqu'à ce que toutes les moules soient ouvertes. Jeter les moules fermées. Parsemer de persil. Servir immédiatement dans un bol avec le jus et du pain pour saucer.",
-      "url": "https://www.750g.com/moules-a-l-espagnole-r35768.htm"
+      "url": "https://www.750g.com/moules-a-l-espagnole-r35768.htm",
+      "img": "img/illus/espagne-047.jpg"
     },
     {
       "id": "espagne:048",
@@ -1710,7 +1854,8 @@
         "8 cure-dents (palillos)"
       ],
       "steps": "Égoutter les anchois, les olives et les piments. Sur chaque cure-dent : enfiler une olive, plier un filet d'anchois en accordéon, et piquer un piment guindilla. L'ordre classique est olive-anchois-piment. Arroser d'un filet d'huile d'olive. Servir immédiatement comme pintxo avec un verre de txakoli ou de cidre basque.",
-      "url": "https://food52.com/recipes/26785-garlicky-gilda-pintxo"
+      "url": "https://food52.com/recipes/26785-garlicky-gilda-pintxo",
+      "img": "img/illus/espagne-048.jpg"
     },
     {
       "id": "espagne:049",
@@ -1804,7 +1949,8 @@
         "Fleur de sel",
         "1 pincée d'origan séché (facultatif)"
       ],
-      "steps": "Trancher le pain et le passer sous le grill ou dans un grille-pain pour le faire légèrement dorer — il doit rester moelleux à l'intérieur. Verser l'huile d'olive dans une petite assiette creuse. Tremper le pain dans l'huile, saler de fleur de sel. En Toscane on frotte parfois d'une gousse d'ail crue. En Sicile on ajoute de l'origan. L'essentiel est la qualité de l'huile — une huile médiocre ne donne rien de bon."
+      "steps": "Trancher le pain et le passer sous le grill ou dans un grille-pain pour le faire légèrement dorer — il doit rester moelleux à l'intérieur. Verser l'huile d'olive dans une petite assiette creuse. Tremper le pain dans l'huile, saler de fleur de sel. En Toscane on frotte parfois d'une gousse d'ail crue. En Sicile on ajoute de l'origan. L'essentiel est la qualité de l'huile — une huile médiocre ne donne rien de bon.",
+      "img": "img/illus/italie-034.jpg"
     },
     {
       "id": "af:014",
@@ -1814,7 +1960,8 @@
       "serv": 1,
       "desc": "30 trucs et astuces pratiques pour débloquer tout le potentiel de ta friteuse à air. Températures et durées incluses.",
       "ing": [],
-      "steps": "🍟 FRITES & FÉCULENTS\nCroustiller des frites froides — 180°C • 3-5 min • Remuer à mi-cuisson\nPommes de terre rôties — Couper en morceaux, assaisonner • 200°C • 15-20 min • Secouer\nBacon sans gâchis — 1 couche, pas d'huile • 200°C • 5-8 min selon épaisseur\nBagels frais — Face coupée vers le haut • 160°C • 2-4 min\n\n🥦 LÉGUMES\nLégumes vapeur rapides — 1-2 c. à soupe d'eau dans le fond • 160°C • 8-12 min\nCarottes rôties sucrées — Huile + miel + épices • 180°C • 12-15 min\nMaïs grillé — Badigeonner de beurre ou d'huile, retourner • 200°C • 10-15 min\n\n🍗 VIANDES & PROTÉINES\nPeau de poulet ultra croustillante — Sécher le poulet + assaisonner • 190°C • 10-15 min\nPoulet frit crousty (réchauffé) — 180°C • 5-8 min • Viande reste juteuse\nSteak saisi parfaitement — Préchauffer l'airfryer • 200°C • 8-12 min selon épaisseur\nCrevettes rapides — Huile + assaisonnements • 180°C • 5-8 min • Ne pas trop cuire\n\n🥚 ŒUFS & PETIT-DÉJ\nŒufs durs sans eau — Placer directement dans le panier • 120°C • 12-16 min selon cuisson désirée\nSandwichs grillés — Beurrer l'extérieur du pain • 180°C • 4-6 min • Retourner à mi-cuisson\nBeignets comme neufs — 150°C • 2-3 min • Attention au glaçage\n\n🌮 TORTILLAS & WRAPS\nCoquilles de tacos croustillantes — Chauffer les tortillas vides, former la coquille • 190°C • 3-4 min\n\n🍞 PAIN & DIVERS\nPain tiède et croquant — Envelopper dans papier alu si nécessaire • 150°C • 3-5 min\nBadigeonner de beurre (toast, légumes) — 200°C • 10-15 min\n\n💡 TIPS ESSENTIELS\nToujours préchauffer l'airfryer pour de meilleurs résultats\nSecouer ou retourner à mi-cuisson pour une cuisson uniforme\n1 seule couche : ne jamais empiler les aliments\nSécher les aliments avant de les mettre (viandes, légumes) pour maximiser le croustillant\nUn filet d'huile suffit — jamais besoin d'immerger"
+      "steps": "🍟 FRITES & FÉCULENTS\nCroustiller des frites froides — 180°C • 3-5 min • Remuer à mi-cuisson\nPommes de terre rôties — Couper en morceaux, assaisonner • 200°C • 15-20 min • Secouer\nBacon sans gâchis — 1 couche, pas d'huile • 200°C • 5-8 min selon épaisseur\nBagels frais — Face coupée vers le haut • 160°C • 2-4 min\n\n🥦 LÉGUMES\nLégumes vapeur rapides — 1-2 c. à soupe d'eau dans le fond • 160°C • 8-12 min\nCarottes rôties sucrées — Huile + miel + épices • 180°C • 12-15 min\nMaïs grillé — Badigeonner de beurre ou d'huile, retourner • 200°C • 10-15 min\n\n🍗 VIANDES & PROTÉINES\nPeau de poulet ultra croustillante — Sécher le poulet + assaisonner • 190°C • 10-15 min\nPoulet frit crousty (réchauffé) — 180°C • 5-8 min • Viande reste juteuse\nSteak saisi parfaitement — Préchauffer l'airfryer • 200°C • 8-12 min selon épaisseur\nCrevettes rapides — Huile + assaisonnements • 180°C • 5-8 min • Ne pas trop cuire\n\n🥚 ŒUFS & PETIT-DÉJ\nŒufs durs sans eau — Placer directement dans le panier • 120°C • 12-16 min selon cuisson désirée\nSandwichs grillés — Beurrer l'extérieur du pain • 180°C • 4-6 min • Retourner à mi-cuisson\nBeignets comme neufs — 150°C • 2-3 min • Attention au glaçage\n\n🌮 TORTILLAS & WRAPS\nCoquilles de tacos croustillantes — Chauffer les tortillas vides, former la coquille • 190°C • 3-4 min\n\n🍞 PAIN & DIVERS\nPain tiède et croquant — Envelopper dans papier alu si nécessaire • 150°C • 3-5 min\nBadigeonner de beurre (toast, légumes) — 200°C • 10-15 min\n\n💡 TIPS ESSENTIELS\nToujours préchauffer l'airfryer pour de meilleurs résultats\nSecouer ou retourner à mi-cuisson pour une cuisson uniforme\n1 seule couche : ne jamais empiler les aliments\nSécher les aliments avant de les mettre (viandes, légumes) pour maximiser le croustillant\nUn filet d'huile suffit — jamais besoin d'immerger",
+      "img": "img/illus/af-014.jpg"
     },
     {
       "id": "italie:035",
@@ -1938,7 +2085,8 @@
         "Sel, poivre, romarin"
       ],
       "steps": "Faire revenir oignon et ail dans l'huile. Ajouter carottes, courgettes et pommes de terre en dés. Cuire 5 min. Ajouter les tomates et 1,5 litre d'eau. Cuire 20 min. Ajouter le chou émincé et la moitié des haricots. Mixer l'autre moitié des haricots et l'ajouter pour épaissir. Cuire encore 20 min. Ajouter les tranches de pain rassis et laisser gonfler dans la soupe. Le lendemain, \"ribollire\" (refaire bouillir) — la soupe est encore meilleure. Finir avec un filet d'huile d'olive à cru.",
-      "url": "https://food52.com/recipes/19737-tuscan-ribollita"
+      "url": "https://food52.com/recipes/19737-tuscan-ribollita",
+      "img": "img/illus/italie-043.jpg"
     },
     {
       "id": "italie:044",
@@ -2052,7 +2200,8 @@
       "serv": 1,
       "desc": "11 hacks méconnus pour tirer le meilleur de ton airfryer : œufs, chips, gyoza, ail rôti, grilled cheese et bien plus.",
       "ing": [],
-      "steps": "🥚 ŒUFS À LA COQUE SANS EAU\nPas besoin de casserole ! Placer les œufs directement dans le panier.\n132°C (270°F) • 15-17 min selon la fermeté voulue\nPlonger immédiatement dans l'eau froide après cuisson.\n\n🥜 TORRÉFIER NOIX & GRAINES\nTransformer l'airfryer en torréfacteur maison.\n150°C (300°F) • 6-8 min • Secouer à mi-cuisson\nParfait pour amandes, noix de cajou, graines de tournesol.\n\n🍟 REDONNER VIE AUX CHIPS RAMOLLIES\nPlus besoin de jeter les chips éventées !\n150°C (300°F) • 2-3 min\nElles retrouvent tout leur croustillant.\n\n🥟 GYOZA & DUMPLINGS SURGELÉS ULTRA CROUSTILLANTS\nLe truc : badigeonner avec de l'eau (pas d'huile !).\nHumecter les dumplings avec un pinceau d'eau froide.\n193°C (380°F) • 8-10 min\nLa peau devient parfaitement croustillante sans coller.\n\n🧀 CHEESEBURGERS SANS ÉCLABOUSSURES\nCuire les steaks hachés sur du papier sulfurisé percé de petits trous.\nLe gras s'écoule, le fromage fond parfaitement, zéro nettoyage.\n\n🧄 AIL RÔTI EXPRESS\nEnvelopper une tête d'ail entière dans du papier aluminium.\n188°C (370°F) • 20 min\nL'ail devient fondant, caramélisé, prêt à tartiner.\n\n🥪 GRILLED CHEESE PARFAIT\nUtiliser l'airfryer comme un mini four grille-pain.\nBeurrer l'extérieur du pain.\n188°C (370°F) • 3-4 min par côté • Retourner à mi-cuisson\nFromage fondu, pain doré et croustillant.\n\n🍪 PETITS GÂTEAUX & DESSERTS\nUtiliser des moules en silicone pour muffins directement dans le panier.\nCuire 3-4 min pour des mini-gâteaux moelleux.\nIdéal pour cookies, brownies individuels ou fondants.\n\n💡 LE MOT D'ORDRE\nCes hacks fonctionnent mieux en petites quantités : 1 couche max, ne jamais surcharger le panier."
+      "steps": "🥚 ŒUFS À LA COQUE SANS EAU\nPas besoin de casserole ! Placer les œufs directement dans le panier.\n132°C (270°F) • 15-17 min selon la fermeté voulue\nPlonger immédiatement dans l'eau froide après cuisson.\n\n🥜 TORRÉFIER NOIX & GRAINES\nTransformer l'airfryer en torréfacteur maison.\n150°C (300°F) • 6-8 min • Secouer à mi-cuisson\nParfait pour amandes, noix de cajou, graines de tournesol.\n\n🍟 REDONNER VIE AUX CHIPS RAMOLLIES\nPlus besoin de jeter les chips éventées !\n150°C (300°F) • 2-3 min\nElles retrouvent tout leur croustillant.\n\n🥟 GYOZA & DUMPLINGS SURGELÉS ULTRA CROUSTILLANTS\nLe truc : badigeonner avec de l'eau (pas d'huile !).\nHumecter les dumplings avec un pinceau d'eau froide.\n193°C (380°F) • 8-10 min\nLa peau devient parfaitement croustillante sans coller.\n\n🧀 CHEESEBURGERS SANS ÉCLABOUSSURES\nCuire les steaks hachés sur du papier sulfurisé percé de petits trous.\nLe gras s'écoule, le fromage fond parfaitement, zéro nettoyage.\n\n🧄 AIL RÔTI EXPRESS\nEnvelopper une tête d'ail entière dans du papier aluminium.\n188°C (370°F) • 20 min\nL'ail devient fondant, caramélisé, prêt à tartiner.\n\n🥪 GRILLED CHEESE PARFAIT\nUtiliser l'airfryer comme un mini four grille-pain.\nBeurrer l'extérieur du pain.\n188°C (370°F) • 3-4 min par côté • Retourner à mi-cuisson\nFromage fondu, pain doré et croustillant.\n\n🍪 PETITS GÂTEAUX & DESSERTS\nUtiliser des moules en silicone pour muffins directement dans le panier.\nCuire 3-4 min pour des mini-gâteaux moelleux.\nIdéal pour cookies, brownies individuels ou fondants.\n\n💡 LE MOT D'ORDRE\nCes hacks fonctionnent mieux en petites quantités : 1 couche max, ne jamais surcharger le panier.",
+      "img": "img/illus/af-015.jpg"
     },
     {
       "id": "tech:001",
@@ -2301,7 +2450,8 @@
         "30 g de sucre",
         "Option : pépites de chocolat"
       ],
-      "steps": "PRÉPARER L'APPAREIL\nÉcraser les bananes en purée fine (ou mixer).\nBattre les œufs avec le sucre.\nAjouter le lait et la purée de banane, mélanger.\nRépartir dans les moules. Parsemer de pépites si souhaité.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 15 à 18 min\nTexture douce et parfumée, parfaite tiède ou froide.\nLe dessus doit être juste pris et légèrement doré.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 25 à 30 min\nSi le dessus colore trop vite : couvrir d'une feuille d'alu.\nServir tiède ou réfrigéré selon préférence.\n\n💡 ASTUCES\nPlus les bananes sont mûres, plus la crème est sucrée et parfumée — inutile d'en mettre plus.\nVersion glacée : placer au congélateur 30 min avant service pour une texture semifreddo."
+      "steps": "PRÉPARER L'APPAREIL\nÉcraser les bananes en purée fine (ou mixer).\nBattre les œufs avec le sucre.\nAjouter le lait et la purée de banane, mélanger.\nRépartir dans les moules. Parsemer de pépites si souhaité.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 15 à 18 min\nTexture douce et parfumée, parfaite tiède ou froide.\nLe dessus doit être juste pris et légèrement doré.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 25 à 30 min\nSi le dessus colore trop vite : couvrir d'une feuille d'alu.\nServir tiède ou réfrigéré selon préférence.\n\n💡 ASTUCES\nPlus les bananes sont mûres, plus la crème est sucrée et parfumée — inutile d'en mettre plus.\nVersion glacée : placer au congélateur 30 min avant service pour une texture semifreddo.",
+      "img": "img/illus/af-019.jpg"
     },
     {
       "id": "af:020",
@@ -2316,7 +2466,8 @@
         "40 g de sucre",
         "30 g de noix de coco râpée"
       ],
-      "steps": "PRÉPARER L'APPAREIL\nBattre les œufs avec le sucre.\nAjouter le lait de coco et la noix de coco râpée, mélanger.\nVerser dans les moules en laissant 1 cm de marge.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 18 min\nUn parfum exotique et une texture légèrement granuleuse due à la noix de coco.\nLe centre doit trembler légèrement à la sortie.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 28 à 32 min\nLaisser tiédir pour un fondant absolu.\nServir froid pour une texture plus ferme.\n\n💡 ASTUCES\nAjouter 1 c. à soupe de rhum ambré pour une version adulte.\nServir avec un coulis de mangue ou d'ananas pour l'effet cocktail plage.\nLa noix de coco râpée remonte à la surface et dore légèrement — c'est voulu."
+      "steps": "PRÉPARER L'APPAREIL\nBattre les œufs avec le sucre.\nAjouter le lait de coco et la noix de coco râpée, mélanger.\nVerser dans les moules en laissant 1 cm de marge.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 18 min\nUn parfum exotique et une texture légèrement granuleuse due à la noix de coco.\nLe centre doit trembler légèrement à la sortie.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 150°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 28 à 32 min\nLaisser tiédir pour un fondant absolu.\nServir froid pour une texture plus ferme.\n\n💡 ASTUCES\nAjouter 1 c. à soupe de rhum ambré pour une version adulte.\nServir avec un coulis de mangue ou d'ananas pour l'effet cocktail plage.\nLa noix de coco râpée remonte à la surface et dore légèrement — c'est voulu.",
+      "img": "img/illus/af-020.jpg"
     },
     {
       "id": "af:021",
@@ -2334,7 +2485,8 @@
         "1 c. à café de cannelle",
         "Option crumble : 40 g de farine, 30 g de sucre, 25 g de beurre froid en dés"
       ],
-      "steps": "PRÉPARER L'APPAREIL\nBattre les œufs avec le sucre, ajouter lait et vanille.\nPeler et couper les pommes en très petits dés (cuisson plus homogène).\nDisposer les dés de pomme dans le fond des moules.\nSaupoudrer de cannelle.\nVerser l'appareil vanille dessus.\n\nCRUMBLE (optionnel)\nMélanger farine, sucre et beurre froid du bout des doigts jusqu'à texture sableuse.\nParsemer sur le dessus avant la cuisson.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 160°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 15 à 18 min\nCroustillant dessus, fondant dessous : un délice !\nVérifier la coloration du crumble.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 160°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 25 à 30 min\nSurveiller la coloration du crumble — couvrir d'alu si trop foncé.\nLaisser tiédir avant de servir pour que le crumble reste croustillant.\n\n💡 ASTUCES\nCouper les pommes très finement pour une cuisson homogène.\nRemplacer les pommes par des poires ou des coings en saison.\nAjouter une pincée de cardamome au crumble pour une touche orientale."
+      "steps": "PRÉPARER L'APPAREIL\nBattre les œufs avec le sucre, ajouter lait et vanille.\nPeler et couper les pommes en très petits dés (cuisson plus homogène).\nDisposer les dés de pomme dans le fond des moules.\nSaupoudrer de cannelle.\nVerser l'appareil vanille dessus.\n\nCRUMBLE (optionnel)\nMélanger farine, sucre et beurre froid du bout des doigts jusqu'à texture sableuse.\nParsemer sur le dessus avant la cuisson.\n\n🥣 PETITS RAMEQUINS (individuels)\nTempérature : 160°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 15 à 18 min\nCroustillant dessus, fondant dessous : un délice !\nVérifier la coloration du crumble.\n\n🍳 GRAND PLAT (à partager)\nTempérature : 160°C · Programme BAKE (cuisson douce)\nTemps de cuisson : 25 à 30 min\nSurveiller la coloration du crumble — couvrir d'alu si trop foncé.\nLaisser tiédir avant de servir pour que le crumble reste croustillant.\n\n💡 ASTUCES\nCouper les pommes très finement pour une cuisson homogène.\nRemplacer les pommes par des poires ou des coings en saison.\nAjouter une pincée de cardamome au crumble pour une touche orientale.",
+      "img": "img/illus/af-021.jpg"
     },
     {
       "id": "tart:001",
@@ -2497,7 +2649,8 @@
       "desc": "16 combinaisons de tartines testées et approuvées, de la plus simple à la plus gourmande. Toutes rapides à préparer.",
       "ing": [],
       "steps": "🥑 AVOCAT & ŒUFS\nSaumon - St Môret - Avocat : tartiner de St Môret, avocat en tranches, saumon fumé\nSaumon - St Môret - Concombre : St Môret + saumon + rondelles de concombre\nAvocat - Œuf : guacamole + œuf poché ou mollet\nŒuf - Avocat - Thon - Olives : écrasé d'avocat + thon + olives + œuf dur\n\n🥩 JAMBON & CHARCUTERIE\nJambon C. - Olives - Carré frais : Carré frais + jambon + olives noires\nPoivron - Jambon - Champignon : poivrons rôtis + jambon + champignons sautés\nJambon C. - Salade - Tomates C. - Carré frais : Carré frais + salade + tomates cerises + jambon\nJambon - Parmesan - Vinaigre B. : jambon cru + copeaux de parmesan + trait de balsamique\n\n🧀 FROMAGES\nAvocat - Tomate - Mozza - Vinaigre B. : avocat + tomate + mozzarella + balsamique\nCarré frais - Noix - Champignons : Carré frais + champignons sautés + noix concassées\nF. de chèvre - Pesto - Noix : fromage de chèvre + pesto + noix\nSaumon Fumé - Carré frais : Carré frais + saumon fumé + aneth\n\n🌶️ COPIEUX\nHoumous - Poivron - Poulet grillé : houmous + poivron + poulet grillé émincé\nS. Tomate - Mozza - Olives - Champignons : sauce tomate + mozzarella + olives + champignons (griller au four)\nPoulet - Tzatziki - Huile d'olive : tzatziki + poulet grillé + filet d'huile d'olive\nŒuf - Avocat - Emmental râpé : avocat écrasé + œuf + emmental (passer au grill)\n\n💡 BASE COMMUNE\nPain de campagne, pain complet ou baguette légèrement grillé(e).\nAssaisonner avec sel, poivre et un filet d'huile d'olive sur chaque tartine.",
-      "url": "https://www.750g.com/20-idees-de-tartines-a-tester-absolument-a15001.htm"
+      "url": "https://www.750g.com/20-idees-de-tartines-a-tester-absolument-a15001.htm",
+      "img": "img/illus/tart-009.jpg"
     },
     {
       "id": "tart:010",
@@ -2552,7 +2705,8 @@
         "Miel",
         "Huile d'olive, sel, poivre"
       ],
-      "steps": "Griller les tranches de pain.\nAssaisonner la ricotta avec sel, poivre et un filet d'huile d'olive.\nÉtaler généreusement la ricotta sur les tranches.\nParsemer de pistaches concassées et de graines de grenade.\nFinir avec un trait de miel et quelques feuilles de menthe."
+      "steps": "Griller les tranches de pain.\nAssaisonner la ricotta avec sel, poivre et un filet d'huile d'olive.\nÉtaler généreusement la ricotta sur les tranches.\nParsemer de pistaches concassées et de graines de grenade.\nFinir avec un trait de miel et quelques feuilles de menthe.",
+      "img": "img/illus/tart-012.jpg"
     },
     {
       "id": "tart:013",
@@ -2626,7 +2780,8 @@
         "Persil plat, citron",
         "Huile d'olive, sel, poivre"
       ],
-      "steps": "Faire revenir l'agneau haché à feu vif avec ras el hanout, cumin, sel et poivre.\nGriller les tranches de pain.\nTartiner généreusement de houmous.\nDisposer l'agneau épicé sur le houmous.\nFinir avec persil plat haché, un filet de citron et paprika."
+      "steps": "Faire revenir l'agneau haché à feu vif avec ras el hanout, cumin, sel et poivre.\nGriller les tranches de pain.\nTartiner généreusement de houmous.\nDisposer l'agneau épicé sur le houmous.\nFinir avec persil plat haché, un filet de citron et paprika.",
+      "img": "img/illus/tart-016.jpg"
     },
     {
       "id": "tart:017",
@@ -2776,7 +2931,8 @@
         "Miel",
         "Romarin frais (optionnel)"
       ],
-      "steps": "Griller les amandes effilées à sec dans une poêle.\nCouper le pain, disposer des tranches de brie dessus.\nPasser 2-3 min au four à 180°C pour faire fondre le brie.\nCouper les dattes en deux et disposer sur le brie fondu.\nParsemer d'amandes grillées.\nFinir avec un filet de miel et du romarin frais."
+      "steps": "Griller les amandes effilées à sec dans une poêle.\nCouper le pain, disposer des tranches de brie dessus.\nPasser 2-3 min au four à 180°C pour faire fondre le brie.\nCouper les dattes en deux et disposer sur le brie fondu.\nParsemer d'amandes grillées.\nFinir avec un filet de miel et du romarin frais.",
+      "img": "img/illus/tart-024.jpg"
     },
     {
       "id": "wrap:001",
@@ -2794,7 +2950,8 @@
         "Sel, poivre"
       ],
       "steps": "Étaler généreusement le fromage frais sur chaque tortilla.\nDéposer 2 tranches de jambon, quelques feuilles de salade et du cheddar râpé.\nAssaisonner. Rouler serré, couper en 2 ou en tronçons.\n\n💡 Garder les wraps emballés dans du film plastique pour les préparer à l'avance.",
-      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps",
+      "img": "img/illus/wrap-001.jpg"
     },
     {
       "id": "wrap:002",
@@ -2812,7 +2969,8 @@
         "Roquette ou salade"
       ],
       "steps": "Faire griller le bacon jusqu'à ce qu'il soit bien croustillant. Égoutter sur papier absorbant.\nÉtaler le fromage frais sur les tortillas.\nDéposer jambon, bacon émietté, cheddar et roquette.\nRouler, couper et servir immédiatement pour garder le crunch.",
-      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps",
+      "img": "img/illus/wrap-002.jpg"
     },
     {
       "id": "wrap:003",
@@ -2830,7 +2988,8 @@
         "1 c. à soupe de sauce barbecue ou mayonnaise"
       ],
       "steps": "Trancher ou effilocher le poulet cuit.\nMélanger le fromage frais avec la sauce choisie.\nÉtaler sur les tortillas, déposer poulet, cheddar et salade.\nRouler serré et couper en biseau.\n\n💡 Idéal pour utiliser les restes de poulet rôti.",
-      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps",
+      "img": "img/illus/wrap-003.jpg"
     },
     {
       "id": "wrap:004",
@@ -2848,7 +3007,8 @@
         "Salade, tomates cerises"
       ],
       "steps": "Mélanger le fromage frais avec paprika et piment.\nÉtaler sur les tortillas.\nDéposer le jambon, la salade et les tomates cerises coupées.\nRouler et déguster.\n\n💡 Ajuster le niveau de piment selon les goûts.",
-      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps",
+      "img": "img/illus/wrap-004.jpg"
     },
     {
       "id": "wrap:005",
@@ -2866,7 +3026,8 @@
         "Ciboulette ciselée"
       ],
       "steps": "Mélanger le fromage frais avec la moutarde et la ciboulette.\nÉtaler sur les tortillas.\nDéposer le jambon et les rondelles de cornichon.\nRouler et couper. Servir frais.",
-      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps",
+      "img": "img/illus/wrap-005.jpg"
     },
     {
       "id": "wrap:006",
@@ -2884,7 +3045,8 @@
         "Poivron rouge rôti en lamelles"
       ],
       "steps": "Mélanger le fromage frais avec les herbes fraîches ciselées.\nÉtaler sur les tortillas.\nDéposer le cheddar, les tomates et le poivron rôti.\nRouler et couper.\n\n💡 Excellent en version froide pour un pique-nique.",
-      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps",
+      "img": "img/illus/wrap-006.jpg"
     },
     {
       "id": "wrap:007",
@@ -2901,7 +3063,8 @@
         "2 petites pommes de terre cuites en rondelles"
       ],
       "steps": "Préchauffer le four à 180°C ou le grill.\nÉtaler le fromage frais sur les tortillas.\nDéposer jambon, rondelles de pomme de terre et raclette.\nPlier en demi-lune et passer 3-4 min sous le grill pour faire fondre le fromage.\nServir chaud.\n\n💡 Variante : faire chauffer dans une poêle sans matière grasse.",
-      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps",
+      "img": "img/illus/wrap-007.jpg"
     },
     {
       "id": "wrap:008",
@@ -2920,7 +3083,8 @@
         "Poivre du moulin"
       ],
       "steps": "Étaler le fromage frais sur les tortillas.\nDéposer le jambon, arroser d'un filet d'huile d'olive.\nParsemer de parmesan et ajouter la roquette.\nPoivrer généreusement. Rouler et couper.",
-      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps",
+      "img": "img/illus/wrap-008.jpg"
     },
     {
       "id": "wrap:009",
@@ -2938,7 +3102,8 @@
         "Poivron rouge en lanières",
         "Feuilles de basilic"
       ],
-      "steps": "Étaler le houmous ou fromage frais sur les tortillas.\nRépartir feta, tomates, olives, poivron et basilic.\nRouler serré et couper en tronçons.\n\n💡 Ajouter une c. à café de tapenade pour plus d'intensité."
+      "steps": "Étaler le houmous ou fromage frais sur les tortillas.\nRépartir feta, tomates, olives, poivron et basilic.\nRouler serré et couper en tronçons.\n\n💡 Ajouter une c. à café de tapenade pour plus d'intensité.",
+      "img": "img/illus/wrap-009.jpg"
     },
     {
       "id": "wrap:010",
@@ -2956,7 +3121,8 @@
         "Basilic frais"
       ],
       "steps": "Mélanger le fromage frais avec les tomates séchées ciselées et le basilic.\nÉtaler sur les tortillas.\nDéposer le jambon et la roquette.\nRouler et couper.",
-      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps",
+      "img": "img/illus/wrap-010.jpg"
     },
     {
       "id": "wrap:011",
@@ -2974,7 +3140,8 @@
         "1 c. à café de jus de citron"
       ],
       "steps": "Mélanger le fromage frais avec le jus de citron.\nÉtaler sur les tortillas.\nDéposer jambon, maïs et salade.\nRouler et couper en tronçons.\n\n💡 Ajouter un peu de poivron rouge haché pour la couleur.",
-      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps",
+      "img": "img/illus/wrap-011.jpg"
     },
     {
       "id": "wrap:012",
@@ -2992,7 +3159,8 @@
         "Salade verte"
       ],
       "steps": "Mélanger le fromage frais avec le curry.\nÉtaler sur les tortillas.\nDéposer le jambon, quelques raisins secs et la salade.\nRouler et couper.\n\n💡 Le raisin sec apporte une note sucrée qui équilibre le curry — inattendu mais délicieux.",
-      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps"
+      "url": "https://food52.com/recipes/90685-ham-and-cheese-snack-wraps",
+      "img": "img/illus/wrap-012.jpg"
     },
     {
       "id": "shake:001",
@@ -3109,7 +3277,8 @@
         "180 ml de lait entier froid",
         "1 c. à soupe de sirop de cassis (optionnel)"
       ],
-      "steps": "Mixer myrtilles, glace, lait (et sirop si souhaité) jusqu'à consistance onctueuse.\nLa couleur sera d'un violet profond.\nServir immédiatement garni de quelques myrtilles fraîches."
+      "steps": "Mixer myrtilles, glace, lait (et sirop si souhaité) jusqu'à consistance onctueuse.\nLa couleur sera d'un violet profond.\nServir immédiatement garni de quelques myrtilles fraîches.",
+      "img": "img/illus/shake-007.jpg"
     },
     {
       "id": "shake:008",
@@ -3160,7 +3329,8 @@
         "Noix de coco râpée pour décorer"
       ],
       "steps": "Mixer ananas, glace, lait de coco et lait entier jusqu'à consistance onctueuse.\nVerser dans des grands verres givrants (passés au congélateur 10 min).\nDécorer de noix de coco râpée et d'une tranche d'ananas.\n\n💡 Congeler les dés d'ananas à l'avance pour un shake encore plus frais et épais.",
-      "url": "https://www.750g.com/milkshake-ananas-coco-r86837.htm"
+      "url": "https://www.750g.com/milkshake-ananas-coco-r86837.htm",
+      "img": "img/illus/shake-010.jpg"
     },
     {
       "id": "mar:001",
@@ -3465,7 +3635,8 @@
         "Huile d'olive (peu)"
       ],
       "steps": "Faire revenir le guanciale en lardons à feu moyen jusqu'à dorure et rendu du gras.\nAjouter le piment, puis les tomates.\nMijoter 20 min. Assaisonner.\nMélanger avec les bucatini (pasta traditionnelle).\nFinir avec le pecorino — pas de parmesan dans l'authentique.\n\n💡 Le guanciale est la joue de porc séchée — plus gras et parfumé que la pancetta.",
-      "url": "https://food52.com/recipes/76039-rigatoni-all-amatriciana-in-the-style-of-felix-trattoria"
+      "url": "https://food52.com/recipes/76039-rigatoni-all-amatriciana-in-the-style-of-felix-trattoria",
+      "img": "img/illus/italie-sauce-009.jpg"
     },
     {
       "id": "italie:sauce:010",
@@ -3503,7 +3674,8 @@
         "Sel, poivre, parmesan"
       ],
       "steps": "Faire sauter les champignons à feu vif dans le beurre jusqu'à évaporation de l'eau (8 min).\nAjouter l'ail, cuire 1 min.\nVerser la crème, réduire 3-4 min.\nAssaisonner, parsemer de persil.\nServir avec tagliatelles ou pappardelle. Parmesan à table.\n\n💡 Ne pas saler en début de cuisson — les champignons rendraient trop d'eau.",
-      "url": "https://food52.com/recipes/31878-creamy-mushroom-pasta"
+      "url": "https://food52.com/recipes/31878-creamy-mushroom-pasta",
+      "img": "img/illus/italie-sauce-011.jpg"
     },
     {
       "id": "italie:sauce:012",
@@ -3745,7 +3917,8 @@
         "Sel"
       ],
       "steps": "Mixer haricots blancs, ail, jus de citron avec la moitié de l'huile.\nIncorporer le reste de l'huile en filet pour une texture onctueuse.\nAssaisonner de sel.\n\n💡 Servir saupoudré de romarin haché et arrosé d'huile d'olive sur des bruschette.\nVersion épicée : ajouter ½ c. à café de piment.",
-      "url": "https://www.750g.com/une-boite-de-haricots-blancs-pour-5-recettes-economiques-a26633.htm"
+      "url": "https://www.750g.com/une-boite-de-haricots-blancs-pour-5-recettes-economiques-a26633.htm",
+      "img": "img/illus/tart-034.jpg"
     },
     {
       "id": "tart:035",
@@ -3959,7 +4132,8 @@
         "Sel, poivre"
       ],
       "steps": "Mixer ou hacher finement le chorizo.\nMélanger avec huile, paprika, vinaigre et ail.\nEnrober le poulet et mariner 30 min à 2h.\n\n🔥 CUISSON\nFour 200°C : 25-35 min. Le gras du chorizo parfume et dore le poulet.\nEn cocotte avec des tomates concassées et des poivrons pour un plat complet.\nServir avec du riz ou des pommes de terre sautées.\n\n❄️ CONGÉLATEUR : Convient très bien — le gras du chorizo préserve la chair.",
-      "url": "https://www.750g.com/poulet-sauce-chorizo-et-poivrons-r37084.htm"
+      "url": "https://www.750g.com/poulet-sauce-chorizo-et-poivrons-r37084.htm",
+      "img": "img/illus/mar-016.jpg"
     },
     {
       "id": "mar:017",
@@ -3978,7 +4152,8 @@
         "Sel"
       ],
       "steps": "Mélanger jus et zeste de citron, poivre concassé, ail, gingembre et huile.\nEnrober le poulet et mariner 30 min à 2h.\n\n🔥 CUISSON\nFour 200°C ou grill : 25-30 min. Le citron caramélise légèrement.\nPresser un peu de citron frais à la sortie du four pour la fraîcheur.\nExcellent avec des asperges, des haricots verts ou une purée citronnée.\n\n❄️ CONGÉLATEUR : Parfait — simple et efficace.",
-      "url": "https://www.750g.com/poulet-au-citron-paprika-r100217.htm"
+      "url": "https://www.750g.com/poulet-au-citron-paprika-r100217.htm",
+      "img": "img/illus/mar-017.jpg"
     },
     {
       "id": "mar:018",
@@ -3998,7 +4173,8 @@
         "Sel, poivre"
       ],
       "steps": "Mélanger crème fraîche, moutarde, parmesan, ail, zeste de citron et herbes.\nEnrober généreusement le poulet.\nMariner 30 min à 2h.\n\n🔥 CUISSON\nFour 190°C : 30-35 min. La crème et le parmesan forment une croûte dorée et gratinée.\nArroser mi-cuisson avec le jus de cuisson.\nServir avec des tagliatelles fraîches ou du riz.\n\n❄️ CONGÉLATEUR : Convient — décongeler lentement au frigo.\n\n💡 La crème fraîche empêche le dessèchement même après congélation.",
-      "url": "https://www.750g.com/10-marinades-pour-cuisiner-le-poulet-comme-jamais-a14376.htm"
+      "url": "https://www.750g.com/10-marinades-pour-cuisiner-le-poulet-comme-jamais-a14376.htm",
+      "img": "img/illus/mar-018.jpg"
     },
     {
       "id": "tomate:001",
@@ -4034,7 +4210,8 @@
         "¼ d'oignon rouge finement haché",
         "Sel, poivre"
       ],
-      "steps": "Évider les tomates. Écraser l'avocat avec le jus de citron.\nMélanger avec le thon émietté et l'oignon rouge.\nAssaisonner. Farcir les tomates. Servir frais.\n\n💡 L'avocat noircit rapidement — préparer et servir dans l'heure."
+      "steps": "Évider les tomates. Écraser l'avocat avec le jus de citron.\nMélanger avec le thon émietté et l'oignon rouge.\nAssaisonner. Farcir les tomates. Servir frais.\n\n💡 L'avocat noircit rapidement — préparer et servir dans l'heure.",
+      "img": "img/illus/tomate-002.jpg"
     },
     {
       "id": "tomate:003",
@@ -4089,7 +4266,8 @@
         "¼ d'oignon finement haché",
         "Sel, poivre"
       ],
-      "steps": "Évider les tomates. Mélanger thon, maïs, mayo et oignon.\nAssaisonner. Farcir. Servir frais.\n\n💡 Ajouter un peu de poivron rouge haché pour la couleur et le croquant."
+      "steps": "Évider les tomates. Mélanger thon, maïs, mayo et oignon.\nAssaisonner. Farcir. Servir frais.\n\n💡 Ajouter un peu de poivron rouge haché pour la couleur et le croquant.",
+      "img": "img/illus/tomate-005.jpg"
     },
     {
       "id": "tomate:006",
@@ -4126,7 +4304,8 @@
         "2 c. à soupe de mayonnaise",
         "Sel, poivre"
       ],
-      "steps": "Évider les tomates. Mélanger thon, jus et zeste de citron, persil et mayo.\nAssaisonner généreusement. Farcir. Servir très frais.\n\n💡 Le zeste de citron est la clé — bien plus parfumé que le jus seul."
+      "steps": "Évider les tomates. Mélanger thon, jus et zeste de citron, persil et mayo.\nAssaisonner généreusement. Farcir. Servir très frais.\n\n💡 Le zeste de citron est la clé — bien plus parfumé que le jus seul.",
+      "img": "img/illus/tomate-007.jpg"
     },
     {
       "id": "tomate:008",
@@ -4163,7 +4342,8 @@
         "2 c. à soupe de mayo ou fromage frais",
         "Sel, poivre"
       ],
-      "steps": "Évider les tomates. Mélanger thon, piment ou Tabasco, oignon et paprika.\nIncorporer la mayo. Assaisonner.\nFarcir et servir frais.\n\n💡 Ajuster le niveau de piment selon les goûts."
+      "steps": "Évider les tomates. Mélanger thon, piment ou Tabasco, oignon et paprika.\nIncorporer la mayo. Assaisonner.\nFarcir et servir frais.\n\n💡 Ajuster le niveau de piment selon les goûts.",
+      "img": "img/illus/tomate-009.jpg"
     },
     {
       "id": "tomate:010",
@@ -4180,7 +4360,8 @@
         "1 c. à soupe d'aneth",
         "Sel, poivre"
       ],
-      "steps": "Râper le concombre, saler et égoutter 10 min dans une passoire.\nÉvider les tomates. Mélanger thon, concombre pressé, fromage frais et aneth.\nAssaisonner. Farcir. Servir très frais."
+      "steps": "Râper le concombre, saler et égoutter 10 min dans une passoire.\nÉvider les tomates. Mélanger thon, concombre pressé, fromage frais et aneth.\nAssaisonner. Farcir. Servir très frais.",
+      "img": "img/illus/tomate-010.jpg"
     },
     {
       "id": "tomate:011",
@@ -4198,7 +4379,8 @@
         "Jus d'½ citron",
         "Sel, poivre"
       ],
-      "steps": "Cuire le riz complet à l'avance et refroidir.\nÉvider les tomates. Mélanger thon, riz, oignon, persil et jus de citron.\nAssaisonner. Farcir. Servir à température ambiante ou frais.\n\n💡 Remplacer le riz complet par du quinoa pour plus de protéines."
+      "steps": "Cuire le riz complet à l'avance et refroidir.\nÉvider les tomates. Mélanger thon, riz, oignon, persil et jus de citron.\nAssaisonner. Farcir. Servir à température ambiante ou frais.\n\n💡 Remplacer le riz complet par du quinoa pour plus de protéines.",
+      "img": "img/illus/tomate-011.jpg"
     },
     {
       "id": "tomate:012",
@@ -4254,7 +4436,8 @@
         "2 c. à soupe d'huile d'olive",
         "Sel, poivre"
       ],
-      "steps": "Évider les tomates. Mélanger thon, concombre en dés et tomates cerises.\nAjouter huile d'olive et basilic. Assaisonner.\nFarcir et servir immédiatement.\n\n💡 Version sans mayo — idéale pour un repas léger en été."
+      "steps": "Évider les tomates. Mélanger thon, concombre en dés et tomates cerises.\nAjouter huile d'olive et basilic. Assaisonner.\nFarcir et servir immédiatement.\n\n💡 Version sans mayo — idéale pour un repas léger en été.",
+      "img": "img/illus/tomate-014.jpg"
     },
     {
       "id": "tomate:015",
@@ -4273,7 +4456,8 @@
         "Persil",
         "Sel, poivre"
       ],
-      "steps": "Évider les tomates. Mélanger thon, olives, tomates séchées et origan.\nAssaisonner. Arroser d'huile d'olive.\nParsemer de persil. Farcir et servir."
+      "steps": "Évider les tomates. Mélanger thon, olives, tomates séchées et origan.\nAssaisonner. Arroser d'huile d'olive.\nParsemer de persil. Farcir et servir.",
+      "img": "img/illus/tomate-015.jpg"
     },
     {
       "id": "tomate:016",
@@ -4290,7 +4474,8 @@
         "1 c. à soupe d'aneth ciselé",
         "Sel, poivre"
       ],
-      "steps": "Évider les tomates. Mélanger thon émietté, yaourt, citron et aneth.\nAssaisonner. Farcir. Réfrigérer 20 min.\n\n💡 Le yaourt grec donne plus d'onctuosité. Saupoudrer d'un peu de paprika pour la couleur."
+      "steps": "Évider les tomates. Mélanger thon émietté, yaourt, citron et aneth.\nAssaisonner. Farcir. Réfrigérer 20 min.\n\n💡 Le yaourt grec donne plus d'onctuosité. Saupoudrer d'un peu de paprika pour la couleur.",
+      "img": "img/illus/tomate-016.jpg"
     },
     {
       "id": "empanada:001",
@@ -4424,7 +4609,8 @@
         "4 c. à soupe de crème de coco",
         "Sel, poivre"
       ],
-      "steps": "FARCE\nFaire revenir oignon avec curry. Ajouter poulet effiloché et crème de coco.\nCuire 3 min pour que tout s'enrobe. Assaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min."
+      "steps": "FARCE\nFaire revenir oignon avec curry. Ajouter poulet effiloché et crème de coco.\nCuire 3 min pour que tout s'enrobe. Assaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min.",
+      "img": "img/illus/empanada-007.jpg"
     },
     {
       "id": "empanada:008",
@@ -4460,7 +4646,8 @@
         "Jus d'½ citron",
         "Sel, poivre"
       ],
-      "steps": "FARCE\nÉmietter ou hacher le saumon. Mélanger avec fromage frais, aneth et jus de citron.\nAssaisonner délicatement (le saumon fumé est déjà salé). Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 190°C : 18-20 min (plus délicat)."
+      "steps": "FARCE\nÉmietter ou hacher le saumon. Mélanger avec fromage frais, aneth et jus de citron.\nAssaisonner délicatement (le saumon fumé est déjà salé). Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 190°C : 18-20 min (plus délicat).",
+      "img": "img/illus/empanada-009.jpg"
     },
     {
       "id": "empanada:010",
@@ -4497,7 +4684,8 @@
         "1 c. à soupe de beurre",
         "Sucre glace pour servir"
       ],
-      "steps": "FARCE\nFaire revenir les pommes avec beurre, cassonade, cannelle et citron 5-7 min.\nLes pommes doivent être fondantes mais pas en purée. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer à l'œuf sucré.\nFour 190°C : 18-20 min jusqu'à dorure.\nSaupoudrer de sucre glace. Servir tiède."
+      "steps": "FARCE\nFaire revenir les pommes avec beurre, cassonade, cannelle et citron 5-7 min.\nLes pommes doivent être fondantes mais pas en purée. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer à l'œuf sucré.\nFour 190°C : 18-20 min jusqu'à dorure.\nSaupoudrer de sucre glace. Servir tiède.",
+      "img": "img/illus/empanada-011.jpg"
     },
     {
       "id": "empanada:012",
@@ -4570,7 +4758,8 @@
         "Sel, poivre"
       ],
       "steps": "FARCE\nFaire sauter les crevettes avec ail et huile 3-4 min. Hacher grossièrement.\nAjouter le persil. Assaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 190°C : 18-20 min.",
-      "url": "https://food52.com/recipes/90158-garlic-shrimp-empanadas"
+      "url": "https://food52.com/recipes/90158-garlic-shrimp-empanadas",
+      "img": "img/illus/empanada-015.jpg"
     },
     {
       "id": "empanada:016",
@@ -4642,7 +4831,8 @@
         "2 c. à soupe de crème fraîche",
         "Sel, poivre"
       ],
-      "steps": "FARCE\nFaire fondre les épinards, égoutter et presser. Mélanger avec poulet, oignon cuit et crème.\nAssaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min."
+      "steps": "FARCE\nFaire fondre les épinards, égoutter et presser. Mélanger avec poulet, oignon cuit et crème.\nAssaisonner. Refroidir.\n\nMONTAGE & CUISSON\nFarcir, sceller, dorer.\nFour 200°C : 20-22 min.",
+      "img": "img/illus/empanada-019.jpg"
     },
     {
       "id": "empanada:020",
@@ -4742,7 +4932,8 @@
         "Aneth ciselé",
         "Sel, poivre"
       ],
-      "steps": "Cuire les fusilli al dente, rincer à l'eau froide.\nÉmietter le maquereau en gros morceaux.\nMélanger mayonnaise, citron et aneth. Assaisonner.\nCombiner pâtes, maquereau, tomates et olives. Napper de sauce.\n\n💡 Le maquereau fumé au poivre apporte encore plus de caractère. Éviter de trop mixer."
+      "steps": "Cuire les fusilli al dente, rincer à l'eau froide.\nÉmietter le maquereau en gros morceaux.\nMélanger mayonnaise, citron et aneth. Assaisonner.\nCombiner pâtes, maquereau, tomates et olives. Napper de sauce.\n\n💡 Le maquereau fumé au poivre apporte encore plus de caractère. Éviter de trop mixer.",
+      "img": "img/illus/salade-004.jpg"
     },
     {
       "id": "salade:005",
@@ -4908,7 +5099,8 @@
         "Aneth ciselé",
         "Sel, poivre"
       ],
-      "steps": "Cuire les fusilli al dente, rincer à l'eau froide.\nPeler et couper la mangue en petits dés.\nMélanger mayonnaise et citron.\nCombiner pâtes, thon, mangue et concombre. Sauce. Aneth.\n\n💡 La mangue doit être mûre mais ferme pour ne pas se désintégrer dans la salade.\nVariante : remplacer la mayo par du yaourt à la coriandre pour une version plus fraîche."
+      "steps": "Cuire les fusilli al dente, rincer à l'eau froide.\nPeler et couper la mangue en petits dés.\nMélanger mayonnaise et citron.\nCombiner pâtes, thon, mangue et concombre. Sauce. Aneth.\n\n💡 La mangue doit être mûre mais ferme pour ne pas se désintégrer dans la salade.\nVariante : remplacer la mayo par du yaourt à la coriandre pour une version plus fraîche.",
+      "img": "img/illus/salade-012.jpg"
     },
     {
       "id": "grece:001",
@@ -5838,7 +6030,8 @@
         "½ oignon haché finement",
         "Sel, poivre"
       ],
-      "steps": "Réduire les lentilles cuites en purée à la fourchette (pas trop lisse).\nMélanger avec œuf, chapelure, ail, oignon et épices. Assaisonner.\nFormer des boulettes de la taille d'une noix.\nRéfrigérer 15 min (tiennent mieux à la cuisson).\n\n🌡️ AIRFRYER — Air Fry 190°C : 12 min\nRetourner à mi-cuisson. Doivent être dorées et fermes.\n\nServir avec une sauce au yaourt et coriandre, salade et quinoa.\n\n💡 Les lentilles sont riches en fibres solubles qui aident à réduire le cholestérol LDL."
+      "steps": "Réduire les lentilles cuites en purée à la fourchette (pas trop lisse).\nMélanger avec œuf, chapelure, ail, oignon et épices. Assaisonner.\nFormer des boulettes de la taille d'une noix.\nRéfrigérer 15 min (tiennent mieux à la cuisson).\n\n🌡️ AIRFRYER — Air Fry 190°C : 12 min\nRetourner à mi-cuisson. Doivent être dorées et fermes.\n\nServir avec une sauce au yaourt et coriandre, salade et quinoa.\n\n💡 Les lentilles sont riches en fibres solubles qui aident à réduire le cholestérol LDL.",
+      "img": "img/illus/af-023.jpg"
     },
     {
       "id": "af:024",
@@ -5856,7 +6049,8 @@
         "1 c. à soupe d'huile d'olive",
         "Sel, poivre"
       ],
-      "steps": "Sécher les filets avec du papier absorbant.\nMélanger chapelure, persil, ciboulette, zeste de citron et huile.\nBadigeonner les filets d'huile. Poser dessus la croûte d'herbes en appuyant légèrement.\n\n🌡️ AIRFRYER — Air Fry 180°C : 10 min\nNe pas retourner — la croûte doit rester dessus.\nLe poisson est cuit quand il se détache en feuillets.\n\nServir avec légumes vapeur et quartier de citron.\n\n💡 Le cabillaud est maigre et sans graisses saturées — idéal pour le cholestérol."
+      "steps": "Sécher les filets avec du papier absorbant.\nMélanger chapelure, persil, ciboulette, zeste de citron et huile.\nBadigeonner les filets d'huile. Poser dessus la croûte d'herbes en appuyant légèrement.\n\n🌡️ AIRFRYER — Air Fry 180°C : 10 min\nNe pas retourner — la croûte doit rester dessus.\nLe poisson est cuit quand il se détache en feuillets.\n\nServir avec légumes vapeur et quartier de citron.\n\n💡 Le cabillaud est maigre et sans graisses saturées — idéal pour le cholestérol.",
+      "img": "img/illus/af-024.jpg"
     },
     {
       "id": "af:025",
@@ -5913,7 +6107,8 @@
         "Persil haché",
         "Sel, poivre"
       ],
-      "steps": "Sécher les filets. Assaisonner de sel et poivre.\nBadigeonner d'huile. Parsemer d'amandes effilées en appuyant pour adhérer.\n\n🌡️ AIRFRYER — Air Fry 180°C : 12 min\nNe pas retourner — les amandes dorent dessus.\nSurveiller la coloration des amandes les 3 dernières minutes.\n\nArroser de jus de citron à la sortie. Parsemer de persil.\nServir avec ratatouille légère ou légumes vapeur.\n\n💡 La truite arc-en-ciel est riche en oméga-3, moins grasse que le saumon mais aussi bénéfique."
+      "steps": "Sécher les filets. Assaisonner de sel et poivre.\nBadigeonner d'huile. Parsemer d'amandes effilées en appuyant pour adhérer.\n\n🌡️ AIRFRYER — Air Fry 180°C : 12 min\nNe pas retourner — les amandes dorent dessus.\nSurveiller la coloration des amandes les 3 dernières minutes.\n\nArroser de jus de citron à la sortie. Parsemer de persil.\nServir avec ratatouille légère ou légumes vapeur.\n\n💡 La truite arc-en-ciel est riche en oméga-3, moins grasse que le saumon mais aussi bénéfique.",
+      "img": "img/illus/af-027.jpg"
     },
     {
       "id": "af:028",
@@ -5971,7 +6166,8 @@
         "Sel, poivre",
         "RISOTTO : 150g riz arborio, 600ml bouillon chaud, 1 échalote, 1 pincée de safran, 1 c. beurre, parmesan"
       ],
-      "steps": "RISOTTO (à faire en parallèle sur le feu)\nFaire revenir l'échalote dans le beurre. Ajouter le riz, nacrer 2 min.\nInfuser le safran dans le bouillon. Ajouter louche par louche en remuant. 18-20 min.\nMantecare (hors du feu) avec beurre et parmesan.\n\nBAR\nAssaisonner les filets avec citron, huile, sel, poivre.\n🌡️ AIRFRYER — Air Fry 180°C : 12-15 min (selon épaisseur).\nLe poisson est cuit quand il se détache en feuillets et la peau est dorée.\n\nServir le filet sur le risotto safrané.\n\n💡 Le bar est maigre et riche en protéines — parfait pour le cholestérol."
+      "steps": "RISOTTO (à faire en parallèle sur le feu)\nFaire revenir l'échalote dans le beurre. Ajouter le riz, nacrer 2 min.\nInfuser le safran dans le bouillon. Ajouter louche par louche en remuant. 18-20 min.\nMantecare (hors du feu) avec beurre et parmesan.\n\nBAR\nAssaisonner les filets avec citron, huile, sel, poivre.\n🌡️ AIRFRYER — Air Fry 180°C : 12-15 min (selon épaisseur).\nLe poisson est cuit quand il se détache en feuillets et la peau est dorée.\n\nServir le filet sur le risotto safrané.\n\n💡 Le bar est maigre et riche en protéines — parfait pour le cholestérol.",
+      "img": "img/illus/af-030.jpg"
     },
     {
       "id": "portugal:035",
@@ -9156,7 +9352,8 @@
         "Ajouter les épices et le poulet, couvrir d'eau, mijoter 40 min.",
         "Retirer le poulet, cuire le riz dans ce bouillon 20 min.",
         "Servir le riz surmonté du poulet, garnir d'amandes et raisins."
-      ]
+      ],
+      "img": "img/illus/arabe-001.jpg"
     },
     {
       "id": "arabe:002",
@@ -9183,7 +9380,8 @@
         "Diluer le yaourt avec du bouillon chaud, chauffer sans bouillir.",
         "Cuire le riz dans le bouillon d'agneau.",
         "Dresser : riz, agneau, napper de sauce yaourt, garnir de fruits secs."
-      ]
+      ],
+      "img": "img/illus/arabe-002.jpg"
     },
     {
       "id": "arabe:003",
@@ -9213,7 +9411,8 @@
         "Dans la casserole : couches de tomates, légumes frits, poulet, riz.",
         "Verser le bouillon, cuire à couvert 30 min.",
         "Retourner d'un geste sur un grand plat, garnir de pignons."
-      ]
+      ],
+      "img": "img/illus/arabe-003.jpg"
     },
     {
       "id": "arabe:004",
@@ -9237,7 +9436,8 @@
         "Former des saucisses allongées autour de brochettes.",
         "Griller 10-15 min sur feu vif ou à la plancha.",
         "Servir avec pita, tomates et sauce tahini."
-      ]
+      ],
+      "img": "img/illus/arabe-004.jpg"
     },
     {
       "id": "arabe:005",
@@ -9267,7 +9467,8 @@
         "Cuire au four 220°C 30 min ou à la poêle.",
         "Trancher finement le poulet.",
         "Garnir les pitas avec poulet, crudités et tahini."
-      ]
+      ],
+      "img": "img/illus/arabe-005.jpg"
     },
     {
       "id": "arabe:006",
@@ -9292,7 +9493,8 @@
         "Faire revenir ail et coriandre dans le beurre.",
         "Ajouter la molokhia et le bouillon chaud, mijoter 10 min.",
         "Servir sur riz avec morceaux de poulet et quartiers de citron."
-      ]
+      ],
+      "img": "img/illus/arabe-006.jpg"
     },
     {
       "id": "arabe:007",
@@ -9321,7 +9523,8 @@
         "Cuire l'agneau au four 180°C 2 h sous papier alu.",
         "Cuire le riz dans le bouillon de cuisson épicé.",
         "Poser le tout dans un grand récipient avec un charbon ardent pour fumer 5 min (optionnel)."
-      ]
+      ],
+      "img": "img/illus/arabe-007.jpg"
     },
     {
       "id": "arabe:008",
@@ -9343,7 +9546,8 @@
         "Tasser la moitié dans le moule, répartir le fromage, couvrir du reste.",
         "Cuire au four 200°C 30-40 min jusqu'à dorure.",
         "Napper immédiatement de sirop froid, décorer de pistaches, servir chaud."
-      ]
+      ],
+      "img": "img/illus/arabe-008.jpg"
     },
     {
       "id": "arabe:009",
@@ -9367,7 +9571,8 @@
         "Verser dans un moule beurré, décorer d'amandes.",
         "Cuire au four 180°C 25-30 min.",
         "Napper du sirop chaud dès la sortie du four."
-      ]
+      ],
+      "img": "img/illus/arabe-009.jpg"
     },
     {
       "id": "arabe:010",
@@ -9392,7 +9597,8 @@
         "Mélanger lait, crème et sucre, porter à ébullition.",
         "Verser sur la pâte, parsemer noix, raisins et coco.",
         "Gratiner au four 200°C 20 min jusqu'à dorure. Servir chaud."
-      ]
+      ],
+      "img": "img/illus/arabe-010.jpg"
     },
     {
       "id": "tapas:001",
@@ -9417,7 +9623,8 @@
         "Laisser refroidir 3 h au réfrigérateur.",
         "Former des croquettes, paner (farine-œuf-chapelure).",
         "Frire en huile chaude jusqu'à dorure. Égoutter, servir chaud."
-      ]
+      ],
+      "img": "img/illus/tapas-001.jpg"
     },
     {
       "id": "tapas:002",
@@ -9440,7 +9647,8 @@
         "Griller 2-3 min de chaque côté.",
         "Faire revenir l'ail dans l'huile, verser sur les crevettes.",
         "Parsemer de persil, servir avec citron."
-      ]
+      ],
+      "img": "img/illus/tapas-002.jpg"
     },
     {
       "id": "tapas:003",
@@ -9459,7 +9667,8 @@
         "Ajouter les poivrons entiers, faire sauter 5-7 min en remuant.",
         "Lorsque la peau commence à cloquer, retirer du feu.",
         "Saler généreusement de gros sel, servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/tapas-003.jpg"
     },
     {
       "id": "tapas:004",
@@ -9480,7 +9689,8 @@
         "Frotter d'abord d'ail, puis frotter généreusement avec la tomate coupée.",
         "Arroser d'un filet d'huile d'olive.",
         "Saler de fleur de sel, servir tel quel ou avec du jambon, fromage."
-      ]
+      ],
+      "img": "img/illus/tapas-004.jpg"
     },
     {
       "id": "tapas:005",
@@ -9502,7 +9712,8 @@
         "Ajouter l'ail, la feuille de laurier et le vin rouge.",
         "Laisser réduire 10-15 min jusqu'à caramélisation.",
         "Parsemer de persil, servir dans le plat avec du pain."
-      ]
+      ],
+      "img": "img/illus/tapas-005.jpg"
     },
     {
       "id": "tapas:006",
@@ -9524,7 +9735,8 @@
         "Disposer en couche, couvrir de vinaigre. Mariner 3 h au frais.",
         "Rincer, égoutter. Arroser d'huile d'olive.",
         "Ajouter ail et persil. Mariner encore 30 min. Servir frais."
-      ]
+      ],
+      "img": "img/illus/tapas-006.jpg"
     },
     {
       "id": "tapas:007",
@@ -9544,7 +9756,8 @@
         "Préparer la bravas : tomate+paprika+piment, réduire 10 min.",
         "Préparer l'aioli : monter au blender ail, jaune, huile, citron.",
         "Égoutter les patatas, napper des deux sauces, servir chaud."
-      ]
+      ],
+      "img": "img/illus/tapas-007.jpg"
     },
     {
       "id": "tapas:008",
@@ -9569,7 +9782,8 @@
         "Former des boulettes, les dorer à la poêle.",
         "Faire revenir oignon, ajouter tomates, vin, paprika.",
         "Ajouter les boulettes, mijoter 20 min. Parsemer de persil."
-      ]
+      ],
+      "img": "img/illus/tapas-008.jpg"
     },
     {
       "id": "tapas:009",
@@ -9591,7 +9805,8 @@
         "Laisser refroidir, couper en tronçons de 1 cm.",
         "Disposer sur rondelles de pommes de terre.",
         "Arroser d'huile, saupoudrer de paprika et gros sel. Servir tiède."
-      ]
+      ],
+      "img": "img/illus/tapas-009.jpg"
     },
     {
       "id": "bulgarie:001",
@@ -9612,7 +9827,8 @@
         "Badigeonner chaque feuille de beurre fondu.",
         "Alterner feuilles beurrées et farce au fromage dans un plat beurré.",
         "Cuire au four 180°C 35-40 min jusqu'à dorure. Laisser tiédir avant de couper."
-      ]
+      ],
+      "img": "img/illus/bulgarie-001.jpg"
     },
     {
       "id": "bulgarie:002",
@@ -9636,7 +9852,8 @@
         "Ajouter concombre, ail, aneth, noix, huile, sel.",
         "Ajuster la consistance avec de l'eau froide.",
         "Réfrigérer 30 min. Servir bien frais avec de la glace si désiré."
-      ]
+      ],
+      "img": "img/illus/bulgarie-002.jpg"
     },
     {
       "id": "bulgarie:003",
@@ -9660,7 +9877,8 @@
         "Mélanger légèrement, disposer dans des assiettes ou saladier.",
         "Arroser d'huile de tournesol, saler.",
         "Couvrir généreusement de fromage râpé. Parsemer de persil."
-      ]
+      ],
+      "img": "img/illus/bulgarie-003.jpg"
     },
     {
       "id": "bulgarie:004",
@@ -9683,7 +9901,8 @@
         "Former des saucisses allongées de 10 cm.",
         "Griller sur braise ou poêle à feu vif 10-15 min en tournant.",
         "Servir avec shopska salade et frites."
-      ]
+      ],
+      "img": "img/illus/bulgarie-004.jpg"
     },
     {
       "id": "bulgarie:005",
@@ -9710,7 +9929,8 @@
         "Verser un peu d'eau, assaisonner.",
         "Transférer dans des pots en argile, couvrir.",
         "Cuire au four 180°C 50 min. Servir dans les pots, persiller."
-      ]
+      ],
+      "img": "img/illus/bulgarie-005.jpg"
     },
     {
       "id": "bulgarie:006",
@@ -9736,7 +9956,8 @@
         "Farcir chaque feuille en roulant serré.",
         "Disposer en couches dans une casserole, ajouter le bouillon.",
         "Mijoter à couvert 50 min. Servir avec yaourt."
-      ]
+      ],
+      "img": "img/illus/bulgarie-006.jpg"
     },
     {
       "id": "bulgarie:007",
@@ -9761,7 +9982,8 @@
         "Rôtir les tomates, peler et ajouter.",
         "Mélanger avec ail écrasé, huile, vinaigre, sel.",
         "Réfrigérer 1 h. Servir froid sur du pain."
-      ]
+      ],
+      "img": "img/illus/bulgarie-007.jpg"
     },
     {
       "id": "bulgarie:008",
@@ -9785,7 +10007,8 @@
         "Aplatir des portions en galettes épaisses.",
         "Frire dans l'huile chaude 3-4 min de chaque côté.",
         "Servir chauds avec miel ou confiture."
-      ]
+      ],
+      "img": "img/illus/bulgarie-008.jpg"
     },
     {
       "id": "afrique:001",
@@ -9814,7 +10037,8 @@
         "Ajouter concentré, bouillon, épices. Porter à ébullition.",
         "Ajouter le riz, couvrir, cuire à feu doux 25 min.",
         "Remuer délicatement et servir avec poulet grillé."
-      ]
+      ],
+      "img": "img/illus/afrique-001.jpg"
     },
     {
       "id": "afrique:002",
@@ -9841,7 +10065,8 @@
         "Délayer la pâte d'arachide dans un peu de bouillon, verser.",
         "Ajouter viande, légumes, laurier, piment. Mijoter 45 min.",
         "Ajuster le sel, servir sur riz blanc."
-      ]
+      ],
+      "img": "img/illus/afrique-002.jpg"
     },
     {
       "id": "afrique:003",
@@ -9861,7 +10086,8 @@
         "La pâte doit être légèrement acide et bulleuse.",
         "Cuire comme des crêpes dans une grande poêle légèrement huilée.",
         "Servir avec les ragoûts (wats) posés dessus pour les partager."
-      ]
+      ],
+      "img": "img/illus/afrique-003.jpg"
     },
     {
       "id": "afrique:004",
@@ -9886,7 +10112,8 @@
         "Ajouter poulet, couvrir et mijoter 40 min.",
         "Ajouter les œufs durs entiers, enrober de sauce.",
         "Servir sur injera."
-      ]
+      ],
+      "img": "img/illus/afrique-004.jpg"
     },
     {
       "id": "afrique:005",
@@ -9914,7 +10141,8 @@
         "Verser dans un plat à gratin avec les feuilles de laurier.",
         "Battre œufs et lait, verser sur le dessus.",
         "Cuire au four 160°C 40 min. Servir avec riz au curcuma."
-      ]
+      ],
+      "img": "img/illus/afrique-005.jpg"
     },
     {
       "id": "afrique:006",
@@ -9939,7 +10167,8 @@
         "Ajouter la viande fumée et le bouillon, mijoter 20 min.",
         "Incorporer les feuilles vertes en fin de cuisson.",
         "Servir avec fufu, eba ou riz."
-      ]
+      ],
+      "img": "img/illus/afrique-006.jpg"
     },
     {
       "id": "afrique:007",
@@ -9964,7 +10193,8 @@
         "Enfiler sur brochettes.",
         "Griller sur braise vive 3-4 min de chaque côté.",
         "Servir avec oignon rouge, tomates et piment frais."
-      ]
+      ],
+      "img": "img/illus/afrique-007.jpg"
     },
     {
       "id": "afrique:008",
@@ -9987,7 +10217,8 @@
         "Griller sur feu de bois ou barbecue 30-40 min en retournant régulièrement.",
         "Préparer le kachumbari : mélanger tomates et oignons émincés, citron, coriandre.",
         "Couper la viande en morceaux, servir avec kachumbari et ugali."
-      ]
+      ],
+      "img": "img/illus/afrique-008.jpg"
     },
     {
       "id": "hongrie:001",
@@ -10015,7 +10246,8 @@
         "Ajouter tomates, poivrons, cumin, couvrir de bouillon.",
         "Mijoter à couvert 1 h, ajouter pommes de terre, cuire 30 min.",
         "Ajuster assaisonnement, servir avec pain ou spätzle."
-      ]
+      ],
+      "img": "img/illus/hongrie-001.jpg"
     },
     {
       "id": "hongrie:002",
@@ -10042,7 +10274,8 @@
         "Ajouter le bœuf, faire dorer. Ajouter ail, tomates, sel.",
         "Couvrir d'un peu de bouillon, mijoter à couvert 1 h 30.",
         "Servir avec spätzle et une cuillère de crème fraîche."
-      ]
+      ],
+      "img": "img/illus/hongrie-002.jpg"
     },
     {
       "id": "hongrie:003",
@@ -10068,7 +10301,8 @@
         "Farcir chaque feuille, rouler en ballotines.",
         "Tapisser la casserole de lard, couche de choucroute, sarmi, répéter.",
         "Verser crème fraîche allongée d'eau, mijoter 1 h."
-      ]
+      ],
+      "img": "img/illus/hongrie-003.jpg"
     },
     {
       "id": "hongrie:004",
@@ -10091,7 +10325,8 @@
         "Alterner couches : pommes de terre, saucisse, œuf tranché.",
         "Napper de crème fraîche, saupoudrer de paprika.",
         "Cuire au four 180°C 45 min jusqu'à dorure."
-      ]
+      ],
+      "img": "img/illus/hongrie-004.jpg"
     },
     {
       "id": "hongrie:005",
@@ -10116,7 +10351,8 @@
         "Étirer des portions en galettes minces.",
         "Frire 3-4 min de chaque côté dans l'huile chaude.",
         "Tartiner de crème fraîche aillée, saupoudrer de fromage râpé."
-      ]
+      ],
+      "img": "img/illus/hongrie-005.jpg"
     },
     {
       "id": "hongrie:006",
@@ -10140,7 +10376,8 @@
         "Verser le bouillon de cuisson, épaissir en remuant.",
         "Ajouter légumes et crème fraîche, un trait de vinaigre.",
         "Assaisonner d'herbes, servir avec œuf au plat ou saucisse."
-      ]
+      ],
+      "img": "img/illus/hongrie-006.jpg"
     },
     {
       "id": "hongrie:007",
@@ -10165,7 +10402,8 @@
         "Abaisser en bande, enrouler en spirale autour d'une broche.",
         "Rouler dans le sucre mélangé à la cannelle.",
         "Cuire en tournant au-dessus des braises ou au four 180°C 20 min."
-      ]
+      ],
+      "img": "img/illus/hongrie-007.jpg"
     },
     {
       "id": "hongrie:008",
@@ -10189,7 +10427,8 @@
         "Monter les couches en alternant génoise et crème.",
         "Caraméliser 150 g de sucre, verser sur le dernier disque, marquer en parts.",
         "Couvrir les côtés de crème, réfrigérer 2 h."
-      ]
+      ],
+      "img": "img/illus/hongrie-008.jpg"
     },
     {
       "id": "roumanie:001",
@@ -10216,7 +10455,8 @@
         "Farcir et rouler chaque feuille.",
         "Tapisser la casserole de lard, couches de sarmi, jus de tomate.",
         "Mijoter à couvert 2 h 30. Servir avec crème fraîche."
-      ]
+      ],
+      "img": "img/illus/roumanie-001.jpg"
     },
     {
       "id": "roumanie:002",
@@ -10239,7 +10479,8 @@
         "Cuire à feu moyen 20-25 min en remuant sans cesse.",
         "Incorporer le beurre.",
         "Servir avec fromage émietté et crème fraîche. Peut aussi être grillée."
-      ]
+      ],
+      "img": "img/illus/roumanie-002.jpg"
     },
     {
       "id": "roumanie:003",
@@ -10265,7 +10506,8 @@
         "Réfrigérer la pâte 2 h.",
         "Former des rouleaux de 8 cm.",
         "Griller sur braise vive 10-15 min. Servir avec moutarde forte."
-      ]
+      ],
+      "img": "img/illus/roumanie-003.jpg"
     },
     {
       "id": "roumanie:004",
@@ -10292,7 +10534,8 @@
         "Filtrer le bouillon.",
         "Battre jaunes d'œufs avec la crème, incorporer au bouillon chaud sans bouillir.",
         "Ajouter tripes, vinaigre, ail. Servir avec piment."
-      ]
+      ],
+      "img": "img/illus/roumanie-004.jpg"
     },
     {
       "id": "roumanie:005",
@@ -10316,7 +10559,8 @@
         "Faire revenir les oignons dans l'huile.",
         "Ajouter tous les légumes, laurier, sel, un peu de sucre.",
         "Cuire à feu doux 1 h en remuant. Servir sur pain ou en bocaux."
-      ]
+      ],
+      "img": "img/illus/roumanie-005.jpg"
     },
     {
       "id": "roumanie:006",
@@ -10343,7 +10587,8 @@
         "Préparer la garniture : noix moulues, sucre, cacao, rhum.",
         "Étaler la pâte, répartir la garniture, rouler en boudin.",
         "Cuire au four 180°C 50-60 min. Refroidir avant de couper."
-      ]
+      ],
+      "img": "img/illus/roumanie-006.jpg"
     },
     {
       "id": "roumanie:007",
@@ -10370,7 +10615,8 @@
         "Frire 4-5 min de chaque côté dans l'huile chaude.",
         "Égoutter sur papier absorbant.",
         "Servir chauds couverts de crème fraîche et confiture."
-      ]
+      ],
+      "img": "img/illus/roumanie-007.jpg"
     },
     {
       "id": "paysbas:001",
@@ -10394,7 +10640,8 @@
         "Écraser en purée avec beurre, lait, sel, poivre, muscade.",
         "Mélanger le chou dans la purée.",
         "Servir avec la saucisse et un trait de moutarde."
-      ]
+      ],
+      "img": "img/illus/paysbas-001.jpg"
     },
     {
       "id": "paysbas:002",
@@ -10421,7 +10668,8 @@
         "Laisser refroidir 3 h au réfrigérateur jusqu'à fermeté.",
         "Former des boules, paner (farine-œuf-chapelure).",
         "Frire 3-4 min dans l'huile chaude. Servir avec moutarde."
-      ]
+      ],
+      "img": "img/illus/paysbas-002.jpg"
     },
     {
       "id": "paysbas:003",
@@ -10447,7 +10695,8 @@
         "Ajouter légumes coupés, cuire 1 h.",
         "Retirer et couper le lard en morceaux, le remettre.",
         "Ajouter les saucisses les 15 dernières minutes. Servir très épais."
-      ]
+      ],
+      "img": "img/illus/paysbas-003.jpg"
     },
     {
       "id": "paysbas:004",
@@ -10470,7 +10719,8 @@
         "Cuire de petites boules de pâte au gaufrier.",
         "Couper chaque gaufre en deux, garnir de sirop, refermer.",
         "Laisser refroidir pour que le caramel se solidifie légèrement."
-      ]
+      ],
+      "img": "img/illus/paysbas-004.jpg"
     },
     {
       "id": "paysbas:005",
@@ -10493,7 +10743,8 @@
         "Cuire dans une grande poêle beurrée.",
         "Pour la version salée : cuire le lard sur la crêpe, retourner, ajouter le fromage.",
         "Servir avec sirop ou pommes à la cannelle."
-      ]
+      ],
+      "img": "img/illus/paysbas-005.jpg"
     },
     {
       "id": "paysbas:006",
@@ -10519,7 +10770,8 @@
         "Laisser lever 1 h.",
         "À l'aide de deux cuillères, former des boules et plonger dans l'huile à 180°C.",
         "Frire 4-5 min en retournant. Saupoudrer de sucre glace."
-      ]
+      ],
+      "img": "img/illus/paysbas-006.jpg"
     },
     {
       "id": "paysbas:007",
@@ -10547,7 +10799,8 @@
         "Foncer un moule haut, saupoudrer de chapelure.",
         "Remplir de garniture, couvrir d'un treillis de pâte.",
         "Saupoudrer de sucre perlé, cuire au four 180°C 50-60 min."
-      ]
+      ],
+      "img": "img/illus/paysbas-007.jpg"
     },
     {
       "id": "paysbas:008",
@@ -10567,7 +10820,8 @@
         "Couper en morceaux ou servir entiers selon la tradition.",
         "Accompagner d'oignons émincés et cornichons.",
         "Servir sur pain ou à la main, tenu par la queue selon la tradition."
-      ]
+      ],
+      "img": "img/illus/paysbas-008.jpg"
     },
     {
       "id": "wrap:013",
@@ -10590,7 +10844,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-013.jpg"
     },
     {
       "id": "wrap:014",
@@ -10614,7 +10869,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-014.jpg"
     },
     {
       "id": "wrap:015",
@@ -10637,7 +10893,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-015.jpg"
     },
     {
       "id": "wrap:016",
@@ -10660,7 +10917,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-016.jpg"
     },
     {
       "id": "wrap:017",
@@ -10683,7 +10941,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-017.jpg"
     },
     {
       "id": "wrap:018",
@@ -10705,7 +10964,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-018.jpg"
     },
     {
       "id": "wrap:019",
@@ -10728,7 +10988,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-019.jpg"
     },
     {
       "id": "wrap:020",
@@ -10751,7 +11012,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-020.jpg"
     },
     {
       "id": "wrap:021",
@@ -10774,7 +11036,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-021.jpg"
     },
     {
       "id": "wrap:022",
@@ -10797,7 +11060,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-022.jpg"
     },
     {
       "id": "wrap:023",
@@ -10820,7 +11084,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-023.jpg"
     },
     {
       "id": "wrap:024",
@@ -10843,7 +11108,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-024.jpg"
     },
     {
       "id": "wrap:025",
@@ -10866,7 +11132,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-025.jpg"
     },
     {
       "id": "wrap:026",
@@ -10889,7 +11156,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-026.jpg"
     },
     {
       "id": "wrap:027",
@@ -10912,7 +11180,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-027.jpg"
     },
     {
       "id": "wrap:028",
@@ -10935,7 +11204,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-028.jpg"
     },
     {
       "id": "wrap:029",
@@ -10958,7 +11228,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-029.jpg"
     },
     {
       "id": "wrap:030",
@@ -10981,7 +11252,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-030.jpg"
     },
     {
       "id": "wrap:031",
@@ -11004,7 +11276,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-031.jpg"
     },
     {
       "id": "wrap:032",
@@ -11026,7 +11299,8 @@
         "Assaisonner et ajouter les garnitures selon la variante.",
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale."
-      ]
+      ],
+      "img": "img/illus/wrap-032.jpg"
     },
     {
       "id": "wrap:033",
@@ -11049,7 +11323,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-033.jpg"
     },
     {
       "id": "wrap:034",
@@ -11071,7 +11346,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-034.jpg"
     },
     {
       "id": "wrap:035",
@@ -11094,7 +11370,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-035.jpg"
     },
     {
       "id": "wrap:036",
@@ -11116,7 +11393,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-036.jpg"
     },
     {
       "id": "wrap:037",
@@ -11141,7 +11419,8 @@
         "Chauffer les tortillas 30 s dans une poêle ou au micro-ondes.",
         "Garnir, rouler en serrant bien. Couper en deux en diagonale.",
         "Optionnel : faire griller le wrap fermé 2 min de chaque côté pour le sceller."
-      ]
+      ],
+      "img": "img/illus/wrap-037.jpg"
     },
     {
       "id": "technique:001",
@@ -11169,7 +11448,8 @@
         "Les parties blanches (membranes) sont amères : bien les retirer.",
         "Plus les morceaux sont petits, plus la cuisson sera rapide.",
         "Utiliser des poivrons de différentes couleurs pour des plats plus gourmands et colorés !"
-      ]
+      ],
+      "img": "img/illus/technique-001.jpg"
     },
     {
       "id": "technique:002",
@@ -11201,7 +11481,8 @@
         "Utiliser un couteau bien aiguisé ou une mandoline pour plus de précision.",
         "Rincer les pommes de terre coupées à l'eau froide pour enlever l'excès d'amidon (surtout pour les frites).",
         "Les petites pièces cuisent plus vite que les grosses."
-      ]
+      ],
+      "img": "img/illus/technique-002.jpg"
     },
     {
       "id": "cakesale:001",
@@ -11227,7 +11508,8 @@
         "Incorporer courgette râpée (essorée), féta et menthe. Saler, poivrer.",
         "Verser dans le moule, cuire 45-50 min. Vérifier la cuisson au couteau.",
         "Laisser tiédir avant de démouler. Servir tiède ou froid."
-      ]
+      ],
+      "img": "img/illus/cakesale-001.jpg"
     },
     {
       "id": "cakesale:002",
@@ -11253,7 +11535,8 @@
         "Ajouter jambon, olives et gruyère. Assaisonner.",
         "Verser dans le moule beurré, cuire 45-50 min.",
         "Laisser tiédir avant de démouler."
-      ]
+      ],
+      "img": "img/illus/cakesale-002.jpg"
     },
     {
       "id": "cakesale:003",
@@ -11279,7 +11562,8 @@
         "Ajouter tomates séchées, mozzarella et basilic ciselé. Assaisonner.",
         "Verser dans le moule beurré, cuire 45-50 min.",
         "Démouler tiède, servir avec une salade."
-      ]
+      ],
+      "img": "img/illus/cakesale-003.jpg"
     },
     {
       "id": "cakesale:004",
@@ -11305,7 +11589,8 @@
         "Battre œufs, lait et huile. Incorporer farine et levure.",
         "Ajouter poireaux, saumon et aneth. Assaisonner légèrement (saumon salé).",
         "Cuire dans le moule beurré 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-004.jpg"
     },
     {
       "id": "cakesale:005",
@@ -11331,7 +11616,8 @@
         "Ajouter chèvre et noix. Assaisonner.",
         "Verser dans le moule beurré, cuire 45-50 min.",
         "Servir tiède ou froid avec une salade de roquette."
-      ]
+      ],
+      "img": "img/illus/cakesale-005.jpg"
     },
     {
       "id": "cakesale:006",
@@ -11358,7 +11644,8 @@
         "Battre œufs, lait et huile. Incorporer farine et levure.",
         "Ajouter légumes grillés et herbes. Assaisonner.",
         "Cuire dans le moule beurré 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-006.jpg"
     },
     {
       "id": "cakesale:007",
@@ -11384,7 +11671,8 @@
         "Émietter le thon, ajouter maïs et persil. Mélanger.",
         "Incorporer à la pâte. Assaisonner.",
         "Verser dans le moule beurré, cuire 45 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-007.jpg"
     },
     {
       "id": "cakesale:008",
@@ -11410,7 +11698,8 @@
         "Battre œufs, lait et huile. Incorporer farine et levure.",
         "Ajouter champignons, comté et ciboulette. Assaisonner.",
         "Cuire dans le moule beurré 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-008.jpg"
     },
     {
       "id": "omelette:001",
@@ -11432,7 +11721,8 @@
         "Faire fondre le beurre dans une poêle antiadhésive à feu moyen.",
         "Verser les œufs, remuer légèrement. Ajouter jambon et fromage.",
         "Plier l'omelette baveuse. Servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/omelette-001.jpg"
     },
     {
       "id": "omelette:002",
@@ -11454,7 +11744,8 @@
         "Battre les œufs, verser dans la poêle.",
         "Ajouter jambon, pommes de terre et raclette en morceaux.",
         "Plier et servir dès que le fromage est fondu."
-      ]
+      ],
+      "img": "img/illus/omelette-002.jpg"
     },
     {
       "id": "omelette:003",
@@ -11476,7 +11767,8 @@
         "Battre les œufs avec sel et poivre, verser dans la poêle.",
         "Ajouter jambon, champignons et fromage.",
         "Plier l'omelette baveuse et servir."
-      ]
+      ],
+      "img": "img/illus/omelette-003.jpg"
     },
     {
       "id": "omelette:004",
@@ -11497,7 +11789,8 @@
         "Dans la même poêle beurrée, verser les œufs battus assaisonnés.",
         "Ajouter bacon émietté et fromage.",
         "Plier et servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/omelette-004.jpg"
     },
     {
       "id": "omelette:005",
@@ -11519,7 +11812,8 @@
         "Battre les œufs, verser dans la poêle beurrée.",
         "Ajouter jambon, épinards et fromage.",
         "Plier baveuse et servir."
-      ]
+      ],
+      "img": "img/illus/omelette-005.jpg"
     },
     {
       "id": "omelette:006",
@@ -11541,7 +11835,8 @@
         "Verser dans la poêle beurrée chaude.",
         "Disposer jambon et rondelles de chèvre.",
         "Plier et servir dès que le chèvre commence à fondre."
-      ]
+      ],
+      "img": "img/illus/omelette-006.jpg"
     },
     {
       "id": "omelette:007",
@@ -11563,7 +11858,8 @@
         "Battre les œufs assaisonnés, verser sur les pommes de terre.",
         "Ajouter jambon et fromage.",
         "Cuire 5-7 min à couvert. Servir non pliée."
-      ]
+      ],
+      "img": "img/illus/omelette-007.jpg"
     },
     {
       "id": "omelette:008",
@@ -11585,7 +11881,8 @@
         "Verser dans la poêle beurrée à feu moyen.",
         "Déposer saumon, cuillerées de fromage frais et ciboulette.",
         "Plier baveuse et servir."
-      ]
+      ],
+      "img": "img/illus/omelette-008.jpg"
     },
     {
       "id": "omelette:009",
@@ -11607,7 +11904,8 @@
         "Battre œufs et lait, verser dans la poêle beurrée.",
         "Ajouter chorizo et fromage.",
         "Plier et servir."
-      ]
+      ],
+      "img": "img/illus/omelette-009.jpg"
     },
     {
       "id": "omelette:010",
@@ -11629,7 +11927,8 @@
         "Verser dans la poêle beurrée chaude.",
         "Ajouter poulet et cheddar râpé.",
         "Plier et servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/omelette-010.jpg"
     },
     {
       "id": "omelette:011",
@@ -11651,7 +11950,8 @@
         "Battre les œufs assaisonnés, verser dans la poêle beurrée.",
         "Déposer tomates, jambon, fromage et basilic ciselé.",
         "Plier baveuse et servir."
-      ]
+      ],
+      "img": "img/illus/omelette-011.jpg"
     },
     {
       "id": "omelette:012",
@@ -11674,7 +11974,8 @@
         "Verser dans la poêle beurrée chaude.",
         "Répartir jambon et les 3 fromages.",
         "Plier lorsque le dessous est cuit, servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/omelette-012.jpg"
     },
     {
       "id": "cocotte:001",
@@ -11698,7 +11999,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-001.jpg"
     },
     {
       "id": "cocotte:002",
@@ -11722,7 +12024,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-002.jpg"
     },
     {
       "id": "cocotte:003",
@@ -11746,7 +12049,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-003.jpg"
     },
     {
       "id": "cocotte:004",
@@ -11771,7 +12075,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-004.jpg"
     },
     {
       "id": "cocotte:005",
@@ -11796,7 +12101,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-005.jpg"
     },
     {
       "id": "cocotte:006",
@@ -11819,7 +12125,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-006.jpg"
     },
     {
       "id": "cocotte:007",
@@ -11844,7 +12151,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-007.jpg"
     },
     {
       "id": "cocotte:008",
@@ -11868,7 +12176,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-008.jpg"
     },
     {
       "id": "cocotte:009",
@@ -11893,7 +12202,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-009.jpg"
     },
     {
       "id": "cocotte:010",
@@ -11918,7 +12228,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-010.jpg"
     },
     {
       "id": "cocotte:011",
@@ -11942,7 +12253,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-011.jpg"
     },
     {
       "id": "cocotte:012",
@@ -11967,7 +12279,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-012.jpg"
     },
     {
       "id": "cocotte:013",
@@ -11992,7 +12305,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-013.jpg"
     },
     {
       "id": "cocotte:014",
@@ -12017,7 +12331,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-014.jpg"
     },
     {
       "id": "cocotte:015",
@@ -12040,7 +12355,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-015.jpg"
     },
     {
       "id": "cocotte:016",
@@ -12065,7 +12381,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-016.jpg"
     },
     {
       "id": "cocotte:017",
@@ -12090,7 +12407,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-017.jpg"
     },
     {
       "id": "cocotte:018",
@@ -12116,7 +12434,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-018.jpg"
     },
     {
       "id": "cocotte:019",
@@ -12141,7 +12460,8 @@
         "Assaisonner de sel et poivre.",
         "Cuire au bain-marie 12-15 min (jaune coulant) ou 18 min (cuit).",
         "Servir immédiatement avec des mouillettes de pain grillé."
-      ]
+      ],
+      "img": "img/illus/cocotte-019.jpg"
     },
     {
       "id": "frites:001",
@@ -12160,7 +12480,8 @@
         "1er bain à 160°C pendant 6-8 min (blanchi sans dorure). Égoutter, laisser refroidir.",
         "2e bain à 180°C pendant 3-4 min jusqu'à dorure parfaite.",
         "Égoutter, saler immédiatement. Servir avec mayonnaise maison."
-      ]
+      ],
+      "img": "img/illus/frites-001.jpg"
     },
     {
       "id": "frites:002",
@@ -12182,7 +12503,8 @@
         "Faire revenir ail 30 s dans l'huile d'olive.",
         "Mélanger frites chaudes avec ail, persil et fleur de sel.",
         "Servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/frites-002.jpg"
     },
     {
       "id": "frites:003",
@@ -12204,7 +12526,8 @@
         "Mélanger parmesan, persil et thym dans un bol.",
         "Enrober les frites chaudes de ce mélange.",
         "Servir immédiatement avec une sauce aïoli."
-      ]
+      ],
+      "img": "img/illus/frites-003.jpg"
     },
     {
       "id": "frites:004",
@@ -12227,7 +12550,8 @@
         "Mélanger avec huile et épices. Disposer en couche unique sur plaque.",
         "Cuire 25-30 min en retournant à mi-cuisson.",
         "Servir avec une sauce ranch ou ketchup."
-      ]
+      ],
+      "img": "img/illus/frites-004.jpg"
     },
     {
       "id": "frites:005",
@@ -12248,7 +12572,8 @@
         "Préparer la sauce : chauffer crème, ajouter cheddar en fouettant jusqu'à lisse.",
         "Disposer les frites dans un plat, napper de sauce cheddar.",
         "Garnir de lardons grillés et ciboulette. Servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/frites-005.jpg"
     },
     {
       "id": "frites:006",
@@ -12269,7 +12594,8 @@
         "Mélanger avec huile, romarin effeuillé, paprika, sel et poivre.",
         "Disposer en couche unique sur plaque. Cuire 25-30 min.",
         "Servir avec une sauce tzatziki ou yaourt à l'ail."
-      ]
+      ],
+      "img": "img/illus/frites-006.jpg"
     },
     {
       "id": "bouchee:001",
@@ -12290,7 +12616,8 @@
         "Tartiner de fromage frais.",
         "Poser une lamelle d'entrecôte et quelques feuilles de roquette.",
         "Assaisonner, servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/bouchee-001.jpg"
     },
     {
       "id": "bouchee:002",
@@ -12311,7 +12638,8 @@
         "Tartiner les toasts de pesto.",
         "Déposer une rondelle de tomate et une de mozzarella.",
         "Décorer d'une feuille de basilic. Assaisonner et servir."
-      ]
+      ],
+      "img": "img/illus/bouchee-002.jpg"
     },
     {
       "id": "bouchee:003",
@@ -12332,7 +12660,8 @@
         "Couper le thon en cubes, mariner 30 min dans soja+huile de sésame+gingembre.",
         "Piquer sur brochettes courtes.",
         "Saupoudrer de sésame et ciboulette. Servir frais."
-      ]
+      ],
+      "img": "img/illus/bouchee-003.jpg"
     },
     {
       "id": "bouchee:004",
@@ -12353,7 +12682,8 @@
         "Écraser le thon à la fourchette avec fromage frais, citron et herbes.",
         "Assaisonner.",
         "Tartiner sur les toasts. Garnir d'une herbe fraîche."
-      ]
+      ],
+      "img": "img/illus/bouchee-004.jpg"
     },
     {
       "id": "bouchee:005",
@@ -12372,7 +12702,8 @@
         "Tartiner les toasts de tapenade.",
         "Déposer une demi-tranche de jambon cru en rosette.",
         "Décorer d'une feuille de basilic. Servir."
-      ]
+      ],
+      "img": "img/illus/bouchee-005.jpg"
     },
     {
       "id": "bouchee:006",
@@ -12392,7 +12723,8 @@
         "Piquer sur chaque pique: 1 bocconcino, 1 feuille de basilic, 1 tomate cerise.",
         "Arroser d'un filet d'huile d'olive.",
         "Assaisonner de fleur de sel et poivre. Servir frais."
-      ]
+      ],
+      "img": "img/illus/bouchee-006.jpg"
     },
     {
       "id": "bouchee:007",
@@ -12414,7 +12746,8 @@
         "Former des boulettes de 2 cm.",
         "Frire 3-4 min ou cuire au four 200°C 15 min.",
         "Préparer sauce, servir les boulettes piquées avec cure-dents."
-      ]
+      ],
+      "img": "img/illus/bouchee-007.jpg"
     },
     {
       "id": "bouchee:008",
@@ -12434,7 +12767,8 @@
         "Réchauffer les blinis légèrement.",
         "Garnir de crème fraîche, puis d'une cuillère d'œufs de saumon.",
         "Décorer d'aneth et d'un zeste de citron."
-      ]
+      ],
+      "img": "img/illus/bouchee-008.jpg"
     },
     {
       "id": "bouchee:009",
@@ -12451,7 +12785,8 @@
         "Préparer et tailler tous les légumes en bâtonnets.",
         "Mélanger les ingrédients de la sauce César, ajuster l'assaisonnement.",
         "Disposer les légumes autour de la sauce. Servir frais."
-      ]
+      ],
+      "img": "img/illus/bouchee-009.jpg"
     },
     {
       "id": "bouchee:010",
@@ -12471,7 +12806,8 @@
         "Alterner sur mini-piques: olive, féta, poivron, concombre.",
         "Arroser d'huile d'olive et saupoudrer d'origan.",
         "Réfrigérer 30 min avant de servir."
-      ]
+      ],
+      "img": "img/illus/bouchee-010.jpg"
     },
     {
       "id": "bouchee:011",
@@ -12490,7 +12826,8 @@
         "Couper la pâte en bandes. Enrouler chaque saucisse.",
         "Badigeonner au jaune d'œuf, parsemer de graines.",
         "Cuire au four 200°C 15-18 min jusqu'à dorure."
-      ]
+      ],
+      "img": "img/illus/bouchee-011.jpg"
     },
     {
       "id": "bouchee:012",
@@ -12513,7 +12850,8 @@
         "Faire revenir oignon, carotte, poulet et épices.",
         "Couper les feuilles de brick en bandes, former des triangles avec la farce.",
         "Frire 3-4 min jusqu'à dorure. Égoutter, servir avec sauce yaourt."
-      ]
+      ],
+      "img": "img/illus/bouchee-012.jpg"
     },
     {
       "id": "bouchee:013",
@@ -12535,7 +12873,8 @@
         "Paner: farine → œuf → chapelure (2 fois pour plus de croustillant).",
         "Frire 2-3 min dans l'huile chaude.",
         "Servir immédiatement avec confiture de figues."
-      ]
+      ],
+      "img": "img/illus/bouchee-013.jpg"
     },
     {
       "id": "bouchee:014",
@@ -12556,7 +12895,8 @@
         "Garnir chaque rond de coulis et mozzarella.",
         "Saupoudrer d'origan.",
         "Cuire 12-15 min. Décorer de basilic et servir chaud."
-      ]
+      ],
+      "img": "img/illus/bouchee-014.jpg"
     },
     {
       "id": "bouchee:015",
@@ -12579,7 +12919,8 @@
         "Refroidir 2 h. Former des petites boules.",
         "Paner (farine-œuf-chapelure).",
         "Frire 3-4 min. Égoutter et servir."
-      ]
+      ],
+      "img": "img/illus/bouchee-015.jpg"
     },
     {
       "id": "bouchee:016",
@@ -12597,7 +12938,8 @@
         "Couper le concombre en rondelles épaisses.",
         "Garnir chaque rondelle d'une cuillère de tzatziki.",
         "Décorer d'une pluche d'aneth."
-      ]
+      ],
+      "img": "img/illus/bouchee-016.jpg"
     },
     {
       "id": "bouchee:017",
@@ -12619,7 +12961,8 @@
         "Cuire à blanc 10 min à 180°C.",
         "Garnir de chèvre, arroser de miel, parsemer de thym et noix.",
         "Remettre au four 8-10 min. Servir tiède."
-      ]
+      ],
+      "img": "img/illus/bouchee-017.jpg"
     },
     {
       "id": "bouchee:018",
@@ -12640,7 +12983,8 @@
         "Étaler sur chaque tranche de saumon.",
         "Rouler et couper en tronçons de 2 cm.",
         "Piquer d'un cure-dent. Réfrigérer jusqu'au service."
-      ]
+      ],
+      "img": "img/illus/bouchee-018.jpg"
     },
     {
       "id": "bouchee:019",
@@ -12663,7 +13007,8 @@
         "Battre œufs, crème, lait, assaisonner.",
         "Répartir lardons et gruyère dans les fonds.",
         "Verser l'appareil. Cuire 20 min à 180°C."
-      ]
+      ],
+      "img": "img/illus/bouchee-019.jpg"
     },
     {
       "id": "bouchee:020",
@@ -12685,7 +13030,8 @@
         "Frotter immédiatement d'une gousse d'ail coupée.",
         "Mélanger tomates, basilic, huile, sel, poivre.",
         "Déposer la garniture sur les toasts. Servir aussitôt."
-      ]
+      ],
+      "img": "img/illus/bouchee-020.jpg"
     },
     {
       "id": "bouchee:021",
@@ -12707,7 +13053,8 @@
         "Couper en petits morceaux de la taille des toasts.",
         "Mélanger fromage frais et citron, tartiner les toasts.",
         "Déposer l'escalope, décorer de thym."
-      ]
+      ],
+      "img": "img/illus/bouchee-021.jpg"
     },
     {
       "id": "brochette:001",
@@ -12730,7 +13077,8 @@
         "Mariner le poulet avec huile d'olive, herbes, sel, poivre 30 min.",
         "Alterner poulet et poivrons sur les brochettes.",
         "Griller 15 min en retournant à mi-cuisson."
-      ]
+      ],
+      "img": "img/illus/brochette-001.jpg"
     },
     {
       "id": "brochette:002",
@@ -12751,7 +13099,8 @@
         "Mariner le boeuf dans la sauce teriyaki 30 min.",
         "Former les brochettes en alternant les ingrédients.",
         "Griller 10-12 min en badigeonnant de marinade."
-      ]
+      ],
+      "img": "img/illus/brochette-002.jpg"
     },
     {
       "id": "brochette:003",
@@ -12773,7 +13122,8 @@
         "Enfiler sur les brochettes.",
         "Griller 3-4 min de chaque côté.",
         "Servir avec persil ciselé et quartiers de citron."
-      ]
+      ],
+      "img": "img/illus/brochette-003.jpg"
     },
     {
       "id": "brochette:004",
@@ -12794,7 +13144,8 @@
         "Arroser d'huile d'olive.",
         "Assaisonner de sel et poivre.",
         "Servir frais en apéritif ou entrée."
-      ]
+      ],
+      "img": "img/illus/brochette-004.jpg"
     },
     {
       "id": "brochette:005",
@@ -12816,7 +13167,8 @@
         "Mariner le poulet en cubes 30 min.",
         "Alterner poulet et ananas sur les brochettes.",
         "Griller 15 min en badigeonnant de marinade."
-      ]
+      ],
+      "img": "img/illus/brochette-005.jpg"
     },
     {
       "id": "brochette:006",
@@ -12838,7 +13190,8 @@
         "Badigeonner d'huile d'olive et saupoudrer de paprika.",
         "Former les brochettes en alternant les ingrédients.",
         "Griller 15-20 min en retournant régulièrement."
-      ]
+      ],
+      "img": "img/illus/brochette-006.jpg"
     },
     {
       "id": "brochette:007",
@@ -12860,7 +13213,8 @@
         "Enfiler sur les brochettes.",
         "Griller 8-10 min en retournant une fois.",
         "Servir avec rondelles de citron vert et aneth."
-      ]
+      ],
+      "img": "img/illus/brochette-007.jpg"
     },
     {
       "id": "brochette:008",
@@ -12883,7 +13237,8 @@
         "Enfiler sur les brochettes.",
         "Griller ou cuire au four 200°C 20-25 min.",
         "Servir avec quartiers de citron et sauce raïta."
-      ]
+      ],
+      "img": "img/illus/brochette-008.jpg"
     },
     {
       "id": "brochette:009",
@@ -12903,7 +13258,8 @@
         "Enrouler chaque cube de melon d'une tranche de jambon cru.",
         "Enfiler sur de petites brochettes avec une feuille de basilic.",
         "Poivrer généreusement. Servir frais."
-      ]
+      ],
+      "img": "img/illus/brochette-009.jpg"
     },
     {
       "id": "brochette:010",
@@ -12926,7 +13282,8 @@
         "Alterner boeuf et champignons sur les brochettes.",
         "Griller 12-15 min selon la cuisson souhaitée.",
         "Parsemer de persil ciselé avant de servir."
-      ]
+      ],
+      "img": "img/illus/brochette-010.jpg"
     },
     {
       "id": "brochette:011",
@@ -12948,7 +13305,8 @@
         "Badigeonner d'huile d'olive et saupoudrer d'herbes.",
         "Former les brochettes en alternant les ingrédients.",
         "Griller 15 min jusqu'à ce que la mozzarella commence à fondre."
-      ]
+      ],
+      "img": "img/illus/brochette-011.jpg"
     },
     {
       "id": "brochette:012",
@@ -12971,7 +13329,8 @@
         "Former les brochettes en alternant les ingrédients.",
         "Griller 10-12 min en retournant à mi-cuisson.",
         "Le halloumi ne fond pas et doit dorer."
-      ]
+      ],
+      "img": "img/illus/brochette-012.jpg"
     },
     {
       "id": "brochette:013",
@@ -12994,7 +13353,8 @@
         "Mariner le porc 1 h minimum.",
         "Enfiler sur les brochettes.",
         "Griller 15-18 min en badigeonnant de marinade."
-      ]
+      ],
+      "img": "img/illus/brochette-013.jpg"
     },
     {
       "id": "brochette:014",
@@ -13017,7 +13377,8 @@
         "Alterner tomates cerises, olives, courgettes et feta sur les brochettes.",
         "Arroser d'huile d'olive et saupoudrer d'origan.",
         "Griller légèrement 5-8 min ou servir crues."
-      ]
+      ],
+      "img": "img/illus/brochette-014.jpg"
     },
     {
       "id": "brochette:015",
@@ -13039,7 +13400,8 @@
         "Enfiler sur les brochettes.",
         "Griller 3-4 min de chaque côté.",
         "Servir avec coriandre et rondelles de citron vert."
-      ]
+      ],
+      "img": "img/illus/brochette-015.jpg"
     },
     {
       "id": "brochette:016",
@@ -13061,7 +13423,8 @@
         "Mariner le poulet en cubes 30 min.",
         "Alterner poulet, maïs et morceaux de poivrons sur les brochettes.",
         "Griller 15 min en retournant régulièrement."
-      ]
+      ],
+      "img": "img/illus/brochette-016.jpg"
     },
     {
       "id": "brochette:017",
@@ -13082,7 +13445,8 @@
         "Alterner ananas, kiwi, fraises et mangue sur les brochettes.",
         "Décorer de feuilles de menthe fraîche.",
         "Servir frais immédiatement."
-      ]
+      ],
+      "img": "img/illus/brochette-017.jpg"
     },
     {
       "id": "brochette:018",
@@ -13104,7 +13468,8 @@
         "Mariner le poulet en cubes 30 min.",
         "Alterner poulet, poivrons et oignon sur les brochettes.",
         "Griller 15-18 min en retournant à mi-cuisson."
-      ]
+      ],
+      "img": "img/illus/brochette-018.jpg"
     },
     {
       "id": "brochette:019",
@@ -13127,7 +13492,8 @@
         "Enfiler sur les brochettes.",
         "Griller 12-15 min selon cuisson désirée.",
         "Repos 5 min avant de servir."
-      ]
+      ],
+      "img": "img/illus/brochette-019.jpg"
     },
     {
       "id": "brochette:020",
@@ -13149,7 +13515,8 @@
         "Badigeonner le porc de moutarde.",
         "Alterner porc, lardons et oignons sur les brochettes.",
         "Griller 20 min en retournant régulièrement jusqu'à belle coloration."
-      ]
+      ],
+      "img": "img/illus/brochette-020.jpg"
     },
     {
       "id": "millas:001",
@@ -13183,7 +13550,8 @@
         "Enfournez 50 à 60 min. Le dessus doit être doré et légèrement bruni, le centre encore moelleux.",
         "Laissez refroidir complètement : le millas se raffermit en refroidissant.",
         "Réfrigérez au moins 2 heures avant de servir. Découpez en carrés ou en losanges."
-      ]
+      ],
+      "img": "img/illus/millas-001.jpg"
     },
     {
       "id": "cocktail:exo01",
@@ -13204,7 +13572,8 @@
         "Verser le jus d'ananas sur des glaçons dans un grand verre.",
         "Ajouter la pulpe de passion et l'eau pétillante.",
         "Mélanger délicatement. Garnir de menthe fraîche."
-      ]
+      ],
+      "img": "img/illus/cocktail-exo01.jpg"
     },
     {
       "id": "cocktail:exo02",
@@ -13225,7 +13594,8 @@
         "Verser le jus de mangue sur des glaçons.",
         "Ajouter le jus de citron vert sucré.",
         "Compléter avec l'eau gazeuse. Garnir d'une rondelle de citron vert."
-      ]
+      ],
+      "img": "img/illus/cocktail-exo02.jpg"
     },
     {
       "id": "cocktail:exo03",
@@ -13246,7 +13616,8 @@
         "Ajouter le jus de citron et mélanger.",
         "Filtrer si désiré, verser sur des glaçons.",
         "Compléter avec l'eau pétillante. Garnir d'une fraise et basilic."
-      ]
+      ],
+      "img": "img/illus/cocktail-exo03.jpg"
     },
     {
       "id": "cocktail:exo04",
@@ -13267,7 +13638,8 @@
         "Presser le citron vert, écraser quelques feuilles de menthe.",
         "Mélanger jus de kiwi, citron vert et menthe.",
         "Verser sur glaçons et compléter avec l'eau gazeuse. Garnir de menthe."
-      ]
+      ],
+      "img": "img/illus/cocktail-exo04.jpg"
     },
     {
       "id": "cocktail:exo05",
@@ -13287,7 +13659,8 @@
         "Verser le jus d'orange sur des glaçons.",
         "Ajouter la pulpe de passion.",
         "Compléter avec l'eau pétillante. Mélanger et servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/cocktail-exo05.jpg"
     },
     {
       "id": "cocktail:exo06",
@@ -13308,7 +13681,8 @@
         "Verser sur des glaçons dans un grand verre.",
         "Ajouter l'eau gazeuse délicatement.",
         "Saupoudrer de noix de coco râpée. Garnir d'un morceau d'ananas."
-      ]
+      ],
+      "img": "img/illus/cocktail-exo06.jpg"
     },
     {
       "id": "cocktail:exo07",
@@ -13329,7 +13703,8 @@
         "Ajouter le jus de citron.",
         "Verser sur des glaçons et compléter avec l'eau pétillante.",
         "Garnir d'une rondelle de citron et de menthe fraîche."
-      ]
+      ],
+      "img": "img/illus/cocktail-exo07.jpg"
     },
     {
       "id": "cocktail:exo08",
@@ -13350,7 +13725,8 @@
         "Mélanger jus de framboise, jus d'ananas et citron vert.",
         "Verser sur des glaçons.",
         "Ajouter l'eau gazeuse. Garnir de framboises et citron vert."
-      ]
+      ],
+      "img": "img/illus/cocktail-exo08.jpg"
     },
     {
       "id": "cocktail:exo09",
@@ -13371,7 +13747,8 @@
         "Ajouter le jus de citron.",
         "Compléter avec l'eau pétillante.",
         "Garnir d'une cerise et d'une rondelle de citron. Ne pas mélanger pour l'effet dégradé."
-      ]
+      ],
+      "img": "img/illus/cocktail-exo09.jpg"
     },
     {
       "id": "cocktail:exo10",
@@ -13392,7 +13769,8 @@
         "Verser sur des glaçons dans un grand verre.",
         "Compléter avec l'eau gazeuse.",
         "Garnir de menthe fraîche et d'une tranche de pêche."
-      ]
+      ],
+      "img": "img/illus/cocktail-exo10.jpg"
     },
     {
       "id": "cocktail:exo11",
@@ -13414,7 +13792,8 @@
         "Mélanger jus d'ananas, jus de mangue et pulpe de passion.",
         "Verser sur des glaçons dans une grande carafe ou verres.",
         "Compléter avec l'eau pétillante. Décorer généreusement de fruits frais."
-      ]
+      ],
+      "img": "img/illus/cocktail-exo11.jpg"
     },
     {
       "id": "shake:011",
@@ -13433,7 +13812,8 @@
         "Mixer jusqu'à obtenir un mélange lisse et crémeux.",
         "Verser dans des grands verres bien froids.",
         "Décorer de cacahuètes concassées ou de beurre de cacahuète en filet."
-      ]
+      ],
+      "img": "img/illus/shake-011.jpg"
     },
     {
       "id": "shake:012",
@@ -13452,7 +13832,8 @@
         "Mettre la glace, le lait et la mangue dans un blender.",
         "Mixer jusqu'à obtenir un mélange lisse.",
         "Verser dans des verres et servir immédiatement. Décorer d'un dé de mangue."
-      ]
+      ],
+      "img": "img/illus/shake-012.jpg"
     },
     {
       "id": "shake:013",
@@ -13473,7 +13854,8 @@
         "Mixer jusqu'à obtenir une texture crémeuse.",
         "Verser dans des grands verres.",
         "Garnir de chantilly, copeaux de chocolat et feuilles de menthe."
-      ]
+      ],
+      "img": "img/illus/shake-013.jpg"
     },
     {
       "id": "cakesale:009",
@@ -13499,7 +13881,8 @@
         "Ajouter feta émiettée, tomates cerises coupées en deux et basilic ciselé.",
         "Verser dans un moule à cake beurré.",
         "Cuire 45-50 min jusqu'à ce qu'un couteau ressorte propre."
-      ]
+      ],
+      "img": "img/illus/cakesale-009.jpg"
     },
     {
       "id": "cakesale:010",
@@ -13524,7 +13907,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
         "Incorporer courgettes, chèvre émietté et menthe ciselée.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-010.jpg"
     },
     {
       "id": "cakesale:011",
@@ -13548,7 +13932,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
         "Incorporer le thon émietté, les olives coupées et le zeste de citron.",
         "Verser en moule beurré, cuire 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-011.jpg"
     },
     {
       "id": "cakesale:012",
@@ -13572,7 +13957,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
         "Incorporer jambon de dinde, emmental et ciboulette ciselée.",
         "Verser en moule beurré, cuire 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-012.jpg"
     },
     {
       "id": "cakesale:013",
@@ -13596,7 +13982,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
         "Incorporer poivrons et mozzarella en morceaux.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-013.jpg"
     },
     {
       "id": "cakesale:014",
@@ -13620,7 +14007,8 @@
         "Mélanger oeufs, lait, huile, fromage frais, farine, levure. Assaisonner.",
         "Incorporer le saumon fumé et l'aneth ciselé.",
         "Verser en moule beurré, cuire 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-014.jpg"
     },
     {
       "id": "cakesale:015",
@@ -13645,7 +14033,8 @@
         "Mélanger oeufs, lait, huile, farine, levure, parmesan. Assaisonner.",
         "Incorporer courgettes et tomates séchées coupées.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-015.jpg"
     },
     {
       "id": "cakesale:016",
@@ -13670,7 +14059,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner avec paprika.",
         "Incorporer poulet, maïs et poivron.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-016.jpg"
     },
     {
       "id": "cakesale:017",
@@ -13694,7 +14084,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
         "Incorporer feta, olives noires coupées en rondelles et origan.",
         "Verser en moule beurré, cuire 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-017.jpg"
     },
     {
       "id": "cakesale:018",
@@ -13719,7 +14110,8 @@
         "Mélanger oeufs, lait, huile, fromage frais, farine, levure. Assaisonner.",
         "Incorporer les carottes râpées et les herbes ciselées.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-018.jpg"
     },
     {
       "id": "cakesale:019",
@@ -13744,7 +14136,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
         "Incorporer crevettes et coriandre ciselée.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-019.jpg"
     },
     {
       "id": "cakesale:020",
@@ -13769,7 +14162,8 @@
         "Mélanger oeufs, lait, huile, ricotta, farine, levure. Assaisonner avec muscade.",
         "Incorporer épinards et pignons.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-020.jpg"
     },
     {
       "id": "cakesale:021",
@@ -13794,7 +14188,8 @@
         "Incorporer le chèvre émietté et les noix grossièrement concassées.",
         "Verser en moule beurré.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-021.jpg"
     },
     {
       "id": "cakesale:022",
@@ -13818,7 +14213,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
         "Incorporer thon émietté, tomates séchées et câpres.",
         "Verser en moule beurré, cuire 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-022.jpg"
     },
     {
       "id": "cakesale:023",
@@ -13843,7 +14239,8 @@
         "Mélanger oeufs, lait, huile, farine, levure, comté. Assaisonner.",
         "Incorporer le mélange poireaux-lardons.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-023.jpg"
     },
     {
       "id": "cakesale:024",
@@ -13868,7 +14265,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
         "Incorporer aubergines coupées, mozzarella et basilic.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-024.jpg"
     },
     {
       "id": "cakesale:025",
@@ -13893,7 +14291,8 @@
         "Mélanger oeufs, lait, huile, farine, levure, cheddar. Assaisonner.",
         "Incorporer le brocoli et les graines de tournesol.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-025.jpg"
     },
     {
       "id": "cakesale:026",
@@ -13917,7 +14316,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner avec herbes de Provence.",
         "Incorporer poulet, olives coupées et tomates confites.",
         "Verser en moule beurré, cuire 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-026.jpg"
     },
     {
       "id": "cakesale:027",
@@ -13942,7 +14342,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner.",
         "Incorporer feta, courgettes et menthe ciselée.",
         "Cuire au four 180°C 45-50 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-027.jpg"
     },
     {
       "id": "cakesale:028",
@@ -13968,7 +14369,8 @@
         "Mélanger oeufs, lait, huile, farine, levure. Assaisonner avec herbes de Provence.",
         "Incorporer les légumes poêlés.",
         "Cuire au four 180°C 50-55 min."
-      ]
+      ],
+      "img": "img/illus/cakesale-028.jpg"
     },
     {
       "id": "oeuf:001",
@@ -13988,7 +14390,8 @@
         "Cuire à feu très doux en remuant constamment avec une spatule.",
         "Retirer du feu dès que les oeufs commencent à prendre – ils continueront à cuire.",
         "Incorporer la crème fraîche hors du feu pour stopper la cuisson. Servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/oeuf-001.jpg"
     },
     {
       "id": "oeuf:002",
@@ -14009,7 +14412,8 @@
         "Couper les oeufs en morceaux.",
         "Mélanger avec mayonnaise, moutarde, sel et poivre.",
         "Parsemer de ciboulette ciselée. Servir frais."
-      ]
+      ],
+      "img": "img/illus/oeuf-002.jpg"
     },
     {
       "id": "oeuf:003",
@@ -14031,7 +14435,8 @@
         "Porter de l'eau frémissante à ébullition avec un trait de vinaigre blanc.",
         "Casser chaque oeuf dans un ramequin, créer un tourbillon dans l'eau et y glisser l'oeuf 3 min.",
         "Étaler l'avocat sur les toasts, déposer l'oeuf poché et terminer avec fleur de sel."
-      ]
+      ],
+      "img": "img/illus/oeuf-003.jpg"
     },
     {
       "id": "oeuf:004",
@@ -14053,7 +14458,8 @@
         "Pocher les oeufs 3 min dans de l'eau frémissante vinaigrée.",
         "Disposer le jambon sur chaque moitié de muffin.",
         "Poser un oeuf poché, napper de sauce hollandaise et garnir de ciboulette."
-      ]
+      ],
+      "img": "img/illus/oeuf-004.jpg"
     },
     {
       "id": "oeuf:005",
@@ -14076,7 +14482,8 @@
         "Faire revenir les épinards et tomates cerises dans une poêle allant au four avec l'huile d'olive.",
         "Battre les oeufs, assaisonner, verser dans la poêle. Parsemer de feta et basilic.",
         "Cuire 3 min sur feu moyen puis enfourner 10-12 min jusqu'à prise complète."
-      ]
+      ],
+      "img": "img/illus/oeuf-005.jpg"
     },
     {
       "id": "oeuf:006",
@@ -14095,7 +14502,8 @@
         "Plonger les oeufs délicatement avec une cuillère. Cuire exactement 6 minutes.",
         "Transfert immédiat dans un bain d'eau froide 2 min pour stopper la cuisson.",
         "Écaler délicatement. Le blanc est pris, le jaune doit être fondant. Assaisonner."
-      ]
+      ],
+      "img": "img/illus/oeuf-006.jpg"
     },
     {
       "id": "oeuf:007",
@@ -14118,7 +14526,8 @@
         "Pocher les oeufs 3 min dans eau frémissante vinaigrée.",
         "Disposer les épinards crémeux dans des assiettes.",
         "Déposer les oeufs pochés, parsemer de parmesan. Servir chaud."
-      ]
+      ],
+      "img": "img/illus/oeuf-007.jpg"
     },
     {
       "id": "oeuf:008",
@@ -14138,7 +14547,8 @@
         "Casser les oeufs délicatement dans la poêle.",
         "Cuire 2-3 min jusqu'à ce que les bords du blanc soient dorés et croustillants.",
         "Le jaune doit rester coulant. Assaisonner de fleur de sel et poivre."
-      ]
+      ],
+      "img": "img/illus/oeuf-008.jpg"
     },
     {
       "id": "oeuf:009",
@@ -14160,7 +14570,8 @@
         "Couper en deux dans la longueur, extraire les jaunes.",
         "Écraser les jaunes avec mayonnaise, moutarde, sel, poivre.",
         "Garnir les blancs avec la farce (poche à douille pour un beau rendu). Décorer de persil et paprika."
-      ]
+      ],
+      "img": "img/illus/oeuf-009.jpg"
     },
     {
       "id": "oeuf:010",
@@ -14182,7 +14593,8 @@
         "Couper les légumes en petits dés. Battre les oeufs avec le lait, sel, poivre.",
         "Répartir les légumes dans les moules, verser l'appareil à oeufs dessus.",
         "Parsemer de fromage. Cuire 20-25 min jusqu'à dorure."
-      ]
+      ],
+      "img": "img/illus/oeuf-010.jpg"
     },
     {
       "id": "oeuf:011",
@@ -14203,7 +14615,8 @@
         "Cuire à feu doux dans l'huile d'olive 20 min jusqu'à tendreté. Égoutter.",
         "Battre les oeufs avec sel, incorporer les pommes de terre et oignon.",
         "Cuire dans une poêle huilée à feu moyen 5 min, retourner avec une assiette et cuire l'autre face 3-5 min."
-      ]
+      ],
+      "img": "img/illus/oeuf-011.jpg"
     },
     {
       "id": "oeuf:012",
@@ -14229,7 +14642,8 @@
         "Ajouter ail, cumin, paprika, tomates concassées. Mijoter 15 min.",
         "Creuser des puits dans la sauce, y casser les oeufs délicatement.",
         "Couvrir et cuire 8-10 min jusqu'à ce que les blancs soient pris. Parsemer d'herbes fraîches."
-      ]
+      ],
+      "img": "img/illus/oeuf-012.jpg"
     },
     {
       "id": "mocktail:001",
@@ -14250,7 +14664,8 @@
         "Presser les citrons verts, ajouter le jus.",
         "Remplir de glaçons, compléter avec l'eau gazeuse.",
         "Mélanger délicatement. Garnir de feuilles de menthe et citron vert."
-      ]
+      ],
+      "img": "img/illus/mocktail-001.jpg"
     },
     {
       "id": "mocktail:002",
@@ -14271,7 +14686,8 @@
         "Mixer jusqu'à obtenir une texture crémeuse et homogène.",
         "Verser dans des grands verres.",
         "Décorer d'ananas frais et d'une paille."
-      ]
+      ],
+      "img": "img/illus/mocktail-002.jpg"
     },
     {
       "id": "mocktail:003",
@@ -14292,7 +14708,8 @@
         "Mélanger jus de fraise, jus de citron et sirop de fraise.",
         "Verser sur glaçons et ajouter l'eau pétillante.",
         "Garnir d'une fraise fraîche sur le bord du verre."
-      ]
+      ],
+      "img": "img/illus/mocktail-003.jpg"
     },
     {
       "id": "mocktail:004",
@@ -14313,7 +14730,8 @@
         "Mélanger jus d'orange, jus de gingembre et miel.",
         "Verser sur des glaçons et compléter avec l'eau pétillante.",
         "Garnir d'une rondelle d'orange et d'un morceau de gingembre."
-      ]
+      ],
+      "img": "img/illus/mocktail-004.jpg"
     },
     {
       "id": "mocktail:005",
@@ -14334,7 +14752,8 @@
         "Mélanger avec jus de citron vert et sirop de sucre.",
         "Verser sur des glaçons avec feuilles de menthe.",
         "Décorer de menthe fraîche et d'un cube de pastèque."
-      ]
+      ],
+      "img": "img/illus/mocktail-005.jpg"
     },
     {
       "id": "mocktail:006",
@@ -14355,7 +14774,8 @@
         "Verser le jus d'orange et le jus d'ananas mélangés.",
         "Verser délicatement le sirop de grenadine sur le bord – il descend naturellement créant un dégradé.",
         "Ne pas mélanger. Garnir d'une rondelle d'orange."
-      ]
+      ],
+      "img": "img/illus/mocktail-006.jpg"
     },
     {
       "id": "mocktail:007",
@@ -14376,7 +14796,8 @@
         "Mélanger jus de kiwi, jus de citron vert et sirop de sucre.",
         "Verser sur des glaçons et compléter avec l'eau pétillante.",
         "Garnir d'une rondelle de kiwi et citron vert."
-      ]
+      ],
+      "img": "img/illus/mocktail-007.jpg"
     },
     {
       "id": "mocktail:008",
@@ -14397,7 +14818,8 @@
         "Mélanger jus de fruits, citron et sirop de sucre.",
         "Verser sur glaçons et compléter avec l'eau pétillante.",
         "Garnir de fruits rouges frais."
-      ]
+      ],
+      "img": "img/illus/mocktail-008.jpg"
     },
     {
       "id": "mocktail:009",
@@ -14419,7 +14841,8 @@
         "Mélanger jus de citron, sirop de sucre et eau fraîche.",
         "Ajouter le concombre et les feuilles de menthe.",
         "Verser sur glaçons. Laisser infuser 10 min au frais avant de servir."
-      ]
+      ],
+      "img": "img/illus/mocktail-009.jpg"
     },
     {
       "id": "mocktail:010",
@@ -14440,7 +14863,8 @@
         "Extraire la pulpe des fruits de la passion.",
         "Mélanger jus de mangue, passion, citron vert et sirop de sucre.",
         "Verser sur des glaçons. Garnir de pulpe de passion."
-      ]
+      ],
+      "img": "img/illus/mocktail-010.jpg"
     },
     {
       "id": "mocktail:011",
@@ -14462,7 +14886,8 @@
         "Ajouter jus de citron, basilic ciselé et sirop de sucre. Mélanger.",
         "Verser sur des glaçons et compléter avec l'eau pétillante.",
         "Garnir d'une tranche de pomme et de basilic."
-      ]
+      ],
+      "img": "img/illus/mocktail-011.jpg"
     },
     {
       "id": "mocktail:012",
@@ -14483,7 +14908,8 @@
         "Verser sur des glaçons dans de grands verres.",
         "Décorer d'un morceau d'ananas frais et d'une paille.",
         "Servir immédiatement bien frais."
-      ]
+      ],
+      "img": "img/illus/mocktail-012.jpg"
     },
     {
       "id": "panini:001",
@@ -14503,7 +14929,8 @@
         "Garnir de jambon et de tranches de raclette.",
         "Appuyer dans un grill panini préchauffé 4-5 min jusqu'à dorure et fromage fondant.",
         "Servir immédiatement bien chaud."
-      ]
+      ],
+      "img": "img/illus/panini-001.jpg"
     },
     {
       "id": "panini:002",
@@ -14524,7 +14951,8 @@
         "Garnir de poulet, mozzarella et rondelles de tomates.",
         "Griller au panini 4-5 min jusqu'à ce que la mozzarella fonde.",
         "Servir aussitôt."
-      ]
+      ],
+      "img": "img/illus/panini-002.jpg"
     },
     {
       "id": "panini:003",
@@ -14545,7 +14973,8 @@
         "Caraméliser l'oignon émincé 10 min à feu doux.",
         "Garnir les pains de steak, cheddar, oignons et sauce barbecue.",
         "Griller au panini 4-5 min."
-      ]
+      ],
+      "img": "img/illus/panini-003.jpg"
     },
     {
       "id": "panini:004",
@@ -14566,7 +14995,8 @@
         "Garnir les pains de ce mélange et parsemer de fromage râpé.",
         "Griller au panini 4-5 min jusqu'à dorure.",
         "Servir chaud."
-      ]
+      ],
+      "img": "img/illus/panini-004.jpg"
     },
     {
       "id": "panini:005",
@@ -14586,7 +15016,8 @@
         "Répartir les 4 fromages à l'intérieur des pains panini.",
         "Fermer et griller 4-5 min au panini jusqu'à ce que tous les fromages soient bien fondus.",
         "Servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/panini-005.jpg"
     },
     {
       "id": "panini:006",
@@ -14607,7 +15038,8 @@
         "Faire suer l'oignon émincé 3 min.",
         "Garnir les pains de poulet au curry, oignon et fromage.",
         "Griller au panini 4-5 min."
-      ]
+      ],
+      "img": "img/illus/panini-006.jpg"
     },
     {
       "id": "panini:007",
@@ -14630,7 +15062,8 @@
         "Répartir les légumes grillés et le chèvre dans les pains.",
         "Griller au panini 4-5 min.",
         "Servir chaud."
-      ]
+      ],
+      "img": "img/illus/panini-007.jpg"
     },
     {
       "id": "panini:008",
@@ -14651,7 +15084,8 @@
         "Étaler ce mélange sur les pains.",
         "Ajouter les tranches de saumon fumé.",
         "Griller légèrement 2-3 min (le saumon ne doit pas trop cuire). Servir."
-      ]
+      ],
+      "img": "img/illus/panini-008.jpg"
     },
     {
       "id": "panini:009",
@@ -14673,7 +15107,8 @@
         "Ajouter le poulet, les tomates et la sauce yaourt.",
         "Griller au panini 4-5 min jusqu'à dorure.",
         "Servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/panini-009.jpg"
     },
     {
       "id": "panini:010",
@@ -14694,7 +15129,8 @@
         "Garnir de tranches de dinde, fromage et salade.",
         "Griller au panini 4-5 min.",
         "Servir avec les feuilles de salade fraîches qui restent croquantes."
-      ]
+      ],
+      "img": "img/illus/panini-010.jpg"
     },
     {
       "id": "panini:011",
@@ -14713,7 +15149,8 @@
         "Disposer les rondelles de banane.",
         "Fermer et griller au panini 3-4 min jusqu'à légère dorure.",
         "Servir chaud, le Nutella bien fondant."
-      ]
+      ],
+      "img": "img/illus/panini-011.jpg"
     },
     {
       "id": "panini:012",
@@ -14734,7 +15171,8 @@
         "Faire suer l'oignon 3 min.",
         "Garnir les pains de poulet BBQ, oignons et cheddar.",
         "Griller au panini 4-5 min jusqu'à ce que le cheddar fonde."
-      ]
+      ],
+      "img": "img/illus/panini-012.jpg"
     },
     {
       "id": "samoussa:001",
@@ -14755,7 +15193,8 @@
         "Couper les feuilles de brick en deux. Déposer une cuillère de farce à la base.",
         "Plier en triangle en rabattant les bords. Coller avec un peu d'eau.",
         "Badigeonner d'huile et cuire au four 180°C 15-20 min jusqu'à dorure."
-      ]
+      ],
+      "img": "img/illus/samoussa-001.jpg"
     },
     {
       "id": "samoussa:002",
@@ -14777,7 +15216,8 @@
         "Laisser refroidir. Former les samoussas en triangle avec les feuilles de brick.",
         "Badigeonner d'huile d'olive ou beurre fondu.",
         "Cuire au four 180°C 15-20 min jusqu'à dorure et croustillant."
-      ]
+      ],
+      "img": "img/illus/samoussa-002.jpg"
     },
     {
       "id": "samoussa:003",
@@ -14798,7 +15238,8 @@
         "Mélanger avec parmesan, sel et poivre. Laisser refroidir.",
         "Former les samoussas en triangle avec les feuilles de brick.",
         "Cuire au four 180°C 15-20 min."
-      ]
+      ],
+      "img": "img/illus/samoussa-003.jpg"
     },
     {
       "id": "samoussa:004",
@@ -14820,7 +15261,8 @@
         "Ajouter le bœuf haché, le paprika, sel et poivre. Cuire 8 min. Laisser refroidir.",
         "Former les samoussas en triangle avec les feuilles de brick.",
         "Badigeonner d'huile et cuire au four 180°C 20 min."
-      ]
+      ],
+      "img": "img/illus/samoussa-004.jpg"
     },
     {
       "id": "samoussa:005",
@@ -14842,7 +15284,8 @@
         "Former les samoussas en triangle avec les feuilles de brick.",
         "Badigeonner d'huile d'olive.",
         "Cuire au four 180°C 15 min jusqu'à dorure."
-      ]
+      ],
+      "img": "img/illus/samoussa-005.jpg"
     },
     {
       "id": "samoussa:006",
@@ -14863,7 +15306,8 @@
         "Mélanger poire et chocolat. Répartir sur les feuilles de brick.",
         "Former les samoussas en triangle, badigeonner de beurre fondu.",
         "Cuire au four 180°C 15 min. Saupoudrer de sucre glace."
-      ]
+      ],
+      "img": "img/illus/samoussa-006.jpg"
     },
     {
       "id": "samoussa:007",
@@ -14885,7 +15329,8 @@
         "Former les samoussas en triangle avec les feuilles de brick.",
         "Badigeonner d'huile d'olive.",
         "Cuire au four 180°C 15-20 min jusqu'à légère dorure."
-      ]
+      ],
+      "img": "img/illus/samoussa-007.jpg"
     },
     {
       "id": "samoussa:008",
@@ -14907,7 +15352,8 @@
         "Mélanger avec la feta émiettée et poivrer. Laisser refroidir.",
         "Former les samoussas en triangle avec les feuilles de brick.",
         "Badigeonner d'huile et cuire au four 180°C 20 min jusqu'à dorure."
-      ]
+      ],
+      "img": "img/illus/samoussa-008.jpg"
     },
     {
       "id": "cookie:kinder01",
@@ -14936,7 +15382,8 @@
         "Déposer quelques morceaux de Kinder Bueno sur le dessus de chaque cookie.",
         "Enfourner 10 à 12 min – les bords doivent être dorés mais le centre encore mou.",
         "Laisser refroidir quelques minutes avant de déguster : le coeur est encore fondant."
-      ]
+      ],
+      "img": "img/illus/cookie-kinder01.jpg"
     },
     {
       "id": "vietnam:001",
@@ -14973,7 +15420,8 @@
         "Émincer les oignons nouveaux en fines lamelles.",
         "Répartir les nouilles dans les bols, ajouter la viande émincée, pousses de soja, épinards et oignons nouveaux.",
         "Verser le bouillon brûlant par-dessus. Servir avec citron vert et condiments (sauce poisson, soja, sriracha)."
-      ]
+      ],
+      "img": "img/illus/vietnam-001.jpg"
     },
     {
       "id": "crepe:001",
@@ -14993,7 +15441,8 @@
         "Garnir de tranches de jambon et d'emmental râpé.",
         "Plier en quatre ou rouler.",
         "Faire chauffer à la poêle 2 min de chaque côté jusqu'à ce que le fromage fonde."
-      ]
+      ],
+      "img": "img/illus/crepe-001.jpg"
     },
     {
       "id": "crepe:002",
@@ -15014,7 +15463,8 @@
         "Étaler ce mélange sur chaque crêpe.",
         "Ajouter les tranches de saumon fumé.",
         "Rouler ou plier. Servir frais."
-      ]
+      ],
+      "img": "img/illus/crepe-002.jpg"
     },
     {
       "id": "crepe:003",
@@ -15035,7 +15485,8 @@
         "Parsemer de noix concassées.",
         "Arroser d'un filet de miel.",
         "Plier en quatre, réchauffer 2 min à la poêle. Garnir de roquette."
-      ]
+      ],
+      "img": "img/illus/crepe-003.jpg"
     },
     {
       "id": "crepe:004",
@@ -15056,7 +15507,8 @@
         "Napper chaque crêpe de crème fraîche.",
         "Garnir du mélange pommes de terre-lardons et d'emmental râpé.",
         "Plier et faire gratiner à la poêle 3 min."
-      ]
+      ],
+      "img": "img/illus/crepe-004.jpg"
     },
     {
       "id": "crepe:005",
@@ -15078,7 +15530,8 @@
         "Garnir chaque crêpe d'épinards et de chèvre émietté.",
         "Arroser d'un filet de miel.",
         "Plier et réchauffer à la poêle 2 min."
-      ]
+      ],
+      "img": "img/illus/crepe-005.jpg"
     },
     {
       "id": "crepe:006",
@@ -15098,7 +15551,8 @@
         "Ajouter les rondelles de cornichons.",
         "Plier en quatre.",
         "Faire fondre à la poêle 3 min à feu moyen."
-      ]
+      ],
+      "img": "img/illus/crepe-006.jpg"
     },
     {
       "id": "crepe:007",
@@ -15119,7 +15573,8 @@
         "Garnir chaque crêpe de pommes de terre, jambon, reblochon et oignons.",
         "Plier et faire fondre à la poêle 3-4 min.",
         "Servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/crepe-007.jpg"
     },
     {
       "id": "crepe:008",
@@ -15140,7 +15595,8 @@
         "Répartir les 4 fromages sur chaque crêpe.",
         "Plier en quatre et faire fondre à la poêle ou au four 3 min.",
         "Servir aussitôt quand les fromages sont bien fondants."
-      ]
+      ],
+      "img": "img/illus/crepe-008.jpg"
     },
     {
       "id": "crepe:009",
@@ -15163,7 +15619,8 @@
         "Garnir les crêpes du mélange thon, tomates, oeufs durs et olives.",
         "Assaisonner de sel et poivre.",
         "Plier et servir froid ou légèrement réchauffé."
-      ]
+      ],
+      "img": "img/illus/crepe-009.jpg"
     },
     {
       "id": "crepe:010",
@@ -15185,7 +15642,8 @@
         "Incorporer la crème fraîche. Laisser mijoter 5 min.",
         "Garnir les crêpes de ce mélange.",
         "Plier et réchauffer à la poêle 2 min."
-      ]
+      ],
+      "img": "img/illus/crepe-010.jpg"
     },
     {
       "id": "crepe:011",
@@ -15207,7 +15665,8 @@
         "Ajouter les tomates cerises coupées et le basilic.",
         "Arroser d'un filet d'huile d'olive.",
         "Plier et réchauffer légèrement. Servir."
-      ]
+      ],
+      "img": "img/illus/crepe-011.jpg"
     },
     {
       "id": "crepe:012",
@@ -15229,7 +15688,8 @@
         "Garnir les crêpes de pommes de terre-lardons, reblochon et raclette.",
         "Plier et faire fondre à la poêle couverte 4 min.",
         "Poivrer généreusement."
-      ]
+      ],
+      "img": "img/illus/crepe-012.jpg"
     },
     {
       "id": "crepe:013",
@@ -15251,7 +15711,8 @@
         "Garnir de salade, tomates en rondelles, jambon et fromage râpé.",
         "Rouler les crêpes et les fixer avec un pic.",
         "Servir frais, coupé en tronçons."
-      ]
+      ],
+      "img": "img/illus/crepe-013.jpg"
     },
     {
       "id": "crepe:014",
@@ -15273,7 +15734,8 @@
         "Ajouter le jambon et les 3 fromages râpés ou en tranches.",
         "Plier en quatre.",
         "Faire fondre à la poêle couverte 3-4 min."
-      ]
+      ],
+      "img": "img/illus/crepe-014.jpg"
     },
     {
       "id": "crepe:015",
@@ -15295,7 +15757,8 @@
         "Incorporer la crème fraîche, mijoter 5 min.",
         "Garnir les crêpes de ce mélange et ajouter des tranches de reblochon.",
         "Plier et faire fondre à la poêle couverte 4 min."
-      ]
+      ],
+      "img": "img/illus/crepe-015.jpg"
     },
     {
       "id": "crepe:016",
@@ -15318,7 +15781,8 @@
         "Déglacer au vin blanc, ajouter la crème fraîche. Réduire 5 min.",
         "Garnir les crêpes de cette préparation.",
         "Plier et réchauffer 2 min à la poêle."
-      ]
+      ],
+      "img": "img/illus/crepe-016.jpg"
     },
     {
       "id": "crepe:017",
@@ -15340,7 +15804,8 @@
         "Étaler l'avocat sur chaque crêpe.",
         "Ajouter les tranches de saumon fumé et l'aneth.",
         "Rouler et servir frais."
-      ]
+      ],
+      "img": "img/illus/crepe-017.jpg"
     },
     {
       "id": "crepe:018",
@@ -15361,7 +15826,8 @@
         "Cuire les oeufs au plat.",
         "Garnir chaque crêpe de cheddar, bacon et oeuf.",
         "Plier et faire fondre le cheddar à la poêle couverte 2 min."
-      ]
+      ],
+      "img": "img/illus/crepe-018.jpg"
     },
     {
       "id": "crepe:019",
@@ -15384,7 +15850,8 @@
         "Réchauffer à la poêle 3 min à feu doux.",
         "Garnir les crêpes de cette préparation et parsemer d'aneth.",
         "Plier et servir immédiatement."
-      ]
+      ],
+      "img": "img/illus/crepe-019.jpg"
     },
     {
       "id": "crepe:020",
@@ -15406,7 +15873,8 @@
         "Garnir chaque crêpe de courgettes grillées et chèvre émietté.",
         "Ajouter quelques feuilles de menthe fraîche.",
         "Plier et réchauffer légèrement. Servir."
-      ]
+      ],
+      "img": "img/illus/crepe-020.jpg"
     },
     {
       "id": "crepe:021",
@@ -15428,7 +15896,8 @@
         "Ajouter la mozzarella, le jambon et les tomates cerises coupées.",
         "Plier et faire fondre à la poêle 3 min.",
         "Garnir de basilic frais. Servir."
-      ]
+      ],
+      "img": "img/illus/crepe-021.jpg"
     },
     {
       "id": "crepe:022",
@@ -15451,7 +15920,8 @@
         "Ajouter 2 cuillères de crème fraîche, mélanger.",
         "Garnir les crêpes de champignons et d'emmental.",
         "Plier et réchauffer 2 min à la poêle."
-      ]
+      ],
+      "img": "img/illus/crepe-022.jpg"
     },
     {
       "id": "crepe:023",
@@ -15473,7 +15943,8 @@
         "Mélanger épinards, ricotta, parmesan et muscade. Assaisonner.",
         "Garnir chaque crêpe de cette préparation.",
         "Plier et réchauffer 2 min à la poêle."
-      ]
+      ],
+      "img": "img/illus/crepe-023.jpg"
     },
     {
       "id": "crepe:024",
@@ -15496,7 +15967,8 @@
         "Ajouter le poulet émincé et la crème fraîche. Mijoter 5 min.",
         "Parsemer de persil. Garnir les crêpes.",
         "Plier et réchauffer 2 min à la poêle."
-      ]
+      ],
+      "img": "img/illus/crepe-024.jpg"
     },
     {
       "id": "crepe:025",
@@ -15520,7 +15992,8 @@
         "Assaisonner de sel et poivre.",
         "Garnir les crêpes de ratatouille.",
         "Plier et réchauffer 2 min à la poêle."
-      ]
+      ],
+      "img": "img/illus/crepe-025.jpg"
     },
     {
       "id": "belgique:001",
@@ -15549,7 +16022,8 @@
         "Ajouter délicatement le sucre perlé à la pâte levée sans trop travailler.",
         "Former des boules de pâte d'environ 80 g.",
         "Cuire dans un gaufrier bien chaud 3 à 5 min jusqu'à belle dorure. Ne pas saupoudrer de sucre après : le sucre perlé caramélise naturellement dans le gaufrier."
-      ]
+      ],
+      "img": "img/illus/belgique-001.jpg"
     },
     {
       "id": "tapas:010",
@@ -15580,7 +16054,8 @@
         "Déposer des cuillerées de pâte dans l'huile chaude et aplatir légèrement.",
         "Frire 2 à 3 min de chaque côté jusqu'à dorure croustillante.",
         "Égoutter sur du papier absorbant et servir chaud avec une sauce au yaourt et à l'ail ou de l'aïoli."
-      ]
+      ],
+      "img": "img/illus/tapas-010.jpg"
     },
     {
       "id": "moule:001",
@@ -15779,7 +16254,8 @@
         "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
         "Retirer les moules, filtrer le jus et le remettre avec la crème.",
         "Faire réduire 2 min, napper les moules et les poireaux, servir chaud."
-      ]
+      ],
+      "img": "img/illus/moule-008.jpg"
     },
     {
       "id": "moule:009",
@@ -15802,7 +16278,8 @@
         "Dans la même casserole, cuire les moules à couvert 4-5 min à feu vif.",
         "Ajouter les champignons aux moules, mélanger.",
         "Parsemer de persil haché et servir."
-      ]
+      ],
+      "img": "img/illus/moule-009.jpg"
     },
     {
       "id": "moule:010",
@@ -15825,7 +16302,8 @@
         "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
         "Dès qu'elles sont ouvertes, parsemer généreusement d'herbes fraîches.",
         "Poivrer et servir aussitôt."
-      ]
+      ],
+      "img": "img/illus/moule-010.jpg"
     },
     {
       "id": "moule:011",
@@ -16260,7 +16738,8 @@
         "Fariner le plan de travail et étaler la pâte en rectangle. Beurrer et huiler la plaque de cuisson.",
         "Déposer la pâte sur la plaque. Répartir les légumes dessus et arroser d'huile d'olive.",
         "Cuire au four à 200°C pendant 25-30 min. Servir froid."
-      ]
+      ],
+      "img": "img/illus/majorque-001.jpg"
     },
     {
       "id": "majorque:002",
@@ -16280,7 +16759,8 @@
         "Étaler généreusement la sobrassada sur chaque portion.",
         "Arroser de miel.",
         "Passer sous le gril jusqu'à dorure. Servir chaud."
-      ]
+      ],
+      "img": "img/illus/majorque-002.jpg"
     },
     {
       "id": "majorque:003",
@@ -16306,7 +16786,8 @@
         "Prélever des portions de pâte et les étaler en ronds de 10 cm de diamètre. Saupoudrer de farine.",
         "À la cuillère, déposer la farce sur chaque rond. Refermer en demi-lune en pinçant bien les bords.",
         "Disposer sur un plat allant au four huilé et cuire à 180°C pendant 25 min. Servir chaud ou froid."
-      ]
+      ],
+      "img": "img/illus/majorque-003.jpg"
     },
     {
       "id": "majorque:004",
@@ -16328,7 +16809,8 @@
         "Saler légèrement les jaunes.",
         "Cuire au four 6-8 min jusqu'à ce que les blancs soient pris mais les jaunes encore un peu coulants.",
         "Servir accompagné de pain."
-      ]
+      ],
+      "img": "img/illus/majorque-004.jpg"
     },
     {
       "id": "majorque:005",
@@ -16355,7 +16837,8 @@
         "Étaler la pâte sur une plaque huilée. Disposer les abricots sur la pâte. Arroser d'huile d'olive.",
         "Cuire au four à 180°C pendant environ 30 min.",
         "Laisser refroidir et saupoudrer de sucre glace."
-      ]
+      ],
+      "img": "img/illus/majorque-005.jpg"
     },
     {
       "id": "majorque:006",
@@ -16380,7 +16863,8 @@
         "Découper à l'emporte-pièce en forme d'étoile ou de fleur.",
         "Disposer sur une plaque huilée et cuire au four à 180°C pendant environ 20 min.",
         "Laisser refroidir et saupoudrer de sucre glace."
-      ]
+      ],
+      "img": "img/illus/majorque-006.jpg"
     },
     {
       "id": "majorque:007",
@@ -16404,7 +16888,8 @@
         "Monter les blancs en neige ferme. Les incorporer délicatement à la préparation avec des mouvements circulaires.",
         "Beurrer une terrine (greixonera) ou un plat en terre cuite. Y verser la préparation.",
         "Cuire au four environ 45 min jusqu'à ce que la tarte soit prise. Servir tiède ou froid. On peut saupoudrer de cannelle avant cuisson."
-      ]
+      ],
+      "img": "img/illus/majorque-007.jpg"
     },
     {
       "id": "majorque:008",
@@ -16431,7 +16916,8 @@
         "Replier en demi-lune et pincer ou souder avec une fourchette.",
         "Disposer sur plaque et cuire au four à 180°C pendant 15-20 min jusqu'à légère dorure.",
         "Laisser refroidir et saupoudrer avec le sucre glace restant."
-      ]
+      ],
+      "img": "img/illus/majorque-008.jpg"
     },
     {
       "id": "majorque:009",
@@ -16462,7 +16948,8 @@
         "Retirer du moule, laisser refroidir et saupoudrer de sucre glace.",
         "Pour la glace : faire bouillir le lait avec le zeste de citron et la cannelle. Égoutter. Dans un bol, mélanger le lait filtré avec les amandes moulues. Passer si nécessaire.",
         "Mettre au congélateur. Remuer de temps en temps pour éviter la cristallisation. Servir en boules avec le gâteau."
-      ]
+      ],
+      "img": "img/illus/majorque-009.jpg"
     },
     {
       "id": "majorque:010",
@@ -16493,7 +16980,8 @@
         "Dans une cocotte en terre, faire revenir l'oignon dans l'huile. Quand il est transparent, ajouter les tomates râpées, laisser mijoter quelques minutes.",
         "Ajouter le vin et le paprika. Puis les calmars farcis entiers, les gousses d'ail entières. Saler, poivrer.",
         "Couvrir d'eau. Bien mélanger. Laisser mijoter très doucement pendant 60 min."
-      ]
+      ],
+      "img": "img/illus/majorque-010.jpg"
     },
     {
       "id": "majorque:011",
@@ -16520,7 +17008,8 @@
         "Dans la même cocotte, chauffer de l'huile propre. Faire revenir l'ail et, quand doré, ajouter les poivrons. Laisser mijoter quelques minutes.",
         "Ajouter les tomates, mélanger et laisser mijoter jusqu'à ce que les poivrons soient tendres.",
         "En fin de cuisson, ajouter le persil et le poisson. Bien mélanger et servir chaud."
-      ]
+      ],
+      "img": "img/illus/majorque-011.jpg"
     },
     {
       "id": "majorque:012",
@@ -16552,7 +17041,8 @@
         "Ajouter un peu d'huile et faire revenir tous les légumes sauf les pommes de terre avec les gousses d'ail entières, sel et poivre.",
         "Quand les légumes sont tendres, remettre le poisson et les fruits de mer.",
         "Dans une poêle séparée, faire frire les pommes de terre. Les ajouter à la cocotte. Bien mélanger et servir chaud."
-      ]
+      ],
+      "img": "img/illus/majorque-012.jpg"
     },
     {
       "id": "majorque:013",
@@ -16577,7 +17067,8 @@
         "Rouler et former une spirale. Laisser reposer dans un endroit tiède pour doubler de volume.",
         "Huiler une plaque à pâtisserie. Déposer l'ensaimada. Cuire à feu moyen jusqu'à croustillant.",
         "Laisser refroidir et saupoudrer de sucre glace."
-      ]
+      ],
+      "img": "img/illus/majorque-013.jpg"
     },
     {
       "id": "majorque:014",
@@ -16604,7 +17095,8 @@
         "Former 8 boules. Étaler chaque boule, la couper en deux et la mouler comme une petite coupelle de 10-15 cm. Garnir avec la farce à l'agneau. Couvrir avec l'autre moitié de pâte (aussi ronde). Fermer en pinçant les deux parties.",
         "Disposer dans un plat allant au four. Faire un petit trou au centre de chaque chausson pour laisser échapper la vapeur.",
         "Cuire au four préchauffé à 180°C pendant 30 min."
-      ]
+      ],
+      "img": "img/illus/majorque-014.jpg"
     },
     {
       "id": "pizza:001",
@@ -16627,7 +17119,8 @@
         "Dégazer, former une boule, étaler et garnir selon votre goût."
       ],
       "min": 90,
-      "t": "Pâte à Pizza Classique"
+      "t": "Pâte à Pizza Classique",
+      "img": "img/illus/pizza-001.jpg"
     },
     {
       "id": "pizza:002",
@@ -16648,7 +17141,8 @@
         "Étaler à la main sans rouleau en poussant l'air vers les bords pour former la corniche."
       ],
       "min": 120,
-      "t": "Pâte à Pizza Napolitaine"
+      "t": "Pâte à Pizza Napolitaine",
+      "img": "img/illus/pizza-002.jpg"
     },
     {
       "id": "pizza:003",
@@ -16671,7 +17165,8 @@
         "Précuire 5 min à 240°C avant de garnir pour garantir le croustillant."
       ],
       "min": 60,
-      "t": "Pâte à Pizza Rapide à l'Huile d'Olive"
+      "t": "Pâte à Pizza Rapide à l'Huile d'Olive",
+      "img": "img/illus/pizza-003.jpg"
     },
     {
       "id": "pizza:004",
@@ -16695,7 +17190,8 @@
         "Garnir en commençant par le fromage, puis les garnitures, et enfin la sauce tomate par-dessus. Cuire 25-30 min à 200°C."
       ],
       "min": 120,
-      "t": "Pâte à Pizza Moelleuse au Beurre"
+      "t": "Pâte à Pizza Moelleuse au Beurre",
+      "img": "img/illus/pizza-004.jpg"
     },
     {
       "id": "pizza:005",
@@ -16719,7 +17215,8 @@
         "Garnir le centre, cuire 12-15 min à 220°C jusqu'à ce que la croûte soit bien dorée."
       ],
       "min": 100,
-      "t": "Pâte à Pizza Méditerranéenne"
+      "t": "Pâte à Pizza Méditerranéenne",
+      "img": "img/illus/pizza-005.jpg"
     },
     {
       "id": "pizza:006",
@@ -16740,7 +17237,8 @@
         "Étaler très finement sur une surface farinée. Garnir et cuire 12-15 min à 240°C pour une croûte croustillante."
       ],
       "min": 85,
-      "t": "Pâte à Pizza Légère"
+      "t": "Pâte à Pizza Légère",
+      "img": "img/illus/pizza-006.jpg"
     },
     {
       "id": "pizza:007",
@@ -16762,7 +17260,8 @@
         "Étaler en gardant une légère épaisseur. Garnir et cuire 12-15 min à 220°C. La pâte sera dorée et moelleuse."
       ],
       "min": 105,
-      "t": "Pâte à Pizza Fondante"
+      "t": "Pâte à Pizza Fondante",
+      "img": "img/illus/pizza-007.jpg"
     },
     {
       "id": "pizza:008",
@@ -16783,7 +17282,8 @@
         "Garnir selon votre goût et cuire 12-15 min à 220°C jusqu'à ce que les bords soient dorés."
       ],
       "min": 25,
-      "t": "Pâte à Pizza au Yaourt"
+      "t": "Pâte à Pizza au Yaourt",
+      "img": "img/illus/pizza-008.jpg"
     },
     {
       "id": "pizza:009",
@@ -16805,7 +17305,8 @@
         "Étaler sur une surface farinée. Garnir et cuire 15-18 min à 220°C."
       ],
       "min": 110,
-      "t": "Pâte à Pizza Semi-Complète"
+      "t": "Pâte à Pizza Semi-Complète",
+      "img": "img/illus/pizza-009.jpg"
     },
     {
       "id": "pizza:010",
@@ -16827,7 +17328,8 @@
         "Étaler, badigeonner d'un filet d'huile d'olive avant de garnir. Cuire 12-15 min à 230°C."
       ],
       "min": 85,
-      "t": "Pâte à Pizza Croustillante"
+      "t": "Pâte à Pizza Croustillante",
+      "img": "img/illus/pizza-010.jpg"
     },
     {
       "id": "marinade:001",
@@ -16848,7 +17350,8 @@
         "Cuire au BBQ à feu moyen 6-8 min par côté, ou au four à 200°C pendant 30-35 min."
       ],
       "min": 15,
-      "t": "Marinade Moutarde-Épices pour Steak"
+      "t": "Marinade Moutarde-Épices pour Steak",
+      "img": "img/illus/marinade-001.jpg"
     },
     {
       "id": "marinade:002",
@@ -16868,7 +17371,8 @@
         "Servir avec une salade fraîche ou des légumes grillés."
       ],
       "min": 15,
-      "t": "Marinade Paprika Fumé et Citron"
+      "t": "Marinade Paprika Fumé et Citron",
+      "img": "img/illus/marinade-002.jpg"
     },
     {
       "id": "marinade:003",
@@ -16888,7 +17392,8 @@
         "La moutarde crée une belle croûte dorée. Surveiller pour ne pas brûler."
       ],
       "min": 15,
-      "t": "Marinade Miel-Moutarde"
+      "t": "Marinade Miel-Moutarde",
+      "img": "img/illus/marinade-003.jpg"
     },
     {
       "id": "marinade:004",
@@ -16908,7 +17413,8 @@
         "Attention : le sirop d'érable caramélise vite, surveiller et baisser le feu si nécessaire."
       ],
       "min": 15,
-      "t": "Marinade Sirop d'Érable-Moutarde"
+      "t": "Marinade Sirop d'Érable-Moutarde",
+      "img": "img/illus/marinade-004.jpg"
     },
     {
       "id": "marinade:005",
@@ -16927,7 +17433,8 @@
         "Cuire au BBQ : commencer à feu vif pour saisir (2-3 min), puis finir à feu moyen pour ne pas brûler le yaourt."
       ],
       "min": 15,
-      "t": "Marinade Yaourt-Cumin"
+      "t": "Marinade Yaourt-Cumin",
+      "img": "img/illus/marinade-005.jpg"
     },
     {
       "id": "marinade:006",
@@ -16947,7 +17454,8 @@
         "Badigeonner en fin de cuisson pour une belle laque brillante. Idéal avec des cuisses ou pilons."
       ],
       "min": 15,
-      "t": "Marinade Bourbon et Mélasse"
+      "t": "Marinade Bourbon et Mélasse",
+      "img": "img/illus/marinade-006.jpg"
     },
     {
       "id": "marinade:007",
@@ -16969,7 +17477,8 @@
         "Griller au BBQ 6-8 min par côté selon l'épaisseur. Servir avec du guacamole ou du riz."
       ],
       "min": 15,
-      "t": "Marinade Pimentée à l'Huile d'Olive"
+      "t": "Marinade Pimentée à l'Huile d'Olive",
+      "img": "img/illus/marinade-007.jpg"
     },
     {
       "id": "effiloche:001",
@@ -16990,7 +17499,8 @@
         "Effilocher avec deux fourchettes. Mélanger à la sauce et servir dans des burgers, sandwichs ou wraps."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché BBQ"
+      "t": "Bœuf Effiloché BBQ",
+      "img": "img/illus/effiloche-001.jpg"
     },
     {
       "id": "effiloche:002",
@@ -17012,7 +17522,8 @@
         "Napper la viande effilochée de sauce miel-ail. Servir sur du riz ou en bao."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché Miel-Soja"
+      "t": "Bœuf Effiloché Miel-Soja",
+      "img": "img/illus/effiloche-002.jpg"
     },
     {
       "id": "effiloche:003",
@@ -17036,7 +17547,8 @@
         "Servir dans des tacos ou wraps avec avocat, crème fraîche, coriandre fraîche et jalapeños."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché Tex-Mex"
+      "t": "Bœuf Effiloché Tex-Mex",
+      "img": "img/illus/effiloche-003.jpg"
     },
     {
       "id": "effiloche:004",
@@ -17059,7 +17571,8 @@
         "Effilocher. Réduire le jus de cuisson à feu vif pour obtenir une sauce onctueuse."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché au Vin Rouge"
+      "t": "Bœuf Effiloché au Vin Rouge",
+      "img": "img/illus/effiloche-004.jpg"
     },
     {
       "id": "effiloche:005",
@@ -17081,7 +17594,8 @@
         "La viande doit être légèrement croustillante en surface avec une sauce sirupeuse."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché Caramel-Soja"
+      "t": "Bœuf Effiloché Caramel-Soja",
+      "img": "img/illus/effiloche-005.jpg"
     },
     {
       "id": "effiloche:006",
@@ -17103,7 +17617,8 @@
         "Effilocher et mélanger à la sauce. Servir avec du riz ou des tortillas."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché Épicé"
+      "t": "Bœuf Effiloché Épicé",
+      "img": "img/illus/effiloche-006.jpg"
     },
     {
       "id": "effiloche:007",
@@ -17126,7 +17641,8 @@
         "Effilocher la viande à la fourchette et mélanger à la sauce riche aux champignons."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché Façon Bourguignon"
+      "t": "Bœuf Effiloché Façon Bourguignon",
+      "img": "img/illus/effiloche-007.jpg"
     },
     {
       "id": "effiloche:008",
@@ -17148,7 +17664,8 @@
         "Servir immédiatement avec des pickles et de la coleslaw."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché Cheddar BBQ"
+      "t": "Bœuf Effiloché Cheddar BBQ",
+      "img": "img/illus/effiloche-008.jpg"
     },
     {
       "id": "effiloche:009",
@@ -17170,7 +17687,8 @@
         "Servir sur des pâtes, du riz ou des polenta."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché Provençal"
+      "t": "Bœuf Effiloché Provençal",
+      "img": "img/illus/effiloche-009.jpg"
     },
     {
       "id": "effiloche:010",
@@ -17193,7 +17711,8 @@
         "Effilocher et mélanger avec les oignons fondants. Servir dans des tartines ou avec de la purée."
       ],
       "min": 260,
-      "t": "Bœuf Effiloché aux Oignons Confits"
+      "t": "Bœuf Effiloché aux Oignons Confits",
+      "img": "img/illus/effiloche-010.jpg"
     },
     {
       "id": "effiloche:011",
@@ -17215,7 +17734,8 @@
         "Servir dans des burgers, wraps ou avec des frites de patate douce."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché Paprika Fumé"
+      "t": "Bœuf Effiloché Paprika Fumé",
+      "img": "img/illus/effiloche-011.jpg"
     },
     {
       "id": "effiloche:012",
@@ -17238,7 +17758,8 @@
         "Parsemer de persil haché frais. Servir sur des pâtes fraîches ou des tagliatelles."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché Crème et Champignons"
+      "t": "Bœuf Effiloché Crème et Champignons",
+      "img": "img/illus/effiloche-012.jpg"
     },
     {
       "id": "effiloche:013",
@@ -17260,7 +17781,8 @@
         "Servir avec des pommes de terre vapeur ou des tagliatelles. Rectifier l'assaisonnement."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché au Poivre Noir"
+      "t": "Bœuf Effiloché au Poivre Noir",
+      "img": "img/illus/effiloche-013.jpg"
     },
     {
       "id": "effiloche:014",
@@ -17283,7 +17805,8 @@
         "Parsemer de coriandre fraîche ciselée. Servir en tacos ou burritos avec guacamole et crème fraîche."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché Mexicain"
+      "t": "Bœuf Effiloché Mexicain",
+      "img": "img/illus/effiloche-014.jpg"
     },
     {
       "id": "effiloche:015",
@@ -17306,7 +17829,8 @@
         "Effilocher et laisser réduire la sauce 10 min à découvert. Servir avec des pommes de terre vapeur ou de la choucroute."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché à la Bière Brune"
+      "t": "Bœuf Effiloché à la Bière Brune",
+      "img": "img/illus/effiloche-015.jpg"
     },
     {
       "id": "effiloche:016",
@@ -17328,7 +17852,8 @@
         "Cuire 3-4h à feu très doux (ou 1h30 en cocotte-minute). Effilocher à la fourchette et servir avec les légumes et le bouillon réduit."
       ],
       "min": 240,
-      "t": "Bœuf Effiloché Fondant au Bouillon"
+      "t": "Bœuf Effiloché Fondant au Bouillon",
+      "img": "img/illus/effiloche-016.jpg"
     },
     {
       "id": "charlotte:001",
@@ -17352,7 +17877,8 @@
         "Réfrigérer 4h minimum. Démouler et décorer de fraises fraîches avant de servir."
       ],
       "min": 280,
-      "t": "Charlotte aux Fraises"
+      "t": "Charlotte aux Fraises",
+      "img": "img/illus/charlotte-001.jpg"
     },
     {
       "id": "charlotte:002",
@@ -17374,7 +17900,8 @@
         "Démouler délicatement et décorer de copeaux de chocolat avant de servir."
       ],
       "min": 280,
-      "t": "Charlotte au Chocolat Noir"
+      "t": "Charlotte au Chocolat Noir",
+      "img": "img/illus/charlotte-002.jpg"
     },
     {
       "id": "charlotte:003",
@@ -17397,7 +17924,8 @@
         "Réfrigérer 4h minimum. Démouler et garnir de framboises fraîches."
       ],
       "min": 280,
-      "t": "Charlotte aux Framboises"
+      "t": "Charlotte aux Framboises",
+      "img": "img/illus/charlotte-003.jpg"
     },
     {
       "id": "charlotte:004",
@@ -17419,7 +17947,8 @@
         "Réfrigérer 4h minimum. Démouler et décorer d'abricots au sirop."
       ],
       "min": 280,
-      "t": "Charlotte aux Abricots"
+      "t": "Charlotte aux Abricots",
+      "img": "img/illus/charlotte-004.jpg"
     },
     {
       "id": "charlotte:005",
@@ -17443,7 +17972,8 @@
         "Verser la crème citron et couvrir de biscuits imbibés. Réfrigérer 4h. Décorer de zestes de citron."
       ],
       "min": 280,
-      "t": "Charlotte au Citron"
+      "t": "Charlotte au Citron",
+      "img": "img/illus/charlotte-005.jpg"
     },
     {
       "id": "charlotte:006",
@@ -17466,7 +17996,8 @@
         "Réfrigérer 4h minimum. Décorer de copeaux de chocolat et de lamelles de poires."
       ],
       "min": 280,
-      "t": "Charlotte Poire-Chocolat"
+      "t": "Charlotte Poire-Chocolat",
+      "img": "img/illus/charlotte-006.jpg"
     },
     {
       "id": "milkshake:001",
@@ -17484,7 +18015,8 @@
         "Verser dans un grand verre refroidi et garnir de chantilly."
       ],
       "min": 5,
-      "t": "Milkshake au Chocolat"
+      "t": "Milkshake au Chocolat",
+      "img": "img/illus/milkshake-001.jpg"
     },
     {
       "id": "milkshake:002",
@@ -17502,7 +18034,8 @@
         "Verser dans un verre refroidi et garnir de chantilly."
       ],
       "min": 5,
-      "t": "Milkshake Vanille"
+      "t": "Milkshake Vanille",
+      "img": "img/illus/milkshake-002.jpg"
     },
     {
       "id": "milkshake:003",
@@ -17520,7 +18053,8 @@
         "Mixer jusqu'à consistance crémeuse et lisse. Garnir de chantilly et d'une fraise."
       ],
       "min": 5,
-      "t": "Milkshake Fraise"
+      "t": "Milkshake Fraise",
+      "img": "img/illus/milkshake-003.jpg"
     },
     {
       "id": "milkshake:004",
@@ -17538,7 +18072,8 @@
         "Mixer jusqu'à consistance lisse et crémeuse. Garnir de chantilly."
       ],
       "min": 5,
-      "t": "Milkshake Mangue"
+      "t": "Milkshake Mangue",
+      "img": "img/illus/milkshake-004.jpg"
     },
     {
       "id": "milkshake:005",
@@ -17556,7 +18091,8 @@
         "Mixer jusqu'à consistance crémeuse et onctueuse. Garnir de chantilly."
       ],
       "min": 5,
-      "t": "Milkshake Banane"
+      "t": "Milkshake Banane",
+      "img": "img/illus/milkshake-005.jpg"
     },
     {
       "id": "milkshake:006",
@@ -17574,7 +18110,8 @@
         "Mixer brièvement. Garnir de chantilly et d'un Oreo entier."
       ],
       "min": 5,
-      "t": "Milkshake Oreo"
+      "t": "Milkshake Oreo",
+      "img": "img/illus/milkshake-006.jpg"
     },
     {
       "id": "milkshake:007",
@@ -17592,7 +18129,8 @@
         "Mixer jusqu'à consistance crémeuse. Garnir de chantilly et d'éclats de KitKat."
       ],
       "min": 5,
-      "t": "Milkshake KitKat"
+      "t": "Milkshake KitKat",
+      "img": "img/illus/milkshake-007.jpg"
     },
     {
       "id": "milkshake:008",
@@ -17610,7 +18148,8 @@
         "Garnir de chantilly et de myrtilles fraîches."
       ],
       "min": 5,
-      "t": "Milkshake Myrtille"
+      "t": "Milkshake Myrtille",
+      "img": "img/illus/milkshake-008.jpg"
     },
     {
       "id": "milkshake:009",
@@ -17628,7 +18167,8 @@
         "Mixer jusqu'à consistance crémeuse. Garnir de chantilly et d'un morceau d'ananas."
       ],
       "min": 5,
-      "t": "Milkshake Ananas"
+      "t": "Milkshake Ananas",
+      "img": "img/illus/milkshake-009.jpg"
     },
     {
       "id": "milkshake:010",
@@ -17647,7 +18187,8 @@
         "Mixer. Garnir de chantilly et saupoudrer d'une pincée de cacao en poudre."
       ],
       "min": 10,
-      "t": "Milkshake Café"
+      "t": "Milkshake Café",
+      "img": "img/illus/milkshake-010.jpg"
     },
     {
       "id": "milkshake:011",
@@ -17666,7 +18207,8 @@
         "Garnir de chantilly, d'un filet de caramel et d'une pincée de fleur de sel."
       ],
       "min": 5,
-      "t": "Milkshake Caramel Beurre Salé"
+      "t": "Milkshake Caramel Beurre Salé",
+      "img": "img/illus/milkshake-011.jpg"
     },
     {
       "id": "milkshake:012",
@@ -17686,7 +18228,8 @@
         "Mixer. Garnir de chantilly et d'un filet de sauce butterscotch."
       ],
       "min": 15,
-      "t": "Milkshake Butterscotch"
+      "t": "Milkshake Butterscotch",
+      "img": "img/illus/milkshake-012.jpg"
     },
     {
       "id": "milkshake:013",
@@ -17705,7 +18248,8 @@
         "Garnir de chantilly et d'un filet de beurre de cacahuète."
       ],
       "min": 5,
-      "t": "Milkshake Beurre de Cacahuète"
+      "t": "Milkshake Beurre de Cacahuète",
+      "img": "img/illus/milkshake-013.jpg"
     },
     {
       "id": "milkshake:014",
@@ -17723,7 +18267,8 @@
         "Mixer brièvement pour garder des morceaux croquants. Garnir de chantilly et de biscuits écrasés."
       ],
       "min": 5,
-      "t": "Milkshake Cookies & Cream"
+      "t": "Milkshake Cookies & Cream",
+      "img": "img/illus/milkshake-014.jpg"
     },
     {
       "id": "milkshake:015",
@@ -17742,7 +18287,8 @@
         "Garnir de chantilly et de pétales de rose comestibles."
       ],
       "min": 5,
-      "t": "Milkshake à la Rose"
+      "t": "Milkshake à la Rose",
+      "img": "img/illus/milkshake-015.jpg"
     },
     {
       "id": "milkshake:016",
@@ -17761,7 +18307,8 @@
         "Garnir de chantilly et d'amandes effilées grillées."
       ],
       "min": 5,
-      "t": "Milkshake Amande"
+      "t": "Milkshake Amande",
+      "img": "img/illus/milkshake-016.jpg"
     },
     {
       "id": "milkshake:017",
@@ -17780,7 +18327,8 @@
         "Garnir de chantilly et de pistaches concassées."
       ],
       "min": 5,
-      "t": "Milkshake Pistache"
+      "t": "Milkshake Pistache",
+      "img": "img/illus/milkshake-017.jpg"
     },
     {
       "id": "milkshake:018",
@@ -17799,7 +18347,8 @@
         "Passer au tamis si souhaité pour retirer les pépins. Garnir de chantilly."
       ],
       "min": 5,
-      "t": "Milkshake Cassis"
+      "t": "Milkshake Cassis",
+      "img": "img/illus/milkshake-018.jpg"
     },
     {
       "id": "milkshake:019",
@@ -17819,7 +18368,8 @@
         "Garnir de chantilly et de bonbons multicolores."
       ],
       "min": 5,
-      "t": "Milkshake Fraise-Rose"
+      "t": "Milkshake Fraise-Rose",
+      "img": "img/illus/milkshake-019.jpg"
     },
     {
       "id": "milkshake:020",
@@ -17838,7 +18388,8 @@
         "Verser délicatement dans le verre en couches successives. Garnir de chantilly et de vermicelles multicolores."
       ],
       "min": 20,
-      "t": "Milkshake Arc-en-Ciel"
+      "t": "Milkshake Arc-en-Ciel",
+      "img": "img/illus/milkshake-020.jpg"
     },
     {
       "id": "tiramisu:001",
@@ -17861,7 +18412,8 @@
         "Réfrigérer 2h minimum. Saupoudrer généreusement de cacao amer au moment de servir."
       ],
       "min": 140,
-      "t": "Tiramisu Express Café"
+      "t": "Tiramisu Express Café",
+      "img": "img/illus/tiramisu-001.jpg"
     },
     {
       "id": "tiramisu:002",
@@ -17883,7 +18435,8 @@
         "Réfrigérer 2h. Décorer de spéculoos émiettés et d'un filet de caramel beurre salé."
       ],
       "min": 140,
-      "t": "Tiramisu Express Spéculoos"
+      "t": "Tiramisu Express Spéculoos",
+      "img": "img/illus/tiramisu-002.jpg"
     },
     {
       "id": "tiramisu:003",
@@ -17905,7 +18458,8 @@
         "Réfrigérer 2h. Garnir de fruits rouges frais au moment de servir."
       ],
       "min": 140,
-      "t": "Tiramisu Express Fruits Rouges"
+      "t": "Tiramisu Express Fruits Rouges",
+      "img": "img/illus/tiramisu-003.jpg"
     },
     {
       "id": "tiramisu:004",
@@ -17927,7 +18481,8 @@
         "Réfrigérer 2h. Garnir de framboises et d'un peu de lemon curd avant de servir."
       ],
       "min": 140,
-      "t": "Tiramisu Express Citron"
+      "t": "Tiramisu Express Citron",
+      "img": "img/illus/tiramisu-004.jpg"
     },
     {
       "id": "tiramisu:005",
@@ -17949,7 +18504,8 @@
         "Réfrigérer 2h. Garnir d'un filet de pâte à tartiner fondue et de noisettes."
       ],
       "min": 140,
-      "t": "Tiramisu Express Chocolat-Noisette"
+      "t": "Tiramisu Express Chocolat-Noisette",
+      "img": "img/illus/tiramisu-005.jpg"
     },
     {
       "id": "tiramisu:006",
@@ -17972,7 +18528,8 @@
         "Réfrigérer 2h. Garnir de framboises et de pistaches concassées."
       ],
       "min": 140,
-      "t": "Tiramisu Express Pistache"
+      "t": "Tiramisu Express Pistache",
+      "img": "img/illus/tiramisu-006.jpg"
     },
     {
       "id": "tiramisu:007",
@@ -17995,7 +18552,8 @@
         "Réfrigérer 2h. Parsemer généreusement de noix de coco râpée avant de servir."
       ],
       "min": 140,
-      "t": "Tiramisu Express Coco"
+      "t": "Tiramisu Express Coco",
+      "img": "img/illus/tiramisu-007.jpg"
     },
     {
       "id": "punch:001",
@@ -18016,7 +18574,8 @@
         "Ajouter les glaçons et servir immédiatement."
       ],
       "min": 10,
-      "t": "Punch Tropical Multifruits"
+      "t": "Punch Tropical Multifruits",
+      "img": "img/illus/punch-001.jpg"
     },
     {
       "id": "punch:002",
@@ -18037,7 +18596,8 @@
         "Ajouter les glaçons et décorer d'une tranche d'ananas."
       ],
       "min": 10,
-      "t": "Punch Ananas-Mangue"
+      "t": "Punch Ananas-Mangue",
+      "img": "img/illus/punch-002.jpg"
     },
     {
       "id": "punch:003",
@@ -18057,7 +18617,8 @@
         "Ajouter des glaçons et servir frais."
       ],
       "min": 10,
-      "t": "Punch Rosé Pétillant"
+      "t": "Punch Rosé Pétillant",
+      "img": "img/illus/punch-003.jpg"
     },
     {
       "id": "punch:004",
@@ -18077,7 +18638,8 @@
         "Ajouter des glaçons et servir frais."
       ],
       "min": 10,
-      "t": "Punch Agrumes Pétillant"
+      "t": "Punch Agrumes Pétillant",
+      "img": "img/illus/punch-004.jpg"
     },
     {
       "id": "punch:005",
@@ -18097,7 +18659,8 @@
         "Servir aussitôt : le sorbet garde le punch bien frais."
       ],
       "min": 10,
-      "t": "Punch Ananas-Citron Vert"
+      "t": "Punch Ananas-Citron Vert",
+      "img": "img/illus/punch-005.jpg"
     },
     {
       "id": "punch:006",
@@ -18117,7 +18680,8 @@
         "Ajouter les glaçons et servir immédiatement."
       ],
       "min": 10,
-      "t": "Punch Canneberge-Gingembre"
+      "t": "Punch Canneberge-Gingembre",
+      "img": "img/illus/punch-006.jpg"
     },
     {
       "id": "cheesecake:001",
@@ -18141,7 +18705,8 @@
         "Décorer de zestes de citron et de tranches fines avant de servir."
       ],
       "min": 290,
-      "t": "Cheesecake Citron Sans Cuisson"
+      "t": "Cheesecake Citron Sans Cuisson",
+      "img": "img/illus/cheesecake-001.jpg"
     },
     {
       "id": "cheesecake:002",
@@ -18165,7 +18730,8 @@
         "Décorer de framboises fraîches avant de servir."
       ],
       "min": 290,
-      "t": "Cheesecake Framboise Sans Cuisson"
+      "t": "Cheesecake Framboise Sans Cuisson",
+      "img": "img/illus/cheesecake-002.jpg"
     },
     {
       "id": "cheesecake:003",
@@ -18189,7 +18755,8 @@
         "Réfrigérer 4h minimum avant de servir."
       ],
       "min": 280,
-      "t": "Cheesecake Caramel Beurre Salé Sans Cuisson"
+      "t": "Cheesecake Caramel Beurre Salé Sans Cuisson",
+      "img": "img/illus/cheesecake-003.jpg"
     },
     {
       "id": "cheesecake:004",
@@ -18212,7 +18779,8 @@
         "Verser sur la base et réfrigérer 4h. Décorer de copeaux de chocolat blanc."
       ],
       "min": 280,
-      "t": "Cheesecake Chocolat Sans Cuisson"
+      "t": "Cheesecake Chocolat Sans Cuisson",
+      "img": "img/illus/cheesecake-004.jpg"
     },
     {
       "id": "cheesecake:005",
@@ -18237,7 +18805,8 @@
         "Décorer avec la pulpe des fruits de la passion au moment de servir."
       ],
       "min": 280,
-      "t": "Cheesecake Mangue Sans Cuisson"
+      "t": "Cheesecake Mangue Sans Cuisson",
+      "img": "img/illus/cheesecake-005.jpg"
     },
     {
       "id": "tortilla:001",
@@ -18280,7 +18849,8 @@
         "Réserver sous un torchon. La farine complète donne une saveur légèrement noisette."
       ],
       "min": 40,
-      "t": "Tortillas Semi-Complètes"
+      "t": "Tortillas Semi-Complètes",
+      "img": "img/illus/tortilla-002.jpg"
     },
     {
       "id": "tortilla:003",
@@ -18301,7 +18871,8 @@
         "Réserver sous un torchon. Couleur verte naturelle, goût discret d'épinards."
       ],
       "min": 40,
-      "t": "Tortillas Vertes aux Épinards"
+      "t": "Tortillas Vertes aux Épinards",
+      "img": "img/illus/tortilla-003.jpg"
     },
     {
       "id": "tortilla:004",
@@ -18322,7 +18893,8 @@
         "La couleur rose s'atténue légèrement à la cuisson mais reste prononcée."
       ],
       "min": 40,
-      "t": "Tortillas Roses à la Betterave"
+      "t": "Tortillas Roses à la Betterave",
+      "img": "img/illus/tortilla-004.jpg"
     },
     {
       "id": "tortilla:005",
@@ -18342,7 +18914,8 @@
         "Idéales pour les tacos. Conserver enveloppées dans un torchon humide."
       ],
       "min": 30,
-      "t": "Tortillas à la Farine de Maïs"
+      "t": "Tortillas à la Farine de Maïs",
+      "img": "img/illus/tortilla-005.jpg"
     },
     {
       "id": "tortilla:006",
@@ -18364,7 +18937,8 @@
         "Réserver et déguster garni de crudités, poulet ou houmous."
       ],
       "min": 25,
-      "t": "Wraps Avoine-Chia Sans Gluten"
+      "t": "Wraps Avoine-Chia Sans Gluten",
+      "img": "img/illus/tortilla-006.jpg"
     },
     {
       "id": "cheesecake:006",
@@ -18387,7 +18961,8 @@
         "Garnir d'un filet de pâte à tartiner fondue et de noisettes concassées."
       ],
       "min": 280,
-      "t": "Cheesecake Double Chocolat Sans Cuisson"
+      "t": "Cheesecake Double Chocolat Sans Cuisson",
+      "img": "img/illus/cheesecake-006.jpg"
     },
     {
       "id": "pate:001",
