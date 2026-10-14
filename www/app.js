@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.09';
+const APP_VERSION = '3.10';
 
 let ALL = [];
 let BASE = [];
@@ -364,6 +364,8 @@ function dietFilter(r){
 }
 
 function checkDiet(r, diet){
+  // Sans liste d'ingrédients (guides, fiches techniques…), on ne peut rien affirmer.
+  if (diet !== 'rapide' && !(r.ing || []).length) return false;
   const hasKw = kw => matchKw(r, kw);
   if (diet === 'sansgluten'){
     if (_GLUTEN_KWS.some(hasKw)) return false;
@@ -1502,7 +1504,7 @@ const MODE_GROUPS = {
   pizza:           { subs: ['garnies','pates_pizza'] },
   regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas','belgique'] },
   ustensiles:      { subs: ['airfryer','thermomix'] },
-  aperitif:        { subs: ['tartinades','wraps','bouchees','brochettes','paninis','samoussas'] },
+  aperitif:        { subs: ['tartines','tartinades','wraps','bouchees','brochettes','paninis','samoussas'] },
   oeufs:           { subs: ['omelettes','cocottes','preparations'] },
   boissons:        { subs: ['smoothies','milkshakes','mocktails'] },
   accompagnements: { subs: ['sauces','marinades'] },
@@ -1517,7 +1519,7 @@ const SUB_TAB_LABELS = {
   arabe:'🌙 Monde arabe', bulgarie:'🇧🇬 Bulgarie', hongrie:'🇭🇺 Hongrie', roumanie:'🇷🇴 Roumanie', paysbas:'🇳🇱 Pays-Bas', belgique:'🇧🇪 Belgique',
   garnies:'🍕 Garnitures', pates_pizza:'🍞 Pâtes',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix',
-  tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas',
+  tartines:'🍞 Tartines', tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas',
   omelettes:'🍳 Omelettes', cocottes:'🥚 Cocottes', preparations:'🍳 Préparations',
   smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes', mocktails:'🍹 Sans alcool',
   sauces:'🥣 Sauces', marinades:'🌿 Marinades',
@@ -1533,7 +1535,7 @@ const MODE_CAT = {
   allemagne: 'Allemagne', gb: 'Grande-Bretagne', australie: 'Australie',
   bresil: 'Brésil', argentine: 'Argentine', af: 'Afrique', monde: 'Monde',
   arabe: 'Monde arabe', bulgarie: 'Bulgarie', hongrie: 'Hongrie', roumanie: 'Roumanie', paysbas: 'Pays-Bas', belgique: 'Belgique',
-  sauces: 'Sauce', tartinades: 'Tartinade', techniques: 'Technique',
+  sauces: 'Sauce', tartines: 'Tartine', tartinades: 'Tartinade', techniques: 'Technique',
   wraps: 'Wrap', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
   bouchees: 'Bouchée', brochettes: 'Brochette', omelettes: 'Omelette', cocottes: 'Cocotte',
   mocktails: 'Cocktail sans alcool', preparations: 'Préparation Oeuf',
