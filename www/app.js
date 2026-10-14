@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.08';
+const APP_VERSION = '3.09';
 
 let ALL = [];
 let BASE = [];
@@ -1701,6 +1701,67 @@ function saveStockImgs(){ try { localStorage.setItem('stockImgs', JSON.stringify
 function setStockImg(name, img){ stockImgs[norm(name)] = img; saveStockImgs(); }
 function getStockImg(name){ return stockImgs[norm(name)] || ''; }
 
+/* Viande du boucher (sans code-barres) : morceaux courants à ajouter d'un toucher,
+   avec une icône dessinée au lieu d'une photo de produit industriel. */
+const BOUCHERIE = {
+  '🐄 Bœuf': ['Steaks hachés','Viande hachée de bœuf','Bœuf bourguignon','Rôti de bœuf','Entrecôte','Côte de bœuf','Bavette de bœuf','Bœuf pot-au-feu','Joue de bœuf'],
+  '🐮 Veau': ['Escalopes de veau','Blanquette de veau','Rôti de veau','Osso buco de veau'],
+  '🐖 Porc': ['Côtes de porc','Rôti de porc','Filet mignon de porc','Échine de porc','Poitrine de porc','Lardons','Saucisses','Chipolatas','Merguez','Chair à saucisse'],
+  '🐑 Agneau': ['Gigot d\'agneau','Côtelettes d\'agneau','Épaule d\'agneau','Navarin d\'agneau'],
+  '🐔 Volaille': ['Poulet entier','Cuisses de poulet','Blancs de poulet','Ailes de poulet','Escalopes de dinde','Magret de canard','Cuisses de canard'],
+};
+const MEAT_ICONS = [
+  [/saucisse|chipolata|merguez|knack|chair a saucisse/, '1f32d'],
+  [/lardon|poitrine|bacon|lard\b/, '1f953'],
+  [/poulet|volaille|dinde|canard|magret|pintade|caille|cuisse|aile/, '1f357'],
+  [/agneau|gigot|cotelette|navarin/, '1f356'],
+  [/boeuf|veau|porc|steak|hache|roti|entrecote|bavette|bourguignon|filet mignon|echine|escalope|osso buco|joue|viande|cote/, '1f969'],
+  [/poisson|saumon|cabillaud|colin|merlu|truite|thon|dorade|lieu/, '1f41f'],
+];
+function meatIcon(name){
+  const n = norm(name);
+  const hit = MEAT_ICONS.find(([re]) => re.test(n));
+  return hit ? `img/emoji/${hit[1]}.svg` : '';
+}
+
+/* Date d'entrée au congélateur et durée de conservation conseillée (en mois). */
+let stockDates = JSON.parse(localStorage.getItem('stockDates') || '{}');
+function saveStockDates(){ try { localStorage.setItem('stockDates', JSON.stringify(stockDates)); } catch(e){} }
+const FREEZE_MONTHS = [
+  [/hache|chair a saucisse|saucisse|chipolata|merguez/, 3],
+  [/poisson|saumon|cabillaud|colin|merlu|truite|thon|crevette/, 4],
+  [/lardon|poitrine|porc|echine/, 6],
+  [/poulet|volaille|dinde|canard|magret|cuisse|aile/, 9],
+  [/boeuf|veau|agneau|gigot|roti|entrecote|bavette|cote|escalope|steak/, 9],
+];
+function freezeMonths(name){ const n = norm(name); const h = FREEZE_MONTHS.find(([re]) => re.test(n)); return h ? h[1] : 6; }
+function freezeBadge(name){
+  const ts = stockDates[norm(name)];
+  if (!ts) return '';
+  const days = Math.floor((Date.now() - ts) / 86400000);
+  const months = freezeMonths(name);
+  const age = days < 1 ? 'aujourd\'hui' : days < 14 ? `${days} j` : days < 60 ? `${Math.round(days/7)} sem.` : `${Math.round(days/30)} mois`;
+  const late = days > months * 30;
+  return `<span class="freeze-badge${late ? ' late' : ''}" title="Conservation conseillée : ${months} mois">❄️ ${days < 1 ? 'congelé ' : 'depuis '}${age}${late ? ' · à consommer' : ''}</span>`;
+}
+
+function renderBoucherie(){
+  const el = document.getElementById('boucherie-body');
+  if (!el) return;
+  const have = new Set(storageIngs.congelateur.map(norm));
+  el.innerHTML = Object.entries(BOUCHERIE).map(([animal, cuts]) =>
+    `<div class="bouch-group"><div class="bouch-h">${animal}</div><div class="bouch-chips">${
+      cuts.map(c => `<button class="bouch-chip${have.has(norm(c)) ? ' on' : ''}" data-cut="${esc(c)}">${have.has(norm(c)) ? '✓ ' : '+ '}${esc(c)}</button>`).join('')
+    }</div></div>`).join('') +
+    '<p class="stock-hint">Touche le nom d\'un morceau ajouté pour préciser (poids, nombre…).</p>';
+  el.querySelectorAll('.bouch-chip').forEach(b => b.addEventListener('click', ()=>{
+    const cut = b.dataset.cut;
+    if (addStockItem(cut, 'congelateur')) toast(`❄️ « ${cut} » ajouté au congélateur`);
+    renderFrigoIngs('congelateur');
+    renderFrigoSuggestions();
+  }));
+}
+
 // Réduit une photo en petite vignette JPEG (quelques Ko) stockable localement.
 function imageThumb(file, size = 160){
   return createImageBitmap(file).then(bmp => {
@@ -1717,7 +1778,10 @@ const _imgQueue = [];
 let _imgBusy = false;
 function queueStockImg(name){
   const n = norm(name);
-  if (n in stockImgs || _imgQueue.some(x => norm(x) === n) || !navigator.onLine) return;
+  if (n in stockImgs || _imgQueue.some(x => norm(x) === n)) return;
+  const icon = meatIcon(name);
+  if (icon){ setStockImg(name, icon); return; } // viande du boucher : pas de produit industriel
+  if (!navigator.onLine) return;
   _imgQueue.push(name);
   pumpStockImgs();
 }
@@ -1750,6 +1814,7 @@ function renameStockItem(tab, idx){
   saveStorageIngs(tab);
   const img = stockImgs[norm(old)];
   if (img && !getStockImg(v)) setStockImg(v, img);
+  if (stockDates[norm(old)] && !stockDates[norm(v)]){ stockDates[norm(v)] = stockDates[norm(old)]; saveStockDates(); }
   let changed = false;
   for (const code in barcodeBook){
     if (norm(barcodeBook[code].name) === norm(old)){ barcodeBook[code].name = v; changed = true; }
@@ -1825,10 +1890,13 @@ function checkUpdateNow(){
 
 function renderFrigoIngs(tab){
   if (!tab) tab = activeFTab;
+  if (tab === 'congelateur') renderBoucherie();
   const el = document.getElementById('frigo-ings-' + tab);
   if (!el) return;
   const ings = storageIngs[tab] || [];
   if (!ings.length){ el.hidden = true; return; }
+  // Icônes de viande posées avant l'affichage (pas de recherche réseau pour elles).
+  ings.forEach(n => { if (!(norm(n) in stockImgs)){ const ic = meatIcon(n); if (ic) setStockImg(n, ic); } });
   const emoji = FTAB_EMOJIS[tab];
   el.hidden = false;
   el.innerHTML = `<div class="frigo-ings-title">${emoji} ${ings.length} article${ings.length>1?'s':''} :</div>
@@ -1840,6 +1908,7 @@ function renderFrigoIngs(tab){
             ? `<img src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode('${emoji}'))">`
             : emoji}</button>
           <button class="stock-card-name" data-idx="${i}" title="Renommer">${esc(ing)} ✎</button>
+          ${tab === 'congelateur' ? freezeBadge(ing) : ''}
           <button class="stock-card-del" data-idx="${i}" aria-label="Retirer">✕</button>
         </div>`;
       }).join('')}
@@ -1876,7 +1945,8 @@ const STOCK_STOP = new Set(('de du des la le les un une et en au aux a d l avec 
 // (« pois chiches » ≠ « petits pois », « pomme de terre » ≠ « pomme »).
 const STOCK_GENERIC = new Set(['sauce','jus','creme','poudre','sirop','bouillon','puree','confiture','soupe','pate','huile','vinaigre','fromage','lait',
   'pulpe','couli','concentre','compote','nectar','gelee','fond','fumet','cube','flocon','farine','graine','feuille','eau','boisson','yaourt','preparation','melange',
-  'filet','dos','steak','morceau','tranche','rondelle','coeur','brisure','haricot','pois','petit','pomme','noix','chou','fruit','cuisse','blanc','aile']);
+  'filet','dos','steak','morceau','tranche','rondelle','coeur','brisure','haricot','pois','petit','pomme','noix','chou','fruit','cuisse','blanc','aile',
+  'cote','cotelette','roti','escalope','epaule','jarret','joue','poitrine','echine','chair','entier']);
 const LINE_STOP = new Set(['de','du','des','la','le','les','un','une','et','en','au','aux','ou','pour','avec','cuillere','cuilleres','soupe','cafe','pincee','pincees','gousse','gousses','tranche','tranches','boite','boites','sachet','sachets','verre','verres','bouquet','brin','brins','feuille','feuilles']);
 
 // « pâtes » (pâtes alimentaires) ≠ « pâte » (feuilletée, brisée…) : on ne singularise pas ce mot.
@@ -2048,6 +2118,7 @@ function addStockItem(name, tab, img){
   if (storageIngs[tab].some(x => norm(x) === n)) return false;
   storageIngs[tab].push(name);
   saveStorageIngs(tab);
+  if (tab === 'congelateur'){ stockDates[n] = Date.now(); saveStockDates(); }
   return true;
 }
 
@@ -2350,9 +2421,10 @@ async function handleFrigoCapture(e){
     }
     for (const ing of ingredients){
       const n = norm(ing);
-      if (!storageIngs[tab].some(x=> norm(x)===n)) storageIngs[tab].push(ing);
+      if (!storageIngs[tab].some(x=> norm(x)===n)){ storageIngs[tab].push(ing); if (tab === 'congelateur') stockDates[n] = Date.now(); }
     }
     saveStorageIngs(tab);
+    saveStockDates();
     renderFrigoIngs(tab);
     renderFrigoSuggestions();
   } catch(err){
@@ -2944,11 +3016,7 @@ async function init(){
       const raw = manualInput.value.trim();
       if (!raw) return;
       const items = raw.split(/[,;]+/).map(s=>s.trim()).filter(Boolean);
-      for (const item of items){
-        const n = norm(item);
-        if (!storageIngs[tab].some(x=>norm(x)===n)) storageIngs[tab].push(item);
-      }
-      saveStorageIngs(tab);
+      for (const item of items) addStockItem(item, tab);
       manualInput.value = '';
       renderFrigoIngs(tab);
       renderFrigoSuggestions();

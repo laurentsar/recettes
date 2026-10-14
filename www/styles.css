@@ -651,3 +651,16 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .all-toggle[hidden]{display:none}
 .all-count{font-weight:400;font-size:.8em;color:var(--muted);background:var(--bg2);border:1px solid var(--line);padding:1px 8px;border-radius:999px}
 .all-chev{margin-left:auto;color:var(--muted)}
+.boucherie{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.boucherie summary{padding:14px 16px;cursor:pointer;font-weight:700;font-size:.95em;list-style:none}
+.boucherie summary::-webkit-details-marker{display:none}
+.bouch-sub{font-weight:400;color:var(--muted);font-size:.85em}
+#boucherie-body{padding:0 14px 12px}
+.bouch-group{margin-bottom:10px}
+.bouch-h{font-weight:700;font-size:.85em;color:var(--muted);margin-bottom:6px}
+.bouch-chips{display:flex;flex-wrap:wrap;gap:6px}
+.bouch-chip{padding:7px 11px;border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:999px;font-size:.82em;font-weight:600;cursor:pointer}
+.bouch-chip.on{background:rgba(124,179,66,.18);border-color:#4d6b2a;color:#cde8a6}
+.freeze-badge{font-size:.66em;font-weight:600;color:#9ec5e8;background:rgba(80,140,200,.15);border:1px solid rgba(80,140,200,.35);border-radius:999px;padding:1px 7px;text-align:center}
+.freeze-badge.late{color:#f0a090;background:rgba(240,160,144,.15);border-color:rgba(240,160,144,.5)}
+.stock-card-img img[src$=".svg"]{object-fit:contain;padding:14%}
