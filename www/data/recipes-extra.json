@@ -72,7 +72,9 @@
     "portugal:033",
     "espagne:004",
     "espagne:006",
-    "dropbox:1161474497"
+    "dropbox:1161474497",
+    "dropbox:-1707553066",
+    "dropbox:144314435"
   ],
   "overrides": [
     {
@@ -212,7 +214,8 @@
     {
       "id": "italie:017",
       "url": "https://www.recipetineats.com/osso-buco/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Osobuco_-_2010-10-20_2.jpg/500px-Osobuco_-_2010-10-20_2.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Osobuco_-_2010-10-20_2.jpg/500px-Osobuco_-_2010-10-20_2.jpg",
+      "cat": "Italie, Plat"
     },
     {
       "id": "italie:018",
@@ -242,32 +245,38 @@
     {
       "id": "italie:025",
       "url": "https://www.recipetineats.com/easy-tiramisu/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/500px-Tiramisu_-_Raffaele_Diomede.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/500px-Tiramisu_-_Raffaele_Diomede.jpg",
+      "cat": "Italie, Dessert, Tiramisu"
     },
     {
       "id": "italie:026",
       "url": "https://www.recipetineats.com/panna-cotta/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Panna_cotta_with_chocolate_mousse.jpg/500px-Panna_cotta_with_chocolate_mousse.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Panna_cotta_with_chocolate_mousse.jpg/500px-Panna_cotta_with_chocolate_mousse.jpg",
+      "cat": "Italie, Dessert, Crème dessert"
     },
     {
       "id": "italie:027",
       "url": "https://food52.com/recipes/39485-homemade-cannoli",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg/500px-Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg/500px-Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg",
+      "cat": "Italie, Dessert, Biscuit"
     },
     {
       "id": "italie:028",
       "url": "https://www.saveur.com/pistachio-gelato-recipe",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Gelato_ice_cream.jpg/500px-Gelato_ice_cream.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Gelato_ice_cream.jpg/500px-Gelato_ice_cream.jpg",
+      "cat": "Italie, Dessert, Crème dessert"
     },
     {
       "id": "italie:029",
       "url": "https://food52.com/recipes/73558-grandma-s-tart-torta-della-nonna",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Torta_della_Nonna.jpg/500px-Torta_della_Nonna.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Torta_della_Nonna.jpg/500px-Torta_della_Nonna.jpg",
+      "cat": "Italie, Dessert, Gâteaux"
     },
     {
       "id": "italie:030",
       "url": "https://www.recipetineats.com/affogato/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Affogato_al_Caffe.jpg/500px-Affogato_al_Caffe.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Affogato_al_Caffe.jpg/500px-Affogato_al_Caffe.jpg",
+      "cat": "Italie, Dessert, Crème dessert"
     },
     {
       "id": "sauce:001",
@@ -415,7 +424,8 @@
         "500 ml de lait",
         "2 c. à s. de fécule de maïs"
       ],
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Churros_Madrid.jpg/500px-Churros_Madrid.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Churros_Madrid.jpg/500px-Churros_Madrid.jpg",
+      "cat": "Espagne, Dessert, Biscuit"
     },
     {
       "id": "espagne:024",
@@ -425,12 +435,14 @@
     {
       "id": "espagne:025",
       "url": "https://www.carolinescooking.com/tarta-de-santiago/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Galicia.svg/500px-Flag_of_Galicia.svg.png"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Galicia.svg/500px-Flag_of_Galicia.svg.png",
+      "cat": "Espagne, Dessert, Tarte sucrée"
     },
     {
       "id": "espagne:027",
       "url": "https://www.americastestkitchen.com/recipes/5088-arroz-con-leche",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Susana_Campos_by_Annemarie_Heinrich%2C_Radiolandia_1957.png/500px-Susana_Campos_by_Annemarie_Heinrich%2C_Radiolandia_1957.png"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Susana_Campos_by_Annemarie_Heinrich%2C_Radiolandia_1957.png/500px-Susana_Campos_by_Annemarie_Heinrich%2C_Radiolandia_1957.png",
+      "cat": "Espagne, Dessert, Crème dessert"
     },
     {
       "id": "portugal:001",
@@ -463,12 +475,14 @@
     {
       "id": "portugal:022",
       "url": "https://leitesculinaria.com/7759/recipes-pasteis-de-nata.html",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg/500px-Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg/500px-Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg",
+      "cat": "Portugal, Dessert, Tarte sucrée"
     },
     {
       "id": "portugal:030",
       "url": "https://leitesculinaria.com/7759/recipes-pasteis-de-nata.html",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg/500px-Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg/500px-Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg",
+      "cat": "Portugal, Dessert, Tarte sucrée"
     },
     {
       "id": "corse:002",
@@ -555,7 +569,8 @@
     {
       "id": "corse:059",
       "url": "https://www.recettes-corses.fr/crepes-a-farine-de-chataignes",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Crepes_dsc07085.jpg/500px-Crepes_dsc07085.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Crepes_dsc07085.jpg/500px-Crepes_dsc07085.jpg",
+      "cat": "Corse, Dessert, Crêpe sucrée"
     },
     {
       "id": "corse:060",
@@ -581,12 +596,14 @@
     {
       "id": "corse:063",
       "url": "https://www.750g.com/julie-andrieu-partage-sa-recette-de-flan-corse-a-la-chataigne-avec-un-petit-ingredient-secret-a36437.htm",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg/500px-Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg/500px-Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg",
+      "cat": "Corse, Dessert, Crème dessert"
     },
     {
       "id": "corse:067",
       "url": "https://www.recettes-corses.fr/recette-des-canistrelli-ou-coccioles",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Canistrelli_anis.jpg/500px-Canistrelli_anis.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Canistrelli_anis.jpg/500px-Canistrelli_anis.jpg",
+      "cat": "Corse, Dessert, Biscuit"
     },
     {
       "id": "maghreb:001",
@@ -663,7 +680,8 @@
     {
       "id": "maghreb:019",
       "url": "https://www.196flavors.com/morocco-cornes-de-gazelle-kab-al-gazal/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/P%C3%A2tisserie_marocaine_010.JPG/500px-P%C3%A2tisserie_marocaine_010.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/P%C3%A2tisserie_marocaine_010.JPG/500px-P%C3%A2tisserie_marocaine_010.JPG",
+      "cat": "Maghreb, Dessert, Biscuit"
     },
     {
       "id": "japon:001",
@@ -735,7 +753,8 @@
     {
       "id": "japon:014",
       "url": "https://www.justonecookbook.com/how-to-make-mochi-with-a-stand-mixer/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Rice_Cake.jpg/500px-Rice_Cake.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Rice_Cake.jpg/500px-Rice_Cake.jpg",
+      "cat": "Japon, Dessert, Gâteaux"
     },
     {
       "id": "japon:015",
@@ -941,7 +960,8 @@
     {
       "id": "espagne:029",
       "steps": "Chauffer le lait avec la cannelle, le zeste et le sucre. Tremper les tranches de pain dans ce lait parfumé. Laisser bien imbiber. Passer dans l'œuf battu. Faire frire jusqu'à dorure. Égoutter. Rouler dans le mélange sucre-cannelle. Servir tiède.\n\n✈️ Variante Air Fryer : déposer les tranches imbibées dans le panier. Pulvériser légèrement d'huile. Cuire 180°C / 6 min, retourner, re-pulvériser, encore 4 min. Plus légères, texture légèrement différente de la version frite.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/FrenchToast.JPG/500px-FrenchToast.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/FrenchToast.JPG/500px-FrenchToast.JPG",
+      "cat": "Espagne, Dessert, Viennoiserie"
     },
     {
       "id": "dropbox:a38d453a-b399-49a9-9015-a8520da67249",
@@ -951,7 +971,8 @@
     {
       "id": "dropbox:3b1c541a-6637-4a09-bb01-32cebf9b35cb",
       "t": "Fondant au Chocolat (Airfryer)",
-      "img": "img/illus/dropbox-3b1c541a-6637-4a09-bb01-32cebf9b35cb.jpg"
+      "img": "img/illus/dropbox-3b1c541a-6637-4a09-bb01-32cebf9b35cb.jpg",
+      "cat": "Dessert, Airfryer, Gâteaux"
     },
     {
       "id": "dropbox:1122559876",
@@ -968,7 +989,7 @@
     {
       "id": "dropbox:1290192065",
       "t": "Cheesecake au Toblerone au Thermomix",
-      "cat": "Thermomix, Dessert"
+      "cat": "Thermomix, Dessert, Cheesecake"
     },
     {
       "id": "dropbox:1445166428",
@@ -980,7 +1001,8 @@
     },
     {
       "id": "dropbox:-100319853",
-      "t": "Churros au four au Thermomix"
+      "t": "Churros au four au Thermomix",
+      "cat": "Dessert, Thermomix, Biscuit"
     },
     {
       "id": "dropbox:1598849039",
@@ -1020,11 +1042,13 @@
     },
     {
       "id": "dropbox:34ded57f-919c-415d-8d98-3aba31d8fe98",
-      "t": "Pain brioché au miel au Thermomix"
+      "t": "Pain brioché au miel au Thermomix",
+      "cat": "Dessert, Thermomix, Viennoiserie"
     },
     {
       "id": "dropbox:07fd6f1e-91f4-4bb6-a87a-42fcb52cff3e",
-      "t": "Pastéis de Nata – Recette Authentique Portugaise 🇵🇹"
+      "t": "Pastéis de Nata – Recette Authentique Portugaise 🇵🇹",
+      "cat": "Dessert, Portugal, Tarte sucrée"
     },
     {
       "id": "dropbox:ffb2185f-d336-4213-b310-b19169babbf3",
@@ -1097,7 +1121,8 @@
     },
     {
       "id": "dropbox:1621846856",
-      "t": "Super fondant au chocolat au Thermomix"
+      "t": "Super fondant au chocolat au Thermomix",
+      "cat": "Dessert, Thermomix, Gâteaux"
     },
     {
       "id": "dropbox:124568998",
@@ -1105,17 +1130,14 @@
     },
     {
       "id": "dropbox:1779252120",
-      "t": "Truffes au chocolat de Noël au Thermomix"
-    },
-    {
-      "id": "dropbox:144314435",
-      "t": "Vin de figues",
-      "cat": "Boissons"
+      "t": "Truffes au chocolat de Noël au Thermomix",
+      "cat": "Dessert, Thermomix, Biscuit"
     },
     {
       "id": "dropbox:c85f2f0a-1457-4791-8ca8-1babb944047e",
       "t": "Croissant au Chocolat (Airfryer)",
-      "img": "img/illus/dropbox-c85f2f0a-1457-4791-8ca8-1babb944047e.jpg"
+      "img": "img/illus/dropbox-c85f2f0a-1457-4791-8ca8-1babb944047e.jpg",
+      "cat": "Dessert, Airfryer, Viennoiserie"
     },
     {
       "id": "dropbox:49a192db-a8ac-4420-ab17-f7597e9f70cb",
@@ -1161,7 +1183,8 @@
     {
       "id": "dropbox:6c454f28-b62f-4a9e-9e3e-3634402849f6",
       "img": "img/illus/dropbox-6c454f28-b62f-4a9e-9e3e-3634402849f6.jpg",
-      "t": "Flans au Airfryer"
+      "t": "Flans au Airfryer",
+      "cat": "Dessert, Airfryer, Crème dessert"
     },
     {
       "id": "dropbox:1759851535",
@@ -1178,7 +1201,8 @@
     },
     {
       "id": "dropbox:1231896210",
-      "img": "img/illus/dropbox-1231896210.jpg"
+      "img": "img/illus/dropbox-1231896210.jpg",
+      "cat": "Dessert, Gâteaux"
     },
     {
       "id": "dropbox:187282729",
@@ -1190,7 +1214,8 @@
     },
     {
       "id": "dropbox:1584485240",
-      "img": "img/illus/dropbox-1584485240.jpg"
+      "img": "img/illus/dropbox-1584485240.jpg",
+      "cat": "Dessert, Viennoiserie"
     },
     {
       "id": "dropbox:b4265baf-7628-4337-acfc-7bcac9ae4b3e",
@@ -1223,7 +1248,8 @@
     },
     {
       "id": "dropbox:-29192180",
-      "img": "img/illus/dropbox-29192180.jpg"
+      "img": "img/illus/dropbox-29192180.jpg",
+      "cat": "Dessert, Thermomix, Gâteaux"
     },
     {
       "id": "dropbox:1933497657",
@@ -1268,7 +1294,8 @@
     },
     {
       "id": "dropbox:b6e8e4d7-5e89-4fd4-9ef8-0f706f492edf",
-      "img": "img/illus/dropbox-b6e8e4d7-5e89-4fd4-9ef8-0f706f492edf.jpg"
+      "img": "img/illus/dropbox-b6e8e4d7-5e89-4fd4-9ef8-0f706f492edf.jpg",
+      "cat": "Dessert, Gâteaux"
     },
     {
       "id": "dropbox:14530873",
@@ -1286,11 +1313,12 @@
     {
       "id": "dropbox:ea076000-d27b-4c59-b2ad-6d7bed5afa91",
       "img": "img/illus/dropbox-ea076000-d27b-4c59-b2ad-6d7bed5afa91.jpg",
-      "cat": "Dessert"
+      "cat": "Dessert, Crème dessert"
     },
     {
       "id": "dropbox:13dd5187-429b-4541-9f2b-c613fd116e64",
-      "img": "img/illus/dropbox-13dd5187-429b-4541-9f2b-c613fd116e64.jpg"
+      "img": "img/illus/dropbox-13dd5187-429b-4541-9f2b-c613fd116e64.jpg",
+      "cat": "Dessert, Gâteaux"
     },
     {
       "id": "dropbox:115259676",
@@ -1452,27 +1480,33 @@
     },
     {
       "id": "corse:062",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Brocciu2.jpg/500px-Brocciu2.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Brocciu2.jpg/500px-Brocciu2.jpg",
+      "cat": "Corse, Dessert, Gâteaux"
     },
     {
       "id": "corse:064",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Crepes_dsc07085.jpg/500px-Crepes_dsc07085.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Crepes_dsc07085.jpg/500px-Crepes_dsc07085.jpg",
+      "cat": "Corse, Dessert, Gâteaux"
     },
     {
       "id": "corse:065",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Foto.Linzertorte.JPG/500px-Foto.Linzertorte.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Foto.Linzertorte.JPG/500px-Foto.Linzertorte.JPG",
+      "cat": "Corse, Dessert, Gâteaux, Tarte sucrée"
     },
     {
       "id": "corse:066",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Beignets_de_pommes_de_terre.jpg/500px-Beignets_de_pommes_de_terre.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Beignets_de_pommes_de_terre.jpg/500px-Beignets_de_pommes_de_terre.jpg",
+      "cat": "Corse, Dessert, Viennoiserie"
     },
     {
       "id": "corse:068",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Brousse.JPG/500px-Brousse.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Brousse.JPG/500px-Brousse.JPG",
+      "cat": "Corse, Dessert, Biscuit"
     },
     {
       "id": "corse:069",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Pot-au-feu2.jpg/500px-Pot-au-feu2.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Pot-au-feu2.jpg/500px-Pot-au-feu2.jpg",
+      "cat": "Corse, Dessert, Biscuit"
     },
     {
       "id": "corse:070",
@@ -1508,15 +1542,18 @@
     },
     {
       "id": "espagne:026",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Polvor%C3%B3n_de_Estepa.jpg/500px-Polvor%C3%B3n_de_Estepa.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Polvor%C3%B3n_de_Estepa.jpg/500px-Polvor%C3%B3n_de_Estepa.jpg",
+      "cat": "Espagne, Dessert, Biscuit"
     },
     {
       "id": "espagne:028",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Gastronomie_-_Beaume_de_Venise_%26_Flan_Citron_-_Framboise.jpg/500px-Gastronomie_-_Beaume_de_Venise_%26_Flan_Citron_-_Framboise.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Gastronomie_-_Beaume_de_Venise_%26_Flan_Citron_-_Framboise.jpg/500px-Gastronomie_-_Beaume_de_Venise_%26_Flan_Citron_-_Framboise.jpg",
+      "cat": "Espagne, Dessert, Crème dessert"
     },
     {
       "id": "espagne:030",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Ensa%C3%AFmada.jpg/500px-Ensa%C3%AFmada.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Ensa%C3%AFmada.jpg/500px-Ensa%C3%AFmada.jpg",
+      "cat": "Espagne, Dessert, Viennoiserie"
     },
     {
       "id": "portugal:002",
@@ -1592,31 +1629,38 @@
     },
     {
       "id": "portugal:023",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/ArrozDoce.jpg/500px-ArrozDoce.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/ArrozDoce.jpg/500px-ArrozDoce.jpg",
+      "cat": "Portugal, Dessert, Crème dessert"
     },
     {
       "id": "portugal:024",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Tocinillo_de_cielo_-_luisvilla.jpg/500px-Tocinillo_de_cielo_-_luisvilla.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Tocinillo_de_cielo_-_luisvilla.jpg/500px-Tocinillo_de_cielo_-_luisvilla.jpg",
+      "cat": "Portugal, Dessert, Crème dessert"
     },
     {
       "id": "portugal:025",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg/500px-Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg/500px-Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg",
+      "cat": "Portugal, Dessert, Crème dessert"
     },
     {
       "id": "portugal:026",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/FrenchToast.JPG/500px-FrenchToast.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/FrenchToast.JPG/500px-FrenchToast.JPG",
+      "cat": "Portugal, Dessert, Viennoiserie"
     },
     {
       "id": "portugal:027",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Queijadas_aus_Vila_Franca_do_Campo%2C_Azoren_2016_03.JPG/500px-Queijadas_aus_Vila_Franca_do_Campo%2C_Azoren_2016_03.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Queijadas_aus_Vila_Franca_do_Campo%2C_Azoren_2016_03.JPG/500px-Queijadas_aus_Vila_Franca_do_Campo%2C_Azoren_2016_03.JPG",
+      "cat": "Portugal, Dessert, Biscuit"
     },
     {
       "id": "portugal:028",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/KakkuMadeiralta.jpg/500px-KakkuMadeiralta.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/KakkuMadeiralta.jpg/500px-KakkuMadeiralta.jpg",
+      "cat": "Portugal, Dessert, Gâteaux"
     },
     {
       "id": "portugal:029",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Homemade_meringues_%2816961016019%29.jpg/500px-Homemade_meringues_%2816961016019%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Homemade_meringues_%2816961016019%29.jpg/500px-Homemade_meringues_%2816961016019%29.jpg",
+      "cat": "Portugal, Dessert, Biscuit"
     },
     {
       "id": "italie:010",
@@ -1664,11 +1708,13 @@
     },
     {
       "id": "tmx:006",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Panna_cotta_with_chocolate_mousse.jpg/500px-Panna_cotta_with_chocolate_mousse.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Panna_cotta_with_chocolate_mousse.jpg/500px-Panna_cotta_with_chocolate_mousse.jpg",
+      "cat": "Italie, Dessert, Thermomix, Crème dessert"
     },
     {
       "id": "tmx:008",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/500px-Tiramisu_-_Raffaele_Diomede.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/500px-Tiramisu_-_Raffaele_Diomede.jpg",
+      "cat": "Italie, Dessert, Thermomix, Tiramisu"
     },
     {
       "id": "dropbox:ba3ef86f-01c0-4035-b666-620966032201",
@@ -1698,7 +1744,7 @@
     {
       "id": "dropbox:536812287",
       "img": "img/illus/dropbox-536812287.jpg",
-      "cat": "Dessert"
+      "cat": "Dessert, Charlotte"
     },
     {
       "id": "dropbox:ee807b8b-93aa-44c6-ba9b-7c483a99e8e9",
@@ -1714,7 +1760,8 @@
     },
     {
       "id": "dropbox:a4bbee2b-94fa-469a-bc29-4955fd8ae8ab",
-      "img": "img/illus/dropbox-a4bbee2b-94fa-469a-bc29-4955fd8ae8ab.jpg"
+      "img": "img/illus/dropbox-a4bbee2b-94fa-469a-bc29-4955fd8ae8ab.jpg",
+      "cat": "Dessert, Crêpe sucrée"
     },
     {
       "id": "dropbox:-710638748",
@@ -1734,11 +1781,13 @@
     },
     {
       "id": "dropbox:903608637",
-      "img": "img/illus/dropbox-903608637.jpg"
+      "img": "img/illus/dropbox-903608637.jpg",
+      "cat": "Dessert, Tarte sucrée"
     },
     {
       "id": "dropbox:1491359955",
-      "img": "img/illus/dropbox-1491359955.jpg"
+      "img": "img/illus/dropbox-1491359955.jpg",
+      "cat": "Dessert, Crème dessert"
     },
     {
       "id": "dropbox:235711459",
@@ -1801,7 +1850,7 @@
     {
       "id": "dropbox:fa013719-0f25-477a-809c-0ba868e29038",
       "img": "img/illus/dropbox-fa013719-0f25-477a-809c-0ba868e29038.jpg",
-      "cat": "Dessert"
+      "cat": "Dessert, Tarte sucrée"
     },
     {
       "id": "tmx:002",
@@ -1809,7 +1858,8 @@
     },
     {
       "id": "tmx:007",
-      "img": "img/illus/tmx-007.jpg"
+      "img": "img/illus/tmx-007.jpg",
+      "cat": "Dessert, Thermomix, Crème dessert"
     },
     {
       "id": "dropbox:399e4513-9951-4e2b-8450-004200361e34",
@@ -1821,12 +1871,12 @@
     },
     {
       "id": "dropbox:4419ddd3-bdf2-4547-94b1-862af5d4e747",
-      "cat": "Dessert",
+      "cat": "Dessert, Gâteaux",
       "t": "Gâteau au Nutella facile"
     },
     {
       "id": "dropbox:c9cbdd75-a881-4ee0-b38b-70751c05ddb0",
-      "cat": "Pommes, Dessert"
+      "cat": "Pommes, Dessert, Gâteaux"
     },
     {
       "id": "dropbox:745c35ae-1943-4aeb-a7a6-78c527e96b33",
@@ -1886,7 +1936,156 @@
     },
     {
       "id": "dropbox:3660747e-1841-456d-a80f-f180ef896c87",
-      "t": "Flans maison à l'Air Fryer en 12 minutes"
+      "t": "Flans maison à l'Air Fryer en 12 minutes",
+      "cat": "Dessert, Airfryer, Crème dessert"
+    },
+    {
+      "id": "dropbox:085ff5be-96b9-469a-9f4f-f2cfa51a2e9c",
+      "cat": "Plat, Airfryer, Légume"
+    },
+    {
+      "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
+      "cat": "Dessert, Crème dessert"
+    },
+    {
+      "id": "dropbox:7472704a-8d06-4efc-bb69-8152536c3149",
+      "cat": "Dessert, Viennoiserie"
+    },
+    {
+      "id": "dropbox:815581662",
+      "cat": "Thermomix, Dessert, Viennoiserie"
+    },
+    {
+      "id": "dropbox:5903908e-7713-4677-b6c8-a12aa10fec8a",
+      "cat": "Dessert, Airfryer, Viennoiserie"
+    },
+    {
+      "id": "dropbox:25e5534e-dc35-477f-8eab-17efda781797",
+      "cat": "Dessert, Gâteaux"
+    },
+    {
+      "id": "dropbox:606930240",
+      "cat": "Dessert, Thermomix, Gâteaux"
+    },
+    {
+      "id": "dropbox:a48fc058-ef71-4979-9160-a1bac6bde0d4",
+      "cat": "Dessert, Gâteaux"
+    },
+    {
+      "id": "dropbox:-2014124092",
+      "cat": "Dessert, Gâteaux"
+    },
+    {
+      "id": "dropbox:-85574417",
+      "cat": "Dessert, Gâteaux"
+    },
+    {
+      "id": "dropbox:eae14f8a-456e-406b-b7fc-7c321a050a71",
+      "cat": "Dessert, Thermomix, Viennoiserie"
+    },
+    {
+      "id": "dropbox:370b649a-430b-4219-b238-2ccf4eb55a4b",
+      "cat": "Dessert, Airfryer, Biscuit"
+    },
+    {
+      "id": "dropbox:eb7bfdad-c0c4-4b70-8fec-15ed51f701eb",
+      "cat": "Dessert, Airfryer, Crème dessert"
+    },
+    {
+      "id": "dropbox:3f3a8eec-c4e9-4b41-b7bc-63eba556854f",
+      "cat": "Dessert, Airfryer, Viennoiserie"
+    },
+    {
+      "id": "dropbox:1650465783",
+      "cat": "Dessert, Tarte sucrée"
+    },
+    {
+      "id": "dropbox:8a41edc3-7f25-4914-ba40-2ec47d781ed7",
+      "cat": "Dessert, Crêpe sucrée"
+    },
+    {
+      "id": "dropbox:1439185794",
+      "cat": "Dessert, Gâteaux"
+    },
+    {
+      "id": "dropbox:3ffccbf2-4b81-46a6-b275-a527cd3e5252",
+      "cat": "Dessert, Gâteaux"
+    },
+    {
+      "id": "dropbox:-351368666",
+      "cat": "Dessert, Viennoiserie"
+    },
+    {
+      "id": "dropbox:d2cc2716-392e-4cf8-a4d3-f953354bb027",
+      "cat": "Dessert, Crème dessert"
+    },
+    {
+      "id": "dropbox:1f06e514-74d8-4474-adab-243613cf0da8",
+      "cat": "Dessert, Crème dessert"
+    },
+    {
+      "id": "dropbox:e6b7d411-158b-44e9-b470-b0a7da357803",
+      "cat": "Dessert, Airfryer, Biscuit"
+    },
+    {
+      "id": "dropbox:0df0a8dc-f540-4a74-9991-795c25c212f8",
+      "cat": "Dessert, Airfryer, Gâteaux"
+    },
+    {
+      "id": "dropbox:3072d049-d557-48b1-a56b-e71026e1b1a3",
+      "cat": "Dessert, Airfryer, Gâteaux"
+    },
+    {
+      "id": "dropbox:47705959-5e54-4987-ab68-050dcdfe3e39",
+      "cat": "Dessert, Airfryer, Viennoiserie"
+    },
+    {
+      "id": "dropbox:5104836f-cb38-4585-85dd-e3ed724c86b2",
+      "cat": "Dessert, Crêpe sucrée"
+    },
+    {
+      "id": "dropbox:3e409306-7be1-489c-832e-5ab1f097df11",
+      "cat": "Dessert, Thermomix, Portugal, Tarte sucrée"
+    },
+    {
+      "id": "dropbox:bae6f1f6-0dae-4652-aeb6-ec80869ab6f1",
+      "cat": "Dessert, Viennoiserie"
+    },
+    {
+      "id": "dropbox:1284418300",
+      "cat": "Dessert, Thermomix, Biscuit"
+    },
+    {
+      "id": "dropbox:0c0ff256-14a3-48ae-ae05-3852d1b57cbb",
+      "cat": "Dessert, Airfryer, Gâteaux"
+    },
+    {
+      "id": "dropbox:1123726471",
+      "cat": "Dessert, Crème dessert"
+    },
+    {
+      "id": "dropbox:-736177392",
+      "cat": "Dessert, Thermomix, Biscuit"
+    },
+    {
+      "id": "dropbox:35f3aa10-08ce-42fc-bbe1-24026f5aa9f0",
+      "cat": "Dessert, Crêpe sucrée"
+    },
+    {
+      "id": "dropbox:350e5b6d-1c03-44ef-b98e-c888b0735ba6",
+      "cat": "Dessert, Airfryer, Gâteaux"
+    },
+    {
+      "id": "af:002",
+      "cat": "Dessert, Airfryer, Crème dessert"
+    },
+    {
+      "id": "tmx:005",
+      "cat": "Dessert, Thermomix, Crème dessert"
+    },
+    {
+      "id": "af:003",
+      "cat": "Dessert, Airfryer, Viennoiserie"
     }
   ],
   "recipes": [
@@ -1917,24 +2116,6 @@
       "steps": "Éplucher et couper les pommes de terre en bâtonnets réguliers. Les rincer à l'eau froide et bien les sécher avec un torchon — c'est essentiel pour la croustillance. Dans un saladier, mélanger les frites avec l'huile d'olive, le paprika, le sel et le poivre. Préchauffer l'Air Fryer à 200°C. Disposer les frites en couche unique dans le panier (cuire en 2 fournées si nécessaire). Cuire 20-22 min en secouant toutes les 7 min. Servir immédiatement.",
       "url": "https://www.750g.com/frites-au-air-fryer-r209269.htm",
       "img": "https://static.750g.com/images/1200-630/9f97013ddb9c664ca1445ab179681b55/frites-airfryer-img-1603.jpg"
-    },
-    {
-      "id": "af:009",
-      "t": "Pommes de Terre Rôties à l'Air Fryer",
-      "cat": "Airfryer, Légume",
-      "min": 25,
-      "serv": 3,
-      "desc": "Pommes de terre rôties dorées et parfumées aux herbes de Provence et à l'ail, cuites en 20 min à l'Air Fryer.",
-      "ing": [
-        "500 g de pommes de terre",
-        "2 c. à soupe d'huile d'olive",
-        "1 c. à café d'ail en poudre",
-        "1 c. à café d'herbes de Provence",
-        "Sel, poivre"
-      ],
-      "steps": "Éplucher et couper les pommes de terre en quartiers ou en cubes de taille égale. Les sécher. Mélanger avec l'huile, l'ail en poudre, les herbes, le sel et le poivre. Préchauffer l'Air Fryer à 200°C. Disposer dans le panier. Cuire 20-22 min en secouant à mi-cuisson. Les pommes de terre doivent être dorées et tendres à l'intérieur.",
-      "url": "https://www.750g.com/pommes-de-terre-roties-au-air-fryer-r209515.htm",
-      "img": "https://static.750g.com/images/1200-630/446ad1b0c954021d778b13671a495b4d/pdt-img-9621.jpg"
     },
     {
       "id": "af:010",
@@ -2761,28 +2942,6 @@
       "img": "https://static.750g.com/images/1200-630/0eaadcbe724367935a5980c28c45db79/escalope-milanaise.jpg"
     },
     {
-      "id": "italie:039",
-      "t": "Ossobuco alla Milanese",
-      "cat": "Italie, Plat",
-      "area": "Milan, Italie",
-      "min": 120,
-      "serv": 4,
-      "desc": "Jarrets de veau braisés avec gremolata au citron — le plat milanais par excellence, servi avec le risotto au safran.",
-      "ing": [
-        "4 tranches de jarret de veau (ossobuco)",
-        "1 oignon, 2 carottes, 2 branches de céleri",
-        "1 boîte de tomates pelées",
-        "200 ml de vin blanc",
-        "200 ml de bouillon",
-        "Farine, beurre, huile d'olive",
-        "Sel, poivre",
-        "Gremolata : zeste d'1 citron, 1 gousse d'ail, persil haché"
-      ],
-      "steps": "Fariner les jarrets, les faire dorer dans beurre+huile 5 min par côté. Réserver. Faire revenir oignon, carotte et céleri dans la même cocotte 5 min. Remettre les jarrets, déglacer au vin blanc. Ajouter les tomates et le bouillon — la viande doit être à moitié immergée. Couvrir et cuire à feu très doux 1h30 en retournant à mi-cuisson. La viande doit se détacher de l'os. Préparer la gremolata : mélanger zeste de citron, ail émincé et persil haché. Parsemer sur les jarrets juste avant de servir — ne pas cuire la gremolata.",
-      "url": "https://www.750g.com/osso-bucco-alla-milanese-r205910.htm",
-      "img": "https://static.750g.com/images/1200-630/906936511be2573f19843050ed75cab1/osso-bucco-7-.jpg"
-    },
-    {
       "id": "italie:041",
       "t": "Tortellini in Brodo",
       "cat": "Italie, Plat",
@@ -2912,7 +3071,7 @@
     {
       "id": "italie:051",
       "t": "Seadas (Sebadas)",
-      "cat": "Italie, Dessert",
+      "cat": "Italie, Dessert, Biscuit",
       "area": "Sardaigne",
       "min": 40,
       "serv": 8,
@@ -3121,7 +3280,7 @@
     {
       "id": "af:016",
       "t": "Flan Vanille Ultra Fondant — Airfryer",
-      "cat": "Airfryer, Dessert",
+      "cat": "Airfryer, Dessert, Gâteaux",
       "min": 30,
       "serv": 4,
       "desc": "Flan vanille crémeux et fondant cuit à l'airfryer, en version ramequins individuels ou grand plat à partager. Centre légèrement tremblant = cuisson parfaite.",
@@ -3138,7 +3297,7 @@
     {
       "id": "af:017",
       "t": "Crème aux Œufs Caramel Façon Bistrot — Airfryer",
-      "cat": "Airfryer, Dessert",
+      "cat": "Airfryer, Dessert, Crème dessert",
       "min": 35,
       "serv": 4,
       "desc": "La crème caramel façon bistrot, cuisson rapide et précise à l'airfryer. Caramel dans le fond, démoulage wahou garanti.",
@@ -3157,7 +3316,7 @@
     {
       "id": "af:018",
       "t": "Flan Chocolat Cœur Fondant — Airfryer",
-      "cat": "Airfryer, Dessert",
+      "cat": "Airfryer, Dessert, Gâteaux",
       "min": 25,
       "serv": 4,
       "desc": "Flan au chocolat avec un cœur coulant fondant, cuit à l'airfryer. La clé : arrêter la cuisson quand le centre tremble encore. Délice absolu.",
@@ -3174,7 +3333,7 @@
     {
       "id": "af:019",
       "t": "Crème Banane Ultra Régressive — Airfryer",
-      "cat": "Airfryer, Dessert",
+      "cat": "Airfryer, Dessert, Crème dessert",
       "min": 28,
       "serv": 4,
       "desc": "Crème onctueuse à la banane, douce et parfumée, option pépites de chocolat. Une douceur d'enfance cuite à l'airfryer en un rien de temps.",
@@ -3191,7 +3350,7 @@
     {
       "id": "af:020",
       "t": "Flan Coco Façon Îles — Airfryer",
-      "cat": "Airfryer, Dessert",
+      "cat": "Airfryer, Dessert, Crème dessert",
       "min": 30,
       "serv": 4,
       "desc": "Flan exotique au lait de coco et noix de coco râpée, texture légèrement granuleuse et parfum des îles. Simple, dépaysant, fondant.",
@@ -3207,7 +3366,7 @@
     {
       "id": "af:021",
       "t": "Crème Pomme Cannelle Crumble Sans Pâte — Airfryer",
-      "cat": "Airfryer, Dessert",
+      "cat": "Airfryer, Dessert, Tarte sucrée",
       "min": 28,
       "serv": 4,
       "desc": "Crème façon flan vanille aux dés de pomme et cannelle, avec crumble croustillant sur le dessus. Fondant dessous, croustillant dessus — un délice.",
@@ -3917,7 +4076,7 @@
     {
       "id": "shake:002",
       "t": "Milkshake Fraise",
-      "cat": "Milkshake, Boissons",
+      "cat": "Milkshake, Boissons, Fraise",
       "min": 5,
       "serv": 2,
       "desc": "Fruité, rose et rafraîchissant — idéal avec des fraises fraîches de saison ou surgelées.",
@@ -3966,23 +4125,6 @@
       "img": "https://static.750g.com/images/1200-630/ab1ada3e903c441d94582a4a2cc1eb09/milk-shake-oreo.jpg"
     },
     {
-      "id": "shake:005",
-      "t": "Milkshake Pistache",
-      "cat": "Milkshake, Boissons",
-      "min": 5,
-      "serv": 2,
-      "desc": "Saveur pistache délicate et légèrement salée — le milkshake des gourmets.",
-      "ing": [
-        "3 boules de glace pistache",
-        "180 ml de lait entier froid",
-        "2 c. à soupe de pâte de pistache (ou pistaches mixées)",
-        "Pistaches concassées pour décorer"
-      ],
-      "steps": "Mixer glace pistache, lait et pâte de pistache jusqu'à consistance onctueuse.\nVerser dans des grands verres.\nDécorer de pistaches concassées et servir immédiatement.\n\n💡 La pâte de pistache (sans sucre ajouté) intensifie la saveur. Disponible en épiceries fines.",
-      "url": "https://www.750g.com/muffins-au-chocolat-et-aux-noix-et-milk-shake-a-la-pistache-r22446.htm",
-      "img": "https://static.750g.com/images/1200-630/443083ed69f7e0b8772597c7b0b5ef0c/muffins-au-chocolat-et-aux-noix-et-milk-shake-a-la-pistache.png"
-    },
-    {
       "id": "shake:006",
       "t": "Milkshake Banane Chocolat",
       "cat": "Milkshake, Boissons",
@@ -3998,39 +4140,6 @@
       "steps": "Peler et couper la banane (de préférence congelée pour un shake plus épais).\nMixer banane, glace chocolat, lait et cacao.\nAjuster la texture avec le lait.\nServir décoré de rondelles de banane et copeaux de chocolat.\n\n💡 Congeler les bananes mûres en tranches : prêtes à l'emploi et plus sucrées.",
       "url": "https://www.750g.com/milkshake-choco-bananes-r201570.htm",
       "img": "https://static.750g.com/images/1200-630/1ac66c87e04c337603c4d9518412797a/lima-milkshake-rdpjpg.jpeg"
-    },
-    {
-      "id": "shake:007",
-      "t": "Milkshake Myrtille",
-      "cat": "Milkshake, Boissons",
-      "min": 5,
-      "serv": 2,
-      "desc": "Violet intense, antioxydants, saveur légèrement acidulée — le milkshake le plus coloré.",
-      "ing": [
-        "2 boules de glace vanille ou myrtille",
-        "150 g de myrtilles (fraîches ou surgelées)",
-        "180 ml de lait entier froid",
-        "1 c. à soupe de sirop de cassis (optionnel)"
-      ],
-      "steps": "Mixer myrtilles, glace, lait (et sirop si souhaité) jusqu'à consistance onctueuse.\nLa couleur sera d'un violet profond.\nServir immédiatement garni de quelques myrtilles fraîches.",
-      "img": "img/illus/shake-007.jpg"
-    },
-    {
-      "id": "shake:008",
-      "t": "Milkshake Café",
-      "cat": "Milkshake, Boissons",
-      "min": 5,
-      "serv": 2,
-      "desc": "Le café froid et crémeux version milkshake — le pick-me-up parfait pour les amateurs de café.",
-      "ing": [
-        "3 boules de glace café ou vanille",
-        "1 expresso froid (ou 1 c. à café de café soluble dans 30ml d'eau)",
-        "150 ml de lait entier froid",
-        "Chantilly, chocolat râpé"
-      ],
-      "steps": "Préparer l'expresso et laisser refroidir.\nMixer glace, lait et expresso froid jusqu'à consistance crémeuse.\nVerser dans de grands verres, garnir de chantilly et chocolat râpé.\n\n💡 Ajouter un trait de liqueur Baileys pour une version adulte.",
-      "url": "https://www.750g.com/milk-shake-au-cafe-r204606.htm",
-      "img": "https://static.750g.com/images/1200-630/ba3f30ff6ec0d4bc99c901940398215a/milk-shake-4-.jpg"
     },
     {
       "id": "shake:009",
@@ -6087,7 +6196,7 @@
     {
       "id": "grece:013",
       "t": "Baklava",
-      "cat": "Grèce, Dessert",
+      "cat": "Grèce, Dessert, Biscuit",
       "min": 75,
       "serv": 20,
       "desc": "Le dessert grec et moyen-oriental par excellence — feuilles de phyllo beurrées, noix et pistaches, sirop de miel. Un seul suffit !",
@@ -6105,7 +6214,7 @@
     {
       "id": "grece:014",
       "t": "Loukoumades (Beignets au Miel)",
-      "cat": "Grèce, Dessert",
+      "cat": "Grèce, Dessert, Viennoiserie",
       "min": 35,
       "serv": 6,
       "desc": "Petits beignets grecs aériens et croustillants, nappés de miel et cannelle. La street food sucrée de la Grèce antique.",
@@ -6126,7 +6235,7 @@
     {
       "id": "grece:015",
       "t": "Galaktoboureko (Flan à la Semoule en Phyllo)",
-      "cat": "Grèce, Dessert",
+      "cat": "Grèce, Dessert, Crème dessert",
       "min": 80,
       "serv": 12,
       "desc": "Crème à la semoule vanillée emprisonnée dans du phyllo croustillant, imbibée de sirop citronné. La pâtisserie grecque la plus délicate.",
@@ -6567,7 +6676,7 @@
     {
       "id": "france:017",
       "t": "Baklava Bourguignon — Gâteau de Savoie",
-      "cat": "France, Dessert",
+      "cat": "France, Dessert, Gâteaux",
       "min": 60,
       "serv": 8,
       "desc": "Le gâteau emblématique de Savoie — ultra léger, aérien, avec son moule en forme de couronne cannelée. La légèreté alpine.",
@@ -6993,7 +7102,7 @@
     {
       "id": "portugal:039",
       "t": "Pão de Ló (Biscuit de Savoie Portugais)",
-      "cat": "Portugal, Dessert",
+      "cat": "Portugal, Dessert, Gâteaux",
       "min": 50,
       "serv": 8,
       "desc": "Le gâteau de fête portugais — ultra-léger, aérien, légèrement humide à cœur. Saveur d'œuf et citron. Servi à Pâques et aux grandes occasions.",
@@ -7055,7 +7164,7 @@
     {
       "id": "corse:074",
       "t": "Brocciu au Four (Falculelle)",
-      "cat": "Corse, Dessert",
+      "cat": "Corse, Dessert, Gâteaux",
       "min": 35,
       "serv": 6,
       "desc": "Petites galettes corses de brocciu cuit au four sur feuilles de châtaignier. Fondantes, parfumées, dorées — le biscuit corse traditionnel.",
@@ -7120,7 +7229,7 @@
     {
       "id": "corse:077",
       "t": "Tarte Corse Châtaigne, Citron & Figues",
-      "cat": "Corse, Dessert",
+      "cat": "Corse, Dessert, Tarte sucrée",
       "min": 60,
       "serv": 8,
       "desc": "La tarte des parfums corses — fond de châtaigne, crème citron et figues fraîches ou confites. Sucrée, légèrement amère, méridionale.",
@@ -7159,7 +7268,7 @@
     {
       "id": "corse:079",
       "t": "Cannistrellu (Biscuits Corses à l'Anis)",
-      "cat": "Corse, Dessert",
+      "cat": "Corse, Dessert, Biscuit",
       "min": 45,
       "serv": 30,
       "desc": "Les biscuits corses secs et croquants à l'anis, parfumés à l'eau de vie. Se conservent longtemps, parfaits avec un café ou un verre de muscat.",
@@ -7784,7 +7893,7 @@
     {
       "id": "maghreb:029",
       "t": "Baghrir (Crêpes Mille-Trous)",
-      "cat": "Maghreb, Dessert",
+      "cat": "Maghreb, Dessert, Crêpe sucrée",
       "min": 30,
       "serv": 4,
       "desc": "Les crêpes magiques marocaines aux mille trous — légères, spongieuses, imbibées de beurre fondu et miel. Le petit-déjeuner festif du Ramadan.",
@@ -7804,7 +7913,7 @@
     {
       "id": "maghreb:030",
       "t": "Makroud (Biscuits aux Dattes)",
-      "cat": "Maghreb, Dessert",
+      "cat": "Maghreb, Dessert, Biscuit",
       "min": 90,
       "serv": 25,
       "desc": "Les gâteaux de semoule tunisiens fourrés aux dattes et frits puis imbibés de miel. Festif, sucré, parfumé à la fleur d'oranger.",
@@ -7821,7 +7930,7 @@
     {
       "id": "italie:052",
       "t": "Tiramisu aux Fraises",
-      "cat": "Italie, Dessert",
+      "cat": "Italie, Dessert, Tiramisu",
       "min": 30,
       "serv": 6,
       "desc": "Un tiramisu fruité et léger : les fraises fraîches remplacent le café, avec une crème mascarpone vanillée. Parfait pour l'été.",
@@ -7841,7 +7950,7 @@
     {
       "id": "italie:053",
       "t": "Tiramisu au Citron",
-      "cat": "Italie, Dessert",
+      "cat": "Italie, Dessert, Tiramisu",
       "min": 25,
       "serv": 6,
       "desc": "Version acidulée du tiramisu classique : citrons de Sicile, limoncello et mascarpone pour une version fraîche et estivale.",
@@ -7862,7 +7971,7 @@
     {
       "id": "italie:054",
       "t": "Tiramisu Spéculoos",
-      "cat": "Italie, Dessert",
+      "cat": "Italie, Dessert, Tiramisu",
       "min": 20,
       "serv": 6,
       "desc": "Le mariage parfait entre le tiramisu classique et les épices de spéculoos : café, mascarpone et cette touche de cannelle-caramel irrésistible.",
@@ -7882,7 +7991,7 @@
     {
       "id": "italie:055",
       "t": "Tiramisu Chocolat Blanc & Framboises",
-      "cat": "Italie, Dessert",
+      "cat": "Italie, Dessert, Tiramisu",
       "min": 30,
       "serv": 6,
       "desc": "Décadent et fruité : la douceur du chocolat blanc rencontre l'acidité des framboises fraîches dans ce tiramisu élégant.",
@@ -7903,7 +8012,7 @@
     {
       "id": "italie:056",
       "t": "Tiramisu Mangue-Coco",
-      "cat": "Italie, Dessert",
+      "cat": "Italie, Dessert, Tiramisu",
       "min": 25,
       "serv": 6,
       "desc": "Version tropicale exotique : lait de coco, mangue fraîche et rhum blanc pour un tiramisu qui sent bon les îles.",
@@ -7924,7 +8033,7 @@
     {
       "id": "italie:057",
       "t": "Tiramisu Pistache",
-      "cat": "Italie, Dessert",
+      "cat": "Italie, Dessert, Tiramisu",
       "min": 25,
       "serv": 6,
       "desc": "Élégant et gourmand : la pâte de pistache sicilienne transforme la crème mascarpone en une couleur verte envoûtante. La recette des gelaterie de Palerme.",
@@ -8052,7 +8161,7 @@
     {
       "id": "france:026",
       "t": "Crêpes Suzette",
-      "cat": "France, Dessert",
+      "cat": "France, Dessert, Crêpe sucrée",
       "min": 45,
       "serv": 4,
       "desc": "Le dessert flambé emblématique de la cuisine française : crêpes fines légèrement caramélisées, sauce à l'orange et au Grand Marnier, flambées spectaculairement en salle.",
@@ -8067,7 +8176,7 @@
     {
       "id": "france:027",
       "t": "Crème Brûlée",
-      "cat": "France, Dessert",
+      "cat": "France, Dessert, Crème dessert",
       "min": 60,
       "serv": 6,
       "desc": "Le dessert français le plus célèbre : une crème onctueuse vanillée sous une carapace de caramel craquante créée au chalumeau. Simple, parfait, imparable.",
@@ -8085,7 +8194,7 @@
     {
       "id": "france:028",
       "t": "Tarte Tatin",
-      "cat": "France, Dessert",
+      "cat": "France, Dessert, Tarte sucrée",
       "min": 60,
       "serv": 6,
       "desc": "La tarte renversée des sœurs Tatin : pommes caramélisées dans le beurre et le sucre, recouvertes de pâte feuilletée et retournées à la sortie du four. Un accident culinaire devenu classique.",
@@ -8103,7 +8212,7 @@
     {
       "id": "france:029",
       "t": "Madeleines de Commercy",
-      "cat": "France, Dessert",
+      "cat": "France, Dessert, Gâteaux",
       "min": 40,
       "serv": 24,
       "desc": "Les petites coquilles dorées chères à Proust : légères, beurrées, avec cette bosse caractéristique qui signe une madeleine réussie. Le secret : le choc thermique.",
@@ -8243,7 +8352,7 @@
     {
       "id": "australie:004",
       "t": "Lamington",
-      "cat": "Australie, Dessert",
+      "cat": "Australie, Dessert, Gâteaux",
       "min": 60,
       "serv": 16,
       "desc": "Le gâteau national australien : carrés de génoise enrobés de glaçage chocolat et roulés dans la noix de coco râpée. Présent à chaque fête d'école et community event.",
@@ -8260,7 +8369,7 @@
     {
       "id": "australie:005",
       "t": "Pavlova",
-      "cat": "Australie, Dessert",
+      "cat": "Australie, Dessert, Gâteaux",
       "min": 120,
       "serv": 8,
       "desc": "Le grand dessert de fête australo-néo-zélandais : meringue craquante, cœur moelleux, crème fouettée et fruits de la passion ou kiwi. Le sujet d'une rivalité nationale légendaire.",
@@ -8341,7 +8450,7 @@
     {
       "id": "australie:009",
       "t": "Sticky Date Pudding",
-      "cat": "Australie, Dessert",
+      "cat": "Australie, Dessert, Crème dessert",
       "min": 60,
       "serv": 8,
       "desc": "Le pudding aux dattes humide et collant, nappé de sauce caramel butterscotch chaude. Le dessert d'hiver des pubs australiens, servi avec glace vanille ou crème.",
@@ -8378,7 +8487,7 @@
     {
       "id": "australie:011",
       "t": "Tim Tam Cheesecake",
-      "cat": "Australie, Dessert",
+      "cat": "Australie, Dessert, Cheesecake",
       "min": 30,
       "serv": 10,
       "desc": "Le cheesecake australien ultime : base de Tim Tams (biscuits chocolat australiens), cheesecake crémeux et glaçage ganache chocolat. Un dessert pour les vrais fans.",
@@ -8430,7 +8539,7 @@
     {
       "id": "australie:014",
       "t": "Pavlova aux Fruits de la Passion",
-      "cat": "Australie, Dessert",
+      "cat": "Australie, Dessert, Gâteaux",
       "min": 120,
       "serv": 8,
       "desc": "La version tropicale de la pavlova nationale : meringue parfaite avec fruits de la passion, mangue et fraises fraîches pour un dessert de Noël estival.",
@@ -8468,7 +8577,7 @@
     {
       "id": "australie:016",
       "t": "Caramelised Banana Bread",
-      "cat": "Australie, Boulangerie, Dessert",
+      "cat": "Australie, Boulangerie, Dessert, Gâteaux",
       "min": 75,
       "serv": 10,
       "desc": "Le banana bread australien au caramel : bananes caramélisées au beurre brun incorporées dans le cake pour une profondeur de saveur exceptionnelle. Incontournable dans les cafés.",
@@ -8612,7 +8721,7 @@
     {
       "id": "gb:007",
       "t": "Sticky Toffee Pudding",
-      "cat": "Grande-Bretagne, Dessert",
+      "cat": "Grande-Bretagne, Dessert, Crème dessert",
       "min": 60,
       "serv": 8,
       "desc": "Le dessert chaud emblématique des pubs anglais : cake aux dattes ultra-moelleux, nappé de sauce toffee chaude et servi avec glace vanille. Réconfort absolu.",
@@ -8686,7 +8795,7 @@
     {
       "id": "gb:011",
       "t": "Eton Mess",
-      "cat": "Grande-Bretagne, Dessert",
+      "cat": "Grande-Bretagne, Dessert, Crème dessert",
       "min": 15,
       "serv": 6,
       "desc": "Le dessert estival du collège d'Eton : fraises fraîches, chantilly et morceaux de meringue grossièrement mélangés. La \"catastrophe\" délicieuse de la tradition anglaise.",
@@ -8916,7 +9025,7 @@
     {
       "id": "allemagne:011",
       "t": "Schwarzwälder Kirschtorte (Forêt Noire)",
-      "cat": "Allemagne, Dessert, Gâteau",
+      "cat": "Allemagne, Dessert, Gâteaux",
       "min": 120,
       "serv": 10,
       "desc": "Le gâteau emblématique de la Forêt Noire : génoise au cacao, crème chantilly, griottes au kirsch et copeaux de chocolat. La star des pâtisseries allemandes depuis 1915.",
@@ -8933,7 +9042,7 @@
     {
       "id": "allemagne:012",
       "t": "Apfelstrudel (Strudel aux Pommes)",
-      "cat": "Allemagne, Dessert",
+      "cat": "Allemagne, Dessert, Tarte sucrée",
       "min": 90,
       "serv": 8,
       "desc": "La pâtisserie austro-allemande emblématique : pâte étirée à la main quasi-transparente, roulée autour de pommes, raisins secs, cannelle et chapelure beurrée. Servi tiède avec sauce vanille.",
@@ -8950,7 +9059,7 @@
     {
       "id": "allemagne:013",
       "t": "Bienenstich (Gâteau Abeille)",
-      "cat": "Allemagne, Dessert, Gâteau",
+      "cat": "Allemagne, Dessert, Gâteaux",
       "min": 90,
       "serv": 10,
       "desc": "Le mystérieux \"dard d'abeille\" : une brioche moelleuse couverte d'un caramel aux amandes croustillant, fourrée de crème pâtissière à la vanille. Un classique de pâtisserie allemande.",
@@ -9100,7 +9209,7 @@
     {
       "id": "bresil:005",
       "t": "Brigadeiro",
-      "cat": "Brésil, Dessert, Confiserie",
+      "cat": "Brésil, Dessert, Confiserie, Biscuit",
       "min": 30,
       "serv": 30,
       "desc": "Le chocolat brésilien par excellence : truffes de lait condensé et cacao roulées dans des granulés de chocolat. La confiserie nationale servie à tous les anniversaires et fêtes.",
@@ -9196,7 +9305,7 @@
     {
       "id": "bresil:010",
       "t": "Açaí Bowl Brésilien",
-      "cat": "Brésil, Petit-déjeuner, Dessert",
+      "cat": "Brésil, Petit-déjeuner, Dessert, Crème dessert",
       "min": 10,
       "serv": 2,
       "desc": "Le bol d'açaï authentique de Belém : pulpe d'açaï congelée mixée épaisse, surmontée de granola, banane, mel de guaraná et noix. Le super-food originel avant que le monde entier le découvre.",
@@ -9249,7 +9358,7 @@
     {
       "id": "bresil:013",
       "t": "Quindim",
-      "cat": "Brésil, Dessert",
+      "cat": "Brésil, Dessert, Biscuit",
       "min": 60,
       "serv": 12,
       "desc": "Le petit flan à la noix de coco brésilien d'origine africaine : jaunes d'œufs, sucre, beurre et noix de coco râpée. Jaune doré, lisse comme de la soie, parfumé de coco.",
@@ -9268,7 +9377,7 @@
     {
       "id": "bresil:014",
       "t": "Bolo de Fubá (Gâteau de Maïs)",
-      "cat": "Brésil, Dessert, Gâteau",
+      "cat": "Brésil, Dessert, Gâteaux",
       "min": 60,
       "serv": 8,
       "desc": "Le gâteau de farine de maïs brésilien : moelleux, parfumé, légèrement sucré avec une texture entre le cake et le pudding de maïs. Le gâteau des familles brésiliennes du Minas Gerais.",
@@ -9380,7 +9489,7 @@
     {
       "id": "bresil:020",
       "t": "Brigadeiro Gourmet au Chocolat Belge",
-      "cat": "Brésil, Dessert, Confiserie",
+      "cat": "Brésil, Dessert, Confiserie, Biscuit",
       "min": 30,
       "serv": 20,
       "desc": "La version haut de gamme du brigadeiro : chocolat noir de qualité 70%, crème de lait, beurre de cacao — les truffes brésiliennes élevées au rang de confiserie de luxe.",
@@ -9501,7 +9610,7 @@
     {
       "id": "argentine:006",
       "t": "Dulce de Leche Maison",
-      "cat": "Argentine, Dessert, Confiserie",
+      "cat": "Argentine, Dessert, Confiserie, Crème dessert",
       "min": 120,
       "serv": 10,
       "desc": "La confiture de lait argentine : lait entier et sucre cuits très lentement jusqu'à caramel brun profond et onctueux. La saveur qui définit l'enfance argentine.",
@@ -9621,7 +9730,7 @@
     {
       "id": "argentine:013",
       "t": "Dulce de Leche Pancakes",
-      "cat": "Argentine, Dessert, Petit-déjeuner",
+      "cat": "Argentine, Dessert, Petit-déjeuner, Crêpe sucrée",
       "min": 25,
       "serv": 4,
       "desc": "Les pancakes du matin argentin : crêpes épaisses style américain garnies de dulce de leche chaud et crème fraîche. Le petit-déjeuner des dimanches de Buenos Aires.",
@@ -9700,7 +9809,7 @@
     {
       "id": "argentine:017",
       "t": "Torta Rogel",
-      "cat": "Argentine, Dessert, Gâteau",
+      "cat": "Argentine, Dessert, Gâteaux",
       "min": 120,
       "serv": 10,
       "desc": "L'imposant millefeuille argentin : 8-10 disques de pâte brisée empilés avec du dulce de leche entre chaque couche, couverts de meringue italienne grillée. Un monument de la pâtisserie.",
@@ -10264,7 +10373,7 @@
     {
       "id": "arabe:008",
       "t": "Kunafa (Feuilleté au Fromage et Sirop)",
-      "cat": "Monde arabe, Dessert",
+      "cat": "Monde arabe, Dessert, Biscuit",
       "desc": "Dessert emblématique du Levant : pâte kataïfi croustillante fourrée de fromage fondu, nappée de sirop à l'eau de rose.",
       "min": 60,
       "serv": "8 personnes",
@@ -10287,7 +10396,7 @@
     {
       "id": "arabe:009",
       "t": "Basbousa (Gâteau de Semoule)",
-      "cat": "Monde arabe, Dessert",
+      "cat": "Monde arabe, Dessert, Gâteaux",
       "desc": "Gâteau moelleux à la semoule imbibé de sirop parfumé à l'eau de fleur d'oranger, très répandu dans tout le monde arabe.",
       "min": 45,
       "serv": "8 personnes",
@@ -10312,7 +10421,7 @@
     {
       "id": "arabe:010",
       "t": "Umm Ali (Pain Perdu aux Noix)",
-      "cat": "Monde arabe, Dessert",
+      "cat": "Monde arabe, Dessert, Viennoiserie",
       "desc": "Dessert chaud égyptien : morceaux de pâte feuilletée cuits dans de la crème avec noix, raisins et noix de coco.",
       "min": 35,
       "serv": "6 personnes",
@@ -10723,7 +10832,7 @@
     {
       "id": "bulgarie:008",
       "t": "Mekitsa (Beignets Bulgares)",
-      "cat": "Bulgarie, Dessert",
+      "cat": "Bulgarie, Dessert, Viennoiserie",
       "desc": "Beignets frits légers servis au petit-déjeuner avec miel, confiture ou fromage blanc.",
       "min": 40,
       "serv": "4 personnes",
@@ -11117,7 +11226,7 @@
     {
       "id": "hongrie:007",
       "t": "Kürtöskalács (Gâteau à la Broche)",
-      "cat": "Hongrie, Dessert",
+      "cat": "Hongrie, Dessert, Gâteaux",
       "desc": "Spirale de pâte levée roulée autour d'une broche, caramélisée et parfumée à la cannelle ou aux noix.",
       "min": 90,
       "serv": "6 personnes",
@@ -11143,7 +11252,7 @@
     {
       "id": "hongrie:008",
       "t": "Dobos Torte (Gâteau au Caramel)",
-      "cat": "Hongrie, Dessert",
+      "cat": "Hongrie, Dessert, Gâteaux",
       "desc": "Gâteau hongrois élaboré à 7 couches de génoise, crème au beurre chocolatée et disque de caramel dur craquant.",
       "min": 120,
       "serv": "8 personnes",
@@ -11300,7 +11409,7 @@
     {
       "id": "roumanie:006",
       "t": "Cozonac (Brioche Roumaine aux Noix)",
-      "cat": "Roumanie, Dessert",
+      "cat": "Roumanie, Dessert, Viennoiserie",
       "desc": "Brioche moelleuse de Noël et Pâques fourrée aux noix, cacao et raisins, parfumée au rhum et citron.",
       "min": 180,
       "serv": "8 personnes",
@@ -11328,7 +11437,7 @@
     {
       "id": "roumanie:007",
       "t": "Papanași (Beignets au Fromage Blanc)",
-      "cat": "Roumanie, Dessert",
+      "cat": "Roumanie, Dessert, Viennoiserie",
       "desc": "Beignets moelleux au fromage blanc frits dans l'huile, nappés de crème fraîche et confiture de cerises.",
       "min": 35,
       "serv": "4 personnes",
@@ -11436,7 +11545,7 @@
     {
       "id": "paysbas:004",
       "t": "Stroopwafels (Gaufres au Sirop Caramel)",
-      "cat": "Pays-Bas, Dessert",
+      "cat": "Pays-Bas, Dessert, Crêpe sucrée",
       "desc": "Fines gaufres croustillantes collées par un caramel mou, posées sur une tasse de thé pour attendrir la garniture.",
       "min": 60,
       "serv": "12 stroopwafels",
@@ -11484,7 +11593,7 @@
     {
       "id": "paysbas:006",
       "t": "Oliebollen (Beignets du Réveillon)",
-      "cat": "Pays-Bas, Dessert",
+      "cat": "Pays-Bas, Dessert, Viennoiserie",
       "desc": "Boules de pâte levée aux raisins et écorces d'orange confites, frits dans l'huile, incontournables du Nouvel An hollandais.",
       "min": 60,
       "serv": "20 beignets",
@@ -11511,7 +11620,7 @@
     {
       "id": "paysbas:007",
       "t": "Appeltaart (Tarte aux Pommes Hollandaise)",
-      "cat": "Pays-Bas, Dessert",
+      "cat": "Pays-Bas, Dessert, Tarte sucrée",
       "desc": "Tarte aux pommes haute et parfumée à la cannelle avec pâte sablée croustillante, version hollandaise de la tarte classique.",
       "min": 90,
       "serv": "8 personnes",
@@ -14256,7 +14365,7 @@
     {
       "id": "millas:001",
       "t": "Millas Sucré d'Autrefois",
-      "cat": "France, Dessert",
+      "cat": "France, Dessert, Gâteaux",
       "desc": "Dessert rustique du Sud-Ouest à base de farine de maïs, parfumé à la fleur d'oranger et à la vanille. Encore meilleur préparé la veille.",
       "min": 75,
       "serv": 10,
@@ -14529,46 +14638,6 @@
         "Compléter avec l'eau pétillante. Décorer généreusement de fruits frais."
       ],
       "img": "img/illus/cocktail-exo11.jpg"
-    },
-    {
-      "id": "shake:011",
-      "t": "Milkshake Beurre de Cacahuète",
-      "cat": "Milkshake",
-      "desc": "Milkshake onctueux et gourmand au beurre de cacahuète, irrésistible",
-      "min": 5,
-      "serv": 2,
-      "ing": [
-        "4 boules (≈ 400 g) glace vanille",
-        "120 ml lait",
-        "60 g beurre de cacahuète"
-      ],
-      "steps": [
-        "Mettre la glace vanille, le lait et le beurre de cacahuète dans un blender.",
-        "Mixer jusqu'à obtenir un mélange lisse et crémeux.",
-        "Verser dans des grands verres bien froids.",
-        "Décorer de cacahuètes concassées ou de beurre de cacahuète en filet."
-      ],
-      "img": "img/illus/shake-011.jpg"
-    },
-    {
-      "id": "shake:012",
-      "t": "Milkshake Mangue",
-      "cat": "Milkshake",
-      "desc": "Milkshake tropical fruité à la mangue, frais et exotique",
-      "min": 5,
-      "serv": 2,
-      "ing": [
-        "4 boules (≈ 400 g) glace vanille",
-        "160 ml lait",
-        "1 mangue mûre ou 200 g pulpe de mangue"
-      ],
-      "steps": [
-        "Peler et couper la mangue en dés.",
-        "Mettre la glace, le lait et la mangue dans un blender.",
-        "Mixer jusqu'à obtenir un mélange lisse.",
-        "Verser dans des verres et servir immédiatement. Décorer d'un dé de mangue."
-      ],
-      "img": "img/illus/shake-012.jpg"
     },
     {
       "id": "shake:013",
@@ -16093,7 +16162,7 @@
     {
       "id": "cookie:kinder01",
       "t": "Cookies Kinder Bueno Fondants",
-      "cat": "Dessert",
+      "cat": "Dessert, Gâteaux",
       "desc": "Cookies ultra fondants au Kinder Bueno, croustillants dehors et coulants dedans",
       "min": 25,
       "serv": 15,
@@ -16733,7 +16802,7 @@
     {
       "id": "belgique:001",
       "t": "Gaufres de Liège",
-      "cat": "Belgique, Dessert",
+      "cat": "Belgique, Dessert, Crêpe sucrée",
       "desc": "Les célèbres gaufres belges, croustillantes dehors et moelleuses dedans avec du sucre perlé caramélisé",
       "min": 120,
       "serv": 10,
@@ -17550,7 +17619,7 @@
     {
       "id": "majorque:005",
       "t": "Coca aux Abricots (Apricot Coca)",
-      "cat": "Espagne, Majorque, Dessert",
+      "cat": "Espagne, Majorque, Dessert, Gâteaux",
       "desc": "Coca sucrée majorquine garnie d'abricots frais et parfumée à la cannelle, une douceur de la Saint-Antoine",
       "min": 60,
       "serv": 6,
@@ -17578,7 +17647,7 @@
     {
       "id": "majorque:006",
       "t": "Crespells (Biscuits Majorquins de Pâques)",
-      "cat": "Espagne, Majorque, Dessert",
+      "cat": "Espagne, Majorque, Dessert, Biscuit",
       "desc": "Biscuits sucrés à l'huile d'olive et à l'orange en forme d'étoile, traditionnellement confectionnés pour Noël et Pâques à Majorque",
       "min": 45,
       "serv": 40,
@@ -17604,7 +17673,7 @@
     {
       "id": "majorque:007",
       "t": "Greixonera de Brossat (Tarte au Fromage Blanc)",
-      "cat": "Espagne, Majorque, Dessert",
+      "cat": "Espagne, Majorque, Dessert, Tarte sucrée",
       "desc": "Dessert majorquin typique cuit en terrine : fromage blanc frais, orange, citron et œufs, fondant et parfumé",
       "min": 60,
       "serv": 6,
@@ -17629,7 +17698,7 @@
     {
       "id": "majorque:008",
       "t": "Robiols (Chaussons Sucrés à la Confiture)",
-      "cat": "Espagne, Majorque, Dessert",
+      "cat": "Espagne, Majorque, Dessert, Biscuit",
       "desc": "Petits chaussons sucrés en forme de demi-lune fourrés à la confiture, typiques de Noël et Pâques à Majorque",
       "min": 60,
       "serv": 30,
@@ -17657,7 +17726,7 @@
     {
       "id": "majorque:009",
       "t": "Gatò amb Gelat d'Ametlles (Gâteau aux Amandes et Glace)",
-      "cat": "Espagne, Majorque, Dessert",
+      "cat": "Espagne, Majorque, Dessert, Gâteaux",
       "desc": "Le dessert roi de Majorque : un gâteau aux amandes sans farine servi avec une glace maison aux amandes et à la cannelle",
       "min": 90,
       "serv": 8,
@@ -17782,7 +17851,7 @@
     {
       "id": "majorque:013",
       "t": "Ensaïmada Llisa (Ensaimada Nature)",
-      "cat": "Espagne, Majorque, Dessert",
+      "cat": "Espagne, Majorque, Dessert, Viennoiserie",
       "desc": "Le symbole gastronomique de Majorque : brioche en escargot au saindoux, légère et filante, saupoudrée de sucre glace",
       "min": 240,
       "serv": 8,
@@ -18773,25 +18842,6 @@
       "img": "img/illus/milkshake-002.jpg"
     },
     {
-      "id": "milkshake:003",
-      "title": "Milkshake Fraise",
-      "cat": "Boissons, Milkshake, Fraise",
-      "ing": [
-        "3 boules de glace vanille",
-        "200g fraises fraîches ou surgelées",
-        "20cl lait froid",
-        "chantilly"
-      ],
-      "steps": [
-        "Laver et équeuter les fraises.",
-        "Mettre tous les ingrédients dans un blender.",
-        "Mixer jusqu'à consistance crémeuse et lisse. Garnir de chantilly et d'une fraise."
-      ],
-      "min": 5,
-      "t": "Milkshake Fraise",
-      "img": "img/illus/milkshake-003.jpg"
-    },
-    {
       "id": "milkshake:004",
       "title": "Milkshake Mangue",
       "cat": "Boissons, Milkshake, Mangue",
@@ -18828,25 +18878,6 @@
       "min": 5,
       "t": "Milkshake Banane",
       "img": "img/illus/milkshake-005.jpg"
-    },
-    {
-      "id": "milkshake:006",
-      "title": "Milkshake Oreo",
-      "cat": "Boissons, Milkshake",
-      "ing": [
-        "3 boules de glace vanille",
-        "6 biscuits Oreo",
-        "25cl lait froid",
-        "chantilly"
-      ],
-      "steps": [
-        "Écraser grossièrement 4 Oreo. Garder 2 biscuits entiers pour la déco.",
-        "Mettre la glace, le lait et les Oreo écrasés dans un blender.",
-        "Mixer brièvement. Garnir de chantilly et d'un Oreo entier."
-      ],
-      "min": 5,
-      "t": "Milkshake Oreo",
-      "img": "img/illus/milkshake-006.jpg"
     },
     {
       "id": "milkshake:007",
