@@ -109,12 +109,12 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .schip{background:rgba(124,179,66,.18);border:1px solid #4d6b2a;color:#cde8a6;font-size:.74em;font-weight:600;padding:3px 8px;border-radius:999px;white-space:nowrap}
 
 /* bandeaux horizontaux de l'accueil */
-#cellar-home{margin:0 0 14px}
-#cellar-home:empty{display:none}
+#cellar-home,#stock-home{margin:0 0 14px}
+#cellar-home:empty,#stock-home:empty{display:none}
 .feed-label{color:var(--muted);font-size:.77em;font-weight:700;text-transform:uppercase;letter-spacing:.4px;margin-bottom:8px;display:flex;align-items:center;gap:7px}
 .feed-count{font-weight:400;text-transform:none;letter-spacing:0;background:var(--card);border:1px solid var(--line);padding:1px 7px;border-radius:999px;font-size:.95em}
-#cellar-home .feed-strip{display:flex;gap:10px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}
-#cellar-home .feed-strip::-webkit-scrollbar{display:none}
+#cellar-home .feed-strip,#stock-home .feed-strip{display:flex;gap:10px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:4px}
+#cellar-home .feed-strip::-webkit-scrollbar,#stock-home .feed-strip::-webkit-scrollbar{display:none}
 .feed-card{flex:none;width:128px;background:var(--card);border-radius:14px;overflow:hidden;cursor:pointer;border:1px solid var(--line);transition:transform .13s,box-shadow .13s}
 .feed-card:active{transform:scale(.96);box-shadow:0 2px 8px rgba(0,0,0,.25)}
 .feed-card img{width:100%;height:78px;object-fit:cover;display:block}
@@ -642,7 +642,7 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .cellar-card .feed-info{padding:9px 11px 11px}
 .cellar-card .feed-t{font-size:.95em}
 .cellar-card .cellar-tag{font-size:.74em;padding:2px 8px}
-#cellar-home .feed-label{font-size:.9em}
+#cellar-home .feed-label,#stock-home .feed-label{font-size:.9em}
 .cellar-tags{display:flex;flex-wrap:wrap;gap:3px;margin-top:5px}
 .cellar-tag{font-size:.66em;font-weight:600;padding:1px 6px;border-radius:999px;background:rgba(224,122,63,.15);border:1px solid rgba(224,122,63,.35);color:var(--accent);white-space:nowrap;max-width:100%;overflow:hidden;text-overflow:ellipsis}
 .cellar-tag.season{background:rgba(124,179,66,.18);border-color:#4d6b2a;color:#cde8a6}
@@ -651,3 +651,19 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .all-toggle[hidden]{display:none}
 .all-count{font-weight:400;font-size:.8em;color:var(--muted);background:var(--bg2);border:1px solid var(--line);padding:1px 8px;border-radius:999px}
 .all-chev{margin-left:auto;color:var(--muted)}
+.boucherie{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.boucherie summary{padding:14px 16px;cursor:pointer;font-weight:700;font-size:.95em;list-style:none}
+.boucherie summary::-webkit-details-marker{display:none}
+.bouch-sub{font-weight:400;color:var(--muted);font-size:.85em}
+#boucherie-body{padding:0 14px 12px}
+.bouch-group{margin-bottom:10px}
+.bouch-h{font-weight:700;font-size:.85em;color:var(--muted);margin-bottom:6px}
+.bouch-chips{display:flex;flex-wrap:wrap;gap:6px}
+.bouch-chip{padding:7px 11px;border:1px solid var(--line);background:var(--bg);color:var(--text);border-radius:999px;font-size:.82em;font-weight:600;cursor:pointer}
+.bouch-chip.on{background:rgba(124,179,66,.18);border-color:#4d6b2a;color:#cde8a6}
+.freeze-badge{font-size:.66em;font-weight:600;color:#9ec5e8;background:rgba(80,140,200,.15);border:1px solid rgba(80,140,200,.35);border-radius:999px;padding:1px 7px;text-align:center}
+.freeze-badge.late{color:#f0a090;background:rgba(240,160,144,.15);border-color:rgba(240,160,144,.5)}
+.stock-card-img img[src$=".svg"]{object-fit:contain;padding:14%}
+.cellar-tag.stock-frigo{background:rgba(120,190,230,.15);border-color:rgba(120,190,230,.4);color:#a9d8f2}
+.cellar-tag.stock-congelateur{background:rgba(160,170,240,.15);border-color:rgba(160,170,240,.4);color:#c3c9f7}
+.stock-cover{font-size:.68em;color:var(--muted);margin-top:4px}

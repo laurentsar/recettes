@@ -53,6 +53,7 @@
   <main id="main">
     <div id="daily"></div>
     <div id="cellar-home"></div>
+    <div id="stock-home"></div>
     <button id="all-toggle" class="all-toggle" hidden aria-expanded="false"></button>
     <div id="status" class="status"></div>
     <div id="grid"></div>
@@ -105,6 +106,10 @@
             <input class="frigo-manual-input" type="text" placeholder="Ajouter un aliment surgelé…" autocomplete="off" autocapitalize="off" data-ftab="congelateur" />
             <button class="frigo-manual-add" data-ftab="congelateur">+</button>
           </div>
+          <details class="boucherie">
+            <summary>🔪 Viande du boucher <span class="bouch-sub">— sans code-barres</span></summary>
+            <div id="boucherie-body"></div>
+          </details>
           <div id="frigo-status-congelateur"></div>
           <div id="frigo-ings-congelateur" hidden></div>
         </div>
@@ -232,7 +237,7 @@
   </div>
 
   <script src="app.js"></script>
-  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='3.08';</script>
+  <script>window.UPDATE_REPO='laurentsar/recettes';window.APP_VERSION='3.09';</script>
   <script src="update-check.js" defer></script>
   <script>window.BACKUP_APP = 'recettes-app'; window.BACKUP_SKIP = [/^recipesData$/];</script>
   <script src="autobackup.js"></script>
