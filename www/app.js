@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.06';
+const APP_VERSION = '3.07';
 
 let ALL = [];
 let BASE = [];
@@ -243,7 +243,8 @@ const _nc = new Map();
 const norm = (s)=>{
   const k = s==null?'':String(s);
   if(_nc.has(k)) return _nc.get(k);
-  const v = k.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+  // « œ »/« æ » ne se décomposent pas en NFD : sans ça, « œuf » ≠ « oeuf » et « bœuf » ≠ « boeuf ».
+  const v = k.toLowerCase().replace(/œ/g,'oe').replace(/æ/g,'ae').normalize('NFD').replace(/[̀-ͯ]/g,'');
   _nc.set(k,v); return v;
 };
 const esc = (s)=> (s||'').replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));

@@ -18711,6 +18711,27 @@
         "Arroser d'un filet de miel, parsemer de thym frais et servir."
       ],
       "img": "img/pdt/06.jpg"
+    },
+    {
+      "id": "tech:019",
+      "t": "Panure à l'Anglaise",
+      "cat": "Technique",
+      "min": 15,
+      "serv": 2,
+      "img": "img/techniques/panure-anglaise.jpg",
+      "desc": "Farine, œuf, chapelure : le trio gagnant pour une croûte bien dorée et ultra croustillante. Facile. (Mission Culinaire — HelloFresh)",
+      "ing": [
+        "1 c. à s. de farine",
+        "1 œuf battu",
+        "50 g de chapelure panko",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Séchage : séchez bien la pièce à paner avec du papier absorbant. La panure accrochera mieux.",
+        "Farinage : passez-la dans la farine assaisonnée, puis secouez pour retirer l'excédent.",
+        "Anglaise : trempez-la dans l'œuf battu salé et poivré, puis laissez égoutter.",
+        "Chapelure : enrobez-la de chapelure en pressant légèrement, puis passez aussitôt à la cuisson."
+      ]
     }
   ]
 }
