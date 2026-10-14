@@ -483,12 +483,14 @@
     {
       "id": "corse:010",
       "url": "https://www.recettes-corses.fr/recipe-items/omelette-au-brocciu-et-a-la-menthe",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Omelette-Plate.jpg/500px-Omelette-Plate.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Omelette-Plate.jpg/500px-Omelette-Plate.jpg",
+      "cat": "Corse, Entrée, Omelette"
     },
     {
       "id": "corse:012",
       "url": "https://www.recettes-corses.fr/recipe-items/omelette-au-brocciu-et-a-la-menthe",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Brocciu2.jpg/500px-Brocciu2.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Brocciu2.jpg/500px-Brocciu2.jpg",
+      "cat": "Corse, Entrée, Omelette"
     },
     {
       "id": "corse:018",
@@ -639,7 +641,8 @@
     {
       "id": "maghreb:013",
       "url": "https://www.themediterraneandish.com/kofta-kebab-recipe/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Sultanahmet_K%C3%B6ftesi.jpg/500px-Sultanahmet_K%C3%B6ftesi.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Sultanahmet_K%C3%B6ftesi.jpg/500px-Sultanahmet_K%C3%B6ftesi.jpg",
+      "cat": "Maghreb, Plat, Brochette"
     },
     {
       "id": "maghreb:014",
@@ -649,7 +652,8 @@
     {
       "id": "maghreb:016",
       "url": "https://www.themediterraneandish.com/taktouka-moroccan-tomato-and-roasted-bell-pepper-salad/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Salade_juive_%28PIC00025%29.jpg/500px-Salade_juive_%28PIC00025%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Salade_juive_%28PIC00025%29.jpg/500px-Salade_juive_%28PIC00025%29.jpg",
+      "cat": "Maghreb, Entrée, Salade"
     },
     {
       "id": "maghreb:018",
@@ -689,7 +693,8 @@
     {
       "id": "japon:006",
       "url": "https://www.justonecookbook.com/yakitori/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Cooking_yakitori.jpg/500px-Cooking_yakitori.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Cooking_yakitori.jpg/500px-Cooking_yakitori.jpg",
+      "cat": "Japon, Entrée, Brochette"
     },
     {
       "id": "japon:007",
@@ -709,7 +714,8 @@
     {
       "id": "japon:010",
       "url": "https://www.justonecookbook.com/tamagoyaki/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/%E9%B3%A5%E7%84%BC%E3%81%8D%E5%B1%85%E9%85%92%E5%B1%8B_%2839394233682%29.jpg/500px-%E9%B3%A5%E7%84%BC%E3%81%8D%E5%B1%85%E9%85%92%E5%B1%8B_%2839394233682%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/%E9%B3%A5%E7%84%BC%E3%81%8D%E5%B1%85%E9%85%92%E5%B1%8B_%2839394233682%29.jpg/500px-%E9%B3%A5%E7%84%BC%E3%81%8D%E5%B1%85%E9%85%92%E5%B1%8B_%2839394233682%29.jpg",
+      "cat": "Japon, Entrée, Omelette"
     },
     {
       "id": "japon:011",
@@ -961,7 +967,8 @@
     },
     {
       "id": "dropbox:1290192065",
-      "t": "Cheesecake au Toblerone au Thermomix"
+      "t": "Cheesecake au Toblerone au Thermomix",
+      "cat": "Thermomix, Dessert"
     },
     {
       "id": "dropbox:1445166428",
@@ -1077,7 +1084,8 @@
     },
     {
       "id": "dropbox:1513175493",
-      "t": "Sangria espagnole au Thermomix"
+      "t": "Sangria espagnole au Thermomix",
+      "cat": "Thermomix, Espagne, Boissons"
     },
     {
       "id": "dropbox:c9604a28-c9fa-4835-95c9-039767b2de3d",
@@ -1101,7 +1109,8 @@
     },
     {
       "id": "dropbox:144314435",
-      "t": "Vin de figues"
+      "t": "Vin de figues",
+      "cat": "Boissons"
     },
     {
       "id": "dropbox:c85f2f0a-1457-4791-8ca8-1babb944047e",
@@ -1119,7 +1128,8 @@
     },
     {
       "id": "dropbox:8865b0d5-aa6d-477c-838f-5ed00102a3ed",
-      "cat": "Légume, Plat"
+      "cat": "Légume, Plat",
+      "t": "Feuilleté de courgettes à la mozzarella et au jambon"
     },
     {
       "id": "dropbox:b933c545-051d-45c4-a9dd-13d750a2f4dc",
@@ -1137,7 +1147,8 @@
     {
       "id": "dropbox:-227631228",
       "cat": "Légume, Plat",
-      "img": "img/illus/dropbox-227631228.jpg"
+      "img": "img/illus/dropbox-227631228.jpg",
+      "steps": "Préchauffez votre four à 180°C.\n\nLavez, séchez et coupez le brocoli en morceaux. Lavez, épluchez et coupez la patate douce en dés.Rassemblez-les dans un plat résistant au four, ajoutez les gousses d’ail épluchées et l’oignon émincé. Arrosez d’huile d’olive, ajoutez le cumin et le paprika.Enfournez 30/35 minutes.\n\nFaites cuire le quinoa dans une casserole d’eau en suivant les instructions du paquet.Égouttez et réservez.\n\nVersez le quinoa dans un plat de service, disposez les légumes sur le quinoa. Versez quelques gouttes de citron, ajustez assaisonnement en sel, poivre et piment doux selon votre goût.Servez chaud."
     },
     {
       "id": "dropbox:b82a7f5e-252a-4c7e-90aa-cacb1e5d873b",
@@ -1149,7 +1160,8 @@
     },
     {
       "id": "dropbox:6c454f28-b62f-4a9e-9e3e-3634402849f6",
-      "img": "img/illus/dropbox-6c454f28-b62f-4a9e-9e3e-3634402849f6.jpg"
+      "img": "img/illus/dropbox-6c454f28-b62f-4a9e-9e3e-3634402849f6.jpg",
+      "t": "Flans au Airfryer"
     },
     {
       "id": "dropbox:1759851535",
@@ -1161,7 +1173,8 @@
     },
     {
       "id": "dropbox:77937872",
-      "img": "img/illus/dropbox-77937872.jpg"
+      "img": "img/illus/dropbox-77937872.jpg",
+      "cat": "Bœuf, Plat"
     },
     {
       "id": "dropbox:1231896210",
@@ -1193,7 +1206,8 @@
     },
     {
       "id": "dropbox:8356096",
-      "img": "img/illus/dropbox-8356096.jpg"
+      "img": "img/illus/dropbox-8356096.jpg",
+      "t": "Gratin de haricots verts"
     },
     {
       "id": "dropbox:128978245",
@@ -1217,7 +1231,8 @@
     },
     {
       "id": "dropbox:-622542989",
-      "img": "img/illus/dropbox-622542989.jpg"
+      "img": "img/illus/dropbox-622542989.jpg",
+      "t": "Butter chicken"
     },
     {
       "id": "dropbox:178669351",
@@ -1257,7 +1272,8 @@
     },
     {
       "id": "dropbox:14530873",
-      "img": "img/illus/dropbox-14530873.jpg"
+      "img": "img/illus/dropbox-14530873.jpg",
+      "cat": "Boissons"
     },
     {
       "id": "dropbox:-564005755",
@@ -1269,7 +1285,8 @@
     },
     {
       "id": "dropbox:ea076000-d27b-4c59-b2ad-6d7bed5afa91",
-      "img": "img/illus/dropbox-ea076000-d27b-4c59-b2ad-6d7bed5afa91.jpg"
+      "img": "img/illus/dropbox-ea076000-d27b-4c59-b2ad-6d7bed5afa91.jpg",
+      "cat": "Dessert"
     },
     {
       "id": "dropbox:13dd5187-429b-4541-9f2b-c613fd116e64",
@@ -1277,7 +1294,8 @@
     },
     {
       "id": "dropbox:115259676",
-      "img": "img/illus/dropbox-115259676.jpg"
+      "img": "img/illus/dropbox-115259676.jpg",
+      "t": "Pommes de terre à la portugaise"
     },
     {
       "id": "corse:006",
@@ -1293,7 +1311,8 @@
     },
     {
       "id": "corse:011",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Brousse.JPG/500px-Brousse.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Brousse.JPG/500px-Brousse.JPG",
+      "cat": "Corse, Entrée, Omelette"
     },
     {
       "id": "corse:013",
@@ -1657,7 +1676,8 @@
     },
     {
       "id": "dropbox:41e20087-8ea4-4402-b6ac-d2d4183f8d47",
-      "img": "img/illus/dropbox-41e20087-8ea4-4402-b6ac-d2d4183f8d47.jpg"
+      "img": "img/illus/dropbox-41e20087-8ea4-4402-b6ac-d2d4183f8d47.jpg",
+      "t": "Boudin blanc et pommes au Air Fryer"
     },
     {
       "id": "dropbox:-1734593929",
@@ -1677,7 +1697,8 @@
     },
     {
       "id": "dropbox:536812287",
-      "img": "img/illus/dropbox-536812287.jpg"
+      "img": "img/illus/dropbox-536812287.jpg",
+      "cat": "Dessert"
     },
     {
       "id": "dropbox:ee807b8b-93aa-44c6-ba9b-7c483a99e8e9",
@@ -1761,7 +1782,8 @@
     },
     {
       "id": "dropbox:1000185400",
-      "img": "img/illus/dropbox-1000185400.jpg"
+      "img": "img/illus/dropbox-1000185400.jpg",
+      "t": "Rougail saucisses (île de la Réunion)"
     },
     {
       "id": "dropbox:1611037744",
@@ -1769,7 +1791,8 @@
     },
     {
       "id": "dropbox:-1426564820",
-      "img": "img/illus/dropbox-1426564820.jpg"
+      "img": "img/illus/dropbox-1426564820.jpg",
+      "cat": "Thermomix, Sauce"
     },
     {
       "id": "dropbox:-32410424",
@@ -1777,7 +1800,8 @@
     },
     {
       "id": "dropbox:fa013719-0f25-477a-809c-0ba868e29038",
-      "img": "img/illus/dropbox-fa013719-0f25-477a-809c-0ba868e29038.jpg"
+      "img": "img/illus/dropbox-fa013719-0f25-477a-809c-0ba868e29038.jpg",
+      "cat": "Dessert"
     },
     {
       "id": "tmx:002",
@@ -1790,6 +1814,79 @@
     {
       "id": "dropbox:399e4513-9951-4e2b-8450-004200361e34",
       "cat": "Plat, Airfryer, Empanada"
+    },
+    {
+      "id": "dropbox:318a0f66-d559-46d9-bcaf-f0d37f3b26d0",
+      "cat": "Plat, Bœuf"
+    },
+    {
+      "id": "dropbox:4419ddd3-bdf2-4547-94b1-862af5d4e747",
+      "cat": "Dessert",
+      "t": "Gâteau au Nutella facile"
+    },
+    {
+      "id": "dropbox:c9cbdd75-a881-4ee0-b38b-70751c05ddb0",
+      "cat": "Pommes, Dessert"
+    },
+    {
+      "id": "dropbox:745c35ae-1943-4aeb-a7a6-78c527e96b33",
+      "cat": "Thermomix, Boissons"
+    },
+    {
+      "id": "dropbox:-1862412118",
+      "cat": "Thermomix, Boissons"
+    },
+    {
+      "id": "dropbox:-833970387",
+      "cat": "Thermomix, Sauce"
+    },
+    {
+      "id": "dropbox:db9eb074-2834-4b36-955c-b0605cb4d5ed",
+      "cat": "Plat, Soupe"
+    },
+    {
+      "id": "dropbox:-856383941",
+      "t": "Caponata, la vraie !"
+    },
+    {
+      "id": "dropbox:-556517079",
+      "t": "Mijoté poulet chorizo"
+    },
+    {
+      "id": "dropbox:-2041468476",
+      "t": "Poulet au citron à l'ail"
+    },
+    {
+      "id": "dropbox:-906755724",
+      "t": "Riz à l'espagnole (Arroz con pollo)"
+    },
+    {
+      "id": "dropbox:240576361",
+      "t": "Semoule aux légumes (carotte et courgette)"
+    },
+    {
+      "id": "dropbox:-1067890089",
+      "t": "Tarte au chou-fleur et jambon en 20 min"
+    },
+    {
+      "id": "dropbox:-136261200",
+      "t": "Ailes de chou-fleur & sauce au yogourt ranch"
+    },
+    {
+      "id": "dropbox:-524445980",
+      "t": "Baba ganoush aux courgettes (Ottolenghi)"
+    },
+    {
+      "id": "dropbox:7b2ff025-5f27-457e-9389-03f406ef0751",
+      "t": "Blanquette de veau à l'ancienne façon Cyril Lignac"
+    },
+    {
+      "id": "dropbox:2a4aefc7-3f43-44bb-984b-85e8a3cca052",
+      "t": "Hachis parmentier de canard de Cyril Lignac"
+    },
+    {
+      "id": "dropbox:3660747e-1841-456d-a80f-f180ef896c87",
+      "t": "Flans maison à l'Air Fryer en 12 minutes"
     }
   ],
   "recipes": [
@@ -2338,7 +2435,7 @@
     {
       "id": "sm:001",
       "t": "Smoothie Mangue",
-      "cat": "Dessert, Boisson",
+      "cat": "Boissons, Smoothie",
       "min": 5,
       "serv": 1,
       "desc": "Smoothie crémeux à la mangue et à la banane — plein de vitamines, onctueux et naturellement sucré.",
@@ -2354,7 +2451,7 @@
     {
       "id": "sm:002",
       "t": "Smoothie Fraise",
-      "cat": "Dessert, Boisson",
+      "cat": "Boissons, Smoothie",
       "min": 5,
       "serv": 1,
       "desc": "Smoothie rose vif aux fraises fraîches et banane — fruité, onctueux et sans sucre ajouté.",
@@ -2371,7 +2468,7 @@
     {
       "id": "sm:003",
       "t": "Smoothie Ananas & Coco",
-      "cat": "Dessert, Boisson",
+      "cat": "Boissons, Smoothie",
       "min": 5,
       "serv": 1,
       "desc": "Smoothie tropical ananas et lait de coco — exotique, rafraîchissant, légèrement sucré au miel.",
@@ -2388,7 +2485,7 @@
     {
       "id": "sm:004",
       "t": "Smoothie Myrtille",
-      "cat": "Dessert, Boisson",
+      "cat": "Boissons, Smoothie",
       "min": 5,
       "serv": 1,
       "desc": "Smoothie violet intense aux myrtilles et banane — antioxydants, plein de vitamines, très gourmand.",
@@ -2405,7 +2502,7 @@
     {
       "id": "sm:005",
       "t": "Smoothie Fruits des Bois",
-      "cat": "Dessert, Boisson",
+      "cat": "Boissons, Smoothie",
       "min": 5,
       "serv": 1,
       "desc": "Smoothie rose aux fruits des bois mélangés — framboises, mûres, myrtilles et banane. Acidulé et vitaminé.",
@@ -2422,7 +2519,7 @@
     {
       "id": "sm:006",
       "t": "Smoothie Détox Vert",
-      "cat": "Dessert, Boisson",
+      "cat": "Boissons, Smoothie",
       "min": 5,
       "serv": 1,
       "desc": "Smoothie vert détoxifiant — épinards, banane, pomme verte et lait d'amande. Plein d'énergie, doux et surprenant.",
@@ -3803,7 +3900,7 @@
     {
       "id": "shake:001",
       "t": "Milkshake Chocolat",
-      "cat": "Milkshake, Boisson",
+      "cat": "Milkshake, Boissons",
       "min": 5,
       "serv": 2,
       "desc": "Le grand classique — intense, onctueux, chocolaté à souhait. La base de tout bon milkshake.",
@@ -3820,7 +3917,7 @@
     {
       "id": "shake:002",
       "t": "Milkshake Fraise",
-      "cat": "Milkshake, Boisson",
+      "cat": "Milkshake, Boissons",
       "min": 5,
       "serv": 2,
       "desc": "Fruité, rose et rafraîchissant — idéal avec des fraises fraîches de saison ou surgelées.",
@@ -3837,7 +3934,7 @@
     {
       "id": "shake:003",
       "t": "Milkshake Vanille Caramel",
-      "cat": "Milkshake, Boisson",
+      "cat": "Milkshake, Boissons",
       "min": 5,
       "serv": 2,
       "desc": "La douceur vanillée rencontre le caramel beurre salé — un milkshake régressif et gourmand.",
@@ -3854,7 +3951,7 @@
     {
       "id": "shake:004",
       "t": "Milkshake Oreo",
-      "cat": "Milkshake, Boisson",
+      "cat": "Milkshake, Boissons",
       "min": 5,
       "serv": 2,
       "desc": "Biscuits Oreo mixés dans la glace vanille — épais, gourmand, inratable.",
@@ -3871,7 +3968,7 @@
     {
       "id": "shake:005",
       "t": "Milkshake Pistache",
-      "cat": "Milkshake, Boisson",
+      "cat": "Milkshake, Boissons",
       "min": 5,
       "serv": 2,
       "desc": "Saveur pistache délicate et légèrement salée — le milkshake des gourmets.",
@@ -3888,7 +3985,7 @@
     {
       "id": "shake:006",
       "t": "Milkshake Banane Chocolat",
-      "cat": "Milkshake, Boisson",
+      "cat": "Milkshake, Boissons",
       "min": 5,
       "serv": 2,
       "desc": "Le duo banane-chocolat en version frappée — naturellement sucré, épais et fondant.",
@@ -3905,7 +4002,7 @@
     {
       "id": "shake:007",
       "t": "Milkshake Myrtille",
-      "cat": "Milkshake, Boisson",
+      "cat": "Milkshake, Boissons",
       "min": 5,
       "serv": 2,
       "desc": "Violet intense, antioxydants, saveur légèrement acidulée — le milkshake le plus coloré.",
@@ -3921,7 +4018,7 @@
     {
       "id": "shake:008",
       "t": "Milkshake Café",
-      "cat": "Milkshake, Boisson",
+      "cat": "Milkshake, Boissons",
       "min": 5,
       "serv": 2,
       "desc": "Le café froid et crémeux version milkshake — le pick-me-up parfait pour les amateurs de café.",
@@ -3938,7 +4035,7 @@
     {
       "id": "shake:009",
       "t": "Milkshake Fruits Rouges",
-      "cat": "Milkshake, Boisson",
+      "cat": "Milkshake, Boissons",
       "min": 5,
       "serv": 2,
       "desc": "Un mélange fruité de fraises, framboises et myrtilles — acidulé, vitaminé et très coloré.",
@@ -3955,7 +4052,7 @@
     {
       "id": "shake:010",
       "t": "Milkshake Noix de Coco & Ananas",
-      "cat": "Milkshake, Boisson",
+      "cat": "Milkshake, Boissons",
       "min": 5,
       "serv": 2,
       "desc": "Tropical et exotique — le Piña Colada des milkshakes, sans alcool et super frais.",
@@ -5869,7 +5966,7 @@
     {
       "id": "grece:007",
       "t": "Salade Grecque (Horiatiki)",
-      "cat": "Grèce",
+      "cat": "Grèce, Salade",
       "min": 10,
       "serv": 4,
       "desc": "La salade paysanne grecque authentique — tomates, concombre, olives kalamata, feta entière et origan. Sans laitue, sans fioritures.",
@@ -5970,7 +6067,7 @@
     {
       "id": "grece:012",
       "t": "Soupe Avgolemono (Bouillon Citron-Œuf)",
-      "cat": "Grèce",
+      "cat": "Grèce, Soupe",
       "min": 30,
       "serv": 4,
       "desc": "La soupe grecque la plus réconfortante — bouillon de poulet soyeux avec riz, tempéré aux œufs et citron. Veloutée sans une goutte de crème.",
@@ -6110,7 +6207,7 @@
     {
       "id": "grece:019",
       "t": "Fasolada (Soupe aux Haricots Blancs)",
-      "cat": "Grèce",
+      "cat": "Grèce, Soupe",
       "min": 90,
       "serv": 6,
       "desc": "La \"soupe nationale grecque\" — haricots blancs, légumes et huile d'olive. Simple, nourrissante, vegan. Le plat du quotidien depuis l'Antiquité.",
@@ -6470,7 +6567,7 @@
     {
       "id": "france:017",
       "t": "Baklava Bourguignon — Gâteau de Savoie",
-      "cat": "France",
+      "cat": "France, Dessert",
       "min": 60,
       "serv": 8,
       "desc": "Le gâteau emblématique de Savoie — ultra léger, aérien, avec son moule en forme de couronne cannelée. La légèreté alpine.",
@@ -6876,7 +6973,7 @@
     {
       "id": "portugal:038",
       "t": "Açorda Alentejana (Soupe de Pain à l'Ail)",
-      "cat": "Portugal",
+      "cat": "Portugal, Soupe",
       "min": 20,
       "serv": 4,
       "desc": "Soupe paysanne de l'Alentejo — pain rassis, ail, coriandre et huile d'olive, agrémentée d'un œuf poché. Pauvre en ingrédients, riche en saveurs.",
@@ -6914,7 +7011,7 @@
     {
       "id": "corse:072",
       "t": "Soupe Corse Traditionnelle",
-      "cat": "Corse",
+      "cat": "Corse, Soupe",
       "min": 180,
       "serv": 8,
       "desc": "La soupe-repas corse mijotée 3 heures — haricots rouges, légumes du jardin, ventrèche, herbes sauvages. Épaisse, nourrissante, parfumée au basilic.",
@@ -7216,7 +7313,7 @@
     {
       "id": "japon:022",
       "t": "Soupe Miso",
-      "cat": "Japon",
+      "cat": "Japon, Soupe",
       "min": 15,
       "serv": 4,
       "desc": "La soupe quotidienne japonaise — bouillon dashi, miso, tofu soyeux et algues wakame. Simple, réconfortante, servie au petit-déjeuner ou avec chaque repas.",
@@ -7234,7 +7331,7 @@
     {
       "id": "japon:023",
       "t": "Yakitori (Brochettes de Poulet Grillées)",
-      "cat": "Japon",
+      "cat": "Japon, Brochette",
       "min": 35,
       "serv": 4,
       "desc": "Les brochettes de poulet japonaises — marinées à la sauce tare et grillées au charbon. Street food de l'izakaya (bar japonais).",
@@ -7313,7 +7410,7 @@
     {
       "id": "asie:017",
       "t": "Pho Bô Vietnamien (Soupe de Bœuf)",
-      "cat": "Asie",
+      "cat": "Asie, Soupe",
       "min": 180,
       "serv": 4,
       "desc": "La soupe nationale vietnamienne — bouillon de bœuf à la cannelle et anis étoilé, nouilles de riz et tranches de bœuf cru. Parfumé, délicat, addictif.",
@@ -7551,7 +7648,7 @@
     {
       "id": "maghreb:023",
       "t": "Harira (Soupe du Ramadan)",
-      "cat": "Maghreb",
+      "cat": "Maghreb, Soupe",
       "min": 90,
       "serv": 8,
       "desc": "La soupe marocaine traditionnelle qui rompt le jeûne — lentilles, pois chiches, agneau, tomates et épices, liée à la farine. Nourrissante et parfumée.",
@@ -9115,7 +9212,7 @@
     {
       "id": "bresil:011",
       "t": "Caipirinha",
-      "cat": "Brésil, Boisson, Cocktail",
+      "cat": "Brésil, Boissons, Cocktail",
       "min": 5,
       "serv": 1,
       "desc": "Le cocktail national brésilien : cachaça, citron vert pilé et sucre sur glace pilée. Trois ingrédients, technique parfaite, résultat inoubliable. L'âme de la fête brésilienne.",
@@ -10496,7 +10593,7 @@
     {
       "id": "bulgarie:003",
       "t": "Shopska Salade",
-      "cat": "Bulgarie, Entrée",
+      "cat": "Bulgarie, Entrée, Salade",
       "desc": "Salade bulgare emblématique : tomates, concombres, poivrons et une généreuse couche de fromage sirene râpé.",
       "min": 15,
       "serv": "4 personnes",
@@ -10811,7 +10908,7 @@
     {
       "id": "afrique:007",
       "t": "Suya (Brochettes Épicées)",
-      "cat": "Afrique, Plat",
+      "cat": "Afrique, Plat, Brochette",
       "desc": "Brochettes de bœuf enduites d'un mélange de cacahuètes et d'épices (suya spice), grillées à la braise au Nigeria.",
       "min": 35,
       "serv": "4 personnes",
@@ -17739,7 +17836,7 @@
     {
       "id": "pizza:001",
       "title": "Pâte à Pizza Classique",
-      "cat": "Techniques, Italie, Pâte à Pizza",
+      "cat": "Technique, Italie, Pâte à Pizza",
       "ing": [
         "400g farine",
         "300ml eau chaude",
@@ -17763,7 +17860,7 @@
     {
       "id": "pizza:002",
       "title": "Pâte à Pizza Napolitaine",
-      "cat": "Techniques, Italie, Pâte à Pizza",
+      "cat": "Technique, Italie, Pâte à Pizza",
       "ing": [
         "400g farine 00 (ou farine T45)",
         "300ml eau froide",
@@ -17785,7 +17882,7 @@
     {
       "id": "pizza:003",
       "title": "Pâte à Pizza Fine et Croustillante",
-      "cat": "Techniques, Italie, Pâte à Pizza",
+      "cat": "Technique, Italie, Pâte à Pizza",
       "ing": [
         "280g farine",
         "60ml eau chaude",
@@ -17809,7 +17906,7 @@
     {
       "id": "pizza:004",
       "title": "Pâte à Pizza Chicago Deep Dish",
-      "cat": "Techniques, Italie, Pâte à Pizza",
+      "cat": "Technique, Italie, Pâte à Pizza",
       "ing": [
         "400g farine",
         "60ml eau chaude",
@@ -17834,7 +17931,7 @@
     {
       "id": "pizza:005",
       "title": "Pâte à Pizza Croûte Farcie",
-      "cat": "Techniques, Italie, Pâte à Pizza",
+      "cat": "Technique, Italie, Pâte à Pizza",
       "ing": [
         "400g farine",
         "300ml eau chaude",
@@ -17859,7 +17956,7 @@
     {
       "id": "pizza:006",
       "title": "Pâte à Pizza Fine et Croustillante",
-      "cat": "Techniques, Italie, Pâte à Pizza",
+      "cat": "Technique, Italie, Pâte à Pizza",
       "ing": [
         "500g farine",
         "300ml eau tiède",
@@ -17881,7 +17978,7 @@
     {
       "id": "pizza:007",
       "title": "Pâte à Pizza Moelleuse",
-      "cat": "Techniques, Italie, Pâte à Pizza",
+      "cat": "Technique, Italie, Pâte à Pizza",
       "ing": [
         "500g farine",
         "320ml eau tiède",
@@ -17904,7 +18001,7 @@
     {
       "id": "pizza:008",
       "title": "Pâte à Pizza Express (Sans Levure Boulangère)",
-      "cat": "Techniques, Italie, Pâte à Pizza",
+      "cat": "Technique, Italie, Pâte à Pizza",
       "ing": [
         "300g farine",
         "1 yaourt nature",
@@ -17926,7 +18023,7 @@
     {
       "id": "pizza:009",
       "title": "Pâte à Pizza Complète",
-      "cat": "Techniques, Italie, Pâte à Pizza",
+      "cat": "Technique, Italie, Pâte à Pizza",
       "ing": [
         "250g farine complète",
         "250g farine de blé",
@@ -17949,7 +18046,7 @@
     {
       "id": "pizza:010",
       "title": "Pâte à Pizza Herbes et Huile d'Olive",
-      "cat": "Techniques, Italie, Pâte à Pizza",
+      "cat": "Technique, Italie, Pâte à Pizza",
       "ing": [
         "500g farine",
         "300ml eau tiède",
@@ -17972,7 +18069,7 @@
     {
       "id": "marinade:001",
       "title": "Marinade Poulet Grecque",
-      "cat": "Techniques, Poulet, BBQ",
+      "cat": "Technique, Poulet, BBQ",
       "ing": [
         "moutarde de Dijon 2 c.à.s.",
         "épices à steak 1 c.à.s.",
@@ -17994,7 +18091,7 @@
     {
       "id": "marinade:002",
       "title": "Marinade Poulet Paprika Fumé",
-      "cat": "Techniques, Poulet, BBQ",
+      "cat": "Technique, Poulet, BBQ",
       "ing": [
         "paprika fumé 2 c.à.s.",
         "jus de 1 citron",
@@ -18015,7 +18112,7 @@
     {
       "id": "marinade:003",
       "title": "Marinade Poulet Miel et Moutarde",
-      "cat": "Techniques, Poulet, BBQ",
+      "cat": "Technique, Poulet, BBQ",
       "ing": [
         "miel 3 c.à.s.",
         "moutarde de Dijon 2 c.à.s.",
@@ -18036,7 +18133,7 @@
     {
       "id": "marinade:004",
       "title": "Marinade Poulet Moutarde et Érable",
-      "cat": "Techniques, Poulet, BBQ",
+      "cat": "Technique, Poulet, BBQ",
       "ing": [
         "sirop d'érable 3 c.à.s.",
         "moutarde de Dijon 2 c.à.s.",
@@ -18057,7 +18154,7 @@
     {
       "id": "marinade:005",
       "title": "Marinade Poulet au Cumin",
-      "cat": "Techniques, Poulet, BBQ",
+      "cat": "Technique, Poulet, BBQ",
       "ing": [
         "yaourt nature 150g",
         "huile de canola 2 c.à.s.",
@@ -18077,7 +18174,7 @@
     {
       "id": "marinade:006",
       "title": "Marinade Poulet Bourbon et Mélasse",
-      "cat": "Techniques, Poulet, BBQ",
+      "cat": "Technique, Poulet, BBQ",
       "ing": [
         "bourbon 3 c.à.s.",
         "mélasse 2 c.à.s.",
@@ -18098,7 +18195,7 @@
     {
       "id": "marinade:007",
       "title": "Marinade Poulet Sud-Ouest",
-      "cat": "Techniques, Poulet, BBQ",
+      "cat": "Technique, Poulet, BBQ",
       "ing": [
         "huile d'olive 3 c.à.s.",
         "vinaigre de cidre 2 c.à.s.",
@@ -19196,7 +19293,7 @@
     {
       "id": "punch:001",
       "title": "Punch Classique aux Fruits",
-      "cat": "Boissons, Punch, Sans alcool",
+      "cat": "Boissons, Punch, Cocktail sans alcool",
       "ing": [
         "50cl jus d'orange",
         "50cl jus d'ananas",
@@ -19218,7 +19315,7 @@
     {
       "id": "punch:002",
       "title": "Punch Tropical",
-      "cat": "Boissons, Punch, Sans alcool",
+      "cat": "Boissons, Punch, Cocktail sans alcool",
       "ing": [
         "50cl jus d'ananas",
         "50cl jus de mangue",
@@ -19240,7 +19337,7 @@
     {
       "id": "punch:003",
       "title": "Punch Limonade Rosée",
-      "cat": "Boissons, Punch, Sans alcool",
+      "cat": "Boissons, Punch, Cocktail sans alcool",
       "ing": [
         "1 litre de limonade rosée",
         "50cl soda citron-lime",
@@ -19261,7 +19358,7 @@
     {
       "id": "punch:004",
       "title": "Punch Agrumes",
-      "cat": "Boissons, Punch, Sans alcool",
+      "cat": "Boissons, Punch, Cocktail sans alcool",
       "ing": [
         "50cl jus d'orange",
         "50cl jus de citron",
@@ -19282,7 +19379,7 @@
     {
       "id": "punch:005",
       "title": "Punch Vert",
-      "cat": "Boissons, Punch, Sans alcool",
+      "cat": "Boissons, Punch, Cocktail sans alcool",
       "ing": [
         "50cl jus d'ananas",
         "50cl soda citron-lime",
@@ -19303,7 +19400,7 @@
     {
       "id": "punch:006",
       "title": "Punch Canneberge",
-      "cat": "Boissons, Punch, Sans alcool",
+      "cat": "Boissons, Punch, Cocktail sans alcool",
       "ing": [
         "75cl jus de canneberge",
         "50cl ginger ale",
@@ -19449,7 +19546,7 @@
     {
       "id": "tortilla:001",
       "title": "Tortillas de Blé Classiques",
-      "cat": "Techniques, Mexique, Tortilla, Wrap",
+      "cat": "Technique, Mexique, Tortilla, Wrap",
       "ing": [
         "250g de farine",
         "1/2 c. à café de sel",
@@ -19471,7 +19568,7 @@
     {
       "id": "tortilla:002",
       "title": "Tortillas Semi-Complètes",
-      "cat": "Techniques, Mexique, Tortilla, Wrap",
+      "cat": "Technique, Mexique, Tortilla, Wrap",
       "ing": [
         "180g de farine complète",
         "60g de farine blanche",
@@ -19493,7 +19590,7 @@
     {
       "id": "tortilla:003",
       "title": "Tortillas aux Épinards",
-      "cat": "Techniques, Mexique, Tortilla, Wrap, Légumes",
+      "cat": "Technique, Mexique, Tortilla, Wrap, Légume",
       "ing": [
         "250g de farine",
         "1/2 c. à café de sel",
@@ -19515,7 +19612,7 @@
     {
       "id": "tortilla:004",
       "title": "Tortillas à la Betterave",
-      "cat": "Techniques, Mexique, Tortilla, Wrap",
+      "cat": "Technique, Mexique, Tortilla, Wrap",
       "ing": [
         "250g de farine",
         "1/2 c. à café de sel",
@@ -19537,7 +19634,7 @@
     {
       "id": "tortilla:005",
       "title": "Tortillas de Maïs",
-      "cat": "Techniques, Mexique, Tortilla, Wrap",
+      "cat": "Technique, Mexique, Tortilla, Wrap",
       "ing": [
         "180g de farine de maïs (masa harina)",
         "1/4 c. à café de sel",
@@ -19558,7 +19655,7 @@
     {
       "id": "tortilla:006",
       "title": "Wrap Healthy Avoine et Chia",
-      "cat": "Techniques, Wrap, Santé, Sans gluten",
+      "cat": "Technique, Wrap, Santé, Sans gluten",
       "ing": [
         "150g de flocons d'avoine",
         "10g de graines de chia",
@@ -19605,7 +19702,7 @@
     {
       "id": "pate:001",
       "t": "Pâte à Raviolis Maison",
-      "cat": "Techniques, Pâte maison, Italie, Pâtes",
+      "cat": "Technique, Pâte maison, Italie, Pâtes",
       "desc": "Pâte fraîche aux œufs, souple et fine, pour raviolis et tortellinis.",
       "min": 45,
       "serv": 4,
@@ -19629,7 +19726,7 @@
     {
       "id": "pate:002",
       "t": "Pâte à Gyozas Maison",
-      "cat": "Techniques, Pâte maison, Japon",
+      "cat": "Technique, Pâte maison, Japon",
       "desc": "Disques fins à l'eau chaude pour gyozas et raviolis asiatiques.",
       "min": 45,
       "serv": 30,
@@ -19652,7 +19749,7 @@
     {
       "id": "pate:003",
       "t": "Feuilles de Brick Maison",
-      "cat": "Techniques, Pâte maison, Maghreb",
+      "cat": "Technique, Pâte maison, Maghreb",
       "desc": "Feuilles très fines cuites à la poêle, pour bricks, samoussas et pastillas.",
       "min": 40,
       "serv": 12,
@@ -19675,7 +19772,7 @@
     {
       "id": "pate:004",
       "t": "Pâte à Wonton Maison",
-      "cat": "Techniques, Pâte maison, Asie, Chine",
+      "cat": "Technique, Pâte maison, Asie, Chine",
       "desc": "Carrés fins aux œufs pour wontons, frits ou en bouillon.",
       "min": 45,
       "serv": 40,
@@ -19699,7 +19796,7 @@
     {
       "id": "pate:005",
       "t": "Pâte à Samoussas Maison",
-      "cat": "Techniques, Pâte maison, Inde, Samoussa",
+      "cat": "Technique, Pâte maison, Inde, Samoussa",
       "desc": "Pâte à l'huile pour samoussas croustillants.",
       "min": 40,
       "serv": 20,
@@ -19722,7 +19819,7 @@
     {
       "id": "pate:006",
       "t": "Pâte à Empanadas Maison",
-      "cat": "Techniques, Pâte maison, Espagne, Amérique latine, Empanada",
+      "cat": "Technique, Pâte maison, Espagne, Amérique latine, Empanada",
       "desc": "Pâte au beurre et à l'œuf, sablée et solide, pour empanadas au four.",
       "min": 60,
       "serv": 12,
@@ -19747,7 +19844,7 @@
     {
       "id": "pate:007",
       "t": "Feuilles de Lasagnes Maison",
-      "cat": "Techniques, Pâte maison, Italie, Pâtes",
+      "cat": "Technique, Pâte maison, Italie, Pâtes",
       "desc": "Pâte fraîche aux œufs étalée en grandes feuilles pour lasagnes.",
       "min": 45,
       "serv": 6,
