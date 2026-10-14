@@ -667,3 +667,7 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .cellar-tag.stock-frigo{background:rgba(120,190,230,.15);border-color:rgba(120,190,230,.4);color:#a9d8f2}
 .cellar-tag.stock-congelateur{background:rgba(160,170,240,.15);border-color:rgba(160,170,240,.4);color:#c3c9f7}
 .stock-cover{font-size:.68em;color:var(--muted);margin-top:4px}
+.in-stock{flex:0 0 auto;margin-left:auto;font-size:.72em;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap;max-width:45%;overflow:hidden;text-overflow:ellipsis;background:rgba(224,122,63,.15);border:1px solid rgba(224,122,63,.35);color:var(--accent)}
+.in-stock.stock-frigo{background:rgba(120,190,230,.15);border-color:rgba(120,190,230,.4);color:#a9d8f2}
+.in-stock.stock-congelateur{background:rgba(160,170,240,.15);border-color:rgba(160,170,240,.4);color:#c3c9f7}
+.stock-summary{font-size:.82em;color:var(--muted);margin:-4px 0 8px}
