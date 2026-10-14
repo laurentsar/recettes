@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.09';
+const APP_VERSION = '3.10';
 
 let ALL = [];
 let BASE = [];
@@ -364,6 +364,8 @@ function dietFilter(r){
 }
 
 function checkDiet(r, diet){
+  // Sans liste d'ingrédients (guides, fiches techniques…), on ne peut rien affirmer.
+  if (diet !== 'rapide' && !(r.ing || []).length) return false;
   const hasKw = kw => matchKw(r, kw);
   if (diet === 'sansgluten'){
     if (_GLUTEN_KWS.some(hasKw)) return false;
@@ -1502,7 +1504,7 @@ const MODE_GROUPS = {
   pizza:           { subs: ['garnies','pates_pizza'] },
   regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas','belgique'] },
   ustensiles:      { subs: ['airfryer','thermomix'] },
-  aperitif:        { subs: ['tartinades','wraps','bouchees','brochettes','paninis','samoussas'] },
+  aperitif:        { subs: ['tartines','tartinades','wraps','bouchees','brochettes','paninis','samoussas'] },
   oeufs:           { subs: ['omelettes','cocottes','preparations'] },
   boissons:        { subs: ['smoothies','milkshakes','mocktails'] },
   accompagnements: { subs: ['sauces','marinades'] },
@@ -1517,7 +1519,7 @@ const SUB_TAB_LABELS = {
   arabe:'🌙 Monde arabe', bulgarie:'🇧🇬 Bulgarie', hongrie:'🇭🇺 Hongrie', roumanie:'🇷🇴 Roumanie', paysbas:'🇳🇱 Pays-Bas', belgique:'🇧🇪 Belgique',
   garnies:'🍕 Garnitures', pates_pizza:'🍞 Pâtes',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix',
-  tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas',
+  tartines:'🍞 Tartines', tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas',
   omelettes:'🍳 Omelettes', cocottes:'🥚 Cocottes', preparations:'🍳 Préparations',
   smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes', mocktails:'🍹 Sans alcool',
   sauces:'🥣 Sauces', marinades:'🌿 Marinades',
@@ -1533,7 +1535,7 @@ const MODE_CAT = {
   allemagne: 'Allemagne', gb: 'Grande-Bretagne', australie: 'Australie',
   bresil: 'Brésil', argentine: 'Argentine', af: 'Afrique', monde: 'Monde',
   arabe: 'Monde arabe', bulgarie: 'Bulgarie', hongrie: 'Hongrie', roumanie: 'Roumanie', paysbas: 'Pays-Bas', belgique: 'Belgique',
-  sauces: 'Sauce', tartinades: 'Tartinade', techniques: 'Technique',
+  sauces: 'Sauce', tartines: 'Tartine', tartinades: 'Tartinade', techniques: 'Technique',
   wraps: 'Wrap', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
   bouchees: 'Bouchée', brochettes: 'Brochette', omelettes: 'Omelette', cocottes: 'Cocotte',
   mocktails: 'Cocktail sans alcool', preparations: 'Préparation Oeuf',
@@ -1565,7 +1567,6 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
     document.getElementById('cellar-home').hidden = true;
-    document.getElementById('stock-home').hidden = true;
     loadCocktails();
   } else if (isDiet){
     state.cats = [];
@@ -1573,7 +1574,6 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
     document.getElementById('cellar-home').hidden = true;
-    document.getElementById('stock-home').hidden = true;
     elSearch.hidden = false;
     renderGrid();
   } else if (MODE_CAT[leaf]){
@@ -1581,7 +1581,6 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
     document.getElementById('cellar-home').hidden = true;
-    document.getElementById('stock-home').hidden = true;
     elSearch.hidden = false;
     renderGrid();
   } else if (leaf === 'recipes'){
@@ -1589,7 +1588,6 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = false;
     document.getElementById('daily').hidden = false;
     document.getElementById('cellar-home').hidden = false;
-    document.getElementById('stock-home').hidden = false;
     elSearch.hidden = false;
     renderGrid();
   } else {
@@ -2061,71 +2059,45 @@ function renderFrigoSuggestions(){
   });
 }
 
-/* Accueil : recettes de saison qui utilisent les produits du cellier. */
+/* Accueil : un seul bandeau de propositions à partir des stocks (frigo, congélo,
+   cellier). Classement : produits en stock utilisés, stocks mélangés, produits
+   de saison, puis couverture des ingrédients. */
 const HOME_SEASON_SKIP = new Set(['oignon','ail','echalote','citron','carotte']);
-/* Accueil : recettes qui combinent plusieurs produits en stock (frigo, congélo,
-   cellier), en privilégiant celles qui mélangent plusieurs stocks. */
-function renderStockHome(){
-  const el = document.getElementById('stock-home');
-  if (!el) return;
-  if (getAllStorageIngs().length < 2){ el.innerHTML = ''; return; }
-  const tabOf = new Map();
-  FTABS.forEach(t => storageIngs[t].forEach(n => { if (!tabOf.has(n)) tabOf.set(n, t); }));
-  const picks = matchFrigoRecipes('all', Infinity)
-    .filter(x => x.matched.length >= 2)
-    .map(x => ({ ...x, tabs: new Set(x.matched.map(n => tabOf.get(n))).size }))
-    .sort((a, b) => b.tabs - a.tabs || b.matched.length - a.matched.length || b.pct - a.pct || a.r.t.localeCompare(b.r.t))
-    .slice(0, 12);
-  if (!picks.length){ el.innerHTML = ''; return; }
-  el.innerHTML =
-    `<div class="feed-label">🧺 Avec mes stocks <span class="feed-count">${picks.length}</span></div>` +
-    '<div class="feed-strip">' +
-    picks.map(({ r, matched, covered, total }) => {
-      const img = r.img
-        ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=feed-ph>🍲</div>'" loading="lazy">`
-        : '<div class="feed-ph">🍲</div>';
-      return `<div class="feed-card cellar-card" data-id="${esc(String(r.id))}">${img}<div class="feed-info">
-        <div class="feed-t">${esc(r.t)}</div>
-        <div class="cellar-tags">${matched.slice(0,3).map(n=>`<span class="cellar-tag stock-${tabOf.get(n)}">${FTAB_EMOJIS[tabOf.get(n)]} ${esc(n)}</span>`).join('')}${matched.length>3?`<span class="cellar-tag">+${matched.length-3}</span>`:''}</div>
-        <div class="stock-cover">${covered}/${total} ingrédients en stock</div>
-      </div></div>`;
-    }).join('') +
-    '</div>';
-  el.querySelectorAll('.feed-card').forEach(c => c.addEventListener('click', () => openDetail(c.dataset.id)));
-}
-
 function renderCellarHome(){
-  renderStockHome();
   const el = document.getElementById('cellar-home');
   if (!el) return;
   const m = monthNow();
-  if (!storageIngs.cellier.length){
-    el.innerHTML = `<button class="cellar-cta" id="cellar-cta">🥫 Scanne ton cellier pour voir des recettes de saison adaptées →</button>`;
-    el.querySelector('#cellar-cta').addEventListener('click', ()=>{ activeFTab = 'cellier'; openFrigo(); });
+  if (!getAllStorageIngs().length){
+    el.innerHTML = `<button class="cellar-cta" id="cellar-cta">🧺 Ajoute ce que tu as au frigo, au congélo ou au cellier pour voir des recettes adaptées →</button>`;
+    el.querySelector('#cellar-cta').addEventListener('click', ()=>{ openFrigo(); });
     return;
   }
-  const cellarSet = new Set(storageIngs.cellier.map(norm));
-  const picks = matchFrigoRecipes('cellier', Infinity)
+  const tabOf = new Map();
+  FTABS.forEach(t => storageIngs[t].forEach(n => { if (!tabOf.has(n)) tabOf.set(n, t); }));
+  const picks = matchFrigoRecipes('all', Infinity)
     .map(x => {
       // Oignon, ail… sont « de saison » toute l'année : ils ne suffisent pas à inspirer une recette.
       const hits = seasonalHits(x.r, m).filter(h => !HOME_SEASON_SKIP.has(h));
-      const fromCellar = x.matched.filter(n => cellarSet.has(norm(n)));
-      return { ...x, hits, fromCellar, score: fromCellar.length * 2 + Math.min(hits.length, 3) + x.pct };
+      const tabs = new Set(x.matched.map(n => tabOf.get(n))).size;
+      return { ...x, hits, score: x.matched.length * 2 + (tabs - 1) * 2 + Math.min(hits.length, 2) + x.pct };
     })
-    .filter(x => x.hits.length && x.fromCellar.length)
     .sort((a, b) => b.score - a.score || a.r.t.localeCompare(b.r.t))
-    .slice(0, 12);
+    .slice(0, 15);
   if (!picks.length){ el.innerHTML = ''; return; }
   el.innerHTML =
-    `<div class="feed-label">🌿 De saison + mon cellier · ${MONTHS[m-1]} <span class="feed-count">${picks.length}</span></div>` +
+    `<div class="feed-label">🧺 Avec mes stocks &amp; la saison <span class="feed-count">${picks.length}</span></div>` +
     '<div class="feed-strip">' +
-    picks.map(({ r, hits, fromCellar }) => {
+    picks.map(({ r, matched, hits, covered, total }) => {
       const img = r.img
         ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=feed-ph>🍲</div>'" loading="lazy">`
         : '<div class="feed-ph">🍲</div>';
+      const stockTags = matched.slice(0,3).map(n=>`<span class="cellar-tag stock-${tabOf.get(n)}">${FTAB_EMOJIS[tabOf.get(n)]} ${esc(n)}</span>`).join('')
+        + (matched.length>3 ? `<span class="cellar-tag">+${matched.length-3}</span>` : '');
+      const seasonTags = hits.slice(0,2).map(h=>`<span class="cellar-tag season">🌿 ${esc(cap(h))}</span>`).join('');
       return `<div class="feed-card cellar-card" data-id="${esc(String(r.id))}">${img}<div class="feed-info">
         <div class="feed-t">${esc(r.t)}</div>
-        <div class="cellar-tags">${hits.slice(0,2).map(h=>`<span class="cellar-tag season">🌿 ${esc(cap(h))}</span>`).join('')}${fromCellar.slice(0,2).map(n=>`<span class="cellar-tag">🥫 ${esc(n)}</span>`).join('')}</div>
+        <div class="cellar-tags">${stockTags}${seasonTags}</div>
+        <div class="stock-cover">${covered}/${total} ingrédients en stock</div>
       </div></div>`;
     }).join('') +
     '</div>';
