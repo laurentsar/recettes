@@ -1565,6 +1565,7 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
     document.getElementById('cellar-home').hidden = true;
+    document.getElementById('stock-home').hidden = true;
     loadCocktails();
   } else if (isDiet){
     state.cats = [];
@@ -1572,6 +1573,7 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
     document.getElementById('cellar-home').hidden = true;
+    document.getElementById('stock-home').hidden = true;
     elSearch.hidden = false;
     renderGrid();
   } else if (MODE_CAT[leaf]){
@@ -1579,6 +1581,7 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = true;
     document.getElementById('daily').hidden = true;
     document.getElementById('cellar-home').hidden = true;
+    document.getElementById('stock-home').hidden = true;
     elSearch.hidden = false;
     renderGrid();
   } else if (leaf === 'recipes'){
@@ -1586,6 +1589,7 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = false;
     document.getElementById('daily').hidden = false;
     document.getElementById('cellar-home').hidden = false;
+    document.getElementById('stock-home').hidden = false;
     elSearch.hidden = false;
     renderGrid();
   } else {
@@ -2059,7 +2063,39 @@ function renderFrigoSuggestions(){
 
 /* Accueil : recettes de saison qui utilisent les produits du cellier. */
 const HOME_SEASON_SKIP = new Set(['oignon','ail','echalote','citron','carotte']);
+/* Accueil : recettes qui combinent plusieurs produits en stock (frigo, congélo,
+   cellier), en privilégiant celles qui mélangent plusieurs stocks. */
+function renderStockHome(){
+  const el = document.getElementById('stock-home');
+  if (!el) return;
+  if (getAllStorageIngs().length < 2){ el.innerHTML = ''; return; }
+  const tabOf = new Map();
+  FTABS.forEach(t => storageIngs[t].forEach(n => { if (!tabOf.has(n)) tabOf.set(n, t); }));
+  const picks = matchFrigoRecipes('all', Infinity)
+    .filter(x => x.matched.length >= 2)
+    .map(x => ({ ...x, tabs: new Set(x.matched.map(n => tabOf.get(n))).size }))
+    .sort((a, b) => b.tabs - a.tabs || b.matched.length - a.matched.length || b.pct - a.pct || a.r.t.localeCompare(b.r.t))
+    .slice(0, 12);
+  if (!picks.length){ el.innerHTML = ''; return; }
+  el.innerHTML =
+    `<div class="feed-label">🧺 Avec mes stocks <span class="feed-count">${picks.length}</span></div>` +
+    '<div class="feed-strip">' +
+    picks.map(({ r, matched, covered, total }) => {
+      const img = r.img
+        ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=feed-ph>🍲</div>'" loading="lazy">`
+        : '<div class="feed-ph">🍲</div>';
+      return `<div class="feed-card cellar-card" data-id="${esc(String(r.id))}">${img}<div class="feed-info">
+        <div class="feed-t">${esc(r.t)}</div>
+        <div class="cellar-tags">${matched.slice(0,3).map(n=>`<span class="cellar-tag stock-${tabOf.get(n)}">${FTAB_EMOJIS[tabOf.get(n)]} ${esc(n)}</span>`).join('')}${matched.length>3?`<span class="cellar-tag">+${matched.length-3}</span>`:''}</div>
+        <div class="stock-cover">${covered}/${total} ingrédients en stock</div>
+      </div></div>`;
+    }).join('') +
+    '</div>';
+  el.querySelectorAll('.feed-card').forEach(c => c.addEventListener('click', () => openDetail(c.dataset.id)));
+}
+
 function renderCellarHome(){
+  renderStockHome();
   const el = document.getElementById('cellar-home');
   if (!el) return;
   const m = monthNow();
