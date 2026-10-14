@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.10';
+const APP_VERSION = '3.11';
 
 let ALL = [];
 let BASE = [];
@@ -723,9 +723,10 @@ function openDetail(id){
     ..._dietTags,
   ].join('');
   const sk = SEASON[monthNow()] || [];
-  const ing = r.ing.length ? `<div class="d-sec">Ingrédients</div><ul class="ing">${
+  const stockHits = r.ing.map(stockForLine);
+  const ing = r.ing.length ? `<div class="d-sec">Ingrédients</div>${stockSummaryHtml(stockHits)}<ul class="ing">${
     r.ing.map((i,k)=>{ const s = sk.some(w=> norm(i).includes(w));
-      return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${esc(i)}</span>${s?'<span class="leaf">🌿</span>':''}</li>`;
+      return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${esc(i)}</span>${s?'<span class="leaf">🌿</span>':''}${stockBadgeHtml(stockHits[k])}</li>`;
     }).join('')}</ul>` : '';
   const steps = splitSteps(r.steps);
   const stepsHtml = steps.length ? `<div class="d-sec">Préparation</div><ol class="steps">${
@@ -856,13 +857,37 @@ function enrichStep(rawStep, ingMap){
   return result + esc(rawStep.slice(pos));
 }
 
+/* Fiche recette : pour chaque ingrédient, le produit en stock correspondant
+   et son emplacement (🧊 frigo, ❄️ congélo, 🥫 cellier). */
+function stockForLine(line){
+  if (!line) return null;
+  const set = new Set(stockTokens(line, LINE_STOP));
+  if (!set.size) return null;
+  for (const t of FTABS){
+    for (const n of storageIngs[t]){
+      const keys = stockKeys(n);
+      if (keys.length && lineHasProduct(set, keys)) return { tab: t, name: n };
+    }
+  }
+  return null;
+}
+function stockBadgeHtml(hit){
+  return hit ? `<span class="in-stock stock-${hit.tab}" title="En stock : ${esc(hit.name)}">${FTAB_EMOJIS[hit.tab]} ${esc(hit.name)}</span>` : '';
+}
+function stockSummaryHtml(hits){
+  const found = hits.filter(Boolean);
+  if (!found.length) return '';
+  const per = FTABS.map(t => [t, found.filter(h => h.tab === t).length]).filter(([,n]) => n);
+  return `<div class="stock-summary">🧺 ${found.length}/${hits.length} en stock · ${per.map(([t,n]) => `${FTAB_EMOJIS[t]} ${n}`).join('  ')}</div>`;
+}
+
 function cookIngListHtml(r){
   const sk = SEASON[monthNow()] || [];
   return (r.ing||[]).map((item,k)=>{
     const s = sk.some(w=>norm(item).includes(w));
     const qm = item.match(ING_QTY_RE) || item.match(ING_NUM_RE);
     const txt = qm ? `<strong class="cook-qty">${esc(qm[1].trim())}</strong> ${esc(qm[2].trim())}` : esc(item);
-    return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${txt}</span>${s?'<span class="leaf">🌿</span>':''}</li>`;
+    return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${txt}</span>${s?'<span class="leaf">🌿</span>':''}${stockBadgeHtml(stockForLine(item))}</li>`;
   }).join('');
 }
 
