@@ -671,3 +671,18 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .in-stock.stock-frigo{background:rgba(120,190,230,.15);border-color:rgba(120,190,230,.4);color:#a9d8f2}
 .in-stock.stock-congelateur{background:rgba(160,170,240,.15);border-color:rgba(160,170,240,.4);color:#c3c9f7}
 .stock-summary{font-size:.82em;color:var(--muted);margin:-4px 0 8px}
+.stock-qty{background:rgba(124,179,66,.15);border:1px solid #4d6b2a;color:#cde8a6;border-radius:999px;font-size:.68em;font-weight:700;padding:2px 8px;cursor:pointer}
+.stock-qty.empty{background:none;border-style:dashed;border-color:var(--line);color:var(--muted)}
+.d-done-btn{display:block;width:100%;margin:10px 0 6px;padding:14px;background:rgba(124,179,66,.15);border:1px solid #4d6b2a;color:#cde8a6;border-radius:14px;font-size:.95em;font-weight:700;cursor:pointer}
+.dd-serv{display:flex;align-items:center;gap:8px;font-size:.9em}
+.dd-serv input{width:64px;background:var(--bg);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:6px 8px;font-size:1em}
+.dd-sub{color:var(--muted);font-size:.85em}
+.dd-row{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-bottom:1px solid var(--line);cursor:pointer}
+.dd-row input{margin-top:3px;width:18px;height:18px;accent-color:#7cb342;flex:0 0 auto}
+.dd-txt{display:flex;flex-direction:column;gap:2px;min-width:0}
+.dd-name{font-weight:700;font-size:.92em}
+.dd-info{font-size:.82em;color:var(--muted)}
+.dd-info b{color:var(--text)}
+.dd-minus{color:#f0a090}
+.dd-hint{font-size:.72em;color:var(--muted);font-style:italic}
+.dd-skip{background:none;border:none;color:var(--muted);font-size:.88em;cursor:pointer;padding:6px}

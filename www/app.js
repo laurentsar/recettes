@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.12';
+const APP_VERSION = '3.13';
 
 let ALL = [];
 let BASE = [];
@@ -735,7 +735,7 @@ function openDetail(id){
   const cookBtn = (steps.length || hasIng) ? `<div class="d-cook-row">
     ${hasIng ? `<button class="d-ing-btn">📋 Ingrédients</button>` : ''}
     ${steps.length ? `<button class="d-cook-btn">🍳 Réaliser</button>` : ''}
-  </div>` : '';
+  </div>${hasIng ? `<button class="d-done-btn">✅ Je l'ai cuisinée</button>` : ''}` : '';
   const links = [
     r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">🔗 Source</a>`:'',
     r.vid?`<a href="${esc(r.vid)}" target="_blank" rel="noopener">▶️ Vidéo</a>`:'',
@@ -788,6 +788,8 @@ function openDetail(id){
   elDetail.querySelector('.d-back').addEventListener('click', closeDetail);
   const cookBtnEl = elDetail.querySelector('.d-cook-btn');
   if (cookBtnEl) cookBtnEl.addEventListener('click', ()=> openCook(r.id));
+  const doneBtnEl = elDetail.querySelector('.d-done-btn');
+  if (doneBtnEl) doneBtnEl.addEventListener('click', ()=> openDeduct(r));
   const ingBtnEl = elDetail.querySelector('.d-ing-btn');
   if (ingBtnEl) ingBtnEl.addEventListener('click', ()=> openCook(r.id, 'ings'));
   elDetail.querySelector('.d-fav').addEventListener('click', (e)=>{
@@ -881,6 +883,129 @@ function stockSummaryHtml(hits){
   return `<div class="stock-summary">🧺 ${found.length}/${hits.length} en stock · ${per.map(([t,n]) => `${FTAB_EMOJIS[t]} ${n}`).join('  ')}</div>`;
 }
 
+/* Quantités en stock : par produit (nom normalisé) → { q, u } avec u = 'g', 'ml' ou 'pc'.
+   Déduites quand une recette est marquée comme réalisée. */
+let stockQty = JSON.parse(localStorage.getItem('stockQty') || '{}');
+function saveStockQty(){ try { localStorage.setItem('stockQty', JSON.stringify(stockQty)); } catch(e){} }
+function getStockQty(name){ return stockQty[norm(name)] || null; }
+function setStockQty(name, qty){ const n = norm(name); if (qty) stockQty[n] = qty; else delete stockQty[n]; saveStockQty(); }
+
+const QTY_UNITS = {
+  g:['g',1], gr:['g',1], gramme:['g',1], grammes:['g',1], kg:['g',1000], kilo:['g',1000], kilos:['g',1000],
+  ml:['ml',1], cl:['ml',10], dl:['ml',100], l:['ml',1000], litre:['ml',1000], litres:['ml',1000],
+  pc:['pc',1], pcs:['pc',1], piece:['pc',1], pieces:['pc',1], x:['pc',1],
+};
+function parseNum(s){
+  s = String(s).trim().replace(',', '.').replace('½', '.5').replace('¼', '.25').replace('¾', '.75');
+  let m = s.match(/^(\d+)\s+(\d+)\/(\d+)$/); if (m) return +m[1] + m[2] / m[3];
+  m = s.match(/^(\d+)\/(\d+)$/); if (m) return m[1] / m[2];
+  const v = parseFloat(s.replace(/^\./, '0.')); return isNaN(v) ? null : v;
+}
+// « 500 g de semoule » → {q:500,u:'g'} ; « 4 cuisses » → {q:4,u:'pc'} ; « 2 c. à s. » → {q:2,u:'autre'}
+function parseQty(text){
+  const t = norm(text).trim();
+  const m = t.match(/^(\d+(?:[.,]\d+)?(?:\s+\d+\/\d+|\/\d+)?|[½¼¾])\s*([a-z.]+)?/);
+  if (!m) return null;
+  const q = parseNum(m[1]); if (q == null || q <= 0) return null;
+  const unit = (m[2] || '').replace(/\.$/, '');
+  if (!unit) return { q, u: 'pc' };
+  if (QTY_UNITS[unit]){ const [u, k] = QTY_UNITS[unit]; return { q: q * k, u }; }
+  if (/^(c|cs|cc|cas|cac|cl?s)$/.test(unit) || /^(cuil|tasse|verre|pincee|bouquet|botte|brin|filet|poignee|zeste|trait)/.test(unit)) return { q, u: 'autre' };
+  return { q, u: 'pc' }; // « 4 cuisses », « 2 boîtes », « 3 tranches »…
+}
+function fmtQty(x){
+  if (!x) return '';
+  const r = v => (Math.round(v * 10) / 10).toString().replace('.', ',');
+  if (x.u === 'g') return x.q >= 1000 ? r(x.q / 1000) + ' kg' : r(x.q) + ' g';
+  if (x.u === 'ml') return x.q >= 1000 ? r(x.q / 1000) + ' l' : x.q >= 100 && x.q % 10 === 0 ? r(x.q / 10) + ' cl' : r(x.q) + ' ml';
+  return '× ' + r(x.q);
+}
+// « Riz 1 kg », « 1 kg de riz », « 6 oeufs » → { name, qty }
+function splitNameQty(raw){
+  const s = raw.trim();
+  let m = s.match(/^(.*?\S)\s+(\d+(?:[.,]\d+)?\s*(?:kg|g|gr|l|cl|ml|dl|pcs?|pi[eè]ces?|x)?)$/i);
+  if (m && parseQty(m[2])) return { name: m[1], qty: parseQty(m[2]) };
+  m = s.match(/^(\d+(?:[.,]\d+)?\s*(?:kg|g|gr|l|cl|ml|dl|pcs?|pi[eè]ces?|x)?)\s+(?:de\s+|d['’]\s*)?(.+)$/i);
+  if (m && parseQty(m[1])) return { name: m[2], qty: parseQty(m[1]) };
+  return { name: s, qty: null };
+}
+function editStockQty(name, tab){
+  const cur = getStockQty(name);
+  const v = prompt(`Quantité de « ${name} » (ex : 500 g, 1 kg, 75 cl, 6)\nLaisser vide pour ne pas suivre la quantité.`, cur ? fmtQty(cur).replace('× ', '') : '');
+  if (v == null) return;
+  const q = v.trim() ? parseQty(v) : null;
+  if (v.trim() && (!q || q.u === 'autre')){ toast('Quantité non reconnue'); return; }
+  setStockQty(name, q);
+  renderFrigoIngs(tab);
+}
+
+/* « Je l'ai cuisinée » : propose de déduire des stocks les ingrédients utilisés. */
+function openDeduct(r){
+  const lines = (r.ing || []).map(l => ({ line: l, hit: stockForLine(l), need: parseQty(l) })).filter(x => x.hit);
+  if (!lines.length){ toast('Bonne dégustation ! 🎉'); return; }
+  const prods = new Map(); // un produit peut servir à plusieurs lignes
+  for (const x of lines){
+    const key = x.hit.tab + '|' + x.hit.name;
+    const p = prods.get(key) || { tab: x.hit.tab, name: x.hit.name, have: getStockQty(x.hit.name), need: null, lines: [] };
+    p.lines.push(x.line);
+    if (x.need && p.have && x.need.u === p.have.u) p.need = { q: (p.need ? p.need.q : 0) + x.need.q, u: x.need.u };
+    prods.set(key, p);
+  }
+  const list = [...prods.values()];
+  const baseServ = r.serv || 0;
+  let ov = document.getElementById('deduct-overlay');
+  if (!ov){ ov = document.createElement('div'); ov.id = 'deduct-overlay'; ov.className = 'scan-overlay'; document.body.appendChild(ov); }
+  const render = (serv) => {
+    const k = baseServ && serv ? serv / baseServ : 1;
+    return list.map((p, i) => {
+      const used = p.need ? { q: p.need.q * k, u: p.need.u } : null;
+      let info, checked;
+      if (used){ const left = p.have.q - used.q;
+        info = `${fmtQty(p.have)} → <b>${left > 0 ? fmtQty({ q: left, u: p.have.u }) : 'épuisé'}</b> <span class="dd-minus">(− ${fmtQty(used)})</span>`; checked = true; }
+      else if (p.have){ info = `${fmtQty(p.have)} en stock · quantité de la recette non déduite`; checked = false; }
+      else { info = 'pas de quantité suivie'; checked = false; }
+      return `<label class="dd-row"><input type="checkbox" data-i="${i}" ${checked ? 'checked' : ''}>
+        <span class="dd-txt"><span class="dd-name">${FTAB_EMOJIS[p.tab]} ${esc(p.name)}</span><span class="dd-info">${info}</span>
+        ${used ? '' : '<span class="dd-hint">Coché : retirer du stock</span>'}</span></label>`;
+    }).join('');
+  };
+  ov.innerHTML = `<div class="scan-card"><div class="scan-card-head">
+      <button class="scan-close" id="dd-close" aria-label="Fermer">←</button>
+      <div class="scan-title">✅ Recette réalisée</div></div>
+    <div class="scan-body">
+      <p class="scan-info">Mettre à jour les stocks avec ce que tu as utilisé pour <b>${esc(r.t)}</b> :</p>
+      ${baseServ ? `<label class="dd-serv">🍽️ Pour <input type="number" id="dd-serv" min="1" max="50" value="${baseServ}"> personnes <span class="dd-sub">(recette : ${baseServ})</span></label>` : ''}
+      <div id="dd-list">${render(baseServ)}</div>
+      <button class="scan-add-btn" id="dd-ok">Mettre à jour les stocks</button>
+      <button class="dd-skip" id="dd-skip">Ne rien déduire</button>
+    </div></div>`;
+  ov.hidden = false;
+  const servEl = ov.querySelector('#dd-serv');
+  if (servEl) servEl.addEventListener('input', () => { ov.querySelector('#dd-list').innerHTML = render(+servEl.value || baseServ); });
+  const close = () => { ov.hidden = true; };
+  ov.querySelector('#dd-close').addEventListener('click', close);
+  ov.querySelector('#dd-skip').addEventListener('click', () => { close(); toast('Bonne dégustation ! 🎉'); });
+  ov.querySelector('#dd-ok').addEventListener('click', () => {
+    const serv = servEl ? (+servEl.value || baseServ) : baseServ;
+    const k = baseServ && serv ? serv / baseServ : 1;
+    let updated = 0, removed = 0;
+    ov.querySelectorAll('#dd-list input[type=checkbox]').forEach(cb => {
+      if (!cb.checked) return;
+      const p = list[+cb.dataset.i];
+      const left = p.need ? p.have.q - p.need.q * k : 0;
+      if (p.need && left > 0.0001){ setStockQty(p.name, { q: Math.round(left * 10) / 10, u: p.have.u }); updated++; }
+      else {
+        storageIngs[p.tab] = storageIngs[p.tab].filter(n => norm(n) !== norm(p.name));
+        saveStorageIngs(p.tab); setStockQty(p.name, null); removed++;
+      }
+    });
+    close();
+    FTABS.forEach(t => renderFrigoIngs(t));
+    renderFrigoSuggestions(); renderCellarHome();
+    toast(`Stocks mis à jour : ${updated} ajusté${updated > 1 ? 's' : ''}, ${removed} retiré${removed > 1 ? 's' : ''} 🎉`);
+  });
+}
+
 function cookIngListHtml(r){
   const sk = SEASON[monthNow()] || [];
   return (r.ing||[]).map((item,k)=>{
@@ -970,7 +1095,7 @@ function renderCookStep(){
 
 function cookGoNext(){
   if(cookStep < cookSteps.length-1){ cookStep++; renderCookStep(); speakCookStep(); }
-  else{ closeCook(); toast('Bonne dégustation ! 🎉'); }
+  else{ const r = cookRecipe; closeCook(); openDeduct(r); }
 }
 function cookGoPrev(){
   if(cookStep > 0){ cookStep--; renderCookStep(); speakCookStep(); }
@@ -1850,6 +1975,7 @@ function renameStockItem(tab, idx){
   saveStorageIngs(tab);
   const img = stockImgs[norm(old)];
   if (img && !getStockImg(v)) setStockImg(v, img);
+  if (stockQty[norm(old)] && !stockQty[norm(v)]) setStockQty(v, stockQty[norm(old)]);
   if (stockDates[norm(old)] && !stockDates[norm(v)]){ stockDates[norm(v)] = stockDates[norm(old)]; saveStockDates(); }
   let changed = false;
   for (const code in barcodeBook){
@@ -1944,6 +2070,7 @@ function renderFrigoIngs(tab){
             ? `<img src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode('${emoji}'))">`
             : emoji}</button>
           <button class="stock-card-name" data-idx="${i}" title="Renommer">${esc(ing)} ✎</button>
+          <button class="stock-qty${getStockQty(ing) ? '' : ' empty'}" data-idx="${i}">${getStockQty(ing) ? '⚖️ ' + fmtQty(getStockQty(ing)) : '+ quantité'}</button>
           ${tab === 'congelateur' ? freezeBadge(ing) : ''}
           <button class="stock-card-del" data-idx="${i}" aria-label="Retirer">✕</button>
         </div>`;
@@ -1957,6 +2084,9 @@ function renderFrigoIngs(tab){
       renderFrigoIngs(tab);
       renderFrigoSuggestions();
     });
+  });
+  el.querySelectorAll('.stock-qty').forEach(btn => {
+    btn.addEventListener('click', ()=> editStockQty(ings[parseInt(btn.dataset.idx)], tab));
   });
   el.querySelectorAll('.stock-card-name').forEach(btn => {
     btn.addEventListener('click', ()=> renameStockItem(tab, parseInt(btn.dataset.idx)));
@@ -3058,7 +3188,11 @@ async function init(){
       const raw = manualInput.value.trim();
       if (!raw) return;
       const items = raw.split(/[,;]+/).map(s=>s.trim()).filter(Boolean);
-      for (const item of items) addStockItem(item, tab);
+      for (const item of items){
+        const { name, qty } = splitNameQty(item);
+        addStockItem(name, tab);
+        if (qty && qty.u !== 'autre') setStockQty(name, qty);
+      }
       manualInput.value = '';
       renderFrigoIngs(tab);
       renderFrigoSuggestions();
