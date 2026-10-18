@@ -21046,6 +21046,39 @@
         "Laisser tiédir 5 min puis retourner sur un plat. Garnir de bresaola, de copeaux de parmesan et de roquette, puis arroser d'un filet d'huile."
       ],
       "img": "img/tatins/08.jpg"
+    },
+    {
+      "id": "tech:020",
+      "t": "Cuisson basse température (sous vide) — Temps & températures",
+      "cat": "Technique",
+      "min": 60,
+      "serv": 1,
+      "img": "img/techniques/tech-020.jpg",
+      "desc": "Viandes, volailles, poissons et légumes cuits sous vide au bain-marie thermostaté : la bonne température et la bonne durée selon l'épaisseur et la cuisson voulue.",
+      "ing": [],
+      "steps": "🔬 LE PRINCIPE\nL'aliment, mis sous vide dans un sachet, cuit dans un bain d'eau maintenu à la température exacte de cuisson à cœur voulue. Impossible de dépasser la cuisson : on gagne en régularité et en jutosité.\n\n⚙️ LES ÉTAPES\n1. Préchauffer le bain à la température choisie\n2. Assaisonner et mettre sous vide (ou sac zip, air chassé dans l'eau)\n3. Plonger le sachet entièrement immergé pour la durée indiquée\n4. Sortir, sécher soigneusement au papier absorbant\n5. Saisir 30 à 60 s par face dans une poêle très chaude pour la couleur et le goût\n\n📏 ÉPAISSEUR\nPièce fine (≈ 2,5 cm) → bas de la fourchette de temps\nPièce épaisse (4–5 cm) → haut de la fourchette\n\n🥩 BŒUF (steak, entrecôte, filet…)\nSaignant : 49–53 °C · 1 h – 2 h 30\nRosé (à point saignant) : 54–57 °C · 1 h – 3 h\nÀ point : 57–62 °C · 1 h – 3 h\nBien cuit : 63–68 °C · 1 h – 3 h\nTrès cuit : 69 °C et plus · 1 h – 3 h\n\n🍗 VOLAILLE\nBlanc de poulet : 63–66 °C · 1 h 30 – 3 h (texture juteuse)\nCuisses de poulet : 74–79 °C · 2 h – 4 h (tendres, à effilocher)\nFilet de dinde : 63–66 °C · 2 h – 4 h (reposer avant de trancher)\n\n🐖 PORC\nCôtes de porc : 58–63 °C · 1 h – 4 h\nFilet mignon de porc : 57–63 °C · 1 h – 3 h\n\n🐟 POISSON\nSaumon : 46–52 °C · 30 – 45 min (fondant à 46 °C, plus ferme à 52 °C)\nPoisson blanc (cabillaud, lieu…) : 50–55 °C · 30 – 45 min\n\n🥕 LÉGUMES\nLégumes racines (carottes, pommes de terre, betteraves) : 83–85 °C · 1 h – 3 h\nAsperges, haricots verts : 83–85 °C · 15 – 30 min\n\n⚠️ SÉCURITÉ\n— Sous 60 °C, la durée sert aussi à pasteuriser : respecter les durées minimales et servir aussitôt\n— Volaille : ne pas descendre sous 60 °C\n— Poisson cuit sous 55 °C : choisir un poisson très frais, ou congelé au préalable\n— Toujours se référer aux recommandations sanitaires en vigueur\n\n💡 ASTUCES\n— Ajouter beurre, ail, thym ou romarin dans le sachet\n— Saler la viande juste avant la mise sous vide\n— Pour saisir, poêle fumante et huile neutre, puis une noix de beurre en fin de cuisson"
+    },
+    {
+      "id": "tech:021",
+      "t": "Cuisson du steak — Degrés de cuisson",
+      "cat": "Technique",
+      "min": 15,
+      "serv": 1,
+      "img": "img/techniques/tech-021.jpg",
+      "desc": "Bleu, saignant, à point, bien cuit : les températures à cœur, l'aspect de la viande et le bon degré selon le morceau. Le thermomètre ne ment pas.",
+      "ing": [],
+      "steps": "🌡️ TEMPÉRATURES À CŒUR (au moment de servir)\nBleu : 45–50 °C — rouge vif, froid au centre, juste saisi\nSaignant : 50–55 °C — centre rouge et frais, intérieur tendre, bords bien colorés\nRosé : 55–60 °C — centre rose vif et chaud, souple sous le doigt\nÀ point : 60–65 °C — rose pâle, légèrement ferme et élastique\nBien cuit : 65–70 °C — gris-brun avec une pointe de rose, ferme\nTrès cuit : 70 °C et plus — entièrement gris-brun, ferme, peu de jus\n\n⏱️ LE REPOS\nLa température monte encore de 2 à 3 °C pendant le repos : sortir la viande du feu un peu avant la température visée. Laisser reposer 5 à 10 min sous une feuille d'aluminium : les jus se répartissent et ne coulent pas à la découpe.\n\n🥩 QUEL DEGRÉ POUR QUEL MORCEAU ?\nMorceaux maigres (filet, faux-filet, rumsteck) : bleu à rosé — trop cuits, ils deviennent secs\nMorceaux persillés (entrecôte, côte de bœuf, T-bone) : saignant à à point — le gras a le temps de fondre et de parfumer\nMorceaux gras (plat de côtes, travers) : bien cuit, en cuisson lente pour éviter le dessèchement\n\n⚙️ LES BONS GESTES\n1. Sortir la viande du réfrigérateur 30 min avant pour qu'elle cuise uniformément\n2. Sécher la surface au papier absorbant\n3. Poêle (fonte ou acier) ou gril très chaud : c'est la clé de la croûte\n4. Ne pas piquer la viande : la retourner avec une pince\n5. Planter le thermomètre horizontalement, au centre de la partie la plus épaisse\n6. Saler juste avant la cuisson, poivrer après\n\n✋ SANS THERMOMÈTRE (test du doigt)\nAppuyer au centre du steak et comparer à la base du pouce, main détendue :\nPouce seul → bleu/saignant · pouce + index → saignant · pouce + majeur → à point · pouce + annulaire → bien cuit"
+    },
+    {
+      "id": "tech:022",
+      "t": "Morceaux de bœuf — Tendres ou à mijoter",
+      "cat": "Technique",
+      "min": 5,
+      "serv": 1,
+      "img": "img/techniques/tech-022.jpg",
+      "desc": "Quel morceau pour quelle cuisson ? Les morceaux riches en collagène se mijotent longtemps, les morceaux tendres se saisissent à feu vif.",
+      "ing": [],
+      "steps": "🐄 MORCEAUX À MIJOTER (riches en collagène)\nPaleron, macreuse, gîte, jarret, joue, collier, poitrine, plat de côtes\nCuisson : lente et douce — braiser, mijoter, cocotte, four basse température, barbecue fumé\nDurée : 2 h 30 à 4 h (ou une nuit en basse température)\nSaveur : marinades, fumé, épices, sauces au vin\nIdées : bœuf bourguignon, pot-au-feu, daube, carbonade, chili, effiloché\n\n🔥 MORCEAUX TENDRES À GRILLER\nBavette, onglet, hampe : saveur prononcée, à saisir vite et à trancher finement contre les fibres\nFaux-filet, rumsteck : maigres et tendres, idéals saignants\nEntrecôte, côte de bœuf, T-bone : persillés, très goûteux, saignant à à point\nFilet, tournedos, chateaubriand : le plus tendre et le plus cher, cuisson bleue à rosée\nCuisson : poêle très chaude, gril, plancha, barbecue\nSaveur : sel, poivre, beurre, herbes, ou marinade courte\n\n💡 BON À SAVOIR\n— Plus un muscle travaille (épaule, jarret), plus il est ferme : il lui faut du temps\n— Le collagène fond en gélatine au-delà de 70 °C après plusieurs heures : la viande devient fondante\n— Un morceau tendre trop cuit durcit ; un morceau à mijoter pas assez cuit reste caoutchouteux\n— Trancher toujours perpendiculairement aux fibres"
     }
   ]
 }

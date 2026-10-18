@@ -749,3 +749,12 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .addbox-lbl{font-size:.78em;color:var(--muted);margin-bottom:-4px}
 .addbox-chips{flex-wrap:wrap}
 .addbox-chips button.on{background:var(--accent);border-color:transparent;color:#fff}
+/* Rappel cuisson à cœur (recettes de bœuf à griller) */
+.doneness{margin:14px 0 4px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+.dn-head{font-weight:800;margin-bottom:8px}
+.dn-head span{display:block;font-weight:400;font-size:.78em;color:var(--muted)}
+.dn-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.dn-cell{display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px;font-size:.78em}
+.dn-cell i{width:100%;height:10px;border-radius:5px}
+.dn-cell span{color:var(--muted);white-space:nowrap}
+.dn-more{margin-top:8px;background:none;border:none;color:var(--accent);font-weight:700;padding:0;cursor:pointer}

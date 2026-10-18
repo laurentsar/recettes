@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.20';
+const APP_VERSION = '3.21';
 
 let ALL = [];
 let BASE = [];
@@ -701,6 +701,24 @@ function getHabitScores(){
     return scores;
   } catch(e){ return {}; }
 }
+/* Recettes de bœuf à griller : rappel des températures à cœur (fiche tech:021). */
+const STEAK_RE = /\b(steaks?|entrecotes?|cotes? de boeuf|faux[- ]filets?|bavettes?|rumstecks?|onglets?|hampes?|tournedos|chateaubriands?|t[- ]bones?|picanha|rosbif|roti de boeuf|filets? de boeuf|filets? mignons? de boeuf|tagliata|brochettes? (de )?boeuf)\b/;
+// Bœuf cru, émincé ou mijoté : pas de degré de cuisson à surveiller.
+const NOT_DONENESS_RE = /tartare|carpaccio|bo bun|emince|saute|effiloche|mijote|ragout|wok/;
+const NOT_STEAK_RE = /steaks? (haches?|vegetal|vegetaux|de (thon|saumon|espadon|chou|soja|tofu|celeri|legumes?|lentilles?|haricots?|pois))/g;
+const DONENESS = [['Bleu','45–50','#b3202c'],['Saignant','50–55','#c8423f'],['Rosé','55–60','#d9776a'],['À point','60–65','#b98a76'],['Bien cuit','65–70','#7d5a4a']];
+function isSteakRecipe(r){
+  if (catList(r).includes('Technique') || NOT_DONENESS_RE.test(norm(r.t))) return false;
+  const txt = norm(r.t + ' · ' + (r.ing || []).join(' · ')).replace(/-/g, ' ');
+  return STEAK_RE.test(txt.replace(NOT_STEAK_RE, ' ')); // « steak haché », « steak de thon »… ne comptent pas
+}
+function donenessHtml(r){
+  if (!isSteakRecipe(r)) return '';
+  return `<div class="doneness"><div class="dn-head">🌡️ Cuisson à cœur <span>sortir 2–3 °C avant, puis 5–10 min de repos</span></div>
+    <div class="dn-grid">${DONENESS.map(([l, t, c]) => `<div class="dn-cell"><i style="background:${c}"></i><b>${l}</b><span>${t} °C</span></div>`).join('')}</div>
+    ${ALL.some(x => x.id === 'tech:021') ? '<button class="dn-more" data-id="tech:021">Voir la fiche degrés de cuisson →</button>' : ''}</div>`;
+}
+
 function openDetail(id){
   const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
   trackView(id);
@@ -778,7 +796,7 @@ function openDetail(id){
         <div class="d-title">${esc(r.t)}</div>
         <div class="d-meta">${tags}</div>
         ${r.desc?`<div class="desc">${esc(r.desc)}</div>`:''}
-        ${ing}${stepsHtml}${cookBtn}
+        ${ing}${donenessHtml(r)}${stepsHtml}${cookBtn}
         ${links?`<div class="d-links">${links}</div>`:''}
       </div>
     </div>`;
@@ -786,6 +804,7 @@ function openDetail(id){
   if (window._wlAcquire) window._wlAcquire();
   document.body.style.overflow='hidden';
   elDetail.querySelector('.d-back').addEventListener('click', closeDetail);
+  elDetail.querySelector('.dn-more')?.addEventListener('click', e => openDetail(e.currentTarget.dataset.id));
   const cookBtnEl = elDetail.querySelector('.d-cook-btn');
   if (cookBtnEl) cookBtnEl.addEventListener('click', ()=> openCook(r.id));
   const doneBtnEl = elDetail.querySelector('.d-done-btn');
