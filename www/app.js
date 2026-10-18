@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.17';
+const APP_VERSION = '3.18';
 
 let ALL = [];
 let BASE = [];
@@ -2551,6 +2551,7 @@ async function startLiveScan(opts = {}){
     <div class="scan-live"><video id="scan-video" playsinline muted autoplay></video><div class="scan-live-frame"></div></div>
     <p class="scan-info" id="scan-live-msg">${invMode ? 'Scanne chaque article présent, un par un : les quantités sont recomptées.' : 'Vise les codes-barres un par un. Un même produit scanné deux fois s\'ajoute deux fois.'}</p>
     <div id="scan-unknown" hidden></div>
+    <button class="frigo-scan-btn" id="scan-nocode">➕ Produit sans code-barres (bocal, vrac…)</button>
     <div class="scan-tab-sel">
       ${FTABS.map(t=>`<button class="scan-tab-btn${t===scanTargetTab?' active':''}" data-stab="${t}">${FTAB_EMOJIS[t]} ${t==='frigo'?'Frigo':t==='congelateur'?'Congélo':'Cellier'}</button>`).join('')}
     </div>
@@ -2602,19 +2603,22 @@ async function startLiveScan(opts = {}){
   }
 
   // Produit inconnu : pause, fiche nom + photo + quantité, mémorisée pour les prochains scans.
+  // code = null : produit sans code-barres (bocal maison, vrac…), saisi à la main sans quitter le scan.
   function askUnknown(code, tab){
     session.paused = true;
     let photo = '', photoFile = null;
     unk.hidden = false;
-    unk.innerHTML = `<div class="unk-card">
-      <div class="unk-title">❓ Produit inconnu <span class="unk-code">${esc(code)}</span></div>
-      <input id="unk-name" class="frigo-manual-input" type="text" placeholder="Nom (ex : lentilles vertes)" autocapitalize="sentences">
+    const known = [...new Set(FTABS.flatMap(t => storageIngs[t]))];
+    unk.innerHTML = `<div class="unk-card${code ? '' : ' nocode'}">
+      <div class="unk-title">${code ? `❓ Produit inconnu <span class="unk-code">${esc(code)}</span>` : '➕ Produit sans code-barres'}</div>
+      <input id="unk-name" class="frigo-manual-input" type="text" list="unk-known" placeholder="Nom (ex : ${code ? 'lentilles vertes' : 'confiture de figues maison'})" autocapitalize="sentences">
+      <datalist id="unk-known">${known.map(n => `<option value="${esc(n)}">`).join('')}</datalist>
       <div class="unk-row">
         <label class="unk-photo" for="unk-file"><span id="unk-prev">📷</span><span>Photo du produit</span></label>
         <input id="unk-file" class="frigo-file-hidden" type="file" accept="image/*" capture="environment">
-        <input id="unk-qty" class="frigo-manual-input unk-qty" type="text" placeholder="Contenance : 400 g, 1 l, 6">
+        <input id="unk-qty" class="frigo-manual-input unk-qty" type="text" placeholder="${code ? 'Contenance : 400 g, 1 l, 6' : 'Qté : 3 boîtes de 400 g, 1 kg, 6'}">
       </div>
-      <label class="unk-off"><input type="checkbox" id="unk-off" ${offCreds() ? 'checked' : ''}> 🌍 Ajouter aussi sur Open Food Facts${offCreds() ? '' : ' <span>(identifiants à saisir dans ⚙️)</span>'}</label>
+      ${code ? `<label class="unk-off"><input type="checkbox" id="unk-off" ${offCreds() ? 'checked' : ''}> 🌍 Ajouter aussi sur Open Food Facts${offCreds() ? '' : ' <span>(identifiants à saisir dans ⚙️)</span>'}</label>` : ''}
       <div class="unk-actions"><button class="unk-skip" id="unk-skip">Passer</button><button class="scan-add-btn" id="unk-save">Enregistrer</button></div>
     </div>`;
     const nameEl = unk.querySelector('#unk-name');
@@ -2625,12 +2629,31 @@ async function startLiveScan(opts = {}){
       try { photo = await imageThumb(f, 240); unk.querySelector('#unk-prev').innerHTML = `<img src="${photo}" alt="">`; }
       catch(_){ toast('Photo illisible'); }
     });
-    const resume = ()=>{ unk.hidden = true; unk.innerHTML = ''; session.paused = false; msg.textContent = 'Vise le code-barres suivant…'; };
+    const ncBtn = body.querySelector('#scan-nocode'); if (ncBtn) ncBtn.hidden = true;
+    const resume = ()=>{ unk.hidden = true; unk.innerHTML = ''; session.paused = false; if (ncBtn) ncBtn.hidden = false; msg.textContent = 'Vise le code-barres suivant…'; };
+    if (!code) unk.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     unk.querySelector('#unk-skip').addEventListener('click', resume);
     const save = ()=>{
       const name = nameEl.value.trim();
       if (!name){ nameEl.focus(); return; }
       const qv = unk.querySelector('#unk-qty').value.trim();
+      if (!code){ // sans code-barres : la quantité saisie est le total (« 3 boîtes de 400 g »)
+        const q = qv ? parseQtyInput(qv) : null;
+        if (qv && (!q || q.u === 'autre')){ toast('Quantité non reconnue'); return; }
+        const n = norm(name);
+        const existing = FTABS.find(t => storageIngs[t].some(x => norm(x) === n));
+        const t = existing || tab;
+        if (!existing) addStockItem(name, t, photo);
+        if (photo) setStockImg(name, photo);
+        const cur = getStockQty(name);
+        let total = q;
+        if (q && cur && cur.u === q.u && existing && !invMode) total = { q: cur.q + q.q, u: q.u, pk: q.pk || cur.pk }; // ajout
+        if (total) setStockQty(name, total, false);
+        if (invMode && inv) inv.checked.add(t + '|' + n);
+        addRow(t, name, photo || getStockImg(name), `${invMode ? '✓ ' : ''}${total ? fmtStockQty(total) : ''}${existing ? '' : ' · ajouté'}`);
+        resume();
+        return;
+      }
       const qty = qv ? parseQty(qv) : null;
       rememberBarcode(code, name, photo, qty && qty.u !== 'autre' ? qty : null);
       if (photo) setStockImg(name, photo);
@@ -2653,6 +2676,8 @@ async function startLiveScan(opts = {}){
     unk.querySelector('#unk-save').addEventListener('click', save);
     nameEl.addEventListener('keydown', e => { if (e.key === 'Enter'){ e.preventDefault(); save(); } });
   }
+
+  body.querySelector('#scan-nocode').addEventListener('click', ()=>{ if (!session.paused) askUnknown(null, scanTargetTab); });
 
   session.timer = setInterval(async ()=>{
     if (session.busy || session.paused || liveScan !== session || video.readyState < 2) return;
