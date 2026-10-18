@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.11';
+const APP_VERSION = '3.13';
 
 let ALL = [];
 let BASE = [];
@@ -735,7 +735,7 @@ function openDetail(id){
   const cookBtn = (steps.length || hasIng) ? `<div class="d-cook-row">
     ${hasIng ? `<button class="d-ing-btn">📋 Ingrédients</button>` : ''}
     ${steps.length ? `<button class="d-cook-btn">🍳 Réaliser</button>` : ''}
-  </div>` : '';
+  </div>${hasIng ? `<button class="d-done-btn">✅ Je l'ai cuisinée</button>` : ''}` : '';
   const links = [
     r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">🔗 Source</a>`:'',
     r.vid?`<a href="${esc(r.vid)}" target="_blank" rel="noopener">▶️ Vidéo</a>`:'',
@@ -788,6 +788,8 @@ function openDetail(id){
   elDetail.querySelector('.d-back').addEventListener('click', closeDetail);
   const cookBtnEl = elDetail.querySelector('.d-cook-btn');
   if (cookBtnEl) cookBtnEl.addEventListener('click', ()=> openCook(r.id));
+  const doneBtnEl = elDetail.querySelector('.d-done-btn');
+  if (doneBtnEl) doneBtnEl.addEventListener('click', ()=> openDeduct(r));
   const ingBtnEl = elDetail.querySelector('.d-ing-btn');
   if (ingBtnEl) ingBtnEl.addEventListener('click', ()=> openCook(r.id, 'ings'));
   elDetail.querySelector('.d-fav').addEventListener('click', (e)=>{
@@ -881,6 +883,112 @@ function stockSummaryHtml(hits){
   return `<div class="stock-summary">🧺 ${found.length}/${hits.length} en stock · ${per.map(([t,n]) => `${FTAB_EMOJIS[t]} ${n}`).join('  ')}</div>`;
 }
 
+/* Quantités en stock : par produit (nom normalisé) → { q, u } avec u = 'g', 'ml' ou 'pc'.
+   Déduites quand une recette est marquée comme réalisée. */
+let stockQty = JSON.parse(localStorage.getItem('stockQty') || '{}');
+function saveStockQty(){ try { localStorage.setItem('stockQty', JSON.stringify(stockQty)); } catch(e){} }
+function getStockQty(name){ return stockQty[norm(name)] || null; }
+function setStockQty(name, qty){ const n = norm(name); if (qty) stockQty[n] = qty; else delete stockQty[n]; saveStockQty(); }
+
+const QTY_UNITS = {
+  g:['g',1], gr:['g',1], gramme:['g',1], grammes:['g',1], kg:['g',1000], kilo:['g',1000], kilos:['g',1000],
+  ml:['ml',1], cl:['ml',10], dl:['ml',100], l:['ml',1000], litre:['ml',1000], litres:['ml',1000],
+  pc:['pc',1], pcs:['pc',1], piece:['pc',1], pieces:['pc',1], x:['pc',1],
+};
+function parseNum(s){
+  s = String(s).trim().replace(',', '.').replace('½', '.5').replace('¼', '.25').replace('¾', '.75');
+  let m = s.match(/^(\d+)\s+(\d+)\/(\d+)$/); if (m) return +m[1] + m[2] / m[3];
+  m = s.match(/^(\d+)\/(\d+)$/); if (m) return m[1] / m[2];
+  const v = parseFloat(s.replace(/^\./, '0.')); return isNaN(v) ? null : v;
+}
+// « 500 g de semoule » → {q:500,u:'g'} ; « 4 cuisses » → {q:4,u:'pc'} ; « 2 c. à s. » → {q:2,u:'autre'}
+function parseQty(text){
+  const t = norm(text).trim();
+  const m = t.match(/^(\d+(?:[.,]\d+)?(?:\s+\d+\/\d+|\/\d+)?|[½¼¾])\s*([a-z.]+)?/);
+  if (!m) return null;
+  const q = parseNum(m[1]); if (q == null || q <= 0) return null;
+  const unit = (m[2] || '').replace(/\.$/, '');
+  if (!unit) return { q, u: 'pc' };
+  if (QTY_UNITS[unit]){ const [u, k] = QTY_UNITS[unit]; return { q: q * k, u }; }
+  if (/^(c|cs|cc|cas|cac|cl?s)$/.test(unit) || /^(cuil|tasse|verre|pincee|bouquet|botte|brin|filet|poignee|zeste|trait)/.test(unit)) return { q, u: 'autre' };
+  return { q, u: 'pc' }; // « 4 cuisses », « 2 boîtes », « 3 tranches »…
+}
+function fmtQty(x){
+  if (!x) return '';
+  const r = v => (Math.round(v * 10) / 10).toString().replace('.', ',');
+  if (x.u === 'g') return x.q >= 1000 ? r(x.q / 1000) + ' kg' : r(x.q) + ' g';
+  if (x.u === 'ml') return x.q >= 1000 ? r(x.q / 1000) + ' l' : x.q >= 100 && x.q % 10 === 0 ? r(x.q / 10) + ' cl' : r(x.q) + ' ml';
+  return '× ' + r(x.q);
+}
+// « Riz 1 kg », « 1 kg de riz », « 6 oeufs » → { name, qty }
+function splitNameQty(raw){
+  const s = raw.trim();
+  let m = s.match(/^(.*?\S)\s+(\d+(?:[.,]\d+)?\s*(?:kg|g|gr|l|cl|ml|dl|pcs?|pi[eè]ces?|x)?)$/i);
+  if (m && parseQty(m[2])) return { name: m[1], qty: parseQty(m[2]) };
+  m = s.match(/^(\d+(?:[.,]\d+)?\s*(?:kg|g|gr|l|cl|ml|dl|pcs?|pi[eè]ces?|x)?)\s+(?:de\s+|d['’]\s*)?(.+)$/i);
+  if (m && parseQty(m[1])) return { name: m[2], qty: parseQty(m[1]) };
+  return { name: s, qty: null };
+}
+function editStockQty(name, tab){
+  const cur = getStockQty(name);
+  const v = prompt(`Quantité de « ${name} » (ex : 500 g, 1 kg, 75 cl, 6)\nLaisser vide pour ne pas suivre la quantité.`, cur ? fmtQty(cur).replace('× ', '') : '');
+  if (v == null) return;
+  const q = v.trim() ? parseQty(v) : null;
+  if (v.trim() && (!q || q.u === 'autre')){ toast('Quantité non reconnue'); return; }
+  setStockQty(name, q);
+  renderFrigoIngs(tab);
+}
+
+/* « Je l'ai cuisinée » : déduit directement des stocks les ingrédients utilisés
+   (quantités converties g/ml/pièces). Produit épuisé ou sans quantité suivie :
+   retiré du stock. Un bouton « Annuler » permet de revenir en arrière. */
+function openDeduct(r){
+  const prods = new Map(); // un produit peut servir à plusieurs lignes
+  for (const line of (r.ing || [])){
+    const hit = stockForLine(line); if (!hit) continue;
+    const key = hit.tab + '|' + norm(hit.name);
+    const p = prods.get(key) || { tab: hit.tab, name: hit.name, have: getStockQty(hit.name), need: null, unknown: false };
+    const need = parseQty(line);
+    if (need && p.have && need.u === p.have.u) p.need = { q: (p.need ? p.need.q : 0) + need.q, u: need.u };
+    else if (p.have) p.unknown = true;
+    prods.set(key, p);
+  }
+  if (!prods.size){ toast('Bonne dégustation ! 🎉'); return; }
+  const snapshot = JSON.stringify({ ings: storageIngs, qty: stockQty });
+  const done = [];
+  for (const p of prods.values()){
+    if (p.have && !p.need){ done.push(`${FTAB_EMOJIS[p.tab]} ${p.name} : quantité inchangée`); continue; } // ex. cuillères d'huile
+    const left = p.need ? p.have.q - p.need.q : 0;
+    if (p.need && left > 0.0001){
+      setStockQty(p.name, { q: Math.round(left * 10) / 10, u: p.have.u });
+      done.push(`${FTAB_EMOJIS[p.tab]} ${p.name} : ${fmtQty(p.have)} → ${fmtQty({ q: left, u: p.have.u })}`);
+    } else {
+      storageIngs[p.tab] = storageIngs[p.tab].filter(n => norm(n) !== norm(p.name));
+      saveStorageIngs(p.tab); setStockQty(p.name, null);
+      done.push(`${FTAB_EMOJIS[p.tab]} ${p.name} : retiré`);
+    }
+  }
+  const refresh = () => { FTABS.forEach(t => renderFrigoIngs(t)); renderFrigoSuggestions(); renderCellarHome(); };
+  refresh();
+  showUndoBar(`✅ Stocks mis à jour (${prods.size} produit${prods.size > 1 ? 's' : ''})`, done, () => {
+    const s = JSON.parse(snapshot);
+    FTABS.forEach(t => { storageIngs[t] = s.ings[t]; saveStorageIngs(t); });
+    stockQty = s.qty; saveStockQty(); refresh();
+    toast('Stocks restaurés');
+  });
+}
+
+function showUndoBar(title, details, onUndo){
+  let bar = document.getElementById('undo-bar');
+  if (!bar){ bar = document.createElement('div'); bar.id = 'undo-bar'; document.body.appendChild(bar); }
+  clearTimeout(bar._t);
+  bar.innerHTML = `<div class="ub2-main"><span class="ub2-title">${esc(title)}</span><button class="ub2-undo">Annuler</button></div>
+    <div class="ub2-details">${details.map(d => `<div>${esc(d)}</div>`).join('')}</div>`;
+  bar.hidden = false;
+  bar.querySelector('.ub2-undo').addEventListener('click', () => { clearTimeout(bar._t); bar.hidden = true; onUndo(); });
+  bar._t = setTimeout(() => { bar.hidden = true; }, 8000);
+}
+
 function cookIngListHtml(r){
   const sk = SEASON[monthNow()] || [];
   return (r.ing||[]).map((item,k)=>{
@@ -970,7 +1078,7 @@ function renderCookStep(){
 
 function cookGoNext(){
   if(cookStep < cookSteps.length-1){ cookStep++; renderCookStep(); speakCookStep(); }
-  else{ closeCook(); toast('Bonne dégustation ! 🎉'); }
+  else{ const r = cookRecipe; closeCook(); openDeduct(r); }
 }
 function cookGoPrev(){
   if(cookStep > 0){ cookStep--; renderCookStep(); speakCookStep(); }
@@ -1527,9 +1635,13 @@ const elCocktailDetail = document.getElementById('cocktail-detail');
 
 const MODE_GROUPS = {
   pizza:           { subs: ['garnies','pates_pizza'] },
-  regions:         { subs: ['corse','espagne','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas','belgique'] },
+  desserts:        { subs: ['desserts_tous','gateaux','tartes_sucrees','cremes_desserts','biscuits','viennoiseries','crepes_sucrees','tiramisu','cheesecakes','charlottes'] },
+  soupes:          { subs: ['soupes','salades'] },
+  poissons:        { subs: ['poissons','moules'] },
+  crepes_cakes:    { subs: ['crepes_salees','cakes_sales'] },
+  regions:         { subs: ['corse','espagne','majorque','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas','belgique'] },
   ustensiles:      { subs: ['airfryer','thermomix'] },
-  aperitif:        { subs: ['tartines','tartinades','wraps','bouchees','brochettes','paninis','samoussas'] },
+  aperitif:        { subs: ['tartines','tartinades','wraps','bouchees','brochettes','paninis','samoussas','empanadas'] },
   oeufs:           { subs: ['omelettes','cocottes','preparations'] },
   boissons:        { subs: ['smoothies','milkshakes','mocktails'] },
   accompagnements: { subs: ['sauces','marinades'] },
@@ -1543,8 +1655,11 @@ const SUB_TAB_LABELS = {
   bresil:'🇧🇷 Brésil', argentine:'🇦🇷 Argentine', af:'🌍 Afrique',
   arabe:'🌙 Monde arabe', bulgarie:'🇧🇬 Bulgarie', hongrie:'🇭🇺 Hongrie', roumanie:'🇷🇴 Roumanie', paysbas:'🇳🇱 Pays-Bas', belgique:'🇧🇪 Belgique',
   garnies:'🍕 Garnitures', pates_pizza:'🍞 Pâtes',
+  majorque:'🏝️ Majorque',
+  desserts_tous:'🍰 Tous', gateaux:'🎂 Gâteaux', tartes_sucrees:'🥧 Tartes', cremes_desserts:'🍮 Crèmes & mousses', biscuits:'🍪 Biscuits & douceurs', viennoiseries:'🥐 Viennoiseries', crepes_sucrees:'🥞 Crêpes & gaufres', tiramisu:'☕ Tiramisu', cheesecakes:'🧀 Cheesecakes', charlottes:'🍓 Charlottes',
+  soupes:'🥣 Soupes', salades:'🥗 Salades', poissons:'🐟 Poissons', moules:'🦪 Moules', crepes_salees:'🥞 Crêpes salées', cakes_sales:'🍞 Cakes salés',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix',
-  tartines:'🍞 Tartines', tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas',
+  tartines:'🍞 Tartines', tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas', empanadas:'🥟 Empanadas',
   omelettes:'🍳 Omelettes', cocottes:'🥚 Cocottes', preparations:'🍳 Préparations',
   smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes', mocktails:'🍹 Sans alcool',
   sauces:'🥣 Sauces', marinades:'🌿 Marinades',
@@ -1552,7 +1667,9 @@ const SUB_TAB_LABELS = {
   vegetarien:'🥦 Végétarien', vegan:'🌱 Vegan', keto:'🥑 Keto', rapide:'⚡ ≤30 min',
 };
 const MODE_CAT = {
-  garnies: 'Pizza', pates_pizza: 'Pâte à Pizza',
+  garnies: 'Pizza', pates_pizza: 'Pâte à Pizza', majorque: 'Majorque',
+  desserts_tous: 'Dessert', gateaux: 'Gâteaux', tartes_sucrees: 'Tarte sucrée', cremes_desserts: 'Crème dessert', biscuits: 'Biscuit', viennoiseries: 'Viennoiserie', crepes_sucrees: 'Crêpe sucrée', tiramisu: 'Tiramisu', cheesecakes: 'Cheesecake', charlottes: 'Charlotte',
+  soupes: 'Soupe', salades: 'Salade', poissons: 'Poisson', moules: 'Moules', crepes_salees: 'Crêpe salée', cakes_sales: 'Cake salé',
   airfryer: 'Airfryer', thermomix: 'Thermomix',
   corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal',
   italie: 'Italie', grece: 'Grèce', france: 'France',
@@ -1564,7 +1681,7 @@ const MODE_CAT = {
   wraps: 'Wrap', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
   bouchees: 'Bouchée', brochettes: 'Brochette', omelettes: 'Omelette', cocottes: 'Cocotte',
   mocktails: 'Cocktail sans alcool', preparations: 'Préparation Oeuf',
-  paninis: 'Panini', samoussas: 'Samoussa',
+  paninis: 'Panini', samoussas: 'Samoussa', empanadas: 'Empanada',
 };
 
 function showSubTabs(group){
@@ -1841,6 +1958,7 @@ function renameStockItem(tab, idx){
   saveStorageIngs(tab);
   const img = stockImgs[norm(old)];
   if (img && !getStockImg(v)) setStockImg(v, img);
+  if (stockQty[norm(old)] && !stockQty[norm(v)]) setStockQty(v, stockQty[norm(old)]);
   if (stockDates[norm(old)] && !stockDates[norm(v)]){ stockDates[norm(v)] = stockDates[norm(old)]; saveStockDates(); }
   let changed = false;
   for (const code in barcodeBook){
@@ -1935,6 +2053,7 @@ function renderFrigoIngs(tab){
             ? `<img src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode('${emoji}'))">`
             : emoji}</button>
           <button class="stock-card-name" data-idx="${i}" title="Renommer">${esc(ing)} ✎</button>
+          <button class="stock-qty${getStockQty(ing) ? '' : ' empty'}" data-idx="${i}">${getStockQty(ing) ? '⚖️ ' + fmtQty(getStockQty(ing)) : '+ quantité'}</button>
           ${tab === 'congelateur' ? freezeBadge(ing) : ''}
           <button class="stock-card-del" data-idx="${i}" aria-label="Retirer">✕</button>
         </div>`;
@@ -1948,6 +2067,9 @@ function renderFrigoIngs(tab){
       renderFrigoIngs(tab);
       renderFrigoSuggestions();
     });
+  });
+  el.querySelectorAll('.stock-qty').forEach(btn => {
+    btn.addEventListener('click', ()=> editStockQty(ings[parseInt(btn.dataset.idx)], tab));
   });
   el.querySelectorAll('.stock-card-name').forEach(btn => {
     btn.addEventListener('click', ()=> renameStockItem(tab, parseInt(btn.dataset.idx)));
@@ -3049,7 +3171,11 @@ async function init(){
       const raw = manualInput.value.trim();
       if (!raw) return;
       const items = raw.split(/[,;]+/).map(s=>s.trim()).filter(Boolean);
-      for (const item of items) addStockItem(item, tab);
+      for (const item of items){
+        const { name, qty } = splitNameQty(item);
+        addStockItem(name, tab);
+        if (qty && qty.u !== 'autre') setStockQty(name, qty);
+      }
       manualInput.value = '';
       renderFrigoIngs(tab);
       renderFrigoSuggestions();

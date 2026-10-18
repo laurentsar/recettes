@@ -671,3 +671,12 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .in-stock.stock-frigo{background:rgba(120,190,230,.15);border-color:rgba(120,190,230,.4);color:#a9d8f2}
 .in-stock.stock-congelateur{background:rgba(160,170,240,.15);border-color:rgba(160,170,240,.4);color:#c3c9f7}
 .stock-summary{font-size:.82em;color:var(--muted);margin:-4px 0 8px}
+.stock-qty{background:rgba(124,179,66,.15);border:1px solid #4d6b2a;color:#cde8a6;border-radius:999px;font-size:.68em;font-weight:700;padding:2px 8px;cursor:pointer}
+.stock-qty.empty{background:none;border-style:dashed;border-color:var(--line);color:var(--muted)}
+.d-done-btn{display:block;width:100%;margin:10px 0 6px;padding:14px;background:rgba(124,179,66,.15);border:1px solid #4d6b2a;color:#cde8a6;border-radius:14px;font-size:.95em;font-weight:700;cursor:pointer}
+#undo-bar{position:fixed;left:12px;right:12px;bottom:calc(env(safe-area-inset-bottom) + 14px);z-index:300;background:#1f2a1a;border:1px solid #4d6b2a;border-radius:14px;padding:12px 14px;box-shadow:0 10px 30px rgba(0,0,0,.5);max-width:520px;margin:0 auto}
+#undo-bar[hidden]{display:none}
+.ub2-main{display:flex;align-items:center;gap:10px}
+.ub2-title{flex:1;font-weight:700;color:#cde8a6;font-size:.92em}
+.ub2-undo{background:none;border:1px solid #cde8a6;color:#cde8a6;border-radius:10px;padding:6px 12px;font-weight:700;cursor:pointer}
+.ub2-details{margin-top:6px;font-size:.78em;color:var(--muted);line-height:1.5;max-height:120px;overflow-y:auto}
