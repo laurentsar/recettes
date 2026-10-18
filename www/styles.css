@@ -746,3 +746,6 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .unk-hint[hidden]{display:none}
 .unk-hint b{color:var(--text)}
 .addbox-step .sq-btn{width:38px;height:38px;font-size:1.1em}
+.addbox-lbl{font-size:.78em;color:var(--muted);margin-bottom:-4px}
+.addbox-chips{flex-wrap:wrap}
+.addbox-chips button.on{background:var(--accent);border-color:transparent;color:#fff}
