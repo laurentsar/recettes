@@ -2286,7 +2286,8 @@ function renderInventory(){
     <div class="frigo-scroll"><div class="frigo-body">
       <div class="inv-progress"><div class="inv-bar"><div style="width:${items.length ? Math.round(done / items.length * 100) : 0}%"></div></div>
         <span>${done}/${items.length} vérifié${done > 1 ? 's' : ''}${last ? ` · dernier inventaire le ${new Date(last).toLocaleDateString('fr-FR')}` : ''}</span></div>
-      <p class="stock-hint">Touche ✓ pour chaque produit présent, ajuste la quantité avec − / +, ou retire-le. Pour ajouter ce qui manque, utilise le scan ou la saisie de Mes stocks.</p>
+      ${canLiveScan() ? '<button class="frigo-capture-btn" id="inv-scan">🔍 Scanner pour l\'inventaire</button>' : ''}
+      <p class="stock-hint">Scanne chaque article présent (les quantités sont recomptées), ou touche ✓ pour chaque produit, ajuste avec − / +, ou retire-le.</p>
       <div class="inv-list">${items.length ? items.map((it, i) => {
         const q = getStockQty(it.name), img = getStockImg(it.name), ok = inv.checked.has(invKey(it));
         return `<div class="inv-row${ok ? ' ok' : ''}" data-i="${i}">
@@ -2307,6 +2308,11 @@ function renderInventory(){
   el.querySelectorAll('.inv-row').forEach(row => {
     const it = items[+row.dataset.i];
     row.querySelectorAll('[data-act]').forEach(b => b.addEventListener('click', () => invAction(it, b.dataset.act)));
+  });
+  el.querySelector('#inv-scan')?.addEventListener('click', () => {
+    scanTargetTab = inv.tab === 'tous' ? 'cellier' : inv.tab;
+    const ov = document.getElementById('scan-overlay'); if (ov) ov.hidden = false;
+    startLiveScan({ inventory: true });
   });
   el.querySelector('#inv-all').addEventListener('click', () => { items.forEach(it => inv.checked.add(invKey(it))); renderInventory(); });
   el.querySelector('#inv-share').addEventListener('click', () => shareInventory(items));
@@ -2428,19 +2434,38 @@ function addScannedProduct(name, tab, img, qty){
   return isNew ? fmtQty(qty) : `+${fmtQty(qty)} → ${fmtQty(total)}`;
 }
 
-async function startLiveScan(){
+/* Inventaire par scan : chaque article scanné est compté ; la quantité en
+   stock devient « nombre scanné × contenance » (ou un nombre de pièces). */
+function inventoryCount(session, name, tab, img, packQty){
+  const n = norm(name);
+  const existing = FTABS.find(t => storageIngs[t].some(x => norm(x) === n));
+  const t = existing || tab;
+  if (!existing) addStockItem(name, t, img);
+  else if (img && !getStockImg(name)) setStockImg(name, img);
+  const c = (session.counts.get(n) || 0) + 1;
+  session.counts.set(n, c);
+  const unit = packQty && packQty.u !== 'autre' ? packQty : null;
+  const total = unit ? { q: unit.q * c, u: unit.u } : { q: c, u: 'pc' };
+  setStockQty(name, total);
+  if (inv) inv.checked.add(t + '|' + n);
+  return { tab: t, detail: `✓ ${unit ? `${c} × ${fmtQty(unit)} = ${fmtQty(total)}` : `× ${c}`}${existing ? '' : ' · ajouté'}` };
+}
+
+async function startLiveScan(opts = {}){
+  const invMode = !!opts.inventory;
   const body = document.getElementById('scan-body');
   const titleEl = document.getElementById('scan-title');
   if (!body) return;
   stopLiveScan();
-  if (titleEl) titleEl.textContent = 'Scan en continu';
+  if (titleEl) titleEl.textContent = invMode ? '📋 Inventaire par scan' : 'Scan en continu';
   body.innerHTML = `
     <div class="scan-live"><video id="scan-video" playsinline muted autoplay></video><div class="scan-live-frame"></div></div>
-    <p class="scan-info" id="scan-live-msg">Vise les codes-barres un par un. Un même produit scanné deux fois s'ajoute deux fois.</p>
+    <p class="scan-info" id="scan-live-msg">${invMode ? 'Scanne chaque article présent, un par un : les quantités sont recomptées.' : 'Vise les codes-barres un par un. Un même produit scanné deux fois s\'ajoute deux fois.'}</p>
     <div id="scan-unknown" hidden></div>
     <div class="scan-tab-sel">
       ${FTABS.map(t=>`<button class="scan-tab-btn${t===scanTargetTab?' active':''}" data-stab="${t}">${FTAB_EMOJIS[t]} ${t==='frigo'?'Frigo':t==='congelateur'?'Congélo':'Cellier'}</button>`).join('')}
     </div>
+    ${invMode ? '<p class="stock-hint">Les produits nouveaux sont rangés dans le stock sélectionné ci-dessus.</p>' : ''}
     <div class="scan-count" id="scan-count"></div>
     <div id="scan-live-list" class="scan-list"></div>
     <button class="scan-add-btn" id="scan-live-done">✓ Terminer</button>`;
@@ -2451,6 +2476,7 @@ async function startLiveScan(){
   body.querySelector('#scan-live-done').addEventListener('click', ()=>{
     const tab = scanTargetTab;
     closeScanOverlay();
+    if (invMode){ renderInventory(); return; }
     frigoSugFilter = tab;
     switchFrigoTab(tab);
     renderFrigoSuggestions();
@@ -2460,7 +2486,7 @@ async function startLiveScan(){
   const video = body.querySelector('#scan-video');
   const unk = body.querySelector('#scan-unknown');
   const countEl = body.querySelector('#scan-count');
-  const session = { stream: null, timer: 0, busy: false, paused: false, last: new Map(), n: 0 };
+  const session = { stream: null, timer: 0, busy: false, paused: false, last: new Map(), n: 0, counts: new Map() };
   liveScan = session;
   try {
     session.stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' }, audio: false });
@@ -2519,8 +2545,10 @@ async function startLiveScan(){
       const qty = qv ? parseQty(qv) : null;
       rememberBarcode(code, name, photo, qty && qty.u !== 'autre' ? qty : null);
       if (photo) setStockImg(name, photo);
-      const detail = addScannedProduct(name, tab, photo, qty);
-      addRow(tab, name, photo, detail);
+      let detail, rowTab = tab;
+      if (invMode){ const r = inventoryCount(session, name, tab, photo, qty); detail = r.detail; rowTab = r.tab; }
+      else detail = addScannedProduct(name, tab, photo, qty);
+      addRow(rowTab, name, photo, detail);
       if (unk.querySelector('#unk-off')?.checked){
         if (!offCreds()) toast('Renseigne ton compte Open Food Facts dans ⚙️ pour contribuer');
         else {
@@ -2553,7 +2581,8 @@ async function startLiveScan(){
       const prod = await lookupBarcode(code);
       if (liveScan !== session) return;
       if (prod?.name){
-        addRow(tab, prod.name, prod.img || getStockImg(prod.name), addScannedProduct(prod.name, tab, prod.img, prod.qty));
+        if (invMode){ const r = inventoryCount(session, prod.name, tab, prod.img, prod.qty); addRow(r.tab, prod.name, prod.img || getStockImg(prod.name), r.detail); }
+        else addRow(tab, prod.name, prod.img || getStockImg(prod.name), addScannedProduct(prod.name, tab, prod.img, prod.qty));
         msg.textContent = `✓ ${prod.name}`;
       } else {
         navigator.vibrate?.([60, 80, 60]);
