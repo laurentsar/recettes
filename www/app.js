@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.19';
+const APP_VERSION = '3.20';
 
 let ALL = [];
 let BASE = [];
@@ -2529,42 +2529,53 @@ function stockTabOf(name){ const n = norm(name); return FTABS.find(t => storageI
 function askAddBoxes(name, tab, onDone){
   const cur = getStockQty(name);
   const unit = cur && (cur.pk ? { q: cur.pk, u: cur.u } : cur.u === 'pc' ? { q: 1, u: 'pc' } : null);
+  // Contenances proposées : celle déjà connue d'abord, puis les formats courants.
+  const base = cur?.u === 'ml' ? [250, 330, 500, 750, 1000] : [125, 200, 250, 400, 500, 1000];
+  const sizes = [...new Set([...(cur?.pk ? [cur.pk] : []), ...base])].slice(0, 6)
+    .map(q => fmtQty({ q, u: cur?.u === 'ml' ? 'ml' : 'g' }));
   let n = 1;
   const ov = document.createElement('div');
   ov.className = 'addbox-ov';
   ov.innerHTML = `<div class="addbox-card" role="dialog" aria-modal="true">
     <div class="addbox-title">${FTAB_EMOJIS[tab] || '📦'} « ${esc(name)} » est déjà en stock</div>
     <div class="addbox-cur">${cur ? 'En stock : <b>' + esc(fmtStockQty(cur)) + '</b>' : 'Quantité non renseignée'}</div>
-    <div class="addbox-q">Ajouter ${unit && unit.u === 'pc' ? 'des pièces' : 'des boîtes'} ?</div>
+    <div class="addbox-q">Ajouter des boîtes ?</div>
     <div class="addbox-step">
       <button class="sq-btn" data-d="-1" aria-label="Moins">−</button><b id="ab-n">1</b><button class="sq-btn" data-d="1" aria-label="Plus">+</button>
-      ${unit ? `<span>${unit.u === 'pc' ? 'pièce(s)' : 'boîte(s) de ' + esc(fmtQty(unit))}</span>`
-             : `<span>boîte(s) de</span><input id="ab-pk" class="frigo-manual-input" type="text" inputmode="decimal" placeholder="400 g">`}
+      <span>boîte(s) de</span><input id="ab-pk" class="frigo-manual-input" type="text" inputmode="decimal" placeholder="400 g" value="${unit && unit.u !== 'pc' ? esc(fmtQty(unit)) : ''}">
     </div>
+    <div class="addbox-lbl">Nombre</div>
     <div class="addbox-chips">${[2, 3, 6, 12].map(v => `<button data-n="${v}">${v}</button>`).join('')}</div>
+    <div class="addbox-lbl">Contenance d'une boîte</div>
+    <div class="addbox-chips addbox-sizes">${sizes.map(v => `<button data-pk="${esc(v)}">${esc(v)}</button>`).join('')}${!cur || cur.u === 'pc' ? '<button data-pk="">pièces</button>' : ''}</div>
     <div class="addbox-res" id="ab-res"></div>
     <div class="unk-actions"><button class="unk-skip" id="ab-no">Non merci</button><button class="scan-add-btn" id="ab-ok">Ajouter</button></div>
   </div>`;
   document.body.appendChild(ov);
   const pkEl = ov.querySelector('#ab-pk');
-  // Contenance d'une boîte : connue, saisie, ou pièces si aucun stock chiffré.
+  // Contenance saisie ; vide = pièces si le stock n'est pas compté en poids / volume.
   const curUnit = ()=>{
-    if (unit) return unit;
     const v = pkEl.value.trim();
-    if (!v) return cur ? null : { q: 1, u: 'pc' };
+    if (!v) return !cur || cur.u === 'pc' ? { q: 1, u: 'pc' } : null;
     const q = parseQty(v);
     return q && q.u !== 'autre' ? q : null;
   };
+  // Même unité : on additionne ; contenance différente de celle en stock → total seul
+  // (pas de nombre de boîtes trompeur) ; autre unité → la nouvelle quantité remplace.
   const compute = ()=>{
     const u = curUnit(); if (!u) return null;
-    const add = n * u.q, pk = u.u !== 'pc' ? u.q : 0;
-    return cur && cur.u === u.u ? { q: cur.q + add, u: u.u, pk } : { q: add, u: u.u, pk };
+    const add = n * u.q;
+    if (u.u === 'pc') return { q: (cur?.u === 'pc' ? cur.q : 0) + add, u: 'pc' };
+    if (cur && cur.u === u.u) return { q: cur.q + add, u: u.u, pk: cur.pk && cur.pk !== u.q ? 0 : u.q };
+    return { q: add, u: u.u, pk: u.q };
   };
   const refresh = ()=>{
     ov.querySelector('#ab-n').textContent = n;
-    const t = compute();
-    ov.querySelector('#ab-res').textContent = !t ? 'Indique la contenance d\'une boîte (ex. 400 g)'
-      : '→ ' + fmtStockQty(t) + (pkEl && !pkEl.value.trim() ? ' pièce(s) — ou indique la contenance' : '');
+    const u = curUnit(), t = compute();
+    ov.querySelectorAll('[data-pk]').forEach(b => b.classList.toggle('on', u && (b.dataset.pk ? norm(b.dataset.pk) === norm(pkEl.value.trim()) : !pkEl.value.trim())));
+    const note = !t ? '' : cur && cur.u !== t.u ? ` (remplace ${fmtStockQty(cur, true)})`
+      : cur?.pk && t.u === cur.u && !t.pk ? ' — contenances mélangées' : u.u === 'pc' ? ' pièce(s)' : '';
+    ov.querySelector('#ab-res').textContent = t ? '→ ' + fmtStockQty(t) + note : 'Indique la contenance d\'une boîte (ex. 400 g)';
     ov.querySelector('#ab-ok').disabled = !t;
   };
   const close = total => { ov.remove(); document.removeEventListener('keydown', onKey); onDone?.(total); };
@@ -2572,7 +2583,8 @@ function askAddBoxes(name, tab, onDone){
   document.addEventListener('keydown', onKey);
   ov.querySelectorAll('[data-d]').forEach(b => b.addEventListener('click', ()=>{ n = Math.max(1, n + +b.dataset.d); refresh(); }));
   ov.querySelectorAll('[data-n]').forEach(b => b.addEventListener('click', ()=>{ n = +b.dataset.n; refresh(); }));
-  pkEl?.addEventListener('input', refresh);
+  ov.querySelectorAll('[data-pk]').forEach(b => b.addEventListener('click', ()=>{ pkEl.value = b.dataset.pk; refresh(); }));
+  pkEl.addEventListener('input', refresh);
   ov.querySelector('#ab-no').addEventListener('click', ()=> close(null));
   ov.addEventListener('click', e => { if (e.target === ov) close(null); });
   ov.querySelector('#ab-ok').addEventListener('click', ()=>{
@@ -2583,7 +2595,7 @@ function askAddBoxes(name, tab, onDone){
     close(t);
   });
   refresh();
-  if (pkEl) setTimeout(()=> pkEl.focus(), 50);
+  if (!unit) setTimeout(()=> pkEl.focus(), 50);
 }
 
 /* Inventaire par scan : chaque article scanné est compté ; la quantité en
