@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.16';
+const APP_VERSION = '3.17';
 
 let ALL = [];
 let BASE = [];
@@ -883,12 +883,23 @@ function stockSummaryHtml(hits){
   return `<div class="stock-summary">🧺 ${found.length}/${hits.length} en stock · ${per.map(([t,n]) => `${FTAB_EMOJIS[t]} ${n}`).join('  ')}</div>`;
 }
 
-/* Quantités en stock : par produit (nom normalisé) → { q, u } avec u = 'g', 'ml' ou 'pc'.
-   Déduites quand une recette est marquée comme réalisée. */
+/* Quantités en stock : par produit (nom normalisé) → { q, u, pk? } avec u = 'g', 'ml'
+   ou 'pc' (q = total) et pk = contenance d'une boîte (« 3 boîtes de 400 g » →
+   {q:1200,u:'g',pk:400}). Déduites quand une recette est marquée comme réalisée. */
 let stockQty = JSON.parse(localStorage.getItem('stockQty') || '{}');
 function saveStockQty(){ try { localStorage.setItem('stockQty', JSON.stringify(stockQty)); } catch(e){} }
 function getStockQty(name){ return stockQty[norm(name)] || null; }
-function setStockQty(name, qty){ const n = norm(name); if (qty) stockQty[n] = qty; else delete stockQty[n]; saveStockQty(); }
+// keepPack : une déduction (« − 200 g ») conserve la contenance des boîtes déjà connue.
+function setStockQty(name, qty, keepPack = true){
+  const n = norm(name), cur = stockQty[n];
+  if (qty){
+    const next = { q: qty.q, u: qty.u };
+    const pk = qty.pk || (keepPack && cur && cur.pk && cur.u === qty.u ? cur.pk : 0);
+    if (pk && qty.u !== 'pc') next.pk = pk;
+    stockQty[n] = next;
+  } else delete stockQty[n];
+  saveStockQty();
+}
 
 const QTY_UNITS = {
   g:['g',1], gr:['g',1], gramme:['g',1], grammes:['g',1], kg:['g',1000], kilo:['g',1000], kilos:['g',1000],
@@ -913,6 +924,23 @@ function parseQty(text){
   if (/^(c|cs|cc|cas|cac|cl?s)$/.test(unit) || /^(cuil|tasse|verre|pincee|bouquet|botte|brin|filet|poignee|zeste|trait)/.test(unit)) return { q, u: 'autre' };
   return { q, u: 'pc' }; // « 4 cuisses », « 2 boîtes », « 3 tranches »…
 }
+// Affichage en boîtes : « 📦 3 × 400 g (1,2 kg) », sinon quantité simple.
+function fmtStockQty(x){
+  if (!x) return '';
+  if (!x.pk) return fmtQty(x);
+  const n = Math.round(x.q / x.pk * 10) / 10;
+  return `📦 ${String(n).replace('.', ',')} × ${fmtQty({ q: x.pk, u: x.u })}${n !== 1 ? ` (${fmtQty(x)})` : ''}`;
+}
+const PACK_RE = '(\\d+(?:[.,]\\d+)?)\\s*(?:x|×|\\*|bo[iî]tes?|paquets?|sachets?|bocaux|bocal|conserves?|briques?|pots?|bouteilles?|canettes?|barquettes?|boc(?:al|aux))\\s*(?:de\\s+|d[\'’]\\s*)?(\\d+(?:[.,]\\d+)?\\s*(?:kg|g|gr|l|cl|ml|dl))';
+// « 3 boîtes de 400 g », « 3 x 400 g », « 2 paquets 500g » → {q:1200,u:'g',pk:400} ; sinon parseQty
+function parseQtyInput(text){
+  const m = String(text).trim().match(new RegExp('^' + PACK_RE + '$', 'i'));
+  if (m){
+    const n = parseNum(m[1]), one = parseQty(m[2]);
+    if (n > 0 && one && one.u !== 'pc' && one.u !== 'autre') return { q: n * one.q, u: one.u, pk: one.q };
+  }
+  return parseQty(text);
+}
 function fmtQty(x){
   if (!x) return '';
   const r = v => (Math.round(v * 10) / 10).toString().replace('.', ',');
@@ -923,6 +951,11 @@ function fmtQty(x){
 // « Riz 1 kg », « 1 kg de riz », « 6 oeufs » → { name, qty }
 function splitNameQty(raw){
   const s = raw.trim();
+  // « thon 3 boîtes de 140 g » / « 3 boîtes de 140 g de thon »
+  let pm = s.match(new RegExp('^(.*?\\S)\\s+(' + PACK_RE + ')$', 'i'));
+  if (pm && parseQtyInput(pm[2])?.pk) return { name: pm[1], qty: parseQtyInput(pm[2]) };
+  pm = s.match(new RegExp('^(' + PACK_RE + ')\\s+(?:de\\s+|d[\'’]\\s*)?(.+)$', 'i'));
+  if (pm && parseQtyInput(pm[1])?.pk) return { name: pm[pm.length - 1], qty: parseQtyInput(pm[1]) };
   let m = s.match(/^(.*?\S)\s+(\d+(?:[.,]\d+)?\s*(?:kg|g|gr|l|cl|ml|dl|pcs?|pi[eè]ces?|x)?)$/i);
   if (m && parseQty(m[2])) return { name: m[1], qty: parseQty(m[2]) };
   m = s.match(/^(\d+(?:[.,]\d+)?\s*(?:kg|g|gr|l|cl|ml|dl|pcs?|pi[eè]ces?|x)?)\s+(?:de\s+|d['’]\s*)?(.+)$/i);
@@ -931,11 +964,12 @@ function splitNameQty(raw){
 }
 function editStockQty(name, tab){
   const cur = getStockQty(name);
-  const v = prompt(`Quantité de « ${name} » (ex : 500 g, 1 kg, 75 cl, 6)\nLaisser vide pour ne pas suivre la quantité.`, cur ? fmtQty(cur).replace('× ', '') : '');
+  const pre = cur ? (cur.pk ? `${String(Math.round(cur.q / cur.pk * 10) / 10).replace('.', ',')} boîtes de ${fmtQty({ q: cur.pk, u: cur.u })}` : fmtQty(cur).replace('× ', '')) : '';
+  const v = prompt(`Quantité de « ${name} »\nex : 3 boîtes de 400 g · 2 x 1 l · 500 g · 1 kg · 6\nLaisser vide pour ne pas suivre la quantité.`, pre);
   if (v == null) return;
-  const q = v.trim() ? parseQty(v) : null;
+  const q = v.trim() ? parseQtyInput(v) : null;
   if (v.trim() && (!q || q.u === 'autre')){ toast('Quantité non reconnue'); return; }
-  setStockQty(name, q);
+  setStockQty(name, q, false);
   renderFrigoIngs(tab);
 }
 
@@ -2053,7 +2087,7 @@ function renderFrigoIngs(tab){
             ? `<img src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode('${emoji}'))">`
             : emoji}</button>
           <button class="stock-card-name" data-idx="${i}" title="Renommer">${esc(ing)} ✎</button>
-          <button class="stock-qty${getStockQty(ing) ? '' : ' empty'}" data-idx="${i}">${getStockQty(ing) ? '⚖️ ' + fmtQty(getStockQty(ing)) : '+ quantité'}</button>
+          <button class="stock-qty${getStockQty(ing) ? '' : ' empty'}" data-idx="${i}">${getStockQty(ing) ? (getStockQty(ing).pk ? '' : '⚖️ ') + fmtStockQty(getStockQty(ing)) : '+ quantité'}</button>
           ${tab === 'congelateur' ? freezeBadge(ing) : ''}
           <button class="stock-card-del" data-idx="${i}" aria-label="Retirer">✕</button>
         </div>`;
@@ -2294,7 +2328,7 @@ function renderInventory(){
           <button class="inv-check" data-act="check" aria-label="Présent">${ok ? '✓' : ''}</button>
           <span class="inv-img">${img ? `<img src="${esc(img)}" alt="" referrerpolicy="no-referrer">` : FTAB_EMOJIS[it.tab]}</span>
           <span class="inv-name">${inv.tab === 'tous' ? FTAB_EMOJIS[it.tab] + ' ' : ''}${esc(it.name)}${it.tab === 'congelateur' ? freezeBadge(it.name) : ''}</span>
-          <span class="inv-qty">${q ? `<button data-act="minus">−</button><button class="inv-qv" data-act="edit">${fmtQty(q)}</button><button data-act="plus">+</button>` : `<button class="inv-qv empty" data-act="edit">+ qté</button>`}</span>
+          <span class="inv-qty">${q ? `<button data-act="minus">−</button><button class="inv-qv" data-act="edit">${fmtStockQty(q)}</button><button data-act="plus">+</button>` : `<button class="inv-qv empty" data-act="edit">+ qté</button>`}</span>
           <button class="inv-del" data-act="del" aria-label="Retirer">🗑</button>
         </div>`; }).join('') : '<p class="stock-hint">Aucun produit dans ce stock.</p>'}</div>
       <div class="inv-actions">
@@ -2325,7 +2359,7 @@ function invAction(it, act){
   const q = getStockQty(it.name);
   if (act === 'check'){ const k = invKey(it); inv.checked.has(k) ? inv.checked.delete(k) : inv.checked.add(k); }
   else if (act === 'plus' || act === 'minus'){
-    const step = INV_STEP[q.u] || 1, v = q.q + (act === 'plus' ? step : -step);
+    const step = q.pk || INV_STEP[q.u] || 1, v = q.q + (act === 'plus' ? step : -step); // par boîte si contenance connue
     if (v <= 0){ if (!confirm(`« ${it.name} » épuisé : le retirer du stock ?`)) return; return invAction(it, 'del-ok'); }
     setStockQty(it.name, { q: v, u: q.u }); inv.checked.add(invKey(it));
   }
@@ -2344,7 +2378,7 @@ function inventoryText(items){
     const its = items.filter(it => it.tab === t);
     if (!its.length) continue;
     lines.push('', `${FTAB_EMOJIS[t]} ${t === 'frigo' ? 'Frigo' : t === 'congelateur' ? 'Congélateur' : 'Cellier'} (${its.length})`);
-    its.forEach(it => { const q = getStockQty(it.name); lines.push(`- ${it.name}${q ? ' : ' + fmtQty(q).replace('× ', '') + (q.u === 'pc' ? ' pièce(s)' : '') : ''}`); });
+    its.forEach(it => { const q = getStockQty(it.name); lines.push(`- ${it.name}${q ? ' : ' + (q.pk ? fmtStockQty(q).replace('📦 ', '') : fmtQty(q).replace('× ', '') + (q.u === 'pc' ? ' pièce(s)' : '')) : ''}`); });
   }
   return lines.join('\n');
 }
@@ -2353,13 +2387,14 @@ function inventoryCsv(items){
   const q = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
   const tabName = t => t === 'frigo' ? 'Frigo' : t === 'congelateur' ? 'Congélateur' : 'Cellier';
   const codeOf = name => Object.entries(barcodeBook).filter(([, v]) => norm(v.name) === norm(name)).map(([c]) => c).join(' ');
-  const rows = [['Stock','Produit','Quantité','Unité','Vérifié','Congelé le','À consommer avant','Code-barres']];
+  const rows = [['Stock','Produit','Quantité','Unité','Boîtes','Contenance','Vérifié','Congelé le','À consommer avant','Code-barres']];
   for (const it of items){
     const qty = getStockQty(it.name);
     const unit = qty ? (qty.u === 'pc' ? 'pièce' : qty.u) : '';
     const ts = it.tab === 'congelateur' ? stockDates[norm(it.name)] : null;
     const limit = ts ? new Date(ts + freezeMonths(it.name) * 30 * 86400000).toLocaleDateString('fr-FR') : '';
-    rows.push([tabName(it.tab), it.name, qty ? String(Math.round(qty.q * 10) / 10).replace('.', ',') : '', unit,
+    const dec = v => String(Math.round(v * 10) / 10).replace('.', ',');
+    rows.push([tabName(it.tab), it.name, qty ? dec(qty.q) : '', unit, qty && qty.pk ? dec(qty.q / qty.pk) : '', qty && qty.pk ? fmtQty({ q: qty.pk, u: qty.u }) : '',
       inv && inv.checked.has(invKey(it)) ? 'oui' : 'non', ts ? new Date(ts).toLocaleDateString('fr-FR') : '', limit, codeOf(it.name)]);
   }
   return '\ufeff' + rows.map(r => r.map(q).join(';')).join('\r\n');
@@ -2463,9 +2498,10 @@ function addScannedProduct(name, tab, img, qty){
   const isNew = addStockItem(name, tab, img);
   if (!qty || qty.u === 'autre') return isNew ? '' : 'déjà en stock';
   const cur = getStockQty(name);
-  const total = cur && cur.u === qty.u && !isNew ? { q: cur.q + qty.q, u: qty.u } : qty;
+  const one = qty.u !== 'pc' ? { ...qty, pk: qty.pk || qty.q } : qty;
+  const total = cur && cur.u === qty.u && !isNew ? { q: cur.q + qty.q, u: qty.u, pk: one.pk } : one;
   setStockQty(name, total);
-  return isNew ? fmtQty(qty) : `+${fmtQty(qty)} → ${fmtQty(total)}`;
+  return isNew ? fmtStockQty(total) : `+${fmtQty(qty)} → ${fmtStockQty(total)}`;
 }
 
 /* Inventaire par scan : chaque article scanné est compté ; la quantité en
@@ -2479,7 +2515,7 @@ function inventoryCount(session, name, tab, img, packQty){
   const c = (session.counts.get(n) || 0) + 1;
   session.counts.set(n, c);
   const unit = packQty && packQty.u !== 'autre' ? packQty : null;
-  const total = unit ? { q: unit.q * c, u: unit.u } : { q: c, u: 'pc' };
+  const total = unit ? { q: unit.q * c, u: unit.u, ...(unit.u !== 'pc' ? { pk: unit.q } : {}) } : { q: c, u: 'pc' };
   setStockQty(name, total);
   if (inv) inv.checked.add(t + '|' + n);
   return { tab: t, detail: `✓ ${unit ? `${c} × ${fmtQty(unit)} = ${fmtQty(total)}` : `× ${c}`}${existing ? '' : ' · ajouté'}` };
@@ -2557,7 +2593,7 @@ async function startLiveScan(opts = {}){
       <div class="unk-row">
         <label class="unk-photo" for="unk-file"><span id="unk-prev">📷</span><span>Photo du produit</span></label>
         <input id="unk-file" class="frigo-file-hidden" type="file" accept="image/*" capture="environment">
-        <input id="unk-qty" class="frigo-manual-input unk-qty" type="text" placeholder="Qté : 500 g, 1 l, 6">
+        <input id="unk-qty" class="frigo-manual-input unk-qty" type="text" placeholder="Contenance : 400 g, 1 l, 6">
       </div>
       <label class="unk-off"><input type="checkbox" id="unk-off" ${offCreds() ? 'checked' : ''}> 🌍 Ajouter aussi sur Open Food Facts${offCreds() ? '' : ' <span>(identifiants à saisir dans ⚙️)</span>'}</label>
       <div class="unk-actions"><button class="unk-skip" id="unk-skip">Passer</button><button class="scan-add-btn" id="unk-save">Enregistrer</button></div>
@@ -3453,7 +3489,7 @@ async function init(){
       for (const item of items){
         const { name, qty } = splitNameQty(item);
         addStockItem(name, tab);
-        if (qty && qty.u !== 'autre') setStockQty(name, qty);
+        if (qty && qty.u !== 'autre') setStockQty(name, qty, false);
       }
       manualInput.value = '';
       renderFrigoIngs(tab);
