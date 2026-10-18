@@ -20073,6 +20073,979 @@
         "Anglaise : trempez-la dans l'œuf battu salé et poivré, puis laissez égoutter.",
         "Chapelure : enrobez-la de chapelure en pressant légèrement, puis passez aussitôt à la cuisson."
       ]
+    },
+    {
+      "id": "oeufmousse:001",
+      "t": "Œufs Farcis à la Mousse de Thon",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse thon pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "80 g de thon au naturel égoutté",
+        "2 c. à s. de mayonnaise",
+        "1 c. à c. de moutarde",
+        "1 c. à c. de jus de citron",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec le thon, la mayonnaise, la moutarde et le jus de citron jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Parsemer de ciboulette ciselée. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/01.jpg"
+    },
+    {
+      "id": "oeufmousse:002",
+      "t": "Œufs Farcis à la Mousse de Saumon",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse saumon pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "80 g de saumon fumé",
+        "60 g de fromage frais",
+        "1 c. à c. de jus de citron",
+        "Aneth",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec le saumon fumé, le fromage frais et le jus de citron jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Décorer d'un brin d'aneth. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/02.jpg"
+    },
+    {
+      "id": "oeufmousse:003",
+      "t": "Œufs Farcis à la Mousse d'Avocat",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse avocat pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "1 avocat bien mûr",
+        "40 g de fromage frais",
+        "Le jus d'½ citron",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec la chair d'avocat, le fromage frais et le jus de citron jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Parsemer de ciboulette. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/03.jpg"
+    },
+    {
+      "id": "oeufmousse:004",
+      "t": "Œufs Farcis à la Mousse de Crabe",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse crabe pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "100 g de chair de crabe",
+        "2 c. à s. de mayonnaise",
+        "1 c. à c. de jus de citron",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec la chair de crabe émiettée, la mayonnaise et le jus de citron jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Décorer de ciboulette et d'un peu de poivron rouge. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/04.jpg"
+    },
+    {
+      "id": "oeufmousse:005",
+      "t": "Œufs Farcis à la Mousse de Jambon",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse jambon pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "2 tranches de jambon blanc",
+        "50 g de fromage frais",
+        "1 c. à c. de moutarde",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec le jambon, le fromage frais et la moutarde jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Décorer d'une pluche de persil. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/05.jpg"
+    },
+    {
+      "id": "oeufmousse:006",
+      "t": "Œufs Farcis à la Mousse de Fromage",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse fromage pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "80 g de fromage frais",
+        "2 c. à s. de crème fraîche",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec le fromage frais et la crème jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Parsemer de ciboulette. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/06.jpg"
+    },
+    {
+      "id": "oeufmousse:007",
+      "t": "Œufs Farcis à la Mousse de Betterave",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse betterave pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "1 petite betterave cuite (80 g)",
+        "50 g de fromage frais",
+        "1 c. à c. de jus de citron",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec la betterave, le fromage frais et le jus de citron jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Parsemer de ciboulette. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/07.jpg"
+    },
+    {
+      "id": "oeufmousse:008",
+      "t": "Œufs Farcis à la Mousse de Crevettes",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse crevettes pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "100 g de crevettes cuites décortiquées (+ quelques-unes pour décorer)",
+        "2 c. à s. de mayonnaise",
+        "1 c. à c. de jus de citron",
+        "Aneth",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec les crevettes, la mayonnaise et le jus de citron jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Poser une crevette et un brin d'aneth sur chaque œuf. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/08.jpg"
+    },
+    {
+      "id": "oeufmousse:009",
+      "t": "Œufs Farcis à la Mousse de Curry",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse curry pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "2 c. à s. de mayonnaise",
+        "1 c. à s. de yaourt nature",
+        "1 c. à c. de curry en poudre",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec la mayonnaise, le yaourt et le curry jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Parsemer de ciboulette. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/09.jpg"
+    },
+    {
+      "id": "oeufmousse:010",
+      "t": "Œufs Farcis à la Mousse de Roquefort",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse roquefort pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "50 g de roquefort",
+        "50 g de fromage frais",
+        "Quelques cerneaux de noix",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec le roquefort et le fromage frais jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Décorer de noix concassées. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/10.jpg"
+    },
+    {
+      "id": "oeufmousse:011",
+      "t": "Œufs Farcis à la Mousse de Poulet",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse poulet pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "80 g de poulet cuit",
+        "2 c. à s. de mayonnaise",
+        "1 c. à c. de moutarde",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec le poulet, la mayonnaise et la moutarde jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Décorer de persil. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/11.jpg"
+    },
+    {
+      "id": "oeufmousse:012",
+      "t": "Œufs Farcis à la Mousse de Pesto",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse pesto pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "2 c. à s. de pesto",
+        "50 g de fromage frais",
+        "20 g de parmesan râpé",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec le pesto, le fromage frais et le parmesan jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Décorer de pignons ou d'une feuille de basilic. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/12.jpg"
+    },
+    {
+      "id": "oeufmousse:013",
+      "t": "Œufs Farcis à la Mousse de Tomate Séchée",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse tomate séchée pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "4 tomates séchées",
+        "50 g de fromage frais",
+        "Basilic",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec les tomates séchées et le fromage frais jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Décorer d'une feuille de basilic. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/13.jpg"
+    },
+    {
+      "id": "oeufmousse:014",
+      "t": "Œufs Farcis Chèvre & Miel",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse chèvre & miel pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "60 g de chèvre frais",
+        "1 c. à s. de miel",
+        "Quelques cerneaux de noix",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec le chèvre et la moitié du miel jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Décorer de noix et d'un filet de miel. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/14.jpg"
+    },
+    {
+      "id": "oeufmousse:015",
+      "t": "Œufs Farcis Citron & Herbes",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
+      "desc": "Œufs durs garnis d'une mousse citron & herbes pochée en rosace, pour l'apéritif.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "6 œufs",
+        "60 g de fromage frais",
+        "Le zeste d'½ citron",
+        "Ciboulette",
+        "Aneth",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Cuire les œufs 10 min dans l'eau bouillante, les refroidir dans l'eau glacée puis les écaler.",
+        "Couper les œufs en deux dans la longueur et retirer les jaunes.",
+        "Mixer les jaunes avec le fromage frais, le zeste et les herbes hachées jusqu'à obtenir une mousse bien lisse. Saler, poivrer.",
+        "Remplir une poche munie d'une douille cannelée et garnir les blancs en rosaces.",
+        "Parsemer d'herbes et d'un peu de zeste. Réserver 30 min au frais avant de servir."
+      ],
+      "img": "img/oeufs/15.jpg"
+    },
+    {
+      "id": "painmaroc:001",
+      "t": "Batbout (Pain Marocain à la Poêle)",
+      "cat": "Maghreb, Boulangerie, Pain",
+      "desc": "Petits pains moelleux cuits à la poêle, qui gonflent et se garnissent comme des pitas.",
+      "min": 105,
+      "serv": 8,
+      "ing": [
+        "500 g de farine (ou moitié semoule fine)",
+        "7 g de levure boulangère sèche",
+        "1 c. à c. de sel",
+        "1 c. à c. de sucre",
+        "300 ml d'eau tiède",
+        "1 c. à s. d'huile"
+      ],
+      "steps": [
+        "Mélanger farine, levure, sel et sucre. Ajouter l'huile puis l'eau tiède petit à petit.",
+        "Pétrir 10 min jusqu'à obtenir une pâte souple. Couvrir et laisser lever 1 h.",
+        "Diviser en 8 boules, les étaler en disques de 1 cm d'épaisseur.",
+        "Laisser lever 20 min sous un torchon.",
+        "Cuire dans une poêle sèche à feu moyen 3-4 min de chaque côté : les batbouts gonflent.",
+        "Garder sous un torchon pour qu'ils restent moelleux."
+      ],
+      "img": "img/pains/01.jpg"
+    },
+    {
+      "id": "painmaroc:002",
+      "t": "Khobz (Pain Marocain Traditionnel)",
+      "cat": "Maghreb, Boulangerie, Pain",
+      "desc": "Le pain rond du quotidien, à la mie aérée et à la croûte semoulée.",
+      "min": 120,
+      "serv": 8,
+      "ing": [
+        "400 g de farine",
+        "100 g de semoule fine",
+        "7 g de levure boulangère sèche",
+        "1,5 c. à c. de sel",
+        "1 c. à c. de sucre",
+        "320 ml d'eau tiède",
+        "1 c. à s. d'huile",
+        "Semoule pour le plan de travail"
+      ],
+      "steps": [
+        "Mélanger farine, semoule, levure, sel et sucre. Ajouter l'huile et l'eau tiède.",
+        "Pétrir 10 min, couvrir et laisser lever 1 h.",
+        "Diviser en 2, façonner 2 galettes rondes de 2 cm d'épaisseur sur un plan saupoudré de semoule.",
+        "Laisser lever 45 min sous un torchon. Piquer la surface à la fourchette.",
+        "Cuire 20-25 min à 220 °C jusqu'à ce que le pain soit doré et sonne creux."
+      ],
+      "img": "img/pains/02.jpg"
+    },
+    {
+      "id": "painmaroc:003",
+      "t": "Harcha (Galette de Semoule)",
+      "cat": "Maghreb, Boulangerie, Pain",
+      "desc": "Galettes de semoule au beurre, fondantes et sablées, à servir avec miel ou fromage.",
+      "min": 30,
+      "serv": 8,
+      "ing": [
+        "300 g de semoule fine",
+        "80 g de beurre fondu",
+        "1 c. à s. de sucre",
+        "1 sachet de levure chimique",
+        "½ c. à c. de sel",
+        "150 ml de lait",
+        "Semoule pour l'enrobage"
+      ],
+      "steps": [
+        "Mélanger semoule, sucre, levure et sel. Ajouter le beurre fondu et sabler du bout des doigts.",
+        "Verser le lait petit à petit pour obtenir une pâte souple. Laisser reposer 10 min.",
+        "Former des galettes de 1 cm d'épaisseur et les rouler dans la semoule.",
+        "Cuire à la poêle à feu doux 6-8 min de chaque côté jusqu'à ce qu'elles soient bien dorées."
+      ],
+      "img": "img/pains/03.jpg"
+    },
+    {
+      "id": "painmaroc:004",
+      "t": "Msemen (Crêpes Feuilletées)",
+      "cat": "Maghreb, Boulangerie, Pain",
+      "desc": "Crêpes carrées feuilletées, croustillantes dehors et fondantes dedans.",
+      "min": 60,
+      "serv": 10,
+      "ing": [
+        "300 g de farine",
+        "200 g de semoule fine",
+        "1 c. à c. de sel",
+        "1 c. à c. de sucre",
+        "300 ml d'eau tiède",
+        "Huile et beurre fondu pour le façonnage",
+        "Semoule fine pour saupoudrer"
+      ],
+      "steps": [
+        "Mélanger farine, semoule, sel et sucre, ajouter l'eau et pétrir 10 min jusqu'à obtenir une pâte très souple.",
+        "Former 10 boules huilées et les laisser reposer 15 min.",
+        "Étaler chaque boule très finement sur le plan huilé, badigeonner de beurre fondu, saupoudrer de semoule.",
+        "Plier en trois dans un sens puis dans l'autre pour former un carré. Laisser reposer 10 min.",
+        "Aplatir chaque carré et le cuire à la poêle 3 min de chaque côté."
+      ],
+      "img": "img/pains/04.jpg"
+    },
+    {
+      "id": "painmaroc:005",
+      "t": "Matlouh (Pain à la Poêle)",
+      "cat": "Maghreb, Boulangerie, Pain",
+      "desc": "Pain épais à la semoule cuit à la poêle, à la mie très moelleuse.",
+      "min": 120,
+      "serv": 6,
+      "ing": [
+        "500 g de semoule fine",
+        "7 g de levure boulangère sèche",
+        "1 c. à c. de sel",
+        "1 c. à c. de sucre",
+        "350 ml d'eau tiède",
+        "Semoule pour saupoudrer"
+      ],
+      "steps": [
+        "Mélanger semoule, levure, sel et sucre, puis ajouter l'eau pour obtenir une pâte molle.",
+        "Pétrir 10 min, couvrir et laisser lever 1 h.",
+        "Former 2 galettes épaisses sur un plan semoulé.",
+        "Laisser lever 30 min.",
+        "Cuire à la poêle à feu doux, couvert, 6 min de chaque côté."
+      ],
+      "img": "img/pains/05.jpg"
+    },
+    {
+      "id": "painmaroc:006",
+      "t": "Pain Marocain aux Graines",
+      "cat": "Maghreb, Boulangerie, Pain",
+      "desc": "Khobz garni de graines de sésame, de nigelle et de lin.",
+      "min": 120,
+      "serv": 8,
+      "ing": [
+        "500 g de farine",
+        "7 g de levure boulangère sèche",
+        "1,5 c. à c. de sel",
+        "1 c. à c. de sucre",
+        "320 ml d'eau tiède",
+        "2 c. à s. d'huile d'olive",
+        "40 g de graines (sésame, nigelle, lin, tournesol)",
+        "1 jaune d'œuf"
+      ],
+      "steps": [
+        "Mélanger farine, levure, sel, sucre et la moitié des graines. Ajouter l'huile et l'eau.",
+        "Pétrir 10 min, couvrir et laisser lever 1 h.",
+        "Façonner une grande galette ronde, la poser sur une plaque.",
+        "Badigeonner de jaune d'œuf et parsemer du reste des graines. Laisser lever 30 min.",
+        "Cuire 25 min à 200 °C."
+      ],
+      "img": "img/pains/06.jpg"
+    },
+    {
+      "id": "roule:001",
+      "t": "Roulés Classiques Jambon Cheddar",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "4 tranches de jambon blanc",
+        "100 g de cheddar râpé",
+        "150 g de fromage frais",
+        "Ciboulette"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec la ciboulette ciselée.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/01.jpg"
+    },
+    {
+      "id": "roule:002",
+      "t": "Roulés Jambon & Bacon",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "4 tranches de jambon",
+        "80 g de bacon croustillant",
+        "100 g de cheddar",
+        "150 g de fromage frais"
+      ],
+      "steps": [
+        "Mélanger le fromage frais.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/02.jpg"
+    },
+    {
+      "id": "roule:003",
+      "t": "Roulés Poulet Cheddar",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "150 g de poulet émincé",
+        "100 g de cheddar",
+        "150 g de fromage frais",
+        "Persil"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec le persil haché.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/03.jpg"
+    },
+    {
+      "id": "roule:004",
+      "t": "Roulés Jambon Épicés",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "4 tranches de jambon",
+        "100 g de cheddar",
+        "150 g de fromage frais",
+        "1 c. à café de paprika"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec le paprika.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/04.jpg"
+    },
+    {
+      "id": "roule:005",
+      "t": "Roulés Jambon & Cornichons",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "4 tranches de jambon",
+        "6 cornichons hachés",
+        "100 g de cheddar",
+        "150 g de fromage frais"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec les cornichons hachés.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/05.jpg"
+    },
+    {
+      "id": "roule:006",
+      "t": "Roulés Cheddar & Herbes",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "120 g de cheddar",
+        "150 g de fromage frais",
+        "Persil",
+        "Ciboulette"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec les herbes ciselées.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/06.jpg"
+    },
+    {
+      "id": "roule:007",
+      "t": "Roulés Jambon Raclette",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "4 tranches de jambon",
+        "120 g de fromage à raclette",
+        "120 g de fromage frais"
+      ],
+      "steps": [
+        "Mélanger le fromage frais.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/07.jpg"
+    },
+    {
+      "id": "roule:008",
+      "t": "Roulés Jambon Parmesan",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "4 tranches de jambon",
+        "60 g de parmesan râpé",
+        "150 g de fromage frais",
+        "Persil"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec le parmesan et le persil.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/08.jpg"
+    },
+    {
+      "id": "roule:009",
+      "t": "Roulés Méditerranéens",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "4 tranches de jambon",
+        "50 g d'olives noires",
+        "100 g de cheddar",
+        "150 g de fromage frais"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec les olives hachées.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/09.jpg"
+    },
+    {
+      "id": "roule:010",
+      "t": "Roulés Jambon Tomates Séchées",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "4 tranches de jambon",
+        "60 g de tomates séchées",
+        "100 g de cheddar",
+        "150 g de fromage frais"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec les tomates séchées hachées.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/10.jpg"
+    },
+    {
+      "id": "roule:011",
+      "t": "Roulés Jambon & Maïs",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "4 tranches de jambon",
+        "80 g de maïs",
+        "100 g de cheddar",
+        "150 g de fromage frais"
+      ],
+      "steps": [
+        "Mélanger le fromage frais.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/11.jpg"
+    },
+    {
+      "id": "roule:012",
+      "t": "Roulés Jambon Curry Doux",
+      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
+      "min": 15,
+      "serv": 6,
+      "ing": [
+        "4 tortillas",
+        "4 tranches de jambon",
+        "100 g de cheddar",
+        "150 g de fromage frais",
+        "1 c. à café de curry doux"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec le curry.",
+        "Tartiner chaque tortilla d'une fine couche, en laissant 1 cm libre sur un bord.",
+        "Répartir la garniture puis rouler bien serré.",
+        "Filmer les rouleaux et réserver 1 h au frais.",
+        "Couper en rondelles de 2 cm et servir piqués de cure-dents."
+      ],
+      "img": "img/roules/12.jpg"
+    },
+    {
+      "id": "tatin:001",
+      "t": "Tatin Tomate Moutarde",
+      "cat": "Plat, Tatin salée",
+      "desc": "Tomates cerises confites sous une pâte croustillante tartinée de moutarde.",
+      "min": 45,
+      "serv": 4,
+      "ing": [
+        "1 pâte à pizza",
+        "300 g de tomates cerises",
+        "2 c. à s. de moutarde à l'ancienne",
+        "1 boule de mozzarella",
+        "Basilic",
+        "2 c. à s. d'huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Huiler un moule à manqué de 26-28 cm.",
+        "Disposer les tomates coupées en deux, face coupée contre le fond, et arroser d'huile. Tartiner la pâte de moutarde côté garniture.",
+        "Recouvrir avec la pâte à pizza en rentrant les bords à l'intérieur du moule, et piquer à la fourchette.",
+        "Cuire 25-30 min, jusqu'à ce que la pâte soit bien dorée.",
+        "Laisser tiédir 5 min puis retourner sur un plat. Ajouter la mozzarella en morceaux, repasser 3 min au four et parsemer de basilic."
+      ],
+      "img": "img/tatins/01.jpg"
+    },
+    {
+      "id": "tatin:002",
+      "t": "Tatin Chèvre Miel",
+      "cat": "Plat, Tatin salée",
+      "desc": "Chèvre fondant, miel, noix et thym, servie avec de la roquette.",
+      "min": 45,
+      "serv": 4,
+      "ing": [
+        "1 pâte à pizza",
+        "1 bûche de chèvre frais (150 g)",
+        "2 c. à s. de miel",
+        "40 g de noix",
+        "Thym",
+        "Roquette"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Huiler un moule à manqué de 26-28 cm.",
+        "Verser le miel au fond du moule, parsemer de thym, puis disposer les rondelles de chèvre et les noix.",
+        "Recouvrir avec la pâte à pizza en rentrant les bords à l'intérieur du moule, et piquer à la fourchette.",
+        "Cuire 25-30 min, jusqu'à ce que la pâte soit bien dorée.",
+        "Laisser tiédir 5 min puis retourner sur un plat. Garnir de roquette au moment de servir."
+      ],
+      "img": "img/tatins/02.jpg"
+    },
+    {
+      "id": "tatin:003",
+      "t": "Tatin aux Oignons Caramélisés",
+      "cat": "Plat, Tatin salée",
+      "desc": "Oignons rouges caramélisés au balsamique et fromage gratiné.",
+      "min": 55,
+      "serv": 4,
+      "ing": [
+        "1 pâte à pizza",
+        "4 oignons rouges",
+        "2 c. à s. de sucre roux",
+        "2 c. à s. de vinaigre balsamique",
+        "60 g de fromage râpé",
+        "Origan"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Huiler un moule à manqué de 26-28 cm.",
+        "Faire fondre les oignons émincés 10 min à la poêle avec le sucre et le balsamique, puis les étaler au fond du moule. Parsemer d'origan et de fromage.",
+        "Recouvrir avec la pâte à pizza en rentrant les bords à l'intérieur du moule, et piquer à la fourchette.",
+        "Cuire 25-30 min, jusqu'à ce que la pâte soit bien dorée.",
+        "Laisser tiédir 5 min puis retourner sur un plat. Servir chaud."
+      ],
+      "img": "img/tatins/03.jpg"
+    },
+    {
+      "id": "tatin:004",
+      "t": "Tatin Forestière",
+      "cat": "Plat, Tatin salée",
+      "desc": "Champignons, crème et comté sous une pâte dorée.",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "1 pâte à pizza",
+        "300 g de champignons",
+        "10 cl de crème fraîche",
+        "1 oignon",
+        "60 g de comté râpé",
+        "Persil"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Huiler un moule à manqué de 26-28 cm.",
+        "Faire revenir l'oignon et les champignons émincés 8 min, ajouter la crème et laisser réduire. Étaler au fond du moule et parsemer de comté.",
+        "Recouvrir avec la pâte à pizza en rentrant les bords à l'intérieur du moule, et piquer à la fourchette.",
+        "Cuire 25-30 min, jusqu'à ce que la pâte soit bien dorée.",
+        "Laisser tiédir 5 min puis retourner sur un plat. Parsemer de persil."
+      ],
+      "img": "img/tatins/04.jpg"
+    },
+    {
+      "id": "tatin:005",
+      "t": "Tatin Provençale",
+      "cat": "Plat, Tatin salée",
+      "desc": "Poivrons confits, tomates séchées, olives et mozzarella.",
+      "min": 45,
+      "serv": 4,
+      "ing": [
+        "1 pâte à pizza",
+        "2 poivrons confits (en bocal ou rôtis)",
+        "6 tomates séchées",
+        "50 g d'olives noires",
+        "1 c. à c. d'herbes de Provence",
+        "1 boule de mozzarella"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Huiler un moule à manqué de 26-28 cm.",
+        "Disposer les lanières de poivron, les tomates séchées, les olives et la mozzarella en tranches au fond du moule. Saupoudrer d'herbes de Provence.",
+        "Recouvrir avec la pâte à pizza en rentrant les bords à l'intérieur du moule, et piquer à la fourchette.",
+        "Cuire 25-30 min, jusqu'à ce que la pâte soit bien dorée.",
+        "Laisser tiédir 5 min puis retourner sur un plat. Servir tiède avec une salade."
+      ],
+      "img": "img/tatins/05.jpg"
+    },
+    {
+      "id": "tatin:006",
+      "t": "Tatin Pomme de Terre Lardons",
+      "cat": "Plat, Tatin salée",
+      "desc": "Pommes de terre fondantes, lardons et crème, façon tartiflette.",
+      "min": 55,
+      "serv": 4,
+      "ing": [
+        "1 pâte à pizza",
+        "3 pommes de terre cuites",
+        "150 g de lardons",
+        "10 cl de crème fraîche",
+        "1 oignon",
+        "Ciboulette"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Huiler un moule à manqué de 26-28 cm.",
+        "Faire dorer les lardons et l'oignon émincé. Disposer les rondelles de pommes de terre au fond du moule, ajouter les lardons et la crème.",
+        "Recouvrir avec la pâte à pizza en rentrant les bords à l'intérieur du moule, et piquer à la fourchette.",
+        "Cuire 25-30 min, jusqu'à ce que la pâte soit bien dorée.",
+        "Laisser tiédir 5 min puis retourner sur un plat. Parsemer de ciboulette."
+      ],
+      "img": "img/tatins/06.jpg"
+    },
+    {
+      "id": "tatin:007",
+      "t": "Tatin Jambon Fromage",
+      "cat": "Plat, Tatin salée",
+      "desc": "Jambon, raclette et crème, ultra fondante.",
+      "min": 45,
+      "serv": 4,
+      "ing": [
+        "1 pâte à pizza",
+        "4 tranches de jambon blanc",
+        "150 g de fromage à raclette",
+        "10 cl de crème fraîche",
+        "1 oignon",
+        "Poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Huiler un moule à manqué de 26-28 cm.",
+        "Faire fondre l'oignon émincé. Étaler au fond du moule la crème, l'oignon, le jambon en morceaux et la raclette. Poivrer.",
+        "Recouvrir avec la pâte à pizza en rentrant les bords à l'intérieur du moule, et piquer à la fourchette.",
+        "Cuire 25-30 min, jusqu'à ce que la pâte soit bien dorée.",
+        "Laisser tiédir 5 min puis retourner sur un plat. Servir bien chaud."
+      ],
+      "img": "img/tatins/07.jpg"
+    },
+    {
+      "id": "tatin:008",
+      "t": "Tatin Bresaola Rucola",
+      "cat": "Plat, Tatin salée",
+      "desc": "Tatin de tomates cerises garnie de bresaola, parmesan et roquette.",
+      "min": 40,
+      "serv": 4,
+      "ing": [
+        "1 pâte à pizza",
+        "150 g de tomates cerises",
+        "80 g de bresaola",
+        "40 g de parmesan",
+        "Roquette",
+        "2 c. à s. d'huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Huiler un moule à manqué de 26-28 cm.",
+        "Disposer les tomates cerises coupées en deux au fond du moule et arroser d'huile.",
+        "Recouvrir avec la pâte à pizza en rentrant les bords à l'intérieur du moule, et piquer à la fourchette.",
+        "Cuire 25-30 min, jusqu'à ce que la pâte soit bien dorée.",
+        "Laisser tiédir 5 min puis retourner sur un plat. Garnir de bresaola, de copeaux de parmesan et de roquette, puis arroser d'un filet d'huile."
+      ],
+      "img": "img/tatins/08.jpg"
     }
   ]
 }
