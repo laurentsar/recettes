@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.13';
+const APP_VERSION = '3.14';
 
 let ALL = [];
 let BASE = [];
@@ -2277,6 +2277,17 @@ function addStockItem(name, tab, img){
   return true;
 }
 
+/* Ajoute un produit scanné : si une quantité est connue, elle s'ajoute à celle
+   déjà en stock (2 boîtes de 400 g → 800 g). Renvoie un libellé de résumé. */
+function addScannedProduct(name, tab, img, qty){
+  const isNew = addStockItem(name, tab, img);
+  if (!qty || qty.u === 'autre') return isNew ? '' : 'déjà en stock';
+  const cur = getStockQty(name);
+  const total = cur && cur.u === qty.u && !isNew ? { q: cur.q + qty.q, u: qty.u } : qty;
+  setStockQty(name, total);
+  return isNew ? fmtQty(qty) : `+${fmtQty(qty)} → ${fmtQty(total)}`;
+}
+
 async function startLiveScan(){
   const body = document.getElementById('scan-body');
   const titleEl = document.getElementById('scan-title');
@@ -2285,12 +2296,14 @@ async function startLiveScan(){
   if (titleEl) titleEl.textContent = 'Scan en continu';
   body.innerHTML = `
     <div class="scan-live"><video id="scan-video" playsinline muted autoplay></video><div class="scan-live-frame"></div></div>
-    <p class="scan-info" id="scan-live-msg">Vise les codes-barres un par un…</p>
+    <p class="scan-info" id="scan-live-msg">Vise les codes-barres un par un. Un même produit scanné deux fois s'ajoute deux fois.</p>
+    <div id="scan-unknown" hidden></div>
     <div class="scan-tab-sel">
       ${FTABS.map(t=>`<button class="scan-tab-btn${t===scanTargetTab?' active':''}" data-stab="${t}">${FTAB_EMOJIS[t]} ${t==='frigo'?'Frigo':t==='congelateur'?'Congélo':'Cellier'}</button>`).join('')}
     </div>
-    <div id="scan-live-list" class="frigo-chips"></div>
-    <button class="scan-add-btn" id="scan-live-done">✓ Terminer et voir les recettes</button>`;
+    <div class="scan-count" id="scan-count"></div>
+    <div id="scan-live-list" class="scan-list"></div>
+    <button class="scan-add-btn" id="scan-live-done">✓ Terminer</button>`;
   body.querySelectorAll('.scan-tab-btn').forEach(b => b.addEventListener('click', ()=>{
     scanTargetTab = b.dataset.stab;
     body.querySelectorAll('.scan-tab-btn').forEach(x => x.classList.toggle('active', x === b));
@@ -2301,12 +2314,13 @@ async function startLiveScan(){
     frigoSugFilter = tab;
     switchFrigoTab(tab);
     renderFrigoSuggestions();
-    document.getElementById('frigo-grid')?.scrollIntoView({ behavior: 'smooth' });
   });
   const msg = body.querySelector('#scan-live-msg');
   const list = body.querySelector('#scan-live-list');
   const video = body.querySelector('#scan-video');
-  const session = { stream: null, timer: 0, busy: false, seen: new Set() };
+  const unk = body.querySelector('#scan-unknown');
+  const countEl = body.querySelector('#scan-count');
+  const session = { stream: null, timer: 0, busy: false, paused: false, last: new Map(), n: 0 };
   liveScan = session;
   try {
     session.stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' }, audio: false });
@@ -2320,48 +2334,79 @@ async function startLiveScan(){
   try { await video.play(); } catch(e){}
   const det = new BarcodeDetector({ formats: BARCODE_FORMATS });
 
-  function addChip(label, cls){
-    const c = document.createElement('span');
-    c.className = 'frigo-chip ' + (cls || '');
-    c.textContent = label;
-    list.prepend(c);
-    return c;
+  function addRow(tab, name, img, detail){
+    session.n++;
+    countEl.textContent = `${session.n} produit${session.n > 1 ? 's' : ''} scanné${session.n > 1 ? 's' : ''}`;
+    const row = document.createElement('div');
+    row.className = 'scan-row';
+    row.innerHTML = `<span class="scan-row-img">${img ? `<img src="${esc(img)}" alt="" referrerpolicy="no-referrer">` : FTAB_EMOJIS[tab]}</span>
+      <span class="scan-row-txt"><b>${esc(name)}</b>${detail ? `<span>${esc(detail)}</span>` : ''}</span>`;
+    list.prepend(row);
+    renderFrigoIngs(tab);
+    renderFrigoSuggestions();
+  }
+
+  // Produit inconnu : pause, fiche nom + photo + quantité, mémorisée pour les prochains scans.
+  function askUnknown(code, tab){
+    session.paused = true;
+    let photo = '';
+    unk.hidden = false;
+    unk.innerHTML = `<div class="unk-card">
+      <div class="unk-title">❓ Produit inconnu <span class="unk-code">${esc(code)}</span></div>
+      <input id="unk-name" class="frigo-manual-input" type="text" placeholder="Nom (ex : lentilles vertes)" autocapitalize="sentences">
+      <div class="unk-row">
+        <label class="unk-photo" for="unk-file"><span id="unk-prev">📷</span><span>Photo du produit</span></label>
+        <input id="unk-file" class="frigo-file-hidden" type="file" accept="image/*" capture="environment">
+        <input id="unk-qty" class="frigo-manual-input unk-qty" type="text" placeholder="Qté : 500 g, 1 l, 6">
+      </div>
+      <div class="unk-actions"><button class="unk-skip" id="unk-skip">Passer</button><button class="scan-add-btn" id="unk-save">Enregistrer</button></div>
+    </div>`;
+    const nameEl = unk.querySelector('#unk-name');
+    setTimeout(()=> nameEl.focus(), 50);
+    unk.querySelector('#unk-file').addEventListener('change', async (e)=>{
+      const f = e.target.files?.[0]; if (!f) return;
+      try { photo = await imageThumb(f, 240); unk.querySelector('#unk-prev').innerHTML = `<img src="${photo}" alt="">`; }
+      catch(_){ toast('Photo illisible'); }
+    });
+    const resume = ()=>{ unk.hidden = true; unk.innerHTML = ''; session.paused = false; msg.textContent = 'Vise le code-barres suivant…'; };
+    unk.querySelector('#unk-skip').addEventListener('click', resume);
+    const save = ()=>{
+      const name = nameEl.value.trim();
+      if (!name){ nameEl.focus(); return; }
+      const qv = unk.querySelector('#unk-qty').value.trim();
+      const qty = qv ? parseQty(qv) : null;
+      rememberBarcode(code, name, photo, qty && qty.u !== 'autre' ? qty : null);
+      if (photo) setStockImg(name, photo);
+      addRow(tab, name, photo, addScannedProduct(name, tab, photo, qty));
+      resume();
+    };
+    unk.querySelector('#unk-save').addEventListener('click', save);
+    nameEl.addEventListener('keydown', e => { if (e.key === 'Enter'){ e.preventDefault(); save(); } });
   }
 
   session.timer = setInterval(async ()=>{
-    if (session.busy || liveScan !== session || video.readyState < 2) return;
+    if (session.busy || session.paused || liveScan !== session || video.readyState < 2) return;
     session.busy = true;
     try {
       const codes = await det.detect(video);
-      const code = codes.map(c => c.rawValue).find(v => v && !session.seen.has(v));
+      const now = Date.now();
+      // Même code ignoré 3 s (le temps d'écarter le produit), puis de nouveau compté.
+      const code = codes.map(c => c.rawValue).find(v => v && now - (session.last.get(v) || 0) > 3000);
       if (!code) return;
-      session.seen.add(code);
+      session.last.set(code, now);
       navigator.vibrate?.(60);
       const tab = scanTargetTab;
       msg.textContent = `Code ${code} — recherche…`;
       const prod = await lookupBarcode(code);
       if (liveScan !== session) return;
-      const name = prod?.name;
-      if (name){
-        const added = addStockItem(name, tab, prod.img);
-        addChip(`${FTAB_EMOJIS[tab]} ${name}${added ? '' : ' (déjà là)'}`);
-        msg.textContent = `✓ ${name}${prod.known ? ' (déjà connu)' : ''}`;
+      if (prod?.name){
+        addRow(tab, prod.name, prod.img || getStockImg(prod.name), addScannedProduct(prod.name, tab, prod.img, prod.qty));
+        msg.textContent = `✓ ${prod.name}`;
       } else {
-        const chip = addChip(`❓ ${code} — toucher pour nommer`, 'unknown');
-        chip.addEventListener('click', ()=>{
-          const v = (prompt('Nom du produit ?') || '').trim();
-          if (!v) return;
-          rememberBarcode(code, v, '');
-          addStockItem(v, tab);
-          chip.textContent = `${FTAB_EMOJIS[tab]} ${v}`;
-          chip.classList.remove('unknown');
-          renderFrigoIngs(tab);
-          renderFrigoSuggestions();
-        });
-        msg.textContent = 'Produit inconnu d\'Open Food Facts — touche la pastille pour le nommer.';
+        navigator.vibrate?.([60, 80, 60]);
+        msg.textContent = 'Produit inconnu : donne-lui un nom et une photo, il sera reconnu la prochaine fois.';
+        askUnknown(code, tab);
       }
-      renderFrigoIngs(tab);
-      renderFrigoSuggestions();
     } catch(e){ /* image illisible : on réessaie au tick suivant */ }
     finally { session.busy = false; }
   }, 400);
@@ -2512,9 +2557,9 @@ async function handleScanCapture(e){
    Évite de réinterroger Open Food Facts, marche hors-ligne et garde
    le nom choisi (ou saisi pour un produit inconnu) pour les prochaines fois. */
 let barcodeBook = JSON.parse(localStorage.getItem('barcodeBook') || '{}');
-function rememberBarcode(code, name, img){
+function rememberBarcode(code, name, img, qty){
   if (!code || !name) return;
-  barcodeBook[code] = { name, img: img || barcodeBook[code]?.img || '' };
+  barcodeBook[code] = { name, img: img || barcodeBook[code]?.img || '', qty: qty || barcodeBook[code]?.qty || null };
   try { localStorage.setItem('barcodeBook', JSON.stringify(barcodeBook)); } catch(e){}
 }
 
@@ -2522,7 +2567,7 @@ async function lookupBarcode(code){
   if (barcodeBook[code]) return { ...barcodeBook[code], known: true };
   try {
     const r = await fetch(
-      `https://world.openfoodfacts.org/api/v2/product/${encodeURIComponent(code)}?fields=product_name_fr,product_name,generic_name_fr,generic_name,image_front_small_url,image_small_url`,
+      `https://world.openfoodfacts.org/api/v2/product/${encodeURIComponent(code)}?fields=product_name_fr,product_name,generic_name_fr,generic_name,image_front_small_url,image_small_url,quantity,product_quantity,product_quantity_unit`,
       { headers: { 'User-Agent': 'RecettesApp/2.98 (github.com/laurentsar/recettes)' } }
     );
     if (!r.ok) return null;
@@ -2532,8 +2577,17 @@ async function lookupBarcode(code){
     const name = (p.product_name_fr || p.product_name || p.generic_name_fr || p.generic_name || '').trim();
     if (!name) return null;
     const img = p.image_front_small_url || p.image_small_url || '';
-    rememberBarcode(code, name, img);
-    return { name, img };
+    // Quantité de l'emballage (« 500 g », « 4 x 125 g »…) → g / ml / pièces
+    let qty = null;
+    const pq = parseFloat(p.product_quantity), pu = String(p.product_quantity_unit || '').toLowerCase();
+    if (pq > 0 && QTY_UNITS[pu]) qty = { q: pq * QTY_UNITS[pu][1], u: QTY_UNITS[pu][0] };
+    else if (p.quantity){
+      const m = String(p.quantity).match(/(\d+)\s*x\s*(\d+(?:[.,]\d+)?\s*[a-z]+)/i);
+      const one = parseQty(m ? m[2] : p.quantity);
+      if (one && one.u !== 'autre') qty = { q: one.q * (m ? +m[1] : 1), u: one.u };
+    }
+    rememberBarcode(code, name, img, qty);
+    return { name, img, qty };
   } catch(e){ return null; }
 }
 
