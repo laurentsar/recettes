@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.14';
+const APP_VERSION = '3.15';
 
 let ALL = [];
 let BASE = [];
@@ -2251,6 +2251,120 @@ function renderCellarHome(){
   el.querySelectorAll('.feed-card').forEach(c => c.addEventListener('click', () => openDetail(c.dataset.id)));
 }
 
+/* ---------- inventaire ----------
+   Revue de tous les produits en stock : présent ✓, quantité −/+, retirer.
+   À la fin, les produits non vérifiés peuvent être retirés. */
+let invDates = JSON.parse(localStorage.getItem('invDates') || '{}');
+let inv = null; // { tab, checked:Set }
+const INV_STEP = { g: 100, ml: 100, pc: 1 };
+
+function openInventory(){
+  inv = { tab: activeFTab || 'cellier', checked: new Set() };
+  let el = document.getElementById('inventory');
+  if (!el){ el = document.createElement('div'); el.id = 'inventory'; el.className = 'frigo inv'; document.body.appendChild(el); }
+  el.hidden = false;
+  renderInventory();
+}
+function closeInventory(){ const el = document.getElementById('inventory'); if (el) el.hidden = true; inv = null; FTABS.forEach(t => renderFrigoIngs(t)); renderFrigoSuggestions(); renderCellarHome(); }
+function invTabs(){ return inv.tab === 'tous' ? FTABS : [inv.tab]; }
+function invItems(){ return invTabs().flatMap(t => storageIngs[t].map(name => ({ tab: t, name }))); }
+function invKey(it){ return it.tab + '|' + norm(it.name); }
+
+function renderInventory(){
+  const el = document.getElementById('inventory');
+  if (!el || !inv) return;
+  const items = invItems();
+  const done = items.filter(it => inv.checked.has(invKey(it))).length;
+  const last = invTabs().map(t => invDates[t]).filter(Boolean).sort().shift();
+  const tabLabel = { tous: '🧺 Tout', frigo: '🧊 Frigo', congelateur: '❄️ Congélo', cellier: '🥫 Cellier' };
+  el.innerHTML = `
+    <div class="frigo-head">
+      <button class="frigo-head-back" id="inv-back" aria-label="Retour">←</button>
+      <div class="frigo-head-title">📋 Inventaire</div>
+    </div>
+    <div class="frigo-tabs">${['cellier','frigo','congelateur','tous'].map(t => `<button class="frigo-tab${t === inv.tab ? ' active' : ''}" data-it="${t}">${tabLabel[t]}</button>`).join('')}</div>
+    <div class="frigo-scroll"><div class="frigo-body">
+      <div class="inv-progress"><div class="inv-bar"><div style="width:${items.length ? Math.round(done / items.length * 100) : 0}%"></div></div>
+        <span>${done}/${items.length} vérifié${done > 1 ? 's' : ''}${last ? ` · dernier inventaire le ${new Date(last).toLocaleDateString('fr-FR')}` : ''}</span></div>
+      <p class="stock-hint">Touche ✓ pour chaque produit présent, ajuste la quantité avec − / +, ou retire-le. Pour ajouter ce qui manque, utilise le scan ou la saisie de Mes stocks.</p>
+      <div class="inv-list">${items.length ? items.map((it, i) => {
+        const q = getStockQty(it.name), img = getStockImg(it.name), ok = inv.checked.has(invKey(it));
+        return `<div class="inv-row${ok ? ' ok' : ''}" data-i="${i}">
+          <button class="inv-check" data-act="check" aria-label="Présent">${ok ? '✓' : ''}</button>
+          <span class="inv-img">${img ? `<img src="${esc(img)}" alt="" referrerpolicy="no-referrer">` : FTAB_EMOJIS[it.tab]}</span>
+          <span class="inv-name">${inv.tab === 'tous' ? FTAB_EMOJIS[it.tab] + ' ' : ''}${esc(it.name)}${it.tab === 'congelateur' ? freezeBadge(it.name) : ''}</span>
+          <span class="inv-qty">${q ? `<button data-act="minus">−</button><button class="inv-qv" data-act="edit">${fmtQty(q)}</button><button data-act="plus">+</button>` : `<button class="inv-qv empty" data-act="edit">+ qté</button>`}</span>
+          <button class="inv-del" data-act="del" aria-label="Retirer">🗑</button>
+        </div>`; }).join('') : '<p class="stock-hint">Aucun produit dans ce stock.</p>'}</div>
+      <div class="inv-actions">
+        <button class="frigo-scan-btn" id="inv-all">✓ Tout marquer présent</button>
+        <button class="frigo-scan-btn" id="inv-share">📤 Copier / partager la liste</button>
+        <button class="scan-add-btn" id="inv-finish">Terminer l'inventaire</button>
+      </div>
+    </div></div>`;
+  el.querySelector('#inv-back').addEventListener('click', closeInventory);
+  el.querySelectorAll('[data-it]').forEach(b => b.addEventListener('click', () => { inv.tab = b.dataset.it; renderInventory(); }));
+  el.querySelectorAll('.inv-row').forEach(row => {
+    const it = items[+row.dataset.i];
+    row.querySelectorAll('[data-act]').forEach(b => b.addEventListener('click', () => invAction(it, b.dataset.act)));
+  });
+  el.querySelector('#inv-all').addEventListener('click', () => { items.forEach(it => inv.checked.add(invKey(it))); renderInventory(); });
+  el.querySelector('#inv-share').addEventListener('click', () => shareInventory(items));
+  el.querySelector('#inv-finish').addEventListener('click', () => finishInventory(items));
+}
+
+function invAction(it, act){
+  const q = getStockQty(it.name);
+  if (act === 'check'){ const k = invKey(it); inv.checked.has(k) ? inv.checked.delete(k) : inv.checked.add(k); }
+  else if (act === 'plus' || act === 'minus'){
+    const step = INV_STEP[q.u] || 1, v = q.q + (act === 'plus' ? step : -step);
+    if (v <= 0){ if (!confirm(`« ${it.name} » épuisé : le retirer du stock ?`)) return; return invAction(it, 'del-ok'); }
+    setStockQty(it.name, { q: v, u: q.u }); inv.checked.add(invKey(it));
+  }
+  else if (act === 'edit'){ editStockQty(it.name, it.tab); inv.checked.add(invKey(it)); }
+  else if (act === 'del' || act === 'del-ok'){
+    if (act === 'del' && !confirm(`Retirer « ${it.name} » du stock ?`)) return;
+    storageIngs[it.tab] = storageIngs[it.tab].filter(n => norm(n) !== norm(it.name));
+    saveStorageIngs(it.tab); setStockQty(it.name, null); inv.checked.delete(invKey(it));
+  }
+  renderInventory();
+}
+
+function inventoryText(items){
+  const lines = [`Inventaire du ${new Date().toLocaleDateString('fr-FR')}`];
+  for (const t of FTABS){
+    const its = items.filter(it => it.tab === t);
+    if (!its.length) continue;
+    lines.push('', `${FTAB_EMOJIS[t]} ${t === 'frigo' ? 'Frigo' : t === 'congelateur' ? 'Congélateur' : 'Cellier'} (${its.length})`);
+    its.forEach(it => { const q = getStockQty(it.name); lines.push(`- ${it.name}${q ? ' : ' + fmtQty(q).replace('× ', '') + (q.u === 'pc' ? ' pièce(s)' : '') : ''}`); });
+  }
+  return lines.join('\n');
+}
+async function shareInventory(items){
+  const text = inventoryText(items);
+  try { if (navigator.share){ await navigator.share({ title: 'Inventaire', text }); return; } } catch(e){ if (e && e.name === 'AbortError') return; }
+  try { await navigator.clipboard.writeText(text); toast('Liste copiée 📋'); }
+  catch(e){ prompt('Copie la liste :', text); }
+}
+
+function finishInventory(items){
+  const missing = items.filter(it => !inv.checked.has(invKey(it)));
+  if (missing.length){
+    const names = missing.slice(0, 8).map(it => '• ' + it.name).join('\n') + (missing.length > 8 ? `\n… et ${missing.length - 8} autres` : '');
+    if (confirm(`${missing.length} produit${missing.length > 1 ? 's' : ''} non vérifié${missing.length > 1 ? 's' : ''} :\n${names}\n\nOK = les retirer du stock (absents)\nAnnuler = les garder`)){
+      missing.forEach(it => {
+        storageIngs[it.tab] = storageIngs[it.tab].filter(n => norm(n) !== norm(it.name));
+        setStockQty(it.name, null);
+      });
+      FTABS.forEach(t => saveStorageIngs(t));
+    }
+  }
+  invTabs().forEach(t => { invDates[t] = Date.now(); });
+  try { localStorage.setItem('invDates', JSON.stringify(invDates)); } catch(e){}
+  closeInventory();
+  toast('Inventaire terminé ✓');
+}
+
 /* ---------- scan code-barres ---------- */
 let scanTargetTab = 'cellier';
 
@@ -3202,6 +3316,7 @@ async function init(){
   document.getElementById('wz-next').addEventListener('click', wizardNext);
   document.getElementById('frigo-btn').addEventListener('click', openFrigo);
   document.getElementById('frigo-back').addEventListener('click', closeFrigo);
+  document.getElementById('inv-open').addEventListener('click', openInventory);
   document.getElementById('panier-btn').addEventListener('click', openPanier);
   document.getElementById('panier-back').addEventListener('click', closePanier);
   document.getElementById('panier-clear').addEventListener('click', ()=>{
