@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.15';
+const APP_VERSION = '3.16';
 
 let ALL = [];
 let BASE = [];
@@ -2300,6 +2300,7 @@ function renderInventory(){
       <div class="inv-actions">
         <button class="frigo-scan-btn" id="inv-all">✓ Tout marquer présent</button>
         <button class="frigo-scan-btn" id="inv-share">📤 Copier / partager la liste</button>
+        <button class="frigo-scan-btn" id="inv-csv">📊 Exporter en CSV (Excel)</button>
         <button class="scan-add-btn" id="inv-finish">Terminer l'inventaire</button>
       </div>
     </div></div>`;
@@ -2316,6 +2317,7 @@ function renderInventory(){
   });
   el.querySelector('#inv-all').addEventListener('click', () => { items.forEach(it => inv.checked.add(invKey(it))); renderInventory(); });
   el.querySelector('#inv-share').addEventListener('click', () => shareInventory(items));
+  el.querySelector('#inv-csv').addEventListener('click', () => exportInventoryCsv(items));
   el.querySelector('#inv-finish').addEventListener('click', () => finishInventory(items));
 }
 
@@ -2346,6 +2348,38 @@ function inventoryText(items){
   }
   return lines.join('\n');
 }
+/* Export CSV (séparateur « ; », UTF-8 avec BOM : s'ouvre directement dans Excel). */
+function inventoryCsv(items){
+  const q = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  const tabName = t => t === 'frigo' ? 'Frigo' : t === 'congelateur' ? 'Congélateur' : 'Cellier';
+  const codeOf = name => Object.entries(barcodeBook).filter(([, v]) => norm(v.name) === norm(name)).map(([c]) => c).join(' ');
+  const rows = [['Stock','Produit','Quantité','Unité','Vérifié','Congelé le','À consommer avant','Code-barres']];
+  for (const it of items){
+    const qty = getStockQty(it.name);
+    const unit = qty ? (qty.u === 'pc' ? 'pièce' : qty.u) : '';
+    const ts = it.tab === 'congelateur' ? stockDates[norm(it.name)] : null;
+    const limit = ts ? new Date(ts + freezeMonths(it.name) * 30 * 86400000).toLocaleDateString('fr-FR') : '';
+    rows.push([tabName(it.tab), it.name, qty ? String(Math.round(qty.q * 10) / 10).replace('.', ',') : '', unit,
+      inv && inv.checked.has(invKey(it)) ? 'oui' : 'non', ts ? new Date(ts).toLocaleDateString('fr-FR') : '', limit, codeOf(it.name)]);
+  }
+  return '\ufeff' + rows.map(r => r.map(q).join(';')).join('\r\n');
+}
+async function exportInventoryCsv(items){
+  const csv = inventoryCsv(items);
+  const name = `inventaire-${new Date().toISOString().slice(0, 10)}.csv`;
+  const UP = window.Capacitor?.Plugins?.UpdatePlugin;
+  if (UP?.shareFile){
+    try { await UP.shareFile({ name, content: csv, mime: 'text/csv' }); return; }
+    catch(e){ toast('Export : ' + (e.message || e)); return; }
+  }
+  // Navigateur : téléchargement classique
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
+  a.download = name; document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  toast('Inventaire exporté 📊');
+}
+
 async function shareInventory(items){
   const text = inventoryText(items);
   try { if (navigator.share){ await navigator.share({ title: 'Inventaire', text }); return; } } catch(e){ if (e && e.name === 'AbortError') return; }
