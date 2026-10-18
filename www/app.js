@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.18';
+const APP_VERSION = '3.19';
 
 let ALL = [];
 let BASE = [];
@@ -2523,6 +2523,69 @@ function addScannedProduct(name, tab, img, qty){
   return isNew ? fmtStockQty(total) : `+${fmtQty(qty)} → ${fmtStockQty(total)}`;
 }
 
+/* Produit déjà en stock : propose d'ajouter des boîtes (contenance connue), des
+   pièces, ou demande la contenance. onDone(total | null) appelé à la fermeture. */
+function stockTabOf(name){ const n = norm(name); return FTABS.find(t => storageIngs[t].some(x => norm(x) === n)) || null; }
+function askAddBoxes(name, tab, onDone){
+  const cur = getStockQty(name);
+  const unit = cur && (cur.pk ? { q: cur.pk, u: cur.u } : cur.u === 'pc' ? { q: 1, u: 'pc' } : null);
+  let n = 1;
+  const ov = document.createElement('div');
+  ov.className = 'addbox-ov';
+  ov.innerHTML = `<div class="addbox-card" role="dialog" aria-modal="true">
+    <div class="addbox-title">${FTAB_EMOJIS[tab] || '📦'} « ${esc(name)} » est déjà en stock</div>
+    <div class="addbox-cur">${cur ? 'En stock : <b>' + esc(fmtStockQty(cur)) + '</b>' : 'Quantité non renseignée'}</div>
+    <div class="addbox-q">Ajouter ${unit && unit.u === 'pc' ? 'des pièces' : 'des boîtes'} ?</div>
+    <div class="addbox-step">
+      <button class="sq-btn" data-d="-1" aria-label="Moins">−</button><b id="ab-n">1</b><button class="sq-btn" data-d="1" aria-label="Plus">+</button>
+      ${unit ? `<span>${unit.u === 'pc' ? 'pièce(s)' : 'boîte(s) de ' + esc(fmtQty(unit))}</span>`
+             : `<span>boîte(s) de</span><input id="ab-pk" class="frigo-manual-input" type="text" inputmode="decimal" placeholder="400 g">`}
+    </div>
+    <div class="addbox-chips">${[2, 3, 6, 12].map(v => `<button data-n="${v}">${v}</button>`).join('')}</div>
+    <div class="addbox-res" id="ab-res"></div>
+    <div class="unk-actions"><button class="unk-skip" id="ab-no">Non merci</button><button class="scan-add-btn" id="ab-ok">Ajouter</button></div>
+  </div>`;
+  document.body.appendChild(ov);
+  const pkEl = ov.querySelector('#ab-pk');
+  // Contenance d'une boîte : connue, saisie, ou pièces si aucun stock chiffré.
+  const curUnit = ()=>{
+    if (unit) return unit;
+    const v = pkEl.value.trim();
+    if (!v) return cur ? null : { q: 1, u: 'pc' };
+    const q = parseQty(v);
+    return q && q.u !== 'autre' ? q : null;
+  };
+  const compute = ()=>{
+    const u = curUnit(); if (!u) return null;
+    const add = n * u.q, pk = u.u !== 'pc' ? u.q : 0;
+    return cur && cur.u === u.u ? { q: cur.q + add, u: u.u, pk } : { q: add, u: u.u, pk };
+  };
+  const refresh = ()=>{
+    ov.querySelector('#ab-n').textContent = n;
+    const t = compute();
+    ov.querySelector('#ab-res').textContent = !t ? 'Indique la contenance d\'une boîte (ex. 400 g)'
+      : '→ ' + fmtStockQty(t) + (pkEl && !pkEl.value.trim() ? ' pièce(s) — ou indique la contenance' : '');
+    ov.querySelector('#ab-ok').disabled = !t;
+  };
+  const close = total => { ov.remove(); document.removeEventListener('keydown', onKey); onDone?.(total); };
+  const onKey = e => { if (e.key === 'Escape'){ e.stopPropagation(); close(null); } };
+  document.addEventListener('keydown', onKey);
+  ov.querySelectorAll('[data-d]').forEach(b => b.addEventListener('click', ()=>{ n = Math.max(1, n + +b.dataset.d); refresh(); }));
+  ov.querySelectorAll('[data-n]').forEach(b => b.addEventListener('click', ()=>{ n = +b.dataset.n; refresh(); }));
+  pkEl?.addEventListener('input', refresh);
+  ov.querySelector('#ab-no').addEventListener('click', ()=> close(null));
+  ov.addEventListener('click', e => { if (e.target === ov) close(null); });
+  ov.querySelector('#ab-ok').addEventListener('click', ()=>{
+    const t = compute(); if (!t) return;
+    setStockQty(name, t, false);
+    renderFrigoIngs(tab); renderFrigoSuggestions();
+    toast(`${name} : ${fmtStockQty(t, true)}`);
+    close(t);
+  });
+  refresh();
+  if (pkEl) setTimeout(()=> pkEl.focus(), 50);
+}
+
 /* Inventaire par scan : chaque article scanné est compté ; la quantité en
    stock devient « nombre scanné × contenance » (ou un nombre de pièces). */
 function inventoryCount(session, name, tab, img, packQty){
@@ -2623,6 +2686,24 @@ async function startLiveScan(opts = {}){
     </div>`;
     const nameEl = unk.querySelector('#unk-name');
     setTimeout(()=> nameEl.focus(), 50);
+    if (!code){ // produit déjà en stock : rappel de la quantité et ajout rapide de boîtes
+      const hint = document.createElement('div');
+      hint.className = 'unk-hint'; hint.hidden = true;
+      nameEl.after(hint);
+      nameEl.addEventListener('input', ()=>{
+        const name = nameEl.value.trim();
+        const cur = name && stockTabOf(name) ? getStockQty(name) : null;
+        hint.hidden = !(name && stockTabOf(name));
+        if (hint.hidden) return;
+        const one = cur && (cur.pk ? `boîte de ${fmtQty({ q: cur.pk, u: cur.u })}` : cur.u === 'pc' ? '' : null);
+        hint.innerHTML = `Déjà en stock${cur ? ' : <b>' + esc(fmtStockQty(cur)) + '</b>' : ''}${invMode ? ' — indique le total compté' : ' — ajouter :'}`
+          + (!invMode && one != null ? [1, 2, 3, 6].map(v => ` <button type="button" data-n="${v}">+${v}</button>`).join('') : '');
+        hint.querySelectorAll('[data-n]').forEach(b => b.addEventListener('click', ()=>{
+          const v = +b.dataset.n;
+          unk.querySelector('#unk-qty').value = one ? `${v} ${one.replace('boîte', v > 1 ? 'boîtes' : 'boîte')}` : String(v);
+        }));
+      });
+    }
     unk.querySelector('#unk-file').addEventListener('change', async (e)=>{
       const f = e.target.files?.[0]; if (!f) return;
       photoFile = f;
@@ -2677,6 +2758,18 @@ async function startLiveScan(opts = {}){
     nameEl.addEventListener('keydown', e => { if (e.key === 'Enter'){ e.preventDefault(); save(); } });
   }
 
+  // Déjà en stock sans contenance connue : pause, proposition d'ajouter des boîtes.
+  function askBoxesInScan(name, tab, code){
+    session.paused = true;
+    const span = list.firstElementChild?.querySelector('.scan-row-txt span');
+    askAddBoxes(name, tab, total => {
+      if (total && span) span.textContent = fmtStockQty(total);
+      session.paused = false;
+      session.last.set(code, Date.now()); // laisser le temps d'écarter le produit
+      msg.textContent = 'Vise le code-barres suivant…';
+    });
+  }
+
   body.querySelector('#scan-nocode').addEventListener('click', ()=>{ if (!session.paused) askUnknown(null, scanTargetTab); });
 
   session.timer = setInterval(async ()=>{
@@ -2696,7 +2789,13 @@ async function startLiveScan(opts = {}){
       if (liveScan !== session) return;
       if (prod?.name){
         if (invMode){ const r = inventoryCount(session, prod.name, tab, prod.img, prod.qty); addRow(r.tab, prod.name, prod.img || getStockImg(prod.name), r.detail); }
-        else addRow(tab, prod.name, prod.img || getStockImg(prod.name), addScannedProduct(prod.name, tab, prod.img, prod.qty));
+        else {
+          const had = stockTabOf(prod.name);
+          const t = had || tab;
+          const detail = addScannedProduct(prod.name, t, prod.img, prod.qty);
+          addRow(t, prod.name, prod.img || getStockImg(prod.name), detail);
+          if (had && detail === 'déjà en stock') askBoxesInScan(prod.name, t, code);
+        }
         msg.textContent = `✓ ${prod.name}`;
       } else {
         navigator.vibrate?.([60, 80, 60]);
@@ -2897,6 +2996,14 @@ function fileToBase64(file){
 }
 
 function confirmAddProduct(name, tab, img){
+  const existing = stockTabOf(name);
+  if (existing){ // déjà en stock : on propose d'en ajouter plutôt que de dupliquer
+    if (img) setStockImg(name, img);
+    switchFrigoTab(existing);
+    closeScanOverlay();
+    askAddBoxes(name, existing);
+    return;
+  }
   addStockItem(name, tab, img);
   renderFrigoIngs(tab);
   renderFrigoSuggestions();
@@ -3531,9 +3638,13 @@ async function init(){
       if (!raw) return;
       // « , » suivi d'un espace sépare deux produits (« 1,5 kg » reste un nombre)
       const items = raw.split(/;|,\s+/).map(s=>s.trim()).filter(Boolean);
+      const again = []; // déjà en stock sans quantité saisie → proposer d'ajouter des boîtes
       for (const item of items){
         const { name, qty } = splitNameQty(item);
+        const other = stockTabOf(name);
+        if (other && other !== tab && !qty){ again.push([name, other]); continue; }
         const isNew = addStockItem(name, tab);
+        if (!isNew && !qty){ again.push([name, tab]); continue; }
         if (!qty || qty.u === 'autre') continue;
         const cur = getStockQty(name);
         if (!isNew && cur && cur.u === qty.u){ // produit déjà en stock : on ajoute (ex. 2 boîtes de plus)
@@ -3545,6 +3656,8 @@ async function init(){
       manualInput.value = '';
       renderFrigoIngs(tab);
       renderFrigoSuggestions();
+      const next = ()=>{ const a = again.shift(); if (a) askAddBoxes(a[0], a[1], next); };
+      next();
     }
     if (addBtn) addBtn.addEventListener('click', addManualIng);
     if (manualInput) manualInput.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); addManualIng(); } });
