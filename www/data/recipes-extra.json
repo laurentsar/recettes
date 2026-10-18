@@ -21046,6 +21046,802 @@
         "Laisser tiédir 5 min puis retourner sur un plat. Garnir de bresaola, de copeaux de parmesan et de roquette, puis arroser d'un filet d'huile."
       ],
       "img": "img/tatins/08.jpg"
+    },
+    {
+      "id": "sousvide:001",
+      "t": "Guide de cuisson sous vide : températures & temps",
+      "cat": "Sous vide, Guide, Technique",
+      "area": "",
+      "min": 5,
+      "serv": "Référence",
+      "desc": "Tableau des températures et durées pour les cuissons sous vide les plus courantes, avec les règles de sécurité alimentaire.",
+      "ing": [],
+      "steps": [
+        "🥩 BŒUF (pièces tendres, 2,5 cm) — Saignant 52°C • Rosé 55-56°C • À point 60°C • 1 h à 4 h",
+        "🥩 BŒUF (pièces à braiser : paleron, joue, short ribs) — 57°C 48 h (rosé) ou 68-70°C 24-36 h (fondant)",
+        "🐷 PORC — Filet mignon / côte 60°C • 1 h 30 à 3 h | Épaule effilochée 74°C • 18-24 h | Poitrine 70°C • 24 h",
+        "🐔 POULET — Blanc 63°C • 1 h 30 à 3 h | Cuisses 74°C • 3 à 5 h",
+        "🦆 CANARD — Magret 57°C • 2 h | Confit de cuisses 75°C • 12 h",
+        "🐑 AGNEAU — Carré / côtelettes 56°C • 1 h 30 à 3 h | Gigot 58°C • 8 à 24 h",
+        "🐟 POISSON — Saumon 50°C (fondant) à 54°C • 30-45 min | Cabillaud 52°C • 30 min | Gambas 55°C • 30 min",
+        "🐙 POULPE — 77°C • 5 h",
+        "🥚 ŒUFS — Œuf parfait 64°C • 45 min-1 h | Œuf mollet 75°C • 13 min | Egg bites 77°C • 1 h",
+        "🥕 LÉGUMES — 85°C : asperges 12 min, carottes 1 h, pommes de terre 45 min-1 h, betteraves 1 h 30",
+        "🍐 FRUITS & DESSERTS — Poires 85°C • 1 h | Crème brûlée 82°C • 1 h | Cheesecake en bocal 80°C • 1 h 30",
+        "⚠️ SÉCURITÉ — Ne jamais cuire plus de 4 h en dessous de 54°C. Sous 60°C, la viande n'est pasteurisée qu'après un temps suffisant : respecter les durées minimales.",
+        "⚠️ Poisson à 50°C, bœuf saignant, œufs peu cuits : non pasteurisés → déconseillés aux femmes enceintes, jeunes enfants, personnes âgées ou immunodéprimées.",
+        "❄️ Cuisson à l'avance : refroidir le sachet dans eau + glaçons 30 min, puis frigo (5 jours max). Réchauffer au bain à la température de cuisson.",
+        "💡 Temps indiqués pour 2,5 cm d'épaisseur ; compter environ ×2 de temps pour ×1,5 d'épaisseur. Les temps maximum ne sont pas critiques : la viande ne « surcuit » pas, elle se ramollit seulement au-delà."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:002",
+      "t": "Steak saignant sous vide, saisi au beurre",
+      "cat": "Sous vide, Plat, Viande, Bœuf",
+      "area": "",
+      "min": 75,
+      "serv": "2 personnes",
+      "desc": "Le grand classique : entrecôte ou faux-filet rosé d'un bord à l'autre, puis croûte dorée en 1 minute à la poêle.",
+      "ing": [
+        "2 entrecôtes ou faux-filets de 2,5 à 3 cm",
+        "sel, poivre",
+        "2 gousses d'ail écrasées",
+        "2 branches de thym",
+        "30 g de beurre",
+        "1 c. à soupe d'huile neutre"
+      ],
+      "steps": [
+        "Préchauffer le bain à 55°C (rosé) — 52°C pour saignant, 60°C pour à point.",
+        "Saler et poivrer les steaks, les mettre sous vide avec l'ail et le thym.",
+        "Cuire 1 h à 2 h (jusqu'à 4 h sans souci).",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer).",
+        "Poêle fumante avec l'huile : saisir 45 s par face, ajouter le beurre, l'ail et le thym, arroser 30 s.",
+        "Servir aussitôt avec fleur de sel (pas besoin de repos)."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:003",
+      "t": "Côte de bœuf sous vide",
+      "cat": "Sous vide, Plat, Viande, Bœuf",
+      "area": "",
+      "min": 270,
+      "serv": "4 personnes",
+      "desc": "Une côte de bœuf épaisse parfaitement cuite à cœur, finie au barbecue ou à la poêle en fonte.",
+      "ing": [
+        "1 côte de bœuf de 1,2 kg (5 cm d'épaisseur)",
+        "gros sel, poivre du moulin",
+        "3 branches de romarin",
+        "40 g de beurre",
+        "fleur de sel"
+      ],
+      "steps": [
+        "Préchauffer le bain à 54°C (saignant-rosé) ou 56°C (rosé).",
+        "Poivrer la côte, mettre sous vide avec le romarin (protéger l'os avec du papier cuisson pour ne pas percer le sachet).",
+        "Cuire 4 h (épaisseur 5 cm).",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer). Saler au gros sel.",
+        "Saisir sur braises très chaudes ou en fonte fumante 1 min 30 par face, puis sur les tranches de gras.",
+        "Trancher et servir avec fleur de sel et beurre persillé."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:004",
+      "t": "Short ribs de bœuf 48 h",
+      "cat": "Sous vide, Plat, Viande, Bœuf",
+      "area": "",
+      "min": 2900,
+      "serv": "4 personnes",
+      "desc": "Les plats de côtes cuits deux jours : texture de filet, goût de braisé. Une des recettes sous vide les plus recherchées.",
+      "ing": [
+        "1,5 kg de short ribs (plat de côtes) de bœuf",
+        "sel, poivre",
+        "1 c. à café de paprika fumé",
+        "1 c. à café d'ail en poudre",
+        "Sauce : 10 cl de sauce barbecue, 2 c. à soupe de sauce soja, 1 c. à soupe de miel"
+      ],
+      "steps": [
+        "Préchauffer le bain à 57°C (rosé, texture steak) ou 68°C (fondant, effiloché).",
+        "Frotter la viande avec sel, poivre, paprika et ail. Mettre sous vide, os protégés.",
+        "Cuire 48 h (couvrir le bac de film ou de balles pour limiter l'évaporation, compléter l'eau si besoin).",
+        "Récupérer le jus du sachet, le réduire en casserole avec la sauce barbecue, la soja et le miel.",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer). Laquer et passer 5 min sous le gril du four très chaud ou au barbecue.",
+        "Servir avec purée ou coleslaw."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:005",
+      "t": "Joue de bœuf fondante 24 h",
+      "cat": "Sous vide, Plat, Viande, Bœuf",
+      "area": "",
+      "min": 1470,
+      "serv": "4 personnes",
+      "desc": "Le bourguignon revisité : des joues qui se coupent à la cuillère, nappées d'une sauce au vin rouge.",
+      "ing": [
+        "4 joues de bœuf parées",
+        "sel, poivre",
+        "2 carottes",
+        "1 oignon",
+        "50 cl de vin rouge",
+        "25 cl de fond de veau",
+        "1 bouquet garni",
+        "20 g de beurre"
+      ],
+      "steps": [
+        "Préchauffer le bain à 70°C.",
+        "Saler, poivrer et saisir les joues à la poêle 2 min par face. Laisser refroidir.",
+        "Mettre sous vide avec le bouquet garni. Cuire 24 h.",
+        "Sauce : faire suer carottes et oignon émincés, mouiller au vin, réduire de moitié, ajouter le fond de veau et le jus des sachets, réduire jusqu'à nappe, monter au beurre.",
+        "Réchauffer les joues dans la sauce et servir avec une purée."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:006",
+      "t": "Burger juteux sous vide",
+      "cat": "Sous vide, Plat, Viande, Bœuf",
+      "area": "",
+      "min": 120,
+      "serv": "4 personnes",
+      "desc": "Steaks hachés épais rosés et ultra juteux, saisis juste avant d'être glissés dans le pain.",
+      "ing": [
+        "600 g de bœuf haché frais (15-20 % de gras)",
+        "sel, poivre",
+        "4 pains burger",
+        "4 tranches de cheddar",
+        "salade, tomate, oignon rouge, cornichons",
+        "sauce burger"
+      ],
+      "steps": [
+        "Préchauffer le bain à 58°C.",
+        "Former 4 steaks de 2,5 cm sans trop tasser, séparer par du papier cuisson et mettre sous vide doucement (ne pas écraser).",
+        "Cuire 1 h 30 à 2 h (durée qui assure la pasteurisation du haché à cette température).",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer). Saler, poivrer.",
+        "Saisir 45 s par face dans une poêle fumante, poser le cheddar et couvrir 20 s pour le faire fondre.",
+        "Monter les burgers avec les garnitures."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:007",
+      "t": "Filet mignon de porc sous vide, sauce au poivre",
+      "cat": "Sous vide, Plat, Viande, Porc",
+      "area": "",
+      "min": 150,
+      "serv": "4 personnes",
+      "desc": "Le filet mignon reste rosé pâle et très juteux — impossible à rater. Sauce crémée au poivre.",
+      "ing": [
+        "2 filets mignons de porc",
+        "sel",
+        "1 c. à soupe de poivre concassé",
+        "2 branches de thym",
+        "20 g de beurre",
+        "Sauce : 1 échalote, 3 cl de cognac, 20 cl de crème, 1 c. à soupe de poivre vert"
+      ],
+      "steps": [
+        "Préchauffer le bain à 60°C.",
+        "Saler les filets, les mettre sous vide avec le thym.",
+        "Cuire 2 h (de 1 h 30 à 4 h).",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer). Rouler dans le poivre concassé et saisir au beurre 1 min sur chaque face.",
+        "Sauce : dans la même poêle, suer l'échalote, flamber au cognac, ajouter crème, poivre vert et jus du sachet, réduire 3 min.",
+        "Trancher et napper."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:008",
+      "t": "Côtes de porc épaisses sous vide",
+      "cat": "Sous vide, Plat, Viande, Porc",
+      "area": "",
+      "min": 90,
+      "serv": "2 personnes",
+      "desc": "Des côtes de porc enfin juteuses et rosées, finies dorées à la poêle.",
+      "ing": [
+        "2 côtes de porc épaisses (3 cm)",
+        "sel, poivre",
+        "1 gousse d'ail",
+        "2 branches de sauge ou thym",
+        "20 g de beurre",
+        "1 c. à soupe d'huile"
+      ],
+      "steps": [
+        "Préchauffer le bain à 60°C (légèrement rosé) ou 63°C (blanc, juteux).",
+        "Saler, poivrer, mettre sous vide avec l'ail et les herbes.",
+        "Cuire 1 h à 3 h.",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer).",
+        "Saisir à l'huile très chaude 1 min par face et sur le gras, finir au beurre.",
+        "Servir avec une compotée de pommes."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:009",
+      "t": "Porc effiloché (pulled pork) 24 h",
+      "cat": "Sous vide, Plat, Viande, Porc, Effiloché",
+      "area": "",
+      "min": 1470,
+      "serv": "8 personnes",
+      "desc": "L'épaule de porc fumée-épicée qui s'effiloche toute seule, pour burgers, tacos ou wraps.",
+      "ing": [
+        "2 kg d'épaule de porc désossée",
+        "Rub : 2 c. à soupe de cassonade, 1 c. à soupe de paprika fumé, 2 c. à café de sel, 1 c. à café de poivre, 1 c. à café d'ail et d'oignon en poudre, ½ c. à café de cumin",
+        "1 c. à café de fumée liquide (facultatif)",
+        "20 cl de sauce barbecue"
+      ],
+      "steps": [
+        "Préchauffer le bain à 74°C.",
+        "Couper l'épaule en 2 morceaux, frotter avec le rub (et la fumée liquide). Mettre sous vide.",
+        "Cuire 18 à 24 h.",
+        "Sortir la viande, récupérer le jus. Passer 15 min au four à 230°C pour caraméliser l'extérieur.",
+        "Effilocher à la fourchette, mélanger avec la sauce barbecue et un peu de jus réduit.",
+        "Servir en burgers avec coleslaw."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:010",
+      "t": "Poitrine de porc croustillante 24 h",
+      "cat": "Sous vide, Plat, Viande, Porc",
+      "area": "",
+      "min": 1470,
+      "serv": "4 personnes",
+      "desc": "Chair confite fondante et couenne craquante : la poitrine façon restaurant asiatique.",
+      "ing": [
+        "1 kg de poitrine de porc fraîche avec couenne",
+        "sel",
+        "1 c. à café de cinq-épices",
+        "2 c. à soupe de sauce soja",
+        "1 c. à soupe de miel"
+      ],
+      "steps": [
+        "Préchauffer le bain à 70°C.",
+        "Frotter la chair (pas la couenne) avec sel, cinq-épices et soja. Mettre sous vide à plat.",
+        "Cuire 24 h, puis refroidir dans l'eau glacée et mettre sous presse au frigo une nuit (tranches nettes).",
+        "Couper en portions, sécher la couenne, la saler généreusement.",
+        "Poêler côté couenne à feu moyen 8-10 min jusqu'à ce qu'elle soufle et croustille (ou gril du four), dorer les autres faces.",
+        "Laquer avec le miel détendu au jus de cuisson."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:011",
+      "t": "Blanc de poulet sous vide ultra moelleux",
+      "cat": "Sous vide, Plat, Viande, Poulet",
+      "area": "",
+      "min": 120,
+      "serv": "4 personnes",
+      "desc": "La recette sous vide la plus cuisinée : un blanc juteux et tendre, jamais sec, idéal en salade ou meal prep.",
+      "ing": [
+        "4 blancs de poulet",
+        "sel, poivre",
+        "1 c. à soupe d'huile d'olive",
+        "1 citron (zeste)",
+        "2 gousses d'ail",
+        "quelques branches de thym ou d'estragon"
+      ],
+      "steps": [
+        "Préchauffer le bain à 63°C (de 60°C très fondant à 65°C plus ferme).",
+        "Saler, poivrer, mettre sous vide avec huile, zeste, ail et herbes (un blanc par sachet ou à plat, sans superposer).",
+        "Cuire 1 h 30 à 3 h (pasteurisé à cœur).",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer).",
+        "Dorer 1 min par face dans une poêle chaude (ou servir tel quel, froid en salade).",
+        "Se conserve 5 jours au frigo dans son sachet après refroidissement à l'eau glacée."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:012",
+      "t": "Cuisses de poulet croustillantes sous vide",
+      "cat": "Sous vide, Plat, Viande, Poulet",
+      "area": "",
+      "min": 260,
+      "serv": "4 personnes",
+      "desc": "Chair confite qui se détache de l'os et peau dorée croustillante.",
+      "ing": [
+        "4 cuisses de poulet avec peau",
+        "sel, poivre",
+        "1 c. à café de paprika",
+        "1 c. à café d'ail en poudre",
+        "2 branches de romarin"
+      ],
+      "steps": [
+        "Préchauffer le bain à 74°C.",
+        "Assaisonner les cuisses, mettre sous vide avec le romarin.",
+        "Cuire 4 h (3 à 5 h).",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer).",
+        "Poêler côté peau à feu moyen-vif 5-6 min, sous un poids, jusqu'à peau bien croustillante, ou 8 min à l'air fryer à 200°C.",
+        "Servir avec des pommes de terre sous vide rissolées."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:013",
+      "t": "Suprêmes de dinde sous vide, sauce champignons",
+      "cat": "Sous vide, Plat, Viande, Dinde",
+      "area": "",
+      "min": 200,
+      "serv": "4 personnes",
+      "desc": "Le rôti de dinde n'est plus jamais sec : idéal pour les fêtes sans stress.",
+      "ing": [
+        "1 filet de dinde de 800 g",
+        "sel, poivre",
+        "20 g de beurre",
+        "1 branche de sauge",
+        "Sauce : 250 g de champignons, 1 échalote, 20 cl de crème"
+      ],
+      "steps": [
+        "Préchauffer le bain à 62°C.",
+        "Saler, poivrer, mettre sous vide avec beurre et sauge.",
+        "Cuire 3 h.",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer). Dorer sur toutes les faces à la poêle.",
+        "Sauce : poêler l'échalote et les champignons, ajouter le jus du sachet et la crème, réduire.",
+        "Trancher finement et napper."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:014",
+      "t": "Magret de canard sous vide, sauce au miel",
+      "cat": "Sous vide, Plat, Viande, Canard",
+      "area": "",
+      "min": 140,
+      "serv": "4 personnes",
+      "desc": "Magret rosé uniforme, peau croustillante et sauce miel-balsamique.",
+      "ing": [
+        "2 magrets de canard",
+        "sel, poivre",
+        "2 c. à soupe de miel",
+        "2 c. à soupe de vinaigre balsamique",
+        "1 branche de thym"
+      ],
+      "steps": [
+        "Préchauffer le bain à 57°C.",
+        "Quadriller la peau sans entailler la chair, saler, poivrer, mettre sous vide avec le thym.",
+        "Cuire 2 h (1 h 30 à 3 h).",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer).",
+        "Démarrer côté peau dans une poêle froide, feu moyen, 6-8 min pour fondre la graisse et croustiller ; 30 s côté chair.",
+        "Déglacer la poêle dégraissée au miel et balsamique, ajouter le jus du sachet, réduire. Trancher et napper."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:015",
+      "t": "Confit de canard maison sous vide",
+      "cat": "Sous vide, Plat, Viande, Canard, France",
+      "area": "",
+      "min": 780,
+      "serv": "4 personnes",
+      "desc": "Le confit du Sud-Ouest avec seulement 2 cuillères de graisse au lieu d'un litre.",
+      "ing": [
+        "4 cuisses de canard",
+        "40 g de gros sel",
+        "1 c. à café de poivre concassé",
+        "2 feuilles de laurier",
+        "4 gousses d'ail",
+        "4 branches de thym",
+        "4 c. à soupe de graisse de canard"
+      ],
+      "steps": [
+        "La veille : frotter les cuisses de gros sel, poivre, thym et laurier. 12 h au frigo.",
+        "Préchauffer le bain à 75°C.",
+        "Rincer et sécher les cuisses. Mettre sous vide par deux avec l'ail et la graisse.",
+        "Cuire 12 h.",
+        "Refroidir à l'eau glacée (se conserve 3 semaines au frigo dans le sachet non ouvert).",
+        "Pour servir : dorer côté peau à la poêle ou 10 min au four à 220°C. Avec pommes de terre sarladaises."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:016",
+      "t": "Carré d'agneau sous vide en croûte d'herbes",
+      "cat": "Sous vide, Plat, Viande, Agneau",
+      "area": "",
+      "min": 140,
+      "serv": "4 personnes",
+      "desc": "Carré rosé et tendre avec une croûte moutarde-persil.",
+      "ing": [
+        "2 carrés d'agneau (8 côtes)",
+        "sel, poivre",
+        "2 gousses d'ail",
+        "2 branches de romarin",
+        "2 c. à soupe de moutarde de Dijon",
+        "1 bouquet de persil haché",
+        "3 c. à soupe de chapelure"
+      ],
+      "steps": [
+        "Préchauffer le bain à 56°C.",
+        "Saler, poivrer, mettre sous vide avec ail et romarin (protéger les os).",
+        "Cuire 2 h.",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer). Saisir côté gras 1 min 30, puis rapidement sur les autres faces.",
+        "Badigeonner de moutarde et rouler dans le mélange persil-chapelure.",
+        "Couper entre les côtes et servir."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:017",
+      "t": "Gigot d'agneau sous vide 12 h",
+      "cat": "Sous vide, Plat, Viande, Agneau",
+      "area": "",
+      "min": 750,
+      "serv": "6 personnes",
+      "desc": "Gigot désossé rosé et fondant comme un filet, sans surveiller le four.",
+      "ing": [
+        "1 gigot d'agneau désossé et ficelé (1,5 kg)",
+        "sel, poivre",
+        "4 gousses d'ail en lamelles",
+        "romarin",
+        "huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le bain à 58°C.",
+        "Piquer le gigot d'ail, saler, poivrer, huiler, mettre sous vide avec le romarin.",
+        "Cuire 12 h (8 à 24 h).",
+        "Sortir du sachet, éponger soigneusement au papier absorbant (indispensable pour bien colorer).",
+        "Dorer sur toutes les faces dans une cocotte ou 10 min sous le gril du four.",
+        "Réduire le jus du sachet pour servir en sauce. Avec flageolets ou gratin."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:018",
+      "t": "Saumon fondant sous vide",
+      "cat": "Sous vide, Plat, Poisson, Saumon",
+      "area": "",
+      "min": 50,
+      "serv": "4 personnes",
+      "desc": "Texture nacrée incomparable, entre le cru et le cuit. Une des recettes stars de la cuisson sous vide.",
+      "ing": [
+        "4 pavés de saumon sans peau",
+        "sel",
+        "zeste d'un citron",
+        "4 brins d'aneth",
+        "2 c. à soupe d'huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le bain à 50°C (fondant, translucide) ou 54°C (plus ferme, opaque).",
+        "Saler les pavés 10 min avant (raffermit la chair), les mettre sous vide avec huile, zeste et aneth.",
+        "Cuire 30 à 45 min.",
+        "Sortir délicatement (chair fragile). Servir tel quel ou poêler la peau à part pour une chips croustillante.",
+        "⚠️ À 50°C le poisson n'est pas pasteurisé : utiliser du saumon très frais ou congelé au préalable (risque parasites) ; déconseillé aux personnes fragiles."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:019",
+      "t": "Dos de cabillaud sous vide, beurre citronné",
+      "cat": "Sous vide, Plat, Poisson, Cabillaud",
+      "area": "",
+      "min": 45,
+      "serv": "4 personnes",
+      "desc": "Cabillaud qui se détache en pétales nacrés, beurre blanc au citron.",
+      "ing": [
+        "4 dos de cabillaud",
+        "sel, poivre",
+        "40 g de beurre",
+        "1 citron",
+        "ciboulette"
+      ],
+      "steps": [
+        "Préchauffer le bain à 52°C.",
+        "Saler les dos, mettre sous vide avec une noix de beurre et une tranche de citron chacun.",
+        "Cuire 30 min.",
+        "Pendant ce temps : faire mousser le reste du beurre, ajouter le jus de citron et la ciboulette.",
+        "Sortir délicatement, napper de beurre citronné. Servir avec des légumes sous vide."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:020",
+      "t": "Gambas à l'ail sous vide",
+      "cat": "Sous vide, Plat, Poisson, Crevette, Apéritif",
+      "area": "",
+      "min": 40,
+      "serv": "4 personnes",
+      "desc": "Gambas juteuses et sucrées, jamais caoutchouteuses, au beurre d'ail et persil.",
+      "ing": [
+        "500 g de gambas décortiquées",
+        "50 g de beurre",
+        "3 gousses d'ail hachées",
+        "1 pincée de piment d'Espelette",
+        "persil haché",
+        "sel",
+        "1 citron"
+      ],
+      "steps": [
+        "Préchauffer le bain à 55°C.",
+        "Mettre les gambas sous vide à plat avec beurre, ail, piment et sel.",
+        "Cuire 30 min.",
+        "Verser gambas et beurre dans une poêle très chaude 30 s (facultatif, pour colorer).",
+        "Parsemer de persil, arroser de citron et servir avec du pain grillé."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:021",
+      "t": "Poulpe tendre sous vide, grillé",
+      "cat": "Sous vide, Plat, Poisson, Espagne",
+      "area": "",
+      "min": 330,
+      "serv": "4 personnes",
+      "desc": "Tentacules ultra tendres puis grillés, façon pulpo a la gallega.",
+      "ing": [
+        "1 poulpe de 1,5 kg (décongelé, la congélation l'attendrit)",
+        "2 c. à soupe d'huile d'olive",
+        "1 feuille de laurier",
+        "paprika fumé, fleur de sel",
+        "pommes de terre cuites"
+      ],
+      "steps": [
+        "Préchauffer le bain à 77°C.",
+        "Nettoyer le poulpe, séparer les tentacules, mettre sous vide avec huile et laurier.",
+        "Cuire 5 h.",
+        "Refroidir dans l'eau glacée, égoutter et sécher.",
+        "Griller les tentacules au barbecue ou à la plancha 1-2 min par face.",
+        "Servir sur des rondelles de pommes de terre, huile d'olive, paprika et fleur de sel."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:022",
+      "t": "Œuf parfait 64°C",
+      "cat": "Sous vide, Entrée, Œuf, Préparation Oeuf, Technique",
+      "area": "",
+      "min": 50,
+      "serv": "4 personnes",
+      "desc": "L'œuf mythique des restaurants : blanc tremblotant et jaune crémeux comme un miel, servi sur velouté ou purée.",
+      "ing": [
+        "4 œufs extra-frais",
+        "fleur de sel, poivre",
+        "Pour servir : velouté de champignons, asperges ou purée de potimarron"
+      ],
+      "steps": [
+        "Préchauffer le bain à 64°C.",
+        "Déposer les œufs dans leur coquille directement dans l'eau (pas de sachet).",
+        "Cuire 45 min à 1 h.",
+        "Casser délicatement dans une petite louche ; retirer la partie de blanc trop liquide.",
+        "Déposer sur le velouté ou la purée, fleur de sel et poivre."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:023",
+      "t": "Egg bites (bouchées d'œufs façon Starbucks)",
+      "cat": "Sous vide, Apéritif, Œuf, Préparation Oeuf, Protéines",
+      "area": "",
+      "min": 75,
+      "serv": "6 bocaux",
+      "desc": "Les petits flans d'œufs au fromage ultra veloutés, parfaits pour un petit-déjeuner protéiné.",
+      "ing": [
+        "6 œufs",
+        "60 g de fromage frais (type Saint-Môret)",
+        "60 g de gruyère râpé",
+        "2 c. à soupe de crème",
+        "4 tranches de bacon grillées émiettées",
+        "sel, poivre",
+        "6 petits bocaux à vis"
+      ],
+      "steps": [
+        "Préchauffer le bain à 77°C.",
+        "Mixer œufs, fromage frais, gruyère, crème, sel et poivre 30 s.",
+        "Répartir le bacon dans les bocaux beurrés, verser l'appareil aux ¾.",
+        "Fermer les couvercles « au doigt » (pas trop serré). Cuire 1 h.",
+        "Démouler, passer 1 min sous le gril si désiré. Se gardent 5 jours au frigo."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:024",
+      "t": "Carottes glacées au miel sous vide",
+      "cat": "Sous vide, Accompagnement, Légumes, Carotte",
+      "area": "",
+      "min": 70,
+      "serv": "4 personnes",
+      "desc": "Carottes fondantes au goût concentré, glacées au beurre et au miel.",
+      "ing": [
+        "500 g de carottes fanes",
+        "20 g de beurre",
+        "1 c. à soupe de miel",
+        "sel",
+        "1 branche de thym",
+        "persil"
+      ],
+      "steps": [
+        "Préchauffer le bain à 85°C.",
+        "Éplucher les carottes, les laisser entières ou en biseau, mettre sous vide à plat avec beurre, miel, sel et thym.",
+        "Cuire 1 h.",
+        "Verser carottes et jus dans une poêle, réduire 2 min à feu vif pour glacer.",
+        "Parsemer de persil."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:025",
+      "t": "Asperges vertes sous vide",
+      "cat": "Sous vide, Entrée, Accompagnement, Légumes, Asperge",
+      "area": "",
+      "min": 20,
+      "serv": "4 personnes",
+      "desc": "Asperges croquantes et d'un vert éclatant, au beurre et parmesan.",
+      "ing": [
+        "1 botte d'asperges vertes",
+        "20 g de beurre",
+        "sel",
+        "zeste de citron",
+        "copeaux de parmesan"
+      ],
+      "steps": [
+        "Préchauffer le bain à 85°C.",
+        "Couper la base dure, mettre sous vide à plat avec beurre, sel et zeste.",
+        "Cuire 10 à 15 min selon grosseur.",
+        "Plonger 1 min dans l'eau glacée pour fixer la couleur si servi froid.",
+        "Servir avec copeaux de parmesan (ou un œuf parfait)."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:026",
+      "t": "Pommes de terre sous vide rissolées",
+      "cat": "Sous vide, Accompagnement, Légumes, Pomme de terre",
+      "area": "",
+      "min": 75,
+      "serv": "4 personnes",
+      "desc": "Grenailles fondantes à cœur et dorées en surface, au beurre et romarin.",
+      "ing": [
+        "800 g de pommes de terre grenaille",
+        "30 g de beurre",
+        "sel",
+        "2 branches de romarin",
+        "2 gousses d'ail"
+      ],
+      "steps": [
+        "Préchauffer le bain à 85°C.",
+        "Couper les grenailles en deux, mettre sous vide à plat avec beurre, sel, romarin et ail.",
+        "Cuire 1 h.",
+        "Égoutter, sécher et faire rissoler à la poêle 5 min face coupée jusqu'à belle coloration.",
+        "Parfait avec un steak ou des cuisses de poulet sous vide."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:027",
+      "t": "Poires pochées au vin sous vide",
+      "cat": "Sous vide, Dessert, Fruits, Poire",
+      "area": "",
+      "min": 75,
+      "serv": "4 personnes",
+      "desc": "Poires parfumées et fondantes, avec seulement 20 cl de vin pour 4 poires.",
+      "ing": [
+        "4 poires fermes (conférence)",
+        "20 cl de vin rouge",
+        "50 g de sucre",
+        "1 bâton de cannelle",
+        "1 étoile de badiane",
+        "1 zeste d'orange"
+      ],
+      "steps": [
+        "Préchauffer le bain à 85°C.",
+        "Faire bouillir vin, sucre et épices 2 min, laisser tiédir.",
+        "Éplucher les poires en gardant la queue, mettre sous vide avec le sirop.",
+        "Cuire 1 h (jusqu'à tendreté à la pointe du couteau).",
+        "Réduire le sirop en casserole pour napper. Servir tiède ou froid avec une boule de vanille."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:028",
+      "t": "Crème brûlée sous vide",
+      "cat": "Sous vide, Dessert, Crème dessert",
+      "area": "",
+      "min": 80,
+      "serv": "6 pots",
+      "desc": "Une crème lisse et sans bulle grâce à la température exacte, caramélisée au chalumeau.",
+      "ing": [
+        "50 cl de crème entière",
+        "6 jaunes d'œufs",
+        "80 g de sucre",
+        "1 gousse de vanille",
+        "cassonade pour caraméliser",
+        "6 petits bocaux à vis"
+      ],
+      "steps": [
+        "Préchauffer le bain à 82°C.",
+        "Chauffer la crème avec la vanille fendue, infuser 15 min.",
+        "Fouetter jaunes et sucre sans faire mousser, verser la crème tiède, filtrer.",
+        "Répartir dans les bocaux, fermer « au doigt ». Cuire 1 h.",
+        "Refroidir puis 4 h au frigo minimum.",
+        "Saupoudrer de cassonade et caraméliser au chalumeau."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sousvide:029",
+      "t": "Cheesecake en bocal sous vide",
+      "cat": "Sous vide, Dessert, Cheesecake",
+      "area": "",
+      "min": 100,
+      "serv": "6 bocaux",
+      "desc": "Mini cheesecakes crémeux, sans fissure ni four, à emporter.",
+      "ing": [
+        "400 g de Philadelphia",
+        "100 g de sucre",
+        "2 œufs",
+        "10 cl de crème",
+        "1 c. à café de vanille",
+        "1 citron (zeste)",
+        "100 g de biscuits spéculoos",
+        "40 g de beurre fondu",
+        "coulis de fruits rouges"
+      ],
+      "steps": [
+        "Préchauffer le bain à 80°C.",
+        "Mélanger biscuits émiettés et beurre, tasser au fond de 6 bocaux.",
+        "Lisser fromage et sucre, ajouter œufs, crème, vanille et zeste sans trop fouetter.",
+        "Verser sur les biscuits, taper les bocaux pour chasser les bulles, fermer « au doigt ».",
+        "Cuire 1 h 30. Refroidir, puis 4 h au frigo.",
+        "Servir avec le coulis."
+      ],
+      "img": "",
+      "url": "",
+      "vid": ""
     }
   ]
 }
