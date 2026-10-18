@@ -699,3 +699,6 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .unk-actions{display:flex;gap:8px;align-items:center}
 .unk-actions .scan-add-btn{flex:1;padding:12px}
 .unk-skip{background:none;border:1px solid var(--line);color:var(--muted);border-radius:12px;padding:12px 14px;cursor:pointer}
+.unk-off{display:flex;align-items:center;gap:8px;font-size:.85em;cursor:pointer}
+.unk-off input{width:18px;height:18px;accent-color:#7cb342}
+.unk-off span{color:var(--muted);font-size:.9em}

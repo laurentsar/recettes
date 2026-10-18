@@ -2277,6 +2277,32 @@ function addStockItem(name, tab, img){
   return true;
 }
 
+/* Contribution à Open Food Facts : création du produit (code, nom, quantité)
+   puis envoi de la photo de face, avec le compte de l'utilisateur. */
+const OFF_API = 'https://world.openfoodfacts.org';
+function offCreds(){ try { return JSON.parse(localStorage.getItem('offCreds') || 'null'); } catch(e){ return null; } }
+async function offContribute(code, name, qty, file){
+  const c = offCreds();
+  if (!c || !c.user || !c.pass) throw new Error('identifiants Open Food Facts manquants');
+  const base = { code, user_id: c.user, password: c.pass, app_name: 'RecettesApp', app_version: APP_VERSION };
+  const f = new FormData();
+  Object.entries({ ...base, product_name_fr: name, product_name: name, lang: 'fr', countries: 'France',
+    ...(qty && qty.u !== 'autre' ? { quantity: fmtQty(qty).replace('× ', '') + (qty.u === 'pc' ? ' pièces' : '') } : {}) })
+    .forEach(([k, v]) => f.append(k, v));
+  const r = await fetch(OFF_API + '/cgi/product_jqm2.pl', { method: 'POST', body: f });
+  const d = await r.json().catch(() => ({}));
+  if (!r.ok || d.status !== 1) throw new Error(d.status_verbose || `erreur ${r.status}`);
+  if (file){
+    const g = new FormData();
+    Object.entries({ ...base, imagefield: 'front_fr' }).forEach(([k, v]) => g.append(k, v));
+    g.append('imgupload_front_fr', file, 'front.jpg');
+    const ri = await fetch(OFF_API + '/cgi/product_image_upload.pl', { method: 'POST', body: g });
+    const di = await ri.json().catch(() => ({}));
+    if (!ri.ok || (di.status && di.status !== 'status ok')) return 'produit ajouté, photo refusée';
+  }
+  return 'ajouté sur Open Food Facts';
+}
+
 /* Ajoute un produit scanné : si une quantité est connue, elle s'ajoute à celle
    déjà en stock (2 boîtes de 400 g → 800 g). Renvoie un libellé de résumé. */
 function addScannedProduct(name, tab, img, qty){
@@ -2349,7 +2375,7 @@ async function startLiveScan(){
   // Produit inconnu : pause, fiche nom + photo + quantité, mémorisée pour les prochains scans.
   function askUnknown(code, tab){
     session.paused = true;
-    let photo = '';
+    let photo = '', photoFile = null;
     unk.hidden = false;
     unk.innerHTML = `<div class="unk-card">
       <div class="unk-title">❓ Produit inconnu <span class="unk-code">${esc(code)}</span></div>
@@ -2359,12 +2385,14 @@ async function startLiveScan(){
         <input id="unk-file" class="frigo-file-hidden" type="file" accept="image/*" capture="environment">
         <input id="unk-qty" class="frigo-manual-input unk-qty" type="text" placeholder="Qté : 500 g, 1 l, 6">
       </div>
+      <label class="unk-off"><input type="checkbox" id="unk-off" ${offCreds() ? 'checked' : ''}> 🌍 Ajouter aussi sur Open Food Facts${offCreds() ? '' : ' <span>(identifiants à saisir dans ⚙️)</span>'}</label>
       <div class="unk-actions"><button class="unk-skip" id="unk-skip">Passer</button><button class="scan-add-btn" id="unk-save">Enregistrer</button></div>
     </div>`;
     const nameEl = unk.querySelector('#unk-name');
     setTimeout(()=> nameEl.focus(), 50);
     unk.querySelector('#unk-file').addEventListener('change', async (e)=>{
       const f = e.target.files?.[0]; if (!f) return;
+      photoFile = f;
       try { photo = await imageThumb(f, 240); unk.querySelector('#unk-prev').innerHTML = `<img src="${photo}" alt="">`; }
       catch(_){ toast('Photo illisible'); }
     });
@@ -2377,7 +2405,18 @@ async function startLiveScan(){
       const qty = qv ? parseQty(qv) : null;
       rememberBarcode(code, name, photo, qty && qty.u !== 'autre' ? qty : null);
       if (photo) setStockImg(name, photo);
-      addRow(tab, name, photo, addScannedProduct(name, tab, photo, qty));
+      const detail = addScannedProduct(name, tab, photo, qty);
+      addRow(tab, name, photo, detail);
+      if (unk.querySelector('#unk-off')?.checked){
+        if (!offCreds()) toast('Renseigne ton compte Open Food Facts dans ⚙️ pour contribuer');
+        else {
+          const row = list.firstElementChild?.querySelector('.scan-row-txt');
+          const note = document.createElement('span'); note.textContent = '🌍 envoi à Open Food Facts…'; row?.appendChild(note);
+          offContribute(code, name, qty, photoFile)
+            .then(m => { note.textContent = '🌍 ' + m; })
+            .catch(e => { note.textContent = '🌍 échec : ' + e.message; note.style.color = '#f0a090'; });
+        }
+      }
       resume();
     };
     unk.querySelector('#unk-save').addEventListener('click', save);
@@ -3201,6 +3240,14 @@ async function init(){
   document.getElementById('settings-back').addEventListener('click', closeSettings);
   document.getElementById('check-update-btn').addEventListener('click', checkUpdateNow);
   document.getElementById('all-toggle').addEventListener('click', toggleAllRecipes);
+  const offUser = document.getElementById('off-user'), offPass = document.getElementById('off-pass');
+  if (offUser && offCreds()) offUser.value = offCreds().user;
+  document.getElementById('off-save')?.addEventListener('click', ()=>{
+    const user = offUser.value.trim(), pass = offPass.value;
+    if (user && pass){ localStorage.setItem('offCreds', JSON.stringify({ user, pass })); offPass.value = ''; toast('Compte Open Food Facts enregistré ✓'); }
+    else if (!user){ localStorage.removeItem('offCreds'); toast('Compte Open Food Facts retiré'); }
+    else toast('Saisis aussi le mot de passe');
+  });
   document.getElementById('frigo-api-save').addEventListener('click', ()=>{
     const key = document.getElementById('frigo-api-key').value.trim();
     if (key) localStorage.setItem('frigoApiKey', key);

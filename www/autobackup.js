@@ -49,7 +49,8 @@
   var MAX_BYTES = 240 * 1024;
 
   // Clés purement locales : les restaurer n'aurait pas de sens.
-  var SKIP = /^(updPoll:|updDismiss:|dismissedUpdate$|_localforage)/;
+  // offCreds : identifiants Open Food Facts, jamais exportés dans une sauvegarde.
+  var SKIP = /^(updPoll:|updDismiss:|dismissedUpdate$|_localforage|offCreds$)/;
   var EXTRA_SKIP = global.BACKUP_SKIP || [];
 
   function skipped(k) {
