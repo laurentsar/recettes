@@ -939,71 +939,54 @@ function editStockQty(name, tab){
   renderFrigoIngs(tab);
 }
 
-/* « Je l'ai cuisinée » : propose de déduire des stocks les ingrédients utilisés. */
+/* « Je l'ai cuisinée » : déduit directement des stocks les ingrédients utilisés
+   (quantités converties g/ml/pièces). Produit épuisé ou sans quantité suivie :
+   retiré du stock. Un bouton « Annuler » permet de revenir en arrière. */
 function openDeduct(r){
-  const lines = (r.ing || []).map(l => ({ line: l, hit: stockForLine(l), need: parseQty(l) })).filter(x => x.hit);
-  if (!lines.length){ toast('Bonne dégustation ! 🎉'); return; }
   const prods = new Map(); // un produit peut servir à plusieurs lignes
-  for (const x of lines){
-    const key = x.hit.tab + '|' + x.hit.name;
-    const p = prods.get(key) || { tab: x.hit.tab, name: x.hit.name, have: getStockQty(x.hit.name), need: null, lines: [] };
-    p.lines.push(x.line);
-    if (x.need && p.have && x.need.u === p.have.u) p.need = { q: (p.need ? p.need.q : 0) + x.need.q, u: x.need.u };
+  for (const line of (r.ing || [])){
+    const hit = stockForLine(line); if (!hit) continue;
+    const key = hit.tab + '|' + norm(hit.name);
+    const p = prods.get(key) || { tab: hit.tab, name: hit.name, have: getStockQty(hit.name), need: null, unknown: false };
+    const need = parseQty(line);
+    if (need && p.have && need.u === p.have.u) p.need = { q: (p.need ? p.need.q : 0) + need.q, u: need.u };
+    else if (p.have) p.unknown = true;
     prods.set(key, p);
   }
-  const list = [...prods.values()];
-  const baseServ = r.serv || 0;
-  let ov = document.getElementById('deduct-overlay');
-  if (!ov){ ov = document.createElement('div'); ov.id = 'deduct-overlay'; ov.className = 'scan-overlay'; document.body.appendChild(ov); }
-  const render = (serv) => {
-    const k = baseServ && serv ? serv / baseServ : 1;
-    return list.map((p, i) => {
-      const used = p.need ? { q: p.need.q * k, u: p.need.u } : null;
-      let info, checked;
-      if (used){ const left = p.have.q - used.q;
-        info = `${fmtQty(p.have)} → <b>${left > 0 ? fmtQty({ q: left, u: p.have.u }) : 'épuisé'}</b> <span class="dd-minus">(− ${fmtQty(used)})</span>`; checked = true; }
-      else if (p.have){ info = `${fmtQty(p.have)} en stock · quantité de la recette non déduite`; checked = false; }
-      else { info = 'pas de quantité suivie'; checked = false; }
-      return `<label class="dd-row"><input type="checkbox" data-i="${i}" ${checked ? 'checked' : ''}>
-        <span class="dd-txt"><span class="dd-name">${FTAB_EMOJIS[p.tab]} ${esc(p.name)}</span><span class="dd-info">${info}</span>
-        ${used ? '' : '<span class="dd-hint">Coché : retirer du stock</span>'}</span></label>`;
-    }).join('');
-  };
-  ov.innerHTML = `<div class="scan-card"><div class="scan-card-head">
-      <button class="scan-close" id="dd-close" aria-label="Fermer">←</button>
-      <div class="scan-title">✅ Recette réalisée</div></div>
-    <div class="scan-body">
-      <p class="scan-info">Mettre à jour les stocks avec ce que tu as utilisé pour <b>${esc(r.t)}</b> :</p>
-      ${baseServ ? `<label class="dd-serv">🍽️ Pour <input type="number" id="dd-serv" min="1" max="50" value="${baseServ}"> personnes <span class="dd-sub">(recette : ${baseServ})</span></label>` : ''}
-      <div id="dd-list">${render(baseServ)}</div>
-      <button class="scan-add-btn" id="dd-ok">Mettre à jour les stocks</button>
-      <button class="dd-skip" id="dd-skip">Ne rien déduire</button>
-    </div></div>`;
-  ov.hidden = false;
-  const servEl = ov.querySelector('#dd-serv');
-  if (servEl) servEl.addEventListener('input', () => { ov.querySelector('#dd-list').innerHTML = render(+servEl.value || baseServ); });
-  const close = () => { ov.hidden = true; };
-  ov.querySelector('#dd-close').addEventListener('click', close);
-  ov.querySelector('#dd-skip').addEventListener('click', () => { close(); toast('Bonne dégustation ! 🎉'); });
-  ov.querySelector('#dd-ok').addEventListener('click', () => {
-    const serv = servEl ? (+servEl.value || baseServ) : baseServ;
-    const k = baseServ && serv ? serv / baseServ : 1;
-    let updated = 0, removed = 0;
-    ov.querySelectorAll('#dd-list input[type=checkbox]').forEach(cb => {
-      if (!cb.checked) return;
-      const p = list[+cb.dataset.i];
-      const left = p.need ? p.have.q - p.need.q * k : 0;
-      if (p.need && left > 0.0001){ setStockQty(p.name, { q: Math.round(left * 10) / 10, u: p.have.u }); updated++; }
-      else {
-        storageIngs[p.tab] = storageIngs[p.tab].filter(n => norm(n) !== norm(p.name));
-        saveStorageIngs(p.tab); setStockQty(p.name, null); removed++;
-      }
-    });
-    close();
-    FTABS.forEach(t => renderFrigoIngs(t));
-    renderFrigoSuggestions(); renderCellarHome();
-    toast(`Stocks mis à jour : ${updated} ajusté${updated > 1 ? 's' : ''}, ${removed} retiré${removed > 1 ? 's' : ''} 🎉`);
+  if (!prods.size){ toast('Bonne dégustation ! 🎉'); return; }
+  const snapshot = JSON.stringify({ ings: storageIngs, qty: stockQty });
+  const done = [];
+  for (const p of prods.values()){
+    if (p.have && !p.need){ done.push(`${FTAB_EMOJIS[p.tab]} ${p.name} : quantité inchangée`); continue; } // ex. cuillères d'huile
+    const left = p.need ? p.have.q - p.need.q : 0;
+    if (p.need && left > 0.0001){
+      setStockQty(p.name, { q: Math.round(left * 10) / 10, u: p.have.u });
+      done.push(`${FTAB_EMOJIS[p.tab]} ${p.name} : ${fmtQty(p.have)} → ${fmtQty({ q: left, u: p.have.u })}`);
+    } else {
+      storageIngs[p.tab] = storageIngs[p.tab].filter(n => norm(n) !== norm(p.name));
+      saveStorageIngs(p.tab); setStockQty(p.name, null);
+      done.push(`${FTAB_EMOJIS[p.tab]} ${p.name} : retiré`);
+    }
+  }
+  const refresh = () => { FTABS.forEach(t => renderFrigoIngs(t)); renderFrigoSuggestions(); renderCellarHome(); };
+  refresh();
+  showUndoBar(`✅ Stocks mis à jour (${prods.size} produit${prods.size > 1 ? 's' : ''})`, done, () => {
+    const s = JSON.parse(snapshot);
+    FTABS.forEach(t => { storageIngs[t] = s.ings[t]; saveStorageIngs(t); });
+    stockQty = s.qty; saveStockQty(); refresh();
+    toast('Stocks restaurés');
   });
+}
+
+function showUndoBar(title, details, onUndo){
+  let bar = document.getElementById('undo-bar');
+  if (!bar){ bar = document.createElement('div'); bar.id = 'undo-bar'; document.body.appendChild(bar); }
+  clearTimeout(bar._t);
+  bar.innerHTML = `<div class="ub2-main"><span class="ub2-title">${esc(title)}</span><button class="ub2-undo">Annuler</button></div>
+    <div class="ub2-details">${details.map(d => `<div>${esc(d)}</div>`).join('')}</div>`;
+  bar.hidden = false;
+  bar.querySelector('.ub2-undo').addEventListener('click', () => { clearTimeout(bar._t); bar.hidden = true; onUndo(); });
+  bar._t = setTimeout(() => { bar.hidden = true; }, 8000);
 }
 
 function cookIngListHtml(r){
