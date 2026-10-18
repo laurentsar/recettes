@@ -723,3 +723,6 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .inv-qty .inv-qv.empty{color:var(--muted);border-style:dashed}
 .inv-del{background:none;border:none;font-size:1em;cursor:pointer;opacity:.7;flex:0 0 auto}
 .inv-actions{display:flex;flex-direction:column;gap:8px;margin-top:6px}
+.sq-row{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px;width:100%}
+.sq-row .stock-qty{order:-1;flex:1 1 100%;white-space:normal;line-height:1.25;padding:2px 6px}
+.sq-btn{flex:0 0 auto;width:22px;height:22px;border-radius:50%;border:1px solid #4d6b2a;background:rgba(124,179,66,.15);color:#cde8a6;font-weight:900;font-size:.8em;line-height:1;padding:0;cursor:pointer}

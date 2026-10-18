@@ -925,11 +925,23 @@ function parseQty(text){
   return { q, u: 'pc' }; // « 4 cuisses », « 2 boîtes », « 3 tranches »…
 }
 // Affichage en boîtes : « 📦 3 × 400 g (1,2 kg) », sinon quantité simple.
-function fmtStockQty(x){
+function fmtStockQty(x, short){
   if (!x) return '';
   if (!x.pk) return fmtQty(x);
   const n = Math.round(x.q / x.pk * 10) / 10;
-  return `📦 ${String(n).replace('.', ',')} × ${fmtQty({ q: x.pk, u: x.u })}${n !== 1 ? ` (${fmtQty(x)})` : ''}`;
+  return `📦 ${String(n).replace('.', ',')} × ${fmtQty({ q: x.pk, u: x.u })}${n !== 1 && !short ? ` (${fmtQty(x)})` : ''}`;
+}
+// Ajoute / retire une boîte (ou une pièce) ; à zéro, propose de retirer le produit du stock.
+function stepStock(name, tab, dir){
+  const q = getStockQty(name); if (!q) return;
+  const step = q.pk || (q.u === 'pc' ? 1 : 0); if (!step) return;
+  const v = Math.round((q.q + dir * step) * 10) / 10;
+  if (v <= 0){
+    if (!confirm(`Plus de « ${name} » : le retirer du stock ?`)) return;
+    storageIngs[tab] = storageIngs[tab].filter(n => norm(n) !== norm(name));
+    saveStorageIngs(tab); setStockQty(name, null);
+  } else setStockQty(name, { q: v, u: q.u });
+  renderFrigoIngs(tab); renderFrigoSuggestions();
 }
 const PACK_RE = '(\\d+(?:[.,]\\d+)?)\\s*(?:x|×|\\*|bo[iî]tes?|paquets?|sachets?|bocaux|bocal|conserves?|briques?|pots?|bouteilles?|canettes?|barquettes?|boc(?:al|aux))\\s*(?:de\\s+|d[\'’]\\s*)?(\\d+(?:[.,]\\d+)?\\s*(?:kg|g|gr|l|cl|ml|dl))';
 // « 3 boîtes de 400 g », « 3 x 400 g », « 2 paquets 500g » → {q:1200,u:'g',pk:400} ; sinon parseQty
@@ -2087,7 +2099,11 @@ function renderFrigoIngs(tab){
             ? `<img src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.replaceWith(document.createTextNode('${emoji}'))">`
             : emoji}</button>
           <button class="stock-card-name" data-idx="${i}" title="Renommer">${esc(ing)} ✎</button>
-          <button class="stock-qty${getStockQty(ing) ? '' : ' empty'}" data-idx="${i}">${getStockQty(ing) ? (getStockQty(ing).pk ? '' : '⚖️ ') + fmtStockQty(getStockQty(ing)) : '+ quantité'}</button>
+          ${(() => { const q = getStockQty(ing);
+            const btn = `<button class="stock-qty${q ? '' : ' empty'}" data-idx="${i}">${q ? (q.pk ? '' : '⚖️ ') + fmtStockQty(q, true) : '+ quantité'}</button>`;
+            return q && (q.pk || q.u === 'pc')
+              ? `<div class="sq-row"><button class="sq-btn" data-idx="${i}" data-d="-1" aria-label="Retirer une boîte">−</button>${btn}<button class="sq-btn" data-idx="${i}" data-d="1" aria-label="Ajouter une boîte">+</button></div>`
+              : btn; })()}
           ${tab === 'congelateur' ? freezeBadge(ing) : ''}
           <button class="stock-card-del" data-idx="${i}" aria-label="Retirer">✕</button>
         </div>`;
@@ -2104,6 +2120,9 @@ function renderFrigoIngs(tab){
   });
   el.querySelectorAll('.stock-qty').forEach(btn => {
     btn.addEventListener('click', ()=> editStockQty(ings[parseInt(btn.dataset.idx)], tab));
+  });
+  el.querySelectorAll('.sq-btn').forEach(btn => {
+    btn.addEventListener('click', ()=> stepStock(ings[parseInt(btn.dataset.idx)], tab, +btn.dataset.d));
   });
   el.querySelectorAll('.stock-card-name').forEach(btn => {
     btn.addEventListener('click', ()=> renameStockItem(tab, parseInt(btn.dataset.idx)));
@@ -3485,11 +3504,18 @@ async function init(){
       if (!manualInput) return;
       const raw = manualInput.value.trim();
       if (!raw) return;
-      const items = raw.split(/[,;]+/).map(s=>s.trim()).filter(Boolean);
+      // « , » suivi d'un espace sépare deux produits (« 1,5 kg » reste un nombre)
+      const items = raw.split(/;|,\s+/).map(s=>s.trim()).filter(Boolean);
       for (const item of items){
         const { name, qty } = splitNameQty(item);
-        addStockItem(name, tab);
-        if (qty && qty.u !== 'autre') setStockQty(name, qty, false);
+        const isNew = addStockItem(name, tab);
+        if (!qty || qty.u === 'autre') continue;
+        const cur = getStockQty(name);
+        if (!isNew && cur && cur.u === qty.u){ // produit déjà en stock : on ajoute (ex. 2 boîtes de plus)
+          const total = { q: cur.q + qty.q, u: qty.u, pk: qty.pk || cur.pk };
+          setStockQty(name, total, false);
+          toast(`${name} : +${qty.pk ? fmtStockQty(qty, true).replace('📦 ', '') : fmtQty(qty)} → ${fmtStockQty(total, true)}`);
+        } else setStockQty(name, qty, false);
       }
       manualInput.value = '';
       renderFrigoIngs(tab);
