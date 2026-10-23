@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.29';
+const APP_VERSION = '3.30';
 
 let ALL = [];
 let BASE = [];
@@ -2227,6 +2227,20 @@ const STOCK_AFTER = {
 // Couleurs qui distinguent deux produits (« olives vertes » ≠ « olives noires »).
 const STOCK_COLOR_CLASH = { verte:['noire','noir'], vert:['noire','noir'], noire:['verte','vert'], noir:['verte','vert','blanc','blanche'],
   blanc:['noir','noire'], blanche:['noir','noire'], rouge:['vert','verte','jaune'], jaune:['rouge','vert','verte'] };
+// Variétés d'un même produit qui ne se remplacent pas : « saucisse de Toulouse » ≠ « saucisse
+// de Morteau » ≠ « sobrassada » ; « jambon blanc » ≠ « jambon cru ». Une ligne de recette sans
+// variété (« 4 saucisses ») reste couverte par n'importe quelle variété en stock.
+// (chaque groupe = mots équivalents : « jambon blanc » = « jambon cuit »).
+const STOCK_VARIETIES = {
+  saucisse: [['toulouse'],['morteau'],['montbeliard'],['francfort','strasbourg','knack'],['fumee','fume','rookworst','kolbasz'],
+    ['calabraise','linguica'],['sobrassada'],['figatelli','foie'],['cocktail'],['nuremberg','thuringe','bratwurst'],['merguez'],
+    ['chipolata'],['diot'],['herbe'],['volaille','poulet','dinde'],['veau'],['cumin'],['lyon'],['seche','sec'],['italienne'],
+    ['chorizo'],['anglaise','sausage','banger']],
+  jambon: [['blanc','cuit','paris','braise','cotto'],['cru','sec','serrano','parme','bayonne','iberique','prosciutto','pata','negra','prisuttu','bellota'],
+    ['poulet','dinde','volaille'],['fume']],
+};
+// Ce qui n'est pas le produit lui-même (« chair à saucisse », « enveloppe à saucisse »).
+const STOCK_NOT_PRODUCT = { saucisse: ['chair','enveloppe','boyau','sobrassada','figatelli'], jambon: ['couenne','os'] };
 // Équivalences : un produit en stock couvre aussi ces façons de l'écrire dans une recette.
 const STOCK_SYNONYMS = [
   { when: ['pates'], alts: [['pates'],['spaghetti'],['spaghettis'],['tagliatelle'],['penne'],['macaroni'],['fusilli'],['linguine'],['farfalle'],
@@ -2269,8 +2283,21 @@ function lineHasKeys(toks, keys, strict){
   if (after && after.includes(toks[i + 1]) && !keys.includes(toks[i + 1])) return false;
   return true;
 }
+const _prodTokCache = new Map();
+function stockVarietyOk(toks, name){
+  let own = _prodTokCache.get(name);
+  if (!own){ own = new Set(stockTokens(name, STOCK_STOP)); _prodTokCache.set(name, own); }
+  for (const fam of Object.keys(STOCK_VARIETIES)){
+    if (!own.has(fam) || !toks.includes(fam)) continue;
+    if ((STOCK_NOT_PRODUCT[fam] || []).some(w => toks.includes(w) && !own.has(w))) return false;
+    const mine = STOCK_VARIETIES[fam].filter(g => g.some(w => own.has(w)));
+    const theirs = STOCK_VARIETIES[fam].filter(g => g.some(w => toks.includes(w)));
+    if (mine.length && theirs.length && !theirs.some(g => mine.includes(g))) return false;
+  }
+  return true;
+}
 function lineHasProduct(toks, name){
-  return stockProductAlts(name).some(a => lineHasKeys(toks, a.keys, a.strict));
+  return stockProductAlts(name).some(a => lineHasKeys(toks, a.keys, a.strict)) && stockVarietyOk(toks, name);
 }
 // Sel, poivre, eau… : supposés toujours disponibles, n'entrent pas dans la couverture.
 function isStapleLine(line){ return /\b(sel|poivre|eau)\b/.test(norm(line)) && norm(line).split(/\s+/).length <= 6; }
