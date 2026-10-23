@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.25';
+const APP_VERSION = '3.26';
 
 let ALL = [];
 let BASE = [];
@@ -274,7 +274,8 @@ const monthNow = ()=> new Date().getMonth()+1;
 const cap = (s)=> s ? s[0].toUpperCase()+s.slice(1) : s;
 function seasonalHits(r, m){
   const kws = SEASON[m] || [];
-  const text = norm((r.ing||[]).join(' ') + ' ' + (r.t||''));
+  // « pommes de terre » ne doit pas compter comme « pomme » (fruit de saison).
+  const text = norm((r.ing||[]).join(' ') + ' ' + (r.t||'')).replace(/pommes?\s+de\s+terres?/g, ' ');
   const hits = [];
   for (const k of kws){
     // Tolère les pluriels (« tomates », « haricots verts ») et « chou-fleur » / « chou fleur ».
@@ -2407,10 +2408,32 @@ function renderFrigoSuggestions(){
    cellier). Classement : produits en stock utilisés, stocks mélangés, produits
    de saison, puis couverture des ingrédients. */
 const HOME_SEASON_SKIP = new Set(['oignon','ail','echalote','citron','carotte']);
+/* Accueil « Avec mes stocks » : menu progressif.
+   - Rangée de mes produits : en toucher un ne garde que les recettes qui l'utilisent ;
+     on peut en cumuler plusieurs pour affiner pas à pas.
+   - Recettes rangées par paliers : tout en stock, puis il manque 1, 2, 3 ingrédients…
+     (dans un palier : celles qui utilisent le plus de mes produits, puis de saison). */
+let homeStockSel = [];
+const HOME_BASICS = new Set(['huile','ail','oignon','echalote','beurre','farine','sucre','lait','oeuf','vinaigre','moutarde','levure','margarine','miel','cacao']);
+let homeTiersShown = 2;
+const HOME_TIER_MAX = 3;      // dernier palier : « il manque 3 ingrédients ou plus »
+function homeStockCandidates(){
+  const have = stockHaveList();
+  if (!have.length) return [];
+  const m = monthNow();
+  const out = [];
+  for (const r of ALL){
+    if (/\b(guide|technique)\b/.test(norm(r.cat || ''))) continue;
+    const c = recipeStockCoverage(r, have);
+    if (!c || !c.covered) continue;
+    const hits = seasonalHits(r, m).filter(h => !HOME_SEASON_SKIP.has(h));
+    out.push({ ...c, hits, miss: c.total - c.covered });
+  }
+  return out;
+}
 function renderCellarHome(){
   const el = document.getElementById('cellar-home');
   if (!el) return;
-  const m = monthNow();
   if (!getAllStorageIngs().length){
     el.innerHTML = `<button class="cellar-cta" id="cellar-cta">🧺 Ajoute ce que tu as au frigo, au congélo ou au cellier pour voir des recettes adaptées →</button>`;
     el.querySelector('#cellar-cta').addEventListener('click', ()=>{ openFrigo(); });
@@ -2418,34 +2441,70 @@ function renderCellarHome(){
   }
   const tabOf = new Map();
   FTABS.forEach(t => storageIngs[t].forEach(n => { if (!tabOf.has(n)) tabOf.set(n, t); }));
-  const picks = matchFrigoRecipes('all', Infinity)
-    .map(x => {
-      // Oignon, ail… sont « de saison » toute l'année : ils ne suffisent pas à inspirer une recette.
-      const hits = seasonalHits(x.r, m).filter(h => !HOME_SEASON_SKIP.has(h));
-      const tabs = new Set(x.matched.map(n => tabOf.get(n))).size;
-      return { ...x, hits, score: x.matched.length * 2 + (tabs - 1) * 2 + Math.min(hits.length, 2) + x.pct };
-    })
-    .sort((a, b) => b.score - a.score || a.r.t.localeCompare(b.r.t))
-    .slice(0, 15);
-  if (!picks.length){ el.innerHTML = ''; return; }
+  homeStockSel = homeStockSel.filter(n => tabOf.has(n));
+  const all = homeStockCandidates();
+  const pool = all.filter(x => homeStockSel.every(n => x.used.has(n)));
+  if (!all.length){ el.innerHTML = ''; return; }
+
+  // Produits proposés : ceux qui servent encore dans la sélection en cours ; les produits
+  // « principaux » d'abord (viande, légumes, pâtes…), les basiques (huile, ail, œufs…) à la fin.
+  const count = new Map();
+  pool.forEach(x => x.used.forEach((_, n) => count.set(n, (count.get(n) || 0) + 1)));
+  const basic = n => HOME_BASICS.has(stockKeys(n)[0]) ? 1 : 0;
+  const chipNames = [...homeStockSel, ...[...count.keys()].filter(n => !homeStockSel.includes(n))
+    .sort((a, b) => basic(a) - basic(b) || count.get(b) - count.get(a) || a.localeCompare(b))];
+  const chips = chipNames.map(n => {
+    const on = homeStockSel.includes(n);
+    return `<button class="hs-chip${on ? ' on' : ''}" data-n="${esc(n)}">${FTAB_EMOJIS[tabOf.get(n)]} ${esc(n)}${on ? ' ✕' : ` <span>${count.get(n)}</span>`}</button>`;
+  }).join('');
+
+  const tiers = [];
+  for (let k = 0; k <= HOME_TIER_MAX; k++){
+    const list = pool.filter(x => k < HOME_TIER_MAX ? x.miss === k : x.miss >= k)
+      .sort((a, b) => a.miss - b.miss || b.covered - a.covered || b.hits.length - a.hits.length || a.r.t.localeCompare(b.r.t));
+    if (list.length) tiers.push({ k, list });
+  }
+  const tierLabel = k => k === 0 ? '✅ Tout est en stock'
+    : k < HOME_TIER_MAX ? `Il manque ${k} ingrédient${k > 1 ? 's' : ''}` : `Il manque ${k} ingrédients ou plus`;
+  const cardHtml = ({ r, matched, hits, covered, total, missing }) => {
+    const img = r.img
+      ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=feed-ph>🍲</div>'" loading="lazy">`
+      : '<div class="feed-ph">🍲</div>';
+    const stockTags = matched.slice(0,3).map(n=>`<span class="cellar-tag stock-${tabOf.get(n)}">${FTAB_EMOJIS[tabOf.get(n)]} ${esc(n)}</span>`).join('')
+      + (matched.length>3 ? `<span class="cellar-tag">+${matched.length-3}</span>` : '');
+    const seasonTags = hits.slice(0,1).map(h=>`<span class="cellar-tag season">🌿 ${esc(cap(h))}</span>`).join('');
+    const miss = missing.length
+      ? `<div class="stock-cover">Manque : ${esc(missing.slice(0,2).join(', '))}${missing.length>2?'…':''}</div>`
+      : `<div class="stock-cover ok">✓ ${covered}/${total} en stock</div>`;
+    return `<div class="feed-card cellar-card" data-id="${esc(String(r.id))}">${img}<div class="feed-info">
+      <div class="feed-t">${esc(r.t)}</div>
+      <div class="cellar-tags">${stockTags}${seasonTags}</div>
+      ${miss}
+    </div></div>`;
+  };
+  const shown = tiers.slice(0, homeTiersShown);
+  const rest = tiers.slice(homeTiersShown);
   el.innerHTML =
-    `<div class="feed-label">🧺 Avec mes stocks &amp; la saison <span class="feed-count">${picks.length}</span></div>` +
-    '<div class="feed-strip">' +
-    picks.map(({ r, matched, hits, covered, total }) => {
-      const img = r.img
-        ? `<img src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=feed-ph>🍲</div>'" loading="lazy">`
-        : '<div class="feed-ph">🍲</div>';
-      const stockTags = matched.slice(0,3).map(n=>`<span class="cellar-tag stock-${tabOf.get(n)}">${FTAB_EMOJIS[tabOf.get(n)]} ${esc(n)}</span>`).join('')
-        + (matched.length>3 ? `<span class="cellar-tag">+${matched.length-3}</span>` : '');
-      const seasonTags = hits.slice(0,2).map(h=>`<span class="cellar-tag season">🌿 ${esc(cap(h))}</span>`).join('');
-      return `<div class="feed-card cellar-card" data-id="${esc(String(r.id))}">${img}<div class="feed-info">
-        <div class="feed-t">${esc(r.t)}</div>
-        <div class="cellar-tags">${stockTags}${seasonTags}</div>
-        <div class="stock-cover">${covered}/${total} ingrédients en stock</div>
-      </div></div>`;
-    }).join('') +
-    '</div>';
+    `<div class="feed-label">🧺 Avec mes stocks <span class="feed-count">${pool.length}</span>` +
+    (homeStockSel.length ? `<button class="hs-clear" id="hs-clear">Tout effacer</button>` : '') + `</div>` +
+    `<div class="hs-hint">${homeStockSel.length ? 'Recettes avec ' + homeStockSel.map(esc).join(' + ') + ' — touche un autre produit pour affiner' : 'Touche un produit pour ne voir que les recettes qui l\'utilisent'}</div>` +
+    `<div class="hs-chips">${chips}</div>` +
+    (shown.length ? shown.map(t =>
+      `<div class="hs-tier"><div class="hs-tier-label">${tierLabel(t.k)} <span class="feed-count">${t.list.length}</span></div>` +
+      `<div class="feed-strip">${t.list.slice(0, 20).map(cardHtml).join('')}</div></div>`).join('')
+      : '<div class="hs-hint">Aucune recette avec tous ces produits.</div>') +
+    (rest.length ? `<button class="hs-more" id="hs-more">▾ ${tierLabel(rest[0].k)} (${rest[0].list.length})</button>` : '');
   el.querySelectorAll('.feed-card').forEach(c => c.addEventListener('click', () => openDetail(c.dataset.id)));
+  el.querySelectorAll('.hs-chip').forEach(b => b.addEventListener('click', () => {
+    const n = b.dataset.n;
+    homeStockSel = homeStockSel.includes(n) ? homeStockSel.filter(x => x !== n) : [...homeStockSel, n];
+    homeTiersShown = 2;
+    renderCellarHome();
+  }));
+  const clr = el.querySelector('#hs-clear');
+  if (clr) clr.addEventListener('click', () => { homeStockSel = []; homeTiersShown = 2; renderCellarHome(); });
+  const more = el.querySelector('#hs-more');
+  if (more) more.addEventListener('click', () => { homeTiersShown++; renderCellarHome(); });
 }
 
 /* ---------- inventaire ----------

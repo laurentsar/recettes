@@ -751,3 +751,16 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .addbox-lbl{font-size:.78em;color:var(--muted);margin-bottom:-4px}
 .addbox-chips{flex-wrap:wrap}
 .addbox-chips button.on{background:var(--accent);border-color:transparent;color:#fff}
+
+/* Accueil « Avec mes stocks » : produits à cumuler + paliers */
+.hs-hint{color:var(--muted);font-size:.78em;margin:-2px 0 8px}
+.hs-chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:6px;margin-bottom:6px}
+.hs-chips::-webkit-scrollbar{display:none}
+.hs-chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:6px 11px;font-size:.8em;font-weight:600;cursor:pointer;white-space:nowrap}
+.hs-chip span{color:var(--muted);font-weight:400;margin-left:2px}
+.hs-chip.on{background:linear-gradient(135deg,var(--accent),var(--accent2));border-color:transparent;color:#fff}
+.hs-clear{margin-left:auto;border:none;background:none;color:var(--accent);font-size:.95em;font-weight:600;text-transform:none;letter-spacing:0;cursor:pointer;padding:0}
+.hs-tier{margin-top:8px}
+.hs-tier-label{font-size:.82em;font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:7px}
+.hs-more{width:100%;margin-top:10px;padding:10px;border:1px dashed var(--line);background:var(--card);color:var(--muted);border-radius:12px;font-size:.82em;font-weight:600;cursor:pointer}
+.stock-cover.ok{color:#3fa66b}
