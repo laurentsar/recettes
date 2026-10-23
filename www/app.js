@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.30';
+const APP_VERSION = '3.31';
 
 let ALL = [];
 let BASE = [];
@@ -2201,7 +2201,7 @@ const STOCK_GENERIC = new Set(['sauce','jus','creme','poudre','sirop','bouillon'
   'pulpe','couli','concentre','compote','nectar','gelee','fond','fumet','cube','flocon','farine','graine','feuille','eau','boisson','yaourt','preparation','melange',
   'filet','dos','steak','morceau','tranche','rondelle','coeur','brisure','haricot','pois','petit','pomme','noix','chou','fruit','cuisse','blanc','aile',
   'cote','cotelette','roti','escalope','epaule','jarret','joue','poitrine','echine','chair','entier']);
-const LINE_STOP = new Set(['de','du','des','la','le','les','un','une','et','en','au','aux','ou','pour','avec','cuillere','cuilleres','soupe','cafe','pincee','pincees','gousse','gousses','tranche','tranches','boite','boites','sachet','sachets','verre','verres','bouquet','brin','brins','feuille','feuilles']);
+const LINE_STOP = new Set(['de','du','des','la','le','les','un','une','et','en','au','aux','ou','pour','avec','cuillere','cuilleres','soupe','cafe','pincee','pincees','gousse','gousses','tranche','tranches','boite','boites','sachet','sachets','verre','verres','bouquet','brin','brins','feuille','feuilles','goutte','gouttes','quelques']);
 
 // « pâtes » (pâtes alimentaires) ≠ « pâte » (feuilletée, brisée…) : on ne singularise pas ce mot.
 function stockStem(w){ return w !== 'pates' && w.length > 4 && /[sx]$/.test(w) ? w.slice(0, -1) : w; }
@@ -2240,7 +2240,8 @@ const STOCK_VARIETIES = {
     ['poulet','dinde','volaille'],['fume']],
 };
 // Ce qui n'est pas le produit lui-même (« chair à saucisse », « enveloppe à saucisse »).
-const STOCK_NOT_PRODUCT = { saucisse: ['chair','enveloppe','boyau','sobrassada','figatelli'], jambon: ['couenne','os'] };
+const STOCK_NOT_PRODUCT = { saucisse: ['chair','enveloppe','boyau','sobrassada','figatelli'], jambon: ['couenne','os'],
+  meringue: ['blanc','preparer','suisse','italienne','francaise'] }; // « réserver les blancs pour la meringue » = meringue à faire
 // Équivalences : un produit en stock couvre aussi ces façons de l'écrire dans une recette.
 const STOCK_SYNONYMS = [
   { when: ['pates'], alts: [['pates'],['spaghetti'],['spaghettis'],['tagliatelle'],['penne'],['macaroni'],['fusilli'],['linguine'],['farfalle'],
@@ -2253,6 +2254,8 @@ const STOCK_SYNONYMS = [
   { when: ['comte'], alts: [['comte'],['fromage','rape']] },
   { when: ['fromage','rape'], alts: [['fromage','rape'],['emmental','rape'],['gruyere','rape'],['comte','rape']] },
   { when: ['sucre','morceau'], alts: [['sucre','morceau']] },
+  // « Gouttes vanille » = mini meringues (nom commercial), pas des gouttes d'extrait de vanille.
+  { when: ['goutte'], alts: [['meringue']] },
   { when: ['steak','hache'], alts: [['steak','hache'],['boeuf','hache'],['viande','hachee'],['viande','hache']] },
   { when: ['boeuf','hache'], alts: [['boeuf','hache'],['steak','hache'],['viande','hachee'],['viande','hache']] },
 ];
@@ -2279,6 +2282,8 @@ function lineHasKeys(toks, keys, strict){
   // Couleur précisée dans le stock et contraire dans la recette.
   const clash = keys[1] && STOCK_COLOR_CLASH[keys[1]];
   if (clash && clash.includes(toks[i + 1])) return false;
+  const np = STOCK_NOT_PRODUCT[keys[0]];
+  if (np && np.some(w => toks.includes(w) && !keys.includes(w))) return false;
   const after = STOCK_AFTER[keys[0]];
   if (after && after.includes(toks[i + 1]) && !keys.includes(toks[i + 1])) return false;
   return true;
@@ -2303,7 +2308,7 @@ function lineHasProduct(toks, name){
 function isStapleLine(line){ return /\b(sel|poivre|eau)\b/.test(norm(line)) && norm(line).split(/\s+/).length <= 6; }
 function cleanIngLine(line){
   return String(line).replace(/^[\d\s.,/½¼¾⅓⅔-]+/, '')
-    .replace(/^(g|kg|mg|ml|cl|dl|l|grammes?|c\.?\s?[aà]\s?[sc]\.?|cuill?\w*( à \w+)?|pinc\w*|gousses?|tranches?|bo[iî]tes?|sachets?|verres?|brins?|feuilles?)\s+/i, '')
+    .replace(/^(g|kg|mg|ml|cl|dl|l|grammes?|c\.?\s?[aà]\s?[sc]\.?|cuill?\w*( à \w+)?|pinc\w*|gouttes?|gousses?|tranches?|bo[iî]tes?|sachets?|verres?|brins?|feuilles?)\s+/i, '')
     .replace(/^(de |d'|d’)/i, '').trim();
 }
 // Mots de préparation : « coupées en dés », « fondu », « facultatif »… ne sont pas des ingrédients.
