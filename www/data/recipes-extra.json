@@ -13325,7 +13325,7 @@
         "2e bain à 180°C pendant 3-4 min jusqu'à dorure parfaite.",
         "Égoutter, saler immédiatement. Servir avec mayonnaise maison."
       ],
-      "img": "img/illus/frites-001.jpg"
+      "img": "img/frites/01.jpg"
     },
     {
       "id": "frites:002",
@@ -13348,7 +13348,7 @@
         "Mélanger frites chaudes avec ail, persil et fleur de sel.",
         "Servir immédiatement."
       ],
-      "img": "img/illus/frites-002.jpg"
+      "img": "img/frites/02.jpg"
     },
     {
       "id": "frites:003",
@@ -13371,7 +13371,7 @@
         "Enrober les frites chaudes de ce mélange.",
         "Servir immédiatement avec une sauce aïoli."
       ],
-      "img": "img/illus/frites-003.jpg"
+      "img": "img/frites/03.jpg"
     },
     {
       "id": "frites:004",
@@ -13395,7 +13395,7 @@
         "Cuire 25-30 min en retournant à mi-cuisson.",
         "Servir avec une sauce ranch ou ketchup."
       ],
-      "img": "img/illus/frites-004.jpg"
+      "img": "img/frites/04.jpg"
     },
     {
       "id": "frites:005",
@@ -13417,7 +13417,7 @@
         "Disposer les frites dans un plat, napper de sauce cheddar.",
         "Garnir de lardons grillés et ciboulette. Servir immédiatement."
       ],
-      "img": "img/illus/frites-005.jpg"
+      "img": "img/frites/05.jpg"
     },
     {
       "id": "frites:006",
@@ -13439,7 +13439,7 @@
         "Disposer en couche unique sur plaque. Cuire 25-30 min.",
         "Servir avec une sauce tzatziki ou yaourt à l'ail."
       ],
-      "img": "img/illus/frites-006.jpg"
+      "img": "img/frites/06.jpg"
     },
     {
       "id": "bouchee:001",
@@ -21842,6 +21842,1988 @@
       "img": "img/sousvide/29.jpg",
       "url": "",
       "vid": ""
+    },
+    {
+      "id": "potaufeu:001",
+      "t": "Pot-au-feu Classique",
+      "cat": "France, Plat, Viande, Bœuf, Pot-au-feu",
+      "desc": "Le grand classique familial : bœuf fondant, légumes du bouillon et os à moelle.",
+      "min": 240,
+      "serv": 6,
+      "ing": [
+        "1,5 kg de bœuf à braiser (macreuse et plat de côtes)",
+        "6 carottes",
+        "4 navets",
+        "3 poireaux",
+        "2 oignons",
+        "1 os à moelle",
+        "3 clous de girofle",
+        "1 bouquet garni",
+        "Sel",
+        "Poivre en grains"
+      ],
+      "steps": [
+        "Mettre la viande dans un grand faitout, couvrir largement d'eau froide et porter doucement à ébullition.",
+        "Écumer soigneusement pendant 10 min. Ajouter les oignons piqués des clous de girofle, le bouquet garni, le poivre en grains et du sel.",
+        "Laisser frémir à couvert 2 h 30, sans bouillir fort.",
+        "Éplucher carottes et navets, couper les poireaux en tronçons et les ficeler. Les ajouter avec l'os à moelle (bouts salés) et cuire encore 45 min à 1 h.",
+        "Servir la viande tranchée entourée des légumes, avec la moelle sur du pain grillé, gros sel, moutarde et cornichons. Garder le bouillon pour une soupe."
+      ],
+      "img": "img/potaufeu/01.jpg"
+    },
+    {
+      "id": "potaufeu:002",
+      "t": "Pot-au-feu à l'Ancienne, Os à Moelle et Céleri",
+      "cat": "France, Plat, Viande, Bœuf, Pot-au-feu",
+      "desc": "Version de grand-mère avec deux os à moelle et du céleri-rave fondant.",
+      "min": 240,
+      "serv": 6,
+      "ing": [
+        "1,5 kg de bœuf à braiser",
+        "2 os à moelle",
+        "4 carottes",
+        "1/2 céleri-rave",
+        "3 poireaux",
+        "2 oignons piqués de clous de girofle",
+        "1 bouquet garni",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": [
+        "Placer le bœuf dans un faitout, couvrir d'eau froide, porter à frémissement et écumer.",
+        "Ajouter les oignons piqués, le bouquet garni, du sel et du poivre. Cuire à petits frémissements 2 h 30.",
+        "Ajouter les carottes, le céleri-rave en gros cubes et les poireaux ficelés. Cuire 45 min.",
+        "Frotter les extrémités des os à moelle au gros sel, les ajouter les 20 dernières minutes.",
+        "Servir viande et légumes arrosés d'un peu de bouillon, la moelle sur des toasts avec fleur de sel."
+      ],
+      "img": "img/potaufeu/02.jpg"
+    },
+    {
+      "id": "potaufeu:003",
+      "t": "Pot-au-feu Provençal, Tomates et Fenouil",
+      "cat": "France, Plat, Viande, Bœuf, Pot-au-feu",
+      "desc": "Un pot-au-feu ensoleillé : fenouil anisé, tomates, ail et herbes de Provence.",
+      "min": 210,
+      "serv": 6,
+      "ing": [
+        "1,5 kg de bœuf à braiser",
+        "2 fenouils",
+        "4 tomates",
+        "4 carottes",
+        "2 oignons",
+        "2 gousses d'ail",
+        "1 bouquet garni de thym et laurier",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": [
+        "Mettre le bœuf dans un faitout, couvrir d'eau froide, porter à ébullition et écumer.",
+        "Ajouter les oignons coupés en deux, l'ail écrasé, le thym et le laurier, saler et poivrer. Cuire à frémissement 2 h.",
+        "Ajouter les carottes et les fenouils coupés en quartiers. Cuire 40 min.",
+        "Ajouter les tomates entières les 15 dernières minutes, sans qu'elles se défassent.",
+        "Servir avec un filet d'huile d'olive, quelques olives noires et une sauce aïoli ou pistou."
+      ],
+      "img": "img/potaufeu/03.jpg"
+    },
+    {
+      "id": "potaufeu:004",
+      "t": "Pot-au-feu à l'Asiatique, Anis Étoilé et Gingembre",
+      "cat": "France, Plat, Viande, Bœuf, Pot-au-feu, Asie",
+      "desc": "Bouillon parfumé façon pho : badiane, gingembre et sauce soja.",
+      "min": 210,
+      "serv": 6,
+      "ing": [
+        "1,5 kg de bœuf à braiser (plat de côtes)",
+        "4 carottes",
+        "2 poireaux",
+        "1 morceau de gingembre frais",
+        "3 étoiles d'anis étoilé",
+        "2 gousses d'ail",
+        "2 c. à soupe de sauce soja",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": [
+        "Faire griller à sec le gingembre coupé en tranches et l'anis étoilé 2 min dans le faitout.",
+        "Ajouter le bœuf, couvrir d'eau froide, porter à ébullition et écumer.",
+        "Ajouter l'ail, la sauce soja, du sel et du poivre. Cuire à frémissement 2 h 15.",
+        "Ajouter les carottes et les poireaux en tronçons, cuire 40 min.",
+        "Servir le bœuf effiloché ou tranché dans le bouillon, avec coriandre, oignon nouveau et un trait de citron vert."
+      ],
+      "img": "img/potaufeu/04.jpg"
+    },
+    {
+      "id": "potaufeu:005",
+      "t": "Pot-au-feu de Queue de Bœuf",
+      "cat": "France, Plat, Viande, Bœuf, Pot-au-feu",
+      "desc": "La queue de bœuf donne un bouillon gélatineux et une viande qui se détache toute seule.",
+      "min": 240,
+      "serv": 6,
+      "ing": [
+        "1,5 kg de queue de bœuf",
+        "4 carottes",
+        "3 navets",
+        "2 poireaux",
+        "2 oignons",
+        "1 bouquet garni",
+        "3 clous de girofle",
+        "Sel",
+        "Poivre en grains"
+      ],
+      "steps": [
+        "Faire dorer les tronçons de queue de bœuf dans une cocotte avec un filet d'huile (facultatif, pour plus de goût).",
+        "Couvrir d'eau froide, porter à ébullition et écumer.",
+        "Ajouter les oignons piqués de clous de girofle, le bouquet garni, le poivre et du sel. Cuire à frémissement 3 h.",
+        "Ajouter carottes, navets et poireaux, cuire encore 45 min.",
+        "Servir la viande avec les légumes et un peu de bouillon, moutarde et gros sel. Dégraisser le bouillon froid avant de le réutiliser."
+      ],
+      "img": "img/potaufeu/05.jpg"
+    },
+    {
+      "id": "allumette:001",
+      "t": "Allumettes au Comté",
+      "cat": "Apéritif, Bouchée, Allumettes",
+      "desc": "Bâtonnets feuilletés croustillants au comté et une pointe de paprika.",
+      "min": 25,
+      "serv": "20 allumettes",
+      "ing": [
+        "1 pâte feuilletée",
+        "120 g de comté râpé",
+        "1 jaune d'œuf",
+        "1 c. à soupe de lait",
+        "1 pincée de paprika",
+        "Sel",
+        "Poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Dérouler la pâte feuilletée sur une plaque recouverte de papier cuisson.",
+        "Mélanger le jaune d'œuf avec le lait (ou la moutarde) et badigeonner toute la pâte.",
+        "Parsemer de comté râpé, de paprika, d'un peu de sel et de poivre, puis presser légèrement pour faire adhérer.",
+        "Couper en bandes de 1,5 cm de large avec un couteau ou une roulette, les espacer légèrement (on peut les torsader).",
+        "Enfourner 12 à 15 min jusqu'à ce qu'elles soient bien dorées. Laisser tiédir sur une grille avant de servir."
+      ],
+      "img": "img/allumettes/01.jpg"
+    },
+    {
+      "id": "allumette:002",
+      "t": "Allumettes au Roquefort et Noix",
+      "cat": "Apéritif, Bouchée, Allumettes",
+      "desc": "Le duo roquefort-noix sur une pâte feuilletée bien dorée.",
+      "min": 25,
+      "serv": "20 allumettes",
+      "ing": [
+        "1 pâte feuilletée",
+        "100 g de roquefort",
+        "40 g de noix concassées",
+        "1 jaune d'œuf",
+        "1 c. à soupe de lait",
+        "Poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Dérouler la pâte feuilletée sur une plaque recouverte de papier cuisson.",
+        "Mélanger le jaune d'œuf avec le lait (ou la moutarde) et badigeonner toute la pâte.",
+        "Émietter le roquefort sur la pâte, parsemer de noix concassées et poivrer. Presser légèrement.",
+        "Couper en bandes de 1,5 cm de large avec un couteau ou une roulette, les espacer légèrement (on peut les torsader).",
+        "Enfourner 12 à 15 min jusqu'à ce qu'elles soient bien dorées. Laisser tiédir sur une grille avant de servir."
+      ],
+      "img": "img/allumettes/02.jpg"
+    },
+    {
+      "id": "allumette:003",
+      "t": "Allumettes au Chèvre et Miel",
+      "cat": "Apéritif, Bouchée, Allumettes",
+      "desc": "Chèvre frais, miel et thym : le sucré-salé qui plaît à tous.",
+      "min": 25,
+      "serv": "20 allumettes",
+      "ing": [
+        "1 pâte feuilletée",
+        "100 g de fromage de chèvre frais",
+        "2 c. à soupe de miel",
+        "1 jaune d'œuf",
+        "Quelques brins de thym",
+        "Sel"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Dérouler la pâte feuilletée sur une plaque recouverte de papier cuisson.",
+        "Badigeonner la pâte de jaune d'œuf battu avec 1 c. à soupe d'eau.",
+        "Émietter le chèvre sur la pâte, parsemer de thym effeuillé et d'une pincée de sel.",
+        "Couper en bandes de 1,5 cm de large avec un couteau ou une roulette, les espacer légèrement (on peut les torsader).",
+        "Enfourner 12 à 15 min. À la sortie du four, napper d'un filet de miel et servir tiède."
+      ],
+      "img": "img/allumettes/03.jpg"
+    },
+    {
+      "id": "allumette:004",
+      "t": "Allumettes au Jambon et Emmental",
+      "cat": "Apéritif, Bouchée, Allumettes",
+      "desc": "Façon croque-monsieur en bâtonnets : jambon, emmental et moutarde.",
+      "min": 25,
+      "serv": "20 allumettes",
+      "ing": [
+        "1 pâte feuilletée",
+        "100 g de jambon blanc",
+        "100 g d'emmental râpé",
+        "1 jaune d'œuf",
+        "1 c. à soupe de moutarde",
+        "Poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Dérouler la pâte feuilletée sur une plaque recouverte de papier cuisson.",
+        "Mélanger le jaune d'œuf et la moutarde, badigeonner la pâte.",
+        "Répartir le jambon coupé en petits dés et l'emmental râpé, poivrer et presser légèrement.",
+        "Couper en bandes de 1,5 cm de large avec un couteau ou une roulette, les espacer légèrement (on peut les torsader).",
+        "Enfourner 12 à 15 min jusqu'à ce qu'elles soient bien dorées. Laisser tiédir sur une grille avant de servir."
+      ],
+      "img": "img/allumettes/04.jpg"
+    },
+    {
+      "id": "allumette:005",
+      "t": "Allumettes au Potimarron et Parmesan",
+      "cat": "Apéritif, Bouchée, Allumettes",
+      "desc": "Allumettes d'automne à la purée de potimarron, parmesan et muscade.",
+      "min": 30,
+      "serv": "20 allumettes",
+      "ing": [
+        "1 pâte feuilletée",
+        "150 g de purée de potimarron",
+        "60 g de parmesan râpé",
+        "1 jaune d'œuf",
+        "1 pincée de noix de muscade",
+        "Sel"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Dérouler la pâte feuilletée sur une plaque recouverte de papier cuisson.",
+        "Assaisonner la purée de potimarron (bien égouttée) de muscade et de sel, l'étaler en couche fine sur la pâte.",
+        "Badigeonner les bords de jaune d'œuf et parsemer de parmesan.",
+        "Couper en bandes de 1,5 cm de large avec un couteau ou une roulette, les espacer légèrement (on peut les torsader).",
+        "Enfourner 12 à 15 min jusqu'à ce qu'elles soient bien dorées. Laisser tiédir sur une grille avant de servir."
+      ],
+      "img": "img/allumettes/05.jpg"
+    },
+    {
+      "id": "pinsa:001",
+      "t": "Pinsa Tomates, Mozzarella, Basilic",
+      "cat": "Italie, Pizza, Plat, Pinsa",
+      "desc": "La margherita version pinsa romaine, légère et croustillante.",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "1 base de pinsa précuite",
+        "4 c. à soupe de sauce tomate",
+        "1 boule de mozzarella",
+        "10 tomates cerises",
+        "Basilic frais",
+        "Huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C. Poser la base de pinsa (précuite) sur une plaque.",
+        "Étaler la sauce tomate, répartir la mozzarella en morceaux et les tomates cerises coupées en deux.",
+        "Enfourner 8 à 10 min, jusqu'à ce que la pâte soit bien dorée et croustillante.",
+        "Parsemer de feuilles de basilic frais.",
+        "Finir d'un filet d'huile d'olive avant de servir."
+      ],
+      "img": "img/pinsas/01.jpg"
+    },
+    {
+      "id": "pinsa:002",
+      "t": "Pinsa Jambon Cru, Roquette, Parmesan",
+      "cat": "Italie, Pizza, Plat, Pinsa",
+      "desc": "Base crème, jambon cru posé à la sortie du four, roquette et copeaux de parmesan.",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "1 base de pinsa précuite",
+        "3 c. à soupe de crème fraîche",
+        "4 tranches de jambon cru",
+        "1 poignée de roquette",
+        "Copeaux de parmesan",
+        "Huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C. Poser la base de pinsa (précuite) sur une plaque.",
+        "Étaler la crème fraîche, saler légèrement et poivrer.",
+        "Enfourner 8 à 10 min, jusqu'à ce que la pâte soit bien dorée et croustillante.",
+        "Garnir de jambon cru, de roquette et de copeaux de parmesan.",
+        "Finir d'un filet d'huile d'olive avant de servir."
+      ],
+      "img": "img/pinsas/02.jpg"
+    },
+    {
+      "id": "pinsa:003",
+      "t": "Pinsa Courgettes, Chèvre, Miel",
+      "cat": "Italie, Pizza, Plat, Pinsa",
+      "desc": "Rondelles de courgette, chèvre fondant, miel et noix.",
+      "min": 20,
+      "serv": 2,
+      "ing": [
+        "1 base de pinsa précuite",
+        "3 c. à soupe de crème fraîche",
+        "1 courgette",
+        "100 g de chèvre",
+        "1 c. à soupe de miel",
+        "1 poignée de noix",
+        "Huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C. Poser la base de pinsa (précuite) sur une plaque.",
+        "Étaler la crème, disposer la courgette en fines rondelles et le chèvre en rondelles.",
+        "Enfourner 8 à 10 min, jusqu'à ce que la pâte soit bien dorée et croustillante.",
+        "Arroser de miel et parsemer de noix concassées.",
+        "Finir d'un filet d'huile d'olive avant de servir."
+      ],
+      "img": "img/pinsas/03.jpg"
+    },
+    {
+      "id": "pinsa:004",
+      "t": "Pinsa Poivrons, Feta, Olives",
+      "cat": "Italie, Pizza, Plat, Pinsa",
+      "desc": "Saveurs grecques : poivrons grillés, feta, olives noires et origan.",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "1 base de pinsa précuite",
+        "4 c. à soupe de sauce tomate",
+        "2 poivrons grillés",
+        "100 g de feta",
+        "1 poignée d'olives noires",
+        "Origan",
+        "Huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C. Poser la base de pinsa (précuite) sur une plaque.",
+        "Étaler la sauce tomate, ajouter les poivrons en lanières, la feta émiettée et les olives. Saupoudrer d'origan.",
+        "Enfourner 8 à 10 min, jusqu'à ce que la pâte soit bien dorée et croustillante.",
+        "Finir d'un filet d'huile d'olive avant de servir."
+      ],
+      "img": "img/pinsas/04.jpg"
+    },
+    {
+      "id": "pinsa:005",
+      "t": "Pinsa Saumon Fumé, Fromage Frais, Aneth",
+      "cat": "Italie, Pizza, Plat, Pinsa",
+      "desc": "Une pinsa fraîche, garnie après cuisson : saumon fumé, aneth et câpres.",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "1 base de pinsa précuite",
+        "100 g de fromage frais (type Saint-Môret)",
+        "4 tranches de saumon fumé",
+        "Aneth",
+        "1/2 citron",
+        "1 c. à soupe de câpres"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C et cuire la base seule 6 à 8 min, jusqu'à ce qu'elle soit croustillante. Laisser tiédir.",
+        "Mélanger le fromage frais avec un peu de zeste et de jus de citron, l'étaler sur la base.",
+        "Disposer le saumon fumé, parsemer d'aneth et de câpres, poivrer. Servir aussitôt."
+      ],
+      "img": "img/pinsas/05.jpg"
+    },
+    {
+      "id": "pinsa:006",
+      "t": "Pinsa Champignons, Truffe, Roquette",
+      "cat": "Italie, Pizza, Plat, Pinsa",
+      "desc": "Base crème de truffe, champignons, mozzarella et roquette.",
+      "min": 20,
+      "serv": 2,
+      "ing": [
+        "1 base de pinsa précuite",
+        "3 c. à soupe de crème de truffe",
+        "150 g de champignons de Paris",
+        "1 boule de mozzarella",
+        "1 poignée de roquette",
+        "Huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C. Poser la base de pinsa (précuite) sur une plaque.",
+        "Étaler la crème de truffe, ajouter les champignons émincés et la mozzarella en morceaux.",
+        "Enfourner 8 à 10 min, jusqu'à ce que la pâte soit bien dorée et croustillante.",
+        "Garnir de roquette.",
+        "Finir d'un filet d'huile d'olive avant de servir."
+      ],
+      "img": "img/pinsas/06.jpg"
+    },
+    {
+      "id": "pinsa:007",
+      "t": "Pinsa Burrata, Tomates Cerises, Pesto",
+      "cat": "Italie, Pizza, Plat, Pinsa",
+      "desc": "Une burrata entière posée sur une base pesto et tomates cerises rôties.",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "1 base de pinsa précuite",
+        "3 c. à soupe de pesto",
+        "1 burrata",
+        "12 tomates cerises",
+        "1 poignée de roquette",
+        "Huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C. Poser la base de pinsa (précuite) sur une plaque.",
+        "Étaler le pesto, ajouter les tomates cerises coupées en deux.",
+        "Enfourner 8 à 10 min, jusqu'à ce que la pâte soit bien dorée et croustillante.",
+        "Déposer la burrata au centre, la roquette autour, poivrer.",
+        "Finir d'un filet d'huile d'olive avant de servir."
+      ],
+      "img": "img/pinsas/07.jpg"
+    },
+    {
+      "id": "pinsa:008",
+      "t": "Pinsa Thon, Oignons Rouges, Maïs",
+      "cat": "Italie, Pizza, Plat, Pinsa",
+      "desc": "La pinsa du placard : thon, maïs, oignon rouge et olives.",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "1 base de pinsa précuite",
+        "4 c. à soupe de sauce tomate",
+        "1 boîte de thon au naturel",
+        "1/2 oignon rouge",
+        "3 c. à soupe de maïs",
+        "Quelques olives",
+        "Huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C. Poser la base de pinsa (précuite) sur une plaque.",
+        "Étaler la sauce tomate, émietter le thon, ajouter l'oignon rouge en fines rondelles, le maïs et les olives.",
+        "Enfourner 8 à 10 min, jusqu'à ce que la pâte soit bien dorée et croustillante.",
+        "Finir d'un filet d'huile d'olive avant de servir."
+      ],
+      "img": "img/pinsas/08.jpg"
+    },
+    {
+      "id": "pinsa:009",
+      "t": "Pinsa Avocat, Tomates, Feta",
+      "cat": "Italie, Pizza, Plat, Pinsa",
+      "desc": "Base crème, avocat, tomates, feta, citron et une pointe de piment.",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "1 base de pinsa précuite",
+        "3 c. à soupe de crème fraîche",
+        "1 avocat",
+        "2 tomates",
+        "80 g de feta",
+        "1/2 citron",
+        "Piment en flocons"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C. Étaler la crème sur la base et cuire 8 min.",
+        "Garnir de tomates en dés, d'avocat en tranches et de feta émiettée.",
+        "Arroser de jus de citron, parsemer de piment en flocons et d'un filet d'huile d'olive."
+      ],
+      "img": "img/pinsas/09.jpg"
+    },
+    {
+      "id": "pinsa:010",
+      "t": "Pinsa Pêche, Jambon Cru, Roquette",
+      "cat": "Italie, Pizza, Plat, Pinsa",
+      "desc": "Sucré-salé estival : pêches, jambon cru et roquette sur base crème.",
+      "min": 15,
+      "serv": 2,
+      "ing": [
+        "1 base de pinsa précuite",
+        "3 c. à soupe de crème fraîche",
+        "2 pêches",
+        "4 tranches de jambon cru",
+        "1 poignée de roquette",
+        "Huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C. Poser la base de pinsa (précuite) sur une plaque.",
+        "Étaler la crème, disposer les pêches en quartiers fins.",
+        "Enfourner 8 à 10 min, jusqu'à ce que la pâte soit bien dorée et croustillante.",
+        "Ajouter le jambon cru et la roquette, poivrer.",
+        "Finir d'un filet d'huile d'olive avant de servir."
+      ],
+      "img": "img/pinsas/10.jpg"
+    },
+    {
+      "id": "boeuf:001",
+      "t": "Bœuf Bourguignon Traditionnel",
+      "cat": "Bœuf, Plat, Viande, France",
+      "desc": "Le classique mijoté au vin rouge, carottes, oignons et champignons.",
+      "min": 210,
+      "serv": 6,
+      "ing": [
+        "1,5 kg de bœuf (paleron, macreuse)",
+        "75 cl de vin rouge (bourgogne)",
+        "3 carottes",
+        "2 oignons",
+        "250 g de champignons de Paris",
+        "150 g de lardons",
+        "2 gousses d'ail",
+        "2 c. à soupe de farine",
+        "1 bouquet garni",
+        "Huile, sel, poivre"
+      ],
+      "steps": [
+        "La veille (facultatif) : faire mariner le bœuf en cubes dans le vin avec oignons, carottes et bouquet garni.",
+        "Égoutter et sécher la viande, la faire dorer par petites quantités dans une cocotte huilée. Réserver.",
+        "Faire revenir lardons, oignons et carottes, saupoudrer de farine, remettre la viande et mouiller avec le vin.",
+        "Ajouter ail et bouquet garni, saler, poivrer. Couvrir et mijoter 2 h 30 à 3 h à feu très doux.",
+        "Faire sauter les champignons à part et les ajouter 20 min avant la fin. Servir avec pâtes fraîches ou pommes vapeur."
+      ],
+      "img": "img/boeuf/01.jpg"
+    },
+    {
+      "id": "boeuf:002",
+      "t": "Bœuf Mijoté, Purée Maison",
+      "cat": "Bœuf, Plat, Viande",
+      "desc": "Bœuf fondant au bouillon, servi avec une purée maison bien beurrée.",
+      "min": 180,
+      "serv": 4,
+      "ing": [
+        "1 kg de bœuf à mijoter",
+        "1 kg de pommes de terre",
+        "3 carottes",
+        "2 oignons",
+        "50 cl de bouillon de bœuf",
+        "50 g de beurre",
+        "20 cl de lait",
+        "Huile, sel, poivre"
+      ],
+      "steps": [
+        "Couper le bœuf en gros cubes et le faire dorer dans une cocotte huilée.",
+        "Ajouter oignons émincés et carottes en rondelles, faire revenir 5 min.",
+        "Verser le bouillon, saler, poivrer, couvrir et mijoter 2 h 30 à feu doux.",
+        "Pour la purée : cuire les pommes de terre 25 min à l'eau salée, écraser avec le beurre et le lait chaud.",
+        "Servir le bœuf et sa sauce réduite à côté de la purée."
+      ],
+      "img": "img/boeuf/02.jpg"
+    },
+    {
+      "id": "boeuf:003",
+      "t": "Rôti de Bœuf, Ail et Pommes de Terre",
+      "cat": "Bœuf, Plat, Viande",
+      "desc": "Rôti saisi puis cuit au four avec pommes de terre et gousses d'ail confites.",
+      "min": 60,
+      "serv": 6,
+      "ing": [
+        "1 rôti de bœuf de 1,2 kg",
+        "1 kg de petites pommes de terre",
+        "1 tête d'ail",
+        "4 c. à soupe d'huile d'olive",
+        "Thym",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Sortir le rôti 1 h avant. Préchauffer le four à 220 °C.",
+        "Mélanger les pommes de terre coupées en deux, les gousses d'ail en chemise, l'huile, le thym, sel et poivre. Enfourner 15 min.",
+        "Saisir le rôti sur toutes ses faces dans une poêle chaude, le poser au milieu des pommes de terre.",
+        "Cuire 15 min par 500 g pour un rôti saignant (environ 35 min), en arrosant à mi-cuisson.",
+        "Laisser reposer 10 min sous papier aluminium avant de trancher."
+      ],
+      "img": "img/boeuf/03.jpg"
+    },
+    {
+      "id": "boeuf:004",
+      "t": "Bœuf aux Oignons, Sauce Asiatique",
+      "cat": "Bœuf, Plat, Viande, Asie",
+      "desc": "Lamelles de bœuf sautées au wok avec oignons, soja, miel et gingembre.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "600 g de bœuf (rumsteck ou bavette)",
+        "3 oignons",
+        "4 c. à soupe de sauce soja",
+        "1 c. à soupe de miel",
+        "1 morceau de gingembre frais",
+        "1 c. à café de maïzena",
+        "Huile"
+      ],
+      "steps": [
+        "Couper le bœuf en fines lamelles, mélanger avec 2 c. à soupe de soja et la maïzena. Laisser reposer 10 min.",
+        "Émincer les oignons, râper le gingembre.",
+        "Saisir le bœuf 2 min au wok très chaud avec un peu d'huile, réserver.",
+        "Faire sauter les oignons 4 min, ajouter le gingembre, le reste du soja et le miel.",
+        "Remettre le bœuf 1 min pour l'enrober de sauce. Servir avec du riz."
+      ],
+      "img": "img/boeuf/04.jpg"
+    },
+    {
+      "id": "boeuf:005",
+      "t": "Bœuf Braisé aux Petits Légumes",
+      "cat": "Bœuf, Plat, Viande",
+      "desc": "Morceau braisé lentement avec carottes, oignons grelots et thym.",
+      "min": 180,
+      "serv": 4,
+      "ing": [
+        "1 kg de bœuf à braiser",
+        "4 carottes",
+        "200 g d'oignons grelots",
+        "50 cl de bouillon de bœuf",
+        "Thym",
+        "Huile, sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C. Saler, poivrer et saisir la viande sur toutes ses faces en cocotte.",
+        "Ajouter les oignons grelots et les carottes en tronçons, faire revenir 5 min.",
+        "Verser le bouillon, ajouter le thym, couvrir.",
+        "Braiser au four 2 h 30 en arrosant de temps en temps.",
+        "Trancher la viande et servir nappée de son jus réduit, avec les légumes."
+      ],
+      "img": "img/boeuf/05.jpg"
+    },
+    {
+      "id": "boeuf:006",
+      "t": "Bœuf Sauce Champignons Crémeuse",
+      "cat": "Bœuf, Plat, Viande",
+      "desc": "Émincé de bœuf nappé d'une sauce crème aux champignons et persil.",
+      "min": 30,
+      "serv": 4,
+      "ing": [
+        "600 g de bœuf (rumsteck)",
+        "300 g de champignons",
+        "20 cl de crème fraîche",
+        "2 gousses d'ail",
+        "Persil",
+        "Beurre, sel, poivre"
+      ],
+      "steps": [
+        "Couper le bœuf en lamelles, le saisir 2 min dans une poêle beurrée très chaude. Réserver.",
+        "Dans la même poêle, faire sauter les champignons émincés avec l'ail haché 6 min.",
+        "Verser la crème, laisser réduire 3 min, saler, poivrer.",
+        "Remettre le bœuf 1 min dans la sauce, parsemer de persil. Servir avec riz ou tagliatelles."
+      ],
+      "img": "img/boeuf/06.jpg"
+    },
+    {
+      "id": "boeuf:007",
+      "t": "Rôti de Bœuf, Herbes et Grenailles",
+      "cat": "Bœuf, Plat, Viande",
+      "desc": "Rôti en croûte d'herbes de Provence, pommes de terre grenaille rôties.",
+      "min": 60,
+      "serv": 6,
+      "ing": [
+        "1 rôti de bœuf de 1,2 kg",
+        "800 g de pommes de terre grenaille",
+        "2 c. à soupe d'herbes de Provence",
+        "3 gousses d'ail",
+        "4 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C. Frotter le rôti avec l'ail écrasé, l'huile, les herbes, sel et poivre.",
+        "Mettre les grenailles entières avec un filet d'huile dans un plat, enfourner 15 min.",
+        "Ajouter le rôti au centre et cuire 30 à 35 min (saignant).",
+        "Laisser reposer 10 min sous aluminium, trancher finement et servir avec les grenailles."
+      ],
+      "img": "img/boeuf/07.jpg"
+    },
+    {
+      "id": "boeuf:008",
+      "t": "Émincé de Bœuf aux Poivrons",
+      "cat": "Bœuf, Plat, Viande",
+      "desc": "Sauté rapide de bœuf, poivrons rouges et verts, oignon et ail.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "600 g de bœuf (bavette)",
+        "1 poivron rouge",
+        "1 poivron vert",
+        "1 oignon",
+        "2 gousses d'ail",
+        "3 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Émincer le bœuf en lanières, les poivrons et l'oignon en lamelles.",
+        "Saisir le bœuf 2 min dans une poêle très chaude avec un peu d'huile, réserver.",
+        "Faire sauter oignon et poivrons 6 à 8 min, ajouter l'ail haché.",
+        "Remettre le bœuf, saler, poivrer, mélanger 1 min et servir aussitôt."
+      ],
+      "img": "img/boeuf/08.jpg"
+    },
+    {
+      "id": "boeuf:009",
+      "t": "Bœuf Mijoté, Ail et Vin Rouge",
+      "cat": "Bœuf, Plat, Viande",
+      "desc": "Ragoût au vin rouge, ail et carottes, parfumé au bouquet garni.",
+      "min": 180,
+      "serv": 6,
+      "ing": [
+        "1,2 kg de bœuf à mijoter",
+        "50 cl de vin rouge",
+        "6 gousses d'ail",
+        "4 carottes",
+        "1 bouquet garni",
+        "1 c. à soupe de farine",
+        "Huile, sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer le bœuf en cubes dans une cocotte huilée.",
+        "Saupoudrer de farine, mélanger 1 min, ajouter les gousses d'ail entières et les carottes en rondelles.",
+        "Verser le vin rouge et un verre d'eau, ajouter le bouquet garni, saler, poivrer.",
+        "Couvrir et mijoter 2 h 30 à feu doux. Servir avec pâtes, polenta ou purée."
+      ],
+      "img": "img/boeuf/09.jpg"
+    },
+    {
+      "id": "boeuf:010",
+      "t": "Carbonade de Bœuf Maison",
+      "cat": "Bœuf, Plat, Viande, Belgique",
+      "desc": "La carbonade flamande : bœuf mijoté à la bière brune, oignons et moutarde.",
+      "min": 180,
+      "serv": 6,
+      "ing": [
+        "1,2 kg de bœuf (paleron)",
+        "75 cl de bière brune",
+        "4 oignons",
+        "2 carottes",
+        "2 tranches de pain d'épices",
+        "2 c. à soupe de moutarde",
+        "1 c. à soupe de cassonade",
+        "Beurre, sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer le bœuf en cubes dans le beurre, réserver.",
+        "Faire fondre les oignons émincés 10 min, ajouter la cassonade pour caraméliser.",
+        "Remettre la viande, ajouter les carottes, verser la bière.",
+        "Tartiner le pain d'épices de moutarde et le poser sur le dessus.",
+        "Couvrir et mijoter 2 h 30 à feu doux, en mélangeant pour que le pain d'épices épaississe la sauce. Servir avec des frites."
+      ],
+      "img": "img/boeuf/10.jpg"
+    },
+    {
+      "id": "boeuf:011",
+      "t": "Bœuf Forestier au Parmesan",
+      "cat": "Bœuf, Plat, Viande",
+      "desc": "Bœuf aux champignons et crème, gratiné de copeaux de parmesan.",
+      "min": 35,
+      "serv": 4,
+      "ing": [
+        "600 g de bœuf (rumsteck)",
+        "300 g de champignons (mélange forestier)",
+        "20 cl de crème fraîche",
+        "50 g de parmesan",
+        "Persil",
+        "Beurre, sel, poivre"
+      ],
+      "steps": [
+        "Saisir le bœuf en lamelles dans une poêle beurrée, réserver.",
+        "Faire sauter les champignons 8 min jusqu'à ce qu'ils soient dorés.",
+        "Ajouter la crème et la moitié du parmesan râpé, laisser épaissir 3 min.",
+        "Remettre la viande, saler, poivrer. Servir garni de copeaux de parmesan et de persil."
+      ],
+      "img": "img/boeuf/11.jpg"
+    },
+    {
+      "id": "boeuf:012",
+      "t": "Bœuf Caramélisé, Sauce Soja",
+      "cat": "Bœuf, Plat, Viande, Asie",
+      "desc": "Cubes de bœuf laqués au soja et au miel, graines de sésame.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "600 g de bœuf (rumsteck)",
+        "4 c. à soupe de sauce soja",
+        "2 c. à soupe de miel",
+        "2 gousses d'ail",
+        "1 c. à soupe de graines de sésame",
+        "1 oignon nouveau",
+        "Huile"
+      ],
+      "steps": [
+        "Couper le bœuf en cubes, le faire mariner 15 min dans le soja, le miel et l'ail haché.",
+        "Égoutter la viande (garder la marinade) et la saisir 3 min au wok bien chaud.",
+        "Verser la marinade, laisser réduire jusqu'à ce que la sauce nappe et caramélise.",
+        "Parsemer de sésame grillé et d'oignon nouveau. Servir avec du riz."
+      ],
+      "img": "img/boeuf/12.jpg"
+    },
+    {
+      "id": "boeuf:013",
+      "t": "Parmentier de Bœuf Effiloché",
+      "cat": "Bœuf, Plat, Viande, Gratin",
+      "desc": "Bœuf mijoté effiloché sous une purée gratinée au fromage.",
+      "min": 210,
+      "serv": 6,
+      "ing": [
+        "1 kg de bœuf à mijoter (paleron)",
+        "1,2 kg de pommes de terre",
+        "20 cl de crème fraîche",
+        "100 g de fromage râpé",
+        "1 oignon",
+        "50 cl de bouillon de bœuf",
+        "Beurre, sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer le bœuf avec l'oignon, couvrir de bouillon et mijoter 2 h 30 jusqu'à ce qu'il s'effiloche.",
+        "Effilocher la viande à la fourchette avec un peu de jus de cuisson.",
+        "Cuire les pommes de terre, les écraser avec la crème et le beurre, saler, poivrer.",
+        "Préchauffer le four à 200 °C. Étaler le bœuf dans un plat, couvrir de purée, parsemer de fromage.",
+        "Gratiner 20 min jusqu'à ce que le dessus soit doré."
+      ],
+      "img": "img/boeuf/13.jpg"
+    },
+    {
+      "id": "boeuf:014",
+      "t": "Joues de Bœuf Confites",
+      "cat": "Bœuf, Plat, Viande",
+      "desc": "Joues de bœuf confites au vin rouge, fondantes à la cuillère.",
+      "min": 240,
+      "serv": 4,
+      "ing": [
+        "4 joues de bœuf",
+        "75 cl de vin rouge",
+        "3 carottes",
+        "2 oignons",
+        "Thym",
+        "1 c. à soupe de farine",
+        "Huile, sel, poivre"
+      ],
+      "steps": [
+        "Parer les joues, les saler, poivrer et les saisir sur toutes les faces en cocotte.",
+        "Ajouter oignons et carottes en morceaux, saupoudrer de farine.",
+        "Mouiller avec le vin rouge, ajouter le thym, couvrir.",
+        "Cuire 3 h 30 à feu très doux (ou au four à 150 °C) : les joues doivent se couper à la cuillère.",
+        "Réduire la sauce si besoin et servir avec une purée."
+      ],
+      "img": "img/boeuf/14.jpg"
+    },
+    {
+      "id": "boeuf:015",
+      "t": "Rosbif Maison aux Herbes",
+      "cat": "Bœuf, Plat, Viande",
+      "desc": "Rosbif rosé à cœur, croûte d'herbes fraîches et ail.",
+      "min": 50,
+      "serv": 6,
+      "ing": [
+        "1 rôti de bœuf de 1 kg",
+        "3 gousses d'ail",
+        "1 bouquet d'herbes fraîches (thym, romarin, persil)",
+        "3 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Sortir la viande 1 h avant. Préchauffer le four à 240 °C.",
+        "Hacher herbes et ail, mélanger avec l'huile, sel et poivre, en frotter le rôti.",
+        "Saisir le rôti 2 min par face dans une poêle très chaude.",
+        "Enfourner 20 à 25 min (cœur à 50 °C pour saignant).",
+        "Laisser reposer 15 min sous aluminium, puis trancher finement. Délicieux chaud ou froid."
+      ],
+      "img": "img/boeuf/15.jpg"
+    },
+    {
+      "id": "boeuf:016",
+      "t": "Bœuf Lentement Mijoté aux Légumes",
+      "cat": "Bœuf, Plat, Viande",
+      "desc": "Mijoté longue cuisson aux carottes, champignons et céleri.",
+      "min": 240,
+      "serv": 6,
+      "ing": [
+        "1,2 kg de bœuf à mijoter",
+        "4 carottes",
+        "250 g de champignons",
+        "2 branches de céleri",
+        "1 oignon",
+        "75 cl de bouillon de bœuf",
+        "1 c. à soupe de concentré de tomate",
+        "Huile, sel, poivre"
+      ],
+      "steps": [
+        "Faire dorer le bœuf en cubes dans une cocotte, réserver.",
+        "Faire revenir oignon, carottes et céleri en morceaux 5 min, ajouter le concentré de tomate.",
+        "Remettre la viande, verser le bouillon, saler, poivrer.",
+        "Couvrir et cuire 3 h à feu très doux (ou 8 h en mijoteuse).",
+        "Ajouter les champignons 30 min avant la fin. Servir bien chaud."
+      ],
+      "img": "img/boeuf/16.jpg"
+    },
+    {
+      "id": "flan:001",
+      "t": "Flan Classique au Caramel",
+      "cat": "Dessert, Crème dessert, Flan",
+      "desc": "Le flan aux œufs nappé de caramel, lisse et onctueux.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "1 l de lait entier",
+        "6 œufs",
+        "120 g de sucre",
+        "1 gousse de vanille",
+        "100 g de sucre (caramel)"
+      ],
+      "steps": [
+        "Préparer le caramel : faire fondre 100 g de sucre à sec dans une casserole jusqu'à coloration ambrée, le verser au fond d'un moule à flan de 20 cm.",
+        "Préchauffer le four à 160 °C.",
+        "Chauffer le lait avec la gousse de vanille fendue, laisser infuser 10 min.",
+        "Fouetter les œufs avec le sucre sans faire mousser, verser le lait chaud filtré en mélangeant.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat."
+      ],
+      "img": "img/flans/01.jpg"
+    },
+    {
+      "id": "flan:002",
+      "t": "Flan au Chocolat",
+      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "desc": "Un flan dense et fondant au chocolat noir.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "75 cl de lait",
+        "25 cl de crème liquide",
+        "5 œufs",
+        "100 g de sucre",
+        "150 g de chocolat noir"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C.",
+        "Chauffer lait et crème, y faire fondre le chocolat en morceaux.",
+        "Fouetter les œufs avec le sucre, verser le mélange chocolaté en fouettant.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat."
+      ],
+      "img": "img/flans/02.jpg"
+    },
+    {
+      "id": "flan:003",
+      "t": "Flan Chocolat-Vanille Marbré",
+      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "desc": "Deux appareils vanille et chocolat marbrés à la pointe du couteau.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "1 l de lait",
+        "6 œufs",
+        "130 g de sucre",
+        "1 gousse de vanille",
+        "100 g de chocolat noir"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C.",
+        "Chauffer le lait vanillé. Fouetter œufs et sucre, verser le lait chaud.",
+        "Séparer en deux : faire fondre le chocolat dans une moitié.",
+        "Verser les deux appareils en alternance dans le moule, puis tracer des volutes avec un couteau.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat."
+      ],
+      "img": "img/flans/03.jpg"
+    },
+    {
+      "id": "flan:004",
+      "t": "Flan Coco et Caramel",
+      "cat": "Dessert, Crème dessert, Flan",
+      "desc": "Flan exotique au lait de coco et noix de coco râpée, sous un caramel blond.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "40 cl de lait de coco",
+        "1 boîte de lait concentré sucré (397 g)",
+        "40 cl de lait",
+        "5 œufs",
+        "50 g de noix de coco râpée",
+        "100 g de sucre (caramel)"
+      ],
+      "steps": [
+        "Préparer le caramel : faire fondre 100 g de sucre à sec dans une casserole jusqu'à coloration ambrée, le verser au fond d'un moule à flan de 20 cm.",
+        "Préchauffer le four à 160 °C.",
+        "Mixer lait de coco, lait concentré, lait, œufs et noix de coco râpée.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat."
+      ],
+      "img": "img/flans/04.jpg"
+    },
+    {
+      "id": "flan:005",
+      "t": "Flan Chocolat-Menthe",
+      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "desc": "Flan au chocolat parfumé à la menthe fraîche, façon After Eight.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "75 cl de lait",
+        "25 cl de crème liquide",
+        "5 œufs",
+        "100 g de sucre",
+        "150 g de chocolat noir",
+        "1 bouquet de menthe fraîche"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C.",
+        "Chauffer lait et crème, y infuser la menthe 15 min à couvert, filtrer.",
+        "Réchauffer, faire fondre le chocolat. Fouetter œufs et sucre puis incorporer le mélange.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Décorer de quelques feuilles de menthe et de copeaux de chocolat."
+      ],
+      "img": "img/flans/05.jpg"
+    },
+    {
+      "id": "flan:006",
+      "t": "Flan à la Vanille",
+      "cat": "Dessert, Crème dessert, Flan",
+      "desc": "Flan sans caramel, bien vanillé, à la texture crémeuse.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "75 cl de lait",
+        "25 cl de crème liquide",
+        "6 œufs",
+        "130 g de sucre",
+        "2 gousses de vanille"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C.",
+        "Chauffer lait et crème avec les gousses de vanille fendues et grattées, infuser 15 min.",
+        "Fouetter œufs et sucre, verser le lait vanillé filtré.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat."
+      ],
+      "img": "img/flans/06.jpg"
+    },
+    {
+      "id": "flan:007",
+      "t": "Flan à la Noix de Coco",
+      "cat": "Dessert, Crème dessert, Flan",
+      "desc": "Flan coco généreux, coiffé de noix de coco râpée dorée.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "40 cl de lait de coco",
+        "40 cl de lait",
+        "5 œufs",
+        "120 g de sucre",
+        "80 g de noix de coco râpée"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C.",
+        "Chauffer le lait et le lait de coco. Fouetter œufs et sucre, verser les laits chauds.",
+        "Ajouter 50 g de noix de coco râpée (garder le reste pour le dessus).",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Parsemer du reste de noix de coco légèrement dorée à la poêle."
+      ],
+      "img": "img/flans/08.jpg"
+    },
+    {
+      "id": "flan:008",
+      "t": "Flan Chocolat-Café",
+      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "desc": "Un flan moka : chocolat noir et café serré.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "75 cl de lait",
+        "25 cl de crème liquide",
+        "5 œufs",
+        "100 g de sucre",
+        "120 g de chocolat noir",
+        "2 expressos (ou 2 c. à café de café soluble)"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C.",
+        "Chauffer lait et crème, ajouter le café et faire fondre le chocolat.",
+        "Fouetter œufs et sucre, verser le mélange chaud en fouettant.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Saupoudrer de cacao avant de servir."
+      ],
+      "img": "img/flans/09.jpg"
+    },
+    {
+      "id": "flan:009",
+      "t": "Flan aux Framboises",
+      "cat": "Dessert, Crème dessert, Flan",
+      "desc": "Flan vanille surmonté de framboises fraîches.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "1 l de lait",
+        "6 œufs",
+        "120 g de sucre",
+        "1 gousse de vanille",
+        "250 g de framboises",
+        "100 g de sucre (caramel)"
+      ],
+      "steps": [
+        "Préparer le caramel : faire fondre 100 g de sucre à sec dans une casserole jusqu'à coloration ambrée, le verser au fond d'un moule à flan de 20 cm.",
+        "Préchauffer le four à 160 °C.",
+        "Chauffer le lait vanillé. Fouetter œufs et sucre, verser le lait chaud.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Garnir généreusement de framboises fraîches au moment de servir."
+      ],
+      "img": "img/flans/10.jpg"
+    },
+    {
+      "id": "flan:010",
+      "t": "Flan au Citron",
+      "cat": "Dessert, Crème dessert, Flan",
+      "desc": "Flan frais et acidulé au zeste de citron.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "75 cl de lait",
+        "25 cl de crème liquide",
+        "5 œufs",
+        "130 g de sucre",
+        "2 citrons non traités"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C.",
+        "Chauffer lait et crème avec le zeste des citrons, infuser 10 min, filtrer.",
+        "Fouetter œufs et sucre, verser le lait chaud, puis ajouter 3 c. à soupe de jus de citron.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Décorer d'une rondelle de citron."
+      ],
+      "img": "img/flans/11.jpg"
+    },
+    {
+      "id": "flan:011",
+      "t": "Cheesecake Japonais (Flan Soufflé)",
+      "cat": "Dessert, Crème dessert, Flan, Cheesecake",
+      "desc": "Le cotton cheesecake : un flan au fromage aérien, qui tremble comme un soufflé.",
+      "min": 90,
+      "serv": 8,
+      "ing": [
+        "250 g de fromage frais (type Philadelphia)",
+        "50 g de beurre",
+        "100 ml de lait",
+        "5 œufs",
+        "60 g de farine",
+        "20 g de maïzena",
+        "130 g de sucre",
+        "1 c. à soupe de jus de citron",
+        "Sucre glace"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C. Chemiser un moule de 20 cm de papier cuisson (fond et bords hauts).",
+        "Faire fondre fromage, beurre et lait au bain-marie, lisser. Hors du feu, ajouter les jaunes, puis farine et maïzena tamisées, et le citron.",
+        "Monter les blancs en neige en ajoutant le sucre petit à petit jusqu'à un bec souple.",
+        "Incorporer les blancs délicatement en trois fois, verser dans le moule.",
+        "Cuire au bain-marie 25 min à 160 °C puis 50 min à 140 °C. Laisser 15 min four éteint porte entrouverte.",
+        "Démouler tiède, saupoudrer de sucre glace. Se déguste tiède ou froid."
+      ],
+      "img": "img/flans/12.jpg"
+    },
+    {
+      "id": "flan:012",
+      "t": "Flan Coco et Chocolat",
+      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "desc": "Base coco et nappage chocolat, l'esprit Bounty.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "40 cl de lait de coco",
+        "40 cl de lait",
+        "5 œufs",
+        "100 g de sucre",
+        "50 g de noix de coco râpée",
+        "100 g de chocolat noir",
+        "10 cl de crème liquide"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C.",
+        "Chauffer les laits, fouetter œufs et sucre, verser les laits chauds et ajouter la noix de coco.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Faire fondre le chocolat dans la crème chaude et napper le flan démoulé."
+      ],
+      "img": "img/flans/13.jpg"
+    },
+    {
+      "id": "flan:013",
+      "t": "Flan à la Mangue",
+      "cat": "Dessert, Crème dessert, Flan",
+      "desc": "Flan fruité à la purée de mangue, dés de mangue fraîche.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "40 cl de purée de mangue",
+        "40 cl de lait",
+        "1 boîte de lait concentré sucré (397 g)",
+        "5 œufs",
+        "1 mangue fraîche",
+        "100 g de sucre (caramel)"
+      ],
+      "steps": [
+        "Préparer le caramel : faire fondre 100 g de sucre à sec dans une casserole jusqu'à coloration ambrée, le verser au fond d'un moule à flan de 20 cm.",
+        "Préchauffer le four à 160 °C.",
+        "Mixer purée de mangue, lait, lait concentré et œufs.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Garnir de dés de mangue fraîche au moment de servir."
+      ],
+      "img": "img/flans/14.jpg"
+    },
+    {
+      "id": "flan:014",
+      "t": "Flan au Caramel au Beurre Salé",
+      "cat": "Dessert, Crème dessert, Flan",
+      "desc": "Flan nappé d'un caramel au beurre salé coulant.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "1 l de lait",
+        "6 œufs",
+        "100 g de sucre",
+        "1 gousse de vanille",
+        "Caramel : 150 g de sucre, 60 g de beurre demi-sel, 15 cl de crème"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C.",
+        "Chauffer le lait vanillé. Fouetter œufs et sucre, verser le lait chaud.",
+        "Préparer le caramel : faire fondre le sucre à sec, ajouter le beurre puis la crème chaude hors du feu. En verser la moitié au fond du moule.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Napper du reste de caramel au beurre salé tiédi."
+      ],
+      "img": "img/flans/15.jpg"
+    },
+    {
+      "id": "flan:015",
+      "t": "Flan au Chocolat Blanc",
+      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "desc": "Flan doux au chocolat blanc, garni de pépites.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "75 cl de lait",
+        "25 cl de crème liquide",
+        "5 œufs",
+        "60 g de sucre",
+        "200 g de chocolat blanc",
+        "Pépites de chocolat"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C.",
+        "Chauffer lait et crème, y faire fondre le chocolat blanc.",
+        "Fouetter œufs et sucre, verser le mélange chaud en fouettant.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Décorer de pépites ou copeaux de chocolat."
+      ],
+      "img": "img/flans/16.jpg"
+    },
+    {
+      "id": "flan:016",
+      "t": "Flan Impossible (Chocoflan)",
+      "cat": "Dessert, Crème dessert, Flan, Chocolat, Gâteaux",
+      "desc": "Le chocoflan mexicain : on verse le gâteau puis le flan, et à la cuisson les couches s'inversent.",
+      "min": 100,
+      "serv": 10,
+      "ing": [
+        "Caramel : 100 g de sucre",
+        "Gâteau : 200 g de farine, 40 g de cacao, 1 sachet de levure, 150 g de sucre, 2 œufs, 25 cl de lait, 100 g de beurre fondu",
+        "Flan : 1 boîte de lait concentré sucré (397 g), 40 cl de lait, 4 œufs, 1 c. à café de vanille"
+      ],
+      "steps": [
+        "Préchauffer le four à 180 °C. Napper un moule à savarin de caramel.",
+        "Mélanger les ingrédients du gâteau au chocolat et verser la pâte dans le moule.",
+        "Mixer les ingrédients du flan et les verser délicatement sur la pâte au dos d'une cuillère.",
+        "Couvrir d'aluminium et cuire au bain-marie 1 h 15 : le gâteau remonte et le flan descend.",
+        "Laisser refroidir puis réfrigérer 4 h avant de démouler."
+      ],
+      "img": "img/flans/17.jpg"
+    },
+    {
+      "id": "flan:017",
+      "t": "Flan Chocolat et Caramel",
+      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "desc": "Flan au chocolat sous un caramel ambré et éclats de noix de pécan.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "75 cl de lait",
+        "25 cl de crème liquide",
+        "5 œufs",
+        "80 g de sucre",
+        "150 g de chocolat noir",
+        "50 g de noix de pécan",
+        "100 g de sucre (caramel)"
+      ],
+      "steps": [
+        "Préparer le caramel : faire fondre 100 g de sucre à sec dans une casserole jusqu'à coloration ambrée, le verser au fond d'un moule à flan de 20 cm.",
+        "Préchauffer le four à 160 °C.",
+        "Chauffer lait et crème, y faire fondre le chocolat. Fouetter œufs et sucre, verser le mélange chocolaté.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Parsemer de noix de pécan concassées."
+      ],
+      "img": "img/flans/18.jpg"
+    },
+    {
+      "id": "flan:018",
+      "t": "Flan Lait de Coco et Ananas",
+      "cat": "Dessert, Crème dessert, Flan",
+      "desc": "Flan tropical coco, garni d'ananas caramélisé.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "40 cl de lait de coco",
+        "1 boîte de lait concentré sucré (397 g)",
+        "30 cl de lait",
+        "5 œufs",
+        "1/2 ananas frais",
+        "20 g de beurre",
+        "100 g de sucre (caramel)"
+      ],
+      "steps": [
+        "Préparer le caramel : faire fondre 100 g de sucre à sec dans une casserole jusqu'à coloration ambrée, le verser au fond d'un moule à flan de 20 cm.",
+        "Préchauffer le four à 160 °C.",
+        "Mixer lait de coco, lait concentré, lait et œufs.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Faire dorer l'ananas en dés au beurre 5 min et en garnir le flan."
+      ],
+      "img": "img/flans/19.jpg"
+    },
+    {
+      "id": "flan:019",
+      "t": "Flan Dulce de Leche",
+      "cat": "Dessert, Crème dessert, Flan",
+      "desc": "Flan argentin au dulce de leche, nappé de confiture de lait.",
+      "min": 70,
+      "serv": 8,
+      "ing": [
+        "1 boîte de lait concentré sucré (397 g)",
+        "40 cl de lait",
+        "200 g de dulce de leche (confiture de lait)",
+        "5 œufs",
+        "1 c. à café de vanille",
+        "100 g de sucre (caramel)"
+      ],
+      "steps": [
+        "Préparer le caramel : faire fondre 100 g de sucre à sec dans une casserole jusqu'à coloration ambrée, le verser au fond d'un moule à flan de 20 cm.",
+        "Préchauffer le four à 160 °C.",
+        "Mixer lait concentré, lait, 100 g de dulce de leche, œufs et vanille.",
+        "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
+        "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
+        "Napper du reste de dulce de leche légèrement tiédi."
+      ],
+      "img": "img/flans/20.jpg"
+    },
+    {
+      "id": "pdtfour:001",
+      "t": "Pomme de Terre au Four Fromage & Crème",
+      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "desc": "La garniture gourmande de base : crème, fromage râpé et ail.",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "4 grosses pommes de terre (chair ferme)",
+        "Huile d'olive",
+        "4 c. à soupe de crème fraîche",
+        "100 g de fromage râpé",
+        "1 gousse d'ail",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Laver et sécher 4 grosses pommes de terre à chair ferme, les piquer à la fourchette.",
+        "Les frotter d'huile d'olive et de sel, les envelopper dans du papier aluminium et cuire 35 à 40 min (une lame doit s'enfoncer sans résistance).",
+        "Inciser en croix ou sur la longueur, écarter la chair et l'écraser légèrement à la fourchette.",
+        "Mélanger la crème avec l'ail haché, sel et poivre. Garnir les pommes de terre, couvrir de fromage râpé.",
+        "Repasser 5 min sous le gril du four jusqu'à ce que ce soit doré et fondant.",
+        "Servir bien chaud."
+      ],
+      "img": "img/pdtfour/01.jpg"
+    },
+    {
+      "id": "pdtfour:002",
+      "t": "Pomme de Terre au Four Lardons & Fromage",
+      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "desc": "Lardons fumés grillés, crème et fromage fondu.",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "4 grosses pommes de terre (chair ferme)",
+        "Huile d'olive",
+        "150 g de lardons fumés",
+        "100 g de fromage râpé",
+        "4 c. à soupe de crème fraîche",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Laver et sécher 4 grosses pommes de terre à chair ferme, les piquer à la fourchette.",
+        "Les frotter d'huile d'olive et de sel, les envelopper dans du papier aluminium et cuire 35 à 40 min (une lame doit s'enfoncer sans résistance).",
+        "Inciser en croix ou sur la longueur, écarter la chair et l'écraser légèrement à la fourchette.",
+        "Faire griller les lardons à sec. Garnir de crème, de lardons puis de fromage râpé, poivrer.",
+        "Repasser 5 min sous le gril du four jusqu'à ce que ce soit doré et fondant.",
+        "Servir bien chaud."
+      ],
+      "img": "img/pdtfour/02.jpg"
+    },
+    {
+      "id": "pdtfour:003",
+      "t": "Pomme de Terre au Four Herbes & Ail",
+      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "desc": "Huile d'olive, ail haché, thym et romarin : simple et parfumée.",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "4 grosses pommes de terre (chair ferme)",
+        "Huile d'olive",
+        "3 c. à soupe d'huile d'olive",
+        "2 gousses d'ail hachées",
+        "Thym",
+        "Romarin",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Laver et sécher 4 grosses pommes de terre à chair ferme, les piquer à la fourchette.",
+        "Les frotter d'huile d'olive et de sel, les envelopper dans du papier aluminium et cuire 35 à 40 min (une lame doit s'enfoncer sans résistance).",
+        "Inciser en croix ou sur la longueur, écarter la chair et l'écraser légèrement à la fourchette.",
+        "Mélanger l'huile, l'ail, le thym et le romarin hachés, saler et poivrer. En arroser la chair écrasée.",
+        "Repasser 5 min sous le gril du four jusqu'à ce que ce soit doré et fondant.",
+        "Servir bien chaud."
+      ],
+      "img": "img/pdtfour/03.jpg"
+    },
+    {
+      "id": "pdtfour:004",
+      "t": "Pomme de Terre au Four Beurre & Persil",
+      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "desc": "Beurre fondu, persil frais et ail, comme au bistrot.",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "4 grosses pommes de terre (chair ferme)",
+        "Huile d'olive",
+        "60 g de beurre",
+        "1/2 bouquet de persil frais",
+        "1 gousse d'ail",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Laver et sécher 4 grosses pommes de terre à chair ferme, les piquer à la fourchette.",
+        "Les frotter d'huile d'olive et de sel, les envelopper dans du papier aluminium et cuire 35 à 40 min (une lame doit s'enfoncer sans résistance).",
+        "Inciser en croix ou sur la longueur, écarter la chair et l'écraser légèrement à la fourchette.",
+        "Faire fondre le beurre avec l'ail haché, ajouter le persil ciselé. Verser sur la chair écrasée, saler et poivrer.",
+        "Servir bien chaud."
+      ],
+      "img": "img/pdtfour/04.jpg"
+    },
+    {
+      "id": "pdtfour:005",
+      "t": "Pomme de Terre au Four Paprika & Épices",
+      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "desc": "Chair relevée au paprika doux et cumin, légèrement gratinée.",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "4 grosses pommes de terre (chair ferme)",
+        "Huile d'olive",
+        "1 c. à café de paprika doux",
+        "1/2 c. à café de cumin",
+        "50 g de fromage râpé",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Laver et sécher 4 grosses pommes de terre à chair ferme, les piquer à la fourchette.",
+        "Les frotter d'huile d'olive et de sel, les envelopper dans du papier aluminium et cuire 35 à 40 min (une lame doit s'enfoncer sans résistance).",
+        "Inciser en croix ou sur la longueur, écarter la chair et l'écraser légèrement à la fourchette.",
+        "Mélanger la chair écrasée avec 2 c. à soupe d'huile d'olive, le paprika, le cumin, sel et poivre. Parsemer de fromage et d'une pincée de paprika.",
+        "Repasser 5 min sous le gril du four jusqu'à ce que ce soit doré et fondant.",
+        "Servir bien chaud."
+      ],
+      "img": "img/pdtfour/05.jpg"
+    },
+    {
+      "id": "pdtfour:006",
+      "t": "Pomme de Terre au Four Raclette",
+      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "desc": "Fromage à raclette fondu et jambon, l'esprit montagne.",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "4 grosses pommes de terre (chair ferme)",
+        "Huile d'olive",
+        "4 tranches de fromage à raclette",
+        "4 tranches de jambon",
+        "4 c. à soupe de crème fraîche",
+        "Poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Laver et sécher 4 grosses pommes de terre à chair ferme, les piquer à la fourchette.",
+        "Les frotter d'huile d'olive et de sel, les envelopper dans du papier aluminium et cuire 35 à 40 min (une lame doit s'enfoncer sans résistance).",
+        "Inciser en croix ou sur la longueur, écarter la chair et l'écraser légèrement à la fourchette.",
+        "Garnir de crème, glisser le jambon roulé dans l'entaille et couvrir d'une tranche de raclette. Poivrer.",
+        "Repasser 5 min sous le gril du four jusqu'à ce que ce soit doré et fondant.",
+        "Servir bien chaud."
+      ],
+      "img": "img/pdtfour/06.jpg"
+    },
+    {
+      "id": "pdtfour:007",
+      "t": "Pomme de Terre au Four Poulet & Fromage",
+      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "desc": "Restes de poulet effiloché, crème et fromage gratiné.",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "4 grosses pommes de terre (chair ferme)",
+        "Huile d'olive",
+        "200 g de poulet cuit",
+        "4 c. à soupe de crème fraîche",
+        "100 g de fromage râpé",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Laver et sécher 4 grosses pommes de terre à chair ferme, les piquer à la fourchette.",
+        "Les frotter d'huile d'olive et de sel, les envelopper dans du papier aluminium et cuire 35 à 40 min (une lame doit s'enfoncer sans résistance).",
+        "Inciser en croix ou sur la longueur, écarter la chair et l'écraser légèrement à la fourchette.",
+        "Mélanger la chair écrasée avec le poulet effiloché et la crème, saler, poivrer. Remettre dans les peaux, couvrir de fromage.",
+        "Repasser 5 min sous le gril du four jusqu'à ce que ce soit doré et fondant.",
+        "Servir bien chaud."
+      ],
+      "img": "img/pdtfour/07.jpg"
+    },
+    {
+      "id": "pdtfour:008",
+      "t": "Pomme de Terre au Four Champignons & Crème",
+      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "desc": "Champignons poêlés à l'ail et crème onctueuse.",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "4 grosses pommes de terre (chair ferme)",
+        "Huile d'olive",
+        "200 g de champignons",
+        "4 c. à soupe de crème fraîche",
+        "1 gousse d'ail",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Laver et sécher 4 grosses pommes de terre à chair ferme, les piquer à la fourchette.",
+        "Les frotter d'huile d'olive et de sel, les envelopper dans du papier aluminium et cuire 35 à 40 min (une lame doit s'enfoncer sans résistance).",
+        "Inciser en croix ou sur la longueur, écarter la chair et l'écraser légèrement à la fourchette.",
+        "Faire sauter les champignons émincés avec l'ail 6 min, ajouter la crème, saler, poivrer. Garnir les pommes de terre.",
+        "Repasser 5 min sous le gril du four jusqu'à ce que ce soit doré et fondant.",
+        "Servir bien chaud."
+      ],
+      "img": "img/pdtfour/08.jpg"
+    },
+    {
+      "id": "pdtfour:009",
+      "t": "Pomme de Terre au Four Cheddar & Oignons",
+      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "desc": "Oignons caramélisés et cheddar fondant.",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "4 grosses pommes de terre (chair ferme)",
+        "Huile d'olive",
+        "2 oignons",
+        "100 g de cheddar râpé",
+        "4 c. à soupe de crème fraîche",
+        "Beurre",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Laver et sécher 4 grosses pommes de terre à chair ferme, les piquer à la fourchette.",
+        "Les frotter d'huile d'olive et de sel, les envelopper dans du papier aluminium et cuire 35 à 40 min (une lame doit s'enfoncer sans résistance).",
+        "Inciser en croix ou sur la longueur, écarter la chair et l'écraser légèrement à la fourchette.",
+        "Faire fondre les oignons émincés au beurre 15 min jusqu'à ce qu'ils caramélisent. Garnir de crème, d'oignons et de cheddar.",
+        "Repasser 5 min sous le gril du four jusqu'à ce que ce soit doré et fondant.",
+        "Servir bien chaud."
+      ],
+      "img": "img/pdtfour/09.jpg"
+    },
+    {
+      "id": "pdtfour:010",
+      "t": "Pomme de Terre au Four Œuf & Fromage",
+      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "desc": "Un œuf cassé au cœur de la pomme de terre, cuit sur un lit de fromage.",
+      "min": 50,
+      "serv": 4,
+      "ing": [
+        "4 grosses pommes de terre (chair ferme)",
+        "Huile d'olive",
+        "4 œufs",
+        "80 g de fromage râpé",
+        "4 c. à soupe de crème fraîche",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C. Laver et sécher 4 grosses pommes de terre à chair ferme, les piquer à la fourchette.",
+        "Les frotter d'huile d'olive et de sel, les envelopper dans du papier aluminium et cuire 35 à 40 min (une lame doit s'enfoncer sans résistance).",
+        "Inciser en croix ou sur la longueur, écarter la chair et l'écraser légèrement à la fourchette.",
+        "Creuser un peu la chair, garnir de crème et de fromage, casser un œuf dans chaque creux. Saler, poivrer et remettre au four 10 à 12 min jusqu'à ce que le blanc soit pris.",
+        "Servir bien chaud."
+      ],
+      "img": "img/pdtfour/10.jpg"
+    },
+    {
+      "id": "burger:001",
+      "t": "Burger Classique au Bœuf et Cheddar",
+      "cat": "Plat, Burger",
+      "desc": "Le cheeseburger de base : bœuf, cheddar, salade, oignon rouge.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 steaks hachés",
+        "4 tranches de cheddar",
+        "Salade",
+        "1 oignon rouge",
+        "1 tomate",
+        "Sauce burger"
+      ],
+      "steps": [
+        "Saler et poivrer les steaks hachés, les cuire 2 à 3 min par face dans une poêle très chaude. Poser le cheddar en fin de cuisson et couvrir pour le faire fondre.",
+        "Garnir : sauce, salade, steak au cheddar, tomate et oignon rouge en rondelles.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/01.jpg"
+    },
+    {
+      "id": "burger:002",
+      "t": "Burger Bacon Ultra Gourmand",
+      "cat": "Plat, Burger",
+      "desc": "Bacon croustillant, cheddar fondu et sauce burger.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 steaks hachés",
+        "8 tranches de bacon",
+        "4 tranches de cheddar",
+        "Salade",
+        "Sauce burger"
+      ],
+      "steps": [
+        "Griller le bacon à la poêle jusqu'à ce qu'il soit croustillant.",
+        "Saler et poivrer les steaks hachés, les cuire 2 à 3 min par face dans une poêle très chaude. Ajouter le cheddar en fin de cuisson.",
+        "Garnir : sauce, salade, steak, bacon.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/02.jpg"
+    },
+    {
+      "id": "burger:003",
+      "t": "Burger au Fromage Raclette Fondant",
+      "cat": "Plat, Burger",
+      "desc": "Raclette coulante et cornichons croquants.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 steaks hachés",
+        "4 tranches de fromage à raclette",
+        "Cornichons",
+        "Tomate",
+        "Sauce au choix"
+      ],
+      "steps": [
+        "Saler et poivrer les steaks hachés, les cuire 2 à 3 min par face dans une poêle très chaude. Couvrir de raclette, ajouter un trait d'eau et couvrir 1 min pour la faire fondre.",
+        "Garnir : sauce, tomate, steak à la raclette, cornichons en lamelles.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/03.jpg"
+    },
+    {
+      "id": "burger:004",
+      "t": "Burger Poulet Croustillant Maison",
+      "cat": "Plat, Burger, Poulet",
+      "desc": "Filets de poulet panés et frits, sauce maison.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 filets de poulet",
+        "100 g de chapelure (ou corn flakes écrasés)",
+        "1 œuf",
+        "50 g de farine",
+        "Salade",
+        "Tomate",
+        "Sauce maison : 3 c. à soupe de mayonnaise, 1 c. à café de moutarde, 1 c. à café de miel"
+      ],
+      "steps": [
+        "Aplatir les filets, les passer dans la farine, l'œuf battu puis la chapelure.",
+        "Les frire 5 à 6 min dans 1 cm d'huile chaude (ou 15 min au four à 200 °C).",
+        "Mélanger les ingrédients de la sauce.",
+        "Garnir : sauce, salade, poulet croustillant, tomate.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/04.jpg"
+    },
+    {
+      "id": "burger:005",
+      "t": "Burger Double Fromage et Sauce Crémeuse",
+      "cat": "Plat, Burger",
+      "desc": "Deux steaks, double cheddar et sauce crémeuse.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "8 steaks hachés fins",
+        "8 tranches de cheddar",
+        "1 oignon rouge",
+        "Salade",
+        "Sauce crémeuse : 3 c. à soupe de mayonnaise, 2 c. à soupe de crème, 1 c. à café de moutarde"
+      ],
+      "steps": [
+        "Saler et poivrer les steaks hachés, les cuire 2 à 3 min par face dans une poêle très chaude. Poser une tranche de cheddar sur chaque steak en fin de cuisson.",
+        "Mélanger la sauce crémeuse.",
+        "Garnir : sauce, salade, deux steaks au cheddar empilés, oignon rouge.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/05.jpg"
+    },
+    {
+      "id": "burger:006",
+      "t": "Burger BBQ au Bœuf et Oignons Caramélisés",
+      "cat": "Plat, Burger",
+      "desc": "Sauce barbecue, oignons confits et cheddar.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 steaks hachés",
+        "3 oignons",
+        "4 tranches de cheddar",
+        "Sauce BBQ",
+        "Beurre"
+      ],
+      "steps": [
+        "Faire fondre les oignons émincés au beurre 15 à 20 min jusqu'à ce qu'ils caramélisent.",
+        "Saler et poivrer les steaks hachés, les cuire 2 à 3 min par face dans une poêle très chaude. Badigeonner de sauce BBQ et ajouter le cheddar en fin de cuisson.",
+        "Garnir : sauce BBQ, steak au cheddar, oignons caramélisés.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/06.jpg"
+    },
+    {
+      "id": "burger:007",
+      "t": "Burger au Poulet Pané et Sauce Maison",
+      "cat": "Plat, Burger, Poulet",
+      "desc": "Poulet pané doré, salade, tomate et sauce maison.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 escalopes de poulet panées",
+        "Salade",
+        "Tomate",
+        "Sauce maison : 3 c. à soupe de mayonnaise, 1 c. à soupe de ketchup, 1 pincée de paprika"
+      ],
+      "steps": [
+        "Cuire les escalopes panées à la poêle ou au four selon l'emballage (ou les paner maison).",
+        "Mélanger les ingrédients de la sauce.",
+        "Garnir : sauce, salade, poulet pané, tomate.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/07.jpg"
+    },
+    {
+      "id": "burger:008",
+      "t": "Burger Végétarien aux Légumes Grillés",
+      "cat": "Plat, Burger, Végétarien",
+      "desc": "Courgette, aubergine et poivron grillés, roquette et sauce yaourt.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "1 courgette",
+        "1 aubergine",
+        "1 poivron rouge",
+        "Roquette",
+        "Tomate",
+        "Sauce yaourt : 1 yaourt grec, 1/2 citron, 1 gousse d'ail, menthe",
+        "Huile d'olive, sel, poivre"
+      ],
+      "steps": [
+        "Couper les légumes en tranches épaisses, les huiler, saler et les griller 3 à 4 min par face au gril ou à la plancha.",
+        "Mélanger yaourt, jus de citron, ail râpé et menthe ciselée.",
+        "Garnir : sauce yaourt, roquette, légumes grillés, tomate.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/08.jpg"
+    },
+    {
+      "id": "burger:009",
+      "t": "Burger au Chorizo Épicé et Cheddar",
+      "cat": "Plat, Burger",
+      "desc": "Steak, chorizo grillé, cheddar et sauce épicée.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 steaks hachés",
+        "12 tranches de chorizo",
+        "4 tranches de cheddar",
+        "Salade",
+        "Tomate",
+        "Sauce épicée : 3 c. à soupe de mayonnaise, 1 c. à café de sriracha"
+      ],
+      "steps": [
+        "Faire griller le chorizo à sec 1 min.",
+        "Saler et poivrer les steaks hachés, les cuire 2 à 3 min par face dans une poêle très chaude. Ajouter le cheddar en fin de cuisson.",
+        "Garnir : sauce épicée, salade, steak au cheddar, chorizo, tomate.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/09.jpg"
+    },
+    {
+      "id": "burger:010",
+      "t": "Burger Montagnard Raclette et Bacon",
+      "cat": "Plat, Burger",
+      "desc": "Raclette, bacon et oignons pour les soirées d'hiver.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 steaks hachés",
+        "4 tranches de fromage à raclette",
+        "8 tranches de bacon",
+        "1 oignon",
+        "Salade"
+      ],
+      "steps": [
+        "Griller le bacon, faire dorer l'oignon émincé.",
+        "Saler et poivrer les steaks hachés, les cuire 2 à 3 min par face dans une poêle très chaude. Couvrir de raclette et laisser fondre à couvert.",
+        "Garnir : salade, steak à la raclette, bacon, oignons.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/10.jpg"
+    },
+    {
+      "id": "burger:011",
+      "t": "Burger au Bœuf et Sauce Poivre",
+      "cat": "Plat, Burger",
+      "desc": "Steak nappé d'une vraie sauce au poivre crémeuse.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 steaks hachés",
+        "Salade",
+        "1 oignon rouge",
+        "Sauce poivre : 20 cl de crème, 1 c. à soupe de poivre concassé, 1 échalote, 1 trait de cognac (facultatif)"
+      ],
+      "steps": [
+        "Saler et poivrer les steaks hachés, les cuire 2 à 3 min par face dans une poêle très chaude.",
+        "Dans la même poêle, faire suer l'échalote, flamber au cognac, ajouter crème et poivre, réduire 3 min.",
+        "Garnir : salade, steak, sauce poivre, oignon rouge.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/11.jpg"
+    },
+    {
+      "id": "burger:012",
+      "t": "Burger Poulet, Fromage et Avocat",
+      "cat": "Plat, Burger, Poulet",
+      "desc": "Poulet grillé, avocat en tranches et fromage fondu.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 filets de poulet",
+        "1 avocat",
+        "4 tranches de fromage",
+        "Tomate",
+        "Salade",
+        "Sauce maison"
+      ],
+      "steps": [
+        "Aplatir les filets, saler, poivrer et les griller 4 à 5 min par face. Poser le fromage en fin de cuisson.",
+        "Trancher l'avocat, arroser de citron.",
+        "Garnir : sauce, salade, poulet au fromage, avocat, tomate.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/12.jpg"
+    },
+    {
+      "id": "burger:013",
+      "t": "Burger Tex-Mex au Bœuf et Jalapeños",
+      "cat": "Plat, Burger",
+      "desc": "Bœuf épicé, cheddar, jalapeños et salsa.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 steaks hachés",
+        "4 tranches de cheddar",
+        "Jalapeños en rondelles",
+        "Tomate",
+        "Salade",
+        "1 c. à café d'épices tex-mex",
+        "Salsa ou sauce piquante"
+      ],
+      "steps": [
+        "Assaisonner les steaks d'épices tex-mex. Saler et poivrer les steaks hachés, les cuire 2 à 3 min par face dans une poêle très chaude. Ajouter le cheddar en fin de cuisson.",
+        "Garnir : salsa, salade, steak au cheddar, tomate, jalapeños.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/13.jpg"
+    },
+    {
+      "id": "burger:014",
+      "t": "Burger au Fromage Coulant et Bacon Grillé",
+      "cat": "Plat, Burger",
+      "desc": "Sauce fromagère coulante et bacon bien grillé.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 steaks hachés",
+        "8 tranches de bacon",
+        "Salade",
+        "Sauce fromage : 100 g de cheddar râpé, 10 cl de crème, 1 c. à café de moutarde"
+      ],
+      "steps": [
+        "Griller le bacon. Faire fondre le cheddar dans la crème chaude avec la moutarde, en fouettant.",
+        "Saler et poivrer les steaks hachés, les cuire 2 à 3 min par face dans une poêle très chaude.",
+        "Garnir : salade, steak, bacon, et napper généreusement de sauce fromage.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/14.jpg"
+    },
+    {
+      "id": "burger:015",
+      "t": "Burger Healthy au Poulet et Crudités",
+      "cat": "Plat, Burger, Poulet, Santé",
+      "desc": "Poulet grillé, carottes râpées, concombre et sauce yaourt.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger complets",
+        "4 filets de poulet",
+        "2 carottes râpées",
+        "1/2 concombre",
+        "Tomate",
+        "Salade",
+        "Sauce : 1 yaourt grec, citron, herbes"
+      ],
+      "steps": [
+        "Griller les filets de poulet aplatis 4 à 5 min par face, saler, poivrer.",
+        "Mélanger le yaourt avec un filet de citron et des herbes ciselées.",
+        "Garnir : sauce, salade, poulet, carottes râpées, concombre et tomate en rondelles.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/15.jpg"
+    },
+    {
+      "id": "burger:016",
+      "t": "Burger Gourmet, Sauce Maison et Oignons Crispy",
+      "cat": "Plat, Burger",
+      "desc": "Oignons frits croustillants et sauce maison relevée.",
+      "min": 25,
+      "serv": 4,
+      "ing": [
+        "4 pains burger",
+        "4 steaks hachés",
+        "4 tranches de cheddar",
+        "2 oignons",
+        "3 c. à soupe de farine",
+        "Huile de friture",
+        "Salade",
+        "Sauce maison : 3 c. à soupe de mayonnaise, 1 c. à soupe de ketchup, 1 c. à café de moutarde, cornichons hachés"
+      ],
+      "steps": [
+        "Émincer finement les oignons, les fariner et les frire 2 à 3 min dans l'huile chaude jusqu'à ce qu'ils soient dorés. Égoutter.",
+        "Mélanger les ingrédients de la sauce.",
+        "Saler et poivrer les steaks hachés, les cuire 2 à 3 min par face dans une poêle très chaude. Ajouter le cheddar en fin de cuisson.",
+        "Garnir : sauce, salade, steak au cheddar, oignons crispy.",
+        "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
+      ],
+      "img": "img/burgers/16.jpg"
     }
   ]
 }
