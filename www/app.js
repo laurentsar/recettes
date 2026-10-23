@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.35';
+const APP_VERSION = '3.36';
 
 let ALL = [];
 let BASE = [];
@@ -188,7 +188,8 @@ const TAXONOMY = {
 function autoCategorize(){
   let added=0, touched=0;
   ALL.forEach(r=>{
-    const ingHay  = norm((r.ing||[]).join('  '));                            // légumes : ingrédients seulement (précis)
+    const ingHay  = norm((r.ing||[]).join('  '));
+    const fruitHay = stripPdt(norm([r.t||'', (r.ing||[]).join('  ')].join('  ')));                            // légumes : ingrédients seulement (précis)
     const fullHay = norm([r.t||'', (r.ing||[]).join('  '), r.steps||''].join('  '));
     const have = new Set(catList(r).map(c=>c.toLowerCase()));
     const toAdd = [];
@@ -224,7 +225,7 @@ function autoCategorize(){
     if (isDessert){
       if (CHOCO_KW.some(k=> hasWord(fullHay,k))) push('Chocolat');
       let anyFruit=false;
-      for (const [fr, kws] of Object.entries(FRUITS)) if (kws.some(k=> hasWord(fullHay,k))){ push(fr); anyFruit=true; }
+      for (const [fr, kws] of Object.entries(FRUITS)) if (kws.some(k=> hasWord(fruitHay,k))){ push(fr); anyFruit=true; }
       if (anyFruit) push('Fruits');
     }
     if (toAdd.length){
@@ -272,10 +273,14 @@ const SEASON = {
 };
 const monthNow = ()=> new Date().getMonth()+1;
 const cap = (s)=> s ? s[0].toUpperCase()+s.slice(1) : s;
+// « pommes de terre » ne doit jamais compter comme « pomme » (le fruit).
+const stripPdt = (t)=> t.replace(/pommes?\s+de\s+terres?/g, ' ');
 function seasonalHits(r, m){
-  const kws = SEASON[m] || [];
-  // « pommes de terre » ne doit pas compter comme « pomme » (fruit de saison).
-  const text = norm((r.ing||[]).join(' ') + ' ' + (r.t||'')).replace(/pommes?\s+de\s+terres?/g, ' ');
+  return seasonHitsInText((r.ing||[]).join(' ') + ' ' + (r.t||''), SEASON[m] || []);
+}
+// Mots entiers seulement : « ail » ≠ « volaille », « poire » ≠ « poireau ».
+function seasonHitsInText(txt, kws){
+  const text = stripPdt(norm(txt));
   const hits = [];
   for (const k of kws){
     // Tolère les pluriels (« tomates », « haricots verts ») et « chou-fleur » / « chou fleur ».
@@ -324,11 +329,12 @@ const INGR = [
 'noix','noisette','amande','pistache','cacahuete','pignon','sesame',
 ];
 const flat = (s)=> norm(s).replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
-function ensureIW(r){ if(!r._il){ r._il = flat((r.ing||[]).join(' ')); r._iw = r._il.split(' ').filter(Boolean); } }
+function ensureIW(r){ if(!r._il){ r._il = flat((r.ing||[]).join(' ')); r._iw = r._il.split(' ').filter(Boolean); r._iwf = stripPdt(r._il).split(' ').filter(Boolean); } }
 function matchKw(r, kw){
   ensureIW(r);
   if (kw.indexOf(' ')>=0 || kw.indexOf('-')>=0){ return (' '+r._il+' ').indexOf(' '+flat(kw)+' ')>=0; }
-  return r._iw.some(w => w===kw || w===kw+'s' || w===kw+'x' || (kw.length>=4 && w.startsWith(kw)));
+  // « pomme » (fruit) : on ignore les « pommes de terre ».
+  return (kw === 'pomme' ? r._iwf : r._iw).some(w => w===kw || w===kw+'s' || w===kw+'x' || (kw.length>=4 && w.startsWith(kw)));
 }
 /* ---------- filtres diététiques (Santé) ---------- */
 const SANTE_SUBS = new Set(['sansgluten','proteines','antiinflamm','vegetarien','vegan','keto','rapide']);
@@ -769,7 +775,7 @@ function openDetail(id){
   const sk = SEASON[monthNow()] || [];
   const stockHits = r.ing.map(stockHitsForLine);
   const ing = r.ing.length ? `<div class="d-sec">Ingrédients</div>${stockSummaryHtml(r)}<ul class="ing">${
-    r.ing.map((i,k)=>{ const s = sk.some(w=> norm(i).includes(w));
+    r.ing.map((i,k)=>{ const s = seasonHitsInText(i, sk).length > 0;
       return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${esc(i)}</span>${s?'<span class="leaf">🌿</span>':''}${stockBadgeHtml(stockHits[k])}</li>`;
     }).join('')}</ul>` : '';
   const steps = splitSteps(r.steps);
@@ -1090,7 +1096,7 @@ function showUndoBar(title, details, onUndo){
 function cookIngListHtml(r){
   const sk = SEASON[monthNow()] || [];
   return (r.ing||[]).map((item,k)=>{
-    const s = sk.some(w=>norm(item).includes(w));
+    const s = seasonHitsInText(item, sk).length > 0;
     const qm = item.match(ING_QTY_RE) || item.match(ING_NUM_RE);
     const txt = qm ? `<strong class="cook-qty">${esc(qm[1].trim())}</strong> ${esc(qm[2].trim())}` : esc(item);
     return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${txt}</span>${s?'<span class="leaf">🌿</span>':''}${stockBadgeHtml(stockHitsForLine(item))}</li>`;
@@ -2223,6 +2229,7 @@ const STOCK_AFTER = {
   sucre: ['glace','vanille','vanilline'],
   farine: ['mais','riz','chataigne','sarrasin','pois','coco','amande','manioc'],
   tomate: ['sechee','seche'],
+  pomme: ['terre'],            // « Pommes » (fruit) ≠ « pommes de terre »
 };
 // Couleurs qui distinguent deux produits (« olives vertes » ≠ « olives noires »).
 const STOCK_COLOR_CLASH = { verte:['noire','noir'], vert:['noire','noir'], noire:['verte','vert'], noir:['verte','vert','blanc','blanche'],
