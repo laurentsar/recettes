@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.26';
+const APP_VERSION = '3.27';
 
 let ALL = [];
 let BASE = [];
@@ -2204,7 +2204,7 @@ function stockKeys(name){ return stockTokens(name, STOCK_STOP).slice(0, 2); }
 // Produits « dérivés » : dans « bouillon de bœuf », « concentré de tomate », « vinaigre de riz »,
 // le produit cité après ce mot n'est pas l'ingrédient lui-même.
 const STOCK_FORMS = new Set(['bouillon','fond','fumet','concentre','sauce','couli','poudre','vinaigre','nouille','galette',
-  'fecule','sirop','arome','extrait','glace','vermicelle','tartiner','yaourt','yogourt','chip','biscuit','liqueur','ketchup','mayonnaise','pesto']);
+  'fecule','sirop','arome','extrait','glace','vermicelle','tartiner','huile','yaourt','yogourt','chip','biscuit','liqueur','ketchup','mayonnaise','pesto']);
 // Mot qui, placé juste après le produit, en fait un autre produit (« lait de coco », « chocolat blanc »).
 const STOCK_AFTER = {
   lait: ['coco','concentre','vegetal','amande','soja','avoine','riz','ribot','poudre','fermente'],
@@ -2215,6 +2215,9 @@ const STOCK_AFTER = {
   farine: ['mais','riz','chataigne','sarrasin','pois','coco','amande','manioc'],
   tomate: ['sechee','seche'],
 };
+// Couleurs qui distinguent deux produits (« olives vertes » ≠ « olives noires »).
+const STOCK_COLOR_CLASH = { verte:['noire','noir'], vert:['noire','noir'], noire:['verte','vert'], noir:['verte','vert','blanc','blanche'],
+  blanc:['noir','noire'], blanche:['noir','noire'], rouge:['vert','verte','jaune'], jaune:['rouge','vert','verte'] };
 // Équivalences : un produit en stock couvre aussi ces façons de l'écrire dans une recette.
 const STOCK_SYNONYMS = [
   { when: ['pates'], alts: [['pates'],['spaghetti'],['spaghettis'],['tagliatelle'],['penne'],['macaroni'],['fusilli'],['linguine'],['farfalle'],
@@ -2249,6 +2252,9 @@ function lineHasKeys(toks, keys, strict){
   // « sans sucre », « bouillon de bœuf », « lait de coco » : ce n'est pas le produit.
   if (toks[i - 1] === 'sans') return false;
   if (toks.slice(0, i).some(w => STOCK_FORMS.has(w)) && !keys.some(k => STOCK_FORMS.has(k))) return false;
+  // Couleur précisée dans le stock et contraire dans la recette.
+  const clash = keys[1] && STOCK_COLOR_CLASH[keys[1]];
+  if (clash && clash.includes(toks[i + 1])) return false;
   const after = STOCK_AFTER[keys[0]];
   if (after && after.includes(toks[i + 1]) && !keys.includes(toks[i + 1])) return false;
   return true;
