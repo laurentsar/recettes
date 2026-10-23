@@ -3280,7 +3280,7 @@
     {
       "id": "af:016",
       "t": "Flan Vanille Ultra Fondant — Airfryer",
-      "cat": "Airfryer, Dessert, Gâteaux",
+      "cat": "Airfryer, Dessert, Crème dessert, Flan",
       "min": 30,
       "serv": 4,
       "desc": "Flan vanille crémeux et fondant cuit à l'airfryer, en version ramequins individuels ou grand plat à partager. Centre légèrement tremblant = cuisson parfaite.",
@@ -3316,7 +3316,7 @@
     {
       "id": "af:018",
       "t": "Flan Chocolat Cœur Fondant — Airfryer",
-      "cat": "Airfryer, Dessert, Gâteaux",
+      "cat": "Airfryer, Dessert, Crème dessert, Flan",
       "min": 25,
       "serv": 4,
       "desc": "Flan au chocolat avec un cœur coulant fondant, cuit à l'airfryer. La clé : arrêter la cuisson quand le centre tremble encore. Délice absolu.",
@@ -23102,7 +23102,7 @@
     {
       "id": "flan:016",
       "t": "Flan Impossible (Chocoflan)",
-      "cat": "Dessert, Crème dessert, Flan, Chocolat, Gâteaux",
+      "cat": "Dessert, Crème dessert, Flan, Chocolat",
       "desc": "Le chocoflan mexicain : on verse le gâteau puis le flan, et à la cuisson les couches s'inversent.",
       "min": 100,
       "serv": 10,
