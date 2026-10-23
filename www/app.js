@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.31';
+const APP_VERSION = '3.32';
 
 let ALL = [];
 let BASE = [];
@@ -2464,6 +2464,10 @@ const HOME_SEASON_SKIP = new Set(['oignon','ail','echalote','citron','carotte'])
 let homeStockSel = [];
 const HOME_BASICS = new Set(['huile','ail','oignon','echalote','beurre','farine','sucre','lait','oeuf','vinaigre','moutarde','levure','margarine','miel','cacao']);
 let homeTiersShown = 2;
+// Paliers repliés par l'utilisateur (mémorisés) : on touche le titre pour replier / déplier.
+let homeTierClosed = new Set();
+try { homeTierClosed = new Set(JSON.parse(localStorage.getItem('homeTierClosed') || '[]')); } catch(e){}
+function saveHomeTierClosed(){ try { localStorage.setItem('homeTierClosed', JSON.stringify([...homeTierClosed])); } catch(e){} }
 const HOME_TIER_MAX = 3;      // dernier palier : « il manque 3 ingrédients ou plus »
 function homeStockCandidates(){
   const have = stockHaveList();
@@ -2537,11 +2541,16 @@ function renderCellarHome(){
     (homeStockSel.length ? `<button class="hs-clear" id="hs-clear">Tout effacer</button>` : '') + `</div>` +
     `<div class="hs-hint">${homeStockSel.length ? 'Recettes avec ' + homeStockSel.map(esc).join(' + ') + ' — touche un autre produit pour affiner' : 'Touche un produit pour ne voir que les recettes qui l\'utilisent'}</div>` +
     `<div class="hs-chips">${chips}</div>` +
-    (shown.length ? shown.map(t =>
-      `<div class="hs-tier"><div class="hs-tier-label">${tierLabel(t.k)} <span class="feed-count">${t.list.length}</span></div>` +
-      `<div class="feed-strip">${t.list.slice(0, 20).map(cardHtml).join('')}</div></div>`).join('')
+    (shown.length ? shown.map(t => {
+      const closed = homeTierClosed.has(t.k);
+      return `<div class="hs-tier"><button class="hs-tier-label" data-k="${t.k}" aria-expanded="${!closed}">${tierLabel(t.k)} <span class="feed-count">${t.list.length}</span><span class="hs-chev">${closed ? '▾' : '▴'}</span></button>` +
+        (closed ? '' : `<div class="feed-strip">${t.list.slice(0, 20).map(cardHtml).join('')}</div>`) + `</div>`;
+    }).join('')
       : '<div class="hs-hint">Aucune recette avec tous ces produits.</div>') +
-    (rest.length ? `<button class="hs-more" id="hs-more">▾ ${tierLabel(rest[0].k)} (${rest[0].list.length})</button>` : '');
+    ((rest.length || homeTiersShown > 2) ? `<div class="hs-more-row">` +
+      (homeTiersShown > 2 ? `<button class="hs-more" id="hs-less">▴ Refermer</button>` : '') +
+      (rest.length ? `<button class="hs-more" id="hs-more">▾ ${tierLabel(rest[0].k)} (${rest[0].list.length})</button>` : '') +
+      `</div>` : '');
   el.querySelectorAll('.feed-card').forEach(c => c.addEventListener('click', () => openDetail(c.dataset.id)));
   el.querySelectorAll('.hs-chip').forEach(b => b.addEventListener('click', () => {
     const n = b.dataset.n;
@@ -2553,6 +2562,13 @@ function renderCellarHome(){
   if (clr) clr.addEventListener('click', () => { homeStockSel = []; homeTiersShown = 2; renderCellarHome(); });
   const more = el.querySelector('#hs-more');
   if (more) more.addEventListener('click', () => { homeTiersShown++; renderCellarHome(); });
+  const less = el.querySelector('#hs-less');
+  if (less) less.addEventListener('click', () => { homeTiersShown = 2; renderCellarHome(); });
+  el.querySelectorAll('.hs-tier-label').forEach(b => b.addEventListener('click', () => {
+    const k = +b.dataset.k;
+    homeTierClosed.has(k) ? homeTierClosed.delete(k) : homeTierClosed.add(k);
+    saveHomeTierClosed(); renderCellarHome();
+  }));
 }
 
 /* ---------- inventaire ----------
