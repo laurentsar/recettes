@@ -19577,7 +19577,7 @@
     {
       "id": "tortilla:001",
       "title": "Tortillas de Blé Classiques",
-      "cat": "Technique, Mexique, Tortilla, Wrap",
+      "cat": "Technique, Mexique, Tortilla",
       "ing": [
         "250g de farine",
         "1/2 c. à café de sel",
@@ -19599,7 +19599,7 @@
     {
       "id": "tortilla:002",
       "title": "Tortillas Semi-Complètes",
-      "cat": "Technique, Mexique, Tortilla, Wrap",
+      "cat": "Technique, Mexique, Tortilla",
       "ing": [
         "180g de farine complète",
         "60g de farine blanche",
@@ -19621,7 +19621,7 @@
     {
       "id": "tortilla:003",
       "title": "Tortillas aux Épinards",
-      "cat": "Technique, Mexique, Tortilla, Wrap, Légume",
+      "cat": "Technique, Mexique, Tortilla, Légume",
       "ing": [
         "250g de farine",
         "1/2 c. à café de sel",
@@ -19643,7 +19643,7 @@
     {
       "id": "tortilla:004",
       "title": "Tortillas à la Betterave",
-      "cat": "Technique, Mexique, Tortilla, Wrap",
+      "cat": "Technique, Mexique, Tortilla",
       "ing": [
         "250g de farine",
         "1/2 c. à café de sel",
@@ -19665,7 +19665,7 @@
     {
       "id": "tortilla:005",
       "title": "Tortillas de Maïs",
-      "cat": "Technique, Mexique, Tortilla, Wrap",
+      "cat": "Technique, Mexique, Tortilla",
       "ing": [
         "180g de farine de maïs (masa harina)",
         "1/4 c. à café de sel",
@@ -19686,7 +19686,7 @@
     {
       "id": "tortilla:006",
       "title": "Wrap Healthy Avoine et Chia",
-      "cat": "Technique, Wrap, Santé, Sans gluten",
+      "cat": "Technique, Santé, Tortilla, Sans gluten",
       "ing": [
         "150g de flocons d'avoine",
         "10g de graines de chia",
@@ -20583,7 +20583,7 @@
     {
       "id": "roule:001",
       "t": "Roulés Classiques Jambon Cheddar",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,
@@ -20606,7 +20606,7 @@
     {
       "id": "roule:002",
       "t": "Roulés Jambon & Bacon",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,
@@ -20629,7 +20629,7 @@
     {
       "id": "roule:003",
       "t": "Roulés Poulet Cheddar",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,
@@ -20652,7 +20652,7 @@
     {
       "id": "roule:004",
       "t": "Roulés Jambon Épicés",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,
@@ -20675,7 +20675,7 @@
     {
       "id": "roule:005",
       "t": "Roulés Jambon & Cornichons",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,
@@ -20698,7 +20698,7 @@
     {
       "id": "roule:006",
       "t": "Roulés Cheddar & Herbes",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,
@@ -20721,7 +20721,7 @@
     {
       "id": "roule:007",
       "t": "Roulés Jambon Raclette",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,
@@ -20743,7 +20743,7 @@
     {
       "id": "roule:008",
       "t": "Roulés Jambon Parmesan",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,
@@ -20766,7 +20766,7 @@
     {
       "id": "roule:009",
       "t": "Roulés Méditerranéens",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,
@@ -20789,7 +20789,7 @@
     {
       "id": "roule:010",
       "t": "Roulés Jambon Tomates Séchées",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,
@@ -20812,7 +20812,7 @@
     {
       "id": "roule:011",
       "t": "Roulés Jambon & Maïs",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,
@@ -20835,7 +20835,7 @@
     {
       "id": "roule:012",
       "t": "Roulés Jambon Curry Doux",
-      "cat": "Apéritif, Wrap, Roulés de tortillas",
+      "cat": "Apéritif, Roulés de tortillas",
       "desc": "Roulés de tortillas au fromage frais, tranchés en bouchées pour l'apéritif.",
       "min": 15,
       "serv": 6,

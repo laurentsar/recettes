@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.28';
+const APP_VERSION = '3.29';
 
 let ALL = [];
 let BASE = [];
@@ -1739,7 +1739,7 @@ const MODE_GROUPS = {
   crepes_cakes:    { subs: ['crepes_salees','cakes_sales'] },
   regions:         { subs: ['corse','espagne','majorque','portugal','italie','grece','france','japon','asie','maghreb','allemagne','gb','australie','bresil','argentine','af','arabe','bulgarie','hongrie','roumanie','paysbas','belgique'] },
   ustensiles:      { subs: ['airfryer','thermomix','sousvide'] },
-  aperitif:        { subs: ['tartines','tartinades','wraps','bouchees','brochettes','paninis','samoussas','empanadas'] },
+  aperitif:        { subs: ['tartines','tartinades','wraps','tortillas','roules','bouchees','brochettes','paninis','samoussas','empanadas'] },
   oeufs:           { subs: ['omelettes','cocottes','preparations'] },
   boissons:        { subs: ['smoothies','milkshakes','mocktails'] },
   accompagnements: { subs: ['sauces','marinades'] },
@@ -1757,7 +1757,7 @@ const SUB_TAB_LABELS = {
   desserts_tous:'🍰 Tous', gateaux:'🎂 Gâteaux', tartes_sucrees:'🥧 Tartes', cremes_desserts:'🍮 Crèmes & mousses', biscuits:'🍪 Biscuits & douceurs', viennoiseries:'🥐 Viennoiseries', crepes_sucrees:'🥞 Crêpes & gaufres', tiramisu:'☕ Tiramisu', cheesecakes:'🧀 Cheesecakes', charlottes:'🍓 Charlottes',
   soupes:'🥣 Soupes', salades:'🥗 Salades', poissons:'🐟 Poissons', moules:'🦪 Moules', crepes_salees:'🥞 Crêpes salées', cakes_sales:'🍞 Cakes salés',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix', sousvide:'🌡️ Sous vide',
-  tartines:'🍞 Tartines', tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas', empanadas:'🥟 Empanadas',
+  tartines:'🍞 Tartines', tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', tortillas:'🫓 Tortillas', roules:'🌀 Roulés', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas', empanadas:'🥟 Empanadas',
   omelettes:'🍳 Omelettes', cocottes:'🥚 Cocottes', preparations:'🍳 Préparations',
   smoothies:'🧉 Smoothies', milkshakes:'🥤 Milkshakes', mocktails:'🍹 Sans alcool',
   sauces:'🥣 Sauces', marinades:'🌿 Marinades',
@@ -1776,7 +1776,7 @@ const MODE_CAT = {
   bresil: 'Brésil', argentine: 'Argentine', af: 'Afrique', monde: 'Monde',
   arabe: 'Monde arabe', bulgarie: 'Bulgarie', hongrie: 'Hongrie', roumanie: 'Roumanie', paysbas: 'Pays-Bas', belgique: 'Belgique',
   sauces: 'Sauce', tartines: 'Tartine', tartinades: 'Tartinade', techniques: 'Technique',
-  wraps: 'Wrap', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
+  wraps: 'Wrap', tortillas: 'Tortilla', roules: 'Roulés de tortillas', milkshakes: 'Milkshake', smoothies: 'Smoothie', marinades: 'Marinade',
   bouchees: 'Bouchée', brochettes: 'Brochette', omelettes: 'Omelette', cocottes: 'Cocotte',
   mocktails: 'Cocktail sans alcool', preparations: 'Préparation Oeuf',
   paninis: 'Panini', samoussas: 'Samoussa', empanadas: 'Empanada',
