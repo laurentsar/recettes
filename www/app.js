@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.27';
+const APP_VERSION = '3.28';
 
 let ALL = [];
 let BASE = [];
@@ -767,8 +767,8 @@ function openDetail(id){
     ..._dietTags,
   ].join('');
   const sk = SEASON[monthNow()] || [];
-  const stockHits = r.ing.map(stockForLine);
-  const ing = r.ing.length ? `<div class="d-sec">Ingrédients</div>${stockSummaryHtml(stockHits)}<ul class="ing">${
+  const stockHits = r.ing.map(stockHitsForLine);
+  const ing = r.ing.length ? `<div class="d-sec">Ingrédients</div>${stockSummaryHtml(r)}<ul class="ing">${
     r.ing.map((i,k)=>{ const s = sk.some(w=> norm(i).includes(w));
       return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${esc(i)}</span>${s?'<span class="leaf">🌿</span>':''}${stockBadgeHtml(stockHits[k])}</li>`;
     }).join('')}</ul>` : '';
@@ -905,25 +905,34 @@ function enrichStep(rawStep, ingMap){
 
 /* Fiche recette : pour chaque ingrédient, le produit en stock correspondant
    et son emplacement (🧊 frigo, ❄️ congélo, 🥫 cellier). */
-function stockForLine(line){
-  if (!line) return null;
-  const toks = stockTokens(line, LINE_STOP);
-  if (!toks.length) return null;
-  for (const t of FTABS){
-    for (const n of storageIngs[t]){
-      if (lineHasProduct(toks, n)) return { tab: t, name: n };
+// Une ligne peut regrouper plusieurs ingrédients (« MARINADE : soja, sucre, ail ») :
+// on cherche le produit en stock de chacun, avec le morceau de ligne concerné.
+function stockHitsForLine(line){
+  if (!line) return [];
+  const out = [];
+  for (const piece of splitIngLine(line)){
+    if (isStapleLine(piece)) continue;
+    const toks = stockTokens(piece, LINE_STOP);
+    if (!toks.length) continue;
+    let hit = null;
+    for (const t of FTABS){
+      const n = storageIngs[t].find(n => lineHasProduct(toks, n));
+      if (n){ hit = { tab: t, name: n, piece }; break; }
     }
+    if (hit && !out.some(h => h.name === hit.name)) out.push(hit);
   }
-  return null;
+  return out;
 }
-function stockBadgeHtml(hit){
-  return hit ? `<span class="in-stock stock-${hit.tab}" title="En stock : ${esc(hit.name)}">${FTAB_EMOJIS[hit.tab]} ${esc(hit.name)}</span>` : '';
+function stockBadgeHtml(hits){
+  return (hits || []).map(hit => `<span class="in-stock stock-${hit.tab}" title="En stock : ${esc(hit.name)}">${FTAB_EMOJIS[hit.tab]} ${esc(hit.name)}</span>`).join('');
 }
-function stockSummaryHtml(hits){
-  const found = hits.filter(Boolean);
-  if (!found.length) return '';
-  const per = FTABS.map(t => [t, found.filter(h => h.tab === t).length]).filter(([,n]) => n);
-  return `<div class="stock-summary">🧺 ${found.length}/${hits.length} en stock · ${per.map(([t,n]) => `${FTAB_EMOJIS[t]} ${n}`).join('  ')}</div>`;
+// Même décompte que l'accueil et le tri « Mes stocks ».
+function stockSummaryHtml(r){
+  const c = recipeStockCoverage(r, stockHaveList());
+  if (!c || !c.covered) return '';
+  const per = FTABS.map(t => [t, [...c.used.values()].filter(x => x === t).length]).filter(([,n]) => n);
+  const miss = c.total - c.covered;
+  return `<div class="stock-summary">🧺 ${c.covered}/${c.total} en stock${miss ? ` · manque ${miss}` : ' · tout y est'} · ${per.map(([t,n]) => `${FTAB_EMOJIS[t]} ${n}`).join('  ')}</div>`;
 }
 
 /* Quantités en stock : par produit (nom normalisé) → { q, u, pk? } avec u = 'g', 'ml'
@@ -1033,8 +1042,8 @@ function editStockQty(name, tab){
    retiré du stock. Un bouton « Annuler » permet de revenir en arrière. */
 function openDeduct(r){
   const prods = new Map(); // un produit peut servir à plusieurs lignes
-  for (const line of (r.ing || [])){
-    const hit = stockForLine(line); if (!hit) continue;
+  for (const hit of (r.ing || []).flatMap(stockHitsForLine)){
+    const line = hit.piece;
     const key = hit.tab + '|' + norm(hit.name);
     const p = prods.get(key) || { tab: hit.tab, name: hit.name, have: getStockQty(hit.name), need: null, unknown: false };
     const need = parseQty(line);
@@ -1084,7 +1093,7 @@ function cookIngListHtml(r){
     const s = sk.some(w=>norm(item).includes(w));
     const qm = item.match(ING_QTY_RE) || item.match(ING_NUM_RE);
     const txt = qm ? `<strong class="cook-qty">${esc(qm[1].trim())}</strong> ${esc(qm[2].trim())}` : esc(item);
-    return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${txt}</span>${s?'<span class="leaf">🌿</span>':''}${stockBadgeHtml(stockForLine(item))}</li>`;
+    return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${txt}</span>${s?'<span class="leaf">🌿</span>':''}${stockBadgeHtml(stockHitsForLine(item))}</li>`;
   }).join('');
 }
 
@@ -2229,6 +2238,7 @@ const STOCK_SYNONYMS = [
   { when: ['gruyere'], alts: [['gruyere'],['fromage','rape'],['emmental','rape']] },
   { when: ['comte'], alts: [['comte'],['fromage','rape']] },
   { when: ['fromage','rape'], alts: [['fromage','rape'],['emmental','rape'],['gruyere','rape'],['comte','rape']] },
+  { when: ['sucre','morceau'], alts: [['sucre','morceau']] },
   { when: ['steak','hache'], alts: [['steak','hache'],['boeuf','hache'],['viande','hachee'],['viande','hache']] },
   { when: ['boeuf','hache'], alts: [['boeuf','hache'],['steak','hache'],['viande','hachee'],['viande','hache']] },
 ];
