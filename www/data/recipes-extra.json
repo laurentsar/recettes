@@ -20858,7 +20858,7 @@
     {
       "id": "tatin:001",
       "t": "Tatin Tomate Moutarde",
-      "cat": "Plat, Pizza, Tatin salée",
+      "cat": "Plat, Tatin salée",
       "desc": "Tomates cerises confites sous une pâte croustillante tartinée de moutarde.",
       "min": 45,
       "serv": 4,
@@ -20882,7 +20882,7 @@
     {
       "id": "tatin:002",
       "t": "Tatin Chèvre Miel",
-      "cat": "Plat, Pizza, Tatin salée",
+      "cat": "Plat, Tatin salée",
       "desc": "Chèvre fondant, miel, noix et thym, servie avec de la roquette.",
       "min": 45,
       "serv": 4,
@@ -20906,7 +20906,7 @@
     {
       "id": "tatin:003",
       "t": "Tatin aux Oignons Caramélisés",
-      "cat": "Plat, Pizza, Tatin salée",
+      "cat": "Plat, Tatin salée",
       "desc": "Oignons rouges caramélisés au balsamique et fromage gratiné.",
       "min": 55,
       "serv": 4,
@@ -20930,7 +20930,7 @@
     {
       "id": "tatin:004",
       "t": "Tatin Forestière",
-      "cat": "Plat, Pizza, Tatin salée",
+      "cat": "Plat, Tatin salée",
       "desc": "Champignons, crème et comté sous une pâte dorée.",
       "min": 50,
       "serv": 4,
@@ -20954,7 +20954,7 @@
     {
       "id": "tatin:005",
       "t": "Tatin Provençale",
-      "cat": "Plat, Pizza, Tatin salée",
+      "cat": "Plat, Tatin salée",
       "desc": "Poivrons confits, tomates séchées, olives et mozzarella.",
       "min": 45,
       "serv": 4,
@@ -20978,7 +20978,7 @@
     {
       "id": "tatin:006",
       "t": "Tatin Pomme de Terre Lardons",
-      "cat": "Plat, Pizza, Tatin salée",
+      "cat": "Plat, Tatin salée",
       "desc": "Pommes de terre fondantes, lardons et crème, façon tartiflette.",
       "min": 55,
       "serv": 4,
@@ -21002,7 +21002,7 @@
     {
       "id": "tatin:007",
       "t": "Tatin Jambon Fromage",
-      "cat": "Plat, Pizza, Tatin salée",
+      "cat": "Plat, Tatin salée",
       "desc": "Jambon, raclette et crème, ultra fondante.",
       "min": 45,
       "serv": 4,
@@ -21026,7 +21026,7 @@
     {
       "id": "tatin:008",
       "t": "Tatin Bresaola Rucola",
-      "cat": "Plat, Pizza, Tatin salée",
+      "cat": "Plat, Tatin salée",
       "desc": "Tatin de tomates cerises garnie de bresaola, parmesan et roquette.",
       "min": 40,
       "serv": 4,
