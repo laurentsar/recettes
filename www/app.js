@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.34';
+const APP_VERSION = '3.35';
 
 let ALL = [];
 let BASE = [];
@@ -1733,7 +1733,7 @@ const elCocktailDetail = document.getElementById('cocktail-detail');
 
 const MODE_GROUPS = {
   pizza:           { subs: ['garnies','pates_pizza'] },
-  desserts:        { subs: ['desserts_tous','gateaux','tartes_sucrees','cremes_desserts','biscuits','viennoiseries','crepes_sucrees','tiramisu','cheesecakes','charlottes'] },
+  desserts:        { subs: ['desserts_tous','gateaux','tartes_sucrees','flans','cremes_desserts','biscuits','viennoiseries','crepes_sucrees','tiramisu','cheesecakes','charlottes'] },
   soupes:          { subs: ['soupes','salades'] },
   poissons:        { subs: ['poissons','moules'] },
   crepes_cakes:    { subs: ['crepes_salees','cakes_sales'] },
@@ -1754,7 +1754,7 @@ const SUB_TAB_LABELS = {
   arabe:'🌙 Monde arabe', bulgarie:'🇧🇬 Bulgarie', hongrie:'🇭🇺 Hongrie', roumanie:'🇷🇴 Roumanie', paysbas:'🇳🇱 Pays-Bas', belgique:'🇧🇪 Belgique',
   garnies:'🍕 Garnitures', pates_pizza:'🍞 Pâtes',
   majorque:'🏝️ Majorque',
-  desserts_tous:'🍰 Tous', gateaux:'🎂 Gâteaux', tartes_sucrees:'🥧 Tartes', cremes_desserts:'🍮 Crèmes & mousses', biscuits:'🍪 Biscuits & douceurs', viennoiseries:'🥐 Viennoiseries', crepes_sucrees:'🥞 Crêpes & gaufres', tiramisu:'☕ Tiramisu', cheesecakes:'🧀 Cheesecakes', charlottes:'🍓 Charlottes',
+  desserts_tous:'🍰 Tous', gateaux:'🎂 Gâteaux', tartes_sucrees:'🥧 Tartes', flans:'🍮 Flans', cremes_desserts:'🥄 Crèmes & mousses', biscuits:'🍪 Biscuits & douceurs', viennoiseries:'🥐 Viennoiseries', crepes_sucrees:'🥞 Crêpes & gaufres', tiramisu:'☕ Tiramisu', cheesecakes:'🧀 Cheesecakes', charlottes:'🍓 Charlottes',
   soupes:'🥣 Soupes', salades:'🥗 Salades', poissons:'🐟 Poissons', moules:'🦪 Moules', crepes_salees:'🥞 Crêpes salées', cakes_sales:'🍞 Cakes salés',
   airfryer:'🌪️ Airfryer', thermomix:'⚙️ Thermomix', sousvide:'🌡️ Sous vide',
   tartines:'🍞 Tartines', tartinades:'🥖 Tartinades', wraps:'🌮 Wraps', tortillas:'🫓 Tortillas', roules:'🌀 Roulés', bouchees:'🫓 Bouchées', brochettes:'🍢 Brochettes', paninis:'🥪 Paninis', samoussas:'🔺 Samoussas', empanadas:'🥟 Empanadas',
@@ -1766,7 +1766,7 @@ const SUB_TAB_LABELS = {
 };
 const MODE_CAT = {
   garnies: 'Pizza', pates_pizza: 'Pâte à Pizza', majorque: 'Majorque',
-  desserts_tous: 'Dessert', gateaux: 'Gâteaux', tartes_sucrees: 'Tarte sucrée', cremes_desserts: 'Crème dessert', biscuits: 'Biscuit', viennoiseries: 'Viennoiserie', crepes_sucrees: 'Crêpe sucrée', tiramisu: 'Tiramisu', cheesecakes: 'Cheesecake', charlottes: 'Charlotte',
+  desserts_tous: 'Dessert', gateaux: 'Gâteaux', tartes_sucrees: 'Tarte sucrée', flans: 'Flan', cremes_desserts: 'Crème dessert', biscuits: 'Biscuit', viennoiseries: 'Viennoiserie', crepes_sucrees: 'Crêpe sucrée', tiramisu: 'Tiramisu', cheesecakes: 'Cheesecake', charlottes: 'Charlotte',
   soupes: 'Soupe', salades: 'Salade', poissons: 'Poisson', moules: 'Moules', crepes_salees: 'Crêpe salée', cakes_sales: 'Cake salé',
   airfryer: 'Airfryer', thermomix: 'Thermomix', sousvide: 'Sous vide',
   corse: 'Corse', espagne: 'Espagne', portugal: 'Portugal',

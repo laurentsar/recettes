@@ -597,7 +597,7 @@
       "id": "corse:063",
       "url": "https://www.750g.com/julie-andrieu-partage-sa-recette-de-flan-corse-a-la-chataigne-avec-un-petit-ingredient-secret-a36437.htm",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg/500px-Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg",
-      "cat": "Corse, Dessert, Crème dessert"
+      "cat": "Corse, Dessert, Flan"
     },
     {
       "id": "corse:067",
@@ -1184,7 +1184,7 @@
       "id": "dropbox:6c454f28-b62f-4a9e-9e3e-3634402849f6",
       "img": "img/illus/dropbox-6c454f28-b62f-4a9e-9e3e-3634402849f6.jpg",
       "t": "Flans au Airfryer",
-      "cat": "Dessert, Airfryer, Crème dessert"
+      "cat": "Dessert, Flan, Airfryer"
     },
     {
       "id": "dropbox:1759851535",
@@ -1313,7 +1313,7 @@
     {
       "id": "dropbox:ea076000-d27b-4c59-b2ad-6d7bed5afa91",
       "img": "img/illus/dropbox-ea076000-d27b-4c59-b2ad-6d7bed5afa91.jpg",
-      "cat": "Dessert, Crème dessert"
+      "cat": "Dessert, Flan"
     },
     {
       "id": "dropbox:13dd5187-429b-4541-9f2b-c613fd116e64",
@@ -1548,7 +1548,7 @@
     {
       "id": "espagne:028",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Gastronomie_-_Beaume_de_Venise_%26_Flan_Citron_-_Framboise.jpg/500px-Gastronomie_-_Beaume_de_Venise_%26_Flan_Citron_-_Framboise.jpg",
-      "cat": "Espagne, Dessert, Crème dessert"
+      "cat": "Espagne, Dessert, Flan"
     },
     {
       "id": "espagne:030",
@@ -1937,7 +1937,7 @@
     {
       "id": "dropbox:3660747e-1841-456d-a80f-f180ef896c87",
       "t": "Flans maison à l'Air Fryer en 12 minutes",
-      "cat": "Dessert, Airfryer, Crème dessert"
+      "cat": "Dessert, Flan, Airfryer"
     },
     {
       "id": "dropbox:085ff5be-96b9-469a-9f4f-f2cfa51a2e9c",
@@ -2017,7 +2017,7 @@
     },
     {
       "id": "dropbox:d2cc2716-392e-4cf8-a4d3-f953354bb027",
-      "cat": "Dessert, Crème dessert"
+      "cat": "Dessert, Flan"
     },
     {
       "id": "dropbox:1f06e514-74d8-4474-adab-243613cf0da8",
@@ -2077,7 +2077,7 @@
     },
     {
       "id": "af:002",
-      "cat": "Dessert, Airfryer, Crème dessert"
+      "cat": "Dessert, Flan, Airfryer"
     },
     {
       "id": "tmx:005",
@@ -3280,7 +3280,7 @@
     {
       "id": "af:016",
       "t": "Flan Vanille Ultra Fondant — Airfryer",
-      "cat": "Airfryer, Dessert, Crème dessert, Flan",
+      "cat": "Airfryer, Dessert, Flan",
       "min": 30,
       "serv": 4,
       "desc": "Flan vanille crémeux et fondant cuit à l'airfryer, en version ramequins individuels ou grand plat à partager. Centre légèrement tremblant = cuisson parfaite.",
@@ -3316,7 +3316,7 @@
     {
       "id": "af:018",
       "t": "Flan Chocolat Cœur Fondant — Airfryer",
-      "cat": "Airfryer, Dessert, Crème dessert, Flan",
+      "cat": "Airfryer, Dessert, Flan",
       "min": 25,
       "serv": 4,
       "desc": "Flan au chocolat avec un cœur coulant fondant, cuit à l'airfryer. La clé : arrêter la cuisson quand le centre tremble encore. Délice absolu.",
@@ -3350,7 +3350,7 @@
     {
       "id": "af:020",
       "t": "Flan Coco Façon Îles — Airfryer",
-      "cat": "Airfryer, Dessert, Crème dessert",
+      "cat": "Airfryer, Dessert, Flan",
       "min": 30,
       "serv": 4,
       "desc": "Flan exotique au lait de coco et noix de coco râpée, texture légèrement granuleuse et parfum des îles. Simple, dépaysant, fondant.",
@@ -6235,7 +6235,7 @@
     {
       "id": "grece:015",
       "t": "Galaktoboureko (Flan à la Semoule en Phyllo)",
-      "cat": "Grèce, Dessert, Crème dessert",
+      "cat": "Grèce, Dessert, Flan",
       "min": 80,
       "serv": 12,
       "desc": "Crème à la semoule vanillée emprisonnée dans du phyllo croustillant, imbibée de sirop citronné. La pâtisserie grecque la plus délicate.",
@@ -22734,7 +22734,7 @@
     {
       "id": "flan:001",
       "t": "Flan Classique au Caramel",
-      "cat": "Dessert, Crème dessert, Flan",
+      "cat": "Dessert, Flan",
       "desc": "Le flan aux œufs nappé de caramel, lisse et onctueux.",
       "min": 70,
       "serv": 8,
@@ -22758,7 +22758,7 @@
     {
       "id": "flan:002",
       "t": "Flan au Chocolat",
-      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "cat": "Dessert, Flan, Chocolat",
       "desc": "Un flan dense et fondant au chocolat noir.",
       "min": 70,
       "serv": 8,
@@ -22781,7 +22781,7 @@
     {
       "id": "flan:003",
       "t": "Flan Chocolat-Vanille Marbré",
-      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "cat": "Dessert, Flan, Chocolat",
       "desc": "Deux appareils vanille et chocolat marbrés à la pointe du couteau.",
       "min": 70,
       "serv": 8,
@@ -22805,7 +22805,7 @@
     {
       "id": "flan:004",
       "t": "Flan Coco et Caramel",
-      "cat": "Dessert, Crème dessert, Flan",
+      "cat": "Dessert, Flan",
       "desc": "Flan exotique au lait de coco et noix de coco râpée, sous un caramel blond.",
       "min": 70,
       "serv": 8,
@@ -22829,7 +22829,7 @@
     {
       "id": "flan:005",
       "t": "Flan Chocolat-Menthe",
-      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "cat": "Dessert, Flan, Chocolat",
       "desc": "Flan au chocolat parfumé à la menthe fraîche, façon After Eight.",
       "min": 70,
       "serv": 8,
@@ -22854,7 +22854,7 @@
     {
       "id": "flan:006",
       "t": "Flan à la Vanille",
-      "cat": "Dessert, Crème dessert, Flan",
+      "cat": "Dessert, Flan",
       "desc": "Flan sans caramel, bien vanillé, à la texture crémeuse.",
       "min": 70,
       "serv": 8,
@@ -22877,7 +22877,7 @@
     {
       "id": "flan:007",
       "t": "Flan à la Noix de Coco",
-      "cat": "Dessert, Crème dessert, Flan",
+      "cat": "Dessert, Flan",
       "desc": "Flan coco généreux, coiffé de noix de coco râpée dorée.",
       "min": 70,
       "serv": 8,
@@ -22901,7 +22901,7 @@
     {
       "id": "flan:008",
       "t": "Flan Chocolat-Café",
-      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "cat": "Dessert, Flan, Chocolat",
       "desc": "Un flan moka : chocolat noir et café serré.",
       "min": 70,
       "serv": 8,
@@ -22926,7 +22926,7 @@
     {
       "id": "flan:009",
       "t": "Flan aux Framboises",
-      "cat": "Dessert, Crème dessert, Flan",
+      "cat": "Dessert, Flan",
       "desc": "Flan vanille surmonté de framboises fraîches.",
       "min": 70,
       "serv": 8,
@@ -22951,7 +22951,7 @@
     {
       "id": "flan:010",
       "t": "Flan au Citron",
-      "cat": "Dessert, Crème dessert, Flan",
+      "cat": "Dessert, Flan",
       "desc": "Flan frais et acidulé au zeste de citron.",
       "min": 70,
       "serv": 8,
@@ -22975,7 +22975,7 @@
     {
       "id": "flan:011",
       "t": "Cheesecake Japonais (Flan Soufflé)",
-      "cat": "Dessert, Crème dessert, Flan, Cheesecake",
+      "cat": "Dessert, Flan, Cheesecake",
       "desc": "Le cotton cheesecake : un flan au fromage aérien, qui tremble comme un soufflé.",
       "min": 90,
       "serv": 8,
@@ -23003,7 +23003,7 @@
     {
       "id": "flan:012",
       "t": "Flan Coco et Chocolat",
-      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "cat": "Dessert, Flan, Chocolat",
       "desc": "Base coco et nappage chocolat, l'esprit Bounty.",
       "min": 70,
       "serv": 8,
@@ -23028,7 +23028,7 @@
     {
       "id": "flan:013",
       "t": "Flan à la Mangue",
-      "cat": "Dessert, Crème dessert, Flan",
+      "cat": "Dessert, Flan",
       "desc": "Flan fruité à la purée de mangue, dés de mangue fraîche.",
       "min": 70,
       "serv": 8,
@@ -23053,7 +23053,7 @@
     {
       "id": "flan:014",
       "t": "Flan au Caramel au Beurre Salé",
-      "cat": "Dessert, Crème dessert, Flan",
+      "cat": "Dessert, Flan",
       "desc": "Flan nappé d'un caramel au beurre salé coulant.",
       "min": 70,
       "serv": 8,
@@ -23077,7 +23077,7 @@
     {
       "id": "flan:015",
       "t": "Flan au Chocolat Blanc",
-      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "cat": "Dessert, Flan, Chocolat",
       "desc": "Flan doux au chocolat blanc, garni de pépites.",
       "min": 70,
       "serv": 8,
@@ -23102,7 +23102,7 @@
     {
       "id": "flan:016",
       "t": "Flan Impossible (Chocoflan)",
-      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "cat": "Dessert, Flan, Chocolat",
       "desc": "Le chocoflan mexicain : on verse le gâteau puis le flan, et à la cuisson les couches s'inversent.",
       "min": 100,
       "serv": 10,
@@ -23123,7 +23123,7 @@
     {
       "id": "flan:017",
       "t": "Flan Chocolat et Caramel",
-      "cat": "Dessert, Crème dessert, Flan, Chocolat",
+      "cat": "Dessert, Flan, Chocolat",
       "desc": "Flan au chocolat sous un caramel ambré et éclats de noix de pécan.",
       "min": 70,
       "serv": 8,
@@ -23149,7 +23149,7 @@
     {
       "id": "flan:018",
       "t": "Flan Lait de Coco et Ananas",
-      "cat": "Dessert, Crème dessert, Flan",
+      "cat": "Dessert, Flan",
       "desc": "Flan tropical coco, garni d'ananas caramélisé.",
       "min": 70,
       "serv": 8,
@@ -23175,7 +23175,7 @@
     {
       "id": "flan:019",
       "t": "Flan Dulce de Leche",
-      "cat": "Dessert, Crème dessert, Flan",
+      "cat": "Dessert, Flan",
       "desc": "Flan argentin au dulce de leche, nappé de confiture de lait.",
       "min": 70,
       "serv": 8,
