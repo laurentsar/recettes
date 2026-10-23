@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.24';
+const APP_VERSION = '3.25';
 
 let ALL = [];
 let BASE = [];
@@ -626,16 +626,20 @@ function card(r, cov){
     ? `<img class="thumb" src="${esc(r.img)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph>🍽️</div>'">`
     : `<div class="ph">🍽️</div>`;
   const meta = [r.min? '⏱️ '+r.min+' min':'', r.serv? '🍽️ '+r.serv : '', catList(r).join(', ')].filter(Boolean).slice(0,2).join(' · ');
-  const stock = cov ? `<div class="stock-cov ${cov.covered===cov.total?'ok':''}">🧺 ${cov.covered}/${cov.total} en stock</div>` : '';
+  const miss = cov ? cov.total - cov.covered : 0;
+  const stock = cov ? `<div class="stock-cov ${miss?'':'ok'}">🧺 ${cov.covered}/${cov.total} en stock · ${miss ? `manque ${miss}` : 'tout y est'}</div>` : '';
   return `<div class="rcard ${fav}" data-id="${esc(r.id)}">${img}
     <div class="info"><div class="rt">${esc(r.t)}</div><div class="meta">${esc(meta)}</div>${stock}</div></div>`;
 }
 const GRID_PG = 48;
 let _gList = [], _gPage = 0, _gObs = null, _gCov = null;
 
-/* Tri « Mes stocks » : recettes classées par part d'ingrédients déjà en stock
-   (puis nombre d'ingrédients en stock) ; celles sans aucun produit en stock
-   restent ensuite, dans l'ordre habituel. */
+/* Tri « Mes stocks » : d'abord les recettes où il manque le moins d'ingrédients,
+   puis celles qui utilisent le plus de produits en stock ; celles sans aucun
+   produit en stock restent ensuite, dans l'ordre habituel. */
+function stockRank(a, b){
+  return (a.total - a.covered) - (b.total - b.covered) || b.covered - a.covered;
+}
 function sortByStock(list){
   const have = stockHaveList();
   _gCov = new Map();
@@ -648,7 +652,7 @@ function sortByStock(list){
   scored.sort((a, b) => {
     const ca = a.c && a.c.covered ? a.c : null, cb = b.c && b.c.covered ? b.c : null;
     if (!ca || !cb) return (cb ? 1 : 0) - (ca ? 1 : 0) || a.i - b.i;
-    return cb.pct - ca.pct || cb.covered - ca.covered || a.i - b.i;
+    return stockRank(ca, cb) || a.i - b.i;
   });
   return scored.map(x => x.r);
 }
@@ -902,12 +906,11 @@ function enrichStep(rawStep, ingMap){
    et son emplacement (🧊 frigo, ❄️ congélo, 🥫 cellier). */
 function stockForLine(line){
   if (!line) return null;
-  const set = new Set(stockTokens(line, LINE_STOP));
-  if (!set.size) return null;
+  const toks = stockTokens(line, LINE_STOP);
+  if (!toks.length) return null;
   for (const t of FTABS){
     for (const n of storageIngs[t]){
-      const keys = stockKeys(n);
-      if (keys.length && lineHasProduct(set, keys)) return { tab: t, name: n };
+      if (lineHasProduct(toks, n)) return { tab: t, name: n };
     }
   }
   return null;
@@ -2197,9 +2200,60 @@ function stockTokens(s, stop){
     .filter(w => w.length >= 3 && !/^\d/.test(w) && !stop.has(w)).map(stockStem);
 }
 function stockKeys(name){ return stockTokens(name, STOCK_STOP).slice(0, 2); }
-function lineHasProduct(lineSet, keys){
-  if (!keys.length || !lineSet.has(keys[0])) return false;
-  return keys.length === 1 || lineSet.has(keys[1]) || !STOCK_GENERIC.has(keys[0]);
+// Produits « dérivés » : dans « bouillon de bœuf », « concentré de tomate », « vinaigre de riz »,
+// le produit cité après ce mot n'est pas l'ingrédient lui-même.
+const STOCK_FORMS = new Set(['bouillon','fond','fumet','concentre','sauce','couli','poudre','vinaigre','nouille','galette',
+  'fecule','sirop','arome','extrait','glace','vermicelle','tartiner','yaourt','yogourt','chip','biscuit','liqueur','ketchup','mayonnaise','pesto']);
+// Mot qui, placé juste après le produit, en fait un autre produit (« lait de coco », « chocolat blanc »).
+const STOCK_AFTER = {
+  lait: ['coco','concentre','vegetal','amande','soja','avoine','riz','ribot','poudre','fermente'],
+  chocolat: ['blanc','lait','poudre'],
+  beurre: ['cacahuete','cacao','karite','noisette'],
+  creme: ['coco','marron','patissiere','anglaise','balsamique','cassis'],
+  sucre: ['glace','vanille','vanilline'],
+  farine: ['mais','riz','chataigne','sarrasin','pois','coco','amande','manioc'],
+  tomate: ['sechee','seche'],
+};
+// Équivalences : un produit en stock couvre aussi ces façons de l'écrire dans une recette.
+const STOCK_SYNONYMS = [
+  { when: ['pates'], alts: [['pates'],['spaghetti'],['spaghettis'],['tagliatelle'],['penne'],['macaroni'],['fusilli'],['linguine'],['farfalle'],
+    ['coquillette'],['rigatoni'],['orecchiette'],['conchiglie'],['pappardelle'],['torsade'],['tortiglioni']] },
+  { when: ['creme','fraiche'], alts: [['creme','fraiche'],['creme','liquide'],['creme','epaisse'],['creme','entiere'],['creme','cuisine'],['creme','fleurette']] },
+  { when: ['creme','liquide'], alts: [['creme','fraiche'],['creme','liquide'],['creme','entiere'],['creme','cuisine'],['creme','fleurette']] },
+  { when: ['creme','epaisse'], alts: [['creme','fraiche'],['creme','epaisse']] },
+  { when: ['emmental'], alts: [['emmental'],['fromage','rape'],['gruyere','rape']] },
+  { when: ['gruyere'], alts: [['gruyere'],['fromage','rape'],['emmental','rape']] },
+  { when: ['comte'], alts: [['comte'],['fromage','rape']] },
+  { when: ['fromage','rape'], alts: [['fromage','rape'],['emmental','rape'],['gruyere','rape'],['comte','rape']] },
+  { when: ['steak','hache'], alts: [['steak','hache'],['boeuf','hache'],['viande','hachee'],['viande','hache']] },
+  { when: ['boeuf','hache'], alts: [['boeuf','hache'],['steak','hache'],['viande','hachee'],['viande','hache']] },
+];
+// Façons de reconnaître un produit en stock dans une ligne d'ingrédient.
+const _prodAltCache = new Map();
+function stockProductAlts(name){
+  let v = _prodAltCache.get(name);
+  if (!v){
+    const keys = stockKeys(name);
+    const syn = STOCK_SYNONYMS.find(x => x.when.every((w, i) => keys[i] === w));
+    // Équivalences : tous les mots sont exigés (« bœuf haché » ne couvre pas « bœuf à braiser »).
+    v = !keys.length ? [] : syn ? syn.alts.map(k => ({ keys: k, strict: true })) : [{ keys, strict: false }];
+    _prodAltCache.set(name, v);
+  }
+  return v;
+}
+function lineHasKeys(toks, keys, strict){
+  const i = toks.indexOf(keys[0]);
+  if (i < 0) return false;
+  if (keys.length > 1 && !toks.includes(keys[1]) && (strict || STOCK_GENERIC.has(keys[0]))) return false;
+  // « sans sucre », « bouillon de bœuf », « lait de coco » : ce n'est pas le produit.
+  if (toks[i - 1] === 'sans') return false;
+  if (toks.slice(0, i).some(w => STOCK_FORMS.has(w)) && !keys.some(k => STOCK_FORMS.has(k))) return false;
+  const after = STOCK_AFTER[keys[0]];
+  if (after && after.includes(toks[i + 1]) && !keys.includes(toks[i + 1])) return false;
+  return true;
+}
+function lineHasProduct(toks, name){
+  return stockProductAlts(name).some(a => lineHasKeys(toks, a.keys, a.strict));
 }
 // Sel, poivre, eau… : supposés toujours disponibles, n'entrent pas dans la couverture.
 function isStapleLine(line){ return /\b(sel|poivre|eau)\b/.test(norm(line)) && norm(line).split(/\s+/).length <= 6; }
@@ -2208,13 +2262,54 @@ function cleanIngLine(line){
     .replace(/^(g|kg|mg|ml|cl|dl|l|grammes?|c\.?\s?[aà]\s?[sc]\.?|cuill?\w*( à \w+)?|pinc\w*|gousses?|tranches?|bo[iî]tes?|sachets?|verres?|brins?|feuilles?)\s+/i, '')
     .replace(/^(de |d'|d’)/i, '').trim();
 }
+// Mots de préparation : « coupées en dés », « fondu », « facultatif »… ne sont pas des ingrédients.
+const PREP_WORDS = new Set(['coupe','coupee','emince','eminee','emincee','hache','hachee','pele','pelee','epluche','epluchee','epepine','epepinee',
+  'concasse','concassee','rape','rapee','ecrase','ecrasee','cisele','ciselee','fondu','fondue','mou','molle','ramolli','ramollie','froid','froide',
+  'chaud','chaude','tiede','battu','battue','cuit','cuite','egoutte','egouttee','rince','rincee','facultatif','facultative','optionnel','environ',
+  'selon','gout','des','morceau','rondelle','lamelle','fine','fin','finement','grossierement','gros','grosse','petit','petite','moyen','moyenne',
+  'bien','mure','mur','frais','fraiche','entier','entiere','temperature','ambiante','servir','decorer','dorure','moule','graisser','choix','type',
+  'plus','moins','peu','quelque','tasse','piece','pieces','portion','part','demi','moitie','zeste','jus']);
+function isPrepPiece(piece){
+  return stockTokens(piece, LINE_STOP).every(w => PREP_WORDS.has(w));
+}
+// Coupe une ligne « PÂTE : 500 g farine, 2 œufs, 1 c. sucre » en ingrédients séparés
+// (virgules hors parenthèses ; une précision comme « coupées en dés » reste avec l'ingrédient).
+function splitIngLine(line){
+  let l = String(line).replace(/^\s*[-–•*]\s*/, '');
+  // « PÂTE : … », « Pour la farce : … » → on retire l'intitulé ; « Farine : 30 g » reste tel quel.
+  const head = l.match(/^([^:()\d]{1,40}):\s*(.*)$/);
+  if (head){
+    const label = head[1].trim(), rest = head[2].trim();
+    if (!rest) return [];                       // titre de section (« Pour la sauce : »)
+    if (label === label.toUpperCase() || /^pour\s/i.test(label) || /[,+;]/.test(rest)) l = rest;
+    else l = label + ' ' + rest;
+  }
+  if (/^\s*pour (le|la|les|l'|l’)\b[^,]*$/i.test(l) && !/\d/.test(l)) return [];
+  const parts = []; let cur = '', depth = 0;
+  for (const ch of l){
+    if (ch === '(') depth++;
+    else if (ch === ')') depth = Math.max(0, depth - 1);
+    if ((ch === ',' || ch === '+' || ch === ';') && !depth){ parts.push(cur); cur = ''; continue; }
+    cur += ch;
+  }
+  parts.push(cur);
+  const out = [];
+  for (const p0 of parts){
+    const p = p0.trim();
+    if (!p) continue;
+    if (out.length && (isPrepPiece(p) || /^(ou|et)\s/i.test(p))) out[out.length - 1] += ', ' + p;
+    else out.push(p);
+  }
+  return out;
+}
 const _recipeLineCache = new WeakMap();
 function recipeLines(r){
   let v = _recipeLineCache.get(r);
   if (!v){
-    v = (r.ing || []).filter(l => l && l.trim() && !isStapleLine(l))
-      .map(l => ({ raw: l, set: new Set(stockTokens(l, LINE_STOP)) }))
-      .filter(x => x.set.size);
+    v = (r.ing || []).filter(l => l && l.trim()).flatMap(splitIngLine)
+      .filter(l => !isStapleLine(l))
+      .map(l => ({ raw: l, toks: stockTokens(l, LINE_STOP) }))
+      .filter(x => x.toks.length && !x.toks.every(w => PREP_WORDS.has(w)));
     _recipeLineCache.set(r, v);
   }
   return v;
@@ -2223,8 +2318,8 @@ function recipeLines(r){
 let frigoSugFilter = 'all';
 
 function stockHaveList(){
-  return FTABS.flatMap(t => storageIngs[t].map(name => ({ name, tab: t, keys: stockKeys(name) })))
-    .filter(p => p.keys.length);
+  return FTABS.flatMap(t => storageIngs[t].map(name => ({ name, tab: t })))
+    .filter(p => stockProductAlts(p.name).length);
 }
 // Couverture d'une recette par les produits en stock (null si aucun ingrédient exploitable).
 function recipeStockCoverage(r, have){
@@ -2234,7 +2329,7 @@ function recipeStockCoverage(r, have){
   let covered = 0;
   const missing = [];
   for (const ln of lines){
-    const hit = have.find(p => lineHasProduct(ln.set, p.keys));
+    const hit = have.find(p => lineHasProduct(ln.toks, p.name));
     if (hit){ covered++; used.set(hit.name, hit.tab); }
     else missing.push(cleanIngLine(ln.raw));
   }
@@ -2253,7 +2348,7 @@ function matchFrigoRecipes(filter = frigoSugFilter, limit = 40){
     const { used, ...rest } = c;
     out.push(rest);
   }
-  return out.sort((a, b) => b.pct - a.pct || b.covered - a.covered || a.r.t.localeCompare(b.r.t)).slice(0, limit);
+  return out.sort((a, b) => stockRank(a, b) || a.r.t.localeCompare(b.r.t)).slice(0, limit);
 }
 
 function renderFrigoSuggestions(){
