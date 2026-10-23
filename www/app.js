@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.23';
+const APP_VERSION = '3.24';
 
 let ALL = [];
 let BASE = [];
@@ -9,6 +9,9 @@ let cats = [];
 let catCount = {};
 // state.cats = liste des catégories cochées dans le filtre (vide = toutes) ; state.fav = filtre favoris.
 let state = { q:'', cats:[], fav:false, ing:null, diet:null };
+// Tri de la liste par ingrédients déjà en stock (mémorisé).
+let stockSort = false;
+try { stockSort = localStorage.getItem('stockSort') === '1'; } catch(e){}
 const favs = new Set(JSON.parse(localStorage.getItem('recetteFavs') || '[]'));
 let edits = JSON.parse(localStorage.getItem('recetteEdits') || '{}');
 let imports = JSON.parse(localStorage.getItem('recetteImports') || '[]');
@@ -425,6 +428,7 @@ function renderChips(){
   const catLabel = nSel ? `🏷️ ${nSel} sélection${nSel>1?'s':''}` : '🏷️ Catégories';
   elCats.innerHTML = `
     <button class="chip ing-chip ${state.ing?'active':''}" id="ing-filter-btn">${esc(ingLabel)}</button>
+    <button class="chip ${stockSort?'active':''}" id="stock-sort-btn" title="Trier par ingrédients en stock">🧺 Mes stocks</button>
     <div class="cat-multi">
       <button class="chip ${nSel?'active':''}" id="cat-btn">${esc(catLabel)} ▾</button>
       <div class="cat-panel" id="cat-panel" hidden></div>
@@ -435,6 +439,17 @@ function renderChips(){
   document.getElementById('ing-filter-btn').addEventListener('click', ()=>{
     if (state.ing){ state.ing=null; renderChips(); renderGrid(); } else openIngPick();
   });
+  document.getElementById('stock-sort-btn').addEventListener('click', toggleStockSort);
+}
+function toggleStockSort(){
+  if (!stockSort && !getAllStorageIngs().length){
+    toast('🧺 Ajoute d\'abord ce que tu as au frigo, au congélo ou au cellier');
+    openFrigo();
+    return;
+  }
+  stockSort = !stockSort;
+  try { localStorage.setItem('stockSort', stockSort ? '1' : '0'); } catch(e){}
+  renderChips(); renderGrid();
 }
 // compte total d'un nœud (lui + descendants) — sert juste à masquer les nœuds vides.
 function catTotal(name, val){
@@ -605,25 +620,48 @@ function openCatPick(id){
 function closeCatPick(){ document.getElementById('catpick').hidden = true; }
 
 /* ---------- grille ---------- */
-function card(r){
+function card(r, cov){
   const fav = favs.has(r.id) ? 'fav-badge' : '';
   const img = r.img
     ? `<img class="thumb" src="${esc(r.img)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph>🍽️</div>'">`
     : `<div class="ph">🍽️</div>`;
   const meta = [r.min? '⏱️ '+r.min+' min':'', r.serv? '🍽️ '+r.serv : '', catList(r).join(', ')].filter(Boolean).slice(0,2).join(' · ');
+  const stock = cov ? `<div class="stock-cov ${cov.covered===cov.total?'ok':''}">🧺 ${cov.covered}/${cov.total} en stock</div>` : '';
   return `<div class="rcard ${fav}" data-id="${esc(r.id)}">${img}
-    <div class="info"><div class="rt">${esc(r.t)}</div><div class="meta">${esc(meta)}</div></div></div>`;
+    <div class="info"><div class="rt">${esc(r.t)}</div><div class="meta">${esc(meta)}</div>${stock}</div></div>`;
 }
 const GRID_PG = 48;
-let _gList = [], _gPage = 0, _gObs = null;
+let _gList = [], _gPage = 0, _gObs = null, _gCov = null;
+
+/* Tri « Mes stocks » : recettes classées par part d'ingrédients déjà en stock
+   (puis nombre d'ingrédients en stock) ; celles sans aucun produit en stock
+   restent ensuite, dans l'ordre habituel. */
+function sortByStock(list){
+  const have = stockHaveList();
+  _gCov = new Map();
+  if (!have.length) return list;
+  const scored = list.map((r, i) => {
+    const c = recipeStockCoverage(r, have);
+    if (c && c.covered) _gCov.set(r, c);
+    return { r, i, c };
+  });
+  scored.sort((a, b) => {
+    const ca = a.c && a.c.covered ? a.c : null, cb = b.c && b.c.covered ? b.c : null;
+    if (!ca || !cb) return (cb ? 1 : 0) - (ca ? 1 : 0) || a.i - b.i;
+    return cb.pct - ca.pct || cb.covered - ca.covered || a.i - b.i;
+  });
+  return scored.map(x => x.r);
+}
 
 function renderGrid(){
   if(appMode === 'cocktails') return;
-  _gList = filtered(); _gPage = 0;
+  _gList = filtered(); _gPage = 0; _gCov = null;
+  if (stockSort) _gList = sortByStock(_gList);
   const _dietLabel = {sansgluten:'sans gluten',proteines:'riches en protéines',antiinflamm:'anti-inflammatoires',vegetarien:'végétariennes',vegan:'vegan',keto:'keto',rapide:'rapides (≤30 min)'}[state.diet] || '';
   elStatus.textContent = `${_gList.length} recette${_gList.length>1?'s':''}`
     + (_dietLabel ? ` ${_dietLabel}` : '')
-    + (state.fav?' en favoris':'');
+    + (state.fav?' en favoris':'')
+    + (_gCov ? ` · ${_gCov.size} avec des produits en stock, en tête` : '');
   if(_gObs){ _gObs.disconnect(); _gObs=null; }
   elGrid.innerHTML = '';
   updateGridFold();
@@ -635,7 +673,7 @@ function renderGrid(){
    cherche ou filtre, ou dans les autres onglets, les résultats s'affichent. */
 let gridOpen = false;
 function gridFoldable(){
-  return appMode === 'recipes' && !state.q && !state.cats.length && !state.fav && !state.ing && !state.diet;
+  return appMode === 'recipes' && !state.q && !state.cats.length && !state.fav && !state.ing && !state.diet && !stockSort;
 }
 function updateGridFold(){
   const btn = document.getElementById('all-toggle');
@@ -658,7 +696,7 @@ function _gridAppendPage(){
   const slice = _gList.slice(_gPage*GRID_PG, (_gPage+1)*GRID_PG);
   if(!slice.length) return;
   const frag = document.createDocumentFragment();
-  slice.forEach(r=>{ const d=document.createElement('div'); d.innerHTML=card(r); const c=d.firstElementChild; c.addEventListener('click',()=>openDetail(c.dataset.id)); frag.appendChild(c); });
+  slice.forEach(r=>{ const d=document.createElement('div'); d.innerHTML=card(r, _gCov && _gCov.get(r)); const c=d.firstElementChild; c.addEventListener('click',()=>openDetail(c.dataset.id)); frag.appendChild(c); });
   elGrid.appendChild(frag);
   _gPage++;
   if(_gPage*GRID_PG < _gList.length){
@@ -2047,7 +2085,7 @@ function openFrigo(){
   renderFrigoSuggestions();
 }
 
-function closeFrigo(){ document.getElementById('frigo').hidden = true; renderCellarHome(); }
+function closeFrigo(){ document.getElementById('frigo').hidden = true; renderCellarHome(); if (stockSort) renderGrid(); }
 
 function switchFrigoTab(tab){
   activeFTab = tab;
@@ -2184,26 +2222,36 @@ function recipeLines(r){
 
 let frigoSugFilter = 'all';
 
-function matchFrigoRecipes(filter = frigoSugFilter, limit = 40){
-  const have = FTABS.flatMap(t => storageIngs[t].map(name => ({ name, tab: t, keys: stockKeys(name) })))
+function stockHaveList(){
+  return FTABS.flatMap(t => storageIngs[t].map(name => ({ name, tab: t, keys: stockKeys(name) })))
     .filter(p => p.keys.length);
+}
+// Couverture d'une recette par les produits en stock (null si aucun ingrédient exploitable).
+function recipeStockCoverage(r, have){
+  const lines = recipeLines(r);
+  if (!lines.length) return null;
+  const used = new Map();
+  let covered = 0;
+  const missing = [];
+  for (const ln of lines){
+    const hit = have.find(p => lineHasProduct(ln.set, p.keys));
+    if (hit){ covered++; used.set(hit.name, hit.tab); }
+    else missing.push(cleanIngLine(ln.raw));
+  }
+  return { r, covered, total: lines.length, pct: covered / lines.length, used, matched: [...used.keys()], missing };
+}
+
+function matchFrigoRecipes(filter = frigoSugFilter, limit = 40){
+  const have = stockHaveList();
   if (!have.length) return [];
   const out = [];
   for (const r of ALL){
-    const lines = recipeLines(r);
-    if (!lines.length) continue;
-    const used = new Map();
-    let covered = 0;
-    const missing = [];
-    for (const ln of lines){
-      const hit = have.find(p => lineHasProduct(ln.set, p.keys));
-      if (hit){ covered++; used.set(hit.name, hit.tab); }
-      else missing.push(cleanIngLine(ln.raw));
-    }
-    if (!covered) continue;
+    const c = recipeStockCoverage(r, have);
+    if (!c || !c.covered) continue;
     // Filtre : la recette doit utiliser au moins un produit de ce stock.
-    if (filter !== 'all' && ![...used.values()].includes(filter)) continue;
-    out.push({ r, covered, total: lines.length, pct: covered / lines.length, matched: [...used.keys()], missing });
+    if (filter !== 'all' && ![...c.used.values()].includes(filter)) continue;
+    const { used, ...rest } = c;
+    out.push(rest);
   }
   return out.sort((a, b) => b.pct - a.pct || b.covered - a.covered || a.r.t.localeCompare(b.r.t)).slice(0, limit);
 }
@@ -2319,7 +2367,7 @@ function openInventory(){
   el.hidden = false;
   renderInventory();
 }
-function closeInventory(){ const el = document.getElementById('inventory'); if (el) el.hidden = true; inv = null; FTABS.forEach(t => renderFrigoIngs(t)); renderFrigoSuggestions(); renderCellarHome(); }
+function closeInventory(){ const el = document.getElementById('inventory'); if (el) el.hidden = true; inv = null; FTABS.forEach(t => renderFrigoIngs(t)); renderFrigoSuggestions(); renderCellarHome(); if (stockSort) renderGrid(); }
 function invTabs(){ return inv.tab === 'tous' ? FTABS : [inv.tab]; }
 function invItems(){ return invTabs().flatMap(t => storageIngs[t].map(name => ({ tab: t, name }))); }
 function invKey(it){ return it.tab + '|' + norm(it.name); }

@@ -86,6 +86,8 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 
 #main{padding:12px 14px 40px;max-width:920px;margin:0 auto}
 .status{color:var(--muted);font-size:.88em;text-align:center;padding:14px 0}
+.stock-cov{margin-top:4px;font-size:.78em;font-weight:600;color:var(--accent)}
+.stock-cov.ok{color:#3fa66b}
 #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
 .rcard{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;cursor:pointer;display:flex;flex-direction:column}
 .rcard .thumb{width:100%;aspect-ratio:4/3;object-fit:cover;background:#3a281c}
