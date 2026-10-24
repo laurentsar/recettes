@@ -1375,7 +1375,8 @@
     },
     {
       "id": "dropbox:be88afa5-4bbc-42b3-b7ac-4f12a6093354",
-      "img": "img/illus/dropbox-be88afa5-4bbc-42b3-b7ac-4f12a6093354.jpg"
+      "img": "img/illus/dropbox-be88afa5-4bbc-42b3-b7ac-4f12a6093354.jpg",
+      "cat": "Plat, Poisson"
     },
     {
       "id": "dropbox:-29192180",
@@ -1933,7 +1934,8 @@
     },
     {
       "id": "dropbox:6f6db256-eeea-41e8-ac3c-1f9ba304d9e8",
-      "img": "img/illus/dropbox-6f6db256-eeea-41e8-ac3c-1f9ba304d9e8.jpg"
+      "img": "img/illus/dropbox-6f6db256-eeea-41e8-ac3c-1f9ba304d9e8.jpg",
+      "cat": "Plat, Poisson"
     },
     {
       "id": "dropbox:536812287",
@@ -1963,7 +1965,8 @@
     },
     {
       "id": "dropbox:1165575692",
-      "img": "img/illus/dropbox-1165575692.jpg"
+      "img": "img/illus/dropbox-1165575692.jpg",
+      "cat": "Plat, Poisson"
     },
     {
       "id": "dropbox:1837408426",
@@ -2450,7 +2453,7 @@
     },
     {
       "id": "dropbox:c83d6aa8-26fe-4269-b604-5ff12c8250c9",
-      "cat": "Airfryer, Plat"
+      "cat": "Airfryer, Plat, Poisson"
     },
     {
       "id": "dropbox:111963522",
@@ -2486,7 +2489,8 @@
     },
     {
       "id": "dropbox:69e9a532-ed42-437c-af27-0a7de0e7072f",
-      "af": "https://www.moulinex.fr/recette/detail/PRO/Saumon%20laqu%C3%A9%20Teriyaki/2448234"
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Saumon%20laqu%C3%A9%20Teriyaki/2448234",
+      "cat": "Plat, Poisson, Japon, Airfryer"
     },
     {
       "id": "dropbox:51065440-5120-43a2-92ef-0d53e34e215c",
@@ -2515,6 +2519,34 @@
     {
       "id": "dropbox:c86d2b46-6085-4fe6-a7c1-d9a7bea89cd2",
       "af": "https://www.moulinex.fr/recette/detail/PRO/poivrons-grilles-a-litalienne/2458647"
+    },
+    {
+      "id": "dropbox:f6e65199-90c5-4813-9f5f-8ab54dfd9d88",
+      "cat": "Plat, Poisson, Airfryer"
+    },
+    {
+      "id": "dropbox:9ec6c880-7862-45b7-b64e-4d2b23aaef1a",
+      "cat": "Plat, Poisson, Airfryer"
+    },
+    {
+      "id": "dropbox:-1125839885",
+      "cat": "Plat, Poisson"
+    },
+    {
+      "id": "dropbox:9e64962d-59cd-4bf9-b104-4a5cacb08c7d",
+      "cat": "Plat, Poisson, Airfryer"
+    },
+    {
+      "id": "dropbox:5d4a35a9-cd75-4adc-950a-c3e286ad9ab1",
+      "cat": "Plat, Poisson, Italie"
+    },
+    {
+      "id": "dropbox:c2e25678-f617-4e48-a88f-4f9d5da03080",
+      "cat": "Plat, Poisson"
+    },
+    {
+      "id": "dropbox:1670248608",
+      "cat": "Plat, Poisson"
     }
   ],
   "recipes": [
@@ -7274,7 +7306,7 @@
     {
       "id": "af:022",
       "t": "Saumon Citron-Aneth et Quinoa — Airfryer",
-      "cat": "Airfryer, Santé, Plat",
+      "cat": "Airfryer, Santé, Plat, Poisson",
       "min": 20,
       "serv": 2,
       "desc": "Pavé de saumon assaisonné citron-aneth cuit à l'airfryer, servi avec quinoa. Riche en oméga-3, parfait pour le cholestérol.",
@@ -7313,7 +7345,7 @@
     {
       "id": "af:024",
       "t": "Cabillaud en Croûte d'Herbes — Airfryer",
-      "cat": "Airfryer, Santé, Plat",
+      "cat": "Airfryer, Santé, Plat, Poisson",
       "min": 18,
       "serv": 2,
       "desc": "Filet de cabillaud nappé d'une croûte d'herbes et chapelure, cuit à l'airfryer. Protéiné, maigre, savoureux.",
@@ -7372,7 +7404,7 @@
     {
       "id": "af:027",
       "t": "Truite aux Amandes — Airfryer",
-      "cat": "Airfryer, Santé, Plat",
+      "cat": "Airfryer, Santé, Plat, Poisson",
       "min": 18,
       "serv": 2,
       "desc": "Filets de truite avec croûte d'amandes effilées, dorés à l'airfryer. Classique français revisité, riche en oméga-3.",
@@ -7434,7 +7466,7 @@
     {
       "id": "af:030",
       "t": "Filet de Bar Rôti & Risotto Safrané — Airfryer",
-      "cat": "Airfryer, Santé, Plat",
+      "cat": "Airfryer, Santé, Plat, Poisson",
       "min": 35,
       "serv": 2,
       "desc": "Bar (loup) rôti à l'airfryer sur lit de risotto au safran. Le dimanche gastronomique version saine.",
@@ -7840,7 +7872,7 @@
     {
       "id": "japon:021",
       "t": "Teriyaki de Saumon",
-      "cat": "Japon, Plat",
+      "cat": "Japon, Plat, Poisson",
       "min": 20,
       "serv": 2,
       "desc": "Saumon glacé à la sauce teriyaki — sucrée, salée, brillante. Un des plats japonais les plus faciles à réaliser à la maison.",
@@ -14487,7 +14519,7 @@
     {
       "id": "brochette:007",
       "t": "Brochettes Saumon Citron Vert",
-      "cat": "Brochette, Plat",
+      "cat": "Brochette, Plat, Poisson",
       "desc": "Saumon frais mariné à l'aneth et citron vert, grillé à la perfection",
       "min": 25,
       "serv": 4,

@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.57';
+const APP_VERSION = '3.58';
 
 let ALL = [];
 let BASE = [];
@@ -208,6 +208,27 @@ const TAXONOMY = {
   'Ustensile': Object.keys(USTENSILES),
 };
 
+// Nettoyage des catégories « Poisson » ajoutées à tort par l'ancien classement automatique
+// (le mot était cherché aussi dans les étapes : « mode poisson » de l'airfryer…).
+function fixLocalSeafoodCats(){
+  const seaCats = new Set(['poisson', ...Object.keys(SEAFOOD).map(c => c.toLowerCase())]);
+  const seaKw = ['poisson','fruits de mer', ...Object.values(SEAFOOD).flat()];
+  const byId = new Map(BASE.concat(imports).map(r => [String(r.id), r]));
+  let n = 0;
+  for (const [id, ed] of Object.entries(edits)){
+    if (!ed || typeof ed.cat !== 'string') continue;
+    const r = byId.get(String(id)); if (!r) continue;
+    const cats = ed.cat.split(',').map(c => c.trim()).filter(Boolean);
+    if (!cats.some(c => seaCats.has(c.toLowerCase()))) continue;
+    const baseCats = new Set(String(r.cat||'').split(',').map(c => c.trim().toLowerCase()));
+    const hay = norm([r.t||'', (r.ing||[]).join('  ')].join('  '));
+    if (seaKw.some(k => hasWord(hay, k))) continue;
+    const kept = cats.filter(c => !seaCats.has(c.toLowerCase()) || baseCats.has(c.toLowerCase()));
+    if (kept.length !== cats.length){ ed.cat = kept.join(', '); n++; }
+  }
+  if (n) saveEdits();
+  return n;
+}
 function autoCategorize(){
   let added=0, touched=0;
   ALL.forEach(r=>{
@@ -230,9 +251,11 @@ function autoCategorize(){
     for (const [m, kws] of Object.entries(MEATS)) if (kws.some(k=> hasWord(fullHay,k))){ push(m); anyMeat=true; }
     if (anyMeat) push('Viande');
     // Poisson : feuille (Saumon…) + parent « Poisson » (repli si espèce non précisée)
+    // (titre + ingrédients seulement : « mode poisson » d'un airfryer dans les étapes ne compte pas)
+    const seaHay = norm([r.t||'', (r.ing||[]).join('  ')].join('  '));
     let anySea=false;
-    for (const [f, kws] of Object.entries(SEAFOOD)) if (kws.some(k=> hasWord(fullHay,k))){ push(f); anySea=true; }
-    if (anySea || hasWord(fullHay,'poisson') || hasWord(fullHay,'fruits de mer')) push('Poisson');
+    for (const [f, kws] of Object.entries(SEAFOOD)) if (kws.some(k=> hasWord(seaHay,k))){ push(f); anySea=true; }
+    if (anySea || hasWord(seaHay,'poisson') || hasWord(seaHay,'fruits de mer')) push('Poisson');
     // Ustensiles (Airfryer / Thermomix / Four)
     for (const [u, kws] of Object.entries(USTENSILES)) if (kws.some(k=> hasWord(fullHay,k))) push(u);
     // Type de plat (un seul : Dessert > Entrée > Plat par défaut)
@@ -3953,6 +3976,7 @@ async function init(){
   const cachedTxt = localStorage.getItem('recipesData');
   if (cachedTxt){ try{ const c=JSON.parse(cachedTxt); if(c.recipes && c.recipes.length) dataObj=c; }catch(e){} }
   BASE = applyExtra(dataObj.recipes || [], EXTRA);
+  fixLocalSeafoodCats();
   ALL = mergeEdits();
   buildIngredientIndex();
   elSub.textContent = `${ALL.length} recettes · v${APP_VERSION}`;
