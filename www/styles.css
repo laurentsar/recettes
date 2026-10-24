@@ -778,3 +778,5 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .off-name{font-size:1.25em;font-weight:800;margin-bottom:8px}
 .off-note{color:var(--muted);font-size:.92em;line-height:1.4;margin:10px 0 14px}
 .off-open{display:block;text-align:center;padding:12px;border-radius:12px;background:#7cb342;color:#fff;font-weight:800;text-decoration:none}
+
+.show-off>.d-title,.show-off>.d-meta,.show-off>.desc{display:none}

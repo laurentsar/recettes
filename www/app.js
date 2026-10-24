@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.48';
+const APP_VERSION = '3.49';
 
 let ALL = [];
 let BASE = [];
@@ -792,7 +792,9 @@ function officialHtml(url, isTmx){
     <div class="off-kind">${isTmx?'⚙️ Recette Thermomix officielle':'🌪️ Recette Airfryer officielle'}</div>
     <div class="off-name">${esc(m.name || 'Version officielle')}</div>
     <div class="d-meta">${stars}${m.min?`<span class="tag">⏱️ ${m.min} min</span>`:''}${m.yld?`<span class="tag">🍽️ ${esc(m.yld)}</span>`:''}</div>
-    <p class="off-note">Recette publiée par ${site}. Ingrédients et étapes à suivre sur le site du fabricant${isTmx?' (compte Cookidoo nécessaire pour les étapes)':''}.</p>
+    ${(m.ing||[]).length?`<div class="d-sec">Ingrédients</div><ul class="ing">${m.ing.map(x=>`<li><span class="box"></span><span>${esc(x)}</span></li>`).join('')}</ul>`:''}
+    ${(m.steps||[]).length?`<div class="d-sec">Préparation</div><ol class="steps">${m.steps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`:''}
+    <p class="off-note">Recette publiée par ${site}.${(m.steps||[]).length?' Étapes résumées ; temps et programmes exacts sur le site du fabricant.':isTmx?' Les étapes guidées (vitesses, temps, températures) sont sur Cookidoo, avec un compte.':''}</p>
     <a class="off-open" href="${esc(url)}" target="_blank" rel="noopener">Ouvrir sur ${isTmx?'Cookidoo':'Moulinex'} ↗</a>
   </div>`;
 }
@@ -900,11 +902,14 @@ function openDetail(id){
       const box = elDetail.querySelector('.d-official');
       box.innerHTML = officialHtml(t.off, t.kind === 'tmxo');
       box.hidden = false; elDetail.querySelector('.d-main').hidden = true;
+      elDetail.querySelector('.d-body').classList.add('show-off');
+      box.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
     });
   });
   function showMain(){
     elDetail.querySelectorAll('.d-variant-tab').forEach(b=> b.classList.toggle('active', tabList[+b.dataset.k].id === r.id));
     elDetail.querySelector('.d-official').hidden = true; elDetail.querySelector('.d-main').hidden = false;
+    elDetail.querySelector('.d-body').classList.remove('show-off');
   }
 }
 function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; renderChips(); renderGrid(); if(window._wlDrop) window._wlDrop(); }
