@@ -13996,7 +13996,7 @@
     {
       "id": "bouchee:003",
       "t": "Brochettes de Thon Marinées",
-      "cat": "Bouchée, Apéritif",
+      "cat": "Brochette, Apéritif",
       "desc": "Cubes de thon frais marinés à la sauce soja et gingembre, piqués sur mini-brochettes.",
       "min": 20,
       "serv": "20 bouchées",
@@ -14060,7 +14060,7 @@
     {
       "id": "bouchee:006",
       "t": "Mini Brochettes Caprese",
-      "cat": "Bouchée, Apéritif",
+      "cat": "Brochette, Apéritif",
       "desc": "Mini brochettes mozzarella-tomate cerise-basilic, l'apéritif le plus simple et le plus élégant.",
       "min": 10,
       "serv": "20 brochettes",
@@ -14143,7 +14143,7 @@
     {
       "id": "bouchee:010",
       "t": "Mini Brochettes Grecques",
-      "cat": "Bouchée, Apéritif",
+      "cat": "Brochette, Apéritif",
       "desc": "Mini brochettes d'olives, féta et légumes marinés aux herbes, esprit taverne grecque.",
       "min": 10,
       "serv": "20 brochettes",
