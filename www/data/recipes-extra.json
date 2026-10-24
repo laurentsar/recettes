@@ -74,7 +74,8 @@
     "espagne:006",
     "dropbox:1161474497",
     "dropbox:-1707553066",
-    "dropbox:144314435"
+    "dropbox:144314435",
+    "dropbox:307020946"
   ],
   "overrides": [
     {
@@ -2513,10 +2514,6 @@
     {
       "id": "dropbox:40e379fc-e380-42f1-87ef-dcd7bdce8745",
       "cat": "Courge, Légumes, Accompagnement"
-    },
-    {
-      "id": "dropbox:307020946",
-      "cat": "Poulet, Viande, Plat"
     },
     {
       "id": "dropbox:1496714261",
