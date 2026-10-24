@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.72';
+const APP_VERSION = '3.73';
 
 let ALL = [];
 let BASE = [];
@@ -1243,6 +1243,8 @@ function showUndoBar(title, details, onUndo){
 
 /* Affichage : une ligne qui regroupe plusieurs ingrédients (« PÂTE : 500 g farine,
    7 g levure, 250 ml lait ») devient un petit titre « Pâte » + un ingrédient par ligne. */
+// Titre de groupe : « BRIOCHE » → « Brioche », mais « Version Cookomix » garde ses majuscules.
+function lowerIfCaps(t){ return t === t.toUpperCase() ? t.toLowerCase() : t; }
 function ingDisplayItems(r){
   const out = [];
   for (const line of (r.ing || [])){
@@ -1252,9 +1254,9 @@ function ingDisplayItems(r){
     const pieces = splitIngLine(l);
     const label = head && head[2].trim() && (head[1] === head[1].toUpperCase() || /^pour\s/i.test(head[1]) || /[,+;]/.test(head[2])) ? head[1].trim() : '';
     const allQty = pieces.length >= 2 && pieces.every(p => /^[\d½¼¾⅓]/.test(p.trim()));
-    if (head && !head[2].trim()){ out.push({ head: cap(l.replace(/\s*:\s*$/, '').toLowerCase()) }); continue; }  // titre de section seul
+    if (head && !head[2].trim()){ out.push({ head: cap(lowerIfCaps(l.replace(/\s*:\s*$/, ''))) }); continue; }  // titre de section seul
     if ((label && pieces.length >= 2) || allQty){
-      if (label) out.push({ head: cap(label.toLowerCase()) });
+      if (label) out.push({ head: cap(lowerIfCaps(label)) });
       pieces.forEach(p => out.push({ text: p }));
     } else out.push({ text: l });
   }
