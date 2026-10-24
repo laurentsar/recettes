@@ -107,7 +107,8 @@
     },
     {
       "id": "dropbox:1840362069",
-      "img": "img/illus/dropbox-1840362069.jpg"
+      "img": "img/illus/dropbox-1840362069.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r703940"
     },
     {
       "id": "dropbox:10655386",
@@ -124,7 +125,8 @@
     },
     {
       "id": "dropbox:b98818fd-40a3-4f02-a58e-4f86e079b842",
-      "img": "img/illus/dropbox-b98818fd-40a3-4f02-a58e-4f86e079b842.jpg"
+      "img": "img/illus/dropbox-b98818fd-40a3-4f02-a58e-4f86e079b842.jpg",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/roti-de-b%C5%93uf-et-pommes-de-terre/2779108"
     },
     {
       "id": "dropbox:1832660928",
@@ -159,7 +161,8 @@
       "id": "italie:006",
       "url": "https://www.recipetineats.com/minestrone-soup/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Minestrone_soup.jpg/500px-Minestrone_soup.jpg",
-      "cat": "Italie, Soupe, Entrée"
+      "cat": "Italie, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54111"
     },
     {
       "id": "italie:007",
@@ -178,25 +181,29 @@
       "id": "italie:009",
       "url": "https://www.recipetineats.com/carbonara/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Spaghetti_alla_Carbonara_%28Madrid%29.JPG/500px-Spaghetti_alla_Carbonara_%28Madrid%29.JPG",
-      "cat": "Italie, Pâtes, Plat"
+      "cat": "Italie, Pâtes, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r921623"
     },
     {
       "id": "italie:011",
       "url": "https://www.recipetineats.com/penne-all-arrabbiata-spicy-tomato-pasta/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Penne_all%27arrabbiata_-_Pizzeria_Bella_Italia_%28Cr%C3%A9pieux-la-Pape%29_-_2.jpg/500px-Penne_all%27arrabbiata_-_Pizzeria_Bella_Italia_%28Cr%C3%A9pieux-la-Pape%29_-_2.jpg",
-      "cat": "Italie, Pâtes, Plat"
+      "cat": "Italie, Pâtes, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r825336"
     },
     {
       "id": "italie:012",
       "url": "https://food52.com/recipes/42150-cacio-e-pepe",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Cacio_e_pepe.jpg/500px-Cacio_e_pepe.jpg",
-      "cat": "Italie, Pâtes, Plat"
+      "cat": "Italie, Pâtes, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r91014"
     },
     {
       "id": "italie:013",
       "url": "https://www.recipetineats.com/pasta-alla-norma-eggplant-pasta/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg/500px-Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg",
-      "cat": "Italie, Pâtes, Plat"
+      "cat": "Italie, Pâtes, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r103381"
     },
     {
       "id": "italie:015",
@@ -213,19 +220,22 @@
       ],
       "steps": "Dissoudre le safran dans 3 c. à soupe de bouillon chaud. Faire revenir l'oignon émincé dans la moitié du beurre à feu doux 5 min. Ajouter le riz, nacrer 2 min. Déglacer au vin blanc, remuer jusqu'à absorption. Ajouter le bouillon chaud louche par louche en remuant constamment — ajouter la suivante seulement quand la précédente est absorbée. À mi-cuisson (10 min), incorporer le safran dissous. Cuire encore 8-10 min. Hors du feu, mantecatura : incorporer le reste du beurre froid et le parmesan en remuant vigoureusement. Couvrir 2 min. Servir \"all'onda\" — le risotto doit être fluide et ondulant.",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg/500px-Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg",
-      "cat": "Italie, Riz, Risotto, Plat"
+      "cat": "Italie, Riz, Risotto, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r784955"
     },
     {
       "id": "italie:016",
       "url": "https://food52.com/recipes/77867-porcini-mushroom-risotto",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg/500px-Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg",
-      "cat": "Italie, Riz, Risotto, Plat"
+      "cat": "Italie, Riz, Risotto, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r73113"
     },
     {
       "id": "italie:017",
       "url": "https://www.recipetineats.com/osso-buco/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Osobuco_-_2010-10-20_2.jpg/500px-Osobuco_-_2010-10-20_2.jpg",
-      "cat": "Italie, Plat"
+      "cat": "Italie, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r67045"
     },
     {
       "id": "italie:018",
@@ -235,7 +245,8 @@
     {
       "id": "italie:019",
       "url": "https://www.recipetineats.com/chicken-cacciatore-italian-chicken-stew/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Flickr_preppybyday_4618397089--Chicken_cacciatore.jpg/500px-Flickr_preppybyday_4618397089--Chicken_cacciatore.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Flickr_preppybyday_4618397089--Chicken_cacciatore.jpg/500px-Flickr_preppybyday_4618397089--Chicken_cacciatore.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r113640"
     },
     {
       "id": "italie:020",
@@ -257,31 +268,36 @@
       "id": "italie:025",
       "url": "https://www.recipetineats.com/easy-tiramisu/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/500px-Tiramisu_-_Raffaele_Diomede.jpg",
-      "cat": "Italie, Dessert, Tiramisu"
+      "cat": "Italie, Dessert, Tiramisu",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r68032"
     },
     {
       "id": "italie:026",
       "url": "https://www.recipetineats.com/panna-cotta/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Panna_cotta_with_chocolate_mousse.jpg/500px-Panna_cotta_with_chocolate_mousse.jpg",
-      "cat": "Italie, Dessert, Crème dessert"
+      "cat": "Italie, Dessert, Crème dessert",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r98714"
     },
     {
       "id": "italie:027",
       "url": "https://food52.com/recipes/39485-homemade-cannoli",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg/500px-Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg",
-      "cat": "Italie, Dessert, Biscuit"
+      "cat": "Italie, Dessert, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r403419"
     },
     {
       "id": "italie:028",
       "url": "https://www.saveur.com/pistachio-gelato-recipe",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Gelato_ice_cream.jpg/500px-Gelato_ice_cream.jpg",
-      "cat": "Italie, Dessert, Crème dessert"
+      "cat": "Italie, Dessert, Crème dessert",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r115833"
     },
     {
       "id": "italie:029",
       "url": "https://food52.com/recipes/73558-grandma-s-tart-torta-della-nonna",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Torta_della_Nonna.jpg/500px-Torta_della_Nonna.jpg",
-      "cat": "Italie, Dessert, Tarte sucrée"
+      "cat": "Italie, Dessert, Tarte sucrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r434827"
     },
     {
       "id": "italie:030",
@@ -293,13 +309,15 @@
       "id": "sauce:001",
       "url": "https://food52.com/recipes/82952-best-tartar-sauce-recipe",
       "steps": "Mélanger tous les ingrédients dans un bol. Goûter et rectifier l'assaisonnement. Réfrigérer 15 min avant de servir pour que les saveurs se développent. Se conserve 3 jours au réfrigérateur.\n\n🤖 Thermomix : Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Racler les parois. Mixer encore 5 sec / vitesse 3.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sauce_tartare.jpg/500px-Sauce_tartare.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sauce_tartare.jpg/500px-Sauce_tartare.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r82747"
     },
     {
       "id": "sauce:002",
       "url": "https://food52.com/recipes/82713-grand-desk-aioli-recipe",
       "steps": "Presser l'ail directement dans la mayonnaise. Ajouter le jus de citron. Saler et poivrer. Bien mélanger. Laisser reposer 10 min au frais avant de servir pour que l'ail parfume bien la sauce.\n\n🤖 Thermomix : Mettre l'ail dans le bol. Mixer 5 sec / vitesse 7. Racler les parois. Ajouter mayonnaise, citron, sel, poivre. Mixer 10 sec / vitesse 4.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/A%C3%AFoli.jpg/500px-A%C3%AFoli.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/A%C3%AFoli.jpg/500px-A%C3%AFoli.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r343057"
     },
     {
       "id": "sauce:003",
@@ -343,13 +361,15 @@
       ],
       "steps": "Couper grossièrement tous les légumes. Mettre dans un blender avec l'ail, le vinaigre, l'huile d'olive et le pain imbibé si utilisé. Mixer finement. Assaisonner. Passer au tamis fin pour une texture soyeuse (optionnel). Réfrigérer 2 h minimum (idéalement 4 h). Servir très frais, garni de dés de légumes et croûtons.\n\n💡 Un gaspacho est aussi bon que ses tomates — choisir des tomates mûres de plein été, en saison.",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Gaspacho.jpg/500px-Gaspacho.jpg",
-      "cat": "Espagne, Soupe, Entrée"
+      "cat": "Espagne, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r167060"
     },
     {
       "id": "espagne:002",
       "url": "https://www.saveur.com/article/Recipes/Classic-Salmorejo",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Salmorejo_cordouan.JPG/500px-Salmorejo_cordouan.JPG",
-      "cat": "Espagne, Soupe, Entrée"
+      "cat": "Espagne, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r727345"
     },
     {
       "id": "espagne:003",
@@ -358,7 +378,8 @@
         "dropbox:6da79f3f-9a9f-4eb1-aed0-631795b903cd",
         "dropbox:1c831ee7-4902-41f6-a56b-c03501aeffe6"
       ],
-      "img": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tortilla-de-patatas.jpg"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tortilla-de-patatas.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r330045"
     },
     {
       "id": "espagne:004",
@@ -384,7 +405,8 @@
       "id": "espagne:008",
       "url": "https://www.americastestkitchen.com/recipes/16080-zarzuela-spanish-seafood-stew",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Zarzuela.jpg/500px-Zarzuela.jpg",
-      "cat": "Espagne, Fruits de mer, Plat"
+      "cat": "Espagne, Fruits de mer, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r80606"
     },
     {
       "id": "espagne:009",
@@ -401,12 +423,14 @@
       "steps": "Chauffer l'huile d'olive dans une cazuela (petite cocotte en terre cuite) à feu moyen. Ajouter l'ail et le piment, faire revenir 2 min sans laisser dorer. Monter le feu à vif, ajouter les gambas salées. Faire sauter 2-3 min jusqu'à ce qu'elles soient rosées. Déglacer avec le vin blanc, cuire 30 secondes. Parsemer de persil. Servir immédiatement — le plat doit encore grésiller à table — avec du pain pour saucer.",
       "min": 10,
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tapas_01.jpg/500px-Tapas_01.jpg",
-      "cat": "Espagne, Fruits de mer, Plat"
+      "cat": "Espagne, Fruits de mer, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r12419"
     },
     {
       "id": "espagne:010",
       "url": "https://www.saveur.com/article/Recipes/Paella-with-Rabbit-and-Snails-Paella-Valenciana/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg/500px-Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg/500px-Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r106053"
     },
     {
       "id": "espagne:011",
@@ -421,7 +445,8 @@
     {
       "id": "espagne:015",
       "url": "https://www.carolinescooking.com/fabada-asturiana-pork-bean-stew/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Fabada.jpg/500px-Fabada.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Fabada.jpg/500px-Fabada.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r915264"
     },
     {
       "id": "espagne:017",
@@ -444,27 +469,32 @@
         "2 c. à s. de fécule de maïs"
       ],
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Churros_Madrid.jpg/500px-Churros_Madrid.jpg",
-      "cat": "Espagne, Dessert, Biscuit"
+      "cat": "Espagne, Dessert, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r905078",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Churros/2816704"
     },
     {
       "id": "espagne:024",
       "url": "https://www.themediterraneandish.com/crema-catalana/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Crema_Catalana_%287_Portes%29.jpg/500px-Crema_Catalana_%287_Portes%29.jpg",
-      "cat": "Espagne, Dessert, Crème dessert"
+      "cat": "Espagne, Dessert, Crème dessert",
+      "tmx": "https://cookidoo.fr/recipes/recipe/FR/r167423"
     },
     {
       "id": "espagne:025",
       "url": "https://www.carolinescooking.com/tarta-de-santiago/",
       "img": "img/photos/espagne-025.jpg",
       "cat": "Espagne, Dessert, Tarte sucrée",
-      "desc": "Tarte aux amandes de Galice, reconnaissable à la croix de Saint-Jacques.\n\n📷 Photo : Manel Zaera — CC BY-SA 2.0, Wikimedia Commons"
+      "desc": "Tarte aux amandes de Galice, reconnaissable à la croix de Saint-Jacques.\n\n📷 Photo : Manel Zaera — CC BY-SA 2.0, Wikimedia Commons",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r132722"
     },
     {
       "id": "espagne:027",
       "url": "https://www.americastestkitchen.com/recipes/5088-arroz-con-leche",
       "img": "img/photos/espagne-027.jpg",
       "cat": "Espagne, Dessert, Crème dessert",
-      "desc": "Riz au lait crémeux à la cannelle, dessert réconfortant de grand-mère.\n\n📷 Photo : Juan Emilio Prades Bel — CC BY-SA 4.0, Wikimedia Commons"
+      "desc": "Riz au lait crémeux à la cannelle, dessert réconfortant de grand-mère.\n\n📷 Photo : Juan Emilio Prades Bel — CC BY-SA 4.0, Wikimedia Commons",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r376063"
     },
     {
       "id": "portugal:001",
@@ -483,13 +513,15 @@
       "serv": 6,
       "min": 50,
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Caldo_verde.jpg/500px-Caldo_verde.jpg",
-      "cat": "Portugal, Soupe, Entrée"
+      "cat": "Portugal, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r434091"
     },
     {
       "id": "portugal:004",
       "url": "https://food52.com/recipes/75424-bacalhau-a-bras-salt-cod-with-potatoes-and-eggs",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/500px-Bacalhau_a_Bras.jpg",
-      "cat": "Portugal, Poisson, Plat"
+      "cat": "Portugal, Poisson, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r315315"
     },
     {
       "id": "portugal:017",
@@ -501,7 +533,8 @@
       "id": "portugal:022",
       "url": "https://leitesculinaria.com/7759/recipes-pasteis-de-nata.html",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg/500px-Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg",
-      "cat": "Portugal, Dessert, Tarte sucrée"
+      "cat": "Portugal, Dessert, Tarte sucrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r134115"
     },
     {
       "id": "portugal:030",
@@ -564,7 +597,8 @@
     {
       "id": "corse:039",
       "url": "https://www.recettes-corses.fr/veau-a-la-corse-aux-olives",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Saltimbocca_cooked_%283%29.jpg/500px-Saltimbocca_cooked_%283%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Saltimbocca_cooked_%283%29.jpg/500px-Saltimbocca_cooked_%283%29.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r38594"
     },
     {
       "id": "corse:044",
@@ -635,7 +669,8 @@
       "steps": "Préchauffer le four à 180°C. Écraser le brocciu à la fourchette jusqu'à texture homogène. Mélanger brocciu, jaunes d'œufs, sucre, zestes et eau-de-vie jusqu'à crème lisse. Battre les blancs en neige ferme. Incorporer délicatement les blancs au mélange en 3 fois — ne pas casser les blancs. Beurrer un moule à manqué de 24-26 cm. Verser la préparation. Cuire 35-40 min jusqu'à belle dorure. Le cœur doit être légèrement tremblotant. Laisser refroidir complètement avant de servir — se déguste froid ou à température ambiante.\n\n💡 Le brocciu est le fromage frais de brebis corse. La ricotta entière est un excellent substitut continental.",
       "min": 55,
       "img": "img/illus/corse-061.jpg",
-      "cat": "Corse, Dessert, Gâteaux"
+      "cat": "Corse, Dessert, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r31862"
     },
     {
       "id": "corse:063",
@@ -647,12 +682,14 @@
       "id": "corse:067",
       "url": "https://www.recettes-corses.fr/recette-des-canistrelli-ou-coccioles",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Canistrelli_anis.jpg/500px-Canistrelli_anis.jpg",
-      "cat": "Corse, Dessert, Biscuit"
+      "cat": "Corse, Dessert, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r150790"
     },
     {
       "id": "maghreb:001",
       "url": "https://www.750g.com/couscous-royal-r14629.htm",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg/500px-Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg/500px-Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r151100"
     },
     {
       "id": "maghreb:002",
@@ -668,7 +705,8 @@
       "id": "maghreb:004",
       "url": "https://food52.com/recipes/9425-chicken-tagine-with-fennel-preserved-lemons-and-green-olives",
       "img": "img/photos/maghreb-004.jpg",
-      "desc": "Tajine emblématique du Maroc : poulet fondant, olives violettes et citrons confits au sel.\n\n📷 Photo : Tajine de poulet au citron confit (mars 2022) — CC0, Wikimedia Commons"
+      "desc": "Tajine emblématique du Maroc : poulet fondant, olives violettes et citrons confits au sel.\n\n📷 Photo : Tajine de poulet au citron confit (mars 2022) — CC0, Wikimedia Commons",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r113616"
     },
     {
       "id": "maghreb:006",
@@ -684,7 +722,8 @@
       "id": "maghreb:008",
       "url": "https://food52.com/recipes/89667-moroccan-harira-soup-from-celebrate-every-day",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Harira_vegetarisch.jpg/500px-Harira_vegetarisch.jpg",
-      "cat": "Maghreb, Soupe, Entrée"
+      "cat": "Maghreb, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r4357"
     },
     {
       "id": "maghreb:009",
@@ -700,7 +739,8 @@
     {
       "id": "maghreb:011",
       "url": "https://food52.com/recipes/68670-moroccan-chicken-pastilla-pot-pie",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bisteeya.jpg"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bisteeya.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r907216"
     },
     {
       "id": "maghreb:013",
@@ -728,7 +768,8 @@
       "id": "maghreb:019",
       "url": "https://www.196flavors.com/morocco-cornes-de-gazelle-kab-al-gazal/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/P%C3%A2tisserie_marocaine_010.JPG/500px-P%C3%A2tisserie_marocaine_010.JPG",
-      "cat": "Maghreb, Dessert, Biscuit"
+      "cat": "Maghreb, Dessert, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r75924"
     },
     {
       "id": "japon:001",
@@ -744,12 +785,14 @@
       "id": "japon:003",
       "url": "https://www.justonecookbook.com/homemade-miso-soup/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Miso_Soup_001.jpg/500px-Miso_Soup_001.jpg",
-      "cat": "Japon, Soupe, Entrée"
+      "cat": "Japon, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r61116"
     },
     {
       "id": "japon:004",
       "url": "https://www.justonecookbook.com/okonomiyaki/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Okonomiyaki_001.jpg/500px-Okonomiyaki_001.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Okonomiyaki_001.jpg/500px-Okonomiyaki_001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r748163"
     },
     {
       "id": "japon:005",
@@ -760,7 +803,8 @@
       "id": "japon:006",
       "url": "https://www.justonecookbook.com/yakitori/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Cooking_yakitori.jpg/500px-Cooking_yakitori.jpg",
-      "cat": "Japon, Entrée, Brochette"
+      "cat": "Japon, Entrée, Brochette",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r208349"
     },
     {
       "id": "japon:007",
@@ -776,7 +820,8 @@
     {
       "id": "japon:009",
       "url": "https://www.justonecookbook.com/katsu-curry/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Beef_curry_rice_003.jpg/500px-Beef_curry_rice_003.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Beef_curry_rice_003.jpg/500px-Beef_curry_rice_003.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r238021"
     },
     {
       "id": "japon:010",
@@ -792,7 +837,8 @@
     {
       "id": "japon:012",
       "url": "https://www.justonecookbook.com/takoyaki-recipe/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Takoyaki_by_yomi955.jpg/500px-Takoyaki_by_yomi955.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Takoyaki_by_yomi955.jpg/500px-Takoyaki_by_yomi955.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r827153"
     },
     {
       "id": "japon:013",
@@ -804,7 +850,8 @@
       "id": "japon:014",
       "url": "https://www.justonecookbook.com/how-to-make-mochi-with-a-stand-mixer/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Rice_Cake.jpg/500px-Rice_Cake.jpg",
-      "cat": "Japon, Dessert, Biscuit"
+      "cat": "Japon, Dessert, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r794978"
     },
     {
       "id": "japon:015",
@@ -814,18 +861,21 @@
     {
       "id": "asie:001",
       "url": "https://thewoksoflife.com/cantonese-chicken-salted-fish-fried-rice/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Yeung_Chow_Fried_Rice.jpg/500px-Yeung_Chow_Fried_Rice.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Yeung_Chow_Fried_Rice.jpg/500px-Yeung_Chow_Fried_Rice.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r595183"
     },
     {
       "id": "asie:002",
       "url": "https://food52.com/recipes/3589-pho-bo-vietnamese-beef-noodle-soup",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/500px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
-      "cat": "Asie, Soupe, Entrée"
+      "cat": "Asie, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r78374"
     },
     {
       "id": "asie:003",
       "url": "https://www.maangchi.com/recipe/bibimbap",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Korean.food-Bibimbap-02.jpg/500px-Korean.food-Bibimbap-02.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Korean.food-Bibimbap-02.jpg/500px-Korean.food-Bibimbap-02.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r749986"
     },
     {
       "id": "asie:004",
@@ -840,19 +890,22 @@
     {
       "id": "asie:006",
       "url": "https://www.maangchi.com/recipe/tongbaechu-kimchi",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Korean_cuisine-Kimchi-08.jpg/500px-Korean_cuisine-Kimchi-08.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Korean_cuisine-Kimchi-08.jpg/500px-Korean_cuisine-Kimchi-08.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r402076"
     },
     {
       "id": "asie:007",
       "url": "https://www.recipetineats.com/thai-green-curry/",
       "img": "img/photos/asie-007.jpg",
-      "desc": "Curry vert thaï parfumé au lait de coco, poulet et aubergines thaïes.\n\n📷 Photo : Takeaway — CC BY-SA 3.0, Wikimedia Commons"
+      "desc": "Curry vert thaï parfumé au lait de coco, poulet et aubergines thaïes.\n\n📷 Photo : Takeaway — CC BY-SA 3.0, Wikimedia Commons",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r90063"
     },
     {
       "id": "asie:008",
       "url": "https://www.recipetineats.com/laksa-soup/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Katong_Laksa.jpg/500px-Katong_Laksa.jpg",
-      "cat": "Asie, Soupe, Entrée"
+      "cat": "Asie, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r149595"
     },
     {
       "id": "asie:009",
@@ -862,7 +915,8 @@
     {
       "id": "asie:010",
       "url": "https://www.recipetineats.com/chinese-steamed-pork-buns/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Baozi_Chengdu.JPG/500px-Baozi_Chengdu.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Baozi_Chengdu.JPG/500px-Baozi_Chengdu.JPG",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r696492"
     },
     {
       "id": "asie:011",
@@ -872,7 +926,8 @@
     {
       "id": "asie:012",
       "url": "https://www.recipetineats.com/nasi-goreng-indonesian-fried-rice/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Nasi_Goreng_Sosis.jpg/500px-Nasi_Goreng_Sosis.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Nasi_Goreng_Sosis.jpg/500px-Nasi_Goreng_Sosis.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r469326"
     },
     {
       "id": "asie:013",
@@ -883,7 +938,8 @@
     {
       "id": "asie:014",
       "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Mapodoufu.jpg/500px-Mapodoufu.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Mapodoufu.jpg/500px-Mapodoufu.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r497230"
     },
     {
       "id": "asie:015",
@@ -895,14 +951,16 @@
       "pair": [
         "espagne:003",
         "dropbox:1c831ee7-4902-41f6-a56b-c03501aeffe6"
-      ]
+      ],
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r330045"
     },
     {
       "id": "dropbox:1c831ee7-4902-41f6-a56b-c03501aeffe6",
       "pair": [
         "espagne:003",
         "dropbox:6da79f3f-9a9f-4eb1-aed0-631795b903cd"
-      ]
+      ],
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r330045"
     },
     {
       "id": "corse:001",
@@ -924,7 +982,8 @@
       ],
       "steps": "Éplucher et couper la pomme de terre en petits dés. Éplucher et écraser les gousses d'ail.\nFaire revenir ensemble la pomme de terre et l'ail avec l'huile d'olive dans une casserole à fond épais, sans faire roussir.\nMouiller de 75 cl d'eau. Saler modérément, poivrer, parsemer de thym effeuillé et ajouter la feuille de laurier.\nLaisser cuire à feu doux pendant au moins 20 minutes.\nÔter la feuille de laurier. Passer la soupe et la verser en soupière.\nRectifier l'assaisonnement si besoin. Incorporer le jaune d'œuf en fouettant dans la soupière.\nServir dans des assiettes chaudes avec les tranches de pain grillées et le fromage râpé.",
       "img": "img/illus/corse-001.jpg",
-      "cat": "Corse, Soupe, Entrée"
+      "cat": "Corse, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r142216"
     },
     {
       "id": "corse:003",
@@ -1020,7 +1079,8 @@
       "id": "espagne:029",
       "steps": "Chauffer le lait avec la cannelle, le zeste et le sucre. Tremper les tranches de pain dans ce lait parfumé. Laisser bien imbiber. Passer dans l'œuf battu. Faire frire jusqu'à dorure. Égoutter. Rouler dans le mélange sucre-cannelle. Servir tiède.\n\n✈️ Variante Air Fryer : déposer les tranches imbibées dans le panier. Pulvériser légèrement d'huile. Cuire 180°C / 6 min, retourner, re-pulvériser, encore 4 min. Plus légères, texture légèrement différente de la version frite.",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/FrenchToast.JPG/500px-FrenchToast.JPG",
-      "cat": "Espagne, Dessert, Viennoiserie"
+      "cat": "Espagne, Dessert, Viennoiserie",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r727553"
     },
     {
       "id": "dropbox:a38d453a-b399-49a9-9015-a8520da67249",
@@ -1032,11 +1092,14 @@
       "id": "dropbox:3b1c541a-6637-4a09-bb01-32cebf9b35cb",
       "t": "Fondant au Chocolat (Airfryer)",
       "img": "img/illus/dropbox-3b1c541a-6637-4a09-bb01-32cebf9b35cb.jpg",
-      "cat": "Dessert, Airfryer, Gâteaux"
+      "cat": "Dessert, Airfryer, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r178361",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/fondant-au-chocolat/2753818"
     },
     {
       "id": "dropbox:1122559876",
-      "t": "Blanc de poulet sauce moutarde au Thermomix"
+      "t": "Blanc de poulet sauce moutarde au Thermomix",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r331316"
     },
     {
       "id": "dropbox:5a095a0e-c8a2-4b7e-8b24-5d18362f4a7c",
@@ -1081,7 +1144,9 @@
     {
       "id": "dropbox:-100319853",
       "t": "Churros au four au Thermomix",
-      "cat": "Dessert, Thermomix, Biscuit"
+      "cat": "Dessert, Thermomix, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r905078",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Churros/2816704"
     },
     {
       "id": "dropbox:1598849039",
@@ -1126,7 +1191,9 @@
     },
     {
       "id": "dropbox:bc192850-d3f2-4c9f-bf48-975fa93bae0a",
-      "t": "Nuggets de poulet au Thermomix"
+      "t": "Nuggets de poulet au Thermomix",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r237912",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Nuggets%20de%20poulet/2775386"
     },
     {
       "id": "dropbox:1727278756",
@@ -1144,7 +1211,8 @@
     {
       "id": "dropbox:07fd6f1e-91f4-4bb6-a87a-42fcb52cff3e",
       "t": "Pastéis de Nata – Recette Authentique Portugaise 🇵🇹",
-      "cat": "Dessert, Portugal, Tarte sucrée"
+      "cat": "Dessert, Portugal, Tarte sucrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r134115"
     },
     {
       "id": "dropbox:ffb2185f-d336-4213-b310-b19169babbf3",
@@ -1173,7 +1241,8 @@
     },
     {
       "id": "dropbox:1202916742",
-      "t": "Poulet à l'orange WW"
+      "t": "Poulet à l'orange WW",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r375177"
     },
     {
       "id": "dropbox:58aef201-1b77-4050-911d-2b509c0d2ec5",
@@ -1207,7 +1276,8 @@
     {
       "id": "dropbox:1513175493",
       "t": "Sangria espagnole au Thermomix",
-      "cat": "Thermomix, Espagne, Boissons"
+      "cat": "Thermomix, Espagne, Boissons",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r451060"
     },
     {
       "id": "dropbox:c9604a28-c9fa-4835-95c9-039767b2de3d",
@@ -1236,16 +1306,20 @@
     {
       "id": "dropbox:1621846856",
       "t": "Super fondant au chocolat au Thermomix",
-      "cat": "Dessert, Thermomix, Gâteaux"
+      "cat": "Dessert, Thermomix, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r178361",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/fondant-au-chocolat/2753818"
     },
     {
       "id": "dropbox:124568998",
-      "t": "Tajine de carottes et pois chiches au thermomix"
+      "t": "Tajine de carottes et pois chiches au thermomix",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r100590"
     },
     {
       "id": "dropbox:1779252120",
       "t": "Truffes au chocolat de Noël au Thermomix",
-      "cat": "Dessert, Thermomix, Biscuit"
+      "cat": "Dessert, Thermomix, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r929250"
     },
     {
       "id": "dropbox:c85f2f0a-1457-4791-8ca8-1babb944047e",
@@ -1308,12 +1382,14 @@
     {
       "id": "dropbox:2072371711",
       "img": "img/illus/dropbox-2072371711.jpg",
-      "cat": "Thermomix, Plat"
+      "cat": "Thermomix, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r245404"
     },
     {
       "id": "dropbox:77937872",
       "img": "img/illus/dropbox-77937872.jpg",
-      "cat": "Bœuf, Plat, Viande"
+      "cat": "Bœuf, Plat, Viande",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r433110"
     },
     {
       "id": "dropbox:1231896210",
@@ -1322,7 +1398,8 @@
     },
     {
       "id": "dropbox:187282729",
-      "img": "img/illus/dropbox-187282729.jpg"
+      "img": "img/illus/dropbox-187282729.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r483612"
     },
     {
       "id": "dropbox:226846606",
@@ -1343,7 +1420,8 @@
     },
     {
       "id": "dropbox:12188ae5-c23d-47d7-9046-ff72f1f600b1",
-      "img": "img/illus/dropbox-12188ae5-c23d-47d7-9046-ff72f1f600b1.jpg"
+      "img": "img/illus/dropbox-12188ae5-c23d-47d7-9046-ff72f1f600b1.jpg",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Frites%20fra%C3%AEches%20maison%20croustillantes/2835355"
     },
     {
       "id": "dropbox:8356096",
@@ -1365,7 +1443,8 @@
     {
       "id": "dropbox:-29192180",
       "img": "img/illus/dropbox-29192180.jpg",
-      "cat": "Dessert, Thermomix, Gâteaux"
+      "cat": "Dessert, Thermomix, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r134103"
     },
     {
       "id": "dropbox:1933497657",
@@ -1374,7 +1453,8 @@
     {
       "id": "dropbox:-622542989",
       "img": "img/illus/dropbox-622542989.jpg",
-      "t": "Butter chicken"
+      "t": "Butter chicken",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r648851"
     },
     {
       "id": "dropbox:178669351",
@@ -1487,7 +1567,8 @@
     {
       "id": "corse:019",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Bouillabaisse_01.jpg/500px-Bouillabaisse_01.jpg",
-      "cat": "Corse, Poisson, Soupe, Entrée"
+      "cat": "Corse, Poisson, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r69472"
     },
     {
       "id": "corse:020",
@@ -1565,7 +1646,8 @@
     },
     {
       "id": "corse:038",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Osobuco_-_2010-10-20_2.jpg/500px-Osobuco_-_2010-10-20_2.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Osobuco_-_2010-10-20_2.jpg/500px-Osobuco_-_2010-10-20_2.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r67045"
     },
     {
       "id": "corse:040",
@@ -1673,7 +1755,8 @@
     },
     {
       "id": "espagne:014",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/CocidoMadrile%C3%B1o.jpg/500px-CocidoMadrile%C3%B1o.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/CocidoMadrile%C3%B1o.jpg/500px-CocidoMadrile%C3%B1o.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r689411"
     },
     {
       "id": "espagne:016",
@@ -1685,7 +1768,8 @@
     },
     {
       "id": "espagne:019",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Pimiento_piquillo.jpg/500px-Pimiento_piquillo.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Pimiento_piquillo.jpg/500px-Pimiento_piquillo.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r680995"
     },
     {
       "id": "espagne:021",
@@ -1698,12 +1782,14 @@
     {
       "id": "espagne:026",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Polvor%C3%B3n_de_Estepa.jpg/500px-Polvor%C3%B3n_de_Estepa.jpg",
-      "cat": "Espagne, Dessert, Biscuit"
+      "cat": "Espagne, Dessert, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r44810"
     },
     {
       "id": "espagne:028",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Gastronomie_-_Beaume_de_Venise_%26_Flan_Citron_-_Framboise.jpg/500px-Gastronomie_-_Beaume_de_Venise_%26_Flan_Citron_-_Framboise.jpg",
-      "cat": "Espagne, Dessert, Flan"
+      "cat": "Espagne, Dessert, Flan",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r111261"
     },
     {
       "id": "espagne:030",
@@ -1723,7 +1809,8 @@
     {
       "id": "portugal:005",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bacalhau_com_natas.jpg/500px-Bacalhau_com_natas.jpg",
-      "cat": "Portugal, Poisson, Plat"
+      "cat": "Portugal, Poisson, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r214858"
     },
     {
       "id": "portugal:006",
@@ -1841,7 +1928,8 @@
     {
       "id": "italie:014",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lasagne_-_stonesoup.jpg/500px-Lasagne_-_stonesoup.jpg",
-      "cat": "Italie, Pâtes, Plat"
+      "cat": "Italie, Pâtes, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r174224"
     },
     {
       "id": "italie:022",
@@ -1856,7 +1944,8 @@
     {
       "id": "maghreb:005",
       "img": "img/photos/maghreb-005.jpg",
-      "desc": "Tajine sucré-salé à l'agneau, pruneaux confits et amandes grillées, saveur de fête.\n\n📷 Photo : Iron Bishop — CC BY-SA 3.0, Wikimedia Commons"
+      "desc": "Tajine sucré-salé à l'agneau, pruneaux confits et amandes grillées, saveur de fête.\n\n📷 Photo : Iron Bishop — CC BY-SA 3.0, Wikimedia Commons",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r907204"
     },
     {
       "id": "maghreb:012",
@@ -1883,17 +1972,20 @@
     {
       "id": "tmx:004",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Sopa_de_ajo.jpg/500px-Sopa_de_ajo.jpg",
-      "cat": "Corse, Soupe, Thermomix, Entrée"
+      "cat": "Corse, Soupe, Thermomix, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r142216"
     },
     {
       "id": "tmx:006",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Panna_cotta_with_chocolate_mousse.jpg/500px-Panna_cotta_with_chocolate_mousse.jpg",
-      "cat": "Italie, Dessert, Thermomix, Crème dessert"
+      "cat": "Italie, Dessert, Thermomix, Crème dessert",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r98714"
     },
     {
       "id": "tmx:008",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Tiramisu_-_Raffaele_Diomede.jpg/500px-Tiramisu_-_Raffaele_Diomede.jpg",
-      "cat": "Italie, Dessert, Thermomix, Tiramisu"
+      "cat": "Italie, Dessert, Thermomix, Tiramisu",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r68032"
     },
     {
       "id": "dropbox:ba3ef86f-01c0-4035-b666-620966032201",
@@ -1923,7 +2015,8 @@
     {
       "id": "dropbox:536812287",
       "img": "img/illus/dropbox-536812287.jpg",
-      "cat": "Dessert, Charlotte"
+      "cat": "Dessert, Charlotte",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r511870"
     },
     {
       "id": "dropbox:ee807b8b-93aa-44c6-ba9b-7c483a99e8e9",
@@ -1931,7 +2024,8 @@
     },
     {
       "id": "dropbox:-926026483",
-      "img": "img/illus/dropbox-926026483.jpg"
+      "img": "img/illus/dropbox-926026483.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r699803"
     },
     {
       "id": "dropbox:2109977190",
@@ -1952,7 +2046,8 @@
     },
     {
       "id": "dropbox:1837408426",
-      "img": "img/illus/dropbox-1837408426.jpg"
+      "img": "img/illus/dropbox-1837408426.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r117085"
     },
     {
       "id": "dropbox:bfd46588-4cb4-4686-9696-90b803ff0ed8",
@@ -1966,7 +2061,8 @@
     {
       "id": "dropbox:1491359955",
       "img": "img/illus/dropbox-1491359955.jpg",
-      "cat": "Dessert, Crème dessert"
+      "cat": "Dessert, Crème dessert",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r20568"
     },
     {
       "id": "dropbox:235711459",
@@ -1982,7 +2078,8 @@
     },
     {
       "id": "dropbox:4ab9bc81-6cc1-4098-8938-6b60e85a7c7e",
-      "img": "img/illus/dropbox-4ab9bc81-6cc1-4098-8938-6b60e85a7c7e.jpg"
+      "img": "img/illus/dropbox-4ab9bc81-6cc1-4098-8938-6b60e85a7c7e.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r129526"
     },
     {
       "id": "dropbox:-108656337",
@@ -1995,7 +2092,8 @@
     {
       "id": "dropbox:-1572798649",
       "img": "img/illus/dropbox-1572798649.jpg",
-      "cat": "Risotto, Italie, Riz, Plat"
+      "cat": "Risotto, Italie, Riz, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r545030"
     },
     {
       "id": "dropbox:-47459068",
@@ -2012,7 +2110,8 @@
     {
       "id": "dropbox:1000185400",
       "img": "img/illus/dropbox-1000185400.jpg",
-      "t": "Rougail saucisses (île de la Réunion)"
+      "t": "Rougail saucisses (île de la Réunion)",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r89007"
     },
     {
       "id": "dropbox:1611037744",
@@ -2043,7 +2142,8 @@
     },
     {
       "id": "dropbox:399e4513-9951-4e2b-8450-004200361e34",
-      "cat": "Plat, Airfryer, Empanada"
+      "cat": "Plat, Airfryer, Empanada",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Empanadas/2775124"
     },
     {
       "id": "dropbox:318a0f66-d559-46d9-bcaf-f0d37f3b26d0",
@@ -2076,7 +2176,8 @@
     },
     {
       "id": "dropbox:-856383941",
-      "t": "Caponata, la vraie !"
+      "t": "Caponata, la vraie !",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r167867"
     },
     {
       "id": "dropbox:-556517079",
@@ -2108,7 +2209,8 @@
     },
     {
       "id": "dropbox:7b2ff025-5f27-457e-9389-03f406ef0751",
-      "t": "Blanquette de veau à l'ancienne façon Cyril Lignac"
+      "t": "Blanquette de veau à l'ancienne façon Cyril Lignac",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r165636"
     },
     {
       "id": "dropbox:2a4aefc7-3f43-44bb-984b-85e8a3cca052",
@@ -2121,15 +2223,18 @@
     },
     {
       "id": "dropbox:085ff5be-96b9-469a-9f4f-f2cfa51a2e9c",
-      "cat": "Plat, Airfryer, Légumes"
+      "cat": "Plat, Airfryer, Légumes",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/pommes-de-terre-roties/2795564"
     },
     {
       "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
-      "cat": "Dessert, Crème dessert"
+      "cat": "Dessert, Crème dessert",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r82987"
     },
     {
       "id": "dropbox:7472704a-8d06-4efc-bb69-8152536c3149",
-      "cat": "Dessert, Viennoiserie"
+      "cat": "Dessert, Viennoiserie",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Beignets%20fondants%20aux%20pommes/2458851"
     },
     {
       "id": "dropbox:815581662",
@@ -2153,7 +2258,8 @@
     },
     {
       "id": "dropbox:-2014124092",
-      "cat": "Dessert, Gâteaux"
+      "cat": "Dessert, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r913504"
     },
     {
       "id": "dropbox:-85574417",
@@ -2161,11 +2267,13 @@
     },
     {
       "id": "dropbox:eae14f8a-456e-406b-b7fc-7c321a050a71",
-      "cat": "Dessert, Thermomix, Viennoiserie"
+      "cat": "Dessert, Thermomix, Viennoiserie",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r124992"
     },
     {
       "id": "dropbox:370b649a-430b-4219-b238-2ccf4eb55a4b",
-      "cat": "Dessert, Airfryer, Biscuit"
+      "cat": "Dessert, Airfryer, Biscuit",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/cookies-chocolat/2764724"
     },
     {
       "id": "dropbox:eb7bfdad-c0c4-4b70-8fec-15ed51f701eb",
@@ -2173,11 +2281,13 @@
     },
     {
       "id": "dropbox:3f3a8eec-c4e9-4b41-b7bc-63eba556854f",
-      "cat": "Dessert, Airfryer, Viennoiserie"
+      "cat": "Dessert, Airfryer, Viennoiserie",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Donuts/2775131"
     },
     {
       "id": "dropbox:1650465783",
-      "cat": "Dessert, Tarte sucrée"
+      "cat": "Dessert, Tarte sucrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r86474"
     },
     {
       "id": "dropbox:8a41edc3-7f25-4914-ba40-2ec47d781ed7",
@@ -2197,7 +2307,9 @@
     },
     {
       "id": "dropbox:d2cc2716-392e-4cf8-a4d3-f953354bb027",
-      "cat": "Dessert, Flan"
+      "cat": "Dessert, Flan",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r119510",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Flan+patissier/2977061"
     },
     {
       "id": "dropbox:1f06e514-74d8-4474-adab-243613cf0da8",
@@ -2213,7 +2325,9 @@
     },
     {
       "id": "dropbox:3072d049-d557-48b1-a56b-e71026e1b1a3",
-      "cat": "Dessert, Airfryer, Gâteaux"
+      "cat": "Dessert, Airfryer, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r24137",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Muffins%20aux%20p%C3%A9pites%20de%20chocolat/2450153"
     },
     {
       "id": "dropbox:47705959-5e54-4987-ab68-050dcdfe3e39",
@@ -2225,7 +2339,8 @@
     },
     {
       "id": "dropbox:3e409306-7be1-489c-832e-5ab1f097df11",
-      "cat": "Dessert, Thermomix, Portugal, Tarte sucrée"
+      "cat": "Dessert, Thermomix, Portugal, Tarte sucrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r134115"
     },
     {
       "id": "dropbox:bae6f1f6-0dae-4652-aeb6-ec80869ab6f1",
@@ -2237,7 +2352,9 @@
     },
     {
       "id": "dropbox:0c0ff256-14a3-48ae-ae05-3852d1b57cbb",
-      "cat": "Dessert, Airfryer, Gâteaux"
+      "cat": "Dessert, Airfryer, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r168386",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Brownie/2774947"
     },
     {
       "id": "dropbox:1123726471",
@@ -2257,7 +2374,9 @@
     },
     {
       "id": "af:002",
-      "cat": "Dessert, Flan, Airfryer"
+      "cat": "Dessert, Flan, Airfryer",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r119510",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Flan+patissier/2977061"
     },
     {
       "id": "tmx:005",
@@ -2265,7 +2384,8 @@
     },
     {
       "id": "af:003",
-      "cat": "Dessert, Airfryer, Viennoiserie"
+      "cat": "Dessert, Airfryer, Viennoiserie",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Beignets%20fondants%20aux%20pommes/2458851"
     },
     {
       "id": "dropbox:fc6d39d5-a79d-43fb-93c4-8f597e26f4c8",
@@ -2275,7 +2395,8 @@
         "1 gousse d'ail hachée",
         "Persil haché",
         "Sel"
-      ]
+      ],
+      "af": "https://www.moulinex.fr/recette/detail/PRO/champignons-rotis/2625117"
     },
     {
       "id": "dropbox:2cf45bbf-b465-493a-bef1-e1ef0b61fc19",
@@ -2330,7 +2451,8 @@
     },
     {
       "id": "dropbox:a71f6557-49cf-4e3b-a643-53087f643b9c",
-      "cat": "Fruits de mer, Plat"
+      "cat": "Fruits de mer, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r551696"
     },
     {
       "id": "dropbox:90dd0855-948c-4844-ac71-99e68639bb69",
@@ -2346,7 +2468,8 @@
     },
     {
       "id": "dropbox:9f76942f-eca9-403f-967c-e64ae5e1161b",
-      "cat": "Airfryer, Plat"
+      "cat": "Airfryer, Plat",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/beignets-de-courgette/2889131"
     },
     {
       "id": "dropbox:7e45f7aa-99b9-4b53-a52d-b16c7e645341",
@@ -2358,7 +2481,8 @@
     },
     {
       "id": "dropbox:035a5eab-d7d0-4bd5-9e7f-7e534631a0b7",
-      "cat": "Airfryer, Plat"
+      "cat": "Airfryer, Plat",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Camembert+r%C3%B4ti+et+ses+pommes+de+terre+grenailles/2810178"
     },
     {
       "id": "dropbox:2146049309",
@@ -2366,11 +2490,13 @@
     },
     {
       "id": "dropbox:19f3c092-b876-4303-96b1-88ba85ac6edf",
-      "cat": "Airfryer, Plat"
+      "cat": "Airfryer, Plat",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Escalopes%20de%20poulet%20pan%C3%A9es/2767324"
     },
     {
       "id": "dropbox:815bdd56-8c90-4c98-a997-671e37d5a357",
-      "cat": "Poireau, Légumes, Accompagnement"
+      "cat": "Poireau, Légumes, Accompagnement",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r139637"
     },
     {
       "id": "dropbox:40e379fc-e380-42f1-87ef-dcd7bdce8745",
@@ -2435,6 +2561,146 @@
     {
       "id": "dropbox:-34423155",
       "cat": "Plat, Légumes"
+    },
+    {
+      "id": "dropbox:64214989-36ac-4003-904c-a36d4d444db6",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r71764"
+    },
+    {
+      "id": "dropbox:5d8ad666-2667-4ae7-ac65-0979d3d96783",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r90440"
+    },
+    {
+      "id": "dropbox:f1bad9d4-7d9e-4e18-892a-6b5f757b1884",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r136129"
+    },
+    {
+      "id": "dropbox:90878772",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r901734"
+    },
+    {
+      "id": "dropbox:149074861",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r901734"
+    },
+    {
+      "id": "dropbox:22b98065-e325-40ee-a8f2-fcd8569308b7",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r460381"
+    },
+    {
+      "id": "dropbox:-1734417852",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r251374"
+    },
+    {
+      "id": "dropbox:1525929608",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r251374"
+    },
+    {
+      "id": "dropbox:1722159647",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r251374"
+    },
+    {
+      "id": "dropbox:7b6719f3-d26c-4bfd-a770-d643b3d9a09c",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r57845"
+    },
+    {
+      "id": "dropbox:1452210027",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r654232"
+    },
+    {
+      "id": "dropbox:11498d86-d7c5-4887-b489-0389025c38d5",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r257605"
+    },
+    {
+      "id": "dropbox:1520700987",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r257605"
+    },
+    {
+      "id": "dropbox:290024ab-83b9-408a-bad8-be6be1f17ebf",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r795331"
+    },
+    {
+      "id": "dropbox:-458839063",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r728470"
+    },
+    {
+      "id": "dropbox:7e09d88b-97ff-436c-ae3a-5603c5ed6b2a",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r460382"
+    },
+    {
+      "id": "dropbox:7c2dc25f-65c4-4957-80ba-ac2045a1bbe8",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r401992"
+    },
+    {
+      "id": "dropbox:1636514084",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r38488"
+    },
+    {
+      "id": "dropbox:9e4e3d8a-3322-4601-ba3f-288bafd02960",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r703938"
+    },
+    {
+      "id": "dropbox:c46f4463-1415-4b27-8b34-733d9329ce15",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r788074"
+    },
+    {
+      "id": "dropbox:-1639881322",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r823950"
+    },
+    {
+      "id": "dropbox:-866149180",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r545030"
+    },
+    {
+      "id": "dropbox:f303d5d6-6fcd-4e1a-a71d-f74393032202",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/pomme-de-terre-grenaille-airfryer/2929344"
+    },
+    {
+      "id": "dropbox:f4d80f43-4b47-40ff-b878-8a03dae8b2e9",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/potatoes-de-patate-douce/2791618"
+    },
+    {
+      "id": "dropbox:d59d80fe-63c7-4f9e-afff-0fe4365a2655",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/L%C3%A9gumes+r%C3%B4tis/3092283"
+    },
+    {
+      "id": "dropbox:4d072456-63ba-4d4e-ba6d-37eb641fa9a8",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/magrets-de-canard/2856675"
+    },
+    {
+      "id": "dropbox:b2235e42-be39-430d-887f-b1bd6a41d651",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Escalopes%20de%20poulet%20pan%C3%A9es/2767324"
+    },
+    {
+      "id": "dropbox:69e9a532-ed42-437c-af27-0a7de0e7072f",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Saumon%20laqu%C3%A9%20Teriyaki/2448234"
+    },
+    {
+      "id": "dropbox:51065440-5120-43a2-92ef-0d53e34e215c",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/crevettes-panees-sauce-aigre-douce/2765831"
+    },
+    {
+      "id": "dropbox:589bd902-65dd-4f74-9b05-05171c1e8f56",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/aubergine-croustillantes/3009277"
+    },
+    {
+      "id": "af:001",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/chips-de-courgettes-panees/2767281"
+    },
+    {
+      "id": "dropbox:99cbaae6-413b-44f2-a30c-a18d9cbc5d2a",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/chips-de-courgettes-panees/2767281"
+    },
+    {
+      "id": "dropbox:3ccc4864-cd86-4afc-b665-efdc8ede033b",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/filets-de-porc/2791402"
+    },
+    {
+      "id": "dropbox:d8449748-62f3-4617-9cef-8acba953ff79",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/gratin-de-courgettes/2456776"
+    },
+    {
+      "id": "dropbox:c86d2b46-6085-4fe6-a7c1-d9a7bea89cd2",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/poivrons-grilles-a-litalienne/2458647"
     }
   ],
   "recipes": [
@@ -2464,7 +2730,8 @@
       ],
       "steps": "Éplucher et couper les pommes de terre en bâtonnets réguliers. Les rincer à l'eau froide et bien les sécher avec un torchon — c'est essentiel pour la croustillance. Dans un saladier, mélanger les frites avec l'huile d'olive, le paprika, le sel et le poivre. Préchauffer l'Air Fryer à 200°C. Disposer les frites en couche unique dans le panier (cuire en 2 fournées si nécessaire). Cuire 20-22 min en secouant toutes les 7 min. Servir immédiatement.",
       "url": "https://www.750g.com/frites-au-air-fryer-r209269.htm",
-      "img": "https://static.750g.com/images/1200-630/9f97013ddb9c664ca1445ab179681b55/frites-airfryer-img-1603.jpg"
+      "img": "https://static.750g.com/images/1200-630/9f97013ddb9c664ca1445ab179681b55/frites-airfryer-img-1603.jpg",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/frites-maison/2813245"
     },
     {
       "id": "af:010",
@@ -2550,7 +2817,8 @@
       ],
       "steps": "Couper le chorizo en rondelles épaisses d'environ 1,5 cm. Disposer dans une petite poêle ou une cassole. Verser le cidre à hauteur et ajouter le laurier. Porter à ébullition puis réduire à feu moyen. Cuire 15 min jusqu'à ce que le cidre soit presque entièrement absorbé et que le chorizo soit bien laqué. Servir chaud dans la cassole avec du pain.",
       "url": "https://www.foodnetwork.com/recipes/emeril-lagasse/spanish-chorizo-stewed-in-cider-3644328",
-      "img": "img/illus/espagne-039.jpg"
+      "img": "img/illus/espagne-039.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r687289"
     },
     {
       "id": "espagne:040",
@@ -2572,7 +2840,8 @@
       ],
       "steps": "Couper tous les légumes en dés de 1,5 cm. Dans une grande poêle, faire revenir l'oignon et l'ail dans l'huile d'olive 5 min. Ajouter les poivrons et cuire 10 min. Ajouter les courgettes et l'aubergine. Cuire 10 min à feu moyen en remuant. Ajouter les tomates, le sel et le poivre. Cuire encore 15 min jusqu'à ce que les légumes soient fondants et le jus réduit. Servir avec un œuf au plat posé dessus, ou froid en tapa.",
       "url": "https://food52.com/recipes/69114-pisto-manchego-vegetable-stew-from-la-mancha",
-      "img": "img/illus/espagne-040.jpg"
+      "img": "img/illus/espagne-040.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r757120"
     },
     {
       "id": "espagne:042",
@@ -2654,7 +2923,8 @@
       ],
       "steps": "Nettoyer les chipirones en gardant les sacs d'encre si possible (ou utiliser des sachets). Couper les corps en anneaux. Faire revenir l'oignon et l'ail émincés dans l'huile 5 min. Ajouter les chipirones et faire revenir 5 min. Ajouter la tomate concassée et le vin blanc. Cuire 5 min. Délayer l'encre dans un peu d'eau et ajouter. Mélanger et mijoter 20-25 min à feu doux jusqu'à sauce noire et brillante. Servir avec du riz blanc.",
       "url": "https://www.750g.com/calamar-a-lencre-comme-au-pays-basque-r47737.htm",
-      "img": "https://static.750g.com/images/1200-630/2fa76b29ca679bca9d93cd3908e4e754/calamar-a-l-encre-comme-au-pays-basque.jpg"
+      "img": "https://static.750g.com/images/1200-630/2fa76b29ca679bca9d93cd3908e4e754/calamar-a-l-encre-comme-au-pays-basque.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r55726"
     },
     {
       "id": "italie:pizza:001",
@@ -2678,7 +2948,8 @@
       ],
       "steps": "Pâte : dissoudre la levure dans l'eau tiède. Mélanger farine et sel, ajouter l'eau levurée et l'huile. Pétrir 10 min jusqu'à pâte lisse et élastique. Couvrir et laisser lever 2 h (ou toute une nuit au frigo). Sauce : écraser les tomates à la main, assaisonner de sel. Préchauffer le four à 250°C (chaleur max) avec une plaque dedans. Étaler la pâte très finement. Étaler la sauce (ni trop épaisse, ni trop fine). Déposer la mozzarella en morceaux. Enfourner 8-10 min. Sortir du four, ajouter basilic frais et filet d'huile d'olive. Servir immédiatement.",
       "url": "https://www.750g.com/pizza-margherita-r200618.htm",
-      "img": "https://static.750g.com/images/1200-630/c1b1d4590bcd946cb8ffab3db4c7d543/snap-2016-06-08-at-16.34.39.jpg"
+      "img": "https://static.750g.com/images/1200-630/c1b1d4590bcd946cb8ffab3db4c7d543/snap-2016-06-08-at-16.34.39.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54120"
     },
     {
       "id": "italie:pizza:002",
@@ -2820,7 +3091,8 @@
       ],
       "steps": "Étaler la pâte et la diviser visuellement en 4 quarts. Napper de sauce tomate et mozzarella partout. Garnir chaque quart : cœurs d'artichaut marinés, tomates cerise + basilic, champignons sautés, prosciutto + olives noires. Cuire 10-12 min à 250°C.",
       "url": "https://www.750g.com/pizza-4-saisons-r90816.htm",
-      "img": "https://static.750g.com/images/1200-630/941031380f9e8ba456e7ef3e36d826f9/adobestock-279824850-1-.jpeg"
+      "img": "https://static.750g.com/images/1200-630/941031380f9e8ba456e7ef3e36d826f9/adobestock-279824850-1-.jpeg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r237511"
     },
     {
       "id": "italie:pizza:009",
@@ -2859,7 +3131,8 @@
       ],
       "steps": "Préchauffer le four à 250°C. Étaler la pâte en cercle. Sur une moitié, étaler la ricotta, poser la mozzarella et le salami. Saler, poivrer, origan. Replier l'autre moitié de pâte et bien souder les bords en les pinçant. Badigeonner d'huile. Cuire 12-15 min jusqu'à dorure. Servir avec sauce tomate chaude pour tremper.",
       "url": "https://www.750g.com/calzone-a-litalienne-r75883.htm",
-      "img": "https://static.750g.com/images/1200-630/d9b6cb4ad2823a6d862bb4fd9904d16a/calzone-a-l-italienne.jpeg"
+      "img": "https://static.750g.com/images/1200-630/d9b6cb4ad2823a6d862bb4fd9904d16a/calzone-a-l-italienne.jpeg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r118994"
     },
     {
       "id": "italie:pizza:011",
@@ -2976,7 +3249,8 @@
         "100 ml de lait"
       ],
       "steps": "Couper la mangue et la banane en morceaux. Mettre tous les ingrédients dans un blender. Mixer à pleine puissance 1 min jusqu'à consistance lisse et crémeuse. Ajuster la texture avec un peu plus de lait si trop épais. Servir immédiatement dans un grand verre.",
-      "img": "img/illus/sm-001.jpg"
+      "img": "img/illus/sm-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r320591"
     },
     {
       "id": "sm:002",
@@ -3159,7 +3433,8 @@
       ],
       "steps": "Couper les aubergines en tranches de 5 mm. Saler généreusement, laisser dégorger 30 min, rincer et sécher soigneusement. Faire la sauce : revenir l'oignon et l'ail dans l'huile, ajouter les tomates, basilic, sel et poivre. Mijoter 20 min. Frire les tranches d'aubergine dans l'huile à 170°C jusqu'à dorées. Égoutter sur papier absorbant. Dans un plat à gratin, alterner : sauce tomate — tranches d'aubergine — mozzarella en lamelles — parmesan — basilic. Répéter 3 couches. Terminer par sauce et parmesan. Cuire 30 min à 180°C. Laisser reposer 15 min avant de servir — se mange aussi tiède.",
       "url": "https://www.750g.com/aubergines-a-la-parmigiana-r99644.htm",
-      "img": "https://static.750g.com/images/1200-630/081aa61679095263a08dae52f7fa4a8f/aubergines-a-la-parmigiana.jpg"
+      "img": "https://static.750g.com/images/1200-630/081aa61679095263a08dae52f7fa4a8f/aubergines-a-la-parmigiana.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r150464"
     },
     {
       "id": "italie:032",
@@ -3179,7 +3454,8 @@
       ],
       "steps": "Cuire les pâtes al dente dans l'eau bouillante très salée. Pendant ce temps, faire revenir le guanciale en dés sans matière grasse à feu moyen jusqu'à ce qu'il soit doré et légèrement croustillant. Retirer du feu. Dans un bol, mélanger les jaunes d'œufs avec le pecorino et une généreuse quantité de poivre noir. La texture doit être crémeuse. Égoutter les pâtes en gardant une tasse d'eau de cuisson. Verser les pâtes dans la poêle avec le guanciale (hors du feu). Ajouter le mélange jaunes-pecorino et mélanger rapidement. Si trop épais, ajouter l'eau de cuisson cuillère par cuillère. La chaleur résiduelle \"cuit\" les œufs sans les brouiller. Servir immédiatement avec poivre et pecorino.",
       "url": "https://www.750g.com/pates-a-la-carbonara-comme-a-roma-r207425.htm",
-      "img": "https://static.750g.com/images/1200-630/a2f2b46bf972f799b508c0dbd5dca913/818-papilles-vignette-1-.jpg"
+      "img": "https://static.750g.com/images/1200-630/a2f2b46bf972f799b508c0dbd5dca913/818-papilles-vignette-1-.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r921623"
     },
     {
       "id": "italie:033",
@@ -3249,7 +3525,8 @@
       ],
       "steps": "Cuire le veau entier dans l'eau bouillante avec oignon, carotte, céleri, laurier et poivre — 40 min à frémissement. Laisser refroidir dans son bouillon. Sauce : mixer le thon égoutté, les jaunes d'œufs, les anchois, les câpres et le citron. Incorporer l'huile en filet pour obtenir une sauce lisse et crémeuse. Trancher le veau très finement. Dresser en éventail sur un plat. Napper généreusement de sauce tonnato. Décorer de câpres. Réfrigérer 1 h avant de servir.",
       "url": "https://www.750g.com/vitello-tonnato-r50527.htm",
-      "img": "https://static.750g.com/images/1200-630/cd611abbb51cfa1ee12c5ae565ce2fe4/vitello-tonnato.png"
+      "img": "https://static.750g.com/images/1200-630/cd611abbb51cfa1ee12c5ae565ce2fe4/vitello-tonnato.png",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r85464"
     },
     {
       "id": "italie:036",
@@ -3268,7 +3545,8 @@
       ],
       "steps": "Écraser l'ail très finement ou le laisser entier pour une saveur plus douce. Dans une petite casserole à feu très doux, chauffer l'huile avec l'ail 10 min sans laisser dorer. Ajouter les anchois et le beurre. Mélanger à feu doux jusqu'à ce que les anchois se dissolvent complètement (5 min). La sauce doit être lisse, jamais frite. Verser dans un caquelon posé sur une petite flamme pour maintenir chaud. Tremper les légumes directement dans la sauce.",
       "url": "https://www.750g.com/bagna-cauda-r13011.htm",
-      "img": "https://static.750g.com/images/1200-630/d0c4b057cbd9fdafcf184485cffd5cd5/bagna-cauda.jpg"
+      "img": "https://static.750g.com/images/1200-630/d0c4b057cbd9fdafcf184485cffd5cd5/bagna-cauda.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r237328"
     },
     {
       "id": "italie:037",
@@ -3305,7 +3583,8 @@
       ],
       "steps": "Bouillon : mettre viandes et légumes dans une grande casserole d'eau froide. Porter à ébullition, écumer soigneusement. Cuire à frémissement 2-3 h. Filtrer et dégraisser (laisser refroidir puis retirer la couche de gras). Rectifier le sel — le bouillon doit être savoureux et clair. Porter le bouillon à frémissement. Cuire les tortellini dedans 3-4 min selon l'épaisseur. Servir dans une assiette creuse avec beaucoup de bouillon et parmesan râpé. Simple, parfait.",
       "url": "https://www.750g.com/tortellini-in-brodo-r97232.htm",
-      "img": "https://static.750g.com/images/1200-630/21486c516fbc24343c03ae5464376101/tortellini-in-brodo.jpg"
+      "img": "https://static.750g.com/images/1200-630/21486c516fbc24343c03ae5464376101/tortellini-in-brodo.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r69834"
     },
     {
       "id": "italie:043",
@@ -4437,7 +4716,8 @@
       ],
       "steps": "Laver et équeuter les fraises.\nMixer fraises, glace, lait (et sucre si besoin) jusqu'à consistance onctueuse.\nAjuster le lait pour la texture souhaitée.\nServir immédiatement, décoré d'une fraise sur le bord du verre.",
       "url": "https://www.750g.com/milkshake-a-la-fraise-r39059.htm",
-      "img": "https://static.750g.com/images/1200-630/e194b426220dbd036dcb9b69eabfed19/milkshake-a-la-fraise.jpeg"
+      "img": "https://static.750g.com/images/1200-630/e194b426220dbd036dcb9b69eabfed19/milkshake-a-la-fraise.jpeg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54150"
     },
     {
       "id": "shake:003",
@@ -4700,7 +4980,8 @@
       ],
       "steps": "Faire revenir pancetta. Ajouter légumes émincés, cuire 10 min.\nAjouter la viande, dorer en cassant les grumeaux.\nDéglacer au vin, laisser évaporer.\nAjouter tomates, concentré, sel, poivre.\nMijoter 1h30 à feu très doux.\nEn fin de cuisson, incorporer le lait (adoucit l'acidité).\n\n💡 La vraie bolognaise se mange avec des tagliatelles fraîches, pas des spaghettis.",
       "url": "https://www.750g.com/sauce-bolognaise-l-authentique-ragu-alla-bolognese-italien-r203424.htm",
-      "img": "https://static.750g.com/images/1200-630/cab72b07a0ff433fc78514df863d1d21/adobestock-78544193.jpeg"
+      "img": "https://static.750g.com/images/1200-630/cab72b07a0ff433fc78514df863d1d21/adobestock-78544193.jpeg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r317295"
     },
     {
       "id": "italie:sauce:003",
@@ -4755,7 +5036,8 @@
       ],
       "steps": "Faire revenir l'ail et le piment dans l'huile 2 min.\nAjouter les tomates, sel. Mijoter 15-18 min.\nServir sur des penne (pasta traditionnelle pour l'arrabbiata).\nParsemer de persil haché.\n\n💡 Sans fromage — la tradition interdit le parmesan sur les pâtes au poisson ou épicées.",
       "url": "https://www.750g.com/sauce-arrabiata-r38298.htm",
-      "img": "https://static.750g.com/images/1200-630/b00cf972eeaffe99c4404329b1b307ee/sauce-arrabiata.png"
+      "img": "https://static.750g.com/images/1200-630/b00cf972eeaffe99c4404329b1b307ee/sauce-arrabiata.png",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r105132"
     },
     {
       "id": "italie:sauce:006",
@@ -4792,7 +5074,8 @@
       ],
       "steps": "Faire revenir l'ail à feu très doux dans l'huile — doit blondir légèrement, jamais bruler.\nAjouter le piment. Couper le feu.\nMélanger avec les spaghettis égouttés et quelques c. à soupe d'eau de cuisson.\nParsemer de persil.\n\n💡 La règle : ail blond = parfumé / ail brun = amer. Surveiller attentivement.",
       "url": "https://www.750g.com/pasta-olio-aglio-et-peperoncino-r47531.htm",
-      "img": "https://static.750g.com/images/1200-630/dd983af6e7c45a9301232ee3b8bbfd2b/pasta-olio-aglio-et-peperoncino.png"
+      "img": "https://static.750g.com/images/1200-630/dd983af6e7c45a9301232ee3b8bbfd2b/pasta-olio-aglio-et-peperoncino.png",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r646697"
     },
     {
       "id": "italie:sauce:008",
@@ -4810,7 +5093,8 @@
       ],
       "steps": "Faire fondre le beurre, ajouter la farine d'un coup. Remuer 1 min (roux blanc).\nVerser le lait chaud petit à petit en fouettant sans arrêt.\nCuire à feu moyen en remuant jusqu'à épaississement (5-7 min).\nAssaisonner sel, poivre blanc, muscade généreuse.\n\n💡 Pour les lasagnes : faire une besciamella assez fluide (un peu plus de lait) car elle épaissit à la cuisson.",
       "url": "https://www.750g.com/bechamel-maison-r204322.htm",
-      "img": "https://static.750g.com/images/1200-630/e6ba66665311666afdfc6fdbbbe1b46e/bechamel.jpg"
+      "img": "https://static.750g.com/images/1200-630/e6ba66665311666afdfc6fdbbbe1b46e/bechamel.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r810188"
     },
     {
       "id": "italie:sauce:009",
@@ -4829,7 +5113,8 @@
       ],
       "steps": "Faire revenir le guanciale en lardons à feu moyen jusqu'à dorure et rendu du gras.\nAjouter le piment, puis les tomates.\nMijoter 20 min. Assaisonner.\nMélanger avec les bucatini (pasta traditionnelle).\nFinir avec le pecorino — pas de parmesan dans l'authentique.\n\n💡 Le guanciale est la joue de porc séchée — plus gras et parfumé que la pancetta.",
       "url": "https://food52.com/recipes/76039-rigatoni-all-amatriciana-in-the-style-of-felix-trattoria",
-      "img": "img/illus/italie-sauce-009.jpg"
+      "img": "img/illus/italie-sauce-009.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r100431"
     },
     {
       "id": "italie:sauce:010",
@@ -4990,7 +5275,8 @@
       ],
       "steps": "Mixer pois chiches, ail, tahini, citron et eau jusqu'à consistance lisse et crémeuse.\nAssaisonner de sel. Ajouter de l'eau si trop épais.\nServir dans un bol, arroser d'huile d'olive et saupoudrer de paprika.\n\n💡 La clé d'un houmous ultra-lisse : peler les pois chiches (retirer la petite peau) avant de mixer.",
       "url": "https://www.750g.com/la-meilleure-facon-de-faire-un-houmous-r207602.htm",
-      "img": "https://static.750g.com/images/1200-630/cea3c6318a5d5f310f25d8bca23d238f/photo-horizontale-lmfd-houmous.jpg"
+      "img": "https://static.750g.com/images/1200-630/cea3c6318a5d5f310f25d8bca23d238f/photo-horizontale-lmfd-houmous.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r73310"
     },
     {
       "id": "tart:028",
@@ -5689,7 +5975,8 @@
       ],
       "steps": "FARCE\nFaire revenir oignon, ail et poivron 5 min. Ajouter le bœuf, cuire 8 min.\nAssaisonner de cumin, sel, poivre. Laisser refroidir.\n\nMONTAGE\nDéposer 1-2 c. à soupe de farce au centre de chaque disque.\nHumidifier les bords, replier en demi-lune, sceller en appuyant.\nChiqueter le bord (plier/torsader le bord sur lui-même).\n\nCUISSON\nFour 200°C : 20-25 min jusqu'à dorure.\nBadigeonner d'œuf battu avant d'enfourner.\n\n💡 La farce doit être froide avant le montage pour éviter de détremper la pâte.",
       "url": "https://www.750g.com/empanadas-r31223.htm",
-      "img": "https://static.750g.com/images/1200-630/ae0f55e30a017dc7a4bdf14bf571e413/empanadas.png"
+      "img": "https://static.750g.com/images/1200-630/ae0f55e30a017dc7a4bdf14bf571e413/empanadas.png",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Empanadas/2775124"
     },
     {
       "id": "empanada:002",
@@ -6315,7 +6602,8 @@
       ],
       "steps": "AUBERGINES\nSaler les rondelles d'aubergines 20 min, rincer et sécher. Faire dorer à la poêle dans l'huile ou badigeonner d'huile et passer au four 200°C 20 min.\n\nRAGÙ\nFaire revenir oignon et ail. Ajouter la viande, dorer. Tomates, cannelle, muscade, sel, poivre. Mijoter 20 min pour concentrer.\n\nBÉCHAMEL\nFaire fondre beurre + farine 1 min. Ajouter le lait chaud en fouettant. Épaissir 5 min. Hors du feu, incorporer les œufs battus.\n\nMONTAGE — Dans un grand plat :\n1. Couche d'aubergines\n2. Ragù\n3. Aubergines\n4. Béchamel généreuse. Parmesan.\n\nFour 180°C : 40-45 min jusqu'à dorure.\nLaisser tiédir 15 min avant de couper — tient mieux.\n\n💡 Meilleure réchauffée le lendemain — les saveurs se concentrent.",
       "img": "https://static.750g.com/images/1200-630/4e33137c65008e66560f9e1d59f405a0/moussaka-grecque.jpeg",
-      "url": "https://www.750g.com/moussaka-grecque-r75995.htm"
+      "url": "https://www.750g.com/moussaka-grecque-r75995.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r450954"
     },
     {
       "id": "grece:002",
@@ -6336,7 +6624,8 @@
       ],
       "steps": "Mélanger huile, citron, ail, origan et paprika.\nMariner les cubes de viande 30 min minimum (2h idéalement).\nEnfiler sur brochettes. Saler, poivrer.\n\nCUISSON\nGrill ou barbecue très chaud : 10-15 min en tournant souvent.\nOu four 220°C avec grill : 12-15 min.\n\nServir avec pain pita, tzatziki, tomates et oignons rouges.\n\n💡 Le secret est dans l'origan — ne pas lésiner. Arroser de jus de citron à la sortie.",
       "img": "https://static.750g.com/images/1200-630/9818ecb30f21b35309d10e00e077969a/souvlaki-2.jpg",
-      "url": "https://www.750g.com/souvlaki-au-poulet-r201178.htm"
+      "url": "https://www.750g.com/souvlaki-au-poulet-r201178.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r778955"
     },
     {
       "id": "grece:003",
@@ -6377,7 +6666,8 @@
       ],
       "steps": "Râper le concombre grossièrement. Saler et laisser dégorger 15 min dans une passoire.\nPresser fortement pour éliminer un maximum d'eau — c'est la clé.\nMélanger yaourt, concombre pressé, ail, huile, aneth et citron.\nAssaisonner. Réfrigérer au moins 30 min.\n\n💡 Plus l'eau est bien extraite du concombre, plus le tzatziki est épais et savoureux.\nAvec du yaourt grec entier (non allégé) pour la meilleure texture.",
       "img": "https://static.750g.com/images/1200-630/cccc5825c38ead3cedab52f2b151801a/tzatziki.jpg",
-      "url": "https://www.750g.com/tzatziki-r200130.htm"
+      "url": "https://www.750g.com/tzatziki-r200130.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r586466"
     },
     {
       "id": "grece:005",
@@ -6441,7 +6731,8 @@
       ],
       "steps": "Couper les légumes grossièrement — la salade grecque se fait en morceaux généreux, pas en petits dés.\nDisposer dans un saladier : tomates, concombre, poivron, oignon.\nAjouter les olives.\nPoser le bloc de feta entier au centre — ne pas émietter.\nArroser d'huile d'olive. Saupoudrer d'origan. Saler légèrement.\n\nServir immédiatement avec du pain de campagne.\n\n💡 La feta entière est la signature — l'huile d'olive doit être de qualité.",
       "img": "https://static.750g.com/images/1200-630/32eae8f751cb9244c177490439914e7c/salade-greque-750g.jpeg",
-      "url": "https://www.750g.com/salade-grecque-choriatiki-r55170.htm"
+      "url": "https://www.750g.com/salade-grecque-choriatiki-r55170.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r716242"
     },
     {
       "id": "grece:008",
@@ -6540,7 +6831,8 @@
       ],
       "steps": "Porter le bouillon à ébullition. Ajouter le riz, cuire 15-18 min.\nRéduire à feu très doux.\nLIAISON AVGOLEMONO : Battre les œufs, ajouter le jus de citron en fouettant.\nPrélever 2 louches de bouillon chaud, les incorporer lentement au mélange œuf-citron (tempérage).\nVerser la liaison dans la soupe en remuant constamment. Ne plus faire bouillir.\nAjouter le poulet effiloché. Assaisonner.\nServir garni d'aneth et d'un peu de citron.\n\n💡 Ne jamais faire bouillir après l'ajout de la liaison — les œufs coaguleraient.",
       "img": "https://static.750g.com/images/1200-630/6bfed8a083822d89cf05298fad59db1c/soupe-de-riz-au-citron-a-la-grecque.png",
-      "url": "https://www.750g.com/soupe-de-riz-au-citron-a-la-grecque-r43859.htm"
+      "url": "https://www.750g.com/soupe-de-riz-au-citron-a-la-grecque-r43859.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r177668"
     },
     {
       "id": "grece:013",
@@ -6579,7 +6871,8 @@
       ],
       "steps": "Diluer la levure dans l'eau tiède avec le sucre. Attendre 10 min (mousse).\nMélanger farine et sel. Ajouter la levure. Fouetter jusqu'à pâte lisse et collante.\nLaisser lever 1h à couvert jusqu'à doublement.\n\nFRITURE\nChauffer l'huile à 170-175°C.\nPrendre des cuillerées à soupe de pâte, les plonger avec une cuillère humide.\nFrire 3-4 min en retournant pour une dorure uniforme.\nÉgoutter sur papier absorbant.\n\nNapper de miel chaud immédiatement. Cannelle et noix.\n\n💡 Servir chaud — ils perdent leur légèreté en refroidissant.",
       "img": "https://static.750g.com/images/1200-630/cc40f7173a277d097c82570f61a65864/adobestock-115041988.jpeg",
-      "url": "https://www.750g.com/loukoumades-r206596.htm"
+      "url": "https://www.750g.com/loukoumades-r206596.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r801521"
     },
     {
       "id": "grece:015",
@@ -6616,7 +6909,8 @@
       ],
       "steps": "Inciser profondément la viande. Insérer des lamelles d'ail dans les incisions.\nEnrober de citron, huile, origan, sel, poivre. Mariner 2h ou toute la nuit.\nDisposer sur une grande feuille d'alu avec les tomates.\nFermer hermétiquement en papillote.\n\nFour 160°C : 3h à 3h30 — la viande doit se détacher à la fourchette.\nOuvrir la papillote les 20 dernières minutes pour faire dorer.\n\n💡 La cuisson lente en papillote conserve tous les jus — ne pas ouvrir trop tôt.\nServir avec du riz, des pommes de terre rôties ou du pain pita.",
       "img": "https://www.mygreekdish.com/wp-content/uploads/2014/05/Greek-Lamb-Kleftiko-recipe-scaled.jpg",
-      "url": "https://www.mygreekdish.com/recipe/lamb-kleftiko-recipe-greek-lamb-cooked-in-parchment-paper/"
+      "url": "https://www.mygreekdish.com/recipe/lamb-kleftiko-recipe-greek-lamb-cooked-in-parchment-paper/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r117981"
     },
     {
       "id": "grece:017",
@@ -6725,7 +7019,8 @@
       ],
       "steps": "Faire mariner le poulet 2h dans le vin avec thym et laurier (idéalement une nuit).\nÉgoutter et sécher les morceaux. Garder la marinade.\nFaire dorer les lardons, réserver. Faire dorer le poulet dans beurre+huile, fariner.\nFaire dorer oignons grelots et champignons, réserver.\nRemettre le poulet, verser la marinade. Porter à ébullition, écumer.\nAjouter ail, lardons, oignons. Couvrir. Mijoter 1h à feu doux.\nAjouter champignons les 15 dernières minutes.\nAssaisonner. Parsemer de persil.\n\n💡 Le coq (mâle) ou une vieille poule demandent 2h+ de cuisson — le poulet standard suffit en 1h.",
       "img": "https://static.750g.com/images/1200-630/bebb02e6be38494267c4bf3c0d459fe3/adobestock-325853102.jpeg",
-      "url": "https://www.750g.com/coq-au-vin-r1424.htm"
+      "url": "https://www.750g.com/coq-au-vin-r1424.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r107345"
     },
     {
       "id": "france:002",
@@ -6748,7 +7043,8 @@
       ],
       "steps": "SAUCE MEURETTE\nFaire revenir lardons, oignon et carotte dans le beurre. Ajouter farine, cuire 1 min.\nVerser le vin, thym, laurier, ail. Mijoter 20 min pour réduire d'1/3. Passer au chinois si souhaité.\n\nŒUFS POCHÉS\nPorter à frémissement une casserole d'eau vinaigrée (pas salée).\nCasser un œuf dans un ramequin. Créer un tourbillon, glisser l'œuf délicatement.\nPocher 3-4 min. Récupérer avec une écumoire. Couper les filaments.\n\nServir les œufs sur croûtons, napper de sauce meurette chaude. Lardons dessus.\n\n💡 Les œufs pochés se préparent à l'avance et se réchauffent dans de l'eau chaude.",
       "img": "https://static.750g.com/images/1200-630/6f2b6ce38a7c291d5bd75e1de469e828/photocuisine-60160621-1-1-.jpg",
-      "url": "https://www.750g.com/oeuf-en-meurette-r8758.htm"
+      "url": "https://www.750g.com/oeuf-en-meurette-r8758.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r360123"
     },
     {
       "id": "france:003",
@@ -6789,7 +7085,8 @@
       ],
       "steps": "Porter eau et beurre coupé en dés à ébullition.\nHors du feu, ajouter la farine d'un coup. Remuer vigoureusement (dessécher la pâte 2 min sur feu doux).\nLaisser tiédir 5 min. Incorporer les œufs un par un en fouettant énergiquement après chaque.\nAjouter gruyère, muscade, sel, poivre.\nFormer des petits choux (noix) sur plaque beurrée avec une cuillère ou poche à douille.\nFour 200°C : 20-25 min sans ouvrir le four. Doivent être bien dorés et sonneux.\n\n💡 Ne jamais ouvrir le four pendant la cuisson — les choux s'affaisseraient.",
       "img": "https://static.750g.com/images/1200-630/ee04e908985f5259bb36d88b0ebe6dae/trio-de-gougeres-bourguigonne.png",
-      "url": "https://www.750g.com/trio-de-gougeres-bourguigonne-r67674.htm"
+      "url": "https://www.750g.com/trio-de-gougeres-bourguigonne-r67674.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r20475"
     },
     {
       "id": "france:005",
@@ -6810,7 +7107,8 @@
       ],
       "steps": "Frotter le caquelon (poêlon à fondue) avec la gousse d'ail coupée.\nChauffer le vin blanc à feu moyen — ne pas bouillir.\nAjouter les fromages par poignées en remuant en 8.\nDélayer la Maïzena dans un peu de vin, incorporer.\nContinuer jusqu'à consistance crémeuse et homogène.\nAjouter kirsch si souhaité. Muscade, poivre.\nMaintenir à feu doux sur réchaud. Tremper les cubes de pain.\n\n💡 Si la fondue tranche : ajouter du jus de citron et fouetter. Remuer TOUJOURS en 8, jamais en cercle.",
       "img": "https://static.750g.com/images/1200-630/2657119d88e1c1d5f0e1e8298222268b/adobestock-126266909.jpeg",
-      "url": "https://www.750g.com/fondue-savoyarde-r42790.htm"
+      "url": "https://www.750g.com/fondue-savoyarde-r42790.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r120942"
     },
     {
       "id": "france:006",
@@ -6868,7 +7166,8 @@
       ],
       "steps": "Cuire les crozets al dente (15-18 min). Égoutter.\nFaire revenir lardons et oignon jusqu'à dorure.\nMélanger crozets, lardons, oignon et crème fraîche. Assaisonner.\nVerser dans un plat à gratin beurré.\nCouper le reblochon en deux dans l'épaisseur, poser croûte vers le haut.\n\nFour 200°C : 20-25 min jusqu'à fonte et dorure du fromage.\n\n💡 Les crozets de Sarrasin (noix) ont plus de caractère que les nature. Disponibles en épiceries savoyardes.",
       "img": "https://static.750g.com/images/1200-630/e63fa3038344a80a031a29a577ee2e8b/img-1440.jpg",
-      "url": "https://www.750g.com/la-croziflette-r79033.htm"
+      "url": "https://www.750g.com/la-croziflette-r79033.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r431781"
     },
     {
       "id": "france:009",
@@ -7323,7 +7622,8 @@
       ],
       "steps": "Couper les légumes en morceaux réguliers de 2 cm.\nMélanger dans un grand saladier avec huile, ail haché, herbes, sel, poivre.\n\n🌡️ AIRFRYER — Air Fry 180°C : 15 min\nMélanger à mi-cuisson. Les légumes doivent être fondants et légèrement dorés.\n\nServir chaud ou à température ambiante avec du riz ou du quinoa.\n\n💡 En airfryer, les légumes rôtissent au lieu de braiser — meilleure caramélisation avec moins d'huile.",
       "url": "https://www.750g.com/ratatouille-au-air-fryer-r209509.htm",
-      "img": "https://static.750g.com/images/1200-630/652f3a0b2fc3f7d2f242e173f6188748/ratatouille-airfryer.jpeg"
+      "img": "https://static.750g.com/images/1200-630/652f3a0b2fc3f7d2f242e173f6188748/ratatouille-airfryer.jpeg",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Ratatouille/2809328"
     },
     {
       "id": "af:029",
@@ -7343,7 +7643,8 @@
       ],
       "steps": "Alterner rondelles de courgette et tomate en les faisant se chevaucher dans la cuve.\nIntercaler les lanières de poivron. Parsemer de feta.\nArroser d'huile d'olive. Herbes de Provence, sel, poivre.\n\n🌡️ AIRFRYER — Roast 180°C : 15 min\nLes légumes doivent être tendres et légèrement grillés sur les bords.\n\nServir en plat principal végétarien ou en accompagnement de poisson.\n\n💡 La feta allégée (moins de 9% MG) divise par 2 les apports en graisses saturées.",
       "url": "https://www.750g.com/tian-de-legumes-au-air-fryer-r209579.htm",
-      "img": "https://static.750g.com/images/1200-630/33710c697484470857d26880a12fe0e3/tian-img-0635.jpeg"
+      "img": "https://static.750g.com/images/1200-630/33710c697484470857d26880a12fe0e3/tian-img-0635.jpeg",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/tian-de-legumes-dete/2931431"
     },
     {
       "id": "af:030",
@@ -7766,7 +8067,8 @@
       ],
       "steps": "Mélanger sauce soja, mirin, saké et sucre. Réserver.\nSécher les pavés de saumon avec du papier absorbant. Saler légèrement.\n\nCUISSON\nChauffer une poêle antiadhésive à feu moyen-vif. Cuire le saumon côté peau 3-4 min.\nRetourner, cuire 2-3 min côté chair.\nVerser la sauce teriyaki dans la poêle. La sauce va caraméliser rapidement.\nNapper le saumon en tournant dans la sauce 1-2 min.\n\nServir sur riz, parsemer de sésame.\n\n💡 Le teriyaki (照り焼き) signifie \"griller et faire briller\". La sauce caramélisée qui enrobe est la signature.",
       "img": "https://static.750g.com/images/1200-630/1a6800e9637732609512bc8adff9b5ff/saumon-teriyaki-facile.png",
-      "url": "https://www.750g.com/saumon-teriyaki-r44352.htm"
+      "url": "https://www.750g.com/saumon-teriyaki-r44352.htm",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Saumon%20laqu%C3%A9%20Teriyaki/2448234"
     },
     {
       "id": "japon:022",
@@ -7784,7 +8086,8 @@
       ],
       "steps": "Réhydrater le wakame dans l'eau froide 5 min. Égoutter.\nPorter le dashi à frémissement (ne pas bouillir fort).\nPrendre une louche de dashi, diluer le miso complètement dans la louche.\nVerser le miso dilué dans le dashi. Mélanger doucement.\nNE JAMAIS FAIRE BOUILLIR après le miso — les arômes s'évaporent.\nAjouter tofu et wakame. Réchauffer 1 min à feu doux.\nServir dans des bols, garnir d'oignon nouveau.\n\n💡 Le miso ne doit jamais bouillir. Diluer d'abord dans un peu de dashi évite les grumeaux.",
       "img": "https://static.750g.com/images/1200-630/0b2b690ff5574bd8c3838e5d6bf5836b/soupe-miso-ca.jpg",
-      "url": "https://www.750g.com/soupe-miso-r202074.htm"
+      "url": "https://www.750g.com/soupe-miso-r202074.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r61116"
     },
     {
       "id": "japon:023",
@@ -7802,7 +8105,8 @@
       ],
       "steps": "SAUCE TARE\nMélanger soja, mirin, saké et sucre dans une casserole.\nPorter à frémissement, réduire 10 min jusqu'à sirop légèrement épais. Refroidir.\n\nBROCHETTES\nAlterner cubes de poulet et oignon nouveau coupé en tronçons (negima).\nOu poulet seul (momo pour les cuisses, sasami pour les blancs).\n\nCUISSON (grill ou poêle-grill chaude)\nCuire les brochettes en les retournant toutes les 2 min.\nBadigeonner de sauce tare à 3 reprises pendant la cuisson.\nTotal : 12-15 min. Le poulet doit être légèrement caramélisé.\n\nVARIANTE SHIO (salé) : ne pas mettre de tare, saler légèrement et arroser de jus de citron.\n\n💡 La sauce tare maison se conserve 2 mois au réfrigérateur. Parfaite aussi en marinade.",
       "img": "https://static.750g.com/images/1200-630/f70be7f71a469cf91ac0c63c116ef97a/brochettes-de-poulet-yakitori.png",
-      "url": "https://www.750g.com/brochettes-de-poulet-yakitori-r46891.htm"
+      "url": "https://www.750g.com/brochettes-de-poulet-yakitori-r46891.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r208349"
     },
     {
       "id": "japon:024",
@@ -7823,7 +8127,8 @@
       ],
       "steps": "PÂTE\nMélanger farine, Maïzena, dashi et œufs. Laisser reposer 10 min.\nIncorporer le chou. La pâte doit être épaisse et grumelouse de chou.\n\nSAUCE OKONOMIYAKI\nMélanger : 3 c. ketchup + 2 c. sauce Worcester + 1 c. miel + ½ c. sauce soja.\n\nCUISSON\nChauffer une poêle huilée à feu moyen.\nÉtaler la pâte en galette de 2 cm d'épaisseur.\nDisposer les tranches de porc dessus.\nCouvrir, cuire 5-6 min. Retourner délicatement.\nCuire encore 5 min à découvert.\n\nNapper de sauce, tracer de la mayo en zigzag, parsemer de katsuobushi et ciboule.\n\n💡 Les flocons de katsuobushi \"ondulent\" grâce à la chaleur — spectaculaire et savoureux.",
       "img": "https://static.750g.com/images/1200-630/ccf27e714e46273a85a3e6befb7d2faa/okonomiyaki.jpeg",
-      "url": "https://www.750g.com/okonomiyaki-r44712.htm"
+      "url": "https://www.750g.com/okonomiyaki-r44712.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r748163"
     },
     {
       "id": "japon:025",
@@ -8077,7 +8382,8 @@
       ],
       "steps": "BOUILLON\nFaire revenir oignon dans l'huile. Ajouter agneau et poulet, dorer 5 min.\nÉpices (ras-el-hanout, curcuma, gingembre, cannelle, safran). Mélanger 2 min.\nTomates, couvrir de 1,5 L d'eau. Porter à ébullition. Écumer.\nMijoter 45 min à feu doux. Ajouter carottes et navets. Cuire 20 min.\nAjouter courgettes et pois chiches. Cuire encore 15 min.\nGriller les merguez à part.\n\nSEMOULE\nVerser semoule dans un plat. Arroser de bouillon chaud pour humidifier. Rouler à la fourchette.\nOu : cuire à la vapeur du couscoussier 20 min.\nAjouter une noix de beurre et 2 c. de bouillon. Égrener.\n\nServir semoule en dôme, viandes et légumes autour, bouillon en saucière.\n\n💡 La harissa à part — chacun dose son piquant.",
       "img": "https://static.750g.com/images/1200-630/6c801fd29fb9f160e2506eb8cd0b56a0/recette-couscous-royal.png",
-      "url": "https://www.750g.com/couscous-royal-r14629.htm"
+      "url": "https://www.750g.com/couscous-royal-r14629.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r151100"
     },
     {
       "id": "maghreb:022",
@@ -8129,7 +8435,8 @@
       ],
       "steps": "Faire revenir agneau, oignon et ail dans l'huile 5 min.\nAjouter épices (gingembre, curcuma, cannelle), herbes fraîches et concentré de tomate.\nVerser tomates concassées + 2 L d'eau. Porter à ébullition.\nAjouter lentilles et pois chiches. Mijoter 45 min à feu doux.\n\nTÉDOUIRA (liant)\nMélanger la farine dans un verre d'eau froide jusqu'à liquide lisse sans grumeaux.\nVerser en filet dans la soupe bouillonnante en remuant constamment.\nLa soupe épaissit en 5-10 min. Cuire encore 10 min.\nJus de citron. Assaisonner. Parsemer de coriandre fraîche.\n\nServir avec des dattes, des chebakia et du pain marocain.\n\n💡 La tédouira (farine diluée) est la signature de la harira — sans elle, c'est juste une soupe de légumineuses.",
       "img": "https://static.750g.com/images/1200-630/b772ec636abe94f2119e7787395606fd/harira.jpg",
-      "url": "https://www.750g.com/harira-r97246.htm"
+      "url": "https://www.750g.com/harira-r97246.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r4357"
     },
     {
       "id": "maghreb:024",
@@ -8152,7 +8459,8 @@
       ],
       "steps": "FARCE POULET\nCuire le poulet avec oignons, épices et herbes dans 300ml d'eau 40 min.\nEffilocher la chair. Réduire le bouillon de moitié.\nBattre les œufs, les verser dans le bouillon chaud en remuant (cuisson rapide en fines lamelles). Réserver.\n\nMONTAGE (plat de 26 cm)\nBeurrer le plat. Disposer 3 feuilles de brick en étoile, beurrer chacune.\nCouche de poulet. Couche d'œufs cuits. Couche d'amandes.\nRabattre les bords des feuilles de brick sur la farce.\nCouvrir de 3 feuilles de brick restantes repliées dessous.\nBadigeonner de beurre.\n\nFour 180°C : 25-30 min jusqu'à dorure.\nSaupoudrer de sucre glace et tracer des losanges de cannelle.\n\n💡 La pastilla est sucré-salée — c'est son génie. Le sucre glace dessus n'est pas optionnel.",
       "img": "https://static.750g.com/images/1200-630/67f24998275deef381e40720a214f4d1/la-pastilla-au-poulet.jpeg",
-      "url": "https://www.750g.com/la-pastilla-au-poulet-r24217.htm"
+      "url": "https://www.750g.com/la-pastilla-au-poulet-r24217.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r907216"
     },
     {
       "id": "maghreb:025",
@@ -8176,7 +8484,8 @@
       ],
       "steps": "Faire revenir oignons et poivrons dans l'huile 10 min jusqu'à fondants.\nAjouter ail, paprika, cumin et piment. Cuire 2 min.\nTomates concassées. Sel, poivre. Mijoter 15 min jusqu'à sauce réduite et parfumée.\nGoûter et ajuster l'assaisonnement.\nFaire 6 creux dans la sauce à la cuillère.\nCasser un œuf dans chaque creux.\nCouvrir. Cuire 6-8 min — blancs cuits, jaunes coulants.\n\nParsemer de persil ou coriandre. Servir directement dans la poêle avec pain marocain.\n\n💡 Les jaunes coulants sont la signature. Surveiller de près — 1 minute de trop et les jaunes sont cuits.",
       "img": "https://static.750g.com/images/1200-630/1887c216b9536d9806315c4c704c7b9a/chakchouka-aux-oeufs.png",
-      "url": "https://www.750g.com/chakchouka-aux-oeufs-r38214.htm"
+      "url": "https://www.750g.com/chakchouka-aux-oeufs-r38214.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r762154"
     },
     {
       "id": "maghreb:026",
@@ -8257,7 +8566,8 @@
       ],
       "steps": "Dissoudre la levure dans l'eau tiède avec une pincée de sucre. Attendre 10 min (mousse).\nMixer semoule, farine et sel avec l'eau-levure. Ajouter la levure chimique.\nMixer jusqu'à pâte très lisse (texture crème fluide).\nLaisser reposer 20-30 min — des bulles apparaissent en surface.\nCuire dans une poêle antiadhésive légèrement huilée à feu moyen-doux.\nVerser une louche, NE PAS ÉTALER — la pâte se répand seule.\nCuire uniquement d'un côté jusqu'à ce que les trous soient apparus et la surface sèche.\nNe pas retourner.\n\nServir immédiatement avec beurre fondu et miel mélangés.\n\n💡 Les trous se forment naturellement grâce à la levure — ne pas toucher la crêpe pendant la cuisson.",
       "img": "https://static.750g.com/images/1200-630/f02a4c4f921fc710913091d7f971bbd7/crepes-mille-trous-ou-baghrirs.jpg",
-      "url": "https://www.750g.com/crepes-mille-trous-ou-baghrirs-r100100.htm"
+      "url": "https://www.750g.com/crepes-mille-trous-ou-baghrirs-r100100.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r916648"
     },
     {
       "id": "maghreb:030",
@@ -8294,7 +8604,8 @@
       ],
       "steps": "COULIS\nMixer 200 g de fraises avec le sucre et le jus de citron. Filtrer. Réserver.\n\nCRÈME\nFouetter les jaunes avec le sucre jusqu'à blanchiment. Incorporer le mascarpone.\nMonter les blancs en neige ferme. Plier délicatement dans le mélange.\n\nMONTAGE\nTremper rapidement les biscuits dans le coulis de fraises.\nDisposer une couche dans un plat. Étaler la moitié de la crème.\nAjouter une couche de fraises coupées en lamelles.\nRépéter. Terminer par la crème.\nRéfrigérer 4 h minimum. Décorer de fraises fraîches.\n\n💡 À préparer la veille pour un résultat optimal.",
       "img": "https://static.750g.com/images/1200-630/cc39fb3691bed81a062b5e4a698b4acb/photocuisine-60579332-1-.jpg",
-      "url": "https://www.750g.com/tiramisu-aux-fraises-r97787.htm"
+      "url": "https://www.750g.com/tiramisu-aux-fraises-r97787.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r548026"
     },
     {
       "id": "italie:053",
@@ -8419,7 +8730,8 @@
       ],
       "steps": "Émincer finement les oignons. Faire fondre le beurre avec l'huile à feu moyen.\nAjouter les oignons, le sucre, sel. Cuire 40 min en remuant souvent jusqu'à caramélisation dorée.\nDéglacer au vin blanc. Laisser évaporer. Ajouter le bouillon. Mijoter 20 min. Assaisonner.\nGriller les tranches de baguette. Les frotter à l'ail.\nVerser la soupe dans des bols allant au four. Poser les croûtons. Couvrir généreusement de gruyère.\nGratiner sous le grill 5-7 min jusqu'à bouillonnement doré.\n\n💡 La caramélisation des oignons est la clé — ne pas aller trop vite.",
       "img": "https://static.750g.com/images/1200-675/10fbfe7aacb91ff7225efd4603d219a9/soupe-a-l-oignon.jpg.jpeg",
-      "url": "https://www.750g.com/soupe-a-l-oignon-gratinee-la-vraie-recette-comme-dans-les-bistrots-parisiens-a42898.htm"
+      "url": "https://www.750g.com/soupe-a-l-oignon-gratinee-la-vraie-recette-comme-dans-les-bistrots-parisiens-a42898.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r784439"
     },
     {
       "id": "france:022",
@@ -8444,7 +8756,8 @@
       ],
       "steps": "Hacher le bœuf au couteau (jamais au hachoir) en brunoise fine. Réserver au frais.\nMélanger dans un bol : jaune d'œuf, moutarde, ketchup, Worcestershire, Tabasco.\nIncorporer la viande. Ajouter échalotes, câpres, cornichons, persil.\nAssaisonner généreusement de sel et poivre. Goûter et rectifier.\nFormer en dome avec un emporte-pièce. Poser un jaune d'œuf au centre.\nServir immédiatement avec frites ou toasts grillés.\n\n⚠️ Utiliser uniquement de la viande très fraîche de qualité bouchère.",
       "img": "https://static.750g.com/images/1200-630/b42a70a10273536a6a98070c878eebc9/thinkstockphotos-534452256-mix.jpg",
-      "url": "https://www.750g.com/steak-tartare-r100092.htm"
+      "url": "https://www.750g.com/steak-tartare-r100092.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r160947"
     },
     {
       "id": "france:023",
@@ -8466,7 +8779,8 @@
       ],
       "steps": "Faire revenir oignons, poireau et ail dans l'huile. Ajouter tomates et fenouil 10 min.\nAjouter poissons durs (rascasse, grondin). Couvrir d'eau bouillante. Ajouter safran.\nFaire bouillir vivement 15 min. Ajouter les poissons tendres et coquillages. 10 min de plus.\nRETIRER les poissons. Mixer et filtrer le bouillon. Assaisonner.\n\nROUILLE : Piler ail et safran. Incorporer jaune d'œuf puis huile en filet (comme une mayo). Sel, piment.\n\nServir le bouillon chaud en soupière. Poissons à part. Croûtons frottés à l'ail. Rouille en pot.",
       "img": "img/photos/france-023.jpg",
-      "url": "https://www.750g.com/bouillabaisse-r18208.htm"
+      "url": "https://www.750g.com/bouillabaisse-r18208.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r69472"
     },
     {
       "id": "france:024",
@@ -8505,7 +8819,8 @@
       ],
       "steps": "Cuire les haricots 1h dans bouillon aromatique (pas à fond).\nFaire dorer saucisses et lardons. Réserver.\nFaire revenir oignons et ail. Ajouter tomates. Mijoter 10 min.\nDans une cassole (plat en terre) : disposer couches de haricots, viandes, sauce tomate.\nFinir par une couche de haricots. Verser le bouillon à hauteur.\nCuire au four 160°C pendant 3 h. Casser la croûte 7 fois en ajoutant du bouillon.\n\n💡 Le cassoulet est encore meilleur réchauffé le lendemain.",
       "img": "https://static.750g.com/images/1200-630/6568eeeb572fbc57d79d356b5b6f4e40/cassoulet-de-toulouse.jpg",
-      "url": "https://www.750g.com/cassoulet-de-toulouse-r37966.htm"
+      "url": "https://www.750g.com/cassoulet-de-toulouse-r37966.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/FR/r779745"
     },
     {
       "id": "france:026",
@@ -8520,7 +8835,8 @@
       ],
       "steps": "CRÊPES : Mélanger farine, œufs, lait, beurre. Laisser reposer 30 min. Cuire des crêpes fines.\n\nSAUCE SUZETTE : Caraméliser le sucre dans une poêle large. Ajouter le beurre en morceaux.\nVerser le jus d'orange et les zestes. Laisser réduire 5 min en sauce brillante.\n\nPlier les crêpes en quatre. Les faire chauffer dans la sauce orange.\nVerser le Grand Marnier. FLAMBER avec une allumette longue.\nServir immédiatement, avec une boule de glace vanille si désiré.\n\n💡 Le flambage peut se faire à table pour l'effet dramatique.",
       "img": "https://static.750g.com/images/1200-630/8301519cecf238e22f5ad195f98ae494/crepes-suzette.jpg",
-      "url": "https://www.750g.com/les-crepes-suzette-r207241.htm"
+      "url": "https://www.750g.com/les-crepes-suzette-r207241.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r86808"
     },
     {
       "id": "france:027",
@@ -8594,7 +8910,9 @@
       ],
       "steps": "BÉCHAMEL : Faire un roux beurre-farine. Verser le lait progressivement. Cuire jusqu'à épaississement. Assaisonner.\n\nToaster légèrement les tranches de pain.\nÉtaler la béchamel sur une face de chaque tranche.\nDisposer le jambon sur 2 tranches. Ajouter du gruyère.\nRefermer. Étaler béchamel sur le dessus et couvrir de gruyère.\nGratiner au four/grill 200°C pendant 5-7 min jusqu'à bouillonnement doré.\n\n💡 CROQUE-MADAME : ajouter un œuf au plat sur le dessus après cuisson.",
       "img": "https://static.750g.com/images/1200-630/4056d2a25c2a6f93d49a463ef51a2fa0/recette-le-vrai-croque-monsieur-0-1-.jpg",
-      "url": "https://www.750g.com/le-vrai-croque-monsieur-r99595.htm"
+      "url": "https://www.750g.com/le-vrai-croque-monsieur-r99595.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r932896",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/croque-monsieur/2939610"
     },
     {
       "id": "france:031",
@@ -8631,7 +8949,9 @@
       ],
       "steps": "Préchauffer le four à 180°C. Foncer un moule à tarte avec la pâte brisée. Piquer.\nFaire revenir les lardons à sec jusqu'à légère coloration. Égoutter.\nFouetter les œufs avec la crème et le lait. Assaisonner sel, poivre, muscade.\nRépartir les lardons sur la pâte. Verser l'appareil à œufs.\nCuire 35-40 min jusqu'à légère dorure et tremblements.\nLaisser tiédir 10 min avant de couper.\n\n💡 La vraie quiche lorraine n'a PAS de fromage — c'est l'ajout de gruyère qui en fait une quiche alsacienne.",
       "img": "https://static.750g.com/images/1200-630/31701b945f02e6e7e7b138eb50106b0a/adobestock-56248515.jpg",
-      "url": "https://www.750g.com/la-meilleure-facon-de-faire-une-quiche-lorraine-r207943.htm"
+      "url": "https://www.750g.com/la-meilleure-facon-de-faire-une-quiche-lorraine-r207943.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54158",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/quiche-lorraine/2777949"
     },
     {
       "id": "australie:001",
@@ -8713,7 +9033,8 @@
       ],
       "steps": "GÉNOISE : Fouetter œufs et sucre jusqu'à ruban (10 min). Incorporer farine en pluie. Puis beurre fondu.\nVerser dans un moule carré 20×20 cm beurré. Cuire 180°C, 25 min. Laisser refroidir complètement.\nCouper en carrés de 5 cm. Réfrigérer 1 h (plus facile à enrober).\n\nGLAÇAGE : Mélanger sucre glace et cacao. Ajouter le lait bouillant et le beurre. Travailler jusqu'à glaçage lisse.\n\nTrempez chaque carré dans le glaçage chocolat. Égoutter. Rouler dans la noix de coco.\nLaisser prendre sur une grille.\n\n💡 Plus facile avec la génoise de la veille — elle s'émiette moins.",
       "img": "https://www.recipetineats.com/tachyon/2019/01/Lamingtons_4.jpg",
-      "url": "https://www.recipetineats.com/classic-lamingtons/"
+      "url": "https://www.recipetineats.com/classic-lamingtons/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r69095"
     },
     {
       "id": "australie:005",
@@ -8731,7 +9052,8 @@
       ],
       "steps": "Préchauffer le four à 120°C. Couvrir une plaque de papier cuisson. Tracer un cercle de 22 cm.\nMonter les blancs en neige ferme. Incorporer le sucre cuillerée par cuillerée en fouettant.\nAjouter vinaigre et fécule. Fouetter encore 2 min — la meringue doit être brillante.\nÉtaler sur le cercle tracé en faisant un creux central.\nCuire 1h30. Éteindre le four. Laisser refroidir DANS LE FOUR porte fermée (évite les craquelures).\n\nDÉCORATION : Fouetter la crème. Remplir le creux. Ajouter les fruits.\n\n💡 Cuisson et refroidissement dans le four fermé = secret d'un cœur moelleux.",
       "img": "https://www.recipetineats.com/tachyon/2016/12/Pavlova-3-SQ.jpg",
-      "url": "https://www.recipetineats.com/pavlova-recipe/"
+      "url": "https://www.recipetineats.com/pavlova-recipe/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r68950"
     },
     {
       "id": "australie:006",
@@ -8964,7 +9286,8 @@
       ],
       "steps": "CHIPS : Couper les pommes de terre en tranches épaisses. Blanchir 5 min. Égoutter et sécher.\nFrire à 160°C pendant 5 min. Réserver.\n\nPÂTE : Mélanger farine, levure, sel et bière froide jusqu'à texture de crème. Ne pas trop mélanger.\nSécher le poisson. Tremper dans la pâte.\nFrire le poisson à 180°C pendant 6-8 min jusqu'à dorure croustillante.\n\nRefrire les chips à 180°C jusqu'à croustillant doré. Saler.\nServir avec vinaigre de malt, sel, et petits pois écrasés.\n\n💡 La bière froide dans la pâte crée des bulles = texture plus légère.",
       "img": "https://www.recipetineats.com/tachyon/2021/01/Beer-Battered-Fish_8.jpg",
-      "url": "https://www.recipetineats.com/crispy-beer-battered-fish/"
+      "url": "https://www.recipetineats.com/crispy-beer-battered-fish/",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Fish%20and%20chips/2599238"
     },
     {
       "id": "gb:002",
@@ -9007,7 +9330,8 @@
       ],
       "steps": "Saisir le filet assaisonné sur toutes les faces dans une poêle très chaude. Laisser refroidir.\nBAdigeonner de moutarde de Dijon. Réfrigérer 30 min.\n\nDUXELLES : Mixer champignons. Cuire dans beurre jusqu'à toute l'eau évaporée et mixture sèche.\n\nÉtaler le jambon sur film plastique. Étaler les duxelles. Poser le filet. Rouler serré. Réfrigérer 30 min.\n\nEnvelopper dans la pâte feuilletée. Sceller, dorer au jaune d'œuf. Strier.\nCuire 200°C : 25 min pour saignant (55°C cœur), 30 min pour à point.\nREPOSER 10 min avant de trancher.\n\n💡 Les duxelles parfaitement sèches = clé pour ne pas détremper la pâte.",
       "img": "https://www.recipetineats.com/tachyon/2022/09/Beef-Wellington_900px.jpg",
-      "url": "https://www.recipetineats.com/beef-wellington/"
+      "url": "https://www.recipetineats.com/beef-wellington/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r768019"
     },
     {
       "id": "gb:004",
@@ -9029,7 +9353,8 @@
       ],
       "steps": "Faire revenir oignons, carottes et céleri. Ajouter l'agneau. Cuire jusqu'à coloration.\nIncorporer farine, tomates, bouillon, herbes. Mijoter 20 min. Ajouter les petits pois.\nVerser dans un grand plat à four.\nPURÉE : Écraser pommes de terre cuites avec beurre et lait. Assaisonner.\nÉtaler la purée sur la viande. Strier à la fourchette.\nCuire au four 190°C pendant 25-30 min jusqu'à dorure de la purée.\n\n💡 Shepherd's Pie (agneau) vs Cottage Pie (bœuf) — deux plats différents selon les Britanniques.",
       "img": "https://www.recipetineats.com/tachyon/2018/06/Shepherds-Pie_1.jpg",
-      "url": "https://www.recipetineats.com/shepherds-pie/"
+      "url": "https://www.recipetineats.com/shepherds-pie/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r91269"
     },
     {
       "id": "gb:005",
@@ -9080,7 +9405,8 @@
       ],
       "steps": "Couvrir les dattes d'eau bouillante + bicarbonate. Laisser ramollir 15 min. Mixer.\nCreamer beurre et sucre. Ajouter les œufs. Incorporer farine, levure, purée de dattes et vanille.\nVerser dans un moule 20×20 cm beurré. Cuire 180°C, 35 min.\n\nSAUCE TOFFEE : Chauffer beurre et sucre jusqu'à caramel. Ajouter crème et vanille. Mijoter 5 min.\n\nPercer des trous dans le cake chaud. Verser la moitié de la sauce. Laisser absorber.\nServir des tranches chaudes avec la sauce toffee restante et une boule de glace vanille.",
       "img": "https://www.recipetineats.com/tachyon/2018/07/Sticky-Date-Pudding_5.jpg",
-      "url": "https://www.recipetineats.com/sticky-toffee-pudding/"
+      "url": "https://www.recipetineats.com/sticky-toffee-pudding/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r508480"
     },
     {
       "id": "gb:008",
@@ -9313,7 +9639,8 @@
       ],
       "steps": "Mélanger farine, sel et muscade. Ajouter les œufs et l'eau. Battre jusqu'à pâte lisse et élastique qui fait des fils.\nPorter une grande casserole d'eau salée à ébullition.\nPasser la pâte à travers une râpe à spätzle (ou passoire à grands trous) directement dans l'eau.\nLes spätzle remontent à la surface en 2-3 min. Retirer à l'écumoire.\n\nKÄSSPÄTZLE : Faire revenir dans le beurre. Incorporer le gruyère en couches. Garnir d'oignons frits.\n\n💡 La pâte doit être suffisamment liquide pour couler à travers les trous — si trop épaisse, ajouter de l'eau.",
       "img": "https://platedcravings.com/wp-content/uploads/2016/01/German-Spaetzle-Recipe-Plated-Cravings-4.jpg",
-      "url": "https://platedcravings.com/authentic-easy-german-spaetzle-recipe/"
+      "url": "https://platedcravings.com/authentic-easy-german-spaetzle-recipe/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r916135"
     },
     {
       "id": "allemagne:008",
@@ -9329,7 +9656,8 @@
       ],
       "steps": "PÂTE : Mélanger farine, sel, eau et huile. Pétrir 5 min jusqu'à pâte lisse et souple. Reposer 30 min.\nPréchauffer le four à 240°C (max). Pierre à pizza ou plaque retournée.\nÉtaler la pâte très finement (2 mm) en rectangle allongé.\nAssaisonner la crème fraîche avec sel, poivre, muscade. Étaler finement sur la pâte.\nDisposer les lardons et les oignons émincés.\nCuire 10-12 min jusqu'à bords croustillants et légèrement noircis.\nServir immédiatement — coupée en rectangles.\n\n💡 Plus la pâte est fine, plus c'est bon. Elle doit être presque translucide.",
       "img": "https://dirndlkitchen.com/wp-content/uploads/2022/02/tarte-flambee-elsasser-flammkuchen-dirndl-kitchen8.jpg",
-      "url": "https://dirndlkitchen.com/elsasser-flammkuchen/"
+      "url": "https://dirndlkitchen.com/elsasser-flammkuchen/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r581498"
     },
     {
       "id": "allemagne:009",
@@ -9346,7 +9674,8 @@
       ],
       "steps": "SAUCE CURRY : Faire revenir l'oignon. Ajouter tomates, curry, paprika, sucre, sel. Mijoter 20 min. Mixer si souhaité.\n\nGriller les saucisses entières dans une poêle ou au grill 8-10 min.\nCouper en tranches de 1,5 cm.\nNapper de sauce curry chaude.\nSaupoudrer généreusement de poudre de curry.\nServir avec un cure-dent et des frites ou du pain.\n\n💡 La vraie Currywurst utilise une Brühwurst (saucisse de Francfort) sans boyau naturel.",
       "img": "https://www.craftbeering.com/wp-content/uploads/2024/07/Currywurst-fries-and-mayo-.jpg",
-      "url": "https://www.craftbeering.com/currywurst-recipe/"
+      "url": "https://www.craftbeering.com/currywurst-recipe/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r479554"
     },
     {
       "id": "allemagne:010",
@@ -9403,7 +9732,8 @@
       ],
       "steps": "PÂTE : Pétrir tous les ingrédients 10 min jusqu'à très lisse. Envelopper. Reposer 1 h.\n\nGARNITURE : Éplucher et émincer les pommes. Mélanger avec raisins secs, sucre et cannelle.\nFaire revenir la chapelure dans le beurre jusqu'à dorée.\n\nÉTIRER LA PÂTE : Sur une nappe farinée, étirer à la main jusqu'à quasi-transparente (40×60 cm).\nBadigeonner de beurre fondu. Étaler la chapelure. Déposer les pommes en bande.\nRouler en s'aidant de la nappe. Mettre sur plaque. Badigeonner de beurre.\nCuire 190°C pendant 35-40 min.\nSaupoudrer de sucre glace. Servir avec sauce vanille.",
       "img": "https://www.daringgourmet.com/wp-content/uploads/2023/10/Apple-Strudel-Recipe-2.jpg",
-      "url": "https://www.daringgourmet.com/apple-strudel-apfelstrudel/"
+      "url": "https://www.daringgourmet.com/apple-strudel-apfelstrudel/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r450813"
     },
     {
       "id": "allemagne:013",
@@ -9443,7 +9773,8 @@
       ],
       "steps": "Faire revenir oignon, carotte et céleri dans l'huile.\nAjouter l'ail, les lentilles rincées, le laurier. Couvrir de bouillon.\nMijoter 35-40 min jusqu'à lentilles tendres.\nÉcraser légèrement quelques lentilles pour épaissir la soupe.\nAjouter les saucisses de Francfort tranchées. Chauffer 5 min.\nAssaisonner avec vinaigre et moutarde (touche typiquement allemande).\nParsemer de persil haché.\n\n💡 Le vinaigre ajouté en fin de cuisson est la signature de la Linsensuppe allemande — ne pas oublier.",
       "img": "https://www.recipesfromeurope.com/wp-content/uploads/2021/01/german-lentil-soup-bowl.jpg",
-      "url": "https://www.recipesfromeurope.com/german-lentil-soup/"
+      "url": "https://www.recipesfromeurope.com/german-lentil-soup/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r56407"
     },
     {
       "id": "allemagne:015",
@@ -9477,7 +9808,8 @@
       ],
       "steps": "PÂTE : Dissoudre la levure dans l'eau tiède. Pétrir tous les ingrédients 8 min. Lever 1 h.\nDiviser en 12 morceaux. Rouler chaque morceau en long boudin fin (60 cm), plus épais au centre.\nFormer les bretzels : croiser les deux bouts, vriller, rabattre sur le cercle.\nRéfrigérer 30 min (non couvert).\n\nBAIN DE SOUDE : Porter à ébullition. Plonger chaque bretzel 30 secondes. Égoutter.\nDisposer sur plaques. Saupoudrer de gros sel.\nCuire 230°C pendant 12-14 min jusqu'à brun profond et brillant.\n\n⚠️ La soude alimentaire donne la vraie couleur brune — le bicarbonate seul donne une couleur plus claire.",
       "img": "https://dirndlkitchen.com/wp-content/uploads/2015/10/authentic-german-soft-pretzels-brezeln-dirndl-kitchen21.jpg",
-      "url": "https://dirndlkitchen.com/german-pretzel-recipe/"
+      "url": "https://dirndlkitchen.com/german-pretzel-recipe/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r779934"
     },
     {
       "id": "bresil:001",
@@ -9498,7 +9830,8 @@
       ],
       "steps": "Dessaler les viandes salées : tremper 12 h en changeant l'eau 2-3 fois.\nFaire revenir ail et oignons. Ajouter toutes les viandes sauf la saucisse. Couvrir de 2 L d'eau.\nMijoter 1h30 à couvert.\nAjouter les haricots égouttés et la saucisse. Continuer 1h30.\nRetirer 2-3 louches de haricots, les écraser, remettre dans le pot pour épaissir.\nCHOU : Sauter le chou effilé avec ail dans l'huile.\nServir la feijoada avec riz, chou, farinha, oranges et cachaça.\n\n💡 Se prépare la veille — encore meilleure réchauffée.",
       "img": "https://www.oliviascuisine.com/wp-content/uploads/2020/04/feijoada-thumb.jpg",
-      "url": "https://www.oliviascuisine.com/feijoada-recipe/"
+      "url": "https://www.oliviascuisine.com/feijoada-recipe/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r698067"
     },
     {
       "id": "bresil:002",
@@ -9536,7 +9869,8 @@
       ],
       "steps": "Préchauffer le four à 200°C.\nChauffer lait et huile jusqu'à frémissement. Verser sur le tapioca. Mélanger jusqu'à absorption.\nLaisser tiédir. Incorporer l'œuf, puis les fromages et le sel. Pétrir jusqu'à pâte homogène.\nFormer des boules de 3 cm (les mains légèrement huilées).\nDisposer sur une plaque non graissée.\nCuire 20-25 min jusqu'à gonflés et légèrement dorés.\nServir IMMÉDIATEMENT — se dégonflent en refroidissant.\n\n💡 Se congèlent crus parfaitement — cuire directement congelés (5 min de plus).",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/P%C3%A3o_de_queijo.jpg/500px-P%C3%A3o_de_queijo.jpg",
-      "url": "https://www.thekitchn.com/how-to-make-po-de-queijo-brazilian-cheese-bread-cooking-lessons-from-the-kitchn-176118"
+      "url": "https://www.thekitchn.com/how-to-make-po-de-queijo-brazilian-cheese-bread-cooking-lessons-from-the-kitchn-176118",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r698066"
     },
     {
       "id": "bresil:004",
@@ -9571,7 +9905,8 @@
       ],
       "steps": "Mélanger lait condensé, cacao et beurre dans une casserole à fond épais.\nCuire à feu doux en remuant constamment 10-15 min.\nLa pâte est prête quand elle se détache des bords — test : passer le doigt, ça doit former un sillon propre.\nTransférer dans un plat beurré. Laisser refroidir complètement.\nBeurrer les mains. Former des boules de 2 cm.\nRouler dans les granulés de chocolat. Poser dans des caissettes.\nRéfrigérer jusqu'au service.\n\n💡 Variantes : Brigadeiro blanc (chocolat blanc), pistache, citron, noix de coco.",
       "img": "https://www.halfbakedharvest.com/wp-content/uploads/2014/02/Brigadeiros-Brazilian-Chocolate-Truffles.-1.jpg",
-      "url": "https://www.halfbakedharvest.com/brigadeiros-brazilian-chocolate-truffles/"
+      "url": "https://www.halfbakedharvest.com/brigadeiros-brazilian-chocolate-truffles/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r434196"
     },
     {
       "id": "bresil:006",
@@ -9593,7 +9928,8 @@
       ],
       "steps": "Mariner le poisson avec citron vert, sel et ail 30 min.\nFaire revenir oignons dans l'huile de dendê. Ajouter ail, poivrons et tomates en rondelles.\nDisposer les couches de légumes et de poisson alternées dans la cocotte.\nVerser le lait de coco. Ne pas mélanger.\nCuire à couvert à feu moyen 20-25 min.\nParsemer de coriandre fraîche. Servir directement dans la cocotte avec riz blanc.",
       "img": "https://www.recipetineats.com/tachyon/2015/09/Brazilian-Fish-Stew_6.jpg",
-      "url": "https://www.recipetineats.com/brazilian-fish-stew-moqueca-baiana/"
+      "url": "https://www.recipetineats.com/brazilian-fish-stew-moqueca-baiana/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r151969"
     },
     {
       "id": "bresil:007",
@@ -9682,7 +10018,8 @@
       ],
       "steps": "Mettre les quartiers de citron vert dans un verre old fashioned.\nAjouter le sucre. Piler vigoureusement avec un pilon — pas trop longtemps pour ne pas extraire l'amertume de la peau.\nRemplir de glace pilée.\nVerser la cachaça. Remuer avec une cuillère longue.\nGoûter — ajuster sucre ou citron si besoin. Servir immédiatement avec une paille courte.\n\n💡 La cachaça de qualité fait toute la différence. Cachaça artisanale (alambique) >> cachaça industrielle.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Caipirinha.jpg",
-      "url": "https://www.saveur.com/article/wine-and-drink/caipirinha"
+      "url": "https://www.saveur.com/article/wine-and-drink/caipirinha",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r420328"
     },
     {
       "id": "bresil:012",
@@ -9833,7 +10170,8 @@
       ],
       "steps": "RIZ : Faire revenir l'ail dans l'huile jusqu'à doré. Ajouter le riz rincé. Faire revenir 2 min. Ajouter eau bouillante et sel. Couvrir. Cuire à feu doux 18 min. Laisser reposer 5 min couvert.\n\nFEIJÃO : Faire revenir ail et oignon. Ajouter 2-3 louches de haricots cuits et les écraser dans la poêle (crée la sauce). Ajouter le reste des haricots avec leur jus. Mijoter 15 min. Assaisonner.\n\nServir ensemble avec viande et farofa.\n\n💡 La technique d'écraser quelques haricots dans la poêle crée la sauce épaisse caractéristique.",
       "img": "img/illus/bresil-019.jpg",
-      "url": "https://braziliankitchenabroad.com/arroz-com-feijao/"
+      "url": "https://braziliankitchenabroad.com/arroz-com-feijao/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r647581"
     },
     {
       "id": "bresil:020",
@@ -9915,7 +10253,8 @@
       ],
       "steps": "Tremper maïs et haricots 12 h séparément.\nDans une grande cocotte : faire revenir oignons et ail. Ajouter les viandes en morceaux. Saisir.\nAjouter maïs, haricots, cumin, pimentón, origan. Couvrir de 3 L d'eau.\nMijoter 3-4 h à feu très doux en remuant régulièrement.\nAjouter la courge en dés 1 h avant la fin. Ajouter chorizo et panceta.\nLe locro doit être épais et crémeux.\n\nSOFRITO : Faire revenir oignon et ail. Ajouter pimentón. Servir en saucière à côté.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Locro_de_Argentina.jpg",
-      "url": "https://www.therealargentina.com/recipe-for-argentine-locro"
+      "url": "https://www.therealargentina.com/recipe-for-argentine-locro",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r588870"
     },
     {
       "id": "argentine:004",
@@ -9972,7 +10311,8 @@
       ],
       "steps": "Mélanger lait, sucre, bicarbonate et sel dans une grande casserole.\nPorter à ébullition en remuant pour dissoudre le sucre.\nRéduire à feu doux. Cuire en remuant régulièrement (toutes les 5 min) pendant 1h30-2h.\nLa couleur passe de blanc à caramel doré puis brun profond.\nTest : une goutte dans l'eau froide doit former une boule molle.\nRetirer du feu. Ajouter la vanille. Mélanger.\nVersez dans des pots stérilisés. Conserve 3 semaines au frigo.\n\n💡 Méthode express : boîte de lait condensé non ouverte dans l'eau bouillante 3h. Refroidir complètement avant d'ouvrir.",
       "img": "https://www.recipetineats.com/tachyon/2014/10/Dulce-De-Leche-4.jpg",
-      "url": "https://www.recipetineats.com/slow-cooker-dulce-de-leche-1-ingredient-caramel-sauce/"
+      "url": "https://www.recipetineats.com/slow-cooker-dulce-de-leche-1-ingredient-caramel-sauce/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r58376"
     },
     {
       "id": "argentine:007",
@@ -9989,7 +10329,8 @@
       ],
       "steps": "Crémer le beurre avec le sucre glace. Ajouter les jaunes et la vanille.\nIncorporer fécule de maïs, farine et levure. La pâte est très friable — c'est normal.\nFormer une boule. Réfrigérer 30 min.\nÉtaler à 5 mm. Découper des ronds de 5 cm.\nCuire 160°C, 10-12 min — les sablés restent PÂLES. Ne pas colorer.\nRefroidir complètement.\nFourrer de dulce de leche. Assembler deux sablés. Rouler les bords dans la noix de coco.\n\n💡 La fécule de maïs donne la texture fondante en bouche — ne pas la remplacer.",
       "img": "img/illus/argentine-007.jpg",
-      "url": "https://www.saveur.com/recipes/alfajores-dulce-de-leche-cookie-sandwiches/"
+      "url": "https://www.saveur.com/recipes/alfajores-dulce-de-leche-cookie-sandwiches/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r270539"
     },
     {
       "id": "argentine:008",
@@ -10038,7 +10379,8 @@
       ],
       "steps": "PÂTE : Sabler farine et saindoux. Ajouter eau tiède et sel. Pétrir. Reposer 30 min.\nFARCE : Faire revenir les oignons. Ajouter le bœuf haché et épices. Cuire. Ajouter les pommes de terre cuites en dés, olives et œufs durs hachés. Laisser refroidir.\nÉtaler la pâte. Découper des ronds de 14 cm.\nGarnir, plier et sceller avec le repulgue (torsade décorative).\nDorer au jaune. Cuire au four 200°C, 20 min.\n\n💡 Le repulgue (bord tressé) est la signature de chaque région argentine — chacune a sa technique.",
       "img": "http://argentumempanadas.com/cdn/shop/articles/empanadas-saltenas.png?v=1779791438",
-      "url": "https://argentumempanadas.com/blogs/recipes/empanadas-saltenas-recipe"
+      "url": "https://argentumempanadas.com/blogs/recipes/empanadas-saltenas-recipe",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r132710"
     },
     {
       "id": "argentine:011",
@@ -10252,7 +10594,8 @@
       ],
       "steps": "MARINADE : Mélanger yaourt et épices. Incorporer le poulet. Mariner 4 h minimum (nuit idéal).\nGriller le poulet mariné au grill ou à la poêle jusqu'à légèrement brûlé. Réserver.\nSAUCE : Faire revenir oignons, ail et gingembre. Ajouter toutes les épices. Cuire 2 min.\nAjouter les tomates concassées. Mijoter 15 min. Mixer pour sauce lisse.\nAjouter la crème. Porter à frémissement.\nIncorporer le poulet grillé. Mijoter 15 min.\nServir avec riz basmati et naan. Parsemer de coriandre fraîche.",
       "img": "https://www.recipetineats.com/tachyon/2018/04/Chicken-Tikka-Masala_0.jpg",
-      "url": "https://www.recipetineats.com/chicken-tikka-masala/"
+      "url": "https://www.recipetineats.com/chicken-tikka-masala/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r112278"
     },
     {
       "id": "asie:027",
@@ -10269,7 +10612,8 @@
       ],
       "steps": "Mariner le poulet 4-6 h dans les épices yaourt.\nGriller au four 220°C, 20 min jusqu'à légèrement brûlé. Réserver.\n\nSAUCE : Fondre le beurre. Faire revenir oignons, ail, gingembre. Ajouter épices. Cuire 2 min.\nAjouter tomates. Mijoter 20 min. Mixer. Filtrer pour sauce très lisse.\nAjouter crème et fenugrec. Assaisonner d'une pincée de sucre.\nIncorporer le poulet. Mijoter 15 min.\nFinir avec une noix de beurre pour la brillance.\n\n💡 Le fenugrec séché (kasuri methi) est le goût signature du Butter Chicken — ne pas omettre.",
       "img": "https://www.recipetineats.com/tachyon/2019/01/Butter-Chicken_5.jpg",
-      "url": "https://www.recipetineats.com/butter-chicken/"
+      "url": "https://www.recipetineats.com/butter-chicken/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r648851"
     },
     {
       "id": "asie:028",
@@ -10290,7 +10634,8 @@
       ],
       "steps": "Mélanger poulet, vinaigre, sauce soja, ail, laurier et poivre. Mariner 30 min.\nFaire revenir le poulet dans l'huile jusqu'à légèrement doré. Réserver.\nVider le gras. Verser la marinade dans la poêle. Porter à ébullition.\nRemettre le poulet. Mijoter à couvert 30 min en retournant.\nÔter le couvercle. Laisser réduire la sauce jusqu'à brillante et épaissie. Retourner le poulet pour le caraméliser.\nServir avec riz blanc. La sauce est intense — peu suffit.\n\n💡 L'adobo se conserve plusieurs jours — encore meilleur réchauffé. La tradition : cuire pour toute la semaine.",
       "img": "https://www.recipetineats.com/tachyon/2015/02/Filipino-Chicken-Adobo_6.jpg",
-      "url": "https://www.recipetineats.com/filipino-chicken-adobo-flavour-kapow/"
+      "url": "https://www.recipetineats.com/filipino-chicken-adobo-flavour-kapow/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r590252"
     },
     {
       "id": "asie:029",
@@ -10374,7 +10719,9 @@
       ],
       "steps": "Sécher les ailes. Assaisonner de sel, poivre et poudre d'ail.\nFRITURE : 175°C, 12-15 min jusqu'à très croustillantes. OU FOUR : 230°C, 40-45 min avec baking powder pour croustiller.\n\nSAUCE BUFFALO : Fondre le beurre. Ajouter la sauce piquante, vinaigre et Worcestershire. Maintenir chaud.\nTosser les ailes cuites dans la sauce chaude immédiatement.\nSERVIR dans les 5 min avec sauce blue cheese, branches de céleri et carottes.\n\n💡 La qualité de la sauce piquante fait tout — Frank's RedHot est l'originale. Ne pas cuire la sauce longtemps.",
       "img": "https://www.recipetineats.com/tachyon/2019/01/Baked-Buffalo-Wings_0.jpg",
-      "url": "https://www.recipetineats.com/truly-crispy-oven-baked-buffalo-wings-my-wings-cookbook/"
+      "url": "https://www.recipetineats.com/truly-crispy-oven-baked-buffalo-wings-my-wings-cookbook/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r750000",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/chicken-wings/2775316"
     },
     {
       "id": "france:033",
@@ -10630,7 +10977,8 @@
         "Griller 10-15 min sur feu vif ou à la plancha.",
         "Servir avec pita, tomates et sauce tahini."
       ],
-      "img": "img/illus/arabe-004.jpg"
+      "img": "img/illus/arabe-004.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r148130"
     },
     {
       "id": "arabe:005",
@@ -10765,7 +11113,8 @@
         "Cuire au four 180°C 25-30 min.",
         "Napper du sirop chaud dès la sortie du four."
       ],
-      "img": "img/illus/arabe-009.jpg"
+      "img": "img/illus/arabe-009.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r907328"
     },
     {
       "id": "arabe:010",
@@ -10817,7 +11166,8 @@
         "Former des croquettes, paner (farine-œuf-chapelure).",
         "Frire en huile chaude jusqu'à dorure. Égoutter, servir chaud."
       ],
-      "img": "img/illus/tapas-001.jpg"
+      "img": "img/illus/tapas-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r55671"
     },
     {
       "id": "tapas:002",
@@ -10976,7 +11326,8 @@
         "Faire revenir oignon, ajouter tomates, vin, paprika.",
         "Ajouter les boulettes, mijoter 20 min. Parsemer de persil."
       ],
-      "img": "img/illus/tapas-008.jpg"
+      "img": "img/illus/tapas-008.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r55703"
     },
     {
       "id": "tapas:009",
@@ -11231,7 +11582,8 @@
         "Ajouter le riz, couvrir, cuire à feu doux 25 min.",
         "Remuer délicatement et servir avec poulet grillé."
       ],
-      "img": "img/illus/afrique-001.jpg"
+      "img": "img/illus/afrique-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r824377"
     },
     {
       "id": "afrique:002",
@@ -11361,7 +11713,8 @@
         "Incorporer les feuilles vertes en fin de cuisson.",
         "Servir avec fufu, eba ou riz."
       ],
-      "img": "img/illus/afrique-006.jpg"
+      "img": "img/illus/afrique-006.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r824379"
     },
     {
       "id": "afrique:007",
@@ -11440,7 +11793,8 @@
         "Mijoter à couvert 1 h, ajouter pommes de terre, cuire 30 min.",
         "Ajuster assaisonnement, servir avec pain ou spätzle."
       ],
-      "img": "img/illus/hongrie-001.jpg"
+      "img": "img/illus/hongrie-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r68520"
     },
     {
       "id": "hongrie:002",
@@ -11545,7 +11899,8 @@
         "Frire 3-4 min de chaque côté dans l'huile chaude.",
         "Tartiner de crème fraîche aillée, saupoudrer de fromage râpé."
       ],
-      "img": "img/illus/hongrie-005.jpg"
+      "img": "img/illus/hongrie-005.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r509154"
     },
     {
       "id": "hongrie:006",
@@ -11649,7 +12004,8 @@
         "Tapisser la casserole de lard, couches de sarmi, jus de tomate.",
         "Mijoter à couvert 2 h 30. Servir avec crème fraîche."
       ],
-      "img": "img/illus/roumanie-001.jpg"
+      "img": "img/illus/roumanie-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r828499"
     },
     {
       "id": "roumanie:002",
@@ -11781,7 +12137,8 @@
         "Étaler la pâte, répartir la garniture, rouler en boudin.",
         "Cuire au four 180°C 50-60 min. Refroidir avant de couper."
       ],
-      "img": "img/illus/roumanie-006.jpg"
+      "img": "img/illus/roumanie-006.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r819979"
     },
     {
       "id": "roumanie:007",
@@ -11862,7 +12219,8 @@
         "Former des boules, paner (farine-œuf-chapelure).",
         "Frire 3-4 min dans l'huile chaude. Servir avec moutarde."
       ],
-      "img": "img/illus/paysbas-002.jpg"
+      "img": "img/illus/paysbas-002.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r943055"
     },
     {
       "id": "paysbas:003",
@@ -11964,7 +12322,8 @@
         "À l'aide de deux cuillères, former des boules et plonger dans l'huile à 180°C.",
         "Frire 4-5 min en retournant. Saupoudrer de sucre glace."
       ],
-      "img": "img/illus/paysbas-006.jpg"
+      "img": "img/illus/paysbas-006.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r827107"
     },
     {
       "id": "paysbas:007",
@@ -11993,7 +12352,8 @@
         "Remplir de garniture, couvrir d'un treillis de pâte.",
         "Saupoudrer de sucre perlé, cuire au four 180°C 50-60 min."
       ],
-      "img": "img/illus/paysbas-007.jpg"
+      "img": "img/illus/paysbas-007.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r75316"
     },
     {
       "id": "paysbas:008",
@@ -13674,7 +14034,8 @@
         "2e bain à 180°C pendant 3-4 min jusqu'à dorure parfaite.",
         "Égoutter, saler immédiatement. Servir avec mayonnaise maison."
       ],
-      "img": "img/frites/01.jpg"
+      "img": "img/frites/01.jpg",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/frites-maison/2813245"
     },
     {
       "id": "frites:002",
@@ -13744,7 +14105,8 @@
         "Cuire 25-30 min en retournant à mi-cuisson.",
         "Servir avec une sauce ranch ou ketchup."
       ],
-      "img": "img/frites/04.jpg"
+      "img": "img/frites/04.jpg",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/frites-au-paprika/3076499"
     },
     {
       "id": "frites:005",
@@ -14271,7 +14633,8 @@
         "Alterner poulet et poivrons sur les brochettes.",
         "Griller 15 min en retournant à mi-cuisson."
       ],
-      "img": "img/illus/brochette-001.jpg"
+      "img": "img/illus/brochette-001.jpg",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/brochettes-de-poulet-aux-poivrons/2599257"
     },
     {
       "id": "brochette:002",
@@ -15544,7 +15907,8 @@
         "Retirer du feu dès que les oeufs commencent à prendre – ils continueront à cuire.",
         "Incorporer la crème fraîche hors du feu pour stopper la cuisson. Servir immédiatement."
       ],
-      "img": "img/illus/oeuf-001.jpg"
+      "img": "img/illus/oeuf-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r538217"
     },
     {
       "id": "oeuf:002",
@@ -15612,7 +15976,8 @@
         "Disposer le jambon sur chaque moitié de muffin.",
         "Poser un oeuf poché, napper de sauce hollandaise et garnir de ciboulette."
       ],
-      "img": "img/illus/oeuf-004.jpg"
+      "img": "img/illus/oeuf-004.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r405008"
     },
     {
       "id": "oeuf:005",
@@ -15796,7 +16161,8 @@
         "Creuser des puits dans la sauce, y casser les oeufs délicatement.",
         "Couvrir et cuire 8-10 min jusqu'à ce que les blancs soient pris. Parsemer d'herbes fraîches."
       ],
-      "img": "img/illus/oeuf-012.jpg"
+      "img": "img/illus/oeuf-012.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r919159"
     },
     {
       "id": "mocktail:001",
@@ -15818,7 +16184,8 @@
         "Remplir de glaçons, compléter avec l'eau gazeuse.",
         "Mélanger délicatement. Garnir de feuilles de menthe et citron vert."
       ],
-      "img": "img/illus/mocktail-001.jpg"
+      "img": "img/illus/mocktail-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r904196"
     },
     {
       "id": "mocktail:002",
@@ -15840,7 +16207,8 @@
         "Verser dans des grands verres.",
         "Décorer d'ananas frais et d'une paille."
       ],
-      "img": "img/illus/mocktail-002.jpg"
+      "img": "img/illus/mocktail-002.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r375184"
     },
     {
       "id": "mocktail:003",
@@ -16415,7 +16783,8 @@
         "Former les samoussas en triangle avec les feuilles de brick.",
         "Badigeonner d'huile et cuire au four 180°C 20 min."
       ],
-      "img": "img/illus/samoussa-004.jpg"
+      "img": "img/illus/samoussa-004.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r821805"
     },
     {
       "id": "samoussa:005",
@@ -17286,7 +17655,8 @@
         "Faire fondre à feu doux en fouettant jusqu'à sauce lisse.",
         "Verser sur les moules et servir immédiatement avec du pain grillé."
       ],
-      "img": "img/moules/05.jpg"
+      "img": "img/moules/05.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r126130"
     },
     {
       "id": "moule:004",
@@ -17337,7 +17707,8 @@
         "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
         "Parsemer de coriandre fraîche et servir avec du riz basmati."
       ],
-      "img": "img/moules/03.jpg"
+      "img": "img/moules/03.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r138429"
     },
     {
       "id": "moule:006",
@@ -17590,7 +17961,8 @@
         "Ajouter les moules, couvrir et cuire 5 min à feu vif.",
         "Parsemer de persil et servir."
       ],
-      "img": "img/moules/07.jpg"
+      "img": "img/moules/07.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r340327"
     },
     {
       "id": "moule:016",
@@ -17892,7 +18264,8 @@
         "Déposer la pâte sur la plaque. Répartir les légumes dessus et arroser d'huile d'olive.",
         "Cuire au four à 200°C pendant 25-30 min. Servir froid."
       ],
-      "img": "img/illus/majorque-001.jpg"
+      "img": "img/illus/majorque-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r129889"
     },
     {
       "id": "majorque:002",
@@ -18273,7 +18646,8 @@
       ],
       "min": 90,
       "t": "Pâte à Pizza Classique",
-      "img": "img/illus/pizza-001.jpg"
+      "img": "img/illus/pizza-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54208"
     },
     {
       "id": "pizza:002",
@@ -18295,7 +18669,8 @@
       ],
       "min": 120,
       "t": "Pâte à Pizza Napolitaine",
-      "img": "img/illus/pizza-002.jpg"
+      "img": "img/illus/pizza-002.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r803143"
     },
     {
       "id": "pizza:003",
@@ -19031,7 +19406,8 @@
       ],
       "min": 280,
       "t": "Charlotte aux Fraises",
-      "img": "img/illus/charlotte-001.jpg"
+      "img": "img/illus/charlotte-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r511870"
     },
     {
       "id": "charlotte:002",
@@ -19054,7 +19430,8 @@
       ],
       "min": 280,
       "t": "Charlotte au Chocolat Noir",
-      "img": "img/illus/charlotte-002.jpg"
+      "img": "img/illus/charlotte-002.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r70121"
     },
     {
       "id": "charlotte:003",
@@ -19943,7 +20320,8 @@
       ],
       "min": 40,
       "t": "Tortillas Maison à la Farine",
-      "img": "img/pates/08.jpg"
+      "img": "img/pates/08.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r115278"
     },
     {
       "id": "tortilla:002",
@@ -20241,7 +20619,8 @@
         "Pas besoin de précuire : monter directement les lasagnes, la pâte fraîche cuit au four.",
         "Pour les conserver, laisser sécher 1 h puis garder au frais 2 jours, ou congeler à plat."
       ],
-      "img": "img/pates/07.jpg"
+      "img": "img/pates/07.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r828547"
     },
     {
       "id": "pdt:001",
@@ -20802,7 +21181,8 @@
         "Cuire dans une poêle sèche à feu moyen 3-4 min de chaque côté : les batbouts gonflent.",
         "Garder sous un torchon pour qu'ils restent moelleux."
       ],
-      "img": "img/pains/01.jpg"
+      "img": "img/pains/01.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r780404"
     },
     {
       "id": "painmaroc:002",
@@ -20852,7 +21232,8 @@
         "Former des galettes de 1 cm d'épaisseur et les rouler dans la semoule.",
         "Cuire à la poêle à feu doux 6-8 min de chaque côté jusqu'à ce qu'elles soient bien dorées."
       ],
-      "img": "img/pains/03.jpg"
+      "img": "img/pains/03.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r907321"
     },
     {
       "id": "painmaroc:004",
@@ -20901,7 +21282,8 @@
         "Laisser lever 30 min.",
         "Cuire à la poêle à feu doux, couvert, 6 min de chaque côté."
       ],
-      "img": "img/pains/05.jpg"
+      "img": "img/pains/05.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r780405"
     },
     {
       "id": "painmaroc:006",
@@ -21479,7 +21861,8 @@
       ],
       "img": "img/sousvide/03.jpg",
       "url": "",
-      "vid": ""
+      "vid": "",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r622023"
     },
     {
       "id": "sousvide:004",
@@ -21645,7 +22028,8 @@
       ],
       "img": "img/sousvide/09.jpg",
       "url": "",
-      "vid": ""
+      "vid": "",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r823921"
     },
     {
       "id": "sousvide:010",
@@ -21781,7 +22165,8 @@
       ],
       "img": "img/sousvide/14.jpg",
       "url": "",
-      "vid": ""
+      "vid": "",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r622753"
     },
     {
       "id": "sousvide:015",
@@ -22218,7 +22603,8 @@
         "Éplucher carottes et navets, couper les poireaux en tronçons et les ficeler. Les ajouter avec l'os à moelle (bouts salés) et cuire encore 45 min à 1 h.",
         "Servir la viande tranchée entourée des légumes, avec la moelle sur du pain grillé, gros sel, moutarde et cornichons. Garder le bouillon pour une soupe."
       ],
-      "img": "img/potaufeu/01.jpg"
+      "img": "img/potaufeu/01.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r903887"
     },
     {
       "id": "potaufeu:002",
@@ -22713,7 +23099,8 @@
         "Ajouter ail et bouquet garni, saler, poivrer. Couvrir et mijoter 2 h 30 à 3 h à feu très doux.",
         "Faire sauter les champignons à part et les ajouter 20 min avant la fin. Servir avec pâtes fraîches ou pommes vapeur."
       ],
-      "img": "img/boeuf/01.jpg"
+      "img": "img/boeuf/01.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r448777"
     },
     {
       "id": "boeuf:002",
@@ -22763,7 +23150,8 @@
         "Cuire 15 min par 500 g pour un rôti saignant (environ 35 min), en arrosant à mi-cuisson.",
         "Laisser reposer 10 min sous papier aluminium avant de trancher."
       ],
-      "img": "img/boeuf/03.jpg"
+      "img": "img/boeuf/03.jpg",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/roti-de-b%C5%93uf-et-pommes-de-terre/2779108"
     },
     {
       "id": "boeuf:004",
@@ -22932,7 +23320,8 @@
         "Tartiner le pain d'épices de moutarde et le poser sur le dessus.",
         "Couvrir et mijoter 2 h 30 à feu doux, en mélangeant pour que le pain d'épices épaississe la sauce. Servir avec des frites."
       ],
-      "img": "img/boeuf/10.jpg"
+      "img": "img/boeuf/10.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r136129"
     },
     {
       "id": "boeuf:011",
@@ -23102,7 +23491,8 @@
         "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
         "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat."
       ],
-      "img": "img/flans/01.jpg"
+      "img": "img/flans/01.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r397105"
     },
     {
       "id": "flan:002",
@@ -24198,7 +24588,8 @@
         "Verser une petite louche de pâte en inclinant la poêle pour la répartir finement. Cuire 1 à 2 min jusqu'à ce que les bords dorent, retourner et cuire 30 s à 1 min.",
         "Empiler les crêpes sur une assiette sous un torchon pour les garder moelleuses. Garnir au choix (sucre, confiture, pâte à tartiner, citron…)."
       ],
-      "img": "img/crepes/01.jpg"
+      "img": "img/crepes/01.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54103"
     },
     {
       "id": "crepepate:002",
@@ -24276,7 +24667,8 @@
         "Verser une petite louche de pâte en inclinant la poêle pour la répartir finement. Cuire 1 à 2 min jusqu'à ce que les bords dorent, retourner et cuire 30 s à 1 min.",
         "Empiler les crêpes sur une assiette sous un torchon pour les garder moelleuses. Garnir au choix (sucre, confiture, pâte à tartiner, citron…)."
       ],
-      "img": "img/crepes/04.jpg"
+      "img": "img/crepes/04.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r148372"
     },
     {
       "id": "crepepate:005",

@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.46';
+const APP_VERSION = '3.47';
 
 let ALL = [];
 let BASE = [];
@@ -813,6 +813,9 @@ function openDetail(id){
   const links = [
     r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">🔗 Source</a>`:'',
     r.vid?`<a href="${esc(r.vid)}" target="_blank" rel="noopener">▶️ Vidéo</a>`:'',
+    // Versions officielles des fabricants (Cookidoo / Philips, Ninja…) : lien seulement, rien n'est recopié.
+    r.tmx?`<a class="official" href="${esc(r.tmx)}" target="_blank" rel="noopener">⚙️ Version Thermomix officielle</a>`:'',
+    r.af?`<a class="official" href="${esc(r.af)}" target="_blank" rel="noopener">🌪️ Version Airfryer officielle</a>`:'',
   ].filter(Boolean).join('');
   const _pairRaw = r.pair || null;
   const _pairIds = _pairRaw ? (Array.isArray(_pairRaw) ? _pairRaw : [_pairRaw]) : [];
