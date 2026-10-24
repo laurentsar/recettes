@@ -24522,6 +24522,241 @@
       "img": "https://media.vorwerk.com/is/image/vorwerk/fr-thermomix-soupe-onctueuse-v%C3%A9g%C3%A9tarienne?wid=980&hei=490",
       "url": "https://www.vorwerk.com/fr/fr/c/vorwerk/astuces-recettes/blog/thermomix/recettes-quotidien/recette-de-soupe-onctueuse-vegetarienne",
       "vid": ""
+    },
+    {
+      "id": "tmx:012",
+      "t": "Gaspacho andalou au Thermomix",
+      "cat": "Espagne, Soupe, Entrée, Été, Thermomix",
+      "min": 143,
+      "serv": 8,
+      "desc": "Version Thermomix de Minou sur Cookomix, notée 4,9/5 (520 avis). Étapes retranscrites (temps / température / vitesse) ; recette complète sur le site.",
+      "ing": [
+        "300 g d'eau",
+        "120 g de pain de mie",
+        "4 c. à soupe d'huile d'olive",
+        "2 c. à soupe de vinaigre de Xérès",
+        "2 c. à café de sucre en poudre",
+        "15 brins de basilic frais",
+        "1 oignon jaune",
+        "1000 g de tomates",
+        "100 g de concombres",
+        "50 g de poivrons rouges",
+        "50 g de poivrons verts",
+        "1 gousse d'ail",
+        "le jus d'1 citron",
+        "1 pincée de piment d'espelette",
+        "1 pincée de piment de Cayenne"
+      ],
+      "steps": [
+        "Mettre 50 g d'eau et le pain de mie en morceaux dans le bol : 1 min 20 sec / sens inverse / vitesse mijotage.",
+        "Ajouter l'huile d'olive, le vinaigre de Xérès et le sucre : 30 sec / vitesse 5.",
+        "Ajouter le basilic, l'oignon émincé, les tomates, le concombre pelé, les poivrons rouge et vert en dés, l'ail dégermé, le jus de citron, les piments et 250 g d'eau : 30 sec / vitesse 5.",
+        "Racler les parois, puis mixer 2 min / vitesse 10.",
+        "Verser dans un saladier et laisser 2 h au réfrigérateur. Servir bien froid."
+      ],
+      "img": "https://www.cookomix.com/wp-content/uploads/2016/05/gaspacho-thermomix-800x600.jpg",
+      "url": "https://www.cookomix.com/recettes/gaspacho-andalou-thermomix/",
+      "vid": "",
+      "pair": "espagne:001"
+    },
+    {
+      "id": "tmx:013",
+      "t": "Salmorejo au Thermomix",
+      "cat": "Espagne, Soupe, Entrée, Été, Thermomix",
+      "min": 38,
+      "serv": 6,
+      "desc": "Version Thermomix de Pierrette sur Cookomix, notée 4,87/5 (150 avis). Étapes retranscrites (temps / température / vitesse) ; recette complète sur le site.",
+      "ing": [
+        "4 œufs durs",
+        "2 gousses d'ail",
+        "1000 g de tomates",
+        "¾ c. à café de sel",
+        "150 g de mie de pain",
+        "30 g de vinaigre de vin",
+        "1½ gobelet doseur d'huile d'olive (≈ 150 g)",
+        "100 g de jambon Serrano"
+      ],
+      "steps": [
+        "Hacher les œufs durs 2 sec / vitesse 4, réserver au frais.",
+        "Mettre l'ail, les tomates et le sel dans le bol : 30 sec / vitesse 5.",
+        "Ajouter la mie de pain et le vinaigre : 2 min / vitesse 10. Racler les parois.",
+        "Régler 1 sec / vitesse 5 puis verser progressivement l'huile d'olive sur le couvercle pour qu'elle s'écoule doucement et émulsionne.",
+        "Réserver au réfrigérateur. Au service, parsemer d'œuf haché et de jambon serrano en petits dés."
+      ],
+      "img": "https://www.cookomix.com/wp-content/uploads/2017/08/salmorejo-thermomix-800x600.jpg",
+      "url": "https://www.cookomix.com/recettes/salmorejo-thermomix/",
+      "vid": "",
+      "pair": "espagne:002"
+    },
+    {
+      "id": "tmx:014",
+      "t": "Caldo verde au Thermomix",
+      "cat": "Portugal, Soupe, Entrée, Thermomix",
+      "min": 86,
+      "serv": 4,
+      "desc": "Version Thermomix de skapin sur Cookomix, notée 4,75/5 (16 avis). Étapes retranscrites (temps / température / vitesse) ; recette complète sur le site.",
+      "ing": [
+        "1 oignon jaune",
+        "30 g d'huile d'olive",
+        "50 g de chorizo",
+        "2 gousses d'ail",
+        "1 cube de bouillon de volaille",
+        "600 g de pommes de terre",
+        "1200 g d'eau",
+        "3 feuilles de chou kale"
+      ],
+      "steps": [
+        "Hacher l'oignon 5 sec / vitesse 5.",
+        "Ajouter l'huile d'olive et le chorizo en tranches : 6 min / Varoma / sens inverse / vitesse mijotage. Retirer et réserver le chorizo.",
+        "Ajouter l'ail, le cube de bouillon émietté, les pommes de terre en cubes et l'eau. Poser le panier sur le couvercle à la place du gobelet : 20 min / Varoma / sens inverse / vitesse mijotage.",
+        "Pendant ce temps, retirer la côte centrale du chou kale, rouler les feuilles et les émincer très finement (environ 125 g).",
+        "Mixer la soupe 30 sec / vitesse 4, ajouter le chou émincé et le chorizo : 20 min / Varoma / sens inverse / vitesse mijotage.",
+        "Rectifier l'assaisonnement (le chorizo sale et pimente déjà)."
+      ],
+      "img": "https://www.cookomix.com/wp-content/uploads/2025/11/caldo-verde-thermomix.jpg",
+      "url": "https://www.cookomix.com/recettes/caldo-verde-thermomix/",
+      "vid": "",
+      "pair": "portugal:001"
+    },
+    {
+      "id": "tmx:015",
+      "t": "Harira au Thermomix",
+      "cat": "Maghreb, Soupe, Entrée, Thermomix",
+      "min": 195,
+      "serv": 6,
+      "desc": "Version Thermomix de halima691 sur Cookomix, notée 4,74/5 (306 avis). Étapes retranscrites (temps / température / vitesse) ; recette complète sur le site.",
+      "ing": [
+        "100 g de lentilles",
+        "400 g de pois chiches (cuits)",
+        "8 brins de persil frais",
+        "8 brins de coriandre fraîche",
+        "20 g de farine",
+        "400 g de tomates pelées au jus",
+        "3 c. à soupe de concentré de tomates",
+        "2 oignons",
+        "1 gousse d'ail",
+        "2 branches de céleri",
+        "300 g de viande d'agneau",
+        "1 c. à soupe de ras el hanout",
+        "¾ c. à café de gingembre moulu",
+        "¾ c. à café de curcuma",
+        "¼ c. à café de cannelle en poudre",
+        "2 c. à café de sel",
+        "800 g d'eau"
+      ],
+      "steps": [
+        "Faire tremper les lentilles 2 h dans de l'eau froide ; cuire les pois chiches à l'eau bouillante (ou utiliser des pois chiches cuits).",
+        "Hacher le persil et la coriandre 5 sec / vitesse 7, réserver.",
+        "Mixer la farine, les tomates pelées et le concentré de tomates 10 sec / vitesse 8, réserver.",
+        "Hacher les oignons, l'ail et le céleri 5 sec / vitesse 5.",
+        "Ajouter l'agneau, les pois chiches, les lentilles égouttées, les épices, le sel et 800 g d'eau : 25 min / 100°C / sens inverse / vitesse 1.",
+        "Ajouter le mélange tomates-farine et les herbes : 10 min / 100°C / sens inverse / vitesse 1. Servir chaud."
+      ],
+      "img": "https://www.cookomix.com/wp-content/uploads/2016/06/harira-thermomix-800x600.jpg",
+      "url": "https://www.cookomix.com/recettes/harira-thermomix/",
+      "vid": "",
+      "pair": [
+        "maghreb:008",
+        "maghreb:023"
+      ]
+    },
+    {
+      "id": "tmx:016",
+      "t": "Soupe miso au Thermomix",
+      "cat": "Japon, Soupe, Entrée, Thermomix",
+      "min": 56,
+      "serv": 6,
+      "desc": "Version Thermomix de Pierro sur Cookomix, notée 4,96/5 (28 avis). Étapes retranscrites (temps / température / vitesse) ; recette complète sur le site.",
+      "ing": [
+        "5 champignons shiitake",
+        "1000 g d'eau",
+        "1½ c. à café de dashi en poudre",
+        "45 g de pâte miso",
+        "5 g d'algues wakame",
+        "150 g de tofu nature",
+        "10 brins de ciboulette fraîche"
+      ],
+      "steps": [
+        "Réhydrater les shiitakés 20 min dans de l'eau chaude.",
+        "Mettre l'eau, le dashi et la pâte miso dans le bol : 5 sec / vitesse 5, puis 10 min / 110°C / vitesse 2,5.",
+        "Réhydrater le wakame 5 min dans l'eau froide, puis le couper en morceaux.",
+        "Ajouter le wakame et les champignons : 1 min / sens inverse / vitesse mijotage.",
+        "Ajouter le tofu en dés et la ciboulette ciselée, servir aussitôt."
+      ],
+      "img": "https://www.cookomix.com/wp-content/uploads/2021/07/soupe-miso-thermomix-800x600.jpg",
+      "url": "https://www.cookomix.com/recettes/soupe-miso-thermomix/",
+      "vid": "",
+      "pair": [
+        "japon:022",
+        "japon:003"
+      ]
+    },
+    {
+      "id": "tmx:017",
+      "t": "Soupe à l'oignon gratinée au Thermomix",
+      "cat": "France, Soupe, Plat, Thermomix",
+      "min": 75,
+      "serv": 4,
+      "desc": "Version Thermomix de Lascar sur Cookomix, notée 4,75/5 (557 avis). Étapes retranscrites (temps / température / vitesse) ; recette complète sur le site.",
+      "ing": [
+        "20 g de beurre",
+        "500 g d'oignons",
+        "1 c. à soupe d'huile d'olive",
+        "20 g de farine",
+        "200 g de vin blanc",
+        "700 g d'eau",
+        "1 cube de bouillon de bœuf",
+        "3 pincées de poivre",
+        "4 tranches de pain grillé",
+        "60 g de gruyère râpé"
+      ],
+      "steps": [
+        "Faire fondre le beurre 3 min / 90°C / vitesse 1.",
+        "Ajouter les oignons coupés en deux : 6 sec / vitesse 4,5. Racler les parois.",
+        "Ajouter l'huile d'olive : 12 min / 120°C / vitesse 1.",
+        "Ajouter la farine : 10 sec / vitesse 3.",
+        "Ajouter le vin blanc, l'eau, le cube de bouillon et le poivre : 25 min / 100°C / vitesse 1.",
+        "Verser dans une terrine (ou des bols allant au four), couvrir de pain grillé et de gruyère râpé, gratiner 5 min sous le gril du four à 200°C."
+      ],
+      "img": "https://www.cookomix.com/wp-content/uploads/2016/10/soupe-oignon-gratinee-thermomix-800x600.jpg",
+      "url": "https://www.cookomix.com/recettes/soupe-oignon-gratinee-thermomix/",
+      "vid": "",
+      "pair": "france:021"
+    },
+    {
+      "id": "tmx:018",
+      "t": "Soupe froide de poivrons grillés au Thermomix",
+      "cat": "Soupe, Été, Entrée, Thermomix",
+      "min": 62,
+      "serv": 4,
+      "desc": "Version Thermomix de Minou sur Cookomix, notée 4,94/5 (64 avis). Étapes retranscrites (temps / température / vitesse) ; recette complète sur le site.",
+      "ing": [
+        "700 g de poivrons rouges",
+        "100 g de tomates",
+        "30 g d'oignons nouveaux",
+        "1 gousse d'ail",
+        "10 feuilles de basilic frais",
+        "100 g d'eau",
+        "1 c. à café de sucre en poudre",
+        "¾ c. à café de sel",
+        "2 c. à café de vinaigre de Xérès",
+        "2 pincées de poivre",
+        "4 c. à soupe d'huile d'olive",
+        "100 g de feta",
+        "2 c. à café d'origan",
+        "60 g de pignons de pin"
+      ],
+      "steps": [
+        "Griller les demi-poivrons épépinés 20 min au four à 210°C (gril), jusqu'à ce que la peau noircisse ; laisser refroidir et les peler.",
+        "Mettre les poivrons et leur jus, les tomates, les oignons nouveaux et l'ail dans le bol : 1 min / vitesse 6 en montant progressivement à 9.",
+        "Ajouter le basilic, l'eau, le sucre, le sel, le vinaigre de Xérès, le poivre et 2 c. à soupe d'huile : 1 min 30 sec / vitesse 10. Allonger d'un peu d'eau si besoin.",
+        "Réserver au réfrigérateur. Mélanger la feta en dés avec 2 c. à soupe d'huile et l'origan ; dorer les pignons à sec dans une poêle.",
+        "Servir la soupe bien froide, parsemée de feta et de pignons."
+      ],
+      "img": "https://www.cookomix.com/wp-content/uploads/2020/06/soupe-froide-poivrons-thermomix-800x600.jpg",
+      "url": "https://www.cookomix.com/recettes/soupe-froide-poivrons-rouges-thermomix/",
+      "vid": "",
+      "pair": "soupe:005"
     }
   ],
   "official": {
