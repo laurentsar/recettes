@@ -20586,7 +20586,7 @@
     {
       "id": "oeufmousse:001",
       "t": "Œufs Farcis à la Mousse de Thon",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse thon pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20611,7 +20611,7 @@
     {
       "id": "oeufmousse:002",
       "t": "Œufs Farcis à la Mousse de Saumon",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse saumon pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20635,7 +20635,7 @@
     {
       "id": "oeufmousse:003",
       "t": "Œufs Farcis à la Mousse d'Avocat",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse avocat pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20659,7 +20659,7 @@
     {
       "id": "oeufmousse:004",
       "t": "Œufs Farcis à la Mousse de Crabe",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse crabe pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20683,7 +20683,7 @@
     {
       "id": "oeufmousse:005",
       "t": "Œufs Farcis à la Mousse de Jambon",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse jambon pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20707,7 +20707,7 @@
     {
       "id": "oeufmousse:006",
       "t": "Œufs Farcis à la Mousse de Fromage",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse fromage pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20730,7 +20730,7 @@
     {
       "id": "oeufmousse:007",
       "t": "Œufs Farcis à la Mousse de Betterave",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse betterave pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20754,7 +20754,7 @@
     {
       "id": "oeufmousse:008",
       "t": "Œufs Farcis à la Mousse de Crevettes",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse crevettes pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20778,7 +20778,7 @@
     {
       "id": "oeufmousse:009",
       "t": "Œufs Farcis à la Mousse de Curry",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse curry pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20802,7 +20802,7 @@
     {
       "id": "oeufmousse:010",
       "t": "Œufs Farcis à la Mousse de Roquefort",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse roquefort pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20825,7 +20825,7 @@
     {
       "id": "oeufmousse:011",
       "t": "Œufs Farcis à la Mousse de Poulet",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse poulet pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20849,7 +20849,7 @@
     {
       "id": "oeufmousse:012",
       "t": "Œufs Farcis à la Mousse de Pesto",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse pesto pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20872,7 +20872,7 @@
     {
       "id": "oeufmousse:013",
       "t": "Œufs Farcis à la Mousse de Tomate Séchée",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse tomate séchée pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20895,7 +20895,7 @@
     {
       "id": "oeufmousse:014",
       "t": "Œufs Farcis Chèvre & Miel",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse chèvre & miel pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
@@ -20918,7 +20918,7 @@
     {
       "id": "oeufmousse:015",
       "t": "Œufs Farcis Citron & Herbes",
-      "cat": "Apéritif, Bouchée, Entrée, Préparation Oeuf, Œufs farcis",
+      "cat": "Apéritif, Entrée, Préparation Oeuf, Œufs farcis",
       "desc": "Œufs durs garnis d'une mousse citron & herbes pochée en rosace, pour l'apéritif.",
       "min": 25,
       "serv": 4,
