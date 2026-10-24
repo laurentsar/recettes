@@ -23824,6 +23824,138 @@
         "Toaster les pains côté mie, puis monter le burger et servir aussitôt."
       ],
       "img": "img/burgers/16.jpg"
+    },
+    {
+      "id": "crepepate:001",
+      "t": "Pâte à Crêpes Classique",
+      "cat": "Dessert, Crêpe sucrée, Pâte à crêpes",
+      "desc": "La recette simple et inratable, pour environ 15 crêpes.",
+      "min": 50,
+      "serv": "15 crêpes",
+      "ing": [
+        "250 g de farine",
+        "4 œufs",
+        "50 cl de lait",
+        "1 c. à soupe de sucre",
+        "2 c. à soupe d'huile",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Dans un saladier, mélanger la farine, le sucre et le sel.",
+        "Ajouter les œufs et mélanger.",
+        "Verser progressivement le lait tout en fouettant jusqu'à obtenir une pâte lisse.",
+        "Ajouter l'huile et laisser reposer 30 minutes.",
+        "Chauffer une poêle à crêpes légèrement huilée à feu moyen-vif.",
+        "Verser une petite louche de pâte en inclinant la poêle pour la répartir finement. Cuire 1 à 2 min jusqu'à ce que les bords dorent, retourner et cuire 30 s à 1 min.",
+        "Empiler les crêpes sur une assiette sous un torchon pour les garder moelleuses. Garnir au choix (sucre, confiture, pâte à tartiner, citron…)."
+      ],
+      "img": "img/crepes/01.jpg"
+    },
+    {
+      "id": "crepepate:002",
+      "t": "Pâte à Crêpes Légère",
+      "cat": "Dessert, Crêpe sucrée, Pâte à crêpes",
+      "desc": "Moins de matières grasses : lait écrémé, 3 œufs et pas d'huile.",
+      "min": 50,
+      "serv": "15 crêpes",
+      "ing": [
+        "250 g de farine",
+        "3 œufs",
+        "60 cl de lait écrémé ou demi-écrémé",
+        "1 c. à soupe de sucre",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Mélanger la farine, le sucre et le sel.",
+        "Ajouter les œufs et fouetter.",
+        "Verser le lait progressivement jusqu'à obtenir une pâte bien lisse.",
+        "Laisser reposer 30 minutes.",
+        "Chauffer une poêle à crêpes légèrement huilée à feu moyen-vif.",
+        "Verser une petite louche de pâte en inclinant la poêle pour la répartir finement. Cuire 1 à 2 min jusqu'à ce que les bords dorent, retourner et cuire 30 s à 1 min.",
+        "Empiler les crêpes sur une assiette sous un torchon pour les garder moelleuses. Garnir au choix (sucre, confiture, pâte à tartiner, citron…)."
+      ],
+      "img": "img/crepes/02.jpg"
+    },
+    {
+      "id": "crepepate:003",
+      "t": "Pâte à Crêpes à la Bière",
+      "cat": "Dessert, Crêpe sucrée, Pâte à crêpes",
+      "desc": "La bière blonde donne des crêpes fines, légères et dentelées.",
+      "min": 50,
+      "serv": "15 crêpes",
+      "ing": [
+        "250 g de farine",
+        "3 œufs",
+        "25 cl de lait",
+        "25 cl de bière blonde",
+        "1 c. à soupe de sucre",
+        "1 pincée de sel",
+        "2 c. à soupe d'huile"
+      ],
+      "steps": [
+        "Mélanger la farine, le sucre et le sel.",
+        "Ajouter les œufs, puis le lait et la bière en fouettant.",
+        "Incorporer l'huile.",
+        "Laisser reposer 30 minutes.",
+        "Chauffer une poêle à crêpes légèrement huilée à feu moyen-vif.",
+        "Verser une petite louche de pâte en inclinant la poêle pour la répartir finement. Cuire 1 à 2 min jusqu'à ce que les bords dorent, retourner et cuire 30 s à 1 min.",
+        "Empiler les crêpes sur une assiette sous un torchon pour les garder moelleuses. Garnir au choix (sucre, confiture, pâte à tartiner, citron…)."
+      ],
+      "img": "img/crepes/03.jpg"
+    },
+    {
+      "id": "crepepate:004",
+      "t": "Pâte à Crêpes Sans Gluten (Farine de Riz)",
+      "cat": "Dessert, Crêpe sucrée, Pâte à crêpes, Santé, Sans gluten",
+      "desc": "Avec de la farine de riz, au lait de vache ou végétal.",
+      "min": 50,
+      "serv": "15 crêpes",
+      "ing": [
+        "250 g de farine de riz",
+        "4 œufs",
+        "50 cl de lait (de vache ou végétal)",
+        "1 c. à soupe de sucre",
+        "2 c. à soupe d'huile",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Mélanger la farine de riz, le sucre et le sel.",
+        "Ajouter les œufs et fouetter.",
+        "Verser le lait progressivement jusqu'à obtenir une pâte lisse.",
+        "Ajouter l'huile et laisser reposer 30 minutes (bien remélanger avant la cuisson, la farine de riz se dépose au fond).",
+        "Chauffer une poêle à crêpes légèrement huilée à feu moyen-vif.",
+        "Verser une petite louche de pâte en inclinant la poêle pour la répartir finement. Cuire 1 à 2 min jusqu'à ce que les bords dorent, retourner et cuire 30 s à 1 min.",
+        "Empiler les crêpes sur une assiette sous un torchon pour les garder moelleuses. Garnir au choix (sucre, confiture, pâte à tartiner, citron…)."
+      ],
+      "img": "img/crepes/04.jpg"
+    },
+    {
+      "id": "crepepate:005",
+      "t": "Pâte à Crêpes au Lait Végétal",
+      "cat": "Dessert, Crêpe sucrée, Pâte à crêpes, Sans lactose",
+      "desc": "Sans lactose et tout aussi délicieuse : amande, soja, avoine…",
+      "min": 50,
+      "serv": "15 crêpes",
+      "ing": [
+        "250 g de farine",
+        "3 œufs",
+        "50 cl de lait végétal (amande, soja, avoine…)",
+        "1 c. à soupe de sucre",
+        "2 c. à soupe d'huile",
+        "1 pincée de sel",
+        "1 c. à café d'extrait de vanille (facultatif)"
+      ],
+      "steps": [
+        "Mélanger la farine, le sucre et le sel.",
+        "Ajouter les œufs et fouetter.",
+        "Verser progressivement le lait végétal jusqu'à obtenir une pâte lisse.",
+        "Ajouter l'huile et la vanille (si souhaitée).",
+        "Laisser reposer 30 minutes.",
+        "Chauffer une poêle à crêpes légèrement huilée à feu moyen-vif.",
+        "Verser une petite louche de pâte en inclinant la poêle pour la répartir finement. Cuire 1 à 2 min jusqu'à ce que les bords dorent, retourner et cuire 30 s à 1 min.",
+        "Empiler les crêpes sur une assiette sous un torchon pour les garder moelleuses. Garnir au choix (sucre, confiture, pâte à tartiner, citron…)."
+      ],
+      "img": "img/crepes/05.jpg"
     }
   ]
 }
