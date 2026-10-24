@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.47';
+const APP_VERSION = '3.48';
 
 let ALL = [];
 let BASE = [];
@@ -774,6 +774,28 @@ function getHabitScores(){
     return scores;
   } catch(e){ return {}; }
 }
+// Groupe de variantes d'une recette : liens « pair » suivis dans les deux sens.
+function pairGroup(r){
+  const adj = new Map();
+  const link = (a,b) => { a=String(a); b=String(b); if(!adj.has(a)) adj.set(a,new Set()); if(!adj.has(b)) adj.set(b,new Set()); adj.get(a).add(b); adj.get(b).add(a); };
+  ALL.forEach(x => { if (x.pair) [].concat(x.pair).forEach(p => link(x.id, p)); });
+  const seen = new Set([String(r.id)]), todo = [String(r.id)];
+  while (todo.length) { const id = todo.pop(); (adj.get(id)||[]).forEach(n => { if(!seen.has(n)){ seen.add(n); todo.push(n); } }); }
+  return [...seen].map(id => ALL.find(x => String(x.id) === id)).filter(Boolean);
+}
+// Fiche résumée d'une version officielle (nom, note, temps) + lien vers le site du fabricant.
+function officialHtml(url, isTmx){
+  const m = (EXTRA && EXTRA.official && EXTRA.official[url]) || {};
+  const site = isTmx ? 'Cookidoo (Vorwerk)' : 'Moulinex';
+  const stars = m.rating ? `<span class="tag">⭐ ${String(m.rating).replace('.',',')}/5${m.n?` · ${m.n} avis`:''}</span>` : '';
+  return `<div class="off-card">
+    <div class="off-kind">${isTmx?'⚙️ Recette Thermomix officielle':'🌪️ Recette Airfryer officielle'}</div>
+    <div class="off-name">${esc(m.name || 'Version officielle')}</div>
+    <div class="d-meta">${stars}${m.min?`<span class="tag">⏱️ ${m.min} min</span>`:''}${m.yld?`<span class="tag">🍽️ ${esc(m.yld)}</span>`:''}</div>
+    <p class="off-note">Recette publiée par ${site}. Ingrédients et étapes à suivre sur le site du fabricant${isTmx?' (compte Cookidoo nécessaire pour les étapes)':''}.</p>
+    <a class="off-open" href="${esc(url)}" target="_blank" rel="noopener">Ouvrir sur ${isTmx?'Cookidoo':'Moulinex'} ↗</a>
+  </div>`;
+}
 function openDetail(id){
   const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
   trackView(id);
@@ -813,37 +835,27 @@ function openDetail(id){
   const links = [
     r.url?`<a class="src" href="${esc(r.url)}" target="_blank" rel="noopener">🔗 Source</a>`:'',
     r.vid?`<a href="${esc(r.vid)}" target="_blank" rel="noopener">▶️ Vidéo</a>`:'',
-    // Versions officielles des fabricants (Cookidoo / Philips, Ninja…) : lien seulement, rien n'est recopié.
-    r.tmx?`<a class="official" href="${esc(r.tmx)}" target="_blank" rel="noopener">⚙️ Version Thermomix officielle</a>`:'',
-    r.af?`<a class="official" href="${esc(r.af)}" target="_blank" rel="noopener">🌪️ Version Airfryer officielle</a>`:'',
   ].filter(Boolean).join('');
-  const _pairRaw = r.pair || null;
-  const _pairIds = _pairRaw ? (Array.isArray(_pairRaw) ? _pairRaw : [_pairRaw]) : [];
-  const _pairs = _pairIds.map(pid=>ALL.find(x=>String(x.id)===String(pid))).filter(Boolean);
-  let variantTabs = '';
-  if (_pairs.length > 0) {
-    const _lbl = (rec) => {
-      const c = rec ? (rec.cat||'') : '';
-      if (c.includes('Thermomix')) return '⚙️ Thermomix';
-      if (c.includes('Airfryer')) return '🌪️ Airfryer';
-      return '🥄 Maison';
-    };
-    const curLbl = _lbl(r);
-    const isSpecial = curLbl !== '🥄 Maison';
-    const tabList = [];
-    if (!isSpecial) {
-      tabList.push({id: r.id, label: '🥄 Maison', active: true});
-      _pairs.forEach(p => tabList.push({id: p.id, label: _lbl(p), active: false}));
-    } else {
-      _pairs.forEach(p => tabList.push({id: p.id, label: _lbl(p), active: false}));
-      tabList.push({id: r.id, label: curLbl, active: true});
-      tabList.sort((a,b) => a.label==='🥄 Maison'?-1:b.label==='🥄 Maison'?1:0);
-      tabList.forEach(t => { t.active = (t.id===r.id); });
-    }
-    variantTabs = `<div class="d-variant-tabs">
-  ${tabList.map(t=>`<button class="d-variant-tab${t.active?' active':''}" data-vid="${t.id}">${t.label}</button>`).join('\n  ')}
-</div>`;
-  }
+  // Onglets de variantes : recettes de l'app liées (pair, dans les deux sens)
+  // + versions officielles des fabricants (Cookidoo, Moulinex) — lien seulement, rien n'est recopié.
+  const _group = pairGroup(r);
+  const _kind = (rec) => {
+    const c = rec.cat || '';
+    return c.includes('Thermomix') ? 'tmx' : c.includes('Airfryer') ? 'af' : 'home';
+  };
+  const _ico = {home:'🥄 Classique', tmx:'⚙️ Thermomix', af:'🌪️ Airfryer'};
+  const _order = {home:0, tmx:1, tmxo:2, af:3, afo:4};
+  const tabList = _group.map(p => ({id: p.id, kind: _kind(p)}));
+  const _seen = {};
+  tabList.forEach(t => { _seen[t.kind] = (_seen[t.kind]||0) + 1; t.label = _ico[t.kind] + (_seen[t.kind]>1 ? ' '+_seen[t.kind] : ''); });
+  const _off = (field) => { const m = _group.find(p => p[field]); return m ? m[field] : null; };
+  const offTmx = r.tmx || _off('tmx'), offAf = r.af || _off('af');
+  if (offTmx) tabList.push({off: offTmx, kind: 'tmxo', label: '⚙️ Thermomix officiel'});
+  if (offAf) tabList.push({off: offAf, kind: 'afo', label: '🌪️ Airfryer officiel'});
+  tabList.sort((x,y) => _order[x.kind] - _order[y.kind]);
+  const variantTabs = tabList.length > 1 ? `<div class="d-variant-tabs">
+  ${tabList.map((t,k)=>`<button class="d-variant-tab${t.id===r.id?' active':''}${t.off?' off':''}" data-k="${k}">${t.label}</button>`).join('\n  ')}
+</div>` : '';
   elDetail.innerHTML = `
     <button class="d-back" aria-label="Retour">←</button>
     <button class="d-edit" aria-label="Éditer">✏️</button>
@@ -855,8 +867,11 @@ function openDetail(id){
         <div class="d-title">${esc(r.t)}</div>
         <div class="d-meta">${tags}</div>
         ${r.desc?`<div class="desc">${esc(r.desc)}</div>`:''}
+        <div class="d-main">
         ${ing}${stepsHtml}${cookBtn}
         ${links?`<div class="d-links">${links}</div>`:''}
+        </div>
+        <div class="d-official" hidden></div>
       </div>
     </div>`;
   elDetail.hidden = false;
@@ -877,8 +892,20 @@ function openDetail(id){
   elDetail.querySelectorAll('.ing li:not(.ing-head)').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
   elDetail.querySelector('.tag-cat-btn').addEventListener('click', ()=> openCatPick(r.id));
   elDetail.querySelectorAll('.d-variant-tab').forEach(btn=>{
-    btn.addEventListener('click', ()=>{ if(!btn.classList.contains('active')) openDetail(btn.dataset.vid); });
+    btn.addEventListener('click', ()=>{
+      if (btn.classList.contains('active')) return;
+      const t = tabList[+btn.dataset.k];
+      if (t.id) { if (t.id === r.id) showMain(); else openDetail(t.id); return; }
+      elDetail.querySelectorAll('.d-variant-tab').forEach(b=> b.classList.toggle('active', b===btn));
+      const box = elDetail.querySelector('.d-official');
+      box.innerHTML = officialHtml(t.off, t.kind === 'tmxo');
+      box.hidden = false; elDetail.querySelector('.d-main').hidden = true;
+    });
   });
+  function showMain(){
+    elDetail.querySelectorAll('.d-variant-tab').forEach(b=> b.classList.toggle('active', tabList[+b.dataset.k].id === r.id));
+    elDetail.querySelector('.d-official').hidden = true; elDetail.querySelector('.d-main').hidden = false;
+  }
 }
 function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; renderChips(); renderGrid(); if(window._wlDrop) window._wlDrop(); }
 

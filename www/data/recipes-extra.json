@@ -221,7 +221,7 @@
       "steps": "Dissoudre le safran dans 3 c. à soupe de bouillon chaud. Faire revenir l'oignon émincé dans la moitié du beurre à feu doux 5 min. Ajouter le riz, nacrer 2 min. Déglacer au vin blanc, remuer jusqu'à absorption. Ajouter le bouillon chaud louche par louche en remuant constamment — ajouter la suivante seulement quand la précédente est absorbée. À mi-cuisson (10 min), incorporer le safran dissous. Cuire encore 8-10 min. Hors du feu, mantecatura : incorporer le reste du beurre froid et le parmesan en remuant vigoureusement. Couvrir 2 min. Servir \"all'onda\" — le risotto doit être fluide et ondulant.",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg/500px-Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg",
       "cat": "Italie, Riz, Risotto, Plat",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r784955"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r709545"
     },
     {
       "id": "italie:016",
@@ -379,7 +379,7 @@
         "dropbox:1c831ee7-4902-41f6-a56b-c03501aeffe6"
       ],
       "img": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tortilla-de-patatas.jpg",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r330045"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r802586"
     },
     {
       "id": "espagne:004",
@@ -430,7 +430,7 @@
       "id": "espagne:010",
       "url": "https://www.saveur.com/article/Recipes/Paella-with-Rabbit-and-Snails-Paella-Valenciana/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg/500px-Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r106053"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r307322"
     },
     {
       "id": "espagne:011",
@@ -471,7 +471,11 @@
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Churros_Madrid.jpg/500px-Churros_Madrid.jpg",
       "cat": "Espagne, Dessert, Biscuit",
       "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r905078",
-      "af": "https://www.moulinex.fr/recette/detail/PRO/Churros/2816704"
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Churros/2816704",
+      "pair": [
+        "af:004",
+        "dropbox:-100319853"
+      ]
     },
     {
       "id": "espagne:024",
@@ -534,7 +538,8 @@
       "url": "https://leitesculinaria.com/7759/recipes-pasteis-de-nata.html",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg/500px-Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg",
       "cat": "Portugal, Dessert, Tarte sucrée",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r134115"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r94177",
+      "pair": "dropbox:3e409306-7be1-489c-832e-5ab1f097df11"
     },
     {
       "id": "portugal:030",
@@ -952,7 +957,7 @@
         "espagne:003",
         "dropbox:1c831ee7-4902-41f6-a56b-c03501aeffe6"
       ],
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r330045"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r802586"
     },
     {
       "id": "dropbox:1c831ee7-4902-41f6-a56b-c03501aeffe6",
@@ -960,7 +965,7 @@
         "espagne:003",
         "dropbox:6da79f3f-9a9f-4eb1-aed0-631795b903cd"
       ],
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r330045"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r802586"
     },
     {
       "id": "corse:001",
@@ -1094,7 +1099,8 @@
       "img": "img/illus/dropbox-3b1c541a-6637-4a09-bb01-32cebf9b35cb.jpg",
       "cat": "Dessert, Airfryer, Gâteaux",
       "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r178361",
-      "af": "https://www.moulinex.fr/recette/detail/PRO/fondant-au-chocolat/2753818"
+      "af": "https://www.moulinex.fr/recette/detail/PRO/fondant-au-chocolat/2753818",
+      "pair": "dropbox:1621846856"
     },
     {
       "id": "dropbox:1122559876",
@@ -1212,7 +1218,7 @@
       "id": "dropbox:07fd6f1e-91f4-4bb6-a87a-42fcb52cff3e",
       "t": "Pastéis de Nata – Recette Authentique Portugaise 🇵🇹",
       "cat": "Dessert, Portugal, Tarte sucrée",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r134115"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r94177"
     },
     {
       "id": "dropbox:ffb2185f-d336-4213-b310-b19169babbf3",
@@ -1237,7 +1243,8 @@
     },
     {
       "id": "dropbox:1581859705",
-      "t": "Poulet à la crème, moutarde et vin blanc"
+      "t": "Poulet à la crème, moutarde et vin blanc",
+      "pair": "dropbox:1122559876"
     },
     {
       "id": "dropbox:1202916742",
@@ -2193,7 +2200,8 @@
     },
     {
       "id": "dropbox:240576361",
-      "t": "Semoule aux légumes (carotte et courgette)"
+      "t": "Semoule aux légumes (carotte et courgette)",
+      "pair": "dropbox:-606002207"
     },
     {
       "id": "dropbox:-1067890089",
@@ -2313,7 +2321,11 @@
     },
     {
       "id": "dropbox:1f06e514-74d8-4474-adab-243613cf0da8",
-      "cat": "Dessert, Crème dessert"
+      "cat": "Dessert, Crème dessert",
+      "pair": [
+        "tmx:005",
+        "dropbox:9c178259-af6e-4286-9303-1927cdba54d5"
+      ]
     },
     {
       "id": "dropbox:e6b7d411-158b-44e9-b470-b0a7da357803",
@@ -2340,7 +2352,7 @@
     {
       "id": "dropbox:3e409306-7be1-489c-832e-5ab1f097df11",
       "cat": "Dessert, Thermomix, Portugal, Tarte sucrée",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r134115"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r94177"
     },
     {
       "id": "dropbox:bae6f1f6-0dae-4652-aeb6-ec80869ab6f1",
@@ -2353,7 +2365,7 @@
     {
       "id": "dropbox:0c0ff256-14a3-48ae-ae05-3852d1b57cbb",
       "cat": "Dessert, Airfryer, Gâteaux",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r168386",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r147811",
       "af": "https://www.moulinex.fr/recette/detail/PRO/Brownie/2774947"
     },
     {
@@ -2568,7 +2580,7 @@
     },
     {
       "id": "dropbox:5d8ad666-2667-4ae7-ac65-0979d3d96783",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r90440"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r658353"
     },
     {
       "id": "dropbox:f1bad9d4-7d9e-4e18-892a-6b5f757b1884",
@@ -2624,7 +2636,7 @@
     },
     {
       "id": "dropbox:7e09d88b-97ff-436c-ae3a-5603c5ed6b2a",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r460382"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r828641"
     },
     {
       "id": "dropbox:7c2dc25f-65c4-4957-80ba-ac2045a1bbe8",
@@ -2632,7 +2644,7 @@
     },
     {
       "id": "dropbox:1636514084",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r38488"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r819063"
     },
     {
       "id": "dropbox:9e4e3d8a-3322-4601-ba3f-288bafd02960",
@@ -5055,7 +5067,8 @@
       ],
       "steps": "Blanchir les tomates 30 sec, peler et épépiner.\nConcasser grossièrement.\nChauffer l'huile avec l'ail, ajouter les tomates.\nCuire 10 min à feu vif pour concentrer.\nFinir avec le basilic, ajuster le sel.\n\n💡 La différence entre pomodoro et marinara : le pomodoro est plus court, plus frais, moins mijoté.",
       "url": "https://www.750g.com/sauce-tomate-italienne-r204128.htm",
-      "img": "https://static.750g.com/images/1200-630/41c08cb7592e23c1297aecf9af050207/sauce.jpg"
+      "img": "https://static.750g.com/images/1200-630/41c08cb7592e23c1297aecf9af050207/sauce.jpg",
+      "pair": "dropbox:-833970387"
     },
     {
       "id": "italie:sauce:007",
@@ -5976,7 +5989,8 @@
       "steps": "FARCE\nFaire revenir oignon, ail et poivron 5 min. Ajouter le bœuf, cuire 8 min.\nAssaisonner de cumin, sel, poivre. Laisser refroidir.\n\nMONTAGE\nDéposer 1-2 c. à soupe de farce au centre de chaque disque.\nHumidifier les bords, replier en demi-lune, sceller en appuyant.\nChiqueter le bord (plier/torsader le bord sur lui-même).\n\nCUISSON\nFour 200°C : 20-25 min jusqu'à dorure.\nBadigeonner d'œuf battu avant d'enfourner.\n\n💡 La farce doit être froide avant le montage pour éviter de détremper la pâte.",
       "url": "https://www.750g.com/empanadas-r31223.htm",
       "img": "https://static.750g.com/images/1200-630/ae0f55e30a017dc7a4bdf14bf571e413/empanadas.png",
-      "af": "https://www.moulinex.fr/recette/detail/PRO/Empanadas/2775124"
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Empanadas/2775124",
+      "pair": "dropbox:399e4513-9951-4e2b-8450-004200361e34"
     },
     {
       "id": "empanada:002",
@@ -6667,7 +6681,7 @@
       "steps": "Râper le concombre grossièrement. Saler et laisser dégorger 15 min dans une passoire.\nPresser fortement pour éliminer un maximum d'eau — c'est la clé.\nMélanger yaourt, concombre pressé, ail, huile, aneth et citron.\nAssaisonner. Réfrigérer au moins 30 min.\n\n💡 Plus l'eau est bien extraite du concombre, plus le tzatziki est épais et savoureux.\nAvec du yaourt grec entier (non allégé) pour la meilleure texture.",
       "img": "https://static.750g.com/images/1200-630/cccc5825c38ead3cedab52f2b151801a/tzatziki.jpg",
       "url": "https://www.750g.com/tzatziki-r200130.htm",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r586466"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r797418"
     },
     {
       "id": "grece:005",
@@ -8068,7 +8082,8 @@
       "steps": "Mélanger sauce soja, mirin, saké et sucre. Réserver.\nSécher les pavés de saumon avec du papier absorbant. Saler légèrement.\n\nCUISSON\nChauffer une poêle antiadhésive à feu moyen-vif. Cuire le saumon côté peau 3-4 min.\nRetourner, cuire 2-3 min côté chair.\nVerser la sauce teriyaki dans la poêle. La sauce va caraméliser rapidement.\nNapper le saumon en tournant dans la sauce 1-2 min.\n\nServir sur riz, parsemer de sésame.\n\n💡 Le teriyaki (照り焼き) signifie \"griller et faire briller\". La sauce caramélisée qui enrobe est la signature.",
       "img": "https://static.750g.com/images/1200-630/1a6800e9637732609512bc8adff9b5ff/saumon-teriyaki-facile.png",
       "url": "https://www.750g.com/saumon-teriyaki-r44352.htm",
-      "af": "https://www.moulinex.fr/recette/detail/PRO/Saumon%20laqu%C3%A9%20Teriyaki/2448234"
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Saumon%20laqu%C3%A9%20Teriyaki/2448234",
+      "pair": "dropbox:69e9a532-ed42-437c-af27-0a7de0e7072f"
     },
     {
       "id": "japon:022",
@@ -8798,7 +8813,8 @@
       ],
       "steps": "SAUMURAGE (24h avant) : Frotter les cuisses de gros sel, ail écrasé, thym. Couvrir. Réfrigérer 24 h.\nRincer les cuisses à l'eau froide. Sécher soigneusement.\nFaire fondre la graisse de canard dans une cocotte à feu très doux.\nImmerger complètement les cuisses dans la graisse. Temp 80-85°C max.\nCuire 2h30-3h — la viande doit se détacher facilement de l'os.\nLaisser refroidir dans la graisse. Se conserve des semaines ainsi.\n\nPOUR SERVIR : Retirer de la graisse. Dorer côté peau dans une poêle sans matière grasse.\n\n💡 Servir avec sarladaises ou lentilles du Puy.",
       "img": "https://static.750g.com/images/1200-630/e3b506028112cc301864ebb0973d56b9/confit-de-canard-r204095.png",
-      "url": "https://www.750g.com/confit-de-canard-r204095.htm"
+      "url": "https://www.750g.com/confit-de-canard-r204095.htm",
+      "pair": "dropbox:966b0800-1983-4f25-a468-b445e4f761b6"
     },
     {
       "id": "france:025",
@@ -8854,7 +8870,8 @@
       ],
       "steps": "Préchauffer le four à 150°C. Fendre les gousses de vanille, gratter les graines dans la crème.\nChauffer la crème avec la vanille sans bouillir. Retirer les gousses.\nFouetter les jaunes avec le sucre jusqu'à blanchiment. Incorporer la crème chaude progressivement.\nVerser dans des ramequins. Placer dans un bain-marie.\nCuire 40-50 min — la crème doit trembler légèrement au centre.\nRefroidir, puis réfrigérer 2 h minimum.\n\nJuste avant de servir : saupoudrer de sucre roux. Caraméliser au chalumeau en mouvements circulaires.\nLaisser refroidir 1 min — la carapace doit être craquante.",
       "img": "https://static.750g.com/images/1200-630/5504d3f59f4c22edfb74476c2596bd0a/cremebrulee.jpg",
-      "url": "https://www.750g.com/la-meilleure-facon-de-faire-une-creme-brulee-r207468.htm"
+      "url": "https://www.750g.com/la-meilleure-facon-de-faire-une-creme-brulee-r207468.htm",
+      "pair": "dropbox:eb7bfdad-c0c4-4b70-8fec-15ed51f701eb"
     },
     {
       "id": "france:028",
@@ -9406,7 +9423,7 @@
       "steps": "Couvrir les dattes d'eau bouillante + bicarbonate. Laisser ramollir 15 min. Mixer.\nCreamer beurre et sucre. Ajouter les œufs. Incorporer farine, levure, purée de dattes et vanille.\nVerser dans un moule 20×20 cm beurré. Cuire 180°C, 35 min.\n\nSAUCE TOFFEE : Chauffer beurre et sucre jusqu'à caramel. Ajouter crème et vanille. Mijoter 5 min.\n\nPercer des trous dans le cake chaud. Verser la moitié de la sauce. Laisser absorber.\nServir des tranches chaudes avec la sauce toffee restante et une boule de glace vanille.",
       "img": "https://www.recipetineats.com/tachyon/2018/07/Sticky-Date-Pudding_5.jpg",
       "url": "https://www.recipetineats.com/sticky-toffee-pudding/",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r508480"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r150936"
     },
     {
       "id": "gb:008",
@@ -9733,7 +9750,7 @@
       "steps": "PÂTE : Pétrir tous les ingrédients 10 min jusqu'à très lisse. Envelopper. Reposer 1 h.\n\nGARNITURE : Éplucher et émincer les pommes. Mélanger avec raisins secs, sucre et cannelle.\nFaire revenir la chapelure dans le beurre jusqu'à dorée.\n\nÉTIRER LA PÂTE : Sur une nappe farinée, étirer à la main jusqu'à quasi-transparente (40×60 cm).\nBadigeonner de beurre fondu. Étaler la chapelure. Déposer les pommes en bande.\nRouler en s'aidant de la nappe. Mettre sur plaque. Badigeonner de beurre.\nCuire 190°C pendant 35-40 min.\nSaupoudrer de sucre glace. Servir avec sauce vanille.",
       "img": "https://www.daringgourmet.com/wp-content/uploads/2023/10/Apple-Strudel-Recipe-2.jpg",
       "url": "https://www.daringgourmet.com/apple-strudel-apfelstrudel/",
-      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r450813"
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r4449"
     },
     {
       "id": "allemagne:013",
@@ -14035,7 +14052,8 @@
         "Égoutter, saler immédiatement. Servir avec mayonnaise maison."
       ],
       "img": "img/frites/01.jpg",
-      "af": "https://www.moulinex.fr/recette/detail/PRO/frites-maison/2813245"
+      "af": "https://www.moulinex.fr/recette/detail/PRO/frites-maison/2813245",
+      "pair": "af:008"
     },
     {
       "id": "frites:002",
@@ -23515,7 +23533,8 @@
         "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
         "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat."
       ],
-      "img": "img/flans/02.jpg"
+      "img": "img/flans/02.jpg",
+      "pair": "af:018"
     },
     {
       "id": "flan:003",
@@ -23611,7 +23630,8 @@
         "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
         "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat."
       ],
-      "img": "img/flans/06.jpg"
+      "img": "img/flans/06.jpg",
+      "pair": "af:016"
     },
     {
       "id": "flan:007",
@@ -23635,7 +23655,8 @@
         "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat.",
         "Parsemer du reste de noix de coco légèrement dorée à la poêle."
       ],
-      "img": "img/flans/08.jpg"
+      "img": "img/flans/08.jpg",
+      "pair": "af:020"
     },
     {
       "id": "flan:008",
@@ -24698,5 +24719,1741 @@
       ],
       "img": "img/crepes/05.jpg"
     }
-  ]
+  ],
+  "official": {
+    "https://cookidoo.fr/recipes/recipe/FR/r167423": {
+      "name": "Crema catalana",
+      "rating": 4.7,
+      "n": 26,
+      "min": 40,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/FR/r779745": {
+      "name": "Cassoulet toulousain",
+      "rating": 4.1,
+      "n": 34,
+      "min": 100,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r100431": {
+      "name": "Sauce all'amatriciana",
+      "rating": 4.3,
+      "n": 223,
+      "min": 20,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r100590": {
+      "name": "Mars - Tajine de carottes et pois chiches",
+      "rating": 4.3,
+      "n": 78,
+      "min": 45,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r103381": {
+      "name": "Pasta alla Norma",
+      "rating": 3.9,
+      "n": 18,
+      "min": 50,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r105132": {
+      "name": "Sugo all'arrabbiata",
+      "rating": 4.8,
+      "n": 146,
+      "min": 20,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r107345": {
+      "name": "Coq au vin",
+      "rating": 3.7,
+      "n": 10,
+      "min": 780,
+      "yld": "2 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r111261": {
+      "name": "Flan",
+      "rating": 4.6,
+      "n": 24,
+      "min": 330,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r112278": {
+      "name": "Chicken Tikka Masala",
+      "rating": 4.5,
+      "n": 430,
+      "min": 45,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r113616": {
+      "name": "Tajine de poulet au citron confit",
+      "rating": 3.4,
+      "n": 185,
+      "min": 180,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r113640": {
+      "name": "Pollo alla cacciatora",
+      "rating": 4.4,
+      "n": 31,
+      "min": 80,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r115278": {
+      "name": "Flour tortillas",
+      "rating": 4.8,
+      "n": 458,
+      "min": 70,
+      "yld": "16 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r115833": {
+      "name": "Glace à la pistache",
+      "rating": 4.8,
+      "n": 185,
+      "min": 720,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r117085": {
+      "name": "Gratin de potimarron et pomme de terre",
+      "rating": 4.4,
+      "n": 788,
+      "min": 80,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r118994": {
+      "name": "Calzone",
+      "rating": 4.1,
+      "n": 39,
+      "min": 170,
+      "yld": "1 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r119510": {
+      "name": "Flan pâtissier",
+      "rating": 3.5,
+      "n": 395,
+      "min": 265,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r12419": {
+      "name": "Gambas al ajillo",
+      "rating": 4.4,
+      "n": 677,
+      "min": 15,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r124992": {
+      "name": "Chouquettes",
+      "rating": 4.6,
+      "n": 1520,
+      "min": 60,
+      "yld": "18 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r129526": {
+      "name": "Poulet aux noix de cajou et basilic thaï",
+      "rating": 4.6,
+      "n": 98,
+      "min": 45,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r129889": {
+      "name": "Coca de trempó de verano",
+      "rating": 4.3,
+      "n": 142,
+      "min": 60,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r132710": {
+      "name": "Empanadas argentinas",
+      "rating": 4.3,
+      "n": 135,
+      "min": 110,
+      "yld": "20 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r132722": {
+      "name": "Tarta de Santiago",
+      "rating": 4.7,
+      "n": 418,
+      "min": 45,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r134103": {
+      "name": "Carrot cake",
+      "rating": 4.8,
+      "n": 573,
+      "min": 90,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r136129": {
+      "name": "Carbonade flamande",
+      "rating": 3.5,
+      "n": 382,
+      "min": 105,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r138429": {
+      "name": "Moules au curry",
+      "rating": 4.7,
+      "n": 210,
+      "min": 40,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r139637": {
+      "name": "Flans de poireau",
+      "rating": 4.4,
+      "n": 215,
+      "min": 35,
+      "yld": "2 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r142216": {
+      "name": "Soupe à l'ail",
+      "rating": 4.0,
+      "n": 243,
+      "min": 40,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r147811": {
+      "name": "Brownies",
+      "rating": 4.8,
+      "n": 397,
+      "min": 50,
+      "yld": "24 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r148130": {
+      "name": "Kofta",
+      "rating": 4.6,
+      "n": 23,
+      "min": 40,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r148372": {
+      "name": "Pâte à crêpes sans gluten",
+      "rating": 4.5,
+      "n": 84,
+      "min": 90,
+      "yld": "15 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r149595": {
+      "name": "Curry laksa",
+      "rating": 4.7,
+      "n": 215,
+      "min": 45,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r150464": {
+      "name": "Melanzane parmigiana",
+      "rating": 4.4,
+      "n": 74,
+      "min": 125,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r150790": {
+      "name": "Canistrelli",
+      "rating": 4.8,
+      "n": 108,
+      "min": 60,
+      "yld": "25 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r150936": {
+      "name": "Sticky Toffee Puddings",
+      "rating": 4.9,
+      "n": 148,
+      "min": 60,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r160947": {
+      "name": "Steak tartare",
+      "rating": 2.9,
+      "n": 19,
+      "min": 30,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r165636": {
+      "name": "Veal stew (Blanquette de veau)",
+      "rating": 3.6,
+      "n": 9,
+      "min": 65,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r167060": {
+      "name": "Gaspacho",
+      "rating": 4.8,
+      "n": 147,
+      "min": 75,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r167867": {
+      "name": "Caponata",
+      "rating": 4.0,
+      "n": 40,
+      "min": 50,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r178361": {
+      "name": "Fondant minute au chocolat",
+      "rating": 4.8,
+      "n": 3017,
+      "min": 20,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r20475": {
+      "name": "Gougères",
+      "rating": 4.8,
+      "n": 1660,
+      "min": 40,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r20568": {
+      "name": "Riz au lait",
+      "rating": 4.5,
+      "n": 2418,
+      "min": 60,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r208349": {
+      "name": "Yakitori (brochetas de pollo y cebolleta)",
+      "rating": 4.5,
+      "n": 27,
+      "min": 150,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r214858": {
+      "name": "Bacalhau com natas",
+      "rating": 4.7,
+      "n": 1017,
+      "min": 40,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r237511": {
+      "name": "Pizza quatre saisons",
+      "rating": 4.7,
+      "n": 33,
+      "min": 95,
+      "yld": "3 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r237912": {
+      "name": "Chicken Nuggets",
+      "rating": 4.8,
+      "n": 101,
+      "min": 45,
+      "yld": "20 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r238021": {
+      "name": "Poulet katsu au riz et curry",
+      "rating": 4.7,
+      "n": 364,
+      "min": 105,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r24137": {
+      "name": "Moelleux au chocolat au cœur fondant",
+      "rating": 4.6,
+      "n": 1729,
+      "min": 25,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r245404": {
+      "name": "Bœuf carottes",
+      "rating": 3.6,
+      "n": 300,
+      "min": 120,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r251374": {
+      "name": "Filet mignon au cidre",
+      "rating": 4.1,
+      "n": 154,
+      "min": 35,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r257605": {
+      "name": "Gratin de brocoli au parmesan",
+      "rating": 4.4,
+      "n": 671,
+      "min": 65,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r270539": {
+      "name": "Alfajores Argentinos",
+      "rating": 4.3,
+      "n": 51,
+      "min": 70,
+      "yld": "18 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r307322": {
+      "name": "Paella valenciana",
+      "rating": 5.0,
+      "n": 3,
+      "min": 60,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r315315": {
+      "name": "Bacalhau à Brás",
+      "rating": 3.8,
+      "n": 825,
+      "min": 25,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r317295": {
+      "name": "L'incontournable sauce bolognaise",
+      "rating": 4.2,
+      "n": 1285,
+      "min": 50,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r31862": {
+      "name": "Fiadone",
+      "rating": 3.9,
+      "n": 24,
+      "min": 55,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r320591": {
+      "name": "Smoothie à la mangue",
+      "rating": 3.9,
+      "n": 10,
+      "min": 5,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r331316": {
+      "name": "Blancs de volaille à la moutarde",
+      "rating": 4.6,
+      "n": 201,
+      "min": 45,
+      "yld": "2 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r343057": {
+      "name": "Aïoli",
+      "rating": 4.5,
+      "n": 131,
+      "min": 5,
+      "yld": "300 g"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r360123": {
+      "name": "Œuf poché sauce meurette",
+      "rating": 4.7,
+      "n": 270,
+      "min": 60,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r375177": {
+      "name": "Poulet à l'orange",
+      "rating": 3.4,
+      "n": 71,
+      "min": 90,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r375184": {
+      "name": "Virgin mango piña colada (cocktail sans alcool)",
+      "rating": 4.6,
+      "n": 94,
+      "min": 10,
+      "yld": "6 verres"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r376063": {
+      "name": "Arroz con leche",
+      "rating": 3.3,
+      "n": 208,
+      "min": 180,
+      "yld": "10 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r38594": {
+      "name": "Veau aux olives",
+      "rating": 4.0,
+      "n": 67,
+      "min": 60,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r397105": {
+      "name": "Crème caramel",
+      "rating": 4.5,
+      "n": 630,
+      "min": 180,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r401992": {
+      "name": "Brioche burger buns",
+      "rating": 4.7,
+      "n": 789,
+      "min": 130,
+      "yld": "10 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r402076": {
+      "name": "Kimchi",
+      "rating": 4.6,
+      "n": 35,
+      "min": 3060
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r403419": {
+      "name": "Cannoli siciliens",
+      "rating": 3.7,
+      "n": 17,
+      "min": 90,
+      "yld": "16 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r405008": {
+      "name": "Œufs Bénédicte",
+      "rating": 3.0,
+      "n": 48,
+      "min": 45,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r420328": {
+      "name": "Caipirinha",
+      "rating": 4.2,
+      "n": 32,
+      "min": 5,
+      "yld": "4 verres"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r433110": {
+      "name": "Bœuf Stroganoff",
+      "rating": 4.3,
+      "n": 546,
+      "min": 60,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r434091": {
+      "name": "Caldo verde",
+      "rating": 4.6,
+      "n": 53,
+      "min": 40,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r434196": {
+      "name": "Brigadeiro",
+      "rating": 4.5,
+      "n": 81,
+      "min": 90,
+      "yld": "25 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r434827": {
+      "name": "Torta della nonna",
+      "rating": 4.6,
+      "n": 15,
+      "min": 240,
+      "yld": "12 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r4357": {
+      "name": "Harira",
+      "rating": 3.9,
+      "n": 673,
+      "min": 420,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r4449": {
+      "name": "Strudel à la pomme",
+      "rating": 4.6,
+      "n": 18,
+      "min": 105,
+      "yld": "10 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r44810": {
+      "name": "Polvorones",
+      "rating": 4.0,
+      "n": 56,
+      "min": 1530,
+      "yld": "30 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r448777": {
+      "name": "Boeuf Bourguignon",
+      "rating": 4.6,
+      "n": 203,
+      "min": 165,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r450954": {
+      "name": "Moussaka",
+      "rating": 4.3,
+      "n": 1504,
+      "min": 100,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r451060": {
+      "name": "Sangria",
+      "rating": 4.9,
+      "n": 8,
+      "min": 10,
+      "yld": "6 verres"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r460381": {
+      "name": "Dumplings (raviolis chinois)",
+      "rating": 4.5,
+      "n": 6,
+      "min": 45,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r469326": {
+      "name": "Nasi goreng",
+      "rating": 4.2,
+      "n": 13,
+      "min": 50,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r483612": {
+      "name": "Cari poulet",
+      "rating": 4.1,
+      "n": 454,
+      "min": 45,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r497230": {
+      "name": "Mapo tofu",
+      "rating": 3.6,
+      "n": 83,
+      "min": 15,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r509154": {
+      "name": "Langos",
+      "rating": 4.9,
+      "n": 372,
+      "min": 115,
+      "yld": "8 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r511870": {
+      "name": "Charlotte aux fraises",
+      "rating": 4.3,
+      "n": 622,
+      "min": 215,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r538217": {
+      "name": "Œufs brouillés aux fines herbes",
+      "rating": 2.8,
+      "n": 291,
+      "min": 30,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54103": {
+      "name": "Pâte à crêpe",
+      "rating": 4.6,
+      "n": 6155,
+      "min": 75,
+      "yld": "10 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54111": {
+      "name": "Minestrone",
+      "rating": 4.5,
+      "n": 588,
+      "min": 45,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54120": {
+      "name": "Pizza Margherita",
+      "rating": 4.4,
+      "n": 260,
+      "min": 130,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54150": {
+      "name": "Milkshake à la fraise",
+      "rating": 4.8,
+      "n": 408,
+      "min": 5,
+      "yld": "6 verres"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54158": {
+      "name": "Quiche lorraine",
+      "rating": 4.6,
+      "n": 2080,
+      "min": 50,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54208": {
+      "name": "Pâte à pizza",
+      "rating": 4.8,
+      "n": 6201,
+      "min": 60,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r545030": {
+      "name": "Risotto",
+      "rating": 4.5,
+      "n": 113,
+      "min": 30,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r548026": {
+      "name": "Tiramisu aux fraises",
+      "rating": 4.3,
+      "n": 918,
+      "min": 270,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r551696": {
+      "name": "Beignets de crevettes",
+      "rating": 4.6,
+      "n": 106,
+      "min": 35,
+      "yld": "50 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r55671": {
+      "name": "Croquetas de jamón con bechamel rápida",
+      "rating": 4.6,
+      "n": 1436,
+      "min": 555,
+      "yld": "50 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r55703": {
+      "name": "Albóndigas en salsa española",
+      "rating": 4.2,
+      "n": 1113,
+      "min": 55,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r55726": {
+      "name": "Calamares en su tinta",
+      "rating": 4.4,
+      "n": 377,
+      "min": 65,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r56407": {
+      "name": "Soupe de lentilles vertes",
+      "rating": 4.6,
+      "n": 392,
+      "min": 35,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r581498": {
+      "name": "Flammekueche alsacienne",
+      "rating": 4.5,
+      "n": 586,
+      "min": 30,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r58376": {
+      "name": "Dulce de leche",
+      "rating": 3.6,
+      "n": 134,
+      "min": 120,
+      "yld": "500 g"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r588870": {
+      "name": "Locro",
+      "rating": 4.7,
+      "n": 22,
+      "min": 1515,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r590252": {
+      "name": "Chicken Adobo",
+      "rating": 3.8,
+      "n": 103,
+      "min": 85,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r595183": {
+      "name": "Riz cantonais",
+      "rating": 3.9,
+      "n": 948,
+      "min": 45,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r61116": {
+      "name": "Soupe miso",
+      "rating": 3.5,
+      "n": 22,
+      "min": 40,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r622023": {
+      "name": "Sous-vide côte de bœuf, désossée",
+      "rating": 4.0,
+      "n": 14,
+      "min": 145,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r622753": {
+      "name": "Sous-vide magrets de canard",
+      "rating": 4.8,
+      "n": 28,
+      "min": 120,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r647581": {
+      "name": "Arroz e feijão tradicional",
+      "rating": 4.1,
+      "n": 54,
+      "min": 800,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r648851": {
+      "name": "Murgh makhani (Butter chicken)",
+      "rating": 4.8,
+      "n": 1750,
+      "min": 75,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r654232": {
+      "name": "Goulash",
+      "rating": 4.2,
+      "n": 21,
+      "min": 100,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r658353": {
+      "name": "Bretzels",
+      "rating": 4.7,
+      "n": 30,
+      "min": 110,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r68032": {
+      "name": "Tiramisu",
+      "rating": 4.4,
+      "n": 165,
+      "min": 320,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r68520": {
+      "name": "Hungarian goulash",
+      "rating": 4.0,
+      "n": 209,
+      "min": 90,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r687289": {
+      "name": "Chorizos a la sidra",
+      "rating": 4.6,
+      "n": 113,
+      "min": 35,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r689411": {
+      "name": "Cocido madrileño",
+      "rating": 4.6,
+      "n": 21,
+      "min": 135,
+      "yld": "10 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r68950": {
+      "name": "Pavlova",
+      "rating": 3.9,
+      "n": 259,
+      "min": 360,
+      "yld": "10 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r69095": {
+      "name": "Lamingtons",
+      "rating": 4.5,
+      "n": 198,
+      "min": 70,
+      "yld": "12 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r69472": {
+      "name": "Bouillabaisse",
+      "rating": 4.4,
+      "n": 70,
+      "min": 75,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r696492": {
+      "name": "Bao bun au porc braisé",
+      "rating": 4.3,
+      "n": 115,
+      "min": 80,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r698066": {
+      "name": "Pão de queijo",
+      "rating": 4.2,
+      "n": 73,
+      "min": 60,
+      "yld": "25 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r698067": {
+      "name": "Feijoada",
+      "rating": 3.8,
+      "n": 10,
+      "min": 360,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r69834": {
+      "name": "Tortellini in brodo",
+      "rating": 4.7,
+      "n": 57,
+      "min": 90,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r699803": {
+      "name": "Clafoutis aux tomates cerise et au basilic",
+      "rating": 4.1,
+      "n": 164,
+      "min": 40,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r70121": {
+      "name": "Charlotte au chocolat",
+      "rating": 4.2,
+      "n": 237,
+      "min": 380,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r703938": {
+      "name": "Purée de pois cassés (bisarra)",
+      "rating": 4.4,
+      "n": 987,
+      "min": 45,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r703940": {
+      "name": "Loubia (haricots blancs à la tomate)",
+      "rating": 3.8,
+      "n": 545,
+      "min": 85,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r709545": {
+      "name": "Risotto alla milanese",
+      "rating": 4.8,
+      "n": 95,
+      "min": 30,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r716242": {
+      "name": "Salade grecque",
+      "rating": 4.7,
+      "n": 312,
+      "min": 30,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r71764": {
+      "name": "Rouleaux de printemps",
+      "rating": 4.7,
+      "n": 339,
+      "min": 30,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r727345": {
+      "name": "Salmorejo (crème espagnole à la tomate)",
+      "rating": 4.4,
+      "n": 63,
+      "min": 10,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r727553": {
+      "name": "Torrijas a la plancha",
+      "rating": 4.8,
+      "n": 5,
+      "min": 30,
+      "yld": "4 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r728470": {
+      "name": "Tajine de bœuf aux carottes et tomates",
+      "rating": 3.2,
+      "n": 75,
+      "min": 105,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r73113": {
+      "name": "Risotto aux cèpes",
+      "rating": 4.6,
+      "n": 788,
+      "min": 30,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r748163": {
+      "name": "Okonomiyaki",
+      "rating": 4.7,
+      "n": 245,
+      "min": 30,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r749986": {
+      "name": "Bibimbap (beef rice bowl)",
+      "rating": 4.5,
+      "n": 155,
+      "min": 85,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r750000": {
+      "name": "Buffalo chicken wings",
+      "rating": 4.3,
+      "n": 26,
+      "min": 50,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r75316": {
+      "name": "Appeltaart",
+      "rating": 3.5,
+      "n": 15,
+      "min": 60,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r75924": {
+      "name": "Cornes de gazelle",
+      "rating": 4.5,
+      "n": 178,
+      "min": 60,
+      "yld": "25 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r762154": {
+      "name": "Chakchouka aux œufs",
+      "rating": 4.3,
+      "n": 184,
+      "min": 50,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r768019": {
+      "name": "Beef Wellington",
+      "rating": 4.7,
+      "n": 26,
+      "min": 135,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r778955": {
+      "name": "Souvlaki de poulet et tsatsiki",
+      "rating": 4.5,
+      "n": 4,
+      "min": 140
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r779934": {
+      "name": "Bretzels allemands",
+      "rating": 3.5,
+      "n": 12,
+      "min": 135,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r780404": {
+      "name": "Pains batbout marocains",
+      "rating": 4.3,
+      "n": 603,
+      "min": 60,
+      "yld": "15 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r78374": {
+      "name": "Pho bo (Vietnamese beef and noodle soup)",
+      "rating": 4.5,
+      "n": 171,
+      "min": 120,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r784439": {
+      "name": "Soupe à l'oignon gratinée",
+      "rating": 4.0,
+      "n": 140,
+      "min": 30,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r788074": {
+      "name": "Poulet stroganov",
+      "rating": 3.6,
+      "n": 27,
+      "min": 50,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r794978": {
+      "name": "Mochi",
+      "rating": 3.4,
+      "n": 49,
+      "min": 40,
+      "yld": "16 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r795331": {
+      "name": "Potée au chou et à la saucisse de Morteau",
+      "rating": 4.7,
+      "n": 63,
+      "min": 60,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r797418": {
+      "name": "Tzatziki",
+      "rating": 4.8,
+      "n": 31,
+      "min": 185,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r801521": {
+      "name": "Loukoumades (Greek doughnuts with honey and walnuts)",
+      "rating": 3.4,
+      "n": 12,
+      "min": 120,
+      "yld": "40 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r802586": {
+      "name": "Tortilla de patata",
+      "rating": 3.7,
+      "n": 116,
+      "min": 45,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r803143": {
+      "name": "Neapolitan Pizza",
+      "rating": 4.4,
+      "n": 44,
+      "min": 540,
+      "yld": "2 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r80606": {
+      "name": "Zarzuela de pescados y mariscos",
+      "rating": 4.4,
+      "n": 35,
+      "min": 60,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r810188": {
+      "name": "Sauce béchamel",
+      "rating": 5.0,
+      "n": 1,
+      "min": 15,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r819063": {
+      "name": "Paupiettes de veau aux petits légumes",
+      "rating": 4.8,
+      "n": 139,
+      "min": 60,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r819979": {
+      "name": "Cozonac",
+      "rating": 4.6,
+      "n": 366,
+      "min": 300,
+      "yld": "12 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r821805": {
+      "name": "Samoussa de boeuf, coriandre, oignons, sauce cheddar",
+      "rating": 4.4,
+      "n": 63,
+      "min": 35,
+      "yld": "25 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r823921": {
+      "name": "Pulled pork (porc effiloché)",
+      "rating": 4.2,
+      "n": 23,
+      "min": 840,
+      "yld": "12 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r824377": {
+      "name": "Jollof Rice",
+      "rating": 3.5,
+      "n": 39,
+      "min": 80,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r824379": {
+      "name": "Egusi Stew",
+      "rating": 3.2,
+      "n": 10,
+      "min": 90,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r825336": {
+      "name": "Pennette all'arrabbiata veloci",
+      "rating": 3.4,
+      "n": 16,
+      "min": 20,
+      "yld": "3 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r827153": {
+      "name": "Takoyaki de poulpe",
+      "rating": 4.3,
+      "n": 12,
+      "min": 20,
+      "yld": "50 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r82747": {
+      "name": "Tartare Sauce",
+      "rating": 4.6,
+      "n": 52,
+      "min": 10,
+      "yld": "350 g"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r828499": {
+      "name": "Rumänische Kohlrouladen (Sarmale)",
+      "rating": 4.5,
+      "n": 81,
+      "min": 230,
+      "yld": "7 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r828547": {
+      "name": "Lasagne fraîches à la bolognaise",
+      "rating": 4.8,
+      "n": 129,
+      "min": 150,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r828641": {
+      "name": "Pad thaï au poulet",
+      "rating": 3.4,
+      "n": 150,
+      "min": 120,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r82987": {
+      "name": "Soufflé au chocolat",
+      "rating": 4.1,
+      "n": 40,
+      "min": 40,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r85464": {
+      "name": "Vitello tonnato",
+      "rating": 3.6,
+      "n": 42,
+      "min": 1485,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r86474": {
+      "name": "Couronnes des Rois aux fruits confits",
+      "rating": 4.5,
+      "n": 212,
+      "min": 1020,
+      "yld": "10 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r86808": {
+      "name": "Crêpe Suzette",
+      "rating": 4.4,
+      "n": 167,
+      "min": 35,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r90063": {
+      "name": "Thai Green Curry Chicken",
+      "rating": 4.6,
+      "n": 280,
+      "min": 30,
+      "yld": "5 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r901734": {
+      "name": "Carottes Vichy",
+      "rating": 4.7,
+      "n": 707,
+      "min": 35,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r903887": {
+      "name": "Pot-au-feu",
+      "rating": 4.8,
+      "n": 4,
+      "min": 100,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r904196": {
+      "name": "Mojito sin alcohol",
+      "rating": 5.0,
+      "n": 3,
+      "min": 15,
+      "yld": "2 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r905078": {
+      "name": "Churros",
+      "rating": 4.0,
+      "n": 22,
+      "min": 60,
+      "yld": "15 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r907204": {
+      "name": "Tajine d'agneau aux pruneaux",
+      "rating": 3.8,
+      "n": 97,
+      "min": 65,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r907216": {
+      "name": "Pastilla au poulet, aux amandes et à la cannelle",
+      "rating": 4.1,
+      "n": 27,
+      "min": 125,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r907328": {
+      "name": "Basboussa à la pistache et à la rose",
+      "rating": 4.4,
+      "n": 36,
+      "min": 85,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r91269": {
+      "name": "Shepherd's Pie",
+      "rating": 3.6,
+      "n": 97,
+      "min": 75,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r913504": {
+      "name": "Bûchette framboise et chocolat blanc",
+      "rating": 4.3,
+      "n": 18,
+      "min": 960,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r915264": {
+      "name": "Fabada asturiana (ragoût espagnol de haricots blancs)",
+      "rating": 5.0,
+      "n": 1,
+      "min": 930,
+      "yld": "2 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r916135": {
+      "name": "Schnelle Spätzle",
+      "rating": 4.8,
+      "n": 37,
+      "min": 25,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r916648": {
+      "name": "Crêpes mille trous - Baghrir",
+      "rating": 3.5,
+      "n": 238,
+      "min": 25,
+      "yld": "12 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r921623": {
+      "name": "Spaghetti carbonara (TM7)",
+      "rating": 3.9,
+      "n": 100,
+      "min": 40,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r932896": {
+      "name": "Croque-monsieur façon brasserie",
+      "rating": 4.8,
+      "n": 98,
+      "min": 35,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r94177": {
+      "name": "Pastéis de nata",
+      "rating": 4.6,
+      "n": 66,
+      "min": 60,
+      "yld": "12 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r98714": {
+      "name": "Panna cotta",
+      "rating": 4.7,
+      "n": 104,
+      "min": 375,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-fr/r479554": {
+      "name": "Currywurst",
+      "rating": 4.5,
+      "n": 5945,
+      "min": 20,
+      "yld": "2 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-fr/r648851": {
+      "name": "Murgh makhani (Butter chicken)",
+      "rating": 4.8,
+      "n": 1750,
+      "min": 75,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-fr/r67045": {
+      "name": "Osso-buco",
+      "rating": 4.5,
+      "n": 317,
+      "min": 80,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-fr/r757120": {
+      "name": "Pisto",
+      "rating": 4.9,
+      "n": 128,
+      "min": 45,
+      "yld": "7 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-fr/r823950": {
+      "name": "Risotto aux champignons",
+      "rating": 4.4,
+      "n": 502,
+      "min": 30,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-fr/r907321": {
+      "name": "Harcha (galettes de semoule)",
+      "rating": 3.8,
+      "n": 84,
+      "min": 70,
+      "yld": "2 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-fr/r919159": {
+      "name": "Shakshuka",
+      "rating": 4.6,
+      "n": 5,
+      "min": 50,
+      "yld": "2 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r117981": {
+      "name": "Lamb kleftiko",
+      "rating": 4.4,
+      "n": 19,
+      "min": 240,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r120942": {
+      "name": "Fondue savoyarde",
+      "rating": 4.4,
+      "n": 169,
+      "min": 15,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r126130": {
+      "name": "Moules au roquefort",
+      "rating": 4.9,
+      "n": 464,
+      "min": 40,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r151100": {
+      "name": "Couscous royal",
+      "rating": 4.2,
+      "n": 1240,
+      "min": 80,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r151969": {
+      "name": "Moqueca",
+      "rating": 3.9,
+      "n": 14,
+      "min": 80,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r174224": {
+      "name": "Lasagne classiche",
+      "rating": 4.9,
+      "n": 26,
+      "min": 120,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r177668": {
+      "name": "Avgolemono (soupe grecque œuf-citron)",
+      "rating": 3.7,
+      "n": 30,
+      "min": 35,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r237328": {
+      "name": "Bagna cauda",
+      "rating": 4.3,
+      "n": 55,
+      "min": 35
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r340327": {
+      "name": "Moules à la sauce chorizo",
+      "rating": 4.5,
+      "n": 188,
+      "min": 60,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r431781": {
+      "name": "Croziflette",
+      "rating": 4.6,
+      "n": 831,
+      "min": 85,
+      "yld": "6 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r57845": {
+      "name": "Filet mignon de porc à la moutarde et aux pommes de terre",
+      "rating": 3.9,
+      "n": 270,
+      "min": 30,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r646697": {
+      "name": "Spaghetti aglio, olio e peperoncino (Bimby Friend)",
+      "rating": 4.6,
+      "n": 14,
+      "min": 25,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r680995": {
+      "name": "Pimientos del piquillo rellenos",
+      "rating": 4.6,
+      "n": 279,
+      "min": 15,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r73310": {
+      "name": "Houmous",
+      "rating": 4.3,
+      "n": 986,
+      "min": 10,
+      "yld": "8 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r780405": {
+      "name": "Pains de semoule Matlouh",
+      "rating": 4.7,
+      "n": 353,
+      "min": 130,
+      "yld": "2 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r827107": {
+      "name": "Beignets hollandais (Oliebollen)",
+      "rating": 4.5,
+      "n": 6,
+      "min": 105,
+      "yld": "8 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r89007": {
+      "name": "Rougail saucisse",
+      "rating": 4.4,
+      "n": 1005,
+      "min": 50,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r91014": {
+      "name": "Spaghetti cacio e pepe",
+      "rating": 4.2,
+      "n": 115,
+      "min": 35,
+      "yld": "4 pers."
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r929250": {
+      "name": "Truffes au chocolat",
+      "rating": 4.6,
+      "n": 18,
+      "min": 205,
+      "yld": "30 pièces"
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r943055": {
+      "name": "Bitterballen",
+      "min": 225,
+      "yld": "30 pièces"
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Beignets%20fondants%20aux%20pommes/2458851": {
+      "name": "Beignets fondants aux pommes",
+      "rating": 1.5,
+      "n": 9,
+      "min": 28,
+      "yld": "6 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Brownie/2774947": {
+      "name": "Brownie",
+      "rating": 5.0,
+      "n": 2,
+      "min": 25,
+      "yld": "8 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Camembert+r%C3%B4ti+et+ses+pommes+de+terre+grenailles/2810178": {
+      "name": "Camembert rôti et ses pommes de terre grenailles",
+      "rating": 4.5,
+      "n": 2,
+      "min": 42,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Churros/2816704": {
+      "name": "Churros",
+      "min": 30,
+      "yld": "6 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Donuts/2775131": {
+      "name": "Donuts",
+      "rating": 3.0,
+      "n": 1,
+      "min": 188,
+      "yld": "6 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Empanadas/2775124": {
+      "name": "Empanadas",
+      "min": 40,
+      "yld": "4 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Escalopes%20de%20poulet%20pan%C3%A9es/2767324": {
+      "name": "Escalopes de poulet panées",
+      "rating": 3.3,
+      "n": 4,
+      "min": 35,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Fish%20and%20chips/2599238": {
+      "name": "Fish and chips",
+      "rating": 4.5,
+      "n": 2,
+      "min": 65,
+      "yld": "4 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Flan+patissier/2977061": {
+      "name": "Flan patissier",
+      "min": 45,
+      "yld": "6 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Frites%20fra%C3%AEches%20maison%20croustillantes/2835355": {
+      "name": "Frites fraîches maison croustillantes",
+      "rating": 4.5,
+      "n": 4,
+      "min": 91,
+      "yld": "4 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/L%C3%A9gumes+r%C3%B4tis/3092283": {
+      "name": "Légumes rôtis",
+      "min": 50,
+      "yld": "4 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Muffins%20aux%20p%C3%A9pites%20de%20chocolat/2450153": {
+      "name": "Muffins aux pépites de chocolat",
+      "rating": 5.0,
+      "n": 22,
+      "min": 35,
+      "yld": "6 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Nuggets%20de%20poulet/2775386": {
+      "name": "Nuggets de poulet",
+      "rating": 5.0,
+      "n": 1,
+      "min": 34,
+      "yld": "4 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Ratatouille/2809328": {
+      "name": "Ratatouille",
+      "min": 45,
+      "yld": "3 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Saumon%20laqu%C3%A9%20Teriyaki/2448234": {
+      "name": "Saumon laqué Teriyaki",
+      "min": 58,
+      "yld": "6 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/aubergine-croustillantes/3009277": {
+      "name": "Aubergine croustillantes",
+      "min": 50,
+      "yld": "3 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/beignets-de-courgette/2889131": {
+      "name": "Beignets de courgette",
+      "rating": 5.0,
+      "n": 2,
+      "min": 35,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/brochettes-de-poulet-aux-poivrons/2599257": {
+      "name": "Brochettes de poulet aux poivrons",
+      "rating": 5.0,
+      "n": 2,
+      "min": 28,
+      "yld": "4 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/champignons-rotis/2625117": {
+      "name": "Champignons rôtis",
+      "min": 35,
+      "yld": "6 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/chicken-wings/2775316": {
+      "name": "Chicken wings",
+      "rating": 4.5,
+      "n": 4,
+      "min": 752,
+      "yld": "6 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/chips-de-courgettes-panees/2767281": {
+      "name": "Chips de courgettes panées",
+      "rating": 5.0,
+      "n": 4,
+      "min": 20,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/cookies-chocolat/2764724": {
+      "name": "Cookies chocolat",
+      "rating": 4.7,
+      "n": 19,
+      "min": 40,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/crevettes-panees-sauce-aigre-douce/2765831": {
+      "name": "Crevettes panées sauce aigre douce",
+      "rating": 4.4,
+      "n": 3,
+      "min": 33,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/croque-monsieur/2939610": {
+      "name": "Croque-monsieur",
+      "rating": 5.0,
+      "n": 2,
+      "min": 13,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/filets-de-porc/2791402": {
+      "name": "Filets de porc",
+      "rating": 4.8,
+      "n": 4,
+      "min": 45,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/fondant-au-chocolat/2753818": {
+      "name": "Fondant au chocolat",
+      "rating": 5.0,
+      "n": 6,
+      "min": 28,
+      "yld": "8 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/frites-au-paprika/3076499": {
+      "name": "Frites au paprika",
+      "rating": 5.0,
+      "n": 1,
+      "min": 35,
+      "yld": "4 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/frites-maison/2813245": {
+      "name": "Frites maison",
+      "rating": 3.0,
+      "n": 1,
+      "min": 55,
+      "yld": "6 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/gratin-de-courgettes/2456776": {
+      "name": "Gratin de courgettes",
+      "rating": 4.5,
+      "n": 7,
+      "min": 40,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/magrets-de-canard/2856675": {
+      "name": "Magrets de canard",
+      "rating": 5.0,
+      "n": 1,
+      "min": 1205,
+      "yld": "4 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/poivrons-grilles-a-litalienne/2458647": {
+      "name": "Poivrons grillés à l'italienne",
+      "rating": 4.5,
+      "n": 2,
+      "min": 35,
+      "yld": "6 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/pomme-de-terre-grenaille-airfryer/2929344": {
+      "name": "Pomme de terre grenaille airfryer",
+      "rating": 5.0,
+      "n": 1,
+      "min": 30,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/pommes-de-terre-roties/2795564": {
+      "name": "Pommes de terre rôties",
+      "rating": 4.6,
+      "n": 16,
+      "min": 40,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/potatoes-de-patate-douce/2791618": {
+      "name": "Potatoes de patate douce",
+      "rating": 4.8,
+      "n": 4,
+      "min": 50,
+      "yld": "2 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/quiche-lorraine/2777949": {
+      "name": "Quiche lorraine",
+      "min": 53,
+      "yld": "6 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/roti-de-b%C5%93uf-et-pommes-de-terre/2779108": {
+      "name": "Rôti de bœuf et pommes de terre",
+      "rating": 4.3,
+      "n": 4,
+      "min": 80,
+      "yld": "4 pers."
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/tian-de-legumes-dete/2931431": {
+      "name": "Tian de légumes d'été",
+      "rating": 4.5,
+      "n": 2,
+      "min": 95,
+      "yld": "2 pers."
+    }
+  }
 }

@@ -770,4 +770,11 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 
 .ing li.ing-head{cursor:default;border-bottom:none;padding:12px 4px 2px;font-size:.78em;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--accent)}
 
-.d-links a.official{border-color:#7cb342;color:#cde8a6}
+.d-variant-tabs{flex-wrap:wrap}
+.d-variant-tab{min-width:30%}
+.d-variant-tab.off:not(.active){border-color:#7cb342;color:#cde8a6}
+.off-card{border:1px solid #7cb342;border-radius:14px;padding:16px;margin:6px 0 18px;background:var(--card)}
+.off-kind{font-size:.85em;color:#cde8a6;font-weight:700;margin-bottom:6px}
+.off-name{font-size:1.25em;font-weight:800;margin-bottom:8px}
+.off-note{color:var(--muted);font-size:.92em;line-height:1.4;margin:10px 0 14px}
+.off-open{display:block;text-align:center;padding:12px;border-radius:12px;background:#7cb342;color:#fff;font-weight:800;text-decoration:none}
