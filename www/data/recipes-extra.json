@@ -24757,6 +24757,723 @@
       "url": "https://www.cookomix.com/recettes/soupe-froide-poivrons-rouges-thermomix/",
       "vid": "",
       "pair": "soupe:005"
+    },
+    {
+      "id": "stjacques:001",
+      "t": "Saint-Jacques Poêlées, Beurre et Persil",
+      "cat": "Plat, Fruits de mer, Saint-Jacques",
+      "min": 15,
+      "serv": 4,
+      "img": "img/new2/sj1.jpg",
+      "desc": "Le classique : noix saisies au beurre, ail et persil, un trait de citron.",
+      "ing": [
+        "16 noix de Saint-Jacques",
+        "50 g de beurre",
+        "1 gousse d'ail",
+        "1 bouquet de persil plat",
+        "1 citron",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Sortir les noix de Saint-Jacques du réfrigérateur 15 min avant, les sécher soigneusement sur du papier absorbant.",
+        "Hacher finement l'ail et le persil.",
+        "Chauffer 20 g de beurre dans une grande poêle à feu vif. Saisir les noix 1 min 30 à 2 min par face sans les toucher, jusqu'à belle coloration. Réserver.",
+        "Baisser le feu, ajouter le reste du beurre, l'ail et le persil, laisser mousser 1 min.",
+        "Remettre les noix, arroser de beurre persillé, saler, poivrer, ajouter un filet de jus de citron. Servir aussitôt avec des quartiers de citron."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "stjacques:002",
+      "t": "Saint-Jacques Poêlées, Crème et Vin Blanc",
+      "cat": "Plat, Fruits de mer, Saint-Jacques",
+      "min": 20,
+      "serv": 4,
+      "img": "img/new2/sj2.jpg",
+      "desc": "Noix dorées nappées d'une sauce crème-vin blanc à l'échalote.",
+      "ing": [
+        "16 noix de Saint-Jacques",
+        "20 cl de crème liquide",
+        "10 cl de vin blanc sec",
+        "1 échalote",
+        "30 g de beurre",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Sortir les noix de Saint-Jacques du réfrigérateur 15 min avant, les sécher soigneusement sur du papier absorbant.",
+        "Saisir les noix dans 15 g de beurre bien chaud, 1 min 30 à 2 min par face. Réserver au chaud.",
+        "Dans la même poêle, faire fondre l'échalote ciselée dans le reste du beurre 2 min.",
+        "Déglacer au vin blanc et laisser réduire de moitié.",
+        "Ajouter la crème, saler, poivrer et laisser épaissir 3 à 4 min à feu doux.",
+        "Remettre les noix 30 s dans la sauce et servir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "stjacques:003",
+      "t": "Saint-Jacques Poêlées, Sauce au Safran",
+      "cat": "Plat, Fruits de mer, Saint-Jacques",
+      "min": 25,
+      "serv": 4,
+      "img": "img/new2/sj3.jpg",
+      "desc": "Noix de Saint-Jacques et sauce crémeuse au safran, pour les grandes occasions.",
+      "ing": [
+        "16 noix de Saint-Jacques",
+        "20 cl de crème liquide",
+        "1 dose de pistils de safran",
+        "1 échalote",
+        "10 cl de vin blanc",
+        "30 g de beurre",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Faire infuser le safran dans la crème tiède pendant 10 min.",
+        "Sortir les noix de Saint-Jacques du réfrigérateur 15 min avant, les sécher soigneusement sur du papier absorbant.",
+        "Saisir les noix dans 15 g de beurre bien chaud, 1 min 30 à 2 min par face. Réserver.",
+        "Faire suer l'échalote ciselée dans le reste du beurre, déglacer au vin blanc et réduire de moitié.",
+        "Verser la crème safranée, saler, poivrer, laisser réduire 3 à 4 min.",
+        "Napper les assiettes de sauce, déposer les noix et servir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "stjacques:004",
+      "t": "Saint-Jacques Poêlées, Beurre d'Agrumes",
+      "cat": "Plat, Fruits de mer, Saint-Jacques",
+      "min": 15,
+      "serv": 4,
+      "img": "img/new2/sj4.jpg",
+      "desc": "Un beurre orange-citron-miel tout simple qui relève la douceur des noix.",
+      "ing": [
+        "16 noix de Saint-Jacques",
+        "60 g de beurre",
+        "1 orange (jus et zeste)",
+        "1/2 citron",
+        "1 c. à café de miel",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Prélever le zeste de l'orange et presser l'orange et le demi-citron.",
+        "Sortir les noix de Saint-Jacques du réfrigérateur 15 min avant, les sécher soigneusement sur du papier absorbant.",
+        "Saisir les noix dans 20 g de beurre bien chaud, 1 min 30 à 2 min par face. Réserver.",
+        "Dans la poêle, verser les jus et le miel, laisser réduire 2 min.",
+        "Hors du feu, incorporer le reste du beurre en morceaux en fouettant, ajouter le zeste, saler, poivrer.",
+        "Arroser les noix de beurre d'agrumes et servir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "stjacques:005",
+      "t": "Saint-Jacques Poêlées, Chorizo et Purée de Panais",
+      "cat": "Plat, Fruits de mer, Saint-Jacques",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new2/sj5.jpg",
+      "desc": "Purée de panais onctueuse, chorizo croustillant et noix juste saisies.",
+      "ing": [
+        "16 noix de Saint-Jacques",
+        "80 g de chorizo doux en fines tranches",
+        "500 g de panais",
+        "20 cl de lait",
+        "30 g de beurre",
+        "Sel, poivre, 1 pincée de muscade"
+      ],
+      "steps": [
+        "Éplucher les panais, les couper en morceaux et les cuire 20 min dans le lait (compléter d'eau à hauteur) jusqu'à ce qu'ils soient tendres.",
+        "Égoutter en gardant un peu de lait, mixer avec 20 g de beurre et le lait nécessaire. Saler, poivrer, ajouter la muscade. Garder au chaud.",
+        "Faire griller les tranches de chorizo à sec dans une poêle 1 à 2 min ; réserver sur du papier absorbant en gardant le gras dans la poêle.",
+        "Sortir les noix de Saint-Jacques du réfrigérateur 15 min avant, les sécher soigneusement sur du papier absorbant.",
+        "Saisir les noix dans le gras du chorizo et le reste du beurre, 1 min 30 à 2 min par face.",
+        "Dresser la purée, déposer les noix et le chorizo croustillant."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "asie:031",
+      "t": "Petits Pains Farcis à la Viande Poêlés (Pan-Fried Meat Buns)",
+      "cat": "Asie, Plat, Apéritif, Viande",
+      "min": 50,
+      "serv": "8 pains",
+      "img": "img/new2/bun1.jpg",
+      "desc": "Petits pains moelleux à la pâte au yaourt (sans levure), farcis de viande, carotte et oignon nouveau, dorés à la poêle puis cuits à la vapeur.",
+      "ing": [
+        "Farce : 100 g de viande hachée, 40 g d'oignon nouveau haché, 1 petite carotte en julienne, 1 cm de gingembre râpé, 1 gousse d'ail râpée, 1 c. à soupe de sauce d'huître, 1 c. à soupe d'eau, 1/2 c. à soupe d'huile de sésame, 1/4 c. à café de sucre",
+        "Pâte : 130 g de farine, 30 g de fécule de maïs, 1/2 c. à café de levure chimique, 1/4 c. à café de sel, 125 g de yaourt nature non sucré",
+        "Huile pour la cuisson"
+      ],
+      "steps": [
+        "Farce : mélanger la viande, l'oignon nouveau, la carotte, le gingembre, l'ail, la sauce d'huître, l'eau, l'huile de sésame et le sucre. Réserver.",
+        "Pâte : fouetter la farine, la fécule, la levure et le sel, ajouter le yaourt et mélanger jusqu'à obtenir une pâte souple.",
+        "Pétrir 3 à 4 min sur un plan fariné jusqu'à ce qu'elle soit lisse, couvrir et laisser reposer 15 à 20 min.",
+        "Diviser en parts égales, aplatir chaque boule, garnir de farce, refermer en pinçant bien les bords.",
+        "Chauffer un peu d'huile dans une poêle à feu moyen, poser les pains soudure en dessous et dorer le fond.",
+        "Ajouter 2 à 3 c. à soupe d'eau, couvrir et cuire 8 à 10 min à feu doux.",
+        "Retirer le couvercle et cuire encore 2 à 3 min pour qu'ils redeviennent croustillants. Servir chaud avec une sauce soja.",
+        "Astuce : une pincée de poivre blanc ou de piment dans la farce pour plus de goût."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "polpette:001",
+      "t": "Polpette di Zucca (Boulettes de Courge)",
+      "cat": "Italie, Plat, Automne, Courge, Légumes, Végétarien",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new2/pol1.jpg",
+      "desc": "Polpette d'automne, recette italienne de saison : boulettes dorées au four.",
+      "ing": [
+        "400 g de courge cuite et écrasée",
+        "80 g de parmesan râpé",
+        "100 g de chapelure",
+        "1 œuf",
+        "Sauge",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Mélanger tous les ingrédients dans un saladier jusqu'à obtenir une pâte homogène qui se tient (ajouter un peu de chapelure si elle colle trop).",
+        "Former des boulettes de la taille d'une noix avec les mains humides.",
+        "Les disposer sur une plaque couverte de papier cuisson, arroser d'un filet d'huile d'olive.",
+        "Cuire 20 à 25 min au four à 200 °C en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées (ou les dorer à la poêle dans un peu d'huile)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "polpette:002",
+      "t": "Polpette di Funghi (Boulettes aux Champignons)",
+      "cat": "Italie, Plat, Automne, Champignon, Légumes, Végétarien",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new2/pol2.jpg",
+      "desc": "Polpette d'automne, recette italienne de saison : boulettes dorées au four.",
+      "ing": [
+        "300 g de champignons variés",
+        "400 g de pommes de terre cuites à l'eau",
+        "60 g de parmesan râpé",
+        "80 g de chapelure",
+        "1 œuf",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Émincer les champignons et les faire revenir 8 à 10 min à la poêle dans un filet d'huile d'olive jusqu'à évaporation de leur eau ; les hacher grossièrement.",
+        "Écraser les pommes de terre en purée.",
+        "Mélanger tous les ingrédients dans un saladier jusqu'à obtenir une pâte homogène qui se tient (ajouter un peu de chapelure si elle colle trop).",
+        "Former des boulettes de la taille d'une noix avec les mains humides.",
+        "Les disposer sur une plaque couverte de papier cuisson, arroser d'un filet d'huile d'olive.",
+        "Cuire 20 à 25 min au four à 200 °C en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées (ou les dorer à la poêle dans un peu d'huile)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "polpette:003",
+      "t": "Polpette di Castagne (Boulettes de Châtaignes)",
+      "cat": "Italie, Plat, Automne, Légumes, Végétarien",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new2/pol3.jpg",
+      "desc": "Polpette d'automne, recette italienne de saison : boulettes dorées au four.",
+      "ing": [
+        "200 g de châtaignes cuites",
+        "250 g de ricotta",
+        "50 g de parmesan râpé",
+        "80 g de chapelure",
+        "1 œuf",
+        "Noix de muscade",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Écraser grossièrement les châtaignes.",
+        "Mélanger tous les ingrédients dans un saladier jusqu'à obtenir une pâte homogène qui se tient (ajouter un peu de chapelure si elle colle trop).",
+        "Former des boulettes de la taille d'une noix avec les mains humides.",
+        "Les disposer sur une plaque couverte de papier cuisson, arroser d'un filet d'huile d'olive.",
+        "Cuire 20 à 25 min au four à 200 °C en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées (ou les dorer à la poêle dans un peu d'huile)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "polpette:004",
+      "t": "Polpette di Zucca e Scamorza (Courge et Scamorza)",
+      "cat": "Italie, Plat, Automne, Courge, Légumes, Végétarien",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new2/pol4.jpg",
+      "desc": "Polpette d'automne, recette italienne de saison : boulettes dorées au four.",
+      "ing": [
+        "400 g de courge cuite et écrasée",
+        "150 g de scamorza en petits cubes",
+        "50 g de parmesan râpé",
+        "100 g de chapelure",
+        "1 œuf",
+        "Sauge",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Mélanger tous les ingrédients dans un saladier jusqu'à obtenir une pâte homogène qui se tient (ajouter un peu de chapelure si elle colle trop).",
+        "Former des boulettes de la taille d'une noix avec les mains humides.",
+        "Les disposer sur une plaque couverte de papier cuisson, arroser d'un filet d'huile d'olive.",
+        "Cuire 20 à 25 min au four à 200 °C en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées (ou les dorer à la poêle dans un peu d'huile)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "polpette:005",
+      "t": "Polpette di Cavolfiore (Boulettes de Chou-fleur)",
+      "cat": "Italie, Plat, Automne, Chou-fleur, Légumes, Végétarien",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new2/pol5.jpg",
+      "desc": "Polpette d'automne, recette italienne de saison : boulettes dorées au four.",
+      "ing": [
+        "500 g de chou-fleur cuit",
+        "70 g de parmesan râpé",
+        "100 g de chapelure",
+        "2 œufs",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Égoutter soigneusement le légume cuit et l'écraser à la fourchette.",
+        "Mélanger tous les ingrédients dans un saladier jusqu'à obtenir une pâte homogène qui se tient (ajouter un peu de chapelure si elle colle trop).",
+        "Former des boulettes de la taille d'une noix avec les mains humides.",
+        "Les disposer sur une plaque couverte de papier cuisson, arroser d'un filet d'huile d'olive.",
+        "Cuire 20 à 25 min au four à 200 °C en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées (ou les dorer à la poêle dans un peu d'huile)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "polpette:006",
+      "t": "Polpette di Lenticchie (Boulettes de Lentilles)",
+      "cat": "Italie, Plat, Automne, Légumes, Végétarien",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new2/pol6.jpg",
+      "desc": "Polpette d'automne, recette italienne de saison : boulettes dorées au four.",
+      "ing": [
+        "300 g de lentilles cuites",
+        "200 g de champignons",
+        "50 g de parmesan râpé",
+        "80 g de chapelure",
+        "1 œuf",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Émincer les champignons et les faire revenir 8 à 10 min à la poêle dans un filet d'huile d'olive jusqu'à évaporation de leur eau ; les hacher grossièrement.",
+        "Mélanger tous les ingrédients dans un saladier jusqu'à obtenir une pâte homogène qui se tient (ajouter un peu de chapelure si elle colle trop).",
+        "Former des boulettes de la taille d'une noix avec les mains humides.",
+        "Les disposer sur une plaque couverte de papier cuisson, arroser d'un filet d'huile d'olive.",
+        "Cuire 20 à 25 min au four à 200 °C en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées (ou les dorer à la poêle dans un peu d'huile)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "polpette:007",
+      "t": "Polpette di Patate e Radicchio (Pommes de Terre et Trévise)",
+      "cat": "Italie, Plat, Automne, Légumes, Végétarien",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new2/pol7.jpg",
+      "desc": "Polpette d'automne, recette italienne de saison : boulettes dorées au four.",
+      "ing": [
+        "400 g de pommes de terre cuites à l'eau",
+        "200 g de trévise (radicchio)",
+        "70 g de parmesan râpé",
+        "80 g de chapelure",
+        "1 œuf",
+        "Noix de muscade",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Émincer la trévise et la faire fondre 5 min à la poêle avec un filet d'huile d'olive.",
+        "Écraser les pommes de terre en purée.",
+        "Mélanger tous les ingrédients dans un saladier jusqu'à obtenir une pâte homogène qui se tient (ajouter un peu de chapelure si elle colle trop).",
+        "Former des boulettes de la taille d'une noix avec les mains humides.",
+        "Les disposer sur une plaque couverte de papier cuisson, arroser d'un filet d'huile d'olive.",
+        "Cuire 20 à 25 min au four à 200 °C en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées (ou les dorer à la poêle dans un peu d'huile)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "polpette:008",
+      "t": "Polpette di Broccoli (Boulettes de Brocoli)",
+      "cat": "Italie, Plat, Automne, Brocoli, Légumes, Végétarien",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new2/pol8.jpg",
+      "desc": "Polpette d'automne, recette italienne de saison : boulettes dorées au four.",
+      "ing": [
+        "400 g de brocoli cuit",
+        "200 g de ricotta",
+        "60 g de parmesan râpé",
+        "100 g de chapelure",
+        "1 œuf",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Égoutter soigneusement le légume cuit et l'écraser à la fourchette.",
+        "Mélanger tous les ingrédients dans un saladier jusqu'à obtenir une pâte homogène qui se tient (ajouter un peu de chapelure si elle colle trop).",
+        "Former des boulettes de la taille d'une noix avec les mains humides.",
+        "Les disposer sur une plaque couverte de papier cuisson, arroser d'un filet d'huile d'olive.",
+        "Cuire 20 à 25 min au four à 200 °C en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées (ou les dorer à la poêle dans un peu d'huile)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "polpette:009",
+      "t": "Polpette di Carne e Funghi (Viande et Champignons)",
+      "cat": "Italie, Plat, Automne, Bœuf, Viande",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new2/pol9.jpg",
+      "desc": "Polpette d'automne, recette italienne de saison : boulettes dorées au four.",
+      "ing": [
+        "400 g de bœuf haché",
+        "150 g de champignons",
+        "100 g de châtaignes cuites",
+        "Parmesan râpé",
+        "Chapelure",
+        "1 œuf",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Émincer les champignons et les faire revenir 8 à 10 min à la poêle dans un filet d'huile d'olive jusqu'à évaporation de leur eau ; les hacher grossièrement.",
+        "Hacher les châtaignes.",
+        "Mélanger tous les ingrédients dans un saladier jusqu'à obtenir une pâte homogène qui se tient (ajouter un peu de chapelure si elle colle trop).",
+        "Former des boulettes de la taille d'une noix avec les mains humides.",
+        "Les disposer sur une plaque couverte de papier cuisson, arroser d'un filet d'huile d'olive.",
+        "Cuire 20 à 25 min au four à 200 °C en les retournant à mi-cuisson, jusqu'à ce qu'elles soient dorées (ou les dorer à la poêle dans un peu d'huile)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:001",
+      "t": "Pain de Mie Maison (White Sandwich Bread)",
+      "cat": "Boulangerie, Pain",
+      "min": 190,
+      "serv": "1 pain",
+      "img": "img/new2/hb1.jpg",
+      "desc": "Pain maison, recette « Homemade & Holiday Bread ».",
+      "ing": [
+        "500 g de farine de force (T45/T55)",
+        "300 ml de lait tiède",
+        "7 g de levure boulangère instantanée",
+        "25 g de sucre",
+        "9 g de sel",
+        "45 g de beurre mou"
+      ],
+      "steps": [
+        "Mélanger la farine, le sucre et la levure, ajouter le lait tiède puis le sel.",
+        "Pétrir 10 min, incorporer le beurre mou et pétrir encore 5 min jusqu'à obtenir une pâte lisse et souple.",
+        "Laisser lever 1 h à 1 h 30 à couvert, jusqu'à ce qu'elle double.",
+        "Dégazer, façonner en boudin et placer dans un moule à cake beurré. Laisser lever 45 min à 1 h.",
+        "Cuire 30 à 35 min à 180 °C. Démouler et laisser refroidir sur une grille avant de trancher."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:002",
+      "t": "Pain Brioché (Brioche Bread)",
+      "cat": "Dessert, Viennoiserie, Petit-déjeuner",
+      "min": 210,
+      "serv": "1 pain",
+      "img": "img/new2/hb2.jpg",
+      "desc": "Pain maison, recette « Homemade & Holiday Bread ».",
+      "ing": [
+        "440 g de farine de force",
+        "7 g de levure boulangère instantanée",
+        "50 g de sucre",
+        "6 g de sel",
+        "4 gros œufs",
+        "60 ml de lait tiède",
+        "113 g de beurre mou"
+      ],
+      "steps": [
+        "Mélanger la farine, le sucre, la levure et le sel, ajouter les œufs et le lait tiède.",
+        "Pétrir 10 min, puis incorporer le beurre mou petit à petit et pétrir encore 8 à 10 min jusqu'à ce que la pâte se décolle des parois.",
+        "Laisser lever 1 h 30 à couvert (ou une nuit au réfrigérateur pour une mie plus fine).",
+        "Diviser en 3 boules, les placer côte à côte dans un moule à cake beurré, laisser lever 1 h.",
+        "Dorer à l'œuf battu et cuire 30 à 35 min à 175 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:003",
+      "t": "Pain Sans Pétrissage (No-Knead Bread)",
+      "cat": "Boulangerie, Pain",
+      "min": 1140,
+      "serv": "1 pain",
+      "img": "img/new2/hb3.jpg",
+      "desc": "Pain maison, recette « Homemade & Holiday Bread ».",
+      "ing": [
+        "375 g de farine",
+        "360 ml d'eau tiède",
+        "1,5 g de levure boulangère instantanée",
+        "9 g de sel"
+      ],
+      "steps": [
+        "Mélanger tous les ingrédients à la cuillère jusqu'à ce qu'il ne reste plus de farine sèche : pas besoin de pétrir.",
+        "Couvrir et laisser reposer 12 à 18 h à température ambiante.",
+        "Verser la pâte sur un plan fariné, la replier sur elle-même pour former une boule, laisser reposer 30 min.",
+        "Préchauffer le four à 240 °C avec une cocotte en fonte et son couvercle.",
+        "Déposer la boule dans la cocotte brûlante, couvrir et cuire 30 min, puis découvrir et cuire 10 à 15 min jusqu'à ce que la croûte soit bien dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:004",
+      "t": "Petits Pains au Miel et au Beurre (Honey Butter Dinner Rolls)",
+      "cat": "Boulangerie, Pain",
+      "min": 150,
+      "serv": "12 petits pains",
+      "img": "img/new2/hb4.jpg",
+      "desc": "Pain maison, recette « Homemade & Holiday Bread ».",
+      "ing": [
+        "375 g de farine",
+        "180 ml de lait tiède",
+        "7 g de levure boulangère instantanée",
+        "38 g de sucre",
+        "1 gros œuf",
+        "57 g de beurre doux fondu",
+        "6 g de sel",
+        "42 g de miel"
+      ],
+      "steps": [
+        "Mélanger la farine, le sucre, la levure et le sel. Ajouter le lait tiède, l'œuf et la moitié du beurre fondu.",
+        "Pétrir 8 à 10 min jusqu'à ce que la pâte soit lisse, laisser lever 1 h à couvert.",
+        "Diviser en 12 boules, les serrer dans un plat beurré et laisser lever 45 min.",
+        "Cuire 18 à 20 min à 180 °C.",
+        "Mélanger le reste du beurre fondu avec le miel et en badigeonner les petits pains à la sortie du four."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:005",
+      "t": "Pain à Effeuiller Ail et Parmesan (Garlic Parmesan Pull-Apart)",
+      "cat": "Boulangerie, Pain, Apéritif",
+      "min": 140,
+      "serv": "1 pain",
+      "img": "img/new2/hb5.jpg",
+      "desc": "Pain maison, recette « Homemade & Holiday Bread ».",
+      "ing": [
+        "345 g de farine",
+        "180 ml de lait tiède",
+        "7 g de levure boulangère instantanée",
+        "25 g de sucre",
+        "1 gros œuf",
+        "42 g de beurre doux fondu",
+        "6 g de sel",
+        "4 gousses d'ail hachées",
+        "75 g de parmesan râpé",
+        "115 g de mozzarella râpée",
+        "8 g de persil haché"
+      ],
+      "steps": [
+        "Mélanger la farine, le sucre, la levure et le sel, ajouter le lait tiède, l'œuf et 20 g de beurre fondu. Pétrir 8 à 10 min.",
+        "Laisser lever 1 h à couvert.",
+        "Mélanger le reste du beurre fondu avec l'ail et le persil ; mélanger parmesan et mozzarella.",
+        "Étaler la pâte en rectangle, la badigeonner de beurre à l'ail, parsemer de fromages, découper en carrés et les empiler debout dans un moule à cake beurré.",
+        "Laisser lever 40 min, puis cuire 30 à 35 min à 180 °C (couvrir d'aluminium si le dessus colore trop vite)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:006",
+      "t": "Pain Roulé Cannelle, Noix de Pécan et Sirop d'Érable",
+      "cat": "Dessert, Viennoiserie, Petit-déjeuner",
+      "min": 160,
+      "serv": "1 pain",
+      "img": "img/new2/hb6.jpg",
+      "desc": "Pain maison, recette « Homemade & Holiday Bread ».",
+      "ing": [
+        "375 g de farine",
+        "180 ml de lait tiède",
+        "7 g de levure boulangère instantanée",
+        "50 g de sucre",
+        "1 gros œuf",
+        "57 g de beurre doux fondu",
+        "6 g de sel",
+        "110 g de cassonade",
+        "1,5 c. à café de cannelle",
+        "85 g de noix de pécan hachées",
+        "30 ml de sirop d'érable"
+      ],
+      "steps": [
+        "Mélanger la farine, le sucre, la levure et le sel, ajouter le lait tiède, l'œuf et la moitié du beurre fondu. Pétrir 8 à 10 min et laisser lever 1 h.",
+        "Mélanger la cassonade, la cannelle et les noix de pécan.",
+        "Étaler la pâte en rectangle, badigeonner du reste de beurre, parsemer du mélange cannelle-pécan et rouler serré.",
+        "Placer dans un moule à cake beurré, laisser lever 45 min.",
+        "Cuire 35 à 40 min à 175 °C. Napper de sirop d'érable à la sortie du four."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jarret:001",
+      "t": "Jarret de Porc Braisé au Cidre et aux Pommes",
+      "cat": "Plat, Viande, Porc",
+      "min": 180,
+      "serv": 4,
+      "img": "img/new2/jar1.jpg",
+      "desc": "Jarret braisé, cuisson lente pour une viande qui se détache de l'os.",
+      "ing": [
+        "2 jarrets de porc",
+        "2 oignons",
+        "2 pommes",
+        "25 cl de cidre brut",
+        "2 gousses d'ail",
+        "1 branche de thym",
+        "1 feuille de laurier",
+        "1 c. à soupe d'huile",
+        "1 pincée de sel",
+        "1 pincée de poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C. Saler et poivrer les jarrets.",
+        "Dans une cocotte, dorer les jarrets sur toutes les faces dans l'huile, 8 à 10 min. Réserver.",
+        "Faire revenir les oignons émincés et l'ail 3 min.",
+        "Remettre les jarrets, verser le cidre, ajouter le thym et le laurier. Couvrir et enfourner 2 h 30, en arrosant de temps en temps.",
+        "Ajouter les pommes en quartiers et poursuivre 30 min à découvert, jusqu'à ce que la viande se détache de l'os."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jarret:002",
+      "t": "Jarret de Veau Braisé aux Carottes et au Vin Blanc",
+      "cat": "Plat, Viande, Veau",
+      "min": 180,
+      "serv": 4,
+      "img": "img/new2/jar2.jpg",
+      "desc": "Jarret braisé, cuisson lente pour une viande qui se détache de l'os.",
+      "ing": [
+        "2 jarrets de veau",
+        "4 carottes",
+        "2 oignons",
+        "25 cl de vin blanc sec",
+        "20 cl de bouillon de volaille",
+        "2 gousses d'ail",
+        "1 bouquet garni",
+        "1 c. à soupe de farine",
+        "1 pincée de sel",
+        "1 pincée de poivre"
+      ],
+      "steps": [
+        "Saler, poivrer et fariner légèrement les jarrets.",
+        "Les dorer dans une cocotte avec un filet d'huile, 8 à 10 min. Réserver.",
+        "Faire revenir les oignons émincés et l'ail 3 min, saupoudrer du reste de farine.",
+        "Déglacer au vin blanc, ajouter le bouillon, le bouquet garni, les carottes en tronçons et les jarrets.",
+        "Couvrir et laisser mijoter 2 h à feu doux (ou au four à 160 °C), jusqu'à ce que la viande soit fondante."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jarret:003",
+      "t": "Jarret d'Agneau Braisé aux Coings et au Miel",
+      "cat": "Plat, Viande, Agneau",
+      "min": 180,
+      "serv": 4,
+      "img": "img/new2/jar3.jpg",
+      "desc": "Jarret braisé, cuisson lente pour une viande qui se détache de l'os.",
+      "ing": [
+        "2 jarrets d'agneau",
+        "2 coings",
+        "1 oignon",
+        "2 c. à soupe de miel",
+        "20 cl de bouillon de volaille",
+        "1 bâton de cannelle",
+        "2 gousses d'ail",
+        "1 pincée de sel",
+        "1 pincée de poivre"
+      ],
+      "steps": [
+        "Saler, poivrer les jarrets et les dorer dans une cocotte avec un filet d'huile, 8 à 10 min. Réserver.",
+        "Faire revenir l'oignon émincé et l'ail 3 min.",
+        "Remettre les jarrets, ajouter le bouillon, la cannelle et le miel. Couvrir et mijoter 1 h 30 à feu doux.",
+        "Peler et couper les coings en quartiers, les ajouter et poursuivre 45 min à 1 h, jusqu'à ce que la viande se détache de l'os et que les coings soient fondants.",
+        "Laisser réduire la sauce quelques minutes à découvert si besoin."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jarret:004",
+      "t": "Jarret de Bœuf Braisé au Vin Rouge et aux Champignons",
+      "cat": "Plat, Viande, Bœuf",
+      "min": 180,
+      "serv": 4,
+      "img": "img/new2/jar4.jpg",
+      "desc": "Jarret braisé, cuisson lente pour une viande qui se détache de l'os.",
+      "ing": [
+        "2 jarrets de bœuf",
+        "250 g de champignons de Paris",
+        "2 oignons",
+        "50 cl de vin rouge",
+        "2 carottes",
+        "1 bouquet garni",
+        "1 c. à soupe de farine",
+        "1 pincée de sel",
+        "1 pincée de poivre"
+      ],
+      "steps": [
+        "Saler, poivrer et fariner les jarrets, les dorer dans une cocotte avec un filet d'huile. Réserver.",
+        "Faire revenir les oignons émincés et les carottes en rondelles 5 min.",
+        "Remettre la viande, verser le vin rouge, ajouter le bouquet garni et compléter d'eau à hauteur si besoin.",
+        "Couvrir et laisser mijoter 3 h à feu très doux.",
+        "Faire sauter les champignons émincés à la poêle et les ajouter 20 min avant la fin. Servir avec la sauce réduite."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jarret:005",
+      "t": "Jarret de Porc Laqué au Miel et aux Épices Douces",
+      "cat": "Plat, Viande, Porc, Asie",
+      "min": 180,
+      "serv": 4,
+      "img": "img/new2/jar5.jpg",
+      "desc": "Jarret braisé, cuisson lente pour une viande qui se détache de l'os.",
+      "ing": [
+        "2 jarrets de porc",
+        "3 c. à soupe de miel",
+        "2 c. à soupe de sauce soja",
+        "1 c. à café de cinq-épices",
+        "2 gousses d'ail",
+        "1 morceau de gingembre frais",
+        "20 cl de bouillon de volaille",
+        "1 pincée de sel",
+        "1 pincée de poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 160 °C. Mélanger le miel, la sauce soja, le cinq-épices, l'ail et le gingembre râpés.",
+        "Saler, poivrer les jarrets et les dorer dans une cocotte avec un filet d'huile.",
+        "Verser le bouillon et la moitié du mélange au miel, couvrir et enfourner 2 h 30.",
+        "Découvrir, badigeonner du reste de laque et cuire encore 30 min à 200 °C en arrosant toutes les 10 min, jusqu'à ce que les jarrets soient bien laqués."
+      ],
+      "url": "",
+      "vid": ""
     }
   ],
   "official": {
