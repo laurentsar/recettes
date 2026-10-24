@@ -108,7 +108,8 @@
     },
     {
       "id": "dropbox:1840362069",
-      "img": "img/illus/dropbox-1840362069.jpg"
+      "img": "img/illus/dropbox-1840362069.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r703940"
     },
     {
       "id": "dropbox:10655386",
@@ -161,7 +162,8 @@
       "id": "italie:006",
       "url": "https://www.recipetineats.com/minestrone-soup/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Minestrone_soup.jpg/500px-Minestrone_soup.jpg",
-      "cat": "Italie, Soupe, Entrée"
+      "cat": "Italie, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54111"
     },
     {
       "id": "italie:007",
@@ -215,19 +217,22 @@
       ],
       "steps": "Dissoudre le safran dans 3 c. à soupe de bouillon chaud. Faire revenir l'oignon émincé dans la moitié du beurre à feu doux 5 min. Ajouter le riz, nacrer 2 min. Déglacer au vin blanc, remuer jusqu'à absorption. Ajouter le bouillon chaud louche par louche en remuant constamment — ajouter la suivante seulement quand la précédente est absorbée. À mi-cuisson (10 min), incorporer le safran dissous. Cuire encore 8-10 min. Hors du feu, mantecatura : incorporer le reste du beurre froid et le parmesan en remuant vigoureusement. Couvrir 2 min. Servir \"all'onda\" — le risotto doit être fluide et ondulant.",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg/500px-Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg",
-      "cat": "Italie, Riz, Risotto, Plat"
+      "cat": "Italie, Riz, Risotto, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r709545"
     },
     {
       "id": "italie:016",
       "url": "https://food52.com/recipes/77867-porcini-mushroom-risotto",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg/500px-Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg",
-      "cat": "Italie, Riz, Risotto, Plat"
+      "cat": "Italie, Riz, Risotto, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r73113"
     },
     {
       "id": "italie:017",
       "url": "https://www.recipetineats.com/osso-buco/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Osobuco_-_2010-10-20_2.jpg/500px-Osobuco_-_2010-10-20_2.jpg",
-      "cat": "Italie, Plat"
+      "cat": "Italie, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r67045"
     },
     {
       "id": "italie:018",
@@ -271,19 +276,22 @@
       "id": "italie:027",
       "url": "https://food52.com/recipes/39485-homemade-cannoli",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg/500px-Cannoli_siciliani_al_Caff%C3%A8_Impero%2C_ad_Alcamo.jpg",
-      "cat": "Italie, Dessert, Biscuit"
+      "cat": "Italie, Dessert, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r403419"
     },
     {
       "id": "italie:028",
       "url": "https://www.saveur.com/pistachio-gelato-recipe",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Gelato_ice_cream.jpg/500px-Gelato_ice_cream.jpg",
-      "cat": "Italie, Dessert, Crème dessert"
+      "cat": "Italie, Dessert, Crème dessert",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r115833"
     },
     {
       "id": "italie:029",
       "url": "https://food52.com/recipes/73558-grandma-s-tart-torta-della-nonna",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Torta_della_Nonna.jpg/500px-Torta_della_Nonna.jpg",
-      "cat": "Italie, Dessert, Tarte sucrée"
+      "cat": "Italie, Dessert, Tarte sucrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r434827"
     },
     {
       "id": "italie:030",
@@ -345,13 +353,15 @@
       ],
       "steps": "Couper grossièrement tous les légumes. Mettre dans un blender avec l'ail, le vinaigre, l'huile d'olive et le pain imbibé si utilisé. Mixer finement. Assaisonner. Passer au tamis fin pour une texture soyeuse (optionnel). Réfrigérer 2 h minimum (idéalement 4 h). Servir très frais, garni de dés de légumes et croûtons.\n\n💡 Un gaspacho est aussi bon que ses tomates — choisir des tomates mûres de plein été, en saison.",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Gaspacho.jpg/500px-Gaspacho.jpg",
-      "cat": "Espagne, Soupe, Entrée"
+      "cat": "Espagne, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r167060"
     },
     {
       "id": "espagne:002",
       "url": "https://www.saveur.com/article/Recipes/Classic-Salmorejo",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Salmorejo_cordouan.JPG/500px-Salmorejo_cordouan.JPG",
-      "cat": "Espagne, Soupe, Entrée"
+      "cat": "Espagne, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r727345"
     },
     {
       "id": "espagne:003",
@@ -408,7 +418,8 @@
     {
       "id": "espagne:010",
       "url": "https://www.saveur.com/article/Recipes/Paella-with-Rabbit-and-Snails-Paella-Valenciana/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg/500px-Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg/500px-Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r106053"
     },
     {
       "id": "espagne:011",
@@ -423,7 +434,8 @@
     {
       "id": "espagne:015",
       "url": "https://www.carolinescooking.com/fabada-asturiana-pork-bean-stew/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Fabada.jpg/500px-Fabada.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Fabada.jpg/500px-Fabada.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r915264"
     },
     {
       "id": "espagne:017",
@@ -447,6 +459,7 @@
       ],
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Churros_Madrid.jpg/500px-Churros_Madrid.jpg",
       "cat": "Espagne, Dessert, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r905078",
       "af": "https://www.moulinex.fr/recette/detail/PRO/Churros/2816704",
       "pair": [
         "af:004",
@@ -457,7 +470,8 @@
       "id": "espagne:024",
       "url": "https://www.themediterraneandish.com/crema-catalana/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Crema_Catalana_%287_Portes%29.jpg/500px-Crema_Catalana_%287_Portes%29.jpg",
-      "cat": "Espagne, Dessert, Crème dessert"
+      "cat": "Espagne, Dessert, Crème dessert",
+      "tmx": "https://cookidoo.fr/recipes/recipe/FR/r167423"
     },
     {
       "id": "espagne:025",
@@ -509,6 +523,7 @@
       "url": "https://leitesculinaria.com/7759/recipes-pasteis-de-nata.html",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg/500px-Pasteis_de_nata_%28Lissabon_2016%29_%2826069956686%29.jpg",
       "cat": "Portugal, Dessert, Tarte sucrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r134115",
       "pair": "dropbox:3e409306-7be1-489c-832e-5ab1f097df11"
     },
     {
@@ -572,7 +587,8 @@
     {
       "id": "corse:039",
       "url": "https://www.recettes-corses.fr/veau-a-la-corse-aux-olives",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Saltimbocca_cooked_%283%29.jpg/500px-Saltimbocca_cooked_%283%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Saltimbocca_cooked_%283%29.jpg/500px-Saltimbocca_cooked_%283%29.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r38594"
     },
     {
       "id": "corse:044",
@@ -643,7 +659,8 @@
       "steps": "Préchauffer le four à 180°C. Écraser le brocciu à la fourchette jusqu'à texture homogène. Mélanger brocciu, jaunes d'œufs, sucre, zestes et eau-de-vie jusqu'à crème lisse. Battre les blancs en neige ferme. Incorporer délicatement les blancs au mélange en 3 fois — ne pas casser les blancs. Beurrer un moule à manqué de 24-26 cm. Verser la préparation. Cuire 35-40 min jusqu'à belle dorure. Le cœur doit être légèrement tremblotant. Laisser refroidir complètement avant de servir — se déguste froid ou à température ambiante.\n\n💡 Le brocciu est le fromage frais de brebis corse. La ricotta entière est un excellent substitut continental.",
       "min": 55,
       "img": "img/illus/corse-061.jpg",
-      "cat": "Corse, Dessert, Gâteaux"
+      "cat": "Corse, Dessert, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r31862"
     },
     {
       "id": "corse:063",
@@ -655,12 +672,14 @@
       "id": "corse:067",
       "url": "https://www.recettes-corses.fr/recette-des-canistrelli-ou-coccioles",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Canistrelli_anis.jpg/500px-Canistrelli_anis.jpg",
-      "cat": "Corse, Dessert, Biscuit"
+      "cat": "Corse, Dessert, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r150790"
     },
     {
       "id": "maghreb:001",
       "url": "https://www.750g.com/couscous-royal-r14629.htm",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg/500px-Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg/500px-Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r151100"
     },
     {
       "id": "maghreb:002",
@@ -676,7 +695,8 @@
       "id": "maghreb:004",
       "url": "https://food52.com/recipes/9425-chicken-tagine-with-fennel-preserved-lemons-and-green-olives",
       "img": "img/photos/maghreb-004.jpg",
-      "desc": "Tajine emblématique du Maroc : poulet fondant, olives violettes et citrons confits au sel.\n\n📷 Photo : Tajine de poulet au citron confit (mars 2022) — CC0, Wikimedia Commons"
+      "desc": "Tajine emblématique du Maroc : poulet fondant, olives violettes et citrons confits au sel.\n\n📷 Photo : Tajine de poulet au citron confit (mars 2022) — CC0, Wikimedia Commons",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r113616"
     },
     {
       "id": "maghreb:006",
@@ -692,7 +712,8 @@
       "id": "maghreb:008",
       "url": "https://food52.com/recipes/89667-moroccan-harira-soup-from-celebrate-every-day",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Harira_vegetarisch.jpg/500px-Harira_vegetarisch.jpg",
-      "cat": "Maghreb, Soupe, Entrée"
+      "cat": "Maghreb, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r4357"
     },
     {
       "id": "maghreb:009",
@@ -708,7 +729,8 @@
     {
       "id": "maghreb:011",
       "url": "https://food52.com/recipes/68670-moroccan-chicken-pastilla-pot-pie",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bisteeya.jpg"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bisteeya.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r907216"
     },
     {
       "id": "maghreb:013",
@@ -736,7 +758,8 @@
       "id": "maghreb:019",
       "url": "https://www.196flavors.com/morocco-cornes-de-gazelle-kab-al-gazal/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/P%C3%A2tisserie_marocaine_010.JPG/500px-P%C3%A2tisserie_marocaine_010.JPG",
-      "cat": "Maghreb, Dessert, Biscuit"
+      "cat": "Maghreb, Dessert, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r75924"
     },
     {
       "id": "japon:001",
@@ -752,7 +775,8 @@
       "id": "japon:003",
       "url": "https://www.justonecookbook.com/homemade-miso-soup/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Miso_Soup_001.jpg/500px-Miso_Soup_001.jpg",
-      "cat": "Japon, Soupe, Entrée"
+      "cat": "Japon, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r61116"
     },
     {
       "id": "japon:004",
@@ -784,7 +808,8 @@
     {
       "id": "japon:009",
       "url": "https://www.justonecookbook.com/katsu-curry/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Beef_curry_rice_003.jpg/500px-Beef_curry_rice_003.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Beef_curry_rice_003.jpg/500px-Beef_curry_rice_003.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r238021"
     },
     {
       "id": "japon:010",
@@ -800,7 +825,8 @@
     {
       "id": "japon:012",
       "url": "https://www.justonecookbook.com/takoyaki-recipe/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Takoyaki_by_yomi955.jpg/500px-Takoyaki_by_yomi955.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Takoyaki_by_yomi955.jpg/500px-Takoyaki_by_yomi955.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r827153"
     },
     {
       "id": "japon:013",
@@ -822,7 +848,8 @@
     {
       "id": "asie:001",
       "url": "https://thewoksoflife.com/cantonese-chicken-salted-fish-fried-rice/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Yeung_Chow_Fried_Rice.jpg/500px-Yeung_Chow_Fried_Rice.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Yeung_Chow_Fried_Rice.jpg/500px-Yeung_Chow_Fried_Rice.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r595183"
     },
     {
       "id": "asie:002",
@@ -870,7 +897,8 @@
     {
       "id": "asie:010",
       "url": "https://www.recipetineats.com/chinese-steamed-pork-buns/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Baozi_Chengdu.JPG/500px-Baozi_Chengdu.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Baozi_Chengdu.JPG/500px-Baozi_Chengdu.JPG",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r696492"
     },
     {
       "id": "asie:011",
@@ -880,7 +908,8 @@
     {
       "id": "asie:012",
       "url": "https://www.recipetineats.com/nasi-goreng-indonesian-fried-rice/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Nasi_Goreng_Sosis.jpg/500px-Nasi_Goreng_Sosis.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Nasi_Goreng_Sosis.jpg/500px-Nasi_Goreng_Sosis.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r469326"
     },
     {
       "id": "asie:013",
@@ -932,7 +961,8 @@
       ],
       "steps": "Éplucher et couper la pomme de terre en petits dés. Éplucher et écraser les gousses d'ail.\nFaire revenir ensemble la pomme de terre et l'ail avec l'huile d'olive dans une casserole à fond épais, sans faire roussir.\nMouiller de 75 cl d'eau. Saler modérément, poivrer, parsemer de thym effeuillé et ajouter la feuille de laurier.\nLaisser cuire à feu doux pendant au moins 20 minutes.\nÔter la feuille de laurier. Passer la soupe et la verser en soupière.\nRectifier l'assaisonnement si besoin. Incorporer le jaune d'œuf en fouettant dans la soupière.\nServir dans des assiettes chaudes avec les tranches de pain grillées et le fromage râpé.",
       "img": "img/illus/corse-001.jpg",
-      "cat": "Corse, Soupe, Entrée"
+      "cat": "Corse, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r142216"
     },
     {
       "id": "corse:003",
@@ -1041,12 +1071,14 @@
       "t": "Fondant au Chocolat (Airfryer)",
       "img": "img/illus/dropbox-3b1c541a-6637-4a09-bb01-32cebf9b35cb.jpg",
       "cat": "Dessert, Airfryer, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r178361",
       "af": "https://www.moulinex.fr/recette/detail/PRO/fondant-au-chocolat/2753818",
       "pair": "dropbox:1621846856"
     },
     {
       "id": "dropbox:1122559876",
-      "t": "Blanc de poulet sauce moutarde au Thermomix"
+      "t": "Blanc de poulet sauce moutarde au Thermomix",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r331316"
     },
     {
       "id": "dropbox:5a095a0e-c8a2-4b7e-8b24-5d18362f4a7c",
@@ -1092,6 +1124,7 @@
       "id": "dropbox:-100319853",
       "t": "Churros au four au Thermomix",
       "cat": "Dessert, Thermomix, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r905078",
       "af": "https://www.moulinex.fr/recette/detail/PRO/Churros/2816704"
     },
     {
@@ -1156,7 +1189,8 @@
     {
       "id": "dropbox:07fd6f1e-91f4-4bb6-a87a-42fcb52cff3e",
       "t": "Pastéis de Nata – Recette Authentique Portugaise 🇵🇹",
-      "cat": "Dessert, Portugal, Tarte sucrée"
+      "cat": "Dessert, Portugal, Tarte sucrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r134115"
     },
     {
       "id": "dropbox:ffb2185f-d336-4213-b310-b19169babbf3",
@@ -1186,7 +1220,8 @@
     },
     {
       "id": "dropbox:1202916742",
-      "t": "Poulet à l'orange WW"
+      "t": "Poulet à l'orange WW",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r375177"
     },
     {
       "id": "dropbox:58aef201-1b77-4050-911d-2b509c0d2ec5",
@@ -1220,7 +1255,8 @@
     {
       "id": "dropbox:1513175493",
       "t": "Sangria espagnole au Thermomix",
-      "cat": "Thermomix, Espagne, Boissons"
+      "cat": "Thermomix, Espagne, Boissons",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r451060"
     },
     {
       "id": "dropbox:c9604a28-c9fa-4835-95c9-039767b2de3d",
@@ -1250,16 +1286,19 @@
       "id": "dropbox:1621846856",
       "t": "Super fondant au chocolat au Thermomix",
       "cat": "Dessert, Thermomix, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r178361",
       "af": "https://www.moulinex.fr/recette/detail/PRO/fondant-au-chocolat/2753818"
     },
     {
       "id": "dropbox:124568998",
-      "t": "Tajine de carottes et pois chiches au thermomix"
+      "t": "Tajine de carottes et pois chiches au thermomix",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r100590"
     },
     {
       "id": "dropbox:1779252120",
       "t": "Truffes au chocolat de Noël au Thermomix",
-      "cat": "Dessert, Thermomix, Biscuit"
+      "cat": "Dessert, Thermomix, Biscuit",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r929250"
     },
     {
       "id": "dropbox:c85f2f0a-1457-4791-8ca8-1babb944047e",
@@ -1322,12 +1361,14 @@
     {
       "id": "dropbox:2072371711",
       "img": "img/illus/dropbox-2072371711.jpg",
-      "cat": "Thermomix, Plat"
+      "cat": "Thermomix, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r245404"
     },
     {
       "id": "dropbox:77937872",
       "img": "img/illus/dropbox-77937872.jpg",
-      "cat": "Bœuf, Plat, Viande"
+      "cat": "Bœuf, Plat, Viande",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r433110"
     },
     {
       "id": "dropbox:1231896210",
@@ -1336,7 +1377,8 @@
     },
     {
       "id": "dropbox:187282729",
-      "img": "img/illus/dropbox-187282729.jpg"
+      "img": "img/illus/dropbox-187282729.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r483612"
     },
     {
       "id": "dropbox:226846606",
@@ -1380,7 +1422,8 @@
     {
       "id": "dropbox:-29192180",
       "img": "img/illus/dropbox-29192180.jpg",
-      "cat": "Dessert, Thermomix, Gâteaux"
+      "cat": "Dessert, Thermomix, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r134103"
     },
     {
       "id": "dropbox:1933497657",
@@ -1502,7 +1545,8 @@
     {
       "id": "corse:019",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Bouillabaisse_01.jpg/500px-Bouillabaisse_01.jpg",
-      "cat": "Corse, Poisson, Soupe, Entrée"
+      "cat": "Corse, Poisson, Soupe, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r69472"
     },
     {
       "id": "corse:020",
@@ -1580,7 +1624,8 @@
     },
     {
       "id": "corse:038",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Osobuco_-_2010-10-20_2.jpg/500px-Osobuco_-_2010-10-20_2.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Osobuco_-_2010-10-20_2.jpg/500px-Osobuco_-_2010-10-20_2.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r67045"
     },
     {
       "id": "corse:040",
@@ -1856,7 +1901,8 @@
     {
       "id": "italie:014",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lasagne_-_stonesoup.jpg/500px-Lasagne_-_stonesoup.jpg",
-      "cat": "Italie, Pâtes, Plat"
+      "cat": "Italie, Pâtes, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r174224"
     },
     {
       "id": "italie:022",
@@ -1871,7 +1917,8 @@
     {
       "id": "maghreb:005",
       "img": "img/photos/maghreb-005.jpg",
-      "desc": "Tajine sucré-salé à l'agneau, pruneaux confits et amandes grillées, saveur de fête.\n\n📷 Photo : Iron Bishop — CC BY-SA 3.0, Wikimedia Commons"
+      "desc": "Tajine sucré-salé à l'agneau, pruneaux confits et amandes grillées, saveur de fête.\n\n📷 Photo : Iron Bishop — CC BY-SA 3.0, Wikimedia Commons",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r907204"
     },
     {
       "id": "maghreb:012",
@@ -1898,7 +1945,8 @@
     {
       "id": "tmx:004",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Sopa_de_ajo.jpg/500px-Sopa_de_ajo.jpg",
-      "cat": "Corse, Soupe, Thermomix, Entrée"
+      "cat": "Corse, Soupe, Thermomix, Entrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r142216"
     },
     {
       "id": "tmx:006",
@@ -1938,7 +1986,8 @@
     {
       "id": "dropbox:536812287",
       "img": "img/illus/dropbox-536812287.jpg",
-      "cat": "Dessert, Charlotte"
+      "cat": "Dessert, Charlotte",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r511870"
     },
     {
       "id": "dropbox:ee807b8b-93aa-44c6-ba9b-7c483a99e8e9",
@@ -1946,7 +1995,8 @@
     },
     {
       "id": "dropbox:-926026483",
-      "img": "img/illus/dropbox-926026483.jpg"
+      "img": "img/illus/dropbox-926026483.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r699803"
     },
     {
       "id": "dropbox:2109977190",
@@ -1967,7 +2017,8 @@
     },
     {
       "id": "dropbox:1837408426",
-      "img": "img/illus/dropbox-1837408426.jpg"
+      "img": "img/illus/dropbox-1837408426.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r117085"
     },
     {
       "id": "dropbox:bfd46588-4cb4-4686-9696-90b803ff0ed8",
@@ -1981,7 +2032,8 @@
     {
       "id": "dropbox:1491359955",
       "img": "img/illus/dropbox-1491359955.jpg",
-      "cat": "Dessert, Crème dessert"
+      "cat": "Dessert, Crème dessert",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r20568"
     },
     {
       "id": "dropbox:235711459",
@@ -1997,7 +2049,8 @@
     },
     {
       "id": "dropbox:4ab9bc81-6cc1-4098-8938-6b60e85a7c7e",
-      "img": "img/illus/dropbox-4ab9bc81-6cc1-4098-8938-6b60e85a7c7e.jpg"
+      "img": "img/illus/dropbox-4ab9bc81-6cc1-4098-8938-6b60e85a7c7e.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r129526"
     },
     {
       "id": "dropbox:-108656337",
@@ -2010,7 +2063,8 @@
     {
       "id": "dropbox:-1572798649",
       "img": "img/illus/dropbox-1572798649.jpg",
-      "cat": "Risotto, Italie, Riz, Plat"
+      "cat": "Risotto, Italie, Riz, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r545030"
     },
     {
       "id": "dropbox:-47459068",
@@ -2027,7 +2081,8 @@
     {
       "id": "dropbox:1000185400",
       "img": "img/illus/dropbox-1000185400.jpg",
-      "t": "Rougail saucisses (île de la Réunion)"
+      "t": "Rougail saucisses (île de la Réunion)",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r89007"
     },
     {
       "id": "dropbox:1611037744",
@@ -2143,7 +2198,8 @@
     },
     {
       "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
-      "cat": "Dessert, Crème dessert"
+      "cat": "Dessert, Crème dessert",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r82987"
     },
     {
       "id": "dropbox:7472704a-8d06-4efc-bb69-8152536c3149",
@@ -2171,7 +2227,8 @@
     },
     {
       "id": "dropbox:-2014124092",
-      "cat": "Dessert, Gâteaux"
+      "cat": "Dessert, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r913504"
     },
     {
       "id": "dropbox:-85574417",
@@ -2179,7 +2236,8 @@
     },
     {
       "id": "dropbox:eae14f8a-456e-406b-b7fc-7c321a050a71",
-      "cat": "Dessert, Thermomix, Viennoiserie"
+      "cat": "Dessert, Thermomix, Viennoiserie",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r124992"
     },
     {
       "id": "dropbox:370b649a-430b-4219-b238-2ccf4eb55a4b",
@@ -2197,7 +2255,8 @@
     },
     {
       "id": "dropbox:1650465783",
-      "cat": "Dessert, Tarte sucrée"
+      "cat": "Dessert, Tarte sucrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r86474"
     },
     {
       "id": "dropbox:8a41edc3-7f25-4914-ba40-2ec47d781ed7",
@@ -2218,6 +2277,7 @@
     {
       "id": "dropbox:d2cc2716-392e-4cf8-a4d3-f953354bb027",
       "cat": "Dessert, Flan",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r119510",
       "af": "https://www.moulinex.fr/recette/detail/PRO/Flan+patissier/2977061"
     },
     {
@@ -2239,6 +2299,7 @@
     {
       "id": "dropbox:3072d049-d557-48b1-a56b-e71026e1b1a3",
       "cat": "Dessert, Airfryer, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r24137",
       "af": "https://www.moulinex.fr/recette/detail/PRO/Muffins%20aux%20p%C3%A9pites%20de%20chocolat/2450153"
     },
     {
@@ -2251,7 +2312,8 @@
     },
     {
       "id": "dropbox:3e409306-7be1-489c-832e-5ab1f097df11",
-      "cat": "Dessert, Thermomix, Portugal, Tarte sucrée"
+      "cat": "Dessert, Thermomix, Portugal, Tarte sucrée",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r134115"
     },
     {
       "id": "dropbox:bae6f1f6-0dae-4652-aeb6-ec80869ab6f1",
@@ -2264,6 +2326,7 @@
     {
       "id": "dropbox:0c0ff256-14a3-48ae-ae05-3852d1b57cbb",
       "cat": "Dessert, Airfryer, Gâteaux",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r168386",
       "af": "https://www.moulinex.fr/recette/detail/PRO/Brownie/2774947"
     },
     {
@@ -2285,6 +2348,7 @@
     {
       "id": "af:002",
       "cat": "Dessert, Flan, Airfryer",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r119510",
       "af": "https://www.moulinex.fr/recette/detail/PRO/Flan+patissier/2977061"
     },
     {
@@ -2359,7 +2423,8 @@
     },
     {
       "id": "dropbox:a71f6557-49cf-4e3b-a643-53087f643b9c",
-      "cat": "Fruits de mer, Plat"
+      "cat": "Fruits de mer, Plat",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r551696"
     },
     {
       "id": "dropbox:90dd0855-948c-4844-ac71-99e68639bb69",
@@ -2402,7 +2467,8 @@
     },
     {
       "id": "dropbox:815bdd56-8c90-4c98-a997-671e37d5a357",
-      "cat": "Poireau, Légumes, Accompagnement"
+      "cat": "Poireau, Légumes, Accompagnement",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r139637"
     },
     {
       "id": "dropbox:40e379fc-e380-42f1-87ef-dcd7bdce8745",
@@ -2463,6 +2529,86 @@
     {
       "id": "dropbox:-34423155",
       "cat": "Plat, Légumes"
+    },
+    {
+      "id": "dropbox:64214989-36ac-4003-904c-a36d4d444db6",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r71764"
+    },
+    {
+      "id": "dropbox:5d8ad666-2667-4ae7-ac65-0979d3d96783",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r658353"
+    },
+    {
+      "id": "dropbox:f1bad9d4-7d9e-4e18-892a-6b5f757b1884",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r136129"
+    },
+    {
+      "id": "dropbox:90878772",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r901734"
+    },
+    {
+      "id": "dropbox:149074861",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r901734"
+    },
+    {
+      "id": "dropbox:22b98065-e325-40ee-a8f2-fcd8569308b7",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r460381"
+    },
+    {
+      "id": "dropbox:-1734417852",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r251374"
+    },
+    {
+      "id": "dropbox:1525929608",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r251374"
+    },
+    {
+      "id": "dropbox:1722159647",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r251374"
+    },
+    {
+      "id": "dropbox:7b6719f3-d26c-4bfd-a770-d643b3d9a09c",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r57845"
+    },
+    {
+      "id": "dropbox:11498d86-d7c5-4887-b489-0389025c38d5",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r257605"
+    },
+    {
+      "id": "dropbox:1520700987",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r257605"
+    },
+    {
+      "id": "dropbox:290024ab-83b9-408a-bad8-be6be1f17ebf",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r795331"
+    },
+    {
+      "id": "dropbox:-458839063",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r728470"
+    },
+    {
+      "id": "dropbox:7e09d88b-97ff-436c-ae3a-5603c5ed6b2a",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r828641"
+    },
+    {
+      "id": "dropbox:1636514084",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r819063"
+    },
+    {
+      "id": "dropbox:9e4e3d8a-3322-4601-ba3f-288bafd02960",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r703938"
+    },
+    {
+      "id": "dropbox:c46f4463-1415-4b27-8b34-733d9329ce15",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r788074"
+    },
+    {
+      "id": "dropbox:-1639881322",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r823950"
+    },
+    {
+      "id": "dropbox:-866149180",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r545030"
     },
     {
       "id": "dropbox:f303d5d6-6fcd-4e1a-a71d-f74393032202",
@@ -2759,7 +2905,8 @@
       ],
       "steps": "Pâte : dissoudre la levure dans l'eau tiède. Mélanger farine et sel, ajouter l'eau levurée et l'huile. Pétrir 10 min jusqu'à pâte lisse et élastique. Couvrir et laisser lever 2 h (ou toute une nuit au frigo). Sauce : écraser les tomates à la main, assaisonner de sel. Préchauffer le four à 250°C (chaleur max) avec une plaque dedans. Étaler la pâte très finement. Étaler la sauce (ni trop épaisse, ni trop fine). Déposer la mozzarella en morceaux. Enfourner 8-10 min. Sortir du four, ajouter basilic frais et filet d'huile d'olive. Servir immédiatement.",
       "url": "https://www.750g.com/pizza-margherita-r200618.htm",
-      "img": "https://static.750g.com/images/1200-630/c1b1d4590bcd946cb8ffab3db4c7d543/snap-2016-06-08-at-16.34.39.jpg"
+      "img": "https://static.750g.com/images/1200-630/c1b1d4590bcd946cb8ffab3db4c7d543/snap-2016-06-08-at-16.34.39.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54120"
     },
     {
       "id": "italie:pizza:002",
@@ -2901,7 +3048,8 @@
       ],
       "steps": "Étaler la pâte et la diviser visuellement en 4 quarts. Napper de sauce tomate et mozzarella partout. Garnir chaque quart : cœurs d'artichaut marinés, tomates cerise + basilic, champignons sautés, prosciutto + olives noires. Cuire 10-12 min à 250°C.",
       "url": "https://www.750g.com/pizza-4-saisons-r90816.htm",
-      "img": "https://static.750g.com/images/1200-630/941031380f9e8ba456e7ef3e36d826f9/adobestock-279824850-1-.jpeg"
+      "img": "https://static.750g.com/images/1200-630/941031380f9e8ba456e7ef3e36d826f9/adobestock-279824850-1-.jpeg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r237511"
     },
     {
       "id": "italie:pizza:009",
@@ -2940,7 +3088,8 @@
       ],
       "steps": "Préchauffer le four à 250°C. Étaler la pâte en cercle. Sur une moitié, étaler la ricotta, poser la mozzarella et le salami. Saler, poivrer, origan. Replier l'autre moitié de pâte et bien souder les bords en les pinçant. Badigeonner d'huile. Cuire 12-15 min jusqu'à dorure. Servir avec sauce tomate chaude pour tremper.",
       "url": "https://www.750g.com/calzone-a-litalienne-r75883.htm",
-      "img": "https://static.750g.com/images/1200-630/d9b6cb4ad2823a6d862bb4fd9904d16a/calzone-a-l-italienne.jpeg"
+      "img": "https://static.750g.com/images/1200-630/d9b6cb4ad2823a6d862bb4fd9904d16a/calzone-a-l-italienne.jpeg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r118994"
     },
     {
       "id": "italie:pizza:011",
@@ -3057,7 +3206,8 @@
         "100 ml de lait"
       ],
       "steps": "Couper la mangue et la banane en morceaux. Mettre tous les ingrédients dans un blender. Mixer à pleine puissance 1 min jusqu'à consistance lisse et crémeuse. Ajuster la texture avec un peu plus de lait si trop épais. Servir immédiatement dans un grand verre.",
-      "img": "img/illus/sm-001.jpg"
+      "img": "img/illus/sm-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r320591"
     },
     {
       "id": "sm:002",
@@ -4518,7 +4668,8 @@
       ],
       "steps": "Laver et équeuter les fraises.\nMixer fraises, glace, lait (et sucre si besoin) jusqu'à consistance onctueuse.\nAjuster le lait pour la texture souhaitée.\nServir immédiatement, décoré d'une fraise sur le bord du verre.",
       "url": "https://www.750g.com/milkshake-a-la-fraise-r39059.htm",
-      "img": "https://static.750g.com/images/1200-630/e194b426220dbd036dcb9b69eabfed19/milkshake-a-la-fraise.jpeg"
+      "img": "https://static.750g.com/images/1200-630/e194b426220dbd036dcb9b69eabfed19/milkshake-a-la-fraise.jpeg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54150"
     },
     {
       "id": "shake:003",
@@ -4781,7 +4932,8 @@
       ],
       "steps": "Faire revenir pancetta. Ajouter légumes émincés, cuire 10 min.\nAjouter la viande, dorer en cassant les grumeaux.\nDéglacer au vin, laisser évaporer.\nAjouter tomates, concentré, sel, poivre.\nMijoter 1h30 à feu très doux.\nEn fin de cuisson, incorporer le lait (adoucit l'acidité).\n\n💡 La vraie bolognaise se mange avec des tagliatelles fraîches, pas des spaghettis.",
       "url": "https://www.750g.com/sauce-bolognaise-l-authentique-ragu-alla-bolognese-italien-r203424.htm",
-      "img": "https://static.750g.com/images/1200-630/cab72b07a0ff433fc78514df863d1d21/adobestock-78544193.jpeg"
+      "img": "https://static.750g.com/images/1200-630/cab72b07a0ff433fc78514df863d1d21/adobestock-78544193.jpeg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r317295"
     },
     {
       "id": "italie:sauce:003",
@@ -4892,7 +5044,8 @@
       ],
       "steps": "Faire fondre le beurre, ajouter la farine d'un coup. Remuer 1 min (roux blanc).\nVerser le lait chaud petit à petit en fouettant sans arrêt.\nCuire à feu moyen en remuant jusqu'à épaississement (5-7 min).\nAssaisonner sel, poivre blanc, muscade généreuse.\n\n💡 Pour les lasagnes : faire une besciamella assez fluide (un peu plus de lait) car elle épaissit à la cuisson.",
       "url": "https://www.750g.com/bechamel-maison-r204322.htm",
-      "img": "https://static.750g.com/images/1200-630/e6ba66665311666afdfc6fdbbbe1b46e/bechamel.jpg"
+      "img": "https://static.750g.com/images/1200-630/e6ba66665311666afdfc6fdbbbe1b46e/bechamel.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r810188"
     },
     {
       "id": "italie:sauce:009",
@@ -5072,7 +5225,8 @@
       ],
       "steps": "Mixer pois chiches, ail, tahini, citron et eau jusqu'à consistance lisse et crémeuse.\nAssaisonner de sel. Ajouter de l'eau si trop épais.\nServir dans un bol, arroser d'huile d'olive et saupoudrer de paprika.\n\n💡 La clé d'un houmous ultra-lisse : peler les pois chiches (retirer la petite peau) avant de mixer.",
       "url": "https://www.750g.com/la-meilleure-facon-de-faire-un-houmous-r207602.htm",
-      "img": "https://static.750g.com/images/1200-630/cea3c6318a5d5f310f25d8bca23d238f/photo-horizontale-lmfd-houmous.jpg"
+      "img": "https://static.750g.com/images/1200-630/cea3c6318a5d5f310f25d8bca23d238f/photo-horizontale-lmfd-houmous.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r73310"
     },
     {
       "id": "tart:028",
@@ -6399,7 +6553,8 @@
       ],
       "steps": "AUBERGINES\nSaler les rondelles d'aubergines 20 min, rincer et sécher. Faire dorer à la poêle dans l'huile ou badigeonner d'huile et passer au four 200°C 20 min.\n\nRAGÙ\nFaire revenir oignon et ail. Ajouter la viande, dorer. Tomates, cannelle, muscade, sel, poivre. Mijoter 20 min pour concentrer.\n\nBÉCHAMEL\nFaire fondre beurre + farine 1 min. Ajouter le lait chaud en fouettant. Épaissir 5 min. Hors du feu, incorporer les œufs battus.\n\nMONTAGE — Dans un grand plat :\n1. Couche d'aubergines\n2. Ragù\n3. Aubergines\n4. Béchamel généreuse. Parmesan.\n\nFour 180°C : 40-45 min jusqu'à dorure.\nLaisser tiédir 15 min avant de couper — tient mieux.\n\n💡 Meilleure réchauffée le lendemain — les saveurs se concentrent.",
       "img": "https://static.750g.com/images/1200-630/4e33137c65008e66560f9e1d59f405a0/moussaka-grecque.jpeg",
-      "url": "https://www.750g.com/moussaka-grecque-r75995.htm"
+      "url": "https://www.750g.com/moussaka-grecque-r75995.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r450954"
     },
     {
       "id": "grece:002",
@@ -6461,7 +6616,8 @@
       ],
       "steps": "Râper le concombre grossièrement. Saler et laisser dégorger 15 min dans une passoire.\nPresser fortement pour éliminer un maximum d'eau — c'est la clé.\nMélanger yaourt, concombre pressé, ail, huile, aneth et citron.\nAssaisonner. Réfrigérer au moins 30 min.\n\n💡 Plus l'eau est bien extraite du concombre, plus le tzatziki est épais et savoureux.\nAvec du yaourt grec entier (non allégé) pour la meilleure texture.",
       "img": "https://static.750g.com/images/1200-630/cccc5825c38ead3cedab52f2b151801a/tzatziki.jpg",
-      "url": "https://www.750g.com/tzatziki-r200130.htm"
+      "url": "https://www.750g.com/tzatziki-r200130.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r797418"
     },
     {
       "id": "grece:005",
@@ -6525,7 +6681,8 @@
       ],
       "steps": "Couper les légumes grossièrement — la salade grecque se fait en morceaux généreux, pas en petits dés.\nDisposer dans un saladier : tomates, concombre, poivron, oignon.\nAjouter les olives.\nPoser le bloc de feta entier au centre — ne pas émietter.\nArroser d'huile d'olive. Saupoudrer d'origan. Saler légèrement.\n\nServir immédiatement avec du pain de campagne.\n\n💡 La feta entière est la signature — l'huile d'olive doit être de qualité.",
       "img": "https://static.750g.com/images/1200-630/32eae8f751cb9244c177490439914e7c/salade-greque-750g.jpeg",
-      "url": "https://www.750g.com/salade-grecque-choriatiki-r55170.htm"
+      "url": "https://www.750g.com/salade-grecque-choriatiki-r55170.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r716242"
     },
     {
       "id": "grece:008",
@@ -6624,7 +6781,8 @@
       ],
       "steps": "Porter le bouillon à ébullition. Ajouter le riz, cuire 15-18 min.\nRéduire à feu très doux.\nLIAISON AVGOLEMONO : Battre les œufs, ajouter le jus de citron en fouettant.\nPrélever 2 louches de bouillon chaud, les incorporer lentement au mélange œuf-citron (tempérage).\nVerser la liaison dans la soupe en remuant constamment. Ne plus faire bouillir.\nAjouter le poulet effiloché. Assaisonner.\nServir garni d'aneth et d'un peu de citron.\n\n💡 Ne jamais faire bouillir après l'ajout de la liaison — les œufs coaguleraient.",
       "img": "https://static.750g.com/images/1200-630/6bfed8a083822d89cf05298fad59db1c/soupe-de-riz-au-citron-a-la-grecque.png",
-      "url": "https://www.750g.com/soupe-de-riz-au-citron-a-la-grecque-r43859.htm"
+      "url": "https://www.750g.com/soupe-de-riz-au-citron-a-la-grecque-r43859.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r177668"
     },
     {
       "id": "grece:013",
@@ -6809,7 +6967,8 @@
       ],
       "steps": "Faire mariner le poulet 2h dans le vin avec thym et laurier (idéalement une nuit).\nÉgoutter et sécher les morceaux. Garder la marinade.\nFaire dorer les lardons, réserver. Faire dorer le poulet dans beurre+huile, fariner.\nFaire dorer oignons grelots et champignons, réserver.\nRemettre le poulet, verser la marinade. Porter à ébullition, écumer.\nAjouter ail, lardons, oignons. Couvrir. Mijoter 1h à feu doux.\nAjouter champignons les 15 dernières minutes.\nAssaisonner. Parsemer de persil.\n\n💡 Le coq (mâle) ou une vieille poule demandent 2h+ de cuisson — le poulet standard suffit en 1h.",
       "img": "https://static.750g.com/images/1200-630/bebb02e6be38494267c4bf3c0d459fe3/adobestock-325853102.jpeg",
-      "url": "https://www.750g.com/coq-au-vin-r1424.htm"
+      "url": "https://www.750g.com/coq-au-vin-r1424.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r107345"
     },
     {
       "id": "france:002",
@@ -6832,7 +6991,8 @@
       ],
       "steps": "SAUCE MEURETTE\nFaire revenir lardons, oignon et carotte dans le beurre. Ajouter farine, cuire 1 min.\nVerser le vin, thym, laurier, ail. Mijoter 20 min pour réduire d'1/3. Passer au chinois si souhaité.\n\nŒUFS POCHÉS\nPorter à frémissement une casserole d'eau vinaigrée (pas salée).\nCasser un œuf dans un ramequin. Créer un tourbillon, glisser l'œuf délicatement.\nPocher 3-4 min. Récupérer avec une écumoire. Couper les filaments.\n\nServir les œufs sur croûtons, napper de sauce meurette chaude. Lardons dessus.\n\n💡 Les œufs pochés se préparent à l'avance et se réchauffent dans de l'eau chaude.",
       "img": "https://static.750g.com/images/1200-630/6f2b6ce38a7c291d5bd75e1de469e828/photocuisine-60160621-1-1-.jpg",
-      "url": "https://www.750g.com/oeuf-en-meurette-r8758.htm"
+      "url": "https://www.750g.com/oeuf-en-meurette-r8758.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r360123"
     },
     {
       "id": "france:003",
@@ -6873,7 +7033,8 @@
       ],
       "steps": "Porter eau et beurre coupé en dés à ébullition.\nHors du feu, ajouter la farine d'un coup. Remuer vigoureusement (dessécher la pâte 2 min sur feu doux).\nLaisser tiédir 5 min. Incorporer les œufs un par un en fouettant énergiquement après chaque.\nAjouter gruyère, muscade, sel, poivre.\nFormer des petits choux (noix) sur plaque beurrée avec une cuillère ou poche à douille.\nFour 200°C : 20-25 min sans ouvrir le four. Doivent être bien dorés et sonneux.\n\n💡 Ne jamais ouvrir le four pendant la cuisson — les choux s'affaisseraient.",
       "img": "https://static.750g.com/images/1200-630/ee04e908985f5259bb36d88b0ebe6dae/trio-de-gougeres-bourguigonne.png",
-      "url": "https://www.750g.com/trio-de-gougeres-bourguigonne-r67674.htm"
+      "url": "https://www.750g.com/trio-de-gougeres-bourguigonne-r67674.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r20475"
     },
     {
       "id": "france:005",
@@ -6894,7 +7055,8 @@
       ],
       "steps": "Frotter le caquelon (poêlon à fondue) avec la gousse d'ail coupée.\nChauffer le vin blanc à feu moyen — ne pas bouillir.\nAjouter les fromages par poignées en remuant en 8.\nDélayer la Maïzena dans un peu de vin, incorporer.\nContinuer jusqu'à consistance crémeuse et homogène.\nAjouter kirsch si souhaité. Muscade, poivre.\nMaintenir à feu doux sur réchaud. Tremper les cubes de pain.\n\n💡 Si la fondue tranche : ajouter du jus de citron et fouetter. Remuer TOUJOURS en 8, jamais en cercle.",
       "img": "https://static.750g.com/images/1200-630/2657119d88e1c1d5f0e1e8298222268b/adobestock-126266909.jpeg",
-      "url": "https://www.750g.com/fondue-savoyarde-r42790.htm"
+      "url": "https://www.750g.com/fondue-savoyarde-r42790.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r120942"
     },
     {
       "id": "france:006",
@@ -6952,7 +7114,8 @@
       ],
       "steps": "Cuire les crozets al dente (15-18 min). Égoutter.\nFaire revenir lardons et oignon jusqu'à dorure.\nMélanger crozets, lardons, oignon et crème fraîche. Assaisonner.\nVerser dans un plat à gratin beurré.\nCouper le reblochon en deux dans l'épaisseur, poser croûte vers le haut.\n\nFour 200°C : 20-25 min jusqu'à fonte et dorure du fromage.\n\n💡 Les crozets de Sarrasin (noix) ont plus de caractère que les nature. Disponibles en épiceries savoyardes.",
       "img": "https://static.750g.com/images/1200-630/e63fa3038344a80a031a29a577ee2e8b/img-1440.jpg",
-      "url": "https://www.750g.com/la-croziflette-r79033.htm"
+      "url": "https://www.750g.com/la-croziflette-r79033.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r431781"
     },
     {
       "id": "france:009",
@@ -7872,7 +8035,8 @@
       ],
       "steps": "Réhydrater le wakame dans l'eau froide 5 min. Égoutter.\nPorter le dashi à frémissement (ne pas bouillir fort).\nPrendre une louche de dashi, diluer le miso complètement dans la louche.\nVerser le miso dilué dans le dashi. Mélanger doucement.\nNE JAMAIS FAIRE BOUILLIR après le miso — les arômes s'évaporent.\nAjouter tofu et wakame. Réchauffer 1 min à feu doux.\nServir dans des bols, garnir d'oignon nouveau.\n\n💡 Le miso ne doit jamais bouillir. Diluer d'abord dans un peu de dashi évite les grumeaux.",
       "img": "https://static.750g.com/images/1200-630/0b2b690ff5574bd8c3838e5d6bf5836b/soupe-miso-ca.jpg",
-      "url": "https://www.750g.com/soupe-miso-r202074.htm"
+      "url": "https://www.750g.com/soupe-miso-r202074.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r61116"
     },
     {
       "id": "japon:023",
@@ -8165,7 +8329,8 @@
       ],
       "steps": "BOUILLON\nFaire revenir oignon dans l'huile. Ajouter agneau et poulet, dorer 5 min.\nÉpices (ras-el-hanout, curcuma, gingembre, cannelle, safran). Mélanger 2 min.\nTomates, couvrir de 1,5 L d'eau. Porter à ébullition. Écumer.\nMijoter 45 min à feu doux. Ajouter carottes et navets. Cuire 20 min.\nAjouter courgettes et pois chiches. Cuire encore 15 min.\nGriller les merguez à part.\n\nSEMOULE\nVerser semoule dans un plat. Arroser de bouillon chaud pour humidifier. Rouler à la fourchette.\nOu : cuire à la vapeur du couscoussier 20 min.\nAjouter une noix de beurre et 2 c. de bouillon. Égrener.\n\nServir semoule en dôme, viandes et légumes autour, bouillon en saucière.\n\n💡 La harissa à part — chacun dose son piquant.",
       "img": "https://static.750g.com/images/1200-630/6c801fd29fb9f160e2506eb8cd0b56a0/recette-couscous-royal.png",
-      "url": "https://www.750g.com/couscous-royal-r14629.htm"
+      "url": "https://www.750g.com/couscous-royal-r14629.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r151100"
     },
     {
       "id": "maghreb:022",
@@ -8217,7 +8382,8 @@
       ],
       "steps": "Faire revenir agneau, oignon et ail dans l'huile 5 min.\nAjouter épices (gingembre, curcuma, cannelle), herbes fraîches et concentré de tomate.\nVerser tomates concassées + 2 L d'eau. Porter à ébullition.\nAjouter lentilles et pois chiches. Mijoter 45 min à feu doux.\n\nTÉDOUIRA (liant)\nMélanger la farine dans un verre d'eau froide jusqu'à liquide lisse sans grumeaux.\nVerser en filet dans la soupe bouillonnante en remuant constamment.\nLa soupe épaissit en 5-10 min. Cuire encore 10 min.\nJus de citron. Assaisonner. Parsemer de coriandre fraîche.\n\nServir avec des dattes, des chebakia et du pain marocain.\n\n💡 La tédouira (farine diluée) est la signature de la harira — sans elle, c'est juste une soupe de légumineuses.",
       "img": "https://static.750g.com/images/1200-630/b772ec636abe94f2119e7787395606fd/harira.jpg",
-      "url": "https://www.750g.com/harira-r97246.htm"
+      "url": "https://www.750g.com/harira-r97246.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r4357"
     },
     {
       "id": "maghreb:024",
@@ -8240,7 +8406,8 @@
       ],
       "steps": "FARCE POULET\nCuire le poulet avec oignons, épices et herbes dans 300ml d'eau 40 min.\nEffilocher la chair. Réduire le bouillon de moitié.\nBattre les œufs, les verser dans le bouillon chaud en remuant (cuisson rapide en fines lamelles). Réserver.\n\nMONTAGE (plat de 26 cm)\nBeurrer le plat. Disposer 3 feuilles de brick en étoile, beurrer chacune.\nCouche de poulet. Couche d'œufs cuits. Couche d'amandes.\nRabattre les bords des feuilles de brick sur la farce.\nCouvrir de 3 feuilles de brick restantes repliées dessous.\nBadigeonner de beurre.\n\nFour 180°C : 25-30 min jusqu'à dorure.\nSaupoudrer de sucre glace et tracer des losanges de cannelle.\n\n💡 La pastilla est sucré-salée — c'est son génie. Le sucre glace dessus n'est pas optionnel.",
       "img": "https://static.750g.com/images/1200-630/67f24998275deef381e40720a214f4d1/la-pastilla-au-poulet.jpeg",
-      "url": "https://www.750g.com/la-pastilla-au-poulet-r24217.htm"
+      "url": "https://www.750g.com/la-pastilla-au-poulet-r24217.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r907216"
     },
     {
       "id": "maghreb:025",
@@ -8264,7 +8431,8 @@
       ],
       "steps": "Faire revenir oignons et poivrons dans l'huile 10 min jusqu'à fondants.\nAjouter ail, paprika, cumin et piment. Cuire 2 min.\nTomates concassées. Sel, poivre. Mijoter 15 min jusqu'à sauce réduite et parfumée.\nGoûter et ajuster l'assaisonnement.\nFaire 6 creux dans la sauce à la cuillère.\nCasser un œuf dans chaque creux.\nCouvrir. Cuire 6-8 min — blancs cuits, jaunes coulants.\n\nParsemer de persil ou coriandre. Servir directement dans la poêle avec pain marocain.\n\n💡 Les jaunes coulants sont la signature. Surveiller de près — 1 minute de trop et les jaunes sont cuits.",
       "img": "https://static.750g.com/images/1200-630/1887c216b9536d9806315c4c704c7b9a/chakchouka-aux-oeufs.png",
-      "url": "https://www.750g.com/chakchouka-aux-oeufs-r38214.htm"
+      "url": "https://www.750g.com/chakchouka-aux-oeufs-r38214.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r762154"
     },
     {
       "id": "maghreb:026",
@@ -8345,7 +8513,8 @@
       ],
       "steps": "Dissoudre la levure dans l'eau tiède avec une pincée de sucre. Attendre 10 min (mousse).\nMixer semoule, farine et sel avec l'eau-levure. Ajouter la levure chimique.\nMixer jusqu'à pâte très lisse (texture crème fluide).\nLaisser reposer 20-30 min — des bulles apparaissent en surface.\nCuire dans une poêle antiadhésive légèrement huilée à feu moyen-doux.\nVerser une louche, NE PAS ÉTALER — la pâte se répand seule.\nCuire uniquement d'un côté jusqu'à ce que les trous soient apparus et la surface sèche.\nNe pas retourner.\n\nServir immédiatement avec beurre fondu et miel mélangés.\n\n💡 Les trous se forment naturellement grâce à la levure — ne pas toucher la crêpe pendant la cuisson.",
       "img": "https://static.750g.com/images/1200-630/f02a4c4f921fc710913091d7f971bbd7/crepes-mille-trous-ou-baghrirs.jpg",
-      "url": "https://www.750g.com/crepes-mille-trous-ou-baghrirs-r100100.htm"
+      "url": "https://www.750g.com/crepes-mille-trous-ou-baghrirs-r100100.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r916648"
     },
     {
       "id": "maghreb:030",
@@ -8382,7 +8551,8 @@
       ],
       "steps": "COULIS\nMixer 200 g de fraises avec le sucre et le jus de citron. Filtrer. Réserver.\n\nCRÈME\nFouetter les jaunes avec le sucre jusqu'à blanchiment. Incorporer le mascarpone.\nMonter les blancs en neige ferme. Plier délicatement dans le mélange.\n\nMONTAGE\nTremper rapidement les biscuits dans le coulis de fraises.\nDisposer une couche dans un plat. Étaler la moitié de la crème.\nAjouter une couche de fraises coupées en lamelles.\nRépéter. Terminer par la crème.\nRéfrigérer 4 h minimum. Décorer de fraises fraîches.\n\n💡 À préparer la veille pour un résultat optimal.",
       "img": "https://static.750g.com/images/1200-630/cc39fb3691bed81a062b5e4a698b4acb/photocuisine-60579332-1-.jpg",
-      "url": "https://www.750g.com/tiramisu-aux-fraises-r97787.htm"
+      "url": "https://www.750g.com/tiramisu-aux-fraises-r97787.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r548026"
     },
     {
       "id": "italie:053",
@@ -8507,7 +8677,8 @@
       ],
       "steps": "Émincer finement les oignons. Faire fondre le beurre avec l'huile à feu moyen.\nAjouter les oignons, le sucre, sel. Cuire 40 min en remuant souvent jusqu'à caramélisation dorée.\nDéglacer au vin blanc. Laisser évaporer. Ajouter le bouillon. Mijoter 20 min. Assaisonner.\nGriller les tranches de baguette. Les frotter à l'ail.\nVerser la soupe dans des bols allant au four. Poser les croûtons. Couvrir généreusement de gruyère.\nGratiner sous le grill 5-7 min jusqu'à bouillonnement doré.\n\n💡 La caramélisation des oignons est la clé — ne pas aller trop vite.",
       "img": "https://static.750g.com/images/1200-675/10fbfe7aacb91ff7225efd4603d219a9/soupe-a-l-oignon.jpg.jpeg",
-      "url": "https://www.750g.com/soupe-a-l-oignon-gratinee-la-vraie-recette-comme-dans-les-bistrots-parisiens-a42898.htm"
+      "url": "https://www.750g.com/soupe-a-l-oignon-gratinee-la-vraie-recette-comme-dans-les-bistrots-parisiens-a42898.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r784439"
     },
     {
       "id": "france:022",
@@ -8532,7 +8703,8 @@
       ],
       "steps": "Hacher le bœuf au couteau (jamais au hachoir) en brunoise fine. Réserver au frais.\nMélanger dans un bol : jaune d'œuf, moutarde, ketchup, Worcestershire, Tabasco.\nIncorporer la viande. Ajouter échalotes, câpres, cornichons, persil.\nAssaisonner généreusement de sel et poivre. Goûter et rectifier.\nFormer en dome avec un emporte-pièce. Poser un jaune d'œuf au centre.\nServir immédiatement avec frites ou toasts grillés.\n\n⚠️ Utiliser uniquement de la viande très fraîche de qualité bouchère.",
       "img": "https://static.750g.com/images/1200-630/b42a70a10273536a6a98070c878eebc9/thinkstockphotos-534452256-mix.jpg",
-      "url": "https://www.750g.com/steak-tartare-r100092.htm"
+      "url": "https://www.750g.com/steak-tartare-r100092.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r160947"
     },
     {
       "id": "france:023",
@@ -8554,7 +8726,8 @@
       ],
       "steps": "Faire revenir oignons, poireau et ail dans l'huile. Ajouter tomates et fenouil 10 min.\nAjouter poissons durs (rascasse, grondin). Couvrir d'eau bouillante. Ajouter safran.\nFaire bouillir vivement 15 min. Ajouter les poissons tendres et coquillages. 10 min de plus.\nRETIRER les poissons. Mixer et filtrer le bouillon. Assaisonner.\n\nROUILLE : Piler ail et safran. Incorporer jaune d'œuf puis huile en filet (comme une mayo). Sel, piment.\n\nServir le bouillon chaud en soupière. Poissons à part. Croûtons frottés à l'ail. Rouille en pot.",
       "img": "img/photos/france-023.jpg",
-      "url": "https://www.750g.com/bouillabaisse-r18208.htm"
+      "url": "https://www.750g.com/bouillabaisse-r18208.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r69472"
     },
     {
       "id": "france:024",
@@ -8594,7 +8767,8 @@
       ],
       "steps": "Cuire les haricots 1h dans bouillon aromatique (pas à fond).\nFaire dorer saucisses et lardons. Réserver.\nFaire revenir oignons et ail. Ajouter tomates. Mijoter 10 min.\nDans une cassole (plat en terre) : disposer couches de haricots, viandes, sauce tomate.\nFinir par une couche de haricots. Verser le bouillon à hauteur.\nCuire au four 160°C pendant 3 h. Casser la croûte 7 fois en ajoutant du bouillon.\n\n💡 Le cassoulet est encore meilleur réchauffé le lendemain.",
       "img": "https://static.750g.com/images/1200-630/6568eeeb572fbc57d79d356b5b6f4e40/cassoulet-de-toulouse.jpg",
-      "url": "https://www.750g.com/cassoulet-de-toulouse-r37966.htm"
+      "url": "https://www.750g.com/cassoulet-de-toulouse-r37966.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/FR/r779745"
     },
     {
       "id": "france:026",
@@ -8609,7 +8783,8 @@
       ],
       "steps": "CRÊPES : Mélanger farine, œufs, lait, beurre. Laisser reposer 30 min. Cuire des crêpes fines.\n\nSAUCE SUZETTE : Caraméliser le sucre dans une poêle large. Ajouter le beurre en morceaux.\nVerser le jus d'orange et les zestes. Laisser réduire 5 min en sauce brillante.\n\nPlier les crêpes en quatre. Les faire chauffer dans la sauce orange.\nVerser le Grand Marnier. FLAMBER avec une allumette longue.\nServir immédiatement, avec une boule de glace vanille si désiré.\n\n💡 Le flambage peut se faire à table pour l'effet dramatique.",
       "img": "https://static.750g.com/images/1200-630/8301519cecf238e22f5ad195f98ae494/crepes-suzette.jpg",
-      "url": "https://www.750g.com/les-crepes-suzette-r207241.htm"
+      "url": "https://www.750g.com/les-crepes-suzette-r207241.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r86808"
     },
     {
       "id": "france:027",
@@ -8685,6 +8860,7 @@
       "steps": "BÉCHAMEL : Faire un roux beurre-farine. Verser le lait progressivement. Cuire jusqu'à épaississement. Assaisonner.\n\nToaster légèrement les tranches de pain.\nÉtaler la béchamel sur une face de chaque tranche.\nDisposer le jambon sur 2 tranches. Ajouter du gruyère.\nRefermer. Étaler béchamel sur le dessus et couvrir de gruyère.\nGratiner au four/grill 200°C pendant 5-7 min jusqu'à bouillonnement doré.\n\n💡 CROQUE-MADAME : ajouter un œuf au plat sur le dessus après cuisson.",
       "img": "https://static.750g.com/images/1200-630/4056d2a25c2a6f93d49a463ef51a2fa0/recette-le-vrai-croque-monsieur-0-1-.jpg",
       "url": "https://www.750g.com/le-vrai-croque-monsieur-r99595.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r932896",
       "af": "https://www.moulinex.fr/recette/detail/PRO/croque-monsieur/2939610"
     },
     {
@@ -8723,6 +8899,7 @@
       "steps": "Préchauffer le four à 180°C. Foncer un moule à tarte avec la pâte brisée. Piquer.\nFaire revenir les lardons à sec jusqu'à légère coloration. Égoutter.\nFouetter les œufs avec la crème et le lait. Assaisonner sel, poivre, muscade.\nRépartir les lardons sur la pâte. Verser l'appareil à œufs.\nCuire 35-40 min jusqu'à légère dorure et tremblements.\nLaisser tiédir 10 min avant de couper.\n\n💡 La vraie quiche lorraine n'a PAS de fromage — c'est l'ajout de gruyère qui en fait une quiche alsacienne.",
       "img": "https://static.750g.com/images/1200-630/31701b945f02e6e7e7b138eb50106b0a/adobestock-56248515.jpg",
       "url": "https://www.750g.com/la-meilleure-facon-de-faire-une-quiche-lorraine-r207943.htm",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54158",
       "af": "https://www.moulinex.fr/recette/detail/PRO/quiche-lorraine/2777949"
     },
     {
@@ -9122,7 +9299,8 @@
       ],
       "steps": "Faire revenir oignons, carottes et céleri. Ajouter l'agneau. Cuire jusqu'à coloration.\nIncorporer farine, tomates, bouillon, herbes. Mijoter 20 min. Ajouter les petits pois.\nVerser dans un grand plat à four.\nPURÉE : Écraser pommes de terre cuites avec beurre et lait. Assaisonner.\nÉtaler la purée sur la viande. Strier à la fourchette.\nCuire au four 190°C pendant 25-30 min jusqu'à dorure de la purée.\n\n💡 Shepherd's Pie (agneau) vs Cottage Pie (bœuf) — deux plats différents selon les Britanniques.",
       "img": "https://www.recipetineats.com/tachyon/2018/06/Shepherds-Pie_1.jpg",
-      "url": "https://www.recipetineats.com/shepherds-pie/"
+      "url": "https://www.recipetineats.com/shepherds-pie/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r91269"
     },
     {
       "id": "gb:005",
@@ -9422,7 +9600,8 @@
       ],
       "steps": "PÂTE : Mélanger farine, sel, eau et huile. Pétrir 5 min jusqu'à pâte lisse et souple. Reposer 30 min.\nPréchauffer le four à 240°C (max). Pierre à pizza ou plaque retournée.\nÉtaler la pâte très finement (2 mm) en rectangle allongé.\nAssaisonner la crème fraîche avec sel, poivre, muscade. Étaler finement sur la pâte.\nDisposer les lardons et les oignons émincés.\nCuire 10-12 min jusqu'à bords croustillants et légèrement noircis.\nServir immédiatement — coupée en rectangles.\n\n💡 Plus la pâte est fine, plus c'est bon. Elle doit être presque translucide.",
       "img": "https://dirndlkitchen.com/wp-content/uploads/2022/02/tarte-flambee-elsasser-flammkuchen-dirndl-kitchen8.jpg",
-      "url": "https://dirndlkitchen.com/elsasser-flammkuchen/"
+      "url": "https://dirndlkitchen.com/elsasser-flammkuchen/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r581498"
     },
     {
       "id": "allemagne:009",
@@ -9496,7 +9675,8 @@
       ],
       "steps": "PÂTE : Pétrir tous les ingrédients 10 min jusqu'à très lisse. Envelopper. Reposer 1 h.\n\nGARNITURE : Éplucher et émincer les pommes. Mélanger avec raisins secs, sucre et cannelle.\nFaire revenir la chapelure dans le beurre jusqu'à dorée.\n\nÉTIRER LA PÂTE : Sur une nappe farinée, étirer à la main jusqu'à quasi-transparente (40×60 cm).\nBadigeonner de beurre fondu. Étaler la chapelure. Déposer les pommes en bande.\nRouler en s'aidant de la nappe. Mettre sur plaque. Badigeonner de beurre.\nCuire 190°C pendant 35-40 min.\nSaupoudrer de sucre glace. Servir avec sauce vanille.",
       "img": "https://www.daringgourmet.com/wp-content/uploads/2023/10/Apple-Strudel-Recipe-2.jpg",
-      "url": "https://www.daringgourmet.com/apple-strudel-apfelstrudel/"
+      "url": "https://www.daringgourmet.com/apple-strudel-apfelstrudel/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r4449"
     },
     {
       "id": "allemagne:013",
@@ -9536,7 +9716,8 @@
       ],
       "steps": "Faire revenir oignon, carotte et céleri dans l'huile.\nAjouter l'ail, les lentilles rincées, le laurier. Couvrir de bouillon.\nMijoter 35-40 min jusqu'à lentilles tendres.\nÉcraser légèrement quelques lentilles pour épaissir la soupe.\nAjouter les saucisses de Francfort tranchées. Chauffer 5 min.\nAssaisonner avec vinaigre et moutarde (touche typiquement allemande).\nParsemer de persil haché.\n\n💡 Le vinaigre ajouté en fin de cuisson est la signature de la Linsensuppe allemande — ne pas oublier.",
       "img": "https://www.recipesfromeurope.com/wp-content/uploads/2021/01/german-lentil-soup-bowl.jpg",
-      "url": "https://www.recipesfromeurope.com/german-lentil-soup/"
+      "url": "https://www.recipesfromeurope.com/german-lentil-soup/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r56407"
     },
     {
       "id": "allemagne:015",
@@ -9570,7 +9751,8 @@
       ],
       "steps": "PÂTE : Dissoudre la levure dans l'eau tiède. Pétrir tous les ingrédients 8 min. Lever 1 h.\nDiviser en 12 morceaux. Rouler chaque morceau en long boudin fin (60 cm), plus épais au centre.\nFormer les bretzels : croiser les deux bouts, vriller, rabattre sur le cercle.\nRéfrigérer 30 min (non couvert).\n\nBAIN DE SOUDE : Porter à ébullition. Plonger chaque bretzel 30 secondes. Égoutter.\nDisposer sur plaques. Saupoudrer de gros sel.\nCuire 230°C pendant 12-14 min jusqu'à brun profond et brillant.\n\n⚠️ La soude alimentaire donne la vraie couleur brune — le bicarbonate seul donne une couleur plus claire.",
       "img": "https://dirndlkitchen.com/wp-content/uploads/2015/10/authentic-german-soft-pretzels-brezeln-dirndl-kitchen21.jpg",
-      "url": "https://dirndlkitchen.com/german-pretzel-recipe/"
+      "url": "https://dirndlkitchen.com/german-pretzel-recipe/",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r779934"
     },
     {
       "id": "bresil:001",
@@ -10859,7 +11041,8 @@
         "Cuire au four 180°C 25-30 min.",
         "Napper du sirop chaud dès la sortie du four."
       ],
-      "img": "img/illus/arabe-009.jpg"
+      "img": "img/illus/arabe-009.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r907328"
     },
     {
       "id": "arabe:010",
@@ -11956,7 +12139,8 @@
         "Former des boules, paner (farine-œuf-chapelure).",
         "Frire 3-4 min dans l'huile chaude. Servir avec moutarde."
       ],
-      "img": "img/illus/paysbas-002.jpg"
+      "img": "img/illus/paysbas-002.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r943055"
     },
     {
       "id": "paysbas:003",
@@ -12058,7 +12242,8 @@
         "À l'aide de deux cuillères, former des boules et plonger dans l'huile à 180°C.",
         "Frire 4-5 min en retournant. Saupoudrer de sucre glace."
       ],
-      "img": "img/illus/paysbas-006.jpg"
+      "img": "img/illus/paysbas-006.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r827107"
     },
     {
       "id": "paysbas:007",
@@ -12087,7 +12272,8 @@
         "Remplir de garniture, couvrir d'un treillis de pâte.",
         "Saupoudrer de sucre perlé, cuire au four 180°C 50-60 min."
       ],
-      "img": "img/illus/paysbas-007.jpg"
+      "img": "img/illus/paysbas-007.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r75316"
     },
     {
       "id": "paysbas:008",
@@ -15710,7 +15896,8 @@
         "Disposer le jambon sur chaque moitié de muffin.",
         "Poser un oeuf poché, napper de sauce hollandaise et garnir de ciboulette."
       ],
-      "img": "img/illus/oeuf-004.jpg"
+      "img": "img/illus/oeuf-004.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r405008"
     },
     {
       "id": "oeuf:005",
@@ -15894,7 +16081,8 @@
         "Creuser des puits dans la sauce, y casser les oeufs délicatement.",
         "Couvrir et cuire 8-10 min jusqu'à ce que les blancs soient pris. Parsemer d'herbes fraîches."
       ],
-      "img": "img/illus/oeuf-012.jpg"
+      "img": "img/illus/oeuf-012.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r919159"
     },
     {
       "id": "mocktail:001",
@@ -15938,7 +16126,8 @@
         "Verser dans des grands verres.",
         "Décorer d'ananas frais et d'une paille."
       ],
-      "img": "img/illus/mocktail-002.jpg"
+      "img": "img/illus/mocktail-002.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r375184"
     },
     {
       "id": "mocktail:003",
@@ -16513,7 +16702,8 @@
         "Former les samoussas en triangle avec les feuilles de brick.",
         "Badigeonner d'huile et cuire au four 180°C 20 min."
       ],
-      "img": "img/illus/samoussa-004.jpg"
+      "img": "img/illus/samoussa-004.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r821805"
     },
     {
       "id": "samoussa:005",
@@ -17384,7 +17574,8 @@
         "Faire fondre à feu doux en fouettant jusqu'à sauce lisse.",
         "Verser sur les moules et servir immédiatement avec du pain grillé."
       ],
-      "img": "img/moules/05.jpg"
+      "img": "img/moules/05.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r126130"
     },
     {
       "id": "moule:004",
@@ -17435,7 +17626,8 @@
         "Ajouter les moules, couvrir et cuire 4-5 min à feu vif.",
         "Parsemer de coriandre fraîche et servir avec du riz basmati."
       ],
-      "img": "img/moules/03.jpg"
+      "img": "img/moules/03.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r138429"
     },
     {
       "id": "moule:006",
@@ -17688,7 +17880,8 @@
         "Ajouter les moules, couvrir et cuire 5 min à feu vif.",
         "Parsemer de persil et servir."
       ],
-      "img": "img/moules/07.jpg"
+      "img": "img/moules/07.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r340327"
     },
     {
       "id": "moule:016",
@@ -18371,7 +18564,8 @@
       ],
       "min": 90,
       "t": "Pâte à Pizza Classique",
-      "img": "img/illus/pizza-001.jpg"
+      "img": "img/illus/pizza-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54208"
     },
     {
       "id": "pizza:002",
@@ -19129,7 +19323,8 @@
       ],
       "min": 280,
       "t": "Charlotte aux Fraises",
-      "img": "img/illus/charlotte-001.jpg"
+      "img": "img/illus/charlotte-001.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r511870"
     },
     {
       "id": "charlotte:002",
@@ -19152,7 +19347,8 @@
       ],
       "min": 280,
       "t": "Charlotte au Chocolat Noir",
-      "img": "img/illus/charlotte-002.jpg"
+      "img": "img/illus/charlotte-002.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r70121"
     },
     {
       "id": "charlotte:003",
@@ -20339,7 +20535,8 @@
         "Pas besoin de précuire : monter directement les lasagnes, la pâte fraîche cuit au four.",
         "Pour les conserver, laisser sécher 1 h puis garder au frais 2 jours, ou congeler à plat."
       ],
-      "img": "img/pates/07.jpg"
+      "img": "img/pates/07.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r828547"
     },
     {
       "id": "pdt:001",
@@ -20900,7 +21097,8 @@
         "Cuire dans une poêle sèche à feu moyen 3-4 min de chaque côté : les batbouts gonflent.",
         "Garder sous un torchon pour qu'ils restent moelleux."
       ],
-      "img": "img/pains/01.jpg"
+      "img": "img/pains/01.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r780404"
     },
     {
       "id": "painmaroc:002",
@@ -20950,7 +21148,8 @@
         "Former des galettes de 1 cm d'épaisseur et les rouler dans la semoule.",
         "Cuire à la poêle à feu doux 6-8 min de chaque côté jusqu'à ce qu'elles soient bien dorées."
       ],
-      "img": "img/pains/03.jpg"
+      "img": "img/pains/03.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-fr/r907321"
     },
     {
       "id": "painmaroc:004",
@@ -20999,7 +21198,8 @@
         "Laisser lever 30 min.",
         "Cuire à la poêle à feu doux, couvert, 6 min de chaque côté."
       ],
-      "img": "img/pains/05.jpg"
+      "img": "img/pains/05.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr/r780405"
     },
     {
       "id": "painmaroc:006",
@@ -21577,7 +21777,8 @@
       ],
       "img": "img/sousvide/03.jpg",
       "url": "",
-      "vid": ""
+      "vid": "",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r622023"
     },
     {
       "id": "sousvide:004",
@@ -21743,7 +21944,8 @@
       ],
       "img": "img/sousvide/09.jpg",
       "url": "",
-      "vid": ""
+      "vid": "",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r823921"
     },
     {
       "id": "sousvide:010",
@@ -21879,7 +22081,8 @@
       ],
       "img": "img/sousvide/14.jpg",
       "url": "",
-      "vid": ""
+      "vid": "",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r622753"
     },
     {
       "id": "sousvide:015",
@@ -22316,7 +22519,8 @@
         "Éplucher carottes et navets, couper les poireaux en tronçons et les ficeler. Les ajouter avec l'os à moelle (bouts salés) et cuire encore 45 min à 1 h.",
         "Servir la viande tranchée entourée des légumes, avec la moelle sur du pain grillé, gros sel, moutarde et cornichons. Garder le bouillon pour une soupe."
       ],
-      "img": "img/potaufeu/01.jpg"
+      "img": "img/potaufeu/01.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r903887"
     },
     {
       "id": "potaufeu:002",
@@ -23031,7 +23235,8 @@
         "Tartiner le pain d'épices de moutarde et le poser sur le dessus.",
         "Couvrir et mijoter 2 h 30 à feu doux, en mélangeant pour que le pain d'épices épaississe la sauce. Servir avec des frites."
       ],
-      "img": "img/boeuf/10.jpg"
+      "img": "img/boeuf/10.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r136129"
     },
     {
       "id": "boeuf:011",
@@ -23201,7 +23406,8 @@
         "Verser dans le moule, cuire au bain-marie 50 min à 1 h : le centre doit être pris mais encore légèrement tremblotant.",
         "Laisser refroidir puis réfrigérer au moins 4 h. Passer une lame autour et démouler sur un plat."
       ],
-      "img": "img/flans/01.jpg"
+      "img": "img/flans/01.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r397105"
     },
     {
       "id": "flan:002",
@@ -24300,7 +24506,8 @@
         "Verser une petite louche de pâte en inclinant la poêle pour la répartir finement. Cuire 1 à 2 min jusqu'à ce que les bords dorent, retourner et cuire 30 s à 1 min.",
         "Empiler les crêpes sur une assiette sous un torchon pour les garder moelleuses. Garnir au choix (sucre, confiture, pâte à tartiner, citron…)."
       ],
-      "img": "img/crepes/01.jpg"
+      "img": "img/crepes/01.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r54103"
     },
     {
       "id": "crepepate:002",
@@ -24378,7 +24585,8 @@
         "Verser une petite louche de pâte en inclinant la poêle pour la répartir finement. Cuire 1 à 2 min jusqu'à ce que les bords dorent, retourner et cuire 30 s à 1 min.",
         "Empiler les crêpes sur une assiette sous un torchon pour les garder moelleuses. Garnir au choix (sucre, confiture, pâte à tartiner, citron…)."
       ],
-      "img": "img/crepes/04.jpg"
+      "img": "img/crepes/04.jpg",
+      "tmx": "https://cookidoo.fr/recipes/recipe/fr-FR/r148372"
     },
     {
       "id": "crepepate:005",
@@ -24410,6 +24618,2511 @@
     }
   ],
   "official": {
+    "https://cookidoo.fr/recipes/recipe/FR/r167423": {
+      "name": "Crema catalana",
+      "rating": 4.7,
+      "n": 26,
+      "min": 40,
+      "yld": "6 pers.",
+      "ing": [
+        "1000 g de lait entier",
+        "10 jaunes d'œufs",
+        "300 g de sucre",
+        "40 g de fécule de maïs",
+        "1 c. à café de sucre vanillé",
+        "1 pincée de sel",
+        "de zestes de citron",
+        "1 bâton de cannelle"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/FR/r779745": {
+      "name": "Cassoulet toulousain",
+      "rating": 4.1,
+      "n": 34,
+      "min": 100,
+      "yld": "4 pers.",
+      "ing": [
+        "300 g de haricots blancs secs",
+        "100 g d'oignon",
+        "2 gousses d'ail",
+        "50 g de graisse de canard",
+        "1 clou de girofle",
+        "130 g de carottes",
+        "150 g de tomates",
+        "200 g de jambon cru",
+        "750 g d'eau",
+        "6 pincées de poivre blanc moulu",
+        "4 saucisses de Toulouse",
+        "4 manchons de canard",
+        "1 ½ c. à café de sel"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r100590": {
+      "name": "Mars - Tajine de carottes et pois chiches",
+      "rating": 4.3,
+      "n": 78,
+      "min": 45,
+      "yld": "4 pers.",
+      "ing": [
+        "80 g d'oignon",
+        "3 gousses d'ail",
+        "20 g d'huile d'olive",
+        "450 g de carottes",
+        "2 c. à café de curcuma en poudre",
+        "1 c. à café de cumin en poudre",
+        "1 c. à café de cannelle en poudre",
+        "½ c. à café de piment de Cayenne en poudre",
+        "1 - 2 pincées de poivre moulu",
+        "200 g d'eau",
+        "400 g de pois chiches en conserve",
+        "½ citron confit",
+        "1 c. à café de sirop de rose",
+        "4 c. à soupe de yaourt nature",
+        "½ bouquet de coriandre fraîche"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r107345": {
+      "name": "Coq au vin",
+      "rating": 3.7,
+      "n": 10,
+      "min": 780,
+      "yld": "2 pers.",
+      "ing": [
+        "450 - 500 g de coq",
+        "120 g de lard",
+        "100 g d'oignon",
+        "1 clou de girofle",
+        "1 bouquet garni",
+        "400 g de vin rouge",
+        "20 g d'huile de tournesol",
+        "15 g de calvados",
+        "2 pincées de sel",
+        "2 pincées poivre moulu",
+        "10 g de farine de blé",
+        "200 g de champignons de Paris frais"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r113616": {
+      "name": "Tajine de poulet au citron confit",
+      "rating": 3.4,
+      "n": 185,
+      "min": 180,
+      "yld": "4 pers.",
+      "ing": [
+        "900 g de poulet, désossé et sans peau",
+        "4 gousses d'ail",
+        "40 g d'olives noires dénoyautées",
+        "6 pétales de tomate confite",
+        "1 citron confit",
+        "50 g de concentré de tomate",
+        "50 g d'huile d'olive",
+        "4 brins de coriandre fraîche",
+        "1 c. à soupe de sauce de soja",
+        "1 pincée de poivre moulu",
+        "500 g d'eau"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r115833": {
+      "name": "Glace à la pistache",
+      "rating": 4.8,
+      "n": 185,
+      "min": 720,
+      "yld": "6 pers.",
+      "ing": [
+        "100 g de pistaches, décortiquées, émondées et non salées",
+        "100 g de sucre en poudre",
+        "400 g de lait",
+        "100 g de crème liquide, 30% m.g. min.",
+        "1 c. à café d'arôme naturel de pistache",
+        "4 jaunes d'œufs",
+        "1 c. à café de colorant alimentaire"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r117085": {
+      "name": "Gratin de potimarron et pomme de terre",
+      "rating": 4.4,
+      "n": 788,
+      "min": 80,
+      "yld": "6 pers.",
+      "ing": [
+        "500 g d'eau",
+        "500 g de pomme de terre",
+        "500 g de potimarron",
+        "100 g d'oignon",
+        "20 g de gingembre frais",
+        "20 g de beurre doux",
+        "100 g de crème liquide 30-40% m.g.",
+        "100 g de lait",
+        "1 pincée de noix de muscade fraîchement râpée",
+        "1 c. à café de sel",
+        "2 pincées de poivre moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r118994": {
+      "name": "Calzone",
+      "rating": 4.1,
+      "n": 39,
+      "min": 170,
+      "yld": "1 pers.",
+      "ing": [
+        "220 g Wasser",
+        "1 TL Zucker",
+        "½ Würfel Hefe",
+        "400 g Weizenmehl",
+        "30 g Olivenöl",
+        "1 ½ TL Salz",
+        "Olivenöl",
+        "300 g Mozzarella",
+        "400 g Tomaten",
+        "40 g Olivenöl",
+        "1 TL Salz",
+        "6 Basilikumblätter",
+        "100 g Schinken"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r119510": {
+      "name": "Flan pâtissier",
+      "rating": 3.5,
+      "n": 395,
+      "min": 265,
+      "yld": "8 pers.",
+      "ing": [
+        "400 g de lait",
+        "370 g d'eau",
+        "1 gousse de vanille",
+        "4 œufs",
+        "200 g de sucre en poudre",
+        "50 g de poudre à flan",
+        "beurre",
+        "1 pâte brisée"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r124992": {
+      "name": "Chouquettes",
+      "rating": 4.6,
+      "n": 1520,
+      "min": 60,
+      "yld": "18 pièces",
+      "ing": [
+        "150 g d'eau",
+        "80 g de beurre",
+        "1 pincée de sel",
+        "2 c. à café de sucre en poudre",
+        "120 g de farine de blé",
+        "3 œufs",
+        "100 g de sucre en grains"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r129526": {
+      "name": "Poulet aux noix de cajou et basilic thaï",
+      "rating": 4.6,
+      "n": 98,
+      "min": 45,
+      "yld": "4 pers.",
+      "ing": [
+        "4 c. à soupe de sauce de soja",
+        "2 c. à soupe de sauce de poisson (nuoc-mâm)",
+        "4 c. à soupe de sauce d'huître",
+        "2 c. à soupe de sucre roux",
+        "1 c. à café de pâte de piment",
+        "1 c. à café de concentré de tomate",
+        "15 g d'huile de tournesol",
+        "600 g de filets de poulet",
+        "80 g de noix de cajou grillées, non salées",
+        "6 brins de ciboule",
+        "2 feuilles de bananier",
+        "120 - 150 g de poivron jaune",
+        "200 g d'aubergine",
+        "15 g gingembres frais",
+        "80 g d'oignon",
+        "2 gousses d'ail",
+        "500 g de tomates",
+        "1 c. à café de sel",
+        "100 g d'eau",
+        "½ cube de bouillon de volaille",
+        "100 g de crème de coco",
+        "1 bouquet de basilic thaï frais"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r134103": {
+      "name": "Carrot cake",
+      "rating": 4.8,
+      "n": 573,
+      "min": 90,
+      "yld": "8 pers.",
+      "ing": [
+        "50 g de beurre",
+        "100 g de farine de blé",
+        "50 g de noix de pécan",
+        "50 g de noisettes",
+        "250 g de carottes",
+        "100 g d'huile de tournesol",
+        "100 g de jus d'orange",
+        "150 g de sucre roux",
+        "4 œufs",
+        "1 c. à café d'extrait naturel de vanille",
+        "100 g de fécule de maïs",
+        "50 g de farine d'épeautre",
+        "1 c. à café de cannelle en poudre",
+        "1 c. à café de quatre-épices",
+        "1 c. à café de gingembre en poudre",
+        "1 c. à café de levure chimique",
+        "1 c. à café de bicarbonate de sodium",
+        "1 pincée de sel",
+        "100 g de sucre en poudre",
+        "50 g de beurre doux",
+        "200 g de fromage frais",
+        "1 c. à café d'extrait naturel de vanille",
+        "15 g de pistaches, décortiquées, émondées et non salées",
+        "20 g de graines variées",
+        "50 g d'abricots secs dénoyautés"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r136129": {
+      "name": "Carbonade flamande",
+      "rating": 3.5,
+      "n": 382,
+      "min": 105,
+      "yld": "4 pers.",
+      "ing": [
+        "60 g d'huile neutre",
+        "800 g de viande de bœuf",
+        "1 c. à soupe de vinaigre de cidre",
+        "250 g d'oignons",
+        "20 g de farine de blé",
+        "650 g de bière brune",
+        "200 g d'eau",
+        "2 c. à soupe de cassonade",
+        "3 tranches de pain d'épices",
+        "1 branche de thym frais",
+        "1 feuille de laurier frais",
+        "1 morceau de carotte",
+        "1 pincée de sel",
+        "1 pincée de poivre moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r138429": {
+      "name": "Moules au curry",
+      "rating": 4.7,
+      "n": 210,
+      "min": 40,
+      "yld": "4 pers.",
+      "ing": [
+        "100 g d'échalotes",
+        "100 g de vin blanc",
+        "1 - 2 c. à soupe de curry en poudre",
+        "1500 g de moules fraîches, préalablement nettoyées",
+        "300 g de crème liquide, 30% m.g. min."
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r139637": {
+      "name": "Flans de poireau",
+      "rating": 4.4,
+      "n": 215,
+      "min": 35,
+      "yld": "2 pers.",
+      "ing": [
+        "250 g de poireaux",
+        "20 g de beurre doux",
+        "½ c. à café de sel",
+        "1 c. à café de poivre blanc moulu",
+        "1 c. à café de curry en poudre",
+        "2 œufs",
+        "80 g de crème liquide 30-40% m.g.",
+        "500 g d'eau"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r142216": {
+      "name": "Soupe à l'ail",
+      "rating": 4.0,
+      "n": 243,
+      "min": 40,
+      "yld": "6 pers.",
+      "ing": [
+        "5 - 10 gousses d'ail",
+        "60 g d'huile d'olive",
+        "100 g de jambon serrano",
+        "1 c. à soupe de paprika",
+        "1000 g d'eau",
+        "1 cube de bouillon de légumes",
+        "2 œufs",
+        "100 g de pain"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r148372": {
+      "name": "Pâte à crêpes sans gluten",
+      "rating": 4.5,
+      "n": 84,
+      "min": 90,
+      "yld": "15 pers.",
+      "ing": [
+        "150 g de farine de riz complet",
+        "100 g de farine de manioc",
+        "500 g de lait de soja",
+        "3 œufs",
+        "1 pincée de sel",
+        "1 c. à café de sucre de canne",
+        "2 c. à soupe d'huile d'olive"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r150790": {
+      "name": "Canistrelli",
+      "rating": 4.8,
+      "n": 108,
+      "min": 60,
+      "yld": "25 pièces",
+      "ing": [
+        "300 g de farine de blé",
+        "100 g d'huile d'olive",
+        "1 pincée de sel",
+        "15 g de graine d'anis vert",
+        "2 c. à café de levure chimique",
+        "100 g de vin blanc",
+        "100 g de sucre en poudre"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r160947": {
+      "name": "Steak tartare",
+      "rating": 2.9,
+      "n": 19,
+      "min": 30,
+      "yld": "6 pers.",
+      "ing": [
+        "500 g de rumsteack de boeuf",
+        "250 d'oignons de printemps",
+        "100 g de cornichons",
+        "2 œufs",
+        "1 oignon",
+        "2 brins de persil frais",
+        "2 brins de cerfeuil frais",
+        "4 feuilles d'estragon",
+        "20 g de jus de citron, fraîchement pressé",
+        "80 g de ketchup",
+        "3 c. à soupe de câpres, marinées",
+        "1 c. à café de sel fin",
+        "1 pincée de poivre noir, fraîchement moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r167060": {
+      "name": "Gaspacho",
+      "rating": 4.8,
+      "n": 147,
+      "min": 75,
+      "yld": "6 pers.",
+      "ing": [
+        "1000 g de tomates olivettes",
+        "50 g de poivron vert",
+        "40 g d'oignons",
+        "70 g de concombre",
+        "1 gousse d'ail",
+        "30 g de vinaigre",
+        "1 c. à café de sel",
+        "50 - 100 g d'huile d'olive extra vierge",
+        "8 glaçons"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r178361": {
+      "name": "Fondant minute au chocolat",
+      "rating": 4.8,
+      "n": 3017,
+      "min": 20,
+      "yld": "8 pers.",
+      "ing": [
+        "170 g de beurre demi-sel",
+        "55 g de farine de blé",
+        "170 g de sucre en poudre",
+        "270 g de chocolat noir",
+        "4 œufs"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r20475": {
+      "name": "Gougères",
+      "rating": 4.8,
+      "n": 1660,
+      "min": 40,
+      "yld": "8 pers.",
+      "ing": [
+        "130 g de gruyère",
+        "150 g d'eau",
+        "80 g de beurre",
+        "1 c. à café de sel",
+        "1 pincée de poivre moulu",
+        "120 g de farine de blé",
+        "3 œuf"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r20568": {
+      "name": "Riz au lait",
+      "rating": 4.5,
+      "n": 2418,
+      "min": 60,
+      "yld": "8 pers.",
+      "ing": [
+        "1000 g de lait demi-écrémé",
+        "180 g de riz rond blanc, spécial dessert",
+        "les graines d'1 gousse de vanille",
+        "40 - 80 g de sucre en poudre"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r237511": {
+      "name": "Pizza quatre saisons",
+      "rating": 4.7,
+      "n": 33,
+      "min": 95,
+      "yld": "3 pers.",
+      "ing": [
+        "220 g d'eau",
+        "1 c. à café de sucre en poudre",
+        "20 g de levure boulangère fraîche",
+        "400 g de farine à pain",
+        "30 g d'huile d'olive extra vierge",
+        "1 c. à café de sel",
+        "30 g d'huile d'olive extra vierge",
+        "140 g de mozzarella",
+        "250 g de tomates",
+        "1 brin de basilic frais",
+        "1 c. à café de sel",
+        "farine à pain",
+        "50 g de champignons à l'huile",
+        "50 g de cœurs d'artichaut à l'huile",
+        "30 g d'olives noires dénoyautées",
+        "30 g de jambon blanc"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r238021": {
+      "name": "Poulet katsu au riz et curry",
+      "rating": 4.7,
+      "n": 364,
+      "min": 105,
+      "yld": "4 pers.",
+      "ing": [
+        "1000 g d'eau",
+        "1 c. à café de sel",
+        "350 g de riz à grain court",
+        "15 gramme huile végétale",
+        "5 gousses d'ail",
+        "120 g d'oignon",
+        "200 g de carotte",
+        "1 ½ c. à soupe de curry en poudre",
+        "145 g de farine de blé",
+        "500 g de bouillon de poule",
+        "20 g de sucre roux",
+        "15 g de sauce de soja japonaise",
+        "½ c. à café de garam masala en poudre",
+        "1 feuille de laurier déshydratée",
+        "¼ c. à café de sel",
+        "¼ c. à café de poivre blanc moulu",
+        "2 œufs",
+        "160 g de chapelure de panko",
+        "4 escalopes de poulet, sans peau"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r24137": {
+      "name": "Moelleux au chocolat au cœur fondant",
+      "rating": 4.6,
+      "n": 1729,
+      "min": 25,
+      "yld": "4 pers.",
+      "ing": [
+        "90 g de beurre",
+        "100 g de chocolat noir 70% de cacao",
+        "3 œufs",
+        "50 g de sucre en poudre",
+        "15 g de farine de blé"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r245404": {
+      "name": "Bœuf carottes",
+      "rating": 3.6,
+      "n": 300,
+      "min": 120,
+      "yld": "4 pers.",
+      "ing": [
+        "4 brins de persil plat frais",
+        "80 g d'oignon",
+        "25 g d'huile d'olive",
+        "10 g de beurre",
+        "600 g de viande de bœuf, morceaux à bourguignon",
+        "1 branche de thym frais",
+        "1000 g d'eau",
+        "1 cube de bouillon de bœuf",
+        "1 feuille de laurier frais",
+        "800 g de carottes",
+        "4 pincées de sel",
+        "4 pincées de poivre blanc moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r251374": {
+      "name": "Filet mignon au cidre",
+      "rating": 4.1,
+      "n": 154,
+      "min": 35,
+      "yld": "4 pers.",
+      "ing": [
+        "120 g d'oignon rouge",
+        "200 g de lardons fumés",
+        "10 g d'huile neutre",
+        "600 g de filet mignon de porc",
+        "1 pomme",
+        "1 c. à soupe de calvados",
+        "du sel",
+        "du poivre moulu",
+        "90 g de cidre doux",
+        "120 g de crème fraîche épaisse, 30% m.g. min."
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r257605": {
+      "name": "Gratin de brocoli au parmesan",
+      "rating": 4.4,
+      "n": 671,
+      "min": 65,
+      "yld": "4 pers.",
+      "ing": [
+        "100 g de parmesan",
+        "30 g d'amandes décortiquées",
+        "500 g d'eau",
+        "600 g de brocoli, détaillé en bouquets",
+        "30 g de beurre",
+        "30 g de farine",
+        "300 g de boisson végétale à l'amande",
+        "sel",
+        "poivre moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r317295": {
+      "name": "L'incontournable sauce bolognaise",
+      "rating": 4.2,
+      "n": 1285,
+      "min": 50,
+      "yld": "4 pers.",
+      "ing": [
+        "100 g de carotte",
+        "100 g d'oignon",
+        "1 gousse d'ail",
+        "50 g de céleri branche",
+        "15 g d'huile d'olive",
+        "700 g de viande de bœuf hachée",
+        "2 c. à café d'herbes de Provence déshydratées",
+        "1 pincée de piment en poudre",
+        "400 g de tomates pelées au jus",
+        "1 c. à soupe de fond de veau",
+        "du sel",
+        "du poivre moulu",
+        "4 brins de persil plat frais"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r31862": {
+      "name": "Fiadone",
+      "rating": 3.9,
+      "n": 24,
+      "min": 55,
+      "yld": "6 pers.",
+      "ing": [
+        "30 g de beurre",
+        "1 de citron jaune non traité",
+        "180 g de sucre en poudre",
+        "15 g de sucre vanillé maison",
+        "30 g de crème fraîche",
+        "500 g de fromage",
+        "6 œufs"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r320591": {
+      "name": "Smoothie à la mangue",
+      "rating": 3.9,
+      "n": 10,
+      "min": 5,
+      "yld": "4 pers.",
+      "ing": [
+        "1 cm de gingembre, frais",
+        "1 mangue, mûre",
+        "180 g de yogourt nature",
+        "200 g d'eau",
+        "20 g de jus de citron",
+        "4 glaçons"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r331316": {
+      "name": "Blancs de volaille à la moutarde",
+      "rating": 4.6,
+      "n": 201,
+      "min": 45,
+      "yld": "2 pers.",
+      "ing": [
+        "80 g d'oignon",
+        "20 g de beurre",
+        "300 g de blancs de volaille",
+        "150 g de crème liquide 35% m.g.",
+        "90 g de moutarde à l'ancienne",
+        "3 pincées de sel",
+        "3 pincées de poivre moulu",
+        "400 g de brocoli, détaillé en bouquets",
+        "600 g d'eau"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r360123": {
+      "name": "Œuf poché sauce meurette",
+      "rating": 4.7,
+      "n": 270,
+      "min": 60,
+      "yld": "4 pers.",
+      "ing": [
+        "500 g de vin rouge",
+        "20 g de beurre",
+        "1 c. à soupe bombée de farine",
+        "150 g de lardons fumés",
+        "80 g d'oignons grelot",
+        "200 g de champignons frais",
+        "1 cube de bouillon de bœuf",
+        "1 feuille de laurier déshydratée",
+        "1 branche de thym frais",
+        "20 g d'huile de colza",
+        "4 œufs",
+        "4 pincées de sel",
+        "4 pincées de poivre moulu",
+        "120 g de croûtons",
+        "5 brins de ciboulette, séchée et ciselée"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r375177": {
+      "name": "Poulet à l'orange",
+      "rating": 3.4,
+      "n": 71,
+      "min": 90,
+      "yld": "6 pers.",
+      "ing": [
+        "1 gousse d'ail",
+        "10 brins de feuilles de coriandre fraîche",
+        "80 g d'oignon",
+        "½ c. à café de curcuma en poudre",
+        "10 g de gingembre frais",
+        "2 pincées de sel",
+        "2 oranges non traitées",
+        "2 pincées de poivre blanc moulu",
+        "20 g d'huile d'olive",
+        "800 g de blancs de poulet",
+        "1000 g d'eau",
+        "200 g de quinoa",
+        "400 g de courge butternut",
+        "10 g de farine de blé"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r375184": {
+      "name": "Virgin mango piña colada (cocktail sans alcool)",
+      "rating": 4.6,
+      "n": 94,
+      "min": 10,
+      "yld": "6 verres",
+      "ing": [
+        "3 citrons verts non traités",
+        "30 g de sucre en poudre",
+        "200 g de lait de coco",
+        "400 g de mangue",
+        "300 g de jus d'ananas",
+        "100 g de glaçons",
+        "30 g de sirop de coco",
+        "30 g de noix de coco râpée"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r38594": {
+      "name": "Veau aux olives",
+      "rating": 4.0,
+      "n": 67,
+      "min": 60,
+      "yld": "4 pers.",
+      "ing": [
+        "25 g de beurre",
+        "800 g d'épaule de veau",
+        "15 g de cognac",
+        "100 g d'oignons",
+        "2 gousses d'ail",
+        "30 g d'échalotes",
+        "120 g de graine de couscous",
+        "1 filet d'huile neutre",
+        "400 g d'eau",
+        "200 g de carottes nouvelles",
+        "1 cube de bouillon de légumes",
+        "1 pincée de sel",
+        "1 pincée de poivre moulu",
+        "1 citron confit",
+        "130 g d'olives vertes dénoyautées"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r397105": {
+      "name": "Crème caramel",
+      "rating": 4.5,
+      "n": 630,
+      "min": 180,
+      "yld": "6 pers.",
+      "ing": [
+        "20 - 30 g de caramel liquide",
+        "300 g de lait entier",
+        "4 œufs",
+        "40 g de sucre en poudre",
+        "500 g d'eau"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r403419": {
+      "name": "Cannoli siciliens",
+      "rating": 3.7,
+      "n": 17,
+      "min": 90,
+      "yld": "16 pièces",
+      "ing": [
+        "800 g de ricotta",
+        "80 g de sucre en poudre",
+        "250 g de farine de blé",
+        "50 g de beurre",
+        "2 œufs",
+        "40 g de sucre glace",
+        "1 c. à café de cacao en poudre non sucré",
+        "20 g de marsala liquoreux",
+        "1 pincée de sel",
+        "50 g d'huile de friture",
+        "40 g d'écorce d'orange confite"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r405008": {
+      "name": "Œufs Bénédicte",
+      "rating": 3.0,
+      "n": 48,
+      "min": 45,
+      "yld": "6 pers.",
+      "ing": [
+        "250 g de beurre doux",
+        "50 g d'eau",
+        "1 c. à soupe de jus de citron",
+        "3 jaunes d'œufs",
+        "½ c. à café de sel",
+        "7 pincée de poivre fraîchement moulu",
+        "400 g d'eau",
+        "6 œufs",
+        "6 pincées de sel",
+        "6 tranches de pain de mie blanc",
+        "6 tranches de bacon",
+        "3 brins de ciboulette fraîche"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r433110": {
+      "name": "Bœuf Stroganoff",
+      "rating": 4.3,
+      "n": 546,
+      "min": 60,
+      "yld": "4 pers.",
+      "ing": [
+        "40 g d'huile d'olive",
+        "600 g de viande de bœuf",
+        "2 pincées de poivre fraîchement moulu",
+        "1 c. à café de sel",
+        "100 g d'oignon",
+        "1 gousse d'ail",
+        "250 g de champignons frais",
+        "30 g d'eau",
+        "10 g de fécule de maïs",
+        "½ c. à café de fond de viande maison",
+        "1 c. à café de moutarde de Dijon",
+        "200 g de crème fraîche",
+        "feuilles de persil frais"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r434827": {
+      "name": "Torta della nonna",
+      "rating": 4.6,
+      "n": 15,
+      "min": 240,
+      "yld": "12 pièces",
+      "ing": [
+        "30 g di zucchero",
+        "350 g di zucchero",
+        "1000 g di latte",
+        "8 tuorli d'uovo",
+        "1 pizzico di sale",
+        "150 g di farina",
+        "300 g di farina",
+        "120 g di burro",
+        "2 uova",
+        "1 pizzico di sale",
+        "1 cucchiaino di lievito in polvere",
+        "50 g di pinoli"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r4357": {
+      "name": "Harira",
+      "rating": 3.9,
+      "n": 673,
+      "min": 420,
+      "yld": "6 pers.",
+      "ing": [
+        "100 g de pois chiches blancs secs",
+        "1350 g d'eau",
+        "20 g de farine de blé",
+        "30 g de concentré de tomate",
+        "350 g de tomates",
+        "80 g d'oignon",
+        "1 gousse d'ail",
+        "4 brins de coriandre fraîche",
+        "4 brins de persil frais",
+        "100 g de céleri branche",
+        "2 c. à café de ras el-hanout",
+        "1 c. à soupe de sel",
+        "100 g de lentilles vertes sèches",
+        "1 c. à soupe de jus de citron"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r4449": {
+      "name": "Strudel à la pomme",
+      "rating": 4.6,
+      "n": 18,
+      "min": 105,
+      "yld": "10 pers.",
+      "ing": [
+        "370 g de farine de blé",
+        "1 œuf",
+        "50 g d'huile de tournesol",
+        "120 g d'eau",
+        "1 c. à café de vinaigre de vin blanc",
+        "½ c. à café de sel",
+        "160 g de beurre",
+        "150 g de chapelure",
+        "100 g de noisettes",
+        "750 g de pommes",
+        "1 c. à café de cannelle en poudre",
+        "1 c. à soupe de sucre vanillé maison",
+        "20 g de jus de citron",
+        "20 g de rhum",
+        "80 g de raisins secs",
+        "100 g de sucre en poudre",
+        "farine",
+        "50 g de lait"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r450954": {
+      "name": "Moussaka",
+      "rating": 4.3,
+      "n": 1504,
+      "min": 100,
+      "yld": "4 pers.",
+      "ing": [
+        "1 gousse d'ail",
+        "200 g d'oignons",
+        "600 g de tomates",
+        "2 c. à soupe de concentré de tomate",
+        "1 pincée de piment en poudre",
+        "1 c. à café de cannelle en poudre",
+        "500 g d'aubergines",
+        "500 g de viande hachée",
+        "3 c. à soupe d'huile d'olive",
+        "sel",
+        "poivre moulu",
+        "20 g de beurre demi-sel",
+        "50 g de farine de blé",
+        "500 g de lait",
+        "1 œuf",
+        "1 pincée de noix de muscade en poudre"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r451060": {
+      "name": "Sangria",
+      "rating": 4.9,
+      "n": 8,
+      "min": 10,
+      "yld": "6 verres",
+      "ing": [
+        "250 g de pomme",
+        "1 orange",
+        "1 citron",
+        "150 g de sucre",
+        "600 g de vin rouge",
+        "30 - 50 g de vermouth",
+        "30 - 50 g de brandy",
+        "30 - 50 g de gin",
+        "¼ c. à café de cannelle en poudre",
+        "10 glaçons",
+        "330 g de soda"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r460381": {
+      "name": "Dumplings (raviolis chinois)",
+      "rating": 4.5,
+      "n": 6,
+      "min": 45,
+      "yld": "4 pers.",
+      "ing": [
+        "2 c. à soupe d'huile végétale",
+        "600 g d'eau",
+        "1 - 2 c. à soupe de chapelure",
+        "12 branches de coriandre, fraîche",
+        "1 gousse gousse d'ail",
+        "1 oignon rouge",
+        "2 c. à soupe d'huile de sésame, toasté",
+        "2 c. à soupe d'huile végétale",
+        "5 c. à soupe de vinaigre de riz",
+        "80 g de sauce de soja",
+        "1 c. à café de sel",
+        "4 pincées de poivre, moulu",
+        "1 c. à soupe de sucre",
+        "700 g de chou chinois",
+        "1 branche citronnelle, fraîche",
+        "20 g de gingembre, frais",
+        "1 piment rouge, frais",
+        "150 g de crevettes crues, décortiquées",
+        "1 c. à soupe de sauce de poisson",
+        "1 blanc d'œuf",
+        "150 g de viande de porc hachée",
+        "24 feuilles de pâte à dumpling, surgelée",
+        "30 g de vinaigre de riz noir",
+        "1 bouquet de ciboulette fraîche"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r469326": {
+      "name": "Nasi goreng",
+      "rating": 4.2,
+      "n": 13,
+      "min": 50,
+      "yld": "4 pers.",
+      "ing": [
+        "1 oignon rouge",
+        "4 œufs",
+        "1 ¼ c. à café de sel",
+        "4 pincées de poivre, moulu",
+        "1200 g d'eau",
+        "3 c. à café d'huile d'arachide",
+        "160 g de riz basmati",
+        "2 gousses gousse d'ail",
+        "25 - 30 g de gingembre, frais",
+        "2 échalotes",
+        "½ - 1 piment vert, frais",
+        "150 g de champignons de Paris, blancs, frais",
+        "150 g de poivron vert",
+        "150 g de poivron rouge",
+        "200 g de petits épis de maïs, en conserve",
+        "80 g de pousses de soja, fraîches",
+        "25 g de sauce de soja",
+        "½ bouquet de coriandre, fraîche"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r483612": {
+      "name": "Cari poulet",
+      "rating": 4.1,
+      "n": 454,
+      "min": 45,
+      "yld": "4 pers.",
+      "ing": [
+        "2 gousses d'ail",
+        "200 g d'oignons",
+        "15 g de gingembre",
+        "10 g de curcuma frais",
+        "1 petit morceau de piment rouge",
+        "250 g de riz basmati",
+        "25 g d'huile d'olive",
+        "400 g d'eau",
+        "3 pincées de sel",
+        "500 g de tomates",
+        "1 branche de thym frais",
+        "2 pincées de poivre moulu",
+        "600 g de poulet"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r511870": {
+      "name": "Charlotte aux fraises",
+      "rating": 4.3,
+      "n": 622,
+      "min": 215,
+      "yld": "4 pers.",
+      "ing": [
+        "1 citron vert non traité",
+        "125 g de sucre en poudre",
+        "150 g d'eau",
+        "6 feuilles de gélatine alimentaire",
+        "500 g de fraises",
+        "18 - 20 biscuits à la cuillère",
+        "300 g de crème liquide entière",
+        "1 c. à soupe de mascarpone"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54103": {
+      "name": "Pâte à crêpe",
+      "rating": 4.6,
+      "n": 6155,
+      "min": 75,
+      "yld": "10 pers.",
+      "ing": [
+        "50 g de beurre",
+        "600 g de lait",
+        "250 g de farine de blé",
+        "4 œufs",
+        "1 pincée de sel"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54111": {
+      "name": "Minestrone",
+      "rating": 4.5,
+      "n": 588,
+      "min": 45,
+      "yld": "6 pers.",
+      "ing": [
+        "80 g d'oignon",
+        "120 g de poireau",
+        "40 g d'huile d'olive extra vierge",
+        "600 g de légumes variés",
+        "1000 g d'eau",
+        "2 cubes de bouillon de légumes",
+        "120 g de pâtes sèches",
+        "6 - 18 c. à café de parmesan râpé"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54120": {
+      "name": "Pizza Margherita",
+      "rating": 4.4,
+      "n": 260,
+      "min": 130,
+      "yld": "4 pers.",
+      "ing": [
+        "220 g d'eau",
+        "1 c. à café de sucre en poudre",
+        "20 g de levure boulangère fraîche",
+        "400 g de farine de blé",
+        "30 g d'huile d'olive extra vierge",
+        "1 c. à café de sel",
+        "200 g de mozzarella",
+        "250 g de tomates concassées en conserve",
+        "2 - 3 pincées de sel",
+        "1 filet d'huile d'olive extra vierge",
+        "10 - 12 feuilles de basilic frais",
+        "quelques feuilles de basilic frais"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54150": {
+      "name": "Milkshake à la fraise",
+      "rating": 4.8,
+      "n": 408,
+      "min": 5,
+      "yld": "6 verres",
+      "ing": [
+        "300 g de fraises",
+        "300 g de glace à la vanille",
+        "30 g de sucre en poudre",
+        "370 g de lait"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54158": {
+      "name": "Quiche lorraine",
+      "rating": 4.6,
+      "n": 2080,
+      "min": 50,
+      "yld": "8 pers.",
+      "ing": [
+        "150 g de farine de blé",
+        "75 g de beurre",
+        "½ c. à café de sel",
+        "50 g d'eau",
+        "200 g de lardons",
+        "4 œufs",
+        "50 g de lait",
+        "100 g de crème fraîche épaisse, 30% m.g. min.",
+        "¼ de c. à café de sel",
+        "2 pincées de poivre moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r54208": {
+      "name": "Pâte à pizza",
+      "rating": 4.8,
+      "n": 6201,
+      "min": 60,
+      "yld": "4 pers.",
+      "ing": [
+        "30 g d'huile d'olive extra vierge",
+        "220 g d'eau",
+        "20 g de levure boulangère fraîche",
+        "400 g de farine de blé",
+        "1 c. à café de sel"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r545030": {
+      "name": "Risotto",
+      "rating": 4.5,
+      "n": 113,
+      "min": 30,
+      "yld": "4 pers.",
+      "ing": [
+        "40 g de parmesan",
+        "1 échalote",
+        "40 g de beurre",
+        "10 g d'huile d'olive",
+        "320 g de riz risotto, tout type",
+        "60 g de vin blanc, sec",
+        "820 g d'eau",
+        "1 c. à café bombée de bouillon de légumes en pâte",
+        "½ - 1 c. à café de sel"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r548026": {
+      "name": "Tiramisu aux fraises",
+      "rating": 4.3,
+      "n": 918,
+      "min": 270,
+      "yld": "6 pers.",
+      "ing": [
+        "200 g de fraises",
+        "30 g de sucre en poudre",
+        "le jus d'un citron jaune",
+        "75 g d'eau",
+        "5 œufs",
+        "100 g de sucre en poudre",
+        "500 g de mascarpone",
+        "1 pincée de sel",
+        "12 biscuits à la cuillère",
+        "300 g de fraises"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r551696": {
+      "name": "Beignets de crevettes",
+      "rating": 4.6,
+      "n": 106,
+      "min": 35,
+      "yld": "50 pièces",
+      "ing": [
+        "3 blancs d'œufs",
+        "200 g de farine de blé",
+        "2 jaunes d'œufs",
+        "1 pincée de sel",
+        "20 g de levure boulangère fraîche",
+        "200 g de lait",
+        "500 g d'huile de friture",
+        "500 g de crevettes roses cuites, décortiquées",
+        "le zeste d'un citron vert non traité"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r56407": {
+      "name": "Soupe de lentilles vertes",
+      "rating": 4.6,
+      "n": 392,
+      "min": 35,
+      "yld": "4 pers.",
+      "ing": [
+        "400 g d'eau",
+        "250 g de lentilles vertes du Puy, sèches",
+        "200 g de lardons",
+        "100 g de carotte",
+        "100 g de blanc de poireau",
+        "700 g d'eau",
+        "200 g de pommes de terre",
+        "1 cube de bouillon de légumes",
+        "10 g de vinaigre de vin",
+        "4 saucisses"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r581498": {
+      "name": "Flammekueche alsacienne",
+      "rating": 4.5,
+      "n": 586,
+      "min": 30,
+      "yld": "8 pers.",
+      "ing": [
+        "300 g de farine de blé",
+        "½ c. à café de sel",
+        "4 c. à soupe d'huile neutre",
+        "130 g d'eau",
+        "1 gros oignon",
+        "100 g de fromage blanc 40 % m.g.",
+        "80 g de lardon",
+        "50 g de gruyère",
+        "ciboulette fraîche"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r595183": {
+      "name": "Riz cantonais",
+      "rating": 3.9,
+      "n": 948,
+      "min": 45,
+      "yld": "6 pers.",
+      "ing": [
+        "100 g d'oignon",
+        "1 gousse d'ail",
+        "15 g d'huile d'olive",
+        "600 g d'eau",
+        "250 g de riz",
+        "200 g de jambon fumé",
+        "200 g de petits pois frais",
+        "3 œufs",
+        "20 g de sauce de soja",
+        "2 pincées de sel",
+        "2 pincées de poivre moulu",
+        "beurre"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r61116": {
+      "name": "Soupe miso",
+      "rating": 3.5,
+      "n": 22,
+      "min": 40,
+      "yld": "4 pers.",
+      "ing": [
+        "1000 g d'eau",
+        "30 g d'algues kombu",
+        "150 g de blanc de poireau",
+        "1 c. à café bombée de dashi en poudre",
+        "10 g d'algues wakamé séchées",
+        "80 g de pâte de soja",
+        "200 g de tofu ferme",
+        "4 brins de cive"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r622023": {
+      "name": "Sous-vide côte de bœuf, désossée",
+      "rating": 4.0,
+      "n": 14,
+      "min": 145,
+      "yld": "4 pers.",
+      "ing": [
+        "2 côtes de bœuf",
+        "1300 g d'eau",
+        "30 g de jus de citron",
+        "1 c. à soupe de beurre"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r622753": {
+      "name": "Sous-vide magrets de canard",
+      "rating": 4.8,
+      "n": 28,
+      "min": 120,
+      "yld": "4 pers.",
+      "ing": [
+        "4 magrets de canard avec la peau",
+        "1200 g d'eau",
+        "30 g de jus de citron"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r658353": {
+      "name": "Bretzels",
+      "rating": 4.7,
+      "n": 30,
+      "min": 110,
+      "yld": "6 pers.",
+      "ing": [
+        "300 g de lait",
+        "½ cube de levure boulangère fraîche",
+        "500 g de farine à tresse",
+        "1 ¼ c. à café de sel",
+        "50 g de beurre",
+        "2 l d'eau",
+        "4 c. à soupe de bicarbonate de sodium",
+        "½ c. à soupe de sel",
+        "1 c. à café de gros sel",
+        "3 - 4 c. à soupe de crème à café"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r69472": {
+      "name": "Bouillabaisse",
+      "rating": 4.4,
+      "n": 70,
+      "min": 75,
+      "yld": "6 pers.",
+      "ing": [
+        "60 g d'oignon",
+        "120 g de blancs de poireau",
+        "300 g de tomates",
+        "1 gousse d'ail",
+        "20 g d'huile d'olive",
+        "20 g de pastis",
+        "100 g de vin blanc sec",
+        "750 g d'eau",
+        "5 g de fumet de poisson",
+        "10 g de concentré de tomate",
+        "1 étoile de badiane",
+        "1 clou de girofle",
+        "le zeste d'½ orange non traitée",
+        "1 bouquet garni",
+        "6 graines de fenouil",
+        "200 g de pommes de terre",
+        "170 g de carottes",
+        "150 g de bulbe de fenouil",
+        "300 g de moules fraîches, préalablement nettoyées",
+        "350 g de coques fraîches, préalablement dégorgées",
+        "150 g de filets de dorade sébaste",
+        "200 g de filets de saumon frais",
+        "150 g de pavés de cabillaud, sans peau",
+        "6 langoustines"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r696492": {
+      "name": "Bao bun au porc braisé",
+      "rating": 4.3,
+      "n": 115,
+      "min": 80,
+      "yld": "6 pers.",
+      "ing": [
+        "100 g de cacahuètes, grillées et salées",
+        "1 bouquet de coriandre fraîche",
+        "100 g de chou rouge",
+        "50 g de carotte",
+        "20 g d'huile de sésame",
+        "175 g d'eau",
+        "1 sachet levure boulangère sèche",
+        "10 g de sucre roux",
+        "350 g de farine de blé",
+        "10 g d'huile de tournesol",
+        "¼ c. à café de sel",
+        "2 gousses d'ail",
+        "30 g gingembres frais",
+        "20 g d'huile de tournesol",
+        "100 g d'oignon rouge",
+        "600 g de poitrine de porc, désossée et découennée",
+        "20 g de sucre roux",
+        "1 c. à café d'anis vert en poudre",
+        "100 g de vin blanc",
+        "100 g de sauce de soja",
+        "50 g d'eau"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r699803": {
+      "name": "Clafoutis aux tomates cerise et au basilic",
+      "rating": 4.1,
+      "n": 164,
+      "min": 40,
+      "yld": "4 pers.",
+      "ing": [
+        "60 g de parmesan",
+        "120 g de farine",
+        "1 pincée de sel",
+        "du poivre moulu",
+        "3 œufs",
+        "2 c. à soupe d'huile d'olive",
+        "250 g de lait écrémé",
+        "3 brins de basilic frais",
+        "500 g de tomates cerise"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r70121": {
+      "name": "Charlotte au chocolat",
+      "rating": 4.2,
+      "n": 237,
+      "min": 380,
+      "yld": "6 pers.",
+      "ing": [
+        "400 g de chocolat noir",
+        "70 g de lait",
+        "75 g de beurre",
+        "6 œufs",
+        "50 g de sucre en poudre",
+        "1 pincée de sel",
+        "200 g d'eau",
+        "20 biscuits à la cuillère"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r703938": {
+      "name": "Purée de pois cassés (bisarra)",
+      "rating": 4.4,
+      "n": 987,
+      "min": 45,
+      "yld": "4 pers.",
+      "ing": [
+        "4 gousses d'ail",
+        "1100 g d'eau",
+        "300 g de pois cassés",
+        "55 g d'huile d'olive",
+        "1 c. à café de paprika",
+        "1 c. à café de sel",
+        "2 c. à café de cumin en poudre",
+        "½ c. à café de poivre blanc moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r703940": {
+      "name": "Loubia (haricots blancs à la tomate)",
+      "rating": 3.8,
+      "n": 545,
+      "min": 85,
+      "yld": "4 pers.",
+      "ing": [
+        "250 g de haricots blancs demi-secs",
+        "3 gousses d'ail",
+        "½ bouquet de persil frais, équeuté",
+        "½ bouquet de coriandre fraîche",
+        "250 g de tomates",
+        "1 c. à café de gingembre en poudre",
+        "½ c. à café de curcuma en poudre",
+        "½ c. à café de cumin en poudre",
+        "1 c. à café de paprika",
+        "1 c. à café de sel",
+        "½ c. à café de poivre moulu",
+        "2 c. à café de concentré de tomate",
+        "50 g d'huile d'olive",
+        "1000 g d'eau"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r709545": {
+      "name": "Risotto alla milanese",
+      "rating": 4.8,
+      "n": 95,
+      "min": 30,
+      "yld": "4 pers.",
+      "ing": [
+        "50 g de noisettes",
+        "½ bouquet de sauge fraîche",
+        "80 g de parmesan",
+        "80 g d'oignons",
+        "1 gousse d'ail",
+        "20 g d'huile d'olive",
+        "300 g de riz risotto",
+        "100 g de vin blanc",
+        "700 g d'eau",
+        "2 cubes de bouillon de boeuf",
+        "2 sachets de safran en poudre",
+        "40 g de beurre",
+        "2 c. à soupe d'huile d'olive",
+        "½ c. à café de sel",
+        "12 pincées de poivre, moulu",
+        "12 escalopes de veau",
+        "2 c. à soupe de crème de vinaigre balsamique"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r716242": {
+      "name": "Salade grecque",
+      "rating": 4.7,
+      "n": 312,
+      "min": 30,
+      "yld": "4 pers.",
+      "ing": [
+        "60 g d'oignon rouge",
+        "30 g d'huile d'olive",
+        "3 pincées de sel",
+        "3 pincées poivre moulu",
+        "100 g de feta",
+        "30 g d'olives noires dénoyautées",
+        "1000 g d'eau",
+        "250 g de tomates",
+        "250 g de concombre",
+        "100 g de poivron jaune",
+        "150 g de pâtes sèches"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r71764": {
+      "name": "Rouleaux de printemps",
+      "rating": 4.7,
+      "n": 339,
+      "min": 30,
+      "yld": "8 pers.",
+      "ing": [
+        "50 g de carotte",
+        "50 g de cacahuètes grillées non salées",
+        "25 g d'huile de tournesol",
+        "10 brins de ciboulette fraîche",
+        "1500 g d'eau",
+        "150 g de vermicelles de riz",
+        "150 g de pousses de soja en conserve",
+        "8 - 10 feuilles de riz",
+        "8 - 10 feuilles de batavia",
+        "16 feuilles de basilic frais",
+        "16 feuilles de menthe fraîche",
+        "120 g de crevettes cuites, décortiquées",
+        "2 - 3 c. à soupe de sauce pour nems"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r727345": {
+      "name": "Salmorejo (crème espagnole à la tomate)",
+      "rating": 4.4,
+      "n": 63,
+      "min": 10,
+      "yld": "6 pers.",
+      "ing": [
+        "2 gousses d'ail",
+        "100 g de mie de pain",
+        "400 g de tomates",
+        "40 g d'huile d'olive",
+        "3 pincées de sel"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r728470": {
+      "name": "Tajine de bœuf aux carottes et tomates",
+      "rating": 3.2,
+      "n": 75,
+      "min": 105,
+      "yld": "6 pers.",
+      "ing": [
+        "30 g d'huile d'olive",
+        "10 g de beurre",
+        "900 g de viande de bœuf en morceaux, dénervée",
+        "160 g d'oignons",
+        "2 gousses d'ail",
+        "1 c. à café de ras el-hanout",
+        "1 c. à café de curcuma en poudre",
+        "1 c. à café de gingembre en poudre",
+        "½ c. à café de cumin en poudre",
+        "1 c. à café de coriandre en poudre",
+        "300 g de tomates",
+        "½ c. à café de sel",
+        "4 pincées de poivre moulu",
+        "1100 g d'eau",
+        "700 g de carottes",
+        "260 g de pois chiches en conserve"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r73113": {
+      "name": "Risotto aux cèpes",
+      "rating": 4.6,
+      "n": 788,
+      "min": 30,
+      "yld": "4 pers.",
+      "ing": [
+        "65 g d'oignon",
+        "15 g d'huile d'olive",
+        "200 g de riz spécial risotto",
+        "1 cube de bouillon de légumes",
+        "450 g d'eau",
+        "150 g de vin blanc",
+        "1 pincée de sel",
+        "1 pincée de poivre moulu",
+        "200 g de cèpes frais",
+        "20 g de beurre",
+        "20 g de parmesan râpé"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r75316": {
+      "name": "Appeltaart",
+      "rating": 3.5,
+      "n": 15,
+      "min": 60,
+      "yld": "8 pers.",
+      "ing": [
+        "ongezouten boter",
+        "75 g ongezouten boter",
+        "150 g meel",
+        "1 snuifje zout",
+        "½ tl vanillesuiker, huisgemaakt",
+        "900 - 1000 g appels",
+        "30 g suiker",
+        "10 g ongezouten boter"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r75924": {
+      "name": "Cornes de gazelle",
+      "rating": 4.5,
+      "n": 178,
+      "min": 60,
+      "yld": "25 pièces",
+      "ing": [
+        "80 g de beurre",
+        "200 g de farine de blé",
+        "le zeste d'un citron jaune",
+        "60 g d'eau de fleur d'oranger",
+        "250 g d'amandes émondées",
+        "170 g de sucre glace maison",
+        "2 c. à café de cannelle en poudre",
+        "50 g d'eau de fleur d'oranger"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r762154": {
+      "name": "Chakchouka aux œufs",
+      "rating": 4.3,
+      "n": 184,
+      "min": 50,
+      "yld": "4 pers.",
+      "ing": [
+        "1 oignon",
+        "2 gousses d'ail",
+        "3 poivrons",
+        "1 c. à soupe d'huile d'olive",
+        "400 g de pulpe de tomate",
+        "3 c. à café d'épices",
+        "4 - 6 œufs",
+        "20 g de beurre",
+        "du sel",
+        "du poivre moulu",
+        "brins de thym frais",
+        "paprika"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r779934": {
+      "name": "Bretzels allemands",
+      "rating": 3.5,
+      "n": 12,
+      "min": 135,
+      "yld": "4 pers.",
+      "ing": [
+        "70 g d'eau minérale",
+        "70 g de lait",
+        "3 g de levure boulangère sèche",
+        "250 g de farine",
+        "15 g de sel",
+        "20 g de beurre demi-sel",
+        "1000 g d'eau",
+        "55 g de bicarbonate de sodium",
+        "1 jaune d'œuf",
+        "1 c. à soupe de fleur de sel"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r780404": {
+      "name": "Pains batbout marocains",
+      "rating": 4.3,
+      "n": 603,
+      "min": 60,
+      "yld": "15 pers.",
+      "ing": [
+        "320 g d'eau minérale",
+        "5 g de levure boulangère sèche",
+        "250 g de farine",
+        "250 g de semoule de blé dur fine",
+        "5 g de sel"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r784439": {
+      "name": "Soupe à l'oignon gratinée",
+      "rating": 4.0,
+      "n": 140,
+      "min": 30,
+      "yld": "4 pers.",
+      "ing": [
+        "100 g de comté",
+        "600 g d'oignons jaunes",
+        "40 g de beurre",
+        "30 g de farine",
+        "100 g de vin blanc",
+        "600 g d'eau bouillante",
+        "2 cubes de bouillon de légumes",
+        "4 tranches de pain de campagne"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r788074": {
+      "name": "Poulet stroganov",
+      "rating": 3.6,
+      "n": 27,
+      "min": 50,
+      "yld": "4 pers.",
+      "ing": [
+        "80 g d'oignons",
+        "1 gousse d'ail",
+        "30 g d'huile d'olive",
+        "400 g de poivrons rouges",
+        "230 g de champignons de Paris, frais",
+        "2 c. à soupe de poudre de paprika",
+        "2 c. à café de sel",
+        "500 g d'eau",
+        "1 cube de bouillon de poule (pour 0.5 l)",
+        "600 g d'émincé de poulet",
+        "50 g de cornichons",
+        "2 c. à soupe d'amidon de maïs (par ex. Maïzena)",
+        "3 c. à soupe d'eau",
+        "100 g de crème fraîche"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r795331": {
+      "name": "Potée au chou et à la saucisse de Morteau",
+      "rating": 4.7,
+      "n": 63,
+      "min": 60,
+      "yld": "4 pers.",
+      "ing": [
+        "25 g de beurre",
+        "400 g de chou vert",
+        "65 g d'oignon",
+        "400 g d'eau",
+        "400 g de pommes de terre",
+        "200 g de carottes",
+        "3 saucisses de Morteau",
+        "1 c. à café de sel",
+        "1 c. à café de moutarde"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r797418": {
+      "name": "Tzatziki",
+      "rating": 4.8,
+      "n": 31,
+      "min": 185,
+      "yld": "4 pers.",
+      "ing": [
+        "280 g de yaourt à la grecque",
+        "200 g de concombre",
+        "3 pincées de sel",
+        "½ gousse d'ail",
+        "1 c. à soupe de menthe poivrée",
+        "1 c. à soupe de jus de citron",
+        "1 pincée de poivre blanc moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r810188": {
+      "name": "Sauce béchamel",
+      "rating": 5.0,
+      "n": 1,
+      "min": 15,
+      "yld": "6 pers.",
+      "ing": [
+        "60 g de beurre",
+        "60 g de farine",
+        "750 g de lait",
+        "¾ de c. à café de sel",
+        "3 pincées de poivre, moulu",
+        "3 pincées de noix de muscade, fraîchement moulue"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r819063": {
+      "name": "Paupiettes de veau aux petits légumes",
+      "rating": 4.8,
+      "n": 139,
+      "min": 60,
+      "yld": "4 pers.",
+      "ing": [
+        "100 g d'oignon",
+        "50 g d'échalotes",
+        "2 c. à soupe d'huile d'olive",
+        "150 g de lardons",
+        "200 g d'eau",
+        "100 g de vin blanc sec",
+        "1 feuille de laurier",
+        "3 branches de thym frais",
+        "du sel",
+        "du poivre moulu",
+        "4 paupiettes de veau",
+        "200 g de carottes",
+        "250 g de petits pois frais",
+        "2 c. à soupe de crème fraîche épaisse",
+        "1 c. à soupe de moutarde"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r821805": {
+      "name": "Samoussa de boeuf, coriandre, oignons, sauce cheddar",
+      "rating": 4.4,
+      "n": 63,
+      "min": 35,
+      "yld": "25 pièces",
+      "ing": [
+        "120 g d'oignon",
+        "5 brins de coriandre fraîche",
+        "2 gousses d'ail",
+        "40 g d'huile d'olive",
+        "500 g de viande hachée",
+        "5 pincées de sel",
+        "5 pincées de poivre moulu",
+        "8 feuilles de brick",
+        "200 g de cheddar",
+        "100 g de crème liquide 30-40% m.g."
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r823921": {
+      "name": "Pulled pork (porc effiloché)",
+      "rating": 4.2,
+      "n": 23,
+      "min": 840,
+      "yld": "12 pers.",
+      "ing": [
+        "180 g de vinaigre balsamique blanc",
+        "240 g de sauce de soja",
+        "240 g de boisson au cola",
+        "140 g sirop d'érable",
+        "220 g de sauce barbecue",
+        "120 g de concentré de tomate",
+        "30 g de miel",
+        "1 c. à soupe de sauce au piment, type Tabasco®",
+        "3000 g d'épaule de porc, désossée"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r827153": {
+      "name": "Takoyaki de poulpe",
+      "rating": 4.3,
+      "n": 12,
+      "min": 20,
+      "yld": "50 pièces",
+      "ing": [
+        "3 feuilles de nori",
+        "500 g de bouillon",
+        "2 œufs",
+        "120 g de farine de blé",
+        "50 g de farine de riz",
+        "1 c. à café de sel",
+        "200 g de poulpe",
+        "4 cives",
+        "huile",
+        "5 c. à soupe de sauce teriyaki",
+        "3 c. à soupe de mayonnaise",
+        "25 g de flocons de bonite séchée"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r828547": {
+      "name": "Lasagne fraîches à la bolognaise",
+      "rating": 4.8,
+      "n": 129,
+      "min": 150,
+      "yld": "6 pers.",
+      "ing": [
+        "200 g de farine de blé",
+        "2 œufs",
+        "1 c. à soupe d'huile d'olive",
+        "200 g de parmesan",
+        "200 g de légumes variés",
+        "40 g d'huile d'olive",
+        "800 g d'un mélange de viandes hachées, mi-porc mi-bœuf",
+        "100 g de vin blanc sec",
+        "300 g de tomates concassées en conserve",
+        "1 - 1 ½ c. à café de sel",
+        "½ - 1 c. à café de poivre noir moulu",
+        "1000 g de lait",
+        "80 g de beurre",
+        "100 g de farine de blé",
+        "1 c. à café rase de sel",
+        "1 - 2 pincées de noix de muscade fraîchement râpée",
+        "beurre"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r828641": {
+      "name": "Pad thaï au poulet",
+      "rating": 3.4,
+      "n": 150,
+      "min": 120,
+      "yld": "4 pers.",
+      "ing": [
+        "400 g de nouilles de riz plates",
+        "4 c. à soupe de cacahuètes grillées non salées",
+        "2 gousses d'ail",
+        "2 échalotes",
+        "40 g de sucre roux",
+        "15 g de sucre en poudre",
+        "20 g de pâte de tamarin",
+        "le jus d'1/2 citron vert",
+        "3 c. à soupe de sauce de poisson (nuoc-mâm)",
+        "500 g d'eau",
+        "200 g de fleurettes de brocoli",
+        "4 c. à soupe d'huile de tournesol",
+        "400 g de filets de poulet",
+        "3 œufs",
+        "1 carotte",
+        "1 poivron jaune",
+        "1 poivron rouge",
+        "200 g de pousses de soja frais"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r82987": {
+      "name": "Soufflé au chocolat",
+      "rating": 4.1,
+      "n": 40,
+      "min": 40,
+      "yld": "4 pers.",
+      "ing": [
+        "10 - 15 g de beurre",
+        "150 g de chocolat noir",
+        "4 œufs",
+        "200 g de crème liquide, 30% m.g. min.",
+        "15 g de fécule de maïs",
+        "10 g de cacao en poudre non sucré",
+        "100 g de sucre en poudre"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r86474": {
+      "name": "Couronnes des Rois aux fruits confits",
+      "rating": 4.5,
+      "n": 212,
+      "min": 1020,
+      "yld": "10 pers.",
+      "ing": [
+        "150 g de beurre demi-sel",
+        "50 g de rhum",
+        "150 g de sucre en poudre",
+        "100 g d'eau",
+        "25 g de levure boulangère fraîche",
+        "650 g de farine de blé",
+        "50 g d'eau de fleur d'oranger",
+        "50 g de lait",
+        "3 œufs",
+        "2 pincées de sel",
+        "1 œuf",
+        "1 pincée de sel",
+        "100 g de sucre perlé",
+        "100 g de fruits confits variés, en petits morceaux",
+        "50 g d'amandes effilées"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r86808": {
+      "name": "Crêpe Suzette",
+      "rating": 4.4,
+      "n": 167,
+      "min": 35,
+      "yld": "6 pers.",
+      "ing": [
+        "120 g de farine de blé",
+        "30 g de sucre en poudre",
+        "2 œufs",
+        "300 g de lait demi-écrémé",
+        "40 g de beurre",
+        "1 orange",
+        "le zeste d'un citron jaune",
+        "50 g de sucre en poudre",
+        "40 g de Grand Marnier®",
+        "100 g de beurre doux"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r901734": {
+      "name": "Carottes Vichy",
+      "rating": 4.7,
+      "n": 707,
+      "min": 35,
+      "yld": "4 pers.",
+      "ing": [
+        "2 échalotes",
+        "3 gousses d'ail",
+        "30 feuilles de persil frais",
+        "40 g de beurre demi-sel",
+        "40 g d'eau",
+        "800 g de carottes",
+        "2 pincées de poivre moulu",
+        "1 cube de bouillon de volaille"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r903887": {
+      "name": "Pot-au-feu",
+      "rating": 4.8,
+      "n": 4,
+      "min": 100,
+      "yld": "6 pers.",
+      "ing": [
+        "800 g de viande de bœuf",
+        "70 g de carotte",
+        "130 g de navet",
+        "1 branche de céleri",
+        "1100 g d'eau",
+        "100 g d'oignon",
+        "3 clous de girofle",
+        "1 bouquet garni",
+        "1 ½ c. à café de gros sel",
+        "600 g de carottes",
+        "600 g de poireaux",
+        "600 g de pommes de terre",
+        "2 pincées de sel",
+        "1 - 2 pincées de poivre moulu",
+        "quelques cornichons au vinaigre",
+        "gros sel",
+        "moutarde forte"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r905078": {
+      "name": "Churros",
+      "rating": 4.0,
+      "n": 22,
+      "min": 60,
+      "yld": "15 pièces",
+      "ing": [
+        "130 g d'eau",
+        "30 g de beurre",
+        "½ sachet de sucre vanillé",
+        "1 pincée de sel",
+        "110 g de farine de blé",
+        "50 g d'œuf",
+        "½ l d'huile de friture"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r907204": {
+      "name": "Tajine d'agneau aux pruneaux",
+      "rating": 3.8,
+      "n": 97,
+      "min": 65,
+      "yld": "4 pers.",
+      "ing": [
+        "150 g d'oignon",
+        "1 gousse d'ail",
+        "5 c. à soupe d'huile d'olive",
+        "1 c. à soupe rase de cumin en poudre",
+        "1 c. à soupe rase de curcuma en poudre",
+        "½ c. à soupe rase de cannelle en poudre",
+        "1 c. à soupe rase de gingembre en poudre",
+        "800 g d'épaule d'agneau désossée",
+        "500 g d'eau",
+        "1 pincée de safran",
+        "du sel",
+        "2 c. à soupe de sucre en poudre",
+        "25 g de beurre",
+        "250 g de pruneaux dénoyautés",
+        "100 g d'amandes décortiquées",
+        "1 c. à soupe de graines de sésame"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r907216": {
+      "name": "Pastilla au poulet, aux amandes et à la cannelle",
+      "rating": 4.1,
+      "n": 27,
+      "min": 125,
+      "yld": "4 pers.",
+      "ing": [
+        "200 g d'amandes décortiquées",
+        "300 g d'oignons",
+        "100 g de beurre",
+        "1 c. à soupe rase de cumin en poudre",
+        "1 c. à soupe de cannelle en poudre",
+        "1 c. à soupe de curcuma en poudre",
+        "1 c. à soupe de gingembre en poudre",
+        "du sel",
+        "du poivre moulu",
+        "1000 g de cuisses de poulet, désossées",
+        "50 g d'eau",
+        "4 œufs",
+        "9 feuilles de brick"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r907328": {
+      "name": "Basboussa à la pistache et à la rose",
+      "rating": 4.4,
+      "n": 36,
+      "min": 85,
+      "yld": "4 pers.",
+      "ing": [
+        "1 c. à café de cardamome en poudre",
+        "200 g de pistaches, non salées",
+        "100 g d'amandes en poudre",
+        "170 g de semoule de blé dur fine",
+        "1 sachet de levure chimique",
+        "300 g de beurre",
+        "380 g de sucre en poudre",
+        "4 œufs",
+        "1 citron jaune non traité",
+        "2 c. à soupe d'eau de rose",
+        "quelques gouttes d'extrait de vanille",
+        "1 pincée de sel",
+        "100 g de jus de citron",
+        "1 poignée de pétales de rose séchées comestibles"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r91269": {
+      "name": "Hachis Parmentier anglais (shepherd's pie)",
+      "rating": 3.6,
+      "n": 97,
+      "min": 75,
+      "yld": "4 pers.",
+      "ing": [
+        "28 g de beurre doux",
+        "100 g d'oignons jaunes",
+        "15 g de persil frais",
+        "450 g de bœuf haché",
+        "½ c. à café de sel",
+        "1 pincée de poivre noir moulu",
+        "900 g de pommes de terre farineuses",
+        "370 g de lait entier",
+        "1 c. à café de sel",
+        "1 pincée de poivre noir moulu",
+        "85 g de beurre doux"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r913504": {
+      "name": "Bûchette framboise et chocolat blanc",
+      "rating": 4.3,
+      "n": 18,
+      "min": 960,
+      "yld": "8 pers.",
+      "ing": [
+        "3 feuilles de gélatine alimentaire",
+        "230 g de framboises surgelées",
+        "170 g de crème liquide 35% m.g.",
+        "4 œufs moyens (53-63 g)",
+        "120 g sucre en poudre",
+        "100 g de farine de blé",
+        "20 g de poudre d'amande",
+        "1 pincée de sel",
+        "4 feuilles de gélatine alimentaire",
+        "225 g de crème liquide entière",
+        "105 g de lait entier",
+        "195 g de chocolat blanc",
+        "4 feuilles de gélatine alimentaire",
+        "270 g de framboises surgelées",
+        "55 g de sucre en poudre"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r915264": {
+      "name": "Fabada asturiana (ragoût espagnol de haricots blancs)",
+      "rating": 5.0,
+      "n": 1,
+      "min": 930,
+      "yld": "2 pers.",
+      "ing": [
+        "150 g de haricots blancs demi-secs",
+        "50 g de jambon",
+        "½ chorizo",
+        "½ boudin noir",
+        "50 g de lard fumé",
+        "700 g d'eau"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r916648": {
+      "name": "Crêpes mille trous - Baghrir",
+      "rating": 3.5,
+      "n": 238,
+      "min": 25,
+      "yld": "12 pers.",
+      "ing": [
+        "500 g de semoule de blé dur fine",
+        "60 g de farine",
+        "850 g d'eau tiède",
+        "2 sachets de levure boulangère sèche",
+        "2 sachets de levure chimique",
+        "2 c. à soupe de sucre en poudre",
+        "1 c. à café de sel",
+        "beurre",
+        "miel"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r932896": {
+      "name": "Croque-monsieur façon brasserie",
+      "rating": 4.8,
+      "n": 98,
+      "min": 35,
+      "yld": "6 pers.",
+      "ing": [
+        "25 g de beurre",
+        "250 g de lait",
+        "30 g de farine",
+        "1 pincée de noix de muscade en poudre",
+        "2 pincées de sel",
+        "2 tours de moulin à poivre",
+        "50 g de crème fraîche",
+        "½ c. à café de moutarde",
+        "40 g d'emmental râpé",
+        "520 g de comté",
+        "12 tranches de pain",
+        "6 tranches de jambon"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-fr/r67045": {
+      "name": "Osso-buco",
+      "rating": 4.5,
+      "n": 317,
+      "min": 80,
+      "yld": "4 pers.",
+      "ing": [
+        "1 oignon",
+        "1 gousse d'ail",
+        "25 g d'huile d'olive",
+        "1000 - 1200 g de viande de veau dénervée, en morceaux",
+        "20 g de farine",
+        "3 tomates",
+        "1 branche de céleri",
+        "100 g de vin blanc sec",
+        "35 g de concentré de tomate",
+        "½ cube de bouillon de volaille",
+        "1 bouquet garni",
+        "1 - 2 pincées de sel",
+        "1 - 2 pincées de poivre moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-fr/r823950": {
+      "name": "Risotto aux champignons",
+      "rating": 4.4,
+      "n": 502,
+      "min": 30,
+      "yld": "6 pers.",
+      "ing": [
+        "60 g de parmesan",
+        "100 g d'échalotes",
+        "40 g de beurre",
+        "30 g d'huile d'olive",
+        "500 g de champignons frais",
+        "300 g de riz spécial risotto",
+        "100 g de vin blanc sec",
+        "670 g d'eau",
+        "1 cube de bouillon de poule",
+        "2 pincées de sel",
+        "2 pincées de poivre moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-fr/r907321": {
+      "name": "Harcha (galettes de semoule)",
+      "rating": 3.8,
+      "n": 84,
+      "min": 70,
+      "yld": "2 pièces",
+      "ing": [
+        "150 g de beurre",
+        "700 g de semoule de blé dur fine",
+        "50 g d'huile d'olive",
+        "300 g de lait",
+        "2 sachets de levure chimique",
+        "3 c. à soupe de sucre en poudre"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-fr/r919159": {
+      "name": "Shakshuka",
+      "rating": 4.6,
+      "n": 5,
+      "min": 50,
+      "yld": "2 pers.",
+      "ing": [
+        "10 g de persil frais",
+        "150 g de piments rouges pointus",
+        "1 gousse d'ail",
+        "60 g d'oignons",
+        "20 g d'huile végétale",
+        "10 g de pâte harissa",
+        "10 g de purée de tomates",
+        "½ c. à café de graines de cumin",
+        "¼ c. à café de sel",
+        "400 g de tomates en dés, en conserve",
+        "4 œufs",
+        "150 g de yaourt, 3,5% M.G."
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r120942": {
+      "name": "Fondue savoyarde",
+      "rating": 4.4,
+      "n": 169,
+      "min": 15,
+      "yld": "4 pers.",
+      "ing": [
+        "700 g de fromages",
+        "1 gousse d'ail",
+        "200 g de vin blanc sec",
+        "3 pincées de poivre moulu",
+        "500 g de pain"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r126130": {
+      "name": "Moules au roquefort",
+      "rating": 4.9,
+      "n": 464,
+      "min": 40,
+      "yld": "4 pers.",
+      "ing": [
+        "3 brins de persil frais",
+        "200 g d'eau",
+        "1500 g de moules fraîches, préalablement nettoyées",
+        "50 g d'échalotes",
+        "20 g de beurre demi-sel",
+        "100 g de vin blanc sec",
+        "100 g de crème fraîche épaisse, 30% m.g. min.",
+        "150 g de roquefort"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r151100": {
+      "name": "Couscous royal",
+      "rating": 4.2,
+      "n": 1240,
+      "min": 80,
+      "yld": "6 pers.",
+      "ing": [
+        "4 brins de coriandre fraîche",
+        "4 brins de persil frais",
+        "200 g d'oignons",
+        "400 g de viande d'agneau",
+        "3 c. à café de sel",
+        "½ c. à café de poivre blanc moulu",
+        "40 g d'huile d'olive",
+        "400 g de carottes",
+        "250 g de navets",
+        "1 c. à café de cannelle en poudre",
+        "1 c. à café de gingembre en poudre",
+        "900 g d'eau",
+        "300 g d'escalopes de poulet",
+        "400 g de courgettes",
+        "350 g de graines de couscous moyennes",
+        "70 g de raisins secs",
+        "350 g de pois chiches en conserve",
+        "1 - 2 c. à café de sauce harissa"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r174224": {
+      "name": "Lasagne classiche",
+      "rating": 4.9,
+      "n": 26,
+      "min": 120,
+      "yld": "6 pers.",
+      "ing": [
+        "150 g di Parmigiano",
+        "40 g di olio extravergine di oliva",
+        "100 g di cipolle",
+        "50 g di sedano",
+        "50 g di carote",
+        "800 g di carne trita mista",
+        "100 g di vino bianco, secco",
+        "300 g di passata di pomodoro",
+        "1 - 1 ½ cucchiaino di sale",
+        "½ - 1 cucchiaino di pepe nero macinato",
+        "700 g di latte",
+        "50 g di burro",
+        "60 g di farina",
+        "1 cucchiaino di sale",
+        "1 - 2 pizzichi di noce moscata in polvere",
+        "20 g di burro",
+        "250 g di pasta secca, tipo lasagna"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r177668": {
+      "name": "Avgolemono (soupe grecque œuf-citron)",
+      "rating": 3.7,
+      "n": 30,
+      "min": 35,
+      "yld": "4 pers.",
+      "ing": [
+        "1200 g d'eau",
+        "100 g de riz long",
+        "2 c. à café bombées de fond de légumes",
+        "2 œufs",
+        "3 c. à soupe de jus de citron",
+        "½ - 1 c. à café de sel",
+        "¼ c. à café de poivre fraîchement moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r340327": {
+      "name": "Moules à la sauce chorizo",
+      "rating": 4.5,
+      "n": 188,
+      "min": 60,
+      "yld": "4 pers.",
+      "ing": [
+        "1500 g de moules fraîches, préalablement nettoyées",
+        "60 g d'échalotes",
+        "250 g de vin blanc sec",
+        "200 g de chorizo",
+        "100 g de crème liquide 30-40% m.g.",
+        "1 pincée de poivre fraîchement moulu",
+        "15 brins de ciboulette fraîche"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r431781": {
+      "name": "Croziflette",
+      "rating": 4.6,
+      "n": 831,
+      "min": 85,
+      "yld": "6 pers.",
+      "ing": [
+        "1000 g d'eau",
+        "1 c. à café d'huile d'olive",
+        "1 c. à café de sel",
+        "300 g de crozets",
+        "150 g d'oignons",
+        "200 g de lardons fumés",
+        "150 g de vin blanc sec",
+        "200 g de crème liquide 35% m.g.",
+        "3 pincées de noix de muscade fraîchement râpée",
+        "1 reblochon"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r57845": {
+      "name": "Filet mignon de porc à la moutarde et aux pommes de terre",
+      "rating": 3.9,
+      "n": 270,
+      "min": 30,
+      "yld": "4 pers.",
+      "ing": [
+        "60 g d'oignon",
+        "75 g de madère",
+        "100 g de lait demi-écrémé",
+        "2 c. à café de moutarde à l'ancienne",
+        "1 c. à café de moutarde forte",
+        "½ cube de bouillon de volaille",
+        "1 c. à café de sel",
+        "1 pincée de poivre moulu",
+        "400 - 600 g de pommes de terre",
+        "1 - 2 filets mignons de porc",
+        "250 - 300 g de champignons de Paris frais",
+        "2 c. à soupe de crème fraîche épaisse, 30% m.g. min.",
+        "1 c. à soupe bombée de fécule de maïs",
+        "3 - 4 brins de persil frais"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r73310": {
+      "name": "Houmous",
+      "rating": 4.3,
+      "n": 986,
+      "min": 10,
+      "yld": "8 pers.",
+      "ing": [
+        "1 gousse d'ail",
+        "250 g de pois chiches en conserve",
+        "40 g d'huile de sésame",
+        "40 g d'huile d'olive",
+        "50 g de jus de citron",
+        "1 c. à café de sel",
+        "1 c. à café de paprika en poudre",
+        "1 pincée de poivre de Cayenne moulu"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r780405": {
+      "name": "Pains de semoule Matlouh",
+      "rating": 4.7,
+      "n": 353,
+      "min": 130,
+      "yld": "2 pièces",
+      "ing": [
+        "285 g d'eau minérale",
+        "6 g de levure boulangère sèche",
+        "300 g de farine",
+        "125 g de semoule de blé dur fine",
+        "3 g de levure chimique",
+        "5 g de sel",
+        "20 g d'huile d'olive"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r827107": {
+      "name": "Beignets hollandais (Oliebollen)",
+      "rating": 4.5,
+      "n": 6,
+      "min": 105,
+      "yld": "8 pièces",
+      "ing": [
+        "1 pomme",
+        "10 g de levure boulangère sèche",
+        "120 g de lait",
+        "1 œuf",
+        "200 g de farine de blé",
+        "½ c. à café de sel",
+        "100 g de raisins secs",
+        "1300 g d'eau",
+        "50 g de vinaigre",
+        "30 g de jus de citron",
+        "500 g d'huile de tournesol",
+        "4 c. à soupe de sucre glace"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r89007": {
+      "name": "Rougail saucisse",
+      "rating": 4.4,
+      "n": 1005,
+      "min": 50,
+      "yld": "4 pers.",
+      "ing": [
+        "800 g d'eau",
+        "6 grosses saucisses",
+        "300 g d'oignons",
+        "½ piment",
+        "15 g d'huile d'olive",
+        "500 g de tomates",
+        "1 c. à café de concentré de tomate",
+        "1 c. à café de gros sel",
+        "2 c. à café de paprika fort en poudre"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r929250": {
+      "name": "Truffes au chocolat",
+      "rating": 4.6,
+      "n": 18,
+      "min": 205,
+      "yld": "30 pièces",
+      "ing": [
+        "300 g de chocolat noir",
+        "200 g de crème liquide entière",
+        "40 g de beurre",
+        "40 g de cacao en poudre non sucré"
+      ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr/r943055": {
+      "name": "Bitterballen",
+      "min": 225,
+      "yld": "30 pièces",
+      "ing": [
+        "1300 g d'eau",
+        "10 g jus de citron",
+        "500 g de viande de bœuf, désossée",
+        "20 g de beurre",
+        "1 brin de romarin frais",
+        "2 brins de thym frais",
+        "1 d'oignon",
+        "2 branches de persil frais",
+        "50 g de beurre",
+        "70 g de farine de blé",
+        "200 g bouillon de bœuf",
+        "2 - 3 traits jus de citron",
+        "¾ c. à café de sel",
+        "½ c. à café poivre moulu",
+        "¼ c. à café de noix de muscade moulue",
+        "50 g de gouda",
+        "1 jaune d'œuf",
+        "3 œufs",
+        "200 g de chapelure",
+        "huile de friture"
+      ]
+    },
     "https://www.moulinex.fr/recette/detail/PRO/Brownie/2774947": {
       "name": "Brownie",
       "rating": 5.0,
@@ -25183,6 +27896,62 @@
         "Arroser d'huile, parsemer de persil, thym, romarin, laurier, saler, poivrer et cuire sur la plaque.",
         "Finir avec le basilic et servir chaud."
       ]
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r106053": {
+      "name": "Paëlla valenciana",
+      "ing": [
+        "60 g d'huile d'olive",
+        "800 g de viande de lapin, en morceaux",
+        "2 filets de poulet, sans peau",
+        "½ c. à café de sel",
+        "2 pincées poivre moulu",
+        "600 g d'eau",
+        "2 gousses d'ail",
+        "400 g de tomates entières pelées au jus",
+        "1 dose de safran",
+        "1 c. à café de paprika doux en poudre",
+        "1 branche de romarin frais",
+        "1 cube de bouillon de volaille",
+        "150 g de haricot vert frais",
+        "300 g de riz spécial risotto",
+        "250 g de haricots blancs en boîte"
+      ],
+      "min": 60,
+      "yld": "6 pers.",
+      "rating": 3.6,
+      "n": 28
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r168386": {
+      "name": "Brownies",
+      "ing": [
+        "250 g de chocolat noir extrafin, 70% de cacao",
+        "220 g de beurre",
+        "380 g de sucre",
+        "6 œufs",
+        "1 pincée de sel",
+        "150 g de farine"
+      ],
+      "min": 45,
+      "yld": "24 pers.",
+      "rating": 4.5,
+      "n": 37
+    },
+    "https://cookidoo.fr/recipes/recipe/fr-FR/r134115": {
+      "name": "Pastéis de nata",
+      "ing": [
+        "le zeste d'½ citron jaune non traité",
+        "150 g de sucre en poudre",
+        "500 g de lait",
+        "30 g de fécule de maïs",
+        "2 c. à café d'extrait naturel de vanille",
+        "5 jaunes d'œufs",
+        "farine de blé",
+        "1 pâte feuilletée"
+      ],
+      "min": 50,
+      "yld": "8 pers.",
+      "rating": 4.2,
+      "n": 202
     }
   }
 }
