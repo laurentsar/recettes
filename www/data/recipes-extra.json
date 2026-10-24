@@ -158,38 +158,45 @@
     {
       "id": "italie:006",
       "url": "https://www.recipetineats.com/minestrone-soup/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Minestrone_soup.jpg/500px-Minestrone_soup.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Minestrone_soup.jpg/500px-Minestrone_soup.jpg",
+      "cat": "Italie, Soupe, Entrée"
     },
     {
       "id": "italie:007",
       "url": "https://food52.com/recipes/19737-tuscan-ribollita",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Ribollita_Siena.jpg/500px-Ribollita_Siena.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Ribollita_Siena.jpg/500px-Ribollita_Siena.jpg",
+      "cat": "Italie, Soupe, Entrée"
     },
     {
       "id": "italie:008",
       "url": "https://www.onceuponachef.com/recipes/stracciatella-soup-italian-egg-drop-soup.html",
       "img": "img/photos/italie-008.jpg",
-      "desc": "Bouillon de viande avec œufs battus et parmesan, soupe romaine délicate.\n\n📷 Photo : Mike.lifeguard — CC BY-SA 3.0, Wikimedia Commons"
+      "desc": "Bouillon de viande avec œufs battus et parmesan, soupe romaine délicate.\n\n📷 Photo : Mike.lifeguard — CC BY-SA 3.0, Wikimedia Commons",
+      "cat": "Italie, Soupe, Entrée"
     },
     {
       "id": "italie:009",
       "url": "https://www.recipetineats.com/carbonara/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Spaghetti_alla_Carbonara_%28Madrid%29.JPG/500px-Spaghetti_alla_Carbonara_%28Madrid%29.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Spaghetti_alla_Carbonara_%28Madrid%29.JPG/500px-Spaghetti_alla_Carbonara_%28Madrid%29.JPG",
+      "cat": "Italie, Pâtes, Plat"
     },
     {
       "id": "italie:011",
       "url": "https://www.recipetineats.com/penne-all-arrabbiata-spicy-tomato-pasta/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Penne_all%27arrabbiata_-_Pizzeria_Bella_Italia_%28Cr%C3%A9pieux-la-Pape%29_-_2.jpg/500px-Penne_all%27arrabbiata_-_Pizzeria_Bella_Italia_%28Cr%C3%A9pieux-la-Pape%29_-_2.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Penne_all%27arrabbiata_-_Pizzeria_Bella_Italia_%28Cr%C3%A9pieux-la-Pape%29_-_2.jpg/500px-Penne_all%27arrabbiata_-_Pizzeria_Bella_Italia_%28Cr%C3%A9pieux-la-Pape%29_-_2.jpg",
+      "cat": "Italie, Pâtes, Plat"
     },
     {
       "id": "italie:012",
       "url": "https://food52.com/recipes/42150-cacio-e-pepe",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Cacio_e_pepe.jpg/500px-Cacio_e_pepe.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Cacio_e_pepe.jpg/500px-Cacio_e_pepe.jpg",
+      "cat": "Italie, Pâtes, Plat"
     },
     {
       "id": "italie:013",
       "url": "https://www.recipetineats.com/pasta-alla-norma-eggplant-pasta/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg/500px-Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg/500px-Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg",
+      "cat": "Italie, Pâtes, Plat"
     },
     {
       "id": "italie:015",
@@ -205,12 +212,14 @@
         "Sel"
       ],
       "steps": "Dissoudre le safran dans 3 c. à soupe de bouillon chaud. Faire revenir l'oignon émincé dans la moitié du beurre à feu doux 5 min. Ajouter le riz, nacrer 2 min. Déglacer au vin blanc, remuer jusqu'à absorption. Ajouter le bouillon chaud louche par louche en remuant constamment — ajouter la suivante seulement quand la précédente est absorbée. À mi-cuisson (10 min), incorporer le safran dissous. Cuire encore 8-10 min. Hors du feu, mantecatura : incorporer le reste du beurre froid et le parmesan en remuant vigoureusement. Couvrir 2 min. Servir \"all'onda\" — le risotto doit être fluide et ondulant.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg/500px-Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg/500px-Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg",
+      "cat": "Italie, Riz, Risotto, Plat"
     },
     {
       "id": "italie:016",
       "url": "https://food52.com/recipes/77867-porcini-mushroom-risotto",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg/500px-Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg/500px-Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg",
+      "cat": "Italie, Riz, Risotto, Plat"
     },
     {
       "id": "italie:017",
@@ -241,7 +250,8 @@
     {
       "id": "italie:024",
       "url": "https://food52.com/recipes/2494-venetian-sardines",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Sarde_in_saor_dans_un_restaurant_v%C3%A9nitien_%28d%C3%A9cembre_2022%29.JPG/500px-Sarde_in_saor_dans_un_restaurant_v%C3%A9nitien_%28d%C3%A9cembre_2022%29.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Sarde_in_saor_dans_un_restaurant_v%C3%A9nitien_%28d%C3%A9cembre_2022%29.JPG/500px-Sarde_in_saor_dans_un_restaurant_v%C3%A9nitien_%28d%C3%A9cembre_2022%29.JPG",
+      "cat": "Italie, Poisson, Plat"
     },
     {
       "id": "italie:025",
@@ -331,12 +341,14 @@
         "Garniture : dés de tomate, concombre, poivron, croûtons"
       ],
       "steps": "Couper grossièrement tous les légumes. Mettre dans un blender avec l'ail, le vinaigre, l'huile d'olive et le pain imbibé si utilisé. Mixer finement. Assaisonner. Passer au tamis fin pour une texture soyeuse (optionnel). Réfrigérer 2 h minimum (idéalement 4 h). Servir très frais, garni de dés de légumes et croûtons.\n\n💡 Un gaspacho est aussi bon que ses tomates — choisir des tomates mûres de plein été, en saison.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Gaspacho.jpg/500px-Gaspacho.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Gaspacho.jpg/500px-Gaspacho.jpg",
+      "cat": "Espagne, Soupe, Entrée"
     },
     {
       "id": "espagne:002",
       "url": "https://www.saveur.com/article/Recipes/Classic-Salmorejo",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Salmorejo_cordouan.JPG/500px-Salmorejo_cordouan.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Salmorejo_cordouan.JPG/500px-Salmorejo_cordouan.JPG",
+      "cat": "Espagne, Soupe, Entrée"
     },
     {
       "id": "espagne:003",
@@ -363,13 +375,14 @@
     {
       "id": "espagne:007",
       "url": "https://www.saveur.com/article/Recipes/Salt-Cod-Vizcaya-Style",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/NorthEastAmericaOrtelius1570.jpg/500px-NorthEastAmericaOrtelius1570.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/NorthEastAmericaOrtelius1570.jpg/500px-NorthEastAmericaOrtelius1570.jpg",
+      "cat": "Espagne, Poisson, Plat"
     },
     {
       "id": "espagne:008",
       "url": "https://www.americastestkitchen.com/recipes/16080-zarzuela-spanish-seafood-stew",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Zarzuela.jpg/500px-Zarzuela.jpg",
-      "cat": "Espagne, Fruits de mer"
+      "cat": "Espagne, Fruits de mer, Plat"
     },
     {
       "id": "espagne:009",
@@ -386,7 +399,7 @@
       "steps": "Chauffer l'huile d'olive dans une cazuela (petite cocotte en terre cuite) à feu moyen. Ajouter l'ail et le piment, faire revenir 2 min sans laisser dorer. Monter le feu à vif, ajouter les gambas salées. Faire sauter 2-3 min jusqu'à ce qu'elles soient rosées. Déglacer avec le vin blanc, cuire 30 secondes. Parsemer de persil. Servir immédiatement — le plat doit encore grésiller à table — avec du pain pour saucer.",
       "min": 10,
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tapas_01.jpg/500px-Tapas_01.jpg",
-      "cat": "Espagne, Fruits de mer"
+      "cat": "Espagne, Fruits de mer, Plat"
     },
     {
       "id": "espagne:010",
@@ -433,7 +446,8 @@
     {
       "id": "espagne:024",
       "url": "https://www.themediterraneandish.com/crema-catalana/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Crema_Catalana_%287_Portes%29.jpg/500px-Crema_Catalana_%287_Portes%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Crema_Catalana_%287_Portes%29.jpg/500px-Crema_Catalana_%287_Portes%29.jpg",
+      "cat": "Espagne, Dessert, Crème dessert"
     },
     {
       "id": "espagne:025",
@@ -463,17 +477,20 @@
       "steps": "Faire revenir l'oignon et l'ail dans l'huile d'olive. Ajouter les pommes de terre en cubes et l'eau. Porter à ébullition, cuire 25-30 min. Écraser ou mixer grossièrement les pommes de terre dans le bouillon — texture rustique, pas de velouté. Couper le chou en très fine julienne (chiffonnade ultra-serrée — le geste signature). Ajouter le chou au bouillon, cuire 5 min à feu doux — doit rester vert et légèrement croquant. Ajouter le chorizo en rondelles. Verser un filet d'huile d'olive. Ajuster sel et poivre. Servir avec du pain de campagne.\n\n💡 La julienne ultra-fine du chou est la signature du plat — prendre son temps au couteau.",
       "serv": 6,
       "min": 50,
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Caldo_verde.jpg/500px-Caldo_verde.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Caldo_verde.jpg/500px-Caldo_verde.jpg",
+      "cat": "Portugal, Soupe, Entrée"
     },
     {
       "id": "portugal:004",
       "url": "https://food52.com/recipes/75424-bacalhau-a-bras-salt-cod-with-potatoes-and-eggs",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/500px-Bacalhau_a_Bras.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/500px-Bacalhau_a_Bras.jpg",
+      "cat": "Portugal, Poisson, Plat"
     },
     {
       "id": "portugal:017",
       "url": "https://www.feastingathome.com/portuguese-fish-stew-caldeirada/",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Caldeirada.jpg"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Caldeirada.jpg",
+      "cat": "Portugal, Poisson, Plat"
     },
     {
       "id": "portugal:022",
@@ -490,12 +507,14 @@
     {
       "id": "corse:002",
       "url": "https://www.recettes-corses.fr/recipe-items/soupe-au-brocciu",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Brocciu2.jpg/500px-Brocciu2.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Brocciu2.jpg/500px-Brocciu2.jpg",
+      "cat": "Corse, Soupe, Entrée"
     },
     {
       "id": "corse:007",
       "url": "https://www.recettes-corses.fr/recipe-items/soupe-de-poissons-corse",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Bouillabaisse_04.jpg/500px-Bouillabaisse_04.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Bouillabaisse_04.jpg/500px-Bouillabaisse_04.jpg",
+      "cat": "Corse, Soupe, Poisson, Entrée"
     },
     {
       "id": "corse:010",
@@ -513,22 +532,25 @@
       "id": "corse:018",
       "url": "https://www.750g.com/encornets-a-la-tomate-r1701.htm",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Moules_farcies_%C3%A0_la_s%C3%A9toise_02.jpg/500px-Moules_farcies_%C3%A0_la_s%C3%A9toise_02.jpg",
-      "cat": "Corse, Fruits de mer"
+      "cat": "Corse, Fruits de mer, Plat"
     },
     {
       "id": "corse:025",
       "url": "https://www.recettes-corses.fr/recipe-items/rougets-a-bonifacienne",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Gulf_Red_Snapper_%2820988408955%29.jpg/500px-Gulf_Red_Snapper_%2820988408955%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Gulf_Red_Snapper_%2820988408955%29.jpg/500px-Gulf_Red_Snapper_%2820988408955%29.jpg",
+      "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:026",
       "url": "https://www.recettes-corses.fr/recipe-items/sardines-farcies-brocciu",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Wilaya_Jijel_Communes.png/500px-Wilaya_Jijel_Communes.png"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Wilaya_Jijel_Communes.png/500px-Wilaya_Jijel_Communes.png",
+      "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:035",
       "url": "https://www.750g.com/poulet-aux-olives-et-aux-tomates-r100365.htm",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Tajinezitounepoulet.jpg/500px-Tajinezitounepoulet.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Tajinezitounepoulet.jpg/500px-Tajinezitounepoulet.jpg",
+      "cat": "Corse, Poulet, Viande, Plat"
     },
     {
       "id": "corse:039",
@@ -543,27 +565,32 @@
     {
       "id": "corse:047",
       "url": "https://www.750g.com/macaronis-en-stuffatu-r26623.htm",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg/500px-Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg/500px-Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg",
+      "cat": "Corse, Pâtes, Plat"
     },
     {
       "id": "corse:048",
       "url": "https://www.recettes-corses.fr/recipe-items/ravioles-de-brocciu-et-son-bouillon",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Flickr_-_cyclonebill_-_Ravioli_med_skinke_og_asparges_i_mascarponecreme.jpg/500px-Flickr_-_cyclonebill_-_Ravioli_med_skinke_og_asparges_i_mascarponecreme.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Flickr_-_cyclonebill_-_Ravioli_med_skinke_og_asparges_i_mascarponecreme.jpg/500px-Flickr_-_cyclonebill_-_Ravioli_med_skinke_og_asparges_i_mascarponecreme.jpg",
+      "cat": "Corse, Pâtes, Plat"
     },
     {
       "id": "corse:049",
       "url": "https://www.recettes-corses.fr/recipe-items/cannelloni-au-brocciu-et-aux-blettes",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ricotte_fresche.jpg/500px-Ricotte_fresche.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ricotte_fresche.jpg/500px-Ricotte_fresche.jpg",
+      "cat": "Corse, Pâtes, Plat"
     },
     {
       "id": "corse:054",
       "url": "https://www.750g.com/aubergines-a-la-corse-r57893.htm",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Solanum_melongena_26_08_2012_%281%29.JPG/500px-Solanum_melongena_26_08_2012_%281%29.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Solanum_melongena_26_08_2012_%281%29.JPG/500px-Solanum_melongena_26_08_2012_%281%29.JPG",
+      "cat": "Corse, Légumes, Accompagnement"
     },
     {
       "id": "corse:055",
       "url": "https://www.750g.com/cepes-au-barbecue-r18141.htm",
-      "img": "img/illus/corse-055.jpg"
+      "img": "img/illus/corse-055.jpg",
+      "cat": "Corse, Légumes, Accompagnement"
     },
     {
       "id": "corse:058",
@@ -580,7 +607,8 @@
       "id": "corse:060",
       "url": "https://www.recettes-corses.fr/recipe-items/gateau-a-farine-de-chataigne",
       "steps": "Préchauffer le four à 170°C.\nMélanger farine, sucre et levure.\nIncorporer œufs, lait et huile d'olive.\nAjouter raisins, noix et éventuellement fenouil sauvage.\nVerser dans un moule huilé.\nCuire 45 min. Laisser refroidir avant de démouler.\n\n✈️ Variante Air Fryer : verser dans un moule adapté. Cuire à 175°C pendant 25-30 min en vérifiant la cuisson.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg/500px-Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg/500px-Ch%C3%A2taignes_dans_leurs_bogues_sur_la_branche_d%27un_ch%C3%A2taignier.jpg",
+      "cat": "Corse, Dessert, Gâteaux"
     },
     {
       "id": "corse:061",
@@ -595,7 +623,8 @@
       ],
       "steps": "Préchauffer le four à 180°C. Écraser le brocciu à la fourchette jusqu'à texture homogène. Mélanger brocciu, jaunes d'œufs, sucre, zestes et eau-de-vie jusqu'à crème lisse. Battre les blancs en neige ferme. Incorporer délicatement les blancs au mélange en 3 fois — ne pas casser les blancs. Beurrer un moule à manqué de 24-26 cm. Verser la préparation. Cuire 35-40 min jusqu'à belle dorure. Le cœur doit être légèrement tremblotant. Laisser refroidir complètement avant de servir — se déguste froid ou à température ambiante.\n\n💡 Le brocciu est le fromage frais de brebis corse. La ricotta entière est un excellent substitut continental.",
       "min": 55,
-      "img": "img/illus/corse-061.jpg"
+      "img": "img/illus/corse-061.jpg",
+      "cat": "Corse, Dessert, Gâteaux"
     },
     {
       "id": "corse:063",
@@ -642,12 +671,14 @@
     {
       "id": "maghreb:008",
       "url": "https://food52.com/recipes/89667-moroccan-harira-soup-from-celebrate-every-day",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Harira_vegetarisch.jpg/500px-Harira_vegetarisch.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Harira_vegetarisch.jpg/500px-Harira_vegetarisch.jpg",
+      "cat": "Maghreb, Soupe, Entrée"
     },
     {
       "id": "maghreb:009",
       "url": "https://www.196flavors.com/algeria-chorba-frik/",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pile%C4%87a_corba.jpg"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Pile%C4%87a_corba.jpg",
+      "cat": "Maghreb, Soupe, Entrée"
     },
     {
       "id": "maghreb:010",
@@ -700,7 +731,8 @@
     {
       "id": "japon:003",
       "url": "https://www.justonecookbook.com/homemade-miso-soup/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Miso_Soup_001.jpg/500px-Miso_Soup_001.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Miso_Soup_001.jpg/500px-Miso_Soup_001.jpg",
+      "cat": "Japon, Soupe, Entrée"
     },
     {
       "id": "japon:004",
@@ -726,7 +758,8 @@
     {
       "id": "japon:008",
       "url": "https://www.justonecookbook.com/udon-noodle-soup/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Kakeudon.jpg/500px-Kakeudon.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Kakeudon.jpg/500px-Kakeudon.jpg",
+      "cat": "Japon, Soupe, Entrée"
     },
     {
       "id": "japon:009",
@@ -752,7 +785,8 @@
     {
       "id": "japon:013",
       "url": "https://www.justonecookbook.com/easy-tonkotsu-ramen-recipe/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Charsiu_ramen_02.jpg/500px-Charsiu_ramen_02.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Charsiu_ramen_02.jpg/500px-Charsiu_ramen_02.jpg",
+      "cat": "Japon, Soupe, Entrée"
     },
     {
       "id": "japon:014",
@@ -773,7 +807,8 @@
     {
       "id": "asie:002",
       "url": "https://food52.com/recipes/3589-pho-bo-vietnamese-beef-noodle-soup",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/500px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/500px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+      "cat": "Asie, Soupe, Entrée"
     },
     {
       "id": "asie:003",
@@ -803,7 +838,8 @@
     {
       "id": "asie:008",
       "url": "https://www.recipetineats.com/laksa-soup/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Katong_Laksa.jpg/500px-Katong_Laksa.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Katong_Laksa.jpg/500px-Katong_Laksa.jpg",
+      "cat": "Asie, Soupe, Entrée"
     },
     {
       "id": "asie:009",
@@ -828,7 +864,8 @@
     {
       "id": "asie:013",
       "url": "https://www.recipetineats.com/tom-yum-soup-thai/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Tom_yam_kung_maphrao_on_nam_khon.jpg/500px-Tom_yam_kung_maphrao_on_nam_khon.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Tom_yam_kung_maphrao_on_nam_khon.jpg/500px-Tom_yam_kung_maphrao_on_nam_khon.jpg",
+      "cat": "Asie, Soupe, Entrée"
     },
     {
       "id": "asie:014",
@@ -873,7 +910,8 @@
         "sel et poivre"
       ],
       "steps": "Éplucher et couper la pomme de terre en petits dés. Éplucher et écraser les gousses d'ail.\nFaire revenir ensemble la pomme de terre et l'ail avec l'huile d'olive dans une casserole à fond épais, sans faire roussir.\nMouiller de 75 cl d'eau. Saler modérément, poivrer, parsemer de thym effeuillé et ajouter la feuille de laurier.\nLaisser cuire à feu doux pendant au moins 20 minutes.\nÔter la feuille de laurier. Passer la soupe et la verser en soupière.\nRectifier l'assaisonnement si besoin. Incorporer le jaune d'œuf en fouettant dans la soupière.\nServir dans des assiettes chaudes avec les tranches de pain grillées et le fromage râpé.",
-      "img": "img/illus/corse-001.jpg"
+      "img": "img/illus/corse-001.jpg",
+      "cat": "Corse, Soupe, Entrée"
     },
     {
       "id": "corse:003",
@@ -894,7 +932,8 @@
         "sel et poivre"
       ],
       "steps": "La veille : mettre les haricots à tremper dans l'eau froide.\n\nMettre les haricots dans un faitout et les recouvrir d'eau froide. Placer à feu doux et ajouter, dès frémissement, l'ail écrasé, l'oignon émincé, les pommes de terre, les tomates, le bouquet garni et l'huile d'olive.\nSaler et poivrer. Couvrir et laisser cuire à feu moyen 45 minutes.\nIncorporer les herbes sauvages (marjolaine, bourrache…) et poursuivre la cuisson environ 30 minutes.\nServir la soupe sur des tranches de pain de campagne frottées d'ail selon goût.",
-      "img": "img/illus/corse-003.jpg"
+      "img": "img/illus/corse-003.jpg",
+      "cat": "Corse, Soupe, Entrée"
     },
     {
       "id": "corse:004",
@@ -914,7 +953,8 @@
         "sel et poivre"
       ],
       "steps": "La veille : mettre les haricots à tremper dans l'eau froide.\n\nDans une grande cocotte, faire cuire les haricots dans de l'eau salée pendant une heure.\nPendant ce temps, faire revenir dans une autre cocotte avec l'huile d'olive les blancs de poireaux coupés finement, l'ail et l'oignon coupés en rondelles.\nAjouter les haricots avec leur eau de cuisson. Incorporer les tomates pelées et épépinées, le bouquet garni et le morceau de couenne de jambon.\nSaler et poivrer. Couvrir et laisser frémir encore 30 minutes avant de servir.",
-      "img": "img/illus/corse-004.jpg"
+      "img": "img/illus/corse-004.jpg",
+      "cat": "Corse, Soupe, Entrée"
     },
     {
       "id": "corse:005",
@@ -945,7 +985,8 @@
         "sel et poivre"
       ],
       "steps": "Si haricots secs : faire tremper quelques heures au préalable. Blanchir les verts de blettes 3 mn à l'eau salée bouillante, refroidir à l'eau froide, réserver.\n\nCuire les haricots rouges 10 minutes dans un faitout avec de l'eau bouillante non salée. (Si frais : les écosser directement.)\nPendant ce temps, faire revenir dans le saindoux les autres légumes : haricots verts, carottes, pommes de terre, chou, verts de blettes et potiron.\nJeter la moitié de l'eau de cuisson des haricots, puis compléter dans le faitout jusqu'à 5 litres.\nAjouter les légumes revenus, l'oignon et l'ail pilés au mortier avec les tomates, les branches de basilic, menthe et céleri, le bouquet garni, le lard fumé et l'os de jambon (ou la coppa).\nSaler, poivrer. Arroser d'huile d'olive. Laisser mijoter à feu doux jusqu'à ce que tous les légumes soient fondants (environ 1h30 après la mise en commun).\n\n💡 Cette soupe est encore meilleure réchauffée le lendemain.",
-      "img": "img/illus/corse-005.jpg"
+      "img": "img/illus/corse-005.jpg",
+      "cat": "Corse, Soupe, Entrée"
     },
     {
       "id": "dropbox:-2129200168",
@@ -1016,7 +1057,8 @@
     },
     {
       "id": "dropbox:1445166428",
-      "t": "Chocolat chaud au thermomix"
+      "t": "Chocolat chaud au thermomix",
+      "cat": "Thermomix, Boissons"
     },
     {
       "id": "dropbox:-1926016397",
@@ -1092,7 +1134,8 @@
     },
     {
       "id": "dropbox:ffb2185f-d336-4213-b310-b19169babbf3",
-      "t": "Philadelphia fait maison avec Thermomix"
+      "t": "Philadelphia fait maison avec Thermomix",
+      "cat": "Thermomix, Technique"
     },
     {
       "id": "dropbox:593db823-c433-4f6c-9c60-33bb67704fb7",
@@ -1128,7 +1171,8 @@
     },
     {
       "id": "dropbox:-1193241484",
-      "t": "Risotto aux petits-pois et chèvre frais"
+      "t": "Risotto aux petits-pois et chèvre frais",
+      "cat": "Risotto, Italie, Riz, Plat"
     },
     {
       "id": "dropbox:-1677082054",
@@ -1172,7 +1216,8 @@
     },
     {
       "id": "dropbox:50051132",
-      "t": "Soubressade fait maison au thermomix"
+      "t": "Soubressade fait maison au thermomix",
+      "cat": "Thermomix, Plat"
     },
     {
       "id": "dropbox:1621846856",
@@ -1201,39 +1246,39 @@
     },
     {
       "id": "dropbox:7df9c70b-aff1-4919-98c5-01aef1a65b4e",
-      "cat": "Légume, Plat"
+      "cat": "Légumes, Plat"
     },
     {
       "id": "dropbox:8865b0d5-aa6d-477c-838f-5ed00102a3ed",
-      "cat": "Légume, Plat",
+      "cat": "Légumes, Plat",
       "t": "Feuilleté de courgettes à la mozzarella et au jambon"
     },
     {
       "id": "dropbox:b933c545-051d-45c4-a9dd-13d750a2f4dc",
-      "cat": "Légume, Plat"
+      "cat": "Légumes, Plat"
     },
     {
       "id": "dropbox:53b5657d-8918-4a23-a9ad-eaa5cfc7548d",
-      "cat": "Légume, Plat"
+      "cat": "Légumes, Plat"
     },
     {
       "id": "dropbox:1084151442",
-      "cat": "Légume, Tarte, Plat",
+      "cat": "Légumes, Tarte salée, Plat",
       "img": "img/illus/dropbox-1084151442.jpg"
     },
     {
       "id": "dropbox:-227631228",
-      "cat": "Légume, Plat",
+      "cat": "Légumes, Plat",
       "img": "img/illus/dropbox-227631228.jpg",
       "steps": "Préchauffez votre four à 180°C.\n\nLavez, séchez et coupez le brocoli en morceaux. Lavez, épluchez et coupez la patate douce en dés.Rassemblez-les dans un plat résistant au four, ajoutez les gousses d’ail épluchées et l’oignon émincé. Arrosez d’huile d’olive, ajoutez le cumin et le paprika.Enfournez 30/35 minutes.\n\nFaites cuire le quinoa dans une casserole d’eau en suivant les instructions du paquet.Égouttez et réservez.\n\nVersez le quinoa dans un plat de service, disposez les légumes sur le quinoa. Versez quelques gouttes de citron, ajustez assaisonnement en sel, poivre et piment doux selon votre goût.Servez chaud."
     },
     {
       "id": "dropbox:b82a7f5e-252a-4c7e-90aa-cacb1e5d873b",
-      "cat": "Légume, Plat"
+      "cat": "Légumes, Plat"
     },
     {
       "id": "dropbox:510910326",
-      "cat": "Tarte, Légume, Plat"
+      "cat": "Tarte salée, Légumes, Plat"
     },
     {
       "id": "dropbox:6c454f28-b62f-4a9e-9e3e-3634402849f6",
@@ -1243,16 +1288,18 @@
     },
     {
       "id": "dropbox:1759851535",
-      "img": "img/illus/dropbox-1759851535.jpg"
+      "img": "img/illus/dropbox-1759851535.jpg",
+      "cat": "Poulet, Viande, Plat"
     },
     {
       "id": "dropbox:2072371711",
-      "img": "img/illus/dropbox-2072371711.jpg"
+      "img": "img/illus/dropbox-2072371711.jpg",
+      "cat": "Thermomix, Plat"
     },
     {
       "id": "dropbox:77937872",
       "img": "img/illus/dropbox-77937872.jpg",
-      "cat": "Bœuf, Plat"
+      "cat": "Bœuf, Plat, Viande"
     },
     {
       "id": "dropbox:1231896210",
@@ -1317,7 +1364,8 @@
     },
     {
       "id": "dropbox:178669351",
-      "img": "img/illus/dropbox-178669351.jpg"
+      "img": "img/illus/dropbox-178669351.jpg",
+      "cat": "Poisson, Plat"
     },
     {
       "id": "dropbox:6a685765-d4bf-4481-9c38-994903f57774",
@@ -1333,7 +1381,8 @@
     },
     {
       "id": "dropbox:-2068074220",
-      "img": "img/illus/dropbox-2068074220.jpg"
+      "img": "img/illus/dropbox-2068074220.jpg",
+      "cat": "Technique, Boulangerie"
     },
     {
       "id": "dropbox:-149866285",
@@ -1382,11 +1431,13 @@
     },
     {
       "id": "corse:006",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Cucurbita_moschata_Butternut_2012_G2.jpg/500px-Cucurbita_moschata_Butternut_2012_G2.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Cucurbita_moschata_Butternut_2012_G2.jpg/500px-Cucurbita_moschata_Butternut_2012_G2.jpg",
+      "cat": "Corse, Soupe, Entrée"
     },
     {
       "id": "corse:008",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Aziminu_corse.jpg/500px-Aziminu_corse.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Aziminu_corse.jpg/500px-Aziminu_corse.jpg",
+      "cat": "Corse, Soupe, Poisson, Entrée"
     },
     {
       "id": "corse:009",
@@ -1416,15 +1467,17 @@
     {
       "id": "corse:017",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Monaco.Mus%C3%A9e_oc%C3%A9anographique089.jpg/500px-Monaco.Mus%C3%A9e_oc%C3%A9anographique089.jpg",
-      "cat": "Corse, Fruits de mer"
+      "cat": "Corse, Fruits de mer, Plat"
     },
     {
       "id": "corse:019",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Bouillabaisse_01.jpg/500px-Bouillabaisse_01.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Bouillabaisse_01.jpg/500px-Bouillabaisse_01.jpg",
+      "cat": "Corse, Poisson, Soupe, Entrée"
     },
     {
       "id": "corse:020",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/5/58/Anguilla_anguilla.jpg"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/5/58/Anguilla_anguilla.jpg",
+      "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:021",
@@ -1433,27 +1486,33 @@
     },
     {
       "id": "corse:022",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Daisya_shiki.JPG/500px-Daisya_shiki.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Daisya_shiki.JPG/500px-Daisya_shiki.JPG",
+      "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:023",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Le_Fenouiller%2C_St.-Laurent_%2885800_Vend%C3%A9e%29.JPG/500px-Le_Fenouiller%2C_St.-Laurent_%2885800_Vend%C3%A9e%29.JPG"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Le_Fenouiller%2C_St.-Laurent_%2885800_Vend%C3%A9e%29.JPG/500px-Le_Fenouiller%2C_St.-Laurent_%2885800_Vend%C3%A9e%29.JPG",
+      "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:024",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Parmiggiana_-_Pizza_500_2024-11-16.jpg/500px-Parmiggiana_-_Pizza_500_2024-11-16.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Parmiggiana_-_Pizza_500_2024-11-16.jpg/500px-Parmiggiana_-_Pizza_500_2024-11-16.jpg",
+      "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:027",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Salade_ni%C3%A7oise_001.jpg/500px-Salade_ni%C3%A7oise_001.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Salade_ni%C3%A7oise_001.jpg/500px-Salade_ni%C3%A7oise_001.jpg",
+      "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:028",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Truite_au_vin_jaune.jpg/500px-Truite_au_vin_jaune.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Truite_au_vin_jaune.jpg/500px-Truite_au_vin_jaune.jpg",
+      "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:029",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Truite_meuni%C3%A8re.jpg/500px-Truite_meuni%C3%A8re.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Truite_meuni%C3%A8re.jpg/500px-Truite_meuni%C3%A8re.jpg",
+      "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:030",
@@ -1477,7 +1536,8 @@
     },
     {
       "id": "corse:036",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wiesensalbei_1.jpg/500px-Wiesensalbei_1.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wiesensalbei_1.jpg/500px-Wiesensalbei_1.jpg",
+      "cat": "Corse, Poulet, Viande, Plat"
     },
     {
       "id": "corse:037",
@@ -1513,27 +1573,33 @@
     },
     {
       "id": "corse:050",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Pappardelle.jpg/500px-Pappardelle.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Pappardelle.jpg/500px-Pappardelle.jpg",
+      "cat": "Corse, Pâtes, Plat"
     },
     {
       "id": "corse:051",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Petits_farcis_003.jpg/500px-Petits_farcis_003.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Petits_farcis_003.jpg/500px-Petits_farcis_003.jpg",
+      "cat": "Corse, Légumes, Accompagnement"
     },
     {
       "id": "corse:052",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Courgette_Cucurbita_pepo_2.jpg/500px-Courgette_Cucurbita_pepo_2.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Courgette_Cucurbita_pepo_2.jpg/500px-Courgette_Cucurbita_pepo_2.jpg",
+      "cat": "Corse, Légumes, Accompagnement"
     },
     {
       "id": "corse:053",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Alberg%C3%ADnies_farcides_estil_%22papoutsaki%22.jpg/500px-Alberg%C3%ADnies_farcides_estil_%22papoutsaki%22.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Alberg%C3%ADnies_farcides_estil_%22papoutsaki%22.jpg/500px-Alberg%C3%ADnies_farcides_estil_%22papoutsaki%22.jpg",
+      "cat": "Corse, Légumes, Accompagnement"
     },
     {
       "id": "corse:056",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Schweinebauch-1.jpg/500px-Schweinebauch-1.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Schweinebauch-1.jpg/500px-Schweinebauch-1.jpg",
+      "cat": "Corse, Légumes, Accompagnement"
     },
     {
       "id": "corse:057",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Les_Haricots_Rouges_Stortorvet_Gj%C3%A6stgiveri_Oslo_Jazzfestival_%28213001%29.jpg/500px-Les_Haricots_Rouges_Stortorvet_Gj%C3%A6stgiveri_Oslo_Jazzfestival_%28213001%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Les_Haricots_Rouges_Stortorvet_Gj%C3%A6stgiveri_Oslo_Jazzfestival_%28213001%29.jpg/500px-Les_Haricots_Rouges_Stortorvet_Gj%C3%A6stgiveri_Oslo_Jazzfestival_%28213001%29.jpg",
+      "cat": "Corse, Légumes, Accompagnement"
     },
     {
       "id": "corse:062",
@@ -1568,7 +1634,8 @@
     },
     {
       "id": "corse:070",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Pulenda-1.jpg/500px-Pulenda-1.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Pulenda-1.jpg/500px-Pulenda-1.jpg",
+      "cat": "Corse, Dessert, Viennoiserie"
     },
     {
       "id": "espagne:012",
@@ -1615,27 +1682,33 @@
     },
     {
       "id": "portugal:002",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Acorda09_%28cropped%29.jpg/500px-Acorda09_%28cropped%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Acorda09_%28cropped%29.jpg/500px-Acorda09_%28cropped%29.jpg",
+      "cat": "Portugal, Soupe, Entrée"
     },
     {
       "id": "portugal:003",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Bouillabaisse_04.jpg/500px-Bouillabaisse_04.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Bouillabaisse_04.jpg/500px-Bouillabaisse_04.jpg",
+      "cat": "Portugal, Soupe, Entrée"
     },
     {
       "id": "portugal:005",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bacalhau_com_natas.jpg/500px-Bacalhau_com_natas.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Bacalhau_com_natas.jpg/500px-Bacalhau_com_natas.jpg",
+      "cat": "Portugal, Poisson, Plat"
     },
     {
       "id": "portugal:006",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Bacalhau_%C3%A0_Gomes_de_S%C3%A1.jpg/500px-Bacalhau_%C3%A0_Gomes_de_S%C3%A1.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Bacalhau_%C3%A0_Gomes_de_S%C3%A1.jpg/500px-Bacalhau_%C3%A0_Gomes_de_S%C3%A1.jpg",
+      "cat": "Portugal, Poisson, Plat"
     },
     {
       "id": "portugal:007",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/500px-Bacalhau_a_Bras.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/500px-Bacalhau_a_Bras.jpg",
+      "cat": "Portugal, Poisson, Plat"
     },
     {
       "id": "portugal:008",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/500px-Bacalhau_a_Bras.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/500px-Bacalhau_a_Bras.jpg",
+      "cat": "Portugal, Poisson, Plat"
     },
     {
       "id": "portugal:009",
@@ -1667,17 +1740,18 @@
     },
     {
       "id": "portugal:016",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Sardina_pilchardus_2011.jpg/500px-Sardina_pilchardus_2011.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Sardina_pilchardus_2011.jpg/500px-Sardina_pilchardus_2011.jpg",
+      "cat": "Portugal, Poisson, Plat"
     },
     {
       "id": "portugal:018",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Palourde.jpg/500px-Palourde.jpg",
-      "cat": "Portugal, Fruits de mer"
+      "cat": "Portugal, Fruits de mer, Plat"
     },
     {
       "id": "portugal:019",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Loligo_forbesii.jpg/500px-Loligo_forbesii.jpg",
-      "cat": "Portugal, Fruits de mer"
+      "cat": "Portugal, Fruits de mer, Plat"
     },
     {
       "id": "portugal:020",
@@ -1724,19 +1798,23 @@
     },
     {
       "id": "italie:010",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg/500px-Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg/500px-Tagliatelle_al_rag%C3%B9_%28image_modified%29.jpg",
+      "cat": "Italie, Pâtes, Plat"
     },
     {
       "id": "italie:014",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lasagne_-_stonesoup.jpg/500px-Lasagne_-_stonesoup.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Lasagne_-_stonesoup.jpg/500px-Lasagne_-_stonesoup.jpg",
+      "cat": "Italie, Pâtes, Plat"
     },
     {
       "id": "italie:022",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sea-wolf_cover.jpg"
+      "img": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sea-wolf_cover.jpg",
+      "cat": "Italie, Poisson, Plat"
     },
     {
       "id": "italie:023",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Vicenza%2C_Espressamente%2C_baccala_vicentina.jpg/500px-Vicenza%2C_Espressamente%2C_baccala_vicentina.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Vicenza%2C_Espressamente%2C_baccala_vicentina.jpg/500px-Vicenza%2C_Espressamente%2C_baccala_vicentina.jpg",
+      "cat": "Italie, Poisson, Plat"
     },
     {
       "id": "maghreb:005",
@@ -1756,15 +1834,18 @@
     },
     {
       "id": "maghreb:020",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Seffa.jpg/500px-Seffa.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Seffa.jpg/500px-Seffa.jpg",
+      "cat": "Maghreb, Dessert, Biscuit"
     },
     {
       "id": "tmx:003",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Cucurbita_moschata_Butternut_2012_G2.jpg/500px-Cucurbita_moschata_Butternut_2012_G2.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Cucurbita_moschata_Butternut_2012_G2.jpg/500px-Cucurbita_moschata_Butternut_2012_G2.jpg",
+      "cat": "Corse, Soupe, Thermomix, Entrée"
     },
     {
       "id": "tmx:004",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Sopa_de_ajo.jpg/500px-Sopa_de_ajo.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Sopa_de_ajo.jpg/500px-Sopa_de_ajo.jpg",
+      "cat": "Corse, Soupe, Thermomix, Entrée"
     },
     {
       "id": "tmx:006",
@@ -1875,7 +1956,8 @@
     },
     {
       "id": "dropbox:-1572798649",
-      "img": "img/illus/dropbox-1572798649.jpg"
+      "img": "img/illus/dropbox-1572798649.jpg",
+      "cat": "Risotto, Italie, Riz, Plat"
     },
     {
       "id": "dropbox:-47459068",
@@ -1927,7 +2009,7 @@
     },
     {
       "id": "dropbox:318a0f66-d559-46d9-bcaf-f0d37f3b26d0",
-      "cat": "Plat, Bœuf"
+      "cat": "Plat, Bœuf, Viande"
     },
     {
       "id": "dropbox:4419ddd3-bdf2-4547-94b1-862af5d4e747",
@@ -1936,7 +2018,7 @@
     },
     {
       "id": "dropbox:c9cbdd75-a881-4ee0-b38b-70751c05ddb0",
-      "cat": "Pommes, Dessert, Gâteaux"
+      "cat": "Pomme, Dessert, Gâteaux"
     },
     {
       "id": "dropbox:745c35ae-1943-4aeb-a7a6-78c527e96b33",
@@ -2001,7 +2083,7 @@
     },
     {
       "id": "dropbox:085ff5be-96b9-469a-9f4f-f2cfa51a2e9c",
-      "cat": "Plat, Airfryer, Légume"
+      "cat": "Plat, Airfryer, Légumes"
     },
     {
       "id": "dropbox:1700e428-7df5-4bb5-842c-ddb17ab6b511",
@@ -2097,7 +2179,7 @@
     },
     {
       "id": "dropbox:47705959-5e54-4987-ab68-050dcdfe3e39",
-      "cat": "Dessert, Airfryer, Petit-déjeuner"
+      "cat": "Dessert, Airfryer, Petit-déjeuner, Viennoiserie"
     },
     {
       "id": "dropbox:5104836f-cb38-4585-85dd-e3ed724c86b2",
@@ -2206,19 +2288,115 @@
     },
     {
       "id": "dropbox:7d168342-eebd-4c12-b912-5201dbac798f",
-      "cat": "Airfryer, Dessert, Petit-déjeuner"
+      "cat": "Airfryer, Dessert, Petit-déjeuner, Viennoiserie"
     },
     {
       "id": "dropbox:a71f6557-49cf-4e3b-a643-53087f643b9c",
-      "cat": "Fruits de mer"
+      "cat": "Fruits de mer, Plat"
     },
     {
       "id": "dropbox:90dd0855-948c-4844-ac71-99e68639bb69",
-      "cat": "Fruits de mer"
+      "cat": "Fruits de mer, Plat"
     },
     {
       "id": "dropbox:35684ad0-ba92-4d97-b0bf-c35730a0e4e1",
-      "cat": "Airfryer, Fruits de mer"
+      "cat": "Airfryer, Fruits de mer, Plat"
+    },
+    {
+      "id": "dropbox:178dd65e-feea-4fc1-91bc-395da0b0ebed",
+      "cat": "Porc, Japon, Viande, Plat"
+    },
+    {
+      "id": "dropbox:9f76942f-eca9-403f-967c-e64ae5e1161b",
+      "cat": "Airfryer, Plat"
+    },
+    {
+      "id": "dropbox:7e45f7aa-99b9-4b53-a52d-b16c7e645341",
+      "cat": "Poulet, Airfryer, Viande, Plat"
+    },
+    {
+      "id": "dropbox:fea5db3f-5ae3-4498-9ff1-5c530b7b74ba",
+      "cat": "Airfryer, Plat"
+    },
+    {
+      "id": "dropbox:035a5eab-d7d0-4bd5-9e7f-7e534631a0b7",
+      "cat": "Airfryer, Plat"
+    },
+    {
+      "id": "dropbox:2146049309",
+      "cat": "Chou-fleur, Légumes, Accompagnement"
+    },
+    {
+      "id": "dropbox:19f3c092-b876-4303-96b1-88ba85ac6edf",
+      "cat": "Airfryer, Plat"
+    },
+    {
+      "id": "dropbox:815bdd56-8c90-4c98-a997-671e37d5a357",
+      "cat": "Poireau, Légumes, Accompagnement"
+    },
+    {
+      "id": "dropbox:40e379fc-e380-42f1-87ef-dcd7bdce8745",
+      "cat": "Courge, Légumes, Accompagnement"
+    },
+    {
+      "id": "dropbox:307020946",
+      "cat": "Poulet, Viande, Plat"
+    },
+    {
+      "id": "dropbox:1496714261",
+      "cat": "Sénégal, Plat"
+    },
+    {
+      "id": "dropbox:-51214319",
+      "cat": "Aubergine, Légumes, Accompagnement"
+    },
+    {
+      "id": "dropbox:489d78c9-79f1-4b0f-a56a-3764143650ac",
+      "cat": "Boulangerie, Pain"
+    },
+    {
+      "id": "dropbox:6db93cd1-39bb-46ad-a687-a69bfbb1aebf",
+      "cat": "Poisson, Plat"
+    },
+    {
+      "id": "dropbox:-1576030105",
+      "cat": "Espagne, Plat"
+    },
+    {
+      "id": "dropbox:d2ca6bb4-950d-44d1-ab21-611a4e2bc371",
+      "cat": "Airfryer, Plat"
+    },
+    {
+      "id": "dropbox:9d51417b-4b45-40d9-80f7-fda19e11d1d3",
+      "cat": "Risotto, Airfryer, Italie, Riz, Plat"
+    },
+    {
+      "id": "dropbox:d6c0f179-c0f8-4cc4-9ed1-dfa3ba014930",
+      "cat": "Gratin, Plat"
+    },
+    {
+      "id": "dropbox:-130452383",
+      "cat": "Gratin, Italie, Plat"
+    },
+    {
+      "id": "dropbox:0d2dc7d7-cb0c-43a3-8bbe-514835e4e9aa",
+      "cat": "Tomate, Airfryer, Légumes, Accompagnement"
+    },
+    {
+      "id": "dropbox:c83d6aa8-26fe-4269-b604-5ff12c8250c9",
+      "cat": "Airfryer, Plat"
+    },
+    {
+      "id": "dropbox:111963522",
+      "cat": "Sénégal, Plat"
+    },
+    {
+      "id": "dropbox:1688451090",
+      "cat": "Poulet, Viande, Plat"
+    },
+    {
+      "id": "dropbox:-34423155",
+      "cat": "Plat, Légumes"
     }
   ],
   "recipes": [
@@ -2236,7 +2414,7 @@
     {
       "id": "af:008",
       "t": "Frites Maison à l'Air Fryer",
-      "cat": "Airfryer, Légume",
+      "cat": "Airfryer, Légumes, Accompagnement",
       "min": 25,
       "serv": 2,
       "desc": "Frites maison croustillantes sans friture — huile d'olive et paprika, cuites à l'Air Fryer.",
@@ -2253,7 +2431,7 @@
     {
       "id": "af:010",
       "t": "Pommes de Terre Écrasées Croustillantes à l'Air Fryer",
-      "cat": "Airfryer, Légume",
+      "cat": "Airfryer, Légumes, Accompagnement",
       "min": 40,
       "serv": 3,
       "desc": "Petites pommes de terre précuites, écrasées puis repassées à l'Air Fryer pour une texture extra-croustillante.",
@@ -2270,7 +2448,7 @@
     {
       "id": "af:011",
       "t": "Quartiers de Pommes de Terre Épicés à l'Air Fryer",
-      "cat": "Airfryer, Légume",
+      "cat": "Airfryer, Légumes, Accompagnement",
       "min": 30,
       "serv": 3,
       "desc": "Wedges de pommes de terre au paprika fumé et à l'ail — croustillants dehors, fondants dedans.",
@@ -2288,7 +2466,7 @@
     {
       "id": "af:012",
       "t": "Pommes de Terre Parmesan à l'Air Fryer",
-      "cat": "Airfryer, Légume",
+      "cat": "Airfryer, Légumes, Accompagnement",
       "min": 25,
       "serv": 3,
       "desc": "Cubes de pommes de terre enrobés de parmesan râpé et d'ail dorés à l'Air Fryer — croustillants et fromagers.",
@@ -2305,7 +2483,7 @@
     {
       "id": "af:013",
       "t": "Pommes de Terre Paprika & Herbes à l'Air Fryer",
-      "cat": "Airfryer, Légume",
+      "cat": "Airfryer, Légumes, Accompagnement",
       "min": 25,
       "serv": 3,
       "desc": "Pommes de terre dorées au paprika doux et aux herbes de Provence — simple, rapide, parfumé.",
@@ -2322,7 +2500,7 @@
     {
       "id": "espagne:039",
       "t": "Chorizo à la Sidra",
-      "cat": "Espagne, Porc",
+      "cat": "Espagne, Porc, Viande, Plat",
       "area": "Asturies",
       "min": 20,
       "serv": 4,
@@ -2339,7 +2517,7 @@
     {
       "id": "espagne:040",
       "t": "Pisto Manchego",
-      "cat": "Espagne, Légume",
+      "cat": "Espagne, Légumes, Accompagnement",
       "area": "Castille-La Manche",
       "min": 40,
       "serv": 4,
@@ -2361,7 +2539,7 @@
     {
       "id": "espagne:042",
       "t": "Pescaíto Frito",
-      "cat": "Espagne, Poisson",
+      "cat": "Espagne, Poisson, Plat",
       "area": "Andalousie",
       "min": 20,
       "serv": 4,
@@ -2379,7 +2557,7 @@
     {
       "id": "espagne:043",
       "t": "Pinchitos (Pinchos Morunos)",
-      "cat": "Espagne, Porc",
+      "cat": "Espagne, Porc, Viande, Plat",
       "area": "Andalousie",
       "min": 20,
       "serv": 4,
@@ -2401,7 +2579,7 @@
     {
       "id": "espagne:044",
       "t": "Montaditos",
-      "cat": "Espagne",
+      "cat": "Espagne, Plat",
       "area": "Espagne",
       "min": 15,
       "serv": 6,
@@ -2421,7 +2599,7 @@
     {
       "id": "espagne:045",
       "t": "Chipirones en su Tinta",
-      "cat": "Espagne, Fruits de mer",
+      "cat": "Espagne, Fruits de mer, Plat",
       "area": "Pays Basque",
       "min": 45,
       "serv": 4,
@@ -2849,7 +3027,7 @@
     {
       "id": "espagne:046",
       "t": "Calamares a la Romana",
-      "cat": "Espagne, Fruits de mer",
+      "cat": "Espagne, Fruits de mer, Plat",
       "area": "Madrid",
       "min": 20,
       "serv": 4,
@@ -2870,7 +3048,7 @@
     {
       "id": "espagne:047",
       "t": "Mejillones al Vapor",
-      "cat": "Espagne, Moules",
+      "cat": "Espagne, Moules, Plat",
       "area": "Communauté Valencienne",
       "min": 10,
       "serv": 4,
@@ -2891,7 +3069,7 @@
     {
       "id": "espagne:048",
       "t": "Gilda",
-      "cat": "Espagne",
+      "cat": "Espagne, Plat",
       "area": "Pays Basque",
       "min": 5,
       "serv": 8,
@@ -2925,7 +3103,7 @@
     {
       "id": "italie:031",
       "t": "Parmigiana di Melanzane",
-      "cat": "Italie, Plat, Légume",
+      "cat": "Italie, Plat, Légumes",
       "area": "Italie du Sud",
       "min": 75,
       "serv": 6,
@@ -2987,7 +3165,7 @@
     {
       "id": "italie:034",
       "t": "Pane e Olio",
-      "cat": "Italie",
+      "cat": "Italie, Plat",
       "area": "Italie",
       "min": 5,
       "serv": 4,
@@ -3094,7 +3272,7 @@
     {
       "id": "italie:043",
       "t": "Ribollita",
-      "cat": "Italie, Plat, Légume",
+      "cat": "Italie, Plat, Légumes",
       "area": "Toscane",
       "min": 60,
       "serv": 6,
@@ -3118,7 +3296,7 @@
     {
       "id": "italie:044",
       "t": "Pesto alla Genovese",
-      "cat": "Italie",
+      "cat": "Italie, Plat",
       "area": "Gênes, Ligurie",
       "min": 10,
       "serv": 4,
@@ -3158,7 +3336,7 @@
     {
       "id": "italie:048",
       "t": "Caponata Siciliana",
-      "cat": "Italie, Légume",
+      "cat": "Italie, Légumes, Accompagnement",
       "area": "Sicile",
       "min": 45,
       "serv": 6,
@@ -3518,7 +3696,7 @@
     {
       "id": "tart:001",
       "t": "Bruschetta Tomate & Basilic",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 10,
       "serv": 4,
       "desc": "La bruschetta classique italienne : tomates cerises, basilic frais, huile d'olive et vinaigre balsamique sur baguette grillée.",
@@ -3537,7 +3715,7 @@
     {
       "id": "tart:002",
       "t": "Bruschetta Jambon Cru & Mozzarella",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 10,
       "serv": 4,
       "desc": "Bruschetta généreuse au jambon cru et mozzarella fondante, relevée d'herbes de Provence.",
@@ -3556,7 +3734,7 @@
     {
       "id": "tart:003",
       "t": "Bruschetta Chèvre Miel & Noix",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 12,
       "serv": 4,
       "desc": "La combinaison irrésistible chèvre fondant, miel doré et noix croquantes. Parfait en entrée ou apéro.",
@@ -3575,7 +3753,7 @@
     {
       "id": "tart:004",
       "t": "Bruschetta Pizza",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 15,
       "serv": 4,
       "desc": "Bruschetta version pizza : sauce tomate, mozzarella fondue et origan. Simple, rapide, ultra gourmand.",
@@ -3594,7 +3772,7 @@
     {
       "id": "tart:005",
       "t": "Bruschetta Saumon Fumé & Avocat",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 10,
       "serv": 4,
       "desc": "Bruschetta fraîche et raffinée : saumon fumé, crème cheese, avocat et citron sur baguette grillée.",
@@ -3613,7 +3791,7 @@
     {
       "id": "tart:006",
       "t": "Bruschetta Poulet & Guacamole",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 15,
       "serv": 4,
       "desc": "Bruschetta copieuse au poulet grillé et guacamole maison. Repas complet ou apéro généreux.",
@@ -3633,7 +3811,7 @@
     {
       "id": "tart:007",
       "t": "Bruschetta Fromage & Jambon Fondu",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 15,
       "serv": 4,
       "desc": "Bruschetta chaude et réconfortante : jambon, emmental fondu et crème fraîche. Version gratinée au four.",
@@ -3651,7 +3829,7 @@
     {
       "id": "tart:008",
       "t": "Bruschetta Chorizo & Poivrons",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 12,
       "serv": 4,
       "desc": "Bruschetta espagnole colorée : chorizo, poivrons sautés, herbes de Provence. Idéale pour un apéro haut en couleur.",
@@ -3682,7 +3860,7 @@
     {
       "id": "tart:010",
       "t": "Bruschetta Classique à la Tomate",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 10,
       "serv": 4,
       "desc": "La vraie bruschetta italienne : tomates fraîches confites à l'huile d'olive extra-vierge, ail, basilic. Simple et absolue.",
@@ -3701,7 +3879,7 @@
     {
       "id": "tart:011",
       "t": "Bruschetta Saumon Fumé & Rose d'Avocat",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 15,
       "serv": 4,
       "desc": "Bruschetta élégante façon chef : rose d'avocat en rosette sur saumon fumé. Effet visuel garanti, goût exceptionnel.",
@@ -3720,7 +3898,7 @@
     {
       "id": "tart:012",
       "t": "Bruschetta Pistache & Ricotta au Grenat",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 12,
       "serv": 4,
       "desc": "Bruschetta gastronomique : ricotta crémeuse, pistaches concassées et graines de grenade pour une explosion de saveurs et de couleurs.",
@@ -3738,7 +3916,7 @@
     {
       "id": "tart:013",
       "t": "Bruschetta Pêche Grillée, Chèvre & Miel",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 15,
       "serv": 4,
       "desc": "Bruschetta d'été sucrée-salée : pêche caramélisée à la plancha, fromage de chèvre frais et miel. Accord parfait.",
@@ -3757,7 +3935,7 @@
     {
       "id": "tart:014",
       "t": "Bruschetta Poivrons Rôtis & Pignons",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 20,
       "serv": 4,
       "desc": "Bruschetta méditerranéenne : poivrons rôtis à l'ail et huile d'olive, pignons de pin grillés. Doux, fumé, irrésistible.",
@@ -3776,7 +3954,7 @@
     {
       "id": "tart:015",
       "t": "Bruschetta Burrata & Fraise au Basilic",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 10,
       "serv": 4,
       "desc": "Bruschetta estivale de chef : burrata crémeuse, fraises fraîches et basilic. Accord sucré-salé ultra raffiné.",
@@ -3795,7 +3973,7 @@
     {
       "id": "tart:016",
       "t": "Bruschetta Agneau Épicé & Houmous",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 20,
       "serv": 4,
       "desc": "Bruschetta orientale : agneau haché épicé (ras el hanout, cumin) sur houmous maison. Saveurs du Moyen-Orient.",
@@ -3813,7 +3991,7 @@
     {
       "id": "tart:017",
       "t": "Bruschetta Champignons & Crème de Truffe",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 15,
       "serv": 4,
       "desc": "Bruschetta umami intense : champignons sautés au beurre, crème à la truffe, thym. La bruschetta d'automne par excellence.",
@@ -3832,7 +4010,7 @@
     {
       "id": "tart:018",
       "t": "Bruschetta Crevettes & Avocat Mojo",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 15,
       "serv": 4,
       "desc": "Bruschetta tropicale : crevettes sautées à l'ail et avocat façon mojo (citron vert, coriandre, piment). Fraîcheur garantie.",
@@ -3851,7 +4029,7 @@
     {
       "id": "tart:019",
       "t": "Bruschetta Figue, Noix & Bleu",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 10,
       "serv": 4,
       "desc": "Bruschetta d'automne sophistiquée : figues fraîches ou séchées, fromage bleu crémeux et noix. Accord sucré-salé-piquant de caractère.",
@@ -3870,7 +4048,7 @@
     {
       "id": "tart:020",
       "t": "Bruschetta Guacamole & Œuf Poché",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 15,
       "serv": 4,
       "desc": "Bruschetta brunch parfaite : guacamole onctueux et œuf poché coulant sur pain grillé. Le combo californien par excellence.",
@@ -3889,7 +4067,7 @@
     {
       "id": "tart:021",
       "t": "Bruschetta Caprese Pesto & Pignons",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 10,
       "serv": 4,
       "desc": "Caprese revisitée en bruschetta : pesto basilic, mozzarella di bufala, tomates et pignons grillés. L'Italie dans une bouchée.",
@@ -3908,7 +4086,7 @@
     {
       "id": "tart:022",
       "t": "Bruschetta Betterave & Feta Crumble",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 12,
       "serv": 4,
       "desc": "Bruschetta colorée et originale : purée de betterave, feta émiettée et aneth. Rose vif, saveur terreuse et saline. Effet visuel garanti.",
@@ -3927,7 +4105,7 @@
     {
       "id": "tart:023",
       "t": "Bruschetta Poulet & Poulet Citron-Herbes",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 20,
       "serv": 4,
       "desc": "Bruschetta complète et généreuse : poulet mariné aux herbes et citron, sauce crémeuse. Un vrai repas sur du pain.",
@@ -3946,7 +4124,7 @@
     {
       "id": "tart:024",
       "t": "Bruschetta Dattes & Brie aux Amandes",
-      "cat": "Tartine",
+      "cat": "Tartine, Apéritif",
       "min": 10,
       "serv": 4,
       "desc": "Bruschetta dessert-apéro : brie fondant, dattes moelleuses et amandes effilées grillées. Sucré-salé d'exception, accord fromager exquis.",
@@ -5648,7 +5826,7 @@
     {
       "id": "empanada:011",
       "t": "Empanadas Sucrées à la Pomme",
-      "cat": "Dessert, Apéritif, Empanada",
+      "cat": "Dessert, Empanada, Viennoiserie",
       "min": 45,
       "serv": 6,
       "desc": "Pommes fondantes à la cannelle et cassonade — la version dessert des empanadas, façon chausson aux pommes.",
@@ -5667,7 +5845,7 @@
     {
       "id": "empanada:012",
       "t": "Empanadas Chocolat-Noisette",
-      "cat": "Dessert, Empanada",
+      "cat": "Dessert, Empanada, Viennoiserie",
       "min": 35,
       "serv": 6,
       "desc": "Pâte à tartiner chocolat-noisette et noisettes concassées — l'empanada la plus gourmande.",
@@ -5684,7 +5862,7 @@
     {
       "id": "empanada:013",
       "t": "Empanadas Banane & Caramel",
-      "cat": "Dessert, Empanada",
+      "cat": "Dessert, Empanada, Viennoiserie",
       "min": 35,
       "serv": 6,
       "desc": "Banane caramélisée, cassonade et cannelle — tropical, fondant, régressif.",
@@ -5741,7 +5919,7 @@
     {
       "id": "empanada:016",
       "t": "Empanadas Fromage & Miel",
-      "cat": "Apéritif, Dessert, Empanada",
+      "cat": "Dessert, Empanada, Viennoiserie",
       "min": 35,
       "serv": 6,
       "desc": "Fromage chèvre ou brie, miel et noix — la combinaison sucré-salé la plus élégante en empanada.",
@@ -5832,7 +6010,7 @@
     {
       "id": "salade:001",
       "t": "Salade de Pâtes Saumon Fumé, Tomates & Olives",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 20,
       "serv": 4,
       "desc": "Coquillettes froides, saumon fumé, tomates cerises et olives avec crème fraîche citronnée à l'aneth.",
@@ -5853,7 +6031,7 @@
     {
       "id": "salade:002",
       "t": "Salade de Pâtes Thon, Poivron & Carotte",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 20,
       "serv": 4,
       "desc": "Penne, thon, poivron coloré et carottes râpées — la salade de pâtes classique des grandes tablées estivales.",
@@ -5874,7 +6052,7 @@
     {
       "id": "salade:003",
       "t": "Salade de Pâtes Crevettes, Brocoli & Tomate",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 25,
       "serv": 4,
       "desc": "Orecchiette, crevettes cuites, brocoli croquant et sauce yaourt grecque au citron.",
@@ -5895,7 +6073,7 @@
     {
       "id": "salade:004",
       "t": "Salade de Pâtes Maquereau, Tomates & Olives",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 20,
       "serv": 4,
       "desc": "Fusilli, maquereau fumé au poivre, tomates cerises et olives avec mayonnaise légère à l'aneth.",
@@ -5915,7 +6093,7 @@
     {
       "id": "salade:005",
       "t": "Salade de Pâtes Saumon Fumé, Brocoli & Pesto",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 22,
       "serv": 4,
       "desc": "Farfalle au pesto, saumon fumé, brocoli croquant et tomates — fraîche, parfumée et colorée.",
@@ -5936,7 +6114,7 @@
     {
       "id": "salade:006",
       "t": "Salade de Pâtes Saumon Cuit, Avocat & Radis",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 22,
       "serv": 4,
       "desc": "Penne, saumon cuit émietté, avocat crémeux et radis croquants — fraîcheur et onctuosité.",
@@ -5957,7 +6135,7 @@
     {
       "id": "salade:007",
       "t": "Salade de Pâtes Surimi, Poivron & Carotte",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 18,
       "serv": 4,
       "desc": "Fusilli, surimi en morceaux, poivron et carottes râpées avec mayo légère à l'aneth — économique et populaire.",
@@ -5978,7 +6156,7 @@
     {
       "id": "salade:008",
       "t": "Salade de Pâtes Saumon Fumé, Courgette & Basilic",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 20,
       "serv": 4,
       "desc": "Penne, saumon fumé, courgette râpée crue et basilic frais — légère, estivale, parfumée.",
@@ -5999,7 +6177,7 @@
     {
       "id": "salade:009",
       "t": "Salade de Pâtes Thon, Concombre & Maïs",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 18,
       "serv": 4,
       "desc": "La salade de pâtes thon-maïs préférée des enfants — fraîche, douce et simple.",
@@ -6020,7 +6198,7 @@
     {
       "id": "salade:010",
       "t": "Salade de Pâtes Surimi, Avocat & Radis",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 18,
       "serv": 4,
       "desc": "Orecchiette, surimi, avocat fondant et radis croquants avec yaourt grec citronné.",
@@ -6041,7 +6219,7 @@
     {
       "id": "salade:011",
       "t": "Salade de Pâtes Crevettes, Courgette & Basilic",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 20,
       "serv": 4,
       "desc": "Fusilli, crevettes cuites, courgette râpée et basilic avec mayo légère citronnée.",
@@ -6062,7 +6240,7 @@
     {
       "id": "salade:012",
       "t": "Salade de Pâtes Thon, Mangue & Concombre",
-      "cat": "Salade, Pâtes, Été",
+      "cat": "Salade, Pâtes, Été, Entrée",
       "min": 20,
       "serv": 4,
       "desc": "Fusilli, thon, mangue sucrée et concombre frais — la salade exotique-sucrée-salée qui surprend toujours.",
@@ -6082,7 +6260,7 @@
     {
       "id": "grece:001",
       "t": "Moussaka",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 90,
       "serv": 6,
       "desc": "Le gratin grec par excellence — couches d'aubergines fondantes, ragù à la cannelle et béchamel crémeuse. Un plat qui réunit toute la famille.",
@@ -6104,7 +6282,7 @@
     {
       "id": "grece:002",
       "t": "Souvlaki",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 35,
       "serv": 4,
       "desc": "Brochettes grecques marinées à l'origan, citron et ail — poulet, porc ou agneau. La street food la plus emblématique de Grèce.",
@@ -6125,7 +6303,7 @@
     {
       "id": "grece:003",
       "t": "Gyros au Poulet",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 30,
       "serv": 4,
       "desc": "Le sandwich grec roulé — poulet mariné aux épices grillé, pita, tzatziki, tomates et oignons. Rapide et savoureux.",
@@ -6146,7 +6324,7 @@
     {
       "id": "grece:004",
       "t": "Tzatziki",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 15,
       "serv": 6,
       "desc": "La sauce grecque fondamentale — yaourt, concombre, ail et aneth. Incontournable avec tout souvlaki, gyros ou simplement en trempette.",
@@ -6166,7 +6344,7 @@
     {
       "id": "grece:005",
       "t": "Spanakopita",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 60,
       "serv": 8,
       "desc": "La tourte grecque aux épinards et feta — feuilles de phyllo croustillantes et garniture fondante. Un chef-d'œuvre de la cuisine grecque.",
@@ -6187,7 +6365,7 @@
     {
       "id": "grece:006",
       "t": "Pastitsio (Lasagne Grecque)",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 75,
       "serv": 8,
       "desc": "La \"lasagne grecque\" — penne au bœuf à la cannelle, nappées de béchamel et gratinées. Un plat familial réconfortant.",
@@ -6208,7 +6386,7 @@
     {
       "id": "grece:007",
       "t": "Salade Grecque (Horiatiki)",
-      "cat": "Grèce, Salade",
+      "cat": "Grèce, Salade, Entrée",
       "min": 10,
       "serv": 4,
       "desc": "La salade paysanne grecque authentique — tomates, concombre, olives kalamata, feta entière et origan. Sans laitue, sans fioritures.",
@@ -6230,7 +6408,7 @@
     {
       "id": "grece:008",
       "t": "Dolmades (Feuilles de Vigne Farcies)",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 75,
       "serv": 6,
       "desc": "Feuilles de vigne farcies au riz, menthe et aneth, cuites au citron. Servies tièdes ou froides, toujours avec du tzatziki.",
@@ -6251,7 +6429,7 @@
     {
       "id": "grece:009",
       "t": "Gigantes Plaki (Haricots Géants en Sauce Tomate)",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 90,
       "serv": 6,
       "desc": "Haricots géants mijotés dans une sauce tomate parfumée au four. Le plat végétarien grec le plus réconfortant.",
@@ -6273,7 +6451,7 @@
     {
       "id": "grece:010",
       "t": "Saganaki (Fromage Frit)",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 10,
       "serv": 4,
       "desc": "Fromage grec frit doré et croustillant dehors, fondant dedans. Servi avec un jus de citron et du pain — starter irrésistible.",
@@ -6292,7 +6470,7 @@
     {
       "id": "grece:011",
       "t": "Halloumi Grillé",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 10,
       "serv": 4,
       "desc": "Fromage chypriote aux propriétés uniques — il ne fond pas à la chaleur, parfait pour griller. Croustillant, salé, avec du citron.",
@@ -6309,7 +6487,7 @@
     {
       "id": "grece:012",
       "t": "Soupe Avgolemono (Bouillon Citron-Œuf)",
-      "cat": "Grèce, Soupe",
+      "cat": "Grèce, Soupe, Entrée",
       "min": 30,
       "serv": 4,
       "desc": "La soupe grecque la plus réconfortante — bouillon de poulet soyeux avec riz, tempéré aux œufs et citron. Veloutée sans une goutte de crème.",
@@ -6385,7 +6563,7 @@
     {
       "id": "grece:016",
       "t": "Kleftiko (Agneau Lentement Cuit)",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 240,
       "serv": 6,
       "desc": "L'agneau des \"brigands\" — marinés aux herbes et citron, cuit très lentement enveloppé en papillote. Chair qui se détache à la fourchette.",
@@ -6405,7 +6583,7 @@
     {
       "id": "grece:017",
       "t": "Stifado (Ragoût aux Oignons Grelots)",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 120,
       "serv": 6,
       "desc": "Ragoût de bœuf aux oignons grelots entiers, cannelle et vin rouge — profond, parfumé, réconfortant.",
@@ -6427,7 +6605,7 @@
     {
       "id": "grece:018",
       "t": "Gemista (Légumes Farcis Grecs)",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 80,
       "serv": 4,
       "desc": "Tomates et poivrons farcis de riz, menthe et persil, cuits au four dans leur propre jus. Simple et absolument délicieux.",
@@ -6449,7 +6627,7 @@
     {
       "id": "grece:019",
       "t": "Fasolada (Soupe aux Haricots Blancs)",
-      "cat": "Grèce, Soupe",
+      "cat": "Grèce, Soupe, Entrée",
       "min": 90,
       "serv": 6,
       "desc": "La \"soupe nationale grecque\" — haricots blancs, légumes et huile d'olive. Simple, nourrissante, vegan. Le plat du quotidien depuis l'Antiquité.",
@@ -6471,7 +6649,7 @@
     {
       "id": "grece:020",
       "t": "Kolokithokeftedes (Galettes de Courgette & Feta)",
-      "cat": "Grèce",
+      "cat": "Grèce, Plat",
       "min": 30,
       "serv": 4,
       "desc": "Galettes de courgette râpée, feta et menthe — croustillantes dehors, fondantes dedans. L'apéritif grec végétarien idéal.",
@@ -6492,7 +6670,7 @@
     {
       "id": "france:001",
       "t": "Coq au Vin",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 90,
       "serv": 6,
       "desc": "Le grand classique bourguignon — poulet mijoté longtemps dans le vin rouge avec lardons, champignons et oignons grelots.",
@@ -6514,7 +6692,7 @@
     {
       "id": "france:002",
       "t": "Œufs en Meurette",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 35,
       "serv": 4,
       "desc": "Œufs pochés dans une sauce au vin rouge bourguignonne, avec lardons et croûtons. L'entrée la plus emblématique de Bourgogne.",
@@ -6537,7 +6715,7 @@
     {
       "id": "france:003",
       "t": "Jambon Persillé de Bourgogne",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 30,
       "serv": 10,
       "desc": "Terrine froide bourguignonne — jambon effiloché en gelée au persil et vin blanc. Servie en tranches à l'apéritif ou en entrée.",
@@ -6558,7 +6736,7 @@
     {
       "id": "france:004",
       "t": "Gougères Bourguignonnes",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 40,
       "serv": 20,
       "desc": "Les choux au fromage qui accompagnent tous les apéritifs bourguignons. Légères, dorées, parfumées au gruyère.",
@@ -6578,7 +6756,7 @@
     {
       "id": "france:005",
       "t": "Fondue Savoyarde",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 25,
       "serv": 4,
       "desc": "La reine des fondues alpines — Beaufort, Comté et Emmental fondus au vin blanc du Jura ou de Savoie. Conviviale et généreuse.",
@@ -6599,7 +6777,7 @@
     {
       "id": "france:006",
       "t": "Raclette Savoyarde",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 20,
       "serv": 4,
       "desc": "Le repas d'hiver alpin par excellence — fromage à raclette fondu sur des pommes de terre, charcuterie et cornichons.",
@@ -6618,7 +6796,7 @@
     {
       "id": "france:007",
       "t": "Gratin Dauphinois",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 80,
       "serv": 6,
       "desc": "Le plus célèbre gratin de France — pommes de terre en rondelles cuites dans la crème et l'ail, sans fromage. Pure perfection.",
@@ -6638,7 +6816,7 @@
     {
       "id": "france:008",
       "t": "Croziflette (Gratin de Crozets au Reblochon)",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 50,
       "serv": 4,
       "desc": "La tartiflette des crozets — ces petites pâtes carrées savoyardes gratinées au reblochon. Encore plus réconfortante que l'original.",
@@ -6657,7 +6835,7 @@
     {
       "id": "france:009",
       "t": "Ravioles du Dauphiné",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 15,
       "serv": 4,
       "desc": "Minuscules ravioles farcies au fromage frais et persil, spécialité de Romans-sur-Isère. Délicates, fondantes, en gratin ou en bouillon.",
@@ -6675,7 +6853,7 @@
     {
       "id": "france:010",
       "t": "Crique Ardéchoise",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 25,
       "serv": 4,
       "desc": "La \"pomme de terre grillée\" ardéchoise — râpée et dorée à la poêle comme une grande galette. Croustillante dehors, fondante dedans.",
@@ -6694,7 +6872,7 @@
     {
       "id": "france:011",
       "t": "Fondue Jurassienne au Comté",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 25,
       "serv": 4,
       "desc": "La fondue franc-comtoise — 100% Comté AOP fondu au vin blanc du Jura. Plus rustique et plus intense que la savoyarde.",
@@ -6713,7 +6891,7 @@
     {
       "id": "france:012",
       "t": "Croûte aux Morilles",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 30,
       "serv": 4,
       "desc": "Entrée franc-comtoise festive — croûtons de pain garnis de morilles à la crème et vin jaune. Raffinée et délicieuse.",
@@ -6733,7 +6911,7 @@
     {
       "id": "france:013",
       "t": "Saucisse de Morteau aux Pommes de Terre",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 45,
       "serv": 4,
       "desc": "La saucisse fumée la plus célèbre de Franche-Comté, cuite doucement et servie avec pommes de terre. Fumé, savoureux, généreux.",
@@ -6752,7 +6930,7 @@
     {
       "id": "france:014",
       "t": "Poulet au Vin Jaune et aux Morilles",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 60,
       "serv": 4,
       "desc": "Le plat de fête franc-comtois — poulet en sauce crémeuse au vin jaune du Jura et morilles. Incomparable.",
@@ -6771,7 +6949,7 @@
     {
       "id": "france:015",
       "t": "Diots de Savoie au Vin Blanc",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 40,
       "serv": 4,
       "desc": "Saucisses de porc savoyardes aux herbes, mijotées dans le vin blanc de Savoie. Simple, rustique, délicieux.",
@@ -6790,7 +6968,7 @@
     {
       "id": "france:016",
       "t": "Crozets Savoyards Gratinés",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 35,
       "serv": 4,
       "desc": "Petites pâtes carrées savoyardes au sarrasin, gratinées avec lardons et Beaufort. Le gratin de pâtes des Alpes.",
@@ -6828,7 +7006,7 @@
     {
       "id": "france:018",
       "t": "Pochouse Bourguignonne",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 45,
       "serv": 6,
       "desc": "La bouillabaisse de Bourgogne — matelote de poissons de rivière (brochet, perche, tanche) au vin blanc et lardons.",
@@ -6850,7 +7028,7 @@
     {
       "id": "france:019",
       "t": "Poulet de Bresse à la Crème",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 55,
       "serv": 4,
       "desc": "Le poulet le plus célèbre du monde en sauce à la crème et morilles — l'apothéose de la cuisine bourguignonne.",
@@ -6870,7 +7048,7 @@
     {
       "id": "france:020",
       "t": "Farcement Savoyard",
-      "cat": "France",
+      "cat": "France, Plat",
       "min": 180,
       "serv": 8,
       "desc": "Le gâteau salé-sucré savoyard — pommes de terre râpées avec pruneaux, raisins, lardons et épices, cuit dans un moule à kougelhopf. Surprenant et délicieux.",
@@ -6889,7 +7067,7 @@
     {
       "id": "soupe:002",
       "t": "Velouté Froid de Courgettes à la Menthe",
-      "cat": "Soupe, Été",
+      "cat": "Soupe, Été, Entrée",
       "min": 25,
       "serv": 4,
       "desc": "Velouté de courgettes mixé avec du yaourt grec et menthe fraîche — rafraîchissant, léger et très verdoyant.",
@@ -6911,7 +7089,7 @@
     {
       "id": "soupe:003",
       "t": "Soupe Froide Pastèque, Tomate & Feta",
-      "cat": "Soupe, Été",
+      "cat": "Soupe, Été, Entrée",
       "min": 15,
       "serv": 4,
       "desc": "La soupe estivale la plus originale — pastèque et tomate mixées avec basilic, servie avec des dés de feta. Sucrée-salée inoubliable.",
@@ -6932,7 +7110,7 @@
     {
       "id": "soupe:004",
       "t": "Velouté Froid Avocat & Concombre",
-      "cat": "Soupe, Été",
+      "cat": "Soupe, Été, Entrée",
       "min": 15,
       "serv": 4,
       "desc": "Onctueux, vert pâle et très frais — l'avocat et le concombre mixés avec citron et herbes pour une soupe froide crémeuse sans cuisson.",
@@ -6953,7 +7131,7 @@
     {
       "id": "soupe:005",
       "t": "Soupe Froide de Poivrons Grillés",
-      "cat": "Soupe, Été",
+      "cat": "Soupe, Été, Entrée",
       "min": 30,
       "serv": 4,
       "desc": "Poivrons rouges rôtis au four, mixés avec ail et bouillon — fumé, doux, intense. Le gaspacho des amateurs de poivrons.",
@@ -6974,7 +7152,7 @@
     {
       "id": "af:022",
       "t": "Saumon Citron-Aneth et Quinoa — Airfryer",
-      "cat": "Airfryer, Santé",
+      "cat": "Airfryer, Santé, Plat",
       "min": 20,
       "serv": 2,
       "desc": "Pavé de saumon assaisonné citron-aneth cuit à l'airfryer, servi avec quinoa. Riche en oméga-3, parfait pour le cholestérol.",
@@ -6993,7 +7171,7 @@
     {
       "id": "af:023",
       "t": "Boulettes de Lentilles Corail — Airfryer",
-      "cat": "Airfryer, Santé",
+      "cat": "Airfryer, Santé, Plat",
       "min": 30,
       "serv": 2,
       "desc": "Boulettes végétariennes aux lentilles corail et épices, croustillantes à l'airfryer sans friture. Riches en fibres, pauvres en graisses saturées.",
@@ -7013,7 +7191,7 @@
     {
       "id": "af:024",
       "t": "Cabillaud en Croûte d'Herbes — Airfryer",
-      "cat": "Airfryer, Santé",
+      "cat": "Airfryer, Santé, Plat",
       "min": 18,
       "serv": 2,
       "desc": "Filet de cabillaud nappé d'une croûte d'herbes et chapelure, cuit à l'airfryer. Protéiné, maigre, savoureux.",
@@ -7032,7 +7210,7 @@
     {
       "id": "af:025",
       "t": "Poulet Paprika & Patates Douces — Airfryer",
-      "cat": "Airfryer, Santé",
+      "cat": "Airfryer, Santé, Plat",
       "min": 25,
       "serv": 2,
       "desc": "Blancs de poulet au paprika et patates douces cuits ensemble à l'airfryer. Coloré, équilibré, indice glycémique modéré.",
@@ -7051,7 +7229,7 @@
     {
       "id": "af:026",
       "t": "Galettes de Pois Chiches — Airfryer",
-      "cat": "Airfryer, Santé",
+      "cat": "Airfryer, Santé, Plat",
       "min": 25,
       "serv": 2,
       "desc": "Galettes croustillantes aux pois chiches et épices, cuites sans friture à l'airfryer. Végétariennes, riches en fibres et protéines végétales.",
@@ -7072,7 +7250,7 @@
     {
       "id": "af:027",
       "t": "Truite aux Amandes — Airfryer",
-      "cat": "Airfryer, Santé",
+      "cat": "Airfryer, Santé, Plat",
       "min": 18,
       "serv": 2,
       "desc": "Filets de truite avec croûte d'amandes effilées, dorés à l'airfryer. Classique français revisité, riche en oméga-3.",
@@ -7090,7 +7268,7 @@
     {
       "id": "af:028",
       "t": "Ratatouille Légère — Airfryer",
-      "cat": "Airfryer, Santé",
+      "cat": "Airfryer, Santé, Plat",
       "min": 25,
       "serv": 4,
       "desc": "La ratatouille provençale cuite à l'airfryer — légumes du soleil rôtis et fondants, sans excès d'huile.",
@@ -7112,7 +7290,7 @@
     {
       "id": "af:029",
       "t": "Tian de Légumes & Feta — Airfryer",
-      "cat": "Airfryer, Santé",
+      "cat": "Airfryer, Santé, Plat",
       "min": 25,
       "serv": 2,
       "desc": "Rondelles de légumes provençaux superposées avec feta légère, rôties à l'airfryer. Beau visuellement, léger nutritionnellement.",
@@ -7132,7 +7310,7 @@
     {
       "id": "af:030",
       "t": "Filet de Bar Rôti & Risotto Safrané — Airfryer",
-      "cat": "Airfryer, Santé",
+      "cat": "Airfryer, Santé, Plat",
       "min": 35,
       "serv": 2,
       "desc": "Bar (loup) rôti à l'airfryer sur lit de risotto au safran. Le dimanche gastronomique version saine.",
@@ -7149,7 +7327,7 @@
     {
       "id": "portugal:035",
       "t": "Arroz de Marisco",
-      "cat": "Portugal",
+      "cat": "Portugal, Plat",
       "min": 40,
       "serv": 4,
       "desc": "Le riz aux fruits de mer portugais — moules, palourdes, crevettes dans un bouillon tomaté safranné. Ni risotto ni paëlla : quelque chose entre les deux.",
@@ -7173,7 +7351,7 @@
     {
       "id": "portugal:036",
       "t": "Bifanas (Sandwich au Porc Portugais)",
-      "cat": "Portugal",
+      "cat": "Portugal, Plat",
       "min": 30,
       "serv": 4,
       "desc": "Le sandwich de rue portugais — fines tranches de porc marinées dans le vin blanc et ail, cuites vite et glissées dans un petit pain moelleux.",
@@ -7191,7 +7369,7 @@
     {
       "id": "portugal:037",
       "t": "Cataplana de Fruits de Mer",
-      "cat": "Portugal",
+      "cat": "Portugal, Plat",
       "min": 35,
       "serv": 4,
       "desc": "Cuisson en vase clos dans la cataplana (cocotte en cuivre) — moules, palourdes, gambas et chorizo en sauce tomatée parfumée. Cuisine de l'Algarve.",
@@ -7215,7 +7393,7 @@
     {
       "id": "portugal:038",
       "t": "Açorda Alentejana (Soupe de Pain à l'Ail)",
-      "cat": "Portugal, Soupe",
+      "cat": "Portugal, Soupe, Entrée",
       "min": 20,
       "serv": 4,
       "desc": "Soupe paysanne de l'Alentejo — pain rassis, ail, coriandre et huile d'olive, agrémentée d'un œuf poché. Pauvre en ingrédients, riche en saveurs.",
@@ -7253,7 +7431,7 @@
     {
       "id": "corse:072",
       "t": "Soupe Corse Traditionnelle",
-      "cat": "Corse, Soupe",
+      "cat": "Corse, Soupe, Entrée",
       "min": 180,
       "serv": 8,
       "desc": "La soupe-repas corse mijotée 3 heures — haricots rouges, légumes du jardin, ventrèche, herbes sauvages. Épaisse, nourrissante, parfumée au basilic.",
@@ -7278,7 +7456,7 @@
     {
       "id": "corse:073",
       "t": "Polenta à la Farine de Châtaigne",
-      "cat": "Corse",
+      "cat": "Corse, Plat",
       "min": 30,
       "serv": 4,
       "desc": "La pulenda corse — polenta à base de farine de châtaigne, spécialité de la Castagniccia. Rustique, sucrée-salée, servie avec brocciu ou fromage fondu.",
@@ -7316,7 +7494,7 @@
     {
       "id": "corse:075",
       "t": "Lonzu et Coppa Maison (Charcuterie Corse)",
-      "cat": "Corse",
+      "cat": "Corse, Plat",
       "min": 30,
       "serv": 10,
       "desc": "Guide de dégustation et accord mets-charcuterie corse — lonzu, coppa, figatelli, prisuttu. La charcuterie corse, patrimoine de l'île.",
@@ -7337,7 +7515,7 @@
     {
       "id": "corse:076",
       "t": "Aziminu (Bouillabaisse Corse)",
-      "cat": "Corse",
+      "cat": "Corse, Plat",
       "min": 60,
       "serv": 6,
       "desc": "La bouillabaisse de l'île de Beauté — poissons de roche, safran, huile d'olive et herbes du maquis. Servie avec rouille et croûtons frottés d'ail.",
@@ -7378,7 +7556,7 @@
     {
       "id": "corse:078",
       "t": "Stufatu Corse (Ragoût de Bœuf au Vin Rouge)",
-      "cat": "Corse",
+      "cat": "Corse, Plat",
       "min": 150,
       "serv": 6,
       "desc": "Le ragoût de bœuf corse mijoté dans le vin rouge de Patrimonio — bœuf, porc, légumes et herbes du maquis. Profond et parfumé.",
@@ -7423,7 +7601,7 @@
     {
       "id": "corse:080",
       "t": "Civet de Sanglier Corse",
-      "cat": "Corse",
+      "cat": "Corse, Plat",
       "min": 180,
       "serv": 6,
       "desc": "Le plat de chasse emblématique de la Corse — sanglier mariné au vin rouge et herbes du maquis, mijoté jusqu'à chair fondante.",
@@ -7445,7 +7623,7 @@
     {
       "id": "japon:016",
       "t": "Ramen au Miso Maison",
-      "cat": "Japon",
+      "cat": "Japon, Plat",
       "min": 60,
       "serv": 4,
       "desc": "La soupe japonaise la plus emblématique — bouillon de poulet parfumé au miso, nouilles ramen, œuf mariné et garnitures. Réchauffant et complexe.",
@@ -7464,7 +7642,7 @@
     {
       "id": "japon:017",
       "t": "Gyoza Maison (Raviolis Japonais)",
-      "cat": "Japon",
+      "cat": "Japon, Plat",
       "min": 60,
       "serv": 4,
       "desc": "Les raviolis japonais — farce porc-chou pliés et cuits en 3 temps : dorés, vapeur, croustillants. Avec sauce soja-vinaigre-huile de sésame.",
@@ -7481,7 +7659,7 @@
     {
       "id": "japon:018",
       "t": "Tonkatsu (Porc Pané à la Japonaise)",
-      "cat": "Japon",
+      "cat": "Japon, Plat",
       "min": 30,
       "serv": 4,
       "desc": "Escalope de porc panée à la chapelure panko, frite dorée — croustillante dehors, tendre dedans. Avec sauce tonkatsu et chou finement râpé.",
@@ -7501,7 +7679,7 @@
     {
       "id": "japon:019",
       "t": "Poulet Karaage",
-      "cat": "Japon",
+      "cat": "Japon, Plat",
       "min": 40,
       "serv": 4,
       "desc": "Le poulet frit japonais — morceaux de cuisse marinés soja-gingembre, enrobés de fécule et frits deux fois. Croustillant, juteux, irrésistible.",
@@ -7519,7 +7697,7 @@
     {
       "id": "japon:020",
       "t": "Oyakodon (Bol Poulet-Œuf)",
-      "cat": "Japon",
+      "cat": "Japon, Plat",
       "min": 20,
       "serv": 2,
       "desc": "\"Parent et enfant\" — poulet et œufs cuits ensemble dans un bouillon dashi-soja sucré, posés sur riz japonais. Le donburi le plus populaire.",
@@ -7538,7 +7716,7 @@
     {
       "id": "japon:021",
       "t": "Teriyaki de Saumon",
-      "cat": "Japon",
+      "cat": "Japon, Plat",
       "min": 20,
       "serv": 2,
       "desc": "Saumon glacé à la sauce teriyaki — sucrée, salée, brillante. Un des plats japonais les plus faciles à réaliser à la maison.",
@@ -7555,7 +7733,7 @@
     {
       "id": "japon:022",
       "t": "Soupe Miso",
-      "cat": "Japon, Soupe",
+      "cat": "Japon, Soupe, Entrée",
       "min": 15,
       "serv": 4,
       "desc": "La soupe quotidienne japonaise — bouillon dashi, miso, tofu soyeux et algues wakame. Simple, réconfortante, servie au petit-déjeuner ou avec chaque repas.",
@@ -7573,7 +7751,7 @@
     {
       "id": "japon:023",
       "t": "Yakitori (Brochettes de Poulet Grillées)",
-      "cat": "Japon, Brochette",
+      "cat": "Japon, Brochette, Plat",
       "min": 35,
       "serv": 4,
       "desc": "Les brochettes de poulet japonaises — marinées à la sauce tare et grillées au charbon. Street food de l'izakaya (bar japonais).",
@@ -7591,7 +7769,7 @@
     {
       "id": "japon:024",
       "t": "Okonomiyaki (Galette Savoureuse Japonaise)",
-      "cat": "Japon",
+      "cat": "Japon, Plat",
       "min": 35,
       "serv": 2,
       "desc": "\"Grillez ce que vous aimez\" — la galette japonaise de chou garnie de porc, fruits de mer ou fromage, nappée de sauce et mayonnaise. Cuisine d'Osaka.",
@@ -7612,7 +7790,7 @@
     {
       "id": "japon:025",
       "t": "Onigiri (Boulettes de Riz)",
-      "cat": "Japon",
+      "cat": "Japon, Plat",
       "min": 30,
       "serv": 4,
       "desc": "Les boulettes de riz japonaises — triangle de riz vinaigré enveloppé de nori, farcies au choix. Le repas portable par excellence du Japon.",
@@ -7631,7 +7809,7 @@
     {
       "id": "asie:016",
       "t": "Pad Thaï Authentique",
-      "cat": "Asie",
+      "cat": "Asie, Plat",
       "min": 25,
       "serv": 2,
       "desc": "Le plat thaïlandais le plus célèbre du monde — nouilles de riz sautées aux crevettes, œuf brouillé, germes de soja et sauce tamarin. Équilibre sucré-salé-acide.",
@@ -7652,7 +7830,7 @@
     {
       "id": "asie:017",
       "t": "Pho Bô Vietnamien (Soupe de Bœuf)",
-      "cat": "Asie, Soupe",
+      "cat": "Asie, Soupe, Entrée",
       "min": 180,
       "serv": 4,
       "desc": "La soupe nationale vietnamienne — bouillon de bœuf à la cannelle et anis étoilé, nouilles de riz et tranches de bœuf cru. Parfumé, délicat, addictif.",
@@ -7669,7 +7847,7 @@
     {
       "id": "asie:018",
       "t": "Bo Bun (Bœuf et Vermicelles Froids)",
-      "cat": "Asie",
+      "cat": "Asie, Plat",
       "min": 30,
       "serv": 4,
       "desc": "La salade vietnamienne fraîche et colorée — vermicelles de riz, bœuf sauté, crudités croquantes, herbes fraîches et sauce nuoc-mâm. Léger et savoureux.",
@@ -7691,7 +7869,7 @@
     {
       "id": "asie:019",
       "t": "Curry Vert Thaï au Poulet",
-      "cat": "Asie",
+      "cat": "Asie, Plat",
       "min": 30,
       "serv": 4,
       "desc": "Le curry vert thaïlandais — poulet mijoté dans lait de coco et pâte de curry verte, aubergines et basilic thaï. Parfumé, légèrement piquant, onctueux.",
@@ -7713,7 +7891,7 @@
     {
       "id": "asie:020",
       "t": "Riz Cantonnais Sauté",
-      "cat": "Asie",
+      "cat": "Asie, Plat",
       "min": 20,
       "serv": 4,
       "desc": "Le riz sauté cantonais — riz de la veille, œufs brouillés, petits pois, jambon et crevettes sautés au wok. Fait en 15 minutes, meilleur que le take-away.",
@@ -7736,7 +7914,7 @@
     {
       "id": "asie:021",
       "t": "Nems (Rouleaux de Printemps Frits)",
-      "cat": "Asie",
+      "cat": "Asie, Plat",
       "min": 60,
       "serv": 20,
       "desc": "Les rouleaux frits vietnamiens — farce de porc, crevettes, vermicelles et légumes dans une galette de riz dorée croustillante. Classique de la cuisine asiatique.",
@@ -7760,7 +7938,7 @@
     {
       "id": "asie:022",
       "t": "Bibimbap Coréen",
-      "cat": "Asie",
+      "cat": "Asie, Plat",
       "min": 40,
       "serv": 2,
       "desc": "\"Mélange de riz\" coréen — bol de riz avec légumes sautés, bœuf, œuf sur le plat et sauce gochujang pimentée. Coloré, nutritif, savoureux.",
@@ -7783,7 +7961,7 @@
     {
       "id": "asie:023",
       "t": "Curry Laksa au Lait de Coco",
-      "cat": "Asie",
+      "cat": "Asie, Plat",
       "min": 35,
       "serv": 4,
       "desc": "Le curry-soupe de Malaisie/Singapour — bouillon crémeux au lait de coco et pâte de laksa, nouilles, crevettes et tofu. Exotique et généreux.",
@@ -7804,7 +7982,7 @@
     {
       "id": "asie:024",
       "t": "Dumplings (Baozi) Vapeur au Porc",
-      "cat": "Asie",
+      "cat": "Asie, Plat",
       "min": 60,
       "serv": 4,
       "desc": "Les bouchées vapeur chinoises — farce de porc juteux dans une pâte blanche et moelleuse. Cuits à la vapeur dans un panier en bambou.",
@@ -7821,7 +7999,7 @@
     {
       "id": "asie:025",
       "t": "Bœuf Sauté au Brocoli à la Sauce Huître",
-      "cat": "Asie",
+      "cat": "Asie, Plat",
       "min": 20,
       "serv": 4,
       "desc": "Classique de la cuisine cantonaise — bœuf tendre sauté au wok avec brocoli croquant dans une sauce huître brillante et parfumée.",
@@ -7840,7 +8018,7 @@
     {
       "id": "maghreb:021",
       "t": "Couscous Royal",
-      "cat": "Maghreb",
+      "cat": "Maghreb, Plat",
       "min": 120,
       "serv": 8,
       "desc": "Le roi des couscous — agneau, poulet et merguez mijotés avec légumes et épices, servis sur semoule vapeur. Le plat familial maghrébin par excellence.",
@@ -7866,7 +8044,7 @@
     {
       "id": "maghreb:022",
       "t": "Tajine Agneau, Citron Confit & Olives",
-      "cat": "Maghreb",
+      "cat": "Maghreb, Plat",
       "min": 90,
       "serv": 6,
       "desc": "Le tajine marocain le plus célèbre — agneau fondant, citrons confits et olives vertes dans un bouillon safranné et épicé. Profond et parfumé.",
@@ -7890,7 +8068,7 @@
     {
       "id": "maghreb:023",
       "t": "Harira (Soupe du Ramadan)",
-      "cat": "Maghreb, Soupe",
+      "cat": "Maghreb, Soupe, Entrée",
       "min": 90,
       "serv": 8,
       "desc": "La soupe marocaine traditionnelle qui rompt le jeûne — lentilles, pois chiches, agneau, tomates et épices, liée à la farine. Nourrissante et parfumée.",
@@ -7918,7 +8096,7 @@
     {
       "id": "maghreb:024",
       "t": "Pastilla au Poulet (B'stilla)",
-      "cat": "Maghreb",
+      "cat": "Maghreb, Plat",
       "min": 90,
       "serv": 8,
       "desc": "La tourte marocaine fassi — poulet à la cannelle et amandes, enveloppé dans des feuilles de brick sucrées-salées et saupoudré de sucre glace. Baroque et délicieuse.",
@@ -7941,7 +8119,7 @@
     {
       "id": "maghreb:025",
       "t": "Chakchouka",
-      "cat": "Maghreb",
+      "cat": "Maghreb, Plat",
       "min": 30,
       "serv": 4,
       "desc": "Œufs pochés dans une sauce de poivrons et tomates épicée — plat maghrébin, israélien et tunisien. Parfait pour le brunch, vite fait et savoureux.",
@@ -7965,7 +8143,7 @@
     {
       "id": "maghreb:026",
       "t": "Méchoui (Agneau Rôti à la Braise)",
-      "cat": "Maghreb",
+      "cat": "Maghreb, Plat",
       "min": 240,
       "serv": 8,
       "desc": "L'agneau entier rôti à la braise pendant 3-4 heures selon la tradition nord-africaine — chair tendre et effilochée, peau dorée et croustillante.",
@@ -7987,7 +8165,7 @@
     {
       "id": "maghreb:027",
       "t": "Brick à l'Œuf et Thon",
-      "cat": "Maghreb",
+      "cat": "Maghreb, Plat",
       "min": 20,
       "serv": 4,
       "desc": "La feuille de brick frite tunisienne garnie d'œuf coulant et thon — croustillante dehors, coulante dedans. Entrée maghrebine classique.",
@@ -8008,7 +8186,7 @@
     {
       "id": "maghreb:028",
       "t": "Tajine de Kefta aux Œufs",
-      "cat": "Maghreb",
+      "cat": "Maghreb, Plat",
       "min": 40,
       "serv": 4,
       "desc": "Boulettes de viande épicées dans une sauce tomate au cumin et paprika, avec œufs pochés dessus. Le tajine le plus facile et le plus populaire du Maroc.",
@@ -8208,7 +8386,7 @@
     {
       "id": "france:022",
       "t": "Steak Tartare",
-      "cat": "France, Plat, Bœuf",
+      "cat": "France, Plat, Bœuf, Viande",
       "min": 15,
       "serv": 2,
       "desc": "Le grand classique de brasserie française — bœuf haché à la main, câpres, cornichons, moutarde et jaune d'œuf. À préparer et consommer immédiatement.",
@@ -8383,7 +8561,7 @@
     {
       "id": "france:031",
       "t": "Steak Frites Brasserie",
-      "cat": "France, Plat, Bœuf",
+      "cat": "France, Plat, Bœuf, Viande",
       "min": 25,
       "serv": 2,
       "desc": "Le plat national officieux de la France : entrecôte ou faux-filet saignant, frites dorées croustillantes et beurre maître d'hôtel. La grande tradition des brasseries parisiennes.",
@@ -8443,7 +8621,7 @@
     {
       "id": "australie:002",
       "t": "Chicken Parmigiana (Parma)",
-      "cat": "Australie, Plat, Poulet",
+      "cat": "Australie, Plat, Poulet, Viande",
       "min": 40,
       "serv": 4,
       "desc": "La 'Parma' version australienne : escalope de poulet panée, sauce napolitaine, jambon et mozzarella fondue. Le pub food n°1 d'Australie.",
@@ -8775,7 +8953,7 @@
     {
       "id": "gb:003",
       "t": "Beef Wellington",
-      "cat": "Grande-Bretagne, Plat, Bœuf",
+      "cat": "Grande-Bretagne, Plat, Bœuf, Viande",
       "min": 90,
       "serv": 6,
       "desc": "L'élégant rôti de bœuf en croûte — filet de bœuf enrobé de duxelles de champignons, serrano et pâte feuilletée. Le plat de fête britannique par excellence.",
@@ -8836,7 +9014,7 @@
     {
       "id": "gb:006",
       "t": "Sunday Roast au Bœuf",
-      "cat": "Grande-Bretagne, Plat, Bœuf",
+      "cat": "Grande-Bretagne, Plat, Bœuf, Viande",
       "min": 120,
       "serv": 6,
       "desc": "Le rituel dominical britannique sacré : rôti de bœuf juteux avec Yorkshire puddings aériens, légumes rôtis, sauce gravy et raifort. La tradition du dimanche.",
@@ -8966,7 +9144,7 @@
     {
       "id": "allemagne:001",
       "t": "Sauerbraten",
-      "cat": "Allemagne, Plat, Bœuf",
+      "cat": "Allemagne, Plat, Bœuf, Viande",
       "min": 240,
       "serv": 6,
       "desc": "Le rôti allemand mariné au vinaigre et aux épices pendant 3 jours : bœuf fondant dans une sauce aigre-douce aux raisins secs et aux spéculoos. La fierté de Rhénanie.",
@@ -9046,7 +9224,7 @@
     {
       "id": "allemagne:005",
       "t": "Rouladen (Roulés de Bœuf Farcis)",
-      "cat": "Allemagne, Plat, Bœuf",
+      "cat": "Allemagne, Plat, Bœuf, Viande",
       "min": 120,
       "serv": 4,
       "desc": "Les rouleaux de bœuf de la cuisine bourgeoise allemande : fines tranches de bœuf farcies de lard, cornichons et moutarde, braisées lentement dans une sauce brune. Recette des grands-mères.",
@@ -9208,7 +9386,7 @@
     {
       "id": "allemagne:014",
       "t": "Linsensuppe (Soupe aux Lentilles)",
-      "cat": "Allemagne, Soupe",
+      "cat": "Allemagne, Soupe, Entrée",
       "min": 60,
       "serv": 6,
       "desc": "La soupe de lentilles réconfortante de la cuisine bourgeoise allemande : lentilles vertes avec carottes, céleri, saucisse de Francfort et vinaigre en fin de cuisson.",
@@ -9287,7 +9465,7 @@
     {
       "id": "bresil:002",
       "t": "Churrasco Brésilien",
-      "cat": "Brésil, Plat, Bœuf",
+      "cat": "Brésil, Plat, Bœuf, Viande",
       "min": 60,
       "serv": 6,
       "desc": "Le barbecue brésilien rituel : grosses pièces de viande marinées dans de l'ail et du sel, grillées lentement sur braises. Picanha, fraldinha, costela — la cérémonie de la rodízio.",
@@ -9403,7 +9581,7 @@
     {
       "id": "bresil:008",
       "t": "Picanha au Sel Grosso",
-      "cat": "Brésil, Plat, Bœuf",
+      "cat": "Brésil, Plat, Bœuf, Viande",
       "min": 30,
       "serv": 4,
       "desc": "La reine du churrasco brésilien : picanha avec sa couche de gras caractéristique, simplement assaisonnée de gros sel et grillée sur braises chaudes. L'essence de la cuisine brésilienne.",
@@ -9548,7 +9726,7 @@
     {
       "id": "bresil:016",
       "t": "Empadão de Frango",
-      "cat": "Brésil, Plat, Poulet",
+      "cat": "Brésil, Plat, Poulet, Viande",
       "min": 90,
       "serv": 8,
       "desc": "La grande tourte de poulet brésilienne : pâte brisée feuilletée fourrée d'un ragoût de poulet crémeux avec olives, cœurs de palmier et coriandre. Le plat de fête de la famille.",
@@ -9586,7 +9764,7 @@
     {
       "id": "bresil:018",
       "t": "Caldo Verde Brésilien",
-      "cat": "Brésil, Soupe",
+      "cat": "Brésil, Soupe, Entrée",
       "min": 40,
       "serv": 6,
       "desc": "La version brésilienne du caldo verde portugais : soupe de pommes de terre crémeuse avec chou noir finement ciselé et rondelles de saucisse calabraise.",
@@ -9641,7 +9819,7 @@
     {
       "id": "argentine:001",
       "t": "Asado Argentin",
-      "cat": "Argentine, Plat, Bœuf",
+      "cat": "Argentine, Plat, Bœuf, Viande",
       "min": 180,
       "serv": 6,
       "desc": "Le rituel national argentin : grandes pièces de bœuf et abats grillés lentement sur la parrilla au bois ou charbon. Un événement social autant qu'un repas.",
@@ -9661,7 +9839,7 @@
     {
       "id": "argentine:002",
       "t": "Milanesa a la Napolitana",
-      "cat": "Argentine, Plat, Bœuf",
+      "cat": "Argentine, Plat, Bœuf, Viande",
       "min": 30,
       "serv": 4,
       "desc": "L'escalope panée argentinisée à l'italienne : milanesa de bœuf couverte de sauce tomate, jambon et mozzarella fondante gratinée. La pizzeria dans une assiette.",
@@ -9827,7 +10005,7 @@
     {
       "id": "argentine:011",
       "t": "Matambre a la Pizza",
-      "cat": "Argentine, Plat, Bœuf",
+      "cat": "Argentine, Plat, Bœuf, Viande",
       "min": 90,
       "serv": 6,
       "desc": "Le flanc de bœuf argentin en version pizzaiola : matambre cuit, puis nappé de sauce tomate, mozzarella et olives et passé sous le grill. Deux classiques argentins fusionnés.",
@@ -9925,7 +10103,7 @@
     {
       "id": "argentine:016",
       "t": "Bife de Chorizo (Steak Argentin)",
-      "cat": "Argentine, Plat, Bœuf",
+      "cat": "Argentine, Plat, Bœuf, Viande",
       "min": 20,
       "serv": 2,
       "desc": "Le roi de la parrilla : bife de chorizo (faux-filet argentin) épais, gros sel, cuisson directe sur les braises. Trois ingrédients, technique, perfection. L'art de l'asado en format individuel.",
@@ -10023,7 +10201,7 @@
     {
       "id": "asie:026",
       "t": "Chicken Tikka Masala",
-      "cat": "Asie, Poulet, Inde",
+      "cat": "Asie, Poulet, Inde, Viande, Plat",
       "min": 60,
       "serv": 4,
       "desc": "Le curry de poulet le plus populaire du monde : poulet mariné au yaourt et épices, grillé au tandoor puis mijoté dans une sauce tomate-crème aux épices. Né en Grande-Bretagne, adopté par la planète.",
@@ -10041,7 +10219,7 @@
     {
       "id": "asie:027",
       "t": "Murgh Makhani (Butter Chicken)",
-      "cat": "Asie, Poulet, Inde",
+      "cat": "Asie, Poulet, Inde, Viande, Plat",
       "min": 60,
       "serv": 4,
       "desc": "Le poulet au beurre de Delhi : sauce tomate onctueuse au beurre, fenugrec et crème, avec du poulet tandoori. Plus doux que le tikka masala, d'une richesse enveloppante.",
@@ -10058,7 +10236,7 @@
     {
       "id": "asie:028",
       "t": "Chicken Adobo Philippin",
-      "cat": "Asie, Poulet, Philippines",
+      "cat": "Asie, Poulet, Philippines, Viande, Plat",
       "min": 60,
       "serv": 4,
       "desc": "Le plat national des Philippines : poulet braisé dans le vinaigre de palme, sauce soja, ail et feuilles de laurier. Aigre-salé, conservateur naturel, addictif.",
@@ -10079,7 +10257,7 @@
     {
       "id": "asie:029",
       "t": "Dakgangjeong (Korean Fried Chicken)",
-      "cat": "Asie, Poulet, Corée",
+      "cat": "Asie, Poulet, Corée, Viande, Plat",
       "min": 60,
       "serv": 4,
       "desc": "Le poulet frit coréen : double friture pour une croustillance inégalée, nappé d'une sauce gochujang-soja-miel brillante et collante. La révolution du fried chicken.",
@@ -10097,7 +10275,7 @@
     {
       "id": "asie:030",
       "t": "Hainanese Chicken Rice",
-      "cat": "Asie, Poulet, Singapour",
+      "cat": "Asie, Poulet, Singapour, Viande, Plat",
       "min": 90,
       "serv": 4,
       "desc": "Le plat national de Singapour : poulet entier poché dans un bouillon aromatique, servi avec riz cuit dans le gras de poulet, concombre, gingembre et sauce soja. La simplicité parfaite.",
@@ -10114,7 +10292,7 @@
     {
       "id": "monde:001",
       "t": "Jerk Chicken Jamaïcain",
-      "cat": "Monde, Poulet, Caraïbes",
+      "cat": "Monde, Poulet, Caraïbes, Viande, Plat",
       "min": 480,
       "serv": 4,
       "desc": "Le poulet jamaïcain aux épices jerk : piment Scotch Bonnet, allspice, thym et gingembre en marinade, grillé lentement sur bois de laurier d'épices. Le BBQ de la Jamaïque.",
@@ -10129,7 +10307,7 @@
     {
       "id": "monde:002",
       "t": "Pollo a la Brasa (Poulet Péruvien)",
-      "cat": "Monde, Poulet, Pérou, Amérique du Sud",
+      "cat": "Monde, Poulet, Pérou, Amérique du Sud, Viande, Plat",
       "min": 120,
       "serv": 4,
       "desc": "Le poulet rôti péruvien mondialement célèbre : mariné à l'ají panca, cumin et soja, rôti en rotisserie jusqu'à peau croustillante. Servi avec ají verde (sauce verte péruvienne).",
@@ -10145,7 +10323,7 @@
     {
       "id": "monde:003",
       "t": "Buffalo Chicken Wings",
-      "cat": "Monde, Poulet, États-Unis",
+      "cat": "Monde, Poulet, États-Unis, Viande, Plat",
       "min": 60,
       "serv": 4,
       "desc": "Les ailes de poulet Buffalo de Buffalo, NY : frites croustillantes, nappées de sauce au beurre et tabasco, servies avec sauce blue cheese et céleri. Le snack de l'Amérique.",
@@ -10163,7 +10341,7 @@
     {
       "id": "france:033",
       "t": "Poularde de Bresse aux Morilles",
-      "cat": "France",
+      "cat": "France, Plat",
       "region": "Bourgogne-Franche-Comté",
       "min": 80,
       "serv": 4,
@@ -10193,7 +10371,7 @@
     {
       "id": "france:034",
       "t": "Les Gaudes (Polenta Bourguignonne au Maïs Grillé)",
-      "cat": "France",
+      "cat": "France, Plat",
       "region": "Bourgogne-Franche-Comté",
       "min": 50,
       "serv": 4,
@@ -10218,7 +10396,7 @@
     {
       "id": "france:035",
       "t": "Saucisse de Montbéliard Fumée aux Lentilles",
-      "cat": "France",
+      "cat": "France, Plat",
       "region": "Bourgogne-Franche-Comté",
       "min": 55,
       "serv": 4,
@@ -10247,7 +10425,7 @@
     {
       "id": "france:036",
       "t": "Rissoles Savoyardes",
-      "cat": "France",
+      "cat": "France, Plat",
       "region": "Savoie",
       "min": 90,
       "serv": 4,
@@ -10273,7 +10451,7 @@
     {
       "id": "france:037",
       "t": "Caillettes Ardéchoises",
-      "cat": "France",
+      "cat": "France, Plat",
       "region": "Ardèche / Drôme",
       "min": 75,
       "serv": 6,
@@ -10450,7 +10628,7 @@
     {
       "id": "arabe:006",
       "t": "Molokhia (Soupe aux Feuilles de Corète)",
-      "cat": "Monde arabe, Soupe",
+      "cat": "Monde arabe, Soupe, Entrée",
       "desc": "Soupe nationale égyptienne aux feuilles de molokhia (corète), ail et coriandre, servie sur du riz avec poulet.",
       "min": 60,
       "serv": "4 personnes",
@@ -10580,7 +10758,7 @@
     {
       "id": "tapas:001",
       "t": "Croquetas de Jamón",
-      "cat": "Espagne, Tapas",
+      "cat": "Espagne, Tapas, Apéritif",
       "desc": "Croquettes crémeuses au jambon ibérique, incontournables des bars à tapas espagnols.",
       "min": 45,
       "serv": "4 personnes",
@@ -10606,7 +10784,7 @@
     {
       "id": "tapas:002",
       "t": "Gambas a la Plancha",
-      "cat": "Espagne, Tapas",
+      "cat": "Espagne, Tapas, Apéritif",
       "desc": "Crevettes royales grillées à l'huile d'olive et à l'ail, ultra-simples et savoureuses.",
       "min": 15,
       "serv": "4 personnes",
@@ -10630,7 +10808,7 @@
     {
       "id": "tapas:003",
       "t": "Pimientos de Padrón",
-      "cat": "Espagne, Tapas",
+      "cat": "Espagne, Tapas, Apéritif",
       "desc": "Petits poivrons verts de Galice poêlés à l'huile et saupoudrés de gros sel — un sur dix est piquant !",
       "min": 10,
       "serv": "4 personnes",
@@ -10650,7 +10828,7 @@
     {
       "id": "tapas:004",
       "t": "Pa amb Tomàquet",
-      "cat": "Espagne, Tapas",
+      "cat": "Espagne, Tapas, Apéritif",
       "desc": "Pain frotté à la tomate et nappé d'huile d'olive, base absolue de la cuisine catalane.",
       "min": 10,
       "serv": "4 personnes",
@@ -10672,7 +10850,7 @@
     {
       "id": "tapas:005",
       "t": "Chorizo al Vino Tinto",
-      "cat": "Espagne, Tapas",
+      "cat": "Espagne, Tapas, Apéritif",
       "desc": "Rondelles de chorizo caramélisées dans un vin rouge réduit, tapas robuste et parfumée.",
       "min": 20,
       "serv": "4 personnes",
@@ -10695,7 +10873,7 @@
     {
       "id": "tapas:006",
       "t": "Boquerones en Vinagre",
-      "cat": "Espagne, Tapas",
+      "cat": "Espagne, Tapas, Apéritif",
       "desc": "Anchois frais marinés dans le vinaigre puis conservés dans l'huile d'olive, servis froids.",
       "min": 30,
       "serv": "4 personnes",
@@ -10718,7 +10896,7 @@
     {
       "id": "tapas:007",
       "t": "Patatas Bravas",
-      "cat": "Espagne, Tapas",
+      "cat": "Espagne, Tapas, Apéritif",
       "desc": "Cubes de pommes de terre frits, servis avec sauce bravas épicée et aioli, tapas de bar par excellence.",
       "min": 35,
       "serv": "4 personnes",
@@ -10739,7 +10917,7 @@
     {
       "id": "tapas:008",
       "t": "Albóndigas en Salsa",
-      "cat": "Espagne, Tapas",
+      "cat": "Espagne, Tapas, Apéritif",
       "desc": "Boulettes de viande mijotées dans une sauce tomate au vin blanc, tapas généreuse et conviviale.",
       "min": 40,
       "serv": "4 personnes",
@@ -10765,7 +10943,7 @@
     {
       "id": "tapas:009",
       "t": "Polbo á Feira (Pieuvre à la Galicienne)",
-      "cat": "Espagne, Tapas",
+      "cat": "Espagne, Tapas, Apéritif",
       "desc": "Pieuvre cuite et émincée, assaisonnée de paprika, huile d'olive et gros sel, spécialité emblématique de Galice.",
       "min": 90,
       "serv": "4 personnes",
@@ -10810,7 +10988,7 @@
     {
       "id": "bulgarie:002",
       "t": "Tarator (Soupe Froide au Concombre)",
-      "cat": "Bulgarie, Soupe",
+      "cat": "Bulgarie, Soupe, Entrée",
       "desc": "Soupe froide et rafraîchissante au yaourt bulgare et concombre, parfumée à l'aneth et aux noix.",
       "min": 15,
       "serv": "4 personnes",
@@ -11124,7 +11302,7 @@
     {
       "id": "afrique:006",
       "t": "Egusi Soup (Soupe Nigériane aux Graines de Courge)",
-      "cat": "Afrique, Soupe",
+      "cat": "Afrique, Soupe, Entrée",
       "desc": "Soupe nigériane dense aux graines de courge moulues (egusi), feuilles vertes et viande fumée.",
       "min": 60,
       "serv": "4 personnes",
@@ -11200,7 +11378,7 @@
     {
       "id": "hongrie:001",
       "t": "Gulyás (Goulash Hongrois)",
-      "cat": "Hongrie, Soupe",
+      "cat": "Hongrie, Soupe, Entrée",
       "desc": "Soupe-ragoût nationale hongroise : bœuf et pommes de terre généreusement paprikés dans un bouillon parfumé.",
       "min": 120,
       "serv": "4-6 personnes",
@@ -11489,7 +11667,7 @@
     {
       "id": "roumanie:004",
       "t": "Ciorbă de Burtă (Soupe de Tripes)",
-      "cat": "Roumanie, Soupe",
+      "cat": "Roumanie, Soupe, Entrée",
       "desc": "Soupe roumaine crémeuse et acidulée aux tripes de bœuf, au vinaigre et à la crème, plat de récupération légendaire.",
       "min": 180,
       "serv": "4-6 personnes",
@@ -11651,7 +11829,7 @@
     {
       "id": "paysbas:003",
       "t": "Erwtensoep / Snert (Soupe aux Pois Cassés)",
-      "cat": "Pays-Bas, Soupe",
+      "cat": "Pays-Bas, Soupe, Entrée",
       "desc": "Soupe épaisse et consistante aux pois cassés verts et légumes racines, plat d'hiver hollandais par excellence.",
       "min": 90,
       "serv": "6 personnes",
@@ -11803,7 +11981,7 @@
     {
       "id": "wrap:013",
       "t": "Wrap Classique Viande & Fromage",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Le wrap viande hachée par excellence : bœuf haché, fromage fondu, oignons et paprika dans une tortilla grillée.",
       "min": 20,
       "serv": "2 personnes",
@@ -11827,7 +12005,7 @@
     {
       "id": "wrap:014",
       "t": "Wrap Mexicain Épicé",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Version tex-mex épicée avec haricots rouges, mozzarella et épices mexicaines.",
       "min": 20,
       "serv": "2 personnes",
@@ -11852,7 +12030,7 @@
     {
       "id": "wrap:015",
       "t": "Wrap Bacon & Cheddar",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Duo gourmand bœuf haché et bacon croustillant, lié par une sauce burger et du cheddar fondant.",
       "min": 20,
       "serv": "2 personnes",
@@ -11876,7 +12054,7 @@
     {
       "id": "wrap:016",
       "t": "Wrap Poulet & Viande Mixte",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Mélange de bœuf haché et poulet émincé pour un wrap plus léger avec mozzarella et paprika.",
       "min": 20,
       "serv": "2 personnes",
@@ -11900,7 +12078,7 @@
     {
       "id": "wrap:017",
       "t": "Wrap Chorizo & Fromage",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "L'alliance bœuf haché et chorizo épicé avec du fromage râpé fondant et oignons caramélisés.",
       "min": 20,
       "serv": "2 personnes",
@@ -11924,7 +12102,7 @@
     {
       "id": "wrap:018",
       "t": "Wrap Viande & Raclette",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Wrap hivernal généreux : bœuf haché et fromage à raclette fondant avec oignons caramélisés.",
       "min": 25,
       "serv": "2 personnes",
@@ -11947,7 +12125,7 @@
     {
       "id": "wrap:019",
       "t": "Wrap BBQ Fondant",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Wrap façon burger BBQ : bœuf haché, sauce BBQ fumée, crème fraîche et oignons frits croustillants.",
       "min": 20,
       "serv": "2 personnes",
@@ -11971,7 +12149,7 @@
     {
       "id": "wrap:020",
       "t": "Wrap Curry Fromage",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Viande hachée parfumée au curry avec crème fraîche et fromage fondu pour une version orientale.",
       "min": 20,
       "serv": "2 personnes",
@@ -11995,7 +12173,7 @@
     {
       "id": "wrap:021",
       "t": "Wrap Viande & Champignons",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Bœuf haché et champignons sautés, mozzarella fondante et persil frais pour un wrap forestier.",
       "min": 25,
       "serv": "2 personnes",
@@ -12019,7 +12197,7 @@
     {
       "id": "wrap:022",
       "t": "Wrap Deluxe 3 Fromages",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Le wrap fromage ultime : bœuf haché avec mozzarella, cheddar et parmesan pour un fondant exceptionnel.",
       "min": 20,
       "serv": "2 personnes",
@@ -12043,7 +12221,7 @@
     {
       "id": "wrap:023",
       "t": "Wrap Viande & Jalapeños",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Wrap pimenté pour les amateurs de sensations : bœuf haché, jalapeños, cheddar et sauce piquante.",
       "min": 20,
       "serv": "2 personnes",
@@ -12067,7 +12245,7 @@
     {
       "id": "wrap:024",
       "t": "Wrap Viande & Pommes de Terre",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Wrap généreux et roboratif : bœuf haché, pommes de terre sautées et fromage fondant.",
       "min": 30,
       "serv": "2 personnes",
@@ -12091,7 +12269,7 @@
     {
       "id": "wrap:025",
       "t": "Wrap Bolognaise",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "La sauce bolognaise en wrap : bœuf haché à la tomate avec parmesan et basilic frais.",
       "min": 25,
       "serv": "2 personnes",
@@ -12115,7 +12293,7 @@
     {
       "id": "wrap:026",
       "t": "Wrap Viande & Épinards",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Wrap équilibré : bœuf haché, épinards frais, féta émiettée et ail pour une version plus healthy.",
       "min": 20,
       "serv": "2 personnes",
@@ -12139,7 +12317,7 @@
     {
       "id": "wrap:027",
       "t": "Wrap Viande Crémeuse",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Version ultra-fondante : bœuf haché enrobé de crème fraîche et fromage, oignons confits.",
       "min": 20,
       "serv": "2 personnes",
@@ -12163,7 +12341,7 @@
     {
       "id": "wrap:028",
       "t": "Wrap Viande & Maïs",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Wrap festif avec bœuf haché, maïs doux, cheddar fondu et paprika fumé.",
       "min": 20,
       "serv": "2 personnes",
@@ -12187,7 +12365,7 @@
     {
       "id": "wrap:029",
       "t": "Wrap Viande & Poivrons",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Coloré et savoureux : bœuf haché, poivrons sautés tricolores, mozzarella et oignons.",
       "min": 25,
       "serv": "2 personnes",
@@ -12211,7 +12389,7 @@
     {
       "id": "wrap:030",
       "t": "Wrap Viande & Sauce Ranch",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Inspiré des diners américains : bœuf haché, bacon croustillant, cheddar et sauce ranch maison.",
       "min": 20,
       "serv": "2 personnes",
@@ -12235,7 +12413,7 @@
     {
       "id": "wrap:031",
       "t": "Wrap Viande Italienne",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Version italienne : bœuf haché à la sauce tomate, parmesan, basilic frais, façon pizza.",
       "min": 20,
       "serv": "2 personnes",
@@ -12259,7 +12437,7 @@
     {
       "id": "wrap:032",
       "t": "Wrap Viande & Oignons Caramélisés",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "La douceur des oignons caramélisés avec du bœuf haché et du fromage fondant.",
       "min": 35,
       "serv": "2 personnes",
@@ -12282,7 +12460,7 @@
     {
       "id": "wrap:033",
       "t": "Wrap Viande & Avocat",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Version fraîche et gourmande : bœuf haché, avocat crémeux, cheddar et citron vert.",
       "min": 20,
       "serv": "2 personnes",
@@ -12306,7 +12484,7 @@
     {
       "id": "wrap:034",
       "t": "Wrap Viande & Sauce Fromagère",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Sauce fromagère maison (fromage frais + mozzarella) sur bœuf haché pour un wrap ultra-fondant.",
       "min": 20,
       "serv": "2 personnes",
@@ -12329,7 +12507,7 @@
     {
       "id": "wrap:035",
       "t": "Wrap Viande & Courgettes",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Wrap estival : bœuf haché, courgettes sautées, parmesan et ail pour une version légère.",
       "min": 25,
       "serv": "2 personnes",
@@ -12353,7 +12531,7 @@
     {
       "id": "wrap:036",
       "t": "Wrap Viande & Fromage Bleu",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Pour les amateurs de saveurs corsées : bœuf haché, fromage bleu crémeux et crème légère.",
       "min": 20,
       "serv": "2 personnes",
@@ -12376,7 +12554,7 @@
     {
       "id": "wrap:037",
       "t": "Wrap Deluxe Suprême",
-      "cat": "Wrap",
+      "cat": "Wrap, Apéritif",
       "desc": "Le wrap ultime : bœuf haché, bacon, double fromage, sauce burger et oignons croustillants.",
       "min": 25,
       "serv": "2 personnes",
@@ -12681,7 +12859,7 @@
     {
       "id": "omelette:001",
       "t": "Omelette Classique Jambon Fromage",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "L'incontournable omelette jambon-fromage : baveuse, dorée et fondante.",
       "min": 10,
       "serv": "2 personnes",
@@ -12704,7 +12882,7 @@
     {
       "id": "omelette:002",
       "t": "Omelette Raclette & Jambon",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "Omelette garnie de fromage à raclette fondant, jambon et pommes de terre, version alpine.",
       "min": 15,
       "serv": "2 personnes",
@@ -12727,7 +12905,7 @@
     {
       "id": "omelette:003",
       "t": "Omelette Champignons & Fromage",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "Omelette forestière aux champignons sautés, jambon et fromage fondu.",
       "min": 15,
       "serv": "2 personnes",
@@ -12750,7 +12928,7 @@
     {
       "id": "omelette:004",
       "t": "Omelette Bacon & Fromage",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "Omelette gourmande au bacon grillé et fromage fondu, façon petit-déjeuner américain.",
       "min": 10,
       "serv": "2 personnes",
@@ -12772,7 +12950,7 @@
     {
       "id": "omelette:005",
       "t": "Omelette Épinards & Jambon",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "Omelette verte et légère aux épinards frais, jambon et fromage râpé.",
       "min": 15,
       "serv": "2 personnes",
@@ -12795,7 +12973,7 @@
     {
       "id": "omelette:006",
       "t": "Omelette Chèvre & Jambon",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "Omelette fondante au chèvre et jambon, avec un filet de crème fraîche pour plus d'onctuosité.",
       "min": 10,
       "serv": "2 personnes",
@@ -12818,7 +12996,7 @@
     {
       "id": "omelette:007",
       "t": "Omelette Pommes de Terre & Fromage",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "Omelette généreuse aux pommes de terre dorées, jambon et fromage fondu, façon tortilla.",
       "min": 20,
       "serv": "2 personnes",
@@ -12841,7 +13019,7 @@
     {
       "id": "omelette:008",
       "t": "Omelette Saumon & Fromage Frais",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "Omelette raffinée au saumon fumé et fromage frais, parsemée de ciboulette fraîche.",
       "min": 10,
       "serv": "2 personnes",
@@ -12864,7 +13042,7 @@
     {
       "id": "omelette:009",
       "t": "Omelette Chorizo & Fromage",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "Omelette épicée au chorizo grillé et fromage fondu, parfumée d'une touche de lait.",
       "min": 10,
       "serv": "2 personnes",
@@ -12887,7 +13065,7 @@
     {
       "id": "omelette:010",
       "t": "Omelette Poulet & Cheddar",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "Omelette façon club sandwich : poulet cuit émincé, cheddar fondant pour un repas complet.",
       "min": 10,
       "serv": "2 personnes",
@@ -12910,7 +13088,7 @@
     {
       "id": "omelette:011",
       "t": "Omelette Tomates & Basilic",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "Omelette estivale aux tomates cerises et basilic frais, avec du jambon et fromage fondu.",
       "min": 10,
       "serv": "2 personnes",
@@ -12933,7 +13111,7 @@
     {
       "id": "omelette:012",
       "t": "Omelette Deluxe 3 Fromages",
-      "cat": "Omelette",
+      "cat": "Omelette, Plat",
       "desc": "L'omelette au fromage ultime : emmental, comté et parmesan avec du jambon pour une version grand luxe.",
       "min": 10,
       "serv": "2 personnes",
@@ -12957,7 +13135,7 @@
     {
       "id": "cocotte:001",
       "t": "Œuf Cocotte Chèvre, Oignons & Crème",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte onctueux au fromage de chèvre, oignons caramélisés et crème fraîche.",
       "min": 20,
       "serv": "2 personnes",
@@ -12982,7 +13160,7 @@
     {
       "id": "cocotte:002",
       "t": "Œuf Cocotte Roquefort & Oignons Verts",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte au roquefort fondant et oignons verts, saveur corsée et crémeuse.",
       "min": 20,
       "serv": "2 personnes",
@@ -13007,7 +13185,7 @@
     {
       "id": "cocotte:003",
       "t": "Œuf Cocotte Comté & Jambon Fumé",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte généreux au comté râpé et jambon fumé, un classique indémodable.",
       "min": 20,
       "serv": "2 personnes",
@@ -13032,7 +13210,7 @@
     {
       "id": "cocotte:004",
       "t": "Œuf Cocotte Tartiflette",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte façon tartiflette : reblochon fondant, lardons et pommes de terre.",
       "min": 25,
       "serv": "2 personnes",
@@ -13058,7 +13236,7 @@
     {
       "id": "cocotte:005",
       "t": "Œuf Cocotte Tomates, Mozzarella & Basilic",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte estival aux tomates cerises, mozzarella fondante et basilic frais.",
       "min": 20,
       "serv": "2 personnes",
@@ -13084,7 +13262,7 @@
     {
       "id": "cocotte:006",
       "t": "Œuf Cocotte Jambon & Crème",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Le plus simple et le plus gourmand : œuf cocotte au jambon blanc et crème fraîche épaisse.",
       "min": 18,
       "serv": "2 personnes",
@@ -13108,7 +13286,7 @@
     {
       "id": "cocotte:007",
       "t": "Œuf Cocotte Lardons & Champignons",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte forestier aux lardons rissolés et champignons sautés.",
       "min": 25,
       "serv": "2 personnes",
@@ -13134,7 +13312,7 @@
     {
       "id": "cocotte:008",
       "t": "Œuf Cocotte Chorizo & Fromage",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte épicé au chorizo grillé et fromage râpé fondant.",
       "min": 20,
       "serv": "2 personnes",
@@ -13159,7 +13337,7 @@
     {
       "id": "cocotte:009",
       "t": "Œuf Cocotte Bacon, Chèvre & Épinards",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte vert et savoureux : bacon croustillant, chèvre et épinards frais.",
       "min": 22,
       "serv": "2 personnes",
@@ -13185,7 +13363,7 @@
     {
       "id": "cocotte:010",
       "t": "Œuf Cocotte Saucisse & Pommes de Terre",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte roboratif à la saucisse fumée et pommes de terre sautées.",
       "min": 25,
       "serv": "2 personnes",
@@ -13211,7 +13389,7 @@
     {
       "id": "cocotte:011",
       "t": "Œuf Cocotte Saumon & Fromage Frais",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte délicat au saumon frais et fromage frais, élégant et léger.",
       "min": 20,
       "serv": "2 personnes",
@@ -13236,7 +13414,7 @@
     {
       "id": "cocotte:012",
       "t": "Œuf Cocotte Saumon Fumé & Aneth",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte raffiné au saumon fumé et aneth dans une crème citronnée.",
       "min": 18,
       "serv": "2 personnes",
@@ -13262,7 +13440,7 @@
     {
       "id": "cocotte:013",
       "t": "Œuf Cocotte Thon, Tomates & Fromage Blanc",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte méditerranéen au thon émietté, tomates et fromage blanc frais.",
       "min": 20,
       "serv": "2 personnes",
@@ -13288,7 +13466,7 @@
     {
       "id": "cocotte:014",
       "t": "Œuf Cocotte Cabillaud, Crème & Curry",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte exotique au cabillaud et sa crème au curry parfumée.",
       "min": 25,
       "serv": "2 personnes",
@@ -13314,7 +13492,7 @@
     {
       "id": "cocotte:015",
       "t": "Œuf Cocotte Tartare de Saumon",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte au tartare de saumon citronnée, finesse et fraîcheur dans un ramequin.",
       "min": 18,
       "serv": "2 personnes",
@@ -13338,7 +13516,7 @@
     {
       "id": "cocotte:016",
       "t": "Œuf Cocotte Champignons, Crème & Truffe",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte luxueux aux champignons sautés et crème à la truffe noire.",
       "min": 25,
       "serv": "2 personnes",
@@ -13364,7 +13542,7 @@
     {
       "id": "cocotte:017",
       "t": "Œuf Cocotte Saumon, Chèvre & Asperges",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte printanier au saumon fumé, chèvre crémeux et pointes d'asperges.",
       "min": 22,
       "serv": "2 personnes",
@@ -13390,7 +13568,7 @@
     {
       "id": "cocotte:018",
       "t": "Œuf Cocotte Végétarien aux Légumes",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte 100% légumes : courgettes, tomates cerises et herbes fraîches dans une crème.",
       "min": 20,
       "serv": "2 personnes",
@@ -13417,7 +13595,7 @@
     {
       "id": "cocotte:019",
       "t": "Œuf Cocotte Chèvre & Tomates Séchées",
-      "cat": "Cocotte",
+      "cat": "Cocotte, Entrée",
       "desc": "Œuf cocotte méditerranéen au chèvre fondant et tomates séchées parfumées.",
       "min": 20,
       "serv": "2 personnes",
@@ -13577,7 +13755,7 @@
     {
       "id": "bouchee:001",
       "t": "Canapé Entrecôte & Fromage Frais",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Toast grillé garni de fromage frais et fine tranche d'entrecôte, bouchée raffinée.",
       "min": 15,
       "serv": "20 bouchées",
@@ -13599,7 +13777,7 @@
     {
       "id": "bouchee:002",
       "t": "Canapé Tomates, Mozzarella & Pesto",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Toast caprese en version bouchée : tomate, mozzarella fraîche et pesto basilic.",
       "min": 10,
       "serv": "20 bouchées",
@@ -13621,7 +13799,7 @@
     {
       "id": "bouchee:003",
       "t": "Brochettes de Thon Marinées",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Cubes de thon frais marinés à la sauce soja et gingembre, piqués sur mini-brochettes.",
       "min": 20,
       "serv": "20 bouchées",
@@ -13643,7 +13821,7 @@
     {
       "id": "bouchee:004",
       "t": "Rillettes de Thon sur Toast",
-      "cat": "Bouchée, Tartine",
+      "cat": "Bouchée, Tartine, Apéritif",
       "desc": "Rillettes légères au thon, fromage frais et citron sur tranches de baguette grillée.",
       "min": 10,
       "serv": "20 bouchées",
@@ -13665,7 +13843,7 @@
     {
       "id": "bouchee:005",
       "t": "Toast Tapenade & Jambon Cru",
-      "cat": "Bouchée, Tartine",
+      "cat": "Bouchée, Tartine, Apéritif",
       "desc": "Toast croustillant à la tapenade d'olives, rosette de jambon de Parme et basilic.",
       "min": 10,
       "serv": "20 bouchées",
@@ -13685,7 +13863,7 @@
     {
       "id": "bouchee:006",
       "t": "Mini Brochettes Caprese",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Mini brochettes mozzarella-tomate cerise-basilic, l'apéritif le plus simple et le plus élégant.",
       "min": 10,
       "serv": "20 brochettes",
@@ -13706,7 +13884,7 @@
     {
       "id": "bouchee:007",
       "t": "Boulettes de Poulet Sauce Aigre-Douce",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Mini boulettes de poulet tendre panées, accompagnées d'une sauce aigre-douce maison.",
       "min": 30,
       "serv": "20 boulettes",
@@ -13729,7 +13907,7 @@
     {
       "id": "bouchee:008",
       "t": "Toasts au Caviar",
-      "cat": "Bouchée, Tartine",
+      "cat": "Bouchée, Tartine, Apéritif",
       "desc": "Blinis ou toast beurrés garnis de crème fraîche et œufs de saumon ou caviar pour les grandes occasions.",
       "min": 10,
       "serv": "20 bouchées",
@@ -13750,7 +13928,7 @@
     {
       "id": "bouchee:009",
       "t": "Sauce César & Crudités",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Légumes crus colorés à tremper dans une sauce César crémeuse, frais et léger.",
       "min": 15,
       "serv": "6 personnes",
@@ -13768,7 +13946,7 @@
     {
       "id": "bouchee:010",
       "t": "Mini Brochettes Grecques",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Mini brochettes d'olives, féta et légumes marinés aux herbes, esprit taverne grecque.",
       "min": 10,
       "serv": "20 brochettes",
@@ -13789,7 +13967,7 @@
     {
       "id": "bouchee:011",
       "t": "Feuilletés aux Saucisses",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Mini feuilletés croustillants aux saucisses cocktail, indémodables à l'apéritif.",
       "min": 25,
       "serv": "20 pièces",
@@ -13809,7 +13987,7 @@
     {
       "id": "bouchee:012",
       "t": "Samoussas au Poulet",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Samoussas croustillants fourrés de poulet épicé aux légumes, dorés à la poêle.",
       "min": 40,
       "serv": "12 pièces",
@@ -13833,7 +14011,7 @@
     {
       "id": "bouchee:013",
       "t": "Camembert Frit",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Portions de camembert panées et frites jusqu'à être croustillantes dehors et coulantes dedans.",
       "min": 20,
       "serv": "4 personnes",
@@ -13856,7 +14034,7 @@
     {
       "id": "bouchee:014",
       "t": "Mini Pizzas Tomate & Mozzarella",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Mini pizzas sur pâte feuilletée ou pain pita, garnies de sauce tomate et mozzarella fondante.",
       "min": 20,
       "serv": "12 pièces",
@@ -13878,7 +14056,7 @@
     {
       "id": "bouchee:015",
       "t": "Croquettes au Jambon & Fromage",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Mini croquettes crémeuses au jambon et fromage, panées et frites, version apéritive des croquetas.",
       "min": 45,
       "serv": "20 pièces",
@@ -13902,7 +14080,7 @@
     {
       "id": "bouchee:016",
       "t": "Tzatziki & Concombre",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Rondelles de concombre garnies de tzatziki maison, fraîches et légères.",
       "min": 15,
       "serv": "20 bouchées",
@@ -13921,7 +14099,7 @@
     {
       "id": "bouchee:017",
       "t": "Tartelettes Chèvre & Miel",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Mini tartelettes à la pâte croustillante, garnies de fromage de chèvre et miel de fleurs.",
       "min": 25,
       "serv": "12 tartelettes",
@@ -13944,7 +14122,7 @@
     {
       "id": "bouchee:018",
       "t": "Petits Rouleaux de Saumon",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Tranches de saumon fumé roulées autour d'une mousse de fromage frais et ciboulette.",
       "min": 15,
       "serv": "20 rouleaux",
@@ -13966,7 +14144,7 @@
     {
       "id": "bouchee:019",
       "t": "Petites Quiches Lorraine",
-      "cat": "Bouchée",
+      "cat": "Bouchée, Apéritif",
       "desc": "Mini quiches lorraines à la pâte croustillante, garnies de lardons et crème, parfaites en deux bouchées.",
       "min": 35,
       "serv": "12 quiches",
@@ -13990,7 +14168,7 @@
     {
       "id": "bouchee:020",
       "t": "Bruschetta à la Tomate",
-      "cat": "Bouchée, Tartine",
+      "cat": "Bouchée, Tartine, Apéritif",
       "desc": "Pain grillé à l'huile d'olive frotté à l'ail, garni de tomates fraîches et basilic.",
       "min": 15,
       "serv": "20 bouchées",
@@ -14013,7 +14191,7 @@
     {
       "id": "bouchee:021",
       "t": "Escalope Grillée sur Toast",
-      "cat": "Bouchée, Tartine",
+      "cat": "Bouchée, Tartine, Apéritif",
       "desc": "Mini escalopes de veau ou poulet grillées sur toast avec une crème citronnée, bouchée élégante.",
       "min": 20,
       "serv": "12 bouchées",
@@ -14036,7 +14214,7 @@
     {
       "id": "brochette:001",
       "t": "Brochettes Poulet & Poivrons",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Brochettes classiques de poulet mariné aux herbes avec poivrons colorés",
       "min": 25,
       "serv": 4,
@@ -14060,7 +14238,7 @@
     {
       "id": "brochette:002",
       "t": "Brochettes Boeuf Teriyaki",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Boeuf tendre laqué à la sauce teriyaki, avec poivrons et oignon",
       "min": 30,
       "serv": 4,
@@ -14082,7 +14260,7 @@
     {
       "id": "brochette:003",
       "t": "Brochettes Crevettes Citron",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Crevettes marinées au citron et ail, fraîches et parfumées",
       "min": 20,
       "serv": 4,
@@ -14105,7 +14283,7 @@
     {
       "id": "brochette:004",
       "t": "Brochettes Caprese",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Brochettes fraîches tomates cerises, mozzarella et basilic",
       "min": 10,
       "serv": 4,
@@ -14127,7 +14305,7 @@
     {
       "id": "brochette:005",
       "t": "Brochettes Poulet Ananas",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Alliance sucrée-salée du poulet mariné au miel-soja avec ananas",
       "min": 30,
       "serv": 4,
@@ -14150,7 +14328,7 @@
     {
       "id": "brochette:006",
       "t": "Brochettes Saucisse Légumes",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Brochettes généreuses de saucisses avec courgettes et poivrons",
       "min": 25,
       "serv": 4,
@@ -14173,7 +14351,7 @@
     {
       "id": "brochette:007",
       "t": "Brochettes Saumon Citron Vert",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Saumon frais mariné à l'aneth et citron vert, grillé à la perfection",
       "min": 25,
       "serv": 4,
@@ -14196,7 +14374,7 @@
     {
       "id": "brochette:008",
       "t": "Brochettes Poulet Tandoori",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Poulet mariné aux épices tandoori et yaourt, saveur indienne authentique",
       "min": 35,
       "serv": 4,
@@ -14220,7 +14398,7 @@
     {
       "id": "brochette:009",
       "t": "Brochettes Melon Jambon",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Brochettes fraîches melon, jambon cru et basilic",
       "min": 10,
       "serv": 4,
@@ -14241,7 +14419,7 @@
     {
       "id": "brochette:010",
       "t": "Brochettes Boeuf Champignons",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Boeuf juteux et champignons aillés, une combinaison classique et savoureuse",
       "min": 25,
       "serv": 4,
@@ -14265,7 +14443,7 @@
     {
       "id": "brochette:011",
       "t": "Brochettes Poulet Fromage",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Poulet fondant avec mozzarella, poivrons et herbes fraîches",
       "min": 25,
       "serv": 4,
@@ -14288,7 +14466,7 @@
     {
       "id": "brochette:012",
       "t": "Brochettes Halloumi Légumes",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Halloumi grillé avec courgettes et poivrons, brochettes végétariennes savoureuses",
       "min": 20,
       "serv": 4,
@@ -14312,7 +14490,7 @@
     {
       "id": "brochette:013",
       "t": "Brochettes Porc au Miel",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Porc laqué au miel et sauce soja, caramélisé et irrésistible",
       "min": 30,
       "serv": 4,
@@ -14336,7 +14514,7 @@
     {
       "id": "brochette:014",
       "t": "Brochettes Méditerranéennes",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Tomates cerises, olives, courgettes et feta – saveurs du bassin méditerranéen",
       "min": 15,
       "serv": 4,
@@ -14360,7 +14538,7 @@
     {
       "id": "brochette:015",
       "t": "Brochettes Crevettes Coco",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Crevettes exotiques marinées au lait de coco et curry",
       "min": 25,
       "serv": 4,
@@ -14383,7 +14561,7 @@
     {
       "id": "brochette:016",
       "t": "Brochettes Tex-Mex",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Poulet épicé Tex-Mex avec maïs et poivrons colorés",
       "min": 30,
       "serv": 4,
@@ -14406,7 +14584,7 @@
     {
       "id": "brochette:017",
       "t": "Brochettes Fruits Tropicaux",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Brochettes de fruits tropicaux sucrés, parfaites pour un dessert ou apéritif frais",
       "min": 10,
       "serv": 4,
@@ -14428,7 +14606,7 @@
     {
       "id": "brochette:018",
       "t": "Brochettes Poulet Cajun",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Poulet aux épices cajun relevées avec poivrons et oignon",
       "min": 30,
       "serv": 4,
@@ -14451,7 +14629,7 @@
     {
       "id": "brochette:019",
       "t": "Brochettes Agneau Romarin",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Agneau parfumé au romarin et ail, façon méditerranéenne",
       "min": 30,
       "serv": 4,
@@ -14475,7 +14653,7 @@
     {
       "id": "brochette:020",
       "t": "Brochettes Façon Grand-Mère",
-      "cat": "Brochette",
+      "cat": "Brochette, Plat",
       "desc": "Brochettes campagnardes porc, lardons et oignons laqués à la moutarde",
       "min": 30,
       "serv": 4,
@@ -15312,7 +15490,7 @@
     {
       "id": "oeuf:001",
       "t": "Oeufs Brouillés Crémeux Maison",
-      "cat": "Préparation Oeuf",
+      "cat": "Préparation Oeuf, Plat",
       "desc": "Oeufs brouillés soyeux et crémeux, cuits à feu doux avec beurre et crème fraîche",
       "min": 10,
       "serv": 2,
@@ -15333,7 +15511,7 @@
     {
       "id": "oeuf:002",
       "t": "Salade d'Oeufs Fraîcheur",
-      "cat": "Préparation Oeuf",
+      "cat": "Préparation Oeuf, Plat",
       "desc": "Salade d'œufs durs crémeuse à la mayonnaise, moutarde et ciboulette",
       "min": 20,
       "serv": 4,
@@ -15355,7 +15533,7 @@
     {
       "id": "oeuf:003",
       "t": "Toast Avocat et Oeuf Poché",
-      "cat": "Préparation Oeuf, Tartine",
+      "cat": "Préparation Oeuf, Tartine, Apéritif",
       "desc": "Toast croustillant surmonté d'avocat écrasé et d'un oeuf poché parfait",
       "min": 15,
       "serv": 2,
@@ -15378,7 +15556,7 @@
     {
       "id": "oeuf:004",
       "t": "Oeufs Bénédicte Gourmands",
-      "cat": "Préparation Oeuf",
+      "cat": "Préparation Oeuf, Plat",
       "desc": "La grande classique du brunch : oeufs pochés sur muffin anglais avec sauce hollandaise",
       "min": 25,
       "serv": 2,
@@ -15401,7 +15579,7 @@
     {
       "id": "oeuf:005",
       "t": "Frittata Méditerranéenne Facile",
-      "cat": "Préparation Oeuf",
+      "cat": "Préparation Oeuf, Plat",
       "desc": "Frittata italienne aux tomates cerises, épinards, basilic et feta",
       "min": 25,
       "serv": 4,
@@ -15425,7 +15603,7 @@
     {
       "id": "oeuf:006",
       "t": "Oeufs Mollets Parfaits",
-      "cat": "Préparation Oeuf",
+      "cat": "Préparation Oeuf, Plat",
       "desc": "Oeufs mollets au jaune coulant, technique infaillible pour une cuisson parfaite",
       "min": 10,
       "serv": 2,
@@ -15445,7 +15623,7 @@
     {
       "id": "oeuf:007",
       "t": "Oeufs à la Florentine",
-      "cat": "Préparation Oeuf",
+      "cat": "Préparation Oeuf, Plat",
       "desc": "Oeufs pochés sur lit d'épinards crémeux et parmesan, recette franco-italienne",
       "min": 25,
       "serv": 2,
@@ -15469,7 +15647,7 @@
     {
       "id": "oeuf:008",
       "t": "Oeufs au Plat Croustillants",
-      "cat": "Préparation Oeuf",
+      "cat": "Préparation Oeuf, Plat",
       "desc": "Oeufs au plat avec blanc croustillant et jaune coulant, cuits à l'huile d'olive chaude",
       "min": 5,
       "serv": 2,
@@ -15490,7 +15668,7 @@
     {
       "id": "oeuf:009",
       "t": "Oeufs Mimosa Classiques",
-      "cat": "Préparation Oeuf",
+      "cat": "Préparation Oeuf, Plat",
       "desc": "Oeufs mimosa traditionnels farcis mayonnaise-moutarde, parfaits pour les buffets",
       "min": 25,
       "serv": 4,
@@ -15513,7 +15691,7 @@
     {
       "id": "oeuf:010",
       "t": "Mini Muffins aux Oeufs",
-      "cat": "Préparation Oeuf",
+      "cat": "Préparation Oeuf, Plat",
       "desc": "Mini muffins salés aux oeufs et légumes, idéaux pour un brunch ou pique-nique",
       "min": 30,
       "serv": 6,
@@ -15536,7 +15714,7 @@
     {
       "id": "oeuf:011",
       "t": "Omelette Espagnole Traditionnelle",
-      "cat": "Préparation Oeuf",
+      "cat": "Préparation Oeuf, Plat",
       "desc": "La tortilla española authentique : oeufs, pommes de terre et oignon, épaisse et moelleuse",
       "min": 40,
       "serv": 4,
@@ -15558,7 +15736,7 @@
     {
       "id": "oeuf:012",
       "t": "Shakshuka Tomate Épicée",
-      "cat": "Préparation Oeuf",
+      "cat": "Préparation Oeuf, Plat",
       "desc": "Oeufs pochés dans une sauce tomate épicée aux poivrons, recette du Moyen-Orient",
       "min": 30,
       "serv": 4,
@@ -15851,7 +16029,7 @@
     {
       "id": "panini:001",
       "t": "Panini Jambon Fromage Coulant",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Le classique des paninis : jambon et fromage raclette fondant entre deux pains grillés",
       "min": 10,
       "serv": 2,
@@ -15872,7 +16050,7 @@
     {
       "id": "panini:002",
       "t": "Panini Poulet Mozzarella Pesto",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Panini italien au poulet grillé, mozzarella fondante, pesto et tomates",
       "min": 15,
       "serv": 2,
@@ -15894,7 +16072,7 @@
     {
       "id": "panini:003",
       "t": "Panini Steak Cheddar BBQ",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Panini généreux steak haché, cheddar fondu et sauce barbecue avec oignons caramélisés",
       "min": 20,
       "serv": 2,
@@ -15916,7 +16094,7 @@
     {
       "id": "panini:004",
       "t": "Panini Thon Fromage",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Panini fondant thon, fromage râpé et mayonnaise citronnée",
       "min": 10,
       "serv": 2,
@@ -15938,7 +16116,7 @@
     {
       "id": "panini:005",
       "t": "Panini 4 Fromages",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Panini ultra fromager : mozzarella, gorgonzola, emmental et parmesan",
       "min": 10,
       "serv": 2,
@@ -15959,7 +16137,7 @@
     {
       "id": "panini:006",
       "t": "Panini Poulet Curry",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Panini exotique au poulet mariné au curry avec fromage fondant et oignons",
       "min": 15,
       "serv": 2,
@@ -15981,7 +16159,7 @@
     {
       "id": "panini:007",
       "t": "Panini Végétarien Grillés",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Panini végétarien savoureux aux légumes grillés et fromage de chèvre",
       "min": 20,
       "serv": 2,
@@ -16005,7 +16183,7 @@
     {
       "id": "panini:008",
       "t": "Panini Saumon Fromage Frais",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Panini élégant au saumon fumé, fromage frais crémeux, citron et aneth",
       "min": 10,
       "serv": 2,
@@ -16027,7 +16205,7 @@
     {
       "id": "panini:009",
       "t": "Panini Poulet Avocat",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Panini frais et gourmand au poulet, avocat crémeux, tomates et sauce yaourt",
       "min": 15,
       "serv": 2,
@@ -16050,7 +16228,7 @@
     {
       "id": "panini:010",
       "t": "Panini Dinde Moutarde",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Panini simple et efficace dinde, fromage, moutarde et salade fraîche",
       "min": 10,
       "serv": 2,
@@ -16072,7 +16250,7 @@
     {
       "id": "panini:011",
       "t": "Panini Nutella Banane",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Panini sucré gourmand au Nutella et banane, fondant et réconfortant",
       "min": 8,
       "serv": 2,
@@ -16092,7 +16270,7 @@
     {
       "id": "panini:012",
       "t": "Panini Poulet BBQ",
-      "cat": "Panini",
+      "cat": "Panini, Apéritif",
       "desc": "Panini américain au poulet, sauce BBQ fumée, cheddar fondu et oignons",
       "min": 15,
       "serv": 2,
@@ -16114,7 +16292,7 @@
     {
       "id": "samoussa:001",
       "t": "Samoussas Chorizo Fromage",
-      "cat": "Samoussa",
+      "cat": "Samoussa, Apéritif",
       "desc": "Samoussas croustillants et fondants au chorizo et fromage râpé",
       "min": 25,
       "serv": 4,
@@ -16136,7 +16314,7 @@
     {
       "id": "samoussa:002",
       "t": "Samoussas Poulet BBQ",
-      "cat": "Samoussa",
+      "cat": "Samoussa, Apéritif",
       "desc": "Samoussas croustillants garnis de poulet émincé et sauce barbecue",
       "min": 30,
       "serv": 4,
@@ -16159,7 +16337,7 @@
     {
       "id": "samoussa:003",
       "t": "Samoussas Aubergine Parmesan",
-      "cat": "Samoussa",
+      "cat": "Samoussa, Apéritif",
       "desc": "Samoussas végétariens à l'aubergine fondante et parmesan gratiné",
       "min": 30,
       "serv": 4,
@@ -16181,7 +16359,7 @@
     {
       "id": "samoussa:004",
       "t": "Samoussas Boeuf Oignons Fondants",
-      "cat": "Samoussa",
+      "cat": "Samoussa, Apéritif",
       "desc": "Samoussas généreux bœuf haché et oignons caramélisés au paprika",
       "min": 35,
       "serv": 4,
@@ -16204,7 +16382,7 @@
     {
       "id": "samoussa:005",
       "t": "Samoussas Fromage Pesto",
-      "cat": "Samoussa",
+      "cat": "Samoussa, Apéritif",
       "desc": "Samoussas végétariens fondants mozzarella, pesto et parmesan",
       "min": 20,
       "serv": 4,
@@ -16227,7 +16405,7 @@
     {
       "id": "samoussa:006",
       "t": "Samoussas Poire Chocolat",
-      "cat": "Samoussa",
+      "cat": "Samoussa, Apéritif",
       "desc": "Samoussas sucrés poire fondante et chocolat noir, dessert croustillant",
       "min": 20,
       "serv": 4,
@@ -16249,7 +16427,7 @@
     {
       "id": "samoussa:007",
       "t": "Samoussas Thon Fromage Frais",
-      "cat": "Samoussa",
+      "cat": "Samoussa, Apéritif",
       "desc": "Samoussas frais et légers au thon, fromage frais crémeux et ciboulette",
       "min": 25,
       "serv": 4,
@@ -16272,7 +16450,7 @@
     {
       "id": "samoussa:008",
       "t": "Samoussas Épinards Feta",
-      "cat": "Samoussa",
+      "cat": "Samoussa, Apéritif",
       "desc": "Samoussas grecs aux épinards fondants, feta et ail, façon spanakopita",
       "min": 30,
       "serv": 4,
@@ -16325,7 +16503,7 @@
     {
       "id": "vietnam:001",
       "t": "Phô Vietnamien",
-      "cat": "Asie, Soupe",
+      "cat": "Asie, Soupe, Entrée",
       "desc": "Le grand classique vietnamien : bouillon de bœuf longuement mijoté aux épices, nouilles et garnitures fraîches",
       "min": 210,
       "serv": 4,
@@ -16363,7 +16541,7 @@
     {
       "id": "crepe:001",
       "t": "Crêpe Salée Jambon Emmental",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "La crêpe salée classique garnie de jambon fondant et emmental gratiné",
       "min": 20,
       "serv": 4,
@@ -16384,7 +16562,7 @@
     {
       "id": "crepe:002",
       "t": "Crêpe Salée Saumon Fromage Frais",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe élégante saumon fumé et fromage frais crémeux",
       "min": 15,
       "serv": 4,
@@ -16406,7 +16584,7 @@
     {
       "id": "crepe:003",
       "t": "Crêpe Salée Chèvre Miel Noix",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe raffinée au fromage de chèvre, miel et noix croquantes",
       "min": 15,
       "serv": 4,
@@ -16428,7 +16606,7 @@
     {
       "id": "crepe:004",
       "t": "Crêpe Salée Savoyarde",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe montagnarde aux pommes de terre, lardons et emmental fondu",
       "min": 30,
       "serv": 4,
@@ -16450,7 +16628,7 @@
     {
       "id": "crepe:005",
       "t": "Crêpe Salée Chèvre Épinards Miel",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe fraîche aux épinards fondants, chèvre et miel légèrement sucré",
       "min": 20,
       "serv": 4,
@@ -16473,7 +16651,7 @@
     {
       "id": "crepe:006",
       "t": "Crêpe Salée Jambon Raclette Cornichons",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe façon raclette avec jambon, fromage fondu et cornichons acidulés",
       "min": 15,
       "serv": 4,
@@ -16494,7 +16672,7 @@
     {
       "id": "crepe:007",
       "t": "Crêpe Salée Montagnarde",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe généreuse reblochon, jambon de montagne et pommes de terre",
       "min": 30,
       "serv": 4,
@@ -16516,7 +16694,7 @@
     {
       "id": "crepe:008",
       "t": "Crêpe Salée 4 Fromages",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe ultra fromagère bleu, mozzarella, raclette et emmental fondus",
       "min": 15,
       "serv": 4,
@@ -16538,7 +16716,7 @@
     {
       "id": "crepe:009",
       "t": "Crêpe Salée Thon Niçoise",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe façon salade niçoise avec thon, olives, tomates et oeufs durs",
       "min": 20,
       "serv": 4,
@@ -16562,7 +16740,7 @@
     {
       "id": "crepe:010",
       "t": "Crêpe Salée Poulet Curry",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe exotique au poulet mariné au curry et crème fraîche",
       "min": 20,
       "serv": 4,
@@ -16585,7 +16763,7 @@
     {
       "id": "crepe:011",
       "t": "Crêpe Salée Italienne Prosciutto Mozzarella",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe aux saveurs italiennes prosciutto, mozzarella et basilic frais",
       "min": 15,
       "serv": 4,
@@ -16608,7 +16786,7 @@
     {
       "id": "crepe:012",
       "t": "Crêpe Salée Reblochon Raclette",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe alpine extra fondante reblochon et raclette avec pommes de terre",
       "min": 25,
       "serv": 4,
@@ -16631,7 +16809,7 @@
     {
       "id": "crepe:013",
       "t": "Crêpe Salée Club",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe façon club sandwich : jambon, salade, tomates et fromage",
       "min": 15,
       "serv": 4,
@@ -16654,7 +16832,7 @@
     {
       "id": "crepe:014",
       "t": "Crêpe Salée 3 Fromages Jambon",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe généreuse au jambon et trio de fromages fondants",
       "min": 15,
       "serv": 4,
@@ -16677,7 +16855,7 @@
     {
       "id": "crepe:015",
       "t": "Crêpe Salée Tartiflette",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe façon tartiflette : reblochon, lardons, oignons et pommes de terre",
       "min": 35,
       "serv": 4,
@@ -16700,7 +16878,7 @@
     {
       "id": "crepe:016",
       "t": "Crêpe Salée Fruits de Mer",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe élégante aux fruits de mer dans une sauce crème au vin blanc",
       "min": 25,
       "serv": 4,
@@ -16724,7 +16902,7 @@
     {
       "id": "crepe:017",
       "t": "Crêpe Salée Saumon Fumé Avocat",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe fraîche et délicate saumon fumé, avocat crémeux et citron",
       "min": 15,
       "serv": 4,
@@ -16747,7 +16925,7 @@
     {
       "id": "crepe:018",
       "t": "Crêpe Salée Oeuf Bacon Cheddar",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe brunch au bacon croustillant, oeuf et cheddar fondu",
       "min": 20,
       "serv": 4,
@@ -16769,7 +16947,7 @@
     {
       "id": "crepe:019",
       "t": "Crêpe Salée Crabe Crevettes",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe raffinée au crabe et crevettes dans une sauce bisque légère",
       "min": 25,
       "serv": 4,
@@ -16793,7 +16971,7 @@
     {
       "id": "crepe:020",
       "t": "Crêpe Salée Courgette Chèvre",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe légère et fraîche aux courgettes grillées et fromage de chèvre",
       "min": 20,
       "serv": 4,
@@ -16816,7 +16994,7 @@
     {
       "id": "crepe:021",
       "t": "Crêpe Salée Pesto Mozzarella Jambon",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe italienne au pesto généreux, mozzarella fondante et jambon",
       "min": 15,
       "serv": 4,
@@ -16839,7 +17017,7 @@
     {
       "id": "crepe:022",
       "t": "Crêpe Salée Champignons Fromage",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe forestière aux champignons sautés et fromage fondant",
       "min": 20,
       "serv": 4,
@@ -16863,7 +17041,7 @@
     {
       "id": "crepe:023",
       "t": "Crêpe Salée Épinards Ricotta",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe italienne légère et crémeuse aux épinards et ricotta",
       "min": 20,
       "serv": 4,
@@ -16886,7 +17064,7 @@
     {
       "id": "crepe:024",
       "t": "Crêpe Salée Poulet Champignons Crème",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe familiale au poulet en sauce crème et champignons parfumés",
       "min": 25,
       "serv": 4,
@@ -16910,7 +17088,7 @@
     {
       "id": "crepe:025",
       "t": "Crêpe Salée Ratatouille",
-      "cat": "France, Crêpe salée",
+      "cat": "France, Crêpe salée, Plat",
       "desc": "Crêpe provençale aux légumes du soleil façon ratatouille",
       "min": 30,
       "serv": 4,
@@ -16965,7 +17143,7 @@
     {
       "id": "tapas:010",
       "t": "Beignets d'Épinards à l'Espagnole",
-      "cat": "Espagne, Tapas",
+      "cat": "Espagne, Tapas, Apéritif",
       "desc": "Buñuelos de espinacas croustillants, parfumés à l'ail et au cumin, frits à la poêle comme en Andalousie",
       "min": 30,
       "serv": 4,
@@ -16997,7 +17175,7 @@
     {
       "id": "moule:001",
       "t": "Moules Marinières sans Alcool",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Les classiques moules marinières revisitées sans alcool, cuites dans un bouillon parfumé à l'ail",
       "min": 20,
       "serv": 4,
@@ -17023,7 +17201,7 @@
     {
       "id": "moule:002",
       "t": "Moules à la Crème",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Moules onctueuses dans une sauce crémeuse à l'échalote, un grand classique de la brasserie",
       "min": 20,
       "serv": 4,
@@ -17050,7 +17228,7 @@
     {
       "id": "moule:003",
       "t": "Moules au Roquefort",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Moules généreuses fondues dans une sauce au roquefort et à l'échalote, une association audacieuse",
       "min": 20,
       "serv": 4,
@@ -17075,7 +17253,7 @@
     {
       "id": "moule:004",
       "t": "Moules à la Provençale",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Moules cuisinées façon Méditerranée avec tomates, ail et herbes de Provence",
       "min": 25,
       "serv": 4,
@@ -17101,7 +17279,7 @@
     {
       "id": "moule:005",
       "t": "Moules au Curry et Lait de Coco",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Moules parfumées à l'exotisme du curry doux et du lait de coco, fraîcheur assurée",
       "min": 20,
       "serv": 4,
@@ -17126,7 +17304,7 @@
     {
       "id": "moule:006",
       "t": "Moules à l'Ail et au Persil",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Version simple et parfumée des moules, généreusement aillées et parsemées de persil frais",
       "min": 15,
       "serv": 4,
@@ -17149,7 +17327,7 @@
     {
       "id": "moule:007",
       "t": "Moules au Citron",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Moules légères et acidulées cuites dans un bouillon citronné, idéales pour l'été",
       "min": 20,
       "serv": 4,
@@ -17173,7 +17351,7 @@
     {
       "id": "moule:008",
       "t": "Moules aux Poireaux",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Moules mijotées avec des poireaux fondants et une échalote, recette douce et réconfortante",
       "min": 25,
       "serv": 4,
@@ -17197,7 +17375,7 @@
     {
       "id": "moule:009",
       "t": "Moules aux Champignons",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Moules et champignons sautés à l'ail, un mariage terre-mer savoureux",
       "min": 25,
       "serv": 4,
@@ -17221,7 +17399,7 @@
     {
       "id": "moule:010",
       "t": "Moules aux Herbes Fraîches",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Moules beurrées et parfumées à la ciboulette et aux herbes fraîches, une recette lumineuse",
       "min": 15,
       "serv": 4,
@@ -17245,7 +17423,7 @@
     {
       "id": "moule:011",
       "t": "Moules aux Crevettes et Safran",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Moules et crevettes dorées au safran, une recette festive aux parfums de la mer",
       "min": 25,
       "serv": 4,
@@ -17270,7 +17448,7 @@
     {
       "id": "moule:012",
       "t": "Moules Crémeuses aux Crevettes et Safran",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Moules et crevettes nappées d'une sauce crémeuse dorée au safran, version luxueuse",
       "min": 30,
       "serv": 4,
@@ -17297,7 +17475,7 @@
     {
       "id": "moule:013",
       "t": "Moules Marinières Classiques",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "La recette de base : vin blanc, échalotes, beurre et persil.",
       "min": 20,
       "serv": 4,
@@ -17325,7 +17503,7 @@
     {
       "id": "moule:014",
       "t": "Moules à la Tomate et au Basilic",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Tomates cerises fondantes, ail et basilic frais.",
       "min": 25,
       "serv": 4,
@@ -17352,7 +17530,7 @@
     {
       "id": "moule:015",
       "t": "Moules au Chorizo",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Le chorizo relâche son huile pimentée dans un jus à la tomate.",
       "min": 25,
       "serv": 4,
@@ -17379,7 +17557,7 @@
     {
       "id": "moule:016",
       "t": "Moules Sauce Tomate Épicée",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Sauce tomate relevée au piment, façon arrabbiata.",
       "min": 30,
       "serv": 4,
@@ -17406,7 +17584,7 @@
     {
       "id": "moule:017",
       "t": "Moules Façon Méditerranéenne",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Tomates, olives noires, oignon rouge et herbes de Provence.",
       "min": 25,
       "serv": 4,
@@ -17434,7 +17612,7 @@
     {
       "id": "moule:018",
       "t": "Moules au Beurre Persillé",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Beurre, ail et beaucoup de persil, tout simplement.",
       "min": 20,
       "serv": 4,
@@ -17460,7 +17638,7 @@
     {
       "id": "moule:019",
       "t": "Moules au Vin Rouge",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Une variante corsée aux oignons rouges et au vin rouge.",
       "min": 25,
       "serv": 4,
@@ -17487,7 +17665,7 @@
     {
       "id": "moule:020",
       "t": "Moules Sauce Moutarde",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Sauce crémeuse à la moutarde à l'ancienne.",
       "min": 20,
       "serv": 4,
@@ -17514,7 +17692,7 @@
     {
       "id": "moule:021",
       "t": "Moules à la Crème de Tomate",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Sauce onctueuse tomate et crème.",
       "min": 25,
       "serv": 4,
@@ -17542,7 +17720,7 @@
     {
       "id": "moule:022",
       "t": "Moules au Pesto",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Pesto au basilic et tomates cerises.",
       "min": 20,
       "serv": 4,
@@ -17569,7 +17747,7 @@
     {
       "id": "moule:023",
       "t": "Moules Façon Thaïlandaise",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Lait de coco, citronnelle, gingembre, piment et citron vert.",
       "min": 25,
       "serv": 4,
@@ -17598,7 +17776,7 @@
     {
       "id": "moule:024",
       "t": "Moules Gratinées à l'Ail et au Fromage",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Moules en demi-coquille gratinées, chapelure, ail et parmesan.",
       "min": 35,
       "serv": 4,
@@ -17625,7 +17803,7 @@
     {
       "id": "moule:025",
       "t": "Moules Sauce Citronnée Crémeuse",
-      "cat": "Moules",
+      "cat": "Moules, Plat",
       "desc": "Crème et citron, fraîche et douce.",
       "min": 20,
       "serv": 4,
@@ -17729,7 +17907,7 @@
     {
       "id": "majorque:004",
       "t": "Ous a la Mallorquina (Œufs à la Majorquine)",
-      "cat": "Espagne, Majorque, Préparation Oeuf",
+      "cat": "Espagne, Majorque, Préparation Oeuf, Plat",
       "desc": "La recette d'œufs la plus populaire de Majorque : cuits au four sur lit de sobrassada, les jaunes encore coulants",
       "min": 15,
       "serv": 4,
@@ -17891,7 +18069,7 @@
     {
       "id": "majorque:010",
       "t": "Calamars Farcits (Calmars Farcis Majorquins)",
-      "cat": "Espagne, Majorque, Fruits de mer",
+      "cat": "Espagne, Majorque, Fruits de mer, Plat",
       "desc": "Calmars farcis d'une farce originale à la sobrassada, épinards et pignons, mijotés dans une sauce tomate au vin blanc",
       "min": 90,
       "serv": 4,
@@ -17923,7 +18101,7 @@
     {
       "id": "majorque:011",
       "t": "Llampuga amb Pebres (Coryphène aux Poivrons)",
-      "cat": "Espagne, Majorque, Poisson",
+      "cat": "Espagne, Majorque, Poisson, Plat",
       "desc": "Plat traditionnel de Majorque en automne : filets de coryphène (llampuga) mijotés avec poivrons et tomates à l'huile d'olive",
       "min": 45,
       "serv": 4,
@@ -17951,7 +18129,7 @@
     {
       "id": "majorque:012",
       "t": "Frit Mallorquí (Poêlée Majorquine Poisson et Fruits de Mer)",
-      "cat": "Espagne, Majorque, Poisson",
+      "cat": "Espagne, Majorque, Poisson, Plat",
       "desc": "Le frit mallorquí traditionnel : seiches, calamars, lotte et crevettes sautés avec légumes de saison et fenouil, le plat populaire de l'île",
       "min": 50,
       "serv": 4,
@@ -19754,7 +19932,7 @@
     {
       "id": "tortilla:003",
       "title": "Tortillas aux Épinards",
-      "cat": "Mexique, Tortilla, Légume",
+      "cat": "Mexique, Tortilla, Légumes",
       "ing": [
         "250g de farine",
         "1/2 c. à café de sel",
@@ -20030,7 +20208,7 @@
     {
       "id": "pdt:001",
       "t": "Pommes de Terre Écrasées Cheddar & Ciboulette",
-      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "cat": "Accompagnement, Légumes, Pommes de terre écrasées",
       "desc": "Croustillantes et gratinées au cheddar fondant, ciboulette fraîche.",
       "min": 55,
       "serv": 4,
@@ -20054,7 +20232,7 @@
     {
       "id": "pdt:002",
       "t": "Pommes de Terre Écrasées Ail & Mozzarella",
-      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "cat": "Accompagnement, Légumes, Pommes de terre écrasées",
       "desc": "Beurre à l'ail et mozzarella filante.",
       "min": 55,
       "serv": 4,
@@ -20081,7 +20259,7 @@
     {
       "id": "pdt:003",
       "t": "Pommes de Terre Écrasées Parmesan & Herbes",
-      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "cat": "Accompagnement, Légumes, Pommes de terre écrasées",
       "desc": "Croûte dorée au parmesan, thym et romarin.",
       "min": 55,
       "serv": 4,
@@ -20108,7 +20286,7 @@
     {
       "id": "pdt:004",
       "t": "Pommes de Terre Écrasées Paprika & Emmental",
-      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "cat": "Accompagnement, Légumes, Pommes de terre écrasées",
       "desc": "Paprika fumé et emmental gratiné.",
       "min": 55,
       "serv": 4,
@@ -20134,7 +20312,7 @@
     {
       "id": "pdt:005",
       "t": "Pommes de Terre Écrasées Façon Pizza",
-      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "cat": "Accompagnement, Légumes, Pommes de terre écrasées",
       "desc": "Sauce tomate, mozzarella, tomates cerises et olives noires.",
       "min": 55,
       "serv": 4,
@@ -20162,7 +20340,7 @@
     {
       "id": "pdt:006",
       "t": "Pommes de Terre Écrasées Chèvre, Miel & Thym",
-      "cat": "Accompagnement, Légume, Pommes de terre écrasées",
+      "cat": "Accompagnement, Légumes, Pommes de terre écrasées",
       "desc": "Rondelles de chèvre fondant, miel, noix et thym.",
       "min": 55,
       "serv": 4,
@@ -21762,7 +21940,7 @@
     {
       "id": "sousvide:022",
       "t": "Œuf parfait 64°C",
-      "cat": "Sous vide, Entrée, Œuf, Préparation Oeuf",
+      "cat": "Sous vide, Entrée, Préparation Oeuf",
       "area": "",
       "min": 50,
       "serv": "4 personnes",
@@ -21786,7 +21964,7 @@
     {
       "id": "sousvide:023",
       "t": "Egg bites (bouchées d'œufs façon Starbucks)",
-      "cat": "Sous vide, Apéritif, Œuf, Préparation Oeuf, Protéines",
+      "cat": "Sous vide, Apéritif, Préparation Oeuf, Protéines",
       "area": "",
       "min": 75,
       "serv": "6 bocaux",
@@ -23333,7 +23511,7 @@
     {
       "id": "pdtfour:001",
       "t": "Pomme de Terre au Four Fromage & Crème",
-      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "cat": "Accompagnement, Légumes, Pommes de terre au four",
       "desc": "La garniture gourmande de base : crème, fromage râpé et ail.",
       "min": 50,
       "serv": 4,
@@ -23358,7 +23536,7 @@
     {
       "id": "pdtfour:002",
       "t": "Pomme de Terre au Four Lardons & Fromage",
-      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "cat": "Accompagnement, Légumes, Pommes de terre au four",
       "desc": "Lardons fumés grillés, crème et fromage fondu.",
       "min": 50,
       "serv": 4,
@@ -23383,7 +23561,7 @@
     {
       "id": "pdtfour:003",
       "t": "Pomme de Terre au Four Herbes & Ail",
-      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "cat": "Accompagnement, Légumes, Pommes de terre au four",
       "desc": "Huile d'olive, ail haché, thym et romarin : simple et parfumée.",
       "min": 50,
       "serv": 4,
@@ -23409,7 +23587,7 @@
     {
       "id": "pdtfour:004",
       "t": "Pomme de Terre au Four Beurre & Persil",
-      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "cat": "Accompagnement, Légumes, Pommes de terre au four",
       "desc": "Beurre fondu, persil frais et ail, comme au bistrot.",
       "min": 50,
       "serv": 4,
@@ -23433,7 +23611,7 @@
     {
       "id": "pdtfour:005",
       "t": "Pomme de Terre au Four Paprika & Épices",
-      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "cat": "Accompagnement, Légumes, Pommes de terre au four",
       "desc": "Chair relevée au paprika doux et cumin, légèrement gratinée.",
       "min": 50,
       "serv": 4,
@@ -23458,7 +23636,7 @@
     {
       "id": "pdtfour:006",
       "t": "Pomme de Terre au Four Raclette",
-      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "cat": "Accompagnement, Légumes, Pommes de terre au four",
       "desc": "Fromage à raclette fondu et jambon, l'esprit montagne.",
       "min": 50,
       "serv": 4,
@@ -23483,7 +23661,7 @@
     {
       "id": "pdtfour:007",
       "t": "Pomme de Terre au Four Poulet & Fromage",
-      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "cat": "Accompagnement, Légumes, Pommes de terre au four",
       "desc": "Restes de poulet effiloché, crème et fromage gratiné.",
       "min": 50,
       "serv": 4,
@@ -23508,7 +23686,7 @@
     {
       "id": "pdtfour:008",
       "t": "Pomme de Terre au Four Champignons & Crème",
-      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "cat": "Accompagnement, Légumes, Pommes de terre au four",
       "desc": "Champignons poêlés à l'ail et crème onctueuse.",
       "min": 50,
       "serv": 4,
@@ -23534,7 +23712,7 @@
     {
       "id": "pdtfour:009",
       "t": "Pomme de Terre au Four Cheddar & Oignons",
-      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "cat": "Accompagnement, Légumes, Pommes de terre au four",
       "desc": "Oignons caramélisés et cheddar fondant.",
       "min": 50,
       "serv": 4,
@@ -23560,7 +23738,7 @@
     {
       "id": "pdtfour:010",
       "t": "Pomme de Terre au Four Œuf & Fromage",
-      "cat": "Accompagnement, Légume, Pommes de terre au four",
+      "cat": "Accompagnement, Légumes, Pommes de terre au four",
       "desc": "Un œuf cassé au cœur de la pomme de terre, cuit sur un lit de fromage.",
       "min": 50,
       "serv": 4,
@@ -23653,7 +23831,7 @@
     {
       "id": "burger:004",
       "t": "Burger Poulet Croustillant Maison",
-      "cat": "Plat, Burger, Poulet",
+      "cat": "Plat, Burger, Poulet, Viande",
       "desc": "Filets de poulet panés et frits, sauce maison.",
       "min": 25,
       "serv": 4,
@@ -23725,7 +23903,7 @@
     {
       "id": "burger:007",
       "t": "Burger au Poulet Pané et Sauce Maison",
-      "cat": "Plat, Burger, Poulet",
+      "cat": "Plat, Burger, Poulet, Viande",
       "desc": "Poulet pané doré, salade, tomate et sauce maison.",
       "min": 25,
       "serv": 4,
@@ -23841,7 +24019,7 @@
     {
       "id": "burger:012",
       "t": "Burger Poulet, Fromage et Avocat",
-      "cat": "Plat, Burger, Poulet",
+      "cat": "Plat, Burger, Poulet, Viande",
       "desc": "Poulet grillé, avocat en tranches et fromage fondu.",
       "min": 25,
       "serv": 4,
@@ -23911,7 +24089,7 @@
     {
       "id": "burger:015",
       "t": "Burger Healthy au Poulet et Crudités",
-      "cat": "Plat, Burger, Poulet, Santé",
+      "cat": "Plat, Burger, Poulet, Santé, Viande",
       "desc": "Poulet grillé, carottes râpées, concombre et sauce yaourt.",
       "min": 25,
       "serv": 4,

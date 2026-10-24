@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.44';
+const APP_VERSION = '3.45';
 
 let ALL = [];
 let BASE = [];
@@ -28,9 +28,32 @@ function applyPatch(r, patch){
   return Object.keys(delta).length ? Object.assign({}, r, delta) : r;
 }
 function mergeEdits(){
-  const base = BASE.filter(r=> !deleted.has(String(r.id))).map(r => applyPatch(r, edits[r.id]));
-  const imp  = imports.filter(r=> !deleted.has(String(r.id))).map(r => applyPatch(r, edits[r.id]));
+  const base = BASE.filter(r=> !deleted.has(String(r.id))).map(r => tidyRecipe(applyPatch(r, edits[r.id])));
+  const imp  = imports.filter(r=> !deleted.has(String(r.id))).map(r => tidyRecipe(applyPatch(r, edits[r.id])));
   return [...base, ...imp];
+}
+/* Titres récupérés sur Facebook / blogs : « GROUPE | Fondant chocolat | Facebook »,
+   « Poulet au citron | Le Blog de… », emojis et hashtags → « Fondant chocolat ». */
+function tidyTitle(t){
+  let s = String(t || '').trim();
+  if (!s) return s;
+  const fb = /\|\s*facebook\s*$/i.test(s);
+  s = s.replace(/\s*\|\s*facebook\s*$/i, '');
+  if (s.includes(' | ')){
+    const parts = s.split(' | ').map(x => x.trim()).filter(Boolean);
+    s = fb ? parts[parts.length - 1] : parts[0];
+  }
+  s = s.replace(/\s+-\s+[^-]*$/, m => /blog|\.com|\.fr|cuisine de|plat et recette/i.test(m) ? '' : m)  // « - Blog de Châtaigne »
+       .replace(/[«»]/g, '')
+       .replace(/#[\p{L}\d_]+/gu, '')
+       .replace(/^[\s«"✓\p{Extended_Pictographic}\uFE0F\u200D]+|[\s»"\p{Extended_Pictographic}\uFE0F\u200D]+$/gu, '')
+       .replace(/\s{2,}/g, ' ').trim();
+  if (s && s === s.toUpperCase() && /[A-Z]{4}/.test(s)) s = s.toLowerCase();   // TITRE TOUT EN MAJUSCULES
+  return s ? s[0].toUpperCase() + s.slice(1) : String(t);
+}
+function tidyRecipe(r){
+  const t = tidyTitle(r.t);
+  return t === r.t ? r : Object.assign({}, r, { t });
 }
 function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderCellarHome(); renderGrid(); }
 
