@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.49';
+const APP_VERSION = '3.50';
 
 let ALL = [];
 let BASE = [];
@@ -784,6 +784,31 @@ function pairGroup(r){
   return [...seen].map(id => ALL.find(x => String(x.id) === id)).filter(Boolean);
 }
 // Fiche résumée d'une version officielle (nom, note, temps) + lien vers le site du fabricant.
+// Étapes officielles Moulinex : récupérées sur l'appareil (CapacitorHttp) et gardées hors-ligne,
+// jamais stockées dans le dépôt.
+function officialStepsCached(url){
+  try { const c = JSON.parse(localStorage.getItem('offSteps')||'{}'); return c[url] || null; } catch(e){ return null; }
+}
+async function loadOfficialSteps(url){
+  if (officialStepsCached(url)) return officialStepsCached(url);
+  const res = await fetch(url); if (!res.ok) return null;
+  const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+  for (const sc of doc.querySelectorAll('script[type="application/ld+json"]')) {
+    let j; try { j = JSON.parse(sc.textContent); } catch(e){ continue; }
+    if (!j || j['@type'] !== 'Recipe') continue;
+    const steps = [];
+    [].concat(j.recipeInstructions||[]).forEach(x => {
+      if (typeof x === 'string') steps.push(x);
+      else if (x['@type'] === 'HowToSection') (x.itemListElement||[]).forEach(y => steps.push(y.text||''));
+      else steps.push(x.text||'');
+    });
+    const out = steps.map(t => t.replace(/\s+/g,' ').trim()).filter(Boolean);
+    if (!out.length) return null;
+    try { const c = JSON.parse(localStorage.getItem('offSteps')||'{}'); c[url] = out; localStorage.setItem('offSteps', JSON.stringify(c)); } catch(e){}
+    return out;
+  }
+  return null;
+}
 function officialHtml(url, isTmx){
   const m = (EXTRA && EXTRA.official && EXTRA.official[url]) || {};
   const site = isTmx ? 'Cookidoo (Vorwerk)' : 'Moulinex';
@@ -793,8 +818,10 @@ function officialHtml(url, isTmx){
     <div class="off-name">${esc(m.name || 'Version officielle')}</div>
     <div class="d-meta">${stars}${m.min?`<span class="tag">⏱️ ${m.min} min</span>`:''}${m.yld?`<span class="tag">🍽️ ${esc(m.yld)}</span>`:''}</div>
     ${(m.ing||[]).length?`<div class="d-sec">Ingrédients</div><ul class="ing">${m.ing.map(x=>`<li><span class="box"></span><span>${esc(x)}</span></li>`).join('')}</ul>`:''}
-    ${(m.steps||[]).length?`<div class="d-sec">Préparation</div><ol class="steps">${m.steps.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`:''}
-    <p class="off-note">Recette publiée par ${site}.${(m.steps||[]).length?' Étapes résumées ; temps et programmes exacts sur le site du fabricant.':isTmx?' Les étapes guidées (vitesses, temps, températures) sont sur Cookidoo, avec un compte.':''}</p>
+    ${(()=>{ const ex = officialStepsCached(url); const st = ex || m.steps || [];
+      return st.length ? `<div class="d-sec">Préparation</div><ol class="steps off-steps">${st.map(x=>`<li>${esc(x)}</li>`).join('')}</ol>
+    <p class="off-note off-src">${ex ? `Étapes officielles ${site}.` : 'Étapes résumées — le texte officiel se charge depuis le site du fabricant dès que tu es connecté.'}</p>` : ''; })()}
+    <p class="off-note">Recette publiée par ${site}.${isTmx?' Les étapes guidées (vitesses, temps, températures) sont sur Cookidoo, avec un compte.':''}</p>
     <a class="off-open" href="${esc(url)}" target="_blank" rel="noopener">Ouvrir sur ${isTmx?'Cookidoo':'Moulinex'} ↗</a>
   </div>`;
 }
@@ -901,6 +928,11 @@ function openDetail(id){
       elDetail.querySelectorAll('.d-variant-tab').forEach(b=> b.classList.toggle('active', b===btn));
       const box = elDetail.querySelector('.d-official');
       box.innerHTML = officialHtml(t.off, t.kind === 'tmxo');
+      if (t.kind === 'afo' && !officialStepsCached(t.off)) loadOfficialSteps(t.off).then(st => {
+        if (!st || box.hidden) return;
+        box.innerHTML = officialHtml(t.off, false);
+        box.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
+      }).catch(()=>{});
       box.hidden = false; elDetail.querySelector('.d-main').hidden = true;
       elDetail.querySelector('.d-body').classList.add('show-off');
       box.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
