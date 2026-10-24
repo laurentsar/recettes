@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.68';
+const APP_VERSION = '3.69';
 
 let ALL = [];
 let BASE = [];
@@ -1900,6 +1900,20 @@ const COCKTAIL_IDS = [
   '12754','13621'
 ];
 let cocktailCache = null; // [{id,name,thumb,category,glass,alcoholic,ings,steps}]
+// Modifications locales des cocktails (TheCocktailDB n'est pas éditable) : appliquées par-dessus.
+let cocktailEdits = JSON.parse(localStorage.getItem('cocktailEdits') || '{}');
+function saveCocktailEdits(){ try { localStorage.setItem('cocktailEdits', JSON.stringify(cocktailEdits)); } catch(e){} }
+const GLASS_FR = {'Wine Glass':'Verre à vin','Cocktail glass':'Verre à cocktail','Highball glass':'Verre highball','Old-fashioned glass':'Verre old fashioned',
+  'Collins glass':'Verre collins','Champagne flute':'Flûte à champagne','Margarita glass':'Verre à margarita','Martini Glass':'Verre à martini',
+  'Shot glass':'Verre à shot','Coupe Glass':'Coupe','Hurricane glass':'Verre hurricane','Copper Mug':'Mug en cuivre','Mason jar':'Bocal',
+  'Beer mug':'Chope','Beer Glass':'Verre à bière','Irish coffee cup':'Tasse irish coffee','Coffee mug':'Mug','Punch bowl':'Bol à punch',
+  'Balloon Glass':'Verre ballon','Pint glass':'Verre pinte','Brandy snifter':'Verre à cognac','Whiskey sour glass':'Verre whisky sour'};
+function cocktailView(c){
+  const v = Object.assign({}, c, cocktailEdits[c.id] || {});
+  if (!(cocktailEdits[c.id] || {}).glass) v.glass = GLASS_FR[c.glass] || c.glass;
+  v.ings = v.ings.map(x => Object.assign({}, x, { qty: x.qty === 'Top' ? 'Compléter avec' : x.qty }));
+  return v;
+}
 let appMode = 'recipes';
 let appSubMode = null;
 
@@ -2061,7 +2075,7 @@ async function loadCocktails(){
 
 function renderCocktailGrid(){
   if(!cocktailCache) return;
-  elCocktailGrid.innerHTML = cocktailCache.map(c=>`
+  elCocktailGrid.innerHTML = cocktailCache.map(cocktailView).map(c=>`
     <div class="cktl-card" data-cid="${esc(c.id)}">
       <img src="${esc(c.thumb)}" loading="lazy" alt="${esc(c.name)}">
       <div class="cktl-info">
@@ -2076,11 +2090,13 @@ function renderCocktailGrid(){
 }
 
 function openCocktailDetail(id){
-  const c = cocktailCache && cocktailCache.find(x=>x.id===id); if(!c) return;
+  const c0 = cocktailCache && cocktailCache.find(x=>x.id===id); if(!c0) return;
+  const c = cocktailView(c0);
   const ingsHtml = c.ings.map(x=>`<li>${x.qty ? '<strong>'+esc(x.qty)+'</strong> ' : ''}${esc(x.ing)}</li>`).join('');
   const stepsHtml = c.steps ? `<div class="d-sec">Préparation</div><div class="desc">${esc(c.steps)}</div>` : '';
   elCocktailDetail.innerHTML = `
     <button class="d-back" aria-label="Retour aux cocktails">←</button>
+    <button class="d-edit" aria-label="Éditer">✏️</button>
     <button class="d-home" aria-label="Menu principal">🍽️</button>
     <div class="d-scroll">
       <div class="d-hero"><img src="${esc(c.thumb.replace('/preview',''))}" referrerpolicy="no-referrer" style="width:100%;max-height:46vh;object-fit:cover;display:block" onerror="this.outerHTML='<div class=ph>🍹</div>'"></div>
@@ -2100,6 +2116,43 @@ function openCocktailDetail(id){
   document.body.style.overflow = 'hidden';
   elCocktailDetail.querySelector('.d-back').addEventListener('click', closeCocktailDetail);
   elCocktailDetail.querySelector('.d-home').addEventListener('click', ()=>{ closeCocktailDetail(); switchMode('recipes'); });
+  elCocktailDetail.querySelector('.d-edit').addEventListener('click', ()=> openCocktailEdit(id));
+}
+function openCocktailEdit(id){
+  const c0 = cocktailCache && cocktailCache.find(x=>x.id===id); if(!c0) return;
+  const c = cocktailView(c0);
+  const v = s => esc(s == null ? '' : String(s));
+  elEdit.innerHTML = `
+    <div class="edit-head">
+      <button class="e-cancel">← Annuler</button>
+      <h2>Éditer le cocktail</h2>
+      <button class="e-save">Enregistrer</button>
+    </div>
+    <div class="edit-body">
+      ${field('Nom', `<input id="c-name" value="${v(c.name)}">`)}
+      <div class="ef-row">${field('Verre', `<input id="c-glass" value="${v(c.glass)}">`)}${field('Alcool', `<select id="c-alc"><option value="Alcoholic"${c.alcoholic==='Alcoholic'?' selected':''}>🍸 Avec alcool</option><option value="Non alcoholic"${c.alcoholic!=='Alcoholic'?' selected':''}>🥤 Sans alcool</option></select>`)}</div>
+      ${field('Photo (URL)', `<input id="c-thumb" value="${v(c.thumb.replace('/preview',''))}">`)}
+      ${field('Ingrédients (un par ligne)', `<textarea id="c-ings" rows="8">${v(c.ings.map(x => (x.qty ? x.qty + ' ' : '') + x.ing).join('\n'))}</textarea>`)}
+      ${field('Préparation', `<textarea id="c-steps" rows="8">${v(c.steps)}</textarea>`)}
+      ${cocktailEdits[id] ? `<button class="e-reset">↺ Rétablir la version d'origine</button>` : ''}
+    </div>`;
+  elEdit.hidden = false;
+  elEdit.scrollTop = 0;
+  const done = () => { closeEdit(); renderCocktailGrid(); openCocktailDetail(id); };
+  elEdit.querySelector('.e-cancel').addEventListener('click', closeEdit);
+  elEdit.querySelector('.e-save').addEventListener('click', () => {
+    const val = k => document.getElementById(k).value.trim();
+    const thumb = val('c-thumb');
+    cocktailEdits[id] = {
+      name: val('c-name') || c0.name, glass: val('c-glass'), alcoholic: val('c-alc'),
+      thumb: thumb ? (thumb === c0.thumb.replace('/preview','') ? c0.thumb : thumb) : c0.thumb,
+      ings: val('c-ings').split(/\r?\n/).map(x => x.trim()).filter(Boolean).map(x => ({ qty: '', ing: x })),
+      steps: document.getElementById('c-steps').value.trim(),
+    };
+    saveCocktailEdits(); done(); toast('Cocktail enregistré ✓');
+  });
+  const rb = elEdit.querySelector('.e-reset');
+  if (rb) rb.addEventListener('click', () => { delete cocktailEdits[id]; saveCocktailEdits(); done(); toast('Version d\'origine rétablie'); });
 }
 function closeCocktailDetail(){ elCocktailDetail.hidden=true; document.body.style.overflow=''; window.scrollTo({top:0}); }
 
