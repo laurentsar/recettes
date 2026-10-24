@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.55';
+const APP_VERSION = '3.56';
 
 let ALL = [];
 let BASE = [];
@@ -808,6 +808,11 @@ async function loadOfficialSteps(url){
     return out;
   }
   return null;
+}
+// Copie dans l'app de toutes les étapes Moulinex (une fois, en tâche de fond, dès qu'il y a du réseau).
+async function prefetchOfficialSteps(){
+  const urls = Object.keys((EXTRA && EXTRA.official) || {}).filter(u => u.includes('moulinex.fr') && !officialStepsCached(u));
+  for (const u of urls) { try { await loadOfficialSteps(u); } catch(e){} await new Promise(r => setTimeout(r, 400)); }
 }
 function officialHtml(url, isTmx){
   const m = (EXTRA && EXTRA.official && EXTRA.official[url]) || {};
@@ -3955,6 +3960,8 @@ async function init(){
   renderDaily();
   renderCellarHome();
   renderGrid();
+  setTimeout(()=>{ if (navigator.onLine !== false) prefetchOfficialSteps(); }, 4000);
+  window.addEventListener('online', ()=> prefetchOfficialSteps());
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
   document.getElementById('import-btn').addEventListener('click', openImport);
   document.getElementById('photos-btn').addEventListener('click', fillFromSources);
