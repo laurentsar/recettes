@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.58';
+const APP_VERSION = '3.59';
 
 let ALL = [];
 let BASE = [];
@@ -673,6 +673,30 @@ function openCatPick(id){
 function closeCatPick(){ document.getElementById('catpick').hidden = true; }
 
 /* ---------- grille ---------- */
+/* Une version Thermomix / Airfryer liée à une recette classique de la même liste
+   n'apparaît pas en double : on la retrouve dans les onglets de la fiche classique
+   (sauf dans les onglets Ustensiles, qui listent toutes les versions). */
+const VARIANT_CATS = ['Thermomix','Airfryer'];
+function isVariant(r){ const c = catList(r); return VARIANT_CATS.some(v => c.includes(v)); }
+function variantBadges(r){
+  if (isVariant(r)) return '';
+  const g = pairGroup(r).filter(x => x !== r && isVariant(x));
+  const k = new Set(g.map(x => catList(x).includes('Thermomix') ? '⚙️ Thermomix' : '🌪️ Airfryer'));
+  if (r.af) k.add('🌪️ Airfryer');
+  return k.size ? `<div class="vbadges">${[...k].map(b=>`<span>${b}</span>`).join('')}</div>` : '';
+}
+function collapseVariants(list){
+  if (state.cats.some(c => VARIANT_CATS.includes(c) || c === 'Sous vide')) return list;
+  const inList = new Set(list.map(r => String(r.id)));
+  const hide = new Set();
+  ALL.forEach(x => { if (!x.pair) return;
+    [].concat(x.pair).forEach(p => {
+      const a = ALL.find(y => String(y.id) === String(p)); if (!a) return;
+      [[x,a],[a,x]].forEach(([v,c]) => { if (isVariant(v) && !isVariant(c) && inList.has(String(c.id))) hide.add(String(v.id)); });
+    });
+  });
+  return hide.size ? list.filter(r => !hide.has(String(r.id))) : list;
+}
 function card(r, cov){
   const fav = favs.has(r.id) ? 'fav-badge' : '';
   const img = r.img
@@ -681,8 +705,9 @@ function card(r, cov){
   const meta = [r.min? '⏱️ '+r.min+' min':'', r.serv? '🍽️ '+r.serv : '', catList(r).join(', ')].filter(Boolean).slice(0,2).join(' · ');
   const miss = cov ? cov.total - cov.covered : 0;
   const stock = cov ? `<div class="stock-cov ${miss?'':'ok'}">🧺 ${cov.covered}/${cov.total} en stock · ${miss ? `manque ${miss}` : 'tout y est'}</div>` : '';
+  const vars = variantBadges(r);
   return `<div class="rcard ${fav}" data-id="${esc(r.id)}">${img}
-    <div class="info"><div class="rt">${esc(r.t)}</div><div class="meta">${esc(meta)}</div>${stock}</div></div>`;
+    <div class="info"><div class="rt">${esc(r.t)}</div>${vars}<div class="meta">${esc(meta)}</div>${stock}</div></div>`;
 }
 const GRID_PG = 48;
 let _gList = [], _gPage = 0, _gObs = null, _gCov = null;
@@ -712,7 +737,7 @@ function sortByStock(list){
 
 function renderGrid(){
   if(appMode === 'cocktails') return;
-  _gList = filtered(); _gPage = 0; _gCov = null;
+  _gList = collapseVariants(filtered()); _gPage = 0; _gCov = null;
   if (stockSort) _gList = sortByStock(_gList);
   const _dietLabel = {sansgluten:'sans gluten',proteines:'riches en protéines',antiinflamm:'anti-inflammatoires',vegetarien:'végétariennes',vegan:'vegan',keto:'keto',rapide:'rapides (≤30 min)'}[state.diet] || '';
   elStatus.textContent = `${_gList.length} recette${_gList.length>1?'s':''}`

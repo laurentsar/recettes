@@ -2374,7 +2374,7 @@
     },
     {
       "id": "dropbox:178dd65e-feea-4fc1-91bc-395da0b0ebed",
-      "cat": "Porc, Japon, Viande, Plat"
+      "cat": "Porc, Japon, Viande, Plat, Soupe"
     },
     {
       "id": "dropbox:9f76942f-eca9-403f-967c-e64ae5e1161b",
@@ -7779,7 +7779,7 @@
     {
       "id": "japon:016",
       "t": "Ramen au Miso Maison",
-      "cat": "Japon, Plat",
+      "cat": "Japon, Plat, Soupe",
       "min": 60,
       "serv": 4,
       "desc": "La soupe japonaise la plus emblématique — bouillon de poulet parfumé au miso, nouilles ramen, œuf mariné et garnitures. Réchauffant et complexe.",
