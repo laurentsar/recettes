@@ -168,7 +168,8 @@
     {
       "id": "italie:008",
       "url": "https://www.onceuponachef.com/recipes/stracciatella-soup-italian-egg-drop-soup.html",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Stracciatella_in_Firenze.jpg/500px-Stracciatella_in_Firenze.jpg"
+      "img": "img/photos/italie-008.jpg",
+      "desc": "Bouillon de viande avec œufs battus et parmesan, soupe romaine délicate.\n\n📷 Photo : Mike.lifeguard — CC BY-SA 3.0, Wikimedia Commons"
     },
     {
       "id": "italie:009",
@@ -367,7 +368,8 @@
     {
       "id": "espagne:008",
       "url": "https://www.americastestkitchen.com/recipes/16080-zarzuela-spanish-seafood-stew",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Zarzuela.jpg/500px-Zarzuela.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Zarzuela.jpg/500px-Zarzuela.jpg",
+      "cat": "Espagne, Fruits de mer"
     },
     {
       "id": "espagne:009",
@@ -383,7 +385,8 @@
       ],
       "steps": "Chauffer l'huile d'olive dans une cazuela (petite cocotte en terre cuite) à feu moyen. Ajouter l'ail et le piment, faire revenir 2 min sans laisser dorer. Monter le feu à vif, ajouter les gambas salées. Faire sauter 2-3 min jusqu'à ce qu'elles soient rosées. Déglacer avec le vin blanc, cuire 30 secondes. Parsemer de persil. Servir immédiatement — le plat doit encore grésiller à table — avec du pain pour saucer.",
       "min": 10,
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tapas_01.jpg/500px-Tapas_01.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tapas_01.jpg/500px-Tapas_01.jpg",
+      "cat": "Espagne, Fruits de mer"
     },
     {
       "id": "espagne:010",
@@ -509,7 +512,8 @@
     {
       "id": "corse:018",
       "url": "https://www.750g.com/encornets-a-la-tomate-r1701.htm",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Moules_farcies_%C3%A0_la_s%C3%A9toise_02.jpg/500px-Moules_farcies_%C3%A0_la_s%C3%A9toise_02.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Moules_farcies_%C3%A0_la_s%C3%A9toise_02.jpg/500px-Moules_farcies_%C3%A0_la_s%C3%A9toise_02.jpg",
+      "cat": "Corse, Fruits de mer"
     },
     {
       "id": "corse:025",
@@ -966,7 +970,8 @@
     {
       "id": "dropbox:a38d453a-b399-49a9-9015-a8520da67249",
       "t": "Pain dans la friteuse à air",
-      "img": "img/illus/dropbox-a38d453a-b399-49a9-9015-a8520da67249.jpg"
+      "img": "img/illus/dropbox-a38d453a-b399-49a9-9015-a8520da67249.jpg",
+      "cat": "Airfryer, Boulangerie, Pain"
     },
     {
       "id": "dropbox:3b1c541a-6637-4a09-bb01-32cebf9b35cb",
@@ -1410,7 +1415,8 @@
     },
     {
       "id": "corse:017",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Monaco.Mus%C3%A9e_oc%C3%A9anographique089.jpg/500px-Monaco.Mus%C3%A9e_oc%C3%A9anographique089.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Monaco.Mus%C3%A9e_oc%C3%A9anographique089.jpg/500px-Monaco.Mus%C3%A9e_oc%C3%A9anographique089.jpg",
+      "cat": "Corse, Fruits de mer"
     },
     {
       "id": "corse:019",
@@ -1422,7 +1428,8 @@
     },
     {
       "id": "corse:021",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Semifinal_del_Campeonato_del_Encebollado_en_Esmeraldas_2015_%2818062294436%29.jpg/500px-Semifinal_del_Campeonato_del_Encebollado_en_Esmeraldas_2015_%2818062294436%29.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Semifinal_del_Campeonato_del_Encebollado_en_Esmeraldas_2015_%2818062294436%29.jpg/500px-Semifinal_del_Campeonato_del_Encebollado_en_Esmeraldas_2015_%2818062294436%29.jpg",
+      "cat": "Corse, Plat, Volaille"
     },
     {
       "id": "corse:022",
@@ -1555,8 +1562,9 @@
     },
     {
       "id": "corse:069",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Pot-au-feu2.jpg/500px-Pot-au-feu2.jpg",
-      "cat": "Corse, Dessert, Biscuit"
+      "img": "img/photos/corse-069.jpg",
+      "cat": "Corse, Dessert, Biscuit",
+      "desc": "Chaussons frits fourrés au brocciu et aux raisins secs, légèrement sucrés.\n\n📷 Photo : 8w9d — CC0, Wikimedia Commons"
     },
     {
       "id": "corse:070",
@@ -1663,11 +1671,13 @@
     },
     {
       "id": "portugal:018",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Palourde.jpg/500px-Palourde.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Palourde.jpg/500px-Palourde.jpg",
+      "cat": "Portugal, Fruits de mer"
     },
     {
       "id": "portugal:019",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Loligo_forbesii.jpg/500px-Loligo_forbesii.jpg"
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Loligo_forbesii.jpg/500px-Loligo_forbesii.jpg",
+      "cat": "Portugal, Fruits de mer"
     },
     {
       "id": "portugal:020",
@@ -2087,7 +2097,7 @@
     },
     {
       "id": "dropbox:47705959-5e54-4987-ab68-050dcdfe3e39",
-      "cat": "Dessert, Airfryer, Viennoiserie"
+      "cat": "Dessert, Airfryer, Petit-déjeuner"
     },
     {
       "id": "dropbox:5104836f-cb38-4585-85dd-e3ed724c86b2",
@@ -2187,7 +2197,28 @@
         "Mettre la pâte dans un moule, chasser l'air et laisser lever à nouveau.",
         "Cuire à 150 °C pendant 40 min dans la Ninja Dual ; retourner le pain dans le moule au bout de 30 min.",
         "Laisser tiédir sur une grille avant de trancher."
-      ]
+      ],
+      "cat": "Airfryer, Boulangerie, Pain"
+    },
+    {
+      "id": "dropbox:cc714235-1332-4f3a-b649-39c91d0ef3a2",
+      "cat": "Airfryer, Boulangerie, Pain"
+    },
+    {
+      "id": "dropbox:7d168342-eebd-4c12-b912-5201dbac798f",
+      "cat": "Airfryer, Dessert, Petit-déjeuner"
+    },
+    {
+      "id": "dropbox:a71f6557-49cf-4e3b-a643-53087f643b9c",
+      "cat": "Fruits de mer"
+    },
+    {
+      "id": "dropbox:90dd0855-948c-4844-ac71-99e68639bb69",
+      "cat": "Fruits de mer"
+    },
+    {
+      "id": "dropbox:35684ad0-ba92-4d97-b0bf-c35730a0e4e1",
+      "cat": "Airfryer, Fruits de mer"
     }
   ],
   "recipes": [
@@ -2390,7 +2421,7 @@
     {
       "id": "espagne:045",
       "t": "Chipirones en su Tinta",
-      "cat": "Espagne, Poisson",
+      "cat": "Espagne, Fruits de mer",
       "area": "Pays Basque",
       "min": 45,
       "serv": 4,
@@ -2818,7 +2849,7 @@
     {
       "id": "espagne:046",
       "t": "Calamares a la Romana",
-      "cat": "Espagne, Poisson",
+      "cat": "Espagne, Fruits de mer",
       "area": "Madrid",
       "min": 20,
       "serv": 4,
@@ -2839,7 +2870,7 @@
     {
       "id": "espagne:047",
       "t": "Mejillones al Vapor",
-      "cat": "Espagne, Poisson",
+      "cat": "Espagne, Moules",
       "area": "Communauté Valencienne",
       "min": 10,
       "serv": 4,
@@ -4678,7 +4709,7 @@
     {
       "id": "tech:018",
       "t": "Guide des Dumplings — 4 Types Maison",
-      "cat": "Technique, Asie, Japon",
+      "cat": "Asie, Japon, Pâte maison",
       "min": 45,
       "serv": 4,
       "desc": "Wontons frits, pot stickers, dumplings vapeur et soup dumplings — maîtriser les 4 familles de dumplings avec leurs techniques de remplissage, pliage et cuisson.",
@@ -8659,7 +8690,7 @@
     {
       "id": "australie:015",
       "t": "BBQ Prawns à l'Australienne",
-      "cat": "Australie, Apéritif, Plat, Poisson",
+      "cat": "Australie, Apéritif, Plat, Fruits de mer",
       "min": 20,
       "serv": 4,
       "desc": "\"Throw another shrimp on the barbie\" — les grosses crevettes grillées au BBQ australien avec sauce Marie Rose maison. Ritual incontournable de l'été australien.",
@@ -9351,7 +9382,7 @@
     {
       "id": "bresil:007",
       "t": "Bobó de Camarão",
-      "cat": "Brésil, Plat, Poisson",
+      "cat": "Brésil, Plat, Fruits de mer",
       "min": 60,
       "serv": 4,
       "desc": "Le plat de Bahia aux crevettes : sauce crémeuse à base de manioc (mandioca) mixé avec lait de coco et huile de dendê, avec des crevettes royales. Exotique et riche.",
@@ -16966,7 +16997,7 @@
     {
       "id": "moule:001",
       "t": "Moules Marinières sans Alcool",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Les classiques moules marinières revisitées sans alcool, cuites dans un bouillon parfumé à l'ail",
       "min": 20,
       "serv": 4,
@@ -16992,7 +17023,7 @@
     {
       "id": "moule:002",
       "t": "Moules à la Crème",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Moules onctueuses dans une sauce crémeuse à l'échalote, un grand classique de la brasserie",
       "min": 20,
       "serv": 4,
@@ -17019,7 +17050,7 @@
     {
       "id": "moule:003",
       "t": "Moules au Roquefort",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Moules généreuses fondues dans une sauce au roquefort et à l'échalote, une association audacieuse",
       "min": 20,
       "serv": 4,
@@ -17044,7 +17075,7 @@
     {
       "id": "moule:004",
       "t": "Moules à la Provençale",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Moules cuisinées façon Méditerranée avec tomates, ail et herbes de Provence",
       "min": 25,
       "serv": 4,
@@ -17070,7 +17101,7 @@
     {
       "id": "moule:005",
       "t": "Moules au Curry et Lait de Coco",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Moules parfumées à l'exotisme du curry doux et du lait de coco, fraîcheur assurée",
       "min": 20,
       "serv": 4,
@@ -17095,7 +17126,7 @@
     {
       "id": "moule:006",
       "t": "Moules à l'Ail et au Persil",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Version simple et parfumée des moules, généreusement aillées et parsemées de persil frais",
       "min": 15,
       "serv": 4,
@@ -17118,7 +17149,7 @@
     {
       "id": "moule:007",
       "t": "Moules au Citron",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Moules légères et acidulées cuites dans un bouillon citronné, idéales pour l'été",
       "min": 20,
       "serv": 4,
@@ -17142,7 +17173,7 @@
     {
       "id": "moule:008",
       "t": "Moules aux Poireaux",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Moules mijotées avec des poireaux fondants et une échalote, recette douce et réconfortante",
       "min": 25,
       "serv": 4,
@@ -17166,7 +17197,7 @@
     {
       "id": "moule:009",
       "t": "Moules aux Champignons",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Moules et champignons sautés à l'ail, un mariage terre-mer savoureux",
       "min": 25,
       "serv": 4,
@@ -17190,7 +17221,7 @@
     {
       "id": "moule:010",
       "t": "Moules aux Herbes Fraîches",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Moules beurrées et parfumées à la ciboulette et aux herbes fraîches, une recette lumineuse",
       "min": 15,
       "serv": 4,
@@ -17214,7 +17245,7 @@
     {
       "id": "moule:011",
       "t": "Moules aux Crevettes et Safran",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Moules et crevettes dorées au safran, une recette festive aux parfums de la mer",
       "min": 25,
       "serv": 4,
@@ -17239,7 +17270,7 @@
     {
       "id": "moule:012",
       "t": "Moules Crémeuses aux Crevettes et Safran",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Moules et crevettes nappées d'une sauce crémeuse dorée au safran, version luxueuse",
       "min": 30,
       "serv": 4,
@@ -17266,7 +17297,7 @@
     {
       "id": "moule:013",
       "t": "Moules Marinières Classiques",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "La recette de base : vin blanc, échalotes, beurre et persil.",
       "min": 20,
       "serv": 4,
@@ -17294,7 +17325,7 @@
     {
       "id": "moule:014",
       "t": "Moules à la Tomate et au Basilic",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Tomates cerises fondantes, ail et basilic frais.",
       "min": 25,
       "serv": 4,
@@ -17321,7 +17352,7 @@
     {
       "id": "moule:015",
       "t": "Moules au Chorizo",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Le chorizo relâche son huile pimentée dans un jus à la tomate.",
       "min": 25,
       "serv": 4,
@@ -17348,7 +17379,7 @@
     {
       "id": "moule:016",
       "t": "Moules Sauce Tomate Épicée",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Sauce tomate relevée au piment, façon arrabbiata.",
       "min": 30,
       "serv": 4,
@@ -17375,7 +17406,7 @@
     {
       "id": "moule:017",
       "t": "Moules Façon Méditerranéenne",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Tomates, olives noires, oignon rouge et herbes de Provence.",
       "min": 25,
       "serv": 4,
@@ -17403,7 +17434,7 @@
     {
       "id": "moule:018",
       "t": "Moules au Beurre Persillé",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Beurre, ail et beaucoup de persil, tout simplement.",
       "min": 20,
       "serv": 4,
@@ -17429,7 +17460,7 @@
     {
       "id": "moule:019",
       "t": "Moules au Vin Rouge",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Une variante corsée aux oignons rouges et au vin rouge.",
       "min": 25,
       "serv": 4,
@@ -17456,7 +17487,7 @@
     {
       "id": "moule:020",
       "t": "Moules Sauce Moutarde",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Sauce crémeuse à la moutarde à l'ancienne.",
       "min": 20,
       "serv": 4,
@@ -17483,7 +17514,7 @@
     {
       "id": "moule:021",
       "t": "Moules à la Crème de Tomate",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Sauce onctueuse tomate et crème.",
       "min": 25,
       "serv": 4,
@@ -17511,7 +17542,7 @@
     {
       "id": "moule:022",
       "t": "Moules au Pesto",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Pesto au basilic et tomates cerises.",
       "min": 20,
       "serv": 4,
@@ -17538,7 +17569,7 @@
     {
       "id": "moule:023",
       "t": "Moules Façon Thaïlandaise",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Lait de coco, citronnelle, gingembre, piment et citron vert.",
       "min": 25,
       "serv": 4,
@@ -17567,7 +17598,7 @@
     {
       "id": "moule:024",
       "t": "Moules Gratinées à l'Ail et au Fromage",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Moules en demi-coquille gratinées, chapelure, ail et parmesan.",
       "min": 35,
       "serv": 4,
@@ -17594,7 +17625,7 @@
     {
       "id": "moule:025",
       "t": "Moules Sauce Citronnée Crémeuse",
-      "cat": "Poisson, Moules",
+      "cat": "Moules",
       "desc": "Crème et citron, fraîche et douce.",
       "min": 20,
       "serv": 4,
@@ -17860,7 +17891,7 @@
     {
       "id": "majorque:010",
       "t": "Calamars Farcits (Calmars Farcis Majorquins)",
-      "cat": "Espagne, Majorque, Poisson",
+      "cat": "Espagne, Majorque, Fruits de mer",
       "desc": "Calmars farcis d'une farce originale à la sobrassada, épinards et pignons, mijotés dans une sauce tomate au vin blanc",
       "min": 90,
       "serv": 4,
@@ -18007,7 +18038,7 @@
     {
       "id": "pizza:001",
       "title": "Pâte à Pizza Classique",
-      "cat": "Technique, Italie, Pâte à Pizza",
+      "cat": "Italie, Pâte à Pizza",
       "ing": [
         "400g farine",
         "300ml eau chaude",
@@ -18031,7 +18062,7 @@
     {
       "id": "pizza:002",
       "title": "Pâte à Pizza Napolitaine",
-      "cat": "Technique, Italie, Pâte à Pizza",
+      "cat": "Italie, Pâte à Pizza",
       "ing": [
         "400g farine 00 (ou farine T45)",
         "300ml eau froide",
@@ -18053,7 +18084,7 @@
     {
       "id": "pizza:003",
       "title": "Pâte à Pizza Fine et Croustillante",
-      "cat": "Technique, Italie, Pâte à Pizza",
+      "cat": "Italie, Pâte à Pizza",
       "ing": [
         "280g farine",
         "60ml eau chaude",
@@ -18077,7 +18108,7 @@
     {
       "id": "pizza:004",
       "title": "Pâte à Pizza Chicago Deep Dish",
-      "cat": "Technique, Italie, Pâte à Pizza",
+      "cat": "Italie, Pâte à Pizza",
       "ing": [
         "400g farine",
         "60ml eau chaude",
@@ -18102,7 +18133,7 @@
     {
       "id": "pizza:005",
       "title": "Pâte à Pizza Croûte Farcie",
-      "cat": "Technique, Italie, Pâte à Pizza",
+      "cat": "Italie, Pâte à Pizza",
       "ing": [
         "400g farine",
         "300ml eau chaude",
@@ -18127,7 +18158,7 @@
     {
       "id": "pizza:006",
       "title": "Pâte à Pizza Fine et Croustillante",
-      "cat": "Technique, Italie, Pâte à Pizza",
+      "cat": "Italie, Pâte à Pizza",
       "ing": [
         "500g farine",
         "300ml eau tiède",
@@ -18149,7 +18180,7 @@
     {
       "id": "pizza:007",
       "title": "Pâte à Pizza Moelleuse",
-      "cat": "Technique, Italie, Pâte à Pizza",
+      "cat": "Italie, Pâte à Pizza",
       "ing": [
         "500g farine",
         "320ml eau tiède",
@@ -18172,7 +18203,7 @@
     {
       "id": "pizza:008",
       "title": "Pâte à Pizza Express (Sans Levure Boulangère)",
-      "cat": "Technique, Italie, Pâte à Pizza",
+      "cat": "Italie, Pâte à Pizza",
       "ing": [
         "300g farine",
         "1 yaourt nature",
@@ -18194,7 +18225,7 @@
     {
       "id": "pizza:009",
       "title": "Pâte à Pizza Complète",
-      "cat": "Technique, Italie, Pâte à Pizza",
+      "cat": "Italie, Pâte à Pizza",
       "ing": [
         "250g farine complète",
         "250g farine de blé",
@@ -18217,7 +18248,7 @@
     {
       "id": "pizza:010",
       "title": "Pâte à Pizza Herbes et Huile d'Olive",
-      "cat": "Technique, Italie, Pâte à Pizza",
+      "cat": "Italie, Pâte à Pizza",
       "ing": [
         "500g farine",
         "300ml eau tiède",
@@ -18240,7 +18271,7 @@
     {
       "id": "marinade:001",
       "title": "Marinade Poulet Grecque",
-      "cat": "Technique, Poulet, BBQ",
+      "cat": "BBQ, Marinade, Accompagnement",
       "ing": [
         "moutarde de Dijon 2 c.à.s.",
         "épices à steak 1 c.à.s.",
@@ -18262,7 +18293,7 @@
     {
       "id": "marinade:002",
       "title": "Marinade Poulet Paprika Fumé",
-      "cat": "Technique, Poulet, BBQ",
+      "cat": "BBQ, Marinade, Accompagnement",
       "ing": [
         "paprika fumé 2 c.à.s.",
         "jus de 1 citron",
@@ -18283,7 +18314,7 @@
     {
       "id": "marinade:003",
       "title": "Marinade Poulet Miel et Moutarde",
-      "cat": "Technique, Poulet, BBQ",
+      "cat": "BBQ, Marinade, Accompagnement",
       "ing": [
         "miel 3 c.à.s.",
         "moutarde de Dijon 2 c.à.s.",
@@ -18304,7 +18335,7 @@
     {
       "id": "marinade:004",
       "title": "Marinade Poulet Moutarde et Érable",
-      "cat": "Technique, Poulet, BBQ",
+      "cat": "BBQ, Marinade, Accompagnement",
       "ing": [
         "sirop d'érable 3 c.à.s.",
         "moutarde de Dijon 2 c.à.s.",
@@ -18325,7 +18356,7 @@
     {
       "id": "marinade:005",
       "title": "Marinade Poulet au Cumin",
-      "cat": "Technique, Poulet, BBQ",
+      "cat": "BBQ, Marinade, Accompagnement",
       "ing": [
         "yaourt nature 150g",
         "huile de canola 2 c.à.s.",
@@ -18345,7 +18376,7 @@
     {
       "id": "marinade:006",
       "title": "Marinade Poulet Bourbon et Mélasse",
-      "cat": "Technique, Poulet, BBQ",
+      "cat": "BBQ, Marinade, Accompagnement",
       "ing": [
         "bourbon 3 c.à.s.",
         "mélasse 2 c.à.s.",
@@ -18366,7 +18397,7 @@
     {
       "id": "marinade:007",
       "title": "Marinade Poulet Sud-Ouest",
-      "cat": "Technique, Poulet, BBQ",
+      "cat": "BBQ, Marinade, Accompagnement",
       "ing": [
         "huile d'olive 3 c.à.s.",
         "vinaigre de cidre 2 c.à.s.",
@@ -19679,7 +19710,7 @@
     {
       "id": "tortilla:001",
       "title": "Tortillas de Blé Classiques",
-      "cat": "Technique, Mexique, Tortilla",
+      "cat": "Mexique, Tortilla",
       "ing": [
         "250g de farine",
         "1/2 c. à café de sel",
@@ -19701,7 +19732,7 @@
     {
       "id": "tortilla:002",
       "title": "Tortillas Semi-Complètes",
-      "cat": "Technique, Mexique, Tortilla",
+      "cat": "Mexique, Tortilla",
       "ing": [
         "180g de farine complète",
         "60g de farine blanche",
@@ -19723,7 +19754,7 @@
     {
       "id": "tortilla:003",
       "title": "Tortillas aux Épinards",
-      "cat": "Technique, Mexique, Tortilla, Légume",
+      "cat": "Mexique, Tortilla, Légume",
       "ing": [
         "250g de farine",
         "1/2 c. à café de sel",
@@ -19745,7 +19776,7 @@
     {
       "id": "tortilla:004",
       "title": "Tortillas à la Betterave",
-      "cat": "Technique, Mexique, Tortilla",
+      "cat": "Mexique, Tortilla",
       "ing": [
         "250g de farine",
         "1/2 c. à café de sel",
@@ -19767,7 +19798,7 @@
     {
       "id": "tortilla:005",
       "title": "Tortillas de Maïs",
-      "cat": "Technique, Mexique, Tortilla",
+      "cat": "Mexique, Tortilla",
       "ing": [
         "180g de farine de maïs (masa harina)",
         "1/4 c. à café de sel",
@@ -19788,7 +19819,7 @@
     {
       "id": "tortilla:006",
       "title": "Wrap Healthy Avoine et Chia",
-      "cat": "Technique, Santé, Tortilla, Sans gluten",
+      "cat": "Santé, Tortilla, Sans gluten",
       "ing": [
         "150g de flocons d'avoine",
         "10g de graines de chia",
@@ -19835,7 +19866,7 @@
     {
       "id": "pate:001",
       "t": "Pâte à Raviolis Maison",
-      "cat": "Technique, Pâte maison, Italie, Pâtes",
+      "cat": "Pâte maison, Italie, Pâtes",
       "desc": "Pâte fraîche aux œufs, souple et fine, pour raviolis et tortellinis.",
       "min": 45,
       "serv": 4,
@@ -19859,7 +19890,7 @@
     {
       "id": "pate:002",
       "t": "Pâte à Gyozas Maison",
-      "cat": "Technique, Pâte maison, Japon",
+      "cat": "Pâte maison, Japon",
       "desc": "Disques fins à l'eau chaude pour gyozas et raviolis asiatiques.",
       "min": 45,
       "serv": 30,
@@ -19882,7 +19913,7 @@
     {
       "id": "pate:003",
       "t": "Feuilles de Brick Maison",
-      "cat": "Technique, Pâte maison, Maghreb",
+      "cat": "Pâte maison, Maghreb",
       "desc": "Feuilles très fines cuites à la poêle, pour bricks, samoussas et pastillas.",
       "min": 40,
       "serv": 12,
@@ -19905,7 +19936,7 @@
     {
       "id": "pate:004",
       "t": "Pâte à Wonton Maison",
-      "cat": "Technique, Pâte maison, Asie, Chine",
+      "cat": "Pâte maison, Asie, Chine",
       "desc": "Carrés fins aux œufs pour wontons, frits ou en bouillon.",
       "min": 45,
       "serv": 40,
@@ -19929,7 +19960,7 @@
     {
       "id": "pate:005",
       "t": "Pâte à Samoussas Maison",
-      "cat": "Technique, Pâte maison, Inde, Samoussa",
+      "cat": "Pâte maison, Inde, Samoussa",
       "desc": "Pâte à l'huile pour samoussas croustillants.",
       "min": 40,
       "serv": 20,
@@ -19952,7 +19983,7 @@
     {
       "id": "pate:006",
       "t": "Pâte à Empanadas Maison",
-      "cat": "Technique, Pâte maison, Espagne, Amérique latine, Empanada",
+      "cat": "Pâte maison, Espagne, Amérique latine, Empanada",
       "desc": "Pâte au beurre et à l'œuf, sablée et solide, pour empanadas au four.",
       "min": 60,
       "serv": 12,
@@ -19977,7 +20008,7 @@
     {
       "id": "pate:007",
       "t": "Feuilles de Lasagnes Maison",
-      "cat": "Technique, Pâte maison, Italie, Pâtes",
+      "cat": "Pâte maison, Italie, Pâtes",
       "desc": "Pâte fraîche aux œufs étalée en grandes feuilles pour lasagnes.",
       "min": 45,
       "serv": 6,
@@ -21676,7 +21707,7 @@
     {
       "id": "sousvide:020",
       "t": "Gambas à l'ail sous vide",
-      "cat": "Sous vide, Plat, Poisson, Crevette, Apéritif",
+      "cat": "Sous vide, Plat, Crevette, Apéritif, Fruits de mer",
       "area": "",
       "min": 40,
       "serv": "4 personnes",
@@ -21704,7 +21735,7 @@
     {
       "id": "sousvide:021",
       "t": "Poulpe tendre sous vide, grillé",
-      "cat": "Sous vide, Plat, Poisson, Espagne",
+      "cat": "Sous vide, Plat, Espagne, Fruits de mer",
       "area": "",
       "min": 330,
       "serv": "4 personnes",
@@ -21731,7 +21762,7 @@
     {
       "id": "sousvide:022",
       "t": "Œuf parfait 64°C",
-      "cat": "Sous vide, Entrée, Œuf, Préparation Oeuf, Technique",
+      "cat": "Sous vide, Entrée, Œuf, Préparation Oeuf",
       "area": "",
       "min": 50,
       "serv": "4 personnes",
