@@ -14018,7 +14018,7 @@
     {
       "id": "bouchee:004",
       "t": "Rillettes de Thon sur Toast",
-      "cat": "Bouchée, Tartine, Apéritif",
+      "cat": "Tartine, Apéritif",
       "desc": "Rillettes légères au thon, fromage frais et citron sur tranches de baguette grillée.",
       "min": 10,
       "serv": "20 bouchées",
@@ -14040,7 +14040,7 @@
     {
       "id": "bouchee:005",
       "t": "Toast Tapenade & Jambon Cru",
-      "cat": "Bouchée, Tartine, Apéritif",
+      "cat": "Tartine, Apéritif",
       "desc": "Toast croustillant à la tapenade d'olives, rosette de jambon de Parme et basilic.",
       "min": 10,
       "serv": "20 bouchées",
@@ -14104,7 +14104,7 @@
     {
       "id": "bouchee:008",
       "t": "Toasts au Caviar",
-      "cat": "Bouchée, Tartine, Apéritif",
+      "cat": "Tartine, Apéritif",
       "desc": "Blinis ou toast beurrés garnis de crème fraîche et œufs de saumon ou caviar pour les grandes occasions.",
       "min": 10,
       "serv": "20 bouchées",
@@ -14125,7 +14125,7 @@
     {
       "id": "bouchee:009",
       "t": "Sauce César & Crudités",
-      "cat": "Bouchée, Apéritif",
+      "cat": "Tartinade, Apéritif",
       "desc": "Légumes crus colorés à tremper dans une sauce César crémeuse, frais et léger.",
       "min": 15,
       "serv": "6 personnes",
@@ -14184,7 +14184,7 @@
     {
       "id": "bouchee:012",
       "t": "Samoussas au Poulet",
-      "cat": "Bouchée, Apéritif",
+      "cat": "Samoussa, Apéritif",
       "desc": "Samoussas croustillants fourrés de poulet épicé aux légumes, dorés à la poêle.",
       "min": 40,
       "serv": "12 pièces",
@@ -14277,7 +14277,7 @@
     {
       "id": "bouchee:016",
       "t": "Tzatziki & Concombre",
-      "cat": "Bouchée, Apéritif",
+      "cat": "Tartinade, Apéritif",
       "desc": "Rondelles de concombre garnies de tzatziki maison, fraîches et légères.",
       "min": 15,
       "serv": "20 bouchées",
@@ -14365,7 +14365,7 @@
     {
       "id": "bouchee:020",
       "t": "Bruschetta à la Tomate",
-      "cat": "Bouchée, Tartine, Apéritif",
+      "cat": "Tartine, Apéritif",
       "desc": "Pain grillé à l'huile d'olive frotté à l'ail, garni de tomates fraîches et basilic.",
       "min": 15,
       "serv": "20 bouchées",
@@ -14388,7 +14388,7 @@
     {
       "id": "bouchee:021",
       "t": "Escalope Grillée sur Toast",
-      "cat": "Bouchée, Tartine, Apéritif",
+      "cat": "Tartine, Apéritif",
       "desc": "Mini escalopes de veau ou poulet grillées sur toast avec une crème citronnée, bouchée élégante.",
       "min": 20,
       "serv": "12 bouchées",
