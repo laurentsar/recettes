@@ -28588,6 +28588,853 @@
       "url": "https://www.marciatack.fr/shawarma-au-poulet-a-lairfryer/",
       "vid": "",
       "pair": "arabe:005"
+    },
+    {
+      "id": "genoise:001",
+      "t": "Génoise Roulée Vanille",
+      "cat": "Dessert, Gâteaux, Noël, Biscuit roulé",
+      "min": 30,
+      "serv": "1 bûche (6-8 pers.)",
+      "img": "img/new3/gen1.jpg",
+      "desc": "Génoise souple et aérienne pour bûche de Noël, facile à rouler sans casser.",
+      "ing": [
+        "4 œufs",
+        "100 g de sucre",
+        "100 g de farine",
+        "1 sachet de sucre vanillé (ou ½ gousse de vanille)",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C et chemiser une plaque (environ 30 × 40 cm) de papier cuisson.",
+        "Fouetter les œufs entiers et le sucre au batteur 8 à 10 min, jusqu'à ce que le mélange blanchisse, triple de volume et forme un ruban.",
+        "Incorporer délicatement à la spatule la farine tamisée avec le sel et la vanille, en soulevant la pâte pour ne pas la faire retomber.",
+        "Étaler la pâte régulièrement sur la plaque (1 cm d'épaisseur environ).",
+        "Cuire 8 à 10 min : la génoise doit être dorée et souple au toucher, pas sèche.",
+        "Dès la sortie du four, la retourner sur un torchon humide (ou une feuille de papier cuisson saupoudrée de sucre), retirer le papier et la rouler aussitôt avec le torchon. Laisser refroidir roulée.",
+        "Dérouler, garnir (crème au beurre, ganache, crème de marrons, confiture…) et rouler à nouveau pour former la bûche."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "genoise:002",
+      "t": "Génoise Roulée Chocolat",
+      "cat": "Dessert, Gâteaux, Noël, Biscuit roulé",
+      "min": 30,
+      "serv": "1 bûche (6-8 pers.)",
+      "img": "img/new3/gen2.jpg",
+      "desc": "Génoise souple et aérienne pour bûche de Noël, facile à rouler sans casser.",
+      "ing": [
+        "4 œufs",
+        "100 g de sucre",
+        "70 g de farine",
+        "30 g de cacao non sucré",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C et chemiser une plaque (environ 30 × 40 cm) de papier cuisson.",
+        "Fouetter les œufs entiers et le sucre au batteur 8 à 10 min, jusqu'à ce que le mélange blanchisse, triple de volume et forme un ruban.",
+        "Tamiser ensemble la farine et le cacao, puis les incorporer délicatement à la spatule en soulevant la pâte.",
+        "Étaler la pâte régulièrement sur la plaque (1 cm d'épaisseur environ).",
+        "Cuire 8 à 10 min : la génoise doit être dorée et souple au toucher, pas sèche.",
+        "Dès la sortie du four, la retourner sur un torchon humide (ou une feuille de papier cuisson saupoudrée de sucre), retirer le papier et la rouler aussitôt avec le torchon. Laisser refroidir roulée.",
+        "Dérouler, garnir (crème au beurre, ganache, crème de marrons, confiture…) et rouler à nouveau pour former la bûche."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "genoise:003",
+      "t": "Génoise Roulée Pistache",
+      "cat": "Dessert, Gâteaux, Noël, Biscuit roulé",
+      "min": 30,
+      "serv": "1 bûche (6-8 pers.)",
+      "img": "img/new3/gen3.jpg",
+      "desc": "Génoise souple et aérienne pour bûche de Noël, facile à rouler sans casser.",
+      "ing": [
+        "4 œufs",
+        "100 g de sucre",
+        "80 g de farine",
+        "40 g de pistaches non salées mixées en poudre",
+        "1 c. à soupe de pâte de pistache (facultatif)",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C et chemiser une plaque (environ 30 × 40 cm) de papier cuisson.",
+        "Fouetter les œufs entiers et le sucre au batteur 8 à 10 min, jusqu'à ce que le mélange blanchisse, triple de volume et forme un ruban.",
+        "Ajouter la pâte de pistache au mélange, puis incorporer délicatement la farine tamisée, la poudre de pistache et le sel.",
+        "Étaler la pâte régulièrement sur la plaque (1 cm d'épaisseur environ).",
+        "Cuire 8 à 10 min : la génoise doit être dorée et souple au toucher, pas sèche.",
+        "Dès la sortie du four, la retourner sur un torchon humide (ou une feuille de papier cuisson saupoudrée de sucre), retirer le papier et la rouler aussitôt avec le torchon. Laisser refroidir roulée.",
+        "Dérouler, garnir (crème au beurre, ganache, crème de marrons, confiture…) et rouler à nouveau pour former la bûche."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "genoise:004",
+      "t": "Génoise Roulée aux Amandes",
+      "cat": "Dessert, Gâteaux, Noël, Biscuit roulé",
+      "min": 30,
+      "serv": "1 bûche (6-8 pers.)",
+      "img": "img/new3/gen4.jpg",
+      "desc": "Génoise souple et aérienne pour bûche de Noël, facile à rouler sans casser.",
+      "ing": [
+        "4 œufs",
+        "100 g de sucre",
+        "70 g de farine",
+        "40 g de poudre d'amande",
+        "2 gouttes d'extrait d'amande amère (facultatif)",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C et chemiser une plaque (environ 30 × 40 cm) de papier cuisson.",
+        "Fouetter les œufs entiers et le sucre au batteur 8 à 10 min, jusqu'à ce que le mélange blanchisse, triple de volume et forme un ruban.",
+        "Incorporer délicatement la farine tamisée, la poudre d'amande, l'extrait et le sel à la spatule.",
+        "Étaler la pâte régulièrement sur la plaque (1 cm d'épaisseur environ).",
+        "Cuire 8 à 10 min : la génoise doit être dorée et souple au toucher, pas sèche.",
+        "Dès la sortie du four, la retourner sur un torchon humide (ou une feuille de papier cuisson saupoudrée de sucre), retirer le papier et la rouler aussitôt avec le torchon. Laisser refroidir roulée.",
+        "Dérouler, garnir (crème au beurre, ganache, crème de marrons, confiture…) et rouler à nouveau pour former la bûche."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "genoise:005",
+      "t": "Génoise Roulée au Café",
+      "cat": "Dessert, Gâteaux, Noël, Biscuit roulé",
+      "min": 30,
+      "serv": "1 bûche (6-8 pers.)",
+      "img": "img/new3/gen5.jpg",
+      "desc": "Génoise souple et aérienne pour bûche de Noël, facile à rouler sans casser.",
+      "ing": [
+        "4 œufs",
+        "100 g de sucre",
+        "100 g de farine",
+        "2 c. à café de café soluble dissous dans 1 c. à soupe d'eau chaude",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C et chemiser une plaque (environ 30 × 40 cm) de papier cuisson.",
+        "Fouetter les œufs entiers et le sucre au batteur 8 à 10 min, jusqu'à ce que le mélange blanchisse, triple de volume et forme un ruban.",
+        "Ajouter le café dissous et refroidi, puis incorporer délicatement la farine tamisée et le sel.",
+        "Étaler la pâte régulièrement sur la plaque (1 cm d'épaisseur environ).",
+        "Cuire 8 à 10 min : la génoise doit être dorée et souple au toucher, pas sèche.",
+        "Dès la sortie du four, la retourner sur un torchon humide (ou une feuille de papier cuisson saupoudrée de sucre), retirer le papier et la rouler aussitôt avec le torchon. Laisser refroidir roulée.",
+        "Dérouler, garnir (crème au beurre, ganache, crème de marrons, confiture…) et rouler à nouveau pour former la bûche."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "genoise:006",
+      "t": "Génoise Roulée Marbrée Vanille-Chocolat",
+      "cat": "Dessert, Gâteaux, Noël, Biscuit roulé",
+      "min": 30,
+      "serv": "1 bûche (6-8 pers.)",
+      "img": "img/new3/gen6.jpg",
+      "desc": "Génoise souple et aérienne pour bûche de Noël, facile à rouler sans casser.",
+      "ing": [
+        "4 œufs",
+        "100 g de sucre",
+        "100 g de farine",
+        "1 sachet de sucre vanillé",
+        "15 g de cacao non sucré",
+        "1 c. à soupe de lait",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C et chemiser une plaque (environ 30 × 40 cm) de papier cuisson.",
+        "Fouetter les œufs entiers et le sucre au batteur 8 à 10 min, jusqu'à ce que le mélange blanchisse, triple de volume et forme un ruban.",
+        "Incorporer délicatement la farine tamisée, le sel et la vanille. Prélever un tiers de la pâte et y mélanger le cacao délayé dans le lait ; verser la pâte vanille sur la plaque, déposer des traits de pâte chocolat et les étirer à la pointe d'un couteau pour marbrer.",
+        "Lisser délicatement sans trop mélanger les deux pâtes.",
+        "Cuire 8 à 10 min : la génoise doit être dorée et souple au toucher, pas sèche.",
+        "Dès la sortie du four, la retourner sur un torchon humide (ou une feuille de papier cuisson saupoudrée de sucre), retirer le papier et la rouler aussitôt avec le torchon. Laisser refroidir roulée.",
+        "Dérouler, garnir (crème au beurre, ganache, crème de marrons, confiture…) et rouler à nouveau pour former la bûche."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:007",
+      "t": "Pain Blanc Maison",
+      "cat": "Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_01.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "320 ml d'eau tiède",
+        "10 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis pétrir 10 min jusqu'à obtenir une pâte lisse et souple.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Dégazer la pâte, la façonner en boule serrée et la poser sur une plaque farinée.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Inciser le dessus, enfourner à 230 °C avec un petit bol d'eau dans le four, cuire 30 à 35 min jusqu'à ce que le pain sonne creux quand on tape dessous."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:008",
+      "t": "Pain au Lait",
+      "cat": "Boulangerie, Pain, Viennoiserie, Petit-déjeuner",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_02.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T45",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "250 ml de lait tiède",
+        "1 œuf",
+        "60 g de sucre",
+        "80 g de beurre mou",
+        "8 g de sel",
+        "1 jaune d'œuf + 1 c. à soupe de lait pour dorer"
+      ],
+      "steps": [
+        "Mélanger la farine, le sucre, le sel et la levure ; ajouter le lait tiède et l'œuf.",
+        "Pétrir 10 min, puis incorporer le beurre mou petit à petit et pétrir encore 5 min.",
+        "Laisser lever 1 h 30 à couvert.",
+        "Diviser en 10 à 12 boules (ou en 4 boules alignées dans un moule à cake).",
+        "Laisser lever 45 min, dorer au jaune d'œuf battu avec le lait.",
+        "Cuire 15 min à 180 °C pour des petits pains, 30 min pour un pain en moule."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:009",
+      "t": "Pain Complet",
+      "cat": "Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_03.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine complète T150",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "350 ml d'eau tiède",
+        "1 c. à soupe de miel",
+        "10 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis pétrir 10 min (la pâte reste un peu collante, c'est normal avec la farine complète).",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner en boule ou en bâtard, poser sur une plaque farinée ou dans un moule à cake.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Inciser, cuire 35 à 40 min à 220 °C avec un bol d'eau dans le four."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:010",
+      "t": "Pain aux Céréales",
+      "cat": "Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_04.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "400 g de farine T65",
+        "100 g de farine complète",
+        "80 g de mélange de graines (lin, tournesol, sésame, courge)",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "340 ml d'eau tiède",
+        "10 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter les graines et pétrir 10 min.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner en boule, la rouler dans quelques graines pour le dessus.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 35 min à 220 °C avec un bol d'eau dans le four."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:012",
+      "t": "Pain à l'Huile d'Olive",
+      "cat": "Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_06.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "300 ml d'eau tiède",
+        "50 ml d'huile d'olive",
+        "10 g de sel",
+        "Romarin ou herbes de Provence (facultatif)"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter l'huile d'olive et pétrir 10 min.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner en boule ou en pain ovale, badigeonner d'huile et parsemer d'herbes.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 30 min à 220 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:013",
+      "t": "Pain au Yaourt",
+      "cat": "Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_07.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "1 yaourt nature (125 g)",
+        "200 ml d'eau tiède",
+        "1 c. à soupe de sucre",
+        "10 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter le yaourt et pétrir 10 min jusqu'à obtenir une pâte souple.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner en boule ou placer dans un moule à cake huilé.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 30 à 35 min à 200 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:014",
+      "t": "Pain Façon Baguette",
+      "cat": "Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_08.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T65",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "340 ml d'eau tiède",
+        "10 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et l'eau, laisser reposer 30 min (autolyse), puis ajouter la levure et le sel.",
+        "Pétrir 10 min, laisser lever 1 h en rabattant la pâte sur elle-même au bout de 30 min.",
+        "Diviser en 3, préformer en boudins, laisser détendre 15 min.",
+        "Façonner les baguettes en les allongeant, les poser sur un torchon fariné plissé, laisser lever 45 min.",
+        "Préchauffer le four à 250 °C avec une plaque et un bol d'eau.",
+        "Inciser en biais et cuire 20 à 25 min jusqu'à ce que la croûte soit bien dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:015",
+      "t": "Pain aux Graines",
+      "cat": "Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_09.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "450 g de farine T65",
+        "50 g de flocons d'avoine",
+        "100 g de graines (tournesol, courge, lin, sésame) trempées 30 min",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "320 ml d'eau tiède",
+        "10 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter les graines égouttées et pétrir 10 min.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner et placer dans un moule à cake huilé ; parsemer de graines.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 40 min à 210 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:016",
+      "t": "Pain à la Semoule (Khobz Dar)",
+      "cat": "Maghreb, Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_11.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "300 g de semoule fine",
+        "200 g de farine",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "1 c. à café de sucre",
+        "2 c. à soupe d'huile d'olive",
+        "330 ml d'eau tiède",
+        "8 g de sel",
+        "Graines de nigelle ou de sésame"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter l'huile et pétrir 10 min jusqu'à obtenir une pâte souple.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Diviser en 2, aplatir en galettes de 2 cm sur une plaque saupoudrée de semoule, parsemer de graines, piquer à la fourchette.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 20 à 25 min à 220 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:019",
+      "t": "Pain Complet aux Graines",
+      "cat": "Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_14.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "300 g de farine complète",
+        "200 g de farine T65",
+        "100 g de graines variées",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "350 ml d'eau tiède",
+        "1 c. à soupe de miel",
+        "10 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter les graines et pétrir 10 min.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner en bâtard, rouler le dessus dans des graines, poser sur une plaque.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Inciser et cuire 35 à 40 min à 220 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:020",
+      "t": "Pain aux Olives",
+      "cat": "Boulangerie, Pain, Apéritif",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_15.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "300 ml d'eau tiède",
+        "3 c. à soupe d'huile d'olive",
+        "10 g de sel",
+        "150 g d'olives noires et vertes dénoyautées"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter l'huile, pétrir 10 min, puis incorporer les olives coupées en deux.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner en pain ovale ou en boule.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 30 à 35 min à 220 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:021",
+      "t": "Pain Ail et Persil",
+      "cat": "Boulangerie, Pain, Apéritif",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_16.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "300 ml d'eau tiède",
+        "10 g de sel",
+        "80 g de beurre mou",
+        "3 gousses d'ail hachées",
+        "1 bouquet de persil haché"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis pétrir 10 min.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Diviser en 12 boules, les serrer dans un moule ; mélanger le beurre, l'ail et le persil et en badigeonner les boules.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 25 min à 200 °C, rebadigeonner de beurre à l'ail à la sortie."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:022",
+      "t": "Pain au Fromage",
+      "cat": "Boulangerie, Pain, Apéritif",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_17.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "300 ml de lait tiède",
+        "10 g de sel",
+        "150 g d'emmental ou de comté râpé",
+        "1 œuf pour dorer"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis pétrir 10 min, puis incorporer 100 g de fromage.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner en boule ou en couronne, dorer à l'œuf et parsemer du reste de fromage.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 30 min à 200 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:023",
+      "t": "Pain à la Pomme de Terre",
+      "cat": "Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_18.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "400 g de farine T55",
+        "200 g de pommes de terre cuites et écrasées",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "200 ml d'eau tiède (ou d'eau de cuisson des pommes de terre)",
+        "30 g de beurre",
+        "10 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter la purée et le beurre, pétrir 10 min (la pâte est très moelleuse).",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Diviser en petits pains ou façonner une boule.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 20 min à 200 °C pour des petits pains, 30 min pour une boule."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:024",
+      "t": "Pain au Miel",
+      "cat": "Boulangerie, Pain, Petit-déjeuner",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_19.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "280 ml de lait tiède",
+        "60 g de miel",
+        "40 g de beurre mou",
+        "8 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter le miel et le beurre et pétrir 10 min.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner et placer dans un moule à cake beurré.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 30 min à 180 °C ; badigeonner d'un peu de miel tiède à la sortie."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:025",
+      "t": "Pain Avoine et Graines",
+      "cat": "Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_20.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "400 g de farine T65",
+        "100 g de flocons d'avoine + un peu pour le dessus",
+        "60 g de graines (lin, tournesol)",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "340 ml d'eau tiède",
+        "1 c. à soupe de miel",
+        "10 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter l'avoine et les graines, pétrir 10 min.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner en boule, humidifier le dessus et le rouler dans les flocons d'avoine.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 35 min à 210 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:026",
+      "t": "Pain aux Noix",
+      "cat": "Boulangerie, Pain",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_21.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "400 g de farine T65",
+        "100 g de farine de seigle",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "340 ml d'eau tiède",
+        "10 g de sel",
+        "120 g de cerneaux de noix concassés"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis pétrir 10 min puis incorporer les noix.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner en bâtard sur une plaque farinée.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Inciser et cuire 35 min à 220 °C avec un bol d'eau dans le four."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:027",
+      "t": "Pain aux Oignons",
+      "cat": "Boulangerie, Pain, Apéritif",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_22.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "300 ml d'eau tiède",
+        "10 g de sel",
+        "2 oignons émincés",
+        "2 c. à soupe d'huile d'olive"
+      ],
+      "steps": [
+        "Faire dorer les oignons dans l'huile 10 min à feu moyen, laisser refroidir.",
+        "Mélanger la farine, le sel et la levure délayée dans l'eau tiède ; pétrir 10 min, puis incorporer les trois quarts des oignons.",
+        "Laisser lever 1 h 30.",
+        "Façonner en boule, parsemer du reste des oignons.",
+        "Laisser lever 45 min.",
+        "Cuire 30 min à 210 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:028",
+      "t": "Pain Fromage et Fines Herbes",
+      "cat": "Boulangerie, Pain, Apéritif",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_23.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "300 ml d'eau tiède",
+        "10 g de sel",
+        "120 g de fromage râpé",
+        "2 c. à soupe d'herbes fraîches hachées (ciboulette, persil, thym)",
+        "2 c. à soupe d'huile d'olive"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter l'huile, pétrir 10 min, puis incorporer le fromage et les herbes.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Diviser en boules serrées dans un moule rond, parsemer d'un peu de fromage.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 30 min à 200 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:029",
+      "t": "Pain à la Poêle (sans four)",
+      "cat": "Boulangerie, Pain",
+      "min": 90,
+      "serv": "6 pains",
+      "img": "img/new3/p30_24.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "300 g de farine",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "180 ml d'eau tiède",
+        "1 c. à soupe d'huile d'olive",
+        "5 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine, le sel, la levure délayée dans l'eau tiède et l'huile.",
+        "Pétrir 5 min et laisser lever 1 h.",
+        "Diviser en 6 boules, les aplatir en galettes de 1 cm.",
+        "Laisser reposer 15 min.",
+        "Cuire à sec dans une poêle chaude à feu moyen, 4 à 5 min par face avec un couvercle, jusqu'à ce que les pains gonflent et dorent."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:030",
+      "t": "Pain Pita",
+      "cat": "Boulangerie, Pain, Monde arabe",
+      "min": 90,
+      "serv": "8 pitas",
+      "img": "img/new3/p30_25.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "400 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "250 ml d'eau tiède",
+        "1 c. à soupe d'huile d'olive",
+        "1 c. à café de sucre",
+        "8 g de sel"
+      ],
+      "steps": [
+        "Mélanger tous les ingrédients et pétrir 8 min.",
+        "Laisser lever 1 h.",
+        "Diviser en 8 boules, les étaler en disques de 3 à 4 mm d'épaisseur.",
+        "Laisser reposer 10 min.",
+        "Cuire 4 à 5 min sur une plaque très chaude au four à 250 °C (ou dans une poêle brûlante) : ils gonflent et forment une poche.",
+        "Les envelopper dans un torchon dès la sortie pour qu'ils restent souples."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:032",
+      "t": "Pains Burger (Buns)",
+      "cat": "Boulangerie, Pain, Burger",
+      "min": 150,
+      "serv": "8 buns",
+      "img": "img/new3/p30_26.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T45",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "250 ml de lait tiède",
+        "1 œuf",
+        "40 g de sucre",
+        "50 g de beurre mou",
+        "8 g de sel",
+        "1 jaune d'œuf pour dorer",
+        "Graines de sésame"
+      ],
+      "steps": [
+        "Mélanger farine, sucre, sel et levure ; ajouter le lait tiède et l'œuf, pétrir 8 min, puis le beurre et pétrir encore 5 min.",
+        "Laisser lever 1 h 30.",
+        "Diviser en 8 boules de 100 g, les aplatir légèrement sur une plaque.",
+        "Laisser lever 45 min.",
+        "Dorer au jaune d'œuf, parsemer de sésame.",
+        "Cuire 15 à 18 min à 190 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:034",
+      "t": "Focaccia à la Tomate",
+      "cat": "Italie, Boulangerie, Pain, Apéritif",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_28.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "380 ml d'eau tiède",
+        "10 g de sel",
+        "6 c. à soupe d'huile d'olive",
+        "250 g de tomates cerises",
+        "Fleur de sel, origan ou romarin"
+      ],
+      "steps": [
+        "Mélanger la farine, l'eau, la levure et le sel jusqu'à obtenir une pâte très hydratée (pas besoin de pétrir longtemps).",
+        "Ajouter 2 c. à soupe d'huile, laisser lever 1 h 30 en rabattant la pâte 2 fois.",
+        "Verser 2 c. à soupe d'huile dans un plat (25 × 35 cm), étaler la pâte avec les doigts.",
+        "Laisser lever 30 min, puis enfoncer les doigts pour faire des alvéoles et y glisser les tomates cerises coupées en deux.",
+        "Arroser du reste d'huile, parsemer de fleur de sel et d'herbes.",
+        "Cuire 25 min à 220 °C."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:035",
+      "t": "Pain Semoule et Huile d'Olive",
+      "cat": "Boulangerie, Pain, Italie",
+      "min": 180,
+      "serv": "1 pain",
+      "img": "img/new3/p30_29.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "250 g de semoule de blé dur fine (semola rimacinata)",
+        "250 g de farine T55",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "330 ml d'eau tiède",
+        "3 c. à soupe d'huile d'olive",
+        "10 g de sel"
+      ],
+      "steps": [
+        "Mélanger la farine et le sel d'un côté ; délayer la levure dans l'eau (ou le liquide) tiède.",
+        "Verser le liquide sur la farine et mélanger, puis ajouter l'huile et pétrir 10 min jusqu'à obtenir une pâte lisse et jaune.",
+        "Couvrir et laisser lever 1 h à 1 h 30 dans un endroit tiède, jusqu'à ce que la pâte double de volume.",
+        "Façonner en boule, saupoudrer de semoule et inciser.",
+        "Couvrir et laisser lever encore 45 min.",
+        "Cuire 35 min à 220 °C avec un bol d'eau dans le four."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "pain:036",
+      "t": "Petits Pains Moelleux",
+      "cat": "Boulangerie, Pain",
+      "min": 150,
+      "serv": "12 petits pains",
+      "img": "img/new3/p30_30.jpg",
+      "desc": "Pain maison facile et moelleux, recette de la série « 30 pains maison ».",
+      "ing": [
+        "500 g de farine T45",
+        "7 g de levure boulangère sèche (ou 20 g de levure fraîche)",
+        "280 ml de lait tiède",
+        "30 g de sucre",
+        "60 g de beurre mou",
+        "1 œuf",
+        "8 g de sel",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Mélanger farine, sucre, sel et levure, ajouter le lait et l'œuf, pétrir 8 min, puis le beurre et pétrir encore 5 min.",
+        "Laisser lever 1 h 30.",
+        "Diviser en 12 boules et les disposer serrées sur une plaque ou dans un plat.",
+        "Laisser lever 45 min, dorer au jaune d'œuf.",
+        "Cuire 15 à 18 min à 180 °C."
+      ],
+      "url": "",
+      "vid": ""
     }
   ],
   "official": {
