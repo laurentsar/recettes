@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.69';
+const APP_VERSION = '3.70';
 
 let ALL = [];
 let BASE = [];
@@ -1285,6 +1285,7 @@ function openCook(id, initialTab='steps'){
     <div class="cook-head">
       <button class="cook-quit" aria-label="Quitter">←</button>
       <span class="cook-title">${esc(r.t)}</span>
+      <button class="cook-edit cook-mic" aria-label="Éditer la recette">✏️</button>
       <button id="cook-mic" class="cook-mic" aria-label="Contrôle vocal">🎤</button>
     </div>
     <div class="cook-tabs">
@@ -1314,6 +1315,7 @@ function openCook(id, initialTab='steps'){
   });
   if(hasSteps && initialTab==='steps'){ renderCookStep(); speakCookStep(); }
   elCook.querySelector('.cook-quit').addEventListener('click', closeCook);
+  elCook.querySelector('.cook-edit').addEventListener('click', ()=>{ closeCook(); openEdit(r.id); });
   document.getElementById('cook-mic').addEventListener('click', toggleCookMic);
   const prevBtn = document.getElementById('cook-prev');
   if(prevBtn){
