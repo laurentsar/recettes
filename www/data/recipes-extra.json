@@ -28529,6 +28529,65 @@
       "url": "https://www.cookomix.com/recettes/flan-coco-thermomix/",
       "vid": "",
       "pair": "flan:007"
+    },
+    {
+      "id": "af:031",
+      "t": "Poulet basquaise à l'Airfryer",
+      "cat": "Plat, Poulet, Viande, Airfryer",
+      "min": 65,
+      "serv": 4,
+      "desc": "Version Airfryer de Valérie Virorello-Jamili (blog Marcia Tack). Étapes retranscrites avec temps et températures ; recette complète sur le blog.",
+      "ing": [
+        "4 cuisses (ou hauts de cuisses) de poulet",
+        "1 gros poivron rouge",
+        "1 gros poivron vert",
+        "1 gros oignon jaune",
+        "2 gousses d'ail",
+        "400 g de tomates concassées en conserve",
+        "2 c. à soupe d'huile d'olive",
+        "1 c. à café bombée de piment d'Espelette",
+        "1 feuille de laurier",
+        "2 branches de thym frais",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Émincer l'oignon, hacher l'ail, couper les poivrons épépinés en lanières d'environ 1,5 cm.",
+        "Mettre l'oignon et les poivrons dans le panier avec 1 c. à soupe d'huile et un peu de sel : 12 min à 180 °C en secouant à mi-cuisson, puis les transférer dans le plat accessoire.",
+        "Badigeonner les cuisses du reste d'huile, de sel et de la moitié du piment ; les dorer seules dans le panier 10 min à 200 °C.",
+        "Ajouter dans le plat l'ail, les tomates concassées, le reste du piment, le laurier, le thym, sel et poivre ; mélanger.",
+        "Poser les cuisses dorées sur la sauce, remettre le plat dans le panier : 25 à 30 min à 160 °C, en vérifiant la cuisson à cœur.",
+        "Servir chaud avec du riz blanc."
+      ],
+      "img": "",
+      "url": "https://www.marciatack.fr/poulet-basquaise-airfryer/",
+      "vid": "",
+      "pair": "dropbox:517887fd-b6cf-476d-b3b6-90ab20cf5e5f"
+    },
+    {
+      "id": "af:032",
+      "t": "Shawarma au poulet à l'Airfryer",
+      "cat": "Monde arabe, Plat, Poulet, Viande, Airfryer",
+      "min": 45,
+      "serv": 4,
+      "desc": "Version Airfryer de Valérie Virorello-Jamili (blog Marcia Tack). Étapes retranscrites avec temps et températures ; recette complète sur le blog.",
+      "ing": [
+        "500 g d'escalopes de poulet épaisses",
+        "2 c. à café de cumin",
+        "1 c. à café de paprika",
+        "2 c. à soupe d'huile d'olive",
+        "Jus de citron",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Mélanger le poulet avec le cumin, le paprika, l'huile, le jus de citron, sel et poivre dans une boîte hermétique ; laisser mariner de 2 h à 24 h.",
+        "Piquer la viande sur 2 brochettes et la cuire dans le panier 35 min à 180 °C, en la retournant régulièrement pour bien griller les bords.",
+        "Trancher finement avec un couteau bien aiguisé.",
+        "Servir dans des pains galettes avec une sauce yaourt-menthe-ail et les garnitures de son choix."
+      ],
+      "img": "",
+      "url": "https://www.marciatack.fr/shawarma-au-poulet-a-lairfryer/",
+      "vid": "",
+      "pair": "arabe:005"
     }
   ],
   "official": {
