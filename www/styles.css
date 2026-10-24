@@ -767,3 +767,5 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .hs-more-row .hs-more{flex:1}
 .hs-more{width:100%;margin-top:10px;padding:10px;border:1px dashed var(--line);background:var(--card);color:var(--muted);border-radius:12px;font-size:.82em;font-weight:600;cursor:pointer}
 .stock-cover.ok{color:#3fa66b}
+
+.ing li.ing-head{cursor:default;border-bottom:none;padding:12px 4px 2px;font-size:.78em;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--accent)}

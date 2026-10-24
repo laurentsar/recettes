@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.42';
+const APP_VERSION = '3.43';
 
 let ALL = [];
 let BASE = [];
@@ -773,10 +773,11 @@ function openDetail(id){
     ..._dietTags,
   ].join('');
   const sk = SEASON[monthNow()] || [];
-  const stockHits = r.ing.map(stockHitsForLine);
   const ing = r.ing.length ? `<div class="d-sec">Ingrédients</div>${stockSummaryHtml(r)}<ul class="ing">${
-    r.ing.map((i,k)=>{ const s = seasonHitsInText(i, sk).length > 0;
-      return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${esc(i)}</span>${s?'<span class="leaf">🌿</span>':''}${stockBadgeHtml(stockHits[k])}</li>`;
+    ingDisplayItems(r).map((it,k)=>{
+      if (it.head) return `<li class="ing-head">${esc(it.head)}</li>`;
+      const s = seasonHitsInText(it.text, sk).length > 0;
+      return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${esc(it.text)}</span>${s?'<span class="leaf">🌿</span>':''}${stockBadgeHtml(stockHitsForLine(it.text))}</li>`;
     }).join('')}</ul>` : '';
   const steps = splitSteps(r.steps);
   const stepsHtml = steps.length ? `<div class="d-sec">Préparation</div><ol class="steps">${
@@ -847,7 +848,7 @@ function openDetail(id){
     saveFavs(); e.currentTarget.textContent = favs.has(r.id)?'❤️':'🤍';
   });
   elDetail.querySelector('.d-edit').addEventListener('click', ()=> openEdit(r.id));
-  elDetail.querySelectorAll('.ing li').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
+  elDetail.querySelectorAll('.ing li:not(.ing-head)').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
   elDetail.querySelector('.tag-cat-btn').addEventListener('click', ()=> openCatPick(r.id));
   elDetail.querySelectorAll('.d-variant-tab').forEach(btn=>{
     btn.addEventListener('click', ()=>{ if(!btn.classList.contains('active')) openDetail(btn.dataset.vid); });
@@ -1093,9 +1094,30 @@ function showUndoBar(title, details, onUndo){
   bar._t = setTimeout(() => { bar.hidden = true; }, 8000);
 }
 
+/* Affichage : une ligne qui regroupe plusieurs ingrédients (« PÂTE : 500 g farine,
+   7 g levure, 250 ml lait ») devient un petit titre « Pâte » + un ingrédient par ligne. */
+function ingDisplayItems(r){
+  const out = [];
+  for (const line of (r.ing || [])){
+    const l = String(line).trim();
+    if (!l) continue;
+    const head = l.match(/^([^:()\d]{1,40}):\s*(.*)$/);
+    const pieces = splitIngLine(l);
+    const label = head && head[2].trim() && (head[1] === head[1].toUpperCase() || /^pour\s/i.test(head[1]) || /[,+;]/.test(head[2])) ? head[1].trim() : '';
+    const allQty = pieces.length >= 2 && pieces.every(p => /^[\d½¼¾⅓]/.test(p.trim()));
+    if (head && !head[2].trim()){ out.push({ head: cap(l.replace(/\s*:\s*$/, '').toLowerCase()) }); continue; }  // titre de section seul
+    if ((label && pieces.length >= 2) || allQty){
+      if (label) out.push({ head: cap(label.toLowerCase()) });
+      pieces.forEach(p => out.push({ text: p }));
+    } else out.push({ text: l });
+  }
+  return out;
+}
 function cookIngListHtml(r){
   const sk = SEASON[monthNow()] || [];
-  return (r.ing||[]).map((item,k)=>{
+  return ingDisplayItems(r).map((it,k)=>{
+    if (it.head) return `<li class="ing-head">${esc(it.head)}</li>`;
+    const item = it.text;
     const s = seasonHitsInText(item, sk).length > 0;
     const qm = item.match(ING_QTY_RE) || item.match(ING_NUM_RE);
     const txt = qm ? `<strong class="cook-qty">${esc(qm[1].trim())}</strong> ${esc(qm[2].trim())}` : esc(item);
@@ -1151,7 +1173,7 @@ function openCook(id, initialTab='steps'){
     prevBtn.addEventListener('click', cookGoPrev);
     document.getElementById('cook-next').addEventListener('click', cookGoNext);
   }
-  document.getElementById('cook-ings-pane').querySelectorAll('.ing li').forEach(li => {
+  document.getElementById('cook-ings-pane').querySelectorAll('.ing li:not(.ing-head)').forEach(li => {
     li.addEventListener('click', ()=> li.classList.toggle('done'));
   });
 }
@@ -2342,10 +2364,13 @@ function splitIngLine(line){
   }
   if (/^\s*pour (le|la|les|l'|l’)\b[^,]*$/i.test(l) && !/\d/.test(l)) return [];
   const parts = []; let cur = '', depth = 0;
-  for (const ch of l){
+  for (let i = 0; i < l.length; i++){
+    const ch = l[i];
     if (ch === '(') depth++;
     else if (ch === ')') depth = Math.max(0, depth - 1);
-    if ((ch === ',' || ch === '+' || ch === ';') && !depth){ parts.push(cur); cur = ''; continue; }
+    // « 1,5 kg » : virgule décimale, on ne coupe pas.
+    const decimal = ch === ',' && /\d/.test(l[i - 1] || '') && /\d/.test(l[i + 1] || '');
+    if ((ch === ',' || ch === '+' || ch === ';') && !depth && !decimal){ parts.push(cur); cur = ''; continue; }
     cur += ch;
   }
   parts.push(cur);

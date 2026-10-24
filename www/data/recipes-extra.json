@@ -754,7 +754,7 @@
       "id": "japon:014",
       "url": "https://www.justonecookbook.com/how-to-make-mochi-with-a-stand-mixer/",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Rice_Cake.jpg/500px-Rice_Cake.jpg",
-      "cat": "Japon, Dessert, Gâteaux"
+      "cat": "Japon, Dessert, Biscuit"
     },
     {
       "id": "japon:015",
@@ -989,7 +989,25 @@
     {
       "id": "dropbox:1290192065",
       "t": "Cheesecake au Toblerone au Thermomix",
-      "cat": "Thermomix, Dessert, Cheesecake"
+      "cat": "Thermomix, Dessert, Cheesecake",
+      "ing": [
+        "250 g de biscuits au chocolat",
+        "100 g de beurre",
+        "40 g de poudre d'amandes",
+        "500 g de fromage à la crème (Philadelphia)",
+        "50 g de sucre en poudre",
+        "300 g de Toblerone (200 g + 100 g pour la décoration)",
+        "120 g de crème fraîche épaisse"
+      ],
+      "steps": [
+        "Couper le beurre en morceaux dans le bol, faire fondre 2 min / 60 °C / vitesse 3.",
+        "Ajouter les biscuits et la poudre d'amandes, mixer 10 s / vitesse 9. Racler et mixer encore 10 s / vitesse 7.",
+        "Verser dans un moule à tarte et tasser avec le dos d'une cuillère.",
+        "Mettre 200 g de Toblerone en morceaux dans le bol, mixer 10 s / vitesse 7 puis faire fondre 3 min / 60 °C / vitesse 2.",
+        "Ajouter le fromage à la crème, le sucre et la crème épaisse. Mélanger 30 s / vitesse 5, racler, puis 1 min / vitesse 5.",
+        "Verser sur la base biscuitée, décorer avec les 100 g de Toblerone râpés.",
+        "Réfrigérer au moins 8 h (idéalement une nuit)."
+      ]
     },
     {
       "id": "dropbox:1445166428",
@@ -1026,7 +1044,24 @@
     },
     {
       "id": "dropbox:680266388",
-      "t": "Gratin Léger d'Halloween WW"
+      "t": "Gratin Léger d'Halloween WW",
+      "ing": [
+        "500 g de potiron",
+        "200 g de mozzarella allégée",
+        "150 g de jambon de dinde",
+        "1 c. à s. d'huile d'olive",
+        "30 g de parmesan râpé",
+        "2 c. à s. de farine",
+        "Thym",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180 °C. Couper le potiron en tranches fines d'environ 5 mm.",
+        "Fariner les tranches et en déposer une couche dans un plat à gratin, saler et poivrer.",
+        "Recouvrir de jambon et de mozzarella en tranches fines. Recommencer jusqu'à épuisement en finissant par du potiron.",
+        "Arroser d'huile d'olive, saupoudrer de thym et de parmesan.",
+        "Couvrir de papier sulfurisé et enfourner environ 40 min."
+      ]
     },
     {
       "id": "dropbox:bc192850-d3f2-4c9f-bf48-975fa93bae0a",
@@ -1113,7 +1148,22 @@
     },
     {
       "id": "dropbox:c9604a28-c9fa-4835-95c9-039767b2de3d",
-      "t": "Saucisses en bocal"
+      "t": "Saucisses en bocal",
+      "ing": [
+        "Saucisses fraîches (type Toulouse)",
+        "3 grains de poivre par bocal",
+        "1 feuille de laurier par bocal",
+        "Sel",
+        "2 à 3 c. à s. de graisse de canard (facultatif)",
+        "Un peu de lard (facultatif)"
+      ],
+      "steps": [
+        "Laver les bocaux à l'eau savonneuse, les ébouillanter et les laisser égoutter sur un torchon propre. Faire bouillir les joints 5 min.",
+        "Enrouler la saucisse sur elle-même dans chaque bocal, sans la piquer.",
+        "Ajouter 3 grains de poivre, une feuille de laurier, très peu de sel (la saucisse est souvent déjà salée) et, au choix, un peu de lard ou de graisse de canard. Fermer.",
+        "Caler les bocaux avec des torchons dans un grand faitout, couvrir d'eau chaude (3 cm au-dessus) et maintenir avec un poids.",
+        "Porter à ébullition à feu fort puis stériliser 2 h à petit bouillon."
+      ]
     },
     {
       "id": "dropbox:50051132",
@@ -1481,7 +1531,7 @@
     {
       "id": "corse:062",
       "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Brocciu2.jpg/500px-Brocciu2.jpg",
-      "cat": "Corse, Dessert, Gâteaux"
+      "cat": "Corse, Dessert, Tarte sucrée"
     },
     {
       "id": "corse:064",
@@ -2086,6 +2136,58 @@
     {
       "id": "af:003",
       "cat": "Dessert, Airfryer, Viennoiserie"
+    },
+    {
+      "id": "dropbox:fc6d39d5-a79d-43fb-93c4-8f597e26f4c8",
+      "ing": [
+        "400 g de champignons de Paris",
+        "1 c. à s. d'huile d'olive",
+        "1 gousse d'ail hachée",
+        "Persil haché",
+        "Sel"
+      ]
+    },
+    {
+      "id": "dropbox:2cf45bbf-b465-493a-bef1-e1ef0b61fc19",
+      "ing": [
+        "500 g de crevettes décortiquées",
+        "2 c. à s. d'huile d'olive",
+        "1 c. à c. d'ail en poudre",
+        "1 c. à c. de paprika doux",
+        "½ c. à c. de piment doux (facultatif)",
+        "½ c. à c. de poivre noir",
+        "½ c. à c. de sel",
+        "Jus d'un demi-citron",
+        "Zeste de citron (facultatif)",
+        "Persil ou coriandre fraîche",
+        "Version panée (facultatif) : 1 œuf battu, 1 tasse de chapelure panko, ½ tasse de farine, 1 c. à c. de paprika fumé"
+      ],
+      "steps": [
+        "Rincer les crevettes à l'eau froide et bien les sécher.",
+        "Les mélanger avec l'huile, l'ail, le paprika, le piment, le poivre, le sel, le jus et le zeste de citron. Laisser mariner 15 à 30 min.",
+        "Version panée : passer chaque crevette dans la farine, l'œuf battu puis la chapelure mélangée au paprika fumé.",
+        "Préchauffer la friteuse à air à 190 °C 3 à 5 min.",
+        "Disposer les crevettes en une seule couche et cuire 6 à 8 min en les retournant à mi-cuisson.",
+        "Parsemer de persil ou de coriandre et servir avec un quartier de citron."
+      ]
+    },
+    {
+      "id": "dropbox:9a255d33-3afa-4313-b577-7a70c0eefdc6",
+      "ing": [
+        "500 g de farine à pain",
+        "1 c. à c. de sel",
+        "1 c. à c. de sucre",
+        "1 sachet de levure sèche (7 g)",
+        "300 ml d'eau tiède"
+      ],
+      "steps": [
+        "Mélanger la farine, le sel, le sucre et la levure, puis ajouter l'eau tiède.",
+        "Pétrir au moins 5 min jusqu'à obtenir une pâte homogène.",
+        "Couvrir d'un torchon et laisser doubler de volume (45 min à 1 h).",
+        "Mettre la pâte dans un moule, chasser l'air et laisser lever à nouveau.",
+        "Cuire à 150 °C pendant 40 min dans la Ninja Dual ; retourner le pain dans le moule au bout de 30 min.",
+        "Laisser tiédir sur une grille avant de trancher."
+      ]
     }
   ],
   "recipes": [
@@ -8212,7 +8314,7 @@
     {
       "id": "france:029",
       "t": "Madeleines de Commercy",
-      "cat": "France, Dessert, Gâteaux",
+      "cat": "France, Dessert, Biscuit",
       "min": 40,
       "serv": 24,
       "desc": "Les petites coquilles dorées chères à Proust : légères, beurrées, avec cette bosse caractéristique qui signe une madeleine réussie. Le secret : le choc thermique.",
@@ -11226,7 +11328,7 @@
     {
       "id": "hongrie:007",
       "t": "Kürtöskalács (Gâteau à la Broche)",
-      "cat": "Hongrie, Dessert, Gâteaux",
+      "cat": "Hongrie, Dessert, Viennoiserie",
       "desc": "Spirale de pâte levée roulée autour d'une broche, caramélisée et parfumée à la cannelle ou aux noix.",
       "min": 90,
       "serv": "6 personnes",
@@ -16162,7 +16264,7 @@
     {
       "id": "cookie:kinder01",
       "t": "Cookies Kinder Bueno Fondants",
-      "cat": "Dessert, Gâteaux",
+      "cat": "Dessert, Biscuit",
       "desc": "Cookies ultra fondants au Kinder Bueno, croustillants dehors et coulants dedans",
       "min": 25,
       "serv": 15,
