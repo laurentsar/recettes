@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.52';
+const APP_VERSION = '3.53';
 
 let ALL = [];
 let BASE = [];
@@ -879,7 +879,10 @@ function openDetail(id){
   tabList.forEach(t => { _seen[t.kind] = (_seen[t.kind]||0) + 1; t.label = _ico[t.kind] + (_seen[t.kind]>1 ? ' '+_seen[t.kind] : ''); });
   const _off = (field) => { const m = _group.find(p => p[field]); return m ? m[field] : null; };
   const offTmx = r.tmx || _off('tmx'), offAf = r.af || _off('af');
-  if (offTmx) tabList.push({off: offTmx, kind: 'tmxo', label: '⚙️ Thermomix officiel'});
+  // Une version Thermomix de l'app existe : l'officielle est fusionnée dans son onglet (fiche affichée sous la recette).
+  const _hasTmx = tabList.some(t => t.kind === 'tmx');
+  if (offTmx && !_hasTmx) tabList.push({off: offTmx, kind: 'tmxo', label: '⚙️ Thermomix officiel'});
+  const mergedOff = (offTmx && _hasTmx && _kind(r) === 'tmx') ? `<div class="d-sec">Version officielle Cookidoo</div>${officialHtml(offTmx, true)}` : '';
   if (offAf) tabList.push({off: offAf, kind: 'afo', label: '🌪️ Airfryer officiel'});
   tabList.sort((x,y) => _order[x.kind] - _order[y.kind]);
   const variantTabs = tabList.length > 1 ? `<div class="d-variant-tabs">
@@ -899,6 +902,7 @@ function openDetail(id){
         <div class="d-main">
         ${ing}${stepsHtml}${cookBtn}
         ${links?`<div class="d-links">${links}</div>`:''}
+        ${mergedOff}
         </div>
         <div class="d-official" hidden></div>
       </div>
@@ -918,7 +922,7 @@ function openDetail(id){
     saveFavs(); e.currentTarget.textContent = favs.has(r.id)?'❤️':'🤍';
   });
   elDetail.querySelector('.d-edit').addEventListener('click', ()=> openEdit(r.id));
-  elDetail.querySelectorAll('.ing li:not(.ing-head)').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
+  elDetail.querySelectorAll('.d-main .ing li:not(.ing-head)').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
   elDetail.querySelector('.tag-cat-btn').addEventListener('click', ()=> openCatPick(r.id));
   elDetail.querySelectorAll('.d-variant-tab').forEach(btn=>{
     btn.addEventListener('click', ()=>{
