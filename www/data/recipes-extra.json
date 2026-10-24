@@ -317,7 +317,8 @@
       "id": "sauce:007",
       "url": "https://food52.com/story/27479-how-to-make-barbecue-sauce",
       "steps": "Mélanger tous les ingrédients dans une petite casserole. Chauffer à feu doux 5 min en remuant jusqu'à léger épaississement. Laisser refroidir avant d'utiliser. Se conserve 2 semaines au réfrigérateur dans un pot fermé.\n\n🤖 Thermomix : Mettre tous les ingrédients dans le bol. Cuire 7 min / 90°C / vitesse 2. Peut être mixée 5 sec / vitesse 5 pour texture plus lisse.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/USMC-110430-M-AJ868-007.jpg/500px-USMC-110430-M-AJ868-007.jpg"
+      "img": "img/photos/sauce-007.jpg",
+      "desc": "Sauce BBQ fumée et sucrée faite maison en 10 minutes, bien meilleure que la version du commerce.\n\n📷 Photo : Joey Doll — CC BY 2.0, Wikimedia Commons"
     },
     {
       "id": "sauce:008",
@@ -375,8 +376,9 @@
     {
       "id": "espagne:007",
       "url": "https://www.saveur.com/article/Recipes/Salt-Cod-Vizcaya-Style",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/NorthEastAmericaOrtelius1570.jpg/500px-NorthEastAmericaOrtelius1570.jpg",
-      "cat": "Espagne, Poisson, Plat"
+      "img": "img/photos/espagne-007.jpg",
+      "cat": "Espagne, Poisson, Plat",
+      "desc": "Morue à la sauce biscayenne aux poivrons choriceros, plat du Pays Basque.\n\n📷 Photo : Xabier Cañas — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "espagne:008",
@@ -424,7 +426,8 @@
     {
       "id": "espagne:017",
       "url": "https://www.themediterraneandish.com/spanish-garlic-chicken-pollo-al-ajillo/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Gambas_al_ajillo_en_madrid.jpg/500px-Gambas_al_ajillo_en_madrid.jpg"
+      "img": "img/photos/espagne-017.jpg",
+      "desc": "Poulet à l'ail en sauce dorée, plat populaire de toute l'Espagne.\n\n📷 Photo : Tamorlan — CC BY-SA 3.0, Wikimedia Commons"
     },
     {
       "id": "espagne:023",
@@ -452,14 +455,16 @@
     {
       "id": "espagne:025",
       "url": "https://www.carolinescooking.com/tarta-de-santiago/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Galicia.svg/500px-Flag_of_Galicia.svg.png",
-      "cat": "Espagne, Dessert, Tarte sucrée"
+      "img": "img/photos/espagne-025.jpg",
+      "cat": "Espagne, Dessert, Tarte sucrée",
+      "desc": "Tarte aux amandes de Galice, reconnaissable à la croix de Saint-Jacques.\n\n📷 Photo : Manel Zaera — CC BY-SA 2.0, Wikimedia Commons"
     },
     {
       "id": "espagne:027",
       "url": "https://www.americastestkitchen.com/recipes/5088-arroz-con-leche",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Susana_Campos_by_Annemarie_Heinrich%2C_Radiolandia_1957.png/500px-Susana_Campos_by_Annemarie_Heinrich%2C_Radiolandia_1957.png",
-      "cat": "Espagne, Dessert, Crème dessert"
+      "img": "img/photos/espagne-027.jpg",
+      "cat": "Espagne, Dessert, Crème dessert",
+      "desc": "Riz au lait crémeux à la cannelle, dessert réconfortant de grand-mère.\n\n📷 Photo : Juan Emilio Prades Bel — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "portugal:001",
@@ -531,26 +536,30 @@
     {
       "id": "corse:018",
       "url": "https://www.750g.com/encornets-a-la-tomate-r1701.htm",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Moules_farcies_%C3%A0_la_s%C3%A9toise_02.jpg/500px-Moules_farcies_%C3%A0_la_s%C3%A9toise_02.jpg",
-      "cat": "Corse, Fruits de mer, Plat"
+      "img": "img/photos/corse-018.jpg",
+      "cat": "Corse, Fruits de mer, Plat",
+      "desc": "Encornets en sauce tomate méditerranéenne, mijotés au vin blanc et aux herbes.\n\n📷 Photo : Vimal.manchanda — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "corse:025",
       "url": "https://www.recettes-corses.fr/recipe-items/rougets-a-bonifacienne",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Gulf_Red_Snapper_%2820988408955%29.jpg/500px-Gulf_Red_Snapper_%2820988408955%29.jpg",
-      "cat": "Corse, Poisson, Plat"
+      "img": "img/photos/corse-025.jpg",
+      "cat": "Corse, Poisson, Plat",
+      "desc": "Rougets de roche frits puis nappés d'une sauce tomate à l'ail et aux câpres.\n\n📷 Photo : -2018-09-23 Pan fried Red Mullet, Cromer — licence libre, Wikimedia Commons"
     },
     {
       "id": "corse:026",
       "url": "https://www.recettes-corses.fr/recipe-items/sardines-farcies-brocciu",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Wilaya_Jijel_Communes.png/500px-Wilaya_Jijel_Communes.png",
-      "cat": "Corse, Poisson, Plat"
+      "img": "img/photos/corse-026.jpg",
+      "cat": "Corse, Poisson, Plat",
+      "desc": "Sardines fraîches ouvertes et farcies au brocciu et feuilles de blettes, gratinées au four.\n\n📷 Photo : F Ceragioli — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "corse:035",
       "url": "https://www.750g.com/poulet-aux-olives-et-aux-tomates-r100365.htm",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Tajinezitounepoulet.jpg/500px-Tajinezitounepoulet.jpg",
-      "cat": "Corse, Poulet, Viande, Plat"
+      "img": "img/photos/corse-035.jpg",
+      "cat": "Corse, Poulet, Viande, Plat",
+      "desc": "Poulet mijoté à la corse dans une sauce tomate aux olives noires et aux herbes du maquis.\n\n📷 Photo : Daderot — CC0, Wikimedia Commons"
     },
     {
       "id": "corse:039",
@@ -577,14 +586,16 @@
     {
       "id": "corse:049",
       "url": "https://www.recettes-corses.fr/recipe-items/cannelloni-au-brocciu-et-aux-blettes",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ricotte_fresche.jpg/500px-Ricotte_fresche.jpg",
-      "cat": "Corse, Pâtes, Plat"
+      "img": "img/photos/corse-049.jpg",
+      "cat": "Corse, Pâtes, Plat",
+      "desc": "Cannellonis farcis à la brousse de brebis et aux épinards, gratinés au four.\n\n📷 Photo : Alpha from Melbourne, Australia — CC BY-SA 2.0, Wikimedia Commons"
     },
     {
       "id": "corse:054",
       "url": "https://www.750g.com/aubergines-a-la-corse-r57893.htm",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Solanum_melongena_26_08_2012_%281%29.JPG/500px-Solanum_melongena_26_08_2012_%281%29.JPG",
-      "cat": "Corse, Légumes, Accompagnement"
+      "img": "img/photos/corse-054.jpg",
+      "cat": "Corse, Légumes, Accompagnement",
+      "desc": "Aubergines coupées en cubes, sautées à l'huile d'olive avec tomates et basilic.\n\n📷 Photo : E4024 — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "corse:055",
@@ -656,7 +667,8 @@
     {
       "id": "maghreb:004",
       "url": "https://food52.com/recipes/9425-chicken-tagine-with-fennel-preserved-lemons-and-green-olives",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Georgian-Crispy-Chicken-Tabaka3.jpg/500px-Georgian-Crispy-Chicken-Tabaka3.jpg"
+      "img": "img/photos/maghreb-004.jpg",
+      "desc": "Tajine emblématique du Maroc : poulet fondant, olives violettes et citrons confits au sel.\n\n📷 Photo : Tajine de poulet au citron confit (mars 2022) — CC0, Wikimedia Commons"
     },
     {
       "id": "maghreb:006",
@@ -833,7 +845,8 @@
     {
       "id": "asie:007",
       "url": "https://www.recipetineats.com/thai-green-curry/",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Stephen_Curry_Shooting_%28cropped%29.jpg/500px-Stephen_Curry_Shooting_%28cropped%29.jpg"
+      "img": "img/photos/asie-007.jpg",
+      "desc": "Curry vert thaï parfumé au lait de coco, poulet et aubergines thaïes.\n\n📷 Photo : Takeaway — CC BY-SA 3.0, Wikimedia Commons"
     },
     {
       "id": "asie:008",
@@ -995,7 +1008,8 @@
     {
       "id": "sauce:005",
       "steps": "Mélanger le fromage blanc avec les herbes fraîches. Ajouter le jus de citron. Saler et poivrer. Mélanger et réfrigérer 10 min. Servir bien frais avec des crudités, du saumon ou des légumes grillés.\n\n🤖 Thermomix : Mettre tous les ingrédients dans le bol. Mixer 15 sec / vitesse 4.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Fontainebleau_avec_du_brownie.jpg/500px-Fontainebleau_avec_du_brownie.jpg"
+      "img": "img/photos/sauce-005.jpg",
+      "desc": "Sauce légère et fraîche au fromage blanc, ciboulette et persil — idéale avec les légumes et le poisson.\n\n📷 Photo : Marianne Casamance — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "sauce:006",
@@ -1466,8 +1480,9 @@
     },
     {
       "id": "corse:017",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Monaco.Mus%C3%A9e_oc%C3%A9anographique089.jpg/500px-Monaco.Mus%C3%A9e_oc%C3%A9anographique089.jpg",
-      "cat": "Corse, Fruits de mer, Plat"
+      "img": "img/photos/corse-017.jpg",
+      "cat": "Corse, Fruits de mer, Plat",
+      "desc": "Langouste corse grillée simplement avec beurre à l'ail et herbes du maquis.\n\n📷 Photo : Olivdediego — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "corse:019",
@@ -1481,28 +1496,29 @@
     },
     {
       "id": "corse:021",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Semifinal_del_Campeonato_del_Encebollado_en_Esmeraldas_2015_%2818062294436%29.jpg/500px-Semifinal_del_Campeonato_del_Encebollado_en_Esmeraldas_2015_%2818062294436%29.jpg",
+      "img": "",
       "cat": "Corse, Plat, Volaille"
     },
     {
       "id": "corse:022",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Daisya_shiki.JPG/500px-Daisya_shiki.JPG",
+      "img": "",
       "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:023",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Le_Fenouiller%2C_St.-Laurent_%2885800_Vend%C3%A9e%29.JPG/500px-Le_Fenouiller%2C_St.-Laurent_%2885800_Vend%C3%A9e%29.JPG",
+      "img": "",
       "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:024",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Parmiggiana_-_Pizza_500_2024-11-16.jpg/500px-Parmiggiana_-_Pizza_500_2024-11-16.jpg",
+      "img": "",
       "cat": "Corse, Poisson, Plat"
     },
     {
       "id": "corse:027",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Salade_ni%C3%A7oise_001.jpg/500px-Salade_ni%C3%A7oise_001.jpg",
-      "cat": "Corse, Poisson, Plat"
+      "img": "img/photos/corse-027.jpg",
+      "cat": "Corse, Poisson, Plat",
+      "desc": "Pavés de thon rouge marinés aux herbes du maquis, saisis à la plancha.\n\n📷 Photo : Daderot — CC0, Wikimedia Commons"
     },
     {
       "id": "corse:028",
@@ -1516,19 +1532,22 @@
     },
     {
       "id": "corse:030",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Illustration_Allium_ursinum1.jpg/500px-Illustration_Allium_ursinum1.jpg"
+      "img": "img/photos/corse-030.jpg",
+      "desc": "Lapin braisé à la corse avec une tête d'ail entière confit au vin blanc.\n\n📷 Photo : Manfred&Barbara Aulbach — CC BY-SA 3.0, Wikimedia Commons"
     },
     {
       "id": "corse:031",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Dancing_woman_krotala_BM_1920%2C0613.1.jpg/500px-Dancing_woman_krotala_BM_1920%2C0613.1.jpg"
+      "img": ""
     },
     {
       "id": "corse:032",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Crex_crex00.jpg/500px-Crex_crex00.jpg"
+      "img": "img/photos/corse-032.jpg",
+      "desc": "Merles grillés sur braises de maquis, simplement assaisonnés de sel et de baies de myrte.\n\n📷 Photo : Gogerr — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "corse:033",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg/500px-Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg"
+      "img": "img/photos/corse-033.jpg",
+      "desc": "Pigeons braisés dans une sauce aux olives noires, à l'ail et au vin blanc.\n\n📷 Photo : Nazihman — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "corse:034",
@@ -1536,8 +1555,9 @@
     },
     {
       "id": "corse:036",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Wiesensalbei_1.jpg/500px-Wiesensalbei_1.jpg",
-      "cat": "Corse, Poulet, Viande, Plat"
+      "img": "img/photos/corse-036.jpg",
+      "cat": "Corse, Poulet, Viande, Plat",
+      "desc": "Poulet rôti parfumé à la sauge fraîche du maquis, arrosé de vin blanc.\n\n📷 Photo : Father.Jack from Coventry, UK — CC BY 2.0, Wikimedia Commons"
     },
     {
       "id": "corse:037",
@@ -1549,19 +1569,23 @@
     },
     {
       "id": "corse:040",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Lamb_Chart_%2822411636159%29.jpg/500px-Lamb_Chart_%2822411636159%29.jpg"
+      "img": "img/photos/corse-040.jpg",
+      "desc": "Collier d'agneau mijoté avec de jeunes petits pois et de la menthe fraîche.\n\n📷 Photo : E4024 — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "corse:041",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Lamb_Chart_%2822411636159%29.jpg/500px-Lamb_Chart_%2822411636159%29.jpg"
+      "img": "img/photos/corse-041.jpg",
+      "desc": "Côtes d'agneau grillées servies avec des haricots rouges mijotés au thym.\n\n📷 Photo : yancy9 — CC BY 2.0, Wikimedia Commons"
     },
     {
       "id": "corse:042",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Lamb_Chart_%2822411636159%29.jpg/500px-Lamb_Chart_%2822411636159%29.jpg"
+      "img": "img/photos/corse-042.jpg",
+      "desc": "Gigot d'agneau de lait corse rôti aux herbes du maquis et à l'ail.\n\n📷 Photo : CNEcija12345 — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "corse:043",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Lamb_Chart_%2822411636159%29.jpg/500px-Lamb_Chart_%2822411636159%29.jpg"
+      "img": "img/photos/corse-043.jpg",
+      "desc": "Agneau en morceaux mijoté longuement avec des pommes de terre et du vin blanc.\n\n📷 Photo : Zackgallagher — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "corse:045",
@@ -1583,8 +1607,9 @@
     },
     {
       "id": "corse:052",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Courgette_Cucurbita_pepo_2.jpg/500px-Courgette_Cucurbita_pepo_2.jpg",
-      "cat": "Corse, Légumes, Accompagnement"
+      "img": "img/photos/corse-052.jpg",
+      "cat": "Corse, Légumes, Accompagnement",
+      "desc": "Courgettes rondes farcies au brocciu, ail et herbes fraîches, gratinées au four.\n\n📷 Photo : EgorovaSvetlana — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "corse:053",
@@ -1593,18 +1618,21 @@
     },
     {
       "id": "corse:056",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Schweinebauch-1.jpg/500px-Schweinebauch-1.jpg",
-      "cat": "Corse, Légumes, Accompagnement"
+      "img": "img/photos/corse-056.jpg",
+      "cat": "Corse, Légumes, Accompagnement",
+      "desc": "Fèves fraîches de printemps mijotées avec des lardons fumés et de l'oignon.\n\n📷 Photo : Kgbo — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "corse:057",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Les_Haricots_Rouges_Stortorvet_Gj%C3%A6stgiveri_Oslo_Jazzfestival_%28213001%29.jpg/500px-Les_Haricots_Rouges_Stortorvet_Gj%C3%A6stgiveri_Oslo_Jazzfestival_%28213001%29.jpg",
-      "cat": "Corse, Légumes, Accompagnement"
+      "img": "img/photos/corse-057.jpg",
+      "cat": "Corse, Légumes, Accompagnement",
+      "desc": "Haricots rouges mijotés avec couenne de porc, tomates et herbes du maquis.\n\n📷 Photo : Horacio Cambeiro — CC BY-SA 3.0, Wikimedia Commons"
     },
     {
       "id": "corse:062",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Brocciu2.jpg/500px-Brocciu2.jpg",
-      "cat": "Corse, Dessert, Tarte sucrée"
+      "img": "img/photos/corse-062.jpg",
+      "cat": "Corse, Dessert, Tarte sucrée",
+      "desc": "Tarte au brocciu à la fleur d'oranger, proche du fiadone mais en version feuilletée.\n\n📷 Photo : Popo le Chien — CC0, Wikimedia Commons"
     },
     {
       "id": "corse:064",
@@ -1618,8 +1646,9 @@
     },
     {
       "id": "corse:066",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Beignets_de_pommes_de_terre.jpg/500px-Beignets_de_pommes_de_terre.jpg",
-      "cat": "Corse, Dessert, Viennoiserie"
+      "img": "img/photos/corse-066.jpg",
+      "cat": "Corse, Dessert, Viennoiserie",
+      "desc": "Beignets moelleux aux pommes parfumés au cédrat corse confit, frits à l'huile.\n\n📷 Photo : Man vyi — domaine public, Wikimedia Commons"
     },
     {
       "id": "corse:068",
@@ -1634,12 +1663,13 @@
     },
     {
       "id": "corse:070",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Pulenda-1.jpg/500px-Pulenda-1.jpg",
+      "img": "",
       "cat": "Corse, Dessert, Viennoiserie"
     },
     {
       "id": "espagne:012",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/14-08-04-barcelona-RalfR-41.jpg/500px-14-08-04-barcelona-RalfR-41.jpg"
+      "img": "img/photos/espagne-012.jpg",
+      "desc": "Riz noir à l'encre de seiche, spécialité méditerranéenne servie avec aïoli.\n\n📷 Photo : JArribasphoto — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "espagne:014",
@@ -1702,21 +1732,25 @@
     },
     {
       "id": "portugal:007",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/500px-Bacalhau_a_Bras.jpg",
-      "cat": "Portugal, Poisson, Plat"
+      "img": "img/photos/portugal-007.jpg",
+      "cat": "Portugal, Poisson, Plat",
+      "desc": "Morue rôtie au four sur lit de légumes, simple et savoureux.\n\n📷 Photo : Xemenendura — CC BY-SA 3.0, Wikimedia Commons"
     },
     {
       "id": "portugal:008",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/500px-Bacalhau_a_Bras.jpg",
-      "cat": "Portugal, Poisson, Plat"
+      "img": "img/photos/portugal-008.jpg",
+      "cat": "Portugal, Poisson, Plat",
+      "desc": "Beignets de morue à la portugaise, croustillants et savoureux.\n\n📷 Photo : Pataniscas de Bacalhau — CC BY 4.0, Wikimedia Commons"
     },
     {
       "id": "portugal:009",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg/500px-Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg"
+      "img": "img/photos/portugal-009.jpg",
+      "desc": "Pot-au-feu portugais avec viandes, charcuteries et légumes, plat du dimanche.\n\n📷 Photo : Uxbona — CC BY-SA 3.0, Wikimedia Commons"
     },
     {
       "id": "portugal:010",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/P%C3%AEr%C3%AE_Reis_b%C3%BCst%C3%BC.JPG/500px-P%C3%AEr%C3%AE_Reis_b%C3%BCst%C3%BC.JPG"
+      "img": "img/photos/portugal-010.jpg",
+      "desc": "Poulet grillé à la sauce piri-piri, héritage des découvertes africaines.\n\n📷 Photo : 2018-02-03 Chicken Piri-Piri, Albufeira (1) — licence libre, Wikimedia Commons"
     },
     {
       "id": "portugal:011",
@@ -1728,7 +1762,8 @@
     },
     {
       "id": "portugal:013",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg/500px-Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg"
+      "img": "img/photos/portugal-013.jpg",
+      "desc": "Riz au canard confit, plat festif du nord du Portugal.\n\n📷 Photo : ricardo from London — CC BY 2.0, Wikimedia Commons"
     },
     {
       "id": "portugal:014",
@@ -1740,8 +1775,9 @@
     },
     {
       "id": "portugal:016",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Sardina_pilchardus_2011.jpg/500px-Sardina_pilchardus_2011.jpg",
-      "cat": "Portugal, Poisson, Plat"
+      "img": "img/photos/portugal-016.jpg",
+      "cat": "Portugal, Poisson, Plat",
+      "desc": "Sardines grillées au sel, plat de la fête de la Saint-Antoine à Lisbonne.\n\n📷 Photo : Yusuke Kawasaki from Tokyo, Japan — CC BY 2.0, Wikimedia Commons"
     },
     {
       "id": "portugal:018",
@@ -1773,8 +1809,9 @@
     },
     {
       "id": "portugal:025",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg/500px-Bacalhau_desfiado_com_migas_e_grelos_%289374133341%29.jpg",
-      "cat": "Portugal, Dessert, Crème dessert"
+      "img": "img/photos/portugal-025.jpg",
+      "cat": "Portugal, Dessert, Crème dessert",
+      "desc": "Flan au bacon et au porto, dessert baroque de l'abbé de Priscos.\n\n📷 Photo : Rvilaverde — CC BY-SA 4.0, Wikimedia Commons"
     },
     {
       "id": "portugal:026",
@@ -1808,7 +1845,7 @@
     },
     {
       "id": "italie:022",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sea-wolf_cover.jpg",
+      "img": "",
       "cat": "Italie, Poisson, Plat"
     },
     {
@@ -1818,7 +1855,8 @@
     },
     {
       "id": "maghreb:005",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Prune.JPG"
+      "img": "img/photos/maghreb-005.jpg",
+      "desc": "Tajine sucré-salé à l'agneau, pruneaux confits et amandes grillées, saveur de fête.\n\n📷 Photo : Iron Bishop — CC BY-SA 3.0, Wikimedia Commons"
     },
     {
       "id": "maghreb:012",
@@ -6454,7 +6492,7 @@
       "cat": "Grèce, Plat",
       "min": 10,
       "serv": 4,
-      "desc": "Fromage grec frit doré et croustillant dehors, fondant dedans. Servi avec un jus de citron et du pain — starter irrésistible.",
+      "desc": "Fromage grec frit doré et croustillant dehors, fondant dedans. Servi avec un jus de citron et du pain — starter irrésistible.\n\n📷 Photo : Tammy Green from Chicago, USA — CC BY-SA 2.0, Wikimedia Commons",
       "ing": [
         "300 g de fromage kefalotiri, kasseri, graviera (ou halloumi)",
         "4 c. à soupe de farine",
@@ -6464,7 +6502,7 @@
         "Poivre"
       ],
       "steps": "Couper le fromage en tranches de 1,5 cm. Humidifier légèrement.\nFariner sur les deux faces en tapotant l'excédent.\nChauffer beurre + huile dans une poêle à feu moyen-vif.\nFaire dorer 2 min par face — croûte dorée et croustillante.\nServir immédiatement avec un filet de citron et du pain.\n\n💡 Faire chauffer la poêle correctement pour que la farine adhère et forme une croûte — sinon le fromage s'effondre.\nL'opa ! (feu) est optionnel mais spectaculaire.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Grekiska_koket_02.jpg/500px-Grekiska_koket_02.jpg",
+      "img": "img/photos/grece-010.jpg",
       "url": "https://food52.com/recipes/10628-saganaki"
     },
     {
@@ -7125,7 +7163,7 @@
         "Sel, poivre, piment (optionnel)"
       ],
       "steps": "Mixer avocats, concombre, bouillon, yaourt, jus de citron, ail et herbes.\nAjouter du bouillon pour ajuster la consistance.\nAssaisonner — le citron est essentiel pour la fraîcheur et contre l'oxydation.\nRéfrigérer 1h maximum (l'avocat noircit).\nServir froid garni de dés d'avocat, coriandre et un filet d'huile.\n\n💡 Préparer et servir dans l'heure pour éviter le noircissement. Le citron ralentit mais ne stoppe pas l'oxydation.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Gazpacho_in_a_white_bowl.jpg/500px-Gazpacho_in_a_white_bowl.jpg",
+      "img": "",
       "url": "https://www.750g.com/gaspacho-concombre-et-avocat-r55958.htm"
     },
     {
@@ -8414,7 +8452,7 @@
       "cat": "France, Plat, Poisson, Soupe",
       "min": 90,
       "serv": 6,
-      "desc": "La soupe de poissons provençale par excellence — rascasse, saint-pierre, grondin, saffran et rouille sur croûtons aillés. Un plat de fête du bord de mer.",
+      "desc": "La soupe de poissons provençale par excellence — rascasse, saint-pierre, grondin, saffran et rouille sur croûtons aillés. Un plat de fête du bord de mer.\n\n📷 Photo : 20250903 Bouillabaisse in Khimki — CC BY 4.0, Wikimedia Commons",
       "ing": [
         "1,5 kg de poissons variés (rascasse, saint-pierre, grondin, vive)",
         "500 g de crevettes et moules",
@@ -8427,7 +8465,7 @@
         "ROUILLE : 4 gousses ail, 1 jaune d'œuf, huile d'olive, safran, piment"
       ],
       "steps": "Faire revenir oignons, poireau et ail dans l'huile. Ajouter tomates et fenouil 10 min.\nAjouter poissons durs (rascasse, grondin). Couvrir d'eau bouillante. Ajouter safran.\nFaire bouillir vivement 15 min. Ajouter les poissons tendres et coquillages. 10 min de plus.\nRETIRER les poissons. Mixer et filtrer le bouillon. Assaisonner.\n\nROUILLE : Piler ail et safran. Incorporer jaune d'œuf puis huile en filet (comme une mayo). Sel, piment.\n\nServir le bouillon chaud en soupière. Poissons à part. Croûtons frottés à l'ail. Rouille en pot.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Le_complexe_touristique_de_Z%C3%A9ralda.jpg/500px-Le_complexe_touristique_de_Z%C3%A9ralda.jpg",
+      "img": "img/photos/france-023.jpg",
       "url": "https://www.750g.com/bouillabaisse-r18208.htm"
     },
     {
@@ -10082,7 +10120,7 @@
       "cat": "Argentine, Plat, Soupe",
       "min": 180,
       "serv": 8,
-      "desc": "Le pot-au-feu argentin : jarret de bœuf, chorizo, poulet et légumes de racine mijotés des heures dans un bouillon riche. La tradition du dimanche en famille.",
+      "desc": "Le pot-au-feu argentin : jarret de bœuf, chorizo, poulet et légumes de racine mijotés des heures dans un bouillon riche. La tradition du dimanche en famille.\n\n📷 Photo : Dani Nofal — CC BY 2.0, Wikimedia Commons",
       "ing": [
         "600 g de jarret de bœuf",
         "2 cuisses de poulet",
@@ -10097,7 +10135,7 @@
         "Sel, poivre"
       ],
       "steps": "Déposer bœuf et poulet dans une grande casserole. Couvrir de 3 L d'eau froide. Porter à ébullition. Écumer.\nAjouter oignons, ail, laurier, sel. Mijoter 1h30.\nAjouter carottes, patates douces et pommes de terre. Cuire 30 min.\nAjouter maïs, chou et chorizos. Cuire 20 min de plus.\nServir le bouillon en premier, puis les légumes et viandes.\n\n💡 Le bouillon de puchero est la base de toutes les soupes argentines de la semaine.",
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Puchero.jpg/500px-Puchero.jpg",
+      "img": "img/photos/argentine-015.jpg",
       "url": "https://www.laylita.com/recipes/puchero/"
     },
     {
