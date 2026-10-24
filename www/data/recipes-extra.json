@@ -2242,8 +2242,7 @@
     },
     {
       "id": "dropbox:7472704a-8d06-4efc-bb69-8152536c3149",
-      "cat": "Dessert, Viennoiserie",
-      "af": "https://www.moulinex.fr/recette/detail/PRO/Beignets%20fondants%20aux%20pommes/2458851"
+      "cat": "Dessert, Viennoiserie"
     },
     {
       "id": "dropbox:815581662",
@@ -2397,8 +2396,7 @@
     },
     {
       "id": "af:003",
-      "cat": "Dessert, Airfryer, Viennoiserie",
-      "af": "https://www.moulinex.fr/recette/detail/PRO/Beignets%20fondants%20aux%20pommes/2458851"
+      "cat": "Dessert, Airfryer, Viennoiserie"
     },
     {
       "id": "dropbox:fc6d39d5-a79d-43fb-93c4-8f597e26f4c8",
@@ -29060,32 +29058,6 @@
         "3 œufs",
         "200 g de chapelure",
         "huile de friture"
-      ]
-    },
-    "https://www.moulinex.fr/recette/detail/PRO/Beignets%20fondants%20aux%20pommes/2458851": {
-      "name": "Beignets fondants aux pommes",
-      "rating": 1.5,
-      "n": 9,
-      "min": 28,
-      "yld": "6 pers.",
-      "ing": [
-        "3 Pommes golden",
-        "200 g Compote de pommes",
-        "2 Jaunes d’œufs",
-        "60 g Sucre en poudre",
-        "60 g Poudre d’amande",
-        "240 g Farine T 55",
-        "2 c. à c. Levure chimique",
-        "1 c. à c. Cannelle en poudre",
-        "50 g Farine",
-        "150 g Chapelure panko",
-        "40 g Sucre glace"
-      ],
-      "steps": [
-        "Éplucher et évider les pommes, les détailler en rondelles d'environ 5 mm (7 par pomme).",
-        "Mélanger compote, jaunes, sucre et poudre d'amande, puis ajouter farine, levure et cannelle : on obtient une pâte épaisse et collante.",
-        "Fariner chaque rondelle, la napper de pâte à la cuillère puis la rouler dans la chapelure panko.",
-        "Cuire les beignets en une couche sans qu'ils se touchent, en les retournant à mi-cuisson ; procéder en plusieurs fournées. Saupoudrer de sucre glace."
       ]
     },
     "https://www.moulinex.fr/recette/detail/PRO/Brownie/2774947": {
