@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.67';
+const APP_VERSION = '3.68';
 
 let ALL = [];
 let BASE = [];
@@ -393,8 +393,8 @@ const _PROTEIN_KWS = ['poulet','dinde','boeuf','veau','porc','agneau','canard','
 const _ANTIINFL_STRONG = ['curcuma','gingembre','saumon','sardine','maquereau','noix','amande','avocat','epinard','brocoli','myrtille','cerise','framboise','baie'];
 const _ANTIINFL_SUPPORT = ['ail','oignon','tomate','citron','olive','thym','romarin','cumin','cannelle'];
 
-const _MEAT_KWS = ['poulet','dinde','boeuf','veau','porc','agneau','canard','lapin','jambon','lardons','saucisse','chorizo','merguez','steak','viande','foie','rognon','magret','pigeon','pintade','caille','perdreau'];
-const _FISH_KWS = ['thon','saumon','cabillaud','sardine','maquereau','anchois','crevette','moule','palourde','homard','crabe','poisson','lotte','langoustine','seiche','poulpe','calamar','merlu','daurade','dorade'];
+const _MEAT_KWS = ['poulet','dinde','boeuf','veau','porc','agneau','canard','lapin','jambon','lardons','saucisse','chorizo','merguez','steak','viande','foie','rognon','magret','pigeon','pintade','caille','perdreau','pepperoni','salami','bacon','pancetta','coppa','bresaola','prosciutto','saucisson','figatelli','lonzu','andouille','andouillette','boudin','chipolata','mortadelle','rillettes','confit','gesier','cerf','sanglier','chevreuil','oie'];
+const _FISH_KWS = ['thon','saumon','cabillaud','sardine','maquereau','anchois','crevette','moule','palourde','homard','crabe','poisson','lotte','langoustine','seiche','poulpe','calamar','merlu','daurade','dorade','colin','truite','bar','sole','surimi','morue','bacalao','hareng','saint-jacques','huitre','encornet','gambas','langouste','oursin','bulot','anguille'];
 
 const _KETO_INCLUDE = ['avocat','oeuf','fromage','amande','noix','saumon','boeuf','poulet','agneau','porc','canard','lardons','beurre','creme','parmesan','gruyere'];
 const _KETO_EXCLUDE = ['pates','pain','riz','pomme de terre','farine','sucre','cereale','mais','haricot','lentille','pois chiche','biscuit','couscous','semoule','boulgour','miel','sirop','banane','dattes'];
@@ -2367,6 +2367,7 @@ function renderFrigoIngs(tab){
 const STOCK_STOP = new Set(('de du des la le les un une et en au aux a d l avec sans pour sur par ou '+
   'bio nature naturel naturelle extra fin fins fine fines classique original originale qualite premium superieur superieure '+
   'boite boites conserve conserves bocal bocaux sachet sachets paquet pack lot format familial maxi mini '+
+  'batonnet batonnets stick sticks portion portions barquette barquettes '+
   'france francais francaise origine marque repere gr kg cl ml litre litres '+
   'carrefour auchan leclerc lidl casino intermarche monoprix franprix systeme reflets panzani barilla lustucru '+
   'bonduelle cassegrain daucy heinz amora maille lesieur puget knorr maggi vahine ancel francine saupiquet connetable').split(' '));
@@ -2377,7 +2378,7 @@ const STOCK_GENERIC = new Set(['sauce','jus','creme','poudre','sirop','bouillon'
   'pulpe','couli','concentre','compote','nectar','gelee','fond','fumet','cube','flocon','farine','graine','feuille','eau','boisson','yaourt','preparation','melange',
   'filet','dos','steak','morceau','tranche','rondelle','coeur','brisure','haricot','pois','petit','pomme','noix','chou','fruit','cuisse','blanc','aile',
   'cote','cotelette','roti','escalope','epaule','jarret','joue','poitrine','echine','chair','entier']);
-const LINE_STOP = new Set(['de','du','des','la','le','les','un','une','et','en','au','aux','ou','pour','avec','cuillere','cuilleres','soupe','cafe','pincee','pincees','gousse','gousses','tranche','tranches','boite','boites','sachet','sachets','verre','verres','bouquet','brin','brins','feuille','feuilles','goutte','gouttes','quelques']);
+const LINE_STOP = new Set(['de','du','des','la','le','les','un','une','et','en','au','aux','ou','pour','avec','cuillere','cuilleres','soupe','cafe','pincee','pincees','gousse','gousses','tranche','tranches','boite','boites','sachet','sachets','verre','verres','bouquet','brin','brins','feuille','feuilles','goutte','gouttes','quelques','batonnet','batonnets','stick','sticks','portion','portions','barquette','barquettes']);
 
 // « pâtes » (pâtes alimentaires) ≠ « pâte » (feuilletée, brisée…) : on ne singularise pas ce mot.
 function stockStem(w){ return w !== 'pates' && w.length > 4 && /[sx]$/.test(w) ? w.slice(0, -1) : w; }
@@ -2485,7 +2486,7 @@ function lineHasProduct(toks, name){
 function isStapleLine(line){ return /\b(sel|poivre|eau)\b/.test(norm(line)) && norm(line).split(/\s+/).length <= 6; }
 function cleanIngLine(line){
   return String(line).replace(/^[\d\s.,/½¼¾⅓⅔-]+/, '')
-    .replace(/^(g|kg|mg|ml|cl|dl|l|grammes?|c\.?\s?[aà]\s?[sc]\.?|cuill?\w*( à \w+)?|pinc\w*|gouttes?|gousses?|tranches?|bo[iî]tes?|sachets?|verres?|brins?|feuilles?)\s+/i, '')
+    .replace(/^(g|kg|mg|ml|cl|dl|l|grammes?|c\.?\s?[aà]\s?[sc]\.?|cuill?\w*( à \w+)?|pinc\w*|gouttes?|b[aâ]tonnets?|gousses?|tranches?|bo[iî]tes?|sachets?|verres?|brins?|feuilles?)\s+/i, '')
     .replace(/^(de |d'|d’)/i, '').trim();
 }
 // Mots de préparation : « coupées en dés », « fondu », « facultatif »… ne sont pas des ingrédients.

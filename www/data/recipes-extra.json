@@ -2556,6 +2556,27 @@
     {
       "id": "dropbox:1670248608",
       "cat": "Plat, Poisson"
+    },
+    {
+      "id": "dropbox:2cb0bb41-13a4-4504-8f4f-7515ea963ef7",
+      "ing": [
+        "4 tortillas de farine de 20 cm",
+        "4 c. à soupe de sauce à pizza",
+        "20 tranches de pepperoni",
+        "2 bâtonnets de mozzarella (fromage à effilocher, type string cheese)",
+        "1 c. à café d'huile d'olive"
+      ],
+      "desc": "Tortillas roulées autour de sauce tomate, pepperoni et mozzarella, dorées 5 min à l'Air Fryer.",
+      "steps": [
+        "Réchauffer les tortillas : les empiler sur une assiette passant au micro-ondes, couvrir d'un essuie-tout humide et chauffer 20 secondes pour les assouplir.",
+        "Préchauffer l'Air Fryer à 190 °C pendant 5 minutes.",
+        "Couper les bâtonnets de mozzarella en deux dans la longueur.",
+        "Étaler environ 1 c. à soupe de sauce à pizza en bas de chaque tortilla, ajouter 5 tranches de pepperoni puis un demi-bâtonnet de mozzarella, et rouler serré.",
+        "Badigeonner le dessus des rouleaux d'huile d'olive pour plus de croustillant.",
+        "Poser les rouleaux dans le panier, jointure dessous, et cuire 5 minutes jusqu'à ce qu'ils soient dorés.",
+        "Laisser tiédir et servir avec un peu de sauce à pizza pour tremper.",
+        "Pour réchauffer : 1 à 2 minutes à 180 °C dans l'Air Fryer."
+      ]
     }
   ],
   "recipes": [
