@@ -28328,22 +28328,14 @@
       "cat": "Sauce, Condiment, Thermomix",
       "min": 20,
       "serv": 1,
-      "desc": "Version Thermomix de Melusinette sur Cookomix, notée 4,74/5 (50 avis). Étapes résumées avec les réglages (temps / température / vitesse) ; recette complète sur le site.",
+      "desc": "Deux versions Thermomix : une express avec les ingrédients de la recette classique, et celle de Melusinette sur Cookomix, notée 4,74/5 (50 avis). Étapes résumées avec les réglages (temps / température / vitesse) ; recette complète sur le site.",
       "ing": [
-        "5 g de persil frais",
-        "5 g d'aneth fraîche",
-        "50 g de concombres",
-        "30 g d'échalotes",
-        "3 œuf",
-        "1 c. à soupe de câpres",
-        "1 c. à café de jus de citron",
-        "2 c. à café de moutarde de Dijon",
-        "½ c. à café de sel",
-        "2 pincées de poivre",
-        "225 g d'huile de tournesol"
+        "Version express : 150 g de mayonnaise, 1 cornichon finement haché, 1 c. à s. de câpres, 1 c. à s. de persil frais ciselé, 1 c. à c. de moutarde, Poivre",
+        "Version Cookomix : 5 g de persil frais, 5 g d'aneth fraîche, 50 g de concombres, 30 g d'échalotes, 3 œuf, 1 c. à soupe de câpres, 1 c. à café de jus de citron, 2 c. à café de moutarde de Dijon, ½ c. à café de sel, 2 pincées de poivre, 225 g d'huile de tournesol"
       ],
       "steps": [
-        "Mettre dans le bol : 5 g de persil frais (les feuilles seulement), 5 g d'aneth fraîche, puis mélanger 3 sec / vitesse 8.",
+        "⚡ Version express (avec les ingrédients de la recette classique) : Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Racler les parois. Mixer encore 5 sec / vitesse 3.",
+        "📖 Version Cookomix : Mettre dans le bol : 5 g de persil frais (les feuilles seulement), 5 g d'aneth fraîche, puis mélanger 3 sec / vitesse 8.",
         "Racler les parois du bol avec la spatule.",
         "Mettre dans le bol : 50 g de concombres, 30 g d'échalotes, 1 oeuf dur, 1 c. à soupe de câpres, puis mélanger 2 sec / vitesse 5.",
         "Racler les parois du bol avec la spatule.",
@@ -28367,21 +28359,14 @@
       "cat": "Sauce, Condiment, Thermomix",
       "min": 10,
       "serv": 1,
-      "desc": "Version Thermomix de Melusinette sur Cookomix, notée 4,91/5 (23 avis). Étapes résumées avec les réglages (temps / température / vitesse) ; recette complète sur le site.",
+      "desc": "Deux versions Thermomix : une express avec les ingrédients de la recette classique, et celle de Melusinette sur Cookomix, notée 4,91/5 (23 avis). Étapes résumées avec les réglages (temps / température / vitesse) ; recette complète sur le site.",
       "ing": [
-        "120 g de mayonnaise",
-        "50 g de crème fraîche liquide",
-        "80 g de ketchup",
-        "1 c. à café de sauce Worcestershire",
-        "10 g de cognac",
-        "5 g de jus de citron",
-        "3 gouttes de tabasco",
-        "1 pincée de paprika",
-        "¼ c. à café de sel",
-        "1 pincée de poivre"
+        "Version express : 120 g de mayonnaise, 2 c. à s. de ketchup, 1 c. à c. de cognac (ou jus de citron), 1 pincée de paprika",
+        "Version Cookomix : 120 g de mayonnaise, 50 g de crème fraîche liquide, 80 g de ketchup, 1 c. à café de sauce Worcestershire, 10 g de cognac, 5 g de jus de citron, 3 gouttes de tabasco, 1 pincée de paprika, ¼ c. à café de sel, 1 pincée de poivre"
       ],
       "steps": [
-        "Mettre dans le bol : 120 g de mayonnaise, 50 g de crème fraîche liquide, 80 g de ketchup, 1 c. à café de sauce worcestershire, 10 g de cognac, 5 g de jus de citron, 3 gouttes de tabasco, 1 pincée de paprika, ¼ c. à café de sel, 1 pincée de poivre, puis mélanger 40 sec / vitesse 3.",
+        "⚡ Version express (avec les ingrédients de la recette classique) : Mettre tous les ingrédients dans le bol. Mixer 10 sec / vitesse 4. Racler les parois. Mixer 5 sec / vitesse 3.",
+        "📖 Version Cookomix : Mettre dans le bol : 120 g de mayonnaise, 50 g de crème fraîche liquide, 80 g de ketchup, 1 c. à café de sauce worcestershire, 10 g de cognac, 5 g de jus de citron, 3 gouttes de tabasco, 1 pincée de paprika, ¼ c. à café de sel, 1 pincée de poivre, puis mélanger 40 sec / vitesse 3.",
         "Transvaser dans un bocal et réserver au frigo."
       ],
       "img": "https://www.cookomix.com/wp-content/uploads/2022/04/sauce-cocktail-thermomix-800x600.jpg",
@@ -28395,18 +28380,14 @@
       "cat": "Sauce, Condiment, Thermomix",
       "min": 45,
       "serv": 1,
-      "desc": "Version Thermomix de Giulia sur Cookomix, notée 4,89/5 (127 avis). Étapes résumées avec les réglages (temps / température / vitesse) ; recette complète sur le site.",
+      "desc": "Deux versions Thermomix : une express avec les ingrédients de la recette classique, et celle de Giulia sur Cookomix, notée 4,89/5 (127 avis). Étapes résumées avec les réglages (temps / température / vitesse) ; recette complète sur le site.",
       "ing": [
-        "250 g de sauce tomate",
-        "80 g de vinaigre de cidre",
-        "60 g de sauce Worcestershire",
-        "100 g de cassonade",
-        "2 c. à soupe de moutarde de Dijon",
-        "1 gousse d'ail",
-        "1 c. à soupe de jus de citron"
+        "Version express : 200 ml de ketchup, 1 c. à s. de miel, 1 c. à s. de sauce soja, 1 c. à c. de paprika fumé, 1 c. à c. de vinaigre",
+        "Version Cookomix : 250 g de sauce tomate, 80 g de vinaigre de cidre, 60 g de sauce Worcestershire, 100 g de cassonade, 2 c. à soupe de moutarde de Dijon, 1 gousse d'ail, 1 c. à soupe de jus de citron"
       ],
       "steps": [
-        "Mettre dans le bol : 250 g de sauce tomate, 80 g de vinaigre de cidre, 60 g de sauce worcestershire, 100 g de cassonade, 2 c. à soupe de moutarde de dijon, 1 gousse d'ail, 1 c. à soupe de jus de citron, puis mélanger 12 sec / vitesse 7.",
+        "⚡ Version express (avec les ingrédients de la recette classique) : Mettre tous les ingrédients dans le bol. Cuire 7 min / 90°C / vitesse 2. Peut être mixée 5 sec / vitesse 5 pour texture plus lisse.",
+        "📖 Version Cookomix : Mettre dans le bol : 250 g de sauce tomate, 80 g de vinaigre de cidre, 60 g de sauce worcestershire, 100 g de cassonade, 2 c. à soupe de moutarde de dijon, 1 gousse d'ail, 1 c. à soupe de jus de citron, puis mélanger 12 sec / vitesse 7.",
         "Racler les parois du bol avec la spatule.",
         "Mettre le panier de cuisson à la place du gobelet doseur sur le couvercle du bol pour éviter les projections.",
         "Cuire 25 min / Varoma / vitesse mijotage.",
@@ -30131,32 +30112,6 @@
       "pair": "espagne:029"
     },
     {
-      "id": "tmx:110",
-      "t": "Sauce tartare maison au Thermomix",
-      "cat": "Sauce, Condiment, Thermomix",
-      "min": 5,
-      "serv": 4,
-      "desc": "Version Thermomix de la recette « Sauce tartare maison ».",
-      "ing": [
-        "150 g de mayonnaise",
-        "1 cornichon finement haché",
-        "1 c. à s. de câpres",
-        "1 c. à s. de persil frais ciselé",
-        "1 c. à c. de moutarde",
-        "Poivre"
-      ],
-      "steps": [
-        "Mettre tous les ingrédients dans le bol.",
-        "Mixer 10 sec / vitesse 4.",
-        "Racler les parois.",
-        "Mixer encore 5 sec / vitesse 3."
-      ],
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Sauce_tartare.jpg/500px-Sauce_tartare.jpg",
-      "url": "",
-      "vid": "",
-      "pair": "sauce:001"
-    },
-    {
       "id": "tmx:111",
       "t": "Sauce aïoli rapide au Thermomix",
       "cat": "Sauce, Condiment, Thermomix",
@@ -30181,30 +30136,6 @@
       "url": "",
       "vid": "",
       "pair": "sauce:002"
-    },
-    {
-      "id": "tmx:112",
-      "t": "Sauce cocktail (sauce rose) au Thermomix",
-      "cat": "Sauce, Condiment, Thermomix",
-      "min": 5,
-      "serv": 4,
-      "desc": "Version Thermomix de la recette « Sauce cocktail (sauce rose) ».",
-      "ing": [
-        "120 g de mayonnaise",
-        "2 c. à s. de ketchup",
-        "1 c. à c. de cognac (ou jus de citron)",
-        "1 pincée de paprika"
-      ],
-      "steps": [
-        "Mettre tous les ingrédients dans le bol.",
-        "Mixer 10 sec / vitesse 4.",
-        "Racler les parois.",
-        "Mixer 5 sec / vitesse 3."
-      ],
-      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Shrimp_cocktail.jpg/500px-Shrimp_cocktail.jpg",
-      "url": "",
-      "vid": "",
-      "pair": "sauce:003"
     },
     {
       "id": "tmx:113",
@@ -30277,30 +30208,6 @@
       "url": "",
       "vid": "",
       "pair": "sauce:006"
-    },
-    {
-      "id": "tmx:116",
-      "t": "Sauce barbecue maison au Thermomix",
-      "cat": "Sauce, Condiment, Thermomix",
-      "min": 10,
-      "serv": 6,
-      "desc": "Version Thermomix de la recette « Sauce barbecue maison ».",
-      "ing": [
-        "200 ml de ketchup",
-        "1 c. à s. de miel",
-        "1 c. à s. de sauce soja",
-        "1 c. à c. de paprika fumé",
-        "1 c. à c. de vinaigre"
-      ],
-      "steps": [
-        "Mettre tous les ingrédients dans le bol.",
-        "Cuire 7 min / 90°C / vitesse 2.",
-        "Peut être mixée 5 sec / vitesse 5 pour texture plus lisse."
-      ],
-      "img": "img/photos/sauce-007.jpg",
-      "url": "",
-      "vid": "",
-      "pair": "sauce:007"
     },
     {
       "id": "tmx:117",
