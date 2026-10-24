@@ -24439,6 +24439,89 @@
         "Empiler les crêpes sur une assiette sous un torchon pour les garder moelleuses. Garnir au choix (sucre, confiture, pâte à tartiner, citron…)."
       ],
       "img": "img/crepes/05.jpg"
+    },
+    {
+      "id": "tmx:009",
+      "t": "Velouté de courgette au Thermomix",
+      "cat": "Soupe, Entrée, Thermomix, Courgette, Légumes",
+      "min": 25,
+      "serv": 4,
+      "desc": "Recette officielle Vorwerk (blog Thermomix®). Velouté lisse aux courgettes et fromage à tartiner, prêt en 25 minutes.",
+      "ing": [
+        "50 g d'oignon",
+        "1 gousse d'ail (facultatif)",
+        "700 g de courgettes",
+        "500 g d'eau",
+        "1 cube de bouillon de légumes",
+        "½ c. à café de sel",
+        "1 pincée de poivre moulu",
+        "10 g de beurre",
+        "40 - 50 g de fromage à tartiner"
+      ],
+      "steps": [
+        "Mettre l'oignon et l'ail dans le bol, hacher 3 sec / vitesse 5.",
+        "Racler les parois du bol avec la spatule.",
+        "Ajouter les courgettes, l'eau, le cube de bouillon, le sel et le poivre ; cuire 15 min / 100°C / vitesse 1.",
+        "Ajouter le beurre et le fromage à tartiner, puis mixer 1 min / vitesse 4 à 8 en augmentant progressivement. Rectifier l'assaisonnement et servir chaud.",
+        "Astuce Vorwerk : quelques feuilles de menthe fraîche à l'étape 3 ou au service."
+      ],
+      "img": "https://media.vorwerk.com/is/image/vorwerk/fr-thermomix-veloute-de-courgette?wid=980&hei=490",
+      "url": "https://www.vorwerk.com/fr/fr/c/vorwerk/astuces-recettes/blog/thermomix/recettes-quotidien/recette-veloute-de-courgette",
+      "vid": ""
+    },
+    {
+      "id": "tmx:010",
+      "t": "Velouté de légumes au Thermomix",
+      "cat": "Soupe, Entrée, Thermomix, Légumes",
+      "min": 35,
+      "serv": 6,
+      "desc": "Recette officielle Vorwerk (blog Thermomix®). Le velouté de base : pommes de terre, tomate et légumes au choix, tout cuit dans le bol.",
+      "ing": [
+        "300 g de pommes de terre",
+        "100 g de tomate",
+        "80 g d'oignon",
+        "1 gousse d'ail",
+        "400 g de légumes variés",
+        "2 brins de persil frais",
+        "½ c. à café de sel",
+        "¼ - ½ c. à café de poivre moulu",
+        "600 g d'eau",
+        "20 g de beurre"
+      ],
+      "steps": [
+        "Mettre dans le bol les pommes de terre, la tomate, l'oignon, l'ail, les légumes, le persil, le sel, le poivre et l'eau ; cuire 25 min / 100°C / vitesse 1.",
+        "Ajouter le beurre et lancer le mode mixage / 1 min. Servir chaud.",
+        "Variante Vorwerk : avant l'étape 1, mixer l'oignon et l'ail avec 20 g d'huile 5 sec / vitesse 7, puis faire revenir 3 min / 120°C / vitesse 1 ; continuer la recette sans le beurre.",
+        "Pour une soupe plus liquide : moins de pommes de terre ou un peu plus d'eau."
+      ],
+      "img": "https://media.vorwerk.com/is/image/vorwerk/fr-thermomix-veloute-de-legumes?wid=980&hei=490",
+      "url": "https://www.vorwerk.com/fr/fr/c/vorwerk/astuces-recettes/blog/thermomix/recettes-quotidien/recette-veloute-de-legumes",
+      "vid": ""
+    },
+    {
+      "id": "tmx:011",
+      "t": "Soupe onctueuse végétarienne au Thermomix",
+      "cat": "Soupe, Entrée, Thermomix, Légumes, Végétarien",
+      "min": 45,
+      "serv": 6,
+      "desc": "Recette officielle Vorwerk (blog Thermomix®). Soupe de légumes variés, poêlés puis cuits et mixés. Le mode « Hautes températures » demande un TM6 ou TM7.",
+      "ing": [
+        "25 - 30 g d'huile d'olive",
+        "170 - 200 g de légumes à poêler (oignon, échalote, poireau…)",
+        "700 - 800 g de légumes variés",
+        "750 - 850 g d'eau",
+        "1 c. à café de fond de légumes",
+        "½ c. à café de sel"
+      ],
+      "steps": [
+        "Mettre l'huile d'olive et les légumes à poêler dans le bol, puis lancer le mode Hautes températures.",
+        "Ajouter les légumes variés et mixer 5 sec / vitesse 4.",
+        "Ajouter l'eau, le fond de légumes et le sel ; cuire 25 min / 100°C / vitesse 2, puis lancer le mode mixage / 1 min 30 sec. Servir chaud.",
+        "Au service : herbes ciselées, croûtons, graines torréfiées, filet de crème ou d'huile d'olive."
+      ],
+      "img": "https://media.vorwerk.com/is/image/vorwerk/fr-thermomix-soupe-onctueuse-v%C3%A9g%C3%A9tarienne?wid=980&hei=490",
+      "url": "https://www.vorwerk.com/fr/fr/c/vorwerk/astuces-recettes/blog/thermomix/recettes-quotidien/recette-de-soupe-onctueuse-vegetarienne",
+      "vid": ""
     }
   ],
   "official": {
