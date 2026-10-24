@@ -2354,7 +2354,16 @@
     },
     {
       "id": "dropbox:cc714235-1332-4f3a-b649-39c91d0ef3a2",
-      "cat": "Airfryer, Boulangerie, Pain"
+      "cat": "Airfryer, Boulangerie, Pain",
+      "ing": [
+        "190 g de farine T45",
+        "1,25 c. à café de levure boulangère instantanée",
+        "1 g de sel fin",
+        "0,5 g de sucre",
+        "180 ml d'eau tiède (25-30 °C)",
+        "5 ml d'huile d'olive"
+      ],
+      "pair": "pain:007"
     },
     {
       "id": "dropbox:7d168342-eebd-4c12-b912-5201dbac798f",
@@ -25237,7 +25246,8 @@
         "Déposer la boule dans la cocotte brûlante, couvrir et cuire 30 min, puis découvrir et cuire 10 à 15 min jusqu'à ce que la croûte soit bien dorée."
       ],
       "url": "",
-      "vid": ""
+      "vid": "",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/pain-sans-petrissage/2594035"
     },
     {
       "id": "pain:004",
@@ -29078,7 +29088,8 @@
         "Cuire 25 min à 200 °C, rebadigeonner de beurre à l'ail à la sortie."
       ],
       "url": "",
-      "vid": ""
+      "vid": "",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Pain%20%C3%A0%20l%E2%80%99ail/2765826"
     },
     {
       "id": "pain:022",
@@ -29379,7 +29390,8 @@
         "Cuire 25 min à 220 °C."
       ],
       "url": "",
-      "vid": ""
+      "vid": "",
+      "af": "https://www.moulinex.fr/recette/detail/PRO/Focaccia%20facile/2594027"
     },
     {
       "id": "pain:035",
@@ -30784,6 +30796,69 @@
         "Frotter le plat avec une gousse d'ail, répartir les autres morceaux d'ail au fond, puis ranger les légumes serrés en alternant.",
         "Arroser d'huile, parsemer de persil, thym, romarin, laurier, saler, poivrer et cuire sur la plaque.",
         "Finir avec le basilic et servir chaud."
+      ]
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/pain-sans-petrissage/2594035": {
+      "name": "Pain sans pétrissage",
+      "rating": 5.0,
+      "n": 1,
+      "min": 145,
+      "yld": "6 pers.",
+      "ing": [
+        "25 cl d'eau",
+        "1 sachet de levure de boulanger sèche (4,6 g)",
+        "½ c. à café de sucre en poudre",
+        "400 g de farine T45",
+        "8 g de sel"
+      ],
+      "steps": [
+        "Mélanger l'eau, le sucre et la levure, laisser reposer 5 min.",
+        "Mélanger la farine, le mélange levure et le sel, pétrir 5 min à la main puis faire 8 rabats pour former une boule ; laisser lever dans un moule à charnière de 18 cm.",
+        "Fariner le dessus et entailler la pâte en pointes avec des ciseaux.",
+        "Cuire environ 40 min à 200 °C sur la plaque de l'appareil.",
+        "Laisser refroidir sur une grille : le pain est cuit quand il sonne creux dessous."
+      ]
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Focaccia%20facile/2594027": {
+      "name": "Focaccia facile",
+      "min": 90,
+      "yld": "4 pers.",
+      "ing": [
+        "18 cl d'eau",
+        "1 pincée de sucre",
+        "6 g de levure de boulanger déshydratée",
+        "250 g de farine T55",
+        "8 g de sel",
+        "Huile d'olive"
+      ],
+      "steps": [
+        "Mélanger l'eau et le sucre, ajouter la levure et laisser reposer 5 min.",
+        "Mettre le sel puis la farine dans un saladier (la levure ne doit pas toucher le sel), ajouter le mélange levure et pétrir 10 min.",
+        "Placer la pâte dans un moule rond de 24 cm huilé, couvrir et laisser lever au moins 1 h, jusqu'à ce qu'elle double.",
+        "Faire des trous profonds avec les doigts huilés, verser de l'huile d'olive dans chaque trou, parsemer d'herbes au choix.",
+        "Cuire environ 15 min à 200 °C sur la plaque de l'appareil ; relancer 5 min si le dessous n'est pas assez doré."
+      ]
+    },
+    "https://www.moulinex.fr/recette/detail/PRO/Pain%20%C3%A0%20l%E2%80%99ail/2765826": {
+      "name": "Pain à l’ail",
+      "min": 110,
+      "yld": "4 pers.",
+      "ing": [
+        "3,5 g de levure de boulanger déshydratée",
+        "210 g d'eau tiède",
+        "350 g de farine T45 ou 00",
+        "3 g de sucre semoule",
+        "35 g d'huile d'olive",
+        "7 g de sel fin",
+        "2 gousses d'ail hachées finement",
+        "2 c. à soupe de persil haché"
+      ],
+      "steps": [
+        "Délayer la levure dans l'eau tiède (40 °C maximum), laisser reposer 5 min.",
+        "Mélanger la farine, le sucre, l'huile, le sel, la moitié de l'ail et le persil ; ajouter l'eau levurée et pétrir 3 min à vitesse lente puis 5 min à vitesse moyenne.",
+        "Écraser et rabattre la pâte 8 fois sur le plan de travail fariné pour l'assouplir.",
+        "Former des boules de 50 g et les disposer en marguerite dans un moule à tarte adapté à l'appareil ; laisser pousser 1 h.",
+        "Cuire environ 25 min à 180 °C sur la plaque standard, puis laisser refroidir sur une grille."
       ]
     }
   }
