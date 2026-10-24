@@ -1,4 +1,4 @@
-const CACHE = 'recettes-app-v3.38';
+const CACHE = 'recettes-app-v3.39';
 const SHELL = [
   './', './index.html', './styles.css', './app.js', './update-check.js', './autobackup.js',
   './data/recipes.json', './data/recipes-extra.json', './manifest.webmanifest',

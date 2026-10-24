@@ -22103,7 +22103,7 @@
     {
       "id": "pinsa:001",
       "t": "Pinsa Tomates, Mozzarella, Basilic",
-      "cat": "Italie, Pizza, Plat, Pinsa",
+      "cat": "Italie, Plat, Pinsa",
       "desc": "La margherita version pinsa romaine, légère et croustillante.",
       "min": 15,
       "serv": 2,
@@ -22127,7 +22127,7 @@
     {
       "id": "pinsa:002",
       "t": "Pinsa Jambon Cru, Roquette, Parmesan",
-      "cat": "Italie, Pizza, Plat, Pinsa",
+      "cat": "Italie, Plat, Pinsa",
       "desc": "Base crème, jambon cru posé à la sortie du four, roquette et copeaux de parmesan.",
       "min": 15,
       "serv": 2,
@@ -22151,7 +22151,7 @@
     {
       "id": "pinsa:003",
       "t": "Pinsa Courgettes, Chèvre, Miel",
-      "cat": "Italie, Pizza, Plat, Pinsa",
+      "cat": "Italie, Plat, Pinsa",
       "desc": "Rondelles de courgette, chèvre fondant, miel et noix.",
       "min": 20,
       "serv": 2,
@@ -22176,7 +22176,7 @@
     {
       "id": "pinsa:004",
       "t": "Pinsa Poivrons, Feta, Olives",
-      "cat": "Italie, Pizza, Plat, Pinsa",
+      "cat": "Italie, Plat, Pinsa",
       "desc": "Saveurs grecques : poivrons grillés, feta, olives noires et origan.",
       "min": 15,
       "serv": 2,
@@ -22200,7 +22200,7 @@
     {
       "id": "pinsa:005",
       "t": "Pinsa Saumon Fumé, Fromage Frais, Aneth",
-      "cat": "Italie, Pizza, Plat, Pinsa",
+      "cat": "Italie, Plat, Pinsa",
       "desc": "Une pinsa fraîche, garnie après cuisson : saumon fumé, aneth et câpres.",
       "min": 15,
       "serv": 2,
@@ -22222,7 +22222,7 @@
     {
       "id": "pinsa:006",
       "t": "Pinsa Champignons, Truffe, Roquette",
-      "cat": "Italie, Pizza, Plat, Pinsa",
+      "cat": "Italie, Plat, Pinsa",
       "desc": "Base crème de truffe, champignons, mozzarella et roquette.",
       "min": 20,
       "serv": 2,
@@ -22246,7 +22246,7 @@
     {
       "id": "pinsa:007",
       "t": "Pinsa Burrata, Tomates Cerises, Pesto",
-      "cat": "Italie, Pizza, Plat, Pinsa",
+      "cat": "Italie, Plat, Pinsa",
       "desc": "Une burrata entière posée sur une base pesto et tomates cerises rôties.",
       "min": 15,
       "serv": 2,
@@ -22270,7 +22270,7 @@
     {
       "id": "pinsa:008",
       "t": "Pinsa Thon, Oignons Rouges, Maïs",
-      "cat": "Italie, Pizza, Plat, Pinsa",
+      "cat": "Italie, Plat, Pinsa",
       "desc": "La pinsa du placard : thon, maïs, oignon rouge et olives.",
       "min": 15,
       "serv": 2,
@@ -22294,7 +22294,7 @@
     {
       "id": "pinsa:009",
       "t": "Pinsa Avocat, Tomates, Feta",
-      "cat": "Italie, Pizza, Plat, Pinsa",
+      "cat": "Italie, Plat, Pinsa",
       "desc": "Base crème, avocat, tomates, feta, citron et une pointe de piment.",
       "min": 15,
       "serv": 2,
@@ -22317,7 +22317,7 @@
     {
       "id": "pinsa:010",
       "t": "Pinsa Pêche, Jambon Cru, Roquette",
-      "cat": "Italie, Pizza, Plat, Pinsa",
+      "cat": "Italie, Plat, Pinsa",
       "desc": "Sucré-salé estival : pêches, jambon cru et roquette sur base crème.",
       "min": 15,
       "serv": 2,
