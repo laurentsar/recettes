@@ -181,9 +181,13 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .steps li::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:0;width:30px;height:30px;
   background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-radius:50%;
   display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9em}
-.steps li.step-head{padding:10px 0 8px;font-size:.78em;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--accent);line-height:1.3}
+.steps li.step-head{display:table;margin:2px 0 14px;padding:5px 14px 5px 12px;border-radius:999px;
+  background:color-mix(in srgb,var(--accent) 16%,transparent);border:1px solid color-mix(in srgb,var(--accent) 40%,transparent);
+  font-weight:800;font-size:.9em;color:var(--accent);line-height:1.3}
 .steps li.step-head::before{display:none}
-.cook-step-sec{font-size:.62em;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--accent);margin-bottom:10px}
+.steps li.step-head:not(:first-child){margin-top:8px}
+.cook-step-sec{display:table;margin:0 auto 16px;font-size:.6em;font-weight:800;color:var(--accent);background:color-mix(in srgb,var(--accent) 15%,transparent);
+  border:1px solid color-mix(in srgb,var(--accent) 45%,transparent);border-radius:999px;padding:4px 14px}
 .d-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
 .d-links a{flex:1;min-width:130px;text-align:center;text-decoration:none;font-weight:700;padding:12px;border-radius:11px;
   background:var(--card);border:1px solid var(--line);color:var(--text)}
