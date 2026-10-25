@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.84';
+const APP_VERSION = '3.85';
 
 let ALL = [];
 let BASE = [];
@@ -394,8 +394,8 @@ function restMinutes(r){
   if (/(toute la nuit|une nuit|la veille)/.test(st)) w = Math.max(w, 480);
   return (r._rest = Math.round(w));
 }
-// Repos ajouté seulement s'il dépasse la durée saisie (sinon il y est déjà compté : pâte à pizza 1 h 30 dont 1 h de levée).
-function extraRest(r){ const w = restMinutes(r); return r.min && w > +r.min ? w : 0; }
+// Temps total = préparation saisie + tout le repos lu dans les étapes.
+function extraRest(r){ return r.min ? restMinutes(r) : 0; }
 function totalMinutes(r){ return r.min ? +r.min + extraRest(r) : 0; }
 function fmtMin(m){ return m >= 60 ? Math.floor(m / 60) + ' h' + (m % 60 ? ' ' + String(m % 60).padStart(2, '0') : '') : m + ' min'; }
 const SANTE_SUBS = new Set(['sansgluten','proteines','antiinflamm','vegetarien','vegan','keto','rapide']);
@@ -4396,6 +4396,7 @@ function qkFilter(answers){
 function openQuick(preset){
   qk = { answers: Object.assign({}, preset && preset.answers), cov: new Map(), have: null };
   qk.idx = qkIndex();
+  qk.step = preset ? QK_QUESTIONS.length : 0;
   let el = document.getElementById('quick');
   if (!el){ el = document.createElement('div'); el.id = 'quick'; el.className = 'editview quick'; document.body.appendChild(el); }
   el.hidden = false; document.body.style.overflow = 'hidden';
@@ -4405,38 +4406,57 @@ function openQuick(preset){
 function closeQuick(){ const el = document.getElementById('quick'); if (el) el.hidden = true;
   try { if (document.fullscreenElement) document.exitFullscreen().catch(()=>{}); } catch(e){} document.body.style.overflow = ''; qk = null; }
 function qkRender(){
-  // Plein écran : critères en grosses icônes en haut, recettes dans un panneau en bas (défilement horizontal, ▲ pour agrandir).
+  // Étape par étape : seule la question en cours est affichée (grosses icônes) ; les réponses déjà
+  // données restent en petites pastilles (toucher = revenir à cette question) ; recettes en bas.
   const el = document.getElementById('quick');
+  if (qk.step == null) qk.step = 0;
   const list = qkFilter(qk.answers);
   const sorted = qk.answers.envie === 'stock' ? list.slice().sort((a, b) => stockRank(qkStockCov(a), qkStockCov(b))) : list;
-  const rows = QK_QUESTIONS.map(q => `<div class="qk-row"><span class="qk-lbl">${esc(q.title)}</span><div class="qk-tiles">${
-    q.opts(qk.answers).map(o => {
-      const on = qk.answers[q.key] === o.v;
-      const n = on || o.v === 'stock' ? 1 : qkCount(Object.assign({}, qk.answers, { [q.key]: o.v }));
-      const sp = o.label.indexOf(' ');
-      return `<button class="qk-tile${on ? ' on' : ''}" data-k="${q.key}" data-v="${o.v}"${n || on ? '' : ' disabled'}><span class="qk-ico">${o.label.slice(0, sp)}</span><span class="qk-txt">${esc(o.label.slice(sp + 1))}</span></button>`;
-    }).join('')}</div></div>`).join('');
+  const total = QK_QUESTIONS.length, done = qk.step >= total;
+  const answered = QK_QUESTIONS.map((q, i) => {
+    const a = qk.answers[q.key]; const o = a && q.opts(qk.answers).find(x => x.v === a);
+    return o && i !== qk.step ? `<button class="qk-ans" data-i="${i}">${o.label} ✎</button>` : '';
+  }).join('');
+  let body = '';
+  if (!done){
+    const q = QK_QUESTIONS[qk.step];
+    body = `<div class="qk-q"><span class="qk-step">${qk.step + 1} / ${total}</span>${esc(q.title)}</div>
+      <div class="qk-tiles big">${q.opts(qk.answers).map(o => {
+        const on = qk.answers[q.key] === o.v;
+        const n = o.v === 'stock' ? -1 : qkCount(Object.assign({}, qk.answers, { [q.key]: o.v }));
+        const sp = o.label.indexOf(' ');
+        return `<button class="qk-tile${on ? ' on' : ''}" data-v="${o.v}"${n === 0 ? ' disabled' : ''}><span class="qk-ico">${o.label.slice(0, sp)}</span><span class="qk-txt">${esc(o.label.slice(sp + 1))}</span>${n > 0 ? `<small>${n}</small>` : ''}</button>`;
+      }).join('')}</div>
+      <div class="qk-nav">${qk.step ? '<button id="qk-prev">← Précédent</button>' : '<span></span>'}<button id="qk-skip">Passer →</button></div>`;
+  } else body = `<div class="qk-q">✨ C'est prêt</div>`;
+  const open = done || qk.open || list.length <= 10;
   el.innerHTML = `<div class="qk-top">
       <button class="qk-x" id="qk-close" aria-label="Fermer">✕</button>
       <span class="qk-title">🔎 Express</span>
-      ${Object.keys(qk.answers).length ? '<button class="qk-reset" id="qk-restart">↺ Effacer</button>' : ''}
+      ${Object.keys(qk.answers).length ? '<button class="qk-reset" id="qk-restart">↺ Recommencer</button>' : ''}
     </div>
-    <div class="qk-filters">${rows}</div>
-    <div class="qk-panel${qk.open ? ' open' : ''}">
-      <button class="qk-handle" id="qk-handle"><b>${list.length}</b> recette${list.length > 1 ? 's' : ''} <span>${qk.open ? '▼' : '▲'}</span></button>
-      <div class="qk-res">${sorted.length ? '' : '<p class="qk-empty">Aucune recette : retire un critère.</p>'}</div>
+    ${answered ? `<div class="qk-answers">${answered}</div>` : ''}
+    <div class="qk-filters">${body}</div>
+    <div class="qk-panel${open ? ' open' : ''}${done ? ' full' : ''}">
+      <button class="qk-handle" id="qk-handle"><b>${list.length}</b> recette${list.length > 1 ? 's' : ''} <span>${open ? '▼' : '▲'}</span></button>
+      <div class="qk-res">${sorted.length ? '' : '<p class="qk-empty">Aucune recette : change une réponse.</p>'}</div>
     </div>`;
   const grid = el.querySelector('.qk-res');
   sorted.slice(0, 40).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
   el.querySelectorAll('.qk-tile').forEach(b => b.addEventListener('click', () => {
-    const { k, v } = b.dataset;
-    if (qk.answers[k] === v) delete qk.answers[k]; else qk.answers[k] = v;
-    if (k === 'type') delete qk.answers.ingr;
-    const f = el.querySelector('.qk-filters'), y = f.scrollTop; qkRender(); el.querySelector('.qk-filters').scrollTop = y;
+    const q = QK_QUESTIONS[qk.step];
+    qk.answers[q.key] = b.dataset.v;
+    if (q.key === 'type') delete qk.answers.ingr;
+    qk.step++; qk.open = false;
+    if (qkFilter(qk.answers).length <= 10) qk.step = total;
+    qkRender();
   }));
-  el.querySelector('#qk-handle').addEventListener('click', () => { qk.open = !qk.open; qkRender(); });
+  el.querySelectorAll('.qk-ans').forEach(b => b.addEventListener('click', () => { qk.step = +b.dataset.i; qk.open = false; qkRender(); }));
+  const sk = el.querySelector('#qk-skip'); if (sk) sk.addEventListener('click', () => { delete qk.answers[QK_QUESTIONS[qk.step].key]; qk.step++; qkRender(); });
+  const pv = el.querySelector('#qk-prev'); if (pv) pv.addEventListener('click', () => { qk.step--; qkRender(); });
+  el.querySelector('#qk-handle').addEventListener('click', () => { if (done) { qk.step = QK_QUESTIONS.findIndex(q => !qk.answers[q.key]); if (qk.step < 0) qk.step = total - 1; } else qk.open = !open; qkRender(); });
   el.querySelector('#qk-close').addEventListener('click', closeQuick);
-  const rb = el.querySelector('#qk-restart'); if (rb) rb.addEventListener('click', () => { qk.answers = {}; qkRender(); });
+  const rb = el.querySelector('#qk-restart'); if (rb) rb.addEventListener('click', () => { qk.answers = {}; qk.step = 0; qk.open = false; qkRender(); });
 }
 function qkSummary(){
   return QK_QUESTIONS.map(q => { const a = qk.answers[q.key]; const o = a && q.opts(qk.answers).find(x => x.v === a); return o ? o.label.replace(/^\S+\s/, '') : ''; }).filter(Boolean).join(' · ');
