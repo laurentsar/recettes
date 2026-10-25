@@ -1,6 +1,6 @@
 :root{
   --bg:#1a120b; --bg2:#241811; --card:#2a1d14; --line:rgba(255,255,255,0.10);
-  --text:#f3e9df; --muted:#b9a892; --accent:#e07a3f; --accent2:#b8541f;
+  --text:#f3e9df; --muted:#b9a892; --accent:#e07a3f; --accent2:#b8541f; --sec:#6cb4f0;
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 [hidden]{display:none!important}
@@ -182,12 +182,12 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
   background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-radius:50%;
   display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9em}
 .steps li.step-head{display:table;margin:2px 0 14px;padding:5px 14px 5px 12px;border-radius:999px;
-  background:color-mix(in srgb,var(--accent) 16%,transparent);border:1px solid color-mix(in srgb,var(--accent) 40%,transparent);
-  font-weight:800;font-size:.9em;color:var(--accent);line-height:1.3}
+  background:color-mix(in srgb,var(--sec) 16%,transparent);border:1px solid color-mix(in srgb,var(--sec) 40%,transparent);
+  font-weight:800;font-size:.9em;color:var(--sec);line-height:1.3}
 .steps li.step-head::before{display:none}
 .steps li.step-head:not(:first-child){margin-top:8px}
-.cook-step-sec{display:table;margin:0 auto 16px;font-size:.6em;font-weight:800;color:var(--accent);background:color-mix(in srgb,var(--accent) 15%,transparent);
-  border:1px solid color-mix(in srgb,var(--accent) 45%,transparent);border-radius:999px;padding:4px 14px}
+.cook-step-sec{display:table;margin:0 auto 16px;font-size:.6em;font-weight:800;color:var(--sec);background:color-mix(in srgb,var(--sec) 15%,transparent);
+  border:1px solid color-mix(in srgb,var(--sec) 45%,transparent);border-radius:999px;padding:4px 14px}
 .d-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
 .d-links a{flex:1;min-width:130px;text-align:center;text-decoration:none;font-weight:700;padding:12px;border-radius:11px;
   background:var(--card);border:1px solid var(--line);color:var(--text)}
