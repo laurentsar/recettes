@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.81';
+const APP_VERSION = '3.82';
 
 let ALL = [];
 let BASE = [];
@@ -4275,6 +4275,8 @@ function qkHay(r){
   return r._qk;
 }
 const qkCat = (r, ...cs) => qkHay(r).cat.some(c => cs.includes(c));
+// Desserts et boissons : jamais dans les familles salées (« riz au lait » n'est pas un féculent de plat).
+const qkSweet = r => qkCat(r,'Dessert','Gâteaux','Viennoiserie','Biscuit','Flan','Crème dessert','Tarte sucrée','Boissons','Smoothie','Milkshake','Cocktail','Cocktail sans alcool');
 const QK_QUESTIONS = [
   { key:'type', title:'Type', opts: () => [
     { v:'apero', label:'🥂 Apéro', f: r => qkCat(r,'Apéritif','Bouchée','Tartine','Tartinade','Wrap','Tortilla','Samoussa','Empanada','Brochette','Panini','Allumettes') },
@@ -4299,12 +4301,12 @@ const QK_QUESTIONS = [
     { v:'alcool', label:'🍸 Avec alcool', f: r => qkCat(r,'Cocktail') },
     { v:'sans', label:'🧃 Sans alcool', f: r => !qkCat(r,'Cocktail') },
   ] : [
-    { v:'viande', label:'🥩 Viande', f: r => QK.viande.test(qkHay(r).main) },
-    { v:'volaille', label:'🍗 Volaille', f: r => QK.volaille.test(qkHay(r).main) },
-    { v:'poisson', label:'🐟 Poisson', f: r => QK.poisson.test(qkHay(r).main) },
-    { v:'oeuf', label:'🥚 Œufs', f: r => QK.oeuf.test(qkHay(r).title) },
-    { v:'legume', label:'🥦 Légumes', f: r => checkDiet(r,'vegetarien') && !QK.oeuf.test(qkHay(r).title) && !QK.feculent.test(qkHay(r).title) },
-    { v:'feculent', label:'🍝 Féculents', f: r => QK.feculent.test(qkHay(r).title) },
+    { v:'viande', label:'🥩 Viande', f: r => !qkSweet(r) && QK.viande.test(qkHay(r).main) },
+    { v:'volaille', label:'🍗 Volaille', f: r => !qkSweet(r) && QK.volaille.test(qkHay(r).main) },
+    { v:'poisson', label:'🐟 Poisson', f: r => !qkSweet(r) && QK.poisson.test(qkHay(r).main) },
+    { v:'oeuf', label:'🥚 Œufs', f: r => !qkSweet(r) && QK.oeuf.test(qkHay(r).title) },
+    { v:'legume', label:'🥦 Légumes', f: r => !qkSweet(r) && checkDiet(r,'vegetarien') && !QK.oeuf.test(qkHay(r).title) && !QK.feculent.test(qkHay(r).title) },
+    { v:'feculent', label:'🍝 Féculents', f: r => !qkSweet(r) && QK.feculent.test(qkHay(r).title) },
   ]},
   { key:'outil', title:'Cuisson', opts: () => [
     { v:'four', label:'🔥 Four', f: r => QK.four.test(qkHay(r).steps) && !qkCat(r,'Airfryer') },
