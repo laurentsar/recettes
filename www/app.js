@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.78';
+const APP_VERSION = '3.79';
 
 let ALL = [];
 let BASE = [];
@@ -4070,6 +4070,8 @@ async function init(){
   renderCellarHome();
   renderGrid();
   setTimeout(()=>{ if (navigator.onLine !== false) prefetchOfficialSteps(); }, 4000);
+  // Index de la recherche express préparé en tâche de fond : ouverture instantanée.
+  (window.requestIdleCallback || (f => setTimeout(f, 1500)))(() => { try { qkIndex(); } catch(e){} });
   window.addEventListener('online', ()=> prefetchOfficialSteps());
   document.getElementById('sync-btn').addEventListener('click', ()=> syncRemote(true));
   document.getElementById('import-btn').addEventListener('click', openImport);
@@ -4271,24 +4273,23 @@ function qkHay(r){
 }
 const qkCat = (r, ...cs) => qkHay(r).cat.some(c => cs.includes(c));
 const QK_QUESTIONS = [
-  { key:'type', title:'Quoi ?', opts: () => [
+  { key:'type', title:'Type', opts: () => [
     { v:'apero', label:'🥂 Apéro', f: r => qkCat(r,'Apéritif','Bouchée','Tartine','Tartinade','Wrap','Tortilla','Samoussa','Empanada','Brochette','Panini','Allumettes') },
-    { v:'entree', label:'🥗 Entrée / Soupe', f: r => qkCat(r,'Entrée','Soupe','Salade') },
+    { v:'entree', label:'🥗 Entrée', f: r => qkCat(r,'Entrée','Soupe','Salade') },
     { v:'plat', label:'🍽️ Plat', f: r => qkCat(r,'Plat') },
     { v:'dessert', label:'🍰 Dessert', f: r => qkCat(r,'Dessert','Gâteaux','Viennoiserie','Biscuit','Flan','Crème dessert','Tarte sucrée') },
     { v:'boisson', label:'🥤 Boisson', f: r => qkCat(r,'Boissons','Smoothie','Milkshake','Cocktail','Cocktail sans alcool') },
   ]},
-  { key:'temps', title:'Combien de temps ?', opts: () => [
-    { v:'15', label:'⚡ 15 min max', f: r => r.min && +r.min <= 15 },
-    { v:'30', label:'⏱️ 30 min max', f: r => r.min && +r.min <= 30 },
-    { v:'60', label:'🕐 1 h max', f: r => r.min && +r.min <= 60 },
-    { v:'*', label:'🤷 Peu importe', f: () => true },
+  { key:'temps', title:'Temps', opts: () => [
+    { v:'15', label:'⚡ 15 min', f: r => r.min && +r.min <= 15 },
+    { v:'30', label:'⏱️ 30 min', f: r => r.min && +r.min <= 30 },
+    { v:'60', label:'🕐 1 h', f: r => r.min && +r.min <= 60 },
   ]},
-  { key:'ingr', title:'Ingrédient principal ?', opts: (a) => a.type === 'dessert' ? [
+  { key:'ingr', title:'Ingrédient', opts: (a) => a.type === 'dessert' ? [
     { v:'chocolat', label:'🍫 Chocolat', f: r => QK.chocolat.test(qkHay(r).all) },
     { v:'fruit', label:'🍓 Fruits', f: r => QK.fruit.test(qkHay(r).main) },
-    { v:'creme', label:'🍮 Crème / Flan', f: r => QK.creme.test(qkHay(r).title) },
-    { v:'pate', label:'🥐 Gâteau / Pâte', f: r => QK.pate.test(qkHay(r).title) },
+    { v:'creme', label:'🍮 Crème', f: r => QK.creme.test(qkHay(r).title) },
+    { v:'pate', label:'🥐 Gâteau', f: r => QK.pate.test(qkHay(r).title) },
   ] : a.type === 'boisson' ? [
     { v:'fruit', label:'🍓 Fruitée', f: r => QK.fruit.test(qkHay(r).all) },
     { v:'lait', label:'🥛 Lactée', f: r => /lait|yaourt|creme|glace|milkshake/.test(qkHay(r).all) },
@@ -4297,23 +4298,23 @@ const QK_QUESTIONS = [
   ] : [
     { v:'viande', label:'🥩 Viande', f: r => QK.viande.test(qkHay(r).main) },
     { v:'volaille', label:'🍗 Volaille', f: r => QK.volaille.test(qkHay(r).main) },
-    { v:'poisson', label:'🐟 Poisson / Fruits de mer', f: r => QK.poisson.test(qkHay(r).main) },
-    { v:'oeuf', label:'🥚 Œufs / Fromage', f: r => QK.oeuf.test(qkHay(r).title) },
+    { v:'poisson', label:'🐟 Poisson', f: r => QK.poisson.test(qkHay(r).main) },
+    { v:'oeuf', label:'🥚 Œufs', f: r => QK.oeuf.test(qkHay(r).title) },
     { v:'legume', label:'🥦 Légumes', f: r => checkDiet(r,'vegetarien') && !QK.oeuf.test(qkHay(r).title) && !QK.feculent.test(qkHay(r).title) },
-    { v:'feculent', label:'🍝 Pâtes / Riz / Patates', f: r => QK.feculent.test(qkHay(r).title) },
+    { v:'feculent', label:'🍝 Féculents', f: r => QK.feculent.test(qkHay(r).title) },
   ]},
-  { key:'outil', title:'Avec quoi ?', opts: () => [
+  { key:'outil', title:'Cuisson', opts: () => [
     { v:'four', label:'🔥 Four', f: r => QK.four.test(qkHay(r).steps) && !qkCat(r,'Airfryer') },
-    { v:'feu', label:'🍳 Poêle / Casserole', f: r => QK.feu.test(qkHay(r).steps) },
+    { v:'feu', label:'🍳 Poêle', f: r => QK.feu.test(qkHay(r).steps) },
     { v:'airfryer', label:'🌪️ Airfryer', f: r => qkCat(r,'Airfryer') || !!r.af },
     { v:'thermomix', label:'⚙️ Thermomix', f: r => qkCat(r,'Thermomix') },
-    { v:'cru', label:'🥒 Sans cuisson', f: r => !QK.cuisson.test(qkHay(r).steps) },
+    { v:'cru', label:'🥒 Cru', f: r => !QK.cuisson.test(qkHay(r).steps) },
   ]},
-  { key:'envie', title:'Envie de quoi ?', opts: () => [
+  { key:'envie', title:'Envie', opts: () => [
     { v:'leger', label:'🥗 Léger', f: r => QK.leger.test(qkHay(r).title + ' ' + norm((r.cat||'') + ' ' + (r.desc||''))) || (checkDiet(r,'vegetarien') && !/creme|fromage|beurre|lardon|frit/.test(qkHay(r).all)) },
     { v:'reconfort', label:'🍲 Réconfortant', f: r => QK.reconfort.test(qkHay(r).title) },
-    { v:'recevoir', label:'🎉 Pour recevoir', f: r => QK.recevoir.test(qkHay(r).title) || qkCat(r,'Noël') },
-    { v:'stock', label:'🧺 Avec mes stocks', f: r => { const c = qkStockCov(r); return c && c.total - c.covered <= 2; } },
+    { v:'recevoir', label:'🎉 Recevoir', f: r => QK.recevoir.test(qkHay(r).title) || qkCat(r,'Noël') },
+    { v:'stock', label:'🧺 Mes stocks', f: r => { const c = qkStockCov(r); return c && c.total - c.covered <= 2; } },
   ]},
 ];
 let qk = null;
@@ -4324,22 +4325,46 @@ function qkStockCov(r){
   if (!qk.cov.has(r)) qk.cov.set(r, recipeStockCoverage(r, qk.have));
   return qk.cov.get(r);
 }
-function qkBase(answers){
-  const appliance = answers.outil === 'thermomix' || answers.outil === 'airfryer';
-  let list = ALL.slice();
-  if (!appliance){ const saved = state.cats; state.cats = []; list = collapseVariants(list); state.cats = saved; }
-  return list;
+// Index précalculé à l'ouverture : un masque par choix (1 = la recette correspond).
+function qkOptsFor(q, answers){ return q.opts(answers).map(o => Object.assign({ id: q.key + ':' + o.v + ':' + o.label }, o)); }
+function qkBuildIndex(){
+  const n = ALL.length, masks = {};
+  const saved = state.cats; state.cats = [];
+  const shown = new Set(collapseVariants(ALL).map(r => r.id)); state.cats = saved;
+  const classic = Uint8Array.from(ALL, r => shown.has(r.id) ? 1 : 0);
+  for (const q of QK_QUESTIONS)
+    for (const ctx of [{}, { type: 'dessert' }, { type: 'boisson' }])
+      for (const o of qkOptsFor(q, ctx)){
+        if (masks[o.id] || o.v === 'stock' || o.v === '*') continue;
+        const m = new Uint8Array(n); for (let i = 0; i < n; i++) m[i] = o.f(ALL[i]) ? 1 : 0; masks[o.id] = m;
+      }
+  return { classic, masks };
+}
+let _qkIdx = null, _qkIdxFor = null;
+function qkIndex(){ if (_qkIdxFor !== ALL){ _qkIdx = qkBuildIndex(); _qkIdxFor = ALL; } return _qkIdx; }
+function qkMasks(answers){
+  const ms = [];
+  for (const q of QK_QUESTIONS){
+    const a = answers[q.key]; if (!a || a === '*' || a === 'stock') continue;
+    const o = qkOptsFor(q, answers).find(x => x.v === a); if (o) ms.push(qk.idx.masks[o.id]);
+  }
+  if (answers.outil !== 'thermomix' && answers.outil !== 'airfryer') ms.push(qk.idx.classic);
+  return ms;
+}
+function qkCount(answers){
+  const ms = qkMasks(answers), n = ALL.length; let c = 0;
+  outer: for (let i = 0; i < n; i++){ for (const m of ms) if (!m[i]) continue outer; c++; }
+  return c;
 }
 function qkFilter(answers){
-  let list = qkBase(answers);
-  for (const q of QK_QUESTIONS){
-    const a = answers[q.key]; if (!a) continue;
-    const o = q.opts(answers).find(x => x.v === a); if (o) list = list.filter(o.f);
-  }
-  return list;
+  const ms = qkMasks(answers), out = [];
+  outer: for (let i = 0; i < ALL.length; i++){ for (const m of ms) if (!m[i]) continue outer; out.push(ALL[i]); }
+  if (answers.envie === 'stock') return out.filter(r => { const c = qkStockCov(r); return c && c.total - c.covered <= 2; });
+  return out;
 }
 function openQuick(){
-  qk = { step: 0, answers: {}, cov: new Map(), have: null };
+  qk = { answers: {}, cov: new Map(), have: null };
+  qk.idx = qkIndex();
   let el = document.getElementById('quick');
   if (!el){ el = document.createElement('div'); el.id = 'quick'; el.className = 'editview quick'; document.body.appendChild(el); }
   el.hidden = false; document.body.style.overflow = 'hidden';
@@ -4347,37 +4372,34 @@ function openQuick(){
 }
 function closeQuick(){ const el = document.getElementById('quick'); if (el) el.hidden = true; document.body.style.overflow = ''; qk = null; }
 function qkRender(){
+  // Vue unique : 5 lignes de pastilles (un toucher = choisir / re-toucher = annuler), résultats en direct dessous.
   const el = document.getElementById('quick');
   const list = qkFilter(qk.answers);
-  const done = qk.step >= QK_QUESTIONS.length || (qk.step > 0 && list.length <= 10);
-  const head = `<div class="edit-head">
-      <button class="e-cancel" id="qk-back">${qk.step ? '← Retour' : '✕ Fermer'}</button>
-      <h2>🔎 Recherche express</h2>
-      <button class="e-cancel" id="qk-restart"${qk.step ? '' : ' hidden'}>↺</button>
+  const sorted = qk.answers.envie === 'stock' ? list.slice().sort((a, b) => stockRank(qkStockCov(a), qkStockCov(b))) : list;
+  const rows = QK_QUESTIONS.map(q => `<div class="qk-row"><span class="qk-lbl">${esc(q.title)}</span><div class="qk-chips">${
+    q.opts(qk.answers).map(o => {
+      const on = qk.answers[q.key] === o.v;
+      const n = on || o.v === 'stock' || o.v === '*' ? 1 : qkCount(Object.assign({}, qk.answers, { [q.key]: o.v }));
+      return `<button class="qk-chip${on ? ' on' : ''}" data-k="${q.key}" data-v="${o.v}"${n || on ? '' : ' disabled'}>${o.label}</button>`;
+    }).join('')}</div></div>`).join('');
+  el.innerHTML = `<div class="qk-top">
+      <button class="qk-x" id="qk-close" aria-label="Fermer">✕</button>
+      <b>${list.length}</b> recette${list.length > 1 ? 's' : ''}
+      ${Object.keys(qk.answers).length ? '<button class="qk-reset" id="qk-restart">↺ Effacer</button>' : ''}
     </div>
-    <div class="qk-count"><b>${list.length}</b> recette${list.length > 1 ? 's' : ''}${Object.values(qk.answers).length ? ' · ' + esc(qkSummary()) : ''}</div>`;
-  if (done){
-    const sorted = qk.answers.envie === 'stock' ? list.slice().sort((a, b) => stockRank(qkStockCov(a), qkStockCov(b))) : list;
-    el.innerHTML = head + `<div class="qk-res">${sorted.length ? '' : '<p class="qk-empty">Aucune recette ne correspond. Reviens en arrière pour élargir un critère.</p>'}</div>`;
-    const grid = el.querySelector('.qk-res');
-    sorted.slice(0, 60).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
-  } else {
-    const q = QK_QUESTIONS[qk.step];
-    const opts = q.opts(qk.answers).map(o => ({ o, n: qkFilter(Object.assign({}, qk.answers, { [q.key]: o.v })).length }));
-    el.innerHTML = head + `<div class="qk-q"><span class="qk-step">Question ${qk.step + 1} / ${QK_QUESTIONS.length}</span>${esc(q.title)}</div>
-      <div class="qk-opts">${opts.map(({ o, n }) => `<button class="qk-opt" data-v="${o.v}"${n ? '' : ' disabled'}><span>${o.label}</span><small>${n}</small></button>`).join('')}</div>
-      <button class="qk-skip" id="qk-skip">Passer cette question →</button>`;
-    el.querySelectorAll('.qk-opt').forEach(b => b.addEventListener('click', () => { qk.answers[q.key] = b.dataset.v; qk.step++; qkRender(); }));
-    el.querySelector('#qk-skip').addEventListener('click', () => { delete qk.answers[q.key]; qk.step++; qkRender(); });
-  }
-  el.querySelector('#qk-back').addEventListener('click', () => {
-    if (!qk.step){ closeQuick(); return; }
-    qk.step = Math.min(qk.step, QK_QUESTIONS.length) - 1;
-    while (qk.step > 0 && !qk.answers[QK_QUESTIONS[qk.step].key] && qkFilter(qk.answers).length <= 10) qk.step--;
-    delete qk.answers[QK_QUESTIONS[qk.step].key]; qkRender();
-  });
-  el.querySelector('#qk-restart').addEventListener('click', () => { qk.step = 0; qk.answers = {}; qkRender(); });
-  el.scrollTop = 0;
+    <div class="qk-filters">${rows}</div>
+    <div class="qk-res">${sorted.length ? '' : '<p class="qk-empty">Aucune recette : retire un critère.</p>'}</div>`;
+  const grid = el.querySelector('.qk-res');
+  sorted.slice(0, 30).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
+  el.querySelectorAll('.qk-chip').forEach(b => b.addEventListener('click', () => {
+    const { k, v } = b.dataset;
+    if (qk.answers[k] === v) delete qk.answers[k]; else qk.answers[k] = v;
+    // une réponse qui change les choix de la question 3 (dessert / boisson) annule l'ancienne
+    if (k === 'type') delete qk.answers.ingr;
+    const y = el.scrollTop; qkRender(); el.scrollTop = y;
+  }));
+  el.querySelector('#qk-close').addEventListener('click', closeQuick);
+  const rb = el.querySelector('#qk-restart'); if (rb) rb.addEventListener('click', () => { qk.answers = {}; qkRender(); });
 }
 function qkSummary(){
   return QK_QUESTIONS.map(q => { const a = qk.answers[q.key]; const o = a && q.opts(qk.answers).find(x => x.v === a); return o ? o.label.replace(/^\S+\s/, '') : ''; }).filter(Boolean).join(' · ');
