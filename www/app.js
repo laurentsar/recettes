@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '4.03';
+const APP_VERSION = '4.04';
 
 let ALL = [];
 let BASE = [];
@@ -413,22 +413,35 @@ function matchKw(r, kw){
 /* ---------- filtres diététiques (Santé) ---------- */
 // Temps de repos lu dans les étapes (frigo, marinade, levée, trempage…) : la durée saisie
 // ne compte souvent que la préparation. Temps total = préparation + repos.
+const _restCache = new WeakMap();
 function restMinutes(r){
-  if (r._rest !== undefined) return r._rest;
+  if (_restCache.has(r)) return _restCache.get(r);
   const st = norm(Array.isArray(r.steps) ? r.steps.join(' ') : (r.steps || ''));
-  const re = /(refrigerer|refrigerateur|au frais|au froid|frigo|reposer|repos|mariner|marinade|lever|pousser|doubler de volume|congelateur|egoutter|infuser|tremper|dessaler|prendre|figer)[^.]{0,40}?(\d+(?:[.,]\d+)?)\s*(h\b|heures?|min)/g;
-  let m, w = 0; const seen = new Set();
-  while ((m = re.exec(st))){ const v = parseFloat(m[2].replace(',', '.')); w += /h/.test(m[3]) ? v * 60 : v; seen.add(m.index + m[0].length); }
+  const re = /(refrigerer|refrigerateur|au frais|au froid|frigo|reposer|repos|mariner|marinade|lever|pousser|doubler de volume|congelateur|egoutter|infuser|tremper|dessaler|prendre|figer|refroidi|tiedir|tiedi)[^.]{0,40}?(\d+(?:[.,]\d+)?)\s*(h\b|heures?|min)/g;
+  let m, w = 0, coolDone = false; const seen = new Set();
+  while ((m = re.exec(st))){
+    if (/^(refroidi|tiedi)/.test(m[1])) coolDone = true;
+    if (/^(frigo|refrigerateur)/.test(m[1]) && /sort\w*\s+(\w+\s+){0,4}(du|de son|de la)\s*$/.test(st.slice(Math.max(0, m.index - 40), m.index))) continue;  // « sortir du frigo 15 min avant »
+    const v = parseFloat(m[2].replace(',', '.')); w += /h/.test(m[3]) ? v * 60 : v; seen.add(m.index + m[0].length);
+  }
   // Durée suivie du lieu : « placer 48 h au réfrigérateur », « 2 h au frais ».
-  const re2 = /(\d+(?:[.,]\d+)?)\s*(h\b|heures?|min)\s*(?:au |a |de |en )(refrigerateur|frais|frigo|froid|repos|congelateur)/g;
+  const re2 = /(\d+(?:[.,]\d+)?)\s*(h\b|heures?|min)\s*(?:au |a |de |en )(refrigerateur|frais|frigo|froid|repos|congelateur|refroidissement)/g;
   while ((m = re2.exec(st))){
     const end = m.index + m[1].length + m[0].slice(m[1].length).search(/\S/) + m[2].length;
     if ([...seen].some(e => Math.abs(e - end) <= 1)) continue;
     if (/\d\s*(h|min)\s*(a|-|ou)\s*$/.test(st.slice(Math.max(0, m.index - 12), m.index))) continue;  // « 30 min à 2 h au frais » : déjà compté
+    if (m[3] === 'refroidissement') coolDone = true;
     const v = parseFloat(m[1].replace(',', '.')); w += /h/.test(m[2]) ? v * 60 : v;
   }
+  // « Laisser refroidir » sans durée : estimation (tiédir ≈ 10 min, refroidir ≈ 15 min,
+  // complètement / avant de démouler ou de couper ≈ 30 min, « un peu » ≈ 5 min), une seule fois.
+  if (!coolDone){
+    const c = st.match(/(laisse[rz]?|faire|attendre que)[^.]{0,30}?(refroidi\w*|tiedi\w*)([^.]{0,40})/);
+    if (c) w += /^tiedi/.test(c[2]) ? 10 : /(un peu|quelques minutes|legerement)/.test(c[3]) ? 5
+      : /(completement|totalement|entierement|avant de (demouler|couper|trancher|decouper|garnir|glacer|fourrer|servir|deguster))/.test(c[3]) ? 30 : 15;
+  }
   if (/(toute la nuit|une nuit|la veille)/.test(st)) w = Math.max(w, 480);
-  return (r._rest = Math.round(w));
+  const v = Math.round(w); _restCache.set(r, v); return v;
 }
 /* Temps lus dans les étapes : chaque durée (« 20 à 25 min », « 1 h 30 », « une dizaine de minutes »)
    est classée cuisson (cuire, four, mijoter, poêle, air fryer…), repos (cf. restMinutes) ou
