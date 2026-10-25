@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.80';
+const APP_VERSION = '3.81';
 
 let ALL = [];
 let BASE = [];
@@ -4382,36 +4382,42 @@ function openQuick(preset){
   let el = document.getElementById('quick');
   if (!el){ el = document.createElement('div'); el.id = 'quick'; el.className = 'editview quick'; document.body.appendChild(el); }
   el.hidden = false; document.body.style.overflow = 'hidden';
+  try { const d = document.documentElement; if (d.requestFullscreen && !document.fullscreenElement) d.requestFullscreen({ navigationUI: 'hide' }).catch(()=>{}); } catch(e){}
   qkRender();
 }
-function closeQuick(){ const el = document.getElementById('quick'); if (el) el.hidden = true; document.body.style.overflow = ''; qk = null; }
+function closeQuick(){ const el = document.getElementById('quick'); if (el) el.hidden = true;
+  try { if (document.fullscreenElement) document.exitFullscreen().catch(()=>{}); } catch(e){} document.body.style.overflow = ''; qk = null; }
 function qkRender(){
-  // Vue unique : 5 lignes de pastilles (un toucher = choisir / re-toucher = annuler), résultats en direct dessous.
+  // Plein écran : critères en grosses icônes en haut, recettes dans un panneau en bas (défilement horizontal, ▲ pour agrandir).
   const el = document.getElementById('quick');
   const list = qkFilter(qk.answers);
   const sorted = qk.answers.envie === 'stock' ? list.slice().sort((a, b) => stockRank(qkStockCov(a), qkStockCov(b))) : list;
-  const rows = QK_QUESTIONS.map(q => `<div class="qk-row"><span class="qk-lbl">${esc(q.title)}</span><div class="qk-chips">${
+  const rows = QK_QUESTIONS.map(q => `<div class="qk-row"><span class="qk-lbl">${esc(q.title)}</span><div class="qk-tiles">${
     q.opts(qk.answers).map(o => {
       const on = qk.answers[q.key] === o.v;
-      const n = on || o.v === 'stock' || o.v === '*' ? 1 : qkCount(Object.assign({}, qk.answers, { [q.key]: o.v }));
-      return `<button class="qk-chip${on ? ' on' : ''}" data-k="${q.key}" data-v="${o.v}"${n || on ? '' : ' disabled'}>${o.label}</button>`;
+      const n = on || o.v === 'stock' ? 1 : qkCount(Object.assign({}, qk.answers, { [q.key]: o.v }));
+      const sp = o.label.indexOf(' ');
+      return `<button class="qk-tile${on ? ' on' : ''}" data-k="${q.key}" data-v="${o.v}"${n || on ? '' : ' disabled'}><span class="qk-ico">${o.label.slice(0, sp)}</span><span class="qk-txt">${esc(o.label.slice(sp + 1))}</span></button>`;
     }).join('')}</div></div>`).join('');
   el.innerHTML = `<div class="qk-top">
       <button class="qk-x" id="qk-close" aria-label="Fermer">✕</button>
-      <b>${list.length}</b> recette${list.length > 1 ? 's' : ''}
+      <span class="qk-title">🔎 Express</span>
       ${Object.keys(qk.answers).length ? '<button class="qk-reset" id="qk-restart">↺ Effacer</button>' : ''}
     </div>
     <div class="qk-filters">${rows}</div>
-    <div class="qk-res">${sorted.length ? '' : '<p class="qk-empty">Aucune recette : retire un critère.</p>'}</div>`;
+    <div class="qk-panel${qk.open ? ' open' : ''}">
+      <button class="qk-handle" id="qk-handle"><b>${list.length}</b> recette${list.length > 1 ? 's' : ''} <span>${qk.open ? '▼' : '▲'}</span></button>
+      <div class="qk-res">${sorted.length ? '' : '<p class="qk-empty">Aucune recette : retire un critère.</p>'}</div>
+    </div>`;
   const grid = el.querySelector('.qk-res');
-  sorted.slice(0, 30).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
-  el.querySelectorAll('.qk-chip').forEach(b => b.addEventListener('click', () => {
+  sorted.slice(0, 40).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
+  el.querySelectorAll('.qk-tile').forEach(b => b.addEventListener('click', () => {
     const { k, v } = b.dataset;
     if (qk.answers[k] === v) delete qk.answers[k]; else qk.answers[k] = v;
-    // une réponse qui change les choix de la question 3 (dessert / boisson) annule l'ancienne
     if (k === 'type') delete qk.answers.ingr;
-    const y = el.scrollTop; qkRender(); el.scrollTop = y;
+    const f = el.querySelector('.qk-filters'), y = f.scrollTop; qkRender(); el.querySelector('.qk-filters').scrollTop = y;
   }));
+  el.querySelector('#qk-handle').addEventListener('click', () => { qk.open = !qk.open; qkRender(); });
   el.querySelector('#qk-close').addEventListener('click', closeQuick);
   const rb = el.querySelector('#qk-restart'); if (rb) rb.addEventListener('click', () => { qk.answers = {}; qkRender(); });
 }
