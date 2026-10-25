@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '4.04';
+const APP_VERSION = '4.05';
 
 let ALL = [];
 let BASE = [];
@@ -4451,17 +4451,17 @@ let wizSt = { step:0, types:new Set(), regime:'', temps:'', saison:new Set(), co
 // Dès qu'il reste 10 recettes ou moins, les résultats s'affichent.
 const QK_RX = (words) => new RegExp('(^|[^a-z])(' + words + ')s?([^a-z]|$)');
 const QK = {
-  viande: QK_RX('boeuf|porc|veau|agneau|jambon|lardon|saucisse|chorizo|viande|steak|merguez|bacon|cote|roti|jarret|kefta|boulette'),
+  viande: QK_RX('boeuf|porc|veau|agneau|jambon|lardon|saucisse|chorizo|viande|steak|merguez|bacon|cote|roti|jarret|kefta|boulette|boudin|lapin|pigeon|lievre|gibier|sanglier|chevreuil|andouillette|pancetta|guanciale|bresaola|coppa|salami|figatell|lonzu|haggis|carbonara|cordon bleu|hachis|chicken|beef|pork|vitello|carbonade|bourguignon|blanquette|pot-au-feu|osso|daube|cassoulet|choucroute'),
   volaille: QK_RX('poulet|dinde|canard|volaille|pintade|magret|caille|chapon'),
-  poisson: QK_RX('poisson|saumon|thon|cabillaud|colin|truite|sardine|maquereau|crevette|gambas|moule|saint-jacques|calamar|encornet|merlu|dorade|bar|lotte|crabe|surimi|anchois|morue|bacalao|bacalhau'),
-  oeuf: QK_RX('oeuf|omelette|fromage|chevre|feta|mozzarella|raclette|reblochon|camembert|brocciu|ricotta|comte|parmesan|tartiflette|fondue'),
-  feculent: QK_RX('pate|spaghetti|tagliatelle|penne|lasagne|gnocchi|riz|risotto|nouille|couscous|semoule|quinoa|polenta|pomme de terre|patate|frite|puree|lentille|pois chiche'),
+  poisson: QK_RX('poisson|saumon|thon|cabillaud|colin|truite|sardine|maquereau|crevette|gambas|moule|saint-jacques|calamar|encornet|merlu|dorade|bar|lotte|crabe|surimi|anchois|morue|bacalao|bacalhau|homard|langouste|langoustine|sole|limande|anguille|palourde|ameijoa|clam|poulpe|seiche|coryphene|loup|rouget|daurade|hareng|lieu noir|perche|brochet|sandre|turbot|raie|huitre|saumonette|fruits de mer|fish'),
+  oeuf: QK_RX('oeuf|omelette|fromage|chevre|feta|mozzarella|raclette|reblochon|camembert|brocciu|ricotta|comte|parmesan|tartiflette|fondue|cheddar|welsh|flan|quiche'),
+  feculent: QK_RX('pate|spaghetti|tagliatelle|penne|lasagne|gnocchi|riz|risotto|nouille|couscous|semoule|quinoa|polenta|pommes? de terre|patate|frite|puree|lentille|pois chiche|pasta|pizza|calzone|pain|okonomiyaki|crozet|croziflette|tartiflette|aligot'),
   chocolat: QK_RX('chocolat|cacao|nutella|praline|brownie'),
   fruit: QK_RX('pomme|poire|banane|fraise|framboise|peche|abricot|citron|orange|mangue|ananas|cerise|myrtille|kiwi|coco|figue|prune|rhubarbe|fruit'),
-  creme: QK_RX('creme|flan|mousse|panna cotta|tiramisu|cheesecake|riz au lait|charlotte|oeufs au lait|yaourt'),
-  pate: QK_RX('gateau|tarte|biscuit|cookie|brioche|crepe|gaufre|cake|genoise|buche|madeleine|beignet|muffin|cannele|viennoiserie|chou'),
-  four: QK_RX('four|enfourner|gratiner|th[0-9]'),
-  feu: QK_RX('poele|casserole|sauteuse|wok|cocotte|faitout|mijoter|frire|faire revenir|saisir|plancha'),
+  creme: QK_RX('creme|flan|mousse|panna cotta|tiramisu|cheesecake|riz au lait|charlotte|oeufs au lait|yaourt|crema|pudim|toucinho|gelato|glace|sorbet|souffle|ile flottante|creme brulee|creme catalane|semifreddo|parfait|verrine'),
+  pate: QK_RX('gateau|tarte|biscuit|cookie|brioche|crepe|gaufre|cake|genoise|buche|madeleine|beignet|muffin|cannele|viennoiserie|chou|chouquette|bugne|churros|donut|galette|pain perdu|pastel|pasteis|sable|canistrelli|fritelli|polvoron|torrija|ensaimada|rabanada|queijada|bolo|cannoli|torta|meringue|migliacci|imbrucciata|fiadone|financier|macaron|tuile|palmier|croissant|pain au chocolat|kouign|far|clafoutis|crumble|fondant|moelleux|cheesecake|tiramisu|strudel|baklava|corne de gazelle'),
+  four: QK_RX('four|enfourner|gratiner|prechauffe[rz]?|th[0-9]'),
+  feu: QK_RX('poele|casserole|sauteuse|wok|cocotte|faitout|mijoter|frire|friture|revenir|saisir|plancha|suer|rissoler|braiser|pocher|blanchir|bouillir|ebullition|griller|gril|barbecue|bbq|gaufrier|crepiere|feu doux|feu moyen|feu vif'),
   cuisson: QK_RX('cuire|cuisson|four|enfourner|poele|casserole|cocotte|frire|griller|rotir|mijoter|bouillir|dorer|airfryer|air fryer|micro-ondes'),
   leger: QK_RX('leger|legere|light|minceur|salade|vapeur|healthy|detox|ww|sans matiere grasse|veloute|gaspacho'),
   reconfort: QK_RX('gratin|raclette|tartiflette|fondue|mijote|ragout|bourguignon|blanquette|lasagne|puree|parmentier|soupe|pot-au-feu|cassoulet|choucroute|daube|chili|curry|risotto|crumble|fondant|brioche|croziflette|aligot'),
@@ -4478,43 +4478,54 @@ function qkHay(r){
 const qkCat = (r, ...cs) => qkHay(r).cat.some(c => cs.includes(c));
 // Desserts et boissons : jamais dans les familles salées (« riz au lait » n'est pas un féculent de plat).
 const qkSweet = r => qkCat(r,'Dessert','Gâteaux','Viennoiserie','Biscuit','Flan','Crème dessert','Tarte sucrée','Boissons','Smoothie','Milkshake','Cocktail','Cocktail sans alcool');
+const QK_SALTY = [
+  { v:'viande', label:'🥩 Viande', f: r => !qkSweet(r) && QK.viande.test(qkHay(r).main) },
+  { v:'volaille', label:'🍗 Volaille', f: r => !qkSweet(r) && QK.volaille.test(qkHay(r).main) },
+  { v:'poisson', label:'🐟 Poisson', f: r => !qkSweet(r) && QK.poisson.test(qkHay(r).main) },
+  { v:'oeuf', label:'🥚 Œufs', f: r => !qkSweet(r) && QK.oeuf.test(qkHay(r).title) },
+  { v:'legume', label:'🥦 Légumes', f: r => !qkSweet(r) && checkDiet(r,'vegetarien') && !QK.oeuf.test(qkHay(r).title) && !QK.feculent.test(qkHay(r).title) },
+  { v:'feculent', label:'🍝 Féculents', f: r => !qkSweet(r) && QK.feculent.test(qkHay(r).title) },
+];
+// « Autre » : le reste (sauces, soupes à l'oignon…), pour qu'aucune recette salée ne soit hors d'atteinte.
+const qkSalty = () => [...QK_SALTY, { v:'autre', label:'🧂 Autre', f: r => !qkSweet(r) && !QK_SALTY.some(o => o.f(r)) }];
+const QK_TYPES = [
+  { v:'apero', label:'🥂 Apéro', f: r => qkCat(r,'Apéritif','Bouchée','Tartine','Tartinade','Wrap','Tortilla','Samoussa','Empanada','Brochette','Panini','Allumettes') },
+  { v:'entree', label:'🥗 Entrée', f: r => qkCat(r,'Entrée','Soupe','Salade') },
+  { v:'plat', label:'🍽️ Plat', f: r => qkCat(r,'Plat') },
+  { v:'dessert', label:'🍰 Dessert', f: r => qkCat(r,'Dessert','Gâteaux','Viennoiserie','Biscuit','Flan','Crème dessert','Tarte sucrée') },
+  { v:'boisson', label:'🥤 Boisson', f: r => qkCat(r,'Boissons','Smoothie','Milkshake','Cocktail','Cocktail sans alcool') },
+  { v:'accomp', label:'🥖 Accomp. & pains', f: r => qkCat(r,'Accompagnement','Légumes','Frites','Pommes de terre au four','Pommes de terre écrasées','Pomme de terre','Pâtes','Pain','Boulangerie') },
+];
+// Chaque recette doit pouvoir sortir : ce qui n'entre dans aucun type (sauces, pâtes maison, techniques…) va dans « Sauces & bases ».
 const QK_QUESTIONS = [
   { key:'type', title:'Type', opts: () => [
-    { v:'apero', label:'🥂 Apéro', f: r => qkCat(r,'Apéritif','Bouchée','Tartine','Tartinade','Wrap','Tortilla','Samoussa','Empanada','Brochette','Panini','Allumettes') },
-    { v:'entree', label:'🥗 Entrée', f: r => qkCat(r,'Entrée','Soupe','Salade') },
-    { v:'plat', label:'🍽️ Plat', f: r => qkCat(r,'Plat') },
-    { v:'dessert', label:'🍰 Dessert', f: r => qkCat(r,'Dessert','Gâteaux','Viennoiserie','Biscuit','Flan','Crème dessert','Tarte sucrée') },
-    { v:'boisson', label:'🥤 Boisson', f: r => qkCat(r,'Boissons','Smoothie','Milkshake','Cocktail','Cocktail sans alcool') },
+    ...QK_TYPES,
+    { v:'base', label:'🫙 Sauces & bases', f: r => !QK_TYPES.some(o => o.f(r)) },
   ]},
   { key:'temps', title:'Temps', opts: () => [
     { v:'15', label:'⚡ 15 min', f: r => r.min && totalMinutes(r) <= 15 },
     { v:'30', label:'⏱️ 30 min', f: r => r.min && totalMinutes(r) <= 30 },
     { v:'60', label:'🕐 1 h', f: r => r.min && totalMinutes(r) <= 60 },
+    { v:'*', label:'🐢 Peu importe', f: () => true },
   ]},
   { key:'ingr', title:'Ingrédient', opts: (a) => a.type === 'dessert' ? [
     { v:'chocolat', label:'🍫 Chocolat', f: r => QK.chocolat.test(qkHay(r).all) },
     { v:'fruit', label:'🍓 Fruits', f: r => QK.fruit.test(qkHay(r).main) },
-    { v:'creme', label:'🍮 Crème', f: r => QK.creme.test(qkHay(r).title) },
-    { v:'pate', label:'🥐 Gâteau', f: r => QK.pate.test(qkHay(r).title) },
+    { v:'creme', label:'🍮 Crème', f: r => qkCat(r,'Flan','Crème dessert','Glace') || QK.creme.test(qkHay(r).title) },
+    { v:'pate', label:'🥐 Gâteau', f: r => qkCat(r,'Gâteaux','Viennoiserie','Biscuit','Tarte sucrée','Crêpe sucrée','Cheesecake') || QK.pate.test(qkHay(r).title) },
   ] : a.type === 'boisson' ? [
     { v:'fruit', label:'🍓 Fruitée', f: r => QK.fruit.test(qkHay(r).all) },
     { v:'lait', label:'🥛 Lactée', f: r => /lait|yaourt|creme|glace|milkshake/.test(qkHay(r).all) },
     { v:'alcool', label:'🍸 Avec alcool', f: r => qkCat(r,'Cocktail') },
     { v:'sans', label:'🧃 Sans alcool', f: r => !qkCat(r,'Cocktail') },
-  ] : [
-    { v:'viande', label:'🥩 Viande', f: r => !qkSweet(r) && QK.viande.test(qkHay(r).main) },
-    { v:'volaille', label:'🍗 Volaille', f: r => !qkSweet(r) && QK.volaille.test(qkHay(r).main) },
-    { v:'poisson', label:'🐟 Poisson', f: r => !qkSweet(r) && QK.poisson.test(qkHay(r).main) },
-    { v:'oeuf', label:'🥚 Œufs', f: r => !qkSweet(r) && QK.oeuf.test(qkHay(r).title) },
-    { v:'legume', label:'🥦 Légumes', f: r => !qkSweet(r) && checkDiet(r,'vegetarien') && !QK.oeuf.test(qkHay(r).title) && !QK.feculent.test(qkHay(r).title) },
-    { v:'feculent', label:'🍝 Féculents', f: r => !qkSweet(r) && QK.feculent.test(qkHay(r).title) },
-  ]},
+  ] : qkSalty() },
   { key:'outil', title:'Cuisson', opts: () => [
     { v:'four', label:'🔥 Four', f: r => QK.four.test(qkHay(r).steps) && !qkCat(r,'Airfryer') },
     { v:'feu', label:'🍳 Poêle', f: r => QK.feu.test(qkHay(r).steps) },
     { v:'airfryer', label:'🌪️ Airfryer', f: r => qkCat(r,'Airfryer') || !!r.af },
     { v:'thermomix', label:'⚙️ Thermomix', f: r => qkCat(r,'Thermomix') },
     { v:'cru', label:'🥒 Cru', f: r => !QK.cuisson.test(qkHay(r).steps) },
+    { v:'*', label:'🍽️ Peu importe', f: () => true },
   ]},
   { key:'envie', title:'Envie', opts: () => [
     { v:'leger', label:'🥗 Léger', f: r => { const h = qkHay(r); if (/chocolat|brioche|beignet|bugne|buche|tartiflette|raclette|frit|lardon|creme|gratin|fondue|cookie|brownie|gateau|mascarpone/.test(h.title)) return false; return QK.leger.test(h.title) || qkCat(r,'Santé') || (qkCat(r,'Salade','Soupe','Légumes','Smoothie') && !/creme|fromage|beurre|lardon|frit|chocolat|sucre/.test(h.all)); } },
@@ -4522,6 +4533,7 @@ const QK_QUESTIONS = [
     { v:'recevoir', label:'🎉 Recevoir', f: r => QK.recevoir.test(qkHay(r).title) || qkCat(r,'Noël') },
     { v:'stock', label:'🧺 Mes stocks', f: r => { if (qkCat(r,'Sauce','Marinade')) return false; const c = qkStockCov(r); return c && c.total - c.covered <= 2; } },
     { v:'saison', label:'🌿 De saison', f: r => { const sk = (SEASON[monthNow()]||[]).filter(k => !WZ_BASIC.has(k)); return seasonHitsInText((r.ing||[]).join(' '), sk).length > 0; } },
+    { v:'*', label:'😋 Peu importe', f: () => true },
   ]},
 ];
 // Raccourcis de l'accueil : la recherche express avec des critères déjà cochés.
@@ -4630,7 +4642,19 @@ function qkRender(){
       <div class="qk-res">${sorted.length ? '' : '<p class="qk-empty">Aucune recette : change une réponse.</p>'}</div>
     </div>`;
   const grid = el.querySelector('.qk-res');
-  sorted.slice(0, 40).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
+  // Toutes les recettes restent accessibles : 40 cartes, puis « Afficher plus » ajoute le paquet suivant.
+  let shown = 0;
+  const more = () => {
+    const old = grid.querySelector('.qk-more'); if (old) old.remove();
+    sorted.slice(shown, shown + 40).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
+    shown += 40;
+    if (shown < sorted.length){
+      const b = document.createElement('button'); b.className = 'qk-more';
+      b.textContent = `Afficher plus (${sorted.length - shown})`;
+      b.addEventListener('click', more); grid.appendChild(b);
+    }
+  };
+  more();
   el.querySelectorAll('.qk-tile').forEach(b => b.addEventListener('click', () => {
     const q = QK_QUESTIONS[qk.step];
     qk.answers[q.key] = b.dataset.v;
