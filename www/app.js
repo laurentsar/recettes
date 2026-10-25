@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '4.02';
+const APP_VERSION = '4.03';
 
 let ALL = [];
 let BASE = [];
@@ -456,6 +456,7 @@ function stepTimes(r){
       const before = sent.slice(Math.max(0, m.index - 45), m.index);
       if (/(\b(19|20)\d{2}|\bat|\ba)\s*$/.test(before) && /^h/.test(u)) continue;  // horodatage (« 2014 at 20 h 06 »), pas une durée
       const after = sent.slice(m.index + m[0].length, m.index + m[0].length + 25);
+      if (/^\s*(avant|de) la fin/.test(after)) continue;            // « 5 min avant la fin » : déjà dans la cuisson
       if (_REST_RE.test(before) || _REST_RE.test(after)) continue;   // repos : compté par restMinutes
       if (_COOK_RE.test(before) || _COOK_RE.test(sent)) t.cook += v;
       else if (v <= 30) t.prep += v;                          // au-delà, c'est une attente, pas un geste
@@ -478,8 +479,15 @@ function estimateMin(r){
 function timeSplit(r){
   if (!r.min) return null;
   const cook = stepTimes(r).cook;
+  if (minIsPrep(r)) return { prep: +r.min, cook };
   if (!cook || cook >= +r.min) return null;
   return { prep: +r.min - cook - (restIncluded(r) ? restMinutes(r) : 0), cook };
+}
+// Temps saisi nettement plus court que la cuisson lue (« 15 min » pour un foie gras qui cuit
+// 14 + 10 min au Varoma) : c'est le temps de préparation seul, la cuisson s'y ajoute.
+function minIsPrep(r){
+  const cook = stepTimes(r).cook;
+  return !!r.min && !r.minEst && cook >= 10 && cook > +r.min * 1.15;
 }
 // Un long repos (levée, nuit au frais…) déjà compris dans le temps saisi : « 3 h 10 » pour un pain
 // qui cuit 35 min et lève 1 h 45. On ne l'ajoute pas une seconde fois au total.
@@ -505,8 +513,9 @@ function timesHtml(r){
 }
 // Temps total = préparation saisie + tout le repos lu dans les étapes.
 function extraRest(r){ return r.min && !restIncluded(r) ? restMinutes(r) : 0; }
-function totalMinutes(r){ return r.min ? +r.min + extraRest(r) : 0; }
-function fmtMin(m){ return m >= 60 ? Math.floor(m / 60) + ' h' + (m % 60 ? ' ' + String(m % 60).padStart(2, '0') : '') : m + ' min'; }
+function totalMinutes(r){ return r.min ? +r.min + extraRest(r) + (minIsPrep(r) ? stepTimes(r).cook : 0) : 0; }
+function fmtMin(m){ if (m >= 2880){ let d = Math.floor(m / 1440), h = Math.round((m % 1440) / 60); if (h === 24){ d++; h = 0; } return d + ' j' + (h ? ' ' + h + ' h' : ''); }
+  return m >= 60 ? Math.floor(m / 60) + ' h' + (m % 60 ? ' ' + String(m % 60).padStart(2, '0') : '') : m + ' min'; }
 const SANTE_SUBS = new Set(['sansgluten','proteines','antiinflamm','vegetarien','vegan','keto','rapide']);
 
 const _GLUTEN_KWS = ['pates','spaghetti','tagliatelle','linguine','penne','fusilli','macaroni','lasagne','semoule','boulgour','couscous','chapelure','biscottes','biscuit','epeautre','seigle','pain','ble','orge','avoine','brick','feuilletee','brisee','sablee','blinis','tortilla','brioche','croissant'];
