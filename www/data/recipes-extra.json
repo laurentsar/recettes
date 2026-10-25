@@ -1407,7 +1407,29 @@
     },
     {
       "id": "dropbox:a501b658-095b-43dd-ae6b-6549c5ab79e4",
-      "img": "img/illus/dropbox-a501b658-095b-43dd-ae6b-6549c5ab79e4.jpg"
+      "img": "img/illus/dropbox-a501b658-095b-43dd-ae6b-6549c5ab79e4.jpg",
+      "cat": "Entrée, Noël, Canard",
+      "min": 30,
+      "desc": "Foie gras maison en ballotins, poché dans l'eau bouillante feu coupé puis affiné 48 h au frigo. Méthode éprouvée depuis plus de 15 ans : le seul secret, ce sont des foies de qualité.",
+      "ing": [
+        "1 foie gras de canard cru déveiné (500 à 600 g maximum)",
+        "Sel de Guérande moulu : 12 g par kilo de foie",
+        "Poivre : 4 g par kilo de foie",
+        "Sucre roux : 2 g par kilo de foie"
+      ],
+      "steps": [
+        "Choisir un foie de canard déveiné de 500 à 600 g maximum : plus gros, il risque de fondre et il y a trop de perte.",
+        "Le portionner en 2 ou 3 morceaux.",
+        "Mélanger le sel (12 g/kg), le poivre (4 g/kg) et le sucre roux (2 g/kg). Assaisonner les morceaux, surtout l'intérieur. Remettre un tour de sel et de poivre entre les 2 lobes : on en perd toujours.",
+        "Former des ballotins serrés avec du film alimentaire compatible micro-ondes (résistant à la chaleur), en faisant plusieurs tours croisés.",
+        "Mettre au froid 2 h.",
+        "Remplir une cocotte-minute d'eau (pour 2 foies) et porter à ébullition.",
+        "Quand l'eau bout, plonger les ballotins et couper le feu aussitôt. Poser un couvercle ou une assiette pour que les foies ne remontent pas à la surface.",
+        "Une fois l'eau assez froide pour y mettre les mains, récupérer les foies et les laisser refroidir dehors (au frais).",
+        "Une fois froids, les placer 48 h au réfrigérateur.",
+        "Enlever le film et déguster.",
+        "Conservation : s'ils ne sont pas consommés dans la semaine, les congeler — retirer le film de cuisson et en remettre un neuf avant congélation, ou mieux, les mettre sous vide."
+      ]
     },
     {
       "id": "dropbox:12188ae5-c23d-47d7-9046-ff72f1f600b1",
@@ -28597,7 +28619,7 @@
     {
       "id": "tmx:084",
       "t": "Foie gras au Thermomix",
-      "cat": "Plat, Entrée, Thermomix",
+      "cat": "Entrée, Noël, Canard, Thermomix",
       "min": 15,
       "serv": 6,
       "desc": "Version Thermomix de Tatamix sur Cookomix, notée 4,92/5 (1124 avis). Étapes résumées avec les réglages (temps / température / vitesse) ; recette complète sur le site.",

@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '4.01';
+const APP_VERSION = '4.02';
 
 let ALL = [];
 let BASE = [];
@@ -416,9 +416,17 @@ function matchKw(r, kw){
 function restMinutes(r){
   if (r._rest !== undefined) return r._rest;
   const st = norm(Array.isArray(r.steps) ? r.steps.join(' ') : (r.steps || ''));
-  const re = /(refrigerer|refrigerateur|au frais|frigo|reposer|repos|mariner|marinade|lever|pousser|doubler de volume|congelateur|egoutter|infuser|tremper|dessaler|prendre|figer)[^.]{0,40}?(\d+(?:[.,]\d+)?)\s*(h\b|heures?|min)/g;
-  let m, w = 0;
-  while ((m = re.exec(st))){ const v = parseFloat(m[2].replace(',', '.')); w += /h/.test(m[3]) ? v * 60 : v; }
+  const re = /(refrigerer|refrigerateur|au frais|au froid|frigo|reposer|repos|mariner|marinade|lever|pousser|doubler de volume|congelateur|egoutter|infuser|tremper|dessaler|prendre|figer)[^.]{0,40}?(\d+(?:[.,]\d+)?)\s*(h\b|heures?|min)/g;
+  let m, w = 0; const seen = new Set();
+  while ((m = re.exec(st))){ const v = parseFloat(m[2].replace(',', '.')); w += /h/.test(m[3]) ? v * 60 : v; seen.add(m.index + m[0].length); }
+  // Durée suivie du lieu : « placer 48 h au réfrigérateur », « 2 h au frais ».
+  const re2 = /(\d+(?:[.,]\d+)?)\s*(h\b|heures?|min)\s*(?:au |a |de |en )(refrigerateur|frais|frigo|froid|repos|congelateur)/g;
+  while ((m = re2.exec(st))){
+    const end = m.index + m[1].length + m[0].slice(m[1].length).search(/\S/) + m[2].length;
+    if ([...seen].some(e => Math.abs(e - end) <= 1)) continue;
+    if (/\d\s*(h|min)\s*(a|-|ou)\s*$/.test(st.slice(Math.max(0, m.index - 12), m.index))) continue;  // « 30 min à 2 h au frais » : déjà compté
+    const v = parseFloat(m[1].replace(',', '.')); w += /h/.test(m[2]) ? v * 60 : v;
+  }
   if (/(toute la nuit|une nuit|la veille)/.test(st)) w = Math.max(w, 480);
   return (r._rest = Math.round(w));
 }
@@ -427,7 +435,7 @@ function restMinutes(r){
    préparation active (pétrir, fouetter…). Sert à afficher Prépa / Cuisson et à estimer le temps
    des recettes importées qui n'en ont pas. */
 const _COOK_RE = /(cuire|cuisson|cuit|enfourn|four\b|mijot|frire|friture|frit|rotir|griller|grill|gratin|bouill|ebullition|fremi|poel|dorer|dore|revenir|rissol|saisir|saisi|reduire|reduction|braiser|vapeur|blanchir|air ?fryer|airfryer|friteuse|\baf\b|caramelis|fondre|chauffer|chaud|torrefi|confire|pocher|sauter|varoma|degre|°c)/;
-const _REST_RE = /(yaourtiere|fermentation|etuve|refrigerer|refrigerateur|au frais|frigo|reposer|repos|mariner|marinade|lever|pousser|doubler de volume|congelateur|egoutter|infuser|tremper|dessaler|prendre|figer|refroidir|tiedir|attendre|degorger)/;
+const _REST_RE = /(au froid|yaourtiere|fermentation|etuve|refrigerer|refrigerateur|au frais|frigo|reposer|repos|mariner|marinade|lever|pousser|doubler de volume|congelateur|egoutter|infuser|tremper|dessaler|prendre|figer|refroidir|tiedir|attendre|degorger)/;
 const _WORD_DUR = [[/un quart d.heure/g,'15 min'],[/une demi.heure/g,'30 min'],[/trois quarts d.heure/g,'45 min'],[/une heure/g,'1 h'],[/deux heures/g,'2 h'],
   [/une dizaine de minutes/g,'10 min'],[/une quinzaine de minutes/g,'15 min'],[/une vingtaine de minutes/g,'20 min'],[/une trentaine de minutes/g,'30 min'],
   [/quelques minutes/g,'3 min'],[/une minute/g,'1 min'],[/deux minutes/g,'2 min'],[/cinq minutes/g,'5 min'],[/dix minutes/g,'10 min']];
