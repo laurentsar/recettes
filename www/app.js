@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.99';
+const APP_VERSION = '4.00';
 
 let ALL = [];
 let BASE = [];
@@ -2580,7 +2580,7 @@ function renderFrigoIngs(tab){
 const STOCK_STOP = new Set(('de du des la le les un une et en au aux a d l avec sans pour sur par ou '+
   'bio nature naturel naturelle extra fin fins fine fines classique original originale qualite premium superieur superieure '+
   'boite boites conserve conserves bocal bocaux sachet sachets paquet pack lot format familial maxi mini '+
-  'batonnet batonnets stick sticks portion portions barquette barquettes '+
+  'batonnet batonnets stick sticks portion portions barquette barquettes pave paves dos surgele surgeles surgelee surgelees congele congeles congelee congelees '+
   'france francais francaise origine marque repere gr kg cl ml litre litres '+
   'carrefour auchan leclerc lidl casino intermarche monoprix franprix systeme reflets panzani barilla lustucru '+
   'bonduelle cassegrain daucy heinz amora maille lesieur puget knorr maggi vahine ancel francine saupiquet connetable').split(' '));
@@ -2630,6 +2630,10 @@ const STOCK_VARIETIES = {
   jambon: [['blanc','cuit','paris','braise','cotto'],['cru','sec','serrano','parme','bayonne','iberique','prosciutto','pata','negra','prisuttu','bellota'],
     ['poulet','dinde','volaille'],['fume']],
 };
+// Produits dont la version fumée est un autre produit : « saumon fumé » ne remplace pas le
+// saumon frais ou surgelé d'une recette, et inversement (même quand la recette ne précise rien).
+const STOCK_SMOKED = { saumon:1, truite:1, hareng:1, maquereau:1, haddock:1, anguille:1, thon:1, espadon:1 };
+const STOCK_SMOKED_WORDS = ['fume', 'fumee', 'gravlax'];
 // Ce qui n'est pas le produit lui-même (« chair à saucisse », « enveloppe à saucisse »).
 const STOCK_NOT_PRODUCT = { saucisse: ['chair','enveloppe','boyau','sobrassada','figatelli'], jambon: ['couenne','os'],
   meringue: ['blanc','preparer','suisse','italienne','francaise'] }; // « réserver les blancs pour la meringue » = meringue à faire
@@ -2683,6 +2687,12 @@ const _prodTokCache = new Map();
 function stockVarietyOk(toks, name){
   let own = _prodTokCache.get(name);
   if (!own){ own = new Set(stockTokens(name, STOCK_STOP)); _prodTokCache.set(name, own); }
+  for (const fam of Object.keys(STOCK_SMOKED)){
+    if (!own.has(fam) || !toks.includes(fam)) continue;
+    const mineSmoked = STOCK_SMOKED_WORDS.some(w => own.has(w));
+    const theirSmoked = STOCK_SMOKED_WORDS.some(w => toks.includes(w));
+    if (mineSmoked !== theirSmoked) return false;
+  }
   for (const fam of Object.keys(STOCK_VARIETIES)){
     if (!own.has(fam) || !toks.includes(fam)) continue;
     if ((STOCK_NOT_PRODUCT[fam] || []).some(w => toks.includes(w) && !own.has(w))) return false;
