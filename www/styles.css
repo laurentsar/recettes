@@ -817,7 +817,7 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .qk-handle{flex:0 0 auto;display:flex;align-items:center;justify-content:center;gap:8px;padding:10px;border:none;background:none;color:var(--text);font-size:1em;cursor:pointer}
 .qk-handle b{font-size:1.25em}
 .qk-handle span{color:var(--muted)}
-.qk-res{flex:1 1 auto;display:flex;gap:10px;overflow-x:auto;overflow-y:hidden;padding:0 12px calc(env(safe-area-inset-bottom) + 12px);scroll-snap-type:x mandatory}
+.qk-res{flex:1 1 auto;min-height:0;display:flex;gap:10px;overflow-x:auto;overflow-y:hidden;padding:0 12px calc(env(safe-area-inset-bottom) + 12px);scroll-snap-type:x mandatory}
 .qk-res .rcard{flex:0 0 150px;scroll-snap-align:start;margin:0}
 .qk-panel.open .qk-res{display:grid;grid-template-columns:1fr 1fr;grid-auto-rows:max-content;overflow-x:hidden;overflow-y:auto;align-content:start}
 .qk-panel.open .qk-res .rcard{flex:none;flex-shrink:0;height:auto}
@@ -841,5 +841,5 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .qk-tile.on small{color:#fff}
 .qk-nav{display:flex;justify-content:space-between;padding:14px 4px 4px}
 .qk-nav button{border:none;background:none;color:var(--muted);font-size:.95em;font-weight:700;cursor:pointer;padding:8px}
-.qk-panel.full{flex:1 1 auto;height:auto}
+.qk-panel.full{flex:1 1 auto;height:auto;min-height:0}
 .editview.quick:has(.qk-panel.full) .qk-filters{flex:0 0 auto}
