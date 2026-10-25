@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.86';
+const APP_VERSION = '3.87';
 
 let ALL = [];
 let BASE = [];
@@ -516,8 +516,8 @@ function renderChips(){
   const catLabel = nSel ? `🏷️ ${nSel} sélection${nSel>1?'s':''}` : '🏷️ Catégories';
   elCats.innerHTML = `
     <button class="chip quick-chip" id="quick-btn">🔎 Express</button>
-    <button class="chip ing-chip ${state.ing?'active':''}" id="ing-filter-btn">${esc(ingLabel)}</button>
-    <button class="chip ${stockSort?'active':''}" id="stock-sort-btn" title="Trier par ingrédients en stock">🧺 Mes stocks</button>
+    ${state.ing ? `<button class="chip ing-chip active" id="ing-filter-btn">${esc(ingLabel)}</button>` : ''}
+    ${stockSort ? `<button class="chip active" id="stock-sort-btn" title="Arrêter le tri par stocks">🧺 Mes stocks ✕</button>` : ''}
     <div class="cat-multi">
       <button class="chip ${nSel?'active':''}" id="cat-btn">${esc(catLabel)} ▾</button>
       <div class="cat-panel" id="cat-panel" hidden></div>
@@ -526,10 +526,13 @@ function renderChips(){
   const panel = document.getElementById('cat-panel');
   document.getElementById('cat-btn').addEventListener('click', (e)=>{ e.stopPropagation(); panel.hidden = !panel.hidden; if(!panel.hidden) fillCatPanel(panel); });
   panel.addEventListener('click', e=> e.stopPropagation());
-  document.getElementById('ing-filter-btn').addEventListener('click', ()=>{
-    if (state.ing){ state.ing=null; renderChips(); renderGrid(); } else openIngPick();
-  });
-  document.getElementById('stock-sort-btn').addEventListener('click', toggleStockSort);
+  // Ingrédient et tri par stocks sont dans le menu ⋯ ; ici seulement quand ils sont actifs (✕ pour retirer).
+  const ib = document.getElementById('ing-filter-btn');
+  if (ib) ib.addEventListener('click', ()=>{ state.ing=null; renderChips(); renderGrid(); });
+  const sm = document.getElementById('stock-menu-btn');
+  if (sm) sm.textContent = stockSort ? '🧺 Arrêter le tri par stocks' : '🧺 Trier par mes stocks';
+  const sb = document.getElementById('stock-sort-btn');
+  if (sb) sb.addEventListener('click', toggleStockSort);
   document.getElementById('quick-btn').addEventListener('click', () => openQuick());
   elCats.querySelectorAll('.shortcut').forEach(b => b.addEventListener('click', () => openQuick(QK_SHORTCUTS[+b.dataset.i])));
 }
@@ -4124,6 +4127,8 @@ async function init(){
     moreMenu.addEventListener('click', ()=>{ moreMenu.hidden=true; });
   }
   document.getElementById('wizard-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; openQuick(); });
+  document.getElementById('ing-menu-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; openIngPick(); });
+  document.getElementById('stock-menu-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; toggleStockSort(); });
   document.getElementById('wizard-close-btn').addEventListener('click', closeWizard);
   document.getElementById('wz-prev').addEventListener('click', wizardPrev);
   document.getElementById('wz-next').addEventListener('click', wizardNext);
