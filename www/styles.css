@@ -797,3 +797,8 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .qk-chip:disabled{opacity:.3}
 .qk-res{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px 14px 30px}
 .qk-empty{grid-column:1/-1;text-align:center;color:var(--muted)}
+
+.shortcuts{flex-basis:100%;display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;margin-top:8px;padding-bottom:2px}
+.shortcuts::-webkit-scrollbar{display:none}
+.chip.shortcut{flex:0 0 auto;white-space:nowrap;background:var(--card)}
+#cats{flex-wrap:wrap}

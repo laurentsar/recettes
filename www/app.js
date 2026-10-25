@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.79';
+const APP_VERSION = '3.80';
 
 let ALL = [];
 let BASE = [];
@@ -486,7 +486,8 @@ function renderChips(){
     <div class="cat-multi">
       <button class="chip ${nSel?'active':''}" id="cat-btn">${esc(catLabel)} ▾</button>
       <div class="cat-panel" id="cat-panel" hidden></div>
-    </div>`;
+    </div>
+    ${gridFoldable() ? `<div class="shortcuts">${QK_SHORTCUTS.map((x, i) => `<button class="chip shortcut" data-i="${i}">${x.label}</button>`).join('')}</div>` : ''}`;
   const panel = document.getElementById('cat-panel');
   document.getElementById('cat-btn').addEventListener('click', (e)=>{ e.stopPropagation(); panel.hidden = !panel.hidden; if(!panel.hidden) fillCatPanel(panel); });
   panel.addEventListener('click', e=> e.stopPropagation());
@@ -494,7 +495,8 @@ function renderChips(){
     if (state.ing){ state.ing=null; renderChips(); renderGrid(); } else openIngPick();
   });
   document.getElementById('stock-sort-btn').addEventListener('click', toggleStockSort);
-  document.getElementById('quick-btn').addEventListener('click', openQuick);
+  document.getElementById('quick-btn').addEventListener('click', () => openQuick());
+  elCats.querySelectorAll('.shortcut').forEach(b => b.addEventListener('click', () => openQuick(QK_SHORTCUTS[+b.dataset.i])));
 }
 function toggleStockSort(){
   if (!stockSort && !getAllStorageIngs().length){
@@ -762,6 +764,7 @@ function gridFoldable(){
 function updateGridFold(){
   const btn = document.getElementById('all-toggle');
   const fold = gridFoldable();
+  const sc = document.querySelector('#cats .shortcuts'); if (sc) sc.hidden = !fold;
   btn.hidden = !fold;
   elStatus.hidden = fold;
   elGrid.hidden = fold && !gridOpen;
@@ -4311,11 +4314,22 @@ const QK_QUESTIONS = [
     { v:'cru', label:'🥒 Cru', f: r => !QK.cuisson.test(qkHay(r).steps) },
   ]},
   { key:'envie', title:'Envie', opts: () => [
-    { v:'leger', label:'🥗 Léger', f: r => QK.leger.test(qkHay(r).title + ' ' + norm((r.cat||'') + ' ' + (r.desc||''))) || (checkDiet(r,'vegetarien') && !/creme|fromage|beurre|lardon|frit/.test(qkHay(r).all)) },
+    { v:'leger', label:'🥗 Léger', f: r => { const h = qkHay(r); if (/chocolat|brioche|beignet|bugne|buche|tartiflette|raclette|frit|lardon|creme|gratin|fondue|cookie|brownie|gateau|mascarpone/.test(h.title)) return false; return QK.leger.test(h.title) || qkCat(r,'Santé') || (qkCat(r,'Salade','Soupe','Légumes','Smoothie') && !/creme|fromage|beurre|lardon|frit|chocolat|sucre/.test(h.all)); } },
     { v:'reconfort', label:'🍲 Réconfortant', f: r => QK.reconfort.test(qkHay(r).title) },
     { v:'recevoir', label:'🎉 Recevoir', f: r => QK.recevoir.test(qkHay(r).title) || qkCat(r,'Noël') },
     { v:'stock', label:'🧺 Mes stocks', f: r => { const c = qkStockCov(r); return c && c.total - c.covered <= 2; } },
+    { v:'saison', label:'🌿 De saison', f: r => { const sk = (SEASON[monthNow()]||[]).filter(k => !WZ_BASIC.has(k)); return seasonHitsInText((r.ing||[]).join(' '), sk).length > 0; } },
   ]},
+];
+// Raccourcis de l'accueil : la recherche express avec des critères déjà cochés.
+const QK_SHORTCUTS = [
+  { label:'⚡ Rapide ce soir', answers:{ type:'plat', temps:'30' } },
+  { label:'🧺 Avec mes stocks', answers:{ envie:'stock' } },
+  { label:'🌿 De saison', answers:{ envie:'saison' } },
+  { label:'🥗 Léger', answers:{ envie:'leger' } },
+  { label:'🎉 Pour recevoir', answers:{ envie:'recevoir' } },
+  { label:'⚙️ Thermomix', answers:{ outil:'thermomix' } },
+  { label:'🌪️ Airfryer', answers:{ outil:'airfryer' } },
 ];
 let qk = null;
 function qkStockCov(r){
@@ -4362,8 +4376,8 @@ function qkFilter(answers){
   if (answers.envie === 'stock') return out.filter(r => { const c = qkStockCov(r); return c && c.total - c.covered <= 2; });
   return out;
 }
-function openQuick(){
-  qk = { answers: {}, cov: new Map(), have: null };
+function openQuick(preset){
+  qk = { answers: Object.assign({}, preset && preset.answers), cov: new Map(), have: null };
   qk.idx = qkIndex();
   let el = document.getElementById('quick');
   if (!el){ el = document.createElement('div'); el.id = 'quick'; el.className = 'editview quick'; document.body.appendChild(el); }
