@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.85';
+const APP_VERSION = '3.86';
 
 let ALL = [];
 let BASE = [];
@@ -210,6 +210,26 @@ const TAXONOMY = {
 
 // Nettoyage des catégories « Poisson » ajoutées à tort par l'ancien classement automatique
 // (le mot était cherché aussi dans les étapes : « mode poisson » de l'airfryer…).
+// Ancien classement automatique : « Plat » ajouté par défaut et figé sur le téléphone, alors que la
+// recette est un dessert, un apéritif, une boisson… On rétablit le type des données.
+function fixLocalCourseCats(){
+  const COURSES = ['Dessert','Apéritif','Entrée','Boissons','Accompagnement','Sauce','Marinade','Technique','Smoothie','Milkshake','Cocktail sans alcool'];
+  const byId = new Map(BASE.concat(imports).map(r => [String(r.id), r]));
+  let n = 0;
+  for (const [id, ed] of Object.entries(edits)){
+    if (!ed || typeof ed.cat !== 'string') continue;
+    const r = byId.get(String(id)); if (!r) continue;
+    const base = String(r.cat || '').split(',').map(c => c.trim()).filter(Boolean);
+    const cats = ed.cat.split(',').map(c => c.trim()).filter(Boolean);
+    if (!cats.includes('Plat') || base.includes('Plat')) continue;
+    const course = base.filter(c => COURSES.includes(c));
+    if (!course.length) continue;
+    ed.cat = [...new Set(base.concat(cats.filter(c => c !== 'Plat')))].join(', ');
+    n++;
+  }
+  if (n) saveEdits();
+  return n;
+}
 function fixLocalSeafoodCats(){
   const seaCats = new Set(['poisson', ...Object.keys(SEAFOOD).map(c => c.toLowerCase())]);
   const seaKw = ['poisson','fruits de mer', ...Object.values(SEAFOOD).flat()];
@@ -4080,6 +4100,7 @@ async function init(){
   if (cachedTxt){ try{ const c=JSON.parse(cachedTxt); if(c.recipes && c.recipes.length) dataObj=c; }catch(e){} }
   BASE = applyExtra(dataObj.recipes || [], EXTRA);
   fixLocalSeafoodCats();
+  fixLocalCourseCats();
   ALL = mergeEdits();
   buildIngredientIndex();
   elSub.textContent = `${ALL.length} recettes · v${APP_VERSION}`;
