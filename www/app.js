@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.94';
+const APP_VERSION = '3.95';
 
 let ALL = [];
 let BASE = [];
@@ -847,6 +847,27 @@ function splitSteps(txt){
   }
   return parts;
 }
+/* Étapes découpées en sections : une ligne « FARCE », « 🔥 CUISSON » ou « Pour la sauce : »
+   devient un titre (comme pour les ingrédients), et « PÂTE : Mélanger… » donne le titre
+   « Pâte » suivi de l'étape « Mélanger… ». Les marqueurs « ÉTAPE 3 » sont retirés. */
+const STEP_JUNK_RE = /^(post[ée] dans|merci|cat[ée]gories?|mots?[- ]cl[ée]s|pages?|citation.*|pour lire la suite.*|recette|dede|nb)$/i;
+function stepItems(txt){
+  const out = []; let last = '';
+  const head = h => { h = cap(lowerIfCaps(h.replace(/\s*:\s*$/, '').trim())); if (h && h !== last) out.push({ head: h }); last = h; };
+  for (const p of splitSteps(txt)){
+    const letters = p.replace(/[^A-Za-zÀ-ÿ]/g, '');
+    if (/^(étape|etape|step)\s*\d+\s*:?$/i.test(p)) continue;
+    if (p.length <= 45 && letters.length >= 3 && letters === letters.toUpperCase()){ head(p); continue; }
+    if (/:$/.test(p) && STEP_JUNK_RE.test(p.replace(/\s*:$/, '').trim())) continue;
+    // « Pour la sauce : » est un titre ; « Faites chauffer 50 g d'huile, puis : » reste une étape.
+    if (p.length <= 33 && /:$/.test(p) && !/,/.test(p) && !/\d/.test(p.replace(/\([^)]*\)/g, '').replace(/^\d+[.)]\s*/, ''))){ head(p); continue; }
+    const m = p.match(/^([^:a-zà-ÿ\d]{3,30}?)\s*:\s+(.+)$/);
+    if (m && /[A-ZÀ-Ý]{3}/.test(m[1])){ head(m[1]); out.push({ text: m[2] }); continue; }
+    out.push({ text: p });
+  }
+  return out;
+}
+function stepTexts(txt){ return stepItems(txt).filter(it => it.text).map(it => it.text); }
 function trackView(id){
   try {
     const hist = JSON.parse(localStorage.getItem('recetteHistory')||'[]');
@@ -955,9 +976,10 @@ function openDetail(id){
       const s = seasonHitsInText(it.text, sk).length > 0;
       return `<li data-k="${k}" class="${s?'season':''}"><span class="box"></span><span>${esc(it.text)}</span>${s?'<span class="leaf">🌿</span>':''}${stockBadgeHtml(stockHitsForLine(it.text))}</li>`;
     }).join('')}</ul>` : '';
-  const steps = splitSteps(r.steps);
+  const stepIt = stepItems(r.steps);
+  const steps = stepIt.filter(it => it.text);
   const stepsHtml = steps.length ? `<div class="d-sec">Préparation</div><ol class="steps">${
-    steps.map(s=>`<li>${esc(s)}</li>`).join('')}</ol>` : '';
+    stepIt.map(it=> it.head ? `<li class="step-head">${esc(it.head)}</li>` : `<li>${esc(it.text)}</li>`).join('')}</ol>` : '';
   const hasIng = (r.ing||[]).length > 0;
   const cookBtn = (steps.length || hasIng) ? `<div class="d-cook-row">
     ${hasIng ? `<button class="d-ing-btn">📋 Ingrédients</button>` : ''}
@@ -1055,7 +1077,7 @@ function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; r
 /* ---------- mode cuisine pas-à-pas ---------- */
 let cookRecipe = null;
 let cookStep = 0;
-let cookSteps = [];
+let cookSteps = [], cookSecs = [];
 let cookIngMap = [];
 const cookSynth = window.speechSynthesis || null;
 let cookRecog = null;
@@ -1326,7 +1348,9 @@ function cookIngListHtml(r){
 function openCook(id, initialTab='steps'){
   const r = ALL.find(x=>String(x.id)===String(id)); if(!r) return;
   cookRecipe = r;
-  cookSteps = splitSteps(r.steps);
+  const _it = stepItems(r.steps); let _sec = '';
+  cookSteps = []; cookSecs = [];
+  for (const it of _it){ if (it.head) _sec = it.head; else { cookSteps.push(it.text); cookSecs.push(_sec); } }
   if(initialTab==='steps' && !cookSteps.length){ toast('Aucune étape de préparation'); return; }
   cookStep = 0;
   cookIngMap = buildIngMap(r.ing||[]);
@@ -1397,7 +1421,8 @@ function renderCookStep(){
   const total = cookSteps.length;
   document.getElementById('cook-counter').textContent = `Étape ${cookStep+1} / ${total}`;
   document.getElementById('cook-progress-bar').style.width = Math.round(((cookStep+1)/total)*100)+'%';
-  document.getElementById('cook-step-text').innerHTML = enrichStep(cookSteps[cookStep], cookIngMap);
+  const sec = cookSecs[cookStep];
+  document.getElementById('cook-step-text').innerHTML = (sec ? `<div class="cook-step-sec">${esc(sec)}</div>` : '') + enrichStep(cookSteps[cookStep], cookIngMap);
   document.getElementById('cook-prev').disabled = cookStep === 0;
   document.getElementById('cook-next').textContent = cookStep === total-1 ? '✓ Terminer' : 'Suivant →';
 }
@@ -4084,7 +4109,7 @@ function renderBatchCuisson(){
   const selected = [...batchSel].map(id=> ALL.find(r=> String(r.id)===id)).filter(Boolean);
   selected.sort((a,b)=> (a.min||0) - (b.min||0));
   const html = selected.map((r, i)=>{
-    const steps = splitSteps(r.steps);
+    const steps = stepTexts(r.steps);
     return `<div class="batch-cook-card">
       <div class="batch-cook-card-title">
         <span class="batch-cook-order">${i+1}</span>
@@ -4530,7 +4555,7 @@ function wzSeasonItems(){
   return (SEASON[monthNow()]||[]).filter(k=> !WZ_BASIC.has(k)).slice(0,18);
 }
 function wzStepsCount(r){
-  return Array.isArray(r.steps) ? r.steps.length : splitSteps(r.steps).length;
+  return stepTexts(r.steps).length;
 }
 
 function wzRender(){
