@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '4.00';
+const APP_VERSION = '4.01';
 
 let ALL = [];
 let BASE = [];
@@ -479,20 +479,21 @@ function restIncluded(r){
   const rest = restMinutes(r), cook = stepTimes(r).cook;
   return !r.minEst && rest >= 60 && cook > 0 && +r.min - cook - rest >= 5;
 }
-// Pastilles de temps de la fiche : total, puis préparation / cuisson / repos quand on sait les distinguer.
-function timeTags(r){
-  if (!r.min) return [];
+// Bloc des temps de la fiche : total, puis préparation / cuisson / repos quand on sait les distinguer.
+function timesHtml(r){
+  if (!r.min) return '';
   const ap = r.minEst ? '≈ ' : '', sp = timeSplit(r), rest = restMinutes(r);
-  const tip = r.minEst ? ' title="Temps estimé à partir des étapes"' : '';
-  const out = [];
-  if (sp || rest) out.push(`<span class="tag"${tip}>⏱️ ${ap}${fmtMin(totalMinutes(r))} au total</span>`);
+  const cell = (ico, val, lbl, cls='') => `<div class="dt-cell${cls}"><span class="dt-ico">${ico}</span><b>${val}</b><small>${lbl}</small></div>`;
+  const cells = [];
+  if (sp || rest) cells.push(cell('⏱️', ap + fmtMin(totalMinutes(r)), 'Total', ' dt-total'));
   if (sp){
-    out.push(`<span class="tag tag-time"${tip}>🔪 ${ap}${fmtMin(sp.prep)} de prépa</span>`);
-    out.push(`<span class="tag tag-time">🔥 ${fmtMin(sp.cook)} de cuisson</span>`);
-  } else if (rest) out.push(`<span class="tag tag-time"${tip}>🔪 ${ap}${fmtMin(+r.min)} de prépa et cuisson</span>`);
-  else out.push(`<span class="tag"${tip}>⏱️ ${ap}${fmtMin(+r.min)}</span>`);
-  if (rest) out.push(`<span class="tag tag-time">💤 ${fmtMin(rest)} de repos</span>`);
-  return out;
+    cells.push(cell('🔪', ap + fmtMin(sp.prep), 'Préparation'));
+    cells.push(cell('🔥', fmtMin(sp.cook), 'Cuisson'));
+  } else if (rest) cells.push(cell('🔪', ap + fmtMin(+r.min), 'Prépa + cuisson'));
+  else cells.push(cell('⏱️', ap + fmtMin(+r.min), 'Durée', ' dt-total'));
+  if (rest) cells.push(cell('💤', fmtMin(rest), 'Repos'));
+  const note = r.minEst ? `<div class="dt-note">≈ temps estimé à partir des étapes</div>` : '';
+  return `<div class="d-times" style="--n:${cells.length}">${cells.join('')}</div>${note}`;
 }
 // Temps total = préparation saisie + tout le repos lu dans les étapes.
 function extraRest(r){ return r.min && !restIncluded(r) ? restMinutes(r) : 0; }
@@ -1042,7 +1043,6 @@ function openDetail(id){
   const tags = [
     `<button class="tag cat tag-cat-btn" title="${catList(r).length?'Modifier les catégories':'Ajouter une catégorie'}">${catLabel}</button>`,
     r.area?`<span class="tag">📍 ${esc(r.area)}</span>`:'',
-    ...timeTags(r),
     r.serv?`<span class="tag">🍽️ ${esc(servTxt(r.serv))}</span>`:'',
     ..._dietTags,
   ].join('');
@@ -1099,6 +1099,7 @@ function openDetail(id){
         ${variantTabs}
         <div class="d-title">${esc(r.t)}</div>
         <div class="d-meta">${tags}</div>
+        ${timesHtml(r)}
         ${r.desc?`<div class="desc">${esc(r.desc)}</div>`:''}
         <div class="d-main">
         ${ing}${stepsHtml}${cookBtn}

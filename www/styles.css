@@ -167,6 +167,14 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .d-variant-tab:not(.active):active{opacity:.7}
 .d-title{font-size:1.5em;font-weight:800;margin:6px 0 8px;line-height:1.2}
 .d-meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.d-times{display:grid;grid-template-columns:repeat(var(--n),1fr);margin:0 0 14px;border:1px solid var(--line);border-radius:14px;background:var(--card);overflow:hidden}
+.dt-cell{display:flex;flex-direction:column;align-items:center;gap:1px;padding:10px 4px 9px;text-align:center;min-width:0}
+.dt-cell + .dt-cell{border-left:1px solid var(--line)}
+.dt-cell .dt-ico{font-size:1.05em;line-height:1.2}
+.dt-cell b{font-size:1em;font-weight:800;white-space:nowrap}
+.dt-cell small{font-size:.72em;color:var(--muted);font-weight:600}
+.dt-total b{color:var(--accent)}
+.dt-note{font-size:.75em;color:var(--muted);margin:-8px 0 14px 4px}
 .tag{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 11px;font-size:.82em;color:var(--muted)}
 .tag-diet{background:#1a2e1a;border-color:#3a6b1a;color:#8bc34a}
 .tag.cat{color:var(--accent);border-color:var(--accent)}
