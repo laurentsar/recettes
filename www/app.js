@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.97';
+const APP_VERSION = '3.98';
 
 let ALL = [];
 let BASE = [];
@@ -53,7 +53,12 @@ function tidyTitle(t){
 }
 function tidyRecipe(r){
   const t = tidyTitle(r.t);
-  return t === r.t ? r : Object.assign({}, r, { t });
+  let out = t === r.t ? r : Object.assign({}, r, { t });
+  if (!out.min && (out.steps || out.ing?.length)){
+    const est = estimateMin(out);
+    if (est) out = Object.assign({}, out, { min: est, minEst: true });
+  }
+  return out;
 }
 function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderCellarHome(); renderGrid(); }
 
@@ -417,8 +422,80 @@ function restMinutes(r){
   if (/(toute la nuit|une nuit|la veille)/.test(st)) w = Math.max(w, 480);
   return (r._rest = Math.round(w));
 }
+/* Temps lus dans les étapes : chaque durée (« 20 à 25 min », « 1 h 30 », « une dizaine de minutes »)
+   est classée cuisson (cuire, four, mijoter, poêle, air fryer…), repos (cf. restMinutes) ou
+   préparation active (pétrir, fouetter…). Sert à afficher Prépa / Cuisson et à estimer le temps
+   des recettes importées qui n'en ont pas. */
+const _COOK_RE = /(cuire|cuisson|cuit|enfourn|four\b|mijot|frire|friture|frit|rotir|griller|grill|gratin|bouill|ebullition|fremi|poel|dorer|dore|revenir|rissol|saisir|saisi|reduire|reduction|braiser|vapeur|blanchir|air ?fryer|airfryer|friteuse|\baf\b|caramelis|fondre|chauffer|chaud|torrefi|confire|pocher|sauter|varoma|degre|°c)/;
+const _REST_RE = /(yaourtiere|fermentation|etuve|refrigerer|refrigerateur|au frais|frigo|reposer|repos|mariner|marinade|lever|pousser|doubler de volume|congelateur|egoutter|infuser|tremper|dessaler|prendre|figer|refroidir|tiedir|attendre|degorger)/;
+const _WORD_DUR = [[/un quart d.heure/g,'15 min'],[/une demi.heure/g,'30 min'],[/trois quarts d.heure/g,'45 min'],[/une heure/g,'1 h'],[/deux heures/g,'2 h'],
+  [/une dizaine de minutes/g,'10 min'],[/une quinzaine de minutes/g,'15 min'],[/une vingtaine de minutes/g,'20 min'],[/une trentaine de minutes/g,'30 min'],
+  [/quelques minutes/g,'3 min'],[/une minute/g,'1 min'],[/deux minutes/g,'2 min'],[/cinq minutes/g,'5 min'],[/dix minutes/g,'10 min']];
+const _timesCache = new WeakMap();
+function stepTimes(r){
+  if (_timesCache.has(r)) return _timesCache.get(r);
+  let txt = norm(stepTexts(r.steps).join('\n'));
+  for (const [re, v] of _WORD_DUR) txt = txt.replace(re, v);
+  const t = { prep: 0, cook: 0 };
+  const DUR = /(\d+(?:[.,]\d+)?)(?:\s*(?:a|-|–|ou)\s*(\d+(?:[.,]\d+)?))?\s*(h\b|heures?\b|min(?:utes?)?\b|mn\b|sec(?:ondes?)?\b|s\b)(?:\s*(\d{1,2})\b(?!\s*(?:min|°|g\b|cl|ml)))?/g;
+  for (const sent of txt.split(/[.!?;\n]+/)){
+    let m; DUR.lastIndex = 0;
+    while ((m = DUR.exec(sent))){
+      let v = parseFloat((m[2] || m[1]).replace(',', '.'));
+      const u = m[3];
+      v = /^h/.test(u) ? v * 60 + (+m[4] || 0) : /^s/.test(u) ? v / 60 : v;
+      if (!v || v > 24 * 60) continue;
+      const before = sent.slice(Math.max(0, m.index - 45), m.index);
+      if (/(\b(19|20)\d{2}|\bat|\ba)\s*$/.test(before) && /^h/.test(u)) continue;  // horodatage (« 2014 at 20 h 06 »), pas une durée
+      const after = sent.slice(m.index + m[0].length, m.index + m[0].length + 25);
+      if (_REST_RE.test(before) || _REST_RE.test(after)) continue;   // repos : compté par restMinutes
+      if (_COOK_RE.test(before) || _COOK_RE.test(sent)) t.cook += v;
+      else if (v <= 30) t.prep += v;                          // au-delà, c'est une attente, pas un geste
+    }
+  }
+  t.cook = Math.round(t.cook); t.prep = Math.round(t.prep);
+  _timesCache.set(r, t); return t;
+}
+// Temps de préparation estimé quand la recette n'en donne pas : durées actives lues + ~1 min 30 par ingrédient.
+function estimatePrep(r){
+  const n = (r.ing || []).filter(i => !/^[^:]{1,40}:\s*$/.test(String(i).trim())).length;
+  return Math.max(5, Math.min(40, Math.round(stepTimes(r).prep + 5 + n * 1.5)));
+}
+// Temps total estimé (préparation + cuisson), arrondi à 5 min, pour les recettes sans temps.
+function estimateMin(r){
+  const tot = estimatePrep(r) + stepTimes(r).cook;
+  return Math.max(5, Math.round(tot / 5) * 5);
+}
+// Découpage affiché : cuisson lue dans les étapes, préparation = le reste du temps saisi.
+function timeSplit(r){
+  if (!r.min) return null;
+  const cook = stepTimes(r).cook;
+  if (!cook || cook >= +r.min) return null;
+  return { prep: +r.min - cook - (restIncluded(r) ? restMinutes(r) : 0), cook };
+}
+// Un long repos (levée, nuit au frais…) déjà compris dans le temps saisi : « 3 h 10 » pour un pain
+// qui cuit 35 min et lève 1 h 45. On ne l'ajoute pas une seconde fois au total.
+function restIncluded(r){
+  const rest = restMinutes(r), cook = stepTimes(r).cook;
+  return !r.minEst && rest >= 60 && cook > 0 && +r.min - cook - rest >= 5;
+}
+// Pastilles de temps de la fiche : total, puis préparation / cuisson / repos quand on sait les distinguer.
+function timeTags(r){
+  if (!r.min) return [];
+  const ap = r.minEst ? '≈ ' : '', sp = timeSplit(r), rest = restMinutes(r);
+  const tip = r.minEst ? ' title="Temps estimé à partir des étapes"' : '';
+  const out = [];
+  if (sp || rest) out.push(`<span class="tag"${tip}>⏱️ ${ap}${fmtMin(totalMinutes(r))} au total</span>`);
+  if (sp){
+    out.push(`<span class="tag tag-time"${tip}>🔪 ${ap}${fmtMin(sp.prep)} de prépa</span>`);
+    out.push(`<span class="tag tag-time">🔥 ${fmtMin(sp.cook)} de cuisson</span>`);
+  } else if (rest) out.push(`<span class="tag tag-time"${tip}>🔪 ${ap}${fmtMin(+r.min)} de prépa et cuisson</span>`);
+  else out.push(`<span class="tag"${tip}>⏱️ ${ap}${fmtMin(+r.min)}</span>`);
+  if (rest) out.push(`<span class="tag tag-time">💤 ${fmtMin(rest)} de repos</span>`);
+  return out;
+}
 // Temps total = préparation saisie + tout le repos lu dans les étapes.
-function extraRest(r){ return r.min ? restMinutes(r) : 0; }
+function extraRest(r){ return r.min && !restIncluded(r) ? restMinutes(r) : 0; }
 function totalMinutes(r){ return r.min ? +r.min + extraRest(r) : 0; }
 function fmtMin(m){ return m >= 60 ? Math.floor(m / 60) + ' h' + (m % 60 ? ' ' + String(m % 60).padStart(2, '0') : '') : m + ' min'; }
 const SANTE_SUBS = new Set(['sansgluten','proteines','antiinflamm','vegetarien','vegan','keto','rapide']);
@@ -965,7 +1042,7 @@ function openDetail(id){
   const tags = [
     `<button class="tag cat tag-cat-btn" title="${catList(r).length?'Modifier les catégories':'Ajouter une catégorie'}">${catLabel}</button>`,
     r.area?`<span class="tag">📍 ${esc(r.area)}</span>`:'',
-    r.min?`<span class="tag">⏱️ ${fmtMin(+r.min)}${extraRest(r) ? ` + 💤 ${fmtMin(extraRest(r))} de repos` : ''}</span>`:'',
+    ...timeTags(r),
     r.serv?`<span class="tag">🍽️ ${esc(servTxt(r.serv))}</span>`:'',
     ..._dietTags,
   ].join('');
@@ -1551,7 +1628,7 @@ function openEdit(id){
     <div class="edit-body">
       ${field('Titre', `<input id="e-t" value="${v(r.t)}">`)}
       ${field('Catégories', `<div class="e-cats cat-tree" id="e-cats"></div><input id="e-cat-new" autocomplete="off" placeholder="Ajouter de nouvelles (séparées par des virgules)…">`)}
-      <div class="ef-row">${field('Durée (min)', `<input id="e-min" type="number" min="0" value="${v(r.min)}">`)}${field('Portions', `<input id="e-serv" type="number" min="0" value="${v(r.serv)}">`)}</div>
+      <div class="ef-row">${field('Durée (min)', `<input id="e-min" type="number" min="0" value="${r.minEst ? '' : v(r.min)}"${r.minEst ? ` placeholder="≈ ${r.min} (estimé)"` : ''}>`)}${field('Portions', `<input id="e-serv" type="number" min="0" value="${v(r.serv)}">`)}</div>
       <label class="ef"><span>Photo</span>
         <div class="e-photo-row">
           <div class="e-photo-thumb" id="e-photo-thumb">
