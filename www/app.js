@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.82';
+const APP_VERSION = '3.83';
 
 let ALL = [];
 let BASE = [];
@@ -383,6 +383,21 @@ function matchKw(r, kw){
   return (kw === 'pomme' ? r._iwf : r._iw).some(w => w===kw || w===kw+'s' || w===kw+'x' || (kw.length>=4 && w.startsWith(kw)));
 }
 /* ---------- filtres diététiques (Santé) ---------- */
+// Temps de repos lu dans les étapes (frigo, marinade, levée, trempage…) : la durée saisie
+// ne compte souvent que la préparation. Temps total = préparation + repos.
+function restMinutes(r){
+  if (r._rest !== undefined) return r._rest;
+  const st = norm(Array.isArray(r.steps) ? r.steps.join(' ') : (r.steps || ''));
+  const re = /(refrigerer|refrigerateur|au frais|frigo|reposer|repos|mariner|marinade|lever|pousser|doubler de volume|congelateur|egoutter|infuser|tremper|dessaler|prendre|figer)[^.]{0,40}?(\d+(?:[.,]\d+)?)\s*(h\b|heures?|min)/g;
+  let m, w = 0;
+  while ((m = re.exec(st))){ const v = parseFloat(m[2].replace(',', '.')); w += /h/.test(m[3]) ? v * 60 : v; }
+  if (/(toute la nuit|une nuit|la veille)/.test(st)) w = Math.max(w, 480);
+  return (r._rest = Math.round(w));
+}
+// Repos ajouté seulement s'il dépasse la durée saisie (sinon il y est déjà compté : pâte à pizza 1 h 30 dont 1 h de levée).
+function extraRest(r){ const w = restMinutes(r); return r.min && w > +r.min ? w : 0; }
+function totalMinutes(r){ return r.min ? +r.min + extraRest(r) : 0; }
+function fmtMin(m){ return m >= 60 ? Math.floor(m / 60) + ' h' + (m % 60 ? ' ' + String(m % 60).padStart(2, '0') : '') : m + ' min'; }
 const SANTE_SUBS = new Set(['sansgluten','proteines','antiinflamm','vegetarien','vegan','keto','rapide']);
 
 const _GLUTEN_KWS = ['pates','spaghetti','tagliatelle','linguine','penne','fusilli','macaroni','lasagne','semoule','boulgour','couscous','chapelure','biscottes','biscuit','epeautre','seigle','pain','ble','orge','avoine'];
@@ -416,7 +431,7 @@ function dietFilter(r){
     return !animal.some(hasKw);
   }
   if (state.diet === 'keto') return _KETO_INCLUDE.some(hasKw) && !_KETO_EXCLUDE.some(hasKw);
-  if (state.diet === 'rapide') return !!(r.min && r.min <= 30);
+  if (state.diet === 'rapide') return !!(r.min && totalMinutes(r) <= 30);
   return true;
 }
 
@@ -434,7 +449,7 @@ function checkDiet(r, diet){
   if (diet === 'vegetarien') return !_MEAT_KWS.some(hasKw) && !_FISH_KWS.some(hasKw);
   if (diet === 'vegan') return ![..._MEAT_KWS,..._FISH_KWS,'oeuf','lait','creme','beurre','fromage','yaourt','miel','parmesan','emmental','gruyere','ricotta','mozzarella','mascarpone'].some(hasKw);
   if (diet === 'keto') return _KETO_INCLUDE.some(hasKw) && !_KETO_EXCLUDE.some(hasKw);
-  if (diet === 'rapide') return !!(r.min && r.min <= 30);
+  if (diet === 'rapide') return !!(r.min && totalMinutes(r) <= 30);
   return false;
 }
 
@@ -706,7 +721,7 @@ function card(r, cov){
   const img = r.img
     ? `<img class="thumb" src="${esc(r.img)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph>🍽️</div>'">`
     : `<div class="ph">🍽️</div>`;
-  const meta = [r.min? '⏱️ '+r.min+' min':'', r.serv? '🍽️ '+r.serv : '', catList(r).join(', ')].filter(Boolean).slice(0,2).join(' · ');
+  const meta = [r.min? '⏱️ '+fmtMin(totalMinutes(r)):'', r.serv? '🍽️ '+r.serv : '', catList(r).join(', ')].filter(Boolean).slice(0,2).join(' · ');
   const miss = cov ? cov.total - cov.covered : 0;
   const stock = cov ? `<div class="stock-cov ${miss?'':'ok'}">🧺 ${cov.covered}/${cov.total} en stock · ${miss ? `manque ${miss}` : 'tout y est'}</div>` : '';
   const vars = variantBadges(r);
@@ -900,7 +915,7 @@ function openDetail(id){
   const tags = [
     `<button class="tag cat tag-cat-btn" title="${catList(r).length?'Modifier les catégories':'Ajouter une catégorie'}">${catLabel}</button>`,
     r.area?`<span class="tag">📍 ${esc(r.area)}</span>`:'',
-    r.min?`<span class="tag">⏱️ ${r.min} min</span>`:'',
+    r.min?`<span class="tag">⏱️ ${fmtMin(+r.min)}${extraRest(r) ? ` + 💤 ${fmtMin(extraRest(r))} de repos` : ''}</span>`:'',
     r.serv?`<span class="tag">🍽️ ${r.serv} pers.</span>`:'',
     ..._dietTags,
   ].join('');
@@ -4040,7 +4055,7 @@ function renderBatchCuisson(){
         <span class="batch-cook-order">${i+1}</span>
         <span>${esc(r.t)}</span>
       </div>
-      ${(r.min||r.serv)?`<div class="batch-cook-meta">${r.min?'⏱️ '+r.min+' min':''}${r.serv?' · 🍽️ '+r.serv+' pers.':''}</div>`:''}
+      ${(r.min||r.serv)?`<div class="batch-cook-meta">${r.min?'⏱️ '+fmtMin(totalMinutes(r)):''}${r.serv?' · 🍽️ '+r.serv+' pers.':''}</div>`:''}
       ${steps.length
         ? `<button class="batch-cook-start" data-bid="${esc(String(r.id))}">🍳 Lancer la cuisson guidée</button>`
         : '<p style="color:var(--muted);font-size:.85em;margin:0">Aucune étape de préparation</p>'}
@@ -4286,9 +4301,9 @@ const QK_QUESTIONS = [
     { v:'boisson', label:'🥤 Boisson', f: r => qkCat(r,'Boissons','Smoothie','Milkshake','Cocktail','Cocktail sans alcool') },
   ]},
   { key:'temps', title:'Temps', opts: () => [
-    { v:'15', label:'⚡ 15 min', f: r => r.min && +r.min <= 15 },
-    { v:'30', label:'⏱️ 30 min', f: r => r.min && +r.min <= 30 },
-    { v:'60', label:'🕐 1 h', f: r => r.min && +r.min <= 60 },
+    { v:'15', label:'⚡ 15 min', f: r => r.min && totalMinutes(r) <= 15 },
+    { v:'30', label:'⏱️ 30 min', f: r => r.min && totalMinutes(r) <= 30 },
+    { v:'60', label:'🕐 1 h', f: r => r.min && totalMinutes(r) <= 60 },
   ]},
   { key:'ingr', title:'Ingrédient', opts: (a) => a.type === 'dessert' ? [
     { v:'chocolat', label:'🍫 Chocolat', f: r => QK.chocolat.test(qkHay(r).all) },
@@ -4603,7 +4618,7 @@ function wzRenderResults(body){
       const img = r.img
         ? `<img class="wz-thumb" src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=wz-ph>🍽️</div>'">`
         : '<div class="wz-ph">🍽️</div>';
-      const meta = [r.min?'⏱️ '+r.min+' min':'', r.serv?'🍽️ '+r.serv+' pers.':''].filter(Boolean).join(' · ');
+      const meta = [r.min?'⏱️ '+fmtMin(totalMinutes(r)):'', r.serv?'🍽️ '+r.serv+' pers.':''].filter(Boolean).join(' · ');
       const hab = (habitScores[String(r.id)]||0)>3 ? '<span class="wz-badge">🔁 Habituel</span>' : '';
       html += `<div class="wz-rcard" data-id="${esc(r.id)}">${img}<div class="wz-rinfo"><div class="wz-rt">${esc(r.t)}${hab}</div><div class="wz-rmeta">${esc(meta||catList(r).slice(0,2).join(' · '))}</div></div></div>`;
     });
