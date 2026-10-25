@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.87';
+const APP_VERSION = '3.88';
 
 let ALL = [];
 let BASE = [];
@@ -213,7 +213,10 @@ const TAXONOMY = {
 // Ancien classement automatique : « Plat » ajouté par défaut et figé sur le téléphone, alors que la
 // recette est un dessert, un apéritif, une boisson… On rétablit le type des données.
 function fixLocalCourseCats(){
-  const COURSES = ['Dessert','Apéritif','Entrée','Boissons','Accompagnement','Sauce','Marinade','Technique','Smoothie','Milkshake','Cocktail sans alcool'];
+  // Types de plat : si la catégorie enregistrée sur le téléphone en contient un que les données n'ont pas
+  // (« Dessert » sur un sirop, « Plat » sur une charlotte), on rétablit le type des données.
+  const COURSES = ['Plat','Dessert','Apéritif','Entrée','Boissons','Accompagnement','Sauce','Marinade','Technique','Smoothie','Milkshake','Cocktail sans alcool','Petit-déjeuner'];
+  const LEGACY = new Set(['Pain & Brioche']);
   const byId = new Map(BASE.concat(imports).map(r => [String(r.id), r]));
   let n = 0;
   for (const [id, ed] of Object.entries(edits)){
@@ -221,10 +224,10 @@ function fixLocalCourseCats(){
     const r = byId.get(String(id)); if (!r) continue;
     const base = String(r.cat || '').split(',').map(c => c.trim()).filter(Boolean);
     const cats = ed.cat.split(',').map(c => c.trim()).filter(Boolean);
-    if (!cats.includes('Plat') || base.includes('Plat')) continue;
-    const course = base.filter(c => COURSES.includes(c));
-    if (!course.length) continue;
-    ed.cat = [...new Set(base.concat(cats.filter(c => c !== 'Plat')))].join(', ');
+    if (!base.some(c => COURSES.includes(c))) continue;
+    const wrong = cats.filter(c => (COURSES.includes(c) && !base.includes(c)) || LEGACY.has(c));
+    if (!wrong.length) continue;
+    ed.cat = [...new Set(base.concat(cats.filter(c => !wrong.includes(c))))].join(', ');
     n++;
   }
   if (n) saveEdits();
