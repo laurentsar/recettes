@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.88';
+const APP_VERSION = '3.89';
 
 let ALL = [];
 let BASE = [];
@@ -224,7 +224,7 @@ function fixLocalCourseCats(){
     const r = byId.get(String(id)); if (!r) continue;
     const base = String(r.cat || '').split(',').map(c => c.trim()).filter(Boolean);
     const cats = ed.cat.split(',').map(c => c.trim()).filter(Boolean);
-    if (!base.some(c => COURSES.includes(c))) continue;
+    if (!base.length) continue;
     const wrong = cats.filter(c => (COURSES.includes(c) && !base.includes(c)) || LEGACY.has(c));
     if (!wrong.length) continue;
     ed.cat = [...new Set(base.concat(cats.filter(c => !wrong.includes(c))))].join(', ');
