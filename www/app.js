@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.91';
+const APP_VERSION = '3.92';
 
 let ALL = [];
 let BASE = [];
@@ -4427,7 +4427,9 @@ function qkFilter(answers){
 function openQuick(preset){
   qk = { answers: Object.assign({}, preset && preset.answers), cov: new Map(), have: null };
   qk.idx = qkIndex();
-  qk.step = preset ? QK_QUESTIONS.length : 0;
+  // Raccourci : on démarre à la première question sans réponse (résultats directs seulement s'il en reste ≤ 10).
+  qk.step = Math.max(0, QK_QUESTIONS.findIndex(q => !qk.answers[q.key]));
+  if (preset && qkFilter(qk.answers).length <= 10) qk.step = QK_QUESTIONS.length;
   let el = document.getElementById('quick');
   if (!el){ el = document.createElement('div'); el.id = 'quick'; el.className = 'editview quick'; document.body.appendChild(el); }
   el.hidden = false; document.body.style.overflow = 'hidden';
@@ -4479,11 +4481,12 @@ function qkRender(){
     qk.answers[q.key] = b.dataset.v;
     if (q.key === 'type') delete qk.answers.ingr;
     qk.step++; qk.open = false;
+    while (qk.step < total && qk.answers[QK_QUESTIONS[qk.step].key]) qk.step++;  // question déjà répondue (raccourci) : on passe
     if (qkFilter(qk.answers).length <= 10) qk.step = total;
     qkRender();
   }));
   el.querySelectorAll('.qk-ans').forEach(b => b.addEventListener('click', () => { qk.step = +b.dataset.i; qk.open = false; qkRender(); }));
-  const sk = el.querySelector('#qk-skip'); if (sk) sk.addEventListener('click', () => { delete qk.answers[QK_QUESTIONS[qk.step].key]; qk.step++; qkRender(); });
+  const sk = el.querySelector('#qk-skip'); if (sk) sk.addEventListener('click', () => { delete qk.answers[QK_QUESTIONS[qk.step].key]; qk.step++; while (qk.step < total && qk.answers[QK_QUESTIONS[qk.step].key]) qk.step++; qkRender(); });
   const pv = el.querySelector('#qk-prev'); if (pv) pv.addEventListener('click', () => { qk.step--; qkRender(); });
   el.querySelector('#qk-handle').addEventListener('click', () => { if (done) { qk.step = QK_QUESTIONS.findIndex(q => !qk.answers[q.key]); if (qk.step < 0) qk.step = total - 1; } else qk.open = !open; qkRender(); });
   el.querySelector('#qk-close').addEventListener('click', closeQuick);
