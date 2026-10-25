@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.92';
+const APP_VERSION = '3.93';
 
 let ALL = [];
 let BASE = [];
@@ -522,7 +522,7 @@ function renderChips(){
     ${state.ing ? `<button class="chip ing-chip active" id="ing-filter-btn">${esc(ingLabel)}</button>` : ''}
     ${stockSort ? `<button class="chip active" id="stock-sort-btn" title="Arrêter le tri par stocks">🧺 Mes stocks ✕</button>` : ''}
     <div class="cat-multi">
-      <button class="chip ${nSel?'active':''}" id="cat-btn">${esc(catLabel)} ▾</button>
+      <button class="chip ${nSel?'active':''}" id="cat-btn"${nSel ? '' : ' hidden'}>${esc(catLabel)} ▾</button>
       <div class="cat-panel" id="cat-panel" hidden></div>
     </div>
     ${gridFoldable() ? `<div class="shortcuts">${QK_SHORTCUTS.map((x, i) => `<button class="chip shortcut" data-i="${i}">${x.label}</button>`).join('')}</div>` : ''}`;
@@ -2035,6 +2035,10 @@ function showSubTabs(group){
   el.querySelectorAll('.sub-tab').forEach(b => b.addEventListener('click', ()=> switchSubMode(group, b.dataset.sub)));
 }
 
+let searchOpen = false;
+function openSearch(){
+  searchOpen = true; elSearch.hidden = false; elSearch.focus();
+}
 function applyLeafMode(leaf){
   const isCocktails = leaf === 'cocktails';
   const isDiet = SANTE_SUBS.has(leaf);
@@ -2069,7 +2073,7 @@ function applyLeafMode(leaf){
     document.getElementById('cats').hidden = false;
     document.getElementById('daily').hidden = false;
     document.getElementById('cellar-home').hidden = false;
-    elSearch.hidden = false;
+    elSearch.hidden = !(searchOpen || elSearch.value);   // accueil épuré : la recherche s'ouvre depuis le menu ⋯
     renderGrid();
   } else {
     renderGrid();
@@ -4133,6 +4137,9 @@ async function init(){
   }
   document.getElementById('wizard-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; openQuick(); });
   document.getElementById('ing-menu-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; openIngPick(); });
+  document.getElementById('search-menu-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; if (appMode !== 'recipes') switchMode('recipes'); openSearch(); });
+  document.getElementById('cat-menu-btn').addEventListener('click', (e)=>{ e.stopPropagation(); document.getElementById('more-menu').hidden=true; if (appMode !== 'recipes') switchMode('recipes');
+    const panel = document.getElementById('cat-panel'); if (panel){ panel.hidden = false; fillCatPanel(panel); panel.scrollIntoView({block:'nearest'}); } });
   document.getElementById('stock-menu-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; toggleStockSort(); });
   document.getElementById('wizard-close-btn').addEventListener('click', closeWizard);
   document.getElementById('wz-prev').addEventListener('click', wizardPrev);
@@ -4246,6 +4253,8 @@ async function init(){
     }
   }, true);
   syncRemote(false);
+  if (appMode === 'recipes') elSearch.hidden = !(searchOpen || elSearch.value);
+  elSearch.addEventListener('blur', ()=>{ if (appMode === 'recipes' && !elSearch.value){ searchOpen = false; elSearch.hidden = true; } });
   elSearch.addEventListener('input', ()=>{
     clearTimeout(searchTimer);
     searchTimer = setTimeout(()=>{ state.q = elSearch.value; renderGrid(); }, 180);
