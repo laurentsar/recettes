@@ -1050,7 +1050,24 @@
     },
     {
       "id": "dropbox:5a095a0e-c8a2-4b7e-8b24-5d18362f4a7c",
-      "t": "Carottes confites au miel, cuisson au four"
+      "t": "Carottes confites au miel, cuisson au four",
+      "steps": [
+        "Carottes confites au miel, cuisson au four",
+        "Pour 4 personne",
+        "Recette :",
+        "Préchauffer le four à 200°C.",
+        "Eplucher les carottes puis les couper en rondelles d’environ 1 cm d’épaisseur.",
+        "Mettre les carottes ainsi coupées sur une plaque à pâtisserie.",
+        "Saler, poivrer, ajouter le piment d’Espelette et l’huile d’olive.",
+        "Mélanger le tout, étaler en une couche uniforme puis enfourner pendant 10 minutes.",
+        "Sortir la plaque du four, arroser avec le miel puis mélanger les carottes.",
+        "Réenfourner pendant environ 20 minutes, en remuant régulièrement.",
+        "Laver l’oignon ciboule. Le ciseler grossièrement et l’ajouter 5 minutes avant la fin de la cuisson.",
+        "Servir bien chaud.",
+        "Astuces et conseils diététiques :",
+        "– La carotte est un légume racine de la famille des Ombellifères. Pauvre en calories, 100 g de carottes apportent environ 33 kcal. La principale caractéristique nutritionnelle de ce légume réside dans sa teneur élevée en béta-carotène (ou provitamine A). La vitamine A est essentielle pour la croissance, la formation des dents, la résistance aux infections et le mécanisme de la vision.",
+        "– Selon l’épaisseur des rondelles de carottes, le temps de cuisson va varier : goûter une rondelle pour vérifier la cuisson. Dès qu’elles sont carottes sont bien colorées et confites, vous pouvez couvrir les carottes d’un papier aluminium pour poursuivre la cuisson."
+      ]
     },
     {
       "id": "dropbox:1890171165",
@@ -1270,7 +1287,35 @@
     {
       "id": "dropbox:49a192db-a8ac-4420-ab17-f7597e9f70cb",
       "t": "Gratin d'œufs durs au jambon",
-      "img": "img/illus/dropbox-49a192db-a8ac-4420-ab17-f7597e9f70cb.jpg"
+      "img": "img/illus/dropbox-49a192db-a8ac-4420-ab17-f7597e9f70cb.jpg",
+      "steps": [
+        "Cuisson des œufs (si nécessaire)",
+        "Mettre 1 L d’eau dans le bol.",
+        "Déposer les œufs dans le panier cuisson.",
+        "Cuire 14 min / 120°C / vitesse 1.",
+        "Refroidir immédiatement sous l’eau froide puis écaler.",
+        "(Vous pouvez évidemment utiliser des œufs déjà cuits.)",
+        "Béchamel au Monsieur Cuisine",
+        "Mettre le beurre dans le bol.",
+        "3 min / 100°C / vitesse 1",
+        "Ajouter la farine.",
+        "2 min / 100°C / vitesse 2",
+        "Ajouter le lait, le sel, le poivre et une pincée généreuse de muscade.",
+        "7 min / 90°C / vitesse 4",
+        "La sauce doit être lisse et nappante.",
+        "Si elle est trop épaisse : ajoutez un petit filet de lait et mélangez 20 sec / vitesse 4.",
+        "Montage",
+        "• Préchauffer le four à 200°C.",
+        "• Couper les tranches de jambon en deux.",
+        "• Enrouler chaque œuf dur dans le jambon.",
+        "• Mettre un peu de béchamel au fond du plat (astuce gourmande).",
+        "• Déposer les œufs roulés.",
+        "• Napper du reste de béchamel.",
+        "• Parsemer de fromage râpé.",
+        "Cuisson",
+        "Enfourner 20 minutes à 200°C, jusqu’à ce que le dessus soit bien doré.",
+        "Laisser reposer 5 minutes avant de servir pour une découpe plus nette."
+      ]
     },
     {
       "id": "dropbox:7df9c70b-aff1-4919-98c5-01aef1a65b4e",
@@ -1312,7 +1357,15 @@
       "id": "dropbox:6c454f28-b62f-4a9e-9e3e-3634402849f6",
       "img": "img/illus/dropbox-6c454f28-b62f-4a9e-9e3e-3634402849f6.jpg",
       "t": "Flans au Airfryer",
-      "cat": "Dessert, Flan, Airfryer"
+      "cat": "Dessert, Flan, Airfryer",
+      "steps": [
+        "Bien battre tous les ingrédients et cuire au airfryer 15 minutes à 170*.",
+        "Vérifier la cuisson avec la pointe d’un couteau et prolonger au besoin.",
+        "On peut ajouter un peu de caramel liquide et le tour est joué.",
+        "Rapide, simple et tellement délicieux ce petit flan pour un dessert ou un goûter.",
+        "Petite régalade.",
+        "Enjoy 🌸"
+      ]
     },
     {
       "id": "dropbox:1759851535",
@@ -2085,7 +2138,18 @@
     },
     {
       "id": "dropbox:-1862412118",
-      "cat": "Thermomix, Boissons"
+      "cat": "Thermomix, Boissons",
+      "steps": [
+        "Ingrédients :",
+        "300 g de miel",
+        "20 g de gingembre avec la peau coupé en morceaux",
+        "3 citrons",
+        "500 g d’eau",
+        "Préparation :",
+        "Commencez par lavez puis coupez les citrons en morceaux, ensuite mettez-les dans le bol avec le gingembre et l’eau puis programmez 7 minutes à 80° à la vitesse cuillère.",
+        "Ajoutez le miel au contenu du bol puis mixez encore 2 minutes à la vitesse cuillère.",
+        "A la fin du programme, filtrez la préparation puis versez dans une bouteille en verre et gardez pendant 2 à 3 semaines."
+      ]
     },
     {
       "id": "dropbox:-833970387",
@@ -2130,7 +2194,18 @@
     },
     {
       "id": "dropbox:7b2ff025-5f27-457e-9389-03f406ef0751",
-      "t": "Blanquette de veau à l'ancienne façon Cyril Lignac"
+      "t": "Blanquette de veau à l'ancienne façon Cyril Lignac",
+      "steps": [
+        "Laver et émincer le poireau. Eplucher, rincer les carottes et les couper en rondelles. Peler l'oignon et le piquer avec le clou de girofle.",
+        "Dans une cocotte, faire chauffer le beurre et l'huile d'olive. Mettre les morceaux de viande à revenir sans les faire roussir. Saler et poivrer.",
+        "Saupoudrer de farine et laisser cuire 2 minutes tout en remuant à l'aide d'une cuillère en bois.",
+        "Verser le vin blanc et ajouter de l'eau chaude de façon à recouvrir la viande. Grater avec la cuillère afin de décoller les sucs de cuisson.",
+        "Ajouter les carottes, le poireau, l'oignon et le bouquet garni.",
+        "Couvrir et laisser cuire 1h15 environ.",
+        "Retirer la viande de la cocotte et réserver. Filtrer le bouillon de cuisson et le remettre à chauffer quelques minutes pour le faire réduire légèrement.",
+        "Dans un saladier, mélanger les jaunes d'oeufs avec la crème et incorporer le jus de citron. Assaisonner et vider cette préparation dans le bouillon en fouettant sans arrêt, le tout sur feu doux.",
+        "Remettre la viande dans la cocotte et réchauffer quelques instants."
+      ]
     },
     {
       "id": "dropbox:2a4aefc7-3f43-44bb-984b-85e8a3cca052",
@@ -2202,7 +2277,17 @@
     },
     {
       "id": "dropbox:1650465783",
-      "cat": "Dessert, Tarte sucrée"
+      "cat": "Dessert, Tarte sucrée",
+      "steps": [
+        "Les différentes étapes",
+        "Mettre dans le bol du thermomix le lait, l'oeuf, les sucres et la levure (bruggman pour moi) → Programmer 5 minutes, vitesse 2 à 37 °C",
+        "Laisser reposer ce mélange dans le bol  pendant 15 minutes",
+        "Ajouter la farine, le beurre, la vanille et le sel puis programmer 10 minutes, .",
+        "Laisser la pâte gonfler dans le bol  et recouvrez le d'un torchon pendant 1 heure à l'abri des courants d'air",
+        "Sortir la pâte du bol et la dégazer, mettre la fêve, la façonner et la laisser faire sa 2ème pousse pendant encore 1 heure (toujours sous un torchon).",
+        "Badigeonner la brioche d'un mélange de lait et d'un jaune d'oeuf et la recouvrir de sucre perlé",
+        "Préchauffer le four à 180 °C.Faire cuire la brioche pendant 20 minutes puis baisser la température à 160°C et prolonger la cuisson pendant encore 15 minutes"
+      ]
     },
     {
       "id": "dropbox:8a41edc3-7f25-4914-ba40-2ec47d781ed7",
@@ -2214,7 +2299,26 @@
     },
     {
       "id": "dropbox:3ffccbf2-4b81-46a6-b275-a527cd3e5252",
-      "cat": "Dessert, Gâteaux"
+      "cat": "Dessert, Gâteaux",
+      "steps": [
+        "Tamiser la farine avec la levure dans un grand bol et mettre de côté.",
+        "Dans un autre bol, verser le sucre et ajouter l’eau à température ambiante en mélangeant bien avec un fouet pour dissoudre le sucre.",
+        "Couper la gousse de vanille dans le sens de la longueur et récupérer les graines.",
+        "Ajouter à l’eau sucrée.",
+        "Verser l’huile et mélanger.",
+        "Ajouter le mélange farine-levure, une cuillère à soupe à la fois, à l’émulsion d’eau, de sucre et d’huile, sans cesser de remuer pour éviter la formation de grumeaux.",
+        "Après avoir ajouté toute la farine-levure, la pâte doit être molle, lisse et sans grumeaux.",
+        "Prendre un moule rond ou à ciambella de 22 cm de diamètre, chemiser avec du papier sulfurisé.",
+        "Verser la pâte à gâteau. Répartir uniformément le mélange à la spatule.",
+        "Préchauffer le four à 180°C.",
+        "Enfourner durant 50 min. Si après une demi-heure de cuisson, le gâteau devient trop coloré, le couvrir d’une feuille de papier aluminium et poursuivre la cuisson.",
+        "Sortir lorsqu’une lame de couteau enfoncée en son centre en ressort sèche et propre.",
+        "Laisser refroidir et démouler.",
+        "Saupoudrer de sucre glace.",
+        "Déguster !",
+        "NB :",
+        "Le gâteau à l’eau se conserve 2 à 3 jours à température ambiante recouvert d’une cloche en verre. Différentes versions du gâteau à l’eau existent : à l’eau au chocolat ou au café, à l’eau parfumée au citron et au gingembre, aux infusions de thé ou d’écorces d’orange…"
+      ]
     },
     {
       "id": "dropbox:-351368666",
@@ -2428,7 +2532,26 @@
     },
     {
       "id": "dropbox:-51214319",
-      "cat": "Aubergine, Légumes, Accompagnement"
+      "cat": "Aubergine, Légumes, Accompagnement",
+      "steps": [
+        "9 septembre 2018",
+        "Lentilles aux aubergines",
+        "Parce qu’on ne peut pas se nourrir uniquement de dessert, aujourd’hui je te propose un plat de Lentilles aux aubergines. Et puis aussi parce que la saison des aubergines va pas tarder à toucher à sa fin, donc mieux vaut en profiter maintenant. Depuis 2 ans, il y a un peu plus de recettes à base d’aubergines par ici. Le déclencheur a été la recette des cannellonis d’aubergines à la ricotta. Un délice pour les papilles à chaque fois que j’en fais. Et puis il y a eu aussi de nouveaux livres dans ma bibliothèque de Chef Ottolenghi. Ne le nions pas, ils ont contribué à nous faire aimer encore un peu plus ce légume. Son amour pour l’aubergine est largement mis en valeur par les nombreuses recettes qu’il propose dans chacun de ses bouquins.",
+        "J’en arrive donc aux lentilles vertes, celles que tout le monde connaît en version petit salé. Si tu débarques d’une autre planète, le petit salé c’est ce plat à base de lentilles vertes accompagnées de jambonneau, poitrine et autres saucisses, qui a bercé mon enfance. Non sérieux, celui qui n’a jamais mangé de petit salé lève la main !",
+        "Les lentilles vertes, j’en ai toujours sous la main. En soupe, ou en salades, elles ont une place de choix chez nous. Mais j’avoue que jamais je n’aurais pensé à marier les lentilles vertes à l’aubergine. L’idée vient de Chef Ottolenghi, tu t’en seras douté, et plus précisément de son livre “Plenty“. Elle fait partie des recettes auxquelles j’avais mis un marque-page, histoire de tester. Ça a pris longtemps mais voici ma version.",
+        "Tu me connais, je n’ai -bien évidemment- pas suivi la recette à la lettre. Parce que je n’avais pas tout sous la main, parce que j’ai voulu faire plus simple. Mais crois-moi, cette adaptation est de loin la meilleure façon de manger des lentilles ! M. Rabat-Joie a survalidé ce plat, bien qu’un peu sceptique à la base. L’aubergine et le yaourt enrobent bien les lentilles, rendant le tout ultra crémeux. Il n’y a que Junior qui boudait un peu vu qu’il n’y avait pas de viande, mouahaha !",
+        "♦ LENTILLES AUX AUBERGINES ♦",
+        "Préparation : 25 minutes",
+        "Cuisson : 30 minutes pour les aubergines – 25 minutes pour les lentilles – 20 minutes pour les carottes",
+        "Ingrédients pour 4 personnes : 200g de lentilles vertes – 2 aubergines – 3 belles carottes – 1 boîte de tomates concassées – 2 yaourts – 1 oignon rouge – persil – sel – poivre du moulin – huile d’olive – ail – le jus d’un demi-citron – 2 feuilles de laurier – 2 cuillères à soupe de vinaigre balsamique de Modène.",
+        "1.Faire chauffer le four à 200°C. Laver les aubergines, et les enfourner sur une plaque allant au four pour 35 minutes. La peau doit noircir et se boursoufler.Sortir les aubergines du four, les fendre en deux et les réserver dans une passoire afin que le jus s’écoule.",
+        "2.Éplucher les carottes, et les détailler en petits cubes de 1cm de côté. Dans un plat à gratin, verser la boîte de tomates concassées, ajouter les carottes, 1 cuillère à soupe d’huile d’olive, du sel et du poivre. Mélanger et enfourner en même temps que les aubergines (position basse du four) pour 20 minutes.",
+        "3.Pendant ce temps, faire cuire les lentilles vertes avec les 2 feuilles de laurier dans un grand volume d’eau bouillante. J’ajoute toujours une algue kombu pour qu’elles cuisent plus rapidement, et qu’elles soient plus digestes. Quand les lentilles sont tendres (25-30 minutes), les égoutter et les verser dans un saladier. Ajouter 2 cuillères à soupe de vinaigre balsamique de Modène, 2 cuillères à soupe d’huile d’olive, du sel et du poivre; et mélanger.",
+        "4.Verser les lentilles dans le plat à gratin et ajouter le persil finement ciselé, et l’oignon rouge émincé. Remuer délicatement. Goûter et rectifier l’assaisonnement si besoin.",
+        "5.Récupérer la chaire des aubergines et l’écraser à la fourchette. Ajouter une gousse d’ail coupée très finement, le jus d’un demi-citron, 1 cuillère à soupe d’huile d’olive, du sel et du poivre. Bien mélanger.",
+        "6.Verser les yaourts dans un bol, ajouter 1 cuillère à soupe d’huile d’olive, du sel et du poivre.",
+        "7.Servir les lentilles avec les aubergines par-dessus, et recouvrir le tout de yaourt."
+      ]
     },
     {
       "id": "dropbox:489d78c9-79f1-4b0f-a56a-3764143650ac",
@@ -2436,7 +2559,21 @@
     },
     {
       "id": "dropbox:6db93cd1-39bb-46ad-a687-a69bfbb1aebf",
-      "cat": "Poisson, Plat"
+      "cat": "Poisson, Plat",
+      "steps": [
+        "Recette pour 4 personnes",
+        "Préparation du poisson à la bordelaise",
+        "Préparation de la sauce bordelaise",
+        "Hacher l’ail, les échalotes et le persil",
+        "Faire revenir à feu doux l’ail et l’échalote",
+        "Ajouter le vin blanc et continuer la cuisson jusqu’à évaporation de l’alcool",
+        "Mélanger la chapelure, le persil, le jus de citron, les échalotes et l’ail",
+        "Assaisonner de Sel et de poivre",
+        "Préchauffer le four à 180°C",
+        "Badigeonner le fond du plat d’un filet d’huile d’olive",
+        "Verser la sauce bordelaise sur le poisson",
+        "Enfourner 20 à 25 minutes à 180 °C"
+      ]
     },
     {
       "id": "dropbox:-1576030105",
@@ -2538,7 +2675,75 @@
     },
     {
       "id": "dropbox:9ec6c880-7862-45b7-b64e-4d2b23aaef1a",
-      "cat": "Plat, Poisson, Airfryer"
+      "cat": "Plat, Poisson, Airfryer",
+      "steps": [
+        "Filet de poisson au citron dans la friteuse à air",
+        "Préparer la marinade",
+        "Dans un petit bol, mélange l’huile d’olive, le jus et le zeste de citron, l’ail émincé, le paprika, le sel et le poivre.",
+        "Assaisonner les filets",
+        "Badigeonne chaque filet de poisson avec cette marinade, en veillant à bien les enrober. Laisse reposer 10 minutes pour que les saveurs se diffusent.",
+        "Préchauffer la friteuse à air",
+        "Mets ta friteuse à",
+        "180 °C (350 °F)",
+        "pendant",
+        "3 minutes",
+        "Cuisson du poisson",
+        "Dispose les filets dans le panier de la friteuse sans les superposer.",
+        "Fais cuire",
+        "8 à 10 minutes à 180 °C",
+        ", selon l’épaisseur. Le poisson doit devenir légèrement doré et se détacher facilement à la fourchette.",
+        "Finition et service",
+        "Arrose d’un filet supplémentaire de jus de citron juste avant de servir et ajoute du persil ou de l’aneth pour une touche de fraîcheur.",
+        "À savoir",
+        "Type de poisson",
+        ": les poissons à chair blanche comme le cabillaud ou le merlu sont parfaits, mais le saumon fonctionne aussi très bien avec le citron.",
+        "Éviter la surcuisson",
+        ": le poisson cuit très vite à la friteuse à air. Vérifie la texture à partir de 7 minutes.",
+        "Panier antiadhésif",
+        ": si ton panier colle, vaporise un peu d’huile ou dépose un petit morceau de papier cuisson perforé.",
+        "Variations de garnitures",
+        "Version croustillante",
+        ": ajoute une fine couche de chapelure mélangée à du parmesan râpé pour une croûte dorée.",
+        "Version exotique",
+        ": remplace le citron par du citron vert et ajoute un peu de gingembre frais râpé.",
+        "Version méditerranéenne",
+        ": ajoute des tomates cerises, des olives noires et un filet d’huile d’olive avant cuisson.",
+        "Version express",
+        ": accompagne d’une simple sauce au yaourt citronnée (yaourt grec + citron + aneth).",
+        "Transformez-le en un repas",
+        "Avec des légumes",
+        ": sers le poisson sur un lit de haricots verts vapeur, de brocolis ou d’asperges grillées.",
+        "Avec des pommes de terre",
+        ": prépare des pommes de terre rôties à la friteuse à air en parallèle pour un accompagnement doré et croustillant.",
+        "Avec du riz",
+        ": un riz au citron et au persil mettra parfaitement en valeur la légèreté du poisson.",
+        "Avec une salade fraîche",
+        ": salade verte, avocat, concombre et vinaigrette citronnée pour un repas équilibré.",
+        "Conseils de pro",
+        "Sors le poisson du réfrigérateur",
+        "10 minutes avant cuisson",
+        "pour éviter un choc thermique.",
+        "Si tu utilises du poisson surgelé, laisse-le",
+        "dégeler complètement et sèche-le bien",
+        "avant de le mettre dans la friteuse.",
+        "Pour une saveur plus intense,",
+        "marine le poisson pendant 30 minutes au frais",
+        "Vérifie la cuisson : le centre doit être opaque et se détacher facilement à la fourchette.",
+        "Nettoie le panier après chaque utilisation pour éviter le goût de “poisson” sur d’autres plats.",
+        "FAQ sur la recette",
+        "1. Peut-on utiliser du poisson congelé directement ?",
+        "Oui, mais prolonge la cuisson de 3 à 4 minutes. Pour un meilleur résultat, dégèle-le d’abord et sèche-le bien.",
+        "2. Quelle est la meilleure température pour cuire le poisson à la friteuse à air ?",
+        "Entre",
+        "180 °C et 190 °C",
+        ", selon le modèle de ta friteuse et l’épaisseur du filet.",
+        "3. Peut-on ajouter des légumes dans le panier ?",
+        "Oui ! Ajoute par exemple des courgettes, des poivrons ou des tomates cerises autour du poisson, en réduisant légèrement la quantité d’huile.",
+        "4. Comment éviter que le poisson colle ?",
+        "Vaporise un peu d’huile dans le panier ou utilise du papier cuisson spécial friteuse à air.",
+        "5. Quelle sauce accompagner avec le poisson au citron ?",
+        "Une sauce au yaourt et à la ciboulette, une sauce au beurre citronné ou une mayonnaise légère maison font des merveilles."
+      ]
     },
     {
       "id": "dropbox:-1125839885",
@@ -2592,6 +2797,173 @@
     {
       "id": "dropbox:204845536",
       "cat": "Entrée, Cake salé, Courgette, Légumes"
+    },
+    {
+      "id": "dropbox:1202030260",
+      "steps": [
+        "Pour un moule de 22 x 11 cm :",
+        "Préchauffer le four à 180°C (T6).",
+        "Mesurer le volume de riz. Et prévoir 1,5 fois ce volume d’eau chaude.",
+        "Éplucher et ciseler l‘oignon.",
+        "Dans une poêle, ou une sauteuse, faire chauffer un peu d’huile d’olive. Ajouter l’oignon et les branches de thym effeuillées. Laisser cuire 5 minutes à feu moyen. Ajouter le riz et bien mélanger pour enrober tous les grains de matière grasse. Ajouter l’équivalent de 1,5 volumes d’eau chaude. Saler.",
+        "Couvrir et laisser cuire à feu moyen 12 minutes. Retirer du feu sans ôter le couvercle et laisser tiédir.",
+        "Laver les courgettes. Les couper en petits dés.",
+        "Ciseler les feuilles de basilic.",
+        "Faire chauffer une poêle avec un peu d’huile d’olive. Ajouter les dés de courgettes. Saler. Cuire une dizaine de minutes à feu vif. Les dés de courgettes doivent être colorés. Retirer du feu. Ajouter le basilic. Mélanger. Laisser tiédir.",
+        "Dénoyauter les olives.",
+        "Dans un récipient, battre les œufs. Ajouter le comté râpé. Bien mélanger. Incorporer le riz et les courgettes. Mélanger soigneusement.",
+        "Dans un moule à cake chemisé de papier cuisson, verser un tiers de la préparation. Tasser un peu avec une cuillère. Disposer la moitié des olives puis ajouter un autre tiers de préparation. Tasser un peu. Répartir les olives restantes puis le dernier tiers de préparation. Tasser  un peu et égaliser la surface avec une cuillère. Ne tassez pas trop quand même !",
+        "Enfourner et cuire environ 30 minutes.",
+        "Déguster tiède ou froid."
+      ]
+    },
+    {
+      "id": "dropbox:1525929608",
+      "steps": [
+        "Détaillez le filet mignon en tranches. Lavez les champignons, coupez en le pied et détaillez le reste en lamelles.",
+        "Pelez et hachez les échalotes, puis faites les revenir avec les champignons dans un peu d'huile d'olive.",
+        "Pendant ce temps, salez et poivrez les tranches de filet mignon puis passez les dans la farine. Saisissez-les à feu vif dans un peu d'huile d'olive et laissez les cuire 4 à 5 minutes sur chaque face.",
+        "Lorsque les champignons ont pris une jolie couleur, versez le cidre. Assaisonnez et laissez bouillir quelques instants. Ajoutez alors la crème fraîche et laissez épaissir doucement.",
+        "Pour finir",
+        "Hors du feu, ajoutez un jaune d'oeuf et parsemez de persil ciselé. Rectifiez l'assaisonnement."
+      ]
+    },
+    {
+      "id": "dropbox:9fbe0eb4-85e1-4dfa-a72d-74e0ea75e843",
+      "steps": [
+        "Comment faire mascarpone fait maison au thermomix?",
+        "versez d’abord la crème dans le bol de votre thermomix et ajoutez en dessus le lait en poudre.",
+        "Ensuite programmez votre thermomix pour 10 minutes – 37° – vitesse 2.",
+        "A la sonnerie programmez encore pour 10 minutes – 50° – vitesse 2.",
+        "Ensuite programmez encore pour 10 minutes – 60° – vitesse 2.",
+        "Puis programmez cette fois pour 5 minutes – 70° – vitesse 2.",
+        "Et après programmez pour la fin 5 minutes – 80° – vitesse 2…comme vous remarquez on augmente progressivement la température pour avoir un bon fromage.",
+        "Ajoutez le jus de citron dans le bol et mélangez avec une cuillère puis couvrez votre bol et mettez au frigo pour au moins 8 heures.",
+        "Après déposez votre fromage dans un tissu mousseline puis ressemblez les extrémités du tissu pour former une boule et éliminer l’excès de liquide.",
+        "Une fois votre boule de fromage est épaisse, vous avez le choix soit de la servir immédiatement ou la réfrigérer."
+      ]
+    },
+    {
+      "id": "dropbox:3627ccc5-a5e9-4dc8-b126-2373e5123fbc",
+      "steps": [
+        "Cuisson des pommes de terre :",
+        "20 minutes (à l’eau)",
+        "Cuisson au four :",
+        "25 à 30 minutes",
+        "Niveau de difficulté :",
+        "Très accessible",
+        "Organisation :",
+        "Vous pouvez cuire les pommes de terre à l’avance. Le mélange final doit être fait juste avant l’enfournement pour garder le gonflant.",
+        "Préparation",
+        "1. La base végétale",
+        "Faites cuire les pommes de terre à l’eau jusqu’à ce qu’elles soient tendres. Épluchez-les encore chaudes et écrasez-les grossièrement à la fourchette. On veut garder quelques morceaux pour la texture. En parallèle, faites suer l’oignon émincé dans une poêle avec un peu d’huile jusqu’à ce qu’il soit translucide.",
+        "Cuisinières, tables de cuisson et fours",
+        "2. L’appareil de liaison",
+        "Dans votre saladier, battez les œufs avec la crème liquide. Ajoutez la farine tamisée, le sel (ayez la main légère, le fromage fera le reste), le poivre et la muscade. Fouettez jusqu’à obtenir un  mélange lisse.",
+        "3. Le façonnage de la garniture",
+        "Détaillez la charcuterie en petits dés. Coupez la moitié de la raclette en petits cubes (ils fondront à l’intérieur) et gardez l’autre moitié en tranches pour la couverture.",
+        "Fromages",
+        "4. La fusion",
+        "Incorporez l’écrasé de pommes de terre, les oignons, la charcuterie et les cubes de fromage dans l’appareil à œufs. Mélangez délicatement avec une spatule.",
+        "5. Le montage",
+        "Beurrez généreusement votre moule. Versez la préparation et lissez la surface. Disposez les tranches de raclette restantes par-dessus.",
+        "6. La gratination",
+        "Enfournez dans un four préchauffé à",
+        "180°C",
+        ". Laissez cuire 25 à 30 minutes. Le moelleux doit gonfler et le fromage former une croûte dorée et bouillonnante.",
+        "Viande et fruits de mer",
+        "Comment servir",
+        "Le moelleux à la raclette se sert",
+        "brûlant",
+        ", dès la sortie du four. Pour équilibrer la richesse du fromage, accompagnez-le d’une",
+        "salade verte craquante",
+        "(frisée ou scarole) avec une vinaigrette bien relevée à la moutarde et au vinaigre de cidre. Quelques cornichons apporteront la touche d’acidité finale nécessaire.",
+        "Textures & saveurs",
+        "En bouche, c’est un festival de douceur. L’attaque est croustillante grâce au fromage gratiné, suivie par le fondant de la pomme de terre qui a absorbé la crème. Le goût est typé, porté par les notes de noisette de la raclette et le fumé de la charcuterie. C’est un plat “doudou”, d’une cohérence absolue.",
+        "Produits laitiers et œufs",
+        "Conseils de chef",
+        "La pomme de terre :",
+        "Ne la mixez jamais, sinon elle deviendra élastique. L’écrasé manuel est le secret de la légèreté.",
+        "Le fromage :",
+        "Si vous avez des restes de différents",
+        "fromages",
+        "de montagne (Morbier, Reblochon), n’hésitez pas à les mélanger pour un goût encore plus complexe.",
+        "Le repos :",
+        "Laissez le plat reposer 5 minutes hors du four avant de servir pour que le moelleux se stabilise.",
+        "Viennoiseries",
+        "Variantes",
+        "Version Forestière :",
+        "Ajoutez 200 g de champignons de Paris sautés à l’ail dans la pâte.",
+        "Version “Végé” :",
+        "Remplacez la charcuterie par des poireaux fondus ou des dés de butternut rôtis.",
+        "Version Peps :",
+        "Ajoutez un peu de cumin dans la pâte pour une note alsacienne.",
+        "Conservation & service",
+        "Ce plat se conserve 24 heures au réfrigérateur. Pour le réchauffer, privilégiez le four à 150°C sous une feuille d’aluminium. Évitez le micro-ondes qui rendrait la texture caoutchouteuse.",
+        "Fruits et légumes",
+        "FAQ (Foire aux questions)",
+        "1. Puis-je utiliser de la raclette déjà tranchée ?",
+        "Oui, c’est parfait. Coupez juste quelques tranches en dés pour le cœur du moelleux.",
+        "2. Ma préparation semble trop liquide avant cuisson, est-ce grave ?",
+        "Non, c’est l’action combinée des œufs et de la farine qui va figer l’ensemble pendant la cuisson.",
+        "3. Peut-on ajouter du vin blanc ?",
+        "Absolument. Un petit trait de vin blanc sec (type Apremont) dans l’appareil à œufs renforcera le côté savoyard du plat.",
+        "Fromages",
+        "Conclusion de la recette",
+        "Réussir un moelleux à la raclette, c’est transformer un classique hivernal en un moment de partage élégant. En respectant l’équilibre entre l’écrasé de pomme de terre et l’appareil crémeux, vous offrez un plat d’une gourmandise absolue. Bon appétit !"
+      ]
+    },
+    {
+      "id": "dropbox:af08d704-8cc0-466f-ab68-03751375faf2",
+      "steps": [
+        "Si vous cherchez une recette de poulet à la fois croustillant, juteux et plein de saveurs, le poulet croustillant caramélisé au four est une véritable merveille. Facile à préparer, cette recette transforme de simples morceaux de poulet en un plat digne d’un restaurant, avec une peau dorée, une sauce caramélisée et une viande tendre à l’intérieur.",
+        "Pourquoi cette recette est spéciale ?",
+        "Le secret de cette recette réside dans la cuisson au four qui permet d’obtenir un poulet croustillant sans friture excessive. La sauce sucrée-salée caramélise pendant la cuisson et enrobe le poulet d’un glaçage brillant et savoureux.",
+        "C’est une recette parfaite pour :",
+        "Un déjeuner en famille",
+        "Un dîner rapide",
+        "Un repas spécial sans trop d’effort",
+        "Les amateurs de poulet croustillant",
+        "Ingrédients",
+        "Pour préparer ce délicieux poulet caramélisé, vous aurez besoin de :",
+        "Préparation"
+      ]
+    },
+    {
+      "id": "dropbox:-13642766",
+      "steps": [
+        "Faire la pâte. L’étaler dans un moule à tarte avec du papier sulfurisé.Laver et râper les courgettes. Faire revenir dans une poêle antiadhésive pour enlever le maximum d’eau pendant 5 minutes environ.Lorsque les courgettes ne rendent plus d’eau, ajouter les lardons de bacon. Laisser cuire 2 minutes.Dans un saladier, mélanger les œufs, la crème fraîche, le sel et le poivre.Ajouter le mélange courgettes et lardons de bacon.Verser la préparation dans le moule à tarte, sur la pâte.Parsemer de fromage râpé.Faire cuire à four chaud pendant 30 minutes environ à 175°Se mange chaud, tiède ou froid. Verdict :« Trop bonne ta quiche maman  » bon ben tout est dit 😉Le fait de cuire les courgettes râpées enlève toute l’eau et donc la quiche n’est pas « détrempée ».C’est vraiment bon et équilibré, à manger avec une belle salade.Imprimer cette recette (1 votes, average: 5,00 out of 5)"
+      ]
+    },
+    {
+      "id": "dropbox:-887506833",
+      "steps": [
+        "Peler l’oignon, l’émincer finement et le faire revenir avec les lardons, sans ajouter de matière grasse.",
+        "Lorsque les oignons sont translucides, les égoutter et les laisser tiédir.",
+        "Beurrer et fariner un moule à tarte de 26-27 cm de diamètre.",
+        "Foncer le moule à tarte avec la pâte brisée et ôter le surplus.",
+        "Piquer le fond à l’aide d’une fourchette.",
+        "Répartir les oignons et les lardons sur le fond de la tarte.",
+        "Battre les œufs avec la crème fraîche.",
+        "Ajouter les herbes ciselées, poivrer.",
+        "Répartir cet appareil sur les lardons.",
+        "Couper les parts de vache qui rit et les disposer sur le dessus de la tarte.",
+        "Enfourner pendant 10 minutes à 200°c puis 20 minutes à 180°c (chaleur tournante de préférence).",
+        "Pour finir",
+        "Servir avec un salade verte."
+      ]
+    },
+    {
+      "id": "dropbox:-866149180",
+      "steps": [
+        "Préparez les champignons. Passez-les rapidement sous un filet d'eau, essuyez-les et détaillez-les en gros morceaux. Faites fondre une noix de beurre et faites-y revenir la gousse d'ail émincée pendant 2 minutes. Ajoutez les champignons et laissez-les cuire environ 3 minutes en ajoutant le persil lavé et ciselé à la fin. Ajoutez 3 cuillères à soupe de vin blanc et laissez cuire 2 minutes jusqu'à ce qu'il réduise. Ajoutez la crème fraîche et mélangez. Salez, poivrez et réservez.",
+        "Faites bouillir un litre d'eau dans lequel vous diluerez les cubes de bouillon.",
+        "Dans une sauteuse, faites chauffer l'huile d'olive pour y faire blondir l'oignon émincé pendant 3 minutes. Ajoutez le riz et laissez-le cuire en remuant pendant 2 minutes jusqu'à ce qu'il soit un peu transparent.",
+        "Ajoutez 10 cl de vin blanc (1/2 verre) et une fois qu'il est absorbé par le riz, ajoutez une louche de bouillon, puis mélangez. Une fois que le bouillon est bien absorbé, ajoutez une nouvelle louche, et ainsi de suite jusqu'à épuisement du bouillon (environ 20 bonnes minutes).",
+        "Ajoutez la moitié du parmesan et les champignons, attendez 2 minutes puis mélangez vivement.",
+        "Pour finir",
+        "Servez très chaud avec le reste du parmesan."
+      ]
     }
   ],
   "recipes": [
