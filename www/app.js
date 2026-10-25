@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.77';
+const APP_VERSION = '3.78';
 
 let ALL = [];
 let BASE = [];
@@ -480,6 +480,7 @@ function renderChips(){
   const nSel = state.cats.length + (state.fav ? 1 : 0);
   const catLabel = nSel ? `🏷️ ${nSel} sélection${nSel>1?'s':''}` : '🏷️ Catégories';
   elCats.innerHTML = `
+    <button class="chip quick-chip" id="quick-btn">🔎 Express</button>
     <button class="chip ing-chip ${state.ing?'active':''}" id="ing-filter-btn">${esc(ingLabel)}</button>
     <button class="chip ${stockSort?'active':''}" id="stock-sort-btn" title="Trier par ingrédients en stock">🧺 Mes stocks</button>
     <div class="cat-multi">
@@ -493,6 +494,7 @@ function renderChips(){
     if (state.ing){ state.ing=null; renderChips(); renderGrid(); } else openIngPick();
   });
   document.getElementById('stock-sort-btn').addEventListener('click', toggleStockSort);
+  document.getElementById('quick-btn').addEventListener('click', openQuick);
 }
 function toggleStockSort(){
   if (!stockSort && !getAllStorageIngs().length){
@@ -4080,7 +4082,7 @@ async function init(){
     document.addEventListener('click', ()=>{ if(moreMenu) moreMenu.hidden=true; });
     moreMenu.addEventListener('click', ()=>{ moreMenu.hidden=true; });
   }
-  document.getElementById('wizard-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; openWizard(); });
+  document.getElementById('wizard-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; openQuick(); });
   document.getElementById('wizard-close-btn').addEventListener('click', closeWizard);
   document.getElementById('wz-prev').addEventListener('click', wizardPrev);
   document.getElementById('wz-next').addEventListener('click', wizardNext);
@@ -4238,6 +4240,148 @@ const WZ_STEPS_DEF = [
 ];
 let wizSt = { step:0, types:new Set(), regime:'', temps:'', saison:new Set(), complexite:'' };
 
+/* ---------- recherche express : 5 questions max, un toucher par réponse ---------- */
+// Chaque réponse filtre la liste ; le nombre de recettes restantes s'affiche sur chaque choix.
+// Dès qu'il reste 10 recettes ou moins, les résultats s'affichent.
+const QK_RX = (words) => new RegExp('(^|[^a-z])(' + words + ')s?([^a-z]|$)');
+const QK = {
+  viande: QK_RX('boeuf|porc|veau|agneau|jambon|lardon|saucisse|chorizo|viande|steak|merguez|bacon|cote|roti|jarret|kefta|boulette'),
+  volaille: QK_RX('poulet|dinde|canard|volaille|pintade|magret|caille|chapon'),
+  poisson: QK_RX('poisson|saumon|thon|cabillaud|colin|truite|sardine|maquereau|crevette|gambas|moule|saint-jacques|calamar|encornet|merlu|dorade|bar|lotte|crabe|surimi|anchois|morue|bacalao|bacalhau'),
+  oeuf: QK_RX('oeuf|omelette|fromage|chevre|feta|mozzarella|raclette|reblochon|camembert|brocciu|ricotta|comte|parmesan|tartiflette|fondue'),
+  feculent: QK_RX('pate|spaghetti|tagliatelle|penne|lasagne|gnocchi|riz|risotto|nouille|couscous|semoule|quinoa|polenta|pomme de terre|patate|frite|puree|lentille|pois chiche'),
+  chocolat: QK_RX('chocolat|cacao|nutella|praline|brownie'),
+  fruit: QK_RX('pomme|poire|banane|fraise|framboise|peche|abricot|citron|orange|mangue|ananas|cerise|myrtille|kiwi|coco|figue|prune|rhubarbe|fruit'),
+  creme: QK_RX('creme|flan|mousse|panna cotta|tiramisu|cheesecake|riz au lait|charlotte|oeufs au lait|yaourt'),
+  pate: QK_RX('gateau|tarte|biscuit|cookie|brioche|crepe|gaufre|cake|genoise|buche|madeleine|beignet|muffin|cannele|viennoiserie|chou'),
+  four: QK_RX('four|enfourner|gratiner|th[0-9]'),
+  feu: QK_RX('poele|casserole|sauteuse|wok|cocotte|faitout|mijoter|frire|faire revenir|saisir|plancha'),
+  cuisson: QK_RX('cuire|cuisson|four|enfourner|poele|casserole|cocotte|frire|griller|rotir|mijoter|bouillir|dorer|airfryer|air fryer|micro-ondes'),
+  leger: QK_RX('leger|legere|light|minceur|salade|vapeur|healthy|detox|ww|sans matiere grasse|veloute|gaspacho'),
+  reconfort: QK_RX('gratin|raclette|tartiflette|fondue|mijote|ragout|bourguignon|blanquette|lasagne|puree|parmentier|soupe|pot-au-feu|cassoulet|choucroute|daube|chili|curry|risotto|crumble|fondant|brioche|croziflette|aligot'),
+  recevoir: QK_RX('noel|fete|buche|foie gras|saint-jacques|homard|langouste|caviar|wellington|chapon|magret|truffe|champagne|paella|couscous royal|osso|carpaccio|tartare|verrine|feuillete|mignardise'),
+};
+function qkHay(r){
+  if (!r._qk){
+    const ing = (r.ing||[]).join(' ');
+    const steps = Array.isArray(r.steps) ? r.steps.join(' ') : (r.steps||'');
+    r._qk = { title: norm(r.t||''), main: norm((r.t||'') + ' ' + (r.ing||[]).slice(0,4).join(' ')), all: norm((r.t||'') + ' ' + ing), steps: norm(steps), cat: catList(r) };
+  }
+  return r._qk;
+}
+const qkCat = (r, ...cs) => qkHay(r).cat.some(c => cs.includes(c));
+const QK_QUESTIONS = [
+  { key:'type', title:'Quoi ?', opts: () => [
+    { v:'apero', label:'🥂 Apéro', f: r => qkCat(r,'Apéritif','Bouchée','Tartine','Tartinade','Wrap','Tortilla','Samoussa','Empanada','Brochette','Panini','Allumettes') },
+    { v:'entree', label:'🥗 Entrée / Soupe', f: r => qkCat(r,'Entrée','Soupe','Salade') },
+    { v:'plat', label:'🍽️ Plat', f: r => qkCat(r,'Plat') },
+    { v:'dessert', label:'🍰 Dessert', f: r => qkCat(r,'Dessert','Gâteaux','Viennoiserie','Biscuit','Flan','Crème dessert','Tarte sucrée') },
+    { v:'boisson', label:'🥤 Boisson', f: r => qkCat(r,'Boissons','Smoothie','Milkshake','Cocktail','Cocktail sans alcool') },
+  ]},
+  { key:'temps', title:'Combien de temps ?', opts: () => [
+    { v:'15', label:'⚡ 15 min max', f: r => r.min && +r.min <= 15 },
+    { v:'30', label:'⏱️ 30 min max', f: r => r.min && +r.min <= 30 },
+    { v:'60', label:'🕐 1 h max', f: r => r.min && +r.min <= 60 },
+    { v:'*', label:'🤷 Peu importe', f: () => true },
+  ]},
+  { key:'ingr', title:'Ingrédient principal ?', opts: (a) => a.type === 'dessert' ? [
+    { v:'chocolat', label:'🍫 Chocolat', f: r => QK.chocolat.test(qkHay(r).all) },
+    { v:'fruit', label:'🍓 Fruits', f: r => QK.fruit.test(qkHay(r).main) },
+    { v:'creme', label:'🍮 Crème / Flan', f: r => QK.creme.test(qkHay(r).title) },
+    { v:'pate', label:'🥐 Gâteau / Pâte', f: r => QK.pate.test(qkHay(r).title) },
+  ] : a.type === 'boisson' ? [
+    { v:'fruit', label:'🍓 Fruitée', f: r => QK.fruit.test(qkHay(r).all) },
+    { v:'lait', label:'🥛 Lactée', f: r => /lait|yaourt|creme|glace|milkshake/.test(qkHay(r).all) },
+    { v:'alcool', label:'🍸 Avec alcool', f: r => qkCat(r,'Cocktail') },
+    { v:'sans', label:'🧃 Sans alcool', f: r => !qkCat(r,'Cocktail') },
+  ] : [
+    { v:'viande', label:'🥩 Viande', f: r => QK.viande.test(qkHay(r).main) },
+    { v:'volaille', label:'🍗 Volaille', f: r => QK.volaille.test(qkHay(r).main) },
+    { v:'poisson', label:'🐟 Poisson / Fruits de mer', f: r => QK.poisson.test(qkHay(r).main) },
+    { v:'oeuf', label:'🥚 Œufs / Fromage', f: r => QK.oeuf.test(qkHay(r).title) },
+    { v:'legume', label:'🥦 Légumes', f: r => checkDiet(r,'vegetarien') && !QK.oeuf.test(qkHay(r).title) && !QK.feculent.test(qkHay(r).title) },
+    { v:'feculent', label:'🍝 Pâtes / Riz / Patates', f: r => QK.feculent.test(qkHay(r).title) },
+  ]},
+  { key:'outil', title:'Avec quoi ?', opts: () => [
+    { v:'four', label:'🔥 Four', f: r => QK.four.test(qkHay(r).steps) && !qkCat(r,'Airfryer') },
+    { v:'feu', label:'🍳 Poêle / Casserole', f: r => QK.feu.test(qkHay(r).steps) },
+    { v:'airfryer', label:'🌪️ Airfryer', f: r => qkCat(r,'Airfryer') || !!r.af },
+    { v:'thermomix', label:'⚙️ Thermomix', f: r => qkCat(r,'Thermomix') },
+    { v:'cru', label:'🥒 Sans cuisson', f: r => !QK.cuisson.test(qkHay(r).steps) },
+  ]},
+  { key:'envie', title:'Envie de quoi ?', opts: () => [
+    { v:'leger', label:'🥗 Léger', f: r => QK.leger.test(qkHay(r).title + ' ' + norm((r.cat||'') + ' ' + (r.desc||''))) || (checkDiet(r,'vegetarien') && !/creme|fromage|beurre|lardon|frit/.test(qkHay(r).all)) },
+    { v:'reconfort', label:'🍲 Réconfortant', f: r => QK.reconfort.test(qkHay(r).title) },
+    { v:'recevoir', label:'🎉 Pour recevoir', f: r => QK.recevoir.test(qkHay(r).title) || qkCat(r,'Noël') },
+    { v:'stock', label:'🧺 Avec mes stocks', f: r => { const c = qkStockCov(r); return c && c.total - c.covered <= 2; } },
+  ]},
+];
+let qk = null;
+function qkStockCov(r){
+  if (!qk) return null;
+  if (!qk.have) qk.have = stockHaveList();
+  if (!qk.have.length) return null;
+  if (!qk.cov.has(r)) qk.cov.set(r, recipeStockCoverage(r, qk.have));
+  return qk.cov.get(r);
+}
+function qkBase(answers){
+  const appliance = answers.outil === 'thermomix' || answers.outil === 'airfryer';
+  let list = ALL.slice();
+  if (!appliance){ const saved = state.cats; state.cats = []; list = collapseVariants(list); state.cats = saved; }
+  return list;
+}
+function qkFilter(answers){
+  let list = qkBase(answers);
+  for (const q of QK_QUESTIONS){
+    const a = answers[q.key]; if (!a) continue;
+    const o = q.opts(answers).find(x => x.v === a); if (o) list = list.filter(o.f);
+  }
+  return list;
+}
+function openQuick(){
+  qk = { step: 0, answers: {}, cov: new Map(), have: null };
+  let el = document.getElementById('quick');
+  if (!el){ el = document.createElement('div'); el.id = 'quick'; el.className = 'editview quick'; document.body.appendChild(el); }
+  el.hidden = false; document.body.style.overflow = 'hidden';
+  qkRender();
+}
+function closeQuick(){ const el = document.getElementById('quick'); if (el) el.hidden = true; document.body.style.overflow = ''; qk = null; }
+function qkRender(){
+  const el = document.getElementById('quick');
+  const list = qkFilter(qk.answers);
+  const done = qk.step >= QK_QUESTIONS.length || (qk.step > 0 && list.length <= 10);
+  const head = `<div class="edit-head">
+      <button class="e-cancel" id="qk-back">${qk.step ? '← Retour' : '✕ Fermer'}</button>
+      <h2>🔎 Recherche express</h2>
+      <button class="e-cancel" id="qk-restart"${qk.step ? '' : ' hidden'}>↺</button>
+    </div>
+    <div class="qk-count"><b>${list.length}</b> recette${list.length > 1 ? 's' : ''}${Object.values(qk.answers).length ? ' · ' + esc(qkSummary()) : ''}</div>`;
+  if (done){
+    const sorted = qk.answers.envie === 'stock' ? list.slice().sort((a, b) => stockRank(qkStockCov(a), qkStockCov(b))) : list;
+    el.innerHTML = head + `<div class="qk-res">${sorted.length ? '' : '<p class="qk-empty">Aucune recette ne correspond. Reviens en arrière pour élargir un critère.</p>'}</div>`;
+    const grid = el.querySelector('.qk-res');
+    sorted.slice(0, 60).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
+  } else {
+    const q = QK_QUESTIONS[qk.step];
+    const opts = q.opts(qk.answers).map(o => ({ o, n: qkFilter(Object.assign({}, qk.answers, { [q.key]: o.v })).length }));
+    el.innerHTML = head + `<div class="qk-q"><span class="qk-step">Question ${qk.step + 1} / ${QK_QUESTIONS.length}</span>${esc(q.title)}</div>
+      <div class="qk-opts">${opts.map(({ o, n }) => `<button class="qk-opt" data-v="${o.v}"${n ? '' : ' disabled'}><span>${o.label}</span><small>${n}</small></button>`).join('')}</div>
+      <button class="qk-skip" id="qk-skip">Passer cette question →</button>`;
+    el.querySelectorAll('.qk-opt').forEach(b => b.addEventListener('click', () => { qk.answers[q.key] = b.dataset.v; qk.step++; qkRender(); }));
+    el.querySelector('#qk-skip').addEventListener('click', () => { delete qk.answers[q.key]; qk.step++; qkRender(); });
+  }
+  el.querySelector('#qk-back').addEventListener('click', () => {
+    if (!qk.step){ closeQuick(); return; }
+    qk.step = Math.min(qk.step, QK_QUESTIONS.length) - 1;
+    while (qk.step > 0 && !qk.answers[QK_QUESTIONS[qk.step].key] && qkFilter(qk.answers).length <= 10) qk.step--;
+    delete qk.answers[QK_QUESTIONS[qk.step].key]; qkRender();
+  });
+  el.querySelector('#qk-restart').addEventListener('click', () => { qk.step = 0; qk.answers = {}; qkRender(); });
+  el.scrollTop = 0;
+}
+function qkSummary(){
+  return QK_QUESTIONS.map(q => { const a = qk.answers[q.key]; const o = a && q.opts(qk.answers).find(x => x.v === a); return o ? o.label.replace(/^\S+\s/, '') : ''; }).filter(Boolean).join(' · ');
+}
 function openWizard(){
   wizSt = { step:0, types:new Set(), regime:'', temps:'', saison:new Set(), complexite:'' };
   document.getElementById('wizard').hidden = false;
