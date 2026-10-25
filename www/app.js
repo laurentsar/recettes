@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.93';
+const APP_VERSION = '3.94';
 
 let ALL = [];
 let BASE = [];
@@ -423,7 +423,7 @@ function totalMinutes(r){ return r.min ? +r.min + extraRest(r) : 0; }
 function fmtMin(m){ return m >= 60 ? Math.floor(m / 60) + ' h' + (m % 60 ? ' ' + String(m % 60).padStart(2, '0') : '') : m + ' min'; }
 const SANTE_SUBS = new Set(['sansgluten','proteines','antiinflamm','vegetarien','vegan','keto','rapide']);
 
-const _GLUTEN_KWS = ['pates','spaghetti','tagliatelle','linguine','penne','fusilli','macaroni','lasagne','semoule','boulgour','couscous','chapelure','biscottes','biscuit','epeautre','seigle','pain','ble','orge','avoine'];
+const _GLUTEN_KWS = ['pates','spaghetti','tagliatelle','linguine','penne','fusilli','macaroni','lasagne','semoule','boulgour','couscous','chapelure','biscottes','biscuit','epeautre','seigle','pain','ble','orge','avoine','brick','feuilletee','brisee','sablee','blinis','tortilla','brioche','croissant'];
 const _GLUTEN_SAFE_FARINE = ['riz','mais','sarrasin','coco','pois','chataigne','manioc','quinoa','teff','sorgho','lupin','lentille','feve','potiron'];
 
 const _PROTEIN_KWS = ['poulet','dinde','boeuf','veau','porc','agneau','canard','lapin','jambon','oeuf','saumon','thon','cabillaud','dorade','sardine','crevette','moule','langoustine','tofu','lentille','pois chiche','fromage','fromage blanc','quinoa','edamame','tempeh','seitan'];
@@ -435,7 +435,10 @@ const _MEAT_KWS = ['poulet','dinde','boeuf','veau','porc','agneau','canard','lap
 const _FISH_KWS = ['thon','saumon','cabillaud','sardine','maquereau','anchois','crevette','moule','palourde','homard','crabe','poisson','lotte','langoustine','seiche','poulpe','calamar','merlu','daurade','dorade','colin','truite','bar','sole','surimi','morue','bacalao','hareng','saint-jacques','huitre','encornet','gambas','langouste','oursin','bulot','anguille'];
 
 const _KETO_INCLUDE = ['avocat','oeuf','fromage','amande','noix','saumon','boeuf','poulet','agneau','porc','canard','lardons','beurre','creme','parmesan','gruyere'];
-const _KETO_EXCLUDE = ['pates','pain','riz','pomme de terre','farine','sucre','cereale','mais','haricot','lentille','pois chiche','biscuit','couscous','semoule','boulgour','miel','sirop','banane','dattes'];
+const _KETO_EXCLUDE = ['pates','pain','riz','pomme de terre','pommes de terre','patate','farine','sucre','cereale','mais','haricot','lentille','pois chiche','biscuit','couscous','semoule','boulgour','miel','sirop','banane','dattes','brick','feuilletee','brisee','blinis','tortilla'];
+
+// Portions : un nombre → « N pers. », un texte (« 16 pièces », « 1 bûche ») tel quel.
+function servTxt(s){ return /^\d+(\s*[-–à]\s*\d+)?$/.test(String(s).trim()) ? s+' pers.' : s; }
 
 function dietFilter(r){
   if (!state.diet) return true;
@@ -942,7 +945,7 @@ function openDetail(id){
     `<button class="tag cat tag-cat-btn" title="${catList(r).length?'Modifier les catégories':'Ajouter une catégorie'}">${catLabel}</button>`,
     r.area?`<span class="tag">📍 ${esc(r.area)}</span>`:'',
     r.min?`<span class="tag">⏱️ ${fmtMin(+r.min)}${extraRest(r) ? ` + 💤 ${fmtMin(extraRest(r))} de repos` : ''}</span>`:'',
-    r.serv?`<span class="tag">🍽️ ${r.serv} pers.</span>`:'',
+    r.serv?`<span class="tag">🍽️ ${esc(servTxt(r.serv))}</span>`:'',
     ..._dietTags,
   ].join('');
   const sk = SEASON[monthNow()] || [];
@@ -4060,7 +4063,7 @@ function renderBatchCourses(){
     totalIngs += ings.length;
     const ingsHtml = ings.map(i=>`<li data-k="${esc(i)}"><span class="box"></span><span>${esc(i)}</span></li>`).join('');
     return `<div class="batch-ing-section">
-      <div class="batch-ing-title">${esc(r.t)}${r.min?` <span style="font-weight:400;font-size:.85em;color:var(--muted)">⏱️ ${r.min} min</span>`:''}${r.serv?` <span style="font-weight:400;font-size:.85em;color:var(--muted)">· 🍽️ ${r.serv} pers.</span>`:''}</div>
+      <div class="batch-ing-title">${esc(r.t)}${r.min?` <span style="font-weight:400;font-size:.85em;color:var(--muted)">⏱️ ${r.min} min</span>`:''}${r.serv?` <span style="font-weight:400;font-size:.85em;color:var(--muted)">· 🍽️ ${esc(servTxt(r.serv))}</span>`:''}</div>
       <ul class="ing" style="margin:0">${ingsHtml}</ul>
     </div>`;
   }).join('');
@@ -4087,7 +4090,7 @@ function renderBatchCuisson(){
         <span class="batch-cook-order">${i+1}</span>
         <span>${esc(r.t)}</span>
       </div>
-      ${(r.min||r.serv)?`<div class="batch-cook-meta">${r.min?'⏱️ '+fmtMin(totalMinutes(r)):''}${r.serv?' · 🍽️ '+r.serv+' pers.':''}</div>`:''}
+      ${(r.min||r.serv)?`<div class="batch-cook-meta">${r.min?'⏱️ '+fmtMin(totalMinutes(r)):''}${r.serv?' · 🍽️ '+servTxt(r.serv):''}</div>`:''}
       ${steps.length
         ? `<button class="batch-cook-start" data-bid="${esc(String(r.id))}">🍳 Lancer la cuisson guidée</button>`
         : '<p style="color:var(--muted);font-size:.85em;margin:0">Aucune étape de préparation</p>'}
@@ -4681,7 +4684,7 @@ function wzRenderResults(body){
       const img = r.img
         ? `<img class="wz-thumb" src="${esc(r.img)}" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=wz-ph>🍽️</div>'">`
         : '<div class="wz-ph">🍽️</div>';
-      const meta = [r.min?'⏱️ '+fmtMin(totalMinutes(r)):'', r.serv?'🍽️ '+r.serv+' pers.':''].filter(Boolean).join(' · ');
+      const meta = [r.min?'⏱️ '+fmtMin(totalMinutes(r)):'', r.serv?'🍽️ '+servTxt(r.serv):''].filter(Boolean).join(' · ');
       const hab = (habitScores[String(r.id)]||0)>3 ? '<span class="wz-badge">🔁 Habituel</span>' : '';
       html += `<div class="wz-rcard" data-id="${esc(r.id)}">${img}<div class="wz-rinfo"><div class="wz-rt">${esc(r.t)}${hab}</div><div class="wz-rmeta">${esc(meta||catList(r).slice(0,2).join(' · '))}</div></div></div>`;
     });

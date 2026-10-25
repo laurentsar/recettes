@@ -30250,6 +30250,2060 @@
       "url": "",
       "vid": "",
       "pair": "sauce:008"
+    },
+    {
+      "id": "empanada:021",
+      "t": "Empanadas Poulet & Poivrons",
+      "cat": "Apéritif, Empanada",
+      "min": 45,
+      "serv": 4,
+      "img": "img/new4/emp1.jpg",
+      "desc": "Empanadas dorées garnies de poulet, poivron rouge et sauce tomate.",
+      "ing": [
+        "1 pâte brisée",
+        "300 g de poulet cuit",
+        "1 poivron rouge",
+        "1/2 oignon",
+        "1 c. à soupe de sauce tomate",
+        "1 jaune d'œuf pour dorer (facultatif)",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Émincer l'oignon et couper le poivron en petits dés ; les faire revenir 5 min dans un filet d'huile.",
+        "Ajouter le poulet effiloché et la sauce tomate, saler, poivrer et mélanger 2 min. Laisser tiédir.",
+        "Découper des disques de 12 cm dans la pâte brisée.",
+        "Déposer une cuillerée de farce sur une moitié de chaque disque, replier et souder les bords avec une fourchette.",
+        "Dorer au jaune d'œuf et cuire 20 à 25 min jusqu'à ce qu'elles soient bien dorées."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "empanada:022",
+      "t": "Empanadas Espagnoles (Chorizo & Viande)",
+      "cat": "Espagne, Apéritif, Empanada",
+      "min": 45,
+      "serv": 4,
+      "img": "img/new4/emp2.jpg",
+      "desc": "Empanadas au chorizo et à la viande hachée, relevées au poivron.",
+      "ing": [
+        "1 pâte brisée",
+        "100 g de chorizo",
+        "100 g de viande hachée",
+        "1 poivron",
+        "1/2 oignon",
+        "2 c. à soupe de sauce tomate",
+        "1 jaune d'œuf pour dorer (facultatif)",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Faire revenir l'oignon émincé et le poivron en dés 5 min dans une poêle.",
+        "Ajouter la viande hachée et le chorizo en petits dés, cuire 5 min en égrainant.",
+        "Incorporer la sauce tomate, saler (peu, le chorizo est salé), poivrer. Laisser tiédir.",
+        "Découper des disques de 12 cm dans la pâte, garnir une moitié, replier et souder les bords à la fourchette.",
+        "Dorer au jaune d'œuf et cuire 20 à 25 min."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "empanada:023",
+      "t": "Empanadas Épinards & Feta",
+      "cat": "Apéritif, Empanada, Végétarien",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new4/emp3.jpg",
+      "desc": "Empanadas végétariennes aux épinards fondants et à la feta.",
+      "ing": [
+        "1 pâte brisée",
+        "150 g d'épinards",
+        "100 g de feta",
+        "1 c. à soupe de crème liquide",
+        "1 c. à soupe d'huile d'olive",
+        "1 jaune d'œuf pour dorer (facultatif)",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Faire tomber les épinards 3 min dans l'huile d'olive, puis bien les presser pour retirer l'eau.",
+        "Mélanger les épinards avec la feta émiettée et la crème. Poivrer, saler légèrement.",
+        "Découper des disques de 12 cm dans la pâte, garnir une moitié, replier et souder les bords.",
+        "Dorer au jaune d'œuf et cuire 20 min."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "chausson:001",
+      "t": "Chaussons Poulet & Fromage",
+      "cat": "Apéritif, Empanada, Chausson",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/chau1.jpg",
+      "desc": "Chaussons feuilletés au poulet et fromage fondant.",
+      "ing": [
+        "1 pâte feuilletée",
+        "150 g de poulet cuit",
+        "100 g de fromage râpé",
+        "2 c. à soupe de crème",
+        "Sel, poivre",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Effilocher le poulet et le mélanger avec le fromage râpé et la crème. Saler, poivrer.",
+        "Découper la pâte feuilletée en 4 carrés ou disques.",
+        "Répartir la garniture sur une moitié de chaque morceau, replier et souder les bords en appuyant avec une fourchette.",
+        "Dorer au jaune d'œuf, faire 2 petites entailles sur le dessus et cuire 20 à 25 min jusqu'à ce que la pâte soit bien gonflée et dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "chausson:002",
+      "t": "Chaussons Thon & Tomate",
+      "cat": "Apéritif, Empanada, Chausson",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/chau2.jpg",
+      "desc": "Chaussons feuilletés au thon, sauce tomate et fromage.",
+      "ing": [
+        "1 pâte feuilletée",
+        "1 boîte de thon",
+        "3 c. à soupe de sauce tomate",
+        "50 g de fromage râpé",
+        "Sel, poivre",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Égoutter et émietter le thon, le mélanger avec la sauce tomate et le fromage râpé. Poivrer.",
+        "Découper la pâte feuilletée en 4 carrés ou disques.",
+        "Répartir la garniture sur une moitié de chaque morceau, replier et souder les bords en appuyant avec une fourchette.",
+        "Dorer au jaune d'œuf, faire 2 petites entailles sur le dessus et cuire 20 à 25 min jusqu'à ce que la pâte soit bien gonflée et dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "chausson:003",
+      "t": "Chaussons Chèvre & Miel",
+      "cat": "Apéritif, Empanada, Chausson, Végétarien",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/chau3.jpg",
+      "desc": "Chaussons feuilletés au chèvre, miel et noix.",
+      "ing": [
+        "1 pâte feuilletée",
+        "150 g de fromage de chèvre",
+        "2 c. à soupe de miel",
+        "30 g de cerneaux de noix",
+        "Poivre",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Couper le chèvre en morceaux, concasser les noix. Mélanger avec le miel et un tour de poivre.",
+        "Découper la pâte feuilletée en 4 carrés ou disques.",
+        "Répartir la garniture sur une moitié de chaque morceau, replier et souder les bords en appuyant avec une fourchette.",
+        "Dorer au jaune d'œuf, faire 2 petites entailles sur le dessus et cuire 20 à 25 min jusqu'à ce que la pâte soit bien gonflée et dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "chausson:004",
+      "t": "Chaussons Viande Hachée & Épices",
+      "cat": "Apéritif, Empanada, Chausson",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/chau4.jpg",
+      "desc": "Chaussons feuilletés à la viande hachée épicée.",
+      "ing": [
+        "1 pâte feuilletée",
+        "150 g de viande hachée",
+        "1 oignon",
+        "1 c. à café d'épices (cumin, paprika, ras el hanout…)",
+        "Sel, poivre",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Faire revenir l'oignon émincé, ajouter la viande hachée et les épices, cuire 5 min en égrainant. Saler, poivrer et laisser tiédir.",
+        "Découper la pâte feuilletée en 4 carrés ou disques.",
+        "Répartir la garniture sur une moitié de chaque morceau, replier et souder les bords en appuyant avec une fourchette.",
+        "Dorer au jaune d'œuf, faire 2 petites entailles sur le dessus et cuire 20 à 25 min jusqu'à ce que la pâte soit bien gonflée et dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "chausson:005",
+      "t": "Chaussons Saumon & Fromage Frais",
+      "cat": "Apéritif, Empanada, Chausson",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/chau5.jpg",
+      "desc": "Chaussons feuilletés au saumon fumé, fromage frais et aneth.",
+      "ing": [
+        "1 pâte feuilletée",
+        "100 g de saumon fumé",
+        "100 g de fromage frais",
+        "Quelques brins d'aneth",
+        "Poivre",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Couper le saumon en lanières et le mélanger avec le fromage frais et l'aneth ciselé. Poivrer.",
+        "Découper la pâte feuilletée en 4 carrés ou disques.",
+        "Répartir la garniture sur une moitié de chaque morceau, replier et souder les bords en appuyant avec une fourchette.",
+        "Dorer au jaune d'œuf, faire 2 petites entailles sur le dessus et cuire 20 à 25 min jusqu'à ce que la pâte soit bien gonflée et dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "chausson:006",
+      "t": "Chaussons Légumes Grillés & Mozzarella",
+      "cat": "Apéritif, Empanada, Chausson, Végétarien",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/chau6.jpg",
+      "desc": "Chaussons feuilletés aux courgettes, aubergines grillées et mozzarella.",
+      "ing": [
+        "1 pâte feuilletée",
+        "1 courgette",
+        "1/2 aubergine",
+        "125 g de mozzarella",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, poivre",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Couper la courgette et l'aubergine en petits dés et les faire griller 8 min à la poêle avec l'huile d'olive. Saler, poivrer, laisser tiédir.",
+        "Ajouter la mozzarella coupée en dés.",
+        "Découper la pâte feuilletée en 4 carrés ou disques.",
+        "Répartir la garniture sur une moitié de chaque morceau, replier et souder les bords en appuyant avec une fourchette.",
+        "Dorer au jaune d'œuf, faire 2 petites entailles sur le dessus et cuire 20 à 25 min jusqu'à ce que la pâte soit bien gonflée et dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "chausson:007",
+      "t": "Chaussons Poulet Curry & Lait de Coco",
+      "cat": "Apéritif, Empanada, Chausson",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/chau7.jpg",
+      "desc": "Chaussons feuilletés au poulet crémeux au curry et lait de coco.",
+      "ing": [
+        "1 pâte feuilletée",
+        "150 g de poulet",
+        "1 c. à café de curry",
+        "10 cl de lait de coco",
+        "Sel, poivre",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Couper le poulet en petits dés et le dorer 5 min à la poêle. Ajouter le curry et le lait de coco, laisser réduire 5 min jusqu'à obtenir une sauce épaisse. Saler, poivrer, laisser refroidir.",
+        "Découper la pâte feuilletée en 4 carrés ou disques.",
+        "Répartir la garniture sur une moitié de chaque morceau, replier et souder les bords en appuyant avec une fourchette.",
+        "Dorer au jaune d'œuf, faire 2 petites entailles sur le dessus et cuire 20 à 25 min jusqu'à ce que la pâte soit bien gonflée et dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "chausson:008",
+      "t": "Chaussons Jambon & Fromage",
+      "cat": "Apéritif, Empanada, Chausson",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/chau8.jpg",
+      "desc": "Chaussons feuilletés jambon-fromage, simples et fondants.",
+      "ing": [
+        "1 pâte feuilletée",
+        "2 tranches de jambon",
+        "100 g de fromage râpé (ou emmental en tranches)",
+        "Poivre",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Couper le jambon en morceaux et le mélanger avec le fromage.",
+        "Découper la pâte feuilletée en 4 carrés ou disques.",
+        "Répartir la garniture sur une moitié de chaque morceau, replier et souder les bords en appuyant avec une fourchette.",
+        "Dorer au jaune d'œuf, faire 2 petites entailles sur le dessus et cuire 20 à 25 min jusqu'à ce que la pâte soit bien gonflée et dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "chausson:009",
+      "t": "Chaussons Épinards & Ricotta",
+      "cat": "Apéritif, Empanada, Chausson, Végétarien",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/chau9.jpg",
+      "desc": "Chaussons feuilletés aux épinards, ricotta et noix de muscade.",
+      "ing": [
+        "1 pâte feuilletée",
+        "150 g d'épinards",
+        "125 g de ricotta",
+        "1 pincée de noix de muscade",
+        "Sel, poivre",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Faire tomber les épinards 3 min à la poêle et bien les presser. Les mélanger avec la ricotta et la muscade. Saler, poivrer.",
+        "Découper la pâte feuilletée en 4 carrés ou disques.",
+        "Répartir la garniture sur une moitié de chaque morceau, replier et souder les bords en appuyant avec une fourchette.",
+        "Dorer au jaune d'œuf, faire 2 petites entailles sur le dessus et cuire 20 à 25 min jusqu'à ce que la pâte soit bien gonflée et dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "chausson:010",
+      "t": "Chaussons Pommes & Cannelle",
+      "cat": "Dessert, Viennoiserie, Empanada, Chausson",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/chau10.jpg",
+      "desc": "Chaussons feuilletés sucrés aux pommes fondantes et à la cannelle.",
+      "ing": [
+        "1 pâte feuilletée",
+        "3 pommes",
+        "2 c. à soupe de sucre",
+        "1 c. à café de cannelle",
+        "15 g de beurre",
+        "1 jaune d'œuf pour dorer"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Éplucher les pommes et les couper en dés. Les cuire 8 min à la poêle avec le beurre, le sucre et la cannelle jusqu'à ce qu'elles soient tendres. Laisser refroidir.",
+        "Découper la pâte feuilletée en 4 carrés ou disques.",
+        "Répartir la garniture sur une moitié de chaque morceau, replier et souder les bords en appuyant avec une fourchette.",
+        "Dorer au jaune d'œuf, faire 2 petites entailles sur le dessus et cuire 20 à 25 min jusqu'à ce que la pâte soit bien gonflée et dorée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "maghreb:040",
+      "t": "Tajine de Bœuf, Carottes et Navets",
+      "cat": "Maghreb, Plat, Viande, Bœuf",
+      "min": 150,
+      "serv": 6,
+      "img": "img/new4/taj1.jpg",
+      "desc": "Tajine mijoté de bœuf fondant aux carottes et navets, parfumé au cumin et paprika.",
+      "ing": [
+        "1 kg de bœuf à braiser en morceaux",
+        "4 carottes coupées en tronçons",
+        "2 navets coupés en morceaux",
+        "2 oignons émincés",
+        "2 gousses d'ail",
+        "1 c. à café de cumin",
+        "1 c. à café de paprika",
+        "3 c. à soupe d'huile d'olive",
+        "50 cl de bouillon de bœuf",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Dans le tajine (ou une cocotte), faire chauffer l'huile et dorer les morceaux de bœuf sur toutes les faces.",
+        "Ajouter les oignons et l'ail émincés, faire revenir 5 min.",
+        "Saupoudrer de cumin et de paprika, saler, poivrer et mélanger.",
+        "Verser le bouillon, couvrir et laisser mijoter 1 h 30 à feu doux.",
+        "Ajouter les carottes et les navets, couvrir et poursuivre la cuisson 40 min, jusqu'à ce que la viande soit fondante et les légumes tendres.",
+        "Servir chaud, avec de la semoule ou du pain."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:020",
+      "t": "Sauce au Poivre",
+      "cat": "Sauce, France",
+      "min": 15,
+      "serv": 4,
+      "img": "img/new4/sau1.jpg",
+      "desc": "La sauce classique des viandes grillées, crémeuse et relevée au poivre concassé.",
+      "ing": [
+        "1 échalote",
+        "20 g de beurre",
+        "1 c. à soupe de poivre noir concassé",
+        "3 c. à soupe de cognac (facultatif)",
+        "10 cl de fond de veau ou de bouillon",
+        "20 cl de crème liquide",
+        "Sel"
+      ],
+      "steps": [
+        "Ciseler finement l'échalote et la faire fondre 2 min dans le beurre.",
+        "Ajouter le poivre concassé et faire torréfier 30 s.",
+        "Déglacer au cognac (flamber si souhaité), puis verser le fond de veau et laisser réduire de moitié.",
+        "Ajouter la crème et laisser épaissir 3 à 5 min à feu doux. Saler et servir aussitôt."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:021",
+      "t": "Sauce Béarnaise",
+      "cat": "Sauce, France",
+      "min": 25,
+      "serv": 4,
+      "img": "img/new4/sau2.jpg",
+      "desc": "Sauce émulsionnée au beurre, à l'échalote et à l'estragon, idéale avec une pièce de bœuf.",
+      "ing": [
+        "1 échalote",
+        "3 c. à soupe de vinaigre de vin blanc",
+        "3 c. à soupe de vin blanc sec",
+        "1 c. à soupe d'estragon ciselé (+ un peu pour finir)",
+        "3 jaunes d'œufs",
+        "150 g de beurre clarifié tiède",
+        "Sel, poivre mignonnette"
+      ],
+      "steps": [
+        "Dans une petite casserole, mettre l'échalote ciselée, le vinaigre, le vin blanc, l'estragon et un peu de poivre. Réduire à feu doux jusqu'à ce qu'il ne reste qu'environ 1 c. à soupe de liquide. Laisser tiédir.",
+        "Ajouter les jaunes d'œufs et 1 c. à soupe d'eau froide. Fouetter au bain-marie frémissant jusqu'à obtenir un sabayon mousseux et épais (sans dépasser 60 °C).",
+        "Hors du feu, incorporer le beurre clarifié tiède en filet, en fouettant sans arrêt.",
+        "Saler, passer au chinois si désiré et ajouter l'estragon frais ciselé. Servir tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:022",
+      "t": "Sauce Hollandaise",
+      "cat": "Sauce, France",
+      "min": 15,
+      "serv": 4,
+      "img": "img/new4/sau3.jpg",
+      "desc": "Sauce émulsionnée au beurre et au citron, pour les œufs Bénédicte, asperges et poissons.",
+      "ing": [
+        "3 jaunes d'œufs",
+        "150 g de beurre",
+        "1/2 citron (jus)",
+        "1 pincée de piment d'Espelette ou de paprika",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Faire fondre le beurre doucement et le garder tiède.",
+        "Dans un cul-de-poule, fouetter les jaunes avec 2 c. à soupe d'eau froide au bain-marie frémissant jusqu'à obtenir une mousse épaisse et blanchie.",
+        "Hors du feu, verser le beurre fondu en filet en fouettant constamment.",
+        "Ajouter le jus de citron, saler, poivrer et saupoudrer d'une pincée de piment. Servir aussitôt."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:023",
+      "t": "Sauce au Roquefort",
+      "cat": "Sauce, France",
+      "min": 10,
+      "serv": 4,
+      "img": "img/new4/sau4.jpg",
+      "desc": "Sauce crémeuse et corsée au roquefort, parfaite avec viandes, pommes de terre ou pâtes.",
+      "ing": [
+        "1 échalote",
+        "20 g de beurre",
+        "100 g de roquefort",
+        "20 cl de crème liquide",
+        "Poivre"
+      ],
+      "steps": [
+        "Faire fondre l'échalote ciselée dans le beurre 2 min.",
+        "Ajouter la crème et le roquefort émietté.",
+        "Laisser fondre à feu doux en remuant jusqu'à obtenir une sauce lisse (3 à 5 min). Poivrer ; inutile de saler."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:024",
+      "t": "Sauce Beurre Blanc",
+      "cat": "Sauce, France",
+      "min": 20,
+      "serv": 4,
+      "img": "img/new4/sau5.jpg",
+      "desc": "La sauce nantaise des poissons : échalote réduite au vin blanc montée au beurre froid.",
+      "ing": [
+        "2 échalotes",
+        "10 cl de vin blanc sec (type muscadet)",
+        "5 cl de vinaigre de vin blanc",
+        "2 c. à soupe de crème liquide (facultatif, pour stabiliser)",
+        "200 g de beurre très froid en dés",
+        "Ciboulette ou persil (facultatif)",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Ciseler très finement les échalotes. Les mettre dans une casserole avec le vin blanc et le vinaigre.",
+        "Réduire à feu moyen jusqu'à ce qu'il ne reste presque plus de liquide (environ 2 c. à soupe).",
+        "Ajouter la crème et porter à frémissement.",
+        "À feu très doux, incorporer le beurre froid morceau par morceau en fouettant sans arrêt : la sauce doit devenir onctueuse sans jamais bouillir.",
+        "Saler, poivrer, filtrer si on veut une sauce lisse et parsemer d'herbes. Servir aussitôt avec un poisson."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:025",
+      "t": "Sauce Moutarde à l'Ancienne",
+      "cat": "Sauce, France",
+      "min": 10,
+      "serv": 4,
+      "img": "img/new4/sau7.jpg",
+      "desc": "Sauce crème-moutarde en grains, idéale avec le porc, le poulet ou le lapin.",
+      "ing": [
+        "1 échalote",
+        "20 g de beurre",
+        "5 cl de vin blanc",
+        "2 c. à soupe de moutarde à l'ancienne",
+        "20 cl de crème liquide",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Faire fondre l'échalote ciselée dans le beurre 2 min.",
+        "Déglacer au vin blanc et laisser réduire de moitié.",
+        "Ajouter la crème et la moutarde à l'ancienne, mélanger et laisser épaissir 3 min à feu doux (sans faire bouillir fort).",
+        "Saler, poivrer et servir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:026",
+      "t": "Sauce Bordelaise",
+      "cat": "Sauce, France",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new4/sau8.jpg",
+      "desc": "Sauce au vin rouge et à l'échalote, réduite et nappante, pour les viandes rouges.",
+      "ing": [
+        "3 échalotes",
+        "20 g de beurre (+ 20 g froid pour finir)",
+        "40 cl de vin rouge (bordeaux)",
+        "1 branche de thym",
+        "1 feuille de laurier",
+        "25 cl de fond de veau",
+        "Persil ciselé",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Faire fondre les échalotes ciselées dans 20 g de beurre 3 min.",
+        "Verser le vin rouge, ajouter le thym et le laurier, et réduire des trois quarts à feu moyen.",
+        "Ajouter le fond de veau et laisser réduire encore jusqu'à ce que la sauce nappe la cuillère (10 à 15 min).",
+        "Filtrer si désiré, puis incorporer hors du feu le beurre froid en dés. Saler, poivrer, parsemer de persil."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:027",
+      "t": "Sauce Suprême",
+      "cat": "Sauce, France",
+      "min": 20,
+      "serv": 4,
+      "img": "img/new4/sau9.jpg",
+      "desc": "Velouté de volaille enrichi à la crème, la sauce classique du poulet et des bouchées à la reine.",
+      "ing": [
+        "1 échalote",
+        "30 g de beurre",
+        "30 g de farine",
+        "40 cl de bouillon de volaille",
+        "15 cl de crème fraîche",
+        "1/2 citron (jus, facultatif)",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Faire fondre l'échalote ciselée dans le beurre, ajouter la farine et cuire 1 min en remuant (roux blanc).",
+        "Verser le bouillon chaud en fouettant et laisser épaissir 10 min à feu doux.",
+        "Ajouter la crème et laisser mijoter encore 3 min.",
+        "Ajouter quelques gouttes de citron, saler, poivrer. Servir avec une volaille."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:028",
+      "t": "Sauce Normande",
+      "cat": "Sauce, France",
+      "min": 20,
+      "serv": 4,
+      "img": "img/new4/sau10.jpg",
+      "desc": "Sauce crémeuse aux champignons et au cidre, pour poissons, volailles ou porc.",
+      "ing": [
+        "1 échalote",
+        "20 g de beurre",
+        "150 g de champignons de Paris",
+        "10 cl de cidre brut",
+        "20 cl de crème fraîche",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Faire revenir l'échalote ciselée et les champignons émincés dans le beurre 5 min.",
+        "Déglacer au cidre et laisser réduire de moitié.",
+        "Ajouter la crème et laisser épaissir 5 min à feu doux. Saler, poivrer."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:029",
+      "t": "Sauce au Cidre et aux Échalotes",
+      "cat": "Sauce, France",
+      "min": 20,
+      "serv": 4,
+      "img": "img/new4/sau11.jpg",
+      "desc": "Sauce légère et fruitée, réduite au cidre, avec des échalotes fondantes.",
+      "ing": [
+        "3 échalotes",
+        "20 g de beurre",
+        "25 cl de cidre brut",
+        "15 cl de bouillon de volaille",
+        "1 c. à café de moutarde (facultatif)",
+        "10 cl de crème (facultatif)",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Émincer les échalotes et les faire fondre doucement 5 min dans le beurre.",
+        "Verser le cidre et réduire de moitié.",
+        "Ajouter le bouillon (et la moutarde), puis réduire encore 5 min.",
+        "Ajouter la crème si on la souhaite onctueuse, laisser épaissir 2 min. Saler, poivrer."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sauce:030",
+      "t": "Sauce Crème-Parmesan",
+      "cat": "Sauce, France",
+      "min": 10,
+      "serv": 4,
+      "img": "img/new4/sau12.jpg",
+      "desc": "Sauce crémeuse au parmesan, pour pâtes, poulet ou légumes.",
+      "ing": [
+        "1 échalote (ou 1 gousse d'ail)",
+        "20 g de beurre",
+        "20 cl de crème liquide",
+        "60 g de parmesan râpé",
+        "1 pincée de noix de muscade",
+        "Poivre"
+      ],
+      "steps": [
+        "Faire fondre l'échalote ciselée dans le beurre 2 min.",
+        "Ajouter la crème et porter à frémissement.",
+        "Hors du feu, incorporer le parmesan en remuant jusqu'à ce qu'il fonde. Ajouter la muscade et poivrer (le parmesan sale déjà)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:001",
+      "t": "Briouates Pomme de Terre & Fromage",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri1.jpg",
+      "desc": "Briouates croustillantes à la purée de pomme de terre et fromage fondant.",
+      "ing": [
+        "8 feuilles de brick",
+        "400 g de pommes de terre",
+        "80 g de fromage râpé",
+        "1 c. à soupe de persil ciselé",
+        "1 pincée de cumin",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Cuire les pommes de terre épluchées 20 min à l'eau salée, puis les écraser.",
+        "Mélanger avec le fromage, le persil et le cumin. Saler, poivrer et laisser tiédir.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:002",
+      "t": "Briouates Épinards & Feta",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri2.jpg",
+      "desc": "Briouates aux épinards fondants et à la feta.",
+      "ing": [
+        "8 feuilles de brick",
+        "300 g d'épinards",
+        "150 g de feta",
+        "1 oignon",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Faire revenir l'oignon émincé dans l'huile, ajouter les épinards et les faire tomber 3 min. Bien égoutter et presser.",
+        "Mélanger avec la feta émiettée, poivrer (peu de sel, la feta est salée).",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:003",
+      "t": "Briouates Chèvre & Miel",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri3.jpg",
+      "desc": "Briouates sucré-salé au chèvre frais et au miel.",
+      "ing": [
+        "8 feuilles de brick",
+        "200 g de chèvre frais",
+        "2 c. à soupe de miel (+ pour servir)",
+        "1 c. à café de thym",
+        "30 g de noix concassées (facultatif)",
+        "Poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Écraser le chèvre avec le miel, le thym, les noix et un tour de poivre.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:004",
+      "t": "Briouates Thon & Fromage",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri4.jpg",
+      "desc": "Briouates au thon et fromage, une farce express de placard.",
+      "ing": [
+        "8 feuilles de brick",
+        "2 boîtes de thon (280 g)",
+        "80 g de fromage râpé",
+        "1 œuf",
+        "1 c. à soupe de persil ciselé",
+        "1 pincée de paprika",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Émietter le thon égoutté et le mélanger avec le fromage, l'œuf battu, le persil et le paprika. Saler légèrement, poivrer.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:005",
+      "t": "Briouates Crevettes & Vermicelles",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri5.jpg",
+      "desc": "Briouates aux crevettes et vermicelles de riz, à la marocaine.",
+      "ing": [
+        "8 feuilles de brick",
+        "250 g de crevettes décortiquées",
+        "50 g de vermicelles de riz",
+        "2 gousses d'ail",
+        "1 c. à soupe de coriandre ciselée",
+        "1 c. à café de paprika",
+        "1 c. à café de cumin",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Réhydrater les vermicelles 5 min dans l'eau chaude, les égoutter et les couper aux ciseaux.",
+        "Faire sauter les crevettes en morceaux avec l'ail, le paprika et le cumin 3 min dans l'huile.",
+        "Mélanger avec les vermicelles et la coriandre. Saler, poivrer.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:006",
+      "t": "Briouates Légumes & Mozzarella",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri6.jpg",
+      "desc": "Briouates aux petits légumes poêlés et mozzarella filante.",
+      "ing": [
+        "8 feuilles de brick",
+        "1 courgette",
+        "1 poivron rouge",
+        "1 oignon",
+        "125 g de mozzarella",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Couper les légumes en petits dés et les faire revenir 8 min dans l'huile. Saler, poivrer et laisser refroidir.",
+        "Ajouter la mozzarella coupée en petits dés.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:007",
+      "t": "Briouates Champignons & Fromage",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri7.jpg",
+      "desc": "Briouates aux champignons poêlés et fromage.",
+      "ing": [
+        "8 feuilles de brick",
+        "300 g de champignons de Paris",
+        "1 échalote",
+        "80 g de fromage râpé",
+        "1 c. à soupe de persil ciselé",
+        "15 g de beurre",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Faire revenir l'échalote et les champignons hachés dans le beurre jusqu'à évaporation de l'eau (8 min).",
+        "Hors du feu, ajouter le fromage et le persil. Saler, poivrer.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:008",
+      "t": "Briouates Poireaux & Chèvre",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri8.jpg",
+      "desc": "Briouates à la fondue de poireaux et au chèvre.",
+      "ing": [
+        "8 feuilles de brick",
+        "2 poireaux",
+        "150 g de chèvre",
+        "15 g de beurre",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Émincer les poireaux et les faire fondre 10 min dans le beurre à feu doux. Saler, poivrer, laisser tiédir.",
+        "Ajouter le chèvre émietté.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:009",
+      "t": "Briouates Courgette & Feta",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri9.jpg",
+      "desc": "Briouates fraîches à la courgette râpée, feta et menthe.",
+      "ing": [
+        "8 feuilles de brick",
+        "2 courgettes",
+        "150 g de feta",
+        "1 c. à soupe de menthe ciselée",
+        "1 c. à soupe d'huile d'olive",
+        "Poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Râper les courgettes, les faire revenir 5 min dans l'huile puis bien les presser pour retirer l'eau.",
+        "Mélanger avec la feta émiettée et la menthe. Poivrer.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:010",
+      "t": "Briouates Pomme de Terre & Épinards",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri10.jpg",
+      "desc": "Briouates à la pomme de terre écrasée et aux épinards.",
+      "ing": [
+        "8 feuilles de brick",
+        "300 g de pommes de terre",
+        "200 g d'épinards",
+        "1 gousse d'ail",
+        "1 pincée de cumin",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Cuire les pommes de terre 20 min à l'eau salée et les écraser.",
+        "Faire tomber les épinards avec l'ail haché, bien les presser et les hacher.",
+        "Mélanger le tout avec le cumin, saler, poivrer.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:011",
+      "t": "Briouates Fromage & Olives",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri11.jpg",
+      "desc": "Briouates au fromage fondant et olives noires.",
+      "ing": [
+        "8 feuilles de brick",
+        "150 g de fromage râpé (ou mozzarella)",
+        "100 g de fromage frais",
+        "80 g d'olives noires dénoyautées",
+        "1 c. à café d'origan",
+        "Poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Couper les olives en rondelles et les mélanger avec les fromages et l'origan. Poivrer.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:012",
+      "t": "Briouates Carotte & Fromage",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri12.jpg",
+      "desc": "Briouates aux carottes fondantes, cumin et fromage.",
+      "ing": [
+        "8 feuilles de brick",
+        "3 carottes",
+        "100 g de fromage râpé",
+        "1 c. à café de cumin",
+        "1 c. à soupe de coriandre ciselée",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Râper les carottes et les faire revenir 8 min dans l'huile avec le cumin. Saler, poivrer, laisser tiédir.",
+        "Ajouter le fromage et la coriandre.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:013",
+      "t": "Briouates Poivrons & Mozzarella",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri13.jpg",
+      "desc": "Briouates aux poivrons poêlés et mozzarella.",
+      "ing": [
+        "8 feuilles de brick",
+        "2 poivrons (rouge et vert)",
+        "1 oignon",
+        "125 g de mozzarella",
+        "1 c. à café de paprika",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Faire revenir les poivrons et l'oignon en petits dés 10 min dans l'huile avec le paprika. Saler, poivrer, laisser refroidir.",
+        "Ajouter la mozzarella en petits dés.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:014",
+      "t": "Briouates Œuf & Fromage",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri14.jpg",
+      "desc": "Briouates moelleuses aux œufs brouillés et fromage.",
+      "ing": [
+        "8 feuilles de brick",
+        "4 œufs",
+        "80 g de fromage râpé",
+        "1 c. à soupe de persil ciselé",
+        "15 g de beurre",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Brouiller les œufs dans le beurre à feu doux en les gardant moelleux. Saler, poivrer.",
+        "Hors du feu, ajouter le fromage et le persil.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:015",
+      "t": "Briouates Thon & Pomme de Terre",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri15.jpg",
+      "desc": "Briouates thon-pomme de terre, un grand classique tunisien et marocain.",
+      "ing": [
+        "8 feuilles de brick",
+        "300 g de pommes de terre",
+        "1 boîte de thon (140 g)",
+        "1 œuf",
+        "1 c. à soupe de persil ciselé",
+        "1 c. à café d'harissa (facultatif)",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Cuire les pommes de terre 20 min à l'eau salée et les écraser.",
+        "Mélanger avec le thon émietté, l'œuf battu, le persil et l'harissa. Saler, poivrer.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:016",
+      "t": "Briouates Crevettes & Fromage",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri16.jpg",
+      "desc": "Briouates aux crevettes et fromage fondu.",
+      "ing": [
+        "8 feuilles de brick",
+        "250 g de crevettes décortiquées",
+        "100 g de fromage frais (ou fondu)",
+        "50 g de fromage râpé",
+        "1 gousse d'ail",
+        "1 c. à soupe de persil ciselé",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Faire sauter les crevettes coupées en morceaux avec l'ail haché 3 min.",
+        "Mélanger avec les fromages et le persil. Saler, poivrer.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:017",
+      "t": "Briouates Façon Pizza",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri17.jpg",
+      "desc": "Briouates garnies comme une pizza : tomate, mozzarella, olives et origan.",
+      "ing": [
+        "8 feuilles de brick",
+        "4 c. à soupe de sauce tomate épaisse",
+        "125 g de mozzarella",
+        "50 g d'olives noires",
+        "1 tomate",
+        "1 c. à café d'origan",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Couper la mozzarella, la tomate épépinée et les olives en petits dés.",
+        "Mélanger avec la sauce tomate et l'origan. Saler, poivrer.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:018",
+      "t": "Briouates Patate Douce & Feta",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri18.jpg",
+      "desc": "Briouates à la patate douce rôtie et à la feta.",
+      "ing": [
+        "8 feuilles de brick",
+        "400 g de patate douce",
+        "120 g de feta",
+        "1 c. à café de cumin",
+        "1 c. à soupe de coriandre ciselée",
+        "Sel, poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Cuire la patate douce en dés 15 min à la vapeur ou à l'eau, puis l'écraser grossièrement.",
+        "Mélanger avec le cumin, la feta émiettée et la coriandre. Poivrer.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:019",
+      "t": "Briouates Trois Fromages",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri19.jpg",
+      "desc": "Briouates fondantes aux trois fromages.",
+      "ing": [
+        "8 feuilles de brick",
+        "100 g de mozzarella",
+        "80 g de fromage frais",
+        "50 g de parmesan (ou emmental) râpé",
+        "1 c. à soupe de persil ciselé",
+        "Poivre",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Couper la mozzarella en petits dés et la mélanger avec les autres fromages et le persil. Poivrer.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "briouate:020",
+      "t": "Briouates Légumes & Chermoula",
+      "cat": "Maghreb, Apéritif, Samoussa, Briouate, Végétarien",
+      "min": 40,
+      "serv": "16 pièces",
+      "img": "img/new4/bri20.jpg",
+      "desc": "Briouates aux légumes relevés à la chermoula (ail, coriandre, cumin, paprika, citron).",
+      "ing": [
+        "8 feuilles de brick",
+        "1 courgette",
+        "1 poivron",
+        "1 carotte",
+        "1 oignon",
+        "2 gousses d'ail",
+        "1 bouquet de coriandre",
+        "1 c. à café de cumin",
+        "1 c. à café de paprika",
+        "1/2 citron (jus)",
+        "3 c. à soupe d'huile d'olive",
+        "Sel",
+        "40 g de beurre fondu (ou huile pour la friture)"
+      ],
+      "steps": [
+        "Chermoula : mixer l'ail, la coriandre, le cumin, le paprika, le jus de citron, 2 c. à soupe d'huile et une pincée de sel.",
+        "Faire revenir les légumes en petits dés 10 min dans le reste d'huile.",
+        "Mélanger avec la chermoula et laisser refroidir.",
+        "Couper les feuilles de brick en deux. Replier chaque demi-feuille dans la longueur pour obtenir une bande.",
+        "Déposer une cuillerée de farce à une extrémité et plier en triangle successivement jusqu'au bout de la bande. Coller l'extrémité avec un peu de beurre fondu.",
+        "Badigeonner de beurre fondu et cuire 12 à 15 min au four à 200 °C (ou 10 min à l'Airfryer à 180 °C, ou frire 2 min de chaque côté dans l'huile chaude) jusqu'à ce qu'elles soient dorées et croustillantes.",
+        "Égoutter sur du papier absorbant et servir chaud ou tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "potee:001",
+      "t": "Potée Auvergnate",
+      "cat": "Plat, France, Viande, Porc, Potée",
+      "min": 180,
+      "serv": 6,
+      "img": "img/new4/pot1.jpg",
+      "desc": "La potée traditionnelle d'Auvergne : palette demi-sel, saucisses, chou et légumes mijotés.",
+      "ing": [
+        "1 kg de palette de porc demi-sel",
+        "4 saucisses de Toulouse",
+        "1 chou vert",
+        "6 pommes de terre",
+        "4 carottes",
+        "2 navets",
+        "1 oignon piqué de clous de girofle",
+        "1 bouquet garni",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Faire dessaler la palette 2 h dans l'eau froide (ou la blanchir 10 min départ eau froide), puis l'égoutter.",
+        "Mettre la palette dans un grand faitout avec l'oignon piqué et le bouquet garni, couvrir d'eau froide, porter à frémissement et écumer. Cuire 1 h à feu doux.",
+        "Éplucher les carottes, les navets et les pommes de terre. Couper le chou en quartiers et le blanchir 5 min à l'eau bouillante, puis l'égoutter.",
+        "Ajouter le chou, les carottes et les navets, poursuivre 45 min.",
+        "Ajouter les pommes de terre et les saucisses piquées, cuire encore 30 min. Poivrer et rectifier le sel.",
+        "Servir la viande tranchée entourée des légumes, avec de la moutarde."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "potee:002",
+      "t": "Potée Champenoise",
+      "cat": "Plat, France, Viande, Porc, Potée",
+      "min": 180,
+      "serv": 6,
+      "img": "img/new4/pot2.jpg",
+      "desc": "Potée de Champagne au jambonneau demi-sel, saucisses de Troyes et légumes.",
+      "ing": [
+        "1 jambonneau de porc demi-sel",
+        "4 saucisses de Troyes (ou fumées)",
+        "1 chou vert",
+        "6 pommes de terre",
+        "4 carottes",
+        "2 poireaux",
+        "1 oignon piqué de clous de girofle",
+        "1 bouquet garni",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Dessaler le jambonneau 2 h dans l'eau froide, puis le placer dans un faitout avec l'oignon piqué et le bouquet garni. Couvrir d'eau froide, porter à frémissement, écumer et cuire 1 h 15.",
+        "Éplucher les carottes et les pommes de terre, nettoyer les poireaux et les couper en tronçons. Couper le chou en quartiers et le blanchir 5 min.",
+        "Ajouter le chou, les carottes et les poireaux, cuire 45 min.",
+        "Ajouter les pommes de terre et les saucisses, cuire encore 30 min. Poivrer, goûter avant de saler.",
+        "Servir bien chaud avec de la moutarde."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "potee:003",
+      "t": "Potée Lorraine",
+      "cat": "Plat, France, Viande, Porc, Potée",
+      "min": 150,
+      "serv": 6,
+      "img": "img/new4/pot3.jpg",
+      "desc": "Potée de Lorraine au lard demi-sel et saucisses fumées.",
+      "ing": [
+        "500 g de lard demi-sel",
+        "4 saucisses fumées",
+        "1 chou vert",
+        "6 pommes de terre",
+        "4 carottes",
+        "2 navets",
+        "1 oignon",
+        "1 bouquet garni",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Blanchir le lard 10 min départ eau froide, puis l'égoutter.",
+        "Le remettre dans un faitout avec l'oignon et le bouquet garni, couvrir d'eau froide, porter à frémissement et cuire 45 min.",
+        "Éplucher les carottes, les navets et les pommes de terre. Couper le chou en quartiers et le blanchir 5 min à l'eau bouillante, puis l'égoutter.",
+        "Ajouter le chou, les carottes et les navets, cuire 40 min.",
+        "Ajouter les pommes de terre et les saucisses fumées, cuire encore 30 min. Poivrer et rectifier le sel.",
+        "Servir le lard tranché avec les saucisses et les légumes."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "potee:004",
+      "t": "Potée au Canard Confit",
+      "cat": "Plat, France, Viande, Canard, Potée",
+      "min": 90,
+      "serv": 6,
+      "img": "img/new4/pot4.jpg",
+      "desc": "Potée gourmande du Sud-Ouest aux cuisses de canard confites.",
+      "ing": [
+        "4 cuisses de canard confit",
+        "1 chou vert",
+        "6 pommes de terre",
+        "4 carottes",
+        "2 navets",
+        "1 oignon piqué de clous de girofle",
+        "1 bouquet garni",
+        "75 cl de bouillon de volaille",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Éplucher les légumes. Couper le chou en quartiers et le blanchir 5 min à l'eau bouillante.",
+        "Dans une cocotte, faire revenir légèrement le chou dans 2 c. à soupe de graisse de canard.",
+        "Ajouter les carottes, les navets, l'oignon piqué, le bouquet garni et le bouillon. Couvrir et cuire 30 min à feu doux.",
+        "Ajouter les pommes de terre et cuire 20 min.",
+        "Déposer les cuisses de canard confites sur les légumes, couvrir et réchauffer 15 min (ou les dorer 10 min au four à 220 °C côté peau). Poivrer, rectifier le sel et servir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "potee:005",
+      "t": "Potée Express à la Mijoteuse",
+      "cat": "Plat, France, Viande, Porc, Potée",
+      "min": 360,
+      "serv": 6,
+      "img": "img/new4/pot5.jpg",
+      "desc": "Potée sans surveillance : tout cuit doucement à la mijoteuse.",
+      "ing": [
+        "500 g de poitrine de porc demi-sel",
+        "4 saucisses fumées",
+        "1 chou vert",
+        "6 pommes de terre",
+        "4 carottes",
+        "1 oignon",
+        "1 bouquet garni",
+        "1 litre de bouillon de volaille",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Blanchir la poitrine 10 min départ eau froide et l'égoutter.",
+        "Éplucher les légumes, couper les pommes de terre et les carottes en gros morceaux et le chou en quartiers.",
+        "Dans la mijoteuse, disposer les pommes de terre, les carottes et l'oignon, puis le chou, la poitrine et le bouquet garni.",
+        "Verser le bouillon, poivrer et cuire 6 h en position basse (ou 4 h en position haute).",
+        "Ajouter les saucisses fumées 1 h avant la fin. Rectifier l'assaisonnement et servir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "filetmignon:001",
+      "t": "Filet Mignon Miel et Romarin",
+      "cat": "Plat, Viande, Porc, Filet mignon",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new4/fm1.jpg",
+      "desc": "Filet mignon rôti, laqué au miel et parfumé au romarin.",
+      "ing": [
+        "1 filet mignon de porc (600 g)",
+        "3 c. à soupe de miel",
+        "1 branche de romarin",
+        "1 c. à soupe d'huile d'olive",
+        "1 gousse d'ail",
+        "10 cl d'eau ou de bouillon",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180 °C.",
+        "Saler et poivrer le filet mignon, puis le dorer sur toutes ses faces 5 min dans une cocotte avec un filet d'huile et une noix de beurre.",
+        "Badigeonner le filet de miel, ajouter le romarin et la gousse d'ail écrasée.",
+        "Enfourner 25 min en arrosant régulièrement avec le jus (ajouter l'eau au fond du plat si le miel caramélise trop).",
+        "Laisser reposer 5 min sous aluminium. Trancher le filet en médaillons et servir nappé de sauce."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "filetmignon:002",
+      "t": "Filet Mignon aux Champignons",
+      "cat": "Plat, Viande, Porc, Filet mignon",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new4/fm2.jpg",
+      "desc": "Filet mignon mijoté dans une sauce crémeuse aux champignons de Paris.",
+      "ing": [
+        "1 filet mignon de porc (600 g)",
+        "300 g de champignons de Paris",
+        "1 oignon",
+        "20 cl de crème fraîche",
+        "10 cl de vin blanc (ou bouillon)",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Saler et poivrer le filet mignon, puis le dorer sur toutes ses faces 5 min dans une cocotte avec un filet d'huile et une noix de beurre. Réserver.",
+        "Dans la même cocotte, faire revenir l'oignon émincé et les champignons en lamelles 5 min.",
+        "Déglacer au vin blanc, remettre le filet, couvrir et cuire 15 min à feu doux.",
+        "Ajouter la crème et laisser mijoter encore 5 min. Rectifier l'assaisonnement.",
+        "Trancher le filet en médaillons et servir nappé de sauce."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "filetmignon:003",
+      "t": "Filet Mignon au Maroilles",
+      "cat": "Plat, Viande, Porc, Filet mignon",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/fm3.jpg",
+      "desc": "Filet mignon nappé d'une sauce fondante au maroilles, spécialité du Nord.",
+      "ing": [
+        "1 filet mignon de porc (600 g)",
+        "150 g de maroilles",
+        "20 cl de crème fraîche",
+        "1 échalote",
+        "Poivre"
+      ],
+      "steps": [
+        "Saler et poivrer le filet mignon, puis le dorer sur toutes ses faces 5 min dans une cocotte avec un filet d'huile et une noix de beurre.",
+        "Ajouter l'échalote ciselée, couvrir et cuire 15 min à feu doux en retournant à mi-cuisson.",
+        "Ajouter la crème et le maroilles coupé en morceaux (avec ou sans croûte), laisser fondre 5 min en remuant.",
+        "Poivrer (le maroilles est déjà salé). Trancher le filet en médaillons et servir nappé de sauce. Idéal avec des pommes de terre."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "filetmignon:004",
+      "t": "Filet Mignon aux Pruneaux",
+      "cat": "Plat, Viande, Porc, Filet mignon",
+      "min": 45,
+      "serv": 4,
+      "img": "img/new4/fm4.jpg",
+      "desc": "Filet mignon braisé aux pruneaux, sauce sucrée-salée.",
+      "ing": [
+        "1 filet mignon de porc (600 g)",
+        "15 pruneaux dénoyautés",
+        "1 oignon",
+        "15 cl de vin blanc ou de bouillon",
+        "10 cl de crème (facultatif)",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Saler et poivrer le filet mignon, puis le dorer sur toutes ses faces 5 min dans une cocotte avec un filet d'huile et une noix de beurre.",
+        "Ajouter l'oignon émincé et le faire fondre 3 min.",
+        "Verser le vin blanc, ajouter les pruneaux, couvrir et laisser mijoter 25 min à feu doux.",
+        "Ajouter la crème si désiré et laisser réduire 3 min.",
+        "Trancher le filet en médaillons et servir nappé de sauce."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "filetmignon:005",
+      "t": "Filet Mignon à la Crème de Chorizo",
+      "cat": "Plat, Viande, Porc, Filet mignon",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/fm5.jpg",
+      "desc": "Filet mignon dans une sauce crémeuse et relevée au chorizo doux.",
+      "ing": [
+        "1 filet mignon de porc (600 g)",
+        "100 g de chorizo doux",
+        "1 oignon",
+        "20 cl de crème fraîche",
+        "Poivre"
+      ],
+      "steps": [
+        "Saler et poivrer le filet mignon, puis le dorer sur toutes ses faces 5 min dans une cocotte avec un filet d'huile et une noix de beurre. Réserver.",
+        "Dans la cocotte, faire revenir l'oignon émincé et le chorizo en dés 3 min.",
+        "Remettre le filet, couvrir et cuire 15 min à feu doux.",
+        "Ajouter la crème, laisser mijoter 5 min et poivrer (le chorizo sale déjà).",
+        "Trancher le filet en médaillons et servir nappé de sauce."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "veloute:001",
+      "t": "Velouté de Potimarron",
+      "cat": "Soupe, Entrée, Velouté",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new4/vel1.jpg",
+      "desc": "Velouté doux et orangé au potimarron (pas besoin de l'éplucher).",
+      "ing": [
+        "1 potimarron (environ 1 kg)",
+        "2 pommes de terre",
+        "1 oignon",
+        "1 l de bouillon de légumes",
+        "10 cl de crème (facultatif)",
+        "1 filet d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Laver le potimarron, l'épépiner et le couper en cubes avec la peau. Éplucher et couper les pommes de terre et l'oignon.",
+        "Faire revenir l'oignon 3 min dans l'huile, ajouter le potimarron et les pommes de terre.",
+        "Couvrir de bouillon et cuire 25 min à frémissement.",
+        "Mixer finement, ajouter un peu de bouillon si le velouté est trop épais, saler, poivrer et ajouter la crème et servir bien chaud."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "veloute:002",
+      "t": "Velouté de Champignons",
+      "cat": "Soupe, Entrée, Velouté",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/vel2.jpg",
+      "desc": "Velouté crémeux et parfumé aux champignons de Paris.",
+      "ing": [
+        "500 g de champignons de Paris",
+        "1 oignon",
+        "1 gousse d'ail",
+        "75 cl de bouillon de volaille ou de légumes",
+        "15 cl de crème",
+        "20 g de beurre",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Émincer l'oignon, l'ail et les champignons (en garder quelques lamelles pour le décor).",
+        "Faire revenir l'oignon et l'ail dans le beurre, ajouter les champignons et cuire 5 min.",
+        "Verser le bouillon et cuire 20 min.",
+        "Ajouter la crème et mixer finement, ajouter un peu de bouillon si le velouté est trop épais, saler, poivrer et servir parsemé de persil et des lamelles poêlées bien chaud."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "veloute:003",
+      "t": "Velouté de Courgettes au Boursin",
+      "cat": "Soupe, Entrée, Velouté",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/vel3.jpg",
+      "desc": "Le célèbre velouté onctueux de courgettes au fromage ail et fines herbes.",
+      "ing": [
+        "1 kg de courgettes",
+        "1 oignon",
+        "1 pot de fromage ail et fines herbes (type Boursin, 150 g)",
+        "75 cl de bouillon de légumes",
+        "1 filet d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Laver les courgettes et les couper en rondelles sans les éplucher. Émincer l'oignon.",
+        "Faire revenir l'oignon dans l'huile, ajouter les courgettes et cuire 5 min.",
+        "Couvrir avec le bouillon (juste à hauteur) et cuire 20 min.",
+        "Ajouter le fromage et mixer finement. Saler, poivrer et servir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "veloute:004",
+      "t": "Velouté de Carottes au Cumin",
+      "cat": "Soupe, Entrée, Velouté",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new4/vel4.jpg",
+      "desc": "Velouté de carottes doux, relevé d'une pointe de cumin.",
+      "ing": [
+        "800 g de carottes",
+        "1 oignon",
+        "1 pomme de terre",
+        "1 c. à café de cumin",
+        "1 l de bouillon de légumes",
+        "1 filet d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Éplucher et couper les carottes en rondelles, la pomme de terre en cubes, émincer l'oignon.",
+        "Faire revenir l'oignon dans l'huile avec le cumin 2 min.",
+        "Ajouter les légumes, couvrir de bouillon et cuire 25 min.",
+        "Mixer finement, ajouter un peu de bouillon si le velouté est trop épais, saler, poivrer et servir bien chaud."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "veloute:005",
+      "t": "Velouté de Chou-fleur",
+      "cat": "Soupe, Entrée, Velouté",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new4/vel5.jpg",
+      "desc": "Velouté blanc et soyeux au chou-fleur et au poireau.",
+      "ing": [
+        "1 chou-fleur",
+        "2 pommes de terre",
+        "1 blanc de poireau",
+        "1 l de bouillon de légumes",
+        "10 cl de crème",
+        "20 g de beurre",
+        "1 pincée de noix de muscade",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Détailler le chou-fleur en bouquets, éplucher et couper les pommes de terre, émincer le poireau.",
+        "Faire fondre le poireau dans le beurre 3 min, ajouter le chou-fleur et les pommes de terre.",
+        "Couvrir de bouillon et cuire 25 min.",
+        "Ajouter la crème et la muscade, puis mixer finement, ajouter un peu de bouillon si le velouté est trop épais, saler, poivrer et servir bien chaud."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "veloute:006",
+      "t": "Velouté Carotte-Coco",
+      "cat": "Soupe, Entrée, Velouté",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new4/vel6.jpg",
+      "desc": "Velouté de carottes au lait de coco, doux et exotique.",
+      "ing": [
+        "800 g de carottes",
+        "1 oignon",
+        "750 ml de bouillon",
+        "20 cl de lait de coco",
+        "1 c. à café de curry ou de gingembre (facultatif)",
+        "1 filet d'huile",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Éplucher et couper les carottes en rondelles, émincer l'oignon.",
+        "Faire revenir l'oignon dans l'huile (avec le curry), ajouter les carottes.",
+        "Couvrir avec le bouillon et cuire 25 min.",
+        "Ajouter le lait de coco (en garder un peu pour le décor) et mixer finement, ajouter un peu de bouillon si le velouté est trop épais, saler, poivrer et servir bien chaud."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "veloute:007",
+      "t": "Velouté Poireaux-Pommes de Terre",
+      "cat": "Soupe, Entrée, Velouté",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new4/vel7.jpg",
+      "desc": "Le grand classique familial, simple et réconfortant.",
+      "ing": [
+        "4 poireaux",
+        "500 g de pommes de terre",
+        "1 l de bouillon",
+        "20 g de beurre",
+        "10 cl de crème (facultatif)",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Nettoyer les poireaux et les émincer. Éplucher les pommes de terre et les couper en cubes.",
+        "Faire fondre les poireaux dans le beurre 5 min.",
+        "Ajouter les pommes de terre et le bouillon, cuire 25 min.",
+        "Mixer finement, ajouter un peu de bouillon si le velouté est trop épais, saler, poivrer et ajouter la crème et servir bien chaud."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "veloute:008",
+      "t": "Velouté de Butternut et Châtaignes",
+      "cat": "Soupe, Entrée, Velouté",
+      "min": 40,
+      "serv": 4,
+      "img": "img/new4/vel8.jpg",
+      "desc": "Velouté d'automne à la courge butternut et aux châtaignes.",
+      "ing": [
+        "1 courge butternut",
+        "200 g de châtaignes cuites",
+        "1 oignon",
+        "1 l de bouillon de légumes",
+        "10 cl de crème",
+        "1 filet d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Éplucher la butternut, l'épépiner et la couper en cubes. Émincer l'oignon.",
+        "Faire revenir l'oignon dans l'huile, ajouter la courge et les châtaignes (en garder quelques-unes pour le décor).",
+        "Couvrir de bouillon et cuire 25 min.",
+        "Ajouter la crème, mixer finement, saler, poivrer et servir avec les châtaignes réservées émiettées."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "veloute:009",
+      "t": "Velouté de Patate Douce au Gingembre",
+      "cat": "Soupe, Entrée, Velouté",
+      "min": 35,
+      "serv": 4,
+      "img": "img/new4/vel9.jpg",
+      "desc": "Velouté doux et réchauffant à la patate douce et au gingembre frais.",
+      "ing": [
+        "700 g de patates douces",
+        "1 oignon",
+        "1 morceau de gingembre frais (2 cm)",
+        "1 l de bouillon de légumes",
+        "10 cl de lait de coco ou de crème (facultatif)",
+        "1 filet d'huile",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Éplucher les patates douces et les couper en cubes. Émincer l'oignon et râper le gingembre.",
+        "Faire revenir l'oignon et le gingembre 2 min dans l'huile.",
+        "Ajouter les patates douces, couvrir de bouillon et cuire 20 min.",
+        "Mixer finement, ajouter un peu de bouillon si le velouté est trop épais, saler, poivrer et ajouter le lait de coco et servir bien chaud."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "veloute:010",
+      "t": "Velouté de Petits Pois à la Menthe",
+      "cat": "Soupe, Entrée, Velouté",
+      "min": 30,
+      "serv": 4,
+      "img": "img/new4/vel10.jpg",
+      "desc": "Velouté vert et frais aux petits pois et à la menthe, à servir chaud ou froid.",
+      "ing": [
+        "600 g de petits pois (frais ou surgelés)",
+        "1 pomme de terre",
+        "1 oignon",
+        "75 cl de bouillon de légumes",
+        "Quelques feuilles de menthe",
+        "10 cl de crème (facultatif)",
+        "20 g de beurre",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Émincer l'oignon et couper la pomme de terre en petits cubes.",
+        "Faire fondre l'oignon dans le beurre, ajouter la pomme de terre et le bouillon, cuire 15 min.",
+        "Ajouter les petits pois et cuire 8 min (pour garder leur couleur).",
+        "Ajouter la menthe et la crème, puis mixer finement, ajouter un peu de bouillon si le velouté est trop épais, saler, poivrer et servir chaud ou bien frais."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:001",
+      "t": "Blinis Classiques",
+      "cat": "Apéritif, Bouchée, Blinis, Pâte maison",
+      "min": 30,
+      "serv": "30 blinis",
+      "img": "img/new4/bli1.jpg",
+      "desc": "Blinis moelleux maison à garnir pour l'apéritif.",
+      "ing": [
+        "125 g de farine",
+        "1 œuf",
+        "15 cl de lait",
+        "1/2 sachet de levure chimique",
+        "1 pincée de sel",
+        "10 g de beurre fondu (+ pour la poêle)"
+      ],
+      "steps": [
+        "Mélanger la farine, la levure et le sel. Creuser un puits.",
+        "Ajouter le jaune d'œuf et le lait progressivement en fouettant jusqu'à obtenir une pâte lisse et épaisse. Ajouter le beurre fondu.",
+        "Monter le blanc en neige et l'incorporer délicatement. Laisser reposer 15 min.",
+        "Faire chauffer une poêle beurrée à feu moyen. Déposer des petites cuillerées de pâte (4-5 cm de diamètre).",
+        "Cuire 1 à 2 min jusqu'à ce que des bulles apparaissent, retourner et cuire 1 min de plus.",
+        "Laisser refroidir sur une grille avant de garnir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:002",
+      "t": "Blinis au Yaourt",
+      "cat": "Apéritif, Bouchée, Blinis, Pâte maison",
+      "min": 25,
+      "serv": "25 blinis",
+      "img": "img/new4/bli2.jpg",
+      "desc": "Blinis express et très moelleux au yaourt, sans repos.",
+      "ing": [
+        "1 yaourt nature",
+        "1 pot de yaourt de farine",
+        "1 œuf",
+        "1 c. à café de levure chimique",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Mélanger le yaourt et l'œuf au fouet.",
+        "Ajouter la farine, la levure et le sel, mélanger jusqu'à obtenir une pâte lisse.",
+        "Faire chauffer une poêle légèrement huilée. Déposer des petites cuillerées de pâte.",
+        "Cuire 1 à 2 min par face jusqu'à ce qu'ils soient dorés. Laisser refroidir avant de garnir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:003",
+      "t": "Blinis Saumon & Crème Citronnée",
+      "cat": "Apéritif, Bouchée, Blinis",
+      "min": 15,
+      "serv": "12 blinis",
+      "img": "img/new4/bli3.jpg",
+      "desc": "Blinis au saumon fumé et crème fraîche citronnée à l'aneth.",
+      "ing": [
+        "12 blinis",
+        "150 g de saumon fumé",
+        "100 g de crème fraîche épaisse",
+        "1/2 citron (zeste et jus)",
+        "Aneth",
+        "Poivre"
+      ],
+      "steps": [
+        "Préparer ou acheter des blinis (voir Blinis Classiques ou Blinis au Yaourt) et les laisser refroidir (ou les tiédir 1 min au grille-pain).",
+        "Mélanger la crème avec le zeste, un filet de jus de citron et un peu d'aneth ciselé. Poivrer.",
+        "Napper chaque blini de crème, déposer une lamelle de saumon fumé et décorer d'aneth."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:004",
+      "t": "Blinis Crevettes & Avocat",
+      "cat": "Apéritif, Bouchée, Blinis",
+      "min": 15,
+      "serv": "12 blinis",
+      "img": "img/new4/bli4.jpg",
+      "desc": "Blinis à l'avocat écrasé citronné et aux crevettes.",
+      "ing": [
+        "12 blinis",
+        "12 crevettes cuites décortiquées",
+        "1 avocat",
+        "1/2 citron vert (jus)",
+        "1 pincée de piment d'Espelette",
+        "Sel"
+      ],
+      "steps": [
+        "Préparer ou acheter des blinis (voir Blinis Classiques ou Blinis au Yaourt) et les laisser refroidir (ou les tiédir 1 min au grille-pain).",
+        "Écraser l'avocat avec le jus de citron, saler.",
+        "Tartiner les blinis d'avocat, déposer une crevette et saupoudrer de piment."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:005",
+      "t": "Blinis Chèvre, Miel & Noix",
+      "cat": "Apéritif, Bouchée, Blinis, Végétarien",
+      "min": 15,
+      "serv": "12 blinis",
+      "img": "img/new4/bli5.jpg",
+      "desc": "Blinis sucré-salé au chèvre frais, miel et noix.",
+      "ing": [
+        "12 blinis",
+        "100 g de chèvre frais",
+        "2 c. à soupe de miel",
+        "12 cerneaux de noix",
+        "Thym"
+      ],
+      "steps": [
+        "Préparer ou acheter des blinis (voir Blinis Classiques ou Blinis au Yaourt) et les laisser refroidir (ou les tiédir 1 min au grille-pain).",
+        "Tartiner les blinis de chèvre frais.",
+        "Déposer un cerneau de noix, arroser d'un filet de miel et parsemer de thym."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:006",
+      "t": "Blinis Thon & Fromage Frais",
+      "cat": "Apéritif, Bouchée, Blinis",
+      "min": 15,
+      "serv": "12 blinis",
+      "img": "img/new4/bli6.jpg",
+      "desc": "Blinis à la rillette express de thon et fromage frais.",
+      "ing": [
+        "12 blinis",
+        "1 boîte de thon (140 g)",
+        "100 g de fromage frais",
+        "1 c. à soupe de ciboulette ciselée",
+        "1/2 citron (jus)",
+        "Poivre"
+      ],
+      "steps": [
+        "Préparer ou acheter des blinis (voir Blinis Classiques ou Blinis au Yaourt) et les laisser refroidir (ou les tiédir 1 min au grille-pain).",
+        "Écraser le thon égoutté avec le fromage frais, le jus de citron et la ciboulette. Poivrer.",
+        "Garnir les blinis d'une cuillerée de rillette et décorer de ciboulette."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:007",
+      "t": "Blinis Poulet & Crème Curry",
+      "cat": "Apéritif, Bouchée, Blinis",
+      "min": 15,
+      "serv": "12 blinis",
+      "img": "img/new4/bli7.jpg",
+      "desc": "Blinis au poulet émincé dans une crème au curry.",
+      "ing": [
+        "12 blinis",
+        "150 g de poulet cuit",
+        "3 c. à soupe de crème fraîche épaisse (ou mayonnaise)",
+        "1 c. à café de curry",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préparer ou acheter des blinis (voir Blinis Classiques ou Blinis au Yaourt) et les laisser refroidir (ou les tiédir 1 min au grille-pain).",
+        "Couper le poulet en tout petits dés et le mélanger avec la crème et le curry. Saler, poivrer.",
+        "Garnir les blinis et parsemer de ciboulette ciselée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:008",
+      "t": "Blinis Champignons & Parmesan",
+      "cat": "Apéritif, Bouchée, Blinis, Végétarien",
+      "min": 15,
+      "serv": "12 blinis",
+      "img": "img/new4/bli8.jpg",
+      "desc": "Blinis aux champignons poêlés et copeaux de parmesan.",
+      "ing": [
+        "12 blinis",
+        "200 g de champignons",
+        "1 gousse d'ail",
+        "15 g de beurre",
+        "30 g de parmesan en copeaux",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préparer ou acheter des blinis (voir Blinis Classiques ou Blinis au Yaourt) et les laisser refroidir (ou les tiédir 1 min au grille-pain).",
+        "Émincer les champignons et les faire sauter 5 min au beurre avec l'ail haché. Saler, poivrer.",
+        "Garnir les blinis de champignons tièdes, ajouter des copeaux de parmesan et du persil."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:009",
+      "t": "Blinis Tomate, Mozzarella & Pesto",
+      "cat": "Apéritif, Bouchée, Blinis, Végétarien",
+      "min": 15,
+      "serv": "12 blinis",
+      "img": "img/new4/bli9.jpg",
+      "desc": "Blinis façon caprese : pesto, tomate cerise et mozzarella.",
+      "ing": [
+        "12 blinis",
+        "6 tomates cerises",
+        "12 billes de mozzarella",
+        "2 c. à soupe de pesto",
+        "Basilic",
+        "Poivre"
+      ],
+      "steps": [
+        "Préparer ou acheter des blinis (voir Blinis Classiques ou Blinis au Yaourt) et les laisser refroidir (ou les tiédir 1 min au grille-pain).",
+        "Tartiner les blinis de pesto.",
+        "Déposer une demi-tomate cerise et une bille de mozzarella, décorer d'une feuille de basilic et poivrer."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:010",
+      "t": "Blinis Fromage Frais & Concombre",
+      "cat": "Apéritif, Bouchée, Blinis, Végétarien",
+      "min": 15,
+      "serv": "12 blinis",
+      "img": "img/new4/bli10.jpg",
+      "desc": "Blinis frais au fromage frais aux herbes et rondelles de concombre.",
+      "ing": [
+        "12 blinis",
+        "100 g de fromage frais",
+        "1/2 concombre",
+        "Aneth ou ciboulette",
+        "Poivre"
+      ],
+      "steps": [
+        "Préparer ou acheter des blinis (voir Blinis Classiques ou Blinis au Yaourt) et les laisser refroidir (ou les tiédir 1 min au grille-pain).",
+        "Mélanger le fromage frais avec les herbes ciselées. Poivrer.",
+        "Tartiner les blinis et déposer de fines rondelles de concombre."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:011",
+      "t": "Blinis Œufs Mimosa",
+      "cat": "Apéritif, Bouchée, Blinis, Végétarien",
+      "min": 15,
+      "serv": "12 blinis",
+      "img": "img/new4/bli11.jpg",
+      "desc": "Blinis garnis d'une farce d'œufs durs à la mayonnaise.",
+      "ing": [
+        "12 blinis",
+        "3 œufs",
+        "2 c. à soupe de mayonnaise",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préparer ou acheter des blinis (voir Blinis Classiques ou Blinis au Yaourt) et les laisser refroidir (ou les tiédir 1 min au grille-pain).",
+        "Cuire les œufs 10 min à l'eau bouillante, les refroidir et les écaler.",
+        "Hacher les blancs, émietter les jaunes et mélanger avec la mayonnaise. Saler, poivrer.",
+        "Garnir les blinis et parsemer de jaune émietté et de ciboulette."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "blinis:012",
+      "t": "Blinis Feta & Poivron",
+      "cat": "Apéritif, Bouchée, Blinis, Végétarien",
+      "min": 15,
+      "serv": "12 blinis",
+      "img": "img/new4/bli12.jpg",
+      "desc": "Blinis aux poivrons grillés et dés de feta.",
+      "ing": [
+        "12 blinis",
+        "1 poivron rouge grillé (ou en bocal)",
+        "80 g de feta",
+        "1 c. à soupe d'huile d'olive",
+        "Origan"
+      ],
+      "steps": [
+        "Préparer ou acheter des blinis (voir Blinis Classiques ou Blinis au Yaourt) et les laisser refroidir (ou les tiédir 1 min au grille-pain).",
+        "Couper le poivron en lanières et la feta en petits dés.",
+        "Garnir les blinis de poivron, ajouter la feta, un filet d'huile et une pincée d'origan."
+      ],
+      "url": "",
+      "vid": ""
     }
   ],
   "official": {
