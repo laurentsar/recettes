@@ -1349,7 +1349,8 @@
     },
     {
       "id": "dropbox:b4265baf-7628-4337-acfc-7bcac9ae4b3e",
-      "img": "img/illus/dropbox-b4265baf-7628-4337-acfc-7bcac9ae4b3e.jpg"
+      "img": "img/illus/dropbox-b4265baf-7628-4337-acfc-7bcac9ae4b3e.jpg",
+      "cat": "Apéritif"
     },
     {
       "id": "dropbox:a501b658-095b-43dd-ae6b-6549c5ab79e4",
@@ -1944,7 +1945,8 @@
     },
     {
       "id": "dropbox:ee807b8b-93aa-44c6-ba9b-7c483a99e8e9",
-      "img": "img/illus/dropbox-ee807b8b-93aa-44c6-ba9b-7c483a99e8e9.jpg"
+      "img": "img/illus/dropbox-ee807b8b-93aa-44c6-ba9b-7c483a99e8e9.jpg",
+      "cat": "Apéritif, Airfryer, Carotte, Légumes"
     },
     {
       "id": "dropbox:-926026483",
@@ -2387,7 +2389,7 @@
     },
     {
       "id": "dropbox:9f76942f-eca9-403f-967c-e64ae5e1161b",
-      "cat": "Airfryer, Plat",
+      "cat": "Apéritif, Accompagnement, Airfryer, Courgette, Légumes",
       "af": "https://www.moulinex.fr/recette/detail/PRO/beignets-de-courgette/2889131"
     },
     {
@@ -2442,7 +2444,7 @@
     },
     {
       "id": "dropbox:d2ca6bb4-950d-44d1-ab21-611a4e2bc371",
-      "cat": "Airfryer, Plat"
+      "cat": "Apéritif, Airfryer"
     },
     {
       "id": "dropbox:9d51417b-4b45-40d9-80f7-fda19e11d1d3",
@@ -2515,7 +2517,8 @@
     },
     {
       "id": "dropbox:99cbaae6-413b-44f2-a30c-a18d9cbc5d2a",
-      "af": "https://www.moulinex.fr/recette/detail/PRO/chips-de-courgettes-panees/2767281"
+      "af": "https://www.moulinex.fr/recette/detail/PRO/chips-de-courgettes-panees/2767281",
+      "cat": "Apéritif, Courgette, Légumes"
     },
     {
       "id": "dropbox:3ccc4864-cd86-4afc-b665-efdc8ede033b",
@@ -2577,6 +2580,18 @@
         "Laisser tiédir et servir avec un peu de sauce à pizza pour tremper.",
         "Pour réchauffer : 1 à 2 minutes à 180 °C dans l'Air Fryer."
       ]
+    },
+    {
+      "id": "dropbox:a3e895dd-0b88-4787-a23b-566b0934006e",
+      "cat": "Apéritif, Airfryer"
+    },
+    {
+      "id": "dropbox:7e958a35-9390-4655-8bef-d2218759db65",
+      "cat": "Boulangerie, Pain"
+    },
+    {
+      "id": "dropbox:204845536",
+      "cat": "Entrée, Cake salé, Courgette, Légumes"
     }
   ],
   "recipes": [
@@ -15889,7 +15904,7 @@
     {
       "id": "oeuf:010",
       "t": "Mini Muffins aux Oeufs",
-      "cat": "Préparation Oeuf, Plat",
+      "cat": "Préparation Oeuf, Apéritif",
       "desc": "Mini muffins salés aux oeufs et légumes, idéaux pour un brunch ou pique-nique",
       "min": 30,
       "serv": 6,
