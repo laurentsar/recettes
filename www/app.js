@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '3.89';
+const APP_VERSION = '3.90';
 
 let ALL = [];
 let BASE = [];
@@ -2005,6 +2005,7 @@ const SUB_TAB_LABELS = {
   vegetarien:'🥦 Végétarien', vegan:'🌱 Vegan', keto:'🥑 Keto', rapide:'⚡ ≤30 min',
 };
 const MODE_CAT = {
+  accomp: 'Accompagnement',
   garnies: 'Pizza', pinsas: 'Pinsa', pates_pizza: 'Pâte à Pizza', majorque: 'Majorque',
   desserts_tous: 'Dessert', gateaux: 'Gâteaux', tartes_sucrees: 'Tarte sucrée', flans: 'Flan', cremes_desserts: 'Crème dessert', biscuits: 'Biscuit', viennoiseries: 'Viennoiserie', crepes_sucrees: 'Crêpe sucrée', pates_crepes: 'Pâte à crêpes', tiramisu: 'Tiramisu', cheesecakes: 'Cheesecake', charlottes: 'Charlotte',
   soupes: 'Soupe', salades: 'Salade', poissons: 'Poisson', fruits_mer: 'Fruits de mer', moules: 'Moules', gestes: 'Technique', pates_maison: 'Pâte maison', crepes_salees: 'Crêpe salée', cakes_sales: 'Cake salé', tatins_salees: 'Tatin salée',
@@ -2760,6 +2761,7 @@ function homeStockCandidates(){
   const out = [];
   for (const r of ALL){
     if (/\b(guide|technique)\b/.test(norm(r.cat || ''))) continue;
+    if (catList(r).some(c => c === 'Sauce' || c === 'Marinade')) continue;  // sauces et marinades : pas des recettes à proposer
     const c = recipeStockCoverage(r, have);
     if (!c || !c.covered) continue;
     const hits = seasonalHits(r, m).filter(h => !HOME_SEASON_SKIP.has(h));
@@ -4363,7 +4365,7 @@ const QK_QUESTIONS = [
     { v:'leger', label:'🥗 Léger', f: r => { const h = qkHay(r); if (/chocolat|brioche|beignet|bugne|buche|tartiflette|raclette|frit|lardon|creme|gratin|fondue|cookie|brownie|gateau|mascarpone/.test(h.title)) return false; return QK.leger.test(h.title) || qkCat(r,'Santé') || (qkCat(r,'Salade','Soupe','Légumes','Smoothie') && !/creme|fromage|beurre|lardon|frit|chocolat|sucre/.test(h.all)); } },
     { v:'reconfort', label:'🍲 Réconfortant', f: r => QK.reconfort.test(qkHay(r).title) },
     { v:'recevoir', label:'🎉 Recevoir', f: r => QK.recevoir.test(qkHay(r).title) || qkCat(r,'Noël') },
-    { v:'stock', label:'🧺 Mes stocks', f: r => { const c = qkStockCov(r); return c && c.total - c.covered <= 2; } },
+    { v:'stock', label:'🧺 Mes stocks', f: r => { if (qkCat(r,'Sauce','Marinade')) return false; const c = qkStockCov(r); return c && c.total - c.covered <= 2; } },
     { v:'saison', label:'🌿 De saison', f: r => { const sk = (SEASON[monthNow()]||[]).filter(k => !WZ_BASIC.has(k)); return seasonHitsInText((r.ing||[]).join(' '), sk).length > 0; } },
   ]},
 ];

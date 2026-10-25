@@ -4671,7 +4671,7 @@
     {
       "id": "mar:001",
       "t": "Marinade Poulet Citron & Herbes",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "La marinade la plus fraîche — jus de citron, huile d'olive, ail et herbes. Idéale pour le poulet grillé ou en papillote.",
@@ -4691,7 +4691,7 @@
     {
       "id": "mar:002",
       "t": "Marinade Poulet Moutarde & Miel",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "L'équilibre sucré-piquant de la moutarde et du miel — une marinade caramélisée qui plaît à tous.",
@@ -4710,7 +4710,7 @@
     {
       "id": "mar:003",
       "t": "Marinade Poulet Herbes de Provence",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "Le soleil du Midi en marinade — herbes de Provence, huile d'olive, ail et romarin pour un poulet parfumé.",
@@ -4730,7 +4730,7 @@
     {
       "id": "mar:004",
       "t": "Marinade Poulet Tikka Masala",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 40,
       "serv": 4,
       "desc": "La marinade au yaourt et épices indiennes qui attendrit la chair et colore magnifiquement le poulet.",
@@ -4750,7 +4750,7 @@
     {
       "id": "mar:005",
       "t": "Marinade Poulet Teriyaki",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "La sauce japonaise laquée — soja, miel, gingembre et ail pour un poulet brillant et savoureux.",
@@ -4770,7 +4770,7 @@
     {
       "id": "mar:006",
       "t": "Marinade Poulet BBQ",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "La marinade barbecue fumée et légèrement sucrée — parfaite pour le grill ou l'airfryer.",
@@ -4789,7 +4789,7 @@
     {
       "id": "mar:007",
       "t": "Marinade Poulet Lime & Chili",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "La marinade mexicaine piquante et acidulée — lime, piment, coriandre et ail pour un poulet vibrant.",
@@ -5295,7 +5295,7 @@
     {
       "id": "mar:008",
       "t": "Marinade Poulet Ail & Parmesan",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "Ail haché, parmesan et huile d'olive — une marinade italienne intense qui caramélise magnifiquement au four.",
@@ -5315,7 +5315,7 @@
     {
       "id": "mar:009",
       "t": "Marinade Poulet Buffalo Épicée",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "Sauce piquante, beurre fondu et vinaigre — le goût Buffalo américain sur du poulet maison.",
@@ -5335,7 +5335,7 @@
     {
       "id": "mar:010",
       "t": "Marinade Poulet Curry Coco",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 40,
       "serv": 4,
       "desc": "Lait de coco, pâte de curry et gingembre — une marinade exotique douce et parfumée.",
@@ -5355,7 +5355,7 @@
     {
       "id": "mar:011",
       "t": "Marinade Poulet Ranch Crémeuse",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "Yaourt, assaisonnement ranch et aneth — une marinade crémeuse à l'américaine, douce et parfumée.",
@@ -5375,7 +5375,7 @@
     {
       "id": "mar:012",
       "t": "Marinade Poulet Mexicaine",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "Lime, cumin et ail — la marinade fajitas par excellence, relevée et parfumée.",
@@ -5395,7 +5395,7 @@
     {
       "id": "mar:013",
       "t": "Marinade Poulet Asiatique",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "Sauce soja, miel, vinaigre de riz et sésame — la marinade panasiautique au doux équilibre umami-sucré.",
@@ -5415,7 +5415,7 @@
     {
       "id": "mar:014",
       "t": "Marinade Poulet Cajun",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "Épices cajun, paprika et ail — la marinade du Sud américain, fumée et relevée.",
@@ -5435,7 +5435,7 @@
     {
       "id": "mar:015",
       "t": "Marinade Poulet Yaourt & Herbes Fraîches",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "Yaourt, herbes fraîches et citron — une marinade douce et méditerranéenne qui attendrit parfaitement.",
@@ -5455,7 +5455,7 @@
     {
       "id": "mar:016",
       "t": "Marinade Poulet Chorizo Épicée",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "Chorizo haché, paprika fumé et vinaigre de cidre — une marinade ibérique intense qui parfume profondément la chair.",
@@ -5475,7 +5475,7 @@
     {
       "id": "mar:017",
       "t": "Marinade Poulet Citron Poivre",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 35,
       "serv": 4,
       "desc": "Citron généreux et poivre noir concassé — minimaliste, raffiné, le poulet laissé au naturel avec caractère.",
@@ -5495,7 +5495,7 @@
     {
       "id": "mar:018",
       "t": "Marinade Poulet Deluxe Gourmande",
-      "cat": "Marinade, Accompagnement",
+      "cat": "Marinade",
       "min": 40,
       "serv": 4,
       "desc": "Crème fraîche, moutarde à l'ancienne, parmesan et herbes — la marinade des grands dîners, riche et onctueuse.",
@@ -10349,7 +10349,7 @@
     {
       "id": "argentine:019",
       "t": "Salsa Criolla Argentina",
-      "cat": "Argentine, Sauce, Accompagnement",
+      "cat": "Argentine, Sauce",
       "min": 10,
       "serv": 6,
       "desc": "La sauce fraîche universelle du churrasco argentin : tomates, oignon, poivron et herbes en vinaigrette. Simple, fraîche, indispensable à côté du chimichurri sur toute table.",
@@ -18647,7 +18647,7 @@
     {
       "id": "marinade:001",
       "title": "Marinade Poulet Grecque",
-      "cat": "BBQ, Marinade, Accompagnement",
+      "cat": "BBQ, Marinade",
       "ing": [
         "moutarde de Dijon 2 c.à.s.",
         "épices à steak 1 c.à.s.",
@@ -18669,7 +18669,7 @@
     {
       "id": "marinade:002",
       "title": "Marinade Poulet Paprika Fumé",
-      "cat": "BBQ, Marinade, Accompagnement",
+      "cat": "BBQ, Marinade",
       "ing": [
         "paprika fumé 2 c.à.s.",
         "jus de 1 citron",
@@ -18690,7 +18690,7 @@
     {
       "id": "marinade:003",
       "title": "Marinade Poulet Miel et Moutarde",
-      "cat": "BBQ, Marinade, Accompagnement",
+      "cat": "BBQ, Marinade",
       "ing": [
         "miel 3 c.à.s.",
         "moutarde de Dijon 2 c.à.s.",
@@ -18711,7 +18711,7 @@
     {
       "id": "marinade:004",
       "title": "Marinade Poulet Moutarde et Érable",
-      "cat": "BBQ, Marinade, Accompagnement",
+      "cat": "BBQ, Marinade",
       "ing": [
         "sirop d'érable 3 c.à.s.",
         "moutarde de Dijon 2 c.à.s.",
@@ -18732,7 +18732,7 @@
     {
       "id": "marinade:005",
       "title": "Marinade Poulet au Cumin",
-      "cat": "BBQ, Marinade, Accompagnement",
+      "cat": "BBQ, Marinade",
       "ing": [
         "yaourt nature 150g",
         "huile de canola 2 c.à.s.",
@@ -18752,7 +18752,7 @@
     {
       "id": "marinade:006",
       "title": "Marinade Poulet Bourbon et Mélasse",
-      "cat": "BBQ, Marinade, Accompagnement",
+      "cat": "BBQ, Marinade",
       "ing": [
         "bourbon 3 c.à.s.",
         "mélasse 2 c.à.s.",
@@ -18773,7 +18773,7 @@
     {
       "id": "marinade:007",
       "title": "Marinade Poulet Sud-Ouest",
-      "cat": "BBQ, Marinade, Accompagnement",
+      "cat": "BBQ, Marinade",
       "ing": [
         "huile d'olive 3 c.à.s.",
         "vinaigre de cidre 2 c.à.s.",

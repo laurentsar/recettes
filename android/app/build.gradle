@@ -7,8 +7,8 @@ android {
         applicationId "com.laurent.recettes"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 38900
-        versionName "3.89"
+        versionCode 39000
+        versionName "3.90"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
