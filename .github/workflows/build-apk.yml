@@ -77,6 +77,11 @@ jobs:
           if gh release view "v${VERSION}" >/dev/null 2>&1; then
             gh release upload "v${VERSION}" "$APK" --clobber
           else
-            gh release create "v${VERSION}" "$APK" --title "Recettes v${VERSION}" --notes "Build automatique v${VERSION}"
+            gh release create "v${VERSION}" "$APK" --title "Recettes v${VERSION}" --notes "Recettes v${VERSION}"
           fi
-          gh release edit "v${VERSION}" --draft=false
+          # Nouveautés (comme Ma Guitare) : les points « - » du message de
+          # commit/fusion, affichés par le bandeau de mise à jour avant d'installer.
+          git log -1 --format=%B | grep -E '^\s*[-*] ' | grep -viE 'co-authored|claude-session' | head -8 > notes.md || true
+          [ -s notes.md ] || git log -1 --format=%s > notes.md
+          cat notes.md
+          gh release edit "v${VERSION}" --draft=false --notes-file notes.md

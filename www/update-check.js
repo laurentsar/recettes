@@ -53,7 +53,8 @@
 
   // Dernière release via l'API GitHub (comme Flux RSS) : tag exact + vrai lien de l'APK.
   function fromApi() {
-    return fetch('https://api.github.com/repos/' + REPO + '/releases/latest', {
+    // Cache-buster (_) : un service worker ne doit pas servir une réponse périmée.
+    return fetch('https://api.github.com/repos/' + REPO + '/releases/latest?_=' + Date.now(), {
       headers: { Accept: 'application/vnd.github+json' }
     })
       .then(function (r) { return r.ok ? r.json() : null; })
