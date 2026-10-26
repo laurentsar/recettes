@@ -32698,6 +32698,948 @@
       ],
       "url": "",
       "vid": ""
+    },
+    {
+      "id": "junior:001",
+      "t": "Les règles du petit chef (à lire d'abord)",
+      "cat": "Junior, Technique",
+      "area": "",
+      "min": 5,
+      "serv": "—",
+      "desc": "Les règles pour cuisiner seul en sécurité, valables pour toutes les recettes Junior.\n\n🧒 Recette Junior : réalisable seul à partir de 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "Un tablier",
+        "Un torchon propre",
+        "Une planche à découper"
+      ],
+      "steps": [
+        "Prévenir un adulte avant de commencer et lui dire quelle recette tu fais.",
+        "Se laver les mains au savon, attacher les cheveux longs, relever les manches.",
+        "Lire TOUTE la recette avant de commencer, puis sortir tous les ingrédients et ustensiles.",
+        "Couteau : toujours couper sur une planche, doigts repliés en « griffe », lame vers le bas. On ne rattrape jamais un couteau qui tombe.",
+        "Four et plaques : toujours des maniques sèches. Les queues de casserole tournées vers l'intérieur.",
+        "Le symbole 🧑 dans une étape veut dire : demande à un adulte de rester à côté de toi la première fois.",
+        "Micro-ondes : jamais de métal ni d'aluminium dedans ; un bol qui sort peut être brûlant.",
+        "Viande crue et œufs crus : se relaver les mains après les avoir touchés.",
+        "À la fin : éteindre le four ou les plaques, ranger, faire la vaisselle, essuyer le plan de travail. Un vrai chef laisse la cuisine propre !"
+      ]
+    },
+    {
+      "id": "junior:002",
+      "t": "Brochettes de fruits arc-en-ciel",
+      "cat": "Junior, Dessert, Fruits",
+      "area": "",
+      "min": 15,
+      "serv": "4 personnes",
+      "desc": "Des fruits de toutes les couleurs enfilés sur des piques. Aucune cuisson.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "8 fraises",
+        "1 kiwi",
+        "1 banane",
+        "1 orange ou 2 clémentines",
+        "1 petite grappe de raisin",
+        "8 piques en bois"
+      ],
+      "steps": [
+        "Laver les fraises et le raisin, les sécher dans un torchon.",
+        "Éplucher le kiwi, la banane et l'orange.",
+        "Couper les fruits en morceaux de la même taille sur la planche (couteau à bout rond suffisant pour la banane et le kiwi).",
+        "Enfiler les morceaux en alternant les couleurs : rouge, orange, jaune, vert, violet.",
+        "Servir tout de suite (ou arroser d'un peu de jus de citron pour que la banane ne noircisse pas)."
+      ]
+    },
+    {
+      "id": "junior:003",
+      "t": "Wraps à composer",
+      "cat": "Junior, Plat, Wrap",
+      "area": "",
+      "min": 15,
+      "serv": "2 personnes",
+      "desc": "Chacun garnit sa galette comme il veut : un repas rapide sans cuisson.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "4 tortillas de blé",
+        "4 tranches de jambon ou de blanc de poulet",
+        "1 carotte",
+        "4 feuilles de salade",
+        "1 tomate",
+        "4 c. à soupe de fromage frais",
+        "Un peu d'emmental râpé"
+      ],
+      "steps": [
+        "Laver la salade et la tomate. Couper la tomate en petits dés.",
+        "Éplucher la carotte puis la râper avec la râpe (attention aux doigts sur la fin, garde le dernier bout).",
+        "Tartiner chaque tortilla d'une cuillère de fromage frais.",
+        "Poser au milieu : jambon, salade, carotte, tomate, emmental.",
+        "Replier le bas de la galette, puis rouler bien serré. Couper en deux en biais."
+      ]
+    },
+    {
+      "id": "junior:004",
+      "t": "Croque-monsieur à la poêle",
+      "cat": "Junior, Plat, Panini",
+      "area": "",
+      "min": 15,
+      "serv": "2 personnes",
+      "desc": "Le classique doré et fondant, cuit à la poêle (pas besoin d'appareil).\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "4 tranches de pain de mie",
+        "2 tranches de jambon",
+        "4 tranches de fromage (emmental ou gouda)",
+        "20 g de beurre mou"
+      ],
+      "steps": [
+        "Beurrer une face de chaque tranche de pain.",
+        "Poser 2 tranches côté beurré vers le BAS sur une assiette, ajouter fromage, jambon, fromage, puis refermer avec les 2 autres tranches côté beurré vers le HAUT.",
+        "🧑 Chauffer une poêle à feu moyen (pas fort, sinon ça brûle avant de fondre).",
+        "Cuire 3 min, retourner avec une spatule, cuire encore 3 min en appuyant un peu.",
+        "Éteindre le feu. Couper en triangles."
+      ]
+    },
+    {
+      "id": "junior:005",
+      "t": "Mini-pizzas sur pain de mie",
+      "cat": "Junior, Plat, Pizza",
+      "area": "",
+      "min": 20,
+      "serv": "2 personnes",
+      "desc": "Des petites pizzas sans pâte à faire, prêtes en 10 min au four.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "4 tranches de pain de mie",
+        "4 c. à soupe de sauce tomate",
+        "1 boule de mozzarella ou 60 g d'emmental râpé",
+        "4 tranches de chorizo ou 1 tranche de jambon",
+        "Origan"
+      ],
+      "steps": [
+        "🧑 Préchauffer le four à 200°C.",
+        "Poser le pain sur une plaque recouverte de papier cuisson.",
+        "Étaler 1 cuillère de sauce tomate sur chaque tranche jusqu'aux bords.",
+        "Ajouter le jambon ou le chorizo, puis le fromage. Saupoudrer d'origan.",
+        "🧑 Enfourner 8 à 10 min : le fromage doit être fondu et doré. Sortir la plaque avec des maniques."
+      ]
+    },
+    {
+      "id": "junior:006",
+      "t": "Pâtes au beurre et parmesan",
+      "cat": "Junior, Plat, Pâtes",
+      "area": "",
+      "min": 15,
+      "serv": "2 personnes",
+      "desc": "Ta première vraie cuisson : des pâtes parfaites.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "200 g de pâtes (coquillettes, penne…)",
+        "2 litres d'eau",
+        "1 c. à café de sel",
+        "20 g de beurre",
+        "30 g de parmesan râpé"
+      ],
+      "steps": [
+        "🧑 Mettre l'eau à bouillir dans une grande casserole, couvercle posé, queue tournée vers l'intérieur.",
+        "Quand ça bout à gros bouillons, ajouter le sel puis les pâtes. Mélanger.",
+        "Regarder le temps sur le paquet et mettre un minuteur. Mélanger de temps en temps.",
+        "🧑 Égoutter dans une passoire posée DANS l'évier, en versant loin de soi (grosse vapeur !).",
+        "Remettre les pâtes dans la casserole avec le beurre et le parmesan, mélanger. Poivrer si tu aimes."
+      ]
+    },
+    {
+      "id": "junior:007",
+      "t": "Omelette nature",
+      "cat": "Junior, Plat, Omelette, Oeufs",
+      "area": "",
+      "min": 10,
+      "serv": "1 personne",
+      "desc": "Apprendre à casser les œufs et à les cuire : une base pour plein de recettes.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "3 œufs",
+        "1 pincée de sel",
+        "1 noisette de beurre",
+        "Option : ciboulette, fromage râpé, dés de jambon"
+      ],
+      "steps": [
+        "Casser les œufs un par un dans un petit bol (pour retirer facilement un bout de coquille), puis les verser dans un grand bol.",
+        "Ajouter le sel et battre à la fourchette jusqu'à ce que ce soit bien jaune.",
+        "🧑 Faire fondre le beurre dans une poêle à feu moyen.",
+        "Verser les œufs. Avec une spatule, ramener les bords vers le centre plusieurs fois.",
+        "Quand le dessus est presque pris, ajouter les options, plier en deux et glisser dans l'assiette. Se laver les mains."
+      ]
+    },
+    {
+      "id": "junior:008",
+      "t": "Œufs brouillés crémeux",
+      "cat": "Junior, Petit-déjeuner, Oeufs, Préparation Oeuf",
+      "area": "",
+      "min": 10,
+      "serv": "2 personnes",
+      "desc": "Doux et crémeux, sur une tartine grillée.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "4 œufs",
+        "1 c. à soupe de crème ou de lait",
+        "10 g de beurre",
+        "Sel",
+        "2 tranches de pain"
+      ],
+      "steps": [
+        "Battre les œufs avec la crème et le sel dans un bol.",
+        "🧑 Faire fondre le beurre dans une petite casserole à feu DOUX.",
+        "Verser les œufs et remuer sans arrêt avec une spatule, en raclant le fond.",
+        "Retirer du feu quand c'est encore un peu brillant : ça finit de cuire tout seul.",
+        "Servir sur le pain grillé."
+      ]
+    },
+    {
+      "id": "junior:009",
+      "t": "Croque-tomate mozza au four",
+      "cat": "Junior, Apéritif, Tartine",
+      "area": "",
+      "min": 15,
+      "serv": "2 personnes",
+      "desc": "Des tartines italiennes toutes simples.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "4 tranches de pain de campagne",
+        "2 tomates",
+        "1 boule de mozzarella",
+        "Huile d'olive",
+        "Basilic, sel"
+      ],
+      "steps": [
+        "🧑 Préchauffer le four à 200°C.",
+        "Couper les tomates et la mozzarella en rondelles sur la planche.",
+        "Poser le pain sur la plaque, ajouter un filet d'huile.",
+        "Alterner tomate et mozzarella dessus, saler.",
+        "🧑 Cuire 8 min. Ajouter le basilic à la sortie."
+      ]
+    },
+    {
+      "id": "junior:010",
+      "t": "Salade de pâtes du pique-nique",
+      "cat": "Junior, Plat, Salade, Pâtes",
+      "area": "",
+      "min": 25,
+      "serv": "4 personnes",
+      "desc": "À préparer la veille : encore meilleure froide.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "250 g de pâtes courtes",
+        "1 boîte de thon (140 g)",
+        "1 petite boîte de maïs",
+        "10 tomates cerises",
+        "100 g de dés d'emmental ou de mimolette",
+        "3 c. à soupe d'huile d'olive",
+        "1 c. à soupe de vinaigre",
+        "Sel"
+      ],
+      "steps": [
+        "Cuire les pâtes comme dans la recette « Pâtes au beurre » 🧑, puis les rincer à l'eau froide dans la passoire.",
+        "Égoutter le thon et le maïs (ouvre-boîte : attention au couvercle qui coupe).",
+        "Couper les tomates cerises en deux.",
+        "Vinaigrette : dans un bocal, mettre huile, vinaigre et sel, fermer et secouer.",
+        "Tout mélanger dans un saladier et mettre au frigo."
+      ]
+    },
+    {
+      "id": "junior:011",
+      "t": "Hot-dogs maison",
+      "cat": "Junior, Plat",
+      "area": "",
+      "min": 20,
+      "serv": "4 personnes",
+      "desc": "Version maison du hot-dog, avec des saucisses chauffées dans l'eau.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "4 pains à hot-dog",
+        "4 saucisses de Strasbourg",
+        "Ketchup, moutarde douce",
+        "1 oignon frit en barquette (option)",
+        "Emmental râpé"
+      ],
+      "steps": [
+        "🧑 Faire chauffer de l'eau dans une casserole jusqu'à frémissement (petites bulles, PAS de gros bouillons sinon les saucisses éclatent).",
+        "Plonger les saucisses 5 min, puis les sortir avec une pince.",
+        "Ouvrir les pains en deux sans les séparer complètement.",
+        "Mettre une saucisse dans chaque pain, ajouter sauces, fromage et oignons frits.",
+        "Option : 🧑 passer 3 min au four à 200°C pour faire fondre le fromage."
+      ]
+    },
+    {
+      "id": "junior:012",
+      "t": "Quesadillas jambon-fromage",
+      "cat": "Junior, Plat, Tortilla",
+      "area": "",
+      "min": 15,
+      "serv": "2 personnes",
+      "desc": "Une galette pliée et dorée, qui file quand on la coupe.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "4 tortillas",
+        "100 g de fromage râpé",
+        "2 tranches de jambon",
+        "Option : 2 c. à soupe de maïs"
+      ],
+      "steps": [
+        "Sur la moitié de chaque tortilla : fromage, jambon coupé en morceaux, maïs, encore un peu de fromage.",
+        "Replier la tortilla en demi-lune.",
+        "🧑 Chauffer une poêle sans matière grasse à feu moyen.",
+        "Cuire 2 min par face en appuyant avec la spatule.",
+        "Laisser tiédir 1 min puis couper en 3 parts."
+      ]
+    },
+    {
+      "id": "junior:013",
+      "t": "Riz cantonais express",
+      "cat": "Junior, Plat, Riz",
+      "area": "",
+      "min": 25,
+      "serv": "3 personnes",
+      "desc": "Un plat complet qui recycle un reste de riz.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "300 g de riz cuit froid (de la veille)",
+        "2 œufs",
+        "2 tranches de jambon",
+        "100 g de petits pois surgelés",
+        "1 c. à soupe d'huile",
+        "1 c. à soupe de sauce soja"
+      ],
+      "steps": [
+        "Couper le jambon en petits carrés.",
+        "Battre les œufs dans un bol.",
+        "🧑 Chauffer l'huile dans une grande poêle, verser les œufs et les brouiller 1 min, puis les mettre de côté sur une assiette.",
+        "Dans la même poêle : petits pois 3 min, puis riz et jambon. Mélanger 5 min.",
+        "Remettre les œufs, ajouter la sauce soja, mélanger et servir."
+      ]
+    },
+    {
+      "id": "junior:014",
+      "t": "Gâteau au yaourt",
+      "cat": "Junior, Dessert, Gâteaux",
+      "area": "",
+      "min": 50,
+      "serv": "6 personnes",
+      "desc": "LE gâteau des enfants : tout se mesure avec le pot de yaourt !\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "1 yaourt nature",
+        "3 pots de farine",
+        "2 pots de sucre",
+        "1/2 pot d'huile",
+        "3 œufs",
+        "1 sachet de levure chimique",
+        "1 sachet de sucre vanillé"
+      ],
+      "steps": [
+        "🧑 Préchauffer le four à 180°C. Beurrer un moule.",
+        "Vider le yaourt dans un saladier. Rincer et sécher le pot : il sert de mesure.",
+        "Ajouter les œufs et mélanger au fouet, puis le sucre et le sucre vanillé.",
+        "Ajouter la farine et la levure, mélanger, puis l'huile. La pâte doit être lisse.",
+        "Verser dans le moule. 🧑 Cuire 35 min. Test : un couteau planté au centre ressort sec. Démouler tiède."
+      ]
+    },
+    {
+      "id": "junior:015",
+      "t": "Mug cake au chocolat",
+      "cat": "Junior, Dessert, Chocolat, Gâteaux",
+      "area": "",
+      "min": 5,
+      "serv": "1 personne",
+      "desc": "Un gâteau en 1 minute au micro-ondes, dans une tasse.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "4 c. à soupe de farine",
+        "3 c. à soupe de sucre",
+        "2 c. à soupe de cacao",
+        "1 œuf",
+        "3 c. à soupe de lait",
+        "2 c. à soupe d'huile",
+        "1 pincée de levure"
+      ],
+      "steps": [
+        "Dans un grand mug (sans décor doré ni métal) : farine, sucre, cacao, levure. Mélanger à la fourchette.",
+        "Ajouter l'œuf, le lait et l'huile. Mélanger jusqu'à ce qu'il n'y ait plus de grumeaux.",
+        "Cuire 1 min 10 au micro-ondes (puissance max).",
+        "⚠️ Le mug est brûlant : le sortir avec une manique et attendre 2 min.",
+        "Option : un carré de chocolat enfoncé au milieu avant cuisson pour un cœur coulant."
+      ]
+    },
+    {
+      "id": "junior:016",
+      "t": "Cookies aux pépites",
+      "cat": "Junior, Dessert, Biscuit",
+      "area": "",
+      "min": 30,
+      "serv": "15 cookies",
+      "desc": "Croustillants dehors, moelleux dedans.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "125 g de beurre mou",
+        "100 g de sucre roux",
+        "1 œuf",
+        "200 g de farine",
+        "1/2 sachet de levure",
+        "100 g de pépites de chocolat",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "🧑 Préchauffer le four à 180°C. Papier cuisson sur la plaque.",
+        "Écraser le beurre mou avec le sucre à la fourchette, puis ajouter l'œuf.",
+        "Ajouter farine, levure et sel : mélanger à la main pour faire une pâte.",
+        "Ajouter les pépites. Faire des boules grosses comme une noix, les aplatir un peu, bien espacées.",
+        "🧑 Cuire 10-12 min : ils sont encore mous en sortant, c'est normal, ils durcissent en refroidissant."
+      ]
+    },
+    {
+      "id": "junior:017",
+      "t": "Crêpes",
+      "cat": "Junior, Dessert, Crêpe sucrée, Pâte à crêpes",
+      "area": "",
+      "min": 40,
+      "serv": "12 crêpes",
+      "desc": "La pâte se fait seul ; la cuisson avec un adulte la première fois.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "250 g de farine",
+        "4 œufs",
+        "50 cl de lait",
+        "2 c. à soupe de sucre",
+        "30 g de beurre fondu",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Mettre la farine, le sucre et le sel dans un saladier, faire un creux.",
+        "Casser les œufs dans le creux, mélanger au fouet en ajoutant le lait petit à petit (ça évite les grumeaux).",
+        "Ajouter le beurre fondu (🧑 30 s au micro-ondes dans un bol). Laisser reposer 30 min si possible.",
+        "🧑 Chauffer une poêle huilée avec un essuie-tout, verser une petite louche et tourner la poêle pour étaler.",
+        "Quand les bords dorent, retourner avec une spatule. 1 min de l'autre côté."
+      ]
+    },
+    {
+      "id": "junior:018",
+      "t": "Pancakes moelleux",
+      "cat": "Junior, Petit-déjeuner, Dessert",
+      "area": "",
+      "min": 25,
+      "serv": "10 pancakes",
+      "desc": "Épais et moelleux, pour un petit-déjeuner du dimanche.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "200 g de farine",
+        "1 sachet de levure",
+        "2 c. à soupe de sucre",
+        "2 œufs",
+        "25 cl de lait",
+        "30 g de beurre fondu"
+      ],
+      "steps": [
+        "Mélanger farine, levure et sucre.",
+        "Ajouter les œufs et le lait, fouetter, puis le beurre fondu. La pâte est épaisse.",
+        "🧑 Chauffer une poêle légèrement huilée à feu moyen.",
+        "Verser une petite louche : quand des bulles apparaissent sur le dessus, retourner.",
+        "Servir avec du sirop d'érable, du miel ou des fruits."
+      ]
+    },
+    {
+      "id": "junior:019",
+      "t": "Pain perdu",
+      "cat": "Junior, Petit-déjeuner, Dessert",
+      "area": "",
+      "min": 15,
+      "serv": "2 personnes",
+      "desc": "La recette anti-gaspi du pain rassis.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "4 tranches de pain rassis ou de brioche",
+        "2 œufs",
+        "20 cl de lait",
+        "2 c. à soupe de sucre",
+        "1 noisette de beurre",
+        "Cannelle (option)"
+      ],
+      "steps": [
+        "Dans une assiette creuse : battre œufs, lait, sucre et cannelle.",
+        "Tremper chaque tranche 10 secondes de chaque côté.",
+        "🧑 Faire fondre le beurre dans la poêle à feu moyen.",
+        "Dorer 2 min de chaque côté.",
+        "Saupoudrer de sucre et servir chaud."
+      ]
+    },
+    {
+      "id": "junior:020",
+      "t": "Smoothie banane-fraise",
+      "cat": "Junior, Boissons, Smoothie",
+      "area": "",
+      "min": 5,
+      "serv": "2 personnes",
+      "desc": "Un goûter frais et vitaminé en 5 minutes.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "1 banane",
+        "150 g de fraises",
+        "1 yaourt nature",
+        "15 cl de lait",
+        "1 c. à café de miel"
+      ],
+      "steps": [
+        "Laver les fraises et retirer les queues. Éplucher la banane, la couper en rondelles.",
+        "Tout mettre dans le blender.",
+        "⚠️ Bien fermer le couvercle AVANT d'allumer, ne jamais mettre la main ou une cuillère dedans quand il est branché.",
+        "Mixer 30 secondes.",
+        "Verser dans les verres."
+      ]
+    },
+    {
+      "id": "junior:021",
+      "t": "Chocolat chaud maison",
+      "cat": "Junior, Boissons",
+      "area": "",
+      "min": 10,
+      "serv": "2 personnes",
+      "desc": "Avec du vrai chocolat fondu.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "50 cl de lait",
+        "60 g de chocolat noir ou au lait",
+        "1 c. à soupe de sucre (option)"
+      ],
+      "steps": [
+        "Casser le chocolat en petits morceaux.",
+        "🧑 Chauffer le lait dans une casserole à feu moyen, sans le laisser bouillir (il déborde vite !).",
+        "Ajouter le chocolat et fouetter jusqu'à ce qu'il soit fondu.",
+        "Goûter et ajouter le sucre si besoin.",
+        "Verser dans les tasses avec une louche."
+      ]
+    },
+    {
+      "id": "junior:022",
+      "t": "Citronnade maison",
+      "cat": "Junior, Boissons, Cocktail sans alcool",
+      "area": "",
+      "min": 10,
+      "serv": "1 litre",
+      "desc": "La boisson de l'été, presse-agrumes et sucre.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "3 citrons",
+        "80 g de sucre",
+        "1 litre d'eau fraîche",
+        "Glaçons, feuilles de menthe"
+      ],
+      "steps": [
+        "Rouler les citrons sur la table en appuyant (ils donnent plus de jus).",
+        "Les couper en deux et les presser au presse-agrumes.",
+        "Dans une carafe : jus, sucre et un peu d'eau, mélanger jusqu'à ce que le sucre fonde.",
+        "Ajouter le reste de l'eau, les glaçons et la menthe.",
+        "Goûter : plus de sucre ou plus d'eau selon les goûts."
+      ]
+    },
+    {
+      "id": "junior:023",
+      "t": "Tartines du goûter équilibré",
+      "cat": "Junior, Dessert, Tartine",
+      "area": "",
+      "min": 5,
+      "serv": "1 personne",
+      "desc": "Un goûter complet : un produit laitier, un fruit et du pain.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "2 tranches de pain",
+        "Du fromage frais ou 1 carré de chocolat",
+        "1 fruit",
+        "1 verre de lait ou 1 yaourt"
+      ],
+      "steps": [
+        "Couper le pain (ou le griller au grille-pain).",
+        "Tartiner le fromage frais, ou poser un carré de chocolat sur chaque tartine.",
+        "Laver le fruit, le couper en quartiers si besoin.",
+        "Servir avec le verre de lait ou le yaourt.",
+        "Idée : alterner chaque jour (pomme + fromage, banane + chocolat, poire + yaourt)."
+      ]
+    },
+    {
+      "id": "junior:024",
+      "t": "Muffins aux myrtilles",
+      "cat": "Junior, Dessert, Gâteaux",
+      "area": "",
+      "min": 35,
+      "serv": "12 muffins",
+      "desc": "Mélange rapide : on ne fouette pas trop, c'est le secret.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "250 g de farine",
+        "1 sachet de levure",
+        "120 g de sucre",
+        "2 œufs",
+        "20 cl de lait",
+        "80 g de beurre fondu",
+        "125 g de myrtilles (fraîches ou surgelées)"
+      ],
+      "steps": [
+        "🧑 Préchauffer le four à 180°C. Mettre des caissettes dans le moule à muffins.",
+        "Saladier 1 : farine, levure, sucre. Saladier 2 : œufs, lait, beurre fondu.",
+        "Verser le saladier 2 dans le 1 et mélanger juste quelques tours : il peut rester des petits grumeaux.",
+        "Ajouter les myrtilles délicatement. Remplir les caissettes aux 3/4.",
+        "🧑 Cuire 20-22 min."
+      ]
+    },
+    {
+      "id": "junior:025",
+      "t": "Salade de fruits",
+      "cat": "Junior, Dessert, Fruits",
+      "area": "",
+      "min": 15,
+      "serv": "4 personnes",
+      "desc": "Les fruits de saison coupés en petits dés.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "2 pommes",
+        "2 kiwis",
+        "1 orange",
+        "1 banane",
+        "Le jus d'1 orange",
+        "1 c. à soupe de sucre (option)"
+      ],
+      "steps": [
+        "Laver et éplucher les fruits. Retirer le cœur des pommes.",
+        "Couper tout en petits dés sur la planche.",
+        "Presser le jus d'orange et le verser sur les fruits (ça les empêche de noircir).",
+        "Mélanger délicatement.",
+        "Mettre au frais 30 min avant de servir."
+      ]
+    },
+    {
+      "id": "junior:026",
+      "t": "Mousse au chocolat",
+      "cat": "Junior, Dessert, Chocolat, Crème dessert",
+      "area": "",
+      "min": 30,
+      "serv": "4 personnes",
+      "desc": "Il faut monter les blancs en neige : un batteur électrique aide beaucoup.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "100 g de chocolat noir",
+        "3 œufs extra-frais",
+        "1 pincée de sel",
+        "1 c. à soupe de sucre"
+      ],
+      "steps": [
+        "🧑 Faire fondre le chocolat au micro-ondes par périodes de 30 s en mélangeant entre chaque. Laisser tiédir.",
+        "Séparer les blancs des jaunes : casser l'œuf et faire passer le jaune d'une demi-coquille à l'autre au-dessus d'un bol.",
+        "Ajouter les jaunes au chocolat et mélanger.",
+        "Battre les blancs avec le sel en neige ferme, ajouter le sucre à la fin.",
+        "Incorporer les blancs au chocolat en soulevant avec une spatule (sans tourner fort). Frigo au moins 3 h. ⚠️ Œufs crus : à manger dans les 24 h."
+      ]
+    },
+    {
+      "id": "junior:027",
+      "t": "Bols de céréales maison (granola)",
+      "cat": "Junior, Petit-déjeuner",
+      "area": "",
+      "min": 35,
+      "serv": "6 bols",
+      "desc": "Des céréales croustillantes faites maison.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "200 g de flocons d'avoine",
+        "3 c. à soupe de miel",
+        "2 c. à soupe d'huile",
+        "50 g d'amandes ou de noisettes",
+        "50 g de raisins secs",
+        "1 pincée de cannelle"
+      ],
+      "steps": [
+        "🧑 Préchauffer le four à 160°C.",
+        "Dans un saladier : flocons, amandes, cannelle.",
+        "Ajouter le miel et l'huile, mélanger avec les mains pour que tout colle un peu.",
+        "Étaler sur une plaque avec papier cuisson. 🧑 Cuire 20 min en mélangeant à mi-cuisson.",
+        "Laisser refroidir, ajouter les raisins secs. Se garde 2 semaines dans un bocal."
+      ]
+    },
+    {
+      "id": "junior:028",
+      "t": "Brownie facile",
+      "cat": "Junior, Dessert, Chocolat, Gâteaux",
+      "area": "",
+      "min": 40,
+      "serv": "8 personnes",
+      "desc": "Fondant et chocolaté, sans batteur.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "200 g de chocolat noir",
+        "150 g de beurre",
+        "150 g de sucre",
+        "3 œufs",
+        "80 g de farine",
+        "50 g de noix (option)"
+      ],
+      "steps": [
+        "🧑 Préchauffer le four à 180°C. Papier cuisson dans un moule carré.",
+        "🧑 Faire fondre chocolat et beurre au micro-ondes (30 s par 30 s).",
+        "Ajouter le sucre, puis les œufs un par un en mélangeant.",
+        "Ajouter la farine, puis les noix concassées.",
+        "Verser dans le moule. 🧑 Cuire 20-25 min : le centre doit rester un peu tremblant. Laisser refroidir avant de couper."
+      ]
+    },
+    {
+      "id": "junior:029",
+      "t": "Nuggets de poulet au four",
+      "cat": "Junior, Plat, Poulet, Viande",
+      "area": "",
+      "min": 35,
+      "serv": "3 personnes",
+      "desc": "Panés croustillants sans friture.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "2 blancs de poulet",
+        "1 œuf",
+        "60 g de chapelure",
+        "30 g de corn-flakes écrasés",
+        "Sel, paprika doux",
+        "1 c. à soupe d'huile"
+      ],
+      "steps": [
+        "🧑 Préchauffer le four à 200°C.",
+        "Couper le poulet en morceaux sur une planche réservée à la viande crue. ⚠️ Se laver les mains après.",
+        "Assiette 1 : œuf battu salé. Assiette 2 : chapelure, corn-flakes écrasés, paprika.",
+        "Passer chaque morceau dans l'œuf puis dans la chapelure, poser sur la plaque, arroser d'un filet d'huile.",
+        "🧑 Cuire 15-18 min en retournant à mi-cuisson. L'intérieur doit être blanc, plus du tout rose."
+      ]
+    },
+    {
+      "id": "junior:030",
+      "t": "Pizza maison",
+      "cat": "Junior, Plat, Pizza",
+      "area": "",
+      "min": 90,
+      "serv": "2 pizzas",
+      "desc": "La vraie pâte à pizza pétrie à la main.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "300 g de farine",
+        "18 cl d'eau tiède",
+        "1 sachet de levure de boulanger",
+        "1 c. à café de sel",
+        "2 c. à soupe d'huile d'olive",
+        "Garniture : sauce tomate, mozzarella, jambon, champignons…"
+      ],
+      "steps": [
+        "Mélanger farine, levure et sel, ajouter l'eau tiède et l'huile.",
+        "Pétrir 10 min sur le plan de travail fariné : la pâte doit devenir lisse et élastique.",
+        "Laisser lever 1 h dans le saladier, couvert d'un torchon (elle double de volume).",
+        "🧑 Préchauffer le four à 240°C. Étaler la pâte au rouleau, poser sur la plaque.",
+        "Garnir : sauce, garnitures, mozzarella. 🧑 Cuire 12-15 min."
+      ]
+    },
+    {
+      "id": "junior:031",
+      "t": "Truffes au chocolat",
+      "cat": "Junior, Dessert, Chocolat",
+      "area": "",
+      "min": 30,
+      "serv": "20 truffes",
+      "desc": "Un cadeau à offrir, fait de tes mains.\n\n🧒 Recette Junior : que les enfants aiment manger et peuvent faire seuls dès 11 ans. Les étapes 🧑 se font avec un adulte à côté la première fois.",
+      "ing": [
+        "200 g de chocolat noir",
+        "10 cl de crème liquide",
+        "30 g de beurre",
+        "Cacao en poudre"
+      ],
+      "steps": [
+        "Casser le chocolat dans un bol.",
+        "🧑 Chauffer la crème jusqu'à frémissement, la verser sur le chocolat, attendre 1 min puis mélanger.",
+        "Ajouter le beurre, mélanger jusqu'à ce que ce soit lisse. Frigo 2 h.",
+        "Former des petites boules avec une cuillère à café puis rouler rapidement entre les mains.",
+        "Rouler dans le cacao. Garder au frais."
+      ]
+    },
+    {
+      "id": "junior:032",
+      "t": "Spaghetti bolognaise",
+      "cat": "Junior, Plat, Pâtes, Bœuf, Viande",
+      "area": "",
+      "min": 45,
+      "serv": "4 personnes",
+      "desc": "Le plat préféré de beaucoup d'enfants, avec une sauce maison qui mijote.\n\n🧒 Recette Junior : un plat que les enfants adorent, à cuisiner avec un adulte (étapes 🧑) ou à préparer pour eux.",
+      "ing": [
+        "400 g de spaghetti",
+        "400 g de bœuf haché",
+        "1 oignon",
+        "1 carotte",
+        "1 boîte de tomates concassées (400 g)",
+        "2 c. à soupe de concentré de tomate",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, herbes de Provence",
+        "Parmesan râpé"
+      ],
+      "steps": [
+        "Éplucher l'oignon et la carotte, les couper en tout petits dés (🧑 l'oignon glisse : le couper en deux d'abord pour qu'il tienne à plat).",
+        "🧑 Chauffer l'huile dans une sauteuse, faire revenir oignon et carotte 5 min.",
+        "Ajouter la viande et l'émietter à la spatule jusqu'à ce qu'elle ne soit plus rose.",
+        "Ajouter tomates, concentré, sel, herbes et un demi-verre d'eau. Laisser mijoter 20 min à feu doux, couvercle entrouvert.",
+        "Pendant ce temps, cuire les spaghetti (voir « Pâtes au beurre ») 🧑. Servir avec le parmesan."
+      ]
+    },
+    {
+      "id": "junior:033",
+      "t": "Burger maison",
+      "cat": "Junior, Plat, Burger, Bœuf, Viande",
+      "area": "",
+      "min": 25,
+      "serv": "4 personnes",
+      "desc": "Mieux qu'au fast-food : chacun monte le sien.\n\n🧒 Recette Junior : un plat que les enfants adorent, à cuisiner avec un adulte (étapes 🧑) ou à préparer pour eux.",
+      "ing": [
+        "4 pains à burger",
+        "4 steaks hachés",
+        "4 tranches de cheddar",
+        "1 tomate",
+        "4 feuilles de salade",
+        "Ketchup, mayonnaise",
+        "Cornichons (option)"
+      ],
+      "steps": [
+        "Laver la salade, couper la tomate en rondelles.",
+        "🧑 Chauffer une poêle à feu moyen-fort, cuire les steaks 3 min, retourner, poser le cheddar dessus, cuire encore 3 min.",
+        "Toaster les pains coupés en deux (grille-pain ou poêle 1 min).",
+        "Monter : pain, sauce, salade, steak au fromage, tomate, cornichons, pain.",
+        "Servir avec les « Frites au four »."
+      ]
+    },
+    {
+      "id": "junior:034",
+      "t": "Frites au four",
+      "cat": "Junior, Accompagnement, Frites, Pomme de terre",
+      "area": "",
+      "min": 45,
+      "serv": "4 personnes",
+      "desc": "Croustillantes sans friteuse (pas d'huile bouillante !).\n\n🧒 Recette Junior : un plat que les enfants adorent, à cuisiner avec un adulte (étapes 🧑) ou à préparer pour eux.",
+      "ing": [
+        "1 kg de pommes de terre",
+        "3 c. à soupe d'huile",
+        "Sel, paprika (option)"
+      ],
+      "steps": [
+        "🧑 Préchauffer le four à 220°C.",
+        "Éplucher les pommes de terre à l'économe, les laver.",
+        "🧑 Les couper en bâtonnets (les couper d'abord en deux pour qu'elles tiennent à plat sur la planche).",
+        "Les sécher dans un torchon, puis les mélanger avec l'huile, le sel et le paprika dans un saladier.",
+        "Étaler en une seule couche sur la plaque. 🧑 Cuire 30-35 min en retournant à mi-cuisson."
+      ]
+    },
+    {
+      "id": "junior:035",
+      "t": "Mac & cheese",
+      "cat": "Junior, Plat, Pâtes",
+      "area": "",
+      "min": 25,
+      "serv": "4 personnes",
+      "desc": "Des macaronis noyés dans une sauce au fromage fondante.\n\n🧒 Recette Junior : un plat que les enfants adorent, à cuisiner avec un adulte (étapes 🧑) ou à préparer pour eux.",
+      "ing": [
+        "300 g de macaronis",
+        "30 g de beurre",
+        "30 g de farine",
+        "50 cl de lait",
+        "150 g de cheddar ou d'emmental râpé",
+        "Sel"
+      ],
+      "steps": [
+        "Cuire les macaronis 🧑 et les égoutter.",
+        "🧑 Dans une casserole, faire fondre le beurre, ajouter la farine et mélanger 1 min au fouet.",
+        "Verser le lait petit à petit en fouettant sans arrêter : la sauce épaissit (5 min).",
+        "Hors du feu, ajouter le fromage et le sel, mélanger jusqu'à ce qu'il fonde.",
+        "Mélanger avec les pâtes. Option : 🧑 10 min sous le gril du four avec du fromage dessus."
+      ]
+    },
+    {
+      "id": "junior:036",
+      "t": "Hachis parmentier",
+      "cat": "Junior, Plat, Bœuf, Viande, Pomme de terre",
+      "area": "",
+      "min": 60,
+      "serv": "4 personnes",
+      "desc": "Purée maison sur viande hachée, gratinée au four.\n\n🧒 Recette Junior : un plat que les enfants adorent, à cuisiner avec un adulte (étapes 🧑) ou à préparer pour eux.",
+      "ing": [
+        "1 kg de pommes de terre",
+        "400 g de bœuf haché",
+        "1 oignon",
+        "20 cl de lait",
+        "40 g de beurre",
+        "50 g de fromage râpé",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Éplucher les pommes de terre, les couper en morceaux. 🧑 Les cuire 20 min dans l'eau bouillante salée (la pointe du couteau doit entrer facilement).",
+        "🧑 Pendant ce temps, faire revenir l'oignon haché puis la viande à la poêle, saler.",
+        "🧑 Égoutter les pommes de terre, les écraser au presse-purée avec le beurre et le lait chaud.",
+        "🧑 Préchauffer le four à 200°C. Dans un plat : la viande au fond, la purée dessus, lisser à la fourchette, le fromage par-dessus.",
+        "🧑 Cuire 20 min jusqu'à ce que ce soit doré."
+      ]
+    },
+    {
+      "id": "junior:037",
+      "t": "Poisson pané maison",
+      "cat": "Junior, Plat, Poisson",
+      "area": "",
+      "min": 30,
+      "serv": "4 personnes",
+      "desc": "Comme les bâtonnets du commerce, mais en vrai poisson.\n\n🧒 Recette Junior : un plat que les enfants adorent, à cuisiner avec un adulte (étapes 🧑) ou à préparer pour eux.",
+      "ing": [
+        "4 filets de cabillaud ou de colin",
+        "1 œuf",
+        "60 g de chapelure",
+        "2 c. à soupe de farine",
+        "Sel, 1 citron",
+        "2 c. à soupe d'huile"
+      ],
+      "steps": [
+        "🧑 Préchauffer le four à 200°C.",
+        "Couper le poisson en bâtonnets. Préparer 3 assiettes : farine / œuf battu salé / chapelure.",
+        "Passer chaque bâtonnet dans la farine, l'œuf, puis la chapelure. Se laver les mains.",
+        "Poser sur la plaque avec papier cuisson, arroser d'huile.",
+        "🧑 Cuire 12-15 min. Servir avec des quartiers de citron et une sauce tartare ou du ketchup."
+      ]
+    },
+    {
+      "id": "junior:038",
+      "t": "Tacos au poulet",
+      "cat": "Junior, Plat, Poulet, Viande, Tortilla",
+      "area": "",
+      "min": 30,
+      "serv": "4 personnes",
+      "desc": "Chacun garnit son taco à table : ambiance fête.\n\n🧒 Recette Junior : un plat que les enfants adorent, à cuisiner avec un adulte (étapes 🧑) ou à préparer pour eux.",
+      "ing": [
+        "8 petites tortillas",
+        "2 blancs de poulet",
+        "1 c. à café d'épices fajitas douces",
+        "1 avocat",
+        "1 tomate",
+        "Salade, fromage râpé",
+        "Crème fraîche"
+      ],
+      "steps": [
+        "Couper le poulet en lanières (planche viande crue, mains lavées après).",
+        "🧑 Le faire dorer 8 min à la poêle avec un peu d'huile et les épices. Il ne doit plus être rose.",
+        "Préparer les garnitures dans des petits bols : avocat écrasé à la fourchette, tomate en dés, salade, fromage, crème.",
+        "Réchauffer les tortillas 20 s au micro-ondes.",
+        "Mettre tout au milieu de la table et chacun compose."
+      ]
+    },
+    {
+      "id": "junior:039",
+      "t": "Lasagnes",
+      "cat": "Junior, Plat, Pâtes, Bœuf, Viande",
+      "area": "",
+      "min": 75,
+      "serv": "6 personnes",
+      "desc": "Le grand plat du dimanche, préféré des enfants.\n\n🧒 Recette Junior : un plat que les enfants adorent, à cuisiner avec un adulte (étapes 🧑) ou à préparer pour eux.",
+      "ing": [
+        "12 feuilles de lasagnes (sans précuisson)",
+        "1 sauce bolognaise maison (recette Junior) ou 600 g",
+        "Béchamel : 50 g de beurre, 50 g de farine, 75 cl de lait",
+        "100 g de fromage râpé"
+      ],
+      "steps": [
+        "Préparer la sauce bolognaise (voir « Spaghetti bolognaise »), sans les pâtes 🧑.",
+        "Béchamel : comme pour le « Mac & cheese », mais sans fromage 🧑.",
+        "🧑 Préchauffer le four à 180°C.",
+        "Dans le plat : un peu de béchamel, des feuilles, de la bolognaise, de la béchamel… et recommencer 3 fois. Finir par béchamel + fromage.",
+        "🧑 Cuire 40 min. Laisser reposer 10 min avant de couper."
+      ]
+    },
+    {
+      "id": "junior:040",
+      "t": "Glace minute à la banane",
+      "cat": "Junior, Dessert, Fruits",
+      "area": "",
+      "min": 5,
+      "serv": "2 personnes",
+      "desc": "Une « glace » sans sorbetière, juste avec des bananes congelées.\n\n🧒 Recette Junior : un plat que les enfants adorent, à cuisiner avec un adulte (étapes 🧑) ou à préparer pour eux.",
+      "ing": [
+        "2 bananes bien mûres",
+        "Option : 1 c. à soupe de cacao ou de beurre de cacahuète"
+      ],
+      "steps": [
+        "La veille : éplucher les bananes, les couper en rondelles et les mettre au congélateur dans une boîte.",
+        "Mettre les rondelles congelées dans le blender (ou mixeur).",
+        "⚠️ Couvercle fermé avant d'allumer. Mixer en plusieurs fois, en raclant les bords avec une spatule MOTEUR ÉTEINT.",
+        "Ajouter le cacao ou le beurre de cacahuète, mixer encore.",
+        "Manger tout de suite : texture de glace à l'italienne !"
+      ]
     }
   ],
   "official": {

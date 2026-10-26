@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '4.06';
+const APP_VERSION = '4.07';
 
 let ALL = [];
 let BASE = [];
@@ -2142,6 +2142,7 @@ const SUB_TAB_LABELS = {
 };
 const MODE_CAT = {
   accomp: 'Accompagnement',
+  junior: 'Junior',
   garnies: 'Pizza', pinsas: 'Pinsa', pates_pizza: 'Pâte à Pizza', majorque: 'Majorque',
   desserts_tous: 'Dessert', gateaux: 'Gâteaux', tartes_sucrees: 'Tarte sucrée', flans: 'Flan', cremes_desserts: 'Crème dessert', biscuits: 'Biscuit', viennoiseries: 'Viennoiserie', crepes_sucrees: 'Crêpe sucrée', pates_crepes: 'Pâte à crêpes', tiramisu: 'Tiramisu', cheesecakes: 'Cheesecake', charlottes: 'Charlotte',
   soupes: 'Soupe', salades: 'Salade', poissons: 'Poisson', fruits_mer: 'Fruits de mer', moules: 'Moules', gestes: 'Technique', pates_maison: 'Pâte maison', crepes_salees: 'Crêpe salée', cakes_sales: 'Cake salé', tatins_salees: 'Tatin salée',
