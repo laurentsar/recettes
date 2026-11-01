@@ -60,7 +60,7 @@ function tidyRecipe(r){
   }
   return out;
 }
-function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderCellarHome(); renderGrid(); }
+function refreshAll(){ ALL = mergeEdits(); buildFamilies(); buildIngredientIndex(); buildCats(); renderDaily(); renderCellarHome(); renderGrid(); }
 
 /* ---------- extra : suppressions + surcharges + recettes custom ---------- */
 function applyExtra(recipes, extra){
@@ -854,7 +854,52 @@ function collapseVariants(list){
   });
   return hide.size ? list.filter(r => !hide.has(String(r.id))) : list;
 }
-function card(r, cov){
+/* ---------- familles : déclinaisons d'une même recette ----------
+   Définies dans recipes-extra.json (families : nom, ids, head = début de titre commun, labels).
+   Dans les listes, une famille n'a qu'une carte (« 🔀 N déclinaisons ») ; la fiche montre
+   toutes les déclinaisons en pastilles. */
+let FAMS = new Map();   // id → famille
+function buildFamilies(){
+  FAMS = new Map();
+  const have = new Set(ALL.map(r => String(r.id)));
+  const byId = new Map(ALL.map(r => [String(r.id), r]));
+  for (const f0 of (EXTRA.families || [])){
+    const ids = (f0.ids || []).map(String).filter(id => have.has(id));
+    if (ids.length < 2) continue;
+    const head = f0.head ? new RegExp('^\\s*(' + f0.head + ')\\s*', 'i') : null;
+    const f = { name: f0.name, ids, labels: {} };
+    ids.forEach(id => {
+      let l = (f0.labels || {})[id];
+      if (!l){
+        l = byId.get(id).t;
+        if (head) l = l.replace(head, '').replace(/^(au|aux|à la|à l'|de la|de|des|du|d'|à)\s*/i, '').replace(/^[\s,:&–-]+/, '').trim();
+        if (!l) l = 'Classique';
+        l = l[0].toUpperCase() + l.slice(1);
+      }
+      f.labels[id] = l;
+      FAMS.set(id, f);
+    });
+  }
+}
+// Une carte par famille : la première déclinaison présente (ordre de la famille) la représente,
+// à la place du premier membre rencontré dans la liste. Renvoie [liste, Map recette → nb de déclinaisons].
+function collapseFamilies(list){
+  const inList = new Set(list.map(r => String(r.id)));
+  const byId = new Map(list.map(r => [String(r.id), r]));
+  const done = new Set(), out = [], counts = new Map();
+  for (const r of list){
+    const f = FAMS.get(String(r.id));
+    if (!f){ out.push(r); continue; }
+    if (done.has(f)) continue;
+    done.add(f);
+    const members = f.ids.filter(id => inList.has(id));
+    const lead = byId.get(members[0]);
+    out.push(lead);
+    if (members.length > 1) counts.set(lead, members.length);
+  }
+  return [out, counts];
+}
+function card(r, cov, famN){
   const fav = favs.has(r.id) ? 'fav-badge' : '';
   const img = r.img
     ? `<img class="thumb" src="${esc(r.img)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph>🍽️</div>'">`
@@ -863,11 +908,14 @@ function card(r, cov){
   const miss = cov ? cov.total - cov.covered : 0;
   const stock = cov ? `<div class="stock-cov ${miss?'':'ok'}">🧺 ${cov.covered}/${cov.total} en stock · ${miss ? `manque ${miss}` : 'tout y est'}</div>` : '';
   const vars = variantBadges(r);
+  const f = famN && FAMS.get(String(r.id));
+  const title = f ? f.name : r.t;
+  const fam = f ? `<div class="fbadge">🔀 ${famN} déclinaisons</div>` : '';
   return `<div class="rcard ${fav}" data-id="${esc(r.id)}">${img}
-    <div class="info"><div class="rt">${esc(r.t)}</div>${vars}<div class="meta">${esc(meta)}</div>${stock}</div></div>`;
+    <div class="info"><div class="rt">${esc(title)}</div>${fam}${vars}<div class="meta">${esc(meta)}</div>${stock}</div></div>`;
 }
 const GRID_PG = 48;
-let _gList = [], _gPage = 0, _gObs = null, _gCov = null;
+let _gList = [], _gPage = 0, _gObs = null, _gCov = null, _gFam = new Map();
 
 /* Tri « Mes stocks » : d'abord les recettes où il manque le moins d'ingrédients,
    puis celles qui utilisent le plus de produits en stock ; celles sans aucun
@@ -894,10 +942,15 @@ function sortByStock(list){
 
 function renderGrid(){
   if(appMode === 'cocktails') return;
-  _gList = collapseVariants(filtered()); _gPage = 0; _gCov = null;
+  // Catégorie choisie (onglet Crêpes salées, Wraps…) : on montre chaque déclinaison.
+  _gList = collapseVariants(filtered()); _gFam = new Map();
+  if (!state.cats.length) [_gList, _gFam] = collapseFamilies(_gList);
+  _gPage = 0; _gCov = null;
+  const _nDecl = [..._gFam.values()].reduce((a, n) => a + n - 1, 0);
   if (stockSort) _gList = sortByStock(_gList);
   const _dietLabel = {sansgluten:'sans gluten',proteines:'riches en protéines',antiinflamm:'anti-inflammatoires',vegetarien:'végétariennes',vegan:'vegan',keto:'keto',rapide:'rapides (≤30 min)'}[state.diet] || '';
   elStatus.textContent = `${_gList.length} recette${_gList.length>1?'s':''}`
+    + (_nDecl ? ` (+ ${_nDecl} déclinaison${_nDecl>1?'s':''})` : '')
     + (_dietLabel ? ` ${_dietLabel}` : '')
     + (state.fav?' en favoris':'')
     + (_gCov ? ` · ${_gCov.size} avec des produits en stock, en tête` : '');
@@ -936,7 +989,7 @@ function _gridAppendPage(){
   const slice = _gList.slice(_gPage*GRID_PG, (_gPage+1)*GRID_PG);
   if(!slice.length) return;
   const frag = document.createDocumentFragment();
-  slice.forEach(r=>{ const d=document.createElement('div'); d.innerHTML=card(r, _gCov && _gCov.get(r)); const c=d.firstElementChild; c.addEventListener('click',()=>openDetail(c.dataset.id)); frag.appendChild(c); });
+  slice.forEach(r=>{ const d=document.createElement('div'); d.innerHTML=card(r, _gCov && _gCov.get(r), _gFam.get(r)); const c=d.firstElementChild; c.addEventListener('click',()=>openDetail(c.dataset.id)); frag.appendChild(c); });
   elGrid.appendChild(frag);
   _gPage++;
   if(_gPage*GRID_PG < _gList.length){
@@ -1117,6 +1170,9 @@ function openDetail(id){
   const mergedOff = (offTmx && _hasTmx && _kind(r) === 'tmx') ? `<div class="d-sec">Version officielle Cookidoo</div>${officialHtml(offTmx, true)}` : '';
   if (offAf) tabList.push({off: offAf, kind: 'afo', label: '🌪️ Airfryer officiel'});
   tabList.sort((x,y) => _order[x.kind] - _order[y.kind]);
+  const _fam = FAMS.get(String(r.id));
+  const famRow = _fam ? `<div class="d-fam"><div class="d-fam-h">🔀 ${esc(_fam.name)} · ${_fam.ids.length} déclinaisons</div>
+  <div class="d-fam-chips">${_fam.ids.map(id => `<button class="d-fam-chip${id === String(r.id) ? ' active' : ''}" data-id="${esc(id)}">${esc(_fam.labels[id])}</button>`).join('')}</div></div>` : '';
   const variantTabs = tabList.length > 1 ? `<div class="d-variant-tabs">
   ${tabList.map((t,k)=>`<button class="d-variant-tab${t.id===r.id?' active':''}${t.off?' off':''}" data-k="${k}">${t.label}</button>`).join('\n  ')}
 </div>` : '';
@@ -1127,6 +1183,7 @@ function openDetail(id){
     <div class="d-scroll">
       <div class="d-hero">${hero}</div>
       <div class="d-body">
+        ${famRow}
         ${variantTabs}
         <div class="d-title">${esc(r.t)}</div>
         <div class="d-meta">${tags}</div>
@@ -1157,6 +1214,9 @@ function openDetail(id){
   elDetail.querySelector('.d-edit').addEventListener('click', ()=> openEdit(r.id));
   elDetail.querySelectorAll('.d-main .ing li:not(.ing-head)').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
   elDetail.querySelector('.tag-cat-btn').addEventListener('click', ()=> openCatPick(r.id));
+  elDetail.querySelectorAll('.d-fam-chip').forEach(btn => btn.addEventListener('click', () => { if (!btn.classList.contains('active')) openDetail(btn.dataset.id); }));
+  const famOn = elDetail.querySelector('.d-fam-chip.active');
+  if (famOn) famOn.parentElement.scrollLeft = famOn.offsetLeft - 16;
   elDetail.querySelectorAll('.d-variant-tab').forEach(btn=>{
     btn.addEventListener('click', ()=>{
       if (btn.classList.contains('active')) return;
@@ -4275,6 +4335,7 @@ async function init(){
   fixLocalSeafoodCats();
   fixLocalCourseCats();
   ALL = mergeEdits();
+  buildFamilies();
   buildIngredientIndex();
   elSub.textContent = `${ALL.length} recettes · v${APP_VERSION}`;
   buildCats();
@@ -4626,7 +4687,7 @@ function qkRender(){
   const el = document.getElementById('quick');
   if (qk.step == null) qk.step = 0;
   const list = qkFilter(qk.answers);
-  const sorted = qk.answers.envie === 'stock' ? list.slice().sort((a, b) => stockRank(qkStockCov(a), qkStockCov(b))) : list;
+  const [sorted, famN] = collapseFamilies(qk.answers.envie === 'stock' ? list.slice().sort((a, b) => stockRank(qkStockCov(a), qkStockCov(b))) : list);
   const total = QK_QUESTIONS.length, done = qk.step >= total;
   const answered = QK_QUESTIONS.map((q, i) => {
     const a = qk.answers[q.key]; const o = a && q.opts(qk.answers).find(x => x.v === a);
@@ -4653,7 +4714,7 @@ function qkRender(){
     ${answered ? `<div class="qk-answers">${answered}</div>` : ''}
     <div class="qk-filters">${body}</div>
     <div class="qk-panel${open ? ' open' : ''}${done ? ' full' : ''}">
-      <button class="qk-handle" id="qk-handle"><b>${list.length}</b> recette${list.length > 1 ? 's' : ''} <span>${open ? '▼' : '▲'}</span></button>
+      <button class="qk-handle" id="qk-handle"><b>${sorted.length}</b> recette${sorted.length > 1 ? 's' : ''} <span>${open ? '▼' : '▲'}</span></button>
       <div class="qk-res">${sorted.length ? '' : '<p class="qk-empty">Aucune recette : change une réponse.</p>'}</div>
     </div>`;
   const grid = el.querySelector('.qk-res');
@@ -4661,7 +4722,7 @@ function qkRender(){
   let shown = 0;
   const more = () => {
     const old = grid.querySelector('.qk-more'); if (old) old.remove();
-    sorted.slice(shown, shown + 40).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
+    sorted.slice(shown, shown + 40).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null, famN.get(r)); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
     shown += 40;
     if (shown < sorted.length){
       const b = document.createElement('button'); b.className = 'qk-more';
