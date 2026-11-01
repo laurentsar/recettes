@@ -33815,6 +33815,85 @@
       ],
       "url": "https://www.marmiton.org/recettes/recette_glace-minute-bananes-framboises_46230.aspx",
       "img": "https://assets.afcdn.com/recipe/20130823/4413_w1024h1024c1cx1920cy2552.jpg"
+    },
+    {
+      "id": "calendrier:001",
+      "t": "Caviar d'aubergines",
+      "cat": "Entrée, Tartinade, Aubergines, Végétarien",
+      "min": 40,
+      "serv": "4 personnes",
+      "img": "img/illus/calendrier-001.jpg",
+      "desc": "Aubergines rôties au four, écrasées avec ail, tahini et huile de colza. Préparation 10 min, cuisson 30 min.",
+      "ing": [
+        "2 belles aubergines",
+        "2 gousses d'ail",
+        "50 g de pâte de sésame (tahini)",
+        "4 c. à soupe d'huile de colza",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Coupez les aubergines en 2, puis piquez leur chair à l'aide d'une fourchette et déposez-les côté peau vers le haut, sur une feuille de papier sulfurisé, sur la grille du four. Cuisez-les à 210 °C (th. 7) pendant 30 min.",
+        "Pendant ce temps, mélangez l'ail pelé et pressé, l'huile et le tahini dans un grand bol.",
+        "Ajoutez la chair des aubergines refroidies, puis mélangez bien le tout à l'aide d'une fourchette. Pour une texture plus lisse, mixez au blender.",
+        "Salez et poivrez au goût, puis servez avec des morceaux de pita grillés."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "calendrier:002",
+      "t": "Estouffade de bœuf aux carottes",
+      "cat": "Plat, Viande, Bœuf",
+      "min": 70,
+      "serv": "4 personnes",
+      "img": "img/photos/calendrier-002.jpg",
+      "desc": "Bœuf et lardons rissolés puis mijotés en cocotte avec carottes, oignons et bouquet garni. Préparation 10 min, cuisson 1 h.",
+      "ing": [
+        "800 g de bœuf à mijoter",
+        "70 g de lardons fumés",
+        "4 carottes",
+        "2 oignons",
+        "3 gousses d'ail",
+        "1 c. à soupe de farine",
+        "1 bouquet garni",
+        "1 l d'eau",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Épluchez les carottes, puis coupez-les en larges tronçons. Réservez.",
+        "Faites rissoler les lardons et le bœuf coupé en gros dés dans une cocotte pendant 5 min.",
+        "Ajoutez les oignons pelés et hachés, l'ail en chemise, puis laissez colorer encore le tout pendant 5 min.",
+        "Saupoudrez de farine et mélangez vigoureusement, puis ajoutez les carottes et le bouquet garni. Versez 1 l d'eau, puis portez à ébullition.",
+        "Couvrez, abaissez le feu et laissez mijoter pendant 50 min. Salez et poivrez avant de déguster."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "calendrier:003",
+      "t": "Expresso shortbread",
+      "cat": "Dessert, Biscuit, Café",
+      "min": 35,
+      "serv": "4 personnes",
+      "img": "img/illus/calendrier-003.jpg",
+      "desc": "Sablés écossais au beurre parfumés au café expresso et à la vanille. Préparation 15 min, repos 1 h, cuisson 20 min.",
+      "ing": [
+        "210 g de farine",
+        "180 g de beurre",
+        "130 g de sucre semoule",
+        "2 c. à soupe de café expresso froid",
+        "1 c. à café d'extrait de vanille liquide",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Au batteur électrique, fouettez dans un saladier le beurre pommadé, l'extrait de vanille, le sel et le sucre pendant 3 min à pleine puissance.",
+        "Ajoutez le café et battez pendant encore 1 min.",
+        "Ajoutez la farine et pétrissez à la main jusqu'à obtention d'une pâte homogène. Abaissez la pâte au rouleau en un pavé de 6 cm de large, pour une épaisseur de 1 cm. Filmez au contact, puis placez au réfrigérateur pendant 1 h.",
+        "Coupez la pâte en bâtonnets de 2 cm de large. Piquez-les de quelques trous à la fourchette, puis enfournez pour 20 min à 180 °C (th. 6).",
+        "Laissez totalement refroidir avant de déguster."
+      ],
+      "url": "",
+      "vid": ""
     }
   ],
   "official": {

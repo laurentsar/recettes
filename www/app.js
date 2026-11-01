@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '4.09';
+const APP_VERSION = '4.10';
 
 let ALL = [];
 let BASE = [];
@@ -447,7 +447,7 @@ function restMinutes(r){
    est classée cuisson (cuire, four, mijoter, poêle, air fryer…), repos (cf. restMinutes) ou
    préparation active (pétrir, fouetter…). Sert à afficher Prépa / Cuisson et à estimer le temps
    des recettes importées qui n'en ont pas. */
-const _COOK_RE = /(cuire|cuisson|cuit|enfourn|four\b|mijot|frire|friture|frit|rotir|griller|grill|gratin|bouill|ebullition|fremi|poel|dorer|dore|revenir|rissol|saisir|saisi|reduire|reduction|braiser|vapeur|blanchir|air ?fryer|airfryer|friteuse|\baf\b|caramelis|fondre|chauffer|chaud|torrefi|confire|pocher|sauter|varoma|degre|°c)/;
+const _COOK_RE = /(cuire|cuisson|cuit|cuise[zn]|enfourn|four\b|mijot|frire|friture|frit|rotir|griller|grill|gratin|bouill|ebullition|fremi|poel|dorer|dore|revenir|rissol|saisir|saisi|reduire|reduction|braiser|vapeur|blanchir|air ?fryer|airfryer|friteuse|\baf\b|caramelis|fondre|chauffer|chaud|torrefi|confire|pocher|sauter|varoma|degre|°c)/;
 const _REST_RE = /(au froid|yaourtiere|fermentation|etuve|refrigerer|refrigerateur|au frais|frigo|reposer|repos|mariner|marinade|lever|pousser|doubler de volume|congelateur|egoutter|infuser|tremper|dessaler|prendre|figer|refroidir|tiedir|attendre|degorger)/;
 const _WORD_DUR = [[/un quart d.heure/g,'15 min'],[/une demi.heure/g,'30 min'],[/trois quarts d.heure/g,'45 min'],[/une heure/g,'1 h'],[/deux heures/g,'2 h'],
   [/une dizaine de minutes/g,'10 min'],[/une quinzaine de minutes/g,'15 min'],[/une vingtaine de minutes/g,'20 min'],[/une trentaine de minutes/g,'30 min'],
@@ -457,6 +457,7 @@ function stepTimes(r){
   if (_timesCache.has(r)) return _timesCache.get(r);
   let txt = norm(stepTexts(r.steps).join('\n'));
   for (const [re, v] of _WORD_DUR) txt = txt.replace(re, v);
+  txt = txt.replace(/\bth\.\s*(?=\d)/g, 'th ');   // « (th. 7) » ne coupe pas la phrase
   const t = { prep: 0, cook: 0 };
   const DUR = /(\d+(?:[.,]\d+)?)(?:\s*(?:a|-|–|ou)\s*(\d+(?:[.,]\d+)?))?\s*(h\b|heures?\b|min(?:utes?)?\b|mn\b|sec(?:ondes?)?\b|s\b)(?:\s*(\d{1,2})\b(?!\s*(?:min|°|g\b|cl|ml)))?/g;
   for (const sent of txt.split(/[.!?;\n]+/)){
@@ -4461,9 +4462,9 @@ const QK = {
   fruit: QK_RX('pomme|poire|banane|fraise|framboise|peche|abricot|citron|orange|mangue|ananas|cerise|myrtille|kiwi|coco|figue|prune|rhubarbe|fruit'),
   creme: QK_RX('creme|flan|mousse|panna cotta|tiramisu|cheesecake|riz au lait|charlotte|oeufs au lait|yaourt|crema|pudim|toucinho|gelato|glace|sorbet|souffle|ile flottante|creme brulee|creme catalane|semifreddo|parfait|verrine'),
   pate: QK_RX('gateau|tarte|biscuit|cookie|brioche|crepe|gaufre|cake|genoise|buche|madeleine|beignet|muffin|cannele|viennoiserie|chou|chouquette|bugne|churros|donut|galette|pain perdu|pastel|pasteis|sable|canistrelli|fritelli|polvoron|torrija|ensaimada|rabanada|queijada|bolo|cannoli|torta|meringue|migliacci|imbrucciata|fiadone|financier|macaron|tuile|palmier|croissant|pain au chocolat|kouign|far|clafoutis|crumble|fondant|moelleux|cheesecake|tiramisu|strudel|baklava|corne de gazelle'),
-  four: QK_RX('four|enfourner|gratiner|prechauffe[rz]?|th[0-9]'),
+  four: QK_RX('four|enfourne[rz]?|gratiner|prechauffe[rz]?|th[0-9]'),
   feu: QK_RX('poele|casserole|sauteuse|wok|cocotte|faitout|mijoter|frire|friture|revenir|saisir|plancha|suer|rissoler|braiser|pocher|blanchir|bouillir|ebullition|griller|gril|barbecue|bbq|gaufrier|crepiere|feu doux|feu moyen|feu vif'),
-  cuisson: QK_RX('cuire|cuisson|four|enfourner|poele|casserole|cocotte|frire|griller|rotir|mijoter|bouillir|dorer|airfryer|air fryer|micro-ondes'),
+  cuisson: QK_RX('cuire|cuise[zn]|cuisson|four|enfourne[rz]?|poele|casserole|cocotte|frire|griller|rotir|mijoter|bouillir|dorer|airfryer|air fryer|micro-ondes'),
   leger: QK_RX('leger|legere|light|minceur|salade|vapeur|healthy|detox|ww|sans matiere grasse|veloute|gaspacho'),
   reconfort: QK_RX('gratin|raclette|tartiflette|fondue|mijote|ragout|bourguignon|blanquette|lasagne|puree|parmentier|soupe|pot-au-feu|cassoulet|choucroute|daube|chili|curry|risotto|crumble|fondant|brioche|croziflette|aligot'),
   recevoir: QK_RX('noel|fete|buche|foie gras|saint-jacques|homard|langouste|caviar|wellington|chapon|magret|truffe|champagne|paella|couscous royal|osso|carpaccio|tartare|verrine|feuillete|mignardise'),
