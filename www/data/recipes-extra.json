@@ -2986,6 +2986,10 @@
         "Pour finir",
         "Servez très chaud avec le reste du parmesan."
       ]
+    },
+    {
+      "id": "dropbox:65f604c7-d374-43a8-bd55-c14d657118c1",
+      "cat": "Plat, Fruits de mer, Noël"
     }
   ],
   "recipes": [
@@ -9555,7 +9559,7 @@
     {
       "id": "gb:003",
       "t": "Beef Wellington",
-      "cat": "Grande-Bretagne, Plat, Bœuf, Viande",
+      "cat": "Grande-Bretagne, Plat, Bœuf, Viande, Noël",
       "min": 90,
       "serv": 6,
       "desc": "L'élégant rôti de bœuf en croûte — filet de bœuf enrobé de duxelles de champignons, serrano et pâte feuilletée. Le plat de fête britannique par excellence.",
@@ -33894,6 +33898,273 @@
       ],
       "url": "",
       "vid": ""
+    },
+    {
+      "id": "noel:001",
+      "t": "Saumon Wellington",
+      "cat": "Plat, Poisson, Noël",
+      "min": 55,
+      "serv": "6 personnes",
+      "img": "img/illus/noel-001.jpg",
+      "desc": "Filet de saumon en croûte feuilletée sur une farce épinards, fromage frais, citron et aneth.",
+      "ing": [
+        "1 filet de saumon sans peau (800 g)",
+        "2 pâtes feuilletées",
+        "400 g d'épinards frais",
+        "150 g de fromage frais ail et fines herbes",
+        "1 échalote",
+        "1 citron (zeste)",
+        "2 c. à soupe d'aneth ciselé",
+        "15 g de beurre",
+        "1 jaune d'œuf",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Faire fondre l'échalote hachée dans le beurre, ajouter les épinards et les faire tomber 3 min. Égoutter en pressant bien, puis laisser refroidir.",
+        "Hacher les épinards et les mélanger avec le fromage frais, le zeste de citron et l'aneth. Saler, poivrer.",
+        "Préchauffer le four à 200 °C. Dérouler une pâte sur une plaque couverte de papier cuisson, étaler la moitié de la farce au centre, poser le saumon salé et poivré, puis couvrir du reste de farce.",
+        "Couvrir avec la seconde pâte, souder les bords en pressant et retirer l'excédent. Dorer au jaune d'œuf, quadriller la surface avec la pointe d'un couteau et faire 2 petites cheminées.",
+        "Enfourner 35 à 40 min, jusqu'à ce que la pâte soit bien dorée. Laisser reposer 10 min avant de trancher."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "noel:002",
+      "t": "Chapon rôti aux marrons",
+      "cat": "Plat, Volaille, Noël",
+      "min": 155,
+      "serv": "8 personnes",
+      "img": "img/illus/noel-002.jpg",
+      "desc": "Chapon rôti au four, arrosé de son jus, avec marrons et pommes de terre grenaille.",
+      "ing": [
+        "1 chapon (3 kg)",
+        "600 g de marrons cuits sous vide",
+        "400 g de pommes de terre grenaille",
+        "2 oignons",
+        "4 gousses d'ail",
+        "60 g de beurre mou",
+        "10 cl de vin blanc",
+        "20 cl de bouillon de volaille",
+        "2 branches de thym",
+        "1 branche de romarin",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Sortir le chapon du réfrigérateur 1 h avant. Préchauffer le four à 180 °C.",
+        "Saler et poivrer l'intérieur, y glisser 1 oignon coupé en quatre, l'ail et le thym. Brider le chapon, l'enduire de beurre mou, saler et poivrer.",
+        "Le poser dans un grand plat avec le second oignon en quartiers, verser le vin et le bouillon. Enfourner 2 h 30 en arrosant toutes les 20 min ; couvrir d'aluminium si la peau colore trop.",
+        "45 min avant la fin, ajouter les pommes de terre et le romarin autour du chapon ; 20 min avant la fin, ajouter les marrons et les enrober de jus.",
+        "Vérifier la cuisson : le jus qui s'écoule de la cuisse piquée doit être clair. Laisser reposer 15 min sous aluminium, découper et servir avec le jus dégraissé."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "noel:003",
+      "t": "Magret de canard miel et orange",
+      "cat": "Plat, Viande, Canard, Noël",
+      "min": 27,
+      "serv": "4 personnes",
+      "img": "img/illus/noel-003.jpg",
+      "desc": "Magrets rosés, sauce caramélisée au miel, orange et vinaigre balsamique.",
+      "ing": [
+        "2 magrets de canard",
+        "2 oranges",
+        "2 c. à soupe de miel",
+        "2 c. à soupe de vinaigre balsamique",
+        "10 cl de fond de volaille",
+        "1 pincée de cannelle (facultatif)",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Quadriller la peau des magrets sans entailler la chair. Presser 1 orange ; peler l'autre à vif et la couper en tranches.",
+        "Cuire les magrets côté peau dans une poêle froide, à feu moyen, pendant 8 min en retirant la graisse au fur et à mesure. Retourner et cuire 4 min côté chair.",
+        "Envelopper les magrets dans du papier aluminium et laisser reposer 8 min.",
+        "Jeter la graisse de la poêle. Faire caraméliser le miel 1 min, déglacer avec le vinaigre, le jus d'orange et le fond. Ajouter la cannelle et laisser réduire 4 min jusqu'à consistance sirupeuse. Ajouter les tranches d'orange 1 min. Saler, poivrer.",
+        "Trancher les magrets, napper de sauce et servir avec les tranches d'orange."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "noel:004",
+      "t": "Homard rôti au beurre d'herbes",
+      "cat": "Plat, Fruits de mer, Noël",
+      "min": 40,
+      "serv": "4 personnes",
+      "img": "img/illus/noel-004.jpg",
+      "desc": "Demi-homards rôtis au four sous un beurre ail, persil, ciboulette et citron.",
+      "ing": [
+        "2 homards vivants (600 à 700 g chacun)",
+        "80 g de beurre mou",
+        "2 gousses d'ail",
+        "2 c. à soupe de persil haché",
+        "1 c. à soupe de ciboulette ciselée",
+        "1 citron",
+        "30 g de chapelure (facultatif)",
+        "Piment d'Espelette",
+        "Fleur de sel"
+      ],
+      "steps": [
+        "Plonger les homards 2 min dans une grande casserole d'eau bouillante salée, puis les refroidir dans de l'eau glacée.",
+        "Préchauffer le four à 220 °C. Couper les homards en deux dans la longueur, retirer la poche de sable et le boyau, puis casser légèrement les pinces.",
+        "Mélanger le beurre, l'ail pressé, le persil, la ciboulette, le zeste du citron, la chapelure et une pincée de piment d'Espelette.",
+        "Poser les demi-homards sur une plaque, chair vers le haut, et les tartiner de beurre d'herbes. Enfourner 10 à 12 min : la chair doit devenir opaque.",
+        "Servir aussitôt avec des quartiers de citron et un peu de fleur de sel."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "noel:005",
+      "t": "Pintade aux morilles",
+      "cat": "Plat, Volaille, Noël",
+      "min": 60,
+      "serv": "4 personnes",
+      "img": "img/illus/noel-005.jpg",
+      "desc": "Pintade mijotée en cocotte au vin jaune, sauce crémée aux morilles.",
+      "ing": [
+        "1 pintade (1,4 kg) coupée en 8 morceaux",
+        "30 g de morilles séchées",
+        "2 échalotes",
+        "10 cl de vin jaune (ou vin blanc sec)",
+        "30 cl de crème fraîche épaisse",
+        "20 cl de bouillon de volaille",
+        "30 g de beurre",
+        "1 c. à soupe d'huile",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Faire tremper les morilles 30 min dans de l'eau tiède. Les égoutter en gardant l'eau de trempage filtrée, puis les rincer pour enlever le sable.",
+        "Dans une cocotte, dorer les morceaux de pintade dans le beurre et l'huile 10 min sur toutes les faces. Saler, poivrer et réserver.",
+        "Faire revenir les échalotes émincées 2 min, déglacer au vin jaune, puis ajouter le bouillon et 10 cl d'eau de trempage. Remettre la pintade, couvrir et laisser mijoter 35 min à feu doux.",
+        "Ajouter les morilles et la crème, puis poursuivre 15 min à découvert, jusqu'à ce que la sauce nappe. Rectifier l'assaisonnement.",
+        "Servir avec du riz, des pâtes fraîches ou une purée."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "noel:006",
+      "t": "Filet mignon de veau sauce forestière",
+      "cat": "Plat, Viande, Veau, Noël",
+      "min": 40,
+      "serv": "4 personnes",
+      "img": "img/illus/noel-006.jpg",
+      "desc": "Filet mignon de veau rosé, sauce crémée aux champignons des bois.",
+      "ing": [
+        "1 filet mignon de veau (600 g)",
+        "400 g de champignons mélangés (girolles, cèpes, champignons de Paris)",
+        "2 échalotes",
+        "1 gousse d'ail",
+        "10 cl de vin blanc sec",
+        "10 cl de fond de veau",
+        "20 cl de crème liquide entière",
+        "30 g de beurre",
+        "1 c. à soupe d'huile",
+        "Persil plat",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180 °C. Saisir le filet mignon dans l'huile et 10 g de beurre, 5 min sur toutes les faces, dans une poêle allant au four.",
+        "Enfourner 15 à 18 min (cœur rosé à 60 °C), puis couvrir d'aluminium et laisser reposer 10 min.",
+        "Pendant ce temps, faire sauter les champignons nettoyés et coupés 6 min à feu vif dans le reste du beurre. Ajouter les échalotes et l'ail hachés, cuire 2 min.",
+        "Déglacer au vin blanc et réduire de moitié. Ajouter le fond de veau et la crème, laisser réduire 5 min jusqu'à ce que la sauce nappe. Saler, poivrer, ajouter le persil.",
+        "Trancher le filet mignon, napper de sauce forestière et servir avec des pommes de terre rôties."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "noel:007",
+      "t": "Saint-Jacques gratinées",
+      "cat": "Entrée, Fruits de mer, Saint-Jacques, Noël",
+      "min": 30,
+      "serv": "4 personnes",
+      "img": "img/illus/noel-007.jpg",
+      "desc": "Noix de Saint-Jacques en coquille, sauce crème et champignons, gratinées au four.",
+      "ing": [
+        "12 noix de Saint-Jacques (et 4 coquilles vides)",
+        "150 g de champignons de Paris",
+        "2 échalotes",
+        "10 cl de vin blanc sec",
+        "20 cl de crème fraîche",
+        "40 g de gruyère râpé",
+        "2 c. à soupe de chapelure",
+        "20 g de beurre",
+        "Persil",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four en position gril. Faire revenir les échalotes et les champignons émincés dans le beurre 5 min.",
+        "Déglacer au vin blanc, laisser réduire 2 min, puis ajouter la crème et laisser épaissir 3 min. Saler, poivrer et ajouter le persil.",
+        "Saisir les noix de Saint-Jacques 30 secondes de chaque côté dans une poêle très chaude.",
+        "Répartir un peu de sauce dans les coquilles, poser 3 noix dans chacune et napper du reste de sauce. Parsemer de gruyère et de chapelure.",
+        "Glisser sous le gril 4 à 5 min, jusqu'à ce que le dessus soit gratiné. Servir aussitôt."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "noel:008",
+      "t": "Épaule d'agneau confite aux herbes",
+      "cat": "Plat, Viande, Agneau, Noël",
+      "min": 245,
+      "serv": "6 personnes",
+      "img": "img/illus/noel-008.jpg",
+      "desc": "Épaule d'agneau cuite 3 h 30 à basse température avec ail, thym et romarin : la viande se détache à la cuillère.",
+      "ing": [
+        "1 épaule d'agneau avec os (1,8 kg)",
+        "1 tête d'ail",
+        "4 branches de romarin",
+        "6 branches de thym",
+        "1 c. à soupe d'herbes de Provence",
+        "4 c. à soupe d'huile d'olive",
+        "20 cl de vin blanc",
+        "20 cl de bouillon",
+        "800 g de pommes de terre grenaille",
+        "Fleur de sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 150 °C. Inciser l'épaule et y glisser 4 gousses d'ail en lamelles. La frotter avec l'huile, les herbes de Provence, sel et poivre.",
+        "Poser l'épaule dans une cocotte avec le reste de l'ail en chemise, le romarin et le thym. Verser le vin et le bouillon.",
+        "Couvrir et enfourner 3 h 30, en arrosant toutes les 45 min : la viande doit se détacher à la cuillère.",
+        "1 h avant la fin, ajouter les pommes de terre autour de l'épaule.",
+        "Retirer le couvercle, monter le four à 200 °C et faire dorer 15 min. Servir à la cuillère avec le jus et l'ail confit."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "noel:009",
+      "t": "Lotte sauce au safran",
+      "cat": "Plat, Poisson, Noël",
+      "min": 25,
+      "serv": "4 personnes",
+      "img": "img/illus/noel-009.jpg",
+      "desc": "Médaillons de lotte dorés au beurre, sauce crémée au vin blanc et au safran.",
+      "ing": [
+        "800 g de lotte (4 médaillons)",
+        "1 dose de safran (0,1 g)",
+        "2 échalotes",
+        "10 cl de vin blanc sec",
+        "10 cl de fumet de poisson",
+        "20 cl de crème liquide entière",
+        "30 g de beurre",
+        "1 c. à soupe de farine",
+        "Ciboulette",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Faire infuser le safran 10 min dans le fumet de poisson chaud.",
+        "Saler, poivrer et fariner légèrement les médaillons de lotte. Les dorer 3 min par face dans 20 g de beurre, puis réserver.",
+        "Dans la même poêle, faire fondre les échalotes ciselées 2 min dans le reste du beurre. Déglacer au vin blanc et réduire de moitié.",
+        "Ajouter le fumet safrané et la crème, laisser réduire 5 min. Remettre la lotte et cuire 5 min à feu doux en l'arrosant de sauce.",
+        "Parsemer de ciboulette et servir avec du riz ou des pommes vapeur."
+      ],
+      "url": "",
+      "vid": ""
     }
   ],
   "official": {
@@ -35304,15 +35575,16 @@
       "head": "Roulés"
     },
     {
-      "name": "Saint-Jacques poêlées",
+      "name": "Saint-Jacques",
       "ids": [
         "stjacques:001",
         "stjacques:002",
         "stjacques:003",
         "stjacques:004",
-        "stjacques:005"
+        "stjacques:005",
+        "noel:007"
       ],
-      "head": "Saint-Jacques Poêlées"
+      "head": "Saint-Jacques"
     },
     {
       "name": "Salades de pâtes",
@@ -35694,6 +35966,28 @@
       "labels": {
         "japon:006": "Brochettes",
         "japon:023": "Grillées"
+      }
+    },
+    {
+      "name": "Wellington",
+      "ids": [
+        "gb:003",
+        "noel:001"
+      ],
+      "labels": {
+        "gb:003": "Bœuf",
+        "noel:001": "Saumon"
+      }
+    },
+    {
+      "name": "Homard",
+      "ids": [
+        "noel:004",
+        "dropbox:65f604c7-d374-43a8-bd55-c14d657118c1"
+      ],
+      "labels": {
+        "noel:004": "Rôti au beurre d'herbes",
+        "dropbox:65f604c7-d374-43a8-bd55-c14d657118c1": "Queues grillées"
       }
     }
   ]
