@@ -2042,9 +2042,22 @@ function showImportPreview(data){
   el.scrollIntoView({ behavior:'smooth' });
 }
 
+/* Doublons : même lien source, ou même titre une fois retirés casse, accents, ponctuation,
+   parenthèses et mots vides (« Chou farci facile » = « Chou farci »). Thermomix / Airfryer restent distincts. */
+const DUP_STOP = /\b(recette|facile|maison|rapide|vrai|la|le|les|de|du|des|d|l|a|au|aux|et|en)\b/g;
+function dupKey(t){ return norm(tidyTitle(t)).replace(/\(.*?\)/g, ' ').replace(/[^a-z0-9]+/g, ' ').replace(DUP_STOP, ' ').replace(/\s+/g, ' ').trim(); }
+function urlKey(u){ return String(u || '').trim().toLowerCase().replace(/^https?:\/\/(www\.)?/, '').replace(/[?#].*$/, '').replace(/\/+$/, ''); }
+function findDuplicate(t, url){
+  const k = dupKey(t), u = urlKey(url);
+  return ALL.find(r => (u && urlKey(r.url) === u) || (k && dupKey(r.t) === k));
+}
 function saveImportedRecipe(url='', vid=''){
   const t = document.getElementById('ip-t').value.trim();
   if(!t){ toast('Le titre est obligatoire'); return; }
+  const dup = findDuplicate(t, url);
+  if (dup && !confirm(`« ${dup.t} » est déjà dans tes recettes.\n\nOK : l'ajouter quand même\nAnnuler : ouvrir la recette existante`)){
+    closeImport(); openDetail(dup.id); return;
+  }
   const ing = document.getElementById('ip-ing').value.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
   const r = {
     id:'imp-'+Date.now(), t,
