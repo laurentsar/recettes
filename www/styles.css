@@ -843,3 +843,12 @@ body{background:var(--bg);color:var(--text);min-height:100vh;
 .qk-nav button{border:none;background:none;color:var(--muted);font-size:.95em;font-weight:700;cursor:pointer;padding:8px}
 .qk-panel.full{flex:1 1 auto;height:auto;min-height:0}
 .editview.quick:has(.qk-panel.full) .qk-filters{flex:0 0 auto}
+
+/* Familles : déclinaisons d'une même recette */
+.fbadge{display:inline-block;font-size:.72em;padding:1px 7px;margin:3px 0 2px;border-radius:9px;background:rgba(224,122,63,.14);color:var(--accent);border:1px solid rgba(224,122,63,.45);font-weight:700}
+.d-fam{margin:0 0 14px}
+.d-fam-h{font-size:.8em;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin:0 0 7px}
+.d-fam-chips{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px;position:relative}
+.d-fam-chips::-webkit-scrollbar{display:none}
+.d-fam-chip{flex:0 0 auto;white-space:nowrap;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:.88em;font-weight:600;cursor:pointer}
+.d-fam-chip.active{background:var(--accent);border-color:var(--accent);color:#fff}

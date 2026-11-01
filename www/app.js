@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '4.09';
+const APP_VERSION = '4.10';
 
 let ALL = [];
 let BASE = [];
@@ -60,7 +60,7 @@ function tidyRecipe(r){
   }
   return out;
 }
-function refreshAll(){ ALL = mergeEdits(); buildIngredientIndex(); buildCats(); renderDaily(); renderCellarHome(); renderGrid(); }
+function refreshAll(){ ALL = mergeEdits(); buildFamilies(); buildIngredientIndex(); buildCats(); renderDaily(); renderCellarHome(); renderGrid(); }
 
 /* ---------- extra : suppressions + surcharges + recettes custom ---------- */
 function applyExtra(recipes, extra){
@@ -447,7 +447,7 @@ function restMinutes(r){
    est classée cuisson (cuire, four, mijoter, poêle, air fryer…), repos (cf. restMinutes) ou
    préparation active (pétrir, fouetter…). Sert à afficher Prépa / Cuisson et à estimer le temps
    des recettes importées qui n'en ont pas. */
-const _COOK_RE = /(cuire|cuisson|cuit|enfourn|four\b|mijot|frire|friture|frit|rotir|griller|grill|gratin|bouill|ebullition|fremi|poel|dorer|dore|revenir|rissol|saisir|saisi|reduire|reduction|braiser|vapeur|blanchir|air ?fryer|airfryer|friteuse|\baf\b|caramelis|fondre|chauffer|chaud|torrefi|confire|pocher|sauter|varoma|degre|°c)/;
+const _COOK_RE = /(cuire|cuisson|cuit|cuise[zn]|enfourn|four\b|mijot|frire|friture|frit|rotir|griller|grill|gratin|bouill|ebullition|fremi|poel|dorer|dore|revenir|rissol|saisir|saisi|reduire|reduction|braiser|vapeur|blanchir|air ?fryer|airfryer|friteuse|\baf\b|caramelis|fondre|chauffer|chaud|torrefi|confire|pocher|sauter|varoma|degre|°c)/;
 const _REST_RE = /(au froid|yaourtiere|fermentation|etuve|refrigerer|refrigerateur|au frais|frigo|reposer|repos|mariner|marinade|lever|pousser|doubler de volume|congelateur|egoutter|infuser|tremper|dessaler|prendre|figer|refroidir|tiedir|attendre|degorger)/;
 const _WORD_DUR = [[/un quart d.heure/g,'15 min'],[/une demi.heure/g,'30 min'],[/trois quarts d.heure/g,'45 min'],[/une heure/g,'1 h'],[/deux heures/g,'2 h'],
   [/une dizaine de minutes/g,'10 min'],[/une quinzaine de minutes/g,'15 min'],[/une vingtaine de minutes/g,'20 min'],[/une trentaine de minutes/g,'30 min'],
@@ -457,6 +457,7 @@ function stepTimes(r){
   if (_timesCache.has(r)) return _timesCache.get(r);
   let txt = norm(stepTexts(r.steps).join('\n'));
   for (const [re, v] of _WORD_DUR) txt = txt.replace(re, v);
+  txt = txt.replace(/\bth\.\s*(?=\d)/g, 'th ');   // « (th. 7) » ne coupe pas la phrase
   const t = { prep: 0, cook: 0 };
   const DUR = /(\d+(?:[.,]\d+)?)(?:\s*(?:a|-|–|ou)\s*(\d+(?:[.,]\d+)?))?\s*(h\b|heures?\b|min(?:utes?)?\b|mn\b|sec(?:ondes?)?\b|s\b)(?:\s*(\d{1,2})\b(?!\s*(?:min|°|g\b|cl|ml)))?/g;
   for (const sent of txt.split(/[.!?;\n]+/)){
@@ -853,7 +854,52 @@ function collapseVariants(list){
   });
   return hide.size ? list.filter(r => !hide.has(String(r.id))) : list;
 }
-function card(r, cov){
+/* ---------- familles : déclinaisons d'une même recette ----------
+   Définies dans recipes-extra.json (families : nom, ids, head = début de titre commun, labels).
+   Dans les listes, une famille n'a qu'une carte (« 🔀 N déclinaisons ») ; la fiche montre
+   toutes les déclinaisons en pastilles. */
+let FAMS = new Map();   // id → famille
+function buildFamilies(){
+  FAMS = new Map();
+  const have = new Set(ALL.map(r => String(r.id)));
+  const byId = new Map(ALL.map(r => [String(r.id), r]));
+  for (const f0 of (EXTRA.families || [])){
+    const ids = (f0.ids || []).map(String).filter(id => have.has(id));
+    if (ids.length < 2) continue;
+    const head = f0.head ? new RegExp('^\\s*(' + f0.head + ')\\s*', 'i') : null;
+    const f = { name: f0.name, ids, labels: {} };
+    ids.forEach(id => {
+      let l = (f0.labels || {})[id];
+      if (!l){
+        l = byId.get(id).t;
+        if (head) l = l.replace(head, '').replace(/^(au|aux|à la|à l'|de la|de|des|du|d'|à)\s*/i, '').replace(/^[\s,:&–-]+/, '').trim();
+        if (!l) l = 'Classique';
+        l = l[0].toUpperCase() + l.slice(1);
+      }
+      f.labels[id] = l;
+      FAMS.set(id, f);
+    });
+  }
+}
+// Une carte par famille : la première déclinaison présente (ordre de la famille) la représente,
+// à la place du premier membre rencontré dans la liste. Renvoie [liste, Map recette → nb de déclinaisons].
+function collapseFamilies(list){
+  const inList = new Set(list.map(r => String(r.id)));
+  const byId = new Map(list.map(r => [String(r.id), r]));
+  const done = new Set(), out = [], counts = new Map();
+  for (const r of list){
+    const f = FAMS.get(String(r.id));
+    if (!f){ out.push(r); continue; }
+    if (done.has(f)) continue;
+    done.add(f);
+    const members = f.ids.filter(id => inList.has(id));
+    const lead = byId.get(members[0]);
+    out.push(lead);
+    if (members.length > 1) counts.set(lead, members.length);
+  }
+  return [out, counts];
+}
+function card(r, cov, famN){
   const fav = favs.has(r.id) ? 'fav-badge' : '';
   const img = r.img
     ? `<img class="thumb" src="${esc(r.img)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=ph>🍽️</div>'">`
@@ -862,11 +908,14 @@ function card(r, cov){
   const miss = cov ? cov.total - cov.covered : 0;
   const stock = cov ? `<div class="stock-cov ${miss?'':'ok'}">🧺 ${cov.covered}/${cov.total} en stock · ${miss ? `manque ${miss}` : 'tout y est'}</div>` : '';
   const vars = variantBadges(r);
+  const f = famN && FAMS.get(String(r.id));
+  const title = f ? f.name : r.t;
+  const fam = f ? `<div class="fbadge">🔀 ${famN} déclinaisons</div>` : '';
   return `<div class="rcard ${fav}" data-id="${esc(r.id)}">${img}
-    <div class="info"><div class="rt">${esc(r.t)}</div>${vars}<div class="meta">${esc(meta)}</div>${stock}</div></div>`;
+    <div class="info"><div class="rt">${esc(title)}</div>${fam}${vars}<div class="meta">${esc(meta)}</div>${stock}</div></div>`;
 }
 const GRID_PG = 48;
-let _gList = [], _gPage = 0, _gObs = null, _gCov = null;
+let _gList = [], _gPage = 0, _gObs = null, _gCov = null, _gFam = new Map();
 
 /* Tri « Mes stocks » : d'abord les recettes où il manque le moins d'ingrédients,
    puis celles qui utilisent le plus de produits en stock ; celles sans aucun
@@ -893,10 +942,15 @@ function sortByStock(list){
 
 function renderGrid(){
   if(appMode === 'cocktails') return;
-  _gList = collapseVariants(filtered()); _gPage = 0; _gCov = null;
+  // Catégorie choisie (onglet Crêpes salées, Wraps…) : on montre chaque déclinaison.
+  _gList = collapseVariants(filtered()); _gFam = new Map();
+  if (!state.cats.length) [_gList, _gFam] = collapseFamilies(_gList);
+  _gPage = 0; _gCov = null;
+  const _nDecl = [..._gFam.values()].reduce((a, n) => a + n - 1, 0);
   if (stockSort) _gList = sortByStock(_gList);
   const _dietLabel = {sansgluten:'sans gluten',proteines:'riches en protéines',antiinflamm:'anti-inflammatoires',vegetarien:'végétariennes',vegan:'vegan',keto:'keto',rapide:'rapides (≤30 min)'}[state.diet] || '';
   elStatus.textContent = `${_gList.length} recette${_gList.length>1?'s':''}`
+    + (_nDecl ? ` (+ ${_nDecl} déclinaison${_nDecl>1?'s':''})` : '')
     + (_dietLabel ? ` ${_dietLabel}` : '')
     + (state.fav?' en favoris':'')
     + (_gCov ? ` · ${_gCov.size} avec des produits en stock, en tête` : '');
@@ -935,7 +989,7 @@ function _gridAppendPage(){
   const slice = _gList.slice(_gPage*GRID_PG, (_gPage+1)*GRID_PG);
   if(!slice.length) return;
   const frag = document.createDocumentFragment();
-  slice.forEach(r=>{ const d=document.createElement('div'); d.innerHTML=card(r, _gCov && _gCov.get(r)); const c=d.firstElementChild; c.addEventListener('click',()=>openDetail(c.dataset.id)); frag.appendChild(c); });
+  slice.forEach(r=>{ const d=document.createElement('div'); d.innerHTML=card(r, _gCov && _gCov.get(r), _gFam.get(r)); const c=d.firstElementChild; c.addEventListener('click',()=>openDetail(c.dataset.id)); frag.appendChild(c); });
   elGrid.appendChild(frag);
   _gPage++;
   if(_gPage*GRID_PG < _gList.length){
@@ -1116,6 +1170,9 @@ function openDetail(id){
   const mergedOff = (offTmx && _hasTmx && _kind(r) === 'tmx') ? `<div class="d-sec">Version officielle Cookidoo</div>${officialHtml(offTmx, true)}` : '';
   if (offAf) tabList.push({off: offAf, kind: 'afo', label: '🌪️ Airfryer officiel'});
   tabList.sort((x,y) => _order[x.kind] - _order[y.kind]);
+  const _fam = FAMS.get(String(r.id));
+  const famRow = _fam ? `<div class="d-fam"><div class="d-fam-h">🔀 ${esc(_fam.name)} · ${_fam.ids.length} déclinaisons</div>
+  <div class="d-fam-chips">${_fam.ids.map(id => `<button class="d-fam-chip${id === String(r.id) ? ' active' : ''}" data-id="${esc(id)}">${esc(_fam.labels[id])}</button>`).join('')}</div></div>` : '';
   const variantTabs = tabList.length > 1 ? `<div class="d-variant-tabs">
   ${tabList.map((t,k)=>`<button class="d-variant-tab${t.id===r.id?' active':''}${t.off?' off':''}" data-k="${k}">${t.label}</button>`).join('\n  ')}
 </div>` : '';
@@ -1126,6 +1183,7 @@ function openDetail(id){
     <div class="d-scroll">
       <div class="d-hero">${hero}</div>
       <div class="d-body">
+        ${famRow}
         ${variantTabs}
         <div class="d-title">${esc(r.t)}</div>
         <div class="d-meta">${tags}</div>
@@ -1156,6 +1214,9 @@ function openDetail(id){
   elDetail.querySelector('.d-edit').addEventListener('click', ()=> openEdit(r.id));
   elDetail.querySelectorAll('.d-main .ing li:not(.ing-head)').forEach(li=> li.addEventListener('click',()=> li.classList.toggle('done')));
   elDetail.querySelector('.tag-cat-btn').addEventListener('click', ()=> openCatPick(r.id));
+  elDetail.querySelectorAll('.d-fam-chip').forEach(btn => btn.addEventListener('click', () => { if (!btn.classList.contains('active')) openDetail(btn.dataset.id); }));
+  const famOn = elDetail.querySelector('.d-fam-chip.active');
+  if (famOn) famOn.parentElement.scrollLeft = famOn.offsetLeft - 16;
   elDetail.querySelectorAll('.d-variant-tab').forEach(btn=>{
     btn.addEventListener('click', ()=>{
       if (btn.classList.contains('active')) return;
@@ -2041,9 +2102,22 @@ function showImportPreview(data){
   el.scrollIntoView({ behavior:'smooth' });
 }
 
+/* Doublons : même lien source, ou même titre une fois retirés casse, accents, ponctuation,
+   parenthèses et mots vides (« Chou farci facile » = « Chou farci »). Thermomix / Airfryer restent distincts. */
+const DUP_STOP = /\b(recette|facile|maison|rapide|vrai|la|le|les|de|du|des|d|l|a|au|aux|et|en)\b/g;
+function dupKey(t){ return norm(tidyTitle(t)).replace(/\(.*?\)/g, ' ').replace(/[^a-z0-9]+/g, ' ').replace(DUP_STOP, ' ').replace(/\s+/g, ' ').trim(); }
+function urlKey(u){ return String(u || '').trim().toLowerCase().replace(/^https?:\/\/(www\.)?/, '').replace(/[?#].*$/, '').replace(/\/+$/, ''); }
+function findDuplicate(t, url){
+  const k = dupKey(t), u = urlKey(url);
+  return ALL.find(r => (u && urlKey(r.url) === u) || (k && dupKey(r.t) === k));
+}
 function saveImportedRecipe(url='', vid=''){
   const t = document.getElementById('ip-t').value.trim();
   if(!t){ toast('Le titre est obligatoire'); return; }
+  const dup = findDuplicate(t, url);
+  if (dup && !confirm(`« ${dup.t} » est déjà dans tes recettes.\n\nOK : l'ajouter quand même\nAnnuler : ouvrir la recette existante`)){
+    closeImport(); openDetail(dup.id); return;
+  }
   const ing = document.getElementById('ip-ing').value.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
   const r = {
     id:'imp-'+Date.now(), t,
@@ -4261,6 +4335,7 @@ async function init(){
   fixLocalSeafoodCats();
   fixLocalCourseCats();
   ALL = mergeEdits();
+  buildFamilies();
   buildIngredientIndex();
   elSub.textContent = `${ALL.length} recettes · v${APP_VERSION}`;
   buildCats();
@@ -4461,9 +4536,9 @@ const QK = {
   fruit: QK_RX('pomme|poire|banane|fraise|framboise|peche|abricot|citron|orange|mangue|ananas|cerise|myrtille|kiwi|coco|figue|prune|rhubarbe|fruit'),
   creme: QK_RX('creme|flan|mousse|panna cotta|tiramisu|cheesecake|riz au lait|charlotte|oeufs au lait|yaourt|crema|pudim|toucinho|gelato|glace|sorbet|souffle|ile flottante|creme brulee|creme catalane|semifreddo|parfait|verrine'),
   pate: QK_RX('gateau|tarte|biscuit|cookie|brioche|crepe|gaufre|cake|genoise|buche|madeleine|beignet|muffin|cannele|viennoiserie|chou|chouquette|bugne|churros|donut|galette|pain perdu|pastel|pasteis|sable|canistrelli|fritelli|polvoron|torrija|ensaimada|rabanada|queijada|bolo|cannoli|torta|meringue|migliacci|imbrucciata|fiadone|financier|macaron|tuile|palmier|croissant|pain au chocolat|kouign|far|clafoutis|crumble|fondant|moelleux|cheesecake|tiramisu|strudel|baklava|corne de gazelle'),
-  four: QK_RX('four|enfourner|gratiner|prechauffe[rz]?|th[0-9]'),
+  four: QK_RX('four|enfourne[rz]?|gratiner|prechauffe[rz]?|th[0-9]'),
   feu: QK_RX('poele|casserole|sauteuse|wok|cocotte|faitout|mijoter|frire|friture|revenir|saisir|plancha|suer|rissoler|braiser|pocher|blanchir|bouillir|ebullition|griller|gril|barbecue|bbq|gaufrier|crepiere|feu doux|feu moyen|feu vif'),
-  cuisson: QK_RX('cuire|cuisson|four|enfourner|poele|casserole|cocotte|frire|griller|rotir|mijoter|bouillir|dorer|airfryer|air fryer|micro-ondes'),
+  cuisson: QK_RX('cuire|cuise[zn]|cuisson|four|enfourne[rz]?|poele|casserole|cocotte|frire|griller|rotir|mijoter|bouillir|dorer|airfryer|air fryer|micro-ondes'),
   leger: QK_RX('leger|legere|light|minceur|salade|vapeur|healthy|detox|ww|sans matiere grasse|veloute|gaspacho'),
   reconfort: QK_RX('gratin|raclette|tartiflette|fondue|mijote|ragout|bourguignon|blanquette|lasagne|puree|parmentier|soupe|pot-au-feu|cassoulet|choucroute|daube|chili|curry|risotto|crumble|fondant|brioche|croziflette|aligot'),
   recevoir: QK_RX('noel|fete|buche|foie gras|saint-jacques|homard|langouste|caviar|wellington|chapon|magret|truffe|champagne|paella|couscous royal|osso|carpaccio|tartare|verrine|feuillete|mignardise'),
@@ -4612,7 +4687,7 @@ function qkRender(){
   const el = document.getElementById('quick');
   if (qk.step == null) qk.step = 0;
   const list = qkFilter(qk.answers);
-  const sorted = qk.answers.envie === 'stock' ? list.slice().sort((a, b) => stockRank(qkStockCov(a), qkStockCov(b))) : list;
+  const [sorted, famN] = collapseFamilies(qk.answers.envie === 'stock' ? list.slice().sort((a, b) => stockRank(qkStockCov(a), qkStockCov(b))) : list);
   const total = QK_QUESTIONS.length, done = qk.step >= total;
   const answered = QK_QUESTIONS.map((q, i) => {
     const a = qk.answers[q.key]; const o = a && q.opts(qk.answers).find(x => x.v === a);
@@ -4639,7 +4714,7 @@ function qkRender(){
     ${answered ? `<div class="qk-answers">${answered}</div>` : ''}
     <div class="qk-filters">${body}</div>
     <div class="qk-panel${open ? ' open' : ''}${done ? ' full' : ''}">
-      <button class="qk-handle" id="qk-handle"><b>${list.length}</b> recette${list.length > 1 ? 's' : ''} <span>${open ? '▼' : '▲'}</span></button>
+      <button class="qk-handle" id="qk-handle"><b>${sorted.length}</b> recette${sorted.length > 1 ? 's' : ''} <span>${open ? '▼' : '▲'}</span></button>
       <div class="qk-res">${sorted.length ? '' : '<p class="qk-empty">Aucune recette : change une réponse.</p>'}</div>
     </div>`;
   const grid = el.querySelector('.qk-res');
@@ -4647,7 +4722,7 @@ function qkRender(){
   let shown = 0;
   const more = () => {
     const old = grid.querySelector('.qk-more'); if (old) old.remove();
-    sorted.slice(shown, shown + 40).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
+    sorted.slice(shown, shown + 40).forEach(r => { const d = document.createElement('div'); d.innerHTML = card(r, qk.answers.envie === 'stock' ? qkStockCov(r) : null, famN.get(r)); const c = d.firstElementChild; c.addEventListener('click', () => openDetail(c.dataset.id)); grid.appendChild(c); });
     shown += 40;
     if (shown < sorted.length){
       const b = document.createElement('button'); b.className = 'qk-more';
