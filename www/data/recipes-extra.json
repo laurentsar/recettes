@@ -33894,6 +33894,593 @@
       ],
       "url": "",
       "vid": ""
+    },
+    {
+      "id": "bucheglacee:001",
+      "t": "Bûche Glacée Chocolat Intense",
+      "cat": "Dessert, Noël, Glacé, Sans cuisson, Chocolat",
+      "min": 30,
+      "serv": "1 bûche (8 pers.)",
+      "img": "img/noel/buche1.jpg",
+      "desc": "Bûche glacée sans sorbetière : mousse glacée au chocolat noir sur un croustillant cacao, nappée de ganache.",
+      "ing": [
+        "400 ml de crème liquide entière (30 % MG) très froide",
+        "200 g de chocolat noir à 64 %",
+        "200 g de lait concentré sucré",
+        "1 c. à soupe de cacao en poudre",
+        "150 g de biscuits au cacao (type Oreo sans crème)",
+        "50 g de beurre fondu",
+        "Ganache : 100 g de chocolat noir + 100 ml de crème",
+        "Copeaux de chocolat pour décorer"
+      ],
+      "steps": [
+        "Chemiser un moule à cake ou à bûche (environ 25 cm) de film alimentaire en le laissant dépasser.",
+        "Faire fondre le chocolat au bain-marie, ajouter le lait concentré et le cacao, mélanger et laisser tiédir.",
+        "Fouetter la crème liquide entière très froide en chantilly ferme (bol et fouets passés 10 min au congélateur).",
+        "Incorporer la chantilly au chocolat tiède en deux fois, délicatement à la spatule.",
+        "Verser dans le moule et lisser.",
+        "Mixer les biscuits avec le beurre fondu et tasser ce croustillant sur la crème (il deviendra la base).",
+        "Filmer et laisser prendre au congélateur 6 h minimum (idéalement une nuit).",
+        "Ganache : chauffer la crème, la verser sur le chocolat haché, attendre 1 min puis lisser. Laisser tiédir.",
+        "Avant de servir, sortir la bûche du congélateur quelques minutes, la démouler sur le plat de service à l'aide du film et retirer le film. Napper de ganache tiède et décorer de copeaux de chocolat."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "bucheglacee:002",
+      "t": "Bûche Glacée Vanille Framboises",
+      "cat": "Dessert, Noël, Glacé, Sans cuisson, Framboise",
+      "min": 30,
+      "serv": "1 bûche (8 pers.)",
+      "img": "img/noel/buche2.jpg",
+      "desc": "Bûche glacée vanille marbrée d'un coulis de framboises, sur base sablée, décorée de framboises fraîches.",
+      "ing": [
+        "400 ml de crème liquide entière très froide",
+        "200 g de lait concentré sucré",
+        "1 gousse de vanille (ou 2 c. à café d'extrait)",
+        "250 g de framboises (fraîches ou surgelées)",
+        "40 g de sucre",
+        "150 g de biscuits sablés (type petit-beurre)",
+        "50 g de beurre fondu",
+        "Framboises fraîches et chocolat blanc râpé pour décorer"
+      ],
+      "steps": [
+        "Chemiser un moule à cake ou à bûche (environ 25 cm) de film alimentaire en le laissant dépasser.",
+        "Coulis : cuire 200 g de framboises avec le sucre 5 min, mixer, filtrer et laisser refroidir complètement.",
+        "Mélanger le lait concentré avec les graines de vanille.",
+        "Fouetter la crème liquide entière très froide en chantilly ferme (bol et fouets passés 10 min au congélateur).",
+        "Incorporer délicatement la chantilly au lait concentré vanillé.",
+        "Verser la moitié dans le moule, ajouter la moitié du coulis et marbrer avec une pointe de couteau. Recommencer avec le reste.",
+        "Mixer les biscuits avec le beurre fondu et tasser sur la crème.",
+        "Filmer et laisser prendre au congélateur 6 h minimum (idéalement une nuit).",
+        "Avant de servir, sortir la bûche du congélateur quelques minutes, la démouler sur le plat de service à l'aide du film et retirer le film. Décorer de framboises fraîches, d'un filet de coulis et de chocolat blanc râpé."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "bucheglacee:003",
+      "t": "Bûche Glacée Praliné Noisettes",
+      "cat": "Dessert, Noël, Glacé, Sans cuisson",
+      "min": 30,
+      "serv": "1 bûche (8 pers.)",
+      "img": "img/noel/buche3.jpg",
+      "desc": "Bûche glacée au praliné avec un cœur croustillant de noisettes caramélisées et un filet de caramel.",
+      "ing": [
+        "400 ml de crème liquide entière très froide",
+        "200 g de lait concentré sucré",
+        "150 g de pâte de praliné (ou pâte à tartiner praliné)",
+        "100 g de noisettes torréfiées",
+        "150 g de biscuits type spéculoos ou crêpes dentelle",
+        "50 g de beurre fondu",
+        "Sauce caramel pour le décor"
+      ],
+      "steps": [
+        "Chemiser un moule à cake ou à bûche (environ 25 cm) de film alimentaire en le laissant dépasser.",
+        "Mélanger le lait concentré et le praliné jusqu'à obtenir une crème lisse.",
+        "Fouetter la crème liquide entière très froide en chantilly ferme (bol et fouets passés 10 min au congélateur).",
+        "Incorporer la chantilly au mélange praliné délicatement.",
+        "Concasser grossièrement 60 g de noisettes et les ajouter à la crème.",
+        "Verser dans le moule et lisser.",
+        "Écraser les biscuits avec le beurre fondu et tasser sur la crème.",
+        "Filmer et laisser prendre au congélateur 6 h minimum (idéalement une nuit).",
+        "Avant de servir, sortir la bûche du congélateur quelques minutes, la démouler sur le plat de service à l'aide du film et retirer le film. Napper de caramel et parsemer du reste des noisettes entières."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "bucheglacee:004",
+      "t": "Bûche Glacée Spéculoos Caramel",
+      "cat": "Dessert, Noël, Glacé, Sans cuisson, Caramel",
+      "min": 30,
+      "serv": "1 bûche (8 pers.)",
+      "img": "img/noel/buche4.jpg",
+      "desc": "Bûche glacée au spéculoos avec un insert de caramel, sur base de biscuits émiettés.",
+      "ing": [
+        "400 ml de crème liquide entière très froide",
+        "200 g de lait concentré sucré",
+        "150 g de pâte de spéculoos",
+        "200 g de biscuits spéculoos",
+        "50 g de beurre fondu",
+        "150 g de sauce caramel au beurre salé"
+      ],
+      "steps": [
+        "Chemiser un moule à cake ou à bûche (environ 25 cm) de film alimentaire en le laissant dépasser.",
+        "Mélanger le lait concentré et la pâte de spéculoos.",
+        "Fouetter la crème liquide entière très froide en chantilly ferme (bol et fouets passés 10 min au congélateur).",
+        "Incorporer délicatement la chantilly au mélange.",
+        "Verser la moitié de la crème dans le moule, napper de 80 g de caramel, puis couvrir avec le reste de crème.",
+        "Mixer 150 g de spéculoos avec le beurre fondu et tasser sur la crème.",
+        "Filmer et laisser prendre au congélateur 6 h minimum (idéalement une nuit).",
+        "Avant de servir, sortir la bûche du congélateur quelques minutes, la démouler sur le plat de service à l'aide du film et retirer le film. Napper du reste de caramel et décorer de spéculoos entiers et émiettés."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "bucheglacee:005",
+      "t": "Bûche Glacée Pistache Chocolat Blanc",
+      "cat": "Dessert, Noël, Glacé, Sans cuisson, Pistache",
+      "min": 30,
+      "serv": "1 bûche (8 pers.)",
+      "img": "img/noel/buche5.jpg",
+      "desc": "Bûche glacée à la pistache avec un cœur au chocolat blanc, parsemée d'éclats de pistache.",
+      "ing": [
+        "400 ml de crème liquide entière très froide",
+        "200 g de lait concentré sucré",
+        "100 g de pâte de pistache",
+        "100 g de chocolat blanc",
+        "80 g de pistaches non salées",
+        "150 g de biscuits sablés",
+        "50 g de beurre fondu"
+      ],
+      "steps": [
+        "Chemiser un moule à cake ou à bûche (environ 25 cm) de film alimentaire en le laissant dépasser.",
+        "Mélanger le lait concentré avec la pâte de pistache.",
+        "Fouetter la crème liquide entière très froide en chantilly ferme (bol et fouets passés 10 min au congélateur).",
+        "Incorporer les deux tiers de la chantilly au mélange pistache.",
+        "Faire fondre 70 g de chocolat blanc, laisser tiédir puis l'incorporer au tiers de chantilly restant.",
+        "Verser la moitié de la crème pistache dans le moule, ajouter la crème au chocolat blanc au centre, puis le reste de crème pistache.",
+        "Mixer les biscuits avec le beurre fondu et tasser sur la crème.",
+        "Filmer et laisser prendre au congélateur 6 h minimum (idéalement une nuit).",
+        "Avant de servir, sortir la bûche du congélateur quelques minutes, la démouler sur le plat de service à l'aide du film et retirer le film. Décorer d'un filet de chocolat blanc fondu et de pistaches concassées."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "bucheglacee:006",
+      "t": "Bûche Glacée Coco Mangue",
+      "cat": "Dessert, Noël, Glacé, Sans cuisson, Mangue",
+      "min": 30,
+      "serv": "1 bûche (8 pers.)",
+      "img": "img/noel/buche6.jpg",
+      "desc": "Bûche glacée exotique à la noix de coco avec un cœur de mangue, roulée dans la coco râpée.",
+      "ing": [
+        "400 ml de crème liquide entière très froide",
+        "200 g de lait concentré sucré",
+        "100 ml de lait de coco",
+        "60 g de noix de coco râpée",
+        "2 mangues mûres (ou 400 g de mangue surgelée)",
+        "1 c. à soupe de jus de citron vert",
+        "150 g de biscuits sablés",
+        "50 g de beurre fondu"
+      ],
+      "steps": [
+        "Chemiser un moule à cake ou à bûche (environ 25 cm) de film alimentaire en le laissant dépasser.",
+        "Mixer la chair d'une mangue avec le jus de citron vert. Couper l'autre en dés.",
+        "Mélanger le lait concentré, le lait de coco et 40 g de coco râpée.",
+        "Fouetter la crème liquide entière très froide en chantilly ferme (bol et fouets passés 10 min au congélateur).",
+        "Incorporer délicatement la chantilly au mélange coco.",
+        "Verser la moitié de la crème coco dans le moule, ajouter la purée de mangue au centre, puis le reste de crème.",
+        "Mixer les biscuits avec le beurre fondu et tasser sur la crème.",
+        "Filmer et laisser prendre au congélateur 6 h minimum (idéalement une nuit).",
+        "Avant de servir, sortir la bûche du congélateur quelques minutes, la démouler sur le plat de service à l'aide du film et retirer le film. Parsemer de coco râpée et décorer de dés de mangue."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "bucheglacee:007",
+      "t": "Bûche Glacée Café Chocolat",
+      "cat": "Dessert, Noël, Glacé, Sans cuisson, Café, Chocolat",
+      "min": 30,
+      "serv": "1 bûche (8 pers.)",
+      "img": "img/noel/buche7.jpg",
+      "desc": "Bûche glacée au café sur un biscuit chocolat, nappée de ganache et décorée de grains de café.",
+      "ing": [
+        "400 ml de crème liquide entière très froide",
+        "200 g de lait concentré sucré",
+        "2 c. à soupe de café soluble",
+        "1 c. à soupe d'eau chaude",
+        "150 g de biscuits au chocolat",
+        "50 g de beurre fondu",
+        "Ganache : 100 g de chocolat noir + 100 ml de crème",
+        "Grains de café en chocolat pour décorer"
+      ],
+      "steps": [
+        "Chemiser un moule à cake ou à bûche (environ 25 cm) de film alimentaire en le laissant dépasser.",
+        "Dissoudre le café soluble dans l'eau chaude, laisser refroidir et mélanger au lait concentré.",
+        "Fouetter la crème liquide entière très froide en chantilly ferme (bol et fouets passés 10 min au congélateur).",
+        "Incorporer délicatement la chantilly au mélange café.",
+        "Verser dans le moule et lisser.",
+        "Mixer les biscuits avec le beurre fondu et tasser sur la crème.",
+        "Filmer et laisser prendre au congélateur 6 h minimum (idéalement une nuit).",
+        "Ganache : chauffer la crème, la verser sur le chocolat haché, lisser et laisser tiédir.",
+        "Avant de servir, sortir la bûche du congélateur quelques minutes, la démouler sur le plat de service à l'aide du film et retirer le film. Napper de ganache, décorer de rosaces de chantilly au cacao et de grains de café."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "bucheglacee:008",
+      "t": "Bûche Glacée Citron Meringuée",
+      "cat": "Dessert, Noël, Glacé, Sans cuisson, Citron",
+      "min": 30,
+      "serv": "1 bûche (8 pers.)",
+      "img": "img/noel/buche8.jpg",
+      "desc": "Bûche glacée au citron avec un cœur de lemon curd, recouverte de meringue dorée au chalumeau.",
+      "ing": [
+        "400 ml de crème liquide entière très froide",
+        "200 g de lait concentré sucré",
+        "2 citrons non traités (zeste et jus)",
+        "150 g de lemon curd",
+        "150 g de biscuits sablés",
+        "50 g de beurre fondu",
+        "Meringue : 2 blancs d'œufs + 100 g de sucre"
+      ],
+      "steps": [
+        "Chemiser un moule à cake ou à bûche (environ 25 cm) de film alimentaire en le laissant dépasser.",
+        "Mélanger le lait concentré avec le zeste et le jus des citrons (le mélange épaissit).",
+        "Fouetter la crème liquide entière très froide en chantilly ferme (bol et fouets passés 10 min au congélateur).",
+        "Incorporer délicatement la chantilly à la crème citron.",
+        "Verser la moitié dans le moule, étaler le lemon curd au centre, puis couvrir du reste.",
+        "Mixer les biscuits avec le beurre fondu et tasser sur la crème.",
+        "Filmer et laisser prendre au congélateur 6 h minimum (idéalement une nuit).",
+        "Meringue italienne : chauffer le sucre avec 3 c. à soupe d'eau jusqu'à 118 °C, le verser en filet sur les blancs montés en neige et fouetter jusqu'à refroidissement.",
+        "Avant de servir, sortir la bûche du congélateur quelques minutes, la démouler sur le plat de service à l'aide du film et retirer le film. Pocher la meringue en pointes sur la bûche et la dorer au chalumeau. Resservir aussitôt ou remettre au congélateur."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "bucheglacee:009",
+      "t": "Bûche Glacée Poires Chocolat",
+      "cat": "Dessert, Noël, Glacé, Sans cuisson, Chocolat",
+      "min": 30,
+      "serv": "1 bûche (8 pers.)",
+      "img": "img/noel/buche9.jpg",
+      "desc": "Bûche glacée façon poire Belle-Hélène : glace chocolat, cœur de poires fondantes, glaçage chocolat.",
+      "ing": [
+        "400 ml de crème liquide entière très froide",
+        "200 g de lait concentré sucré",
+        "150 g de chocolat noir",
+        "4 poires au sirop (ou 3 poires fraîches pochées)",
+        "150 g de biscuits au chocolat",
+        "50 g de beurre fondu",
+        "Glaçage : 100 g de chocolat noir + 100 ml de crème"
+      ],
+      "steps": [
+        "Chemiser un moule à cake ou à bûche (environ 25 cm) de film alimentaire en le laissant dépasser.",
+        "Égoutter les poires, les sécher sur du papier absorbant et les couper en dés.",
+        "Faire fondre le chocolat, y mélanger le lait concentré et laisser tiédir.",
+        "Fouetter la crème liquide entière très froide en chantilly ferme (bol et fouets passés 10 min au congélateur).",
+        "Incorporer délicatement la chantilly au chocolat.",
+        "Verser la moitié dans le moule, répartir les poires, puis couvrir du reste de crème.",
+        "Mixer les biscuits avec le beurre fondu et tasser sur la crème.",
+        "Filmer et laisser prendre au congélateur 6 h minimum (idéalement une nuit).",
+        "Glaçage : chauffer la crème, la verser sur le chocolat, lisser et laisser tiédir.",
+        "Avant de servir, sortir la bûche du congélateur quelques minutes, la démouler sur le plat de service à l'aide du film et retirer le film. Napper de glaçage et décorer de lamelles de poire et de morceaux de chocolat."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "bucheglacee:010",
+      "t": "Bûche Glacée Vanille Caramel",
+      "cat": "Dessert, Noël, Glacé, Sans cuisson, Caramel",
+      "min": 30,
+      "serv": "1 bûche (8 pers.)",
+      "img": "img/noel/buche10.jpg",
+      "desc": "Bûche glacée à la vanille avec un cœur de caramel au beurre salé et un crumble croustillant.",
+      "ing": [
+        "400 ml de crème liquide entière très froide",
+        "200 g de lait concentré sucré",
+        "1 gousse de vanille (ou 2 c. à café d'extrait)",
+        "200 g de sauce caramel au beurre salé",
+        "150 g de biscuits sablés",
+        "50 g de beurre fondu",
+        "50 g de noix de pécan ou noisettes caramélisées (facultatif)"
+      ],
+      "steps": [
+        "Chemiser un moule à cake ou à bûche (environ 25 cm) de film alimentaire en le laissant dépasser.",
+        "Mélanger le lait concentré avec les graines de vanille.",
+        "Fouetter la crème liquide entière très froide en chantilly ferme (bol et fouets passés 10 min au congélateur).",
+        "Incorporer délicatement la chantilly au mélange vanillé.",
+        "Verser la moitié dans le moule, napper de 100 g de caramel, puis couvrir avec le reste de crème.",
+        "Mixer les biscuits avec le beurre fondu et tasser sur la crème (garder 2 c. à soupe de miettes pour le décor).",
+        "Filmer et laisser prendre au congélateur 6 h minimum (idéalement une nuit).",
+        "Avant de servir, sortir la bûche du congélateur quelques minutes, la démouler sur le plat de service à l'aide du film et retirer le film. Napper du reste de caramel en coulures et parsemer de miettes de biscuits et de noix caramélisées."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "canapenoel:001",
+      "t": "Canapés Saumon & Fromage Frais",
+      "cat": "Apéritif, Bouchée, Noël, Saumon, Sans cuisson",
+      "min": 15,
+      "serv": "16 pièces",
+      "img": "img/noel/canape1.jpg",
+      "desc": "Blinis ou petits toasts garnis de fromage frais aux herbes et de saumon fumé, à l'aneth.",
+      "ing": [
+        "16 blinis cocktail (ou petits toasts)",
+        "150 g de fromage frais (type Saint Môret)",
+        "1 c. à soupe de ciboulette ciselée",
+        "Le zeste de ½ citron",
+        "120 g de saumon fumé",
+        "Quelques brins d'aneth",
+        "Poivre"
+      ],
+      "steps": [
+        "Mélanger le fromage frais avec la ciboulette, le zeste de citron et un peu de poivre.",
+        "Toaster légèrement les blinis 1 à 2 min (facultatif) et laisser refroidir.",
+        "Déposer une noisette de fromage frais sur chaque blini (à la poche à douille pour un joli rendu).",
+        "Couper le saumon en lanières et en former de petites roses sur le fromage.",
+        "Décorer d'un brin d'aneth et d'un peu de zeste de citron. Réserver au frais jusqu'au service."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "canapenoel:002",
+      "t": "Canapés Foie Gras & Figue",
+      "cat": "Apéritif, Bouchée, Noël",
+      "min": 15,
+      "serv": "16 pièces",
+      "img": "img/noel/canape2.jpg",
+      "desc": "Toasts de pain d'épices ou de pain brioché garnis de foie gras, confit de figue et noix.",
+      "ing": [
+        "16 petits toasts de pain d'épices ou de pain brioché",
+        "200 g de foie gras mi-cuit",
+        "4 c. à soupe de confit de figue",
+        "2 figues fraîches (facultatif)",
+        "8 cerneaux de noix",
+        "Fleur de sel, poivre du moulin"
+      ],
+      "steps": [
+        "Toaster légèrement le pain et le laisser refroidir.",
+        "Couper le foie gras en tranches avec un couteau trempé dans l'eau chaude, puis à la taille des toasts.",
+        "Déposer une tranche de foie gras sur chaque toast.",
+        "Ajouter une petite cuillère de confit de figue (et un quartier de figue fraîche).",
+        "Parsemer de noix concassées, d'une pincée de fleur de sel et d'un tour de poivre. Servir frais."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "canapenoel:003",
+      "t": "Sapins Feuilletés au Pesto",
+      "cat": "Apéritif, Bouchée, Noël, Végétarien",
+      "min": 30,
+      "serv": "10 pièces",
+      "img": "img/noel/canape3.jpg",
+      "desc": "Petits sapins de pâte feuilletée torsadés, garnis de pesto et parmesan, croustillants à souhait.",
+      "ing": [
+        "2 pâtes feuilletées rondes",
+        "4 c. à soupe de pesto",
+        "50 g de parmesan râpé",
+        "1 jaune d'œuf",
+        "1 c. à soupe de graines de sésame (facultatif)"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Étaler une pâte feuilletée sur une plaque couverte de papier cuisson, la tartiner de pesto et parsemer de parmesan.",
+        "Couvrir avec la seconde pâte et appuyer légèrement.",
+        "Découper un grand triangle (ou des petits triangles individuels), puis tailler des bandes horizontales de chaque côté en laissant un tronc central de 2 cm.",
+        "Torsader chaque bande sur elle-même pour former les branches du sapin.",
+        "Dorer au jaune d'œuf, parsemer de sésame et cuire 15 à 20 min jusqu'à ce que ce soit bien doré.",
+        "Servir tiède, en détachant les branches."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "canapenoel:004",
+      "t": "Toasts Crevettes & Avocat",
+      "cat": "Apéritif, Bouchée, Noël, Crevette",
+      "min": 15,
+      "serv": "16 pièces",
+      "img": "img/noel/canape4.jpg",
+      "desc": "Petits toasts garnis d'un écrasé d'avocat citronné et d'une crevette rose.",
+      "ing": [
+        "16 petits toasts (ou rondelles de baguette grillées)",
+        "2 avocats mûrs",
+        "Le jus d'1 citron vert",
+        "1 pincée de piment d'Espelette",
+        "16 crevettes roses cuites et décortiquées",
+        "Quelques brins d'aneth ou de coriandre",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Écraser la chair des avocats à la fourchette avec le jus de citron vert, le piment, du sel et du poivre.",
+        "Tartiner généreusement chaque toast d'écrasé d'avocat (ou le pocher à la douille).",
+        "Déposer une crevette sur chaque toast.",
+        "Décorer d'un brin d'aneth et d'un tour de poivre. Servir rapidement pour que l'avocat ne noircisse pas."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "canapenoel:005",
+      "t": "Bouchées Chèvre & Miel",
+      "cat": "Apéritif, Bouchée, Noël, Végétarien",
+      "min": 20,
+      "serv": "16 pièces",
+      "img": "img/noel/canape5.jpg",
+      "desc": "Rondelles de baguette gratinées au chèvre, nappées de miel et parsemées de noix.",
+      "ing": [
+        "1 baguette",
+        "1 bûche de chèvre (environ 200 g)",
+        "2 c. à soupe de miel",
+        "8 cerneaux de noix",
+        "Quelques brins de thym",
+        "Poivre"
+      ],
+      "steps": [
+        "Préchauffer le four en position grill à 220 °C.",
+        "Couper la baguette en 16 rondelles et les disposer sur une plaque.",
+        "Déposer une rondelle de chèvre sur chaque tranche.",
+        "Arroser d'un filet de miel, parsemer de thym et de noix concassées.",
+        "Passer sous le grill 5 à 8 min, jusqu'à ce que le chèvre soit fondant et doré.",
+        "Ajouter un dernier filet de miel et un tour de poivre. Servir chaud."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "canapenoel:006",
+      "t": "Mini Pizzas Sapin",
+      "cat": "Apéritif, Bouchée, Noël, Pizza",
+      "min": 25,
+      "serv": "12 pièces",
+      "img": "img/noel/canape6.jpg",
+      "desc": "Petites pizzas en forme de sapin découpées dans la pâte, garnies de tomate, mozzarella et olives.",
+      "ing": [
+        "1 pâte à pizza (ou pâte feuilletée)",
+        "4 c. à soupe de sauce tomate",
+        "1 c. à café d'origan",
+        "125 g de mozzarella râpée",
+        "10 olives noires",
+        "8 tomates cerises (facultatif)",
+        "1 c. à soupe d'huile d'olive"
+      ],
+      "steps": [
+        "Préchauffer le four à 220 °C.",
+        "Dérouler la pâte et y découper des sapins à l'emporte-pièce (ou des triangles au couteau).",
+        "Les disposer sur une plaque couverte de papier cuisson.",
+        "Tartiner de sauce tomate mélangée à l'origan, parsemer de mozzarella.",
+        "Décorer de rondelles d'olives et de morceaux de tomates cerises comme des boules de Noël.",
+        "Arroser d'un filet d'huile d'olive et cuire 10 à 12 min jusqu'à ce que la pâte soit dorée. Servir chaud."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "canapenoel:007",
+      "t": "Roulés Feuilletés Dinde & Fromage",
+      "cat": "Apéritif, Bouchée, Noël, Dinde",
+      "min": 30,
+      "serv": "20 pièces",
+      "img": "img/noel/canape7.jpg",
+      "desc": "Petits escargots feuilletés à la dinde, fromage fondu et moutarde, prêts en un clin d'œil.",
+      "ing": [
+        "1 pâte feuilletée rectangulaire",
+        "1 c. à soupe de moutarde (ou fromage frais)",
+        "4 tranches de blanc de dinde",
+        "100 g d'emmental ou de comté râpé",
+        "1 jaune d'œuf"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Dérouler la pâte et la tartiner finement de moutarde.",
+        "Couvrir des tranches de dinde puis parsemer de fromage râpé.",
+        "Rouler la pâte serrée en partant du grand côté. Placer le boudin 15 min au congélateur pour le raffermir.",
+        "Couper en rondelles d'1 cm et les disposer à plat sur une plaque couverte de papier cuisson.",
+        "Dorer au jaune d'œuf et cuire 15 à 18 min jusqu'à ce qu'elles soient bien dorées. Servir tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "canapenoel:008",
+      "t": "Verrines Avocat & Crevettes",
+      "cat": "Apéritif, Bouchée, Noël, Crevette, Sans cuisson",
+      "min": 20,
+      "serv": "8 verrines",
+      "img": "img/noel/canape8.jpg",
+      "desc": "Verrines fraîches : crème d'avocat citronnée, fromage frais et crevettes roses.",
+      "ing": [
+        "2 avocats mûrs",
+        "Le jus d'1 citron vert",
+        "150 g de fromage frais (ou mascarpone)",
+        "2 c. à soupe de crème liquide",
+        "16 crevettes roses cuites et décortiquées",
+        "½ concombre (facultatif)",
+        "Ciboulette, piment d'Espelette",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Mixer les avocats avec le jus de citron vert, du sel et du poivre jusqu'à obtenir une crème lisse.",
+        "Fouetter le fromage frais avec la crème liquide et un peu de ciboulette ciselée.",
+        "Couper le concombre en tout petits dés.",
+        "Dans des verrines, répartir la crème d'avocat, puis les dés de concombre et la crème au fromage frais.",
+        "Déposer 2 crevettes sur chaque verrine.",
+        "Parsemer de ciboulette et d'une pincée de piment. Réserver au frais 1 h avant de servir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "canapenoel:009",
+      "t": "Mini Quiches Saumon Poireaux",
+      "cat": "Apéritif, Bouchée, Noël, Saumon",
+      "min": 40,
+      "serv": "24 pièces",
+      "img": "img/noel/canape9.jpg",
+      "desc": "Mini quiches à la fondue de poireaux et au saumon, parfaites à préparer à l'avance.",
+      "ing": [
+        "1 pâte brisée",
+        "2 poireaux (blancs)",
+        "15 g de beurre",
+        "120 g de saumon (fumé ou frais)",
+        "2 œufs",
+        "15 cl de crème liquide",
+        "50 g de gruyère râpé",
+        "Aneth, sel, poivre"
+      ],
+      "steps": [
+        "Préchauffer le four à 180 °C.",
+        "Émincer les poireaux et les faire fondre 10 min dans le beurre à feu doux. Saler, poivrer.",
+        "Découper la pâte à l'emporte-pièce et foncer des moules à mini tartelettes (ou à mini muffins). Piquer le fond.",
+        "Couper le saumon en petits dés.",
+        "Battre les œufs avec la crème, le gruyère, l'aneth, sel et poivre.",
+        "Répartir les poireaux et le saumon dans les fonds de pâte, puis couvrir d'appareil.",
+        "Cuire 18 à 20 min jusqu'à ce que les quiches soient dorées. Servir tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "canapenoel:010",
+      "t": "Feuilletés Camembert & Pomme",
+      "cat": "Apéritif, Bouchée, Noël, Végétarien",
+      "min": 30,
+      "serv": "16 pièces",
+      "img": "img/noel/canape10.jpg",
+      "desc": "Petits feuilletés au camembert fondant et à la pomme, avec une noix et un filet de miel.",
+      "ing": [
+        "1 pâte feuilletée",
+        "1 camembert",
+        "1 pomme",
+        "1 c. à soupe de miel",
+        "8 cerneaux de noix",
+        "Quelques brins de thym ou de romarin",
+        "1 jaune d'œuf"
+      ],
+      "steps": [
+        "Préchauffer le four à 200 °C.",
+        "Découper la pâte en 16 carrés ou ronds et les disposer sur une plaque couverte de papier cuisson.",
+        "Couper le camembert en 16 morceaux et la pomme en fines lamelles.",
+        "Déposer sur chaque morceau de pâte une lamelle de pomme puis un morceau de camembert.",
+        "Replier légèrement les bords, dorer la pâte au jaune d'œuf.",
+        "Cuire 12 à 15 min jusqu'à ce que la pâte soit dorée et le fromage fondant.",
+        "Ajouter un demi-cerneau de noix, un filet de miel et un brin de thym. Servir chaud."
+      ],
+      "url": "",
+      "vid": ""
     }
   ],
   "official": {
