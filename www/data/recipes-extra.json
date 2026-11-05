@@ -34481,6 +34481,850 @@
       ],
       "url": "",
       "vid": ""
+    },
+    {
+      "id": "afmai:001",
+      "t": "Bouchées Feuilletées Chèvre & Miel — Airfryer",
+      "cat": "Airfryer, Apéritif, Bouchée, Végétarien",
+      "min": 20,
+      "serv": "12 pièces",
+      "img": "img/noel/mai-c1.jpg",
+      "desc": "Menu Airfryer 1er mai (version classique) : petites bouchées feuilletées garnies de chèvre fondant et de miel.",
+      "ing": [
+        "12 mini bouchées feuilletées (ou 1 pâte feuilletée)",
+        "150 g de chèvre frais",
+        "50 g de bûche de chèvre",
+        "2 c. à soupe de miel",
+        "1 c. à café de thym",
+        "Quelques cerneaux de noix",
+        "Poivre"
+      ],
+      "steps": [
+        "Écraser le chèvre frais avec la bûche émiettée, le thym et du poivre.",
+        "Garnir les bouchées feuilletées (ou des ronds de pâte feuilletée posés dans des caissettes) avec le mélange.",
+        "Ajouter un filet de miel et un morceau de noix.",
+        "Airfryer à 180 °C pendant 6 à 8 min, jusqu'à ce que le feuilletage soit doré et le chèvre fondant.",
+        "Servir tiède avec un dernier filet de miel."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:002",
+      "t": "Fleurs de Courgettes Farcies Ricotta & Herbes — Airfryer",
+      "cat": "Airfryer, Entrée, Végétarien",
+      "min": 25,
+      "serv": 4,
+      "img": "img/noel/mai-c2.jpg",
+      "desc": "Menu Airfryer 1er mai (version classique) : fleurs de courgettes farcies à la ricotta, parmesan et herbes fraîches.",
+      "ing": [
+        "12 fleurs de courgettes",
+        "250 g de ricotta",
+        "40 g de parmesan râpé",
+        "1 œuf",
+        "Le zeste d'½ citron",
+        "2 c. à soupe d'herbes fraîches ciselées (basilic, menthe, ciboulette)",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Ouvrir délicatement les fleurs, retirer le pistil et les rincer sans les abîmer.",
+        "Mélanger la ricotta, le parmesan, l'œuf, le zeste de citron et les herbes. Saler et poivrer.",
+        "Garnir les fleurs à la poche à douille (ou à la petite cuillère) et refermer les pétales en les torsadant.",
+        "Badigeonner légèrement d'huile d'olive et disposer dans le panier sans les superposer.",
+        "Airfryer à 180 °C pendant 8 à 10 min, jusqu'à ce qu'elles soient dorées.",
+        "Servir aussitôt avec un filet d'huile d'olive."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:003",
+      "t": "Pilons de Poulet Marinés Citron & Herbes — Airfryer",
+      "cat": "Airfryer, Plat, Poulet, Viande",
+      "min": 35,
+      "serv": 4,
+      "img": "img/noel/mai-c3.jpg",
+      "desc": "Menu Airfryer 1er mai (version classique) : pilons de poulet marinés au citron, ail et herbes, dorés et croustillants.",
+      "ing": [
+        "8 pilons de poulet",
+        "1 citron (jus et zeste)",
+        "2 gousses d'ail hachées",
+        "2 c. à soupe d'huile d'olive",
+        "1 c. à café de paprika",
+        "1 c. à soupe d'herbes de Provence",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Mélanger le jus et le zeste de citron, l'ail, l'huile, le paprika, les herbes, du sel et du poivre.",
+        "Entailler légèrement les pilons et les enrober de marinade. Laisser mariner au frais 30 min (ou plus longtemps).",
+        "Disposer les pilons dans le panier sans les serrer.",
+        "Airfryer à 190 °C pendant 22 à 25 min en les retournant à mi-cuisson. La chair doit être bien cuite à l'os (75 °C à cœur).",
+        "Servir avec des quartiers de citron."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:004",
+      "t": "Pommes de Terre Grenaille Croustillantes aux Herbes — Airfryer",
+      "cat": "Airfryer, Accompagnement, Pommes de terre, Végétarien",
+      "min": 30,
+      "serv": 4,
+      "img": "img/noel/mai-c4.jpg",
+      "desc": "Menu Airfryer 1er mai (version classique) : grenailles fondantes à cœur et croustillantes, à l'ail et aux herbes.",
+      "ing": [
+        "800 g de pommes de terre grenaille",
+        "2 c. à soupe d'huile d'olive",
+        "2 gousses d'ail écrasées",
+        "1 c. à café de thym",
+        "1 c. à soupe de persil haché",
+        "Fleur de sel, poivre"
+      ],
+      "steps": [
+        "Laver les grenailles et les couper en deux si elles sont grosses. Bien les sécher.",
+        "Les enrober d'huile, d'ail, de thym, de sel et de poivre.",
+        "Airfryer à 200 °C pendant 20 à 25 min en secouant le panier 2 ou 3 fois.",
+        "Parsemer de persil et de fleur de sel avant de servir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:005",
+      "t": "Tartelettes Express aux Fraises — Airfryer",
+      "cat": "Airfryer, Dessert, Tarte sucrée, Fraise",
+      "min": 25,
+      "serv": "6 tartelettes",
+      "img": "img/noel/mai-c5.jpg",
+      "desc": "Menu Airfryer 1er mai (version classique) : fonds de tartelettes cuits à l'airfryer, crème vanillée et fraises fraîches.",
+      "ing": [
+        "1 pâte sablée",
+        "250 g de mascarpone",
+        "10 cl de crème liquide entière froide",
+        "40 g de sucre glace",
+        "1 c. à café d'extrait de vanille",
+        "400 g de fraises",
+        "2 c. à soupe de confiture de fraises (pour le nappage)"
+      ],
+      "steps": [
+        "Découper la pâte et foncer 6 petits moules à tartelette adaptés au panier. Piquer le fond.",
+        "Airfryer à 170 °C pendant 10 à 12 min jusqu'à ce que les fonds soient dorés. Laisser refroidir complètement.",
+        "Fouetter le mascarpone, la crème, le sucre glace et la vanille jusqu'à obtenir une crème ferme.",
+        "Garnir les fonds de crème et disposer les fraises coupées en deux.",
+        "Faire tiédir la confiture et en badigeonner les fraises pour les faire briller. Réserver au frais jusqu'au service."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:006",
+      "t": "Chips de Légumes Maison — Airfryer",
+      "cat": "Airfryer, Apéritif, Santé, Légumes, Végétarien",
+      "min": 30,
+      "serv": 4,
+      "img": "img/noel/mai-d1.jpg",
+      "desc": "Menu Airfryer 1er mai (version diabétique) : chips croustillantes de courgette, betterave et carotte, sans sucre ajouté.",
+      "ing": [
+        "1 courgette",
+        "1 betterave crue",
+        "1 carotte",
+        "1 patate douce (facultatif)",
+        "1 c. à soupe d'huile d'olive",
+        "Paprika, sel"
+      ],
+      "steps": [
+        "Trancher les légumes très finement (1 à 2 mm) à la mandoline.",
+        "Les sécher soigneusement dans un torchon (la courgette rend beaucoup d'eau).",
+        "Les mélanger avec l'huile, une pincée de sel et de paprika.",
+        "Airfryer à 160 °C pendant 15 à 20 min en une seule couche, par fournées, en secouant toutes les 5 min.",
+        "Laisser refroidir sur une grille : elles croustillent en refroidissant."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:007",
+      "t": "Asperges Rôties au Citron & Parmesan — Airfryer",
+      "cat": "Airfryer, Entrée, Santé, Légumes, Asperge, Végétarien",
+      "min": 15,
+      "serv": 4,
+      "img": "img/noel/mai-d2.jpg",
+      "desc": "Menu Airfryer 1er mai (version diabétique) : asperges vertes rôties, zeste de citron et copeaux de parmesan.",
+      "ing": [
+        "1 botte d'asperges vertes",
+        "1 c. à soupe d'huile d'olive",
+        "Le zeste et le jus d'½ citron",
+        "30 g de parmesan",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Casser la base dure des asperges.",
+        "Les enrober d'huile d'olive, de sel et de poivre.",
+        "Airfryer à 200 °C pendant 7 à 9 min selon leur grosseur, en secouant à mi-cuisson.",
+        "Arroser de jus de citron, parsemer de zeste et de copeaux de parmesan. Servir aussitôt."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:008",
+      "t": "Saumon Citron & Aneth, Légumes Rôtis — Airfryer",
+      "cat": "Airfryer, Plat, Santé, Poisson, Saumon",
+      "min": 25,
+      "serv": 4,
+      "img": "img/noel/mai-d3.jpg",
+      "desc": "Menu Airfryer 1er mai (version diabétique) : pavés de saumon citron-aneth et légumes rôtis, cuisson unique au panier.",
+      "ing": [
+        "4 pavés de saumon avec la peau",
+        "2 courgettes",
+        "200 g de tomates cerises",
+        "1 poivron rouge",
+        "2 c. à soupe d'huile d'olive",
+        "1 citron",
+        "2 c. à soupe d'aneth ciselé",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Couper les courgettes et le poivron en morceaux, les mélanger avec les tomates cerises, 1 c. à soupe d'huile, sel et poivre.",
+        "Airfryer les légumes à 190 °C pendant 8 min.",
+        "Badigeonner le saumon du reste d'huile, saler, poivrer, parsemer d'aneth et poser une rondelle de citron.",
+        "Ajouter les pavés sur les légumes et poursuivre 8 à 10 min à 190 °C.",
+        "Servir avec le jus du citron restant et de l'aneth frais."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:009",
+      "t": "Patate Douce Rôtie & Haricots Verts Croquants — Airfryer",
+      "cat": "Airfryer, Accompagnement, Santé, Légumes, Végétarien",
+      "min": 25,
+      "serv": 4,
+      "img": "img/noel/mai-d4.jpg",
+      "desc": "Menu Airfryer 1er mai (version diabétique) : cubes de patate douce rôtis et haricots verts croquants.",
+      "ing": [
+        "2 patates douces moyennes",
+        "300 g de haricots verts",
+        "2 c. à soupe d'huile d'olive",
+        "1 c. à café de paprika fumé",
+        "1 gousse d'ail",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Éplucher les patates douces et les couper en cubes de 2 cm.",
+        "Les enrober d'1 c. à soupe d'huile, de paprika, sel et poivre.",
+        "Airfryer à 200 °C pendant 12 min en secouant à mi-cuisson.",
+        "Ajouter les haricots verts équeutés, mélangés au reste d'huile et à l'ail haché.",
+        "Poursuivre 6 à 8 min à 200 °C : les haricots doivent rester croquants."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:010",
+      "t": "Compote de Pommes Maison à la Cannelle — Airfryer",
+      "cat": "Airfryer, Dessert, Santé, Pommes",
+      "min": 30,
+      "serv": 4,
+      "img": "img/noel/mai-d5.jpg",
+      "desc": "Menu Airfryer 1er mai (version diabétique) : compote rôtie à l'airfryer, parfumée à la cannelle, sans sucre ajouté.",
+      "ing": [
+        "6 pommes (Golden, Gala ou Reinette)",
+        "1 c. à café de cannelle",
+        "1 c. à café d'extrait de vanille",
+        "3 c. à soupe d'eau",
+        "1 c. à café de jus de citron"
+      ],
+      "steps": [
+        "Éplucher, épépiner et couper les pommes en dés.",
+        "Les mettre dans un plat allant à l'airfryer avec l'eau, le jus de citron, la cannelle et la vanille. Couvrir de papier aluminium.",
+        "Airfryer à 180 °C pendant 15 à 20 min en mélangeant à mi-cuisson, jusqu'à ce que les pommes soient fondantes.",
+        "Écraser à la fourchette ou mixer selon la texture voulue.",
+        "Servir tiède ou froide."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:011",
+      "t": "Bouchées de Courgettes & Fromage Frais — Airfryer",
+      "cat": "Airfryer, Apéritif, Santé, Sans gluten, Végétarien",
+      "min": 20,
+      "serv": "12 pièces",
+      "img": "img/noel/mai-s1.jpg",
+      "desc": "Menu Airfryer 1er mai (version sans gluten) : rouleaux de lamelles de courgette garnis de fromage frais aux herbes.",
+      "ing": [
+        "2 courgettes",
+        "150 g de fromage frais (type chèvre frais)",
+        "30 g de parmesan râpé",
+        "1 c. à soupe de ciboulette",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Tailler les courgettes en longues lamelles fines à l'économe ou à la mandoline.",
+        "Les badigeonner d'huile et les précuire 3 min à 180 °C à l'airfryer pour les assouplir.",
+        "Mélanger le fromage frais, le parmesan, la ciboulette, sel et poivre.",
+        "Enrouler 2 lamelles en cercle (comme un petit pot) et garnir de fromage.",
+        "Airfryer à 180 °C pendant 6 min jusqu'à ce que le dessus soit doré. Servir tiède."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:012",
+      "t": "Champignons Farcis aux Herbes — Airfryer",
+      "cat": "Airfryer, Entrée, Santé, Sans gluten, Végétarien",
+      "min": 20,
+      "serv": 4,
+      "img": "img/noel/mai-s2.jpg",
+      "desc": "Menu Airfryer 1er mai (version sans gluten) : gros champignons farcis au fromage frais, ail et herbes.",
+      "ing": [
+        "12 gros champignons de Paris",
+        "100 g de fromage frais",
+        "30 g de parmesan râpé",
+        "1 gousse d'ail",
+        "2 c. à soupe de persil haché",
+        "1 c. à soupe d'huile d'olive",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Retirer les pieds des champignons et les hacher finement.",
+        "Faire revenir les pieds hachés et l'ail 3 min à la poêle, puis mélanger avec le fromage frais, le parmesan et le persil. Saler, poivrer.",
+        "Badigeonner les chapeaux d'huile et les garnir de farce.",
+        "Airfryer à 180 °C pendant 10 à 12 min, jusqu'à ce que le dessus soit doré.",
+        "Servir chaud, parsemé de persil."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:013",
+      "t": "Brochettes de Poulet Marinées & Légumes Grillés — Airfryer",
+      "cat": "Airfryer, Plat, Santé, Sans gluten, Brochette, Poulet, Viande",
+      "min": 30,
+      "serv": 4,
+      "img": "img/noel/mai-s3.jpg",
+      "desc": "Menu Airfryer 1er mai (version sans gluten) : brochettes de poulet mariné, poivron et oignon rouge.",
+      "ing": [
+        "600 g de blancs de poulet",
+        "1 poivron rouge",
+        "1 oignon rouge",
+        "1 courgette",
+        "2 c. à soupe d'huile d'olive",
+        "1 citron (jus)",
+        "1 gousse d'ail",
+        "1 c. à café de paprika",
+        "1 c. à café d'herbes de Provence",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Couper le poulet en cubes de 3 cm et le mélanger avec l'huile, le jus de citron, l'ail haché, le paprika, les herbes, sel et poivre. Laisser mariner au frais 30 min.",
+        "Couper les légumes en morceaux de même taille.",
+        "Monter les brochettes en alternant poulet et légumes (piques courtes, adaptées au panier).",
+        "Airfryer à 200 °C pendant 12 à 15 min en les retournant à mi-cuisson.",
+        "Servir avec une salade ou la ratatouille."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:014",
+      "t": "Ratatouille Provençale — Airfryer",
+      "cat": "Airfryer, Accompagnement, Santé, Sans gluten, Légumes, Végétarien",
+      "min": 35,
+      "serv": 4,
+      "img": "img/noel/mai-s4.jpg",
+      "desc": "Menu Airfryer 1er mai (version sans gluten) : légumes du soleil rôtis à l'airfryer, ail et herbes de Provence.",
+      "ing": [
+        "1 aubergine",
+        "1 courgette",
+        "1 poivron rouge",
+        "1 poivron jaune",
+        "1 oignon",
+        "250 g de tomates cerises",
+        "2 gousses d'ail",
+        "2 c. à soupe d'huile d'olive",
+        "1 c. à soupe d'herbes de Provence",
+        "Basilic frais, sel, poivre"
+      ],
+      "steps": [
+        "Couper l'aubergine, la courgette, les poivrons et l'oignon en dés de 2 cm.",
+        "Les mélanger avec l'huile, l'ail haché, les herbes, sel et poivre.",
+        "Airfryer à 190 °C pendant 15 min en secouant à mi-cuisson.",
+        "Ajouter les tomates cerises et poursuivre 5 à 7 min.",
+        "Parsemer de basilic frais. Servir chaud ou froid."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "afmai:015",
+      "t": "Moelleux au Chocolat Sans Farine — Airfryer",
+      "cat": "Airfryer, Dessert, Sans gluten, Chocolat",
+      "min": 20,
+      "serv": 4,
+      "img": "img/noel/mai-s5.jpg",
+      "desc": "Menu Airfryer 1er mai (version sans gluten) : moelleux au chocolat fondant à cœur, sans farine.",
+      "ing": [
+        "150 g de chocolat noir",
+        "80 g de beurre",
+        "3 œufs",
+        "60 g de sucre",
+        "20 g de poudre d'amande (facultatif)",
+        "Fruits rouges pour servir"
+      ],
+      "steps": [
+        "Faire fondre le chocolat et le beurre ensemble, puis laisser tiédir.",
+        "Fouetter les œufs et le sucre jusqu'à ce que le mélange blanchisse.",
+        "Incorporer le chocolat fondu puis la poudre d'amande.",
+        "Répartir dans 4 ramequins beurrés.",
+        "Airfryer à 170 °C pendant 8 à 10 min : le dessus doit être pris et le cœur encore tremblotant.",
+        "Laisser reposer 5 min, démouler et servir avec des fruits rouges."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jujunoel:001",
+      "t": "Bûche Forêt Enchantée",
+      "cat": "Dessert, Gâteaux, Biscuit roulé, Chocolat, Noël",
+      "min": 45,
+      "serv": "8 pers.",
+      "img": "img/noel/nbuche1.jpg",
+      "desc": "Bûche roulée façon forêt-noire : biscuit au chocolat, chantilly parfumée à la cerise et griottes, décor de copeaux et champignons en meringue.",
+      "ing": [
+        "4 œufs",
+        "100 g de sucre",
+        "80 g de farine",
+        "30 g de cacao en poudre",
+        "250 ml de crème liquide entière",
+        "150 g de chocolat noir",
+        "Griottes au sirop",
+        "1 c. à café d'extrait de cerise",
+        "Sucre glace",
+        "Copeaux de chocolat",
+        "Champignons en meringue (décor)"
+      ],
+      "steps": [
+        "Biscuit : préchauffer le four à 200 °C. Fouetter les œufs et le sucre 8 à 10 min jusqu'à ce que le mélange blanchisse et triple de volume, puis incorporer délicatement la farine tamisée avec le cacao. Étaler sur une plaque de 30 × 40 cm couverte de papier cuisson et cuire 8 à 10 min.",
+        "À la sortie du four, retourner le biscuit sur un torchon humide, retirer le papier et le rouler avec le torchon. Laisser refroidir roulé.",
+        "Monter la crème bien froide en chantilly avec 1 c. à soupe de sucre glace et l'extrait de cerise.",
+        "Faire fondre le chocolat, le laisser tiédir et en incorporer la moitié à un tiers de la chantilly (crème de couverture).",
+        "Dérouler le biscuit, l'imbiber d'un peu de sirop des griottes, le garnir de chantilly à la cerise et de griottes égouttées.",
+        "Rouler, couvrir de crème au chocolat, décorer de copeaux de chocolat, de champignons en meringue et d'un voile de sucre glace.",
+        "Réserver au frais 4 h avant de déguster."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jujunoel:002",
+      "t": "Bûche Agrumes & Pistache",
+      "cat": "Dessert, Gâteaux, Biscuit roulé, Pistache, Noël",
+      "min": 40,
+      "serv": "8 pers.",
+      "img": "img/noel/nbuche2.jpg",
+      "desc": "Bûche roulée au biscuit parfumé à l'orange, crème mascarpone-pistache, éclats de pistaches et zeste d'orange.",
+      "ing": [
+        "4 œufs",
+        "100 g de sucre",
+        "80 g de farine",
+        "Zeste d'1 orange",
+        "200 ml de crème liquide entière",
+        "100 g de mascarpone",
+        "80 g de pâte de pistache",
+        "Sucre glace",
+        "Éclats de pistaches"
+      ],
+      "steps": [
+        "Biscuit : préchauffer le four à 200 °C. Fouetter les œufs et le sucre 8 à 10 min jusqu'à ce que le mélange blanchisse et triple de volume, puis incorporer délicatement la farine tamisée et le zeste d'orange (en garder un peu pour le décor). Étaler sur une plaque de 30 × 40 cm couverte de papier cuisson et cuire 8 à 10 min.",
+        "À la sortie du four, retourner le biscuit sur un torchon humide, retirer le papier et le rouler avec le torchon. Laisser refroidir roulé.",
+        "Fouetter la crème bien froide avec le mascarpone, la pâte de pistache et 2 c. à soupe de sucre glace jusqu'à ce que ce soit ferme.",
+        "Dérouler le biscuit, le garnir de la moitié de la crème et le rouler.",
+        "Couvrir du reste de crème, décorer d'éclats de pistaches et de zeste d'orange.",
+        "Placer au frais au moins 4 h."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jujunoel:003",
+      "t": "Bûche Poire Caramel & Praliné",
+      "cat": "Dessert, Gâteaux, Biscuit roulé, Caramel, Noël",
+      "min": 45,
+      "serv": "8 pers.",
+      "img": "img/noel/nbuche3.jpg",
+      "desc": "Bûche roulée garnie de crème au caramel praliné et de poires, nappée de crème pralinée et d'éclats de pralines.",
+      "ing": [
+        "4 œufs",
+        "100 g de sucre",
+        "90 g de farine",
+        "1 boîte de poires au sirop",
+        "200 ml de crème liquide entière",
+        "100 g de praliné",
+        "80 g de sucre (caramel)",
+        "30 g de beurre",
+        "Éclats de pralines"
+      ],
+      "steps": [
+        "Biscuit : préchauffer le four à 200 °C. Fouetter les œufs et le sucre 8 à 10 min jusqu'à ce que le mélange blanchisse et triple de volume, puis incorporer délicatement la farine tamisée. Étaler sur une plaque de 30 × 40 cm couverte de papier cuisson et cuire 8 à 10 min.",
+        "À la sortie du four, retourner le biscuit sur un torchon humide, retirer le papier et le rouler avec le torchon. Laisser refroidir roulé.",
+        "Faire un caramel à sec avec 80 g de sucre, hors du feu ajouter le beurre puis le praliné. Laisser refroidir complètement.",
+        "Monter la crème bien froide en chantilly et incorporer délicatement le caramel praliné.",
+        "Égoutter et sécher les poires, les couper en dés.",
+        "Dérouler le biscuit, le garnir de crème pralinée et de poires, puis rouler.",
+        "Napper du reste de crème pralinée, décorer d'éclats de pralines. Réfrigérer au moins 4 h."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jujunoel:004",
+      "t": "Chocolat Viennois Maison",
+      "cat": "Boissons, Chocolat, Noël",
+      "min": 10,
+      "serv": "2 mugs",
+      "img": "img/noel/choco.jpg",
+      "desc": "Chocolat chaud onctueux au cacao et chocolat noir, surmonté de chantilly et de copeaux.",
+      "ing": [
+        "500 ml de lait entier",
+        "100 g de chocolat noir",
+        "2 c. à soupe de cacao en poudre",
+        "1 c. à soupe de sucre",
+        "Chantilly, copeaux de chocolat"
+      ],
+      "steps": [
+        "Faire chauffer le lait avec le cacao et le sucre en fouettant.",
+        "Hors du feu, ajouter le chocolat en morceaux et mélanger jusqu'à ce qu'il soit fondu.",
+        "Servir bien chaud, surmonté de chantilly et de copeaux de chocolat."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jujunoel:005",
+      "t": "Lait de Noël Épicé",
+      "cat": "Boissons, Noël",
+      "min": 15,
+      "serv": "2 mugs",
+      "img": "img/noel/lait.jpg",
+      "desc": "Lait chaud infusé à la cannelle, à la badiane et à la muscade, adouci au miel et à la vanille.",
+      "ing": [
+        "500 ml de lait",
+        "2 c. à soupe de miel",
+        "1 bâton de cannelle",
+        "2 étoiles de badiane",
+        "1 pincée de muscade",
+        "1 c. à café d'extrait de vanille"
+      ],
+      "steps": [
+        "Faire chauffer le lait avec la cannelle, la badiane et la muscade à feu doux.",
+        "Laisser infuser 10 min hors du feu.",
+        "Filtrer, ajouter le miel et la vanille.",
+        "Servir chaud et savourer !"
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jujunoel:006",
+      "t": "Thé Douceur d'Hiver",
+      "cat": "Boissons, Noël",
+      "min": 10,
+      "serv": "2 tasses",
+      "img": "img/noel/the.jpg",
+      "desc": "Thé noir infusé à l'orange, à la cannelle et au clou de girofle, sucré au miel.",
+      "ing": [
+        "500 ml d'eau",
+        "1 sachet de thé noir",
+        "1 rondelle d'orange",
+        "1 bâton de cannelle",
+        "2 clous de girofle",
+        "1 c. à soupe de miel"
+      ],
+      "steps": [
+        "Faire chauffer l'eau avec les épices et l'orange.",
+        "Laisser frémir 5 min, ajouter le thé et laisser infuser 3 min.",
+        "Filtrer, ajouter le miel.",
+        "Déguster bien chaud."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jujunoel:007",
+      "t": "Truffes Orange & Chocolat",
+      "cat": "Dessert, Confiserie, Chocolat, Noël",
+      "min": 20,
+      "serv": "~20 truffes",
+      "img": "img/noel/truffe.jpg",
+      "desc": "Truffes fondantes au chocolat noir parfumées au zeste d'orange, roulées dans le cacao.",
+      "ing": [
+        "200 g de chocolat noir",
+        "100 ml de crème liquide",
+        "Zeste d'1 orange",
+        "Cacao en poudre"
+      ],
+      "steps": [
+        "Faire chauffer la crème et la verser sur le chocolat haché. Attendre 1 min puis lisser.",
+        "Ajouter le zeste d'orange et mélanger.",
+        "Laisser refroidir et placer au frais 2 h.",
+        "Former des boules et les rouler dans le cacao. Conserver au frais."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jujunoel:008",
+      "t": "Pains Étoilés à l'Ail & au Fromage",
+      "cat": "Apéritif, Boulangerie, Noël",
+      "min": 35,
+      "serv": "8 pièces",
+      "img": "img/noel/etoile.jpg",
+      "desc": "Étoile de pâte à pain torsadée garnie de beurre à l'ail, persil et fromage, à partager à l'apéritif.",
+      "ing": [
+        "1 pâte à pain ou à pizza",
+        "2 gousses d'ail",
+        "80 g de beurre mou",
+        "80 g de fromage râpé",
+        "Persil, sel, poivre"
+      ],
+      "steps": [
+        "Mélanger le beurre, l'ail haché, le persil et le fromage. Saler et poivrer.",
+        "Préchauffer le four à 180 °C. Étaler la pâte en deux disques identiques, répartir la préparation sur le premier et couvrir du second.",
+        "Poser un verre au centre, découper 16 branches tout autour, puis torsader les branches deux par deux pour former l'étoile.",
+        "Enfourner à 180 °C pendant 15 à 18 min, jusqu'à ce que ce soit doré."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jujunoel:009",
+      "t": "Verrines Saumon & Avocat",
+      "cat": "Entrée, Apéritif, Saumon, Sans cuisson, Noël",
+      "min": 20,
+      "serv": "6 verrines",
+      "img": "img/noel/verrine.jpg",
+      "desc": "Verrines festives en couches : écrasé d'avocat citronné, fromage frais et saumon fumé, à l'aneth.",
+      "ing": [
+        "2 avocats",
+        "150 g de saumon fumé",
+        "100 g de fromage frais",
+        "Jus de citron",
+        "Aneth, sel, poivre"
+      ],
+      "steps": [
+        "Écraser les avocats avec le jus de citron, du sel et du poivre.",
+        "Couper le saumon en petits morceaux.",
+        "Monter les verrines : avocat, fromage frais, saumon. Répéter.",
+        "Décorer d'aneth et réserver au frais."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "jujunoel:010",
+      "t": "Salade de Lentilles aux Noix",
+      "cat": "Entrée, Salade, Végétarien, Noël",
+      "min": 15,
+      "serv": 4,
+      "img": "img/noel/lentille.jpg",
+      "desc": "Salade de lentilles vertes tièdes à l'échalote, aux noix et au persil, vinaigrette noix-balsamique.",
+      "ing": [
+        "200 g de lentilles vertes cuites",
+        "60 g de noix",
+        "1 échalote",
+        "2 c. à soupe d'huile de noix",
+        "1 c. à soupe de vinaigre balsamique",
+        "Persil, sel, poivre"
+      ],
+      "steps": [
+        "Mélanger les lentilles tièdes avec l'échalote ciselée.",
+        "Ajouter les noix concassées et le persil.",
+        "Préparer la vinaigrette (huile de noix, vinaigre, sel, poivre) et la verser sur la salade.",
+        "Mélanger et réserver au frais avant de servir."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sablenoel:001",
+      "t": "Sablés de Noël Beurre Vanille",
+      "cat": "Dessert, Biscuit, Noël",
+      "min": 40,
+      "serv": "30 sablés",
+      "img": "img/noel/sable1.jpg",
+      "desc": "Sablés pur beurre à la vanille, découpés en étoiles et sapins, saupoudrés de sucre glace.",
+      "ing": [
+        "250 g de farine",
+        "125 g de beurre mou",
+        "100 g de sucre",
+        "1 œuf",
+        "1 pincée de sel",
+        "1 gousse de vanille (ou 1 c. à café d'extrait)",
+        "Sucre glace"
+      ],
+      "steps": [
+        "Travailler le beurre mou avec le sucre et les graines de vanille, puis ajouter l'œuf.",
+        "Incorporer la farine et le sel sans trop pétrir.",
+        "Former une boule, l'aplatir, filmer et laisser reposer 1 h au frais.",
+        "Préchauffer le four à 180 °C. Étaler la pâte sur 4 à 5 mm entre deux feuilles de papier cuisson et découper des formes à l'emporte-pièce (étoiles, sapins…).",
+        "Cuire 10 à 12 min sur une plaque couverte de papier cuisson : les bords doivent juste blondir. Laisser refroidir sur une grille.",
+        "Saupoudrer de sucre glace une fois refroidis."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sablenoel:002",
+      "t": "Sablés de Noël à la Cannelle",
+      "cat": "Dessert, Biscuit, Noël",
+      "min": 40,
+      "serv": "30 sablés",
+      "img": "img/noel/sable2.jpg",
+      "desc": "Petits bonshommes et étoiles à la cannelle et aux épices, façon pain d'épices.",
+      "ing": [
+        "250 g de farine",
+        "125 g de beurre mou",
+        "100 g de cassonade",
+        "1 œuf",
+        "2 c. à café de cannelle",
+        "½ c. à café de gingembre en poudre",
+        "1 c. à soupe de miel",
+        "1 pincée de sel"
+      ],
+      "steps": [
+        "Travailler le beurre avec la cassonade et le miel, puis ajouter l'œuf.",
+        "Incorporer la farine, les épices et le sel.",
+        "Former une boule, l'aplatir, filmer et laisser reposer 1 h au frais.",
+        "Préchauffer le four à 180 °C. Étaler la pâte sur 4 à 5 mm entre deux feuilles de papier cuisson et découper des formes à l'emporte-pièce (bonshommes, étoiles…).",
+        "Cuire 10 à 12 min sur une plaque couverte de papier cuisson : les bords doivent juste blondir. Laisser refroidir sur une grille.",
+        "Décorer éventuellement de glace royale (sucre glace + un peu de blanc d'œuf)."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sablenoel:003",
+      "t": "Sablés de Noël Chocolat Noisettes",
+      "cat": "Dessert, Biscuit, Noël",
+      "min": 50,
+      "serv": "30 sablés",
+      "img": "img/noel/sable3.jpg",
+      "desc": "Sablés cacao trempés dans le chocolat et couverts de noisettes concassées.",
+      "ing": [
+        "220 g de farine",
+        "30 g de cacao en poudre",
+        "125 g de beurre mou",
+        "100 g de sucre",
+        "1 œuf",
+        "50 g de poudre de noisette",
+        "1 pincée de sel",
+        "150 g de chocolat noir (enrobage)",
+        "80 g de noisettes torréfiées concassées"
+      ],
+      "steps": [
+        "Travailler le beurre et le sucre, ajouter l'œuf.",
+        "Incorporer la farine, le cacao, la poudre de noisette et le sel.",
+        "Former une boule, l'aplatir, filmer et laisser reposer 1 h au frais.",
+        "Préchauffer le four à 180 °C. Étaler la pâte sur 4 à 5 mm entre deux feuilles de papier cuisson et découper des formes à l'emporte-pièce (ronds ou ovales).",
+        "Cuire 10 à 12 min sur une plaque couverte de papier cuisson : les bords doivent juste blondir. Laisser refroidir sur une grille.",
+        "Faire fondre le chocolat, y tremper le dessus des sablés et parsemer aussitôt de noisettes concassées. Laisser figer."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sablenoel:004",
+      "t": "Sablés de Noël Orange Amandes",
+      "cat": "Dessert, Biscuit, Noël",
+      "min": 50,
+      "serv": "30 sablés",
+      "img": "img/noel/sable4.jpg",
+      "desc": "Étoiles sablées au zeste d'orange, glaçage blanc, amandes effilées et zestes confits.",
+      "ing": [
+        "250 g de farine",
+        "125 g de beurre mou",
+        "100 g de sucre",
+        "1 œuf",
+        "1 pincée de sel",
+        "Le zeste d'1 orange",
+        "50 g de poudre d'amande",
+        "Glaçage : 100 g de sucre glace + 1 à 2 c. à soupe de jus d'orange",
+        "Amandes effilées",
+        "Zestes d'orange (décor)"
+      ],
+      "steps": [
+        "Travailler le beurre, le sucre et le zeste d'orange, puis ajouter l'œuf.",
+        "Incorporer la farine, la poudre d'amande et le sel.",
+        "Former une boule, l'aplatir, filmer et laisser reposer 1 h au frais.",
+        "Préchauffer le four à 180 °C. Étaler la pâte sur 4 à 5 mm entre deux feuilles de papier cuisson et découper des formes à l'emporte-pièce (étoiles, sapins…).",
+        "Cuire 10 à 12 min sur une plaque couverte de papier cuisson : les bords doivent juste blondir. Laisser refroidir sur une grille.",
+        "Mélanger le sucre glace avec le jus d'orange pour obtenir un glaçage épais, en napper les sablés refroidis.",
+        "Décorer d'amandes effilées grillées et de fins zestes d'orange. Laisser sécher."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sablenoel:005",
+      "t": "Sablés de Noël Fourrés à la Confiture",
+      "cat": "Dessert, Biscuit, Noël",
+      "min": 50,
+      "serv": "30 sablés",
+      "img": "img/noel/sable5.jpg",
+      "desc": "Sablés de Linz en étoile : deux biscuits fourrés de confiture de framboise, la fenêtre saupoudrée de sucre glace.",
+      "ing": [
+        "250 g de farine",
+        "125 g de beurre mou",
+        "100 g de sucre",
+        "1 œuf",
+        "1 pincée de sel",
+        "50 g de poudre d'amande",
+        "200 g de confiture de framboises (ou groseilles)",
+        "Sucre glace"
+      ],
+      "steps": [
+        "Travailler le beurre et le sucre, ajouter l'œuf, puis la farine, la poudre d'amande et le sel.",
+        "Former une boule, l'aplatir, filmer et laisser reposer 1 h au frais.",
+        "Préchauffer le four à 180 °C. Étaler la pâte sur 4 à 5 mm entre deux feuilles de papier cuisson et découper des formes à l'emporte-pièce en étoiles. Dans la moitié des biscuits, découper une petite étoile au centre (fenêtre).",
+        "Cuire 10 à 12 min sur une plaque couverte de papier cuisson : les bords doivent juste blondir. Laisser refroidir sur une grille.",
+        "Saupoudrer de sucre glace les biscuits à fenêtre.",
+        "Étaler une cuillerée de confiture sur les biscuits pleins et recouvrir d'un biscuit à fenêtre."
+      ],
+      "url": "",
+      "vid": ""
+    },
+    {
+      "id": "sablenoel:006",
+      "t": "Sablés de Noël au Citron Glacé",
+      "cat": "Dessert, Biscuit, Noël",
+      "min": 50,
+      "serv": "30 sablés",
+      "img": "img/noel/sable6.jpg",
+      "desc": "Flocons sablés au citron décorés de glace royale blanche.",
+      "ing": [
+        "250 g de farine",
+        "125 g de beurre mou",
+        "100 g de sucre",
+        "1 œuf",
+        "1 pincée de sel",
+        "Le zeste d'1 citron",
+        "Glace royale : 1 blanc d'œuf + 200 g de sucre glace + quelques gouttes de jus de citron"
+      ],
+      "steps": [
+        "Travailler le beurre, le sucre et le zeste de citron, puis ajouter l'œuf.",
+        "Incorporer la farine et le sel.",
+        "Former une boule, l'aplatir, filmer et laisser reposer 1 h au frais.",
+        "Préchauffer le four à 180 °C. Étaler la pâte sur 4 à 5 mm entre deux feuilles de papier cuisson et découper des formes à l'emporte-pièce (flocons, étoiles…).",
+        "Cuire 10 à 12 min sur une plaque couverte de papier cuisson : les bords doivent juste blondir. Laisser refroidir sur une grille.",
+        "Glace royale : fouetter le blanc d'œuf avec le sucre glace et le jus de citron jusqu'à obtenir une pâte lisse et épaisse.",
+        "Décorer les sablés refroidis à la poche à douille (motifs de flocons). Laisser sécher 1 h."
+      ],
+      "url": "",
+      "vid": ""
     }
   ],
   "official": {
