@@ -35325,6 +35325,33 @@
       ],
       "url": "",
       "vid": ""
+    },
+    {
+      "id": "hellofresh:001",
+      "t": "Cuisson en Croûte — Poisson en Croûte d'Herbes & Citron",
+      "cat": "Plat, Poisson, Technique",
+      "min": 45,
+      "serv": 2,
+      "img": "img/photos/hellofresh-001.jpg",
+      "desc": "Carte HelloFresh « Mission culinaire » 4/10, niveau intermédiaire : une technique de chef pour apporter texture, saveur et croustillant aux poissons, viandes et légumes. Ici, filets de poisson blanc nappés de moutarde et couverts d'une chapelure panko au persil, à l'ail et au citron.",
+      "ing": [
+        "2 filets de poisson blanc",
+        "50 g de chapelure panko",
+        "Le zeste d'½ citron jaune",
+        "1 c. à soupe de moutarde",
+        "1 filet d'huile d'olive",
+        "1 botte de persil",
+        "½ gousse d'ail",
+        "Sel, poivre"
+      ],
+      "steps": [
+        "Préparation : dans un récipient, ajouter la chapelure, le zeste de citron, l'ail, le persil et un mince filet d'huile d'olive. Saler et poivrer. Mixer quelques secondes pour obtenir une chapelure grossière.",
+        "Mise en croûte : badigeonner le dessus des filets de poisson d'une fine couche de moutarde. Répartir la croûte sur le dessus des filets en pressant légèrement.",
+        "Cuisson : déposer les filets sur une plaque de cuisson et enfourner 8 à 10 min à 180 °C, jusqu'à ce que la croûte soit bien dorée et le poisson juste cuit à cœur.",
+        "Service : vérifier la cuisson du poisson et servir aussitôt pour garder tout le croustillant de la croûte."
+      ],
+      "url": "https://www.hellofresh.fr/mission-culinaire",
+      "vid": ""
     }
   ],
   "official": {
