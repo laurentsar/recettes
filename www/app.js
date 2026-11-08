@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '4.14';
+const APP_VERSION = '4.15';
 
 let ALL = [];
 let BASE = [];
@@ -5073,14 +5073,14 @@ function scRender(){
   });
 }
 function openScroll(){
-  sc = { course: sc ? sc.course : '' };
+  sc = { course: sc ? sc.course : 'Plat' };
   const el = document.getElementById('scroll');
   el.hidden = false; document.body.style.overflow = 'hidden';
   scRender();
 }
 function closeScroll(){
   document.getElementById('scroll').hidden = true;
-  document.body.style.overflow = ''; sc = { course: sc ? sc.course : '' };
+  document.body.style.overflow = ''; sc = { course: sc ? sc.course : 'Plat' };
 }
 // Au retour d'une fiche ou du frigo, les stocks ont pu changer : on garde la position.
 function scRefreshFavs(){
