@@ -1,6 +1,6 @@
 'use strict';
 
-const APP_VERSION = '4.10';
+const APP_VERSION = '4.14';
 
 let ALL = [];
 let BASE = [];
@@ -631,6 +631,7 @@ function renderChips(){
   const catLabel = nSel ? `🏷️ ${nSel} sélection${nSel>1?'s':''}` : '🏷️ Catégories';
   elCats.innerHTML = `
     <button class="chip quick-chip" id="quick-btn">🔎 Express</button>
+    <button class="chip quick-chip" id="scroll-btn">📱 Scroll</button>
     ${state.ing ? `<button class="chip ing-chip active" id="ing-filter-btn">${esc(ingLabel)}</button>` : ''}
     ${stockSort ? `<button class="chip active" id="stock-sort-btn" title="Arrêter le tri par stocks">🧺 Mes stocks ✕</button>` : ''}
     <div class="cat-multi">
@@ -649,6 +650,7 @@ function renderChips(){
   const sb = document.getElementById('stock-sort-btn');
   if (sb) sb.addEventListener('click', toggleStockSort);
   document.getElementById('quick-btn').addEventListener('click', () => openQuick());
+  document.getElementById('scroll-btn').addEventListener('click', openScroll);
   elCats.querySelectorAll('.shortcut').forEach(b => b.addEventListener('click', () => openQuick(QK_SHORTCUTS[+b.dataset.i])));
 }
 function toggleStockSort(){
@@ -1241,7 +1243,7 @@ function openDetail(id){
     elDetail.querySelector('.d-body').classList.remove('show-off');
   }
 }
-function closeDetail(){ elDetail.hidden=true; document.body.style.overflow=''; renderChips(); renderGrid(); if(window._wlDrop) window._wlDrop(); }
+function closeDetail(){ elDetail.hidden=true; scRefreshFavs(); document.body.style.overflow=''; renderChips(); renderGrid(); if(window._wlDrop) window._wlDrop(); }
 
 /* ---------- mode cuisine pas-à-pas ---------- */
 let cookRecipe = null;
@@ -4363,6 +4365,7 @@ async function init(){
   document.getElementById('cat-menu-btn').addEventListener('click', (e)=>{ e.stopPropagation(); document.getElementById('more-menu').hidden=true; if (appMode !== 'recipes') switchMode('recipes');
     const panel = document.getElementById('cat-panel'); if (panel){ panel.hidden = false; fillCatPanel(panel); panel.scrollIntoView({block:'nearest'}); } });
   document.getElementById('stock-menu-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; toggleStockSort(); });
+  document.getElementById('scroll-menu-btn').addEventListener('click', ()=>{ document.getElementById('more-menu').hidden=true; openScroll(); });
   document.getElementById('wizard-close-btn').addEventListener('click', closeWizard);
   document.getElementById('wz-prev').addEventListener('click', wizardPrev);
   document.getElementById('wz-next').addEventListener('click', wizardNext);
@@ -4963,6 +4966,130 @@ function setupWakeLock(){
   window._wlDrop   = drop;
 }
 
+/* ---------- 📱 Mode Scroll : une recette par écran, priorité aux stocks ----------
+   Défilement vertical plein écran (comme un fil de vidéos). En tête : les recettes où il manque
+   le moins d'ingrédients, en favorisant celles qui utilisent un produit du congélateur à consommer,
+   puis celles qui utilisent le plus de produits frais (frigo, congélo) plutôt que le seul cellier ;
+   à score égal, ordre tiré au hasard à chaque ouverture pour varier. Ensuite, les autres recettes
+   au hasard, pour que le fil ne s'arrête jamais. */
+const SC_COURSES = [
+  { v: '', label: 'Tout' },
+  { v: 'Plat', label: '🍽️ Plats' },
+  { v: 'Entrée', label: '🥗 Entrées' },
+  { v: 'Apéritif', label: '🥂 Apéro' },
+  { v: 'Dessert', label: '🍰 Desserts' },
+];
+const SC_SKIP = ['Technique', 'Guide'];
+const SC_PG = 8;
+let sc = null;
+function scLate(name){
+  const ts = stockDates[norm(name)];
+  return !!ts && (Date.now() - ts) / 86400000 > freezeMonths(name) * 30;
+}
+function scBuild(){
+  const have = stockHaveList();
+  let list = ALL.filter(r => !catList(r).some(c => SC_SKIP.includes(c)));
+  if (sc.course) list = list.filter(r => catList(r).includes(sc.course));
+  [list] = collapseFamilies(collapseVariants(list));
+  const top = [], rest = [];
+  for (const r of list){
+    const c = have.length ? recipeStockCoverage(r, have) : null;
+    if (c && c.covered){
+      const late = c.matched.filter(scLate);
+      const fresh = [...c.used.values()].filter(t => t !== 'cellier').length;
+      top.push({ r, c, late, fresh, miss: c.total - c.covered, rnd: Math.random() });
+    } else rest.push({ r, rnd: Math.random() });
+  }
+  // Un produit à consommer vaut un ingrédient manquant de moins.
+  top.sort((a, b) => (a.miss - (a.late.length ? 1 : 0)) - (b.miss - (b.late.length ? 1 : 0))
+    || b.fresh - a.fresh || b.c.covered - a.c.covered || a.rnd - b.rnd);
+  rest.sort((a, b) => a.rnd - b.rnd);
+  sc.nTop = top.length; sc.items = top.concat(rest); sc.page = 0;
+}
+function scSlide(it, i){
+  const { r, c, late } = it;
+  const img = r.img
+    ? `<img class="sc-img" src="${esc(r.img)}" ${i > 1 ? 'loading="lazy" ' : ''}referrerpolicy="no-referrer" onerror="this.outerHTML='<div class=&quot;sc-img sc-ph&quot;>🍽️</div>'">`
+    : `<div class="sc-img sc-ph">🍽️</div>`;
+  const meta = [r.min ? '⏱️ ' + fmtMin(totalMinutes(r)) : '', r.serv ? '🍽️ ' + servTxt(r.serv) : '', catList(r).slice(0, 2).join(' · ')].filter(Boolean).join('  ·  ');
+  let stock = '';
+  if (c){
+    const miss = c.total - c.covered;
+    const prods = [...c.used.entries()].map(([n, t]) =>
+      `<span class="sc-prod${late.includes(n) ? ' late' : ''}">${FTAB_EMOJIS[t]} ${esc(n)}${late.includes(n) ? ' · à consommer' : ''}</span>`).join('');
+    stock = `<div class="sc-cov ${miss ? '' : 'ok'}">🧺 ${c.covered}/${c.total} en stock · ${miss ? `manque ${miss}` : 'tout y est ✅'}</div>
+      <div class="sc-bar"><span style="width:${Math.round(c.pct * 100)}%"></span></div>
+      <div class="sc-prods">${prods}</div>
+      ${miss ? `<div class="sc-miss">Manque : ${esc(c.missing.slice(0, 4).join(', '))}${miss > 4 ? '…' : ''}</div>` : ''}`;
+  }
+  const sep = i === sc.nTop && i > 0
+    ? `<div class="sc-sep">Fini pour tes stocks 🧺 — place aux idées</div>` : '';
+  return `<section class="sc-slide" data-i="${i}">${img}<div class="sc-shade"></div>${sep}
+    <div class="sc-side">
+      <button class="sc-act sc-fav" aria-label="Favori">${favs.has(r.id) ? '❤️' : '🤍'}</button>
+      <button class="sc-act sc-cook" aria-label="Cuisiner">👨‍🍳</button>
+      <button class="sc-act sc-open" aria-label="Voir la recette">📖</button>
+    </div>
+    <div class="sc-info"><div class="sc-t">${esc(r.t)}</div><div class="sc-meta">${esc(meta)}</div>${stock}</div></section>`;
+}
+function scAppend(){
+  const feed = document.getElementById('sc-feed');
+  const from = sc.page * SC_PG, slice = sc.items.slice(from, from + SC_PG);
+  if (!slice.length) return;
+  feed.insertAdjacentHTML('beforeend', slice.map((it, k) => scSlide(it, from + k)).join(''));
+  sc.page++;
+}
+function scRender(){
+  const el = document.getElementById('scroll');
+  const noStock = !stockHaveList().length;
+  el.innerHTML = `<div class="sc-top">
+      <button class="sc-x" id="sc-close" aria-label="Fermer">←</button>
+      <div class="sc-chips">${SC_COURSES.map(o => `<button class="sc-chip${o.v === sc.course ? ' active' : ''}" data-v="${o.v}">${o.label}</button>`).join('')}</div>
+      <div class="sc-count" id="sc-count"></div>
+    </div>
+    ${noStock ? `<button class="sc-hint" id="sc-stock">🧺 Ajoute ce que tu as au frigo pour voir d'abord ce que tu peux cuisiner</button>` : ''}
+    <div class="sc-feed" id="sc-feed"></div>`;
+  scBuild(); scAppend();
+  const feed = document.getElementById('sc-feed');
+  const count = document.getElementById('sc-count');
+  const upd = () => {
+    const i = Math.round(feed.scrollTop / (feed.clientHeight || 1));
+    count.textContent = sc.items.length ? `${Math.min(i + 1, sc.items.length)} / ${sc.items.length}` : '';
+    if (i >= sc.page * SC_PG - 3) scAppend();
+  };
+  feed.addEventListener('scroll', upd, { passive: true }); upd();
+  if (!sc.items.length) feed.innerHTML = `<div class="sc-empty">Aucune recette ici.</div>`;
+  document.getElementById('sc-close').addEventListener('click', closeScroll);
+  const st = document.getElementById('sc-stock'); if (st) st.addEventListener('click', openFrigo);
+  el.querySelectorAll('.sc-chip').forEach(b => b.addEventListener('click', () => { sc.course = b.dataset.v; scRender(); }));
+  feed.addEventListener('click', e => {
+    const s = e.target.closest('.sc-slide'); if (!s) return;
+    const r = sc.items[+s.dataset.i].r;
+    if (e.target.closest('.sc-fav')){
+      if (favs.has(r.id)) favs.delete(r.id); else favs.add(r.id);
+      saveFavs(); e.target.closest('.sc-fav').textContent = favs.has(r.id) ? '❤️' : '🤍';
+    } else if (e.target.closest('.sc-cook')) openCook(r.id);
+    else openDetail(r.id);
+  });
+}
+function openScroll(){
+  sc = { course: sc ? sc.course : '' };
+  const el = document.getElementById('scroll');
+  el.hidden = false; document.body.style.overflow = 'hidden';
+  scRender();
+}
+function closeScroll(){
+  document.getElementById('scroll').hidden = true;
+  document.body.style.overflow = ''; sc = { course: sc ? sc.course : '' };
+}
+// Au retour d'une fiche ou du frigo, les stocks ont pu changer : on garde la position.
+function scRefreshFavs(){
+  if (!sc || !sc.items) return;
+  document.querySelectorAll('#sc-feed .sc-slide').forEach(s => {
+    const b = s.querySelector('.sc-fav'); if (b) b.textContent = favs.has(sc.items[+s.dataset.i].r.id) ? '❤️' : '🤍';
+  });
+}
+
 /* ---------- bouton RETOUR Android : ferme l'écran du dessus au lieu de quitter l'appli ---------- */
 function setupAndroidBack(){
   // Du plus prioritaire (modale au-dessus) au moins prioritaire (fiche).
@@ -4980,6 +5107,7 @@ function setupAndroidBack(){
     ['batch',        closeBatch],
     ['panier',       closePanier],
     ['detail',       closeDetail],
+    ['scroll',       closeScroll],
   ];
   const isOpen   = id => { const el = document.getElementById(id); return !!el && !el.hidden; };
   const anyOpen  = () => CLOSERS.some(([id]) => isOpen(id));
